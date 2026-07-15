@@ -747,6 +747,8 @@ def _card_refs():
 _NUM_RE = re.compile(
     r"p\s*[<>=]\s*0?\.\d+|\bn\s*=\s*\d{2,}\b|\d+\.\d+\s*%|\d+\s*%|\d+/\d+|-?\d+\.\d{1,4}|\d{2,3}(?:,\d{3})+|\d{3,}",
     re.I)
+# Confidence-interval levels are boilerplate ("95% CI"), not data claims to cite.
+_CI_LEVELS = {"95%", "97.5%", "90%", "99%", "2.5%"}
 
 def _ref_label(fname):
     try:
@@ -811,8 +813,14 @@ def _render_field_referenced(text, cite_spans, flag_uncited=True):
             inserts.setdefault(e, []).append(mk)
     if flag_uncited:
         for mo in _NUM_RE.finditer(text):
-            if not is_cov(mo.start(), mo.end()):
-                inserts.setdefault(mo.end(), []).append(_unverified_marker())
+            s0, e0 = mo.start(), mo.end()
+            tok = mo.group(0).strip()
+            if tok in _CI_LEVELS:
+                continue  # CI-level boilerplate (usually "95% CI") — not a data claim
+            if (s0 > 0 and text[s0 - 1].isalpha()) or (e0 < len(text) and text[e0].isalpha()):
+                continue  # digits embedded in an identifier (T790M, L858R, gp100, v1.1, EFC6019)
+            if not is_cov(s0, e0):
+                inserts.setdefault(e0, []).append(_unverified_marker())
     if not inserts:
         return _md_inline(text)
     out, pos = [], 0
