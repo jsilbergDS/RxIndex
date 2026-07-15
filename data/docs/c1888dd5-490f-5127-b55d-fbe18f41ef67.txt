@@ -1,0 +1,1537 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+L2: **761033Orig1s000**
+L3: **STATISTICAL REVIEW(S)**
+L4: FDA seal/logo for Center for Drug Evaluation and Research
+L5: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L6: ## Statistical Review and Evaluation
+L7: ## CLINICAL STUDIES
+L8: BLA/Serial Number: 761033/000
+L9: Drug Name: Cinqair® (Reslizumab)
+L10: Indication(s): Asthma
+L11: Applicant: Teva Pharmaceuticals
+L12: Dates: Received: March 30, 2015
+PDUFA: March 28, 2016
+L13: Review Priority: Standard – 12 months
+L14: Biometrics Division: Division of Biometrics II
+L15: Statistical Reviewer: Lan Zeng, M.S.
+L16: Concurring Reviewers: Freda Cooner, Ph.D.
+L17: Medical Division: Pulmonary, Allergy, and Rheumatology Products
+L18: Clinical Team: Kathleen Donohue, M.D., Medical Reviewer
+Banu Karimi-Shah, M.D., Medical Team Leader
+L19: Project Manager: Colette Jackson
+L20: **Keywords:** NDA review, clinical studies, mixed models
+L21: ## TABLE OF CONTENTS
+L22: 1	EXECUTIVE SUMMARY	5
+2	INTRODUCTION	6
+2.1	OVERVIEW	6
+2.1.1	DRUG CLASS AND INDICATION	6
+2.1.2	HISTORY OF DRUG DEVELOPMENT	6
+2.1.3	CURRENT SUBMISSION	7
+2.2	DATA SOURCES	7
+3	STATISTICAL EVALUATION	8
+3.1	DATA AND ANALYSIS QUALITY	8
+3.2	EVALUATION OF EFFICACY	8
+3.2.1	STUDY 3081	10
+3.2.1.1	STUDY DESIGN AND ENDPOINTS	10
+3.2.1.2	STATISTICAL METHODOLOGIES	10
+3.2.1.3	PATIENT DISPOSITION, DEMOGRAPHIC AND BASELINE CHARACTERISTICS	12
+3.2.1.4	RESULTS AND CONCLUSIONS	15
+3.2.2	STUDY 3082 AND STUDY 3083	19
+3.2.2.1	STUDY DESIGN AND ENDPOINTS	19
+3.2.2.2	STATISTICAL METHODOLOGIES	20
+3.2.2.3	PATIENT DISPOSITION, DEMOGRAPHIC AND BASELINE CHARACTERISTICS	22
+3.2.2.4	RESULTS AND CONCLUSIONS	27
+3.2.2.4.1	PRIMARY ENDPOINT	27
+3.2.2.4.2	SECONDARY ENDPOINTS	31
+3.2.3	STUDY 3084	34
+3.2.3.1	STUDY DESIGN AND ENDPOINTS	34
+3.2.3.2	STATISTICAL METHODOLOGIES	34
+3.2.3.3	PATIENT DISPOSITION, DEMOGRAPHIC AND BASELINE CHARACTERISTICS	35
+3.2.3.4	RESULTS AND CONCLUSIONS	39
+3.3	EVALUATION OF SAFETY	42
+4	FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	43
+4.1	GENDER, RACE, AGE, AND GEOGRAPHIC REGION	43
+4.2	OTHER SPECIAL/SUBGROUP POPULATION	47
+5	SUMMARY AND CONCLUSIONS	49
+5.1	STATISTICAL ISSUES AND COLLECTIVE EVIDENCE	49
+5.2	CONCLUSIONS AND RECOMMENDATIONS	50
+5.3	LABELING RECOMMENDATIONS	50
+L23: ## LIST OF TABLES
+L24: TABLE 1 DESIGN OF PHASE 3 TRIALS	9
+TABLE 2 PATIENT DISPOSITION IN STUDY 3081	12
+TABLE 3 STUDY 3081 DEMOGRAPHICS	13
+TABLE 4 STUDY 3081 DISEASE CHARACTERISTICS AT BASELINE	14
+TABLE 5 CHANGE FROM BASELINE IN FEV1 OVER 16 WEEKS (FAS, STUDY 3081)	16
+TABLE 6 SECONDARY ENDPOINTS IN STUDY 3081 (FAS WITH ALL MEASUREMENTS INCLUDED)	17
+TABLE 7 PROPORTION OF ACQ AND AQLQ RESPONDERS AT WEEK 16 (STUDY 3081)	18
+TABLE 8 PATIENT DISPOSITION IN STUDIES 3082 AND 3083	22
+TABLE 9 STUDIES 3082 AND 3083 DEMOGRAPHICS	23
+TABLE 10 STUDIES 3082 AND 3083 DISEASE CHARACTERISTICS AT BASELINE	25
+TABLE 11 ASTHMA EXACERBATION RATES IN STUDIES 3082 AND 3083 (RANDOMIZED SET)	28
+TABLE 12 FREQUENCY OF ASTHMA EXACERBATIONS BY TYPE OF MEDICAL INTERVENTION	29
+TABLE 13 FREQUENCY OF ASTHMA EXACERBATIONS BY SEVERITY	30
+TABLE 14 SUMMARY OF SECONDARY ENDPOINTS	31
+TABLE 15 PROPORTION OF ACQ AND AQLQ RESPONDERS AT WEEK 16	33
+TABLE 16 STUDY 3084 DISPOSITION	35
+TABLE 17 STUDY 3084 DEMOGRAPHICS	36
+TABLE 18 STUDY 3084 DISEASE CHARACTERISTICS AT BASELINE	37
+TABLE 19 LINEAR REGRESSION ANALYSIS OF CHANGE FROM BASELINE IN FEV1 AT WEEK 16 (STUDY 3084)	39
+TABLE 20 CHANGE FROM BASELINE IN FEV1 AT WEEK 16 BY BASELINE BLOOD EOSINOPHIL COUNT (STUDY 3084, FAS WITH ALL MEASUREMENTS INCLUDED)	39
+TABLE 21 SUMMARY OF SELECTED SECONDARY ENDPOINTS BY BASELINE BLOOD EOSINOPHIL COUNT (STUDY 3084, FAS WITH ALL MEASUREMENTS INCLUDED)	41
+TABLE 22 SAMPLE SIZES FOR PARTICULAR DEMOGRAPHICS	43
+L25: ## LIST OF FIGURES
+L26: FIGURE 1 MEAN CHANGE FROM BASELINE IN FEV_1 TO EACH VISIT AND ENDPOINT (STUDY 3081)A	15
+FIGURE 2 NUMBER OF ASTHMA EXACERBATIONS PER PATIENT (STUDY 3082)	27
+FIGURE 3 NUMBER OF ASTHMA EXACERBATIONS PER PATIENT (STUDY 3083)	27
+FIGURE 4 MEAN CHANGE FROM BASELINE IN FEV_1 TO EACH VISIT AND ENDPOINT (STUDY 3082)A	32
+FIGURE 5 MEAN CHANGE FROM BASELINE IN FEV_1 TO EACH VISIT AND ENDPOINT (STUDY 3083)A	32
+FIGURE 6 FEV_1 CHANGE FROM BASELINE TO WEEK 16 BY BASELINE EOSINOPHIL COUNTS	40
+FIGURE 7 FEV_1 CHANGE FROM BASELINE TO WEEK 16 BY QUARTILES OF BASELINE EOSINOPHIL COUNTS	40
+FIGURE 8 FEV_1 CHANGE FROM BASELINE OVER 16 WEEKS BY DEMOGRAPHICS (STUDY 3081)	44
+FIGURE 9 EXACERBATION RATE RATIOS BY DEMOGRAPHICS (STUDY 3082)	45
+FIGURE 10 EXACERBATION RATE RATIOS BY DEMOGRAPHICS (STUDY 3083)	46
+FIGURE 11 FEV_1 CHANGE FROM BASELINE OVER 16 WEEKS BY ASTHMA HISTORY (STUDY 3081)	47
+FIGURE 12 EXACERBATION RATE RATIOS BY BASELINE OCS USE (STUDY 3082)	48
+FIGURE 13 EXACERBATION RATE RATIOS BY BASELINE OCS USE (STUDY 3083)	48
+L27: ## 1 EXECUTIVE SUMMARY
+L28: Teva Pharmaceuticals has submitted biologics license application (BLA) 761033, for Cinqair® (reslizumab) intravenous injection, seeking indications: reduce asthma exacerbations, relieve symptoms, and improve lung function in patients with asthma and elevated blood eosinophils who are inadequately controlled on inhaled corticosteroids. The proposed dosage and administration is 3.0 mg/kg administered once every 4 weeks. Efficacy and safety of reslizumab were examined in four Phase 3 randomized, double-blind, placebo-controlled, parallel-group studies.
+L29: Two identically-designed concurrently-conducted studies, 37082/3082 (referred to as 3082) and 37082/3083 (referred to as 3083), showed that reslizumab provided statistically significant benefit over placebo with regard to the primary endpoint, frequency of asthma exacerbations during 52 weeks of treatment period. Reslizumab reduced the annual rate of exacerbations by 50% and 59% relative to placebo in studies 3082 and 3083, respectively. The reduction in events requiring oral corticosteroids was 56% for study 3082 and 60% for study 3083, respectively. The reduction in events requiring systemic corticosteroids was 55% for study 3082 and 61% for study 3083, respectively. The frequency of exacerbations resulting in hospitalizations or emergency room visits was reduced by 34% in study 3082 and 31% in study 3083 due to reslizumab therapy although the effect comparing to placebo was not statistically significant. Additionally, reslizumab improved multiple measures of current asthma control, including lung function (FEV1), asthma symptoms (ACQ), and an asthma-related quality-of-life measure (AQLQ) compared with placebo.
+L30: A third study, 37082/3081 (referred to as 3081), investigated two doses of reslizumab (0.3 mg/kg and 3.0 mg/kg) and demonstrated that reslizumab significantly increased lung function measured by FEV1 change from baseline over 16 weeks as well as patient-reported measures of ACQ and AQLQ. The average FEV1 improvement over placebo was 115 mL after treatment with reslizumab 0.3 mg/kg and 160 mL with reslizumab 3.0 mg/kg, respectively.
+L31: The fourth study, 37082/3084 (referred to as 3084), tested the treatment effect of reslizumab on FEV1 improvement in relation to blood eosinophil counts in adult patients who were not required to have a specific blood eosinophil count at screening. The study found no significant association between baseline blood eosinophil counts and treatment effect. Unlike the other three studies conducted in patients with elevated blood eosinophils (\ge 400 cells/\muL at screening), efficacy in lung function as measured by FEV1 was not observed in this unselected patient population.
+L32: In Summary, these studies demonstrated benefit of reslizumab over placebo in reducing frequency of clinical asthma exacerbation and improving lung function as measured by trough FEV1.
+L33: ## 2 INTRODUCTION
+L34: ## 2.1 OVERVIEW
+L35: ## 2.1.1 Drug Class and Indication
+L36: This biologics licensing application (BLA) 761033 is submitted for reslizumab, a humanized anti-human interleukin-5 monoclonal antibody to support indications: reduce exacerbations, relieve symptoms and improve lung function in adults and adolescents (12 years of age and above) with asthma and elevated blood eosinophils who are inadequately controlled on inhaled corticosteroids.
+L37: ## 2.1.2 History of Drug Development
+L38: The clinical development program for reslizumab was introduced to the Division of Pulmonary, Allergy, and Rheumatology Products in 2010 and conducted under IND 101, 399. The program comprises 14 clinical studies, including 6 Phase 3 studies, 4 Phase 2 studies, and 4 Phase 1 studies. Of the four principal Phase 3 studies submitted to support the proposed asthma indication, two were 52-week studies (37082/3082, referred to as 3082; and 37082/3083, referred to as 3083) that evaluated the effect of reslizumab on the rate of asthma exacerbations and two were 16-week studies (37082/3081, referred to as 3081; and 37082/3084, referred to as 3084) that evaluated the effect of reslizumab on lung function measured by FEV_1. An additional open-label Phase 3 study (37082/3085, referred to as 3085) further evaluated the long-term safety and efficacy of reslizumab.
+L39: The applicant had several interactions with the Division, including an End-of-Phase 2 meeting held on August 18, 2010, a Type C meeting via written response on May 17, 2013, and a Pre-BLA meeting held on January 15, 2015. Pertinent statistical parts of these meetings are summarized herein:
+L40: - The primary efficacy endpoint for studies 3082 and 3083 was frequency of clinical asthma exacerbations over 52 weeks. The final definition of exacerbations and the plan for independent adjudication of these events were consistent with regulatory and expert guidance.
+- The primary analysis of exacerbations would employ a negative-binomial regression model with an offset to account for differences in study durations for each patient.
+- The absolute FEV_1 was selected as the primary efficacy variable for study 3081 and as secondary variable for studies 3082 and 3083.
+- Overall change from baseline in FEV_1 over 16 weeks and change from baseline to each clinic visit would be analyzed using a mixed model for repeated measures (MMRM) in studies 3081, 3082, and 3083.
+- The primary analysis in study 3084 should evaluate dependence of the treatment difference between reslizumab and placebo groups on eosinophil count in change from baseline FEV_1 at week 16.
+L41: - The primary efficacy analyses should include all patients who were randomly assigned to a treatment, regardless of whether or not they took prohibited medications or discontinued treatment.
+L42: Furthermore, the Division advised that more than one dose of reslizumab should be evaluated in Phase 3 studies to further explore the dosing. Regarding the use of blood eosinophils to guide selection of patients for treatment with reslizumab, the Division recommended to study patients across a spectrum of eosinophil counts and noted that labeling would take into account safety and treatment benefit dependence on baseline eosinophil count.
+L43: ## 2.1.3 Current Submission
+L44: The current submission contains five efficacy and safety studies in support of reslizumab on the proposed asthma indication. They include a 16-week dose-ranging lung function study (study 3081) and two 52-week exacerbation studies (studies 3082 and 3083). These studies were conducted in patients 12 years of age and older with moderate-to-severe asthma and baseline blood eosinophil counts of at least 400 cells/\muL. A fourth study, 3084, was a 16-week lung function study in patients aged 18 years or above and unselected for baseline eosinophil levels. The fifth study, 3085, enrolled and treated patients who had completed treatment in studies 3081, 3082 and 3083 for up to 24 months in order to evaluate long-term safety and efficacy of reslizumab. All patients in these studies received standard-of-care treatment optimized to asthma severity; either reslizumab or placebo was added on to the standard-of-care.
+L45: This statistical review focuses on the four studies in the reslizumab development program: Studies 3082 and 3083 with an exacerbation primary endpoint; studies 3081 and 3084 with a FEV_1 primary endpoint.
+L46: ## 2.2 DATA SOURCES
+L47: The applicant submitted clinical study reports, protocols, statistical analysis plans, and all referenced literature to the Agency. The data and all documents for the electronic submission were archived under the network path location:
+L48: \\\\Cdsesub1\evsprod\BLA761033\0000
+L49: ## 3 STATISTICAL EVALUATION
+L50: ## 3.1 DATA AND ANALYSIS QUALITY
+L51: In general, the electronic data submitted by the applicant are of sufficient quality to allow a thorough review of the data. I am able to reproduce the analyses of the primary and key secondary efficacy endpoints for each clinical study submitted. My results are presented in this review and match those from the applicant unless otherwise noted.
+L52: ## 3.2 EVALUATION OF EFFICACY
+L53: The reslizumab registration program consists of two identically-designed concurrently-conducted 52-week trials and two 16-week trials, which are reviewed in this document. Outline of the study designs is given in Table 1.
+L54: Study 3081: A 16-Week, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Study to Evaluate the Efficacy and Safety of Reslizumab (0.3 or 3.0 mg/kg) as Treatment for Patients (12-75 Years of Age) with Eosinophilic Asthma
+L55: Studies 3082 and 3083: A 12-Month, Double-Blind, Placebo-Controlled, Parallel-Group Study to Evaluate the Efficacy and Safety of Reslizumab (3.0 mg/kg) in the Reduction of Clinical Asthma Exacerbations in Patients (12-75 Years of Age) with Eosinophilic Asthma
+L56: Study 3084: A 16-Week, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of Reslizumab (3.0 mg/kg) Treatment in Patients with Moderate to Severe Asthma
+L57: Table 1 Design of Phase 3 Trials
+L58: 3081	3082	3083	3084
+Trial Date	2/2011 to 9/2013	4/2011 to 3/2014	3/2011 to 4/2014	2/2012 to 8/2013
+Number of Patients	315	489	464	496
+Population	Age 12-75 years
+EOS \ge 400 cells/\muL	Age 12-75 years
+EOS \ge 400 cells/\muL
+\ge1 exacerbation in the past 12 months	Age 18-65 years
+EOS: any	
+Design	Randomized (1:1:1),
+double-blind,
+placebo-controlled,
+parallel-group
+16 weeks	Randomized (1:1),
+double-blind,
+placebo-controlled,
+parallel-group
+52 weeks	Randomized (1:4),
+double-blind,
+placebo-controlled,
+parallel-group
+16 weeks	
+Treatment	Placebo
+Reslizumab 0.3 mg/kg
+Reslizumab 3.0 mg/kg	Placebo
+Reslizumab 3.0 mg/kg	Placebo
+Reslizumab 3.0 mg/kg	
+Stratification factor	Age (12-17 or \ge18 years)
+Asthma exacerbations within the past 12 months (Yes or No)
+Oral corticosteroid use (Yes or No)
+Region (US or other)
+Asthma exacerbations within the past 12 months (Yes or No)
+
+Primary Endpoint	Lung function (FEV1: overall change from baseline over 16 weeks of treatment)	Asthma exacerbations (Frequency of clinical asthma exacerbations per patient during the 52-week treatment period)	Lung function (FEV1: change from baseline to Week 16)	
+Secondary Endpoints	Change from baseline to planned time points in:
+FVC, FEF25%-75%,
+% predicted FEV1;
+ACQ, AQLQ,
+ASUI, SABA, EOS	Change from baseline to week 16 or over 16 weeks in:
+FEV1, AQLQ, ACQ, ASUI,
+SABA, EOS (or over 52 weeks),
+and Time to first clinical asthma exacerbation	Key Secondary
+FEV1: change from baseline over 16 weeks
+ACQ: change from baseline over 16 weeks
+Other Secondary
+Change from baseline to planned time points in:
+ACQ, FEV1, % predicted FEV1, FVC, FEF25%-75%:
+SABA, EOS.
+L59: EOS: Blood eosinophil counts.
+L60: Source: Reviewer
+L61: ## 3.2.1 Study 3081
+L62: ## 3.2.1.1 Study Design and Endpoints
+L63: Study 3081 was a 16-week, randomized, double-blind, placebo-controlled Phase 3 study involving patients 12 years of age and older who had a blood eosinophil count of at least 400 cells/\muL at screening. Eligible patients were randomly assigned in a blinded fashion (1:1:1) to one of the following three treatment groups: reslizumab at 0.3 mg/kg, reslizumab at 3.0 mg/kg, or placebo, stratified according to the occurrence of previous asthma exacerbations within the past 12 months (yes or no) and age (12 to 17 years or 18 years of age or older) at baseline. Patients received study drug once every 4 weeks for a total of 4 doses over 16 weeks.
+L64: The primary efficacy variable was the overall change from baseline in FEV_1 over the 16-week treatment. The secondary variables were:
+L65: - Asthma Control Questionnaire (ACQ) score: Change from baseline to weeks 4, 8, 12, 16, and endpoint
+- Asthma Quality of Life Questionnaire (AQLQ) score: Change from baseline to week 16, and endpoint
+- FVC: Change from baseline to weeks 4, 8, 12, 16, and endpoint
+- FEF25%-75%: Change from baseline to weeks 4, 8, 12, 16, and endpoint
+- Asthma Symptom Utility Index (ASUI) score: Change from baseline to weeks 4, 8, 12, 16, and endpoint
+- Short-acting beta-agonist (SABA) use: Change from baseline to weeks 4, 8, 12, 16, and endpoint
+- Blood eosinophil count (EOS): Change from baseline to weeks 4, 8, 12, 16, and endpoint
+- Percent predicted FEV_1: Change from baseline to weeks 4, 8, 12, 16, and endpoint
+L66: ## 3.2.1.2 Statistical Methodologies
+L67: The primary variable was analyzed using a MMRM model with independent variables of treatment, visit, treatment-by-visit interaction, asthma exacerbations within the past 12 months (yes or no), baseline age (12 -17 years or \ge18 years), gender, height, and baseline FEV_1. An unstructured covariance matrix was used for the within-patient correlation modeling. In case there was a convergence problem, a first order autoregressive covariance structure would be assumed instead.
+L68: The overall treatment effect for each reslizumab dose was compared to placebo using a 2-sided test at the significance level of 0.05. A hierarchical testing procedure was used to control the Type I error rate to adjust for the two comparisons of reslizumab to placebo. Statistical significance would be declared in the order of reslizumab 3.0 mg/kg first and 0.3 mg/kg second. Specifically, treatment effect would be claimed significant for reslizumab 3.0 mg/kg if its p-value was \le 0.05. The significance would be claimed for both reslizumab doses if the p-values were both \le 0.05.
+L69: The primary analysis was based on the full analysis dataset (FAS), including all randomized patients who were treated with at least one dose of study drug. The applicant's analysis excluded some measurements obtained at scheduled visits that were preceded by usage within 7 days of a limited subset of medications that could significantly confound interpretation. I conducted a sensitivity analysis using all measurements without data exclusions. The primary analysis was also repeated using the multiple imputation method to investigate the impact of missing data on the results.
+L70: The same MMRM model as described for the primary efficacy variable analyses was used to analyze the secondary efficacy endpoints including percent predicted FEV_1, FVC, FEF_{25\%-75\%}, ACQ, AQLQ, ASUI, SABA, and EOS. The model included independent variables of treatment, visit, and treatment by visit interaction, asthma exacerbations within the past 12 months (yes or no), baseline age (12-17 years or \ge 18 years), gender, height, and respective baseline value. Additionally the proportion of patients achieving at least a 0.5 improvement in AQLQ score or at least a 0.5 reduction in ACQ score from baseline to each scheduled visit were analyzed by the Cochran-Mantel-Haenszel (CMH) test with stratification for baseline age group and asthma exacerbation category. Testing of the secondary variables was performed at the significance level of 0.05. There was no adjustment for multiplicity for the secondary endpoints.
+L71: ## 3.2.1.3 Patient Disposition, Demographic and Baseline Characteristics
+L72: A total of 315 subjects were enrolled in study 3081, all but 4 subjects received at least 1 dose of study drug. Forty-seven (14.9%) subjects stopped medication early and 50 (15.9%) discontinued from the study prematurely. The most common reason for discontinuation from study drug treatment was adverse events, occurring in 19 (6%) subjects. Patient disposition is shown in Table 2.
+L73: Table 2 Patient disposition in Study 3081
+L74: Placebo	Reslizumab
+0.3 mg/kg	Reslizumab
+3.0 mg/kg	Total
+Randomized	
+Never dosed	0	1	3	4
+Treated	105	103	103	311
+Completed treatment	
+Discontinued treatment	20 (19.0%)	11 (10.6%)	16 (15.1%)	47 (14.9%)
+Completed study	
+Discontinued study	20 (19.0%)	12 (11.5%)	18 (17.0%)	50 (15.9%)
+Discrepancies in exacerbation history
+between IVRS and CRF	4 (3.8%)	3 (2.9%)	4 (3.8%)	11 (3.5%)
+Analysis Datasets	
+Randomized Set	105	104	106	315
+Full Analysis Set	105	103	103	311
+Safety Set	105	103	103	311
+L75: IVRS: interactive voice recognition system; CRF: case report form
+L76: Source: Modified from Table 10-1 in Clinical Study Report
+L77: Stratification factors for randomization of patients in study 3081 were baseline age (12-17 years or \ge18 years) and occurrence of asthma exacerbation within the last 12 months (yes or no). For age, the case report form (CRF) and interactive voice recognition system (IVRS) records were in accord. There were 11 (3.6%) patients whose stratification by asthma exacerbation with the last 12 months differed from the CRF records when utilizing the IVRS records due to misclassifications at screening. The misclassification rate is low and did not affect the results from efficacy analyses.
+L78: Selected demographic features for all randomized patients are shown in Table 3. In study 3081, subject demographics and baseline characteristics were generally balanced among the three treatment groups. The majority of patients were female (58%), white (81%), and of non-Hispanic or non-Latino ethnicity (70%). The median age was 45 years with 15 (5%) subjects younger than 18 years.
+L79: Table 3 Study 3081 demographics
+L80: Placebo	Reslizumab	Reslizumab	Total
+(N=315)
+(N=105)	0.3 mg/kg
+(N=104)	3.0 mg/kg
+(N=106)
+Age (years)	
+Mean	44.2	44.5	43.0	43.9
+SD	14.89	14.03	14.41	14.42
+Median	45.0	46.5	44.0	45.0
+Age group, n (%)	
+12-17 years	5 (5)	5 (5)	5 (5)	15 (5)
+18-64 years	93 (89)	91 (87)	99 (93)	283 (90)
+≥65 years	7 (7)	8 (8)	2 (2)	17 (5)
+Gender, n (%)	
+Male	43 (41)	45 (43)	44 (42)	132 (42)
+Female	62 (59)	59 (57)	62 (58)	183 (58)
+Race, n (%)	
+White	85 (81)	80 (77)	90 (85)	255 (81)
+Black	7 (7)	6 (6)	5 (5)	18 (6)
+Asian	0	2 (2)	2 (2)	4 (1)
+American Indian or Alaskan Native	1 (<1)	0	0	1 (<1)
+Pacific Islander	1 (<1)	0	0	1 (<1)
+Other	11 (10)	16 (15)	9 (8)	36 (11)
+Ethnicity, n (%)	
+Hispanic or Latino	29 (28)	29 (28)	31 (29)	89 (28)
+Non-Hispanic or non-Latino	74 (70)	73 (70)	75 (71)	222 (70)
+Unknown	2 (2)	2 (2)	0	4 (1)
+Weight (kg)	
+Mean	77.0	75.9	75.7	76.2
+SD	20.10	18.80	20.30	19.70
+Median	73.0	74.0	74.4	74.0
+Region, n (%)	
+US	38 (36)	35 (34)	42 (40)	115 (37)
+Non-US	67 (64)	69 (66)	64 (60)	200 (63)
+L81: Source: Reviewer
+L82: Baseline characteristics for study 3081 are shown in Table 4. Approximately 56% patients had experienced an exacerbation within the previous 12 months. The distributions of clinical characteristics including asthma duration, airway reversibility, FEV1, and severity scores, were similar across all treatment groups. The mean and median blood eosinophil counts at baseline was 614 cells/\muL and 500 cells/\muL, respectively.
+L83: Table 4 Study 3081 disease characteristics at baseline
+L84: Placebo
+(N=105)	Reslizumab
+0.3 mg/kg
+(N=104)	Reslizumab
+3.0 mg/kg
+(N=106)	Total
+(N=315)
+Asthma exacerbation within 12 months
+per CRF, n (%)	
+Yes	57 (54)	58 (56)	60 (57)	175 (56)
+No	48 (46)	46 (44)	46 (43)	140 (44)
+Number of exacerbation events	n=57	n=58	n=60	n=175
+Mean	2.0	2.0	2.1	2.0
+SD	1.27	1.68	1.63	1.53
+Median	1.0	1.0	1.0	1.0
+Duration of asthma (years)	n=105	n=103	n=100	n=308
+Mean	20.7	20.0	20.4	20.4
+SD	14.49	15.23	15.64	15.07
+Median	18.3	17.8	16.3	17.3
+FEV1 (L)	n=105	n=103	n=105	n=313
+Mean	2.2	2.2	2.2	2.2
+SD	0.81	0.85	0.79	0.82
+Median	2.1	2.1	2.1	2.1
+% Predicted FEV1	n=105	n=103	n=105	n=313
+Mean	71.1	68.8	70.4	70.1
+SD	19.84	18.48	18.43	18.89
+Median	72.0	71.0	70.7	72.0
+Airway reversibility (%)	n=105	n=104	n=106	n=315
+Mean	25.4	24.2	26.2	25.3
+SD	15.62	13.62	18.63	16.08
+Median	20.0	20.1	19.9	20.0
+Blood eosinophil count (109 cells/L)	n=105	n=104	n=106	n=315
+Mean	0.6	0.6	0.6	0.6
+SD	0.43	0.49	0.39	0.44
+Median	0.5	0.5	0.5	0.5
+FVC (L)	n=105	n=103	n=105	n=313
+Mean	3.3	3.3	3.2	3.3
+SD	1.05	1.12	1.01	1.06
+Median	3.2	3.2	3.0	3.1
+FEF25%-75% (L/s)	n=105	n=103	n=105	n=313
+Mean	1.7	2.3	1.7	1.9
+SD	0.92	8.96	1.54	5.24
+Median	1.5	1.3	1.5	1.4
+AQLQ total score	n=105	n=103	n=105	n=313
+Mean	4.4	4.5	4.2	4.4
+L85: SD	1.20	1.24	1.23	1.23
+Median	4.5	4.6	4.3	4.5
+ACQ score	n=105	n=104	n=106	n=315
+Mean	2.5	2.5	2.6	2.5
+SD	0.83	0.91	0.91	0.88
+Median	2.3	2.4	2.4	2.4
+ASUI score	n=105	n=104	n=106	n=315
+Mean	0.7	0.7	0.7	0.7
+SD	0.19	0.21	0.20	0.20
+Median	0.7	0.7	0.7	0.7
+Used beta-agonist in past 3 days, n (%)	
+Yes	81 (77)	72 (69)	78 (74)	231 (73)
+No	23 (22)	32 (31)	28 (26)	83 (26)
+Daily average number of puffs in past 3 days	n=104	n=104	n=106	n=314
+Mean	2.3	1.9	2.2	2.1
+SD	2.20	2.44	2.56	2.41
+Median	2.0	1.3	1.5	1.7
+L86: Source Reviewer
+L87: ## 3.2.1.4 Results and Conclusions
+L88: The primary endpoint was the change from baseline over 16 weeks in FEV_1. In study 3081, patients receiving reslizumab had statistically significantly higher increases from baseline compared to placebo (Figure 1 and Table 5). Both dose levels produced significant improvements in FEV_1 over the treatment period. The treatment effect ranged from 115 mL to 160 mL with overlapping 95% confidence intervals. The MMRM estimation that included all measurements without exclusions due to confounding medication produced similar results.
+L89: Figure 1 Mean Change from Baseline in FEV_1 to Each Visit and Endpoint (Study 3081)a
+L90: * p\le 0.05, ** p\le 0.005 versus placebo. P-values are not adjusted to control for multiplicity.
+L91: a The only timepoint which has been controlled for multiplicity is week 16.
+L92: Source: Study 3081 Report Figure 3
+L93: Table 5 Change from Baseline in FEV1 over 16 weeks (FAS, Study 3081)
+L94: Applicant's Analysis
+excluding some measurements*	FDA Analysis
+including all measurements
+Placebo	Reslizumab
+0.3 mg/kg	Reslizumab
+3.0 mg/kg	Placebo	Reslizumab
+0.3 mg/kg	Reslizumab
+3.0 mg/kg
+N	103	101	102	103	101	102
+Baseline mean	2.22	2.16	2.17	2.22	2.16	2.17
+LS mean change	0.13	0.24	0.29	0.13	0.24	0.29
+Treatment diff.	NA	0.12	0.16	NA	0.11	0.16
+95% CI	NA	(0.02, 0.22)	(0.06, 0.26)	NA	(0.01, 0.21)	(0.06, 0.26)
+p-value	NA	0.024	0.002	NA	0.028	0.002
+L95: *The Applicant excluded data points if they were obtained at visits preceded by use of prohibited medications within seven days. Medications included systemic corticosteroids, long acting beta agonists, or long acting muscarinic antagonists if not taken at baseline.
+L96: Source: Reviewer
+L97: A sensitivity analysis of the primary efficacy endpoint using a multiple imputation method for missing values demonstrated significant improvement in FEV1 for both reslizumab treatment groups compared with placebo, consistent with the primary results.
+L98: Analyses of the secondary efficacy variables are summarized in Table 6. Both dose levels of reslizumab led to overall improvement measured by lung function (FEV1, FVC, and FEF25%-75%) and patient-reported asthma control (AQLQ, ACQ, and ASUI), decrease in SABA rescue inhaler use, and reductions in blood eosinophil counts. Both doses of reslizumab improved lung function, quality of life and asthma symptoms. Secondary efficacy endpoints were not controlled for multiplicity and were considered exploratory.
+L99: Table 6 Secondary endpoints in Study 3081 (FAS with all measurements included)
+L100: Treatment difference
+vs placebo	Over 16 Weeks	At Week 16
+Reslizumab
+0.3 mg/kg	Reslizumab
+3.0 mg/kg	Reslizumab
+0.3 mg/kg	Reslizumab
+3.0 mg/kg
+FEV1	Diff.	0.13	0.17
+95% CI	(-0.00, 0.25)	(0.04, 0.29)
+p-value	0.0555	0.0118
+FVC	Diff.	0.04	0.129	0.03	0.11
+95% CI	(-0.06, 0.15)	(0.023, 0.235)	(-0.11, 0.16)	(-0.02, 0.25)
+p-value	0.415	0.017	0.692	0.094
+FEF25%-75%	Diff.	0.03	0.233	0.045	0.216
+95% CI	(-0.21, 0.26)	(-0.006, 0.471)	(-0.205, 0.296)	(-0.035, 0.467)
+p-value	0.840	0.056	0.722	0.092
+AQLQ	Diff.	0.27	0.36	0.27	0.36
+95% CI	(-0.05, 0.58)	(0.05, 0.67)	(-0.05, 0.58)	(0.05, 0.67)
+p-value	0.093	0.024	0.093	0.024
+ACQ	Diff.	-0.23	-0.36	-0.21	-0.35
+95% CI	(-0.45, -0.01)	(-0.58, -0.14)	(-0.48, 0.07)	(-0.63, -0.08)
+p-value	0.038	0.001	0.145	0.013
+ASUI	Diff.	0.05	0.05	0.04	0.04
+95% CI	(0.01, 0.09)	(0.01, 0.09)	(-0.01, 0.09)	(-0.01, 0.09)
+p-value	0.010	0.016	0.123	0.122
+SABA	Diff.	-0.61	-0.63	-0.62	-0.71
+95% CI	(-1.11, -0.11)	(-1.13, -0.13)	(-1.24, 0.02)	(-1.34, -0.08)
+p-value	0.017	0.014	0.056	0.027
+EOS	Diff.	-0.32	-0.49	-0.32	-0.46
+95% CI	(-0.37, -0.28)	(-0.54, -0.45)	(-0.38, -0.26)	(-0.52, -0.40)
+p-value	<0.001	<0.001	<0.001	<0.001
+L101: Source: Reviewer
+L102: Table 7 shows the proportion of patients achieving at least a 0.5-point improvement in AQLQ total score from baseline, or a 0.5-point improvement in ACQ total score from baseline. These thresholds are considered minimally clinically important difference by the clinical team. While not controlled for multiplicity, the proportion of ACQ or AQLQ responders at Week 16 was numerically greater in the reslizumab group compared with that in the placebo group. These results are supportive of the efficacy of reslizumab.
+L103: Table 7 Proportion of ACQ and AQLQ responders at week 16 (Study 3081)
+L104: Parameter	Placebo
+(N=105)	Reslizumab
+0.3 mg/kg
+(N=106)	Reslizumab
+3.0 mg/kg
+(N=106)
+ACQ	n=84	n=92	n=91
+Responders, n (%)	49 (58)	56 (61)	58 (64)
+p-value (vs. placebo)	0.806	0.479
+AQLQ	n=101	n=96	n=99
+Responders, n (%)	48 (48)	57 (59)	63 (64)
+p-value (vs. placebo)	0.083	0.019
+L105: Source: Reviewer
+L106: ## 3.2.2 Study 3082 and Study 3083
+L107: ## 3.2.2.1 Study Design and Endpoints
+L108: Studies 3082 and 3083 were 52-week, randomized, placebo-controlled studies in patients 12 years of age and older who had a blood eosinophil count of at least 400 cells/\muL at screening, and at least one asthma exacerbation requiring systemic corticosteroid use over the past 12 months. Eligible subjects were stratified by OCS use at enrollment (yes or no), region (US or other) and randomly assigned in a 1:1 ratio to receive an infusion with reslizumab 3.0 mg/kg or matching placebo. During the 52-week treatment period, patients received study drug once every 4 weeks for a total of 13 doses. After the end-of-treatment visit, patients either enrolled in the open-label, long-term study 3085 or returned for an assessment 90 (\pm7) days after their end-of-treatment visit in this study.
+L109: The primary efficacy measure for both studies 3082 and 3083 was the frequency of clinical asthma exacerbations for each patient during the 52-week treatment period. In both studies, an asthma exacerbation was defined as a worsening of asthma that required the following medical intervention:
+L110: - use of systemic, or an increase in the use of inhaled, corticosteroid treatment for 3 or more days, and/or
+- asthma-related emergency treatment including at least one of the following:an unscheduled visit to the physician's office for nebulizer treatment or other urgent treatment to prevent worsening of asthma symptoms;
+- a visit to the emergency room for asthma-related treatment; or
+- an asthma-related hospitalization.
+L111: The above criteria must be corroborated with at least one of the following:
+L112: - a decrease in FEV_1 by 20% or more from baseline;
+- a decrease in peak expiratory flow rate by 30% or more from baseline on 2 consecutive days; or
+- worsening of symptoms or other clinical signs per physician evaluation of the event.
+L113: The secondary variables for both studies were as follows:
+L114: - FEV_1: Change from baseline to week 16
+- FEV_1: Overall change from baseline over 16 weeks
+- AQLQ: Change from baseline to week 16
+- ACQ: Change from baseline over 16 weeks
+- Time to 1st exacerbation
+- ASUI: Overall change from baseline over 16 weeks
+- SABA: Overall change from baseline over 16 weeks
+- Blood EOS: Overall change from baseline over 16 weeks and 52 weeks
+L115: ## 3.2.2.2 Statistical Methodologies
+L116: For the primary endpoint, frequency of asthma exacerbations was analyzed using a generalized linear model with negative binomial distributions and had the treatment group and randomization stratification factors (baseline OCS use and geographical region) as model factors. The offset variable was logarithm of follow up time excluding the summed duration of exacerbations in the treatment period. Exacerbations that occur between the completion of the first dose of study drug and two weeks after the end of treatment or early withdrawal visit were counted for the analysis. The primary analysis was based on randomized dataset including all patients who were randomly assigned to a treatment at enrollment, regardless of whether or not a patient took any study drug.
+L117: As supportive analyses for the primary variable, the same model was used to analyze the following endpoints:
+L118: - frequency of asthma exacerbations requiring courses of systemic corticosteroids prescribed for 3 or more days
+- frequency of asthma exacerbations requiring courses of oral corticosteroids prescribed for 3 or more days
+- frequency of asthma exacerbations resulting in hospitalization or a visit to the emergency room (ER)
+L119: Furthermore, in response to the Division's request, the applicant submitted additional analysis of exacerbations by severity level defined as follows: Any asthma exacerbation resulting in an ER visit that required hospital admission was classified as severe, any asthma exacerbation resulting in an ER visit that required systemic corticosteroid was classified as moderate, and any ER visit that was not associated with the use of systemic corticosteroids or hospitalization was classified as mild. The analyses were based on the same negative binomial model applied for each severity level or worse.
+L120: The analyses for the secondary efficacy endpoints were as follows: Change from baseline in FEV_1 were analyzed using a MMRM model including variables of treatment, visit, and treatment by visit interaction, OCS use at baseline, region, gender, height, and baseline FEV_1. Analysis of AQLQ, ACQ, ASUI, SABA, and EOS were conducted using MMRM including variables of treatment, visit, and treatment by visit interaction, OCS use at baseline, region, and respective baseline value. The proportion of patients achieving the minimal clinically important difference (MCID, at least a 0.5 improvement in AQLQ score, or at least a 0.5 reduction in ACQ score) were analyzed by the CMH test with stratification for baseline OCS use and region. Time to first exacerbation was analyzed using the Kaplan-Meier method with a log-rank test adjusting for baseline usage of OCS and region. Patients without exacerbation were censored at two weeks after the treatment completion date or study discontinuation, whichever came first.
+L121: To control the overall Type I error rate at 0.05, a fixed sequence multiple testing procedure was implemented to test the primary and secondary variables in the order specified in Section 3.2.2.1. If the resulting 2-sided p-value from the primary comparison was less than 0.05, then the next comparison of interest (first secondary variable) would be interpreted inferentially at 0.05. This process continued through the secondary variables until either all comparisons of interest were interpreted inferentially, or until the point at which the resulting 2-sided p-value for a
+L122: comparison of interest was greater than 0.05. At the point where p-value was greater than 0.05, no further comparisons would be interpreted inferentially. If the analyses of each of the secondary endpoints resulted in p-value less than 0.05, then the supportive analysis of the primary efficacy variable (frequency of exacerbations requiring systemic corticosteroids for 3 or more days) was to be considered controlled for Type I error rate.
+L123: Missing data were not imputed in the negative binomial regression model for the primary analysis. Sensitivity analyses of the primary endpoint utilized a multiple imputation method and a tipping-point sensitivity analysis. The multiple imputation method assumed that the exacerbation frequency was higher after withdrawal from the study if the reason was either lack of efficacy or withdrawal due to asthma exacerbation (Scenario 1); or remained within the natural fluctuation limits (Scenario 2) otherwise. Thus missing values in Scenario 2 were considered to be missing at random and imputed per stratification factors while missing values in Scenario 1 were supposed to follow a missing not at random pattern and imputed against the potential bias in favor of the reslizumab group. The tipping point analysis evaluated several combinations of imputed missing data values until it reached a "tipping point" or a point at which a particular combination of imputed missing data changed the study's conclusions, as summarized by its p-value. If the sensitivity analysis revealed that the tipping point consists of unreasonable values, then the robustness of the study results was supported. Additionally, the primary analysis was repeated using an offset that did not exclude the summed duration of exacerbations from the follow up time.
+L124: ## 3.2.2.3 Patient Disposition, Demographic and Baseline Characteristics
+L125: A total of 953 subjects were enrolled in studies 3082 and 3083, of which 952 subjects received at least 1 dose of study drug and 835 subjects completed the trial. In study 3082, 56 (11%) subjects stopped medication early and 56 (11%) discontinued from the study prematurely. In study 3083, 62 (13%) subjects terminated study drug early and 63 (14%) prematurely discontinued from the study. The most common reason for discontinuation from study drug treatment was consent withdrawn (5% of patients overall in each study). Patient disposition for each study is shown in Table 8.
+L126: Table 8 Patient disposition in studies 3082 and 3083
+L127: Study 3082	Study 3083
+Placebo	Reslizumab	Placebo	Reslizumab
+Randomized	
+Never dosed	244	245	232	232
+Treated	1	0	0	0
+243	245	232	232
+Completed treatment	
+Discontinued treatment	215 (88%)	218 (89%)	200 (86%)	202 (87%)
+29 (12%)	27 (11%)	32 (14%)	30 (13%)
+Completed study	
+Discontinued study	215 (88%)	218 (89%)	199 (86%)	202 (87%)
+29 (12%)	27 (11%)	33 (14%)	30 (13%)
+Discrepancies in OCS use between IVRS and CRF	
+16 (6.6%)	28 (11.4%)	15 (6.5%)	11 (4.7%)
+Analysis Datasets	
+Randomized Set	244	245	232	232
+Full analysis set	243	245	232	232
+Safety Set	243	245	232	232
+L128: OCS: oral corticosteroid; IVRS: interactive voice response system; CRF: case report form
+L129: Source: Reviewer
+L130: Stratification factors utilized for randomization in Studies 3082 and 3083 were OCS use at enrollment (yes or no) and region (US or other). For geographic region, the CRF and IVRS records were in accord. Misclassification for baseline OCS use, as determined by the IVRS versus the CRF, occurred in 44 (9%) patients in Study 3082 and 26 (6%) patients in Study 3083, respectively. I performed sensitivity analyses for the primary efficacy endpoint to address the impact of discordance between IVRS and CRF stratification status.
+L131: Selected demographic features for all randomized patients are shown for both studies in Table 9. Within each study, subject demographics and baseline characteristics were generally balanced among the two treatment groups. The majority of subjects were female, white, and of non-Hispanic or non-Latino ethnicity. The median age was 48 years in both studies. There were 13 (3%) subjects in study 3082 and 12 (3%) subjects in study 3083 who were less than 18 years old. Fifteen percent (15%) of the patients in Study 3082 and 7% in Study 3083 were from the US.
+L132: Table 9 Studies 3082 and 3083 demographics
+L133: Study 3082	Study 3083
+Placebo
+(N=244)	Reslizumab
+(N=245)	Placebo
+(N=232)	Reslizumab
+(N=232)
+Age (years)	
+Mean	46.7	46.6	47.5	46.4
+SD	14.83	13.82	13.75	13.79
+Median	49.0	48.0	48.0	48.0
+Age group, n (%)	
+12-17 years	7 (3)	6 (2)	4 (2)	8 (3)
+18-64 years	212 (87)	224 (91)	208 (90)	207 (89)
+≥65 years	25 (10)	15 (6)	20 (9)	17 (7)
+Gender, n (%)	
+Male	83 (34)	103 (42)	82 (35)	88 (38)
+Female	161 (66)	142 (58)	150 (65)	144 (62)
+Race, n (%)	
+White	182 (75)	173 (71)	169 (73)	168 (72)
+Black	20 (8)	14 (6)	4 (2)	6 (3)
+Asian	33 (14)	50 (20)	21 (9)	16 (7)
+American Indian or Alaskan Native	0	0	4 (2)	7 (3)
+Pacific Islander	0	1 (<1)	1 (<1)	0
+Other	9 (4)	7 (3)	33 (14)	35 (15)
+Ethnicity, n (%)	
+Hispanic or Latino	21 (9)	28 (11)	53 (23)	54 (23)
+Non-Hispanic or non-Latino	223 (91)	216 (88)	178 (77)	177 (76)
+Unknown	0	1 (<1)	1 (<1)	1 (<1)
+Weight (kg)	
+Mean	76.5	75.6	73.9	74.7
+SD	18.71	19.05	15.93	15.72
+Median	74.9	73.8	72.0	73.2
+Region, n (%)	
+US	37 (15)	37 (15)	15 (6)	16 (7)
+Non-US	207 (85)	208 (85)	217 (94)	216 (93)
+L134: Source: Reviewer
+L135: Baseline characteristics are shown in Table 10. Within each study, the distributions of clinical characteristics such as FEV_1, airway reversibility, previous asthma history, severity scores, were similar across both groups. The mean blood eosinophil counts at baseline was 660 cells/\muL in Study 3082 and 649 cells/\muL in Study 3083, respectively. The median value at baseline was 500 cells/\muL for both studies.
+L136: Table 10 Studies 3082 and 3083 disease characteristics at baseline
+L137: Study 3082	Study 3083
+Placebo (N=244)	Reslizumab (N=245)	Placebo (N=232)	Reslizumab (N=232)
+Asthma exacerbations within 12 months per CRF, n (%)	
+Yes	242 (>99)	242 (99)	232 (100)	231 (>99)
+No	2 (<1)	3 (1)	0	1 (<1)
+Number of events	n=242	n=242	n=232	n=232
+Mean	2.1	1.9	2.0	1.9
+SD	2.31	1.63	1.78	1.58
+Median	1.0	1.0	1.0	1.0
+Duration of asthma (years)	
+n=234	n=233	n=231	n=232
+Mean	18.8	19.7	18.7	18.2
+SD	14.2	15.19	13.28	14.43
+Median	15.8	15.3	15.5	14.2
+FEV1 (L)	
+n=244	n=245	n=232	n=232
+Mean	2.0	1.9	2.0	2.1
+SD	0.79	0.73	0.67	0.79
+Median	1.8	1.8	1.9	2.0
+% predicted FEV1	
+n=244	n=245	n=232	n=232
+Mean	65.0	63.6	68.0	70.4
+SD	19.80	18.55	18.93	20.98
+Median	65.0	64.0	65.3	68.9
+Airway reversibility (%)	
+n=244	n=245	n=232	n=232
+Mean	26.3	26.1	28.7	28.1
+SD	18.10	15.47	23.75	16.06
+Median	20.4	21.1	21.9	23.8
+Blood eosinophil count (109 cells/L)	
+n=244	n=245	n=232	n=232
+Mean	0.62	0.70	0.69	0.61
+SD	0.59	0.77	0.68	0.41
+Median	0.5	0.5	0.5	0.5
+AQLQ total score	
+n=242	n=243	n=231	n=229
+Mean	4.16	4.3	4.2	4.4
+SD	1.09	1.12	1.08	1.02
+Median	4.1	4.3	4.2	4.3
+ACQ score	
+n=244	n=245	n=232	n=232
+Mean	2.8	2.7	2.6	2.6
+SD	0.88	0.85	0.79	0.89
+Median	2.7	2.6	2.4	2.4
+ASUI score	
+n=241	n=241	n=229	n=228
+Mean	0.6	0.6	0.7	0.7
+SD	0.20	0.19	0.19	0.20
+Median	0.6	0.7	0.7	0.7
+L138: Study 3082	Study 3083
+Placebo
+(N=244)	Reslizumab
+(N=245)	Placebo
+(N=232)	Reslizumab
+(N=232)
+Used beta-agonist in past 3 days, n (%)	
+Yes	188 (77)	170 (69)	181 (78)	182 (78)
+No	53 (22)	72 (29)	46 (20)	44 (19)
+Daily average number of puffs in past 3 days	
+n=241	n=242	n=201	n=204
+Mean	2.7	2.4	2.7	2.9
+SD	3.18	2.82	2.41	2.82
+Median	2.0	2.0	2.0	2.0
+L139: Source: Reviewer
+L140: ## 3.2.2.4 Results and Conclusions
+L141: ## 3.2.2.4.1 Primary Endpoint
+L142: The frequency distribution of exacerbations during the 52-week treatment period is shown in Figures 2 and 3. The proportion of patients who did not experience an asthma exacerbation during the entire treatment period was higher in the reslizumab group (62% and 75%) compared with the placebo group (46% and 55%), in studies 3082 and 3083, respectively.
+L143: Figure 2 Number of Asthma Exacerbations per Patient (Study 3082)
+L144: Source: Study 3082 report, Figure 15.2
+L145: Figure 3 Number of Asthma Exacerbations per Patient (Study 3083)
+L146: Source: Study 3083 report, Figure 15.2
+L147: The primary efficacy assessment for both studies was based on the frequency of clinical asthma exacerbations for each patient during the 52-week treatment period. Results are shown in Table 11. Compared to placebo, mean annualized rate of clinical asthma exacerbation was statistically significantly reduced among patients administered reslizumab in both studies. The point estimate for exacerbation rate ranged from 0.86 to 0.90 per year in reslizumab-treated patients versus 1.80 to 2.11 per year in placebo patients. The analysis demonstrated 50% and 59% reductions in the rates of exacerbations due to reslizumab treatment in Studies 3082 and 3083, respectively.
+L148: To evaluate the impact of stratification errors, I conducted an alternative analysis of the primary endpoint by including the actual values for OCS use from the clinical database in the model. The results were consistent in supporting the efficacy of reslizumab treatment as measured by the frequency of asthma exacerbation.
+L149: Table 11 Asthma exacerbation rates in studies 3082 and 3083 (Randomized Set)
+L150: Study 3082	Study 3083
+Placebo
+(N=244)	Reslizumab
+(N=245)	Placebo
+(N=232)	Reslizumab
+(N=232)
+Patients with \ge 1 event, n (%)	132 (54.1)	92 (37.6)	105 (45.3)	59 (25.4)
+Frequency of events, Mean (SD)	1.34 (1.76)	0.72 (1.22)	1.01 (1.67)	0.46 (0.96)
+Applicant's Analysis*
+Rate per year	1.80	0.90	2.11	0.86
+(95% CI)	(1.37, 2.37)	(0.68, 1.20)	(1.33, 3.36)	(0.55, 1.35)
+Rate ratio	-	0.50	-	0.41
+(95% CI)	-	(0.37, 0.67)	-	(0.28, 0.59)
+p-value	-	<0.0001	-	<0.0001
+Reviewer's Analysis**
+Rate per year	1.92	1.0	2.17	0.87
+(95% CI)	(1.45, 2.55)	(0.73, 1.35)	(1.33, 3.54)	(0.55, 1.40)
+Rate ratio	-	0.52	-	0.40
+(95% CI)	-	(0.38, 0.70)	-	(0.28, 0.58)
+p-value	-	<0.0001	-	<0.0001
+L151: *Based on a negative binomial regression model with adjustment for IVRS stratification factors (baseline usage of OCS [yes or no] and geographical region [US or other]).
+L152: **Based on a negative binomial regression model with adjustment for CRF record (baseline usage of OCS [yes or no] and geographical region [US or other]).
+L153: Source: Reviewer
+L154: A supportive analysis of the primary efficacy variable involved analysis of exacerbations by type of medical intervention (Table 12). The efficacy of reslizumab in reducing the frequency of exacerbations compared to placebo in patients with exacerbations requiring oral or systemic corticosteroids for 3 or more days was consistent with the results of the primary efficacy analysis. For patients with exacerbations requiring an emergency room visit and/or hospitalization during the study, the estimated exacerbation rate was lower in the reslizumab group compared to placebo but the difference was not statistically significant. Note these analyses were not considered controlled for multiplicity since sequential testing stopped at some secondary endpoints (Section 3.2.2.4.2).
+L155: Table 12 Frequency of asthma exacerbations by type of medical intervention
+L156: Exacerbations requiring	Study 3082	Study 3083
+Placebo
+(N=244)	Reslizumab
+(N=245)	Placebo
+(N=232)	Reslizumab
+(N=232)
+Systemic corticosteroids use	
+Patients with \ge 1 event, n (%)	118 (48.4)	80 (32.7)	92 (39.7)	49 (21.1)
+Frequency of events, Mean (SD)	1.12 (1.61)	0.55 (1.05)	0.80 (1.43)	0.35 (0.82)
+Rate per year
+(95% CI)	1.60
+(1.20, 2.15)	0.72
+(0.53, 0.99)	1.66
+(1.00, 2.74)	0.65
+(0.40, 1.05)
+Rate ratio
+(95% CI)	-	0.45
+(0.33, 0.62)	-	0.39
+(0.26, 0.58)
+p-value	<0.0001	<0.0001
+Oral corticosteroids use	
+Patients with \ge 1 event, n (%)	117 (48.0)	77 (31.4)	86 (37.1)	46 (19.8)
+Frequency of events, Mean (SD)	1.09 (1.59)	0.53 (1.02)	0.75 (1.42)	0.34 (0.82)
+Rate per year
+(95% CI)	1.59
+(1.18, 2.14)	0.70
+(0.51, 0.96)	1.61
+(0.95, 2.72)	0.65
+(0.39, 1.07)
+Rate ratio
+(95% CI)	-	0.44
+(0.32, 0.61)	-	0.40
+(0.27, 0.61)
+p-value	<0.0001	<0.0001
+Hospital and/or ER visit	
+Patients with \ge 1 event, n (%)	21 (8.6)	22 (9.0)	12 (5.2)	9 (3.9)
+Frequency of events, Mean (SD)	0.17 (0.72)	0.10 (0.34)	0.06 (0.25)	0.04 (0.19)
+Rate per year
+(95% CI)	0.21
+(0.11, 0.40)	0.14
+(0.07, 0.27)	0.047
+(0.01, 0.17)	0.03
+(0.01, 0.12)
+Rate ratio
+(95% CI)	-	0.66
+(0.32, 1.36)	-	0.69
+(0.29, 1.65)
+p-value	0.257	0.402
+L157: Source: Reviewer
+L158: The frequency of asthma exacerbations were further analyzed by severity level (Table 13). Reslizumab reduces the rate of severe exacerbations compared with placebo with a reduction of 45% to 56% although the difference was not statistically significant. Reslizumab significantly reduces the frequency of moderate and/or severe exacerbations by 55% to 61%. The analyses show a consistent reduction for severe, moderate or worse, and all exacerbations. Results are also consistent between studies 3082 and 3083.
+L159: Table 13 Frequency of asthma exacerbations by severity
+L160: Study 3082	Study 3083
+Placebo (N=244)	Reslizumab (N=245)	Placebo (N=232)	Reslizumab (N=232)
+Severe Exacerbation	
+Patients with \ge 1 event, n(%)	11 (4.5)	9 (3.7)	8 (3.4)	5 (2.2)
+Frequency of events, Mean (SD)	0.09 (0.51)	0.04 (0.19)	0.04 (0.22)	0.02 (0.15)
+Rate per year	6.1\times 10^{-7}	2.7\times 10^{-7}	0.04	0.02
+(95% CI)	(3.0\times 10^{-7}, 1.2\times 10^{-6})	(1.1\times 10^{-7}, 6.6\times 10^{-7})	(0.01, 0.15)	(0.00, 0.09)
+Rate ratio	-	0.44	-	0.55
+(95% CI)	-	(0.15, 1.27)	-	(0.19, 1.66)
+p-value	-	0.129	-	0.289
+Moderate or Worse Exacerbation	
+Patients with \ge 1 event, n(%)	120 (49.2)	81 (33.1)	92 (39.7)	51 (22.0)
+Frequency of events, Mean (SD)	1.14 (1.63)	0.56 (1.06)	0.81 (1.44)	0.36 (0.82)
+Rate per year	1.63	0.74	1.70	0.67
+(95% CI)	(1.21, 2.17)	(0.54, 1.00)	(1.03, 2.80)	(0.41, 1.08)
+Rate ratio	-	0.45	-	0.39
+(95% CI)	-	(0.33, 0.62)	-	(0.27, 0.58)
+p-value	-	<0.0001	-	<0.0001
+Mild or Worse Exacerbation	
+Patients with \ge 1 event, n(%)	132 (54.1)	92 (37.6)	105 (45.3)	59 (25.4)
+Frequency of events, Mean (SD)	1.34 (1.76)	0.72 (1.22)	1.01 (1.67)	0.46 (0.96)
+Rate per year	1.80	0.90	2.11	0.86
+(95% CI)	(1.37, 2.37)	(0.68, 1.20)	(1.33, 3.36)	(0.55, 1.35)
+Rate ratio	-	0.50	-	0.41
+(95% CI)	-	(0.37, 0.67)	-	(0.28, 0.59)
+p-value	-	<0.0001	-	<0.0001
+L161: Source: Reviewer
+L162: To assess the impact of missing data on the primary endpoint, the applicant performed sensitivity analyses using a multiple imputation method, a tipping-point sensitivity analysis and an offset variable that did not exclude the summed duration of exacerbations from the follow-up time. All results were consistent with those obtained using the primary analysis model. The tipping point analysis showed that the number of exacerbations for treated patients who terminated early needed to be 3 times higher (study 3082) or 6 times higher (study 3083) than those for treated patients who completed the study in order for the conclusion to change. Comparing this with
+L163: placebo rates implied that patients who dropped out needed to be much worse than placebo, which was an unlikely scenario. This supported the robustness of the primary analysis.
+L164: ## 3.2.2.4.2 Secondary Endpoints
+L165: The eight secondary endpoints were tested sequentially at \alpha=0.05 since the primary analysis was significant. Sequential testing continued until non-significance was noted. The results are shown in Table 14.
+L166: Table 14 Summary of secondary endpoints
+L167: Statistics	Study 3082	Study 3083
+Pbo	Res	Res - Pbo
+(95% CI)
+p-value	Pbo	Res	Res - Pbo
+(95% CI)
+p-value
+FEV1 \Delta*
+to Week 16	LS mean	0.14	0.21	0.07
+(0.00, 0.14)	0.12	0.22	0.10
+(0.02, 0.18)
+(SE)	(0.03)	(0.03)	0.048	(0.05)	(0.05)	0.011
+FEV1 \Delta
+over 16 weeks	LS mean	0.11	0.25	0.14
+(0.08, 0.20)	0.09	0.19	0.09
+(0.03, 0.16)
+(SE)	(0.03)	(0.03)	<0.0001	(0.04)	(0.04)	0.004
+AQLQ \Delta
+to Week 16	LS mean	0.70	0.93	0.24
+(0.05, 0.43)	0.78	0.99	0.21
+(0.03, 0.40)
+(SE)	(0.09)	(0.09)	0.014	(0.12)	(0.12)	0.026
+ACQ \Delta
+over 16 weeks	LS mean	-0.68	-0.94	-0.27
+(-0.40, -0.13)	-0.66	-0.86	-0.20
+(-0.33, -0.07)
+(SE)	(0.07)	(0.07)	0.0001	(0.09)	(0.09)	0.003
+ASUI \Delta
+over 16 weeks	LS mean	0.11	0.17	0.06
+(0.03, 0.08)	0.08	0.12	0.04
+(0.01, 0.06)
+(SE)	(0.01)	(0.01)	<0.0001	(0.02)	(0.02)	0.004
+SABA \Delta
+over 16 weeks	LS mean	-0.36	-0.64	-0.28
+(-0.60, 0.05)	-0.44	-0.50	-0.06
+(-0.41, 0.29)
+(SE)	(0.16)	(0.16)	0.092	(0.23)	(0.23)	0.7263
+EOS \Delta
+over 16 weeks	LS mean	-0.12	-0.58	-0.47
+(-0.51, -0.42)	-0.08	-0.56	-0.48
+(-0.52, -0.44)
+(SE)	(0.02)	(0.03)	<0.0001	(0.03)	(0.03)	<0.0001
+EOS \Delta
+over 52 weeks	LS mean	-0.13	-0.58	-0.46
+(-0.49, -0.42)	-0.08	-0.57	-0.49
+(-0.53, -0.45)
+(SE)	(0.02)	(0.02)	<0.0001	(0.02)	(0.02)	<0.0001
+L168: *\Delta: Change from baseline
+L169: Pbo: Placebo; Res: Reslizumab
+L170: Source: Reviewer
+L171: Figures 4 and 5 illustrate the mean change from baseline in \text{FEV}_1 to each visit. In both studies, statistically significant improvement was observed in the reslizumab group compared with placebo. The \text{FEV}_1 change from baseline over 16 weeks was statistically significantly improved, by 137 mL in study 3082 and 93 mL in study 3083, compared to placebo. Based on the hierarchical testing procedure, the other secondary endpoints were tested sequentially.
+L172: Figure 4 Mean Change from Baseline in \text{FEV}_1 to Each Visit and Endpoint (Study 3082)a
+L173: a The only timepoint which has been controlled for multiplicity is week 16.
+L174: Source: Study 3082 report, Figure 15.3.1
+L175: Figure 5 Mean Change from Baseline in \text{FEV}_1 to Each Visit and Endpoint (Study 3083)a
+L176: a The only timepoint which has been controlled for multiplicity is week 16.
+L177: Source: Study 3083 report, Figure 15.3.1
+L178: In both studies, treatment with reslizumab resulted in statistically significant improvement over placebo for the following endpoints: change from baseline in FEV_1 to Week 16 and over 16 weeks, change from baseline in AQLQ score to Week 16, change from baseline in ACQ score over 16 weeks, time to first exacerbation, and change from baseline in ASUI score over 16 weeks (Table 14). The Kaplan-Meier estimates of probability of not experiencing an exacerbation by week 52 were higher in patients receiving reslizumab than in patients receiving placebo in studies 3082 (61.3% vs 44.2%) and 3083 (73.2% vs 51.9%). The hazard ratio (95% CI), reslizumab versus placebo, was 0.575 (0.440, 0.750) (p&lt;0.0001) in study 3082 and 0.486 (0.353, 0.670) (p&lt;0.0001) in study 3083, respectively. The median time-to-first exacerbation could not be estimated for the reslizumab treatment group in either study because less than 50% of patients in that group experienced an exacerbation during the treatment period. With regard to the change from baseline in SABA over 16 weeks, there was an improvement in favor of reslizumab in both studies but the results were not statistically significant. Based on the hierarchical testing procedure, the testing hierarchy stopped at this endpoint for both studies. The results for the EOS endpoints, overall change from baseline in EOS count over 16 weeks and 52 weeks were not considered for statistical significance and will not be discussed further.
+L179: Table 15 shows the proportion of patients achieving the minimally clinically important difference (\ge 0.5-point improvement) in AQLQ or ACQ total score from baseline. While not controlled for multiplicity of testing, the proportion of ACQ or AQLQ responders at Week 16 was numerically greater in the reslizumab group compared with placebo. These results are considered exploratory but supportive for the efficacy of reslizumab.
+L180: Table 15 Proportion of ACQ and AQLQ Responders at Week 16
+L181: Parameter	Study 3082	Study 3083
+Placebo (N=244)	Reslizumab (N=245)	Placebo (N=232)	Reslizumab (N=232)
+ACQ	n=228	n=232	n=214	n=214
+Responders, n (%)	149 (65)	159 (69)	124 (58)	149 (70)
+p-value (vs. placebo)	0.4706	0.0103
+AQLQ	n=229	n=228	n=216	n=213
+Responders, n (%)	133 (58)	151 (66)	119 (55)	142 (67)
+p-value (vs. placebo)	0.0620	0.0140
+L182: Source: Reviewer
+L183: ## 3.2.3 Study 3084
+L184: ## 3.2.3.1 Study Design and Endpoints
+L185: Study 3084 was a 16-week, randomized, placebo-controlled study that evaluated patients 18 years of age and older, unselected for baseline blood eosinophil levels. The primary objective was to characterize the efficacy of reslizumab treatment, at a dosage of 3.0 mg/kg administered every 4 weeks for a total of 4 doses, in relation to blood eosinophil levels in patients with moderate to severe asthma. Eligible patients were randomly assigned in a blinded fashion (4:1) to reslizumab at 3.0 mg/kg or placebo, stratified according to the occurrence of previous asthma exacerbations within the past year (yes or no).
+L186: The primary efficacy variable for this study was the change from baseline in FEV_1 at week 16. The key secondary variables for this study were as follows:
+L187: - FEV_1: overall change from baseline over 16 weeks
+- ACQ: overall change from baseline over 16 weeks
+L188: The other secondary variables for this study were as follows:
+L189: - ACQ: change from baseline to weeks 4, 8, 12, and 16 or upon early withdrawal
+- FEV_1, percent predicted FEV_1, FVC, and FEF_{25\%-75\%}: change from baseline to weeks 4, 8, 12, and 16 or upon early withdrawal
+- SABA use: change from baseline to weeks 4, 8, 12, and 16 or upon early withdrawal
+- Blood EOS: change from baseline to weeks 4, 8, 12, 16, and follow-up or upon early withdrawal
+L190: ## 3.2.3.2 Statistical Methodologies
+L191: Study 3084 was designed to support applicant's definition of its chosen eosinophil threshold count of \ge 400 cells/\mu L for enrichment design by examining FEV_1 response and baseline blood eosinophil count interaction. The primary analysis utilized a linear regression model with model effects including treatment, blood eosinophil count at baseline, and the interaction of treatment by eosinophil count. Interaction was tested at the significance level 0.10. The primary analysis was based on the FAS including all randomized patients who received at least dose of study drug. The applicant's analysis excluded some measurements due to prohibited medication use. My analysis included all measurements.
+L192: For the analyses of key secondary endpoints, overall change from baseline in FEV_1 and ACQ, a MMRM model was used with independent variables of treatment, visit, treatment by visit interaction, history of asthma exacerbation in the previous 12 months (yes or no), gender, height, and respective baseline value. Summary statistics were also provided by treatment group and baseline eosinophils category (\ge 100/\mu L versus &lt; 100/\mu L, \ge 200/\mu L versus &lt; 200/\mu L, \ge 300/\mu L versus &lt; 300/\mu L, \ge 400/\mu L versus &lt; 400/\mu L). Analyses of other secondary endpoints used the same MMRM model as described for the key secondary endpoints.
+L193: A fixed sequence sequential multiple testing procedure was implemented to test the primary and key secondary variables. If the resulting 2-sided p-value for the primary comparison was
+L194: significant at level 0.10, then the procedure would continue to test sequentially the key secondary variables in the order specified (FEV1 followed by ACQ) at the 0.05 level. There was no multiplicity control for other efficacy variable comparisons.
+L195: To assess the robustness of the primary linear regression model, the applicant performed a sensitivity analysis using a multiple imputation approach. I conducted another sensitivity analysis for the primary variable using all FEV1 measurements without data exclusions.
+L196: ## 3.2.3.3 Patient Disposition, Demographic and Baseline Characteristics
+L197: A total of 496 subjects were enrolled in Study 3084, all but 4 subjects received at least one dose of study drug. Seventy-four (15%) subjects stopped medication early and 87 (18%) discontinued from the study prematurely. The most common reason for discontinuation from study drug treatment was adverse events, occurred in 44 (9%) subjects. Patient disposition is shown in Table 16.
+L198: Table 16 Study 3084 disposition
+L199: Placebo	Reslizumab	Total
+Randomized	
+Never dosed	98	398	496
+Treated	1	3	4
+97	395	492
+Completed treatment	
+Discontinued treatment	82 (84%)	340 (85%)	422 (85%)
+16 (16%)	58 (15%)	74 (15%)
+Completed study	
+Discontinued study	79 (81%)	330 (83%)	409 (82%)
+19 (19%)	68 (17%)	87 (18%)
+Discrepancies in exacerbation history between IVRS and CRF	3 (3.1%)	11 (2.8%)	12 (2.4%)
+Analysis Datasets	
+Randomized Set	98	398	496
+Full Analysis Set	97	395	492
+Safety Set	97	395	492
+L200: IVRS: interactive voice recognition system; CRF: case report form
+L201: Source: Modified from Table 10-1 in Clinical Study Report
+L202: Selected demographic features for all randomized patients are shown in Table 17. Study 3084 enrolled only adult patients in the US. Subject demographics and baseline characteristics were generally balanced among the two treatment groups. The majority of subjects were female (64%), white (67%), and of non-Hispanic or non-Latino ethnicity (90%). The median age was 44.9 years old.
+L203: Table 17 Study 3084 demographics
+L204: Placebo
+(N=98)	Reslizumab
+(N=398)	Total
+(N=496)
+Age, years	
+n	98	398	496
+Mean	45.1	44.9	44.9
+SD	13.38	12.00	12.27
+Age group, n (%)	
+18-64 years	95 (97)	394 (99)	489 (99)
+≥65 years	3 (3)	4 (1)	7 (1)
+Gender, n (%)	
+Male	44 (45)	137 (34)	181 (36)
+Female	54 (55)	261 (66)	315 (64)
+Race, n (%)	
+White	73 (74)	260 (65)	333 (67)
+Black	21 (21)	113 (28)	134 (27)
+Asian	2 (2)	10 (3)	12 (2)
+American Indian or Alaskan Native	0	3 (<1)	3 (<1)
+Pacific Islander	2 (2)	0	2 (<1)
+Other	0	12 (3)	12 (2)
+Ethnicity, n (%)	
+Non-Hispanic and Non-Latino	90 (92)	354 (89)	444 (90)
+Hispanic or Latino	8 (8)	44 (11)	52 (10)
+Weight, kg	
+Mean	90.9	90.6	90.7
+SD	20.68	23.92	23.30
+L205: Source: Reviewer
+L206: Baseline characteristics are shown in Table 18. The distributions of clinical characteristics including airway reversibility, FEV_1, and medication use, were similar across both treatment groups. The mean and median blood eosinophil counts at baseline was 280 cells/\muL and 217 cells/\muL, respectively.
+L207: Table 18 Study 3084 disease characteristics at baseline
+L208: Placebo
+(N=98)	Reslizumab
+(N=398)	Total
+(N=496)
+Asthma exacerbation within 12 months per CRF, n (%)	
+Yes	37 (38)	166 (42)	203 (41)
+No	61 (62)	231 (58)	292 (59)
+Missing	0	1 (<1)	1 (<1)
+Number of events	n=37	n=166	n=203
+Mean	2.0	1.8	1.9
+SD	1.48	1.37	1.39
+Median	1.0	1.0	1.0
+Duration of asthma (years)	
+n=93	n=390	n=483
+Mean	25.8	26.2	26.1
+SD	16.75	15.69	15.88
+Median	23.0	23.9	23.9
+FEV1(L)	
+n=98	n=396	n=494
+Mean	2.2	2.1	2.1
+SD	0.64	0.70	0.68
+Median	2.1	2.1	2.1
+%FEV1 predicted	
+n=98	n=396	n=494
+Mean	66.5	66.8	66.7
+SD	15.53	16.26	16.10
+Median	67.0	67.0	67.0
+Airway reversibility (%)	
+n=98	n=397	n=495
+Mean	24.2	26.0	25.6
+SD	13.97	17.71	17.04
+Median	19.7	20.1	20.1
+Blood eosinophil count, x 109/L	
+n=96	n=397	n=493
+Mean	0.28	0.3	0.3
+SD	0.22	0.24	0.24
+Median	0.2	0.2	0.2
+L209: Placebo
+(N=98)	Reslizumab
+(N=398)	Total (N=496)
+FVC, liters	n=98	n=396	n=494
+Mean	3.2	3.1	3.1
+SD	0.91	0.96	0.95
+Median	3.2	2.9	3.0
+FEF, L/sec	n=96	n=393	n=489
+Mean	1.6	1.7	1.6
+SD	0.68	0.908	0.87
+Median	1.5	1.5	1.5
+ACQ score	n=98	n=396	n=494
+Mean	2.6	2.6	2.6
+SD	0.70	0.70	0.70
+Median	2.6	2.4	2.4
+Used beta agonist in past 3 days	
+Yes	76 (78)	301 (76)	377 (76)
+No	22 (22)	94 (24)	116 (23)
+Daily average number of puffs in past 3 days	n=98	n=395	n=493
+Mean	2.0	1.9	1.9
+SD	1.82	1.84	1.83
+Median	1.7	1.3	1.3
+L210: Source: Reviewer
+L211: ## 3.2.3.4 Results and Conclusions
+L212: Table 19 presents the results of primary analysis in study 3084. The linear regression model did not show a significant interaction between baseline blood eosinophil count and change in FEV_1 at week 16. The slope difference (active - placebo) was 0.3007 if measurements taken within 7 days of use of confounding medication were excluded or 0.3082 otherwise. The treatment difference between reslizumab and placebo did not appear to be related to the baseline eosinophil count.
+L213: Table 19 Linear regression analysis of change from baseline in FEV_1 at Week 16 (Study 3084)
+L214: Applicant's Analysis
+excluding some measurements	Reviewer's Analysis
+including all measurements
+Placebo
+(N=97)	Reslizumab
+(N=395)	Placebo
+(N=97)	Reslizumab
+(N=395)
+Slope estimate	-0.28	0.02	-0.28	0.03
+Slope difference	0.30	0.31
+SE	0.26	0.26
+P-value	0.241	0.229
+L215: Source: Reviewer
+L216: The key secondary variable, change from baseline in FEV_1 at Week 16, was analyzed in the overall population and in subsets of patients grouped by baseline eosinophil category using different cutoff points: 100 cells/\muL, 200 cells/\muL, 300 cells/\muL, or 400 cells/\muL. Table 20 shows the results in the overall population and subpopulation by baseline eosinophil count 'less than' or 'no less than' 400 cells/\muL, the threshold for patient inclusion into the other 3 studies (3081, 3082, and 3083). Reslizumab produced a modest treatment effect on FEV_1 in the overall population unselected for baseline eosinophil counts. No meaningful treatment effect was observed for the subset patients with a baseline eosinophil count &lt;400 cells/\muL while a 272 mL improvement above placebo was noted for patients with a baseline eosinophil level \ge400 cells/\muL. However, there were only 96 (20%) patients with baseline eosinophil count \ge400 cells/\muL. The p-value of 0.0436 should be interpreted cautiously since the primary analysis for the interaction test failed and no multiplicity was controlled in these analyses.
+L217: Table 20 Change from baseline in FEV_1 at Week 16 by baseline blood eosinophil count (Study 3084, FAS with All Measurements Included)
+L218: Variable (unit)
+Statistic	Overall	EOS <400 cells/\muL	EOS \ge400 cells/\muL
+Placebo
+(N=97)	Reslizumab
+(N=395)	Placebo
+(N=76)	Reslizumab
+(N=317)	Placebo
+(N=19)	Reslizumab
+(N=77)
+FEV_1 (L)	n=84	n=345	n=69	n=276	n=13	n=69
+Baseline mean	2.17	2.10	2.18	2.07	2.15	2.22
+LS mean change	0.19	0.25	0.21	0.24	0.00	0.27
+Treatment diff.
+(95% CI)	0.07
+(-0.03, 0.16)	0.03
+(-0.08, 0.14)	0.27
+(0.01, 0.53)
+p-value	0.186	0.568	0.044
+L219: Source: Reviewer
+L220: To further evaluate treatment effect in \text{FEV}_1 change and blood eosinophil count interaction, I plotted treatment difference of the \text{FEV}_1 change from baseline to week 16 by baseline eosinophil subgroups either in 100 cells/\mu\text{L} increment (Figure 6) or by quartiles (Figure 7). There was no apparent relationship between reslizumab treatment effect and blood eosinophil count at baseline.
+L221: Figure 6 \text{FEV}_1 Change from baseline to Week 16 by baseline eosinophil counts
+L222: Dif: Difference=Reslizumab – Placebo;
+L223: LCI: Lower bound of 95% confidence interval; UCL: Upper bound of 95% confidence interval;
+L224: Npbo: Number of placebo patients; Ntrt: Number of reslizumab-treated patients
+L225: Source: Reviewer
+L226: Figure 7 \text{FEV}_1 Change from baseline to Week 16 by quartiles of baseline eosinophil counts
+L227: Dif: Difference=Reslizumab – Placebo;
+L228: LCI: Lower bound of 95% confidence interval; UCL: Upper bound of 95% confidence interval;
+L229: Npbo: Number of placebo patients; Ntrt: Number of reslizumab-treated patients
+L230: *Source: Reviewer*
+L231: Table 21 presents the summary of ACQ, FVC, and SABA endpoints in the overall population and in subsets of patients with baseline eosinophil count either 'less than' or 'no less than' 400 cells/\muL. There was no notable treatment effect for the overall population and for patients with a baseline eosinophil count &lt;400 cells/\muL. Numerical reslizumab treatment effect was observed in patients with a baseline eosinophil level \ge400 cells/\muL. Again, interpretation of results in the \ge400 cells/\muL group should be exploratory only.
+L232: Table 21 Summary of selected secondary endpoints by baseline blood eosinophil count (Study 3084, FAS with all measurements included)
+L233: Variable (unit)
+Statistic	Overall	EOS<400 /\muL	EOS \ge400 /\muL
+Placebo
+(N=97)	Reslizumab
+(N=395)	Placebo
+(N=76)	Reslizumab
+(N=317)	Placebo
+(N=19)	Reslizumab
+(N=77)
+ACQ score	
+Baseline mean	2.57	2.56	2.56	2.57	2.68	2.50
+LS mean change	-0.65	-0.84	-0.72	-0.83	-0.37	-0.86
+Treatment diff.
+(95% CI)	-0.18
+(-0.37, 0.01)	-0.11
+(-0.32, 0.10)	-0.49
+(-1.01, 0.03)	
+p-value	0.064	0.316	0.064	
+FVC (liters)	
+Baseline mean	3.21	3.04	3.22	2.97	3.21	3.32
+LS mean change	0.23	0.25	0.25	0.25	0.06	0.23
+Treatment diff.
+(95% CI)	0.01
+(-0.10, 0.12)	-0.01
+(-0.13, 0.11)	0.18
+(-0.14, 0.49)	
+p-value	0.837	0.890	0.268	
+SABA (puffs/day)	
+Baseline mean	2.0	1.9	1.98	1.91	2.11	1.91
+LS mean change	-0.43	-0.34	-0.46	-0.22	-0.13	-0.79
+Treatment diff.
+(95% CI)	0.08
+(-0.31, 0.48)	0.23
+(-0.22, 0.68)	-0.66
+(-1.54, 0.22)	
+p-value	0.680	0.311	0.142
+L234: *Source: Reviewer*
+L235: ## 3.3 EVALUATION OF SAFETY
+L236: The safety assessment of reslizumab for asthma was derived primarily from one Phase 2 study (Res 5-0010) and four phase 3 studies (3081, 3082, 3083, and 3084) which included a total of 1870 patients of whom 1028 patients received reslizumab 3.0 mg/kg every 4 weeks.
+L237: Four deaths were reported in the reslizumab development program, three during the open-label extension study 3085 and one in the placebo arm of study 3082. None were considered to be related to study drug. Serious adverse events (SAEs) occurred with comparable frequencies between reslizumab and placebo treatment groups. The majority of the SAEs were related to asthma (2% in reslizumab 3.0 mg/kg and 3% in placebo). Anaphylaxis as a treatment-related SAE was reported in 4 patients in the reslizumab 3.0 mg/kg treatment group.
+L238: Common adverse events reported were asthma (23% in reslizumab vs 40% in placebo), nasopharyngitis (10% in reslizumab vs 14% in placebo), upper respiratory tract infections (9% in reslizumab vs 10% in placebo), headache (8% in reslizumab vs 9% in placebo), and sinusitis (6% in reslizumab vs 7% in placebo). There were no adverse events for reslizumab that occurred with a frequency 1% or higher than that of placebo. There were no trends observed in events leading to study discontinuations.
+L239: Please refer to the review by Medical Officer, Dr. Kathleen Donohue, for more detailed discussion of safety evaluation.
+L240: ## 4 FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L241: Subgroup analyses for the primary efficacy endpoint were conducted to assess the consistency of treatment effects across demographic and clinical subgroups including gender, race, age, region, number of asthma exacerbations in the prior year and use of OCS at study entry. The treatment effects were evaluated in each subgroup using the same model as used for the primary analysis. Since these were descriptive analyses, overall Type I error was not controlled. Results from studies 3081, 3082, and 3083 are presented in this section. Subgroup analysis was not performed for study 3084 since its primary objective was to characterize the efficacy of reslizumab treatment in relation to baseline blood eosinophil levels and the primary analysis failed.
+L242: The conclusions were generally consistent with those from the overall study population. The efficacy of reslizumab treatment was supported by most subgroup analyses of FEV_1 change from baseline or frequency of asthma exacerbation. For some subgroups, results were less favorable and interpretation should be treated with caution due to the small number of subjects in those subgroups.
+L243: ## 4.1 Gender, Race, Age, and Geographic Region
+L244: Number of patients in selected demographic subgroups is listed in Table 22.
+L245: Table 22 Sample sizes for particular demographics
+L246: Category	Study
+3081*	3082	3083
+Randomized	315	489	464
+12 to 17 years old	15 (5%)	13 (3%)	12 (3%)
+Male	132 (42%)	186 (38%)	170 (37%)
+African American	18 (6%)	34 (7%)	10 (2%)
+USA	115 (37%)	74 (15%)	31 (7%)
+L247: *including patients in the 0.3 mg/kg reslizumab group.
+L248: Source: Reviewer
+L249: For Study 3081, the estimated treatment difference (reslizumab 3.0 mg/kg - placebo) in FEV_1 change from baseline over 16 weeks is summarized according to gender, age, race, and geographic region in Figure 8. While most subgroup comparisons showed treatment benefit, point estimates for differences observed for patients aged 12 to 17 or at least 65 years old favored placebo.
+L250: Figure 8 FEV_1 Change from baseline over 16 weeks by demographics (Study 3081)
+L251: Dif: Difference=Reslizumab – Placebo;
+L252: LCL: Lower bound of 95% confidence interval; UCL: Upper bound of 95% confidence interval;
+L253: Npbo: Number of placebo patients; Ntrt: Number of reslizumab-treated patients
+L254: Source: Reviewer
+L255: For the exacerbation studies 3082 and 3083, the estimated rate ratios for different demographic subgroups during the 52 weeks treatment period are displayed in Figures 9 and 10. Results for most subgroup analyses are consistent with those for the overall population. However, the reslizumab-versus-placebo exacerbation rate ratios were greater than 1 for patients aged 12 to 17 years of age (study 3082), African American patients or patients enrolled in the US (study 3083) suggesting that reslizumab did not reduce the frequency of exacerbations in these subgroups. Interpretation of these results, however, is limited due to the small number of patients in these groups combined with lack of duplication between the two studies.
+L256: Figure 9 Exacerbation rate ratios by demographics (Study 3082)
+L257: RR=Reslizumab versus Placebo;
+L258: LCL: Lower bound of 95% confidence interval; UCL: Upper bound of 95% confidence interval;
+L259: Npbo: Number of placebo patients; Ntrt: Number of reslizumab-treated patients
+L260: Source: Reviewer
+L261: Figure 10 Exacerbation rate ratios by demographics (Study 3083)
+L262: RR=Reslizumab versus Placebo;
+L263: LCL: Lower bound of 95% confidence interval; UCL: Upper bound of 95% confidence interval;
+L264: Npbo: Number of placebo patients; Ntrt: Number of reslizumab-treated patients
+L265: Source: Reviewer
+L266: ## 4.2 Other Special/Subgroup Population
+L267: In Study 3081, randomization of patients was stratified by age and history of asthma exacerbation within the past 12 months (yes or no). The primary efficacy endpoint was further analyzed by asthma history subgroups and the estimated treatment difference (reslizumab 3.0 mg/kg - placebo) in FEV_1 change from baseline over 16 weeks results is graphically displayed in Figure 11. Asthma history did not appear to influence the treatment effect of reslizumab 3.0 mg/kg on FEV_1. Reslizumab increased the FEV_1 change from baseline over 16 weeks regardless of the occurrence of exacerbations within the past 12 months.
+L268: Figure 11 FEV_1 Change from Baseline over 16 weeks by asthma history (Study 3081)
+L269: Asthma (IRT): history of asthma exacerbation within the past 12 months according to the interactive voice recognition system
+L270: Asthma (CRF): history of asthma exacerbation within the past 12 months according to the case report form.
+L271: Dif=Reslizumab - Placebo;
+L272: LCL: Lower bound of 95% confidence interval; UCL: Upper bound of 95% confidence interval;
+L273: Npbo: Number of placebo patients; Ntrt: Number of reslizumab-treated patients
+L274: Source: Reviewer
+L275: In Studies 3082 and 3083, randomization of patients was stratified by geographic region and baseline OCS use (yes or no). The primary efficacy endpoint was further analyzed by OCS use subgroups and the estimated rate ratio (reslizumab versus placebo) during the 52-week treatment period is graphically displayed in Figures 12 and 13. Consistent with the results in overall population, the rate of exacerbations in reslizumab 3.0 mg/kg-treated patients was reduced compared with placebo-treated patients and the magnitude of reduction was more pronounced in those taking OCS at baseline.
+L276: Figure 12 Exacerbation rate ratios by baseline OCS use (Study 3082)
+L277: OCS use (IRT): Use of oral corticosteroid at baseline according to the interactive voice recognition system
+OCS use (CRF): Use of oral corticosteroid at baseline according to the case report form.
+L278: RR=Reslizumab versus Placebo;
+L279: LCL: Lower bound of 95% confidence interval; UCL: Upper bound of 95% confidence interval;
+L280: Npbo: Number of placebo patients; Ntrt: Number of reslizumab-treated patients
+L281: Source: Reviewer
+L282: Figure 13 Exacerbation rate ratios by baseline OCS use (Study 3083)
+L283: OCS use (IRT): Use of oral corticosteroid at baseline according to the interactive voice recognition system
+OCS use (CRF): Use of oral corticosteroid at baseline according to the case report form.
+L284: RR=Reslizumab versus Placebo;
+L285: LCL: Lower bound of 95% confidence interval; UCL: Upper bound of 95% confidence interval;
+L286: Npbo: Number of placebo patients; Ntrt: Number of reslizumab-treated patients
+L287: Source: Reviewer
+L288: ## 5 SUMMARY AND CONCLUSIONS
+L289: ## 5.1 STATISTICAL ISSUES AND COLLECTIVE EVIDENCE
+L290: This submission contains four Phase 3 studies which evaluated the efficacy and safety of reslizumab 3.0 mg/kg in patients with moderate to severe asthma. Efficacy conclusions are derived from studies 3082 and 3083 with an asthma exacerbation primary endpoint and studies 3081 and 3084 with an FEV_1 primary endpoint. Because of two doses (study 3081) and multiple endpoints in each individual trial, a fixed sequence multiple testing procedure was applied to control the overall Type I error rate.
+L291: Results from studies 3082 and 3083 were very similar; both demonstrated superiority of reslizumab relative to placebo in reduction of clinical exacerbation frequencies over 52 weeks of treatment period. In study 3082, treatment with reslizumab resulted in statistically significant reduction of 50% in all exacerbations and 55% to 56% in exacerbations requiring oral or systemic corticosteroid therapy. In study 3083, reslizumab therapy led to statistically significant reduction of 59% in all exacerbations and 60% to 61% in exacerbations requiring oral or systemic corticosteroid use. Reslizumab treatment decreased the frequency of events resulting in hospitalization or emergency room visits in both studies although the effect above placebo was not statistically significant. Evidence from other endpoints was generally supportive. Reslizumab consistently improved multiple measures of current asthma control, including lung function (FEV_1), asthma symptoms (ACQ), and an asthma-related quality-of-life measure (AQLQ) compared with placebo.
+L292: Study 3081 examined two doses of reslizumab (0.3 mg/kg and 3.0 mg/kg) although it did not serve the purpose of dose selection for studies 3082 and 3083. The FEV_1 change from baseline over 16 weeks was statistically significantly improved as a result of reslizumab treatment, by 115 mL with 3.0 mg/kg and 160 mL with 0.3 mg/kg, compared to placebo. Both doses demonstrated efficacy with respect to lung function as measured by FEV_1. Additionally reslizumab treatment groups demonstrated improvements in both ACQ and AQLQ.
+L293: Study 3084 evaluated the potential influence of blood eosinophil counts on FEV_1 change in patients unselected for blood eosinophil counts at screening. The study found no statistical significant association between baseline blood eosinophil counts and treatment effect (p-value&gt;0.10 for the interaction term). Unlike the other 3 studies, only 66 mL mean improvement over placebo was observed in FEV_1 change from baseline to Week 16. The clinical study report consistently referred to a threshold of 400 cells/\muL, emphasizing that no meaningful benefit (mean increase of 31 mL) in subset of patients with blood eosinophil counts &lt;400 cells/\muL versus a large treatment effect (mean increase of 270 mL) in subset of patients with blood eosinophil counts \ge400 cells/\muL. This could be misleading since the primary analysis of interaction test failed and there were only 96 (20%; 19 placebo and 77 reslizumab) patients with baseline blood eosinophil counts \ge400 cells/\muL. In fact, the applicant used several eosinophil thresholds (100 cells/\muL, 200 cells/\muL, 300 cells/\muL, or 400 cells/\muL) and no multiplicity was controlled in these analyses. When the point estimates of FEV_1 change from baseline to Week 16 were plotted for baseline eosinophil subgroups either in 100 cells/\muL increment or by quartiles,
+L294: there was no apparent relationship between reslizumab treatment effect and blood eosinophil count at baseline which was consistent with the results from interaction test.
+L295: While subgroup analyses were generally in line with the overall population, evidence of efficacy was less notable in patient groups with low enrollment. In studies 3082 and 3083, an increase in asthma exacerbation rates was observed following reslizumab treatment in adolescent, African American, and US patients. In study 3081, treatment effect was not observed for adolescent or patients at least 65 years of age. Subgroup analysis was not performed for study 3084.
+L296: The applicant performed sensitivity analyses using a multiple imputation method and a tipping-point sensitivity analysis. All results were consistent with the primary analysis results. For studies 3082 and 3083, analysis with an intention to address stratification errors led to consistent results demonstrating efficacy for reslizumab. For studies 3081 and 3084, analysis including or excluding measurements due to prohibited medication generated the same conclusion on benefit of reslizumab treatment.
+L297: ## 5.2 CONCLUSIONS AND RECOMMENDATIONS
+L298: Three randomized, placebo-controlled, double-blinded, parallel-group studies provided strong evidence that compared to placebo, reslizumab reduces the rate of clinical exacerbations and improves lung function in adult patients with asthma whose symptoms are inadequately controlled on inhaled corticosteroids.
+L299: A single randomized, placebo-controlled, double-blinded study in patients unselected for blood eosinophil counts failed to show any association between screening blood eosinophil counts and treatment effect for lung function improvement. However, the study might not be adequately designed or powered to detect such an association.
+L300: Efficacy was less notable for certain subgroups with low enrollment, such as adolescents or patients aged 65 years or older, African American, and patients from the US in selected studies.
+L301: ## 5.3 LABELING RECOMMENDATIONS
+L302: The focus of the labeling review will be on Sections 14 Clinical Studies. Edits to the labeling are pending. Based on the preliminary review of the proposed labeling, I have the following comments for consideration on Section 14:
+L303: - **Exacerbations:** Remove the sentences about exacerbations requiring the use of a systemic corticosteroid or resulting in hospitalization or an emergency room visit. These comparisons were not considered statistically significant per hierarchical multiplicity adjustment testing procedure. Keep results for all exacerbations in Table 3 only.
+- **Lung Function:** (b) (4)
+L304: (b) (4)
+L305: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L306: /s/
+L307: LAN ZENG
+01/15/2016
+L308: FREDA COONER
+01/15/2016
+I concur.
+L309: FDA Seal/Logo
+L310: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L311: ## STATISTICAL REVIEW AND EVALUATIONCARCINOGENICITY STUDIES
+L312: **NDA/BLA #:** BLA761033/S-0000 (IND (b) (4) 101399)
+
+**Drug Name:** CEP-38072 (reslizumab), 3 mg/kg injection
+
+**Indication(s):** To reduce exacerbations, relieve symptoms and improve lung function in adults and adolescents (12 years of age and above) with asthma and elevated blood eosinophils who are inadequately controlled on inhaled corticosteroids
+
+**Applicant:** Teva Branded Pharmaceutical Products R&amp;D, Inc. (Teva)
+41 Moores Road, P.O. Box 4011, Frazer, PA 19355, USA
+
+**Laboratory:** (b) (4)
+
+**Date(s):** Received 3/29/2015; Desired Completion Date: 6/16/2015
+
+**Documents Reviewed:** Study DS-2012-005 (mice) reports and electronic datasets submitted with the electronic submission on 3/29/2015 (via S-0000).
+
+**Review Priority:** Priority Review
+
+**Biometrics Division:** Division of Biometrics VI
+
+**Statistical Reviewer:** Feng Zhou, M.S.
+
+**Concurring Reviewers:** Karl Lin, Ph.D. Team Leader
+
+**Medical Division:** Division of Pulmonary, Allergy, and Rheumatology Products (DPARP)
+
+**Pharmacology Team:** Carol Galvis, Ph.D; Marcie Wood, Ph.D
+
+**Project Manager:** Colette Jackson
+
+**Keywords:** Carcinogenicity, Dose response
+L313: ## Table of Contents
+L314: 1	SUMMARY	3
+2	BACKGROUND	4
+3	MOUSE STUDY	4
+3.1	SPONSOR'S ANALYSES	4
+3.1.1	Survival Analysis	4
+3.1.2	Tumor Data Analysis	5
+3.2	REVIEWER'S ANALYSES	6
+3.2.1	Survival Analysis	6
+3.2.2	Tumor Data Analysis	6
+4	CONCLUSION	7
+5	APPENDIX	9
+Table 1A: Intercurrent Mortality – Male Mice	9
+Table 1B: Intercurrent Mortality - Female Mice	9
+Table 2A: Intercurrent Mortality Comparison – Male Mice	9
+Table 2B: Intercurrent Mortality Comparison – Female Mice	9
+Table 3A: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons – Male Mice	9
+Table 3B: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons – Female Mice	10
+Table 4A: Tumor Rates and P-Values for Comparisons between Vehicle Control and Positive Control– Male Mice	10
+Table 4B: Tumor Rates and P-Values for Comparisons between Vehicle Control and Positive Control– Female Mice	10
+Figure 1A: Kaplan-Meier Survival Functions for Male Mice	11
+Figure 1B: Kaplan-Meier Survival Functions for Female Mice	11
+6	REFERENCES	12
+L315: ## 1 Summary
+L316: This review evaluates statistically the tumorigenicity data of a 26-week intravenous carcinogenicity study of CEP-38072 in rasH2 mice. The review analyzes the dose-response relationship of tumor incidence and mortality (including tumor-related mortality). Tumor analyses consisted of trend analyses for dose-response relationship in tumor incidence and pairwise comparisons in tumor incidence among groups. The review concludes that CEP-38072 at high doses decreased survival in female mice, but drug has no effects on tumor incidence in either sex in rasH2 mice.
+L317: **Mouse Study:** Mice (25/sex/dose) were dosed by intravenous injection with CEP-38072 once every 2 weeks for up to 26 weeks. The CEP-38072 dose was 0, 100, 250, or 516-mkd in the vehicle control (VC), low (LD), mid (MD) and high-dose (HD) groups, respectively, in both sexes. Dosing volume was 5 mL/kg in each group. Another group was dosed by the intraperitoneal injection with a single-dose of 75-mkd N-methyl-N-nitrosourea on Day 1 to serve as the positive control (PC).
+L318: Survival analysis showed that the HD female group had a statistically significant increase in mortality when compared to the VC (p=0.038). The trend test showed a statistically significant dose response in mortality among all the treatment groups excluding the PC group in females (p=0.016). The mortality was unaffected in males. The respective survival rates in the VC, LD, MD, HD, PC groups at the termination (Week 27) were 88%, 100%, 96%, 92%, and 52% in males and 100%, 100%, 96%, 88%, and 60% in females. The PC groups in both sexes showed statistically significant increases in mortality when compared with the VC (p &lt; 0.001).
+L319: Results of the tumor analysis showed no statistically significant dose responses in tumor incidence among treatment groups or pairwise differences in tumor incidence between the vehicle control and CEP-38072 treatment groups in any organ in either sex. The PC group showed statistically significant increases in the incidence of a number of tumors in both males and females (p&lt;0.05), when compared to the VC. Those tumors included lymphosarcoma in the whole body, squamous papilloma, carcinoma in the stomach in males, and lymphosarcoma in the whole body, squamous papilloma in the stomach and skin, and endometrial polyp in uterus in females.
+L320: ## 2 Background
+L321: The sponsor conducted a 26-week intravenous carcinogenicity study to evaluate the oncogenic potential of the test article, CEP-38072, when administered once every 2 weeks via intravenous injection to 001178-T (hemizygous) CByB6F1-Tg(HRAS)2Jic mice (rasH2 mice). This reviewer analyzed the SAS data sets of these studies received on 3/29/2015 via submission BLA761033/S0000. The statistical evaluation of survival data and tumor incidence included in the sponsor's report was performed by
+L322: (b) (4)
+L323: The phrase "dose response relationship" refers to the linear component of the effect of treatment, and not necessarily to a strictly increasing or decreasing mortality or tumor incidence rate as dose increases. The mg/kg/day will be referred to as mkd. Results of this review have been discussed with the reviewing pharmacologist Dr. Carol Galvis.
+L324: ## 3 Mouse Study
+L325: **Study Report: DS-2012-005.pdf; SAS data: tumor.xpt**
+L326: This study assessed the carcinogenic potential of CEP-38072 in male and female rasH2 mice. The test material was administered at doses of 0, 100, 250, or 516 mkd of CEP-38072 once every 2 weeks by intravenous injection for at least 26 weeks. This review refers these dose groups as the vehicle control (VC), low (LD), mid (MD), and high (HD) dose groups, respectively. These four groups were dosed intravenously at a dose volume of 5 mL/kg. There was one positive control (PC) which was dosed with one intraperitoneal dose of N-methyl-N-nitrosourea on Day 1 at a dose level of 75 mg/kg/day and a dose volume of 10 mL/kg. These animals were included as a positive control to ensure animals supplied appropriately express oncogene and respond to carcinogenic insult. There were 25 mice/sex/dose.
+L327: Assessment of oncogenicity was based on survival, and clinical and anatomic pathology.
+L328: ## 3.1 Sponsor's Analyses
+L329: ## 3.1.1 *Survival Analysis*
+L330: The sponsor analyzed the survival data using the National Cancer Institute (NCI) Life Table Package (Thomas et al., 1977). Week 27 of the dosing phase was defined as the end of the study in the NCI package for males and females. The methods consisted of the Cox-Tarone binary regression and the Gehan-Breslow nonparametric test on life tables. Additionally, Kaplan-Meier product-limit estimate survival curves were produced for graphical evaluation of survival. One-sided tail probabilities for trend and group comparisons were evaluated at the 0.05 significance level.
+L331: **Sponsor's findings:** The sponsor reported that the positive control group showed higher mortality than the vehicle control group in male mice (p=0.0071 by the Cox-Tarone test and p=0.0043 by the Gehan-Breslow tests). A significant decrease was observed for LD group compared to VC group (p=0.0396 by the Gehan-Breslow test, p=0.1169 by the Cox-Tarone test). In females, the positive control group showed higher mortality than the VC group (p=0.0007 by the Cox-Tarone test and p=0.0002 by the Gehan-Breslow tests). A significant positive trend was observed (p=0.0078 by Cox-Tarone, and p=0.0080 by Gehan-Breslow) with the HD group showing a significant increase compared to VC group (p=0.0369 by the Gehan-Breslow test, p=0.1169 by the Cox-Tarone test).
+L332: ## The Sponsor's Report of Total Unscheduled Deaths (n=25/sex/dose group)
+## Males
+L333: Group	1	2	3	4	5^
+Dose (mg/kg/day)	0	100	250	516	75
+Unadjusted Mortality (Rate)	3/25
+0.120	0/25
+0.000	1/25
+0.040	2/25
+0.080	12/25
+0.480
+Adjusted Mortality	
+Kaplan-Meier Estimate (Final)	0.120	0.000	0.040	0.080	0.480
+Standard Error	0.065	0.000	0.039	0.054	0.100
+^ = Positive Control
+Cox-Tarone Test	Gehan-Breslow Test
+1 versus 5 p-value (one-sided)	0.0071+**	0.0043+**
+1 versus 2-4 p-value (one-sided)	0.4722+	0.4667-
+1 versus 2 p-value (one-sided)	0.1169-	0.0396-*
+1 versus 3 p-value (one-sided)	0.3012-	0.1587-
+1 versus 4 p-value (one-sided)	0.4848-	0.3108-
+L334: ## Females
+L335: Group	1	2	3	4	5^
+Dose (mg/kg/day)	0	100	250	516	75
+Unadjusted Mortality (Rate)	0/25
+0.000	0/25
+0.000	1/25
+0.040	3/25
+0.120	10/25
+0.400
+Adjusted Mortality	
+Kaplan-Meier Estimate (Final)	0.000	0.000	0.040	0.120	0.400
+Standard Error	0.000	0.000	0.039	0.065	0.098
+^ = Positive Control
+Cox-Tarone Test	Gehan-Breslow Test
+1 versus 5 p-value (one-sided)	0.0007+**	0.0002+**
+1 versus 2-4 p-value (one-sided)	0.0078+**	0.0080+**
+1 versus 2 p-value (one-sided)	NA	NA
+1 versus 3 p-value (one-sided)	0.5000+	0.1636+
+1 versus 4 p-value (one-sided)	0.1169+	0.0396+*
+L336: * = Significant at 5% level; ** = Significant at 1% level.
+L337: + = Effect in the increased direction.
+L338: NA = Not applicable.
+L339: [Source: page 1004 of study report of DS-2012-005.pdf]
+L340: ## 3.1.2 Tumor Data Analysis
+L341: The sponsor analyzed the tumor incidence data using the International Agency for Research on Cancer (IARC) asymptotic fixed interval-based prevalence test (Peto et al., 1980). The cutoff points for the interval-based test were Weeks 0 through 13, 14 through before terminal sacrifice, and terminal sacrifice. The test was implemented using PROC MULTTEST in SAS (SAS, 2002-2008). In the case of sparse tables (&lt;10 total tumor bearing animals in all groups combined), the exact form of the test was used. Only the cases where there were two or more tumor bearing animals in any treated group over vehicle control were analyzed. One-sided probabilities for positive trends and two-sided probabilities for negative trends in common (background incidence rate &gt;1%) and rare (background incidence rate &lt;1%) tumors (if applicable) defined by the principal investigator for anatomic pathology were evaluated at the 0.01 and 0.05 significance levels, respectively. High-dose group comparisons with the vehicle control group in common and rare tumors were evaluated at the 0.01 and 0.05 significance levels, respectively (FDA Draft Guidance for Industry, 2001). Other intermediate, pairwise, one-sided group comparisons were evaluated at the 0.05 significance level. Benign and malignant neoplastic lesions were evaluated separately and combined, where appropriate. The criterion for tumor combinations was based on the work of McConnell et al. (McConnell et al., 1986).
+L342: Nominal dose levels of 0, 100, 250, and 516 mkd were used in the analyses for Groups 1, 2, 3, and 4, respectively. For all analyses, the trend test was conducted on Groups 1 through 4, and the two sexes were kept separate.
+L343: **Sponsor's findings:** No statistically significant findings in males or females were observed. The sponsor concluded that administration of the test article was associated with significantly higher mortality in treated animals in females based on the significant trend test and the significant increase for HD group compared to VC group. All male groups were unaffected in terms of mortality, except that the LD group showed a slightly significant decrease in mortality when compared to VC group. No statistically significant findings of neoplastic lesions were observed in males or females.
+L344: ## 3.2 Reviewer's Analyses
+L345: To verify the sponsor's analyses and to perform additional analyses suggested by the reviewing pharmacologist, this reviewer performed survival and tumor data analyses using data submitted electronically in submission BLA 761033 on 3/29/2015 (via S-0000).
+L346: ## 3.2.1 Survival Analysis
+L347: The Kaplan-Meier curves for survival rates of all treatment groups are given in Figures 1A and 1B in the appendix for male and female mice, respectively. The intercurrent mortality data of all treatment groups are given in Tables 1A and 1B in the appendix for male and female mice, respectively. Results of the tests for dose response relationship and homogeneity of survivals for control, low, medium, and high dose groups are given in Tables 2A and 2B in the appendix for male and female mice, respectively.
+L348: **Reviewer's findings:** Survival analysis showed that the HD female group had a statistically significant increase in mortality when compared to the VC (p=0.038). The trend test showed statistically significant increase mortality among all treatment groups excluding the PC group in females (p=0.016). The mortality was unaffected in males. The respective survival rates in the VC, LD, MD, HD, PC groups at the termination (Week 27) were 88%, 100%, 96%, 92%, and 52% in males and 100%, 100%, 96%, 88%, and 60% in females. The PC groups in both sexes showed statistically significant increases in mortality than the VC (p &lt; 0.001).
+L349: **Reviewer's comment:** A male mouse (#A74803 in positive control) died naturally during its respective terminal sacrifice week (27 week). This male mouse had fatal tumor of M-Lymphosarcoma. This reviewer counted them as dead before at week 26. Both the sponsor and this reviewer reached the same conclusion for the survival analysis.
+L350: ## 3.2.2 Tumor Data Analysis
+L351: The tumor data were analyzed for dose response relationships and pairwise comparisons of control group with each of the treated groups. Both the dose response relationship tests and pairwise comparisons were performed using the Poly-k method described in the paper of Bailer and Portier (1988) and Bieler and Williams (1993). In this method an animal in a treatment group that lives the full study period (w_{max}) or dies before the terminal sacrifice but develops the tumor type being tested gets a score of s_h = 1. An animal in the treatment group that dies at week w_h without developing the tumor before the end of the study gets a score of s_h = \left(\frac{w_h}{w_{max}}\right)^k &lt; 1. The adjusted group size is defined as \Sigma s_h. As an interpretation, an animal with score s_h = 1 can be considered as a whole animal while an animal with
+L352: score s_h &lt; 1 can be considered as a partial animal. The adjusted group size \Sigma s_h is equal to N (the original group size) if all animals live up to the end of the study or if each animal that dies before the terminal sacrifice develops the given tumor type being tested, otherwise the adjusted group size is less than N. These adjusted group sizes are then used for the dose response relationship (or the pairwise) tests using the Cochran-Armitage test. One critical point for Poly-k test is the choice of the appropriate value of k, which depends on the tumor incidence pattern with the increased dose. For long term 104 week standard rat and mouse studies, a value of k=3 is suggested in the literature. Hence, this reviewer used k=3 for the analysis of this data. For the calculation of p-values the exact permutation method was used. The tumor rates and the p-values of the tested tumor types are listed in Tables 3A and 3B in the appendix for male and female mice, respectively. The tumor rates and the p-values of the comparisons between the vehicle control and positive control are listed in Tables 4A and 4B in the appendix for male and female mice, respectively.
+L353: **Multiple testing adjustment:** For the adjustment of multiple testing of dose response relationship, the FDA guidance for the 26 weeks transgenic mouse study design and data analysis suggests the use of test levels \alpha=0.05 for both the trend tests and the pairwise comparisons regardless a tumor type is common or rare.
+L354: **Reviewer's findings:** Based on the criteria of adjustment for multiple testing discussed above, results of the tumor analysis showed no statistically significant dose response in tumor incidence among the treatment groups excluding the PC group or pairwise difference in tumor incidence in any organs between the vehicle control and CEP-38072 treated groups in either sex. The PC group showed statistically significant increases in the incidence of a number of tumors in both males and females (p&lt;0.05), when compared to the VC. Those tumor types included lymphosarcoma in the whole body, squamous papilloma, carcinoma in the stomach in males, and lymphosarcoma in the whole body, squamous papilloma in the stomach and skin, and endometrial polyp in uterus in females.
+L355: ## Tumor Types with P-Values \le 0.05 for Pairwise Comparisons of VC and PC in Male Mice
+L356: Organ Name	Tumor Name	0 mg/kg/day
+VC (N=25)	75 mg/kg/day
+PC (N=25)	P-Value
+VC vs. PC
+Body, Whole/Cav	M-Lymphosarcoma	<0.001*
+Stomach, Nongla	B-Papilloma, squamou	0	18	<0.001*
+M-Carcinoma, squamou	1	10	0.0017*
+L357: *Indicated the significant at 0.05 alpha levels.
+L358: ## Tumor Types with P-Values \le 0.05 for Pairwise Comparisons of VC and PC in Female Mice
+L359: Organ Name	Tumor Name	0 mg/kg/day
+VC (N=25)	75 mg/kg/day
+PC (N=25)	P-Value
+VC vs. PC
+Body, Whole/Cav	M-Lymphosarcoma	0	8	<0.001*
+Skin/Subcutis	B-Papilloma, squamou	0	13	<0.001*
+Stomach, Nongla	B-Papilloma, squamou	0	18	<0.001*
+B-Polyp, endometrial	0	5	0.0107*
+L360: *Indicated the significant at 0.05 alpha levels.
+L361: ## 4 Conclusion
+L362: This review evaluates statistically the tumorigenicity data of a 26-week intravenous carcinogenicity study of CEP-38072 in rasH2 mice. The review analyzes the dose-response relationship of tumor incidence and mortality (including tumor-related mortality). Tumor analyses consisted of trend analyses for dose-response relationship in tumor incidence and pairwise comparisons in tumor incidence among groups. The review concludes that CEP-38072 at high doses decreased survival in female mice, but drug has no effects on tumor incidence in either sex in rasH2 mice.
+L363: File Name: BLA761033Carcin_DARRTS.doc
+L364: **Mouse Study:** Mice (25/sex/dose) were dosed by intravenous injection with CEP-38072 once every 2 weeks for up to 26 weeks. The CEP-38072 dose was 0, 100, 250, or 516-mkd in the vehicle control (VC), low (LD), mid (MD) and high-dose (HD) groups, respectively, in both sexes. Dosing volume was 5 mL/kg in each group. Another group was dosed by the intraperitoneal injection with a single-dose of 75-mkd N-methyl-N-nitrosourea on Day 1 to serve as the positive control (PC).
+L365: Survival analysis showed that the HD female group had a statistically significant increase in mortality when compared to the VC (p=0.038). The trend test showed a statistically significant dose response in mortality among all the treatment groups excluding the PC group in females (p=0.016). The mortality was unaffected in males. The respective survival rates in the VC, LD, MD, HD, PC groups at the termination (Week 27) were 88%, 100%, 96%, 92%, and 52% in males and 100%, 100%, 96%, 88%, and 60% in females. The PC groups in both sexes showed statistically significant increases in mortality when compared with the VCs (p &lt; 0.001).
+L366: Results of the tumor analysis showed no statistically significant dose responses in tumor incidence among treatment groups or pairwise differences in tumor incidence between the vehicle control and CEP-38072 treatment groups in any organ in either sex. The positive control group (PC) showed statistically significant increases in the incidence of a number of tumors in both males and females (p&lt;0.05), when compared to the VC. Those tumors included lymphosarcoma in the whole body, squamous papilloma, carcinoma in the stomach in males, and lymphosarcoma in the whole body, squamous papilloma in the stomach and skin, and endometrial polyp in uterus in females.
+L367: Feng Zhou, M.S.
+Mathematical Statistician
+L368: Concurring Reviewer: Karl Lin, Ph.D., Team Leader, Biometrics-6
+L369: cc:
+Dr. Carol Galvis
+Dr. Marcie Wood
+Dr. Tsong
+Ms. Zhou
+Dr. Lin
+Ms. Patrician
+L370: ## 5 Appendix
+L371: **Table 1A: Intercurrent Mortality – Male Mice**
+L372: Week	0 mg/kg/day (n=25)	100 mg/kg/day (n=25)	250 mg/kg/day (n=25)	516 mg/kg/day (n=25)	Positive control
+75 mg/kg/day (n=25)
+No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %
+0 – 26	3	12.00	0	0	1	4.00	2	8.00	12	48.00
+Ter. Sac.	22	88.00	25	100.00	24	96.00	23	92.00	13	52.00
+L373: * Cum. %: Cumulative percentage except for Ter. Sac.
+L374: **Table 1B: Intercurrent Mortality - Female Mice**
+L375: Week	0 mg/kg/day (n=25)	100 mg/kg/day (n=25)	250 mg/kg/day (n=25)	516 mg/kg/day (n=25)	Positive control
+75 mg/kg/day (n=25)
+No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %
+0 – 26	0	0	0	0	1	4.00	3	12.00	10	40.00
+Ter. Sac.	25	100.00	25	100.00	24	96.00	22	88.00	15	60.00
+L376: **Table 2A: Intercurrent Mortality Comparison – Male Mice**
+L377: Test	Statistic	P-Value
+Compared to VC	P-Value
+Compared to PC
+Dose-Response	Likelihood Ratio	0.9593	<0.0001
+Homogeneity	Log-Rank	0.3203	<0.0001
+L378: **Table 2B: Intercurrent Mortality Comparison – Female Mice**
+L379: Test	Statistic	P-Value
+Compared to VC	P-Value
+Compared to PC
+Dose-Response	Likelihood Ratio	0.0162	<0.0001
+Homogeneity	Log-Rank	0.1042	0.0001
+L380: **Table 3A: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons – Male Mice**
+L381: Organ Name	Tumor Name	0, 100, 250, 516 mg/kg/day	P-Value
+0 mg/kg/day
+VC
+N=25	100 mg/kg/day
+LD
+N=25	250 mg/kg/day
+MD
+N=25	516 mg/kg/day
+HD
+N=25	Dose
+Response	VC vs.
+LD	VC vs.
+MD	VC vs.
+HD
+Body,
+Whole/Cav	B-Hemangioma	0	0	1	0	0.5000	.	0.5106	.
+M-Hemangiosarcoma	3	1	1	2	0.5640	0.7110	0.7110	0.5000
+M-Lymphosarcoma	0	0	0	1	0.2577	.	.	0.5208
+Harderian Gland	B-Adenoma	0	0	1	1	0.1868	.	0.5106	0.5106
+Liver	B-Adenoma, hepatocel	0	1	0	0	0.5000	0.5208	.	.
+Lung	B-Adenoma, bronchiol	2	2	2	1	0.7149	0.3369	0.3206	0.5319
+M-Carcinoma, bronchi	1	0	0	1	0.4395	0.5208	0.5106	0.2553
+Stomach,
+Nongla	M-Carcinoma,
+squamous	1	0	0	0	0.7526	0.5102	0.5000	0.5000
+L382: **Table 3B: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons – Female Mice**
+L383: Organ Name	Tumor Name	0	100	250	516	Dose Response	P-Value
+mg/kg/day
+VC
+N=25	mg/kg/day
+LD
+N=25	mg/kg/day
+MD
+N=25	mg/kg/day
+HD
+N=25	VC vs. LD	VC vs. MD	VC vs. HD
+Body, Whole/Cav	B-Hemangioma	0	1	0	1	0.2964	0.5000	.	0.4792
+M-Hemangiosarcoma	2	0	3	1	0.4861	0.7551	0.5000	0.4681
+Harderian Gland	B-Adenoma	2	0	3	0	0.7407	0.7551	0.4800	0.7340
+M-Carcinoma	1	1	0	0	0.8013	0.7551	0.4898	0.4792
+Lung	B-Adenoma, bronchiol	1	1	0	1	0.4298	0.7551	0.4898	0.7340
+M-Carcinoma, bronchi	1	2	0	1	0.5975	0.5000	0.4898	0.7449
+Vagina	B-Papilloma, squamou	0	1	0	0	0.4845	0.5000	.	.
+L384: **Table 4A: Tumor Rates and P-Values for Comparisons between VC and PC– Male Mice**
+L385: Organ Name	Tumor Name	0 mg/kg/day
+VC (N=25)	75 mg/kg/day
+PC (N=25)	P-Value
+VC vs. PC
+Body, Whole/Cav	B-Hemangioma	0	0	.
+M-Hemangiosarcoma	3	0	0.8360
+M-Lymphosarcoma	0	9	<0.001*
+Harderian Gland	B-Adenoma	0	0	.
+Liver	B-Adenoma, hepatocel	0	0	.
+Lung	B-Adenoma, bronchiol	2	0	0.7062
+M-Carcinoma, bronchi	1	1	0.7062
+Skin/Subcutis	B-Papilloma, squamou	0	3	0.0924
+Stomach, Nongla	B-Papilloma, squamou	0	18	<0.001*
+M-Carcinoma, squamou	1	10	0.0017*
+L386: *Indicated the significant at 0.05 alpha levels.
+L387: **Table 4B: Tumor Rates and P-Values for Comparisons between VC and PC– Female Mice**
+L388: Organ Name	Tumor Name	0 mg/kg/day
+VC (N=25)	75 mg/kg/day
+PC (N=25)	P-Value
+VC vs. PC
+Body, Whole/Cav	B-Hemangioma	0	1	0.4048
+M-Hemangiosarcoma	2	5	0.0952
+M-Lymphosarcoma	0	8	<0.001*
+Harderian Gland	B-Adenoma	2	0	0.6516
+M-Carcinoma	1	0	0.4048
+Lung	B-Adenoma, bronchiol	1	0	0.4048
+M-Carcinoma, bronchi	1	0	0.4048
+Skin/Subcutis	B-Papilloma, squamou	0	13	<0.001*
+M-Carcinoma, squamou	0	1	0.4048
+Stomach, Nongla	B-Papilloma, squamou	0	18	<0.001*
+M-Carcinoma, squamou	0	3	0.0803
+Thymus	M-Malignant thymoma	0	1	0.4048
+Uterus	B-Polyp, endometrial	0	5	0.0107*
+Vagina	B-Papilloma, squamou	0	2	0.1580
+M-Carcinoma, squamou	0	3	0.0592
+L389: *Indicated the significant at 0.05 alpha levels.
+L390: Figure 1A: Kaplan-Meier Survival Functions for Male Mice
+L391: Note: dose group should be 0=0, 1=100, 2=250, 3=516-mg/kg/day of CEP, or
+4=75-mg/kg/day of N-methyl-N-nitrosourea (PC)
+L392: Figure 1B: Kaplan-Meier Survival Functions for Female Mice
+L393: Note: dose group should be 0=0, 1=100, 2=250, 3=516-mg/kg/day of CEP, or
+4=75-mg/kg/day of N-methyl-N-nitrosourea (PC)
+L394: ## 6 References
+L395: - Peto, R., M.C. Pike, N.E. Day, R.G. Gray, P.N. Lee, S. Parish, J. Peto, Richards, and J. Wahrendorf, "Guidelines for sample sensitive significance test for carcinogenic effects in long-term animal experiments", Long term and short term screening assays for carcinogens: A critical appraisal, International agency for research against cancer monographs, *Annex to supplement, World Health Organization, Geneva*, 311-426, 1980.
+- Bailer AJ, Portier CJ (1988). "Effects of treatment-induced mortality and tumor-induced mortality on tests for carcinogenicity in small samples." *Biometrics*, 44, 417-431.
+- Bieler, G. S. and Williams, R. L. (1993). "Ratio estimates, the delta method, and quantal response tests for increased carcinogenicity". *Biometrics* 49, 793-801.
+- Tarone RE, "Test for trend in life table analysis", *Biometrika* 1975, 62: 679-82
+- Lin K.K. and Rahman M.A., "Overall false positive rates in tests for linear trend in tumor incidence in animal carcinogenicity studies of new drugs", *Journal of Biopharmaceutical Statistics*, 8(1), 1-15, 1998.
+- Haseman, J, "A re-examination of false-positive rates for carcinogenesis studies", *Fundamental and Applied Toxicology*, 3: 334-339, 1983.
+- Guidance for Industry. Statistical Aspects of the Design, Analysis, and Interpretation of Chronic Rodent Carcinogenicity Studies of Pharmaceuticals (Draft Guidance). U.S. Department of Health and Human Services, Food and Drug Administration, Center for Drug Evaluation and Research (CDER), May 2001.
+L396: --EOF--
+L397: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L398: /s/
+L399: FENG ZHOU
+L400: 06/16/2015
+L401: KARL K LIN
+L402: 06/17/2015
+L403: Concur with review
+L404: ## STATISTICS FILING CHECKLIST FOR A NEW NDA/BLA
+L405: BLA Number: 761033
+L406: Applicant: Teva
+L407: Stamp Date: 3/30/2015
+L408: Drug Name: Reslizumab
+L409: NDA/BLA Type: BLA
+L410: On initial overview of the NDA/BLA application for RTF:
+L411: Content Parameter	Yes	No	NA	Comments
+1	Index is sufficient to locate necessary reports, tables, data, etc.	X	
+2	ISS, ISE, and complete study reports are available (including original protocols, subsequent amendments, etc.)	X	
+3	Safety and efficacy were investigated for gender, racial, and geriatric subgroups investigated (if applicable).	X	
+4	Data sets in EDR are accessible and do they conform to applicable guidances (e.g., existence of define.pdf file for data sets).	X
+L412: IS THE STATISTICAL SECTION OF THE APPLICATION FILEABLE? Yes
+L413: If the NDA/BLA is not fileable from the statistical perspective, state the reasons and provide comments to be sent to the Applicant.
+L414: Please identify and list any potential review issues to be forwarded to the Applicant for the 74-day letter.
+L415: Content Parameter (possible review concerns for 74-day letter)	Yes	No	NA	Comment
+Designs utilized are appropriate for the indications requested.	X	
+Endpoints and methods of analysis are specified in the protocols/statistical analysis plans.	X	
+Interim analyses (if present) were pre-specified in the protocol and appropriate adjustments in significance level made. DSMB meeting minutes and data are available.	X	
+Appropriate references for novel statistical methodology (if present) are included.	X	
+Safety data organized to permit analyses across clinical trials in the NDA/BLA.	X	
+Investigation of effect of dropouts on statistical analyses as described by applicant appears adequate.	X
+L416: Studies to be reviewed: Studies 3081, 3082, 3083, and 3084.
+L417: ## STATISTICS FILING CHECKLIST FOR A NEW NDA/BLA
+L418: Reviewing Statistician
+L419: Date
+L420: Supervisor/Team Leader
+L421: Date
+L422: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L423: /s/
+L424: LAN ZENG
+05/29/2015
+L425: RUTHANNA C DAVI
+05/29/2015
+L426: Figure 1: Line graph showing LS Mean Change from Baseline in FEV1 (L) versus Visit (Baseline, Week 4, Week 8, Week 12, Week 16) for Placebo, Reslizumab 0.3 mg/kg, and Reslizumab 3.0 mg/kg. The Y-axis ranges from 0.00 to 0.40 L. The Placebo group (triangles) shows minimal change. The Reslizumab 0.3 mg/kg group (circles) shows a significant increase, peaking around Week 8 (approx. 0.28 L) and Week 12 (approx. 0.29 L). The Reslizumab 3.0 mg/kg group (crosses) shows the highest change, peaking around Week 8 (approx. 0.30 L) and Week 12 (approx. 0.31 L). Asterisks indicate statistical significance versus placebo: ** at Week 4 for both Reslizumab groups, * at Week 8 for both Reslizumab groups, and * at Week 12 for both Reslizumab groups. Error bars represent standard error.
+L427: Bar chart showing the frequency distribution of asthma exacerbations per patient in Study 3082. The X-axis represents the Number of Exacerbations (0 to 9), and the Y-axis represents the Proportion of Patients (%). The placebo group (white bars) and the reslizumab 3 mg/kg group (black bars) are compared.
+Number of Exacerbations	Placebo (%)	Reslizumab 3 mg/kg (%)
+0	~46	~62
+1	~22	~18
+2	~10	~12
+3	~8	~5
+4	~5	~2
+5	~3	~1
+6	~2	~1
+7	~1	~0.5
+8	~0.5	~0.5
+9	~0.5	~0.5
+L428: Bar chart showing the frequency distribution of asthma exacerbations per patient in Study 3083. The X-axis represents the Number of Exacerbations (0 to 10), and the Y-axis represents the Proportion of Patients (%). The placebo group (white bars) and the reslizumab 3 mg/kg group (black bars) are compared.
+Number of Exacerbations	Placebo (%)	Reslizumab 3 mg/kg (%)
+0	~55	~75
+1	~22	~15
+2	~10	~5
+3	~5	~3
+4	~3	~1
+5	~1	~0.5
+6	~0.5	~0.5
+7	~0.5	~0.5
+8	~0.5	~0.5
+9	~0.5	~0.5
+10	~0.5	~0.5
+L429: Figure 4 is a line graph showing the LS Mean Change from Baseline in \text{FEV}_1 (mL) versus Week (B, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, E) for Study 3082. The X-axis represents time points (Weeks), and the Y-axis represents the LS Mean Change from Baseline in \text{FEV}_1 (mL), ranging from 0 to 400. Two groups are compared: Placebo (solid line, triangles) and Reslizumab 3 mg/kg (dashed line, circles). Error bars represent standard error.
+Legend:
+Placebo: Triangles
+Reslizumab 3 mg/kg: Circles
+* p-value \le 0.05
+** p-value \le 0.005
+Observed trends:
+At Week 12, the Reslizumab group shows a significantly higher mean change compared to Placebo (**).
+At Week 16, the Placebo group shows a significantly higher mean change compared to Reslizumab (**).
+At Week 24, the Reslizumab group shows a significantly higher mean change compared to Placebo (**).
+At Week 32, the Placebo group shows a significantly higher mean change compared to Reslizumab (**).
+At Week 40, the Placebo group shows a significantly higher mean change compared to Reslizumab (**).
+At Week 48, the Reslizumab group shows a significantly higher mean change compared to Placebo (**).
+At Week 52, the Reslizumab group shows a significantly higher mean change compared to Placebo (**).
+L430: Figure 5 is a line graph showing the LS Mean Change from Baseline in \text{FEV}_1 (mL) versus Week (B, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, E) for Study 3083. The X-axis represents time points (Weeks), and the Y-axis represents the LS Mean Change from Baseline in \text{FEV}_1 (mL), ranging from 0 to 400. Two groups are compared: Placebo (solid line, triangles) and Reslizumab 3 mg/kg (dashed line, circles). Error bars represent standard error.
+Legend:
+Placebo: Triangles
+Reslizumab 3 mg/kg: Circles
+* p-value \le 0.05
+** p-value \le 0.005
+Observed trends:
+At Week 4, the Placebo group shows a significantly higher mean change compared to Reslizumab (**).
+At Week 8, the Reslizumab group shows a significantly higher mean change compared to Placebo (*).
+At Week 12, the Reslizumab group shows a significantly higher mean change compared to Placebo (*).
+At Week 16, the Placebo group shows a significantly higher mean change compared to Reslizumab (*).
+At Week 20, the Reslizumab group shows a significantly higher mean change compared to Placebo (*).
+At Week 24, the Placebo group shows a significantly higher mean change compared to Reslizumab (**).
+At Week 36, the Placebo group shows a significantly higher mean change compared to Reslizumab (*).
+At Week 44, the Reslizumab group shows a significantly higher mean change compared to Placebo (**).
+At Week 48, the Reslizumab group shows a significantly higher mean change compared to Placebo (**).
+At Week 52, the Reslizumab group shows a significantly higher mean change compared to Placebo (**).
+L431: Forest plot titled "FEV1 Change from Baseline To Week 16 by Baseline EOS Group (Study 3084)". The plot displays the difference (Dif) in \text{FEV}_1 change from baseline to week 16 between Reslizumab and Placebo, along with the 95% confidence interval (LCI to UCL), for various baseline eosinophil (EOS) groups. The horizontal axis ranges from -0.4 to 0.4, with vertical lines indicating the null difference (0.0) and the threshold for statistical significance (0.2, labeled "Favors Placebo" on the left and "Favors Treatment" on the right).
+EOS Group	Dif	LCI	UCL	Npbo	Ntrt
+<100 per \mu\text{L}	0.04	-0.17	0.24	16	63
+\ge 100 to <200 per \mu\text{L}	0.09	-0.10	0.28	22	96
+\ge 200 to <300 per \mu\text{L}	0.09	-0.14	0.32	17	81
+\ge 300 to <400 per \mu\text{L}	-0.12	-0.38	0.15	14	37
+\ge 400 to <500 per \mu\text{L}	0.61	0.17	1.04	4	22
+\ge 500 per \mu\text{L}	0.21	-0.13	0.55	9	47
+L432: Forest plot titled "FEV1 Change from Baseline To Week 16 by Baseline EOS Group (Study 84)". The plot displays the difference (Dif) in \text{FEV}_1 change from baseline to week 16 between Reslizumab and Placebo, along with the 95% confidence interval (LCI to UCL), for four quartiles of baseline eosinophil (EOS) counts. The horizontal axis ranges from -0.2 to 0.4, with vertical lines indicating the null difference (0.0) and the threshold for statistical significance (0.2, labeled "Favors Placebo" on the left and "Favors Treatment" on the right).
+EOS Group	Dif	LCI	UCL	Npbo	Ntrt
+\le 122 per \mu\text{L}	-0.03	-0.21	0.15	23	86
+> 122 to \le 217 per \mu\text{L}	0.12	-0.08	0.33	19	86
+> 217 to \le 348 per \mu\text{L}	0.13	-0.08	0.34	22	87
+> 348 per \mu\text{L}	0.11	-0.12	0.33	18	87
+L433: Forest plot titled "FEV1 Change from Baseline over 16 Weeks by Subgroup (Study 3081)". The plot displays the estimated treatment difference (Dif) and 95% confidence intervals (LCL, UCL) for reslizumab minus placebo across various demographic subgroups. The horizontal axis ranges from -0.5 (Favors Placebo) to 1.0 (Favors Treatment). The vertical axis lists subgroups: Age (12-17 years, 18-64 years, >=65 years), Sex (Male, Female), Race (White, Black, Other), and Region (USA, Other). The table below summarizes the data:
+Subgroup	Dif	LCL	UCL	Npbo	Ntrt
+Age: 12-17 years	-0.08	-0.23	0.06	5	5
+Age: 18-64 years	0.19	0.08	0.29	92	95
+Age: >=65 years	-0.19	-0.55	0.17	6	2
+Sex: Male	0.15	-0.05	0.34	42	41
+Sex: Female	0.15	0.04	0.25	61	61
+Race: White	0.13	0.02	0.24	84	86
+Race: Black	0.38	-0.17	0.94	7	5
+Race: Other	0.30	-0.09	0.68	12	9
+Region: USA	0.13	-0.03	0.29	37	39
+Region: Other	0.18	0.05	0.30	66	63
+L434: Figure 9 is a forest plot titled "Exacerbation Rate Ratios by Subgroup (Study 3082)". The plot displays the estimated Rate Ratio (RR) and 95% Confidence Interval (C.I.) for exacerbation rates comparing Reslizumab (treatment) versus Placebo (control) across various demographic subgroups. The horizontal axis is logarithmic, ranging from 0.01 to 10. A vertical line marks RR=1.00, indicating no difference between treatment and placebo.
+The subgroups analyzed are:
+Age: 12-17 years, 18-65 years, >=65 years
+Sex: Male, Female
+Race: White, Black, Asian, Other
+Region: Other, USA
+The table below summarizes the data presented in the forest plot:
+Subgroup	RR	LCL	UCL	Npbo	Ntrt
+Age: 12-17 years	3.07	1.02	9.18	7	6
+Age: 18-65 years	0.51	0.37	0.70	212	224
+Age: >=65 years	0.34	0.11	1.00	25	15
+Sex: Male	0.65	0.40	1.05	83	103
+Sex: Female	0.44	0.30	0.65	161	142
+Race: White	0.47	0.33	0.66	182	173
+Race: Black	0.96	0.47	1.97	20	14
+Race: Asian	0.42	0.17	1.06	33	50
+Race: Other	0.54	0.24	1.24	9	8
+Region: Other	0.45	0.33	0.63	207	208
+Region: USA	0.88	0.45	1.73	37	37
+L435: Forest plot titled "Exacerbation Rate Ratios by Subgroup (Study 3083)". The plot displays the Hazard Ratio (RR) and 95% Confidence Interval (LCL, UCL) for exacerbation rate ratios comparing Reslizumab versus Placebo across various demographic subgroups. The horizontal axis is logarithmic, ranging from 0.01 to 10. A vertical line marks RR=1.0.
+The data presented in the plot is as follows:
+Subgroup	RR	LCL	UCL	Npbo	Ntrt
+---Age----	
+12-17 years	0.95	0.14	6.42	4	8
+18-65 years	0.41	0.28	0.61	208	207
+>=65 years	0.30	0.10	0.91	20	17
+---Sex----	
+Male	0.26	0.14	0.50	82	88
+Female	0.48	0.31	0.74	150	144
+---Race----	
+White	0.33	0.21	0.50	169	168
+Black	3.36	0.67	16.8	4	6
+Asian	0.15	0.03	0.63	21	16
+Other	1.18	0.49	2.80	38	42
+---Region----	
+Other	0.36	0.24	0.52	217	216
+USA	2.28	0.87	5.94	15	16
+The plot indicates that the RR is less than 1.0 for most subgroups, suggesting a lower exacerbation rate in the Reslizumab group compared to Placebo, except for the Black race subgroup where the RR is significantly greater than 1.0.
+L436: Figure 11 is a forest plot titled "FEV1 Change from Baseline over 16 Weeks by Subgroup (Study 3081)". The plot displays the estimated treatment difference (Dif) and 95% confidence intervals (LCL, UCL) for the change in FEV_1 from baseline over 16 weeks, comparing Reslizumab (Ntrt) to Placebo (Npbo), across four asthma history subgroups.
+The X-axis represents the treatment difference (Dif), ranging from 0.0 to 1.0. The Y-axis lists the subgroups: Asthma (IRT) Yes, Asthma (IRT) No, Asthma (CRF) Yes, and Asthma (CRF) No.
+The data presented in the plot is as follows:
+Subgroup	Dif	LCL	UCL	Npbo	Ntrt
+Asthma (IRT) Yes	0.19	0.06	0.32	59	55
+Asthma (IRT) No	0.12	-0.03	0.27	44	47
+Asthma (CRF) Yes	0.19	0.06	0.33	57	57
+Asthma (CRF) No	0.12	-0.03	0.27	46	45
+The plot indicates that the treatment difference is positive (Favors Treatment) across all subgroups, with the highest difference observed in the Asthma (IRT) Yes subgroup.
+L437: Forest plot titled "Exacerbation Rate Ratios by Baseline OCS Use (Study 3082)". The plot displays the Hazard Ratio (RR) and 95% Confidence Interval (LCL, UCL) for exacerbation rate ratios comparing Reslizumab versus Placebo, stratified by baseline Oral Corticosteroid (OCS) use (No or Yes), based on data from the Interactive Voice Recognition System (IRT) and Case Report Form (CRF).
+The X-axis is logarithmic, ranging from 0.01 to 10. The Y-axis lists the baseline OCS use status (No or Yes) for both IRT and CRF.
+Legend: RR=Reslizumab versus Placebo; LCL=Lower bound of 95% confidence interval; UCL=Upper bound of 95% confidence interval; Npbo=Number of placebo patients; Ntrt=Number of reslizumab-treated patients.
+Baseline OCS Use (IRT)	RR	LCL	UCL	Npbo	Ntrt
+No	0.55	0.40	0.77	198	199
+Yes	0.33	0.17	0.66	46	46
+Baseline OCS Use (CRF)	RR	LCL	UCL	Npbo	Ntrt
+No	0.55	0.40	0.75	204	221
+Yes	0.37	0.16	0.83	40	24
+L438: Forest plot titled "Exacerbation Rate Ratios by Baseline OCS Use (Study 3083)". The plot displays the Hazard Ratio (RR) and 95% Confidence Interval (LCL, UCL) for exacerbation rate ratios comparing Reslizumab versus Placebo, stratified by baseline Oral Corticosteroid (OCS) use (No or Yes), based on data from the Interactive Voice Recognition System (IRT) and Case Report Form (CRF).
+The X-axis is logarithmic, ranging from 0.01 to 10. The Y-axis lists the baseline OCS use status (No or Yes) for both IRT and CRF.
+Legend: RR=Reslizumab versus Placebo; LCL=Lower bound of 95% confidence interval; UCL=Upper bound of 95% confidence interval; Npbo=Number of placebo patients; Ntrt=Number of reslizumab-treated patients.
+Baseline OCS Use (IRT)	RR	LCL	UCL	Npbo	Ntrt
+No	0.43	0.29	0.64	205	205
+Yes	0.27	0.11	0.71	27	27
+Baseline OCS Use (CRF)	RR	LCL	UCL	Npbo	Ntrt
+No	0.44	0.30	0.65	214	208
+Yes	0.19	0.07	0.52	18	24
+L439: Survival Probability
++ Censored
+DTHSACTM
+DOSEGP 0 1 2 3 4
+L440: Survival Probability
++ Censored
+DTHSACTM
+DOSEGP 0 1 2 3 4

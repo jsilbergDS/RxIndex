@@ -1,0 +1,131 @@
+{
+  "app": "NDA206488",
+  "drug": "Exondys 51",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "5e1251b0-0db3-55c8-8469-a44c2ed0152b"
+    },
+    {
+      "doc_type": "Approv",
+      "doc_id": "30f998ae-f14d-5a6e-ba91-ac1bfe1003f4"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Peripheral and Central Nervous System Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "5e1251b0-0db3-55c8-8469-a44c2ed0152b",
+      "line": 668,
+      "quote": "The Peripheral and Central Nervous System Drugs Advisory Committee met on this application on April 25, 2016."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "5e1251b0-0db3-55c8-8469-a44c2ed0152b",
+      "found_lines": [
+        668
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "April 25, 2016",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "5e1251b0-0db3-55c8-8469-a44c2ed0152b",
+      "line": 668,
+      "quote": "The Peripheral and Central Nervous System Drugs Advisory Committee met on this application on April 25, 2016."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "5e1251b0-0db3-55c8-8469-a44c2ed0152b",
+      "found_lines": [
+        668
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted against approval. On the accelerated-approval question it voted 7 to 6 that the applicant had not shown eteplirsen increases dystrophin to a level reasonably likely to predict clinical benefit; on the effectiveness question it voted 7 to 3 (with 3 abstentions) that Study 201/202 did not provide substantial evidence of effectiveness. FDA (CDER Director Dr. Woodcock) nonetheless granted accelerated approval, overriding the committee and the review team.",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "5e1251b0-0db3-55c8-8469-a44c2ed0152b",
+      "line": 825,
+      "quote": "Having heard arguments and opinions from both the applicant and the review team, the Advisory Committee, despite extraordinary public activism and pressure to vote favorably, voted 7 to 6 that the applicant had not provided substantial evidence from adequate and well controlled studies that eteplirsen induces production of dystrophin to a level that is reasonably likely to predict clinical benefit."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "5e1251b0-0db3-55c8-8469-a44c2ed0152b",
+      "found_lines": [
+        825
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee voted 7 to 6 that the applicant had not provided substantial evidence that eteplirsen induces dystrophin to a level reasonably likely to predict clinical benefit; i.e., clinical benefit was not established.",
+      "change": "Eteplirsen was approved under the accelerated approval pathway (not traditional approval), with a required 2-year randomized, double-blind, controlled confirmatory trial (PMR 3095-1) to verify clinical benefit, and approval may be withdrawn if the trial fails.",
+      "category": "Efficacy / Accelerated approval with confirmatory trial (PMR)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "5e1251b0-0db3-55c8-8469-a44c2ed0152b",
+        "line": 825,
+        "quote": "voted 7 to 6 that the applicant had not provided substantial evidence from adequate and well controlled studies that eteplirsen induces production of dystrophin to a level that is reasonably likely to predict clinical benefit",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "5e1251b0-0db3-55c8-8469-a44c2ed0152b",
+          "found_lines": [
+            825
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Approv",
+        "doc_id": "30f998ae-f14d-5a6e-ba91-ac1bfe1003f4",
+        "line": 46,
+        "quote": "3095-1 In order to verify the clinical benefit of eteplirsen, conduct a 2-year randomized, double-blind, controlled trial of eteplirsen in patients who have a confirmed mutation of the DMD gene that is amenable to exon 51 skipping.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "30f998ae-f14d-5a6e-ba91-ac1bfe1003f4",
+          "found_lines": [
+            46
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee was asked to discuss the strength of the evidence that eteplirsen increased dystrophin in muscle relative to baseline; the original Western blot dystrophin data suffered interpretation difficulties due to lack of baseline samples for most patients.",
+      "change": "After the advisory committee meeting, the sponsor submitted additional Western blot data from 12 patients with paired baseline and 48-week biopsies, which FDA used to conclude there was substantial evidence of increased dystrophin production.",
+      "category": "Evidence / Additional dystrophin data submitted",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "5e1251b0-0db3-55c8-8469-a44c2ed0152b",
+        "line": 888,
+        "quote": "The Advisory Committee was asked to discuss: a) the strength of evidence that eteplirsen increased the amount of dystrophin in muscles of treated patients relative to their baseline",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "5e1251b0-0db3-55c8-8469-a44c2ed0152b",
+          "found_lines": [
+            888
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "5e1251b0-0db3-55c8-8469-a44c2ed0152b",
+        "line": 623,
+        "quote": "the sponsor of this application submitted, subsequent to the Advisory Committee meeting on this drug, additional Western blot data from 12 patients with baseline and 48 week eteplirsen exposure, using baseline and post-treatment muscle biopsies from the same patients and muscle groups",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "5e1251b0-0db3-55c8-8469-a44c2ed0152b",
+          "found_lines": [
+            623
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Peripheral and Central Nervous System Drugs Advisory Committee met on April 25, 2016 and voted against approving eteplirsen (7-6 against accelerated approval; 7-3 with 3 abstentions against substantial evidence of effectiveness). Despite this negative vote and the review team's recommendation of a complete response, CDER Director Dr. Woodcock granted accelerated approval based on the dystrophin surrogate, requiring a confirmatory trial (PMR 3095-1) to verify clinical benefit. The committee's recommendation was overruled; the drug was approved over its objection, so the AdComm's concerns did not produce a denial but the approval was structured as accelerated (not traditional) with a mandatory confirmatory trial."
+}

@@ -1,0 +1,135 @@
+{
+  "app": "BLA761032",
+  "drug": "Siliq",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_e4f83dc2-32f0-52a6-8f9a-ba4bacc261ba"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_70e4e041-c5bd-51fc-87eb-291dc9777b15"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_6bbd4546-d12a-5ece-91a0-d9c348151857"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Dermatologic and Ophthalmic Drugs Advisory Committee (DODAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_e4f83dc2-32f0-52a6-8f9a-ba4bacc261ba",
+      "line": 176,
+      "quote": "The Dermatologic and Ophthalmic Drugs Advisory Committee of the Food and Drug Administration, Center for Drug Evaluation and Research, met on July 19, 2016, at the FDA White Oak Campus to discuss the Siliq application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_e4f83dc232f0",
+      "found_lines": [
+        176
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "July 19, 2016",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_6bbd4546-d12a-5ece-91a0-d9c348151857",
+      "line": 118,
+      "quote": "An Advisory Committee was convened on July 19, 2016 to discuss the efficacy, safety, approvability, and potential post-approval risk mitigation strategies for brodalumab for the treatment of moderate to severe plaque psoriasis."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_6bbd4546d12a",
+      "found_lines": [
+        118
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted unanimously (18-0) that the benefit/risk profile of brodalumab was acceptable to support approval: 4 votes for approval with labeling alone (A), 14 votes for approval only with risk management beyond labeling for SIB (B), and 0 votes against approval (C).",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_e4f83dc2-32f0-52a6-8f9a-ba4bacc261ba",
+      "line": 182,
+      "quote": "Vote Result: A \u2013 4 votes B \u2013 14 votes C \u2013 0 votes"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_e4f83dc232f0",
+      "found_lines": [
+        182
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The majority of the committee voted that brodalumab should be approved only if risk management options for suicidal ideation and behavior (SIB) beyond labeling alone were implemented (Response B).",
+      "change": "The approval required a REMS with Elements to Assure Safe Use (ETASU), including one-time physician and pharmacy certification and a patient-prescriber agreement form, in addition to labeling.",
+      "category": "Safety / REMS with ETASU",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_e4f83dc2-32f0-52a6-8f9a-ba4bacc261ba",
+        "line": 184,
+        "quote": "A majority considered that Siliq should be approved only if certain risk management options for SIB beyond labeling are implemented (Response B).",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_e4f83dc232f0",
+          "found_lines": [
+            184
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_e4f83dc2-32f0-52a6-8f9a-ba4bacc261ba",
+        "line": 28,
+        "quote": "This approach to risk mitigation is consistent with the message heard clearly at the Dermatologic and Ophthalmic Drugs Advisory Committee (DODAC) meeting held on July 19, 2016, that this product should be approved, that access should not be overly burdensome and that providers and patients must be made aware of the suicidality signal.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_e4f83dc232f0",
+          "found_lines": [
+            28
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Four committee members recommended a boxed warning for the risk of suicidality (SIB).",
+      "change": "The Siliq labeling includes a Boxed Warning about the risk of SIB.",
+      "category": "Safety / Boxed warning",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_6bbd4546-d12a-5ece-91a0-d9c348151857",
+        "line": 122,
+        "quote": "Four members (Waters, Smith, Tan, and Bigby) recommended a boxed warning for the risk of suicidality.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_6bbd4546d12a",
+          "found_lines": [
+            122
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_e4f83dc2-32f0-52a6-8f9a-ba4bacc261ba",
+        "line": 27,
+        "quote": "Labeling will include a Boxed Warning about the risk of SIB",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_e4f83dc232f0",
+          "found_lines": [
+            27
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Dermatologic and Ophthalmic Drugs Advisory Committee (DODAC) met on July 19, 2016 to discuss brodalumab (Siliq) for moderate-to-severe plaque psoriasis, focused on the signal for suicidal ideation and behavior (SIB). The committee voted unanimously (18-0) that the benefit/risk profile supported approval, but a majority (14 of 18) held that approval should require risk management beyond labeling for SIB, and four members recommended a boxed warning. Consistent with the committee's message, Siliq was approved with a Boxed Warning for SIB and a REMS with ETASU (physician/pharmacy certification and a patient-prescriber agreement form)."
+}

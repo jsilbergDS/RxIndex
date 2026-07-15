@@ -1,0 +1,143 @@
+{
+  "app": "BLA761033",
+  "drug": "Cinqair",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "9e56f5c3-6333-5110-af56-385371542284"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "a33a04dd-0e37-54f9-a4bc-a64e48d44c84"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "150b6edd-3d23-5247-b3c2-245ecdd301c6"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "0733a562-ed81-5656-8cc9-329599d0eb84"
+    },
+    {
+      "doc_type": "Lbl",
+      "doc_id": "38a42170-2ca5-53da-a724-7b0447ae6cd9"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Pulmonary-Allergy Drugs Advisory Committee (PADAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "9e56f5c3-6333-5110-af56-385371542284",
+      "line": 154,
+      "quote": "A meeting of the Pulmonary-Allergy Drugs Advisory Committee (PADAC) was held on December 9, 2015, to discuss this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "9e56f5c3-6333-5110-af56-385371542284",
+      "found_lines": [
+        154
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "December 9, 2015",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "150b6edd-3d23-5247-b3c2-245ecdd301c6",
+      "line": 45,
+      "quote": "An Advisory Committee meeting was held on December 9, 2015."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "150b6edd-3d23-5247-b3c2-245ecdd301c6",
+      "found_lines": [
+        45
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted in favor of approval for adults (18 years and older) but voted against approval for adolescents 12 to 17 years of age. Per the RiskR, the Committee voted 11-3 that the efficacy and safety data support approval in adults 18 and older; per the ODMemo, the vote was 11 yes, 3 no for adults and 0 yes, 14 no for adolescents 12 to 17.",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "0733a562-ed81-5656-8cc9-329599d0eb84",
+      "line": 19,
+      "quote": "the Committee voted 11-3 that the efficacy and safety data support approval of reslizumab 3 mg/kg intravenous every four weeks for treatment of asthma patients age 18 years and older."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "0733a562-ed81-5656-8cc9-329599d0eb84",
+      "found_lines": [
+        19
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The advisory committee found the data adequate to support approval in adults but not in adolescents 12 to 17 years of age (paradoxical efficacy signal and limited pediatric database); the committee voted unanimously (14-0) against approval in this age group.",
+      "change": "The approved indication was restricted to patients 18 years of age and older; Cinqair is not approved for use in the 12 to 17 year age group.",
+      "category": "Population / age restriction",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "9e56f5c3-6333-5110-af56-385371542284",
+        "line": 160,
+        "quote": "As discussed above, the Advisory Committee unanimously voted not to approve in patients 12 to 17 years of age (Section 9).",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "9e56f5c3-6333-5110-af56-385371542284",
+          "found_lines": [
+            160
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "38a42170-2ca5-53da-a724-7b0447ae6cd9",
+        "line": 145,
+        "quote": "While patients aged 12 to 17 years were included in these trials, CINQAIR is not approved for use in this age group",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "38a42170-2ca5-53da-a724-7b0447ae6cd9",
+          "found_lines": [
+            145
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Anaphylaxis was raised as a safety issue for discussion at the advisory committee, including concern that the full nature and magnitude of anaphylaxis had not been prospectively/completely evaluated.",
+      "change": "A boxed warning for anaphylaxis was added to the product label; the review states the safety issues, including a boxed warning for anaphylaxis, were communicated through labeling with recommendations from the Advisory Committee.",
+      "category": "Safety / Boxed warning",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "a33a04dd-0e37-54f9-a4bc-a64e48d44c84",
+        "line": 187,
+        "quote": "given the risk-benefit evaluation in this patient population, and with recommendations from the Advisory Committee, these safety issues can be communicated through the product label, including a boxed warning for anaphylaxis.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "a33a04dd-0e37-54f9-a4bc-a64e48d44c84",
+          "found_lines": [
+            187
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "a33a04dd-0e37-54f9-a4bc-a64e48d44c84",
+        "line": 208,
+        "quote": "Addition of a boxed warning for anaphylaxis",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "a33a04dd-0e37-54f9-a4bc-a64e48d44c84",
+          "found_lines": [
+            208
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Pulmonary-Allergy Drugs Advisory Committee (PADAC) met December 9, 2015 and voted in favor of approval of reslizumab (Cinqair) for adults 18 and older (11-3 overall) but voted unanimously (14-0) against approval for adolescents 12 to 17 years of age. Reflecting that vote, FDA restricted the approved indication to patients 18 and older and excluded the 12-17 age group. Safety concerns discussed at the meeting, particularly anaphylaxis, led to a boxed warning for anaphylaxis in the label, which the review ties to recommendations from the Advisory Committee."
+}

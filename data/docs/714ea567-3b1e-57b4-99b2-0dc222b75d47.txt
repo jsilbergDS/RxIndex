@@ -1,0 +1,1704 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+L2: **761032Orig1s000**
+L3: **STATISTICAL REVIEW(S)**
+L4: FDA Center for Drug Evaluation and Research seal
+L5: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L6: ## STATISTICAL REVIEW AND EVALUATION
+L7: ## CLINICAL EFFICACY AND SAFETY STUDIES
+L8: **BLA #:** 761032
+**Drug Name:** Brodalumab (SILIQ)
+**Indications:** Moderate to severe plaque psoriasis in adults
+**Safety Outcomes:** Suicidal ideation and behavior
+Major adverse cardiac events
+**Applicant:** Valeant Pharmaceuticals North America LLC
+**Date(s):** Consult on SIB: November 16, 2015
+Consult on MACE: April 7, 2016
+Review due: July 6, 2016
+PDUFA: November 16, 2016
+**Review Priority:** Standard
+**Biometrics Division:** VII
+**Statistical Reviewer:** Ling Lan, Ph.D.
+**Concurring Reviewers:** Clara Kim, Ph.D., Team Leader
+Mark Levenson, Ph.D., Acting Division Director
+Division of Dermatology and Dental Products
+**Medical Division:**
+**Clinical Team:** Gary Chiang, M.D., Medical Reviewer
+David Kettl, M.D., Team Leader
+**Project Manager:** Strother Dixon
+L9: **Keywords:** phase 2, phase 3, neuropsychiatric safety, suicidal ideation and behavior (SIB), major adverse cardiac events (MACE)
+L10: ## Table of Contents
+L11: 1 EXECUTIVE SUMMARY	5
+2 INTRODUCTION	7
+2.1 OVERVIEW	7
+2.2 DATA SOURCES	7
+3 STATISTICAL EVALUATION	8
+3.1 DATA AND ANALYSIS QUALITY	8
+3.2 EVALUATION OF EFFICACY	8
+3.3 EVALUATION OF SAFETY	8
+3.3.1 Study Design and Endpoints	8
+3.3.2 Statistical Methodologies	9
+3.3.3 Suicidal Ideation and Behavior	9
+3.3.3.1 Patient Demographic and Baseline Characteristics	10
+3.3.3.2 Results and Conclusions	11
+3.3.3.3 Subgroup Analysis by Baseline Depression and Suicidality	12
+3.3.3.4 Electronic Columbia Suicide Severity Rating Scale (eC-SSRS)	15
+3.3.3.5 Depression	16
+3.3.4 Major Adverse Cardiovascular Events (MACE)	17
+3.3.4.1 Patient Demographic and Baseline Characteristics	17
+3.3.4.2 Results and Conclusions	18
+3.3.4.3 Subgroup Analysis by Age and Cardiovascular History	19
+4 SUMMARY AND CONCLUSIONS	20
+5 APPENDIX	21
+L12: ## LIST OF TABLES
+L13: Table 1 Inconsistencies in baseline suicidality or depression and medical history of suicidality or depression across datasets with different cutoff dates	8
+Table 2 Baseline demographics of the PsO safety population	11
+Table 3 Number (%) and follow-up time adjusted incidence rates of SIB events during the active-controlled phase (first 52 weeks) of PsO trials	12
+Table 4 SIB incidence and time-adjusted rates in PsO trials from Day 1 to end of follow-up	12
+Table 5 SIB incidence rate by baseline depression or suicidality	13
+Table 6 Baseline characteristics by baseline depression in brodalumab users	14
+Table 7 Baseline characteristics by baseline suicidality in brodalumab users	14
+Table 8 Study Week of first eC-SSRS Assessment - March 2015 Data Cutoff - Integrated Safety Analysis Set - Phase 3 Psoriasis Subset	15
+Table 9 Most severe on-study eC-SSRS response through Week 52 by baseline suicidality in psoriasis safety population of Trials 03 & 04	16
+Table 10 Maximum PHQ-8 score through Week 52 in psoriasis safety population of Trials 03 & 04	17
+Table 11 Baseline characteristics of safety population in Phase 3 PsO trials	17
+Table 12 Number (%) and follow-up time adjusted incidence rates of adjudicated MACE in the active-controlled phase (first 52 weeks) of the three Phase 3 PsO trials	18
+Table 13 Number (%) and follow-up time adjusted incidence rates of adjudicated MACE in PsO trials from Day 1 to end of the follow-up	19
+Table 14 Number (%) and follow-up time adjusted incidence of MACE by age and medical history in PsO trials from randomization to end of the follow-up	20
+Table A1 SIB incidence rates by baseline characteristics and medical history in PsO trials from Day 1 to end of the follow-up using 120-DSU dataset	21
+Table A2 MACE incidence rates by baseline characteristics and medical history in PsO trials from Day 1 to end of the follow-up	22
+L14: ## LIST OF FIGURES
+L15: Figure 1 Distribution of suicidal ideation and behavior in all brodalumab trials submitted ........10
+L16: ## 1 EXECUTIVE SUMMARY
+L17: Brodalumab (SILIQ) is seeking an indication for the treatment of moderate to severe plaque psoriasis (PsO) in adults who are candidates for systemic therapy or phototherapy. Brodalumab is a monoclonal antibody (IgG2) that binds to the human interleukin-17 receptor A.
+L18: The brodalumab PsO program started in 2009. In early 2014, Amgen reported four completed suicides; all among brodalumab exposed subjects. Soon after, Amgen (a co-developer along with AstraZeneca at the time) implemented two self-rated scales, the electronic Columbia-Suicide Severity Rating Scale (eC-SSRS) and the Patient Health Questionnaire-8 (PHQ-8), to monitor subjects for suicidality and depression, respectively. A positive eC-SSRS, which indicated any suicidal ideation or behavior, would trigger a mental health referral and discontinuation of treatment. Similarly, a PHQ-8 score \ge 10 would trigger a mental health referral, and subjects with a PHQ-8 score \ge 15 discontinued treatment. On May 29, 2015, Amgen announced they were no longer co-developing brodalumab and terminated all ongoing clinical trials across all indications. On November 16, 2015, AstraZeneca submitted the application. Since then, AstraZeneca informed the Agency that it transferred all rights and ownership to Valeant Pharmaceuticals.
+L19: The Division of Dermatology and Dental Products consulted the Division of Biometrics VII to assess the safety signals of suicidal ideation and behavior (SIB) and major adverse cardiac event (MACE; cardiovascular (CV) death, non-fatal myocardial infarction (MI), or non-fatal stroke).
+L20: This review evaluated the SIB and MACE safety of brodalumab in studies of psoriasis subjects. The psoriasis trials included three Phase 3 placebo-controlled clinical trials, of which 2 trials also had an ustekinumab arm, and from one placebo-controlled Phase 2 study and its open-label extension study. All three Phase 3 trials included a placebo-controlled 12-week induction phase, a 52-week open-label maintenance phase, and an open-label long-term extension phase. The placebo-controlled Phase 2 study had a 12-week induction phase, and an open-label extension phase. Our SIB analysis included all four studies. We did not include the Phase 2 study in the MACE analysis because MACE events were not adjudicated in that study.
+L21: The study design allowed for placebo comparison only through the 12-week induction phase during which few SIB events and MACE event were observed; and only 13% of subjects in the ustekinumab arm continued on ustekinumab during the 52-week maintenance phase. The trials were not designed to compare SIB and MACE between brodalumab and comparator arms.
+L22: This review assessed the risk of SIB and MACE in brodalumab PsO trials by estimating the incidence and time-adjusted incidence rate by treatment arm. We also estimated the incidence of SIB by baseline suicidality and depression status, and MACE by baseline age and cardiovascular history. In total, 35 SIB events occurred in 4464 brodalumab users (0.78%; 95% CI: 0.63–1.25) and the follow-up time adjusted incidence rate was 0.38 per 100 subject-years (95% CI: 0.27–0.53). The incidence of MACE among 4273 subjects exposed to brodalumab was 1.1% (95% CI: 0.83–1.49) and the follow-up adjusted incidence rate was 0.6 per 100 subject-years (95% CI:
+L23: 0.42–0.76). The subgroup analysis of SIB incidence rate by history of suicidality resulted in a 12–18 fold increase among subjects with history compared to those without. Similarly, the subgroup analysis of MACE incidence rate by (1) history of ischemic heart diseases and (2) history of cardiac or vascular disorder yielded a 9-fold and 4.7-fold increase, respectively, among subjects with history compared to those without.
+L24: The placebo-controlled phase was only 12 weeks. Therefore the exposure time was not long enough to observe or compare SIB and MACE between brodalumab and placebo. Additionally, the sponsor terminated the clinical programs prematurely. This limited our ability to assess the association between SIB and MACE and the use of brodalumab.
+L25: ## 2 INTRODUCTION
+L26: ## 2.1 Overview
+L27: Brodalumab (SILIQ) is seeking an indication for the treatment of moderate to severe plaque psoriasis (PsO) in adults who are candidates for systemic therapy or phototherapy. Brodalumab is a monoclonal antibody (IgG2) that binds to the human interleukin-17 receptor A.
+L28: The brodalumab PsO program started in 2009. In early 2014, Amgen reported four completed suicides in the brodalumab arm and zero in the placebo arm. Soon after, Amgen (a co-developer along with AstraZeneca at the time) implemented two self-rated scales, the electronic Columbia-Suicide Severity Rating Scale (eC-SSRS) and the Patient Health Questionnaire-8 (PHQ-8), to monitor subjects for suicidality and depression, respectively. A positive eC-SSRS, which indicated any suicidal ideation or behavior, would trigger a mental health referral and discontinuation of treatment. Similarly, a PHQ-8 score \ge 10 would trigger a mental health referral, and subjects with a PHQ-8 score \ge 15 discontinued treatment. On May 29, 2015, Amgen announced they were no longer co-developing brodalumab and terminated all ongoing clinical trials across all indications. On November 16, 2015, AstraZeneca submitted the application. Since then, AstraZeneca informed the Agency that it transferred all rights and ownership to Valeant Pharmaceuticals.
+L29: The Division of Dermatology and Dental Products consulted the Division of Biometrics VII to assess the safety signals of suicidal ideation and behavior (SIB) and major adverse cardiac event (MACE; cardiovascular (CV) death, non-fatal myocardial infarction (MI), or non-fatal stroke).
+L30: This review evaluated the SIB and MACE safety of brodalumab in studies of psoriasis subjects using the 120-day safety update (120-DSU) dataset. The psoriasis trials included three Phase 3 placebo-controlled clinical trials (20120102, 20120103, and 20120104; hereon will be referred to as 02, 03, 04), of which 2 trials also had an ustekinumab arm (Trials 03 and 04), and from one Phase 2 study (Study 20090062) and its open-label extension study (Study 20090403).
+L31: ## 2.2 Data Sources
+L32: The safety analysis of brodalumab in PsO subjects included three Phase 3 clinical trials and a single Phase 2 clinical trial. The sponsor also submitted additional data from clinical programs for other indications including psoriatic arthritis (PsA), rheumatoid arthritis (RA), Crohn's disease and asthma.
+L33: All data sets were submitted electronically. The full electronic path is as follows:
+L34: C:\CDSESUB1\evsprod\BLA761032\0006\m5\datasets\4msu-brodalumab-2016\analysis\adam\datasets
+L35: This review used the 120-DSU with cutoff dates after September 2015 (02: 10/30/2015, 03: 11/23/2015, 04: 11/09/2015). Of note, the sponsor's analysis of SIB and MACE used datasets with cutoff dates in 2014 and March 2015.
+L36: ## 3 STATISTICAL EVALUATION
+L37: ## 3.1 Data and Analysis Quality
+L38: The submitted data followed FDA guidance and were analysis ready. The Agency issued information requests to obtain more detailed SIB categories, prior history of PsA, clear definition of the baseline suicidality category "unknown," timing of MACE event occurrence, and explanation of the inconsistencies in the baseline suicidality across datasets (Table 1). The sponsor's response addressed most requests, but did not include information on the subjects whose baseline suicidality category had been updated and the specific reason, that could help clarify the related inconsistencies across datasets.
+L39: Table 1 Inconsistencies in baseline suicidality or depression and medical history of suicidality or depression across datasets with different cutoff dates
+L40: N	Dataset Cutoff Dates
+2014
+N = 4461	March 2015
+N = 4464	120-day safety report
+N = 4464
+Baseline suicidality	
+Yes	100	119	122
+Unknown	854	636	507
+No	3507	3518	3835
+Blank	191	
+Baseline depression	
+Yes	624	602	633
+No	3837	3106	3831
+Blank	756	
+Suicidality history	
+Yes	57	67	75
+Depression history	
+Yes	485	488	490
+L41: Source: Reviewer analysis
+L42: ## 3.2 Evaluation of Efficacy
+L43: For the evaluation of efficacy refer to the review by Dr. Carin Kim.
+L44: ## 3.3 Evaluation of Safety
+L45: ## 3.3.1 Study Design and Endpoints
+L46: The psoriasis trials included three Phase 3 placebo-controlled clinical trials (Trials 02, 03, 04), of which 2 trials also included an ustekinumab arm (Trials 03 and 04), and from one Phase 2 study (Study 20090062) and its open-label extension study (Study 20090403).
+L47: All three Phase 3 trials included a placebo-controlled 12-week induction phase, a 52-week open-label maintenance phase, and an open-label long-term extension phase. The placebo-controlled Phase 2 study had a 12-week induction phase, and an open-label extension phase. Brodalumab was administered as subcutaneous injections of 210 mg every 2 weeks (Q2W), or 140 mg Q2W, every 4 weeks (Q4W) or every 8 weeks (Q8W) in the Phase 3 trials. In the single psoriasis Phase 2 study (20090062), brodalumab was administered at doses of 70 mg Q2W, 140 mg Q2W, 210 mg Q2W, and 280 mg Q4W.
+L48: The study design allowed for placebo comparison only through the 12-week induction phase; after Week 12 all non-ustekinumab subjects were switched to brodalumab in Trials 03 &amp; 04 and, in Trial 02, brodalumab subjects were rerandomized to brodalumab and placebo subjects were switched to brodalumab. Subjects randomized to ustekinumab received it through Week 52 of the maintenance phase and were then switched to open-label brodalumab. The majority of subjects from all of the clinical trials were enrolled in the brodalumab long-term extension phase when the sponsor terminated the development program on May 22, 2015.
+L49: The safety endpoints were SIB and MACE. Study population was the safety population defined as subjects who received at least one dose of brodalumab and subjects who remained on placebo or ustekinumab by end of the trial.
+L50: ## 3.3.2 Statistical Methodologies
+L51: To assess the safety outcomes, we combined the four PsO trials and did not distinguish the different brodalumab doses.
+L52: We estimated the incidence and the follow-up time-adjusted incidence rate of the safety outcomes of interest by study period, due to the study design. The incidence of a safety outcome was defined as the proportion of subjects who experienced at least one such safety outcome among the total number of subjects in the same arm. Incidence rate was calculated by number of subjects who experienced at least one such safety outcome divided by the total follow-up time in 100 subject-years. Total follow-up time included the time from first dose of the drug under consideration to end of the periods, including any gaps/interruptions due to study design, compliance-related gaps, and follow-up beyond exposure time. Because the PsO program was not designed, and consequently not powered, to compare the treatment arms with respect to the safety outcomes, we did not conduct statistical testing.
+L53: ## 3.3.3 Suicidal Ideation and Behavior
+L54: In all brodalumab programs, a total of six completed suicides occurred. Four completed suicides were adjudicated in the PsO program, one in RA and one in PsA. The four subjects in the psoriasis program that had completed suicides were all males (39M, 56M, 56M, and 58M). The subject in the PsA program was a 57 year-old male (57M) and the one subject in the RA program was female (35F). All six completed suicides occurred in subjects exposed to brodalumab. It
+L55: should be noted that by the design of the programs, the exposure time of brodalumab was much longer than that of the active control and placebo.
+L56: Figure 1 illustrates the number and proportion of subjects who experienced at least one SIB event in each brodalumab program for PsO and other indications, such as, PsA, RA, Crohn's disease and asthma. In total, 44 of 6781 subjects experienced SIB. Among brodalumab users, we identified 40 SIBs, including 35 SIBs in PsO trials, 3 in the PsA trial and 2 in the RA trial.
+L57: CS: completed suicide; PsA: psoriatic arthritis; RA: rheumatoid arthritis
+Source: Reviewer analysis
+L58: Figure 1 Distribution of suicidal ideation and behavior in all brodalumab trials submitted
+L59: ## 3.3.3.1 Patient Demographic and Baseline Characteristics
+L60: Table 2 summarizes subject baseline characteristics by original treatment. Depression was determined by medical history of depression and usage of antidepressant at baseline. Suicidality was determined by electronic Columbia Suicide Severity Rating Scale (eC-SSRS1), and an additional “since the study start questionnaire.” The sponsor defined suicidality as unknown if the subject had a positive eC-SSRS response (i.e. suicidal ideation [score of 4 to 5] and/or behavior) from the “lifetime questionnaire” and a positive score from the “since study start questionnaire” but did not have a medical history of suicidality.
+L61: 1 The eC-SSRS is a standardized and validated instrument developed for the assessment of the severity and frequency of suicidal ideation and behavior (Mundt et al, 2010; Posner et al, 2011). Subjects respond to standardized clinical questions that are presented in a uniform fashion. The eCSSRS defines five subtypes of suicidal ideation and of behavior in addition to self-injurious behavior with no suicidal intent. The eCSSRS takes approximately 3 to 10 minutes to complete.
+L62: The safety population for PsO program was 69% men, 45 years of age on average, 44% enrolled from the United States, 29% with previous biologic usage, 21% with history of PsA, and 18% with prior psychiatric disorders (14% depression and 3% with suicidality at baseline).
+L63: Table 2 Baseline demographics of the PsO safety population
+L64: n (%)	Brodalumab
+n = 3066	Placebo
+n = 879	Ustekinumab
+n = 613
+Male	2124 (69)	607 (69)	417 (68)
+Age (years)	
+Mean (SD)	44.8 (13)	44.6 (13)	45.1 (13)
+< 40	1111 (36)	347 (39)	220 (36)
+45-64	1763 (58)	476 (54)	351 (57)
+>= 65	192 (6)	56 (6)	42 (7)
+Enrolled from the United States	1335 (44)	381 (43)	280 (46)
+Previous biologic usage	874 (29)	266 (30)	160 (26)
+Psoriatic Arthritis	654 (21)	180 (21)	114 (19)
+Psychiatric disorders	538 (18)	150 (17)	121 (20)
+Depression	430 (14)	117 (13)	98 (16)
+Suicidality	
+Yes	81 (3)	18 (2)	26 (4)
+Unknown	409 (13)	90 (10)	80 (13)
+No	2576 (84)	771 (88)	507 (83)
+L65: Source: Reviewer analysis
+L66: ## 3.3.3.2 Results and Conclusions
+L67: We estimated the number (%) of subjects who experienced an SIB and the follow-up time-adjusted incidence rate in the psoriasis safety population by study phase: induction phase (first 12 weeks), active-controlled phase (first 52 weeks), and from randomization to end of follow up. During the induction phase, 1 subject experienced an SIB event in the brodalumab arm (n = 3066) and none in the comparator arms (placebo: n = 879; ustekinumab: n = 613). Note that the exposure time in this phase was short and few events were observed; therefore, it was not possible to compare incidence of SIB among brodalumab and the comparator arms in this phase.
+L68: At the end of the induction period, the majority of placebo subjects and some ustekinumab subjects received brodalumab. During the active-controlled phase, seven SIB events occurred in the brodalumab arm, and three SIB events in the ustekinumab arm (Table 3). The incidence of SIB among subjects exposed to brodalumab (including subjects who switched to brodalumab after receiving ustekinumab) was 0.17% (95% CI: 0.07–0.36), and the follow-up time adjusted incidence rate was 0.20 events per 100 subject-years (95% CI: 0.08–0.41).
+L69: Table 3 Number (%) and follow-up time adjusted incidence rates of SIB events during the active-controlled phase (first 52 weeks) of PsO trials
+L70: SIB	Brodalumab
+n = 3902	Brod after Ustek
+n = 124	Ustekinumab
+n = 613	Placebo
+n = 43
+Number (%)	7 (0.18)	0	3 (0.49)	0
+Follow-up time	3472.5	80.4	504.1	
+Incidence rate*	0.2	0	0.6	
+SIB	Brodalumab + Brodalumab after Ustekinumab
+n = 4026
+Number (%; 95% CI)	7 (0.17; 0.07–0.36)
+Follow-up time	3552.9
+Incidence rate* (95% CI)	0.2 (0.08–0.41)
+L71: *per 100 subject-years
+L72: Source: Reviewer analysis
+L73: Table 4 presents the number (%) of subjects with an SIB events and follow-up time adjusted incidence rates from randomization to end of follow-up. In total, 35 SIB events occurred among the brodalumab users (0.78%; 95% CI: 0.63–1.25) and the follow-up time adjusted incidence rate was 0.38 per 100 subject-years (95% CI: 0.27–0.53).
+L74: Table 4 SIB incidence and time-adjusted rates in PsO trials from Day 1 to end of follow-up
+L75: SIB	Brodalumab
+n = 3897	Brod after Ustek
+n = 567	Ustekinumab
+n = 49	Placebo
+n = 45
+Number (%)	28 (0.72)	7 (1.23)	2 (4.08)	0
+Follow-up time	8395.8	778.1	23.1	
+Incidence rate*	0.33	0.9	8.66	
+SIB	Brodalumab + Brodalumab after Ustekinumab
+n = 4464
+Number (%; 95% CI)	35 (0.78; 0.63–1.25)
+Follow-up time	9173.9
+Incidence rate*	0.38 (0.27–0.53)
+L76: *per 100 subject-years
+L77: Source: Reviewer analysis
+L78: ## 3.3.3.3 Subgroup Analysis by Baseline Depression and Suicidality
+L79: We conducted a subgroup analysis to estimate the incidence rate of SIB events among brodalumab users by the baseline depression status and suicidality status (Table 5). For subgroup analyses of incidence rate of SIB by demographics, baseline characteristics, disease severity and related medical history refer to Table A1 in the Appendix.
+L80: Baseline depression was determined by medical history of depression and usage of antidepressants. Brodalumab users with history of depression had an approximately seven fold increase in SIB incidence rate than users without history.
+L81: Baseline suicidality was determined by eC-SSRS, and an additional “since the study start questionnaire.” The sponsor defined suicidality as unknown if the subject had a positive C-SSRS response (i.e. suicidal ideation [score of 4 to 5] and/or behavior) from the “lifetime questionnaire” and a positive score from the “since study start questionnaire” but did not have a medical history of suicidality. Because of the ambiguity of this category, we categorized subjects in the following three ways: original category (yes, no, unknown), treat unknown as yes, and treat unknown as no. Brodalumab users with history of suicidality had an approximately 12–18 fold increase in SIB incidence rate than users without history.
+L82: Of note, the sponsor’s Summary Clinical Safety Appendix reported more than a 40-fold increase in SIB incidence rate among brodalumab users with suicidality history than those without history using dataset with an earlier cutoff date of March 2015.
+L83: Table 5 SIB incidence rate by baseline depression or suicidality
+L84: Subgroups	No. of brodalumab users
+(subject-years)
+N = 4464	No. of SIB
+(%)	Incidence rate
+per 100 subject-years
+Depression	
+Yes	633 (1201)	18 (3)	1.5
+No	3831 (7973)	17 (0)	0.21
+Ratio of Yes/No	7.1
+Suicidality	
+Original categories	
+Yes	122 (253)	9 (7)	3.56
+No	3835 (8539)	17 (0)	0.2
+Unknown	507 (382)	9 (2)	2.36
+Ratio of Yes/No	17.8
+Unknown as Yes	
+Yes	629 (635)	18 (3)	2.83
+No	3835 (8539)	17 (0)	0.2
+Ratio of Yes/No	14.2
+Unknown as No	
+Yes	122 (253)	9 (7)	3.56
+No	4342 (8921)	26 (1)	0.29
+Ratio of Yes/No	12.3
+L85: Source: Reviewer analysis
+L86: This review also summarized potential factors that could relate to the increased SIB risks in subjects with depression or suicidality by baseline depression (Table 6) and suicidality (Table 7). Subjects with depression were numerically more likely to be aged 40 years or older, with previous biologic usage and less likely to be male, have severe psoriasis compared to those not depressed. Subjects with suicidality were numerically less likely to be male, with previous biologic usage, and more likely to be younger than 65 years of age compared to those without suicidality.
+L87: Table 6 Baseline characteristics by baseline depression in brodalumab users
+L88: n (%)	Baseline Depression
+Yes
+n = 633	No
+n = 3831
+Sex	
+Female	302 (48)	1074 (28)
+Male	331 (52)	2757 (72)
+Age (years)	
+Mean (SD)	47.9 (12)	44.3 (13)
+< 40	159 (25)	1480 (39)
+40–64	421 (67)	2121 (55)
+≥ 65	53 (8)	230 (6)
+Previous biologic usage	
+Yes	239 (38)	1022 (27)
+No	368 (58)	2644 (69)
+Unknown	26 (4)	165 (4)
+Psoriasis severity*	
+≤ 17.4	348 (55)	1898 (50)
+> 17.4	285 (45)	1933 (50)
+L89: *Psoriasis severity was based on the values of a baseline median Psoriasis Area Severity Index (PASI) ≤17.4 and &gt;17.4. (Quoted from Section 3.4.1 of Summary of Clinical Safety Appendix 1, page 54)
+L90: Source: Reviewer analysis
+L91: Table 7 Baseline characteristics by baseline suicidality in brodalumab users
+L92: n (%)	Baseline Suicidality
+Yes
+n = 122	No
+n = 3835	Unknown
+n = 507
+Sex	
+Female	54 (44)	1164 (30)	158 (31)
+Male	68 (56)	2671 (70)	349 (69)
+Age (years)	
+Mean (SD)	42.8 (13)	44.7 (13)	45.9 (13)
+< 40	50 (41)	1424 (37)	165 (33)
+40–64	71 (58)	2165 (56)	306 (60)
+≥ 65	1 (1)	246 (6)	36 (7)
+Previous biologic usage	
+Yes	3 (2)	1051 (27)	178 (35)
+No	87 (71)	2596 (68)	329 (65)
+Unknown	3 (2)	188 (5)	0 (0)
+Psoriasis severity	
+≤ 17.4	64 (52)	1952 (51)	230 (45)
+> 17.4	58 (48)	1883 (49)	277 (55)
+L93: *Psoriasis severity was based on the values of a baseline median Psoriasis Area Severity Index (PASI) ≤17.4 and &gt;17.4. (Quoted from Section 3.4.1 of Summary of Clinical Safety Appendix 1, page 54)
+L94: Source: Reviewer analysis
+L95: ## 3.3.3.4 Electronic Columbia Suicide Severity Rating Scale (eC-SSRS)
+L96: The eC-SSRS was instituted to assess SIB after the sponsor noticed a potential signal for suicidality, which was more than mid-way through the Phase 3 trials. The sponsor's analysis (Table 8) identified when the eC-SSRS was initiated and how many subjects received the assessment in each Phase 3 clinical trial, using a dataset cutoff in March, 2015.
+L97: Table 8 Study Week of first eC-SSRS Assessment - March 2015 Data Cutoff - Integrated Safety Analysis Set - Phase 3 Psoriasis Subset
+L98: Study 102
+(N=536)
+n (%)	Study 103
+(N=1549)
+n (%)	Study 104
+(N=1598)
+n (%)
+Week 28 to <40	0	19 (1.2)	1 (0.1)
+Week 40 to <52	0	264 (17.0)	272 (17.0)
+Week 52 to <64	0	417 (26.9)	490 (30.7)
+Week 64 to <76	76 (14.2)	290 (18.7)	344 (21.5)
+Week 76 to <88	260 (48.5)	348 (22.5)	321 (20.1)
+Week 88 to <100	189 (35.3)	192 (12.4)	156 (9.8)
+Week 100 to <112	11 (2.1)	17 (1.1)	11 (0.7)
+Week 112 to <124	0	2 (0.1)	2 (0.1)
+Week 124 to <136	0	0	1 (0.1)
+L99: N= subjects in studies 102/103/104 with \ge 1 dose of investigation product and \ge 1 on-study C-SSRS assessment
+L100: Assessments that were inactivated by the site due to entry error were excluded from the analysis
+L101: n=number of subjects with first C-SSRS assessment at specified study weeks
+L102: %=n/N \times 100
+L103: Source: Summary of Clinical Safety Appendix 1, Table 29, Page 85, dated October 22, 2015
+L104: Table 9 summarizes the most severe on-study eC-SSRS response through Week 52 by baseline suicidality in Trials 03 and 04 using the 120-day safety update data. Trial 02 was not included in this analysis because the eC-SSRS was implemented when all subjects had completed the 52-week treatment period. Of note, the SIB events described in this table were based on responses of the eC-SSRS only without incorporating investigator reported adverse events. It should be noted that the "all subjects" column in Table 9 includes subjects randomized to either placebo or ustekinumab and who subsequently switched to brodalumab, in addition to the subjects originally randomized to brodalumab (column 2) and ustekinumab (column 3). Also total follow-up time for brodalumab was substantially larger than that of ustekinumab.
+L105: During the first 52 weeks of treatment, subjects in brodalumab arm experienced numerically more most severe on-study eC-SSRS response than those in the ustekinumab arm, regardless how the SIB responses were categorized.
+L106: Table 9 Most severe on-study eC-SSRS response through Week 52 by baseline suicidality in psoriasis safety population of Trials 03 &amp; 04
+L107: Subgroups events during treatment	Brodalumab
+n (%)	Ustekinumab
+n (%)	All subjects*
+n (%)
+All subjects (N)	519	114	793
+Any suicidal ideation or behavior (\ge 1)	23 (4)	2 (2)	30 (4)
+Suicidal ideation (1-5)	22 (4)	2 (2)	29 (4)
+Suicidal ideation with intent to act only (4-5)	1 (0)	0 (0)	1 (0)
+Suicidal behavior only	1 (0)	0 (0)	1 (0)
+Suicidal ideation (4-5) or behavior	2 (0)	0 (0)	2 (0)
+With no prior suicidality history	495	102	748
+Any suicidal ideation or behavior (\ge 1)	16 (3)	1 (1)	21 (3)
+Suicidal ideation (1-5)	16 (3)	1 (1)	21 (3)
+Suicidal ideation with intent to act only (4-5)	0	0	0
+Suicidal behavior only	0	0	0
+Suicidal ideation (4-5) or behavior	0	0	0
+With prior suicidality history	17	9	33
+Any suicidal ideation or behavior (\ge 1)	3 (18)	1 (11)	5 (15)
+Suicidal ideation (1-5)	3 (18)	1 (11)	5 (15)
+Suicidal ideation with intent to act only (4-5)	1 (6)	0 (0)	1 (3)
+Suicidal behavior only	0	0	0
+Suicidal ideation (4-5) or behavior	1 (6)	0 (0)	1 (3)
+Unknown prior suicidality history	7	3	12
+Any suicidal ideation or behavior (\ge 1)	4 (57)	0 (0)	4 (33)
+Suicidal ideation (1-5)	3 (43)	0 (0)	3 (25)
+Suicidal ideation with intent to act only (4-5)	0	0	0
+Suicidal behavior only	1 (14)	0 (0)	1 (8)
+Suicidal ideation (4-5) or behavior	1 (14)	0 (0)	1 (8)
+L108: *All subjects included subjects randomized to placebo or ustekinumab who switched to brodalumab in addition to subjects originally randomized to brodalumab and ustekinumab.
+Source: Reviewer analysis
+L109: ## 3.3.3.5 Depression
+L110: Depression is a psychiatric disorder that is associated with SIB. Patient Health Questionnaire-8 (PHQ-82) was also implemented to evaluate subject depression midway through the PsO program, analogous to eC-SSRS. Only 474 subjects in Trials 03 &amp; 04 received PHQ-8 during the first 52 weeks and the maximum score was derived from the response “since last contact.” Table 10 summarizes the maximum PHQ-8 score through Week 52 in Trials 03 &amp; 04.
+L111: During the first 52 weeks of treatment, subjects in brodalumab arm had numerically fewer minimal PHQ8 scores, and more mild PHQ8 scores than those in ustekinumab arm (Table 10). It should be noted that the “all subjects” column in Table 9 includes subjects randomized to either placebo or ustekinumab and who subsequently switched to brodalumab, in addition to the
+L112: 2 The PHQ-8 is a validated and widely used eight-item version of the Patient Health Questionnaire depression scale designed to clinically assess patients for symptoms and signs of depression (Kroenke and Spitzer, 2002; Kroenke et al, 2009). The PHQ-8 takes approximately 3 minutes to complete.
+L113: subjects originally randomized to brodalumab (column 2) and ustekinumab (column 3).
+L114: Table 10 Maximum PHQ-8 score through Week 52 in psoriasis safety population of Trials 03 &amp; 04
+L115: Maximum PHQ-8 assessment	Brodalumab
+n (%)	Ustekinumab
+n (%)	All subjects
+n (%)
+All subjects (N)	160	78	474
+0 to 4 (None to Minimal)	305 (83)	69 (88)	462 (83)
+5 to 9 (Mild)	50 (14)	6 (8)	76 (14)
+10 to 14 (Moderate)	9 (2)	2 (3)	14 (3)
+≥ 15 (Moderately Severe to Severe)	4 (1)	1 (1)	6 (1)
+L116: *All subjects included subjects randomized to placebo or ustekinumab who switched to brodalumab in addition to subjects originally randomized to brodalumab and ustekinumab.
+L117: Source: Reviewer analysis
+L118: ## 3.3.4 Major Adverse Cardiovascular Events (MACE)
+L119: ## 3.3.4.1 Patient Demographic and Baseline Characteristics
+L120: MACE was defined as CV death, non-fatal myocardial infarction (MI), or non-fatal stroke that occurred after the first treatment dose and &lt;42 days of the last treatment dose. MACE was adjudicated only in the Phase 3 PsO trials; therefore, the Phase 2 trial was not included in this analysis. Table 11 summarizes subject baseline characteristics by original treatment arm.
+L121: The MACE safety population consisted of 4363 subjects, which were 69% men, 45 years of age on average, 30% with previous biologic usage, 21% with BMI &gt; 35 kg/m2, 21% with PsA, 4% with history of ischemic heart disease and 32% with history of cardiac or vascular disorders.
+L122: Table 11 Baseline characteristics of safety population in Phase 3 PsO trials
+L123: n (%)	Brodalumab
+n = 2908	Placebo
+n = 842	Ustekinumab
+n = 613
+Male	2021 (69)	586 (70)	417 (68)
+Age (years)	
+Mean (SD)	44.9 (12.9)	44.7 (12.9)	45.1 (13.1)
+< 40	1049 (36)	325 (39)	220 (36)
+45–64	1672 (57)	464 (55)	351 (57)
+>= 65	187 (6)	53 (6)	42 (7)
+BMI (> 35 kg/m2)	636 (22)	167 (20)	135 (22)
+Prior biologic usage	874 (30)	266 (32)	160 (26)
+History of psoriasis arthritis	616 (21)	174 (21)	114 (19)
+History of ischemic heart disease	101 (3)	31 (4)	24 (4)
+History of cardiac or vascular disorders	926 (32)	248 (29)	212 (35)
+L124: Source: Reviewer analysis
+L125: ## 3.3.4.2 Results and Conclusions
+L126: We analyzed MACE in the safety population by study phase; induction (first 12 weeks), active-control phase (first 52 weeks), and from randomization to end-of-follow up. During the induction phase, 3 (0.1%) MACE (2 MIs, 1 stroke) occurred in the brodalumab arm (n = 2908) and 1 (0.12%) MACE (MI) in the placebo arm (n = 842). MACE was not observed in the ustekinumab arm (n = 613).
+L127: At the end of the 12-week induction phase, the majority of placebo subjects and some ustekinumab subjects received brodalumab. During the active-controlled phase, 22 MACE events occurred in the brodalumab arm, and 1 MI event was detected in the ustekinumab arm (Table 12). The incidence of MACE among subjects exposed to brodalumab was 0.6% (95% CI: 0.38–0.90), and the follow-up time adjusted rates was 0.7 cases per 100 subject-years (95% CI: 0.4–0.9).
+L128: Table 12 Number (%) and follow-up time adjusted incidence rates of adjudicated MACE in the active-controlled phase (first 52 weeks) of the three Phase 3 PsO trials
+L129: MACE	Brodalumab
+n = 3711	Brod after Ustek
+n = 124	Ustekinumab
+n = 489	Placebo
+n = 39
+Number (%)	
+MACE	22† (0.6)	0	1 (0.2)	0
+CV death	1 (0.0)	0	0	0
+MI	16 (0.5)	0	1 (0.2)	0
+Stroke	5 (0.13)	0	0	0
+Follow-up time	3297.2	75.5	494.8	
+Incidence rate*	0.7	0	0.2	0
+MACE	Brodalumab + Brodalumab after Ustekinumab
+n = 3835
+Number (%; 95% CI)	22 (0.6, 0.38–0.90)
+Follow-up time	3372.7
+Incidence rate* (95% CI)	0.7 (0.43–1.02)
+L130: †One subject (20120103-10366037013) was originally in the placebo arm and was excluded from this analysis because MACE occurred before the first dose of brodalumab.
+L131: *per 100 subject-years
+L132: Source: Reviewer analysis
+L133: From randomization to end of follow up, 48 MACE events occurred among brodalumab users, where 1 MACE event occurred in a subject who switched to brodalumab after receiving ustekinumab (
+L134: Table 13). The incidence of MACE among subjects exposed to brodalumab was 1.1% (95% CI: 0.83–1.49) and the follow-up adjusted incidence rate was 0.6 per 100 subject-years (95% CI: 0.42–0.76).
+L135: Table 13 Number (%) and follow-up time adjusted incidence rates of adjudicated MACE in PsO trials from Day 1 to end of the follow-up
+L136: MACE	Brodalumab
+n = 3706	Brod after Ustek
+n = 567	Ustekinumab
+n = 49	Placebo
+n = 41
+Number (%)	
+MACE	47† (1.3)	1* (0.2)	2 (4.1)	0
+CV death	8 (0.2)	0	1 (2.0)	0
+MI	28 (0.8)	0	1 (2.0)	0
+Stroke	11 (0.3)	1 (0.2)	0	0
+Follow-up time	7587.1	778.1	27.5	
+Incidence rate**	0.7	0.3	7.3	
+Brodalumab + Brodalumab after Ustekinumab
+n = 4273
+Number (%; 95% CI)	48 (1.1, 0.83–1.49)
+Follow-up time	8365.2
+Incidence rate** (95% CI)	0.6 (0.42–0.76)
+L137: †Six MACE were excluded from brodalumab only arm because 1) 4 events occurred &gt;42 days after the last dose of brodalumab; 2) one CV death (20120103-10366037013) occurred before the first dose of brodalumab and the subject was originally assigned in the placebo arm; and 3) one CV death (20120102-10248019002) was re-adjudicated as non-MACE.
+L138: *One CV death was excluded from brodalumab after ustekinumab arm because it occurred &gt;42 days after the last dose of brodalumab.
+L139: **per 100 subjects years
+Source: Reviewer analysis
+L140: ## 3.3.4.3 Subgroup Analysis by Age and Cardiovascular History
+L141: Table 14 summarizes the follow-up time adjusted incidence rates of MACE by reported age and medical history from randomization to end of the follow-up. As expected, the incidence rate of MACE was higher in brodalumab users over 65 years old compared to those younger. Brodalumab users with a history of ischemic heart disease had a 9-fold increase in incidence rate of MACE compared to users without history. Similarly, brodalumab users with a history of cardiac or vascular disorder had a 4.7-fold increase in incidence rate compared to users without history.
+L142: Table 14 Number (%) and follow-up time adjusted incidence of MACE by age and medical history in PsO trials from randomization to end of the follow-up
+L143: Subgroups	No. of brodalumab users
+(subject-years)
+N = 4273	No. of MACE
+(%)	Incidence rate
+per 100 subject-years
+Age (years)	
+< 40	1559 (3070)	5 (0)	0.16
+40–64	2439 (4765)	33 (1)	0.69
+≥ 65	275 (530)	10 (4)	1.89
+Ratio of ≥ 65/< 40	11.8
+History of ischemic cerebrovascular conditions or ischemic heart disease	
+Yes	152 (265)	11 (7)	4.15
+No	4121 (8101)	37 (1)	0.46
+Ratio of Yes/No	9.02
+History of cardiac or vascular disorders	
+Yes	1356 (2541)	32 (2)	1.26
+No	2917 (5824)	16 (1)	0.27
+Ratio of Yes/No	4.67
+L144: Source: Reviewer analysis
+L145: For subgroup analyses of incidence rate of MACE by demographics, baseline characteristics, disease severity and related medical history refer to Table A2 in the Appendix.
+L146: ## 4 SUMMARY AND CONCLUSIONS
+L147: This review assessed the risk of SIB and MACE in PsO brodalumab trials. We reported the incidence and time-adjusted incidence rates of SIB and MACE by treatment arms. We also estimated the incidence of SIB by baseline suicidality and depression status, and MACE by baseline age and cardiovascular history.
+L148: In total, 35 SIB events occurred in 4464 brodalumab users resulting in an incidence of 0.78% (95% CI: 0.63–1.25) and the follow-up time adjusted incidence rate was 0.38 per 100 subject-years (95% CI: 0.27–0.53). The incidence of MACE among 4273 subjects exposed to brodalumab was 1.1% (95% CI: 0.83–1.49) and the follow-up adjusted incidence rate was 0.6 per 100 subject-years (95% CI: 0.42–0.76). The subgroup analysis of SIB incidence rate by history of suicidality resulted in a 12–18 fold increase among subjects with history compared to those without. Similarly, the subgroup analysis of MACE incidence rate by history of ischemic heart diseases and history of cardiac or vascular disorder yielded a 9-fold and 4.7-fold increase, respectively, among subjects with history compared to those without.
+L149: The placebo-controlled phase was only 12 weeks. Therefore the exposure time was not long enough to observe or compare SIB and MACE between brodalumab and placebo. Additionally, the sponsor terminated the clinical programs prematurely. This limited our ability to assess the association between SIB and MACE and the use of brodalumab.
+L150: ## 5 APPENDIX
+L151: Table A1 SIB incidence rates by baseline characteristics and medical history in PsO trials from Day 1 to end of the follow-up using 120-DSU dataset
+L152: Subgroups for SIB	No. of brodalumab users
+(subject-years)
+N = 4464	No. of SIB
+(%)	Incidence rate
+per 100 subject-years
+Baseline characteristics
+Sex	
+F	1376 (2816)	14 (1)	0.5
+M	3088 (6358)	21 (1)	0.33
+Age (years)	
+< 40	1639 (3393)	5 (0)	0.15
+40 – 64	2542 (5215)	29 (1)	0.56
+≥ 65	283 (565)	1 (0)	0.18
+Race	
+Hispanic	480 (917)	3 (1)	0.33
+Non-Hispanic	3799 (7470)	31 (1)	0.41
+Country	
+Non-USA	2527 (5493)	16 (1)	0.29
+USA	1937 (3681)	19 (1)	0.52
+Previous biologics usage	
+Unknown	191 (809)	1 (1)	0.12
+No	3012 (5946)	24 (1)	0.4
+Yes	1261 (2420)	10 (1)	0.41
+BMI (kg/m2)	
+≤ 35	3491 (7339)	30 (1)	0.41
+> 35	967 (1824)	5 (1)	0.27
+Disease duration and severity
+Psoriasis duration (years)	
+≤ 10	1336 (2662)	16 (1)	0.6
+> 10	3128 (6512)	19 (1)	0.29
+Disease severity (PASI)	
+≤ 17.4	2246 (4631)	20 (1)	0.43
+> 17.4	2218 (4543)	15 (1)	0.33
+Medical history
+Depression (smq17nam)	
+No	3974 (8253)	18 (0)	0.22
+Yes	490 (921)	17 (3)	1.85
+Suicidality (smq18nam)	
+No	4389 (9021)	28 (1)	0.31
+Yes	75 (153)	7 (9)	4.58
+Psoriasis Arthritis	
+No	3536 (7315)	27 (1)	0.37
+Yes	928 (1859)	8 (1)	0.43
+Psychiatric disorders	
+No	3658 (7603)	16 (0)	0.21
+Yes	806 (1571)	19 (2)	1.21
+Metabolism & nutrition and immune system disorders
+L153: No	2601 (5452)	14 (1)	0.26
+Yes	1863 (3722)	21 (1)	0.56
+L154: Source: Reviewer analysis
+L155: Table A2 MACE incidence rates by baseline characteristics and medical history in PsO trials from Day 1 to end of the follow-up
+L156: Subgroups for MACE	No. of brodalumab users
+(subject-years)
+N = 4273	No. of MACE
+(%)	Incidence rate
+per 100 subject-years
+Baseline characteristics
+Sex	
+F	1308 (2547)	9 (1)	0.35
+M	2965 (5818)	39 (1)	0.67
+Age (years)	
+< 40	1559 (3070)	5 (0)	0.16
+40 – 64	2439 (4765)	33 (1)	0.69
+>= 65	275 (530)	10 (4)	1.89
+Race	
+Hispanic	474 (895)	7 (1)	0.78
+Non-Hispanic	3799 (7470)	41 (1)	0.55
+Country	
+Non-USA	2389 (4894)	23 (1)	0.47
+USA	1884 (3471)	25 (1)	0.72
+Previous biologics usage	
+No	3012 (5946)	31 (1)	0.52
+Yes	1261 (2420)	17 (1)	0.7
+BMI (kg/m2)	
+<= 35	3343 (6711)	36 (1)	0.54
+> 35	924 (1643)	12 (1)	0.73
+Smoker	
+Current	1476 (2845)	18 (1)	0.63
+Former	1000 (1959)	15 (1)	0.77
+No	1797 (3562)	15 (1)	0.42
+Disease severity
+Psoriasis duration (years)	
+<= 10	1289 (2472)	10 (1)	0.4
+>10	2984 (5893)	38 (1)	0.64
+Disease severity (PASI)	
+<= 17.4	2151 (4229)	21 (1)	0.5
+> 17.4	2122 (4136)	27 (1)	0.65
+Medical history
+Ischemic cerebrovascular conditions or ischemic heart disease	
+No	4121 (8101)	37 (1)	0.46
+Yes	152 (265)	11 (7)	4.15
+Cardiac or vascular disorders by MedDRA	
+No	2917 (5824)	16 (1)	0.27
+Yes	1356 (2541)	32 (2)	1.26
+L157: Source: Reviewer analysis
+L158: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L159: /s/
+L160: LING LAN
+07/06/2016
+L161: CLARA KIM
+07/06/2016
+I concur.
+L162: MARK S LEVENSON
+07/06/2016
+L163: FDA Seal/Logo
+L164: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L165: ## STATISTICAL REVIEW AND EVALUATIONCLINICAL STUDIES
+L166: **NDA/BLA #:** BLA761032
+**Drug Name:** Brodalumab 210 mg
+**Indication(s):** Treatment of subjects with moderate to severe plaque psoriasis
+**Applicant:** Valeant Pharmaceuticals Luxembourg
+**Date(s):** Stamp date: 11/16/2015
+PDUFA: 11/16/2016
+**Review Priority:** Standard
+
+**Biometrics Division:** Division of Biometrics III
+**Statistical Reviewer:** Carin Kim, Ph.D.
+**Concurring Reviewers:** Mohamed Alosch, Ph.D.
+
+**Medical Division:** Division of Dermatology and Dental Products (DDDP)
+**Clinical Team:** Gary Chiang, M.D.
+Dave Kettl, M.D.
+**Project Manager:** Strother Dixon
+
+**Keywords:**
+Superiority, Active-control; Psoriasis
+L167: ## Table of Contents
+L168: 1. EXECUTIVE SUMMARY	3
+2. INTRODUCTION	5
+2.1 OVERVIEW	5
+2.2 REGULATORY HISTORY	5
+2.3 DATA SOURCES	7
+3. STATISTICAL EVALUATION	7
+3.1 DATA AND ANALYSIS QUALITY	7
+3.2 EVALUATION OF EFFICACY	7
+3.2.1 Study Design	7
+3.2.2 Efficacy Assessments	11
+3.2.3 Statistical Methods	12
+3.2.3 Patient Disposition, Demographic and Baseline Characteristics	15
+3.2.4 Results and Conclusions	20
+3.3 EVALUATION OF SAFETY	28
+4. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	30
+4.1 EFFICACY BY GENDER, RACE, AGE, WEIGHT, PRIOR BIOLOGIC USE, AND REGION	30
+4.2 EFFICACY BY COUNTRY	32
+4.3 EFFICACY BY BASELINE DISEASE SEVERITY AND BY WEIGHT GROUP	34
+5. SUMMARY AND CONCLUSIONS	35
+5.1 STATISTICAL ISSUES AND COLLECTIVE EVIDENCE	35
+5.2 CONCLUSIONS AND RECOMMENDATIONS	36
+L169: ## 1. EXECUTIVE SUMMARY
+L170: The applicant is seeking approval of brodalumab 210 mg for the indication of treatment of adults with moderate to severe plaque psoriasis. The safety and efficacy of brodalumab was evaluated in three pivotal Phase 3 trials (Studies 20120102, 20120103, 20120104 from hereon denoted as Trials 02, 03, and 04, respectively) with Trials 03 and 04 that included a ustekinumab arm. All trials enrolled subjects 18 to 75 years of age and older with stable moderate to severe plaque psoriasis diagnosed at least 6 months before the first dose of investigational product. The enrolled subjects had plaque-type psoriasis with Psoriasis Area and Severity Index (PASI) score \ge 12, static Physician's Global Assessment (sPGA) score of at least 3, and body surface area (BSA) involvement \ge 10\% at baseline. For brodalumab, subjects received a loading dose of weekly injections for the first 2 weeks followed by treatment every 2 weeks (Q2W).
+L171: In all three trials, for the comparison of brodalumab against placebo at Week 12, the co-primary endpoints were the proportion of subjects achieving PASI 75 response (i.e., \ge 75\% reduction in PASI score) and a sPGA score of 0 or 1. Secondary endpoints were PASI 100 (i.e., 100% reduction in PASI score), sPGA score of 0, and Psoriasis Symptom Inventory (PSI) responder at Week 12. In Trials 03 and 04, for the comparison of brodalumab against ustekinumab at Week 12, the primary endpoint was PASI 100. Sequential testing was planned to compare the brodalumab 210 mg vs. ustekinumab first, and then to compare the weight-based brodalumab vs. ustekinumab. Secondary endpoints were PASI 100 for the comparison of brodalumab 140 mg against ustekinumab and PASI 75 for the comparison of weight-based brodalumab against ustekinumab. Table 1 summarizes the primary as well as the key secondary efficacy endpoints for Trials 02, 03, and 04.
+L172: **Table 1. Summary of primary and secondary endpoints in Trials 02, 03 and 04**
+L173: Comparison against placebo	Comparison against ustekinumab
+PASI 75
+sPGA 0 or 1	Trials 02, 03, 04	Endpoint	Trials 03 and 04 (2)
+Primary	PASI 75	210 mg vs. placebo	PASI 100	210 mg vs. ustekinumab
+sPGA 0 or 1	140 mg vs. placebo	Weight-based (1) vs. ustekinumab
+Key secondary	PASI 100	210 mg vs. placebo	PASI 100	140 mg vs. ustekinumab
+sPGA of 0	140 mg vs. placebo	PASI 75	Weight-based(1) vs. ustekinumab
+PASI 100	140 mg vs. placebo
+sPGA of 0	210 mg vs. placebo
+PSI(3) responder	140 mg vs. placebo
+L174: Source: reviewer table
+L175: (1) Weight-based: Brodalumab 140 mg for subjects \le 100 kg; brodalumab 210 mg for subjects &gt; 100 kg;
+L176: (2) For Trials 03 and 04, the allocation of \alpha for the comparison with ustekinumab was 0.04, and for the comparison with placebo, \alpha=0.01.
+L177: (3) Psoriasis Symptom Inventory. PSI responder was defined as total score \le 8, with no item score &gt; 1 at Week 12.
+L178: For the comparison of each brodalumab dose against placebo, both brodalumab doses were superior to placebo for all co-primary as well as secondary endpoints at Week 12
+L179: (p&lt;0.001). However, for the comparison against ustekinumab, only the brodalumab 210 mg dose and the weight-based brodalumab dose were superior to ustekinumab for the protocol-specified primary endpoints of PASI 100 (p&lt;0.001), and the brodalumab 140 mg was not superior to ustekinumab for the PASI 100 response at Week 12 (p=0.078) in Trial 3. Consequently, there is no replication of study findings for the brodalumab 140 mg against ustekinumab for the PASI 100 endpoint.
+L180: Table 2 summarizes the efficacy results for the co-primary and the key secondary endpoints for the three Phase 3 trials. Note that for hypothesis testings in Trials 03 and 04, the applicant prespecified a significance level of 0.01 and 0.04 for the comparisons of brodalumab vs. placebo, and brodalumab vs. ustekinumab, respectively.
+L181: **Table 2. Proportion of Subjects Achieving Treatment Success at Week 12 for Trials 02, 03, and 04**
+L182: Brodalumab 210 mg	Brodalumab 140 mg	Placebo	Ustekinumab	Weight-based(1) brodalumab
+Trial 02	N=222	N=219	N=220	N/A	N/A
+sPGA of 0 or 1	168 (76)	118 (54)	3 (1)
+PASI 75	185 (83)	132 (60)	6 (3)
+PASI 100	93 (42)	51 (23)	1 (0.5)
+sPGA of 0	93 (42)	51 (23)	1 (0.5)
+PSI responder(2)	136 (61)	116 (53)	9 (4)	
+Trial 03	N=612	N=610	N=309	N=300	N=610
+sPGA of 0 or 1	481 (79)	354 (58)	12 (4)	183 (61)	420 (69)
+PASI 75	528 (86)	406 (67)	25 (8)	210 (70)	470 (80)
+PASI 100	272 (44)	157 (26)	2 (1)	65 (22)	205 (34)
+sPGA of 0	274 (45)	157 (26)	2 (1)	65 (21)	205 (34)
+PSI responder	414 (68)	314 (52)	21 (7)	166 (55)	372 (61)
+Trial 04	N=624	N=629	N=315	N=313	N=628
+sPGA of 0 or 1	497 (80)	377 (60)	13 (4)	179 (57)	430 (69)
+PASI 75	531 (85)	435 (69)	19 (6)	217 (69)	484 (77)
+PASI 100	229 (37)	170 (27)	1 (0.3)	58 (19)	191 (30)
+sPGA of 0	229 (37)	170 (27)	1 (0.3)	58 (19)	191 (30)
+PSI responder	382 (61)	336 (53)	20 (6)	162 (52)	373 (59)
+L183: Source: reviewer table; analysis was based on the Intent to Treat (ITT) set defined as all randomized subjects. Missing data was imputed using non-responder imputation (NRI).
+L184: (1) Weight-based: Brodalumab 140 mg for subjects \le 100 kg; brodalumab 210 mg for subjects &gt;100 kg;
+L185: (2) PSI responder is defined as total score \le 8, with no item score &gt; 1 at Week 12.
+L186: The protocol specified using the Cochran Mantel Haenszel (CMH) test stratified by baseline body weight (\le 100 kg vs. &gt;100 kg), prior biologic use (yes, no), geographic region, and baseline value of the endpoint (\le median, &gt;median for PASI, 3, 4, 5 for sPGA).
+L187: ## 2. INTRODUCTION
+L188: ## 2.1 Overview
+L189: The applicant is seeking approval of brodalumab 210 mg for the indication of treatment of adults with moderate to severe plaque psoriasis. According to the applicant, brodalumab is a human anti-IL-17RA monoclonal antibody that selectively targets human IL-17RA and antagonizes the effects of IL-17A, IL-17F, AL-17A/F, and interleukin 25(IL-25).
+L190: The safety and efficacy of brodalumab was evaluated in three pivotal Phase 3 trials (Trials 02, 03, and 04). All trials evaluated two dose concentrations (140 mg and 210 mg) versus placebo, and Trials 03 and 04 included an active biologic comparator arm, ustekinumab. According to the applicant, ustekinumab was chosen as the active control in Trials 03 and 04 because it was the most efficacious available treatment at the time of study design and was predicted to be the most commonly used treatment option at the time of approval. The applicant stated that ustekinumab was sourced from the U.S. and dosed according to the dosing recommendations provided in the US and European Union labeling. To assess the effect of withdrawal and retreatment with brodalumab, Trial 02 included a randomized withdrawal design following the 12-week induction period, and Trials 03 and 04 evaluated maintenance of efficacy for Weeks 12 through 52, followed by a long-term extension period. An overview of the trials is presented in Table 3 (page 6).
+L191: ## 2.2 Regulatory History
+L192: The clinical development program for brodalumab was under IND 104617 which was opened on 8/27/2009. During the development program, there was a Guidance meeting on 3/9/2011, and a Pre-BLA meeting on 3/25/2015 with Amgen, the original sponsor of this product.
+L193: Following the 5/13/2015 meeting with Amgen to discuss the Suicidal Ideation and Behavior (SIB) risk across the brodalumab program, on 8/12/2015, Amgen (the development and commercial partner to AstraZeneca) decided to discontinue further development of brodalumab and terminated ongoing studies. On 8/31/2015, AstraZeneca and Valeant had entered a new license agreement for the development of brodalumab. The Agency had another Pre-BLA meeting on 10/21/2015 with the new sponsor, AstraZeneca, to discuss the Agency's concern regarding the SIB observed in the brodalumab development program.
+L194: On 11/16/2015, the BLA was submitted to the Agency, and on 4/1/2016, the Agency received a notification from Valeant Pharmaceuticals Luxembourg regarding the transfer of ownership of the BLA from AstraZeneca.
+L195: It should be noted that there had been no End of Phase 2 meetings or a Phase 3 Special Protocol Assessment (SPA) on any of the Phase 3 protocols. However, the Agency provided comments concerning issues regarding the assessment of consistency in treatment effects across sites, secondary endpoints, primary analysis method, method for handling missing data, and sample size calculation in advice letters dated 11/6/2011 and 6/6/2012. Protocol for Trial 02 was amended three times with dates of 7/17/2012, 10/17/2013, and 3/26/2014, and protocols for Trial 03 and 04 were amended three times with dates of 5/31/2012, 10/17/2013, 3/26/2014 with an additional amendment for Trial 03 dated 11/11/2014. The last revision for Trial 03 pertained to the long-term extension period.
+L196: **Table 3. Overview of the Sponsor's Phase 3 trials**
+L197: Trial 02	Trial 03	Trial 04
+Study design	Multicenter, double-blind, randomized, placebo-controlled with induction, withdrawal, retreatment rescue, and open-label extension phases.
+Randomized withdrawal to assess the effect of withdrawal and retreatment with brodalumab.	Multicenter, double-blind, randomized, active-comparator and placebo-controlled with induction, withdrawal, retreatment rescue, and open-label extension phases	
+Dates	8/29/2012-3/12/2014	8/22/2012-9/22/2014	9/11/2012-8/30/2014
+Study Population	Men and women, 18-75 years of age with stable moderate and severe plaque psoriasis diagnosed at least 6 months before the first dose of investigational product, BSA \ge10%, PASI \ge12, sPGA \ge3 at baseline. Subjects with prior psoriasis therapy, including biologic therapy, were allowed to participate; however, prior use of ustekinumab was prohibited in Trials 03 and 04.
+Number of Centers	73 centers in Europe (France, Germany, Poland, and Switzerland), Canada and U.S.	142 centers in Australia, Austria, Canada, Czech Republic, France, Hungary, Netherlands, Poland, Portugal, Spain and the U.S.	142 centers in Australia, Canada, Europe, and the U.S.
+Number of subjects in the treatment arms	661 randomized in 1:1:1 ratio:222 Brodalumab 210 mg Q2W
+219 Brodalumab 140 mg Q2W
+220 Placebo
+1831 randomized in 2:2:1:1 ratio:612 Brodalumab 210 mg Q2W
+610 Brodalumab 140 mg Q2W
+309 Placebo
+300 Ustekinumab
+1881 randomized in 2:2:1:1 ratio:624 Brodalumab 210 mg Q2W
+629 Brodalumab 140 mg Q2W
+315 Placebo
+313 Ustekinumab
+
+Randomization stratification	Randomization was done using the interactive voice response system (IVRS) that used permuted block design, and was stratified by baseline body weight (\le100 kg vs. >100 kg), by prior biologic use (yes vs. no), and by geographic region (non-U.S., US-West, US-Midwest, US-Northeast US-South).
+L198: Source: Reviewer table
+L199: ## 2.3 Data Sources
+L200: This reviewer evaluated the applicant's clinical study reports and clinical summaries, as well as the proposed labeling. This submission was submitted in eCTD format and was entirely electronic. Both SDTM and analysis datasets were submitted. The datasets in this review are archived at: \\cdsesub1\evsprod\bla761032\0000\m5\datasets\, and the study reports are archived at: \\cdsesub1\evsprod\BLA761032\0000\.
+L201: ## 3. STATISTICAL EVALUATION
+L202: ## 3.1 Data and Analysis Quality
+L203: The applicant submitted electronic analysis datasets for review, and no requests for additional datasets were made to the applicant.
+L204: ## 3.2 Evaluation of Efficacy
+L205: ## 3.2.1 Study Design
+L206: The applicant conducted the following three pivotal Phase 3 trials (Trials 02, 03 and 04):
+L207: - Trial 20120102 - "A Phase 3 study to evaluate the efficacy, safety, and effect of withdrawal and retreatment with brodalumab in subjects with moderate to severe plaque psoriasis: AMAGINE-1."
+- Trial 20120103 - "A Phase 3 study to evaluate the efficacy and safety of induction and maintenance regimens of brodalumab compared with placebo and ustekinumab in subjects with moderate to severe plaque psoriasis: AMAGINE-2."
+- Trial 20120104 - "A Phase 3 study to evaluate the efficacy and safety of induction and maintenance regimens of brodalumab compared with placebo and ustekinumab in subjects with moderate to severe plaque psoriasis: AMAGINE-3."
+L208: For enrollment criteria for all three trials, see Table 3 that provides the overview of the enrollment criteria as well as the randomization stratification factors. The following is the sponsor's sPGA scale.
+L209: ## Sponsor's sPGA instrument
+L210: Score	Category	Category Description
+0	Clear	Plaque elevation = 0 (no elevation over normal skin)
+Scaling = 0 (no scale)
+Erythema = no evidence of erythema, hyperpigmentation may be present
+1	Almost clear	Plaque elevation = \pm (possible but difficult to ascertain whether there is a slight elevation above normal skin)
+Scaling = \pm (surface dryness with some white coloration)
+Erythema = faint erythema
+2	Mild	Plaque elevation = slight (slight but definite elevation, typically edges are indistinct or sloped)
+Scaling = fine (fine scale partially or mostly covering lesions)
+Erythema = light red coloration
+3	Moderate	Plaque elevation = moderate (moderate elevation with rough or sloped edges)
+Scaling = coarser (coarse scale covering most of all of the lesions)
+Erythema = moderate (definite red coloration)
+4	Severe	Plaque elevation = marked (marked elevation typically with hard or sharp edges)
+Scaling = coarse (coarse, non tenacious scale predominates covering most or all of the lesions)
+Erythema = severe (very bright red coloration)
+5	Very severe	Plaque elevation = very marked (very marked elevation typically with hard sharp edges)
+Scaling = very coarse (coarse, thick tenacious scale over most of all of the lesions; rough surface)
+Erythema = very severe (extreme red coloration; dusky to deep red coloration)
+L211: Source: Sponsor's submission (SDN 83).
+L212: Figure 1 presents the study design and treatment schema for Trial 02, and Figure 2 presents the study design schema for Trials 03 and 04. All three trials were multicenter, randomized, double-blind, placebo-controlled, parallel-group Phase 3 trials evaluating the safety and efficacy of brodalumab for the treatment of moderate to severe psoriasis. All three Phase 3 trials included the following four phases:
+L213: - Screening: up to 30 days
+- Induction: Day 1 to Week 12
+- Randomized withdrawal (Trial 02) or maintenance (for Trials 03, and 04): Week 13 to 52
+- Long-term extension: Week 53 to up to 5 years
+L214: Figure 1. Study Design for Trial 02
+L215: Source: applicant's study report (Figure 8-1)
+L216: Figure 2. Study Design for Trials 03 and 04
+L217: Source: applicant's study report (Figure 8-1)
+L218: For Trial 02, subjects were randomized twice - once after screening and at Week 12 for the randomized withdrawal period. For the randomization at Week 12, subjects with success on the sPGA who were originally randomized to either brodalumab 140mg or 210 mg were re-randomized to continue the brodalumab at their induction dose or placebo. All subjects originally randomized to placebo and any subjects who did not meet the success criteria on the sPGA scale for re-randomization will receive 210 mg Q2W brodalumab. For the subjects that experienced "return of disease" defined in the protocol as having sPGA \ge 3 at or after Week 16 through Week 52 then the subjects received treatment at his or her initially randomized brodalumab dose, or brodalumab 210 mg if originally randomized to placebo.
+L219: For Trials 03 and 04, the randomized treatment for the induction and the maintenance phases are summarized below. The sponsor used a double-dummy design.
+L220: ## Induction Phase:
+L221: - All subjects received 2 injections (one 1ml + one 0.5 ml) of Amgen Investigative Product (IP) of brodalumab and/or placebo, depending on the subject's randomized arm on Day 1, Weeks 1, 2, 4, 6, 8, and 10. All subjects received non-Amgen IP of ustekinumab or placebo, depending on the randomized arm, at Day 1 and Week 4.Subjects \le 100 kg at the baseline: one 0.5 ml injection
+- Subjects &gt; 100 kg at the baseline: two 0.5 ml injections
+L222: ## Maintenance Phase:
+L223: - All subjects received 2 injections of Amgen IP (one 1 ml + one 0.5 ml) at Weeks 12, 13, 14, 16, 17, 18 and every other week.At Week 12,Subjects originally randomized to placebo received 210 mg Q2W brodalumab.
+- Subjects originally randomized to ustekinumab continued receiving ustekinumab.
+- Subjects originally randomized to either of the brodalumab arms were re-randomized and received one of the following:210 mg Q2W brodalumab
+- 140 mg Q2W brodalumab
+- 140 mg Q4W brodalumab
+- 140 mg Q8W brodalumab
+L224: Re-randomization at Week 12 was stratified by:
+L225: - total body weight at Week 12 (\le 100 kg vs. &gt;100 kg)
+- subject's Week 12 sPGA response (sPGA=0 vs. sPGA=1)
+- subject's original randomized treatment group (210 mg Q2W vs. 140 mg Q2W).
+L226: Subjects not attending the Week 12 visit did not receive further investigative product (IP).
+L227: - All subjects received non-Amgen IP at Weeks 16, 28, and 40:Subjects \le 100 kg at the baseline: one 0.5 ml injection
+- Subjects &gt; 100 kg at the baseline: two 0.5 ml injections
+L228: Through Week 28, Amgen IP was administered by a qualified staff member, and starting at Week 28 to Week 52, subjects self-administered Amgen IP in the office every other week. Non-Amgen IP was administered by a healthcare provider.
+L229: For the long-term extension phase, all subjects received Amgen IP at Weeks 52, 53, 54 and every other week.
+L230: - Subjects on brodalumab continued at their maintenance phase or rescue treatment dosage, as applicable.
+L231: - Subjects who were on ustekinumab began 210 mg Q2W brodalumab at week 52.
+- Subjects qualified for rescue during the long-term extension as described in the rescue section below.
+L232: Rescue treatment of brodalumab 210 mg Q2W was given to subjects who had “inadequate response” defined as a single sPGA of \ge 3 or persistent sPGA values of 2 over at least a 4-week period at or after Week 16.
+L233: ## 3.2.2 Efficacy Assessments
+L234: For all three pivotal trials, the protocol-specified co-primary endpoints for the comparison of each dose of brodalumab vs. placebo were:
+L235: - The proportion of subjects with sPGA of 0 or 1 at Week 12
+- The proportion of subjects with PASI 75 at Week 12,
+L236: and the secondary endpoints were:
+L237: - The proportion of subjects with PASI 100 at Week 12
+- The proportion of subjects with sPGA of 0 at Week 12
+- The proportion of subjects who were Psoriasis Symptom Inventory (PSI) responders defined as having a total score of \le 8, with each item rated as either 0 (not at all) or 1 (mild) at Week 12.
+L238: The Psoriasis Symptom Inventory (PSI) consisted of 8 psoriasis-specific items (itch, redness, scaling, burning, stinging, cracking, flaking, and pain) which was collected using an electronic Diary (eDiary). Subjects rated the severity of each of the 8 items from “not at all” to “very severe” ranging from 0 to 4 with total scores from 0 to 32 with higher scores indicating worse symptoms.
+L239: For Trials 03 and 04, the protocol specified another set of co-primary endpoints for the comparison of brodalumab vs. ustekinumab:
+L240: - The proportion of subjects with PASI 100 at Week 12 for the comparison of brodalumab 210 mg Q2W vs. ustekinumab.
+- The proportion of subjects with PASI 100 at Week 12 for the comparison of weight-based dosing (brodalumab 140 mg for subjects \le 100 kg; brodalumab 210 mg for subjects &gt; 100 kg) vs. ustekinumab.
+L241: For the comparison of brodalumab vs. ustekinumab, the protocol-specified secondary endpoints were:
+L242: - The proportion of subjects with PASI 100 at Week 12 for the comparison of brodalumab 140 mg Q2W vs. ustekinumab.
+- The proportion of subjects with PASI 75 at Week 12 for the comparison of weight-based brodalumab dose vs. ustekinumab.
+L243: The sets of comparisons (i.e., against placebo or against ustekinumab) and the corresponding primary and secondary endpoints are summarized in Table 1.
+L244: In the advice letter dated 6/6/2012, the Agency stated the following that “unless the trial establishes superiority against placebo on the co-primary endpoints”, it will not be possible to interpret the superiority against ustekinumab.
+L245: For the maintenance period, the proportion of subjects with sPGA success (sPGA 0 or 1) at Week 52 was evaluated. In an advice letter dated 6/6/2012, the Agency stated that there was no agreement on a labeling claim for the proposed maintenance endpoint, and that the goal of assessment of maintenance regimen should be to identify the regimen with a favorable efficacy and safety profile. Further, the Agency stated that the pairwise sequential hypothesis test comparisons between selected maintenance regimens may have limited utility for identifying the appropriate regimen.
+L246: The protocols for all three trials specified many other secondary endpoints; however, those endpoints were not included in the multiplicity testing strategy, and therefore, these secondary endpoints are not presented in this review.
+L247: ## 3.2.3 Statistical Methods
+L248: ## 3.2.3.1 Analysis Populations
+L249: The primary analysis population was the Intent to Treat (ITT) set defined as all randomized subjects, and the sponsor denoted this as the Full Analysis Set (FAS). The Per Protocol (PP) set for the induction period included all randomized subjects who completed the Week 12 visit, and who did not significantly deviate from the protocol through the induction period. The safety analysis set consisted of all randomized subjects who received at least 1 dose.
+L250: For the maintenance phase in Trials 03 and 04, the sponsor defined the “efficacy evaluable subset” to include only those subjects that were re-randomized at Week 12. For the comparison of brodalumab vs. ustekinumab, the efficacy evaluable subset included the subjects re-randomized to brodalumab and the subjects that were initially randomized to ustekinumab.
+L251: ## 3.2.3.2 Analysis Methods
+L252: The sponsor conducted the primary analysis after all subjects completed their week 52 visit (or terminated from the study).
+L253: For all three trials, the analysis method for the dichotomous endpoints (including success on the sPGA, the proportion of subjects achieving PASI 75 and PASI 100, and the proportion of subjects who are responders on the PSI), except for the maintenance endpoint of sPGA responders (defined as 0 or 1) at Week 52, was the Cochran-Mantel-Haenszel (CMH) test stratified by baseline total body weight at baseline (\le 100 kg, &gt; 100 kg), prior biologic use (yes, no), geographic region (US-West, US-Midwest, US-Northeast, US-South), and baseline value group (\le median, &gt; median; for sPGA related endpoints, baseline sPGA of 3, 4, or 5). For the sPGA responder at Week 52, the primary analysis method was the CMH test stratified by Week 12 total body weight (\le 100 kg, &gt;
+L254: 100 kg), Week 12 response (sPGA of 0, sPGA of \ge 1), treatment received in the induction phase.
+L255: To maintain the family-wise Type I error rate at 5%, the SAP for Trial 02 specified testing the co-primary endpoints at \alpha=0.05, and the SAPs for Trials 03 and 04 specified that “a combination of parallel, sequential, and Bonferroni-based recycling testing” was followed for the Week 12 primary and secondary endpoints. For Trials 03 and 04, the SAPs specified that the Week 12 primary and key secondary endpoints were tested in the placebo family at \alpha=0.01 (2-sided) and in the ustekinumab family at \alpha=0.04 (2-sided). If and only if the null hypotheses for all the primary and key secondary endpoints within either the placebo (\alpha=0.01) or ustekinumab (\alpha=0.04) family were rejected, the fraction of the overall alpha (either 0.01 or 0.04) allocated to that family were recycled to the testing of the hypotheses in the other family (Burman, C.-F., Sonesson, C., Guilbaud, O., A recycling framework for the construction of Bonferroni-based multiple tests. *Statistics in Medicine*, 2009; 28:739-61).
+L256: Figure 3 shows the sponsor's testing strategy for Trials 03 and 04. It should be noted that the Agency previously provided comments (advice letter dated: 6/6/2012) that the sponsor consider a parallel sequential design to test each brodalumab concentration separately so as to allow further testing of the corresponding key secondary endpoints in case one of the doses is not statistically significant for the co-primary endpoints.
+L257: **Figure 3. Sponsor's Testing Strategy for Trials 03 and 04**
+L258: Source: sponsor's submission (page 63)
+L259: The SAPs for Trials 03 and 04 specified that within the placebo and ustekinumab families, the primary endpoints would be tested first, and if the null hypothesis for any of the primary endpoints within a family is not rejected, all the subsequent hypotheses for the key secondary endpoints at Week 12 within that family would not be tested. The protocol specified that if the null hypotheses for the primary endpoints within a family are rejected, then the hypotheses corresponding to the key secondary endpoints at Week
+L260: 12 within that family would be tested sequentially. Figures 4 and 5 show the testing strategy for the comparison of brodalumab against placebo, and against ustekinumab, respectively.
+L261: **Figure 4. Sponsor's Testing Strategy for the Comparison of Brodalumab Against Placebo for Trials 02, 03 and 04**
+L262: ## *Family of Hypotheses Based on Comparisons with Placebo*
+L263: Source: sponsor's submission (page 64)
+L264: Figure 5. Sponsor's Testing Strategy for the Comparison of Brodalumab Against Ustekinumab for Trials 03 and 04
+L265: ## *Family of Hypotheses Based on Comparisons with Ustekinumab*
+L266: Source: sponsor's submission (page 65)
+L267: ## 3.2.3.3 Missing Data Imputation
+L268: For handling missing data through Week 12, the sponsor used the non-responder imputation as the primary method. The sponsor used the last observation carried forward (LOCF) and the “as observed” data as sensitivity analysis for handling missing data.
+L269: ## 3.2.3 Patient Disposition, Demographic and Baseline Characteristics
+L270: Tables 4 and 5 present the disposition of subjects during the induction period for Trials 02, 03 and 04, respectively. Trial 02 enrolled a total of 661 randomized subjects from 73 centers. Trial 03 enrolled a total of 1831 randomized subjects from 142 centers. Trial 04 enrolled a total of 1881 randomized subjects from 142 centers. The discontinuation rates were generally similar between treatment arms within each trial, and between each trial. Note that with such low rates of missing data (&lt;6%) along with the large treatment effect, the impact of the imputation method on efficacy is minimal.
+L271: Table 4. Induction Period Disposition for Trials 02 and 03
+L272: Trial 02	Trial 2303
+Brodalumab
+210 mg	Brodalumab
+140 mg	Placebo	Brodalumab
+210 mg	Brodalumab
+140 mg	Placebo	Ustekinu-
+mab
+Randomized	222	219	220	612	610	309	300
+Applicant's
+FAS(2)	222	219	220	612	610	309	300
+Discontinued
+Amgen IP	10 (5%)	11 (5%)	12 (6%)	19 (3%)	24 (4%)	12 (4%)	10 (3%)
+Ineligibility
+determined	0	0	0	0	1	0	1
+Protocol
+violation	0	0	0	1	0	0	0
+Noncompliance	0	0	0	2	2	0	2
+Adverse Event	2	4	3	4	3	0	3
+Consent
+Withdrawn	4	2	3	3	9	5	2
+Requirement
+for alternative
+therapy	0	0	1	2	2	2	1
+Administrative
+Decision	1	1	0	0	0	0	0
+Lost to
+followup	0	0	1	1	0	1	1
+Protocol-
+specified
+criteria	3	4	2	4	5	3	0
+Pregnancy	0	0	0	0	0	0	1
+Death	0	0	0	1	0	0	0
+L273: Source: Applicant's table 14-1.1.1
+L274: (1) Randomized Set: all subjects who were randomized at baseline visit.
+(2) Full Analysis Set (FAS): "all subjects to whom study treatment has been assigned."
+(3) Safety Set (SES): "all subjects who took at least one dose of study treatment during the treatment period."
+L275: Table 5. Induction Period Disposition for Trial 04
+L276: Trial 04
+Brodalumab
+210 mg	Brodalumab
+140 mg	Placebo	Ustekinumab
+Randomized	624	629	315	313
+Applicant's
+FAS(2)	624	629	315	313
+Discontinued
+Amgen IP	20 (3%)	23 (4%)	13 (4%)	12 (4%)
+Ineligibility
+determined	0	2	1	0
+Protocol
+violation	1	0	1	0
+Noncompliance	1	1	1
+Adverse Event	7	4	2	0
+Consent
+Withdrawn	3	7	8	3
+Requirement for
+alternative
+therapy	0	0	1	0
+Administrative
+Decision	0	2	0	0
+Lost to followup	4	2	0	2
+Protocol-
+specified
+criteria	1	5	0	5
+Pregnancy	2	0	0	0
+Other	1	0	0	1
+L277: Source: Applicant's table 14-1.1.1
+L278: (1) Randomized Set: all subjects who were randomized at baseline visit.
+(2) Full Analysis Set (FAS): "all subjects to whom study treatment has been assigned.
+(3) Safety Set (SES): "all subjects who took at least one dose of study treatment during the treatment period."
+L279: Tables 6 and 7 present the baseline demographics for Trials 02 and 03, and Trial 04, respectively. The baseline demographics were generally balanced across the treatment arms within each trial; however, in Trial 02, the prior biologic use was about 46% compared to 29% and 25% in Trials 03 and 04, respectively. Approximately 69% of the subjects were male and 91% were Caucasians. The mean age was around 45 years and the mean weight was about 91 kg with about 72% of the subjects who were \le100 kg at baseline. For all Phase 3 trials, the baseline median PASI was 17.4 with ranges of 12 to 72 (note that there was one subject in Trial 03 with a baseline PASI of 9.4), and the median body surface area (BSA) was about 21 with ranges of 10 to 97. Approximately 58%, 37%, 5% of the subjects were of scores 3 (moderate), 4 (severe) and 5(very severe) at baseline, respectively.
+L280: Table 6. Baseline Demographics for Trials 02 and 03
+L281: Trial 02	Trial 03
+Brodalumab
+210 mg
+N=222	Brodalumab
+140 mg
+N=219	Placebo
+N=220	Brodalumab
+210 mg
+N=612	Brodalumab
+140 mg
+N=610	Placebo
+N=309	Ustekinumab
+N=300
+Gender	
+Female	61
+(28%)	57
+(26%)	59
+(27%)	191
+(31%)	197
+(32%)	90
+(29%)	95
+(32%)
+Male	161
+(73%)	162
+(74%)	161
+(73%)	421
+(69%)	413
+(68%)	205
+(68%)	219
+(71%)
+Age	
+Mean	46	46	47	45	45	44	45
+SD	12	13	13	13	13	13	13
+Range	20-75	19-75	20-86	18-75	18-75	18-76	18-75
+Median	12	13	13	
+<65	206
+(93%)	199
+(91%)	202
+(92%)	585
+(96%)	572
+(94%)	289
+(94%)	279
+(93%)
+≥65	16 (7%)	20 (9%)	18 (8%)	27 (4%)	38 (6%)	20 (7%)	21 (7%)
+Race	
+Asian	10 (5%)	10 (5%)	8 (4%)	19 (3%)	25 (4%)	12 (4%)	12 (4%)
+Black	3 (1%)	8 (4%)	6 (3%)	19 (3%)	13 (2%)	14 (5%)	7 (2%)
+Caucasian	203
+(91%)	196
+(90%)	202
+(92%)	551
+(90%)	557
+(91%)	273
+(88%)	271
+(90%)
+Native American	1 (<1%)	1(<1%)	0 (0%)	3 (<1%)	2 (<1%)	2 (<1%)	1(<1%)
+Pacific Islander	2 (1%)	1 (<1%)	2 (1%)	5 (1%)	4 (1%)	0 (0%)	0 (0%)
+Other	3 (1%)	3 (1%)	2 (1%)	10 (2%)	8 (1%)	7 (2%)	6 (2%)
+Weight	
+Mean	91.4	90.6	90.4	91.2	91.9	91.5	91.3
+SD	23.4	21.5	20.1	22.9	22.3	23.4	23.7
+Range	48.2-161.8	52.0-195.5	40.0-170.0	39.1-180.1	40.9-190.9	44.5-195.5	48.2-186.5
+Median	89.0	88.5	88.0	88.7	89.1	87.6	87.3
+≤100 kg	156
+(70%)	156
+(71%)	159
+(72%)	428
+(70%)	426
+(70%)	216
+(70%)	214
+(71%)
+>100 kg	66 (30%)	63 (29%)	61 (28%)	184 (30%)	184 (30%)	93 (30%)	86 (29%)
+Prior Biologic Therapy	
+Yes	105
+(47%)	99
+(45%)	101
+(46%)	177
+(29%)	179
+(29%)	90
+(29%)	84
+(28%)
+No	117
+(53%)	120
+(55%)	119
+(54%)	435
+(71%)	431
+(71%)	219
+(71%)	216
+(72%)
+L282: Source: Applicant's table 14-2.1.1
+L283: Table 7. Baseline Demographics for Trial 04
+L284: Trial 03
+Brodalumab
+210 mg
+N=624	Brodalumab
+140 mg
+N=629	Placebo
+N=315	Ustekinumab
+N=313
+Gender	
+Female	193 (31%)	192 (31%)	107 (34%)	101 (32%)
+Male	431 (69%)	437 (70%)	208 (66%)	212 (68%)
+Age	
+Mean	45	45	44	45
+SD	13	13	13	13
+Range	18-75	18-75	18-75	18-74
+Median	46	44	44	44
+<65	578 (93%)	589 (94%)	300 (95%)	292 (93%)
+≥65	46 (7%)	40 (6%)	15 (5%)	21 (7%)
+Race	
+Asian	20 (3%)	27 (4%)	9 (3%)	12 (4%)
+Black	17 (3%)	22 (4%)	6 (2%)	13 (4%)
+Caucasian	565 (91%)	569 (91%)	294 (93%)	280 (90%)
+Native American	3 (<1%)	3 (<1%)	0 (0%)	1 (<1%)
+Pacific Islander	3 (<1%)	3 (<1%)	1 (<1%)	0 (0%)
+Other	14 (2%)	4 (1%)	5 (2%)	6 (2%)
+Weight	
+Mean	90.1	88.9	88.7	90.2
+SD	23.2	20.8	21.9	22.0
+Range	44.5-233.6	43.2-170.9	46.0-190.9	50.9-161.8
+Median	87.0	86.0	85.1	86.8
+≤100 kg	458 (73%)	462 (73%)	233 (74%)	227 (73%)
+>100 kg	166 (27%)	167 (27%)	82 (26%)	86 (28%)
+Prior Biologic Therapy	
+Yes	157 (25%)	160 (25%)	76 (24%)	75 (24%)
+No	467 (75%)	469 (75%)	239 (76%)	238 (76%)
+L285: Source: applicant's table 14-2.1.1
+L286: Table 8 presents the baseline disease severity for Trials 02 and 03. The baseline disease characteristics of sPGA and BSA were generally balanced across treatment groups in Trials 02, 03 and 04; however, the mean baseline PASI score was slightly higher in Trial 03 (i.e., 27) compared to those in Trials 02 and 04 (i.e., 20). For all three trials, approximately 58% of subjects had a baseline sPGA of 3 (moderate), and the rest of the subjects had a baseline sPGA of 4 (severe) or 5 (very severe).
+L287: **Table 8. Baseline Disease Severity for Trials 02 and 03**
+L288: Trial 02	Trial 03
+Brodalumab
+210 mg
+N=222	Brodalumab
+140 mg
+N=219	Placebo
+N=220	Brodalumab
+210 mg
+N=612	Brodalumab
+140 mg
+N=610	Placebo
+N=309	Ustekinumab
+N=300
+sPGA
+3	121 (55%)	129 (59%)	114 (52%)	316 (52%)	358 (59%)	167 (54%)	153 (51%)
+4	87 (39%)	80 (37%)	91 (51%)	254 (42%)	217 (36%)	120 (39%)	132 (44%)
+5	14 (6%)	10 (5%)	15 (7%)	42 (7%)	35 (6%)	22 (7%)	15 (5%)
+PASI
+mean	19.4	20.0	19.7	26.0	27.1	27.9	27.0
+SD	6.6	7.4	7.7	16.3	17.4	17.0	19.3
+Median	17.4	18.0	17.9	17.3
+Range	12.1-52.2	12.0-48.3	12.0-54.8	12.0-72.0	9.4-54.0	12.0-61.2	12.0-59.4
+BSA
+Mean	25.1	27.4	26.9	26.0	27.1	27.9	27.0
+SD	15.3	17.1	17.1	16.3	17.4	17.0	19.3
+median	20.0	21.0	20.0	20.0	20.0	22.0	20.0
+range	10-92	10-91	10-82	10-91	10.0-89.5	10-85	10-91
+L289: Source: Applicant's table 14-2.2.1
+L290: **Table 9. Baseline Disease Severity for Trial 04**
+L291: Trial 04
+Brodalumab
+210 mg
+N=624	Brodalumab
+140 mg
+N=629	Placebo
+N=315	Ustekinumab
+N=313
+sPGA
+3	373 (60%)	412 (66%)	192 (61%)	192 (61%)
+4	226 (36%)	192 (31%)	113 (36%)	103 (33%)
+5	25 (4%)	25 (4%)	10 (3%)	18 (6%)
+PASI
+mean	20.4	20.1	20.1	20.1
+SD	8.3	8.5	8.7	8.4
+median	17.1	17.3	17.0	17.8
+Range	12-61.2	12.0-64.2	12.0-65.8	12.0-60.4
+BSA
+Mean	28.3	28.6	27.7	28.1
+SD	17.7	18.4	17.4	17.6
+Median	22.0	22.0	21.0	22.0
+range	10-92	10-97	10-93.5	10-84.6
+L292: Source: Applicant's table 14-2.2.1
+L293: ## 3.2.4 Results and Conclusions
+L294: ## 3.2.4.1 Week 12 Efficacy Results
+L295: Both brodalumab 210 mg and 140 mg were superior to placebo at Week 12 (p&lt;0.0001) for the co-primary endpoints of PASI 75 response and sPGA success (defined as scoring
+L296: 0 or 1), as well as the key secondary endpoints of PASI 100, sPGA of 0, and PSI responder at Week 12 in all three trials. For Trials 03 and 04, brodalumab 210 mg and the weight-based brodalumab dose were superior to ustekinumab for the primary endpoint of PASI 100 response (p&lt;0.001 and p=0.0007, respectively); however, for the comparison of brodalumab 140 mg vs. ustekinumab, only Trial 04 was statistically significant (p\text{-value}=0.007), and Trial 03 was not (p\text{-value}=0.078) for the analysis of the PASI 100 response at Week 12. According to the applicant's clinical summary, in Trial 03, the applicant noted that the brodalumab 140 mg dose had lower efficacy than in Trial 04 "perhaps because of the impact of subjects with higher body weight and prior biologic use/failure". Based on Tables 8 and 9 of this review, this reviewer noted that Trial 03 had a slightly higher mean baseline PASI score of 27 compared to the mean baseline PASI score of 20 for Trials 02 and 04.
+L297: The results of the co-primary and the key secondary endpoints of Trials 02, 03, and 04 are presented in Table 2 (page 4 of this review).
+L298: ## 3.2.4.2 Efficacy Over Time
+L299: For the induction period, subjects were evaluated for sPGA and PASI scores on Weeks 1, 2, 4, 6, 8, 10, and 12. The following graphs Figures 6, 7, and 8 show the results of the proportion of subjects with sPGA of 0 or 1 as well as the proportion of subjects achieving PASI 75 during the induction period for Trials 02, 03, and 04, respectively.
+L300: **Figure 6. Success on the sPGA(1)and PASI 75 response for the Induction Period of Trial 02**
+L301: Source: reviewer figures; Intent-to-Treat (ITT) analysis set; Missing data was imputed using non-responder imputation (NRI).
+(1) sPGA score of 0 or 1.
+L302: **Figure 7. Success on the sPGA(1) and PASI 75 response for the Induction Period of Trial 03**
+L303: Source: reviewer figures; Intent-to-Treat (ITT) analysis set; Missing data was imputed using non-responder imputation (NRI).
+(1) sPGA score of 0 or 1.
+L304: **Figure 8. Success on the sPGA(1) and PASI 75 response for the Induction Period of Trial 04**
+L305: Source: reviewer figures; Intent-to-Treat (ITT) analysis set; Missing data was imputed using non-responder imputation (NRI).
+(1) sPGA score of 0 or 1.
+L306: Trials 03 and 04 evaluated maintenance of sPGA success at Week 52 and conducted pairwise sequential hypothesis test; however, the maintenance endpoint was not a part of the multiplicity testing strategy. In an advice letter dated 6/6/2012, the Agency stated that there was no agreement on a labeling claim for the proposed maintenance endpoint, and that the goal of assessment of maintenance regimen should be to identify the regimen with a favorable efficacy and safety profile. Further, the Agency stated that the pairwise
+L307: sequential hypothesis test comparisons between selected maintenance regimens may have limited utility for identifying the appropriate regimen. Subjects with sPGA of 0 or 1 response at Week 52 was higher among those subjects that received the brodalumab 210 mg Q2W than those that received the lower doses of brodalumab (i.e., 140 mg Q2W; 140 mg Q4W; 140 mg Q8W). Table 10 presents the proportion of Week 12 sPGA responders (i.e., scoring sPGA of 0 or 1) who maintained sPGA response at Week 52 for those subjects that were re-randomized at Week 12. Among the sPGA responders that were re-randomized at Week 12, the proportion of subjects that maintained their responder status was highest in those that received brodalumab 210 mg dose (79%).
+L308: **Table 10. Maintenance of sPGA Response(1) at Week 52 for Trials 03 and 04**
+L309: Trial	Endpoint	Brodalumab 210 mg Q2W	Brodalumab 140 mg Q2W	Brodalumab 140 mg Q4W	Brodalumab 140 mg Q8W
+03	sPGA 0 or 1	184/233
+(79%)	134/234
+(57%)	28/240
+(12%)	7/123
+(6%)
+04	sPGA 0 or 1	190/242
+(79%)	143/254
+(56%)	48/244
+(20%)	8/132
+(6%)
+L310: Source: Reviewer's analysis. (1) sPGA score of 0 or 1. The applicant defined "inadequate response" as having a single sPGA =3 or persistent sPGA of at least for at least 4 weeks on or after Week 16. This reviewer considered non-responder for those that did not meet the success criteria of sPGA score of 0 or 1 at Week 52.
+L311: Trial 02 included a randomized withdrawal period following the 12-week induction period, and sPGA responders (sPGA of 0 or 1) at Week 12 were randomized in a 1:1 to either continue the brodalumab dose that they received in the induction period or placebo. Subjects that continued to receive brodalumab dose had higher sPGA 0 or 1 response rates at Week 52 compared to those that were re-randomized to placebo. The sPGA of 0 or 1 response at Week 52 among those subjects that were sPGA responders at Week 12 are summarized in Table 11 below.
+L312: **Table 11. Success on the sPGA(1) at Week 52 for Trials 02 during the Randomized Withdrawal**
+L313: Induction Dose	Brodalumab 210 mg Q2W	Brodalumab 140 mg Q2W
+Randomized Withdrawal	Brodalumab 210 mg Q2W	Placebo	Brodalumab 140 mg Q4W	Placebo
+Trial 02	sPGA 0 or 1	69/83
+(83%)	0/84
+(0%)	40/57
+(70%)	3/59
+(5%)
+L314: Source: Reviewer's analysis. (1) sPGA score of 0 or 1.
+L315: Figure 9 presents the response rates (sPGA 0 or 1) during the randomized withdrawal for Trial 02, and Figures 10 and 11 present the sPGA 0 or 1 response rates during the maintenance period for Trials 03 and 04. For Trial 02, the proportion of subjects that maintain their response at Week 52 was higher for subjects that continued their dose received at the induction period, and those that were re-randomized to placebo lost their sPGA response during the randomized withdrawal period.
+L316: Figure 9. Maintenance of sPGA of 0 or 1 response during the Randomized Withdrawal Period (Weeks 12-52) for Trial 02
+L317: Source: Reviewer's figure
+L318: For Trials 03 and 04, the proportion of subjects that maintained their sPGA response was higher for subjects who received brodalumab 210 mg Q2W compared to brodalumab 140 mg doses (i.e., Q2W, Q4W, Q8W), and placebo. The proportion of sPGA responders that maintained their sPGA response status and received ustekinumab was higher than those subjects that received brodalumab 140 mg Q2W, but lower than those subjects that received brodalumab 210 mg Q2W as seen in Figures 10 and 11 below.
+L319: Figure 10. Maintenance of sPGA of 0 or 1 response during the Maintenance Period (Weeks 12-52) for Trial 03
+L320: Source: Reviewer's figure
+L321: Figure 11. Maintenance of sPGA of 0 or 1 response during the Maintenance Period (Weeks 12-52) for Trial 04
+L322: Source: Reviewer's figure
+L323: ## 3.2.4.3 Additional Analyses
+L324: Baseline body weight (\le 100 kg vs. &gt;100 kg) was one of the randomization stratification factors. Because ustekinumab is approved for weight-based dosing (45 mg for subjects \le 100 kg and 90 mg for subjects &gt;100 kg), this reviewer evaluated the sPGA success rates (defined as scoring 0 or 1) at Week 12 for the two brodalumab doses by weight in 10 kg increments. In all three pivotal trials (Trials 02, 03, 04), brodalumab 210 mg Q2W generally had higher sPGA response rates than the responses of the 140 mg Q2W dose group across most weight subgroups. Trials 03 and 04 included a ustekinumab arm, and its sPGA response at Week 12 by weight is shown for those trials as well. Figures 12, 13, and 14 present the sPGA success at Week 12 by weight in 10 kg increments for Trials 02, 03, and 04, respectively.
+L325: **Figure 12. Success on the sPGA(1) at Week 12 by Weight (in 10 kg increments) for Trial 02**
+L326: Source: Reviewer's figure. (1) sPGA score of 0 or 1
+L327: Figure 13. Success on the sPGA(1) at Week 12 by Weight (in 10 kg increments) for Trial 03
+L328: Source: Reviewer's figure. (1) sPGA score of 0 or 1.
+L329: Figure 14. Success on the sPGA(1) at Week 12 by Weight (in 10 kg increments) for Trial 04
+L330: Source: Reviewer's figure. (1) sPGA score of 0 or 1.
+L331: ## 3.3 Evaluation of Safety
+L332: The evaluation of safety in this review is limited to the induction period of the three pivotal Phase 3 trials (Trials 02, 03, 04). For Weeks 0-12, the treatment-emergent adverse events (TEAEs) occurring \ge 1\% for Trials 02, 03 and 04 are summarized in Tables 12, 13, and 14, respectively. For details regarding the assessment of the safety outcomes including the suicidal ideation and behaviors (SIB) and major adverse cardiac event (MACE), see the safety statistical review by Dr. Ling Lan (dated: 7/6/2016).
+L333: **Table 12. Overview of Treatment-Emergent Adverse Events (TEAEs) Reported During the Placebo-Controlled Phase (Weeks 0 to 12) in Trial 02**
+L334: Trial 02
+Brodalumab
+210 mg
+N=222	Brodalumab
+140 mg
+N=219	Placebo
+N=220
+TEAE	131
+(59%)	126
+(58%)	112 (51%)
+Upper respiratory tract infection	18 (8%)	18 (8%)	14 (6%)
+Headache	11 (5%)	12 (6%)	7 (3%)
+Arthralgia	6 (3%)	10 (5%)	6 (3%)
+Hyper-tension	2 (1%)	8 (4%)	4 (2%)
+Backpain	6 (3%)	2 (1%)	4 (2%)
+Nausea	5 (2%)	5 (2%)	2 (1%)
+Rhinitis	5 (2%)	2 (1%)	2 (1%)
+Tooth infection	1 (1%)	6 (3%)	2 (1%)
+Diarrhea	4 (2%)	4 (2%)	1 (<1%)
+Cough	3 (1%)	6 (3%)	0 (0%)
+Vomiting	2 (1%)	4 (2%)	1 (<1%)
+Conjuctivi-tis	5 (2%)	2 (1%)	0 (0%)
+Influenza	4 (2%)	1 (<1%)	1 (<1%)
+Myalgia	4 (2%)	2 (1%)	0 (0%)
+Influenza like illness	4 (2%)	0 (0%)	1 (<1%)
+Ligament sprain	0 (0%)	3 (1%)	1 (<1%)
+Rash	4 (2%)	0 (0%)	0(0%)
+Urinary Tract Infection	1 (<1%)	3 (1%)	0 (0%)
+Dizziness	0 (0%)	3 (1%)	0 (0%)
+L335: Source: applicant's table 12-3.
+L336: **Table 13. Overview of Treatment-Emergent Adverse Events (TEAEs) Reported During the Placebo-Controlled Phase (Weeks 0 to 12) in Trial 03**
+L337: Trial 03
+Brodalumab
+210 mg
+N=612	Brodalumab
+140 mg
+N=610	Placebo
+N=309	Ustekinumab
+N=300
+TEAE	354 (58%)	365 (60%)	165 (53%)	177 (59%)
+nasopharyngitis	45 (7%)	45 (7%)	14 (5%)	18 (6%)
+Headache	31 (5%)	35 (6%)	9 (3%)	12 (4%)
+Upper respiratory tract infection	33 (5%)	35 (6%)	9 (3%)	12 (4%)
+Arthralgia	28 (5%)	33 (5%)	23 (7%)	20 (7%)
+Fatigue	16 (3%)	11 (2%)	2 (1%)	12 (4%)
+Back Pain	9 (2%)	11 (2%)	2 (1%)	12 (4%)
+Myalgia	9 (2%)	17 (3%)	1 (<1%)	4 (1%)
+Bronchitis	12 (2%)	3 (<1%)	3 (1%)	4 (1%)
+Psoiatric arthropathy	4 (1%)	11 (2%)	1 (<1%)	0 (0%)
+Pyrexia	8 (1%)	6 (1%)	0 (0%)	2 (1%)
+Abdominal pain upper	2 (<1%)	10 (2%)	1 (<1%)	1 (<1%)
+Viral upper respiratory tract infection	6 (1%)	5 (1%)	0 (0%)	3 (1%)
+Pharyngitis	7 (1%)	3 (<1%)	0 (0%)	1 (<1%)
+Influenza like illness	3 (<1%)	6 (1%)	0 (0%)	1 (<1%)
+Hyperuricaemia	2 (<1%)	3 (<1%)	4 (1%)	2 (1%)
+Oedema peripheral	2 (<1%)	2 (<1%)	4 (1%)	1 (<1%)
+L338: Source: applicant's table 12-4
+L339: **Table 14. Overview of Treatment-Emergent Adverse Events (TEAEs) Reported During the Placebo-Controlled Phase (Weeks 0 to 12) in Trial 04**
+L340: Trial 03
+Brodalumab
+210 mg
+N=622	Brodalumab
+140 mg
+N=626	Placebo
+N=313	Ustekinumab
+N=313
+TEAE	353 (57%)	329 (53%)	152 (49%)	168 (54%)
+Arthralgia	36 (6%)	25 (4%)	10 (3%)	6 (2%)
+Fatigue	20 (3%)	20 (3%)	6 (2%)	4 (1%)
+Oropharyngeal
+pain	18 (3%)	14 (2%)	3 (1%)	7 (2%)
+Hypertension	13 (2%)	8 (1%)	3 (1%)	6 (2%)
+Pain in
+extremity	10 (2%)	11 (2%)	3 (1%)	6 (2%)
+Nausea	11 (2%)	11 (2%)	2 (1%)	1 (<1%)
+Myalgia	12 (2%)	9 (1%)	2 (1%)	0 (0%)
+Gastroenteritis	4 (1%)	7 (1%)	1 (<1%)	1 (<1%)
+Neutropenia	7 (1%)	5 (1%)	0 (0%)	1 (<1%)
+Muscle strain	6 (1%)	5 (1%)	0 (0%)	1 (<1%)
+Toothache	7 (1%)	4 (1%)	0 (0%)	0 (0%)
+Conjunctivitis	3 (<1%)	6 (1%)	1 (<1%)	0 (0%)
+L341: Source: applicant's table 12-4
+L342: ## 4. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L343: In this section, the efficacy by gender, age, race, weight, prior biologic use, as well as region and country for the pivotal trials were considered.
+L344: ## 4.1 Efficacy by Gender, Age, Race, Weight, Prior Biologic Use, and Region
+L345: Tables 15 and 16 present the PGA 0 or 1 success by gender, race, age, weight, prior biologic use, and region strata at baseline for the pivotal trials. The majority of the subjects enrolled in the trials were Caucasians (approximately 91%), and of &lt;65 years of age (approximately 94%). Therefore, any differences in efficacy for the non-Caucasians and the older age (\ge65) subgroups would be difficult to detect. Similar results were obtained for PASI 75 response at Week 12 by subgroups of gender, age, race, weight, prior biologic use, and region (see Appendix).
+L346: Table 15. Success on the sPGA(1) at Week 12 by Baseline Demographics for Trials 02 and 03
+L347: Trial 02	Trial 03
+Brodalumab
+210 mg
+N=222	Brodalumab
+140 mg
+N=219	Placebo
+N=220	Brodalumab
+210 mg
+N=612	Brodalumab
+140 mg
+N=610	Placebo
+N=309	Ustekinu-
+mab
+N=300
+Gender	
+Female	48/61
+(79%)	27/57
+(47%)	1/59
+(2%)	151/191
+(79%)	122/197
+(62%)	6/90
+(7%)	63/95
+(66%)
+Male	120/161
+(75%)	91/162
+(56%)	2/161
+(1%)	330/421
+(78%)	232/413
+(56%)	6/219
+(3%)	120/205
+(59%)
+Age	
+<65	154/206
+(75%)	106/199
+(53%)	3/202
+(1%)	458/585
+(78%)	332/572
+(58%)	11/289
+(4%)	174/279
+(62%)
+≥65	14/16
+(88%)	12/20
+(60%)	0/18
+(0%)	23/27
+(85%)	22/38
+(58%)	1/20
+(5%)	9/21
+(43%)
+Race	
+White	152/203
+(75%)	103/196
+(53%)	2/202
+(1%)	435/551
+(79%)	323/557
+(58%)	9/273
+(3%)	166/271
+(61%)
+Non-white	16/19
+(84%)	15/23
+(65%)	1/18
+(6%)	46/61
+(75%)	31/53
+(58%)	3/36
+(8%)	17/29
+(59%)
+Weight	
+≤100 kg	133/156
+(85%)	99/156
+(63%)	3/159
+(2%)	358/428
+(84%)	297/426
+(70%)	11/216
+(5%)	135/214
+(63%)
+>100 kg	35/66
+(53%)	19/63
+(30%)	0/61
+(0%)	123/184
+(67%)	57/184
+(31%)	1/93
+(1%)	48/86
+(56%)
+Prior Biologic Use	
+Yes	85/105
+(81%)	47/99
+(47%)	0/101
+(0%)	133/177
+(75%)	90/179
+(50%)	1/90 (1%)	42/84
+(50%)
+No	83/117
+(71%)	71/120
+(59%)	3/119
+(3%)	348/435
+(80%)	264/431
+(61%)	11/219
+(5%)	141/216
+(65%)
+Region	
+U.S.A.	60/87 (69%)	41/86 (48%)	3/88
+(3%)	209/286
+(73%)	138/281
+(49%)	5/144
+(3%)	79/140
+(56%)
+Canada	40/48 (83%)	23/49 (47%)	0/47
+(0%)	53/64
+(83%)	37/66
+(56%)	2/33
+(6%)	23/32
+(72%)
+Ex-North America	68/87 (78%)	54/84 (64%)	0/85
+(0%)	219/262
+(84%)	179/263
+(68%)	5/132
+(4%)	81/128
+(63%)
+L348: Source: Reviewer Table. (1) sPGA score of 0 or 1.
+L349: Table 16. Success on the sPGA(1) at Week 12 by Baseline Demographics for Trial 04
+L350: Trial 03
+Brodalumab
+210 mg
+N=624	Brodalumab
+140 mg
+N=629	Placebo
+N=315	Ustekinumab
+N=313
+Gender	
+Female	146/193
+(76%)	121/192
+(63%)	5/107
+(5%)	62/101
+(61%)
+Male	351/431
+(81%)	256/437
+(58%)	8/208
+(4%)	117/212
+(55%)
+Age	
+<65	467/578
+(81%)	354/589
+(60%)	11/300
+(4%)	168/292
+(58%)
+≥65	30/46
+(65%)	23/40
+(58%)	2/15
+(13%)	11/21
+(52%)
+Race	
+Caucasian	448/565
+(79%)	345/569
+(61%)	13/294
+(4%)	162/280
+(58%)
+Non-white	49/59 (83%)	32/60 (53%)	0/21
+(0%)	17/33 (52%)
+Weight	
+≤100 kg	386/458
+(84%)	319/462
+(69%)	11/233
+(5%)	132/227
+(58%)
+>100 kg	111/166
+(67%)	58/167
+(35%)	2/82
+(2%)	47/86 (55%)
+Prior Biologic Therapy	
+Yes	114/157
+(73%)	83/160
+(52%)	3/76
+(4%)	39/75 (52%)
+No	383/467
+(82%)	294/469
+(63%)	10/239
+(4%)	140/238
+(59%)
+Region	
+U.S.A.	203/276
+(74%)	160/278
+(58%)	7/141
+(5%)	78/140
+(56%)
+Canada	59/72
+(82%)	40/75
+(53%)	0/34
+(0%)	23/38
+(61%)
+Ex-North America	235/276
+(85%)	177/276
+(64%)	6/140
+(4%)	78/135
+(58%)
+L351: Source: Reviewer Table. (1) sPGA score of 0 or 1.
+L352: ## 4.2 Efficacy by Country
+L353: Trial 02 was conducted in 6 countries that included the US, Canada, France, Germany, Poland, and Switzerland. Trial 03 was conducted in 10 countries that included the US, Australia, Austria, Canada, Czech Republic, France, Hungary, Netherlands, Poland and Spain. Trial 04 was conducted in 11 countries that included the US, Australia, Belgium, Canada, France, Greece, Hungary, Italy, Latvia, Poland, and Russia. In all three Phase 3 trials, the country that enrolled the most subjects was the US with 261 subjects (39%), 851 subjects (46%) and 835 subjects (44%) in Trials 02, 03, and 04, respectively.
+L354: Tables 17, 18, and 19 present the results for the co-primary endpoints at Week 12 by country for Trials 02, 03, and 04, respectively. In all three trials, the treatment effects for sPGA response and PASI 75 were generally consistent across the countries, except for the US which sPGA and PASI 75 responses were slightly lower than those of the other countries.
+L355: **Table 17. Success on the sPGA(1) and PASI 75 Response at Week 12 by Country (Trial 02)**
+L356: Country	Brodalumab
+210 mg	Brodalumab
+140 mg	Placebo
+sPGA
+0 or 1	USA	60/87 (69%)	41/86 (48%)	3/88 (3%)
+Canada	40/48 (83%)	23/49 (47%)	0/47 (0%)
+France	11/14 (79%)	7/10 (70%)	0/12 (0%)
+Germany	15/21 (71%)	12/20 (60%)	0/20 (0%)
+Poland	36/45 (80%)	29/45 (64%)	0/45 (0%)
+Switzerland	6/7 (86%)	6/9 (67%)	0/8 (0%)
+PASI 75	USA	68/87 (78%)	51/86 (59%)	5/88 (6%)
+Canada	42/48 (88%)	27/49 (55%)	0/47 (0%)
+France	12/14 (86%)	7/10 (70%)	1/12 (8%)
+Germany	17/21 (81%)	13/20 (65%)	0/20 (0%)
+Poland	40/45 (89%)	29/45 (64%)	0/45 (0%)
+Switzerland	6/7 (86%)	5/9 (56%)	0/8 (0%)
+L357: Source: Reviewer's table. (1) sPGA score of 0 or 1.
+L358: **Table 18. Success on the sPGA(1) and PASI 75 Response at Week 12 by Country (Trial 03)**
+L359: Country	Brodalumab
+210 mg	Brodalumab
+140 mg	Placebo	Ustekinumab
+sPGA
+0 or 1	USA	235/286 (82%)	166/281 (59%)	13/144 (9%)	92/140 (66%)
+Australia	37/40 (93%)	26/39 (67%)	1/19 (5%)	16/20 (80%)
+Austria	6/6 (100%)	4/8 (50%)	0/4 (0%)	1/2 (50%)
+Canada	56/64 (88%)	47/66 (71%)	3/33 (9%)	25/32 (78%)
+Czech Republic	17/18 (94%)	16/20 (80%)	1/8 (13%)	6/7 (86%)
+France	11/14 (79%)	10/13 (77%)	3/8 (38%)	5/9 (56%)
+Hungary	18/18 (100%)	11/15 (73%)	1/10 (10%)	7/8 (88%)
+Netherlands	5/5 (100%)	5/6 (83%)	0/3 (0%)	3/3 (100%)
+PASI 75	Poland	116/130 (89%)	100/132 (76%)	0/64 (0%)	45/65 (69%)
+Spain	16/19 (84%)	14/20 (70%)	1/10 (10%)	7/10 (70%)
+USA	235/286 (82%)	166/281 (59%)	13/144 (9%)	92/140 (66%)
+Australia	37/40 (93%)	26/39 (67%)	1/19 (5%)	16/20 (80%)
+Austria	6/6 (100%)	4/8 (50%)	0/4 (0%)	1/2 (50%)
+Canada	56/64 (88%)	47/66 (71%)	3/33 (9%)	25/32 (78%)
+PASI 75	Czech Republic	17/18 (94%)	16/20 (80%)	1/8 (13%)	6/7 (86%)
+France	11/14 (79%)	10/13 (77%)	3/8 (38%)	5/9 (56%)
+Hungary	18/18 (100%)	11/15 (73%)	1/10 (10%)	7/8 (88%)
+Netherlands	5/5 (100%)	5/6 (83%)	0/3 (0%)	3/3 (100%)
+Poland	116/130 (89%)	100/132 (76%)	0/64 (0%)	45/65 (69%)
+Spain	16/19 (84%)	14/20 (70%)	1/10 (10%)	7/10 (70%)
+L360: Source: Reviewer table. (1) sPGA score of 0 or 1.
+L361: **Table 19. Success on the sPGA(1) and PASI 75 Response at Week 12 by Country (Trial 04)**
+L362: Country	Brodalumab 210 mg	Brodalumab 140 mg	Placebo	Ustekinumab
+sPGA 0 or 1	USA	203/276 (74%)	160/278 (58%)	7/141(5%)	78/140(56%)
+Australia	15/17 (88%)	7/16 (44%)	0/8 (0%)	2/9(22%)
+Belgium	7/8 (88%)	4/8 (50%)	0/6 (0%)	1/2 (50%)
+Canada	59/72 (82%)	40/75 (53%)	0/34 (0%)	23/38 (61%)
+France	26/28 (93%)	21/29 (72%)	2/16 (13%)	10/15 (67%)
+Greece	17/21 (81%)	11/23 (48%)	0/10 (0%)	5/11 (45%)
+Hungary	16/17 (94%)	10/16 (63%)	0/7 (0%)	8/10 (80%)
+Italy	2/2 (100%)	2/3 (67%)	0/2(0%)	1/1 (100%)
+Latvia	28/33 (85%)	19/32 (59%)	0/16 (0%)	9/15 (60%)
+Poland	106/127 (83%)	89/129 (70%)	4/63 (6%)	40/63 (63%)
+PASI 75	Russia	18/23 (78%)	14/21 (67%)	0/12 (0%)	2/9 (22%)
+USA	224/276 (81%)	188/278 (68%)	10/141(7%)	92/140(66%)
+Australia	16/17 (94%)	10/16 (63%)	0/8 (0%)	6/9 (67%)
+Belgium	7/8 (88%)	4/8 (50%)	0/6 (0%)	1/2 (50%)
+Canada	64/72 (89%)	44/75 (59%)	1/34 (3%)	23/38 (61%)
+France	26/28 (93%)	21/29 (72%)	1/16 (6%)	12/15 (80%)
+Greece	18/21 (86%)	15/23 (65%)	0/10 (0%)	8/11 (73%)
+Hungary	16/17 (94%)	12/16 (75%)	0/7 (0%)	9/10 (90%)
+Italy	2/2 (100%)	2/3 (67%)	0/2(0%)	1/1 (100%)
+Latvia	30/33 (91%)	23/32 (72%)	1/16 (6%)	13/15 (87%)
+Poland	113/127 (89%)	98/129 (77%)	4/63 (6%)	48/63 (76%)
+Russia	15/23 (65%)	15/21 (71%)	2/12 (17%)	4/9 (44%)
+L363: Source: Reviewer table. (1) sPGA score of 0 or 1.
+L364: ## 4.3 Efficacy by Baseline Disease Severity
+L365: In all three trials, the treatment effect was generally lower for subjects with a baseline sPGA score of 4 (severe) or 5 (very severe) compared to those subjects with baseline sPGA score of 3 (moderate). It should be noted that there was only a small number of subjects with sPGA score of 5. Table 20 presents the results for the sPGA response at Week 12 by baseline disease severity for Trials 02, 03, and 04.
+L366: **Table 20. Success on the sPGA(1) at Week 12 by Baseline sPGA severity**
+L367: Baseline sPGA	Brodalumab 210 mg	Brodalumab 140 mg	Placebo	Ustekinumab
+Trial 02	3	99/121 (82%)	79/129 (61%)	3/114 (3%)	N/A
+4	58/87 (67%)	33/80 (41%)	0/91 (0%)
+5	11/14 (79%)	6/10 (60%)	0/15 (0%)
+Trial 03	3	257/316 (81%)	236/358 (66%)	7/167 (4%)	99/153 (65%)
+4	198/254 (78%)	105/217 (48%)	5/120 (4%)	73/132 (55%)
+5	26/42 (62%)	13/35 (37%)	0/22 (0%)	11/15 (73%)
+Trial 04	3	306/373 (82%)	274/412 (67%)	9/192 (5%)	120/192 (63%)
+4	175/226 (77%)	94/192 (49%)	4/113 (4%)	51/103 (50%)
+5	16/25 (25%)	9/25 (36%)	0/10 (0%)	8/18 (44%)
+L368: Source: Reviewer's Table; (1) sPGA score of 0 or 1
+L369: ## 5. SUMMARY AND CONCLUSIONS
+L370: ## 5.1 Statistical Issues and Collective Evidence
+L371: The safety and efficacy of brodalumab was evaluated in three pivotal Phase 3 trials (Trials 02, 03, and 04). All trials evaluated two dose concentrations (140 mg and 210 mg) versus placebo, and Trials 03 and 04 included an active biologic comparator arm, ustekinumab. All trials enrolled subjects 18 to 75 years of age and older with stable moderate to severe plaque psoriasis diagnosed at least 6 months before the first dose of investigational product. The enrolled subjects had plaque-type psoriasis with PASI score \ge12, sPGA score of at least 3, and BSA involvement \ge10% at baseline. For brodalumab, subjects received a loading dose of weekly injections for the first 2 weeks followed by treatment every 2 weeks (Q2W).
+L372: In all three trials, for the comparison of brodalumab against placebo at Week 12, the co-primary endpoints were the proportion of subjects achieving PASI 75 response and a sPGA score of 0 or 1. Secondary endpoints were PASI 100, sPGA score of 0, and PSI responder at Week 12. In Trials 03 and 04, for the comparison of brodalumab against ustekinumab at Week 12, the primary endpoint was PASI 100. Sequential testing was planned to test the brodalumab 210 mg vs. ustekinumab first, and then to test the weight-based brodalumab vs. ustekinumab. Secondary endpoints were PASI 100 for the comparison of brodalumab 140 mg against ustekinumab and PASI 75 for the comparison of weight-based brodalumab against ustekinumab.
+L373: For the comparison of each brodalumab dose against placebo, both brodalumab doses were superior to placebo for all co-primary as well as secondary endpoints at Week 12 (p&lt;0.001); however, for the comparison against ustekinumab, only the brodalumab 210 mg dose and the weight-based brodalumab dosing were superior to ustekinumab for the protocol-specified primary endpoints of PASI 100 (p&lt;0.001), and the brodalumab 140 mg was not superior to ustekinumab for the PASI 100 response at Week 12 (p=0.078) in
+L374: Trial 3. Consequently, there is no replication of study findings for the brodalumab 140 mg against ustekinumab for the PASI 100 endpoint. Table 2 summarizes the efficacy results for the co-primary endpoints and the key secondary endpoints for the two Phase 3 trials. Note that for hypothesis testing in Trials 03 and 04, the applicant prespecified a significance level of 0.01 and 0.04 for the comparisons of brodalumab vs. placebo, and brodalumab vs. ustekinumab, respectively.
+L375: There were no major statistical issues affecting the overall efficacy conclusions. The treatment effects were large and consistent across trials, and the amount of missing data was relative small (\le 6\%) at Week 12.
+L376: ## 5.2 Conclusions and Recommendations
+L377: Although the findings from three pivotal trials (Trials 02, 03, and 04) support the efficacy of brodalumab 210 mg for the treatment of adults with moderate to severe plaque psoriasis, given the safety concerns related to SIB and MACE events, the benefit-risk of brodalumab use should be taken into account.
+L378: ## 6. Appendix
+L379: Table A1. PASI 75 Response by Baseline Demographics for Trials 02 and 03
+L380: Trial 02	Trial 03
+Brodalumab
+210 mg
+N=222	Brodalumab
+140 mg
+N=219	Placebo
+N=220	Brodalumab
+210 mg
+N=612	Brodalumab
+140 mg
+N=610	Placebo
+N=309	Ustekinu-
+mab
+N=300
+Gender	
+Female	51/61 (84%)	29/57 (51%)	2/59 (3%)	162/191 (85%)	138/197 (70%)	10/90 (11%)	73/95 (77%)
+Male	134/161 (83%)	103/162 (64%)	4/161 (3%)	366/421 (87%)	268/413 (65%)	15/219 (7%)	136/205 (67%)
+Age	
+<65	170/206 (83%)	119/199 (60%)	6/202 (3%)	503/585 (86%)	383/572 (67%)	23/289 (8%)	198/279 (71%)
+≥65	15/16 (94%)	13/20 (65%)	0/18 (0%)	25/27 (93%)	23/38 (61%)	2/20 (10%)	12/21 (57%)
+Race	
+White	168/203 (83%)	114/196 (58%)	5/202 (3%)	476/551 (86%)	372/557 (67%)	19/273 (7%)	191/271 (71%)
+Non-white	17/19 (90%)	18/23 (78%)	1/18 (6%)	52/61 (85%)	34/53 (64%)	6/36 (17%)	19/29 (66%)
+Weight	
+≤100 kg	139/156 (89%)	109/156 (70%)	4/159 (3%)	387/428 (90%)	329/426 (77%)	20/216 (9%)	154/214 (72%)
+>100 kg	46/66 (70%)	23/63 (37%)	2/61 (3%)	141/184 (77%)	77/184 (42%)	5/93 (5%)	56/86 (65%)
+Prior Biologic Therapy	
+Yes	92/105 (88%)	56/99 (57%)	0/101 (0%)	147/177 (83%)	109/179 (61%)	4/90 (4%)	52/84 (62%)
+No	93/117 (80%)	76/120 (63%)	6/119 (5%)	381/435 (88%)	297/431 (69%)	21/219 (10%)	158/216 (73%)
+Region	
+U.S.A.	68/87 (78%)	51/86 (59%)	5/88 (6%)	235/286 (82%)	166/281 (59%)	13/144 (9%)	92/140 (66%)
+Canada	42/48 (88%)	27/49 (55%)	0/47 (0%)	56/64 (88%)	47/66 (71%)	3/33 (9%)	25/32 (78%)
+Ex-North America	75/87 (86%)	54/84 (64%)	1/85 (1%)	237/262 (90%)	193/263 (73%)	9/132 (7%)	93/128 (73%)
+L381: Source: Reviewer Table
+L382: Table A2. PASI 75 Response by Baseline Demographics for Trial 04
+L383: Trial 03
+Brodalumab
+210 mg
+N=624	Brodalumab
+140 mg
+N=629	Placebo
+N=315	Ustekinumab
+N=313
+Gender
+Female	160/193
+(82%)	137/192
+(71%)	8/107
+(8%)	75/101 (74%)
+Male	371/431
+(86%)	298/437
+(68%)	11/208
+(5%)	142/212
+(67%)
+Age
+<65	494/578
+(86%)	410/589
+(69%)	16/300
+(5%)	202/292
+(69%)
+≥65	37/46 (80%)	25/40 (63%)	3/15
+(20%)	15/21 (71%)
+Race
+Caucasian	478/565
+(85%)	402/569
+(71%)	19/294
+(7%)	197/280
+(70%)
+Non-white	53/59 (90%)	33/60 (55%)	0/21
+(0%)	20/33 (61%)
+Weight
+≤100 kg	404/458
+(88%)	357/462
+(77%)	14/233
+(6%)	163/227
+(72%)
+>100 kg	127/166
+(77%)	78/167
+(47%)	5/82
+(6%)	54/86 (63%)
+Prior Biologic Therapy
+Yes	126/157
+(80%)	101/160
+(63%)	3/76
+(4%)	47/75 (63%)
+No	405/467
+(87%)	334/469
+(71%)	16/239
+(7%)	170/238
+(71%)
+Region
+USA	224/276
+(81%)	188/278
+(68%)	10/141
+(7%)	92/140
+(66%)
+Canada	64/72 (89%)	44/75 (59%)	1/34
+(3%)	23/38 (61%)
+Ex-North America	243/276
+(88%)	203/276
+(74%)	8/140
+(6%)	102/135
+(76%)
+L384: Source: Reviewer's table
+L385: ## Efficacy Across Biologics for Psoriasis
+L386: Per the clinical team's request, the following figure was created. Figure A1 provides a descriptive comparison of average sPGA success (defined as scoring 0 or 1), PASI 75, PASI 100 response rates of various biologic treatment options for psoriasis.
+L387: Figure A1. Efficacy across biologics for psoriasis
+L388: Source: reviewer's figure. Note that the primary efficacy analysis timepoint for Remicade and Humira was Week 10 and 16, respectively; for others, the primary timepoint was Week 12. The descriptors for the Physician Global Assessment (PGA) scale varied across the products.
+L389: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L390: /s/
+L391: CARIN J KIM
+07/01/2016
+L392: MOHAMED A ALOSH
+07/01/2016
+L393: Flowchart illustrating the distribution of suicidal ideation and behavior (SIB) across brodalumab trials.
+All indications
+44/6781 (0.65%)
+This splits into:
+Brodalumab users
+40/6243 (0.64%)PsO
+35/4464 (0.78%)
+4 CS (Trial 102: 2; Trial 103: 2)
+PsA
+3/991 (0.30%)
+1 CS
+RA
+2/238 (0.84%)
+1 CS
+
+Non-brodalumab users
+4/538 (0.74%)PsO (Ustek)
+2/49 (4.08%)
+Asthma
+2/283 (0.71%)
+L394: Figure 1 is a timeline diagram illustrating the Study Design for Trial 02. The timeline is divided into four phases: Screening (\ge 7 days, \le 30 days), Induction, Withdrawal and retreatment with return of disease*, and Long-term extension. The study duration spans from Day 1 to Week 266.
+Subjects are randomized (R) 1:1:1 at Day 1 into three arms:
+210 mg Q2W brodalumab
+140 mg Q2W brodalumab
+Placebo
+At Week 12, subjects randomized to 210 mg Q2W brodalumab or 140 mg Q2W brodalumab undergo a second randomization (R) 1:1. Subjects randomized to Placebo continue on Placebo.
+For the 210 mg Q2W brodalumab arm (Week 12 randomization):
+If sPGA \ge 2, subjects receive 210 mg Q2W brodalumab.
+If sPGA < 2, subjects receive Placebo.
+For the 140 mg Q2W brodalumab arm (Week 12 randomization):
+If sPGA \ge 2, subjects receive 210 mg Q2W brodalumab.
+If sPGA < 2, subjects receive Placebo.
+Subjects randomized to Placebo continue on Placebo.
+L395: Figure 2 is a timeline diagram illustrating the Study Design for Trials 03 and 04. The timeline is divided into four phases: Screening (\ge 7 days, \le 30 days), Inductiona (Day 1 to Week 12), Maintenanceb (Week 12 to Week 52), and Long-term extensionc (after Week 52). The study duration spans from Day 1 to Week 266.
+Subjects are randomized (R) 2:2:1:1 at Day 1 into four arms:
+210 mg Q2W brodalumab
+140 mg Q2W brodalumab
+ustekinumab
+placebo
+At Week 12, subjects randomized to 210 mg Q2W brodalumab or 140 mg Q2W brodalumab undergo a second randomization (R) 2:2:2:1. Subjects randomized to ustekinumab or placebo continue on their respective treatments.
+For the 210 mg Q2W brodalumab arm (Week 12 randomization):
+210 mg Q2W brodalumab
+140 mg Q2W brodalumab
+140 mg Q4W brodalumab
+140 mg Q8W brodalumab
+For the 140 mg Q2W brodalumab arm (Week 12 randomization):
+210 mg Q2W brodalumab
+140 mg Q4W brodalumab
+140 mg Q8W brodalumab
+140 mg Q8W brodalumab
+Subjects randomized to ustekinumab continue on ustekinumab. Subjects randomized to placebo continue on placebo.
+L396: Flowchart illustrating the Sponsor's Testing Strategy for Trials 03 and 04:
+The overall Type I error rate is \alpha = 0.05.
+This is split into two families of hypotheses:Family of Hypotheses Based on Comparisons with Placebo (using \alpha = 0.01).
+Family of Hypotheses Based on Comparisons with Ustekinumab (using \alpha = 0.04).
+
+If and only if the placebo family is rejected at \alpha = 0.01, then the ustekinumab family is tested at \alpha = 0.05.
+If and only if the ustekinumab family is rejected at \alpha = 0.04, then the placebo family is tested at \alpha = 0.05.
+L397: Flowchart illustrating the Sponsor's Testing Strategy for the Comparison of Brodalumab Against Placebo for Trials 02, 03 and 04.
+The strategy is structured into two main levels of hypotheses, separated by a dashed line:
+Primary Endpoints: Two hypotheses are tested sequentially:PASI 75 at Week 12 (210 mg vs placebo)
+sPGA success at Week 12 (210 mg vs placebo)
+
+Key Secondary Endpoints: Four hypotheses are tested sequentially:PASI 100 at Week 12 (210 mg vs placebo)
+sPGA of 0 at Week 12 (210 mg vs placebo)
+PASI 100 at Week 12 (140 mg vs placebo)
+sPGA of 0 at Week 12 (140 mg vs placebo)
+
+Further Key Secondary Endpoints: Two hypotheses are tested sequentially:Psoriasis Symptom Inventory responder definition (total score \le 8 with no item score > 1) at Week 12 (210 mg vs placebo)
+Psoriasis Symptom Inventory responder definition (total score \le 8 with no item score > 1) at Week 12 (140 mg vs placebo)
+L398: Flowchart illustrating the Sponsor's Testing Strategy for the Comparison of Brodalumab Against Ustekinumab for Trials 03 and 04, based on the Family of Hypotheses.
+The hypotheses are grouped into Primary Endpoints and Key Secondary Endpoints.
+Primary Endpoints:
+PASI 100 at Week 12 (210 mg vs ustekinumab)
+PASI 100 at Week 12 (brodalumab [140 mg for subjects \le 100 kg and 210 mg for subjects > 100 kg] vs ustekinumab)
+Key Secondary Endpoints:
+PASI 100 at Week 12 (140 mg vs ustekinumab)
+PASI 75 at Week 12 (210 mg vs ustekinumab)
+PASI 75 at Week 12 (brodalumab [140 mg for subjects \le 100 kg and 210 mg for subjects > 100 kg] vs ustekinumab)
+L399: Figure 6 displays two line graphs showing the proportion of subjects achieving sPGA 0 or 1 (left) and PASI 75 (right) over time (Weeks 1 to 12) for Trial 02, comparing Brodalumab 210 mg, Brodalumab 140 mg, and Placebo. In both graphs, Brodalumab 210 mg shows the highest response rates, significantly outperforming Brodalumab 140 mg and Placebo, especially by Week 12.
+L400: Figure 7 displays two line graphs showing the proportion of subjects achieving success (Clear or Almost Clear sPGA or PASI 75) over 12 weeks for Trial 03, comparing Brodalumab 210, Brodalumab 140, Placebo, and Ustekinumab.
+The left graph, labeled "Trial 03 (sPGA 0 or 1)", shows the proportion of subjects scoring Clear or Almost Clear sPGA. Brodalumab 210 (triangles) shows the highest response rate, reaching approximately 75% by Week 12. Brodalumab 140 (circles) reaches about 60%. Placebo (x's) and Ustekinumab (inverted triangles) show minimal response, remaining below 10%.
+The right graph, labeled "Trial 03 (PASI 75)", shows the proportion of subjects achieving PASI 75. Brodalumab 210 (triangles) shows the highest response rate, reaching approximately 85% by Week 12. Brodalumab 140 (circles) reaches about 65%. Placebo (x's) and Ustekinumab (inverted triangles) show minimal response, remaining below 10%.
+L401: Figure 8 displays two line graphs showing the proportion of subjects achieving success (Clear or Almost Clear sPGA or PASI 75) over 12 weeks for Trial 04, comparing Brodalumab 210, Brodalumab 140, Placebo, and Ustekinumab.
+The left graph, labeled "Trial 04 (sPGA 0 or 1)", shows the proportion of subjects scoring Clear or Almost Clear sPGA. Brodalumab 210 (triangles) shows the highest response rate, reaching approximately 75% by Week 12. Brodalumab 140 (circles) reaches about 55%. Placebo (x's) and Ustekinumab (inverted triangles) show minimal response, remaining below 10%.
+The right graph, labeled "Trial 04 (PASI 75)", shows the proportion of subjects achieving PASI 75. Brodalumab 210 (triangles) shows the highest response rate, reaching approximately 85% by Week 12. Brodalumab 140 (circles) reaches about 65%. Placebo (x's) and Ustekinumab (inverted triangles) show minimal response, remaining below 10%.
+L402: Line graph titled "Trial 02 (sPGA 0 or 1)" showing the Proportion of Subjects scoring Clear or Almost Clear (sPGA) on the Y-axis (0 to 100) versus Weeks (12 to 52) on the X-axis. The graph compares four treatment groups:
+Brodalumab 210 mg Q2W (solid line, triangles)
+Brodalumab 210 mg Placebo (dashed line, circles)
+Brodalumab 140 mg Q2W (dashed line, crosses)
+Brodalumab 140 mg Placebo (dashed line, inverted triangles)
+The Brodalumab 210 mg Q2W group shows the highest proportion of sPGA responders, starting near 100% at Week 12 and decreasing steadily to approximately 85% by Week 52. The Brodalumab 210 mg Placebo group starts around 90% and decreases to about 75%. The Brodalumab 140 mg Q2W group starts around 90% and decreases to about 70%. The Brodalumab 140 mg Placebo group starts around 90% and decreases to about 65%.
+L403: Figure 10 is a line graph titled "Trial 03 (sPGA 0 or 1)" showing the Proportion of Subjects scoring Clear or Almost Clear (sPGA) on the Y-axis (0 to 100) versus Weeks (12 to 52) on the X-axis. The graph compares five treatment groups: Brodalumab 210 Q2W (triangles), Brodalumab 140 Q2W (circles), Brodalumab 140 Q4W (crosses), Brodalumab 140 Q8W (inverted triangles), and Ustekinumab (asterisks). All groups start near 100% sPGA 0 or 1 response at Week 12. Brodalumab 210 Q2W shows the highest maintenance, remaining above 80% until Week 52. Brodalumab 140 Q4W and Ustekinumab show the steepest declines, dropping below 50% by Week 52.
+L404: Figure 11 is a line graph titled "Trial 04 (sPGA 0 or 1)" showing the Proportion of Subjects scoring Clear or Almost Clear (sPGA) on the Y-axis (0 to 100) versus Weeks (12 to 52) on the X-axis. The graph compares five treatment groups: Brodalumab 210 Q2W (triangles), Brodalumab 140 Q2W (circles), Brodalumab 140 Q4W (crosses), Brodalumab 140 Q8W (inverted triangles), and Ustekinumab (asterisks). All groups start near 100% sPGA 0 or 1 response at Week 12. Brodalumab 210 Q2W shows the highest maintenance, remaining above 80% until Week 52. Brodalumab 140 Q4W and Ustekinumab show the steepest declines, dropping below 50% by Week 52.
+L405: Line graph showing the Percentage of Subjects scoring Clear or Almost Clear or sPGA (Y-axis, 0 to 100) versus Weight subgroup (kg) (X-axis, <60, 60-70, 70-80, 80-90, 90-100, 100-110, 110-120, 120-130, 130+) for Trial 02. Three lines represent Brodalumab 210 Q2W (triangles, dashed line), Brodalumab 140 Q2W (circles, solid line), and Placebo (X's, dashed line). Brodalumab 210 Q2W shows the highest success rates, peaking around 90% in the 70-80 kg subgroup. Brodalumab 140 Q2W shows moderate success, peaking around 80% in the 60-70 kg subgroup. Placebo shows very low success rates, generally below 10% across all weight subgroups.
+L406: Line graph titled "Trial 03 (sPGA 0 or 1)" showing the Percentage of Subjects scoring Clear or Almost Clear (sPGA) on the Y-axis (0 to 100) versus Weight subgroup (kg) on the X-axis (<60, 60-70, 70-80, 80-90, 90-100, 100-110, 110-120, 120-130, 130+). Four treatment groups are compared:
+Brodalumab 210 Q2W (Dashed line, triangles)
+Brodalumab 140 Q2W (Solid line, circles)
+Placebo (Dashed line, crosses)
+Ustekinumab (weight-based) (Dashed line, inverted triangles)
+The graph illustrates that Brodalumab 210 Q2W generally shows higher success rates than Brodalumab 140 Q2W and Placebo across most weight subgroups, although the difference is most pronounced in the 90-100 kg subgroup where Brodalumab 210 Q2W reaches approximately 85% success, while Brodalumab 140 Q2W drops to approximately 40%.
+L407: Line graph titled "Trial 04 (sPGA 0 or 1)" showing the Percentage of Subjects scoring Clear or Almost Clear (sPGA) on the Y-axis (0 to 100) versus Weight subgroup (kg) on the X-axis (<60, 60-70, 70-80, 80-90, 90-100, 100-110, 110-120, 120-130, 130+). Four treatment groups are compared:
+Brodalumab 210 Q2W (Dashed line, triangles)
+Brodalumab 140 Q2W (Solid line, circles)
+Placebo (Dashed line, crosses)
+Ustekinumab (weight-based) (Dashed line, inverted triangles)
+The graph illustrates that Brodalumab 210 Q2W generally shows higher success rates than Brodalumab 140 Q2W and Placebo across most weight subgroups. Brodalumab 210 Q2W starts around 95% success in the <60 kg group and drops to approximately 45% in the 130+ kg group. Brodalumab 140 Q2W starts around 95% success in the <60 kg group and drops to approximately 10% in the 130+ kg group. Placebo success rates remain low, generally below 10% across all weight subgroups.
+L408: Efficacy Results For Psoriasis Products
+Bar chart showing the Percentage of Subjects (%) achieving various efficacy endpoints (PASI 75, sPGA 0 or 1, PASI 100) for different biologic treatments for Plaque Psoriasis.
+Treatment	PASI 75 (%)	sPGA 0 or 1 (%)	PASI 100 (%)
+Enbrel	47	51	NA
+Remicade	79	83	NA
+Humira	72	63	NA
+Stelara	72	68	NA
+Cosentyx	78	63	NA
+Taltz	89	82	38
+Siliq	85	79	41

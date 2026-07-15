@@ -1,0 +1,136 @@
+{
+  "app": "NDA207501",
+  "drug": "Cresemba",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_48935686-7b1e-5d28-8cab-5b546641b633"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_ad9f2a72-f075-51d8-bb92-5a2e68ba7f86"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_cc5c7a5f-f0b3-5f03-860d-2f57de20d06f"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Anti-Infective Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_48935686-7b1e-5d28-8cab-5b546641b633",
+      "line": 189,
+      "quote": "These NDAs were discussed by the Anti-Infective Drugs Advisory Committee on January 22, 2015."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_489356867b1e",
+      "found_lines": [
+        189
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "January 22, 2015",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_48935686-7b1e-5d28-8cab-5b546641b633",
+      "line": 189,
+      "quote": "These NDAs were discussed by the Anti-Infective Drugs Advisory Committee on January 22, 2015."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_489356867b1e",
+      "found_lines": [
+        189
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 11 Yes / 0 No / 0 Abstain that substantial evidence of safety and efficacy was demonstrated for invasive aspergillosis, and 8 Yes / 2 No / 1 Abstain for invasive mucormycosis.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_cc5c7a5f-f0b3-5f03-860d-2f57de20d06f",
+      "line": 105,
+      "quote": "The committee discussed and voted on the question of whether the Applicant demonstrated substantial evidence of safety and efficacy of isavuconazonium for the proposed indication of treatment of invasive mucormycosis. The vote was 8 Yes, 2 No, 1 Abstain. Rationales stated by panel members are discussed in the CDTL Review."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_cc5c7a5ff0b3",
+      "found_lines": [
+        104,
+        105
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Committee members expressed considerable hesitation about the invasive mucormycosis claim because it relied on a non-comparative single-arm trial with a historical control, and generally recommended collecting additional data on treatment of mucormycosis patients.",
+      "change": "The applicant agreed to a postmarketing commitment (PMC) to establish a registry to collect and analyze clinical efficacy outcome data in patients treated with isavuconazonium sulfate for invasive mucormycosis (and non-fumigatus aspergillus infections).",
+      "category": "Efficacy evidence / Postmarketing commitment (registry)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_ad9f2a72-f075-51d8-bb92-5a2e68ba7f86",
+        "line": 107,
+        "quote": "Among those voting yes, there was a great deal of hesitation described by the committee members, based on the concerns about reliance on a noncomparative trial with a historical control. The members generally recommended collection of additional data on treatment of patients with mucormycosis.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_ad9f2a72f075",
+          "found_lines": [
+            107
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_48935686-7b1e-5d28-8cab-5b546641b633",
+        "line": 204,
+        "quote": "Establish a registry to collect and analyze clinical efficacy-related outcome data on patients treated with isavuconazonium sulfate who have invasive mucormycosis or infection with non-fumigatus aspergillus species.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_489356867b1e",
+          "found_lines": [
+            204
+          ]
+        }
+      }
+    },
+    {
+      "concern": "For invasive aspergillosis (voted yes unanimously), the committee made recommendations for product labeling related to instructions for preparation of the intravenous solution and labeling regarding various adverse reactions.",
+      "change": "The applicant agreed to specific labeling changes, including revisions to the clinical studies section and to the contraindications and warnings for the product.",
+      "category": "Labeling",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_ad9f2a72-f075-51d8-bb92-5a2e68ba7f86",
+        "line": 106,
+        "quote": "labeling related to the instructions for preparation of the intravenous solution, and labeling regarding various adverse reactions.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_ad9f2a72f075",
+          "found_lines": [
+            106
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_ad9f2a72-f075-51d8-bb92-5a2e68ba7f86",
+        "line": 115,
+        "quote": "The applicant has agreed to specific changes in the proposed labeling including revisions to the clinical studies section describing the data supporting the mucormycosis claim, and the contraindications and warnings for the product.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_ad9f2a72f075",
+          "found_lines": [
+            115
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Anti-Infective Drugs Advisory Committee met on January 22, 2015 and voted 11-0-0 that substantial evidence supported the invasive aspergillosis indication and 8-2-1 for invasive mucormycosis, with several yes-voters expressing hesitation over reliance on a non-comparative historically controlled mucormycosis trial and recommending collection of additional data. FDA approved both indications; the applicant agreed to a postmarketing commitment to establish a mucormycosis efficacy-outcome registry, consistent with the committee's call for more data, and made labeling revisions after the committee's labeling recommendations. No REMS was required. The connections between the committee's concerns and these changes are described in the review documents but not explicitly stated as cause-and-effect, so both linkages are marked inferred."
+}

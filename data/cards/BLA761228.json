@@ -1,0 +1,74 @@
+{
+  "first_cycle_approval": true,
+  "pivotal_trials": [
+    {
+      "phase": "Phase 3",
+      "design": "Open-label, randomized, active-controlled, multi-center; 2:1 randomization to tebentafusp vs. investigator's choice (dacarbazine, ipilimumab, or pembrolizumab); stratified by LDH status",
+      "endpoint": "Primary: Overall Survival (OS); Key secondary: PFS, BOR, DCR by RECIST v1.1",
+      "trial_name": "IMCgp100-202 (Study 202)",
+      "nct": "NCT03070392",
+      "n": 378,
+      "result": "OS: HR 0.51 (95% CI: 0.37, 0.71), p<0.0001; median OS 21.7 vs. 16.0 months; PFS: HR 0.73 (95% CI: 0.58, 0.94), p=0.0139, median PFS 3.3 vs. 2.9 months; ORR 9.1% vs. 4.8%"
+    },
+    {
+      "phase": "Phase 1/2",
+      "design": "Open-label, uncontrolled, multi-center; Phase 1 dose escalation (3+3 design) followed by Phase 2 dose expansion at 68 mcg",
+      "endpoint": "Primary (Phase 2): ORR by RECIST v1.1 per ICR; Secondary: PFS, OS, DCR, DOR",
+      "trial_name": "IMCgp100-102 (Study 102)",
+      "nct": "NCT02570308",
+      "n": 146,
+      "result": "Phase 2 expansion (n=127): ORR 4.7% (95% CI: 1.8%, 10.0%); median PFS 2.8 months; median OS 16.8 months (95% CI: 12.9, 21.3)"
+    }
+  ],
+  "companion_dx": false,
+  "advisory_committee": {
+    "convened": false,
+    "vote": null
+  },
+  "rems": {
+    "present": false,
+    "type": null
+  },
+  "boxed_warning": {
+    "present": true,
+    "content": "Cytokine Release Syndrome (CRS)",
+    "full_text": "WARNING: CYTOKINE RELEASE SYNDROME\n\nCytokine Release Syndrome (CRS), which may be serious or life-threatening, occurred in patients receiving KIMMTRAK. Monitor for at least 16 hours following first three infusions and then as clinically indicated [see Dosage and Administration (2.2), see Warnings and Precautions (5.1)]."
+  },
+  "key_safety": "In Study 202 (N=245 tebentafusp), CRS occurred in 89% of patients (Grade 3: 0.8%; no Grade 4/5), rash occurred in 82% (Grade 3: 18%), elevated liver enzymes (AST/ALT Grade 3+) in ~12%/8%, and Grade 3-4 TEAEs in 54%; permanent discontinuation due to AEs was rare at 3.3%.",
+  "target_moa": "Bispecific gp100 peptide-HLA-A*02:01-directed CD3 T-cell engager; TCR domain binds gp100 peptide presented by HLA-A*02:01 on tumor cells while anti-CD3 scFv redirects T cells to kill gp100-expressing uveal melanoma cells",
+  "modality": "bispecific fusion protein (TCR-anti-CD3 scFv)",
+  "_meta": {
+    "drug": "Kimmtrak",
+    "appno": "761228",
+    "type": "BLA",
+    "active": "tebentafusp-tebn",
+    "sponsor": "Immunocore Limited",
+    "indication": "KIMMTRAK is indicated for the treatment of HLA-A*02:01-positive adult patients with unresectable or metastatic uveal melanoma.",
+    "approval_date": "1/25/2022",
+    "receipt_date": "6/23/2021",
+    "tta_months": 7.1,
+    "review_designation": "Priority",
+    "expedited": {
+      "btd": true,
+      "ft": false,
+      "pr": true,
+      "orph": true,
+      "qidp": false,
+      "accelerated": false
+    },
+    "input_tokens": 206799,
+    "output_tokens": 858,
+    "source_review_type": "MultidisciplineR",
+    "source_document_id": "fc3e57a8-6af4-5790-b37b-106b6d08163f",
+    "source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761228Orig1s000MultidisciplineR.pdf"
+  },
+  "indication_details": {
+    "line_of_treatment": "not specified",
+    "setting": "metastatic / unresectable",
+    "population_restrictions": "HLA-A*02:01-positive, adults",
+    "combination": "monotherapy",
+    "prior_therapy_required": "none"
+  },
+  "supplements": [],
+  "therapeutic_area": "Oncology"
+}

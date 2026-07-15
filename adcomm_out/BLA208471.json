@@ -1,0 +1,135 @@
+{
+  "app": "BLA208471",
+  "drug": "Adlyxin",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_75ee9221-5e9f-5ba2-aa3c-644607eaa2ce"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_cd4b9e40-d6b6-51ee-9f3c-313cdfa586f0"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_c51d8d16-a641-5a2a-8465-6f1456cdfb32"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Endocrine and Metabolism Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_c51d8d16-a641-5a2a-8465-6f1456cdfb32",
+      "line": 93,
+      "quote": "This NDA was presented along with the NDA for the lixisenatide-glargine fixed-ratio combination product on May 25, 2016, to the Endocrine and Metabolism Drugs Advisory Committee."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_c51d8d16a641",
+      "found_lines": [
+        93
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "May 25, 2016",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_75ee9221-5e9f-5ba2-aa3c-644607eaa2ce",
+      "line": 112,
+      "quote": "An Advisory Committee meeting was held on May 25, 2016 to discuss the efficacy and safety findings in the Adlyxin application and in a fixed combination drug product application combining lixisenatide with insulin glargine."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_75ee92215e9f",
+      "found_lines": [
+        112
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "No voting question was posed for lixisenatide; committee members raised no concerns over its approvability. Concerns about anti-drug antibodies and rare severe allergic reactions were noted but judged insufficient to preclude marketing/approval.",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_cd4b9e40-d6b6-51ee-9f3c-313cdfa586f0",
+      "line": 284,
+      "quote": "There was no voting question for lixisenatide."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_cd4b9e40d6b6",
+      "found_lines": [
+        284
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Committee members noted a signal for anaphylaxis / severe allergic reactions in the lixisenatide development program as being of some concern.",
+      "change": "The anaphylaxis/serious allergic reaction safety concern was directed to be prominently placed in the prescribing information (Warnings and Precautions).",
+      "category": "Safety / labeling (Warnings and Precautions)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_cd4b9e40-d6b6-51ee-9f3c-313cdfa586f0",
+        "line": 283,
+        "quote": "Committee members noted the high incidence of ADAs and the occurrence of a signal for anaphylaxis in the development program.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_cd4b9e40d6b6",
+          "found_lines": [
+            283
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_cd4b9e40-d6b6-51ee-9f3c-313cdfa586f0",
+        "line": 293,
+        "quote": "Given the residual concerns and uncertainty for anaphylaxis and serious allergic reactions with lixisenatide, this safety concern should be prominently placed in the prescribing information.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_cd4b9e40d6b6",
+          "found_lines": [
+            293
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members noted the higher rate of developing anti-drug antibodies (ADAs) with lixisenatide than observed with other GLP-1 programs.",
+      "change": "The product label describes the high rate of anti-drug antibody development (a difference from other marketed GLP-1 receptor agonist labels).",
+      "category": "Safety / labeling (immunogenicity)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_c51d8d16-a641-5a2a-8465-6f1456cdfb32",
+        "line": 93,
+        "quote": "Several members noted the different efficacy to other GLP-1 agonists and the higher rate of developing anti-drug antibodies than observed with other GLP-1 programs",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_c51d8d16a641",
+          "found_lines": [
+            93
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_c51d8d16-a641-5a2a-8465-6f1456cdfb32",
+        "line": 99,
+        "quote": "With exception for description of the high rate of anti-drug antibody development, anaphylaxis in clinical trials, and the active comparator trials demonstrating inferiority to exenatide 10 mg bid, this product label is similar to the other marketed GLP-1 receptor agonists.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_c51d8d16a641",
+          "found_lines": [
+            99
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Endocrine and Metabolism Drugs Advisory Committee meeting was held on May 25, 2016, primarily focused on the lixisenatide/insulin glargine fixed-ratio combination, with the standalone Adlyxin (lixisenatide) program presented alongside it. There was no voting question for lixisenatide, and committee members raised no concerns that would preclude approval; they noted the higher rate of anti-drug antibodies and a low-incidence anaphylaxis signal as of some concern but not sufficient to impact approvability. The reviews do not explicitly tie the AC discussion to any specific change, but the same concerns (ADAs and anaphylaxis/serious allergic reactions) were reflected in the prescribing information, with anaphylaxis directed to be placed prominently in Warnings and Precautions; the AC suggestion to further assess anaphylaxis postmarketing did not yield a dedicated PMR."
+}

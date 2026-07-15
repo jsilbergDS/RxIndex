@@ -1,0 +1,1558 @@
+L1: CENTER FOR DRUG EVALUATION ANDRESEARCH
+L2: APPLICATION NUMBER:
+L3: 207620Orig1s000
+L4: STATISTICAL REVIEW(S)
+L5: Seal of the Center for Drug Evaluation and Research, FDA. The seal features a caduceus (a staff with two snakes and wings) in the center, surrounded by the text 'Center for Drug Evaluation and Research' and 'FDA' at the bottom.
+L6: U.S. Department of Health and Human ServicesFood and Drug AdministrationCenter for Drug Evaluation and ResearchOffice of Translational SciencesOffice of Biostatistics
+L7: STATISTICAL REVIEW AND EVALUATIONCLINICAL STUDIES
+L8: NDA/BLA #: NDA 207-620Supplement #:Drug Name: LCZ696 (sacubitril/valsartan combination)Indication(s): (b) (4)Applicant: NovartisDate(s): 12/17/2014Review Priority: PriorityBiometrics Division: DBIStatistical Reviewer: John Lawrence, Ph DConcurring Reviewers: Jim Hung, Ph DMedical Division: Cardiorenal.Clinical Team: Kimberly Smith MD, Tzu-Yun McDowell MD, Aliza Thompson MDProject Manager: Alexis ChildersKeywords: active control, Cox regression, combination products
+L9: Table of Contents
+L10: EXECUTIVE SUMMARY .....5INTRODUCTION .....6    1.1    OVERVIEW.....6    1.2    DATA SOURCES .....6STATISTICAL EVALUATION .....7    1.3    DATA AND ANALYSIS QUALITY .....7    1.4    EVALUATION OF EFFICACY .....7        1.4.1    Study Design and Endpoints .....7        1.4.2    Statistical Methodologies.....8        1.4.3    Patient Disposition, Demographic and Baseline Characteristics.....9        1.4.4    Results and Conclusions .....11    1.5    EVALUATION OF SAFETY .....17    1.6    BENEFIT-RISK ASSESSMENT (OPTIONAL) .....17FINDINGS IN SPECIAL/SUBGROUP POPULATIONS .....17    1.7    GENDER, RACE, AGE, AND GEOGRAPHIC REGION .....17    1.8    OTHER SPECIAL/SUBGROUP POPULATIONS .....18SUMMARY AND CONCLUSIONS .....19    1.9    STATISTICAL ISSUES .....19    1.10   COLLECTIVE EVIDENCE .....19    1.11   CONCLUSIONS AND RECOMMENDATIONS .....19    1.12   LABELING RECOMMENDATIONS (AS APPLICABLE) .....20
+L11: LIST OF TABLES
+L12: Table 1 List of all studies included in analysis .....6Table 2 Reasons for treatment discontinuation.....10Table 3 Patient demographic and baseline characteristics.....11Table 4 Adjudicated Primary Endpoint Analysis (CV death or HF hospitalization) .....12
+L13: LIST OF FIGURES
+L14: Figure 1 Weights for alpha relocation in the sequentially rejective multiple test procedure for the secondary hypotheses .....9Figure 2 Proportion of subjects included in primary analysis over time in the study.....13Figure 3 Kaplan-Meier estimates of event rates over time.....14Figure 4 Log{-log(survival)} plot for primary endpoint (Time is shown on the log-scale on the x-axis, log(-log(estimated survival)) on the y-axis). ....15Figure 5 Kaplan-Meier estimates of all-cause mortality rates (secondary endpoint).....16Figure 6 High dose/warfarin results for subgroups defined by gender, race, age, and geographic region. ....18
+L15: EXECUTIVE SUMMARY
+L16: There was only one phase 3 trial for this indication in the submission. The study drug is a combination of valsartan and sacubitril. Both valsartan (a component of the combination study drug) and enalapril (the active control) are approved for the treatment of heart failure, but there has never been a study comparing valsartan monotherapy to enalapril. According to their respective labels, enalapril has a mortality effect compared to placebo, but valsartan has no mortality effect compared to placebo (where subjects were on the background therapy recommended by their physicians and 93% of the subjects were on ACE-inhibitor therapy, of which enalapril is one such therapy). In the trial, the combination was effective compared to the control on two endpoints: time to first heart failure hospitalization or CV death (primary endpoint) and time to all-cause mortality (a secondary endpoint). There is no way to know from this trial whether both components in the combination contribute to both or either of the claimed effects. From the valsartan label, it may be reasonable to infer that the valsartan component does not contribute to the claimed mortality effect; valsartan had no effect compared to placebo in the Val-HeFT trial when ACE-inhibitors were a background therapy, so it is not likely that valsartan would be more effective than an ACE-inhibitor in a head-to-head comparison. Although valsartan alone reduced HF hospitalization compared to placebo in the Val-HeFT trial, it is unknown whether both components contribute to the combined effect of valsartan/sacubitril compared to enalapril on the composite primary endpoint in this trial.
+L17: INTRODUCTION
+L18: 1.1 Overview
+L19: Table 1 List of all studies included in analysis
+L20: Phase and DesignTreatment PeriodFollow-up Period# of Subjects per ArmStudy PopulationStudy CLCZ696B2314Phase 3Up to 51 months (median of 27 months)Up to 51 months (median of 27 months)4209 (LCZ696), 4233 (enalapril)patients with CHF (NYHA class II - IV), age 18 years or older, LVEF \leq 35%, B-type natriuretic peptide (BNP) \geq 150 pg/ml (or N-terminal prohormone B-type natriuretic peptide [NT-proBNP] \geq 600 pg/ml) or BNP \geq 100 pg/mL (or NT-proBNP \geq 400 pg/ml) and a hospitalization for HF within the last 12 months.
+L21: Source: Study Report.
+L22: 1.2 Data Sources
+L23: Electronic datasets and Study Reports:
+L24: \\CDSESUB1\EVSPROD\NDA207620\207620.enx
+L25: \\cdsesub1\evprod\NDA207620\0002\m5\datasets\lcz696b2314\analysis\legacy\datasets
+L26: STATISTICAL EVALUATION
+L27: 1.3 Data and Analysis Quality
+L28: Both the data quality or analysis quality were very good to excellent. The largest file in the submission was about 640 MB. This file, although large, was not too large for me to open on my workstation. In the data analysis, appropriate adjustments were made for multiple comparisons of different endpoints and sequential testing of these endpoints at different time points (interim monitoring).
+L29: 1.4 Evaluation of Efficacy
+L30: 1.4.1 Study Design and Endpoints
+L31: This was an active controlled trial without placebo. Although the active control has an effect described in the label, the trial was designed to show superiority to the active control and there was no non-inferiority testing planned. Unblinded ACEI or ARB concomitant therapy was not permitted in the trial.
+L32: The study population consisted of patients with CHF (NYHA class II - IV), aged 18 years or older with LVEF \leq 40\%, changed to \leq 35\% by Protocol Amendment 1. Patients eligible for inclusion in the study had to have B-type natriuretic peptide (BNP) \geq 150 pg/ml (or N-terminal prohormone B-type natriuretic peptide [NT-proBNP] \geq 600 pg/ml) or BNP \geq 100 pg/mL (or NT-proBNP \geq 400 pg/ml) and a hospitalization for HF within the last 12 months. Eligible patients were to have been on an angiotensin converting enzyme inhibitor (ACEI) or an angiotensin receptor blocker (ARB), at a stable dose of at least 10 mg/day of enalapril or equivalent for at least 4 weeks prior to Visit 1. Patients were to have been treated with a \beta-blocker, unless contraindicated or not tolerated, at a stable dose for at least 4 weeks prior to Visit 1. An aldosterone antagonist was also to have been considered in all patients if indicated.
+L33: A total of 8442 patients were randomized (4209 patients to LCZ696 and 4233 patients to enalapril). Forty-three patients were excluded from the efficacy analysis due to site closure for serious GCP violations (37 patients) or due to misrandomization (6 patients). Thus, the full analysis set (FAS) included 8399 patients (4187 patients in the LCZ696 group and 4212 patients in the enalapril group).
+L34: The primary endpoint was the time to first heart failure hospitalization or CV death. There were 4 secondary endpoints: i) time to all-cause death; ii) change from baseline (CFB) (randomization visit) in the clinical summary score for HF symptoms and physical limitations (as assessed by KCCQ) at 8 months; iii) time to new onset of atrial fibrillation; iv) time to first occurrence of either (1) a 50% decline in eGFR relative to baseline, (2) &gt;30 mL/min/1.73 m2 decline in eGFR relative to baseline to a value below 60 mL/min/1.73 m2, or (3) reaching ESRD.
+L35: 1.4.2 Statistical Methodologies
+L36: For the primary composite endpoint and the three time-to event secondary endpoints, time to event was analyzed using a Cox regression model with terms for treatment and region. For the remaining secondary endpoint- change in KCCQ score- a repeated measures ANCOVA analysis was used with terms for treatment, region, and time point (Months 4 and 8).
+L37: The study was designed to have approximately 2410 primary endpoint events and 1229 CV-death events if the study reached the maximum study duration. Three interim analyses were planned at 1/3, 1/2 and 2/3 of information time (i.e. approximately 804, 1205 and 1607 patients, respectively, with a primary event). However, some adjustment to the frequency and time for interim analyses was made to coincide with the DMC meetings. Appropriate statistical adjustments for the interim analyses actually performed were made to control the overall type-I error of 0.025 (one-sided). For each IA, the analysis dataset comprised all patients who were randomized before the cutoff date. The Haybittle-Peto type of boundary was used for the interim efficacy analyses to assess superiority. The interim efficacy analysis with the boundary spent approximately an alpha of 0.0001 (one-sided) at the first IA and 0.001 (one-sided and nominal) at the second and third interim analyses.
+L38: Whatever time point the study stopped, if the primary endpoint was statistically significant, then the secondary endpoints were to be tested using the same alpha as used for the primary endpoint. The testing of the four secondary endpoints was to be done using the Bonferroni-Holm's method as shown in the graph in Figure 1.
+L39: Figure 1 Weights for alpha relocation in the sequentially rejective multiple test procedure for the secondary hypotheses
+L40: Figure 1: A directed graph representing a Markov chain with four states: H210, H220, H230, and H240. H210 and H220 are at the top, H230 is in the middle, and H240 is at the bottom. Transitions are labeled with probabilities and rates. From H210 to H230: rate 1, probability 0.2α. From H220 to H230: rate 1, probability 0.8α. From H230 to H240: rate 1, probability 0α. From H210 to H240: rate 1/2, probability 0.2α. From H220 to H240: rate 1/2, probability 0.8α.
+L41: H_{210} denotes the null hypothesis for the comparison of KCCQ clinical summary score.
+L42: H_{220} denotes the null hypothesis for the comparison of all-cause mortality.
+L43: H_{230} denotes the null hypothesis for the comparison of new onset AF.
+L44: H_{240} denotes the null hypothesis for the composite renal endpoint.
+L45: Source: Figure 9-2 of Study Report.
+L46: 1.4.3 Patient Disposition, Demographic and Baseline Characteristics
+L47: The reasons for treatment discontinuation are shown in Table 2 and the baseline and demographic characteristics are shown in Table 3. The first table shows that very few subjects were lost to follow-up except for those who died. However, about 30% of the subjects stopped double-blind treatment before the end of the study. A strength of the trial is that there is very little loss to follow-up and subjects were followed after stopping study drug. In Table 3, it is seen that the average age was about 64 years, 78% were male, 66% were Caucasian. There were no significant differences in the demographics between groups.
+L48: Table 2 Reasons for treatment discontinuation.
+L49: LCZ696N=4209n (%)EnalaprilN=4233n (%)TotalN=8442n (%)
+
+
+
+Patients who never received study treatment during double-blind period6 (0.14)4 (0.09)10 (0.12)
+
+Patients who permanently discontinued study treatment during double-blind period1182 (28.08)1353 (31.96)2535 (30.03)
+
+Primary reason for EOS treatment
+
+AE(s)437 (10.38)510 (12.05)947 (11.22)
+
+Abnormal laboratory value(s)7 (0.17)6 (0.14)13 (0.15)
+
+Unsatisfactory therapeutic effect0 (0.00)1 (0.02)1 (0.01)
+
+Patient's condition no longer requires study drug3 (0.07)4 (0.09)7 (0.08)
+
+Lost to follow-up8 (0.19)8 (0.19)16 (0.19)
+
+Administrative problems12 (0.29)9 (0.21)21 (0.25)
+
+Death430 (10.22)512 (12.10)942 (11.16)
+
+Protocol deviation5 (0.12)3 (0.07)8 (0.09)
+
+Patient's request208 (4.94)219 (5.17)427 (5.06)
+
+Other72 (1.71)81 (1.91)153 (1.81)
+
+Missing end of treatment5 (0.12)3 (0.07)8 (0.09)
+
+Patients completed study treatment*3022 (71.80)2877 (67.97)5899 (69.88)
+L50: Source: Table 14.1-1.3
+L51: There were 10 patients in the Randomized set who did not receive study treatment, including 6 patients who were randomized erroneously (misrandomized).
+L52: *Patients still on treatment at study close-out.
+L53: Source: Table 10-3 of Study Report.
+L54: Table 3 Patient demographic and baseline characteristics
+L55: Variable/Statistic/categoryLCZ696N=4209EnalaprilN=4233TotalN=8442
+
+
+
+Age (years)
+
+n420942338442
+
+Mean63.7863.8263.80
+
+SD11.52011.25011.385
+
+Q157.0057.0057.00
+
+Median64.0064.0064.00
+
+Q372.0072.0072.00
+
+Age category - n (%)
+
+&lt; 65 years2122 (50.42)2177 (51.43)4299 (50.92)
+
+&gt;= 65 years2087 (49.58)2056 (48.57)4143 (49.08)
+
+&lt; 75 years3423 (81.33)3450 (81.50)6873 (81.41)
+
+&gt;= 75 years786 (18.67)783 (18.50)1569 (18.59)
+
+Gender - n (%)
+
+Male3321 (78.90)3274 (77.34)6595 (78.12)
+
+Female888 (21.10)959 (22.66)1847 (21.88)
+
+Predominant race - n (%)
+
+Caucasian2780 (66.05)2799 (66.12)5579 (66.09)
+
+Black213 (5.06)215 (5.08)428 (5.07)
+
+Asian760 (18.06)750 (17.72)1510 (17.89)
+
+Native American84 (2.00)88 (2.08)172 (2.04)
+
+Pacific Islander0 (0.00)1 (0.02)1 (0.01)
+
+Other372 (8.84)380 (8.98)752 (8.91)
+
+Ethnicity - n (%)
+
+Hispanic/Latino777 (18.46)778 (18.38)1555 (18.42)
+
+Chinese242 (5.75)251 (5.93)493 (5.84)
+
+Indian335 (7.96)333 (7.87)668 (7.91)
+
+Japanese2 (0.05)0 (0.00)2 (0.02)
+
+Mixed ethnicity32 (0.76)39 (0.92)71 (0.84)
+
+Other2821 (67.02)2832 (66.90)5653 (66.96)
+
+Region(1)
+
+North America310 (7.37)292 (6.90)602 (7.13)
+
+Latin America726 (17.25)732 (17.29)1458 (17.27)
+
+Western Europe1029 (24.45)1028 (24.29)2057 (24.37)
+
+Central Europe1398 (33.21)1439 (33.99)2837 (33.61)
+
+Asia/Pacific and other746 (17.72)742 (17.53)1488 (17.63)
+L56: Source: Table 11-3 of Study Report.
+L57: 1.4.4 Results and Conclusions
+L58: The trial was stopped at the third interim analysis by the DMC because the efficacy boundary was crossed. The combination was superior to the control on the primary endpoint. The results are shown in Table 4. The p-value was less than 0.0001, which was statistically significant and smaller than the boundary pre-specified by the Haybittle-Peto rule (0.001). The first composite outcome event was CV death in 377 patients and 459 patients in the LCZ696 group and the
+L59: enalapril group, respectively. This can be found by subtracting the number of patients where the first event was HF hospitalization from the total number of primary endpoint events.
+L60: Table 4 Adjudicated Primary Endpoint Analysis (CV death or HF hospitalization)
+L61: Response variableLCZ696n/N (%)Enalapriln/N (%)LCZ696n/T(EAIR)(1)(95% CI)Enalapriln/T(EAIR)(1)(95% CI)HR(95% CI)
+
+
+
+Primary914/41871117/4212914/87.221117/84.930.80
+
+Composite(21.83)(26.52)(10.48)(9.81,11.18)(13.15)(12.39,13.95)(0.73,0.87)
+
+CV death558/4187693/4212558/93.08 (5.99)693/92.350.80
+
+(13.33)(16.45)(5.51,6.51)(7.50) (6.96,8.08)(0.71,0.89)
+
+1st HF537/4187658/4212537/87.22 (6.16)658/84.930.79
+
+Hospitalization(12.83)(15.62)(5.65,6.70)(7.75) (7.17,8.36)(0.71,0.89)
+L62: n: Total number of events included in the analysis; N: Total number of patients included in the analysis.
+L63: (1) EAIR (Exposure-adjusted incidence rate per 100 patient years)= n/T: T(100 years): total up-to-event/censoring duration-time summarized over patients in the respective treatment group.
+L64: Source: Table 11-4 of Study Report and confirmed by FDA.
+L65: Figure 2 shows the estimated proportion of subjects remaining in the analysis over time. These are Kaplan-Meier type estimates using the reverse Kaplan-Meier method (Altman, D. G., et al. "Review of survival analyses published in cancer journals." British Journal of Cancer 72.2 (1995): 511.). There are two curves in the figure, but they are nearly identical. This figure is for the time to followup and not for the time on double-blind treatment.
+L66: Figure 2 Proportion of subjects included in primary analysis over time in the study.
+L67: The figure is a Kaplan-Meier plot showing the proportion of subjects remaining in the analysis over time. The y-axis is labeled 'Proportion of subjects remaining in the analysis' and ranges from 0.0 to 1.0. The x-axis is labeled 'Time (days)' and ranges from 0 to 1500. Two curves are plotted: a solid black line for Enalapril and a dashed red line for LCZ696. Both curves start at 1.0 at day 0 and remain nearly constant until approximately day 450, after which they show a steep decline, reaching near 0.0 by day 1500. The two lines are nearly perfectly overlaid, indicating no significant difference between the groups in terms of remaining in the analysis over time.Time (days)Enalapril (Proportion)LCZ696 (Proportion)01.001.005000.900.9010000.400.4015000.000.00Kaplan-Meier plot showing the proportion of subjects remaining in the analysis over time for Enalapril and LCZ696 groups.
+L68: Source: FDA analysis.
+L69: Next, in Figure 3, the Kaplan-Meier estimates for the primary endpoint are shown. This shows the estimate of the proportion of people with a primary endpoint event.
+L70: Figure 3 Kaplan-Meier estimates of event rates over time.
+L71: BEST AVAILABLE COPY
+L72: Enalapril (N=4212)LC2696 (N=4187)Hazard Ratio (95% CI): 0.798 (0.731, 0.871)P-value: &lt;.0001Cumulative Failure Rate [%]Time since randomization [days]# at risk419739223663301822571548896249LC2696417238833579292721231488853215EnalaprilKaplan-Meier plot showing cumulative failure rate over time for Enalapril (N=4212) and LC2696 (N=4187). The plot shows two curves, one solid black line for Enalapril and one dashed red line for LC2696. The y-axis is 'Cumulative Failure Rate [%]' from 0 to 40. The x-axis is 'Time since randomization [days]' from 0 to 1260. A legend indicates Hazard Ratio (95% CI): 0.798 (0.731, 0.871) and P-value: &lt;.0001. A table at the bottom shows the number at risk for each group at various time points.
+L73: Source: Figure 11-1 of Study Report
+L74: In Figure 4, the complimentary log-log survival plots are shown. These two curves are approximately straight lines and approximately parallel. This suggests that the time to events can be approximately modelled by the parametric Weibull survival family and that the proportional hazards assumption is not clearly violated.
+L75: Figure 4 Log{-log(survival)} plot for primary endpoint (Time is shown on the log-scale on the x-axis, log(-log(estimated survival)) on the y-axis).
+L76: The figure is a log{-log(survival)} plot. The y-axis is labeled 'log(-log(Survival))' and has tick marks at -8, -6, -4, and -2. The x-axis is labeled 'Time (days)' and has tick marks at 1, 5, 10, 50, 100, 500, and 1000, indicating a logarithmic scale. Two curves are plotted: a solid black line for 'Enalapril' and a dashed red line for 'LCZ696'. Both curves show a generally increasing trend. The Enalapril curve is consistently above the LCZ696 curve, indicating a higher log{-log(survival)} value, which corresponds to a lower survival probability. The curves are relatively parallel, suggesting a proportional hazards assumption might be reasonable.Log{-log(survival)} plot for primary endpoint comparing Enalapril and LCZ696.
+L77: Source: FDA analysis
+L78: Of the 4 secondary endpoints, only all-cause mortality was statistically significant. The Kaplan-Meier curves are shown in Figure 5. The p-value in the figure is a two-sided p-value. This p-value is significant because the one-sided p-value was to be compared to 0.8 \times 0.001 to determine whether it is significant (the one-sided p-value 0.0005 was smaller than 0.0008).
+L79: Figure 5 Kaplan-Meier estimates of all-cause mortality rates (secondary endpoint).
+L80: Figure 5 is a Kaplan-Meier survival plot showing the cumulative failure rate (%) over time (days) for two groups: Enalapril (N=4212) and LCZ696 (N=4187). The y-axis represents the 'Cumulative Failure Rate (%)' from 0 to 40. The x-axis represents 'Time since randomization [days]' from 0 to 1260. The Enalapril group is represented by a solid black line, and the LCZ696 group is represented by a dashed red line. The LCZ696 group shows a lower cumulative failure rate than the Enalapril group. The Hazard Ratio (95% CI) is 0.845 (0.764, 0.933) and the P-value is 0.0009.
+
+
+Time since randomization [days]
+Enalapril (N)
+LCZ696 (N)
+
+
+
+
+0
+4187
+4187
+
+
+180
+4056
+4056
+
+
+360
+3860
+3860
+
+
+540
+3282
+3282
+
+
+720
+2478
+2478
+
+
+900
+1716
+1716
+
+
+1080
+1005
+994
+
+
+1260
+280
+275
+
+
+Kaplan-Meier survival plot showing cumulative failure rate (%) over time (days) for Enalapril (N=4212) and LCZ696 (N=4187) groups. The plot shows a lower cumulative failure rate for the LCZ696 group compared to the Enalapril group. The Hazard Ratio (95% CI) is 0.845 (0.764, 0.933) and the P-value is 0.0009.
+L81: Source: Figure 14.2-2.3
+L82: The HR and its confidence intervals are estimations from a Cox-regression model with treatment and region as fixed factors. p-value is 2-sided and is based on this model.
+L83: Source: Study report Figure 11-4
+L84: The dose of valsartan in the LCZ696 combination is equivalent to 160 mg of valsartan administered bid. Valsartan is an ARB (angiotensin receptor blocker) approved with a heart failure indication in the label on the basis of the Val-HeFT trial. In that trial, valsartan was compared to placebo where everyone in the trial was encouraged to be on the background therapy as chosen by their physician (93% were on a background of ACE-inhibition therapy). In the overall population, there was no mortality effect, but a 13% reduction in heart failure morbidity (defined as all-cause mortality, sudden death with resuscitation, hospitalization for heart failure, and the need for intravenous inotropic or vasodilatory drugs for at least 4 hours) including a 27% reduction in heart failure hospitalization (decrease from 18% to 14%). Here, the combination was compared to enalapril 10 mg twice daily. Enalapril is approved for treatment of symptomatic (b) (4) heart failure. In the trial for symptomatic patient (SOLVD-Treatment), the use of enalapril was associated with an 11% reduction in all-cause mortality and a 30% reduction in hospitalization for heart failure compared to placebo. In that study, the dose of enalapril was titrated up to a maximum of 10 mg twice daily if the patient did not have symptomatic hypotension or worsening renal function. The FDA label recommends a maintenance dose of 2.5 to 20 mg daily in two divided doses with a maximum recommended dose of 40 mg daily (in two divided doses). In the only trial where 40 mg daily dose was studied, most patients did not tolerate this dose.
+L85: In the trial, the combination was effective compared to the control on two endpoints: time to first heart failure hospitalization or CV death (primary endpoint) and time to all-cause mortality (a secondary endpoint). There is no way to know from this trial whether both components in the combination contribute to both or either of the claimed effects. From the valsartan label, it may be reasonable to infer that the valsartan component does not contribute to the claimed mortality effect; valsartan had no effect compared to placebo in the Val-HeFT trial when ACE-inhibitors were a background therapy, so it is not likely that valsartan would be more effective than enalapril in a head-to-head comparison. Although valsartan alone reduced HF hospitalization compared to placebo in the Val-HeFT trial, it is unknown whether both components contribute to the combined effect of valsartan/sacubitril compared to enalapril on the composite primary endpoint in this trial. More thought should have been taken to design a trial that would show both components contribute to the claimed effect. Certainly, a design with three treatment arms (valsartan alone, sacubitril alone, and the combination) where everyone was on a background per the physician's judgment (as done in Val-HeFT) would have been ethical (or, at least as ethical as the trial actually done) and if the combination were superior to both monotherapy arms, would have proven that both components contribute to the claimed effects. Another alternative trial designs might also be considered is a three arm trial with: i) valsartan with ACE allowed; ii) sacubitril with ACE allowed; iii) combination with no ACE allowed. This trial may not be ethical, but if the combination was superior to the other two arms, then both components would be proven to contribute to the claimed effects. I don't know if it is ethical to have arms ii) or iii) despite the fact that arm iii) was an arm actually used in the trial reviewed here.
+L86: 1.5 Evaluation of Safety
+L87: See clinical review.
+L88: 1.6 Benefit-Risk Assessment (Optional)
+L89: See clinical review.
+L90: FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L91: 1.7 Gender, Race, Age, and Geographic Region
+L92: The results comparing the high dose to warfarin for these subgroups for the primary endpoint are shown in Figure 6. There were no significant interactions.
+L93: Figure 6 High dose/warfarin results for subgroups defined by gender, race, age, and geographic region.
+L94: Subgroup
+LCZ696
+Enalapril
+Favours LCZ696
+Favours Enalapril
+Hazard Ratio
+Interaction
+
+
+n / N (%)
+n / N (%)
+Estimate (95% CI)
+P-value
+
+
+
+
+Overall
+914/4187 (21.8)
+1117/4212 (26.5)
+
+
+0.80 (0.73, 0.87)
+
+
+
+Age (&lt;65 &gt;=65)
+
+
+
+
+
+0.4715
+
+
+&lt;65
+431/2111 (20.4)
+556/2168 (25.6)
+
+
+0.77 (0.68, 0.87)
+
+
+
+&gt;=65
+483/2076 (23.3)
+561/2044 (27.4)
+
+
+0.82 (0.73, 0.93)
+
+
+
+Age (&lt;75 &gt;=75)
+
+
+
+
+
+0.3248
+
+
+&lt;75
+706/3403 (20.7)
+885/3433 (25.8)
+
+
+0.78 (0.71, 0.86)
+
+
+
+&gt;=75
+208/784 (26.5)
+232/779 (29.8)
+
+
+0.86 (0.72, 1.04)
+
+
+
+Gender
+
+
+
+
+
+0.6261
+
+
+Male
+756/3308 (22.9)
+902/3259 (27.7)
+
+
+0.80 (0.73, 0.89)
+
+
+
+Female
+158/879 (18.0)
+215/953 (22.6)
+
+
+0.76 (0.62, 0.94)
+
+
+
+Race
+
+
+
+
+
+0.5809
+
+
+Caucasian
+598/2763 (21.6)
+717/2781 (25.8)
+
+
+0.81 (0.72, 0.90)
+
+
+
+Black
+58/213 (27.2)
+72/215 (33.5)
+
+
+0.81 (0.57, 1.14)
+
+
+
+Asian
+179/759 (23.6)
+204/750 (27.2)
+
+
+0.85 (0.70, 1.04)
+
+
+
+Native American
+15/84 (17.9)
+22/88 (25.0)
+
+
+0.68 (0.35, 1.31)
+
+
+
+Pacific Islander
+
+1/1 (100.0)
+
+
+
+
+
+
+Other
+64/368 (17.4)
+101/377 (26.8)
+
+
+0.63 (0.46, 0.86)
+
+
+
+Region
+
+
+
+
+
+0.3737
+
+
+North American
+77/310 (24.8)
+103/292 (35.3)
+
+
+0.67 (0.50, 0.90)
+
+
+
+Latin America
+131/713 (18.4)
+183/720 (25.4)
+
+
+0.71 (0.56, 0.88)
+
+
+
+Western Europe
+217/1026 (21.2)
+239/1025 (23.3)
+
+
+0.89 (0.74, 1.07)
+
+
+
+Central Europe
+318/1393 (22.8)
+394/1433 (27.5)
+
+
+0.79 (0.68, 0.92)
+
+
+
+Asia/Pacific and Other
+171/745 (23.0)
+198/742 (26.7)
+
+
+0.85 (0.69, 1.04)
+
+
+
+Forest plot showing Hazard Ratio (95% CI) for various subgroups. The plot includes columns for Subgroup, LCZ696 (n/N (%)), Enalapril (n/N (%)), Favours LCZ696, Favours Enalapril, Hazard Ratio (95% CI), and Interaction P-value. The x-axis ranges from 0.25 to 4, with a vertical line at 1.0. Subgroups include Overall, Age (&lt;65, &gt;=65), Age (&lt;75, &gt;=75), Gender (Male, Female), Race (Caucasian, Black, Asian, Native American, Pacific Islander, Other), and Region (North American, Latin America, Western Europe, Central Europe, Asia/Pacific and Other). Interaction P-values are 0.4715 for Age (&lt;65, &gt;=65), 0.3248 for Age (&lt;75, &gt;=75), 0.6261 for Gender, 0.5809 for Race, and 0.3737 for Region.
+L95: Source: Figure 11-6 of Study Report.
+L96: 1.8 Other Special/Subgroup Populations
+L97: NA.
+L98: SUMMARY AND CONCLUSIONS
+L99: 1.9 Statistical Issues
+L100: Because of limitations in the study design, it is not possible to know whether both components contribute to the claimed effects and this should be clearly stated in the label if this combination is approved. One-sided testing and p-values were used sometimes in the Study Report (b) (4) . Two-sided p-values should be used throughout the label. P-values for the primary endpoint and the all-cause mortality endpoint were statistically significant and can be shown in the label. The components of the primary endpoint can be described in two ways. First by splitting the number of patients with the primary endpoint into mutually exclusive subsets, i.e. 377+537=914 in the LCZ696 arm and 459+658=1117 in the enalapril arm. Second, as shown in Table 4 by any time in the trial, whether it was the first event or not. The number of HF hospitalization events in both ways of counting will be identical, by definition. But, that is not obvious to everyone and both should be reported in the label for clarity.
+L101: 1.10 Collective Evidence
+L102: NA
+L103: 1.11 Conclusions and Recommendations
+L104: I don't think the combination should be approved. I don't want to prevent people from being able to purchase the components either since the combination was better than enalapril on all-cause mortality. I think there is a case for approving the sacubitril component with an indication for reducing CV mortality only. The most logical explanation for the observed mortality benefit is that sacubitril reduces mortality. It remains unknown whether the entire benefit on HF hospitalization could be explained by the valsartan component. We cannot force the company to manufacture or market sacubitril monotherapy, but that should be left to the company to decide. It is unfair to force people to buy the combination if they want to take only one component when there is no evidence that both components contribute to the claimed effect. Valsartan is approved for heart failure already and available to the public. People might reasonably choose to buy valsartan and sacubitril or they might also choose sacubitril alone or with an ACE or another ARB. Approving sacubitril as monotherapy is a less extreme option than approving the combination because approving the combination means we believe both components contribute to the mortality effect.
+L105: 1.12 Labeling Recommendations (as applicable)
+L106: Because of limitations in the study design, it is not possible to know whether both components contribute to the claimed effects and this should be clearly stated in the label if this combination is approved. One-sided testing and p-values were used sometimes in the Study Report (b) (4) [REDACTED]. Two-sided p-values should be used throughout the label. P-values for the primary endpoint and the all-cause mortality endpoint were statistically significant and can be shown in the label. The components of the primary endpoint can be described in two ways. First by splitting the number of patients with the primary endpoint into mutually exclusive subsets, i.e. 377+537=914 in the LCZ696 arm and 459+658=1117 in the enalapril arm. Second, as shown in Table 4 by any time in the trial, whether it was the first event or not. The number of HF hospitalization events in both ways of counting will be identical, by definition. But, that is not obvious to everyone and both should be reported in the label for clarity.
+L107: -----This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.-----
+L108: /s/-----
+L109: JOHN P LAWRENCE
+L110: 05/18/2015
+L111: KOOROS MAHJOOB
+L112: 05/20/2015
+L113: Seal of the Center for Drug Evaluation and Research, FDA. The seal features a caduceus (a staff with two snakes and wings) in the center, surrounded by the text 'Center for Drug Evaluation and Research' and 'FDA' at the bottom.
+L114: U.S. Department of Health and Human ServicesFood and Drug AdministrationCenter for Drug Evaluation and ResearchOffice of Translational SciencesOffice of Biostatistics
+L115: STATISTICAL REVIEW AND EVALUATIONCARCINOGENICITY STUDIES
+L116: NDA/BLA #: NDA 207620/S-0001 (IND 104628)Drug Name: LCZ696 (sacubitril/valsartan) Tablets (AHU377)Indication(s): Treatment of heart failure (NYHA class II-IV) (b) (4)Applicant: Novartis Pharmaceuticals Canada Inc.385 boul. Bouchard, Dorval, Quebec, H9S 1A9, CanadaLaboratory: (b) (4)Novartis Pharmaceuticals Corporation (Novartis)Date(s): Received 10/29/2014Documents Reviewed: Study pcs-r0870373 (rats) and Study pcs-r0870374 (mice) reports and electronic datasets submitted with the electronic submission on 10/29/2014 (via S-0001).Review Priority: Priority ReviewBiometrics Division: Division of Biometrics VIStatistical Reviewer: Feng Zhou, M.S.Concurring Reviewers: Mohammad Atiar Rahman, Ph. D.Team Leader: Karl Lin, Ph.D.Medical Division: Division of Cardio-Renal ProductsPharmacology Team: William Link, Ph.D; Al DeFelice, Ph.DProject Manager: Alexis Childers, Senior Regulatory health Project ManagerKeywords: Carcinogenicity, Dose response
+L117: Table of Contents
+L118: 1
+SUMMARY.....
+3
+
+
+2
+BACKGROUND.....
+3
+
+
+3
+RAT STUDY.....
+4
+
+
+3.1
+SPONSOR'S ANALYSES.....
+4
+
+
+3.1.1
+Survival Analysis.....
+4
+
+
+3.1.2
+Tumor Data Analysis.....
+5
+
+
+3.2
+REVIEWER'S ANALYSES.....
+6
+
+
+3.2.1
+Survival Analysis.....
+6
+
+
+3.2.2
+Tumor Data Analysis.....
+7
+
+
+4
+MOUSE STUDY.....
+8
+
+
+4.1
+SPONSOR'S ANALYSES.....
+9
+
+
+4.1.1
+Survival Analysis.....
+9
+
+
+4.1.2
+Tumor Data Analysis.....
+9
+
+
+4.2
+REVIEWER'S ANALYSES.....
+10
+
+
+4.2.1
+Survival Analysis.....
+10
+
+
+4.2.2
+Tumor Data Analysis.....
+10
+
+
+5
+CONCLUSION.....
+10
+
+
+6
+APPENDIX.....
+12
+
+
+
+Table 1A: Intercurrent Mortality – Male Rats.....
+12
+
+
+
+Table 1B: Intercurrent Mortality - Female Rats.....
+12
+
+
+
+Table 2A: Intercurrent Mortality - Male Mice.....
+12
+
+
+
+Table 2B: Intercurrent Mortality – Female Mice.....
+12
+
+
+
+Table 3A: Intercurrent Mortality Comparison – Male Rats.....
+13
+
+
+
+Table 3B: Intercurrent Mortality Comparison – Female Rats.....
+13
+
+
+
+Table 4A: Intercurrent Mortality Comparison – Male Mice.....
+13
+
+
+
+Table 4B: Intercurrent Mortality Comparison – Female Mice.....
+13
+
+
+
+Table 5A: Tumor Rates and P-V values for Dose Response Relationship and Pairwise Comparisons – Male Rats.....
+14
+
+
+
+Table 5B: Tumor Rates and P-V values for Dose Response Relationship and Pairwise Comparisons – Female Rats.....
+15
+
+
+
+Table 6A: Tumor Rates and P-V values for Dose Response Relationship and Pairwise Comparisons – Male Mice.....
+16
+
+
+
+Table 6B: Tumor Rates and P-V values for Dose Response Relationship and Pairwise Comparisons – Female Mice.....
+18
+
+
+
+Figure 1A: Kaplan-Meier Survival Functions for Male Rats.....
+19
+
+
+
+Figure 1B: Kaplan-Meier Survival Functions for Female Rats.....
+20
+
+
+
+Figure 2A: Kaplan-Meier Survival Functions for Male Mice.....
+20
+
+
+
+Figure 2B: Kaplan-Meier Survival Functions for Female Mice.....
+21
+
+
+7
+REFERENCES.....
+21
+L119: 1 Summary
+L120: This review evaluates statistically the tumorigenicity data of 2-year oral carcinogenicity studies of AHU377 in rats and mice. The review analyzes the dose-response relationship of tumor incidence and mortality (including tumor-related mortality). The review concludes that AHU377 had no effect on survival or tumor incidence in either species.
+L121: Rat Study: Rats (50/sex/dose) were dosed by oral gavage with AHU377 daily for up to 104 weeks. The AHU377 dose was 0, 50, 150, or 400-mg/kg/day in the control (C), low (LD), mid (MD) and high-dose (HD) groups in males and females, respectively. The control group (0 mg/kg/day) received the vehicle only.
+L122: Survival analysis did not show a statistically significant dose response relationship in mortality in either sex. The pairwise comparisons also did not show statistically significant increased mortality in any treated group in either sex. The respective survival rate in the C, LD, MD, and HD groups at the termination (Week 105) were 74%, 76%, 70%, and 62% in males and 60%, 60%, 68%, and 66% in females.
+L123: There was no statistically significant dose-response relationship in tumor incidence in male rats. The LD female rats showed a statistically significant increase in the incidence of uterus endometrial polyp (alone or in combination with endometrial sarcoma) when compared with the control in the pairwise comparison, but the overall analysis failed to show any dose response relationship for this tumor type.
+L124: Mouse Study: Mice (70/sex/dose) were dosed by oral gavage with AHU377 daily for up to 104 weeks. The AHU377 dose was 0, 150, 400, or 1200-mg/kg/day in the C, LD, MD and HD groups in males and females, respectively. The control group (0 mg/kg/day) received the vehicle only.
+L125: Survival analysis did not show a statistically significant dose response relationship in mortality in either sex. The pairwise comparisons also did not show statistically significant increased mortality in any treated group in either sex. The respective survival rates in the C, LD, MD and HD groups at the termination (Week 105) were 63%, 51%, 59%, and 53% in males; and 41%, 36%, 41%, and 54% in females.
+L126: The tumor analysis did not show any statistically significant dose-response relationship in tumor incidence in either sex.
+L127: 2 Background
+L128: The sponsor conducted 24-month carcinogenicity studies by oral (gavage) administration in Wistar rats and CD-1 mice (one each). This review analyzed the SAS data sets of these studies received on 10/29/2014 via submission NDA207620/S0001.
+L129: The phrase "dose response relationship" refers to the linear component of the effect of treatment, and not necessarily to a strictly increasing or decreasing mortality or tumor incidence rate as dose increases. Results of this review have been discussed with the reviewing pharmacologist Dr. Timothy Link.
+L130: 3 Rat Study
+L131: Study Report: pcs-r0870373—pre-clinical-study-report.pdf; SAS data: Tumor.xpt
+L132: This study assessed the carcinogenic potential of AHU377 in male and female Wistar rats. The test material was administered at doses of 50, 150 or 400 mg/kg/day of AHU377 in 0.5% (w/v) hydroxypropylcellulose once daily by oral gavage for at least 104 weeks. This review refers these dose groups as the low (LD), mid (MD), and high (HD) dose groups, respectively. All control animals received 0.5% Klucel HF in deionized water. The dose volume for all groups was 10 mL/kg. There were 50 rats/sex/dose. In addition, 4 rats/sex/dose served as toxicokinetic animals; an additional 10 males and 10 females were selected from the total population and used as health screen animals (group 5). The review did not discuss Group 5 because no tumor data were collected on them.
+L133: Activities performed included clinical examinations (twice daily examinations for mortality and signs of ill health or reaction to dosing, daily post dosing cage side observations, weekly detailed examinations, palpable mass examinations on main study animals), body weights, food consumption, laboratory investigations (hematology) for health screen prior to dosing initiation and for main study animals at study termination (blood smears). Post-mortem evaluations for main study animals included macroscopic and microscopic observations.
+L134: 3.1 Sponsor's Analyses
+L135: 3.1.1 Survival Analysis
+L136: The sponsor performed survival analysis using the Kaplan-Meier product-limit method. An overall trend test comparing all groups was conducted using a log-rank test (Mantel 1966, Peto 1974). Any animal with accidental injury that causes its death or its unscheduled sacrifice was censored in the estimation. The log-rank test was applied to the four groups in order to assess the significance of the overall group effect on mortality data. If this test was found to be significant (p \leq 0.05), then the significance of a dose-related trend in mortality across all groups was evaluated using Tarone's method (Tarone, 1975). Using the Multtest procedure (SAS Institute, 1999), Tarone's test was implemented as a Peto two-sided test, with all uncensored deaths coded as 2 and all censored deaths coded as 0. The corresponding arithmetic dose level scores (0, 50, 150 and 400) were used to perform this overall trend test. Furthermore, the control group was compared to each of the other three groups using a Peto two-sided test. The sign of the statistic was used to indicate if either an increase or a decrease of the mortality rate across dose levels was observed for the trend test and each pairwise comparison. When performing a pairwise comparison, only the data corresponding to the two compared groups was submitted to the statistical analysis. Each trend test and pairwise group comparison of interest was conducted at the 5% significance level. Significant trend and pairwise comparison results were reported as p \leq 0.001, p \leq 0.01 or p \leq 0.05, where p represents the obtained probability." The animal was classified as uncensored when death occurred within the experimental period, inclusively day 1 to day 728. Otherwise, that is, when the animal's death was accidental, as it is the case for the animals #s. 1506 and 2539, and/or occurred during the terminal sacrifice period (day 729 and over), the animal was classified as censored.
+L137: Sponsor's findings: There was no AHU377-related effect on survival. At the end of the dosing period, the survival rates ranged from 62 to 76% for males and 60 to 68% for females. The total unscheduled deaths are listed in the following table. There appeared a dose-related trend in the mortality rate in males, but none of the increase reached a statistically significant level (p &gt; 0.05). Also, the mortality rate was comparable between all groups for both sexes. For each pre-terminal
+L138: decedent rat, the most probable cause of death was determined. The cause of death could not be determined for a small number of animals per group.
+L139: The Sponsor's Report of Total Unscheduled Deaths, n=50/sex/dose group)
+L140: Group no.identificationDose level(mg/kg/day)Survival %
+
+Males%Females%
+
+
+
+1/ Control013/5074%20/5060%
+
+2/ AHU3775012/5076%20/5060%
+
+3/ AHU37715015/5070%16/5068%
+
+4/ AHU37740019/5062%17/5066%
+L141: These numbers included animals that were found dead after week 104.
+L142: [Source: page 36 of study report of pcs-r0870373—pre-clinical-study-report.pdf]
+L143: 3.1.2 Tumor Data Analysis
+L144: The sponsor analyzed the tumor incidence data using the methods outlined in the paper of Peto et al. (1980) for positive dose response relationships and the Fisher exact test for pairwise comparisons of the treated groups with the control. Neoplastic findings classified as fatal and incidental were processed using the death rate method and the prevalence method, respectively. The processing of incidental tumors was done by creating a single separate interval for the time period following the experimental period (terminal sacrifice period) and by dividing the experimental period into the following fixed intervals (FDA's draft guidance for industry, 2001): weeks 1 - 52, weeks 53 - 78, weeks 79 - 92, weeks 93-104, and terminal sacrifice (TS). Using the derived outcomes from the processing of both fatal and incidental tumors, a test statistic was built to perform a global survival-adjusted trend test on tumor data observed in a "mortality dependent" context (Peto et al, 1980). For each dataset within each sex, the significance of an overall linear dose-related increase in tumor occurrence rates across the vehicle control group (group C) and the three test item treated groups LD, MD and HD were evaluated using Peto's survival-adjusted one-tailed trend test. The corresponding arithmetic dose level scores (0, 50, 150 and 400) were used to perform this overall trend test. When the overall trend test was found significant, the sequential trend test was performed at the 5% significance level. The sequential trend test was implemented by excluding successively the highest dosed group from the analysis until the one-sided Peto trend test was no longer significant. Furthermore, Peto's one tailed trend test was also used to test when the tumor rate in each of the three test item treated groups LD, MD, and HD was significantly higher than the tumor rate in the vehicle control group. When performing a pairwise comparison, only the data corresponding to the two compared groups was submitted to the statistical analysis. Following the suggestion of Lin (Lin, 1997) the discrete permutation distribution was used to compute the corresponding p-value for each statistical test performed on a data set containing 10 or less tumor occurrences. All tests were performed at the 5% significance level. However, each trend test (the overall trend and the pairwise comparison tests) were discussed in the statistical report according to the tumor prevalence classification (common or rare) and the recommendations of Lin and Rahman (Lin and Rahman, 1998).
+L145: Adjustment for multiple testing: In order to control the false positive error, the sponsor tested the common and the rare tumors at 0.005 and 0.025 significance levels, respectively (Lin, 2000) for positive dose response relationship, and 0.01 and 0.05 for pairwise comparisons. Tumors are considered as common with a background rate of \geq 1\% and as rare with a background incidence of &lt; 1\%.
+L146: Sponsor's findings: A statistically significant (p= 0.0046) positive dose response in the incidence of pituitary adenoma of the pars distalis was recorded in males. However, the pairwise comparison high dose group with control did not result in statistical significance for a common tumor (p=0.0153).
+L147: File Name: NDA207620Carcin.doc
+L148: The sponsor indicated that although the overall incidence of this tumor type was slightly above the historical range of this laboratory (20% to 37% for male rats), this change was considered equivocal and not likely to be an indication of carcinogenic potential of AHU377.
+L149: A few other tumors or tumor combinations reached statistical significance including follicular adenoma of the thyroid with a p-value of 0.0248 (overall trend test) in females only, combined hemangioma/hemangiosarcoma with a p-value of 0.0085 in males only (pairwise comparison test: group C vs group MD) and uterus endometrial stroma polyp in females (pairwise comparison test was significant (group C vs group LD) with a p-value of 0.0077) were observed. Follicular adenoma in the thyroid is a common tumor, the p-value did not reach statistical significance for common tumors and this increased incidence in females was therefore considered of no toxicological significance. Since the overall trend test was not significant and the pairwise comparison test with the high dose group did not reach statistical significance for the hemangioma/hemangiosarcoma combination in males and for endometrial polyp in the uterus of females, and the incidence of the uterine endometrial polyp was within range of the historical control data at this laboratory (incidence between 6% to 22% for uterine endometrial polyp. The sponsor mentioned that no historical control data are available for combined hemangioma/hemangiosarcoma), the higher incidence of these tumor/tumor combinations in the intermediate or low dose group were interpreted to be incidental and of no toxicological significance. All other tumor incidences recorded were within the range of spontaneous occurrence reported for aged Wistar Hannover rats, were generally randomly distributed in control and treated groups and/or lacked a dose-related pattern. In addition, no increase in the incidence of any hyperplastic lesions was noted
+L150: The sponsor concluded that AHU377 given orally to Wistar Han rats at 50, 150 and 400 mg/kg/day for a minimum of 104 consecutive weeks was well tolerated. There were no AHU377-related effects on survival rate, clinical signs, body weights and food consumption. No evidence of any carcinogenic effect was seen in male or female rats given up to 400 mg/kg/day of AHU377. No gross or microscopic changes were seen in any organs or tissues examined that were attributed to the oral gavage administration of AHU377 up to 400 mg/kg/day.
+L151: 3.2 Reviewer's Analyses
+L152: To verify the sponsor's analyses and to perform additional analyses suggested by the reviewing pharmacologist, this reviewer performed survival and tumor data analyses using data submitted electronically in NDA 207-620 on 10/29/2014.
+L153: The pharmacologist requested statistical evaluations of the following:
+L154: • Is there any difference in the survival (or death) among groups; if yes, whether the difference is statistically significant.• Is there any difference in the incidences of any neoplastic finding among groups, if yes, whether the difference is statistically significant.
+L155: 3.2.1 Survival Analysis
+L156: The survival distributions of rats in all treatment groups were estimated using the Kaplan-Meier product limit method. For control, low, medium, and high dose groups, the dose response relationship was tested using the likelihood ratio test and the homogeneity of survival distributions was tested using the log-rank test. The Kaplan-Meier curves for survival rates are given in Figures 1A and 1B in the appendix for male and female rats, respectively. The intercurrent mortality data are given in Tables 1A and 1B in the appendix for male and female rats, respectively. Results of the tests for dose response relationship and
+L157: homogeneity of survivals, are given in Tables 3A and 3B in the appendix for male and female rats, respectively.
+L158: Reviewer's findings: This reviewer's analysis showed the numbers (percent) of death were 13 (26%), 12 (24%), 15 (30%), and 19 (38%) in male rats and 20 (40%), 20 (40%), 16 (32%), and 17 (34%) in female rats in the C, LD, MD, and HD groups, respectively. The tests didn't show a statistically significant dose response relationship in mortality across control and treated groups in male or female rats. The pairwise comparisons did not show statistically significant increased mortality in the treated groups compared to the control in either sex.
+L159: 3.2.2 Tumor Data Analysis
+L160: The tumor data were analyzed for dose response relationships and pairwise comparisons of control group with each of the treated groups. Both the dose response relationship tests and pairwise comparisons were performed using the Poly-k method described in the paper of Bailer and Portier (1988) and Bieler and Williams (1993). In this method an animal that lives the full study period (w_{max}) or dies before the terminal sacrifice but develops the tumor type being tested gets a score of s_h = 1. An animal that dies at week w_h without developing the tumor before the end of the study gets a score of
+L161: s_h = \left( \frac{w_h}{w_{max}} \right)^k &lt; 1. \text{ The adjusted group size is defined as } \sum s_h. \text{ As an interpretation, an animal with score}
+L162: s_h = 1 can be considered as a whole animal while an animal with score s_h &lt; 1 can be considered as a partial animal. The adjusted group size \sum s_h is equal to N (the original group size) if all animals live up to the end of the study or if each animal that dies before the terminal sacrifice develops at least one tumor, otherwise the adjusted group size is less than N. These adjusted group sizes are then used for the dose response relationship (or the pairwise) tests using the Cochran-Armitage test. One critical point for Poly-k test is the choice of the appropriate value of k, which depends on the tumor incidence pattern with the increased dose. For long term 104 week standard rat and mouse studies, a value of k=3 is suggested in the literature. Hence, this reviewer used k=3 for the analysis of this data. For the calculation of p-values the exact permutation method was used. The tumor rates and the p-values of the tested tumor types are listed in Tables 5A and 5B in the appendix for male and female rats, respectively.
+L163: Multiple testing adjustment: For the adjustment of multiple testing of dose response relationship, the FDA guidance for the carcinogenicity study design and data analysis suggests the use of test levels \alpha=0.005 for common tumors and \alpha=0.025 for rare tumors for a submission with two species, and a significance level \alpha=0.01 for common tumors and \alpha=0.05 for rare tumors for a submission with one species in order to keep the false-positive rate at the nominal level of approximately 10%. A rare tumor is defined as one in which the published spontaneous tumor rate is less than 1%. For multiple pairwise comparisons of treated group with control the FDA guidance the suggested the use of test levels \alpha=0.01 for common tumors and \alpha=0.05 for rare tumors, in order to keep the false-positive rate at the nominal level of approximately 10% for both submissions with two or one species.
+L164: It should be noted that the FDA guidance for multiple testing for dose response relationship is based on a publication by Lin and Rahman (1998). In this work the authors investigated the use of this rule for Peto analysis. However, in a later work Lin and Rahman (2008) showed that this rule for multiple testing for dose response relationship is also suitable for Poly-K tests.
+L165: Reviewer's findings: Following two tables display the tumor types showed p-values less than or equal to 0.05 either for dose response relationship or pairwise comparisons of treated groups and control.
+L166: File Name: NDA207620Carcin.doc
+L167: Tumor Types with P-Values \leq 0.05 for Dose Response Relationship or Pairwise Comparisons of Treated Groups and Combined Controls in Male Rats
+L168: Organ NameTumor Name0 mg/kg/dayCN=5050 mg/kg/dayLDN=50150 mg/kg/dayMDN=50400 mg/kg/dayHDN=50DoseResponseP-Value
+
+C vs. LDC vs. MDC vs. HD
+
+
+
+PITUITARYAdenoma: pars distal131215210.01360.47540.35940.4884
+
+Combined organC Hemangioma+Hemangiosarcoma361040.44680.23150.02550.4351
+L169: *Indicted the significant at 0.005 or 0.025 alpha levels.
+L170: Tumor Types with P-Values \leq 0.05 for Dose Response Relationship or Pairwise Comparisons of Treated Groups and Combined Controls in Female Rats
+L171: Organ NameTumor Name0 mg/kg/dayCN=5050 mg/kg/dayLDN=50150 mg/kg/dayMDN=50400 mg/kg/dayHDN=50DoseResponseP-Value
+
+C vs. LDC vs. MDC vs. HD
+
+
+
+MAMMARY GLANDFibroadenoma13915190.03780.73040.38210.1537
+
+THYRO DAdenoma: follicular10140.02500.49410.74710.1947
+
+UTERUSSarcoma: endometrial02000.76020.2470--
+
+Polyp: endometrial s19650.42450.0074*0.05480.1120
+
+C Endometrial111650.51530.0017*0.05480.1120
+
+Combined organC Hemangioma+Hemangiosarcoma01130.04950.50000.50590.1339
+L172: *Indicted the significant at 0.005 or 0.025 alpha levels.
+L173: Based on the criteria of adjustment for multiple testing discussed above, none of the observed tumors was considered to have a statistically significant positive dose response relationship in either sex. In female rats the pairwise comparison showed statistically significant increased incidence of uterus endometrial polyp in low dose group compared to the control (p=0.0074 &lt; 0.01) and the combination of Sarcoma: endometrial and Polyp: endometrial in Uterus in low dose group compared to the control p=0.0017 &lt; 0.01). However, the dose response relationship for this tumor type was not statistically significant.
+L174: Reviewer's comment: Note that the sponsor's p-value for dose response relationship test for the incidence of pituitary adenoma of the pars distalis in male rats is 0.0046, while that calculated by this reviewer is 0.0136. This discrepancy between the p-values is due to the difference methodologies used by the sponsor (Peto method) and this reviewer (Poly-K).
+L175: 4 Mouse Study
+L176: Study Report: PCS-R0870374.pdf; SAS data: Tumor.xpt
+L177: This study assessed the carcinogenic potential of AHU377 in male and female CD-1 mice. The test material was administered at doses of 150, 400, or 1200 mg/kg/day of AHU377 in 0.5% methylcellulose once daily by oral gavage for approximately 2 years. This review refers these dose groups as the low (LD), mid (MD), and high (HD) dose groups, respectively. All control animals received 0.5% methylcellulose in deionized water. The dose volume was 10 mL/kg. There were 70 mice /sex/dose. The toxicokinetic arm of the study contained 4 groups (one control group and three AHU377-treated groups) of 8 females and 8 males each.
+L178: Activities performed included clinical examinations (twice daily examinations for mortality and signs of ill health or reaction to dosing, daily post dosing cage side observations, weekly detailed examinations, palpable mass examinations on main study animals), body weights, food consumption,
+L179: File Name: NDA207620Carcin.doc
+L180: laboratory investigations (hematology) for health screen animals prior to dosing initiation and for main animals at study termination (blood smears). Post-mortem evaluations for main study animals included macroscopic observations and microscopic observations.
+L181: 4.1 Sponsor's Analyses
+L182: 4.1.1 Survival Analysis
+L183: The sponsor performed survival analysis using the same methodologies that were used in the rat study. Any animal with accidental injury that caused its death or its unscheduled sacrifice was censored in the estimation. The male high dose group was excluded from the sponsor's overall analysis due to the dosing of the animals in this group stopped after day 319. The animal was classified as uncensored when death occurred within the experimental period, inclusively day 1 to day 728. Otherwise, that is, when the animal's death was accidental, as it is the case for the animals #s. 1011, 2016, 2532, 3534, 3545, 3558, 4010, 4011, 4025, 4070, and 4515, and/or occurred during the terminal sacrifice period (day 729 and over), the animal was classified as censored.
+L184: Sponsor's findings: The sponsor mentioned that the mortality rate was comparable among all groups for both sexes. There was no AHU377-related effect on survival. At the end of the dosing period, the survival rates ranged from 51 to 63% for males and 36 to 54% for females.
+L185: The Sponsor's Report of Total Unscheduled Deaths, n=70/sex/group)
+L186: Study weekMalesFemales
+
+Dose (mg/kg/day)Dose (mg/kg/day)
+
+0150400120001504001200
+
+
+
+1670(100%)70(100%)70(100%)70(100%)70(100%)70(100%)70(100%)70(100%)
+
+2470(100%)70(100%)69(99%)70(100%)69(99%)69(99%)69(99%)70(100%)
+
+5270(100%)66(94%)65(93%)66(94%)67(96%)63(90%)66(94%)66(94%)
+
+8063(90%)54(77%)53(76%)56(80%)58(83%)48(69%)56(80%)54(77%)
+
+Term44(63%)36(51%)41(59%)37(53%)29(41%)25(36%)29(41%)38(54%)
+L187: [Source: page 38 of study report of pcs-r0870374-pre-clinical-study-report.pdf]
+L188: 4.1.2 Tumor Data Analysis
+L189: The sponsor analyzed the tumor incidence data using the same methodologies that were used in the rat study. Notice that, due to the dosing of the animals in male high dose group was stopped after day 319, the sponsor excluded male high dose group from the tumor analysis.
+L190: For each dataset within each sex, the significance of an overall linear dose-related increase in tumor occurrence rates, across groups 1, 2, 3 and 4 for the females and across groups 1, 2 and 3 for the males, was evaluated using Peto's survival-adjusted one-tailed trend test. The corresponding arithmetic dose level scores that were used to perform this overall trend test were given by 0, 150, 400 and 1200.
+L191: Sponsor's findings:
+L192: Clinically observed palpable masses, which were present during the dosing phase and at necropsy, were generally noted in a similar proportion of animals from control and AHU377-treated groups. There was no evidence of statistically significant carcinogenic effect of AHU377 in male or female
+L193: File Name: NDA207620Carcin.doc
+L194: mice at histopathology examination. The sponsor mentioned that the tumor incidences recorded were within the range of spontaneous occurrence reported for aged CD-1 mice.
+L195: The sponsor concluded that AHU377 given orally to CD1 mice at 150, 400 and 1200 mg/kg/day for a minimum of 104 consecutive weeks was well tolerated. There were no AHU377-related effects on survival rate, clinical signs. No evidence of any carcinogenic effect was seen in male or female mice given up to 1200 mg/kg/day of AHU377.
+L196: Please notice that, the sponsor did not use the data from male high dose group in their analysis.
+L197: 4.2 Reviewer's Analyses
+L198: To verify the sponsor's analyses and to perform additional analyses suggested by the reviewing pharmacologist, this reviewer performed survival and tumor data analyses using data submitted electronically in submission NDA 207-620 on 10/29/2014.
+L199: 4.2.1 Survival Analysis
+L200: The Kaplan-Meier curves for survival rates of all treatment groups are given in Figures 2A and 2B in the appendix for male and female mice, respectively. The intercurrent mortality data of all treatment groups are given in Tables 2A and 2B in the appendix for male and female mice, respectively. Results of the tests for dose response relationship and homogeneity of survivals for control, low, medium, and high dose groups are given in Tables 4A and 4B in the appendix for male and female mice, respectively.
+L201: Reviewer's findings: This reviewer's analysis showed 26(37%), 34 (49%), 29 (41%), and 33 (47%) number (percent) of deaths in male mice, and 41 (59%), 45 (64%), 41 (59%), and 32 (46%) number (percent) of deaths in female mice the C, LD, MD, and HD groups, respectively. The tests did not show any statistically significant dose response relationship in mortality across control and treated groups in either sex mice. The pairwise comparisons did not show statistically significant increased mortality in the treated groups compared to the control in either male or female mice.
+L202: 4.2.2 Tumor Data Analysis
+L203: The tumor data were analyzed for dose response relationships and pairwise comparisons of control group with each of the treated groups using the same method that was used for the rats study. The tumor rates and the p-values of the tested tumor types are listed in Tables 6A and 6B in the appendix for male and female mice, respectively.
+L204: Reviewer's findings: Based on the criteria of adjustment for multiple testing discussed in the rat data analysis section, none of the observed tumors was considered to have a statistically significant positive dose response relationship or increased incidence in any treated group compared to their control in either sex of mice.
+L205: 5 Conclusion
+L206: This review evaluates statistically the tumorigenicity data of 2-year oral carcinogenicity studies of AHU377 in rats and mice. The review analyzes the dose-response relationship of tumor incidence and mortality (including tumor-related mortality). The review concludes that AHU377 had no effect on survival or tumor incidence in either species.
+L207: File Name: NDA207620Carcin.doc
+L208: Rat Study: Rats (50/sex/dose) were dosed by oral gavage with AHU377 daily for up to 104 weeks. The AHU377 dose was 0, 50, 150, or 400-mg/kg/day in the C, LD, MD and HD groups in males and females, respectively. The control group (0 mg/kg/day) received the vehicle only.
+L209: Survival analysis did not show a statistically significant dose response relationship in mortality in either sex. The pairwise comparisons also did not show statistically significant increased mortality in any treated group in either sex. The respective survival rate in the C, LD, MD, and HD groups at the termination (Week 105) were 74%, 76%, 70%, and 62% in males and 60%, 60%, 68%, and 66% in females.
+L210: There was no statistically significant dose-response relationship in tumor incidence in male rats. The LD female rats showed a statistically significant increase in the incidence of uterus endometrial polyp (alone or in combination with endometrial sarcoma) when compared with the control in the pairwise comparison, but the overall analysis failed to show any dose response relationship for this tumor type.
+L211: Tumor Incidence Rates in Female Rats
+L212: Organ NameTumor Name050150400Dose ResponseP-Value
+
+mg/kg/dayCN=50mg/kg/dayLDN=50mg/kg/dayMDN=50mg/kg/dayHDN=50C vs. LDC vs. MDC vs. HD
+
+
+
+UTERUSSarcoma: endometrial02000.76020.2470..
+
+Polyp: endometrial s19650.42450.0074*0.05480.1120
+
+C Endometrial111650.51530.0017*0.05480.1120
+L213: *Indicted the significant at 0.005 or 0.025 alpha levels.
+L214: Mouse Study: Mice (70/sex/dose) were treated with 0, 150, 400, or 1200-mg/kg/day AHU377 for up to 104 weeks. The control group (0 mg/kg/day) received the vehicle only.
+L215: Survival analysis didn't show a statistically significant dose response relationship in mortality in male or female mice. The pairwise comparisons also did not show statistically significant increased mortality in any treated group in either sex. The respective survival rates in the C, LD, MD and HD groups at the termination (Week 105) were 63%, 51%, 59%, and 53% in males; and 41%, 36%, 41%, and 54% in females.
+L216: The tumor analysis did not show any statistically significant dose-response relationship in tumor incidence in in either sex.
+L217: Feng Zhou, M.S.Mathematical Statistician
+L218: Secondary Reviewer: Atiar Mohammad Rahman, Ph.D.
+L219: Secondary Reviewer: Karl Lin, Ph.D., Team Leader, Biometrics-6
+L220: cc:
+L221: Dr. William Link
+L222: Dr. Al DeFelice
+L223: Dr. Tsong
+L224: Ms. Zhou
+L225: Dr. Lin
+L226: Ms. Patricia
+L227: File Name: NDA207620Carcin.doc
+L228: 6 Appendix
+L229: Table 1A: Intercurrent Mortality – Male Rats
+L230: Week0 mg/kg/day (n=50)50 mg/kg/day (n=50)150 mg/kg/day (n=50)400 mg/kg/day (n=50)
+
+No. of DeathCum. %No. of DeathCum. %No. of DeathCum. %No. of DeathCum. %
+
+
+
+0 - 52----12.0012.00
+
+53 - 7824.0024.00410.00512.00
+
+79 - 91310.00718.00724.00726.00
+
+92 - 104826.00324.00330.00638.00
+
+Ter. Sac.3774.003876.003570.003162.00
+L231: * Cum. %: Cumulative percentage except for Ter. Sac.
+L232: Table 1B: Intercurrent Mortality - Female Rats
+L233: Week0 mg/kg/day (n=50)50 mg/kg/day (n=50)150 mg/kg/day (n=50)400 mg/kg/day (n=50)
+
+No. of DeathCum. %No. of DeathCum. %No. of DeathCum. %No. of DeathCum. %
+
+
+
+0 - 52--12.0012.00--
+
+53 - 7836.00410.00512.0024.00
+
+79 - 91822.00622.00318.00514.00
+
+92 - 104940.00940.00732.001034.00
+
+Ter. Sac.3060.003060.003468.003366.00
+L234: * Cum. %: Cumulative percentage except for Ter. Sac.
+L235: Table 2A: Intercurrent Mortality - Male Mice
+L236: Week0 mg/kg/day (n=70)150 mg/kg/day (n=70)400 mg/kg/day (n=70)1200 mg/kg/day (n=70)
+
+No. of DeathCum. %No. of DeathCum. %No. of DeathCum. %No. of DeathCum. %
+
+
+
+0 - 52--45.7157.1445.71
+
+53 - 7857.141222.861122.86918.57
+
+79 - 911021.43732.86530.00627.14
+
+92 - 1041137.141148.57841.431447.14
+
+Ter. Sac.4462.863651.434158.573752.86
+L237: * Cum. %: Cumulative percentage except for Ter. Sac.
+L238: Table 2B: Intercurrent Mortality – Female Mice
+L239: Week0 mg/kg/day (n=70)150 mg/kg/day (n=70)400 mg/kg/day (n=70)1200 mg/kg/day (n=70)
+
+No. of DeathCum. %No. of DeathCum. %No. of DeathCum. %No. of DeathCum. %
+
+
+
+0 - 5234.29710.0045.7145.71
+
+53 - 78714.291531.431020.001020.00
+
+79 - 911637.141045.71730.00730.00
+
+92 - 1041558.571364.292058.571145.71
+
+Ter. Sac.2941.432535.712941.433854.29
+L240: * Cum. %: Cumulative percentage except for Ter. Sac.
+L241: Table 3A: Intercurrent Mortality Comparison – Male Rats
+L242: TestStatisticP-Value
+
+
+
+Dose-ResponseLikelihood Ratio0.0793
+
+HomogeneityLog-Rank0.3339
+L243: Table 3B: Intercurrent Mortality Comparison – Female Rats
+L244: TestStatisticP-Value
+
+
+
+Dose-ResponseLikelihood Ratio0.3734
+
+HomogeneityLog-Rank0.7659
+L245: Table 4A: Intercurrent Mortality Comparison – Male Mice
+L246: TestStatisticP-Value
+
+
+
+Dose-ResponseLikelihood Ratio0.5747
+
+HomogeneityLog-Rank0.4321
+L247: Table 4B: Intercurrent Mortality Comparison – Female Mice
+L248: TestStatisticP-Value
+
+
+
+Dose-ResponseLikelihood Ratio0.0710
+
+HomogeneityLog-Rank0.1387
+L249: Table 5A: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons – Male Rats
+L250: Organ NameTumor Name050150400Dose ResponseP-Value
+
+mg/kg/dayCN=50mg/kg/dayLDN=50mg/kg/dayMDN=50mg/kg/dayHDN=50C vs. LDC vs. MDC vs. HD
+
+
+
+ADRENALAdenoma: cortical43200.97630.48760.64010.9267
+
+Benign pheochromocyt02130.06750.24180.48310.1006
+
+Carcinoma: cortical00200.4740.0.2306.
+
+Ganglioneuroma00010.2343..0.4713
+
+C CORTICAL ADEN+CAR43400.95820.48760.61770.9267
+
+BONE MISC.Osteosarcoma00010.2343..0.4713
+
+BRAINBenign granular cell20000.93200.74730.73570.7233
+
+Malignant astrocytom01000.48000.4945..
+
+Malignant granular c10000.73710.49450.48310.4713
+
+Malignant mixed glio00010.2343..0.4713
+
+EP D DYMISMesothelioma(B)10000.73710.49450.48310.4713
+
+FATLipoma20010.51910.74730.73570.4564
+
+HEARTMalignant schwannoma00010.2386..0.4773
+
+JEJUNUMBenign schwannoma00010.2343..0.4713
+
+Leiomyosarcoma10000.73710.49450.48310.4713
+
+KIDNEYLipoma00100.4800.0.4831.
+
+Papilloma: transito00100.4800.0.4831.
+
+Adenoma: hepatocellu32460.05630.48950.46190.1877
+
+LIVERAdenoma: alveolar/b22010.70090.68340.73570.4564
+
+LUNGCarcinoma: alveolar/10000.73300.48910.47780.4659
+
+C ALVEOLAR ADEN+CAR32010.80990.47920.86200.6384
+
+Hemangioma00110.1697.0.48310.4713
+
+MESENTERIC LNHemangioma12220.31880.49170.47440.4564
+
+Hemangiosarcoma12410.50240.49170.16000.7233
+
+MUSCLE MISC.Hemangiosarcoma00100.4800.0.4831.
+
+PANCREASAdenoma: acinar cell00020.0539..0.2192
+
+Adenoma: islet cell01210.29160.49450.23060.4713
+
+Carcinoma: islet cel11100.70960.74730.73570.4713
+
+C ISLET ADEN+CAR12310.51200.49170.28300.7233
+
+PARATHYROID GL.Adenoma01100.47400.49450.4831.
+
+PITUITARYAdenoma: pars distal131215210.01360.47540.35940.0484
+
+Adenoma: pars intern10210.33670.49450.47440.7233
+
+SALIV. GL. MANDIAdenoma01000.48000.4945..
+
+SK N MISC.Adenoma: basal cell12000.87780.49170.48310.4713
+
+Adenoma: sebaceous02000.73100.2418..
+
+Carcinoma: basal cel01000.48000.4945..
+
+Carcinoma: squamous20110.47800.74180.46630.4483
+
+Fibroma01010.29080.4945.0.4713
+
+Hemangioma00100.4800.0.4831.
+
+Keratoacanthoma102850.65460.98520.54050.8265
+
+Papilloma: squamous01120.10220.49450.48310.2192
+
+C BASAL ADEN+CAR13000.91590.30000.48310.4713
+
+C SQUAMOUS ADEN+CAR+123980.46040.98630.60390.6823
+
+SP NAL CORD CERBenign astrocytoma00010.2343..0.4713
+
+STOMACHCarcinoma: squamous00010.2343..0.4713
+
+Papilloma: squamous00010.2343..0.4713
+
+C SQUAMOUS ADEN+CAR00020.0539..0.2192
+L251: File Name: NDA207620Carcin.doc
+L252: Organ NameTumor Name0 mg/kg/dayCN=5050 mg/kg/dayLDN=50150 mg/kg/dayMDN=50400 mg/kg/dayHDN=50P-Value
+
+Dose ResponseC vs. LDC vs. MDC vs. HD
+
+
+
+SUBCU. TISSUEFibroma45630.62120.48580.32680.4351
+
+Fibrosarcoma10000.73710.49450.48310.4713
+
+Hemangiosarcoma12100.80700.49170.73570.4713
+
+Lipoma22210.64410.67500.65730.4483
+
+Malignant schwannoma21000.92740.48350.73010.7176
+
+SYSTEMICMalignant lymphoma12220.31540.50000.48310.4564
+
+TESTISAdenoma: interstitia13500.78440.30000.08670.4713
+
+THORAXMesothelioma(M)01000.48000.4945..
+
+THYMUSBenign thymoma23110.74400.48950.47440.4564
+
+Malignant thymoma01000.48000.4945..
+
+THYROIDAdenoma: C-cell79870.49070.35540.42440.5034
+
+Adenoma: follicular50130.45250.97050.88240.5765
+
+Carcinoma: C-cell11110.48290.74730.73570.7233
+
+Carcinoma: follicula01010.29080.4945.0.4713
+
+C C CELL ADEN+CAR810980.47710.35730.41860.4883
+
+C FOLLICULAR ADEN+CA51140.33370.89340.88240.4261
+
+TONGUEHemangiosarcoma00100.4800.0.4831.
+
+URINARY BLADDERCarcinoma: transito00010.2343..0.4713
+
+Combined OrganC Hemangio+Hemangiosarcoma361040.44680.23150.02550.4351
+L253: Table 5B: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons – Female Rats
+L254: Organ NameTumor Name0 mg/kg/dayCN=5050 mg/kg/dayLDN=50150 mg/kg/dayMDN=50400 mg/kg/dayHDN=50P-Value
+
+Dos ResponseC vs. LDC vs. MDC vs. HD
+
+
+
+ADRENALAdenoma: cortical42230.53680.65070.65070.5257
+
+Benign pheochromocyt00100.2632.0.5000.
+
+Carcinoma: cortical10100.63880.50000.75300.5172
+
+Ganglioneuroma00010.2632..0.5172
+
+C CORTICAL ADEN+CAR52330.64590.77370.63020.6688
+
+BONE MISC.Osteosarcoma01000.50880.5000..
+
+BRA NBenign granular cell10000.75440.50000.50000.5172
+
+Benign pineal gland00100.2632.0.5000.
+
+Malignant meningioma01000.50580.5059..
+
+Malignant oligodendr10000.75000.49410.49410.5114
+
+FATLipoma10100.63440.49410.74710.5114
+
+Liposarcoma01000.50880.5000..
+
+K DNEYCarcinoma: tubular c01010.32820.5000.0.5172
+
+Lipoma00010.2632..0.5172
+
+LIVERAdenoma: hepatocellu35350.35880.35630.66210.3964
+
+Carcinoma: hepatocel00010.2632..0.5172
+
+Hemangiosarcoma00010.2632..0.5172
+
+C HEPATOCELLULAR ADE35360.24260.35630.66210.2900
+
+LYMPH NODECarcinoma: metastasi10000.75000.49410.49410.5114
+
+MAMMARY GLANDAdenocarcinoma62620.85630.85180.60480.8807
+
+Adenoma10100.63880.50000.75300.5172
+
+Fibroadenoma13915190.03780.73040.38210.1537
+L255: File Name: NDA207620Carcin.doc
+L256: Organ NameTumor Name050150400P-Value
+
+mg/kg/dayCN=50mg/kg/dayLDN=50mg/kg/dayMDN=50mg/kg/dayHDN=50DosResponseC vs.LDC vs.MDC vs.HD
+
+
+
+C ADEN+CAR+FIBROADEN171020200.12670.89370.30180.3999
+
+MESENTERIC LNHemangioma00010.2632..0.5172
+
+Hemangiosarcoma01000.50880.5000..
+
+OVARYAdenoma: sertoliform10000.75440.50000.50000.5172
+
+Adenoma: tubulostrom12210.58100.50000.50000.2646
+
+Carcinoma: yolk sac10000.75000.49410.49410.5114
+
+PANCREASAdenoma: islet cell01010.32820.5000.0.5172
+
+PARATHYRO D GLAdenoma00010.2632..0.5172
+
+PITUITARYAdenoma: pars distal333232300.77500.55500.50000.6661
+
+Adenoma: pars interm00110.2018.0.50000.5227
+
+Carcinoma: pars dist10000.75000.49410.49410.5114
+
+Carcinoma: pars inte10000.75440.50000.50000.5172
+
+C DISTALIS ADEN+CAR343232300.78910.58110.52780.6919
+
+C INTERMEDIA ADEN+CA10110.41700.50000.75300.2704
+
+RECTUMFibroma01000.50880.5000..
+
+SKINAdenoma: basal cell00100.2616.0.5059.
+
+SK N MISC.Benign melanoma01000.50880.5000..
+
+Carcinoma: squamous10100.63880.50000.75300.5172
+
+Fibroma01100.51740.50000.5000.
+
+STOMACHLeiomyosarcoma00100.2616.0.5059.
+
+SUBCU. TISSUEFibroma00210.2170.0.24700.5172
+
+Lipoma00010.2632..0.5172
+
+Osteosarcoma10000.75440.50000.50000.5172
+
+SYSTEMICHistiocytic sarcoma10100.63580.49410.75290.5114
+
+Leukemia: granulocyt00100.2632.0.5000.
+
+Malignant lymphoma10100.63580.49410.75290.5114
+
+THYMUSBenign thymoma36560.30030.24140.35630.2779
+
+Hemangiosarcoma00010.2632..0.5172
+
+Malignant thymoma01000.50880.5000..
+
+THYRO DAdenoma: C-cell65470.35270.48300.63080.5358
+
+Adenoma: follicular10140.02500.49410.74710.1947
+
+Carcinoma: C-cell10200.66070.50000.50000.5172
+
+C CCELL ADEN+CAR75670.44450.60460.50000.4222
+
+UTERUSAdenocarcinoma: endometrial02210.46570.24700.25290.5172
+
+Adenoma: endometrial00110.1981.0.50000.5172
+
+Hemangiosarcoma00100.2616.0.5059.
+
+Malignant schwannoma10200.65640.49410.50870.5114
+
+Polyp: endometrial s19650.42450.0074*0.05480.1120
+
+Sarcoma: endometrial02000.76020.2470..
+
+C ENDOMETRIAL ADEN+C02320.26890.24700.12490.2646
+
+C POLYP SARCOMA ENDO111650.51530.0017*0.05480.1120
+
+Combined organC Hemangioma+Hemangiosarcoma01130.04950.50000.50590.1339
+L257: Table 6A: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons – Male Mice
+L258: Organ NameTumor Name01504001200P-Value
+L259: File Name: NDA207620Carcin.doc
+L260: mg/kg/dayCN=70mg/kg/dayLDN=70mg/kg/dayMDN=70mg/kg/dayHDN=70DosResponseC vs. LDC vs. MDC vs. HD
+
+
+
+ABDOMENHemangiosarcoma00010.25230.4828
+
+ADRENALAdenoma: subcapsular01120.11590.46900.46900.2309
+
+BONE MISC.Osteosarcoma10000.72850.46900.46900.4783
+
+CECUMAdenocarcinoma00110.1838.0.46900.4828
+
+DUODENUMAdenocarcinoma00100.2489.0.4690.
+
+Sarcoma (not otherwi00100.2477.0.4737.
+
+EARNeural crest tumor10000.72850.46900.46900.4783
+
+ESOPHAGUSPapilloma: squamous00100.2489.0.4690.
+
+EYECarcinoma (not other01000.48870.4690..
+
+FATCarcinoma (not other00010.2489..0.4783
+
+HARDERIAN GL.Adenoma141012110.60640.65420.46640.6007
+
+LEUMAdenocarcinoma10000.72850.46900.46900.4783
+
+JEJUNUMAdenocarcinoma00020.0645..0.2352
+
+KIDNEYAdenoma: tubular cel10210.36640.46900.45320.7346
+
+Carcinoma: tubular c01120.11570.46900.47370.2309
+
+Hemangiosarcoma00010.2489..0.4783
+
+C TUBULAR ADEN+CAR11330.14160.72030.27040.2836
+
+LARYNXPapilloma: squamous00100.2489.0.4690.
+
+LIVERAdenoma: hepatocellu141118120.54840.54200.18230.4894
+
+Carcinoma: hepatocel35400.96990.29110.44100.8614
+
+Hemangioma00100.2489.0.4690.
+
+Hemangiosarcoma44130.62120.58110.77700.4613
+
+C HEPATOCELLULAR ADE151519120.72660.45270.19920.5729
+
+LUNGAdenoma: alveolar/br1891480.94610.91250.65460.9614
+
+Carcinoma: alveolar/16121760.98010.59330.32240.9672
+
+Sarcoma (not otherwi01000.48870.4690..
+
+C ALVEOLAR ADEN+CAR281929130.98900.81910.33750.9878
+
+PITUITARYAdenoma: pars interm11100.72020.72030.72030.4783
+
+PREPUTIAL GLANDCarcinoma01000.48870.4690..
+
+PROSTATEAdenocarcinoma10000.72850.46900.46900.4783
+
+Adenoma01000.48870.4690..
+
+C ADEN+CAR11000.79640.72030.46900.4783
+
+SAL. GL. PAROTISarcoma (not otherwi10000.72850.46900.46900.4783
+
+SALIV. GL. MANDIMalignant myoepithel10000.72850.46900.46900.4783
+
+SEMINAL VESICLESarcoma (not otherwi00100.2477.0.4737.
+
+SKIN MISC.Carcinoma: squamous10010.43670.46900.46900.7300
+
+Papilloma: squamous00100.2489.0.4690.
+
+C SQUAMOUSE ADEN+CAR10110.38200.46900.72030.7300
+
+SPINAL CORD CERMalignant astrocytom10000.72850.46900.46900.4783
+
+SPLEENHemangiosarcoma03010.49810.1001.0.4783
+
+STOMACHAdenocarcinoma10100.60890.46900.72030.4783
+
+Carcinoma: squamous01010.30480.4690.0.4828
+
+Sarcoma (not otherwi10000.72850.46900.46900.4783
+
+C SEQUAMOUS ADEN+CAR11110.50380.72030.7203
+
+SUBCU. TISSUEFibrosarcoma10120.16560.46900.72030.4739
+
+Lipoma00010.2523..0.4828
+
+Malignant histiocyti00100.2489.0.4690.
+
+SYSTEMICHistiocytic sarcoma23540.24620.44990.19180.3073
+
+Malignant lymphoma1141060.71870.92270.43270.7941
+
+Mast cell tumor10010.44170.46900.46900.7346
+
+TESTISAdenoma: interstiti21330.22440.45320.44100.4586
+L261: Organ NameTumor Name01504001200P-Value
+
+mg/kg/dayCN=70mg/kg/dayLDN=70mg/kg/dayMDN=70mg/kg/dayHDN=70DosResponseC vs. LDC vs. MDC vs. HD
+
+
+
+THORAXHemangioma00010.2489..0.4783
+
+Mesothelioma(M)00010.2489..0.4783
+
+THYRO DAdenoma: follicular00020.0611..0.2265
+
+Carcinoma: follicula10100.60890.46900.72030.4783
+
+C FOLLICULAR ADEN+CA10120.16170.46900.7203
+
+TONGUEPapilloma: squamous00010.2489..0.4783
+
+URINARY BLADDERHemangiosarcoma10000.72850.46900.46900.4783
+
+Leiomyosarcoma00010.2489..0.4783
+L262: Table 6B: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons – Female Mice
+L263: Organ NameTumor Name01504001200P-Value
+
+mg/kg/dayCN=70mg/kg/dayLDN=70mg/kg/dayMDN=70mg/kg/dayHDN=70DosResponseC vs. LDC vs. MDC vs. HD
+
+
+
+ABDOMENHemangiosarcoma01000.51460.4700..
+
+ADRENALAdenoma: cortical10000.74150.46460.49520.5047
+
+Adenoma: spindle cel10110.41730.46460.74760.2523
+
+Adenoma: subcapsular01000.51710.4646..
+
+Benign pheochromocyt10010.46370.46460.49520.2570
+
+BONE MISC.Osteosarcoma01020.11890.4700.0.2570
+
+CLITORAL GLANDAdenocarcinoma01000.51460.4700..
+
+HARDERIAN GL.Adenocarcinoma11010.54850.72160.49520.2523
+
+Adenoma24430.48740.28340.33000.5089
+
+C ADEN+CAR35440.48180.28270.47880.5000
+
+HEARTSarcoma (not otherw00100.2634.0.4952.
+
+LIVERAdenoma: hepatocellu21010.64500.45460.74760.5071
+
+Hemangiosarcoma00100.2634.0.4952.
+
+LUNGAdenoma: alveolar/br112230.96860.98510.99250.9809
+
+Carcinoma: alveolar/53950.47980.57290.21680.3948
+
+C ALVEOLAR ADEN+CAR1651180.88880.98350.82700.9530
+
+MAMMARY GLANDAdenocarcinoma42000.99490.59260.93630.9410
+
+MESENTERIC LNHemangioma00100.2634.0.4952.
+
+MUSCLE MISC.Rhabdomyosarcoma00100.2634.0.4952.
+
+OVARYBenign luteoma21000.93860.44650.74760.7570
+
+Benign thecoma00100.2634.0.4952.
+
+Cystadenoma21420.47280.44650.34820.3160
+
+Hemangiosarcoma10000.74150.46460.49520.5047
+
+Leiomyoma01000.51710.4646..
+
+Malignant granulosa-01000.51710.4646..
+
+Malignant luteoma00100.2621.0.5000.
+
+C LUTEOMA Benign+Mal21100.88740.44650.50000.7570
+
+PARATHYROID GL.Adenoma10000.74150.46460.49520.5047
+
+PITUITARYAdenoma: pars distal43010.93270.44430.93870.8243
+
+Adenoma: pars intern11020.26010.72160.49520.5140
+
+Carcinoma: pars inte00010.2634..0.5047
+
+C INTERMEDIA ADEN+CA11030.10620.72160.49520.3231
+
+SK N MISC.Carcinoma: basal cel01000.51460.4700..
+
+Carcinoma: squamous11000.81750.71590.49520.5047
+L264: File Name: NDA207620Carcin.doc
+L265: Organ NameTumor Name01504001200Dose ResponseP-Value
+
+mg/kg/dayCN=70mg/kg/dayLDN=70mg/kg/dayMDN=70mg/kg/dayHDN=70C vs. LDC vs. MDC vs. HD
+
+
+
+SPLEENHemangiosarcoma12000.89990.44650.49520.5047
+
+STOMACHAdenoma10000.74150.46460.49520.5047
+
+Carcinoma: squamous00100.2634.0.4952.
+
+C SQUAMOUS ADEN+CAR10100.63620.46460.74760.5047
+
+SUBCU. TISSUEFibrosarcoma22000.96040.64450.74760.7570
+
+Hemangiosarcoma11010.46210.71590.49520.2570
+
+SYSTEMICHistiocytic sarcoma68250.73340.31570.85250.5000
+
+Malignant lymphoma161921200.33060.27160.23100.2943
+
+THORAXCarcinoma (not other00010.2634..0.5047
+
+THYRO DAdenoma: follicular01100.52180.46460.5000.
+
+UTERUSAdenocarcinoma: endo00100.2634.0.4952.
+
+Deciduum10010.45840.46460.49520.2523
+
+Hemangioma00100.2634.0.4952.
+
+Hemangiosarcoma20100.85050.71590.50000.7570
+
+Leiomyoma32140.26930.43260.68390.5208
+
+Leiomyosarcoma10220.19190.46460.49280.5071
+
+Polyp: endometrial s36540.57640.18730.35780.5208
+
+Sarcoma: endometrial02020.20720.2134.0.2523
+
+C ENDOMETRIAL ADEN+C36560.30060.18730.35780.2632
+
+VAGINAPolyp10100.63620.46460.74760.5047
+L266: Figure 1A: Kaplan-Meier Survival Functions for Male Rats
+L267: The figure is a Kaplan-Meier survival plot for male rats. The y-axis is labeled 'Survival Probability' and ranges from 0.0 to 1.0. The x-axis is labeled 'Time in week of death or sacrifice' and ranges from 0 to 100. There are four data series representing different dose groups: 0 (blue line), 50 (red line), 150 (green line), and 400 (brown line). All groups start at a survival probability of 1.0. The 0 mg/kg/day group maintains the highest survival probability, ending at approximately 0.75. The 50 mg/kg/day group ends at approximately 0.7. The 150 mg/kg/day group ends at approximately 0.65. The 400 mg/kg/day group shows the lowest survival probability, ending at approximately 0.6. Censored data points are indicated by '+' symbols on the curves.Kaplan-Meier Survival Functions for Male Rats plot showing survival probability over time for four dose groups (0, 50, 150, 400 mg/kg/day). The plot shows a step-wise decline in survival probability over time, with the 400 mg/kg/day group showing the lowest survival rate and the 0 mg/kg/day group showing the highest.
+L268: Note: dose group should be 0, 50, 150, or 400-mg/kg/day
+L269: Figure 1B: Kaplan-Meier Survival Functions for Female Rats
+L270: This Kaplan-Meier survival plot for female rats displays survival probability on the y-axis (0.0 to 1.0) against time in weeks on the x-axis (0 to 100). Four data series are shown: dose 0 (blue), dose 50 (red), dose 150 (green), and dose 400 (brown). All groups maintain high survival until approximately week 60. The 400 mg/kg/day group shows the highest survival at week 100 (~0.7), while the 50 mg/kg/day group shows the lowest (~0.6). Censored data points are marked with '+' at the end of each curve.Kaplan-Meier survival plot for female rats showing survival probability over time for four dose groups (0, 50, 150, 400 mg/kg/day).
+L271: Note: dose group should be 0, 50, 150, or 400-mg/kg/day
+L272: Figure 2A: Kaplan-Meier Survival Functions for Male Mice
+L273: This Kaplan-Meier survival plot for male mice displays survival probability on the y-axis (0.0 to 1.0) against time in weeks on the x-axis (0 to 100). Four data series are shown: dose 0 (blue), dose 150 (red), dose 400 (green), and dose 1200 (brown). Survival begins to decline around week 40. The 1200 mg/kg/day group shows the highest survival at week 100 (~0.65), while the 150 mg/kg/day group shows the lowest (~0.5). Censored data points are marked with '+' at the end of each curve.Kaplan-Meier survival plot for male mice showing survival probability over time for four dose groups (0, 150, 400, 1200 mg/kg/day).
+L274: Note: dose group should be 0, 150, 400, or 1200-mg/kg/day
+L275: Figure 2B: Kaplan-Meier Survival Functions for Female Mice
+L276: The figure is a Kaplan-Meier survival plot for female mice. The y-axis is labeled 'Survival Probability' and ranges from 0.0 to 1.0. The x-axis is labeled 'Time in week of death or sacrifice' and ranges from 0 to 100. There are four survival curves representing different dose groups: 0 (blue line), 150 (red line), 400 (green line), and 1200 (brown line). All curves start at a survival probability of 1.0 at week 0. The 1200 mg/kg/day dose group (brown line) shows the highest survival rate, remaining above 0.8 until week 100. The 400 mg/kg/day (green line) and 0 mg/kg/day (blue line) groups show intermediate survival rates, ending around 0.4-0.5 at week 100. The 150 mg/kg/day dose group (red line) shows the lowest survival rate, dropping to approximately 0.35 by week 100. Censored data points are indicated by '+' symbols on the curves.Kaplan-Meier Survival Functions for Female Mice plot showing survival probability over time for four dose groups (0, 150, 400, 1200 mg/kg/day).
+L277: Note: dose group should be 0, 150, 40, or 1200-mg/kg/day
+L278: 7 References
+L279: 1. Peto, R., M.C. Pike, N.E. Day, R.G. Gray, P.N. Lee, S. Parish, J. Peto, Richards, and J.Wahrendorf, "Guidelines for sample sensitive significance test for carcinogenic effects in long-term animal experiments", Long term and short term screening assays for carcinogens: A critical appraisal, International agency for research against cancer monographs, Annex to supplement, World Health Organization, Geneva, 311-426, 1980.
+2. Bailer AJ, Portier CJ (1988). "Effects of treatment-induced mortality and tumor-induced mortality on tests for carcinogenicity in small samples." Biometrics, 44, 417-431.
+3. Bieler, G. S. and Williams, R. L. (1993). "Ratio estimates, the delta method, and quantal response tests for increased carcinogenicity". Biometrics 49, 793-801.
+4. Tarone RE, "Test for trend in life table analysis", Biometrika 1975, 62: 679-82
+5. Lin K.K. and Rahman M.A., "Overall false positive rates in tests for linear trend in tumor incidence in animal carcinogenicity studies of new drugs", Journal of Biopharmaceutical Statistics, 8(1), 1-15, 1998.
+6. Haseman, J, "A re-examination of false-positive rates for carcinogenesis studies", Fundamental and Applied Toxicology, 3: 334-339, 1983.
+7. Guidance for Industry. Statistical Aspects of the Design, Analysis, and Interpretation of Chronic Rodent Carcinogenicity Studies of Pharmaceuticals (Draft Guidance). U.S. Department of Health and Human Services, Food and Drug Administration, Center for Drug Evaluation and Research (CDER), May 2001.
+L280: --EOF--
+L281: -----This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.-----
+L282: /s/-----
+L283: FENG ZHOU05/18/2015
+L284: KARL K LIN05/18/2015Concur with review
+L285: STATISTICS FILING CHECKLIST FOR A NEW NDA/BLA
+L286: NDA Number: 207620
+L287: Applicant: Novartis
+L288: Stamp Date: 12/17/2014
+L289: Drug Name: LCZ696
+L290: NDA/BLA Type: NDA
+L291: On initial overview of the NDA/BLA application for RTF:
+L292: Content ParameterYesNoNAComments
+
+
+
+1Index is sufficient to locate necessary reports, tables, data, etc.X
+
+2ISS, ISE, and complete study reports are available (including original protocols, subsequent amendments, etc.)X
+
+3Safety and efficacy were investigated for gender, racial, and geriatric subgroups investigated (if applicable).X
+
+4Data sets in EDR are accessible and do they conform to applicable guidances (e.g., existence of define.pdf file for data sets).X
+L293: IS THE STATISTICAL SECTION OF THE APPLICATION FILEABLE?   Yes
+L294: If the NDA/BLA is not fileable from the statistical perspective, state the reasons and provide comments to be sent to the Applicant.
+L295: Please identify and list any potential review issues to be forwarded to the Applicant for the 74-day letter.
+L296: Content Parameter (possible review concerns for 74-day letter)YesNoNAComment
+
+
+
+Designs utilized are appropriate for the indications requested.X
+
+Endpoints and methods of analysis are specified in the protocols/statistical analysis plans.X
+
+Interim analyses (if present) were pre-specified in the protocol and appropriate adjustments in significance level made. DSMB meeting minutes and data are available.X
+
+Appropriate references for novel statistical methodology (if present) are included.X
+
+Safety data organized to permit analyses across clinical trials in the NDA/BLA.X
+
+Investigation of effect of dropouts on statistical analyses as described by applicant appears adequate.X
+L297: File name: 5_Statistics Filing Checklist for a New NDA_BLA110207
+L298: STATISTICS FILING CHECKLIST FOR A NEW NDA/BLA
+L299: John Lawrence _____ 2/2/2015Reviewing Statistician _____ Date
+L300: Supervisor/Team Leader _____ Date
+L301: -----This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.-----
+L302: /s/-----
+L303: JOHN P LAWRENCE
+L304: 02/02/2015
+L305: HSIEN MING J HUNG
+L306: 02/03/2015

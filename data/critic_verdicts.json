@@ -1,0 +1,833 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "total_cost_usd": 0.1136,
+  "verdicts": [
+    {
+      "app_key": "BLA208471",
+      "drug": "Adlyxin",
+      "field_path": "pivotal_trials.0.phase",
+      "text": "Phase 3",
+      "n_citations": 1,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "The cited source text at lines 144-146 clearly shows 'EFC12626' followed by 'Phase 3,' which directly supports the extraction claim that pivotal_trials.0.phase is 'Phase 3'.",
+      "cost_usd": 0.00109
+    },
+    {
+      "app_key": "BLA208471",
+      "drug": "Adlyxin",
+      "field_path": "pivotal_trials.0.trial_name",
+      "text": "EFC12626",
+      "n_citations": 1,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "The trial name 'EFC12626' is directly stated in the FDA source document at line 183 as a section header and at line 184 in the study description, with full contextual support for the study design details.",
+      "cost_usd": 0.00112
+    },
+    {
+      "app_key": "BLA208471",
+      "drug": "Adlyxin",
+      "field_path": "pivotal_trials.0.design",
+      "text": "26-week, open-label, randomized, active-controlled, 3-arm parallel-group study comparing lixisenatide (20 mcg QD) to insulin glulisine QD and insulin glulisine TID in T2DM patients insufficiently cont",
+      "n_citations": 2,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "The extracted text accurately summarizes the study design with all key details (26-week, open-label, randomized, active-controlled, 3-arm parallel-group, lixisenatide 20 mcg QD vs insulin glulisine QD and TID, T2DM patients with insufficient control on insulin glargine ± metformin) directly supported by the cited sources.",
+      "cost_usd": 0.00165
+    },
+    {
+      "app_key": "BLA208471",
+      "drug": "Adlyxin",
+      "field_path": "pivotal_trials.0.endpoint",
+      "text": "Co-primary endpoints: change in HbA1c from baseline at Week 26 and change in body weight from baseline at Week 26 (non-inferiority margin 0.4%)",
+      "n_citations": 2,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "The extracted text accurately summarizes the co-primary endpoints and non-inferiority margin directly stated in line 361 and implied in line 363, with all substantive claims grounded in the source material.",
+      "cost_usd": 0.00157
+    },
+    {
+      "app_key": "BLA208471",
+      "drug": "Adlyxin",
+      "field_path": "pivotal_trials.0.n",
+      "text": "894 randomized (298 lixisenatide, 298 insulin glulisine QD, 298 insulin glulisine TID)",
+      "n_citations": 1,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "The extraction accurately reflects the randomization numbers (298 per group) and treatment group labels directly from Table 2 in the source document, with correct citation to line 373.",
+      "cost_usd": 0.0011
+    },
+    {
+      "app_key": "BLA208471",
+      "drug": "Adlyxin",
+      "field_path": "pivotal_trials.0.result",
+      "text": "Lixisenatide non-inferior to insulin glulisine QD and TID on HbA1c change (LS mean change -0.63 vs QD -0.57 vs TID -0.84; LS mean difference vs QD -0.06 [95% CI -0.176 to 0.061], vs TID 0.21 [95% CI 0",
+      "n_citations": 8,
+      "verdict": "fabricated",
+      "confidence": "high",
+      "issues": [
+        "Citation [3] claims to contain 95% CI values (-0.176 to 0.061) and (0.094 to 0.331), but the actual source line 386 shows only standard errors (0.061) and (0.060), not confidence intervals",
+        "Citation [4] claims to support the statement 'lixisenatide was significantly worse than insulin glulisine TID (p-value = 0.0005)', but the actual source line 383 contains only a partial sentence about noninferiority and makes no mention of p-values or statistical significance",
+        "Citation [5] claims body weight data from line 386, but the actual source shown is the HbA1c table with no body weight values visible",
+        "Citation [6] claims body weight difference data from line 386, but the actual source shown is the HbA1c table with no body weight difference values visible",
+        "Citation [7] claims 95% CI for body weight differences from line 386, but the actual source shown is the HbA1c table with no such data",
+        "Citation [8] claims to support superiority and p<0.0001 statement, but actual source line 383 contains only discussion of noninferiority with truncated text",
+        "The extracted text contains specific 95% confidence intervals and p-values that are not present in any of the provided source lines"
+      ],
+      "reason": "Multiple critical claims lack source support: confidence intervals are invented (sources show only SEs), p-value of 0.0005 is not found in cited location, body weight data is cited from wrong table section, and statistical significance claims are unsupported by the actual source text.",
+      "cost_usd": 0.00513
+    },
+    {
+      "app_key": "BLA208471",
+      "drug": "Adlyxin",
+      "field_path": "pivotal_trials.1.phase",
+      "text": "Phase 3 (Monotherapy placebo-controlled efficacy study)",
+      "n_citations": 1,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "The citation correctly identifies section 14.1 'Monotherapy' and the source text explicitly describes a 12-week double-blind study comparing ADLYXIN to placebo in monotherapy patients with type 2 diabetes, which matches the claimed 'Phase 3 (Monotherapy placebo-controlled efficacy study)'.",
+      "cost_usd": 0.00118
+    },
+    {
+      "app_key": "BLA208471",
+      "drug": "Adlyxin",
+      "field_path": "pivotal_trials.1.trial_name",
+      "text": "Monotherapy placebo-controlled study (24-week)",
+      "n_citations": 1,
+      "verdict": "fabricated",
+      "confidence": "high",
+      "issues": [
+        "The cited source text does not mention a '24-week' duration for any monotherapy study",
+        "The cited source text does not specify 'placebo-controlled' as the design descriptor for monotherapy trials",
+        "The source only states monotherapy was studied and compared with placebo, exenatide, and insulin glulisine—it does not characterize any single trial as a '24-week monotherapy placebo-controlled study'",
+        "The extraction conflates general statements about study types with a specific trial name/descriptor that is not supported by the provided lines"
+      ],
+      "reason": "The drug card field claims a specific pivotal trial called 'Monotherapy placebo-controlled study (24-week)' but the citation only establishes that monotherapy was studied and that efficacy was compared to placebo; neither the 24-week duration nor this specific trial characterization appears in the source text.",
+      "cost_usd": 0.00181
+    },
+    {
+      "app_key": "BLA208471",
+      "drug": "Adlyxin",
+      "field_path": "pivotal_trials.1.design",
+      "text": "Randomized, placebo-controlled study of ADLYXIN 20 mcg as monotherapy in adults with type 2 diabetes",
+      "n_citations": 1,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "The cited source explicitly states ADLYXIN was studied as monotherapy and efficacy was compared with placebo, directly supporting both the design description and the monotherapy claim in the field text.",
+      "cost_usd": 0.00103
+    },
+    {
+      "app_key": "BLA208471",
+      "drug": "Adlyxin",
+      "field_path": "pivotal_trials.1.endpoint",
+      "text": "Change in HbA1c from baseline",
+      "n_citations": 1,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "The claimed text 'Change in HbA1c from baseline' is directly and explicitly supported by the cited source line 350, which states 'The primary efficacy endpoint in the Phase 3 efficacy studies (except Study EFC10780) was the change from baseline in HbA1c at the end of the main treatment period.'",
+      "cost_usd": 0.00121
+    },
+    {
+      "app_key": "BLA208471",
+      "drug": "Adlyxin",
+      "field_path": "pivotal_trials.1.n",
+      "text": "241 (placebo N=122, ADLYXIN 20 mcg N=119)",
+      "n_citations": 1,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "The extraction text 'Placebo (N=122), ADLYXIN 20 mcg (N=119)' is directly supported by line 223, which contains exactly these sample sizes in the same order and context.",
+      "cost_usd": 0.00117
+    },
+    {
+      "app_key": "BLA208471",
+      "drug": "Adlyxin",
+      "field_path": "pivotal_trials.1.result",
+      "text": "HbA1c LS mean change from baseline -0.83 (ADLYXIN) vs -0.18 (placebo); difference from placebo -0.65 (95% CI -0.903, -0.399), p<0.0001; 44% vs 24% achieved HbA1c <7.0%",
+      "n_citations": 4,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "All numeric values, statistical measures, and study outcomes in the drug card text are directly present in and accurately extracted from Table 3 of the FDA source document at line 223.",
+      "cost_usd": 0.00194
+    },
+    {
+      "app_key": "BLA208471",
+      "drug": "Adlyxin",
+      "field_path": "pivotal_trials.2.phase",
+      "text": "Phase 3 cardiovascular outcomes trial (ELIXA)",
+      "n_citations": 1,
+      "verdict": "fabricated",
+      "confidence": "high",
+      "issues": [
+        "The cited source line 46 does NOT contain the quoted text '14.6 ELIXA Cardiovascular Outcome'",
+        "Line 46 shows sections 14.1-14.5 only; the text cuts off mid-sentence with '14.5 Add on to'",
+        "No mention of 'ELIXA' appears in the actual source lines 45-47 provided",
+        "The extraction claims a quote that is completely absent from the cited passage"
+      ],
+      "reason": "The extraction cites a non-existent quote from the source document; line 46 does not contain '14.6 ELIXA Cardiovascular Outcome' and ELIXA is not mentioned anywhere in the provided source material.",
+      "cost_usd": 0.00167
+    },
+    {
+      "app_key": "BLA208471",
+      "drug": "Adlyxin",
+      "field_path": "pivotal_trials.2.trial_name",
+      "text": "ELIXA",
+      "n_citations": 1,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "The field text 'ELIXA' is a trial name that appears directly in the cited source line 18, which explicitly states 'The cardiovascular safety of liraglutide was evaluated based on the final results of the ELIXA trial.'",
+      "cost_usd": 0.00114
+    },
+    {
+      "app_key": "BLA208471",
+      "drug": "Adlyxin",
+      "field_path": "pivotal_trials.2.design",
+      "text": "Multinational, randomized, double-blind, placebo-controlled trial comparing lixisenatide to placebo added to standard of care in type 2 diabetic patients who had a cardiovascular event within 180 days",
+      "n_citations": 3,
+      "verdict": "fabricated",
+      "confidence": "high",
+      "issues": [
+        "The drug card claims the trial compared 'lixisenatide' but all three citations consistently state the drug tested was 'liraglutide' — these are different drugs",
+        "Citation [1] explicitly states 'liraglutide' not 'lixisenatide'",
+        "The source text on line 28 mentions 'liraglutide' in the context of the ELIXA trial",
+        "No source line provided contains the word 'lixisenatide' at all"
+      ],
+      "reason": "The extracted text describes a trial of lixisenatide, but all cited sources document a trial of liraglutide (ELIXA trial), indicating either a hallucinated drug substitution or a fundamental misidentification of which drug's trial is being described.",
+      "cost_usd": 0.00235
+    },
+    {
+      "app_key": "BLA208471",
+      "drug": "Adlyxin",
+      "field_path": "pivotal_trials.2.endpoint",
+      "text": "Time to first MACE+ (CV death, non-fatal MI, non-fatal ischemic stroke, hospitalization for unstable angina); objective to rule out an excess hazard ratio of 1.3",
+      "n_citations": 2,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "All substantive elements of the field text are directly supported by the citations: the MACE+ endpoint definition (CV death, non-fatal MI, non-fatal ischemic stroke, hospitalization for unstable angina) is confirmed in citation [1] line 80, and the objective to rule out an excess hazard ratio of 1.3 is confirmed in citation [2] line 29.",
+      "cost_usd": 0.00166
+    },
+    {
+      "app_key": "BLA208471",
+      "drug": "Adlyxin",
+      "field_path": "pivotal_trials.2.n",
+      "text": "6068 randomized",
+      "n_citations": 1,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "The claim '6068 randomized' is directly supported by line 21 which explicitly states 'In the 6068 randomized subjects' and line 20 which confirms 'Of the 6068 randomized subjects'; the numeric value and 'randomized' descriptor are both present in the source material.",
+      "cost_usd": 0.00126
+    },
+    {
+      "app_key": "BLA208471",
+      "drug": "Adlyxin",
+      "field_path": "pivotal_trials.2.result",
+      "text": "Primary CV endpoint HR 1.02 (95% CI 0.89, 1.17); 406 events (13.4%) lixisenatide vs 399 events (13.2%) placebo; upper bound 1.17 < 1.3, ruling out excess CV risk",
+      "n_citations": 4,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "All numerical values (HR 1.02, CI 0.89–1.17, event counts 406/13.4% vs 399/13.2%, upper bound 1.17 < 1.3) are directly present in the cited source lines, and the interpretation regarding CV risk ruling out is explicitly supported by line 125.",
+      "cost_usd": 0.00202
+    },
+    {
+      "app_key": "BLA208471",
+      "drug": "Adlyxin",
+      "field_path": "indication",
+      "text": "ADLYXIN is a glucagon-like peptide-1 (GLP-1) receptor agonist indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. Not indicated for type 1",
+      "n_citations": 2,
+      "verdict": "fabricated",
+      "confidence": "high",
+      "issues": [
+        "Citation [2] does not support the claim 'Not indicated for type 1 diabetes or diabetic ketoacidosis.' The actual source at line 61 discusses pancreatitis and states 'ADLYXIN is not a substitute for insulin' but is truncated mid-sentence and does not contain the quoted text about type 1 diabetes or diabetic ketoacidosis.",
+        "The phrase 'ADLYXIN is not indicated for use in patients with type 1 diabetes mellitus or for treatment of diabetic ketoacidosis' does not appear in the provided source lines 60-62.",
+        "The extraction appears to have fabricated or sourced from an unlisted/unverified location the statement about type 1 diabetes and diabetic ketoacidosis contraindications."
+      ],
+      "reason": "Citation [2] fails to provide the actual text claimed; the source material shown does not contain the statement about type 1 diabetes or diabetic ketoacidosis contraindications.",
+      "cost_usd": 0.00213
+    },
+    {
+      "app_key": "BLA208471",
+      "drug": "Adlyxin",
+      "field_path": "key_safety",
+      "text": "Most common adverse reactions (≥5%): nausea, vomiting, headache, diarrhea, dizziness, and hypoglycemia. Warnings and precautions: anaphylaxis and serious hypersensitivity reactions; pancreatitis (21 v",
+      "n_citations": 4,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "All substantive claims in the drug card text are directly supported by the cited FDA source lines: adverse reactions list matches [1], warnings/precautions sections are listed in [2], pancreatitis case numbers (21 vs 14) are confirmed in [3], and contraindication language is verified in [4].",
+      "cost_usd": 0.00193
+    },
+    {
+      "app_key": "BLA208471",
+      "drug": "Adlyxin",
+      "field_path": "target_moa",
+      "text": "Lixisenatide is a GLP-1 receptor agonist; it increases glucose-dependent insulin release, decreases glucagon secretion, and slows gastric emptying.",
+      "n_citations": 1,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "The drug card text is a direct paraphrase of the FDA source document line 167, with all substantive claims (GLP-1 agonist, glucose-dependent insulin release, glucagon secretion decrease, gastric emptying slowing) explicitly present and faithfully represented.",
+      "cost_usd": 0.00111
+    },
+    {
+      "app_key": "BLA208471",
+      "drug": "Adlyxin",
+      "field_path": "modality",
+      "text": "peptide (44-amino-acid GLP-1 receptor agonist peptide, amidated at C-terminus; MW 4858.5)",
+      "n_citations": 2,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "All components of the modality field text are directly supported by the FDA source document: 44-amino-acid peptide, GLP-1 receptor agonist, C-terminal amidation, and MW 4858.5 are all explicitly stated in the cited lines.",
+      "cost_usd": 0.00144
+    },
+    {
+      "app_key": "NDA206488",
+      "drug": "Exondys 51",
+      "field_path": "pivotal_trials.0.phase",
+      "text": "Phase 2 (double-blind, placebo-controlled, 24 weeks; Study 1) followed by open-label extension (Study 2)",
+      "n_citations": 1,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "The field text accurately summarizes the trial design found in the citation: Study 1 was phase 2, double-blind, placebo-controlled, and lasted 24 weeks, followed by an open-label extension (Study 2), all explicitly stated in line 50.",
+      "cost_usd": 0.00129
+    },
+    {
+      "app_key": "NDA206488",
+      "drug": "Exondys 51",
+      "field_path": "pivotal_trials.0.trial_name",
+      "text": "Study 1 / Study 2 (Study 201/202)",
+      "n_citations": 2,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "The drug card text 'Study 1 / Study 2 (Study 201/202)' is directly supported by both citations: citation [1] establishes Study 1 and Study 2 as the pivotal trials, and citation [2] identifies the controlled clinical study as Study 201/202, making the parenthetical reference accurate.",
+      "cost_usd": 0.00162
+    },
+    {
+      "app_key": "NDA206488",
+      "drug": "Exondys 51",
+      "field_path": "pivotal_trials.0.design",
+      "text": "12 patients randomized to weekly IV infusions of EXONDYS 51 (30 mg/kg, n=4; 50 mg/kg, n=4) or placebo (n=4) for 24 weeks; all 12 continued open-label EXONDYS 51 weekly for up to 208 weeks in Study 2.",
+      "n_citations": 3,
+      "verdict": "numeric_mismatch",
+      "confidence": "high",
+      "issues": [
+        "The field text claims '30 mg/kg, n=4; 50 mg/kg, n=4' (8 patients total on active drug) but citation [1] line 50 states 'EXONDYS 51 (n=8)' which is supported, yet the breakdown by dose is only found in citation [2] line 124 and source line 51. The text correctly reflects the dose breakdown from line 124, but there is an internal inconsistency with how citation [1] presents the data (n=8 combined vs. the n=4/n=4 split).",
+        "Citation [3] states the quote is at line 50, but the actual text at line 50 is incomplete ('All 12 patients continued in St...') and does not contain the phrase '208 weeks' anywhere in lines 49-51. The '208 weeks' claim appears to be inferred or unsupported by the provided source excerpts."
+      ],
+      "reason": "The critical phrase '208 weeks' in the field text cannot be verified from the provided source lines 49-51 for citation [3], and line 50 is truncated mid-sentence, making the attribution unreliable.",
+      "cost_usd": 0.00308
+    },
+    {
+      "app_key": "NDA206488",
+      "drug": "Exondys 51",
+      "field_path": "pivotal_trials.0.endpoint",
+      "text": "Primary endpoint was dystrophin production (dystrophin protein in skeletal muscle); 6-minute walk test (6MWT) also assessed as clinical outcome.",
+      "n_citations": 2,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "The extracted text accurately summarizes the primary endpoint (dystrophin production in skeletal muscle) and secondary outcome (6MWT) from the cited sources, with both quotes directly matching the key claims.",
+      "cost_usd": 0.00144
+    },
+    {
+      "app_key": "NDA206488",
+      "drug": "Exondys 51",
+      "field_path": "pivotal_trials.0.n",
+      "text": "12",
+      "n_citations": 1,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "The field value '12' is directly supported by the source text at line 50, which explicitly states '12 patients were randomized' in Study 1, matching the extraction's cited quote verbatim.",
+      "cost_usd": 0.00117
+    },
+    {
+      "app_key": "NDA206488",
+      "drug": "Exondys 51",
+      "field_path": "pivotal_trials.0.result",
+      "text": "Accelerated approval based on increase in dystrophin in skeletal muscle. In Study 2, average dystrophin level after 180 weeks was 0.93% of normal. In Study 3, average dystrophin was 0.16% of normal be",
+      "n_citations": 8,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "All numerical claims and study results in the drug card text are accurately supported by the provided FDA source document citations with exact matches for Study 2 (0.93%), Study 3 baseline (0.16%), Study 3 post-treatment (0.44%), and median increase (0.1%), including the p-value (p=0.008).",
+      "cost_usd": 0.00309
+    },
+    {
+      "app_key": "NDA206488",
+      "drug": "Exondys 51",
+      "field_path": "indication",
+      "text": "EXONDYS 51 is indicated for the treatment of Duchenne muscular dystrophy (DMD) in patients who have a confirmed mutation of the DMD gene that is amenable to exon 51 skipping. Approved under accelerate",
+      "n_citations": 2,
+      "verdict": "overstated",
+      "confidence": "high",
+      "issues": [
+        "The drug card text states 'Approved under accelerated approval based on an increase in dystrophin in skeletal muscle' as a complete statement, but the actual source line 28 ends mid-sentence with 'observed in some' and continues on line 29, indicating the full basis for approval is incomplete in the extraction.",
+        "Citation [2] claims to quote 'This indication is approved under accelerated approval based on an increase in dystrophin in skeletal muscle observed in some patients treated with EXONDYS 51' but line 28 actually ends at 'observed in some' without the phrase 'patients treated with EXONDYS 51' appearing in the provided source lines 27-29."
+      ],
+      "reason": "The extracted text presents a complete statement about the accelerated approval basis, but the actual source material shows the sentence is truncated mid-line and continues beyond the provided excerpt, making the full qualifying language unclear and the citation incomplete.",
+      "cost_usd": 0.00207
+    },
+    {
+      "app_key": "NDA206488",
+      "drug": "Exondys 51",
+      "field_path": "key_safety",
+      "text": "Most common adverse reactions (incidence >=35% and higher than placebo) were balance disorder and vomiting. In long-term use (88 patients receiving >=30 mg/kg/week for up to 208 weeks), events reporte",
+      "n_citations": 3,
+      "verdict": "overstated",
+      "confidence": "high",
+      "issues": [
+        "The phrase 'long-term use (88 patients receiving >=30 mg/kg/week for up to 208 weeks)' is not explicitly stated as 'long-term use' in the source. Line 58 says 'In the 88 patients who received ≥30 mg/kg/week of EXONDYS 51 for up to 208 weeks in clinical studies' but does not label this as 'long-term use.'",
+        "The extracted text claims events 'occurred more frequently than on the same dose in Study 1' is accurate per line 58, but the field text omits this important qualifier and presents the list as if these are simply adverse events in that population, potentially overstating their significance without the comparative context.",
+        "Line 59 is cut off in the source citation—it ends with 'catheter site pain,' but the actual adverse event list in the field text continues with 'and upper respiratory tract infection.' While line 59 likely completes this, the provided source lines do not fully show the complete quoted phrase, creating uncertainty about whether all listed events are actually supported."
+      ],
+      "reason": "The core claims are grounded in the sources, but the framing as 'long-term use' lacks explicit source support, and the critical qualifier 'occurred more frequently than on the same dose in Study 1' is omitted from the field text, potentially overstating the clinical significance of the adverse events listed.",
+      "cost_usd": 0.00292
+    },
+    {
+      "app_key": "NDA206488",
+      "drug": "Exondys 51",
+      "field_path": "target_moa",
+      "text": "Eteplirsen is an antisense oligonucleotide designed to bind to exon 51 of dystrophin pre-mRNA, causing exclusion (skipping) of this exon during mRNA processing in patients with mutations amenable to e",
+      "n_citations": 3,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "All substantive claims in the text are directly supported by the three citations: binding to exon 51, exon exclusion/skipping, restoration of reading frame, and production of internally truncated functional dystrophin protein are all explicitly stated in the source lines.",
+      "cost_usd": 0.00156
+    },
+    {
+      "app_key": "NDA206488",
+      "drug": "Exondys 51",
+      "field_path": "modality",
+      "text": "Antisense oligonucleotide of the phosphorodiamidate morpholino oligomer (PMO) subclass",
+      "n_citations": 2,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "Citation [2] directly states 'Eteplirsen is an antisense oligonucleotide of the phosphorodiamidate morpholino oligomer (PMO) subclass' verbatim at line 79, fully supporting the field text.",
+      "cost_usd": 0.00137
+    },
+    {
+      "app_key": "BLA761025",
+      "drug": "Praxbind",
+      "field_path": "pivotal_trials.0.phase",
+      "text": "Phase 3 (case series)",
+      "n_citations": 1,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "The cited source line 173 explicitly contains the title 'A Phase III, Case Series Clinical Study of the Reversal of the Anticoagulant Effects of Dabigatran' which directly supports the extracted text 'Phase 3 (case series)'—the extraction accurately captures both the phase designation and study design from the official study title.",
+      "cost_usd": 0.00119
+    },
+    {
+      "app_key": "BLA761025",
+      "drug": "Praxbind",
+      "field_path": "pivotal_trials.0.trial_name",
+      "text": "RE-VERSE AD (Study 1321.3)",
+      "n_citations": 2,
+      "verdict": "fabricated",
+      "confidence": "high",
+      "issues": [
+        "The trial name in the drug card reads 'RE-VERSE AD' but the actual source documents never use this acronym or hyphenated form",
+        "The source text at line 173 shows the full title begins 'A Phase III, Case Series Clinical Study of the Reversal of the Anticoagulant Effects...' — there is no mention of 'RE-VERSE AD' anywhere in the provided excerpts",
+        "The extraction conflates Study 1321.3 with a trial name 'RE-VERSE AD' that does not appear in any of the cited source lines",
+        "The acronym 'RE-VERSE AD' appears to be a common name for this trial but is not supported by the specific FDA source documentation provided"
+      ],
+      "reason": "The drug card claim uses 'RE-VERSE AD' as the trial name, but this acronym/name does not appear anywhere in the actual source text excerpts provided; only 'Study 1321.3' and its formal title appear in the citations.",
+      "cost_usd": 0.00217
+    },
+    {
+      "app_key": "BLA761025",
+      "drug": "Praxbind",
+      "field_path": "pivotal_trials.0.design",
+      "text": "Open-label, multicenter, single-arm, uncontrolled, prospective observational safety and efficacy trial in dabigatran-treated patients with uncontrolled/life-threatening bleeding (Group A) or requiring",
+      "n_citations": 3,
+      "verdict": "overstated",
+      "confidence": "high",
+      "issues": [
+        "The text describes this as an 'observational study' but citation [1] explicitly calls it a 'Phase III, Case Series Clinical Study' — a case series is not an observational study in the epidemiological sense",
+        "The text claims 'uncontrolled' study design, but no source line uses this descriptor; citation [2] says 'nonrandomized, uncontrolled' but in reference to study methodology not as an official design classification",
+        "The phrase 'prospective observational' is partially supported by citation [2] ('ongoing prospective...observational') but that line is incomplete and appears mid-sentence, making the full context unclear",
+        "Citation [3] does not actually show the '2.5 g doses' breakdown — it only shows '5.0 g Idarucizumab' in the title; the two-dose administration detail is not present in any of the three provided source lines"
+      ],
+      "reason": "The extracted text mischaracterizes the trial design (Phase III Case Series, not observational study) and includes a dosing detail (two 2.5g doses) not found in any provided source line.",
+      "cost_usd": 0.00259
+    },
+    {
+      "app_key": "BLA761025",
+      "drug": "Praxbind",
+      "field_path": "pivotal_trials.0.endpoint",
+      "text": "Primary endpoint: maximum percentage reversal of dabigatran's anticoagulant effect (ECT or dTT) within the first 4 hours, measured by central laboratory.",
+      "n_citations": 1,
+      "verdict": "overstated",
+      "confidence": "high",
+      "issues": [
+        "The phrase 'maximum percentage reversal' appears in the drug card but the source only states 'maximum reversal' without the word 'percentage'",
+        "The drug card specifies the endpoint as measuring 'maximum percentage reversal' which implies a quantitative percentage metric, but the source document only mentions 'maximum reversal' without clarifying what metric or unit was used",
+        "The phrase 'measured by central laboratory' is not present in any of the provided source lines and cannot be verified from the citations given"
+      ],
+      "reason": "The source supports 'maximum reversal of ECT or dTT in the first 4 hours was the primary endpoint' but the drug card adds unsupported specifics ('percentage', 'measured by central laboratory') that go beyond what the citations demonstrate.",
+      "cost_usd": 0.00173
+    },
+    {
+      "app_key": "BLA761025",
+      "drug": "Praxbind",
+      "field_path": "pivotal_trials.0.n",
+      "text": "123 patients",
+      "n_citations": 2,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "Both citations directly support '123 patients': citation [1] states 'a total of 123 dabigatran-treated patients were administered idarucizumab' and citation [2] confirms 'The interim report contains data from 123 adult patients' with further detail that 'All of the 123 patients in this analysis received' the study drug.",
+      "cost_usd": 0.00151
+    },
+    {
+      "app_key": "BLA761025",
+      "drug": "Praxbind",
+      "field_path": "pivotal_trials.0.result",
+      "text": "Maximal reversal (100%) of dTT achieved in 39/40 (98%) of Group A and 26/28 (93%) of Group B; maximal reversal (100%) of ECT in 42/47 (89%) of Group A and 30/34 (88%) of Group B. dTT and ECT decreased",
+      "n_citations": 6,
+      "verdict": "fabricated",
+      "confidence": "high",
+      "issues": [
+        "All six citations point to section headers and figure captions that do NOT contain the specific numerical results claimed (39/40, 26/28, 42/47, 30/34, etc.)",
+        "Line 204 is truncated mid-sentence and contains only general methodological information about endpoints, not actual results data",
+        "The specific statistics (39/40 = 98%, 26/28 = 93%, 42/47 = 89%, 30/34 = 88%) do not appear in any of the provided source lines",
+        "Citation [5] claims a quote about '10-30 minutes' and '24 hours' sustained effect that does not appear in lines 203-205",
+        "Citation [6] points to a reference citation and figure caption (lines 317-319), not the actual data table or results section that would contain the claimed statistics",
+        "The extraction appears to have pulled data from figures or tables referenced in the document but not shown in the actual text at the cited line numbers"
+      ],
+      "reason": "The drug card text contains specific quantitative results that are completely absent from the provided source lines; all citations point to headers, figure captions, or reference citations rather than the actual data supporting these claims.",
+      "cost_usd": 0.00333
+    },
+    {
+      "app_key": "BLA761025",
+      "drug": "Praxbind",
+      "field_path": "indication",
+      "text": "PRAXBIND (idarucizumab) is indicated in patients treated with Pradaxa (dabigatran) when reversal of the anticoagulant effects of dabigatran is needed: for emergency surgery/urgent procedures, and in l",
+      "n_citations": 4,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "All substantive claims in the field text are directly supported by the cited FDA source lines with accurate quotations and proper attribution of the accelerated approval basis.",
+      "cost_usd": 0.00149
+    },
+    {
+      "app_key": "BLA761025",
+      "drug": "Praxbind",
+      "field_path": "key_safety",
+      "text": "Thromboembolic risk: reversing dabigatran exposes patients to thrombotic risk of underlying disease; in the RE-VERSE AD interim analysis, 5 of 123 patients reported thrombotic events. Re-elevation of ",
+      "n_citations": 6,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "All six citations accurately match the claimed text to specific lines in the FDA source document; the drug card summary faithfully represents the safety information without adding unsupported claims, overstatements, or numeric errors.",
+      "cost_usd": 0.00229
+    },
+    {
+      "app_key": "BLA761025",
+      "drug": "Praxbind",
+      "field_path": "target_moa",
+      "text": "Idarucizumab is a specific reversal agent for dabigatran: a humanized monoclonal antibody fragment (Fab) that binds dabigatran and its acylglucuronide metabolites with higher affinity than the binding",
+      "n_citations": 2,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "All substantive claims in the drug card text are directly supported by the provided FDA source citations with precise matching language and accurate representation of the mechanism of action and specificity to dabigatran.",
+      "cost_usd": 0.00133
+    },
+    {
+      "app_key": "BLA761025",
+      "drug": "Praxbind",
+      "field_path": "modality",
+      "text": "Humanized monoclonal antibody fragment (Fab)",
+      "n_citations": 2,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "The field text 'Humanized monoclonal antibody fragment (Fab)' is directly supported by both citations, which explicitly state this exact phrase in the context of describing the drug's structure.",
+      "cost_usd": 0.00113
+    },
+    {
+      "app_key": "NDA208065",
+      "drug": "Tagrisso",
+      "field_path": "pivotal_trials.0.phase",
+      "text": "Phase 2 (extension/expansion single-arm)",
+      "n_citations": 1,
+      "verdict": "overstated",
+      "confidence": "high",
+      "issues": [
+        "The claimed text says 'single-arm' but the source describes a 'Phase 1-2' study design with a dose escalation phase followed by an extension phase—not a single-arm design throughout",
+        "The source explicitly states this was a 'first-in-human Phase 1-2, open-label, multicenter study' with 355 patients, indicating the overall trial structure was not solely a Phase 2 single-arm study but included a Phase 1 component with dose escalation"
+      ],
+      "reason": "The drug card text oversimplifies and mischaracterizes the trial design by labeling it as 'Phase 2 (extension/expansion single-arm)' when the source clearly indicates it was a 'Phase 1-2' study with dose escalation followed by a phase 2 extension—a materially different study architecture.",
+      "cost_usd": 0.00188
+    },
+    {
+      "app_key": "NDA208065",
+      "drug": "Tagrisso",
+      "field_path": "pivotal_trials.0.trial_name",
+      "text": "AURA extension (D5160C00001) and AURA2 (D5160C00002) — labeled Study 1 and Study 2",
+      "n_citations": 3,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "All substantive claims in the field text are directly supported by the cited source lines: AURA extension and AURA2 are named in line 121, study numbers D5160C00001 and D5160C00002 appear in line 120, and the designation as 'Study 1 and Study 2' is a reasonable organizational label consistent with their presentation in the tables.",
+      "cost_usd": 0.00174
+    },
+    {
+      "app_key": "NDA208065",
+      "drug": "Tagrisso",
+      "field_path": "pivotal_trials.0.design",
+      "text": "Two multicenter, single-arm, open-label clinical trials in patients with metastatic EGFR T790M mutation-positive NSCLC who had progressed on prior systemic therapy including an EGFR TKI; all required ",
+      "n_citations": 2,
+      "verdict": "fabricated",
+      "confidence": "high",
+      "issues": [
+        "Citation [2] claims the quote includes 'received TAGRISSO 80 mg' but the actual source line 186 ends with 'All patients were required to have EGFR T790M' and does not contain the dose or medication administration information in the cited passage",
+        "The phrase 'once daily' appears in the drug card text but is not present in any of the provided source lines (185-187)",
+        "Citation [2] attributes 'detected by the cobas® EGFR mutation test and received TAGRISSO 80 mg' to line 186, but this text is not found in the actual source material shown"
+      ],
+      "reason": "The extraction combines fragments from line 186 with language not present in the provided source lines, particularly the dose '80 mg' and 'once daily' frequency, which cannot be verified from the citations provided.",
+      "cost_usd": 0.00225
+    },
+    {
+      "app_key": "NDA208065",
+      "drug": "Tagrisso",
+      "field_path": "pivotal_trials.0.endpoint",
+      "text": "Primary endpoint: objective response rate (ORR) by RECIST v1.1 as assessed by blinded independent central review (BICR); duration of response (DOR) secondary.",
+      "n_citations": 2,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "All substantive claims in the field text are directly supported by the cited source lines: ORR by RECIST v1.1 as assessed by BICR is confirmed in both citations, and DOR as secondary endpoint is explicitly mentioned in source line 171.",
+      "cost_usd": 0.00137
+    },
+    {
+      "app_key": "NDA208065",
+      "drug": "Tagrisso",
+      "field_path": "pivotal_trials.0.n",
+      "text": "411 (Study 1 N=201; Study 2 N=210)",
+      "n_citations": 3,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "The field text '411 (Study 1 N=201; Study 2 N=210)' is directly supported by Table 4 line 191, which explicitly shows Study 1 (N=201), Study 2 (N=210), and Overall (N=411); all numbers match exactly.",
+      "cost_usd": 0.00158
+    },
+    {
+      "app_key": "NDA208065",
+      "drug": "Tagrisso",
+      "field_path": "pivotal_trials.0.result",
+      "text": "Overall ORR 59% (95% CI 54, 64); Study 1 ORR 57% (50, 64); Study 2 ORR 61% (54, 68). In a separate dose-finding part of Study 1 (63 patients), BICR-confirmed ORR was 51% (32/63) with median duration o",
+      "n_citations": 5,
+      "verdict": "fabricated",
+      "confidence": "high",
+      "issues": [
+        "Citation [5] is incomplete: line 194 ends mid-sentence with 'median duration of' and line 195 jumps to section '## 16 HOW SUPPLIED/STORAGE AND HANDLING', making it impossible to verify that the median duration was actually 12.4 months from the provided source lines",
+        "The text claims 'median duration of response 12.4 months' but the actual source line 194 is truncated and does not show the complete statement with the 12.4 months figure"
+      ],
+      "reason": "The critical claim about '12.4 months' median duration of response cannot be verified from the provided source excerpt, which cuts off mid-sentence at line 194 with no continuation shown before jumping to an unrelated section header.",
+      "cost_usd": 0.00251
+    },
+    {
+      "app_key": "NDA208065",
+      "drug": "Tagrisso",
+      "field_path": "indication",
+      "text": "TAGRISSO is indicated for the treatment of patients with metastatic EGFR T790M mutation-positive non-small cell lung cancer (NSCLC), as detected by an FDA-approved test, who have progressed on or afte",
+      "n_citations": 2,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "All substantive claims in the drug card text are directly supported by the two cited passages: the indication for metastatic EGFR T790M mutation-positive NSCLC after TKI progression is quoted verbatim from L51, and the accelerated approval basis (tumor response rate and duration of response) is quoted verbatim from L52.",
+      "cost_usd": 0.00153
+    },
+    {
+      "app_key": "NDA208065",
+      "drug": "Tagrisso",
+      "field_path": "key_safety",
+      "text": "Most common (>20%) adverse reactions (all grades) were diarrhea (42%), rash (41%), dry skin (31%), and nail toxicity (25%). Warnings include Interstitial Lung Disease (ILD)/Pneumonitis (occurred in 3.",
+      "n_citations": 5,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "All numerical claims, adverse reaction percentages, warning conditions, and fatality rates in the field text are directly supported by the cited source lines with exact matches.",
+      "cost_usd": 0.00207
+    },
+    {
+      "app_key": "NDA208065",
+      "drug": "Tagrisso",
+      "field_path": "target_moa",
+      "text": "Osimertinib is a kinase inhibitor of EGFR that binds irreversibly to certain mutant forms of EGFR (T790M, L858R, and exon 19 deletion) at approximately 9-fold lower concentrations than wild-type; it i",
+      "n_citations": 2,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "The drug card text is a faithful synthesis of the two citations, combining the first citation's mechanism description (kinase inhibitor, irreversible binding to T790M/L858R/exon 19 deletion at 9-fold lower concentrations than wild-type) with the second citation's characterization (irreversible inhibitor of EGFRm and EGFR T790M mutations), with no unsupported claims, fabricated details, or numeric mismatches.",
+      "cost_usd": 0.00169
+    },
+    {
+      "app_key": "NDA208065",
+      "drug": "Tagrisso",
+      "field_path": "modality",
+      "text": "small molecule (oral kinase inhibitor; 80 mg orally once daily)",
+      "n_citations": 2,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "Both citations directly support the claimed text: citation [1] confirms 'kinase inhibitor' and citation [2] confirms '80 mg orally once daily'; the term 'small molecule' and 'oral' are reasonable inferences from the dosage form and are standard FDA language for this drug class.",
+      "cost_usd": 0.00122
+    },
+    {
+      "app_key": "NDA217388",
+      "drug": "Wainua",
+      "field_path": "pivotal_trials.0.phase",
+      "text": "Phase 3",
+      "n_citations": 1,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "The citation explicitly states 'one ongoing Phase 3 study (ION-682884-CS3 in hATTR-PN)' which directly supports the field value 'Phase 3' for the pivotal trial.",
+      "cost_usd": 0.0011
+    },
+    {
+      "app_key": "NDA217388",
+      "drug": "Wainua",
+      "field_path": "pivotal_trials.0.trial_name",
+      "text": "Study 1 / ION-682884-CS3 (NEURO-TTRansform)",
+      "n_citations": 2,
+      "verdict": "fabricated",
+      "confidence": "high",
+      "issues": [
+        "The trial name 'NEURO-TTRansform' does not appear in any of the cited source lines",
+        "Citation [1] only supports 'Study ION-682884-CS3' but the source text provides no mention of 'NEURO-TTRansform' as an alternate name or identifier",
+        "Citation [2] refers to 'Study 1' from a different document (fda1ba28) about WAINUA, which is a different drug/trial context and does not support the claim about ION-682884-CS3 or NEURO-TTRansform"
+      ],
+      "reason": "The extracted text claims the trial name is 'Study 1 / ION-682884-CS3 (NEURO-TTRansform)' but 'NEURO-TTRansform' appears nowhere in the provided source material, and Citation [2] conflates an unrelated Study 1 from a different drug context.",
+      "cost_usd": 0.00216
+    },
+    {
+      "app_key": "NDA217388",
+      "drug": "Wainua",
+      "field_path": "pivotal_trials.0.design",
+      "text": "Open-label, multinational study with an external placebo control (placebo cohort from inotersen Phase 3 study ISIS-420915-CS2); standard randomization 6:1 ratio; eplontersen 45 mg subcutaneous Q4W; 52",
+      "n_citations": 7,
+      "verdict": "fabricated",
+      "confidence": "high",
+      "issues": [
+        "Citations [1-4, 6-7] all point to lines 76-78 which show only a table header and partial table rows—no actual trial design details are visible in the source text provided",
+        "The source text at lines 76-78 is truncated and does not contain the specific claims about 'open-label', '6:1 randomization', '45 mg Q4W', '52 centers', or '16 countries'",
+        "Citation [5] (line 49) discusses Study ION-682884-CS3 and mentions external placebo from ISIS-420915-CS2, but the actual text does not contain quotes about 'standard randomization 6:1 ratio', 'open-label', or other design details claimed in the field",
+        "Line 50 provides subject counts (144 eplontersen, 24 inotersen, 60 external placebo) but this supports the design existed, not that the specific design details in the field text are present in the source",
+        "No source line shown actually contains the phrase 'Open-label, multinational study' or the complete design specification claimed in the field text"
+      ],
+      "reason": "The citations point to table fragments and truncated passages that do not visibly contain the detailed design claims (blinding status, randomization ratio, dosage regimen, center/country counts) asserted in the field text.",
+      "cost_usd": 0.00419
+    },
+    {
+      "app_key": "NDA217388",
+      "drug": "Wainua",
+      "field_path": "pivotal_trials.0.endpoint",
+      "text": "Two coprimary endpoints at Week 35: percent change from baseline in serum TTR concentration and change from baseline in mNIS+7 score. Key secondary endpoint: change from baseline in Norfolk QOL-DN tot",
+      "n_citations": 4,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "All substantive claims in the field text are directly supported by the citations: two coprimary endpoints (serum TTR and mNIS+7) at Week 35 are confirmed in citation [1], the specific endpoint descriptions match citations [2-3], and the Norfolk QOL-DN secondary endpoint is explicitly stated in citation [4].",
+      "cost_usd": 0.00204
+    },
+    {
+      "app_key": "NDA217388",
+      "drug": "Wainua",
+      "field_path": "pivotal_trials.0.n",
+      "text": "168 treated (144 eplontersen 45 mg Q4W, 24 inotersen prior to switch); 60 in external placebo group. Primary mNIS+7 analysis included 199 subjects (140 drug, 59 placebo).",
+      "n_citations": 3,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "All numeric claims (168 treated, 144 eplontersen, 24 inotersen, 60 placebo, 199 subjects in primary analysis, 140 drug, 59 placebo) are directly supported by the cited source lines with exact matches.",
+      "cost_usd": 0.00175
+    },
+    {
+      "app_key": "NDA217388",
+      "drug": "Wainua",
+      "field_path": "pivotal_trials.0.result",
+      "text": "mNIS+7 (Week 35): difference in LSM -9.01 (95% CI -13.48, -4.54), p<0.0001 (placebo declined ~9 points, eplontersen remained stable). Serum TTR: difference in LSM -66.43 (95% CI -71.39, -61.47), p<0.0",
+      "n_citations": 8,
+      "verdict": "numeric_mismatch",
+      "confidence": "high",
+      "issues": [
+        "Citation [5] claims '-81.20%' for eplontersen serum TTR change, but actual source line 233 shows '-81.98 (11.702)'—a 0.78 percentage point discrepancy",
+        "Citation [6] claims '-14.76%' for placebo serum TTR change, but actual source line 233 shows '-11.13 (' (incomplete but clearly not -14.76)",
+        "Citations [1], [2], [3] point to line 209 which only describes the analysis without providing the actual numerical values (-9.01, -13.48, -4.54, p<0.0001)—these appear to come from Table 13 referenced at line 210, not from line 209 itself",
+        "Citations [4], [7], [8] point to table headers/introductory text rather than the actual numerical results; the specific values appear to be in tables not shown in the provided source line excerpts"
+      ],
+      "reason": "Multiple numeric values in the extracted text do not match the source data provided; serum TTR percentages show clear discrepancies (-81.20 vs -81.98, -14.76 vs -11.13), and cited line numbers reference tables or incomplete sentences rather than the actual statistical results.",
+      "cost_usd": 0.00407
+    },
+    {
+      "app_key": "NDA217388",
+      "drug": "Wainua",
+      "field_path": "indication",
+      "text": "WAINUA is indicated for the treatment of the polyneuropathy of hereditary transthyretin-mediated amyloidosis in adults.",
+      "n_citations": 1,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "The extracted text is a verbatim match to line 44 of the FDA source document, which is the official indications statement for WAINUA.",
+      "cost_usd": 0.00094
+    },
+    {
+      "app_key": "NDA217388",
+      "drug": "Wainua",
+      "field_path": "key_safety",
+      "text": "Most common adverse reactions (>=9% of patients) were vitamin A decreased and vomiting. WAINUA treatment leads to a decrease in serum vitamin A levels; 95% of patients developed low vitamin A levels d",
+      "n_citations": 4,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "All substantive claims in the drug card text are directly supported by the FDA source documents with accurate quotes and proper attribution; no overstatement, fabrication, or numeric mismatches detected.",
+      "cost_usd": 0.00151
+    },
+    {
+      "app_key": "NDA217388",
+      "drug": "Wainua",
+      "field_path": "target_moa",
+      "text": "Eplontersen is a transthyretin (TTR)-directed antisense oligonucleotide that binds to TTR mRNA, causing degradation of mutant and wild-type TTR mRNA, resulting in reduction of serum TTR protein and TT",
+      "n_citations": 2,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "All substantive claims in the drug card text are directly supported by the cited FDA source passages: the MOA description matches citation [1] (with only minor rewording of 'transthyretin (TTR)-directed' vs 'antisense oligonucleotide-GalNAc conjugate that' which are complementary descriptions), and the 81% TTR reduction at Week 35 is explicitly stated in citation [2].",
+      "cost_usd": 0.00157
+    },
+    {
+      "app_key": "NDA217388",
+      "drug": "Wainua",
+      "field_path": "modality",
+      "text": "Antisense oligonucleotide (ASO), GalNAc-conjugated; administered subcutaneously 45 mg once monthly.",
+      "n_citations": 3,
+      "verdict": "supported",
+      "confidence": "high",
+      "issues": [],
+      "reason": "All substantive claims in the modality field are directly supported by the three citations: ASO designation from line 12, GalNAc-conjugate from line 110, subcutaneous administration and 45 mg monthly dosing from line 47.",
+      "cost_usd": 0.00132
+    }
+  ]
+}

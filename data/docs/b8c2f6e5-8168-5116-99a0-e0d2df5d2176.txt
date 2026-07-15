@@ -1,0 +1,1432 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+L2: **208610Orig1s000**
+L3: **208611Orig1s000**
+L4: **STATISTICAL REVIEW(S)**
+L5: FDA Seal/Logo
+L6: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L7: ## STATISTICAL REVIEW AND EVALUATIONCLINICAL STUDIES
+L8: **NDA#:** 208610 (oral) and 208611 (intravenous)
+
+**Proposed Drug Name:** BAXDELA™ (delafloxacin) 450 mg tablets and 300 mg intravenous
+
+**Indication(s):** Treatment of acute bacterial skin and skin structure infection (ABSSSI) caused by susceptible isolates of Gram-positive and Gram-negative organisms
+
+**Applicant:** Melinta Therapeutics
+
+**Date(s):** October 19, 2016 (Receipt Date)
+June 19, 2017 (PDUFA Goal Date)
+
+**Review Priority:** Priority
+
+**Biometrics Division:** Division of Biometrics IV
+
+**Statistical Reviewer:** Janelle K. Charles, PhD
+
+**Concurring Reviewers:** Karen Higgins, ScD
+Statistics Team Leader, DBIV
+Dionne Price, PhD
+Division Director, DBIV
+
+**Medical Division:** Division of Anti-Infective Products (DAIP)
+
+**Clinical Team:** Caroline Jjingo, MD, MPh
+Medical Reviewer, DAIP
+Thomas Smith, MD
+Medical Team Leader, DAIP
+
+**Project Manager:** Fariba Izadi, PharmD
+L9: **Keywords:** noninferiority, clinically evaluable population, subgroup analyses
+L10: ## Table of Contents
+L11: 1 EXECUTIVE SUMMARY	4
+2 INTRODUCTION	6
+2.1 OVERVIEW AND REGULATORY BACKGROUND	6
+2.2 DATA SOURCES	8
+3 STATISTICAL EVALUATION	9
+3.1 DATA AND ANALYSIS QUALITY	9
+3.2 EVALUATION OF EFFICACY	11
+3.2.1 Study Design and Endpoints	11
+3.2.2 Statistical Methodologies	17
+3.2.3 Patient Disposition, Demographic and Baseline Characteristics	22
+3.2.4 Results and Conclusions	34
+3.3 EVALUATION OF SAFETY	40
+3.3.1 Extent of Treatment Exposure	40
+3.3.2 Summaries of Treatment-Emergent Adverse Events	41
+4 FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	44
+4.1 AGE, SEX, RACE, AND GEOGRAPHIC REGION	44
+4.2 OTHER SPECIAL/SUBGROUP POPULATIONS	46
+4.2.1 Other Subgroup Analyses in ITT Population	46
+4.2.2 Subgroup Analyses in MITT Population	47
+5 SUMMARY AND CONCLUSIONS	54
+5.1 STATISTICAL ISSUES	54
+5.2 COLLECTIVE EVIDENCE	55
+5.3 CONCLUSIONS AND RECOMMENDATIONS	55
+5.4 LABELING RECOMMENDATIONS	55
+L12: ## LIST OF TABLES
+L13: Table 1 Primary Analysis Findings (Objective Clinical Response at 48 to 72 hours) – ITT Population	5
+Table 2 Summary of Trial Designs – Study 302 and Study 303	8
+Table 3 Applicant's Pre-specified Hierarchical Testing for Secondary Endpoints	18
+Table 4 Patient Disposition in Study 302 – ITT Population	22
+Table 5 Patient Disposition in Study 303 – ITT Population	23
+Table 6 Analysis Populations used in Efficacy Evaluation of Study 302 and Study 303	25
+Table 7 Demographic Characteristics – ITT Population	26
+Table 8 Infection Types and Location of Infections at Baseline – ITT Population	29
+Table 9 Systemic Signs of ABSSSI at Baseline – ITT Population	30
+Table 10 Use of Prior Therapy – ITT Population	30
+Table 11 Comorbid Conditions – ITT Population	31
+Table 12 Prior Surgical Procedures – ITT Population	32
+Table 13 Baseline Pathogen from Infection Site or Blood (at least 2% in either treatment group or proposed for label) – mITT Population	33
+Table 14 Objective Clinical Response at 48 to 72 hours (Primary Analysis) – ITT Population	35
+Table 15 Objective Clinical Response at EOT – ITT Population	36
+Table 16 Objective Clinical Response at 48 to 72 hours and EOT – MITT Population	37
+Table 17 Exploration of Reasons for Missing Data in Primary Analysis – ITT Population	37
+Table 18 Results of Sensitivity Analyses – ITT Population	38
+Table 19 Investigator-Assessed Response at Follow-up Visit – ITT and CE Populations	39
+Table 20 Objective Clinical Response at 48 to 72 hours by Age, Sex, Race, Region – ITT Population	45
+Table 21 Investigator-Assessed Response at Follow-Up by Region – ITT Population	45
+Table 22 Objective Clinical Response at 48 to 72 hours by BMI – ITT Population	48
+Table 23 Investigator-Assessed Response at LFU by BMI Category – ITT Population	48
+Table 24 Objective Response at 48 to 72 hours by Infection Type and Location of Infection – ITT Population	49
+Table 25 Objective Clinical Response at 48 to 72 hours by Comorbid Conditions – ITT Population	50
+Table 26 Objective Clinical Response at 48 to 72 hours by Prior Therapy Use – ITT Population	51
+Table 27 Objective Clinical Response Rates at 48 to 72 hours by Pathogen – MITT Population	52
+Table 28 Investigator-Assessed Success Rates at FU by Indicated Pathogen – MITT Population	53
+Table 29 Applicant's Proposed Table of Objective Response* at 48 to 72 hours for USPI	56
+Table 30 Applicant's Proposed Table of Investigator-Assessed Response at Follow-up	56
+L14: ## LIST OF FIGURES
+L15: Figure 1 Schematic of Study 302	14
+Figure 2 Schematic of Study 303	15
+Figure 3 Percent Reduction in Objective Response at 48 to 72 hours – ITT Population	35
+Figure 4 Distribution of Treatment Exposure Durations in Study 302 – Safety Analysis Population	41
+Figure 5 Distribution of Treatment Exposure Durations in Study 303 – Safety Analysis Population	41
+Figure 6 Treatment-Emergent Adverse Events Study 302 – Safety Analysis Population	42
+Figure 7 Treatment-Emergent Adverse Events Study 303 – Safety Analysis Population	42
+Figure 8 Forest Plot of Risk Difference for Diarrhea – Safety Analysis Population	43
+L16: ## 1 EXECUTIVE SUMMARY
+L17: This is a statistical review of New Drug Applications (NDA208610 and NDA208611), submitted by Melinta Therapeutics (hereafter referred to as the Applicant) for BAXDELA™ (delafoxacin) 450 mg oral tablets and 300 mg IV infusion, respectively. The proposed indication is for treatment of acute bacterial skin and skin structure infections (ABSSSIs) in adults caused by susceptible isolates of Gram-positive and Gram-negative organisms. The main objective of this review is to evaluate whether the efficacy findings from two similarly designed Phase 3 studies, Study 302 and Study 303, that are included in the submission support the indication sought by the Applicant. Additionally, this review provides recommendations for the US Prescribing Information (USPI) to be considered by the Division of Anti-Infective Products (DAIP) should delafoxacin be approved.
+L18: Study 302 and Study 303 are prospective, 1:1 randomized, double-blind, active-controlled clinical trials to investigate the efficacy and safety of delafoxacin compared to control (vancomycin plus aztreonam) in adults with ABSSSI. Study 302 evaluated the delafoxacin IV 300 mg formulation only, in 660 randomized patients (331 delafoxacin and 329 control) comprising the intent-to-treat (ITT population). Study 303 evaluated an IV to oral treatment regimen in 850 ITT patients (423 delafoxacin and 427 control). In this study, patients initiated therapy with IV delafoxacin 300 mg and after 6 doses (i.e. 3 days) switched to the oral 450 mg formulation; a 200 mg IV dose was to be studied in patients with severe renal disease but no such patients had been enrolled in the study. The planned treatment duration was 5 to 14 days for both studies.
+L19: The primary objective of these studies is to demonstrate that delafoxacin is non-inferior to control using a margin of 10% and based on a primary endpoint of objective clinical response, i.e., reduction in lesion size of at least 20%, at 48 to 72 hours. This endpoint is consistent with FDA ABSSSI Guidance1. For the primary analysis, a conclusion of noninferiority is made if the lower bound of the 2-sided 95% confidence interval (CI) for the difference in the objective clinical response rates (delafoxacin – control) exceeds -10%. In accordance with this guidance, limitations were placed on study enrollment to minimize the impact of certain factors on treatment effect estimation; namely, no more than 30% of ITT patients could have major cutaneous abscess and no more than 25% of ITT patients could have received 14 days of prior therapy (i.e. 1 dose of either a single, potentially effective, short-acting antimicrobial drug or other regimen) for the ABSSSI under study before study entry.
+L20: Both studies met the primary objective of demonstrating that delafoxacin is non-inferior to control; findings from the primary analyses of these studies are presented in Table 1. For Study 302, a lower clinical response rate is observed in delafoxacin patients (78.2%) compared to control patients (80.9%) with a treatment effect estimate of -2.6% and 95% CI (-8.8%, 3.6%). In Study 303, the observed clinical response rate is higher in delafoxacin patients (83.7%) compared to control patients (80.6%) with a treatment effect estimate of 3.1% and corresponding 95% CI (-2.0%, 8.3%). As shown in this table, the percentage of patients with missing primary
+L21: 1 Refer to FDA Guidance for Industry Acute Bacterial Skin and Skin Structure Infections: Developing Drugs for Treatment, finalized October 2013
+L22: outcome data, i.e. patients who did not have an efficacy evaluation within the first 3 days of study, appears somewhat high in both studies (approximately 7% in Study 302 and 5% in Study 303). Sensitivity analyses to assess the impact of missing data yields consistent findings with the primary analysis.
+L23: **Table 1 Primary Analysis Findings (Objective Clinical Response at 48 to 72 hours) – ITT Population**
+L24: Study 302	Study 303
+Delafoxacin	Delafoxacin
+IV
+N=331	Control
+N=329	IV/oral
+N=423	Control
+N=427
+Clinical Response, n (%)	259 (78.2)	266 (80.9)	354 (83.7)	344 (80.6)
+Clinical Failure*, n (%)	46 (13.9)	41 (12.4)	49 (11.6)	62 (14.5)
+Missing**, n (%)	26 (7.9)	22 (6.7)	20 (4.7)	21 (4.9)
+Difference1 (95% CI)	-2.6 (-8.8, 3.6)	3.1 (-2.0, 8.3)
+L25: 1Difference in clinical response rates, expressed as percentages, based on Miettinen and Nurminen without stratification.
+L26: * Response is classified as failure for any of the following reasons: &lt;20% reduction of ABSSSI lesion spread of erythema area as determined by digital measurements of the leading edge, administration of rescue antibacterial drug therapy or administration of non-study antibacterial drug therapy for treatment of ABSSSI before the primary efficacy assessment, need for unplanned surgical intervention except for limited bedside debridement and standard wound care before the primary endpoint assessment, or death by 74 hours after initiation of study drug.
+L27: ** Missing comprises patients who did not have a measurement reported at the primary evaluation time point; considered as failures in the primary analysis.
+L28: Source: Created by the statistical reviewer using dataset “adefx.pt” for respective study.
+L29: Analyses of the primary endpoint are also presented across various patient subgroups and for the microbiological ITT (MITT) population which contains all patients in the ITT population who had a baseline bacterial pathogen identified that is known to cause ABSSSI. Results from these analyses are generally consistent with the primary analysis findings. Additionally, similar findings as obtained in the primary analysis are observed from analyses of objective clinical response at end of treatment (EOT) and suggest sustained response at this later time point. For the ITT population, the estimated treatment difference at EOT is -3.0% with 95% CI (-7.5%, 1.5%) in Study 302 and the estimated treatment difference at EOT is 1.8%, 95% CI (-1.6%, 5.2%) in Study 303. These findings also provide supportive evidence for the efficacy of the oral formulation, which was mostly initiated after the primary endpoint evaluation in Study 303. Defer to clinical pharmacology review for assessment of exposure and other pharmacokinetic evaluations associated with the oral formulation.
+L30: A key secondary endpoint analyzed in this review is investigator-assessed response which is evaluated at follow-up visit occurring on Day 14 and at late follow-up visit occurring between Day 21 to 28. Response for this endpoint was defined in two ways in the study protocols; firstly as cure, i.e. complete resolution of signs and symptoms of ABSSSI, and secondly as success, i.e. cure or improvement in signs and symptoms with no additional therapy needed. Similar cure rates and success rates are observed across the delafoxacin and control arms for both studies. The cure rates at the follow-up visit are 52% v. 50.5% in Study 302 and 57.7% v. 59.7% in Study 303 for delafoxacin and control arms, respectively. Higher success rates at the follow-up visit are observed: 81.6% v. 83.3% in Study 302 and 87.2% v. 84.8% in Study 303 for delafoxacin and control arms, respectively. The Applicant proposes to include findings from analyses of the success response at this time point from the ITT as well as from the clinically evaluable
+L31: populations as part of the “Clinical Studies” Section in the USPI for delafoxacin. The clinically evaluable population comprises approximately 73% and 80% of the ITT population in Study 302 and Study 303, respectively. Defer to clinical review for which investigator-assessed response (cure or success) is most meaningful in describing the benefit of delafoxacin for treatment of ABSSSI in the USPI. However, it should be noted that interpretation of findings from the clinically evaluable population is problematic because patients have been excluded based on post-randomization factors, which might be influenced by treatment. As shown in this review, the resulting response rates from such analyses are substantially higher (at least 95% for each treatment arm) in this population than observed in the ITT population. While there were no notable imbalances between treatment arms in the various reasons for exclusion from the CE population, many of these reasons could be linked to failures (e.g. indeterminate response or received &lt; 4 doses and was a failure). Therefore, the response rates in the CE population could be artificially high and not overly informative.
+L32: Regarding safety, the most common treatment emerging adverse events reported in the studies are gastrointestinal in nature (i.e. diarrhea, nausea, and vomiting). Of note, there is a suggestion that there might be an increased risk of diarrhea with delafoxacin based on an exploratory analysis, in which a risk difference of 4.8% is obtained with corresponding 95% CI (2.5%, 7.1%). However, caution is advised in drawing definitive conclusions regarding the significance of this finding. The incidence of serious adverse events appears to be low across the studies and there were 4 deaths reported (1 in each treatment arm in Study 302 and 2 deaths in the control arm of Study 303).
+L33: In conclusion, the results of the analyses presented in this statistical review demonstrate that delafoxacin (IV 300 mg and 450 mg) is non-inferior to control and provide evidence to support the efficacy of delafoxacin for the treatment of ABSSSI in adults.
+L34: ## 2 INTRODUCTION
+L35: ## 2.1 Overview and Regulatory Background
+L36: This is a statistical review of the original 505(b)(1) New Drug Applications, NDA208610 and NDA208611, that were submitted by Melinta Therapeutics, also referred to as the Applicant, on October 19, 2016 for BAXDELA™ (delafoxacin) 450 mg oral tablets and 300 mg IV infusion, respectively. These applications were granted Qualified Infectious Disease Products designation on September 8, 2012 and Fast Track designation on December 18, 2012.
+L37: Delafoxacin is a novel investigational anionic fluoroquinolone antibiotic. The Applicant proposes delafoxacin to be indicated in adults for treatment of acute bacterial skin and skin structure infections (ABSSSIs) caused by susceptible isolates of the following Gram-positive organisms: *Staphylococcus aureus* [including methicillin-resistant (MRSA) and methicillin-susceptible (MSSA) isolates], *Staphylococcus haemolyticus*, *Staphylococcus lugdunensis*, *Streptococcus agalactiae*, *Streptococcus anginosus* Group, *Streptococcus pyogenes*, and *Enterococcus faecalis*, and by the following Gram-negative organisms: *Escherichia coli*,
+L38: *Enterobacter cloacae*, *Klebsiella pneumoniae*, and *Pseudomonas aeruginosa*. The proposed dosing is 1-hour infusion of 300 mg IV every 12 hours or one 450 mg oral tablet every 12 hours for 5 to 14 days.
+L39: The finalized FDA ABSSSI Guidance2 defines an ABSSSI as a bacterial infection of the skin with a lesion size area of at least 75 cm2. The guidance notes that this minimum area of 75 cm2 is chosen to select patients with acute bacterial skin infections for which a reliable control drug treatment effect can be estimated, given that most drugs for ABSSSI are studied using noninferiority (NI) designs. A NI margin of 10% for the primary endpoint of reduction in lesion size of 20% or greater at 48 to 72 hours after treatment is recommended in the guidance.
+L40: To support the efficacy and safety evaluation for delafloxacin, the Applicant submits findings from two Phase 3 randomized, double-blind, multicenter, active-controlled studies (RX-3341-303 and RX-3341-302, hereafter referred to as Study 302 and Study 303, respectively), which were reviewed under Special Protocol Agreements3. The studies are similar in design; however, Study 303 allowed for a switch from IV to oral delafloxacin and is somewhat larger than Study 302 to enrich for pre-specified subgroup analyses by body mass index; see Table 2. The primary objective of each study, which is consistent with the FDA ABSSSI Guidance, is to assess whether delafloxacin is non-inferior to control based on a margin of 10% for the primary endpoint of objective clinical response, i.e. reduction by 20% in lesion size, at 48 to 72 hours.
+L41: The submissions also include supportive information from two Phase 2 studies, RX-3341-201 and RX-3341-202, which investigated only the IV formulation of delafloxacin. Study RX-3341-201 was designed to explore the clinical efficacy of 2 dosing regimens of delafloxacin (300 mg IV or 450 mg IV), compared to that of tigecycline, in patients with complicated SSSI. In this study, approximately 150 adult patients were randomized, 50 patients per arm. The response rates at test-of-cure visit, i.e. 14 to 21 days after the final dose of study drug, were similar across all treatment arms and no statistical conclusions could be made. Study RX-3341-202 was an exploratory study to investigate the clinical efficacy of delafloxacin 300 mg IV, linezolid, and vancomycin, using the investigator's assessment of clinical response in patients with ABSSSI. A total of 256 adult patients were randomized in this study: 81 to delafloxacin, 77 to linezolid, and 98 to vancomycin. The response rates at test-of-cure visit, i.e. at Day 14, were similar in the delafloxacin and linezolid arms and a lower response rate was reported in the vancomycin arm; however, this was an exploratory study without hypothesis testing. Given the exploratory nature of these studies, this review focuses on the two pivotal Phase 3 studies.
+L42: The Applicant proposes to include findings from Study 302 and Study 303 into the “Clinical Studies” (Section 14) of the US Prescribing Information (USPI) to describe the efficacy of delafloxacin in the treatment of ABSSSI. This review investigates whether the findings from these studies support the proposed indication and provides recommendations for the USPI to be considered by the Division of Anti-Infective Products (DAIP) if the product is approved.
+L43: 2 Refer to FDA Guidance for Industry Acute Bacterial Skin and Skin Structure Infections: Developing Drugs for Treatment, finalized October 2013
+L44: 3 Refer to SPA agreement letters dated February 7, 2013 and July 1, 2015 for study RX-3341-302 and RX-3341-303, respectively.
+L45: Table 2 Summary of Trial Designs – Study 302 and Study 303
+L46: Protocol Number: Title	Planned Treatment Regimen
+ITT Patients	Study Endpoints
+Analysis
+RX-3341-302: A Phase 3, Multicenter, Randomized, Double-blind, Active-controlled Study to Evaluate the Efficacy and Safety of Delafoxacin Compared with Vancomycin + Aztreonam in Patients with Acute Skin and Skin Structure Infections	Delafoxacin 300 mg IV every 12 hours or vancomycin 15 mg/kg IV every 12 hours based on actual body weight. Patients randomly assigned to vancomycin were to receive initial vancomycin therapy in combination with aztreonam (2g every 12 hours).
+
+ITT Patients:
+Delafoxacin – 331
+Vancomycin+aztreonam – 329	Primary: Objective clinical response of \ge 20\% reduction in lesion erythema area compared to baseline at 48 - 72 hours after initiation of treatment. Analysis of difference in proportions to assess non-inferiority based on 10% margin in ITT patients.
+
+Key Secondary: Investigator-assessed response of signs and symptoms of infection at the follow-up visit on Day 14. This is one of 10 secondary clinical endpoints tested hierarchically for superiority, if noninferiority of delafoxacin was declared in the primary analysis.
+RX-3341-303: A Phase 3 Multicenter, Randomized, Double-blind, Active-controlled Study to Evaluate the Efficacy and Safety of IV and Oral Delafoxacin Compared With Vancomycin + Aztreonam in Patients With Acute Bacterial Skin and Skin Structure Infections	Delafoxacin (300 mg IV every 12 hours for 6 doses with a mandatory switch to delafoxacin 450 mg oral every 12 hours for the remaining doses in patients with CrCl>29 mL/min at screening or 200 mg IV every 12 hours for all doses in patients with CrCl of 15 to 29 mL/min at screening) or vancomycin 15 mg/kg IV every 12 hours for all doses based on actual body weight or as per local standard of care. All vancomycin patients received initial combination therapy with aztreonam (2 g every 12 hours for CrCl>29 mL/min at screening or 1 g every 12 hours for CrCl of 15 to 29 mL/min at screening).
+
+ITT Patients:
+Delafoxacin – 331
+Vancomycin+aztreonam – 329	Primary: same as above
+
+Key Secondary: Investigator-assessed response of signs and symptoms of infection in patients with a baseline BMI \ge 30 at the late follow-up visit, i.e. Day 21 to 28. This is one of 7 secondary clinical endpoints tested hierarchically for superiority, if noninferiority of delafoxacin was declared in the primary analysis.
+L47: CrCl=creatinine clearance, ITT=intent-to-treat
+L48: Source: Created by the statistical reviewer using clinical study reports for each study
+L49: ## 2.2 Data Sources
+L50: The NDA applications were submitted electronically and include full study reports as well as standardized datasets using SDTM and ADaM formats that are relevant for the analyses of Study 302 and Study 303 presented in this review. Datasets and corresponding definition files can be found at the following locations:
+L51: C:\CDSESUB1\evsprod\NDA208610\0001\m5\datasets\rx-3341-302
+C:\CDSESUB1\evsprod\NDA208610\0001\m5\datasets\rx-3341-303
+L52: For each study, the following datasets submitted by the Applicant are used in this statistical review:
+L53: - adsl.xpt contains the demographic data and disposition data
+- adeff.xpt contains the efficacy data of clinical responses
+- adobj.xpt contains the objective clinical response data
+- adcr.xpt contains the investigator-assessed clinical response data
+- adce.xpt contains prior surgical procedures and other clinical events
+- admb.xpt contains the microbiology data
+- adabs.xpt contains systemic signs and symptoms
+- adae.xpt contains the adverse event data.
+L54: Additionally, the following datasets are used to facilitate analyses requested by the clinical reviewer, Dr. Caroline Jjingo:
+L55: - A dataset provided by the clinical microbiology reviewer, Dr. Jalal Shiekh, for subgroup analyses of the primary endpoint by monomicrobial v. polymicrobial pathogens proposed by the Applicant for the USPI
+- A dataset provided by the pharmacometrics reviewer, Dr. Luning Zhuang, for subgroup analyses of the primary endpoint by renal function categories using estimated glomerular filtration rate (eGFR) calculated based on Modification of Diet in Renal Disease (MDRD) Study equation
+L56: The original protocol for Study 302 was dated March 5, 2013 and was amended twice; final version dated June 14, 2014. This final version is utilized in this statistical review as well as the Statistical Analysis Plan (SAP) dated July 28, 2014. The original protocol for Study 303 was dated October 14, 2013, which was amended four times with final version dated June 3, 2015. This final version is utilized in this statistical review as well as the SAP dated February 22, 2016.
+L57: The quality and integrity of the data included in the submission will be discussed in Section 3.1.
+L58: ## 3 STATISTICAL EVALUATION
+L59: ## 3.1 Data and Analysis Quality
+L60: The quality of the datasets and analyses conducted by the Applicant are acceptable. The data definition files and reviewer's guide submitted in the NDAs were sufficiently detailed to facilitate replication of the findings from the Applicant's primary analysis and other major analyses using the submitted datasets.
+L61: There are a few important concerns, summarized below and presented in more detail throughout this review, that need to be considered:
+L62: - **Missing data in the primary analysis:** The amount of missing data in both studies in the primary analysis, i.e., patients who do not have efficacy measurements reported for the primary time point (48 to 72 hours), prompted further exploration in this review. Approximately 7% of patients (7.9% delafoxacin compared to 6.7% control) and 5% of patients (4.7% delafoxacin compared to 4.9% control) are missing in the primary analysis of Study 302 and Study 303, respectively. Most of this missing data is due to patients who never received treatment in the study or were lost to follow-up. Sensitivity analyses performed by the reviewer to assess the effect of missing data yielded results that are generally consistent with the primary analysis.
+- **Findings from clinically evaluable analysis population:** For the USPI, the Applicant proposes to include findings based on the clinically evaluable analysis population, which comprises approximately 73% and 80% of the primary analysis population in Study 302 and Study 303, respectively. The reasons for exclusion of patients from the clinically evaluable population are defined in the study protocols, i.e. prior to study unblinding. However, these exclusions are based on post-randomization factors which might be influenced by treatment. As shown in this review, analyses in the clinically evaluable population results in substantially higher response rates (exceeding 95%) than observed in the ITT population. This poses challenges in interpreting findings from the clinically evaluable population; hence, they are not advised for inclusion in the label, should delafoxacin be approved for the indication sought.
+- **Conclusions from subgroup analyses:** Based on an exploratory subgroup analysis in Study 302, the Applicant concluded that there is a statistically significant better cure rate at Late Follow-Up visit, i.e. at Day 21 to 28 for delafoxacin compared to control in obese patients. Study 303 was enriched with obese patients to verify this hypothesis; however, as shown in Section 4.2.1, no such result was seen in this study. Therefore, the finding in Study 302 was likely a chance finding. This highlights the importance of verifying an extreme exploratory subgroup analysis finding.
+- **Limited information in studies for certain analyses:** There is insufficient information in the Phase 3 studies to adequately assess the efficacy of delafoxacin in patients with severe renal impairment or patients with end stage renal disease (ESRD). Furthermore, there are no patients treated in either of these studies with the 200 mg IV delafoxacin dose; which has been proposed for use in patients with severe renal impairment or patients with ESRD.
+L63: There were four sites selected for inspection; namely, sites 840-002 and 840-014 from Study 302 and sites 840-302 and 840-327 from Study 303. Two of these sites, 840-002 and 840-302, are located at the same address and are the highest enrolling sites in the respective studies; therefore, of interest to determine if any patients were enrolled at both sites as part of the site inspections. Preliminary findings from these site inspections indicate there were 8 patients enrolled in site
+L64: 840-002 who subsequently enrolled in site 840-302. Given that the enrollment periods were separated by at least one year for each patient, it does not appear that the repeated enrollment violates any protocol eligibility criteria, and additional analyses that exclude these patients do not change the overall conclusions of this statistical review
+L65: ## 3.2 Evaluation of Efficacy
+L66: This section presents the statistical evaluation of efficacy from the two pivotal Phase 3 studies, Study 302 and Study 303, submitted in the NDAs for delafloxacin. These studies were conducted to satisfy approval requirements for the FDA as well as the European Medicines Agencies (EMA). Therefore, study endpoints are defined and analyzed independently to meet the recommendations of the respective regulatory agency. This statistical review will focus only on the assessments performed to meet the FDA standards for approval; in particular, whether these studies have adequately demonstrated that delafloxacin is non-inferior to control based on an NI margin of 10% for the primary endpoint of at least 20% reduction in lesion size at 48-72 hours.
+L67: Refer to review by Dr. Caroline Jjingo for the clinical review of efficacy.
+L68: ## 3.2.1 Study Design and Endpoints
+L69: ## 3.2.1.1 Study Design
+L70: Study 302 and Study 303 are similarly designed studies, but for differences in treatment assignment, stratification factors at randomization, and sample sizes. These differences are distinguished in this review. Both studies are multicenter, randomized, double-blind, active-controlled studies to evaluate the efficacy and safety of delafloxacin compared to vancomycin + aztreonam in patients with ABSSSI. The studies were each conducted in three periods: a Screening Period, a Treatment Period, and a Follow-up Period. To be eligible for either study, patients must have had at least one of the following four types of infection (only the primary infection type was to be evaluated for study purposes):
+L71: - Cellulitis/erysipelas: A diffuse skin infection characterized by spreading areas of redness of a minimum surface area of 75 \text{ cm}^2
+- Wound infection: An infection characterized by purulent drainage from a traumatic or surgical wound with surrounding redness of a minimum surface area of 75 \text{ cm}^2
+- Major cutaneous abscess: An infection characterized by a collection of pus within the dermis or deeper that is accompanied by redness of minimum surface area of 75 \text{ cm}^2
+- Burn infection: An infection characterized by purulent drainage that is accompanied by redness of minimum surface area of 75 \text{ cm}^2
+L72: In addition, patients must have had at least two signs of systemic infection:
+L73: - Lymph node enlargement due to the present infection
+- Documented fever, i.e. \ge 38^{\circ}\text{C} or 100.4^{\circ}\text{F}, taken orally (or the equivalent value for the temperature recording method used)
+- Lymphangitis
+- Elevated white blood cells of \ge 10,000 cells/\mu\text{L} in the 48 hours prior to first dose of study drug
+- Elevated C-reactive protein (&gt;10 \times upper limit of normal [ULN]) in the 48 hours prior to first dose of study drug
+- Purulent or seropurulent drainage or discharge
+L74: There are 5 additional inclusion criteria provided in the protocols that are applicable to both studies as well as over 20 exclusion criteria relevant to each study.
+L75: Both studies used a 1:1 randomization ratio for allocating eligible patients to study treatments. The specific treatment assignments and randomization techniques for each study are described below.
+L76: ## Study Treatments and Randomization for Study 302
+L77: In Study 302, patients who met all study eligibility criteria were to be randomized in a 1:1 ratio to receive either:
+L78: - Delafoxacin IV: 300 mg IV delafoxacin dosed every 12 hours
+- Vancomycin + aztreonam (also referred to as the control arm): vancomycin 15 mg/kg IV every 12 hours based on actual body weight plus initial combination therapy with aztreonam (2g every 12 hours) administered by unblinded pharmacist or unblinded designee.
+L79: Patients randomized to the delafoxacin arm were to receive IV infusion of placebo instead of aztreonam. If a gram-negative organism was not identified from baseline cultures, the placebo/aztreonam was to be discontinued; otherwise, continued for the duration of dosing. To maintain the study blind, the IV infusion bag and tubing were to be masked so that the delafoxacin or vancomycin solutions would be indistinguishable.
+L80: Randomization was to be stratified by baseline infection type and Study 302 was designed such that no more than 25% of randomized patients had major cutaneous abscess, and no more than 35% of randomized patients had wound infections; there were no limits placed on the remaining two infection types. Additionally, no more than 25% of randomized patients were to have received 14 days of prior therapy (1 dose of either a single, potentially effective, short-acting antimicrobial drug or other regimen) for the ABSSSI under study before study entry.
+L81: ## Study Treatments and Randomization for Study 303
+L82: In Study 303, eligible patients were to be randomly assigned in a 1:1 ratio to 1 of 2 treatment arms as described below:
+L83: - Delafoxacin IV/oral: Patients with creatinine clearance (CrCl) greater than 29 mL/min at Screening were to receive delafoxacin 300 mg IV every 12 hours for 6 doses, followed by mandatory switch to delafoxacin 450 mg oral every 12 hours for an additional 4 to 22 doses. Patients with CrCl of 15 to 29 mL/min at Screening were to receive delafoxacin 200 mg IV every 12 hours for all doses.
+- Vancomycin + aztreonam (also referred to as the control arm): vancomycin 15 mg/kg IV every 12 hours for all doses based on actual body weight, or as per local standard of care plus initial combination therapy with aztreonam (patients with a CrCl greater than 29 mL/min at Screening were to receive 2 g every 12 hours; patients with a CrCl of 15 to 29 mL/min at Screening were to receive 1 g every 12 hours).
+L84: Patients in the delafoxacin treatment arm were to receive a blinded placebo infusion in place of the aztreonam. Due to the different routes of administration for doses 7 through 28 for delafoxacin and vancomycin, IV placebo and oral placebo was to be administered to the delafoxacin and vancomycin treatment arms, respectively, to maintain blinding for patients with a CrCl greater than 29 mL/min at Screening. No oral placebo was to be administered for patients with a CrCl of 15 to 29 mL/min at Screening. If a gram-negative organism was not identified from baseline cultures, the placebo/aztreonam arm was to be discontinued; otherwise, continued for the duration of dosing.
+L85: Randomization was to be stratified by type of infection and the study was designed such that no more than 25% of randomized patients had major cutaneous abscess, and no more than 30% of randomized patients had wound infections. The remaining infection types were not limited. Randomization was also to be stratified by baseline BMI (BMI &lt;30 and BMI \ge 30) and at least 40%, but no more than 50% of randomized patients, were to have BMI \ge 30. Additionally, no more than 25% randomized patients were to have received 14 days of prior therapy (1 dose of either a single, potentially effective, short-acting antimicrobial drug or other regimen) for the ABSSSI under study before study entry.
+L86: ## Reviewer's Comments:
+L87: - *The limitations on the number of certain infection types in the studies are consistent with the FDA ABSSSI Guidance. The reviewer notes that this guidance also recommends that no more than 25% should have received a single dose of short-acting antibacterial drug within 24 hours of enrollment. Use of prior therapy could potentially obscure the treatment effect estimate; particularly in evaluation of efficacy based on an early time points (e.g. 48 to 72 hours used in the primary endpoint for these studies). The effect of prior therapy use is investigated in this review.*
+L88: 2. *The oral formulation of delafoxacin is investigated in one of the two Phase 3 studies, i.e. in Study 303 only, and administered to patients with creatinine clearance greater than 29 mL/min after they have received 6 doses (i.e. 72 hours) of IV delafoxacin. The primary endpoint, as defined in the section that follows, is assessed 48 to 72 hours after treatment initiation, which implies evaluation prior to switch from IV to oral. Secondary endpoints, defined at later time points, will be evaluated as part of this statistical review to inform the efficacy of the oral formulation.*
+L89: In both studies, the treatment duration was to be 10 to 28 doses (5 to 14 days) based on investigator's judgment. Patients were to return for a Follow-up (FU) Visit on Day 14 and a Late Follow-up (LFU) visit on Day 21 to 28; see Figure 1 and Figure 2 for schematic of the study designs for Study 302 and Study 303, respectively. Additionally, patients were to be contacted by phone 30 days after their last dose of study treatment to capture 28-day all-cause mortality, adverse events (AEs) and post-treatment medications.
+L90: Signs and symptoms of ABSSSI were to be reviewed at each visit and used in the evaluations of the investigator-assessed clinical response. The primary infection site chosen at Screening was to be consistently measured and followed throughout the studies. Digital photography of the infection area was to be taken at Screening, Day 1, Day 2, twice on Day 3 (12 hours apart), Day 4, EOT, FU, and LFU. Measurements from the digital photography were to be used in the objective clinical response assessments. Details of all clinical and microbiological assessments that were to be performed at Screening, during the Treatment Period, and at follow-up visits are provided in the study protocols.
+L91: Figure 1 Schematic of Study 302
+L92: Abbreviations: EMA, European Medicines Agency; FDA, Food and Drug Administration; IV, intravenous; IWRS, interactive web response system.
+Source: Figure 3-1 (page 40) of Protocol for Study 302
+L93: Figure 2 Schematic of Study 303
+L94: Abbreviations: CrCl, creatinine clearance; EMA, European Medicines Agency; FDA, Food and Drug Administration; IV, intravenous; IWRS, interactive web response system; min, minute; Q12H, every 12 hours.
+
+a Vancomycin starting dose may be in accordance with local standard of care. Vancomycin dose adjustments for impaired renal function will be allowed as described in the pharmacy manual.
+
+b Patients with a CrCl greater than 29 mL/min at Screening will receive 2 g of aztreonam Q12H; patients with a CrCl of 15 to 29 mL/min at Screening may receive 1 g of aztreonam Q12H.
+L95: Source: Figure 3-1 (pages 43-44) from Protocol for Study 303 (Figure 3-2)
+L96: Patients may have been discontinued from treatment for any of the following reasons:
+L97: - In the opinion of the investigator, it is not in the best interest of the patient to continue
+- There is a change in compliance with an inclusion or exclusion criterion that is clinically relevant and affects patient safety
+- The patient takes a concomitant medication that might affect patient safety or study assessments/objectives
+- The patient has a blood glucose value of &lt;40 mg/dL at any time during the study
+- The patient experiences serious or intolerable AE(s)
+- The patient has liver function test &gt;5 \times ULN or total bilirubin &gt;3 \times ULN
+L98: Patients were free to withdraw consent at any time during the course of the studies. A patient who withdrew before completion was to return to study site for safety evaluations. All patients who discontinued treatment should have had all follow-up visit assessments and procedures performed with corresponding data recorded in the electronic case report form.
+L99: ## 3.2.1.2 Study Endpoints
+L100: This section defines the primary and key secondary clinical endpoints as defined in the protocols and SAPs that are evaluated in this statistical review.
+L101: The primary efficacy endpoint in each of the pivotal Phase 3 studies, Study 302 and Study 303, is objective clinical response at 48 to 72 hours (\pm 2 hours) after initiation of treatment and classified as clinical response or clinical failures as follows:
+L102: **Clinical response:** There is at least 20% reduction of the ABSSSI lesion spread of erythema area as determined by digital measurements of the leading edge, and the patient experienced none of the reasons provided below for clinical failure.
+L103: **Clinical failure:** The response is classified as failure if any one of the following occurs at 48 to 72 hours (\pm 2 hours) after initiation of study drug:
+L104: - &lt;20% reduction of ABSSSI lesion spread of erythema area as determined by digital measurements of the leading edge
+- administration of rescue antibacterial drug therapy or administration of non-study antibacterial drug therapy for treatment of ABSSSI before the primary efficacy assessment
+- need for unplanned surgical intervention except for limited bedside debridement and standard wound care before the primary endpoint assessment
+- death by 74 hours after initiation of study drug
+L105: Objective clinical response is also evaluated at EOT visit as part of secondary analyses in this review and is classified as clinical response or clinical failure as follows:
+L106: **Clinical response:** There is at least 20% reduction of the ABSSSI lesion spread of erythema area as determined by digital measurements of the leading edge, and the patient experienced none of the reasons provided below for clinical failure.
+L107: **Clinical failure:** Response will be classified as clinical failure for any of the following reasons:
+L108: - &lt;20% reduction of the ABSSSI lesion spread of erythema area as determined by digital planimetry of the leading edge at EOT
+- administration of rescue antibacterial drug therapy or administration of non-study antibacterial drug therapy for treatment of the ABSSSI before the endpoint assessment at EOT
+- need for unplanned surgical intervention except for limited bedside debridement and standard wound care before the endpoint assessment at EOT
+- death by EOT
+L109: A key secondary endpoint in both studies is investigator-assessed response of signs and symptoms of infection and is evaluated at FU and LFU in this review. The endpoint is classified as cure, improved, success, failure, or indeterminate, and defined as:
+L110: **Cure:** The complete resolution of all baseline signs and symptoms of ABSSSI at the time point of interest. If erythema is the only sign of infection remaining at FU visit and the erythema is absent at LFU visit, then the patient is classified as a cure at FU and LFU visits.
+L111: **Improved:** Some symptoms remain, but the patient has improved to an extent that no additional antibiotic treatment is necessary.
+L112: **Success:** A response of cure or improved where the investigator feels that no further antibiotics are needed.
+L113: **Failure:** Response is classified as failure for any of the following reasons:
+L114: - administration of non-study antibacterial drug therapy is required because of lack of efficacy after at least 4 doses of study treatment
+- administration of non-study antibacterial drug therapy is required because of a treatment-related AE
+- study antibacterial drug therapy is required for longer than 28 doses
+- need for unplanned surgical intervention after study entry except for limited bedside debridement and standard wound care.
+L115: Note: if a patient is considered a failure at FU visit, then the patient is also considered a Failure at LFU visit.
+L116: **Indeterminate:** A response cannot be assigned because an assessment was not completed at the FU or LFU visit or because the patient received potentially effective non-study antibacterial drug therapy for treatment of a condition other than primary ABSSSI, unless that patient was a Failure.
+L117: Discussion of the planned primary and secondary analyses of these endpoints are provided in Section 3.2.2.
+L118: ## 3.2.2 Statistical Methodologies
+L119: This section describes the statistical hypotheses, sample size calculations, and efficacy analyses presented in this review that are performed by the Applicant, as described in the SAPs for Study 302 and 303, as well as independent analyses performed by the statistical reviewer for the objective clinical response and investigator-assessed response endpoints defined in Section 3.2.1.2. All statistical analyses are performed at the 0.05 significance level (two-sided).
+L120: ## 3.2.2.1 Statistical Hypotheses and Sample Size
+L121: The primary null (H_0) and alternative (H_1) hypotheses to be tested in order to establish the noninferiority of delafloxacin in both studies are:
+L122: H_0: P_d - P_c \le -0.10H_a: P_d - P_c &gt; -0.10
+L123: where P_c and P_d are the probabilities of the objective clinical response (i.e. at least 20% reduction in lesion size) at 48 to 72 hours for control and delafloxacin arms, respectively. A conclusion that delafloxacin is non-inferior to control is made if the lower bound for the 2-sided 95% confidence interval (CI) for the difference in proportions (P_d - P_c) is greater than -10%. A conclusion of superiority is made if the lower bound of this CI exceeds zero.
+L124: If non-inferiority is established for the primary endpoint, the Applicant pre-specified a hierarchical testing strategy to assess superiority of delafoxacin to control for the investigator-assessed response endpoint, among others shown in Table 3. To control the overall Type I error rate at 5% (two-sided), testing for superiority of each subsequent endpoint in the table was to proceed only if superiority had been achieved on the preceding endpoint.
+L125: **Table 3 Applicant's Pre-specified Hierarchical Testing for Secondary Endpoints**
+L126: Study 302	Study 303
+1. Investigator-assessed response of signs and symptoms of infection at the FU visit	1. Investigator-assessed response of signs and symptoms of infection in patients with a baseline BMI \ge 30 \text{ kg/m}^2 at the LFU Visit
+2. Investigator assessed response of signs and symptoms of infection patients with BMI\ge 30 \text{ kg/m}^2 at the FU visit	2. Investigator-assessed response of signs and symptoms of infection in patients with a baseline BMI \ge 30 \text{ kg/m}^2 at the FU Visit
+3. Investigator-assessed response of signs and symptoms of infection at the LFU visit	3. Investigator-assessed response of signs and symptoms of infection at LFU Visit
+4. Objective response using reduction of erythema of \ge 30\% at 48 to 72 hours (\pm 2 hours) when digital planimetry is used	4. Investigator-assessed response of signs and symptoms of infection at the FU Visit
+5. Reduction of erythema of \ge 80\% at the FU visit when digital planimetry is used	5. Reduction in pain as measured by PRO at the EOT Visit
+6. Investigator-assessed response of signs and symptoms of infection at the FU visit for the response of success	6. Microbiological response of eradicated (documented or presumed) at the FU Visit in all patients
+7. Investigator-assessed response of signs and symptoms of infection in patients with infections caused by MRSA at the FU visit	7. Microbiological response of eradicated (documented or presumed) at the FU Visit in patients with a baseline BMI \ge 30 \text{ kg/m}^2
+8. Reduction in pain at EOT as measured by ePRO system	
+9. Microbiological response of eradicated (documented or presumed) at the FU visit in patients with infections caused by MRSA	
+10. Microbiological response of eradicated (documented or presumed) at the FU visit in all patients	
+PRO=patient-reported outcome, FU=follow-up, LFU=late follow-up, EOT=end-of-treatment, MRSA=meticillin-resistant Staphylococcus aureus
+Source: Created by the statistical reviewer from SAP for respective study.
+L127: ## **Reviewer's Comments:**
+L128: - *The decision to first test for superiority in obese patients in the proposed hierarchical testing procedure for Study 303 was first specified in Protocol Amendment 3 dated April 6, 2015 and after completion of Study 302 on June 6, 2014.*
+- *Given that superiority was not established for the first secondary endpoint proposed for testing in the Applicant's hierarchical strategy in either study, this review focuses only on those secondary endpoints related to investigator-assessed response (i.e. 1, 2, 3, 6 and 7 for Study 302 and 1 through 4 for Study 303 in the shown in the table below) as part of supportive analyses of the efficacy of delafoxacin for ABSSSI. The reviewer notes that at the time of this statistical review, a NI margin had not been established for endpoints other than the primary endpoint; as such, conclusions about*
+L129: ## *noninferiority of delafoxacin to control can be made from the analysis of the primary endpoint only.*
+L130: In both studies, the Applicant calculates that a sample size of 660 randomized patients (330 per treatment group) provides greater than 90% power to demonstrate the NI of delafoxacin with respect to the primary endpoint compared to control with a NI margin of 10%, assuming a response rate of 78% for control and an advantage over control of 3% using a significance level of 0.025 (1-sided).
+L131: In Study 303, to increase the robustness of the assessment for the secondary endpoint of investigator assessment of cure at FU visit for patients with a baseline BMI \ge 30, overall enrollment was increased to no more than 850 patients. Assuming a 12% difference between treatment arms, enrollment of up to 850 patients is expected to provide 340 to 425 obese patients and 60-70% power to demonstrate superiority in this secondary endpoint.
+L132: ## 3.2.2.2 Analysis Populations
+L133: The SAPs define several analysis populations which are utilized in the efficacy analyses presented in the clinical study reports. This section defines those populations used in the assessments presented in this statistical review.
+L134: The primary analysis population is the intent-to-treat (ITT) population, which comprises all randomized patients.
+L135: The microbiological ITT (MITT) analysis population consists of all patients in the ITT population who had a baseline bacterial pathogen identified that is known to cause ABSSSI.
+L136: The clinically evaluable (CE) analysis population at follow-up for investigator-assessed response consists of all patients in the ITT population who met all of the following criteria:
+L137: - Had a diagnosis of ABSSSI, i.e., an infection involving skin and/or subcutaneous tissues of at least one of the following 4 types: cellulitis/erysipelas, wound infection, major cutaneous abscess, or burn infection
+- Received the correct study drug based on the randomization assignment
+- Received at least 80% of the expected doses of study drug, or, the patient is a clinical failure and received a minimum of 4 doses of study drug
+- Had required clinical assessments (investigator-assessed response) of the ABSSSI being treated at the FU visit (Day 14 \pm 1 day) or the patient is a clinical failure. If a patient received the last dose on Day 15, then the window for the FU visit is Day 15 \pm 1 day.
+- Did not receive any concomitant, systemic antibacterial therapy with activity against the causative pathogen through the FU visit
+- Had no protocol deviations that would affect assessment of efficacy through the FU visit
+L138: ***Reviewer's Comment:*** *There are several additional CE analysis populations, defined in the SAPs, each based on the type of clinical assessment (investigator-assessed or objective clinical*
+L139: *response), timing of the assessment (48 to 72 hours, EOT, FU, LFU, or post therapy evaluation [PTE]) and population it is derived from (ITT or MITT). There are concerns that the CE populations have omitted patients based on post-randomization factors, likely related to treatment, which may introduce bias in the efficacy assessments and make interpretation of findings difficult. The CE analysis population at FU for investigator-assessed response is the only CE analysis population that will be assessed in this review in order to evaluate the Applicant's proposal to include its findings as part of the USPI.*
+L140: ## 3.2.2.3 Analyses of Efficacy Endpoints
+L141: ## Analyses of Objective Clinical Response
+L142: The Applicant's primary analysis is based on a 2-sided 95% CI for the difference in objective clinical response rates at 48 to 72 hours for the ITT population using a non-stratified method by Miettinen and Nurminen4. To account for stratification at randomization in each study (i.e. by infection type in Study 302 and by infection type and BMI in Study 303), the reviewer constructs 2-sided 95% CIs for the difference in response rates using the Mantel-Haenszel5 method. Stratified analyses based on Miettinen and Nurminen method are presented as sensitivity analyses by the Applicant.
+L143: ***Reviewer's Comment:*** *The use of a stratified analysis to account for randomization factors is consistent with recommendations in ICH E96. As shown in Section 3.2.4, there are no notable differences in analysis findings whether or not the randomization factors were accounted for in the primary analysis. Therefore all subsequent analyses presented in this review are based on the Applicant's proposed Miettinen and Nurminen method, without stratification.*
+L144: Additional analyses of objective clinical response at EOT in the ITT population, as well as at 48 to 72 hours and at EOT for the MITT population are also presented in this review.
+L145: Patients with missing measurements are considered as failures in all analyses of objective clinical response.
+L146: Graphical presentations of percentage reduction (\ge 20\%, \ge 40\%, \ge 60\%, \ge 80\%, \ge 90\% or 100%) in lesion size at 48 to 72 hours are provided by the reviewer to assess the sensitivity of the primary analysis findings to the cut-off used for defining the primary endpoint. Additionally, two sensitivity analyses are performed by the reviewer to assess the impact of missing data on the primary analysis findings:
+L147: - Worse-case analysis: in this analysis all patients who are missing are treated as failures in delafoxacin and as successes in the control arm
+L148: 4 Miettinen O., Nurminen M. Comparative analysis of two rates. Stat. Med. 1985; 4(2):213-26
+L149: 5 Greenland S, Robins JM. Estimation of common effect parameter from sparse follow up data. Biometrics 1985;41:55-68.
+L150: 6 Refer to ICH E9: *Statistical Principles for Clinical Trials*, dated February 1998.
+L151: - Imputed-value analysis: in this analysis all patients who are missing at 48 to 72 hours and successes at EOT are imputed as successes at 48 to 72 hours
+L152: ## Analyses of the Investigator-Assessed Response
+L153: The following secondary analyses of investigator-assessed response are presented for the ITT population:
+L154: - Investigator-assessed response at FU visit and at LFU visit for the differences in cure rate between treatment arms (delafoxacin – control); all other responses (i.e. improved, indeterminate, or failure) and missing data are considered as failures
+- Investigator-assessed response at FU visit and at LFU visit for the differences in success (cure + improved) rate between treatment arms (delafoxacin – control); all other responses (i.e. failure or indeterminate) and missing data are considered as failures
+L155: An analysis of investigator-assessed response is presented for the CE population at FU to assess differences in success (cure + improved) rate between treatment arms where all other responses (i.e. failure or indeterminate) are considered as failures. This analysis is proposed by the Applicant for inclusion in the label. In the reviewer's analysis missing data are considered as failures. In the Applicant's analysis, the EOT response is imputed for missing data at FU.
+L156: ## Subgroup Analyses
+L157: Subgroup analyses of the primary endpoint are presented for the ITT population in the following subgroups defined at baseline:
+L158: - Age group: 65 years, \ge 65 years
+- Sex: male, female
+- Race: Black, White, Other
+- Geographic location: North America, Europe, Other
+- BMI: &lt;25, 25 – 30, \ge 30
+- Type and location of infection
+- Prior antibiotic use
+- Comorbid conditions: diabetes, renal function
+L159: Subgroup analyses of objective clinical response and investigator-assessed response for each Phase 3 study and pooled across both studies are provided for the MITT population for each pathogen identified at baseline that are proposed by the Applicant for the label..
+L160: Subgroup analyses of investigator-assessed response for the differences in success (cure + improved) rates and cure rates at LFU visit by BMI (&lt;30 v. \ge 30), a pre-specified sub-group analysis for Study 303, and by country to assess any regional differences that might impact investigator's response are also presented.
+L161: The Miettenen and Nuriminen method without stratification is utilized for all subgroup analyses; except for small sample sizes (i.e. less than 5) wherein analyses are based on exact methods.
+L162: ## 3.2.3 Patient Disposition, Demographic and Baseline Characteristics
+L163: ## 3.2.3.1 Patient Disposition
+L164: Study 302 randomized a total of 660 patients (331 randomized to delafoxacin IV and 329 randomized to vancomycin + aztreonam) comprising the ITT population for this study. These patients were enrolled at 34 sites in the United States (US) and Europe (EU). The largest site, site 840-002 in the US, randomized a total of 154 patients (70 delafoxacin and 80 control). There are 10 patients (7 delafoxacin and 3 control) included in the ITT population who did not receive study treatment. The majority of patients (approximately 83%) completed the study; see Table 4. The most common reason for study withdrawal was lost to follow-up, which is reported in 7.3% of the delafoxacin patients and 8.8% of the patients in the control arm. Approximately 88% of patients completed study treatment. Among the reasons for treatment discontinuation, 2.3% of patients (0.9% delafoxacin v. 3.6% control) discontinued due to adverse events and 2.9% of patients (3.6% delafoxacin v. 2.1% control) discontinued with reason reported as “withdrawal by subject”.
+L165: Table 4 Patient Disposition in Study 302 – ITT Population
+L166: Disposition Event	Delafoxacin IV
+N=331
+n (%)	Control
+N=329
+n (%)	Total
+N=660
+n (%)
+Study Completion	276 (83.4)	271 (82.4)	547 (82.9)
+Study Withdrawal*	55 (16.6)	58 (17.6)	113 (17.1)
+Primary Reasons for Withdrawal
+Adverse Event	3 (0.9)	9 (2.7)	12 (1.8)
+Death	1 (0.3)	1 (0.3)	2 (0.3)
+Lack of Efficacy	3 (0.9)	1 (0.3)	4 (0.6)
+Lost to Follow-Up	24 (7.3)	29 (8.8)	53 (8.0)
+Non-compliance	2 (0.6)	2 (0.6)	4 (0.6)
+Other	5 (1.5)	6 (1.8)	11 (1.7)
+Physician Decision	2 (0.6)	0 (0.0)	2 (0.3)
+Withdrawal by Subject	15 (4.5)	9 (2.7)	24 (3.6)
+Missing	0	1 (0.3)	1 (0.2)
+Completed Treatment	289 (87.3)	294 (89.4)	583 (88.3)
+Discontinued Treatment	35 (10.6)	32 (9.7)	67 (10.2)
+Medication not administered	7 (2.1)	3 (0.9)	10 (1.5)
+Primary Reasons for Discontinuation**
+Adverse Event	3 (0.9)	12 (3.6)	15 (2.3)
+Lack of Efficacy	3 (0.9)	1 (0.3)	4 (0.6)
+Lost to Follow-Up	8 (2.4)	8 (2.4)	16 (2.4)
+Non-compliance	4 (1.2)	3 (0.9)	7 (1.1)
+Other	4 (1.2)	1 (0.3)	5 (0.8)
+Physician Decision	1 (0.3)	0 (0)	1 (0.2)
+Withdrawal by Subject	12 (3.6)	7 (2.1)	19 (2.9)
+L167: *Includes 48 patients, 26 (7.9%) delafoxacin and 22 (6.7%) control, who did not have a measurement reported at the primary evaluation time point; considered as failures in the primary analysis.
+L168: **Reasons for treatment discontinuation only in those patients who received treatment.
+L169: Source: Created by the Statistical Reviewer using adsl xpt for Study 302
+L170: Study 303 randomized a total of 850 patients (423 randomized to delafoxacin IV/oral and 427 randomized to control) comprising the ITT population for this study. These patients were enrolled at 76 sites across the US, EU, Latin America and Asia. The largest enrolling site, site 840-302 in the US, randomized a total of 55 patients (33 delafoxacin and 22 control). There are 8 patients (6 delafoxacin and 2 control) included in the ITT population who did not receive study treatment. As shown in Table 5, the majority of patients (approximately 86%) completed the study. The most common reason for study withdrawal was lost to follow-up, which is reported in 5.9% of the delafoxacin patients and 5.8% of the patients in the control arm. Approximately 92% of patients completed study treatment. Among the reasons for treatment discontinuation, 2.4% of patients (0.9% delafoxacin and 2.8% control) discontinued due to adverse events.
+L171: **Table 5 Patient Disposition in Study 303 – ITT Population**
+L172: Disposition Event	Delafoxacin	Total
+N=850
+n (%)
+IV/oral
+N=423
+n (%)	Control
+N=427
+n (%)
+Study Completion	366 (86.5)	368 (86.2)	734 (86.4)
+Study Withdrawal*	57 (13.5)	59 (6.9)	116 (13.7)
+Primary Reasons for Withdrawal
+Adverse Event	8 (1.9)	12 (2.8)	20 (2.4)
+Death	0 (0)	1 (0.2)	1 (0.1)
+Lack of Efficacy	3 (0.7)	6 (1.4)	9 (1.1)
+Lost to Follow-Up	25 (5.9)	24 (5.6)	49 (5.8)
+Non-compliance	2 (0.5)	1 (0.2)	3 (0.4)
+Other	3 (0.7)	2 (0.5)	5 (0.6)
+Physician Decision	4 (1.0)	2 (0.5)	6 (0.7)
+Protocol Violation	4 (1.0)	2 (0.5)	6 (0.7)
+Withdrawal by Subject	8 (1.9)	9 (2.1)	17 (2.0)
+Completed Treatment	386 (91.3)	387 (91.1)	781 (91.9)
+Discontinued Treatment	31 (7.3)	38 (8.9)	69 (8.1)
+Medication not administered	6 (1.4)	2 (0.5)	8 (0.9)
+Primary Reasons for Discontinuation**
+Adverse Event	8 (0.9)	12 (2.8)	20 (2.4)
+Lack of Efficacy	4 (1.0)	7 (1.6)	11 (1.3)
+Lost to Follow-Up	4 (1.0)	9 (2.1)	13 (1.5)
+Non-compliance	2 (0.5)	1 (0.2)	3 (0.4)
+Other	2 (0.5)	2 (0.5)	4 (0.5)
+Physician Decision	3 (0.7)	1 (0.2)	4 (0.5)
+Protocol Violation	1 (0.2)	1 (0.2)	2 (0.2)
+Withdrawal by Subject	7 (1.7)	6 (1.4)	13 (1.5)
+L173: * Includes 41 patients, 20 (4.7%) delafoxacin and 21 (4.9%) control, who did not have a measurement reported at the primary evaluation time point; considered as failures in the primary analysis.
+L174: **Reasons for treatment discontinuation only in those patients who received treatment.
+L175: Source: Created by the Statistical Reviewer using adsl.xpt for Study 303
+L176: **Reviewer's Comment:** *The overall percentages of study withdrawal are somewhat high in both studies (17.1% in Study 302 and 13.7% in Study 303) compared to recently approved products*
+L177: *for ABSSSI7 and primarily driven by lost to follow-up. The influence of early withdrawals on the primary assessments is investigated in the section that follows.*
+L178: The majority of patients in the ITT populations (approximately 74% in Study 302 and 65% in Study 303) had a baseline bacterial pathogen identified that is known to cause ABSSSI, thereby comprising the MITT population; see Table 6. This table also shows the composition of the CE population at FU used for the evaluation of investigator-assessed response that the Applicant proposes for the USPI. The CE population comprises about 73% and about 80% of the ITT populations in Study 302 and Study 303, respectively. The reasons that patients are excluded from the CE population are also provided in this table. As shown, a number of these reasons are based on post-randomization factors which might be influenced by treatment and illustrate why interpretation of findings based on this population could be problematic. For example, in Study 302, while the overall percentage of patients excluded is similar across both treatment arms, there is a slightly higher percentage in the delafoxacin arm (2.7%) than control (0.9%) excluded for reason reported as patient received concomitant, systemic antibacterial therapy effective against baseline pathogen prior to FU assessment. In Study 303, a lower percentage of patients is excluded in the delafoxacin arm (16.5%) than control (23%). Importantly, several of the reasons for excluding patients from the CE population can be linked to failures (e.g. patient received at least 1 dose and &lt;4 doses of study drug and was an investigator response failure at follow-up). An examination of the effect of using the CE population on findings from analysis of investigator-assessed response at FU visit is presented in Section 3.2.3.2.
+L179: 7 See, for example, Statistical Review for DALVANCE™ (dalbavancin), where study withdrawal rate was approximately 10% in the two pivotal Phase 3 trials.
+L180: http://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/021883Orig1s000StatR.pdf. Accessed February 27, 2017
+L181: Table 6 Analysis Populations used in Efficacy Evaluation of Study 302 and Study 303
+L182: Analysis Populations	Study 302	Study 303
+Delafoxacin IV
+n (%)	Control
+n (%)	Delafoxacin IV/oral
+n (%)	Control
+n (%)
+Intent to Treat (ITT)*	331 (100)	329 (100)	423 (100)	427 (100)
+Microbiological ITT	243 (73.4)	247 (75.1)	275 (65.0)	277 (64.9)
+CE at Follow-up for Investigator-Assessed Response	
+Number of patients included	240 (72.5)	244 (74.1)	353 (83.5)	329 (77.0)
+Number of patients excluded	91 (26.5)	85 (25.9)	70 (16.5)	98 (23.0)
+Reason for exclusion*	
+No diagnosis of ABSSSI	0 (0)	0 (0)	0 (0)	0 (0)
+Received incorrect study drug through EOT	2 (0.6)	0 (0)	2 (0.5)	11 (2.6)
+Received <80% of expected doses at EOT	12 (3.6)	10 (3.0)	9 (2.1)	8 (1.9)
+Patient received at least 1 dose and <4 doses of study drug and was an investigator response failure at follow-up	0 (0)	1 (0.3)	12 (3.6)	17 (3.0)
+Patient did not have investigator assessment in follow-up window or was indeterminate	85 (25.6)	81 (24.6)	61 (14.4)	72 (16.9)
+Received concomitant, systemic antibacterial therapy effective against baseline pathogen prior to FU assessment	9 (2.7)	3 (0.9)	12 (2.8)	21 (4.9)
+Patient had protocol deviation affecting efficacy assessment prior to the FU assessment	5 (1.5)	0 (0)	8 (1.9)	8 (1.9)
+L183: *Patients may have multiple reasons coded in the datasets for exclusion from the CE population.
+L184: Source: Created by the statistical reviewer using “adsl.xpt” for respective study and post text Table 14.1.1.3 for Study 302 and post text Table 14.1.1.2 for Study 303.
+L185: ## 3.2.3.2 Demographic and Baseline Characteristics
+L186: Table 7 shows that the demographic characteristics are generally similar across the treatment arms within each of the studies. In Study 302, approximately 63% of patients are male, 91% are White, and 32% had BMI \ge30. Approximately 82% of patients were enrolled in sites in the US and 18% of patients enrolled in European sites. There is a low percentage of elderly subjects, 7% of patients 65 years are older, in this study. In Study 303, approximately 63% of patients are male, 83% are White, and 40% had BMI \ge30, which is consistent with the study design requirement to have at least 40% and no more than 50% of patients with BMI \ge 30. Approximately 50% of patients were enrolled in sites in the US, 40% of patients enrolled in European sites, and the remaining enrolled in sites in Latin America and Asia. Black patients appear to be under-represented in both studies comprising only 7% of ITT patients in Study 302 and about 4% in Study 303.
+L187: Table 7 Demographic Characteristics – ITT Population
+L188: Demographic Characteristics	Study 302	Study 303
+Delafoxacin
+IV
+N=331	Control
+N=329	Total
+N=660	Delafoxacin
+IV/oral
+N=423	Control
+N=427	Total
+N=850
+Age Group, n (%)	
+<65	305 (92.2)	309 (93.9)	614 (93.0)	338 (79.9)	346 (81.0)	684 (80.5)
+\ge65	26 (7.8)	20 (6.1)	46 (7.0)	85 (20.1)	81 (19.0)	166 (19.5)
+Age	
+Mean (SD)	46.3 (13.9)	45.3 (14.4)	45.8 (14.2)	51.2 (16.0)	50.2 (16.0)	50.3 (16.0)
+Range	18 – 94	19 – 90	18 – 94	18 – 89	19 – 93	18 – 93
+Sex, n (%)	
+Female	125 (37.8)	120 (36.5)	245 (37.1)	161 (38.1)	151 (35.4)	312 (36.7)
+Male	206 (62.2)	209 (63.5)	415 (62.9)	262 (61.9)	276 (64.6)	538 (63.3)
+Race, n (%)	
+Black	27 (8.2)	19 (5.8)	46 (7.0)	13 (3.1)	18 (4.2)	31 (3.7)
+White	297 (89.7)	304 (92.4)	601 (91.0)	348 (82.3)	355 (83.1)	703 (82.7)
+Other	7 (2.1)	6 (1.8)	13 (2.0)	62 (14.6)	54 (12.7)	116 (13.6)
+Geographic Region*, n (%)	
+North America	268 (81.0)	274 (83.3)	542 (82.1)	202 (47.8)	196 (45.9)	398 (46.8)
+Europe	63 (19.0)	55 (16.7)	118 (17.9)	165 (39.0)	173 (40.5)	338 (39.8)
+Latin America	--	--	--	47 (11.1)	44 (10.3)	91 (10.7)
+Asia	--	--	--	9 (2.1)	14 (3.3)	23 (2.7)
+Body Mass Index, n (%)	
+< 25	113 (34.1)	125 (38.0)	238 (36.1)	103 (24.4)	104 (24.4)	207 (24.4)
+25 – 30	98 (29.6)	110 (33.4)	208 (31.5)	109 (25.8)	109 (25.5)	218 (25.7)
+30 – 35	67 (20.2)	52 (15.8)	119 (18.0)	124 (29.3)	121 (28.3)	245 (28.8)
+\ge 35	53 (16.0)	42 (12.8)	95 (14.4)	87 (20.6)	93 (21.8)	180 (21.2)
+Body Mass Index	
+Mean (SD)	28.4 (6.4)	27.9 (6.4)	28.1 (6.4)	30.4 (7.4)	30.7 (7.5)	30.5 (7.5)
+Range	16.5 – 52.0	17.3 – 52.8	16.5 – 52.8	15.3 – 65.8	17.3 – 68.0	15.3 – 68.0
+L189: *Study 302 conducted in Europe and North America only. North American region contains sites in the US only.
+L190: Source: Created by the statistical reviewer using dataset "adsl.xpt" corresponding to each study
+L191: Table 8 shows that the distributions for infection type, erythema size and location are generally similar for the treatment arms within each study. In Study 302, approximately 25% of patients had major cutaneous abscess and about 35% of patients had wound infections, consistent with study design requirements. Most of the infections (35%) are seen in the leg. In Study 303, approximately 25% of patients had major cutaneous abscess and about 26% of patients had wound infections, consistent with study design requirements for this study. Also for this study, most of the infections (52%) occurred in the leg. The average erythema area at baseline in Study 302 is 307 \text{cm}^2 and 354 \text{cm}^2 in Study 303. Notably, there are 17 patients per arm (totaling 5% of ITT patients) with erythema area at baseline less than 75 \text{cm}^2 in Study 302, which includes 8 delafoxacin patients and 4 control patients who were characterized as having “major cutaneous abscess”. In Study 303, there are 29 delafoxacin and 38 control (totaling 8% of ITT patients) with area less than 75 \text{cm}^2 at baseline, which includes 13 delafoxacin patients and 18 control patients who were characterized as having “major cutaneous abscess”. Also, one control patient in this study had erythema area reported as zero. The inclusion of patients with area less than 75 \text{cm}^2 seems inconsistent with eligibility criteria for the studies; however, analyses based only on patients with area at least 75 \text{cm}^2, not presented in this review, do not change the overall conclusions from the primary analysis in either study.
+L192: Table 9 shows that the distributions of systemic signs of ABSSSI are generally similar within each study. For Study 302, most of the patients (87%) had lymph node enlargement at baseline; 40% had elevated C-reactive protein, 50% had elevated white blood cell count, 21% had fever, 19% had lymphangitis and 66% had purulent or seropurulent discharge. For Study 303, 65% of patients had lymph node enlargement, 45% had elevated C-reactive protein, 48% had elevated white blood cell count, 41% had fever, 23% had lymphangitis and 61% had purulent or seropurulent discharge.
+L193: Table 10 shows some numerical imbalances in the distributions for use of prior therapy within the 14 days of study enrollment for each study. In Study 302, 15.8% delafoxacin patients used prior therapy during this time compared to 21.6% control patients; for Study 303 the percentages are 21% delafoxacin compared to 26% control. Notably, 8.4% delafoxacin patients compared to 13.1% control patients in Study 302 and 14.2% delafoxacin patients compared to 19% control patients in Study 303 received a dose of either a single, potentially effective, short-acting (half-life \le12 hours) antimicrobial drug or a short-acting antimicrobial drug regimen for treatment of the ABSSSI under study. The use of prior effective therapy might obscure the treatment effect estimates and has the potential the bias the results towards to a finding of no difference; see findings for subgroup analyses to investigate the impact of prior therapy in Section 4 of this review.
+L194: Table 11 shows that the distributions of comorbid conditions are similar across the treatment arms within each study. Renal function is measured based on two criteria, i.e. based on creatinine clearance and estimated glomerular filtration rate. Regardless of the criteria used, the majority of patients in both studies are considered to have normal renal function. Very few patients (&lt;1%) had severely decreased renal function or kidney disease, which limits the ability to perform efficacy analyses in these subgroups of patients. It should be noted that per design of Study 303, delafoxacin patients with CrCl measuring 15-29 mL/min were to have received IV dose of 200 mg for duration of the study. As shown in this table, there are no such patients in the study;
+L195: hence, all patients received 300 mg IV with switch to oral after 6 doses of IV. Also shown in this table, the majority of patients did not have diabetes in either study; only 9% of patients had diabetes at baseline in Study 302 and 13% of patients had diabetes at baseline in Study 303.
+L196: Table 12 shows that the majority of patients (54.1%) in Study 302 had at least one prior surgical procedure; a lower percentage is observed in the delafoxacin arm (52%) compared to in the control arm (56.2%). Drainage of abscess is the most frequently (33.5% of patients) reported type of prior surgical procedure; a slightly higher percentage of delafoxacin patients (35%) had this type of procedure compared to control patients (31.9%). In Study 303, the majority of patients (55.3%) did not have prior surgical procedures. Drainage of abscess (reported as “Incision and Drainage” in this study) was the most frequently reported type of surgical procedure at baseline; notably a lower percentage of patients in the delafoxacin patients (34.5%) compared to control (38.2%). The impact of the prior surgical procedure on the treatment effects is explored as part of subgroup analyses presented in this review.
+L197: Table 13 shows the pathogens identified from the infection site or blood at baseline occurring in at least 2% in either treatment arm or proposed by the Applicant for the USPI based on the MITT population for both studies. The most prevalent pathogen identified in each study is *Staphylococcus aureus*, which was identified in 66% of MITT patients in Study 302 and 58% of patients in Study 303. There are 15 patients (6 delafoxacin and 9 control) with bacteremia in Study 302 and 19 patients (11 delafoxacin and 8 control) with bacteremia in Study 303.
+L198: Overall, the ITT population for each study appears adequate to perform noninferiority assessments. There is limited data available from the studies to adequately assess the benefit of delafoxacin in patients with severe renal impairment or kidney disease.
+L199: Table 8 Infection Types and Location of Infections at Baseline – ITT Population
+L200: Study 302	Study 303
+Delafoxacin
+IV
+N=331	Control
+N=329	Total
+N=660	Delafoxacin
+IV/oral
+N=423	Control
+N=427	Total
+N=850
+Type, n (%)	
+Burn infection	3 (0.9)	2 (0.6)	5 (0.8)	4 (1.0)	3 (0.7)	7 (0.8)
+Cellulitis/Erysipelas	128 (38.7)	128 (38.9)	256 (38.8)	202 (47.8)	206 (48.2)	408 (48.0)
+Major cutaneous abscess	84 (25.4)	83 (25.2)	167 (25.3)	106 (25.1)	106 (24.8)	212 (24.9)
+Wound infection	116 (35.1)	116 (35.3)	232 (35.2)	111 (26.2)	112 (26.3)	223 (26.2)
+Erythema area*, in cm2	
+N	326	328	654	417	425	842
+Mean (SD)	294.8 (308.4)	319.0 (314.0)	307.0 (311.2)	343.2 (313.4)	364.2 (392.1)	353.8 (355.3)
+Range	32.6 – 2381.3	40.2 – 2666	32.6 – 2666	18.6 – 2236.7	0 – 2714.3	0 – 2714.3
+Location, n (%)	
+Abdomen	19 (5.7)	12 (3.7)	31 (4.7)	19 (4.5)	19 (4.5)	38 (4.5)
+Arm	100 (30.2)	112 (34.0)	212 (32.1)	91 (21.5)	90 (21.1)	181 (21.3)
+Back	6 (1.8)	8 (2.4)	14 (2.1)	6 (1.4)	10 (2.3)	16 (1.9)
+Face	6 (1.8)	3 (0.9)	9 (1.4)	7 (1.7)	10 (2.3)	17 (2.0)
+Leg	118 (35.7)	115 (34.9)	233 (35.3)	213 (50.4)	231 (54.1)	444 (52.2)
+Neck	2 (0.6)	1 (0.3)	3 (0.5)	1 (0.2)	2 (0.5)	3 (0.4)
+Other	73 (22.1)	72 (21.9)	145 (22.0)	81 (19.2)	61 (14.3)	142 (16.7)
+Thorax	7 (2.1)	6 (1.8)	13 (2.0)	5 (1.2)	4 (0.9)	9 (1.1)
+*There are 17 patients per arm with erythema area at baseline less than 75 cm2 in study 302 and 29 delafoxacin and 38 control with area less than 75 cm2 in study 303. Patients with missing value of erythema area at baseline treated as failures in primary analysis for both studies.
+Source: Created by the statistical reviewer using dataset “adsl.xpt” and “adobj.xpt” corresponding to each study
+L201: Table 9 Systemic Signs of ABSSSI at Baseline – ITT Population
+L202: Study 302	Study 303
+Delafoxacin
+IV
+N=331
+n (%)	Control
+N=329
+n (%)	Total
+N=660
+n (%)	Delafoxacin
+IV/oral
+N=423
+n (%)	Control
+N=427
+n (%)	Total
+N=850
+n (%)
+Elevated C-Reactive Protein	
+Yes	131 (39.6)	136 (41.3)	267 (40.5)	185 (43.7)	198 (46.4)	383 (45.1)
+No	200 (60.4)	193 (58.7)	393 (59.6)	238 (56.3)	229 (53.6)	467 (54.9)
+Elevated WBC	
+Yes	159 (48.0)	165 (50.2)	324 (49.1)	207 (48.9)	204 (47.8)	411 (48.4)
+No	172 (52.0)	164 (49.9)	336 (50.9)	216 (51.1)	223 (52.2)	439 (51.7)
+Fever >38°C or 100.4°F	
+Yes	78 (23.6)	63 (19.2)	141 (21.4)	174 (41.1)	177 (41.5)	351 (41.3)
+No	253 (76.4)	266 (80.9)	519 (78.6)	249 (58.9)	250 (58.6)	499 (58.7)
+Lymph Node Enlargement	
+Yes	285 (86.1)	287 (87.2)	572 (86.7)	273 (64.5)	275 (64.4)	548 (64.5)
+No	46 (13.9)	42 (12.8)	88 (13.3)	150 (35.5)	152 (35.6)	302 (35.5)
+Lymphangitis	
+Yes	68 (20.5)	55 (16.7)	123 (18.6)	97 (22.9)	101 (23.6)	198 (23.3)
+No	263 (79.5)	274 (83.3)	537 (81.4)	326 (77.1)	326 (76.4)	652 (76.7)
+Purulent or seropurulent discharge	
+Yes	220 (66.5)	214 (65.1)	434 (65.8)	257 (60.8)	261 (61.1)	518 (60.9)
+No	111 (33.5)	115 (33.5)	226 (34.2)	166 (39.2)	166 (38.9)	332 (39.1)
+WBC=white blood cell count
+Source: Created by the statistical reviewer using dataset "adsl.xpt" corresponding to each study
+L203: Table 10 Use of Prior Therapy – ITT Population
+L204: Study 302	Study 303
+Delafoxacin
+IV
+N=331	Control
+N=329	Total
+N=660	Delafoxacin
+IV/oral
+N=423	Control
+N=427	Total
+N=850
+Within 14 days *, n (%)	
+No	278 (83.9)	253 (76.9)	531 (81.2)	334 (79.0)	316 (74.0)	650 (76.5)
+Yes	52 (15.8)	71 (21.6)	123 (18.8)	89 (21.0)	111 (26.0)	200 (23.5)
+≥48 hours of ineffective
+therapy for ABSSSI1	23 (6.9)	27 (8.2)	50 (7.6)	29 (6.9)	31 (7.3)	60 (7.1)
+non-ABSSSI treatment2	1 (0.3)	1 (0.3)	2 (0.3)	0 (0)	1 (0.2)	1 (0.1)
+1 dose for ABSSSI3	28 (8.4)	43 (13.1)	71 (10.7)	60 (14.2)	81 (19.0)	141 (16.6)
+*Use of prior antimicrobial therapy for ABSSSI in the 14 days before study enrollment
+1Patient received at least 48 hours of antibiotic therapy for ABSSSI and the clinic notes or photographs document the progression of ABSSSI.
+2Within 7 days of enrollment, patient completed a treatment course with an antibacterial drug for an infection other than ABSSSI and the drug did not have activity against the bacterial pathogens that cause ABSSSI
+3Before enrollment, patient received only 1 dose of either a single, potentially effective, short-acting (half-life ≤12 hours) antimicrobial drug or a short-acting antimicrobial drug regimen for treatment of the ABSSSI under study. One dose of a regimen was defined as the standard therapy for ABSSSI at the study site
+Patients with missing measurements excluded from table.
+Source: Created by the statistical reviewer using dataset "adabs.xpt" corresponding to each study
+L205: Table 11 Comorbid Conditions – ITT Population
+L206: Study 302	Study 303
+Delafoxacin
+IV
+N=331	Control
+N=329	Total
+N=660	Delafoxacin
+IV/oral
+N=423	Control
+N=427	Total
+N=850
+Renal Function by CrCl*, n (%)	
+Normal: ≥90	274 (82.8)	271 (82.4)	545 (82.6)	344 (81.3)	356 (83.4)	700 (82.3)
+Mild to moderate decrease: 60 – 90	39 (11.8)	36 (10.9)	75 (11.4)	44 (10.4)	48 (11.2)	92 (10.8)
+Moderate to severe decrease: 30 – 60	12 (3.6)	19 (5.8)	31 (4.7)	25 (5.9)	17 (4.0)	42 (4.9)
+Severely decreased: 15 – 30	1 (0.3)	0 (0)	1 (0.2)	0 (0)	2 (0.5)	2 (0.2)
+Kidney failure: <15	1 (0.3)	0 (0)	1 (0.2)	0 (0)	0 (0)	0 (0)
+Renal Function by eGFR*, n (%)	
+Normal: ≥90	201 (60.7)	202 (61.4)	403 (61.1)	266 (62.8)	282 (66.0)	548 (64.5)
+Mild to moderate decrease: 60 – 90	100 (30.2)	99 (30.1)	199 (30.2)	119 (28.1)	110 (25.8)	229 (26.9)
+Moderate to severe decrease: 30 – 60	23 (7.0)	21 (6.4)	44 (6.7)	25 (5.9)	26 (6.1)	51 (6.0)
+Severely decreased: 15 – 30	2 (0.6)	4 (1.2)	6 (0.9)	2 (0.5)	4 (0.9)	6 (0.7)
+Kidney failure: <15	1 (0.3)	0 (0)	1 (0.2)	1 (0.2)	1 (0.2)	2 (0.2)
+Diabetes	
+Yes	30 (9.1)	27 (8.2)	57 (8.6)	53 (12.5)	54 (12.6)	107 (12.6)
+No	301 (90.9)	302 (91.8)	603 (91.4)	370 (87.5)	373 (87.4)	743 (87.4)
+CrCl=Creatinine clearance, eGFR=estimated glomerular filtration rate
+*Renal function measurements missing at baseline missing for 7 patients (4 delafoxacin and 3 control) in Study 302 and 14 patients (10 delafoxacin and 4 control) with missing renal function measurement at baseline in Study 303.
+Source: Created by the statistical reviewer using dataset “adsl.xpt” corresponding to each study and dataset of eGFR values provided by clinical pharmacology reviewer
+L207: Table 12 Prior Surgical Procedures – ITT Population
+L208: Study 302	Study 303
+Delafoxacin
+IV
+N=331
+n (%)	Control
+N=329
+n (%)	Total
+N=660
+n (%)	Delafoxacin
+IV/oral
+N=423
+n (%)	Control
+N=427
+n (%)	Total
+N=850
+n (%)
+Prior Surgical Procedure	
+Yes	172 (52.0)	185 (56.2)	357 (54.1)	179 (42.3)	201 (47.1)	380 (44.7)
+No	159 (48.0)	144 (43.8)	303 (45.9)	244 (57.7)	226 (52.9)	470 (55.3)
+Types of Prior Surgical Procedures	
+Debridement	13 (3.9)	21 (6.4)	34 (5.2)	17 (4.0)	18 (4.2)	35 (4.1)
+Drainage of abscess*	116 (35.0)	105 (31.9)	221 (33.5)	146 (34.5)	163 (38.2)	309 (36.4)
+Lavage of wound	11 (3.3)	17 (5.2)	28 (4.2)	9 (2.1)	8 (1.9)	17 (2.0)
+Opening of surgical wound	2 (0.6)	4 (1.2)	6 (0.9)	14 (3.3)	22 (5.2)	36 (4.2)
+Other	47 (14.2)	57 (17.3)	104 (15.8)	3 (0.7)	1 (0.2)	4 (0.5)
+L209: *Reported as incision and drainage in Study 303
+L210: Patients may have had multiple types of prior surgical procedures
+L211: Source: Created by the statistical reviewer using dataset “adce.xpt” corresponding to each study and dataset of eGFR values provided by clinical pharmacology reviewer
+L212: Table 13 Baseline Pathogen from Infection Site or Blood (at least 2% in either treatment group (b) (4)) – mITT Population
+L213: Pathogen	Study 302	Study 303
+Delafoxacin
+IV
+N=243
+n (%)	Control
+N=247
+n (%)	Total
+N=490
+n (%)	Delafoxacin
+IV/oral
+N=275
+n (%)	Control
+N=277
+n (%)	Total
+N=552
+n (%)
+Staphylococcus aureus*	159 (65.4)	165 (66.8)	324 (66.1)	160 (58.2)	159 (57.4)	319 (57.8)
+MRSA	78 (32.1)	91 (36.8)	169 (34.5)	66 (24.0)	50 (18.1)	116 (21.0)
+MSSA	82 (33.7)	74 (30.0)	156 (31.8)	95 (34.5)	109 (39.4)	204 (37.0)
+Staphylococcus epidermidis	26 (10.7)	20 (8.1)	46 (9.4)	29 (10.5)	33 (12.0)	62 (11.2)
+Streptococcus intermedius*	16 (6.6)	18 (7.3)	34 (6.9)	13 (4.7)	12 (4.3)	25 (4.5)
+Streptococcus anginosus*	11 (4.5)	13 (5.3)	24 (4.9)	12 (4.4)	10 (3.6)	22 (4.0)
+Klebsiella pneumoniae*	12 (4.9)	11 (4.4)	23 (4.7)	10 (3.6)	12 (4.3)	22 (4.0)
+Streptococcus constellatus*	9 (3.7)	10 (4.0)	19 (3.9)	5 (1.8)	3 (1.1)	8 (1.4)
+Escherichia coli*	5 (2.1)	9 (3.6)	14 (2.9)	9 (3.3)	11 (4.0)	20 (3.6)
+Staphylococcus lugdunensis*	7 (2.9)	3 (1.2)	10 (2.0)	4 (1.5)	6 (2.2)	10 (1.8)
+Streptococcus pyogenes*	7 (2.9)	6 (2.5)	13 (2.7)	16 (5.8)	12 (4.3)	28 (5.1)
+Enterobacter cloacae*	6 (2.5)	2 (0.8)	8 (1.6)	8 (2.9)	9 (3.2)	17 (3.1)
+Streptococcus agalactiae*	6 (2.5)	2 (0.8)	8 (1.6)	8 (2.9)	10 (3.6)	18 (3.3)
+Streptococcus mitis/oralis*	6 (2.5)	3 (1.2)	9 (1.8)	7 (2.5)	2 (0.7)	9 (1.6)
+Clostridium perfringens	5 (2.1)	2 (0.8)	7 (1.4)	1 (0.4)	3 (1.1)	4 (7.2)
+Haemophilus parainfluenzae	2 (0.8)	5 (2.0)	7 (1.4)	4 (1.5)	2 (0.7)	6 (1.1)
+Pseudomonas aeruginosa*	2 (0.8)	5 (2.0)	7 (1.4)	9 (3.3)	7 (2.5)	16 (2.9)
+Staphylococcus hominis*	4 (1.6)	6 (2.5)	10 (2.0)	7 (2.5)	7 (2.5)	14 (2.5)
+Enterococcus faecalis*	3 (1.2)	3 (1.2)	6 (1.2)	8 (2.9)	13 (4.7)	21 (3.8)
+Streptococcus dysgalactiae*	3 (1.2)	2 (0.8)	5 (1.0)	6 (2.2)	9 (3.2)	17 (3.1)
+Proteus mirabilis*	2 (0.8)	0 (0)	2 (0.4)	6 (2.2)	8 (2.9)	14 (2.5)
+Klebsiella oxytoca**	2 (0.8)	2 (0.8)	4 (0.8)	4 (1.5)	3 (1.1)	7 (1.3)
+MSSA=meticillin-susceptible Staphylococcus aureus, MRSA=meticillin-resistant Staphylococcus aureus
+*(b) (4)
+**(b) (4) occurs infrequently in both studies
+Source: Created by the statistical reviewer using dataset "admb.xpt" corresponding to each study
+L214: ## 3.2.4 Results and Conclusions
+L215: This section summarizes the findings from the analyses of objective clinical response and investigator-assessed response for Study 302 and Study 303. Results for all subgroup analyses, including the pre-specified secondary analysis of investigator-assessed cure in obese patients for Study 303, are presented in Section 4 of this review.
+L216: ## 3.2.4.1 Results from Analyses of Objective Clinical Response
+L217: ## Primary Analysis Results
+L218: Recall that the primary efficacy endpoint is objective clinical response (i.e. at least 20% reduction in lesion size) at 48 to 72 hours after treatment initiation and evaluated in the ITT population for the primary analysis. The results for analysis of the primary endpoint are shown in Table 14. For Study 302, the clinical response rate is 78.2% for delafoxacin patients and 80.9% for control patients resulting in a difference of -2.6% with 95% CI (-8.8%, 3.6%) using the Applicant's primary analysis method; this analysis did not account for stratification factors used at randomization. For Study 303, the clinical response rate is 83.7% for delafoxacin patients and 80.6% for control patients resulting in a difference of 3.1% with 95% CI (-2.0%, 8.3%) using the Applicant's primary analysis method. The results from analyses conducted by the reviewer and by the Applicant that account for stratification, which are also shown in the table, yield consistent results with primary analysis for both studies.
+L219: Given that the lower bound of the 95% CIs for the primary analysis are greater than -10% in both studies, these findings support the Applicant's primary objective of demonstrating noninferiority of delafoxacin to control based on objective clinical response at 48 to 72 hours; however, a conclusion of superiority cannot be made. It is notable the extent of missing data in both studies during the first 3 days in the study; specifically, approximately 7% (7.9% delafoxacin compared to 6.7% control) in Study 302 and approximately 5% (4.7% delafoxacin compared to 4.9% control) in Study 303. Sensitivity analyses to assess the effect of missing data on the analysis of the primary endpoint are presented later in this section.
+L220: ***Reviewer's Comment:*** *Upon inspection, one patient, MEL303/604-406-3739, in the control arm of Study 303 with baseline measurement for erythema area of zero is coded as a clinical response for the primary analysis in the Applicant's dataset. An analysis that excludes this patient will not change the conclusion of this study.*
+L221: Figure 3 shows the percentage of patients having various degrees of reduction in lesion size at 48 to 72 hours for both studies in order to further assess the robustness of the primary analysis findings. As shown in this figure, the control arm has more favorable response rates compared to delafoxacin for all of the percent reduction categories in Study 302; however, the differences in response rate is small (&lt;5%). Conversely, in Study 303 delafoxacin response rates are higher than control for all percent reduction categories. These findings provide additional support of the non-inferiority of delafoxacin to control.
+L222: Table 14 Objective Clinical Response at 48 to 72 hours (Primary Analysis) – ITT Population
+L223: Study 302	Study 303
+Delafoxacin
+IV
+N=331	Control
+N=329	Delafoxacin
+IV/oral
+N=423	Control
+N=427
+Clinical Response, n (%)	259 (78.2)	266 (80.9)	354 (83.7)	344 (80.6)
+Clinical Failure, n (%)	72 (21.7)	63 (19.1)	69 (16.3)	83 (19.4)
+Reviewer's Difference1 (95% CI)	-2.7 (-8.8, 3.4)	3.1 (-1.9, 8.2)
+Applicant's Difference2 (95% CI)	-2.6 (-8.8, 3.6)	3.1 (-2.0, 8.3)
+Reasons for Failure3	
+Missing Data	26 (7.9)	22 (6.7)	20 (4.7)	21 (4.9)
+<20% reduction of erythema area	46 (13.9)	40 (12.2)	49 (11.6)	61 (14.3)
+Administration of rescue therapy	1 (0.3)	1 (0.3)	0	2 (0.5)
+Need for unplanned surgical intervention	0	0	0	1 (0.2)
+Death	0	0	0	0
+1Reviewer's analysis of difference in clinical response rates, expressed as percentages, based on Mantel Haenszel methods to account for stratification by infection site in study 302, and for stratification by BMI and infection type in study 303.
+2Applicant's analysis of difference in clinical response rates, expressed as percentages, based on Miettinen and Nurminen without stratification by infection site. Stratification based on this method for the primary endpoint yields difference of -2.3%, 95% CI (-8.4%, 3.8%) in Study 302 and 2.8%, 95% CI (-2.2%, 7.8%) in Study 303.
+3Other than missing data, may include patients who were classified as failures for multiple reasons.
+Source: Created by the statistical reviewer using dataset "adeff.xpt" for respective study.
+L224: Figure 3 Percent Reduction in Objective Response at 48 to 72 hours – ITT Population
+L225: Source: Created by the statistical reviewer using dataset adobj.xpt for respective study
+L226: ## Secondary Analysis Results
+L227: Table 15 shows the findings for analysis of objective clinical response rate at EOT for the ITT population. For Study 302, the clinical response rate at EOT is 88.8% for delafoxacin patients and 91.8% for control patients resulting in a difference of -3.0% with 95% CI (-7.5%, 1.5%). For Study 303, the clinical response rate is 94.1% for delafoxacin patients and 92.3% for control patients resulting in a difference of 1.8% with 95% CI (-1.6%, 5.2%). These findings provide
+L228: supportive data of the efficacy of delafloxacin for the treatment of ABSSSI and suggest sustained response at end of treatment. Importantly, this assessment provides evidence to inform the efficacy of the oral formulation which would have likely been initiated after the primary endpoint ascertainment in Study 303.
+L229: Table 15 Objective Clinical Response at EOT – ITT Population
+L230: Study 302	Study 303
+Delafoxacin	Delafoxacin
+IV
+N=331	Control
+N=329	IV/oral
+N=423	Control
+N=427
+Clinical Response, n (%)	294 (88.8)	302 (91.8)	398 (94.1)	394 (92.3)
+Clinical Failure, n (%)	27 (11.2)	37 (8.2)	25 (5.9)	33 (7.7)
+Difference (95% CI)1	-3.0 (-7.5, 1.5)	1.8 (-1.6, 5.2)
+Reasons for Failure2
+Missing Data	23 (6.9)	13 (4.0)	12 (2.8)	11 (2.6)
+<20% reduction of erythema area	12 (3.6)	10 (3.0)	9 (2.1)	15 (3.5)
+Administration of rescue therapy	3 (0.9)	5 (1.5)	2 (0.5)	7 (1.6)
+Need for unplanned surgical intervention	0	0	2 (0.5)	5 (1.2)
+Death	0	0	0	0
+L231: 1Difference in clinical response rates, expressed as percentages, and 95% CI based on Miettinen and Nurminen without stratification by infection site in Study 302 or infection site and BMI in Study 303.
+L232: 2Other than missing data, may include patients who were classified as failures for multiple reasons.
+L233: Source: Created by the statistical reviewer using dataset “adeff.xpt” for respective study
+L234: Table 16 shows the findings for analyses of objective clinical response at 48 to 72 hours and at EOT for the MITT population, i.e. patients with baseline pathogen known to cause ABSSSI. For Study 302, the clinical response rate at 48 to 72 hours is 81.1% for delafloxacin patients and 83.8% for control patients resulting in a difference of -2.7% with 95% CI (-9.5%, 4.0%). For Study 303, the clinical response rate is 87.6% for delafloxacin patients and 80.6% for control patients resulting in a difference of 5.3% with 95% CI (-0.7%, 11.4%). These treatment effects appear to be sustained at the EOT time point where a treatment difference of -2.2% with 95% CI (-6.7, 2.4) and 4.3% with 95% CI (0.7, 8.0) is observed in Study 302 and Study 303, respectively. These results for the MITT population provide supportive evidence of the efficacy of delafloxacin for the treatment of ABSSSI. An examination of objective clinical response for each of the pathogens proposed by the Applicant is presented in Section 4.
+L235: Table 16 Objective Clinical Response at 48 to 72 hours and EOT – MITT Population
+L236: Study 302	Study 303
+Delafoxacin
+IV
+N=243	Control
+N=247	Delafoxacin
+IV/oral
+N=275	Control
+N=277
+Time point: 48 to 72 hours	
+Clinical Response, n (%)	197 (81.1)	207 (83.8)	241 (87.6)	228 (80.6)
+Clinical Failure, n (%)	46 (18.9)	40 (16.2)	34 (12.4)	49 (19.4)
+Difference* (95% CI)	-2.7 (-9.5, 4.0)	5.3 (-0.7, 11.4)
+Time point: EOT	
+Clinical Response, n (%)	223 (91.8)	232 (93.9)	267 (97.1)	257 (92.8)
+Clinical Failure, n (%)	20 (8.2)	15 (6.1)	8 (2.9)	20 (7.2)
+Difference* (95% CI)	-2.2 (-6.7, 2.4)	4.3 (0.7, 8.0)
+L237: EOT=end-of-treatment
+L238: *Difference in clinical response rates, expressed as percentages, and 95% CI based on Miettinen and Nuriminen without stratification by infection site for Study 302 or infection site and BMI for Study 303.
+L239: Source: Created by the statistical reviewer using dataset "adeff.xpt" for respective study
+L240: ## Sensitivity Analyses Results
+L241: This section presents the results of sensitivity analysis to assess the impact of missing data on the primary analysis. Table 17 shows the disposition of patients who are missing in the primary analysis. As shown, most of the missing data in both studies can be attributed to patients who either never received study treatment or considered lost to follow-up within the first 3 days of the respective study.
+L242: Table 17 Exploration of Reasons for Missing Data in Primary Analysis – ITT Population
+L243: Study 302	Study 303
+Delafoxacin
+IV
+N=331
+n (%)	Control
+N=329
+n (%)	Delafoxacin
+IV/oral
+N=423
+n (%)	Control
+N=427
+n (%)
+Total No. Patients Missing	26 (7.9)	22 (6.7)	20 (4.7)	21 (4.9)
+Time in Study	
+Missing (never received treatment)	7 (2.1)	3 (0.9)	6 (1.4)	2 (0.5)
+Less than 3 days	12 (3.6)	9 (2.7)	5 (1.2)	12 (2.8)
+Adverse event	0	0	0	2 (0.5)
+Lost to follow-up	9 (2.7)	5 (1.5)	2 (0.5)	6 (1.4)
+Non-compliance with study drug	0	1 (0.3)	1 (0.2)	0
+Protocol violation	0	0	1 (0.2)	1 (0.2)
+Withdrawal by subject	3 (0.9)	3 (0.9)	1 (0.2)	3 (0.7)
+3 or more days	7 (2.2)	10 (3.4)	9 (2.1)	7 (1.6)
+L244: Source: Created by the statistical reviewer using dataset adsl.xpt and adeff.xpt for respective study
+L245: Two sensitivity analyses that are conducted by the reviewer, the results of which are presented in Table 18, show general consistency with the primary analysis findings for both studies. The first sensitivity analysis, referred to as the worse-case analysis, considers all patients who are missing
+L246: in the primary analysis as failures in the delafoxacin arm and as responses in the control arm. The treatment effect from this analysis is -9.3% with 95% CI (-15.0%, -3.6%) and -1.8% with 95% CI (-6.7%, 3.1%) in Study 302 and Study 303, respectively. The second sensitivity analysis imputes responses from EOT for missing data at 48 to 72 hours; otherwise, the patient is considered missing (i.e. failure). The treatment effect from this analysis is -3.8% with 95% CI (-9.9%, 2.2%) and 3.4% with 95% CI (-1.6%, 8.3%) in Study 302 and Study 303, respectively.
+L247: ***Reviewer's Comment: Given the lower bound of the 95% CI for the primary analysis of Study 302 is -8.8%, any small change in response rates in this study could tip the results toward inferiority. Caution is therefore advised when interpreting findings from sensitivity analyses.***
+L248: Table 18 Results of Sensitivity Analyses – ITT Population
+L249: Study 302	Study 303
+Delafoxacin
+IV
+N=331	Control
+N=329	Delafoxacin
+IV/oral
+N=423	Control
+N=427
+Worse-Case Analysis	
+Clinical Response, n (%)	259 (78.2)	288 (87.5)	354 (83.7)	365 (85.5)
+Clinical Failure, n (%)	72 (21.7)	41 (12.5)	69 (16.3)	62 (15.5)
+Difference* (95% CI)	-9.3 (-15.0, -3.6)	-1.8 (-6.7, 3.1)
+Imputed Value from EOT	
+Clinical Response, n (%)	260 (78.6)	271 (82.4)	362 (85.6)	351 (82.2)
+Clinical Failure, n (%)	71 (21.5)	58 (17.6)	61 (14.4)	76 (17.8)
+Difference* (95% CI)	-3.8 (-9.9, 2.2)	3.4 (-1.6, 8.3)
+L250: *Difference in clinical response rates, expressed as percentages, and 95% CI based on Miettinen and Nurminen without stratification by infection site for Study 302 or infection site and BMI for Study 303.
+L251: Source: Created by the statistical reviewer using dataset adeff.xpt for respective study
+L252: ## 3.2.4.2 Results from Analyses of Investigator-Assessed Response
+L253: Table 19 shows the findings for investigator-assessed response at FU in the ITT population for Study 302 and Study 303. Recall that this is a key secondary endpoint in Study 302 which was to be tested first for superiority in the hierarchical procedure proposed by the Applicant for this study. For Study 302, the cure rate for delafoxacin is 52% and for control is 50.5%. The resulting treatment difference is 1.5% with corresponding 95% CI (-6.1%, 9.1%); therefore, superiority cannot be concluded. For Study 303, the cure rate is 57.7% for delafoxacin patients and 59.7% for control patients, which results in a difference of -2.0% with 95% CI (-8.7%, 4.6%). Consistent results are obtained at LFU visit, not shown in the table, which are as follows: treatment difference of 3.8% with 95% CI (-3.3%, 10.9%) in Study 302 and -3.1% with 95% CI (-9.3%, 3.1%).
+L254: This table also shows the results for investigator-assessed response at FU, based on success, i.e. cure + improved, in the ITT and CE population for both studies. For the ITT population, the success rates are generally higher than those observed for the cure response across both studies, which is to be expected based on the definition of success. In Study 302, the difference in success rates at FU is 1.5% with 95% CI (-6.1%, 9.1%) and in Study 303, the difference in success rates is -2.0% with 95% CI (-8.7%, 4.6%). Consistent results are obtained at LFU visit,
+L255: not shown in the table, which are as follows: treatment difference of -1.1%, 95% CI (-7.1%, 5.0%) in Study 302 and treatment difference of 1.2%, 95% CI (-3.9%, 6.2%).
+L256: Table 19 Investigator-Assessed Response at Follow-up Visit – ITT and CE Populations
+L257: Study 302	Study 303
+Delafoxacin
+IV	Control	Delafoxacin
+IV/oral	Control
+ITT Population, n (%)	N=331	N=329	N=423	N=427
+Success: Cure + Improved1	270 (81.6)	274 (83.3)	369 (87.2)	362 (84.8)
+Cure*	172 (52.0)	166 (50.5)	244 (57.7)	255 (59.7)
+Improved	98 (29.6)	108 (32.8)	125 (29.6)	107 (25.1)
+Failure	9 (2.7)	7 (2.1)	17 (4.0)	21 (4.9)
+Indeterminate	10 (3.0)	7 (2.1)	3 (0.7)	8 (1.9)
+Missing	42 (12.7)	41 (12.4)	34 (8.0)	36 (8.4)
+Difference2 (95% CI)	-1.7 (-7.6, 4.1)	2.5 (-2.2, 7.1)
+CE Population**, n (%)	N=240	N=244	N=353	N=329
+Success: Cure + Improved1	232 (96.7)	238 (97.5)	339 (96.0)	319 (97.0)
+Failure	7 (1.5)	6 (2.5)	13 (3.7)	10 (3.0)
+Missing	1 (0.4)	0 (0)	1 (0.3)	0 (0)
+Difference2 (95% CI)	-0.9 (-3.9, 2.1)	-0.9 (-3.8, 2.0)
+L258: 1Success=cure +improved where patients had complete resolution or some symptoms remain, but the patient has improved to an extent that no additional antibiotic treatment is necessary
+L259: 2Difference in success rates, expressed as percentages, based on Miettinen and Nuriminen without stratification
+L260: 3In Study 302, difference in cure rates is 1.5%, 95% CI (-6.1%, 9.1%), and in Study 303, difference in cure rates is -2.0%, 95% CI (-8.7%, 4.6%).
+L261: 4For the reviewer's analyses, presented in table, all missing data treated as failures whereas for Applicant's analysis response at EOT is imputed as response for missing data at FU. In Study 302, the Applicant reports difference in success rates of -0.5% with 95% CI (-3.8%, 2.7%) and in Study 303, the Applicant reports difference in success rates of -0.6% with 95% CI (-3.4%, 2.1%).
+L262: Source: Created by the statistical reviewer using dataset "adcr.xpt" and Table 11-23 for Study 302 and post text Table 14.2.2.2 for Study 303.
+L263: For the CE population, substantially higher success rates are reported (&gt;96% in both treatment arms) at FU visit and treatment effects which appear to be biased toward no difference. This raises concern about the potential for misinterpretation of the benefit of delafoxacin if these findings are included in the label. Further, there is a concern with the Applicant's imputation method to account for missing data that needs to be considered if DAIP decides to include results based on the CE population into the USPI. There are two patients in the delafoxacin arm in each study that are considered as successes in the Applicant's analysis. The reviewer disagrees with the imputation applied for patient RIBX302/376-081-0555 in Study 302. This patient's EOT response of "improved" was imputed as "improved" for FU visit and is therefore considered success in the Applicant's analysis. Upon inspection of the data, the reviewer finds that this patient is reported to be a failure at the late follow-up visit with reason "Antibacterial drug therapy required after 28 doses of study treatment". This implies that the patient would not have met the criterion to be considered improved had they been available at the follow-up visit (i.e. Day 14). This problem is not apparent in Study 303 because the patient, MEL303/604-406-3903, who is missing a FU visit is reported as a cure at EOT and at late follow-up. It is recognized that findings for clinically evaluable populations have been included in the USPI for previously approved ABSSSI products. Therefore, if DAIP decides on inclusion of the findings based on the
+L264: CE population for this application, the reviewer recommends findings based on the analysis without imputation shown as reviewer's analysis in the table.
+L265: ## 3.2.4.3 Conclusions
+L266: Overall, the results for analyses of objective clinical response and investigator-assessed response presented in this section provide evidence to support the efficacy of delafloxacin for the treatment of ABSSSI in adults. The efficacy observed for the primary endpoint at 48 to 72 hours appears to be sustained at later time points and is consistent in the ITT and MITT populations. As noted, caution is advised when interpreting findings based on the CE population because they are likely biased due to exclusion of patients based on post-randomization factors.
+L267: ## 3.3 Evaluation of Safety
+L268: This section presents distributions of treatment duration and descriptive summaries of the percentages of treatment-emergent adverse events (TEAEs), using MedDRA 16.1 dictionary-derived term, from Study 302 and Study 303. These summaries are provided for the safety analysis population, which is defined in the SAP as all randomized patients who receive at least 1 dose of study medication. The safety analysis population comprises 650 patients, 324 delafloxacin and 326 control, and 842 patients, 417 delafloxacin and 425 control, in Study 302 and Study 303, respectively. Exploratory analyses, based on Mantel-Haenszel method to account for stratification by study, are presented to estimate the risk difference (delafloxacin – control) as well as 95% CI for TEAEs to assess a potential association with delafloxacin use.
+L269: ## 3.3.1 Extent of Treatment Exposure
+L270: The distributions of treatment exposure durations are similar in the delafloxacin and control arms as shown in Figure 4 for Study 302 and Figure 5 for Study 303. In Study 302, the mean duration of treatment exposure is 7.1 days with range of 1 to 15 days for both treatment arms. In Study 303, the mean duration of exposure is 8 days with a range of 1 to 15 days for delafloxacin patients and the mean duration of exposure is 7.8 days with a range of 1 to 16 days for control.
+L271: **Figure 4 Distribution of Treatment Exposure Durations in Study 302 – Safety Analysis Population**
+L272: **Figure 5 Distribution of Treatment Exposure Durations in Study 303 – Safety Analysis Population**
+L273: ## 3.3.2 Summaries of Treatment-Emergent Adverse Events
+L274: In Study 302, there are fewer delafoxacin patients that reported TEAEs compared to control: 154 patients (47.5%) delafoxacin arm and 193 patients (59.2%) control. Figure 6 shows the distribution for TEAEs occurring in at least 2% for either treatment arm. The most commonly reported TEAE is infusion site extravasation which occurred in 8.6% delafoxacin patients and 13.5% control. A notably higher percentage of delafoxacin patients are reported to have diarrhea compared to control, i.e. 8.3% or 27 delafoxacin patients compared to 3.0% or 10 control patients.
+L275: **Figure 6 Treatment-Emergent Adverse Events Study 302 – Safety Analysis Population**
+L276: Horizontal axis represents percentage of patients.
+L277: Source: Created by the statistical reviewer using dataset adae.xpt for Study 302
+L278: The proportion of patients who experienced a treatment-emergent SAE is similar between the treatment arms: 12 delafoxacin patients (3.7%) and 11 control patients (3.4%). There were two deaths in this study, one death in each treatment arm.
+L279: In Study 303, there is a higher percentage of patients experiencing TEAEs in the delafoxacin arm (182 patients or 43.6%) compared to control (167 patients or 39.3%). Figure 7 shows the TEAEs occurring in at least 2% in either treatment arm for this study. The two most commonly reported TEAEs, both of which occur at a higher frequency in delafoxacin patients, are diarrhea (7.7% or 32 delafoxacin compared to 3.3% or 14 control patients) and nausea (7.7% or 32 delafoxacin patients compared to 4.5% or 19 control patients).
+L280: **Figure 7 Treatment-Emergent Adverse Events Study 303 – Safety Analysis Population**
+L281: Horizontal axis represents percentage of patients.
+L282: Source: Created by the statistical reviewer using dataset adae.xpt for Study 303
+L283: The proportion of patients who experienced a treatment-emergent SAEs is similar between the treatment arms: 16 delafoxacin patients (3.8%) and 17 control (4.0%). There were two deaths in this study, both in the control arm.
+L284: The incidence of TEAEs in Study 302 and Study 303 appear generally consistent with other approved products for ABSSSI; see for example the USPI for DALVANCE™. However, there is a larger observed difference (4% to 5%) in the incidence of diarrhea in delafoxacin patients compared to control patients across both studies. The reviewer acknowledges that C. difficile-associated diarrhea (CDAD) has been reported with treatment of antibacterial agents, but there appears to be only one patient (a delafoxacin patient in Study 303) reported to have CDAD across both of the delafoxacin Phase 3 studies. Findings for an exploratory analysis, shown in Figure 8, result in an overall (common) risk difference of 4.8% with 95% CI (2.5%, 7.1%). This is suggestive of an increased risk of diarrhea with delafoxacin compared to control. The reviewer notes that these studies were not designed for drawing conclusive statistical inference about safety outcomes; as such, caution is advised when interpreting the significance of this finding.
+L285: **Figure 8 Forest Plot of Risk Difference for Diarrhea – Safety Analysis Population**
+L286: Risk difference (delafoxacin – control) &gt;0 suggests higher risk of diarrhea in delafoxacin compared to control, risk difference &lt;0 suggests lower risk of diarrhea in delafoxacin compared to control and risk difference of zero suggests no difference in risk of diarrhea between treatment arms
+RIBX302=Study 302, MEL303=Study 303
+L287: Source: Created by the statistical reviewer using adsl.xpt and adae.xpt for each study
+L288: ***Reviewer's Comment:*** *No further assessments of safety are provided in this statistical review; defer to clinical review by Dr. Caroline Jjingo for detailed assessment of delafoxacin safety from all available data in the submission.*
+L289: ## 4 FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L290: This section summarizes the results of analyses conducted by the reviewer to assess objective clinical response and investigator-assessed response in Study 302 and Study 303 within the specified subgroups; all subgroups are defined based on pre-treatment measurements. Recall that the subgroup analysis of investigator-assessed response of cure at LFU in obese patients was a pre-specified analysis to be tested for superiority after non-inferiority had been established for Study 303. All other subgroup analyses are conducted for descriptive purposes only and should be interpreted with caution.
+L291: ## 4.1 Age, Sex, Race, and Geographic Region
+L292: Table 20 shows results from subgroup analyses of objective clinical response at 48 to 72 hours by age, sex, race, and geographic region. As shown in the table, findings are generally consistent with the overall results. For Study 302, the response rates are similar between treatment arms in patients \ge 65 years; however for Study 303, the delafoxacin response rates appears to be large (6% difference) compared to control. This observation is likely due to the limited number of patients aged 65 years or greater in Study 302. Similarly, analyses are limited for European region in Study 302, and for Black and Other race groups across both studies.
+L293: Table 21 presents the findings for analysis of investigator-assessed response (cure and success) at follow-up by region (US v. non-US). It is of particular interest to the reviewer to identify any potential regional differences, given that the Applicant has proposed inclusion of findings based on a response of success, i.e. cure + improved, into the USPI and there might be some subjectivity in identifying patients who have improved across different regions. For both studies, the findings appear generally consistent with the overall results when considering the response of cure or success. The reviewer notes that the response rates in both treatment arms appear to be lower in the US compared to non-US regions; however, there are no apparent differences in treatment effects across the regions for either cure or success responses. Caution is advised in interpreting findings for the non-US region of Study 302, in particular, the observed treatment effect of 14.8% and suggestion of benefit for delafoxacin for the outcome of cure. Given that many subgroup analyses are performed without control for Type I error, it is not unexpected to observe some significant results; notice that no such difference is apparent for Study 303.
+L294: Table 20 Objective Clinical Response at 48 to 72 hours by Age, Sex, Race, Region – ITT Population
+L295: Demographic Characteristic	Study 302	Study 303
+Delafoxacin IV
+N=331	Control
+N=329	Difference
+(95%CI)	Delafoxacin
+IV/oral
+N=423	Control
+N=427	Difference
+(95%CI)
+Overall	259/331 (78.2)	266/329 (80.9)	-2.6 (-8.8, 3.6)	354/423 (83.7)	344/427 (80.6)	3.1 (2.0,8.3)
+Age in years	
+<65	242/305 (79.3)	253/309 (81.9)	-2.5 (-8.8, 3.7)	287/338 (84.9)	285/346 (82.4)	2.5 (-3.0, 8.1)
+≥65	17/26 (65.4)	13/20 (65.0)	0.4 (-27.4, 28.2)	67/85 (78.8)	59/81 (72.8)	6.0 (-7.1, 19.0)
+Sex	
+Female	100/125 (80.0)	95/120 (79.2)	0.8 (-9.3, 11.1)	132/161 (82.0)	118/151 (78.2)	3.8 (-5.1, 12.8)
+Male	159/206 (77.2)	171/209 (81.8)	-4.6 (-12.5, 3.2)	222/262 (84.7)	226/276 (81.9)	2.9 (-3.5, 9.2)
+Race	
+Black	23/27 (85.2)	15/19 (79.0)	6.2 (-22.6,34.5)*	9/13 (69.2)	18/18 (100)	-30.8(-61.4, 4.5)*
+White	231/297 (77.8)	247/304 (81.3)	-3.5 (-10.0,3.0)	299/348 (85.9)	290/355 (81.7)	4.2 (-1.2, 9.7)
+Other	5/7 (71.4)	4/6 (66.7)	4.8 (-49.7, 56.0)	46/62 (74.2)	36/54 (66.7)	7.5 (-9.1, 24.1)
+Geographic Region	
+United States1	213/268 (79.5)	226/274 (82.5)	-3.0 (-9.7, 3.6)	180/202 (89.1)	170/196 (86.7)	2.4 (-4.1, 9.0)
+Europe	46/63 (73.0)	40/55 (72.7)	0.3 (-15.7, 16.6)	132/165 (80.0)	134/173 (77.5)	2.5 (-6.3, 11.3)
+Other	--	--	--	42/56 (75.0)	40/58 (69.0)	6.0 (-10.6, 22.3)
+L296: *CI based on exact methods; otherwise using Miettinen and Nurminen method
+L297: 1Reported as North America (i.e. United States and Canada) in datasets, but studies includes sites United States only
+L298: Source: Created by the statistical reviewer using dataset "adsl xpt" for respective study
+L299: Table 21 Investigator-Assessed Response at Follow-Up by Region – ITT Population
+L300: Study 302	Study 303
+Delafoxacin
+IV
+N=331	Control
+N=329	Difference
+(95%CI)	Delafoxacin
+IV/oral
+N=423	Control
+N=427	Difference*
+(95%CI)
+Overall (Cure)	172/331 (52.0)	166/329 (50.5)	1.5 (-6.1, 9.1)	244/423 (57.7)	255/427 (59.7)	-2.0 (-8.7, 4.6)
+US	118/268 (44.0)	127/274 (46.4)	-2.3 (-10.7, 6.1)	94/202 (46.5)	97/196 (49.5)	-3.0 (-12.7, 6.9)
+Non-US	54/63 (85.7)	39/55 (70.9)	14.8 (0.2, 29.6)	150/221 (67.9)	158/231 (68.4)	-0.5 (-9.1, 8.1)
+Overall (Cure + Improved)	270/331 (81.6)	274/329 (83.3)	-1.7 (-7.6, 4.1)	369/423 (87.2)	362/423 (84.8)	2.5 (-2.2, 7.1)
+US	212/268 (79.1)	226/274 (82.5)	-3.4 (-10.1, 3.3)	168/202 (83.2)	158/196 (80.6)	2.6 (-5.1, 10.2)
+Non-US	58/63 (92.1)	48/55 (87.3)	4.8 (-6.6, 17.2)	201/221 (91.0)	204/231 (88.3)	2.6 (-3.1, 8.4)
+L301: *CI based on Miettinen and Nurminen method
+L302: Source: Created by the statistical reviewer using dataset "adcr xpt" for respective study
+L303: ## 4.2 Other Special/Subgroup Populations
+L304: ## 4.2.1 Other Subgroup Analyses in ITT Population
+L305: Table 22 shows that objective clinical response at 48 to 72 hours across BMI categories is generally consistent with the overall results across both studies. There are no notable differences in treatment effect observed in either study.
+L306: A pre-specified subgroup analysis in Study 303, also the first secondary endpoint in the Applicant's proposed hierarchical testing procedure to assess superiority, is investigator-assessed cure for patients with a baseline BMI \ge 30, i.e. obese patients, at the Late Follow-up Visit. The results from this analysis are presented in Table 23. For completeness and to assess the Applicant's conclusion that obese patients in the delafoxacin arm had better outcomes compared to the control arm at the LFU visit in Study 302, the assessment is also presented for this study. As shown, in Study 302, there is a suggestion of a significant improvement in cure rates favoring delafoxacin for patients with BMI \ge 30, i.e., an observed treatment effect of 14.2% with 95% CI (1.3%, 26.9%). The reviewer notes that this apparent difference is not observed in Study 303, which is enriched to include at least 40% of patients with BMI \ge 30 to allow for superiority testing. Among obese patients, the treatment difference is -2.8% with 95% CI (-11.5, 6.0). As such, the Applicant's conclusion from Study 302 that obese patients treated with delafoxacin had "a statistically better outcome of cure" than those treated with control based on an exploratory subgroup analysis has not been substantiated. For the investigator-assessed response of success, the findings are generally consistent with the overall findings and there are no notable differences in treatment effect across the BMI categories for either study.
+L307: Table 24 shows that the results for subgroup analysis of objective clinical response at 48 to 72 hours across the infection types are generally consistent with the overall findings in both studies. For Study 302, the response rates are higher in patients with wound infections compared to the other infection types and in Study 303, response rates are higher in patients with major cutaneous abscess compared to other infection types. The analysis for burn infections is limited by the small number of patients. This table also shows that the findings for analysis of objective clinical response at 48 to 72 hours by location of infection are also generally consistent with the overall results; particularly in the most prevalent locations, namely, arm, leg, and other. The analysis is limited by the small number of patients with infections in the abdomen, back, face, neck, and thorax.
+L308: Table 25 shows that the results for the analysis of objective clinical response by comorbid conditions; namely, by patients with or without diabetes and by renal function, are generally consistent with the overall results. As noted earlier in this review, renal function is reported using CrCl and eGFR measurements per requests by clinical and clinical pharmacology reviewer. No notable differences are identified across the renal function categories when using the different measurements.
+L309: Table 26 shows the results for analyses of objective clinical response at 48 to 72 hours by use of prior therapy, i.e., within 14 days of randomization in the respective studies. In both studies, the response rates appear lower in delafoxacin patients compared to control for patients who
+L310: received some prior effective therapy. However the sample sizes are small in this subgroup with wide confidence intervals. Therefore, caution is advised when interpreting the apparent low treatment effects among patients who received prior therapy.
+L311: Additional subgroup analyses of objective clinical response at 48 to 72 hours by systemic signs of ABSSSI, prior surgical procedure, and type of surgical procedure were performed by the reviewer, but are not presented in this review. There were no notable differences observed across these subgroups.
+L312: ## 4.2.2 Subgroup Analyses in MITT Population
+L313: The results for subgroup analyses of objective clinical response at 48 to 72 hours and investigator-assessed response (i.e. success) at FU by the Applicant's proposed pathogens for the USPI are shown in Table 27 and Table 28, respectively. These analyses are presented for the MITT population for each Phase 3 study and pooled across the two studies. The response rates are generally similar between the treatment arms across all pathogens. Similar response rates are also obtained, though not shown in the table, for patients identified as having bacteremia at baseline. For *Staphylococcus aureus* and *Streptococcus anginosus* Group, which are the most prevalent pathogens proposed for the USPI, the objective clinical response rates in the pooled studies are 85% delafoxacin, 83% control and 92% delafoxacin, 90% control, respectively. The investigator-assessed success rates at FU for *Staphylococcus aureus* and *Streptococcus anginosus* Group in the pooled studies are 86% delafoxacin, 83% control and 84% delafoxacin, 77% control, respectively. There are less than 10 patients in each treatment arm in the pooled studies with *Klebsiella oxytoca* and *Proteus mirabilis*. Therefore, it is uncertain whether there is sufficient evidence of the effect of delafoxacin in patients with ABSSSI due to these pathogens. Defer to clinical and clinical microbiology reviews for further assessments of the proposed pathogens for the USPI.
+L314: ***Reviewer's Comment:*** *The Applicant proposes findings from the pooled response rates for inclusion in the label. The reviewer was able to replicate the Applicant's results except for Streptococcus lugdunensis* response rates in the delafoxacin arm; specifically, the reviewer obtained an objective clinical response rate of 72.7% (8/11) and success rate of 90.9% (10/11), whereas the Applicant reports a rate of 80% (8/10) and 100% (10/10), respectively. This apparent discrepancy needs to be resolved as part of the labelling review.
+L315: Additional analyses of objective clinical response at 48 to 72 hours in subgroups determined by the type and number of organisms proposed by the Applicant for the USPI that were identified at baseline (e.g. monomicrobial Gram-positive) were also performed by the reviewer, but are not presented in this review. There were no notable differences observed across these subgroups.
+L316: Table 22 Objective Clinical Response at 48 to 72 hours by BMI – ITT Population
+L317: Study 302	Study 303
+Delafoxacin
+IV
+N=331	Control
+N=329	Difference
+(95%CI)	Delafoxacin
+IV/oral
+N=423	Control
+N=427	Difference
+(95%CI)
+Overall	259/331 (78.2)	266/329 (80.9)	-2.6 (-8.8, 3.6)	354/423 (83.7)	344/427 (80.6)	3.1 (-2.0, 8.3)
+BMI Category, in kg/m2	
+< 25	89/113 (78.7)	104/125 (83.2)	-4.4 (-14.7, 5.6)	81/103 (78.6)	76/104 (73.1)	5.6 (-6.2, 17.2)
+25 – 30	80/98 (81.6)	92/110 (83.6)	-2.0 (-12.7, 8.4)	97/109 (89.0)	94/109 (86.2)	2.8 (-6.2, 11.9)
+≥ 30	90/120 (75.0)	70/94 (74.5)	0.5 (-11.1, 12.5)	176/211 (83.4)	174/214 (81.3)	2.1 (-5.2, 9.4)
+CI based on Miettinen-Nuriminen method
+BMI categories provided by clinical reviewer.
+Source: Created by the statistical reviewer using dataset “adsl.xpt” for respective study
+L318: Table 23 Investigator-Assessed Response at LFU by BMI Category – ITT Population
+L319: Study 302	Study 303
+Delafoxacin
+IV
+N=331	Control
+N=329	Difference
+(95%CI)	Delafoxacin
+IV/oral
+N=423	Control
+N=427	Difference
+(95%CI)
+Overall (Cure)	233/331 (70.4)	219/329 (66.6)	3.8 (-3.3, 10.9)	287/423 (67.9)	303/427 (71.0)	-3.1 (-9.3, 3.1)
+BMI Category, in kg/m2	
+< 30	147/211 (69.7)	165/235 (70.2)	-0.5 (-9.1, 8.0)	143/212 (67.5)	151/213 (70.9)	-3.4 (-12.2, 5.4)
+≥ 30	86/120 (71.7)	54/94 (57.5)	14.2 (1.3, 26.9)	144/211 (68.3)	152/214 (71.0)	-2.8 (-11.5, 6.0)
+Overall (Cure + Improved)	265/331 (80.1)	267/329 (81.2)	-1.1 (-7.1, 5.0)	353/423 (83.5)	351/427 (82.2)	1.2 (-3.9, 6.2)
+BMI Category, in kg/m2	
+< 30	167/211 (79.2)	194/235 (82.6)	-3.4 (-10.8, 3.9)	173/212 (81.6)	174/213 (81.7)	-0.09 (-7.5, 7.3)
+≥ 30	98/120 (81.7)	73/94 (77.7)	4.0 (-6.8, 14.9)	180/211 (85.3)	177/214 (82.7)	2.6 (-4.4, 9.7)
+CI based on Miettinen-Nuriminen method
+BMI categories determined by Applicant
+Source: Created by the statistical reviewer using dataset “adcr.xpt” for respective study
+L320: Table 24 Objective Response at 48 to 72 hours by Infection Type and Location of Infection – ITT Population
+L321: Study 302	Study RX3341-303
+Delafoxacin
+IV
+N=331	Control
+N=329	Difference
+(95%CI)	Delafoxacin
+IV/oral
+N=423	Control
+N=427	Difference
+(95%CI)
+Overall	259/331 (78.2)	266/329 (80.9)	-2.6 (-8.8, 3.6)	354/423 (83.7)	344/427 (80.6)	3.1 (-2.0, 8.3)
+Type of Infection	
+Burn infection	3/3 (100)	2/2 (100)	0 (--, --)	2/4 (50.0)	1/3 (33.3)	16.7 (-59.3, 81.6)*
+Cellulitis/Erysipelas	89/128 (69.5)	95/128 (74.2)	-4.7 (-15.7, 6.4)	155/202 (76.7)	151/206 (73.3)	3.4 (-5.0, 11.8)
+Major cutaneous abscess	68/84 (81.0)	69/83 (83.1)	-2.2 (-13.8, 9.5)	98/106 (92.5)	96/106 (90.6)	1.9 (-6.0, 10.0)
+Wound infection	99/116 (85.3)	100/116 (86.2)	-0.9 (-10.1, 8.4)	99/111 (89.2)	96/112 (85.7)	3.5 (-5.5, 12.1)
+Location of Infection	
+Abdomen	17/19 (89.5)	10/12 (83.3)	6.1 (-40.7, 29.0)*	16/19 (84.2)	15/19 (79.0)	5.3 (-28.4, 38.0)*
+Arm	77/100 (77.0)	94/112 (83.9)	-6.9 (-17.9, 3.8)	79/91 (86.8)	80/90 (88.9)	-2.1 (-12.0, 7.8)
+Back	5/6 (83.3)	6/8 (75.0)	8.3 (-57.7, 43.4)*	5/6 (83.3)	8/10 (80.0)	3.3 (-46.0, 52.4)*
+Face	6/6 (100)	3/3 (100)	0 (--, --)	5/7 (71.4)	8/10 (80.0)	-8.6 (-53.8, 37.5)*
+Leg	87/118 (73.7)	87/115 (75.7)	-1.9 (-13.1, 9.3)	170/213 (79.8)	174/231 (75.3)	4.5 (-3.3, 12.2)
+Neck	2/2 (100)	2/2 (100)	0 (--, --)	1 (100)	2 (100)	0 (--, --)
+Other	60/73 (82.2)	62/72 (86.1)	-3.9 (-16.2, 8.3)	74/81 (91.4)	53/61 (86.9)	4.5 (-5.9, 16.3)
+Thorax	5/7 (71.4)	3/6 (50.0)	21.4 (-36.2, 69.3)*	4/5 (80.0)	4/4 (100)	-20.0 (-73.2, 41.9)*
+aCI based on exact methods; otherwise based on Miettinen-Nurminen method.
+Failures include patients who had missing data at primary efficacy assessment, or satisfied reasons for failure provided in table.
+Source: Created by the statistical reviewer using dataset "adsl.xpt" for respective study
+L322: Table 25 Objective Clinical Response at 48 to 72 hours by Comorbid Conditions – ITT Population
+L323: Study 302	Study 303
+Delafoxacin
+IV
+N=331	Control
+N=329	Difference
+(95%CI)	Delafoxacin
+(V/oral
+N=423	Control
+N=427	Difference
+(95%CI)
+Overall	259/331 (78.2)	266/329 (80.9)	-2.6 (-8.8, 3.6)	354/423 (83.7)	344/427 (80.6)	3.1 (-2.0, 8.3)
+Diabetes	
+Yes	21/30 (70.0)	20/27 (74.1)	-4.1 (-27.0, 19.7)	42/53 (79.3)	43/54 (79.6)	-0.4 (-16.1, 15.2)
+No	238/301 (79.1)	246/302 (81.5)	-2.4 (-8.8, 4.0)	312/370 (84.3)	301/373(80.7)	3.6 (-1.9, 9.1)
+Renal Function (by CrCl)	
+Normal (≥90)	218/274 (79.6)	219/271 (80.8)	-1.3 (-8.0, 5.5)	295/344 (85.8)	294/356 (82.6)	3.2 (-2.7, 8.6)
+Mild to moderate decrease (60-90)	29/39 (74.4)	29/36 (80.6)	-6.2 (-25.1, 13.3)	36/44 (81.8)	35/48 (72.9)	8.9 (-8.6, 25.9)
+More than moderate (<60)	11/14 (78.6)	15/19 (79.0)	-0.4 (-33.4, 33.4)*	17/25 (68.0)	13/19 (68.4)	-0.4 (-27.2, 27.7)
+Renal Function (by eGFR)	
+Normal (≥90)	159/201 (79.1)	165/202 (81.7)	-2.6 (-10.4, 5.2)	228/266 (85.7)	231/282 (81.9)	3.8 (-2.4, 10.0)
+Mild to moderate decrease (60-90)	80/100 (80.0)	79/99 (79.8)	0.2 (-11.1, 11.5)	102/119 (85.7)	89/110 (80.9)	4.8 (-4.9, 14.8)
+More than moderate (<60)	19/26 (73.1)	19/25 (76.0)	-2.9 (-26.9, 21.5)	18/28 (64.3)	22/31 (71.0)	-6.7 (-30.2, 17.1)
+L324: CrCl=creatinine clearance
+L325: *CI based on exact methods, otherwise based on Miettinen-Nuriminen method.
+L326: Patients with baseline missing CrCl or eGFR measurements are excluded from analyses
+L327: Source: Created by the statistical reviewer using dataset "adsl.xpt" for respective study and dataset of eGFR measurements provided by pharmacometrics reviewer.
+L328: Table 26 Objective Clinical Response at 48 to 72 hours by Prior Therapy Use – ITT Population
+L329: Study 302	Study 303
+Delafoxacin
+IV
+N=331	Control
+N=329	Difference
+(95%CI)	Delafoxacin
+IV/oral
+N=423	Control
+N=427	Difference
+(95%CI)
+Overall	259/331 (78.2)	266/329 (80.9)	-2.6 (-8.8, 3.6)	354/423 (83.7)	344/427 (80.6)	3.1 (-2.0, 8.3)
+Within 14 days of enrollment*	
+Yes	36/52 (69.2)	56/71 (78.9)	-9.6 (-25.7, 5.9)	68/89 (76.4)	86/111 (77.5)	-1.1 (-13.1, 10.6)
+No	223/278 (80.2)	207/253 (81.8)	-1.6 (-8.3, 5.1)	286/334 (85.6)	258/316 (81.7)	4.0 (-1.7, 9.8)
+One dose of effective therapy**	
+Yes	20/28 (71.4)	34/43 (79.1)	-7.6 (-29.1, 12.4)	43/60 (71.7)	64/81 (79.0)	-7.4 (-22.1, 6.9)
+No#	239/303 (78.9)	232/286 (81.1)	-0.2 (-8.7, 4.2)	311/363 (85.7)	280/346 (80.9)	4.8 (-0.7, 10.2)
+CI based on Miettinen-Nuriminen method
+Patients with missing information excluded from analyses.
+*Use of prior antimicrobial therapy for ABSSSI in the 14 days before study enrollment
+**Before enrollment, patient received only 1 dose of either a single, potentially effective, short-acting (half-life \le12 hours) antimicrobial drug or a short-acting antimicrobial drug regimen for treatment of the ABSSSI under study. One dose of a regimen was defined as the standard therapy for ABSSSI at the study site
+#Includes patients who might have received antimicrobial therapy within 14 days prior to enrollment that was deemed potentially effective
+Source: Created by the statistical reviewer using dataset "adabs.xpt" corresponding to each study
+L330: Table 27 Objective Clinical Response Rates at 48 to 72 hours by Pathogen – MITT Population
+L331: Study 302	Study 303	Pooled Studies
+Delafoxacin
+IV
+N=243	Control
+N=247	Delafoxacin
+IV/oral
+N=275	Control
+N=277	Delafoxacin
+N=518	Control
+524
+Gram-Positive Organisms	
+Staphylococcus aureus	128/159 (80.5)	138/165 (83.6)	143/160 (89.4)	131/159 (82.4)	271/319 (85.0)	269/324 (83.0)
+MRSA	63/78 (80.7)	76/91 (83.5)	62/66 (93.9)	45/50 (90.0)	125/144 (86.8)	121/141 (85.8)
+MSSA	66/82 (80.5)	62/74 (83.8)	83/95 (87.4)	86/109 (78.9)	149/177 (84.2)	148/183 (80.8)
+Staphylococcus haemolyticus	5/6 (83.3)	2/2 (100)	6/9 (66.7)	5/6 (83.3)	11/15 (73.3)	7/8 (87.5)
+Staphylococcus hominis	4/4 (100)	4/6 (66.7)	7/7 (100)	6/7 (85.7)	11/11 (100)	10/13 (76.9)
+Staphylococcus lugdunensis	6/7 (85.7)	3/3 (100)	2/4 (50.0)	3/6 (50.0)	8/11 (72.7)	6/9 (66.7)
+Streptococcus agalactiae	4/6 (66.7)	1/2 (50.0)	6/8 (75.0)	8/10 (80.0)	10/14 (71.4)	9/12 (75.0)
+Streptococcus anginosus Group1	30/35 (85.7)	33/37 (89.2)	29/29 (100)	22/24 (91.7)	59/64 (92.2)	55/61 (90.2)
+Streptococcus dysgalactiae	2/3 (66.7)	1/2 (50.0)	5/6 (83.3)	7/9 (77.8)	7/9 (77.8)	8/11 (72.7)
+Streptococcus mitis/oralis	5/6 (88.3)	3/3 (100)	7/7 (100)	2/2 (100)	12/13 (92.3)	5/5 (100)
+Streptococcus pyogenes	5/7 (71.4)	2/6 (33.3)	12/16 (75.0)	7/12 (58.3)	17/23 (73.9)	9/18 (50.0)
+Enterococcus faecalis	3/3 (100)	3/3 (100)	8/8 (100)	9/13 (69.2)	11/11 (100)	12/16 (75.0)
+Gram-negative Organism	
+Escherichia coli	3/5 (60.0)	9/9 (100)	9/9 (100)	7/11 (63.6)	12/14 (85.7)	16/20 (80.0)
+Enterobacter cloacae	4/6 (66.7)	2/2 (100)	6/8 (75.0)	6/9 (66.7)	10/14 (71.4)	8/11 (72.7)
+Klebsiella oxytoca	1/2 (50.0)	2/2 (100)	4/4 (100)	2/3 (66.7)	5/6 (83.3)	4/5 (80.0)
+Klebsiella pneumoniae	10/12 (88.3)	11/11 (100)	9/10 (90.0)	11/12 (91.7)	19/22 (86.4)	22/23 (95.7)
+Proteus mirabilis	1/2 (50.0)	--	5/6 (83.3)	5/8 (62.5)	6/8 (75.0)	5/8 (62.5)
+Pseudomonas aeruginosa	2/2 (100)	4/5 (80.0)	7/9 (77.8)	7/7 (100)	9/11 (81.8)	11/12 (91.7)
+L332: 1*Streptococcus anginosus* Group includes patients with any of the following pathogen at baseline *Streptococcus constellatus*; *Streptococcus intermedius* and *Streptococcus anginosus* (per clinical reviewer definition)
+L333: Source: Created by the statistical reviewer using dataset “admb.xpt” and “adef.xpt” corresponding to each study
+L334: Table 28 Investigator-Assessed Success Rates at FU by Indicated Pathogen – MITT Population
+L335: Study 302	Study 303	Pooled Studies
+Delafoxacin
+(300 mg IV)
+N=243	Vancomycin +
+Aztreonam
+N=247	Delafoxacin
+(IV/oral)
+N=275	Vancomycin +
+Aztreonam
+N=277	Delafoxacin
+N=518	Vancomycin
++Aztreonam
+N=524
+Gram-Positive Organisms
+Staphylococcus aureus	133/159 (83.7)	137/165 (83.0)	142/160 (88.8)	132/159 (83.0)	275/319 (86.2)	269/324 (83.0)
+MRSA	68/78 (87.2)	76/91 (83.5)	54/66 (81.8)	40/50 (80.0)	122/144 (84.7)	116/141 (82.3)
+MSSA	65/82 (79.3)	61/74 (82.4)	89/95 (93.7)	92/109 (84.4)	154/177 (87.0)	153/183 (83.6)
+Staphylococcus haemolyticus	5/6 (83.3)	2/2 (100)	8/9 (88.9)	5/6 (83.3)	13/15 (86.7)	7/8 (87.5)
+Staphylococcus hominis	3/4(75.0)	5/6 (83.3)	7/7 (100)	7/7 (100)	10/11(90.9)	12/13 (92.3)
+Staphylococcus lugdunensis	7/7 (100)	2/3 (66.7)	3/4(75.0)	6/6 (100)	10/11 (90.9)	8/9 (88.9)
+Streptococcus agalactiae	5/6 (83.3)	2/2 (100)	7/8 (87.5)	9/10 (90.0)	12/14 (85.7)	11/12 (91.7)
+Streptococcus anginosus Group1	28/35 (80.0)	30/37 (81.1)	26/29 (89.7)	17/24 (70.8)	54/64 (84.4)	47/61 (77.0)
+Streptococcus dysgalactiae	3/3 (100)	2/2 (100)	5/6 (83.3)	8/9 (88.9)	8/9 (88.9)	10/11 (90.9)
+Streptococcus mitis/oralis	5/6 (83.3)	3/3 (100)	7/7 (100)	1/2 (50.0)	12/13 (92.3)	4/5 (80.0)
+Streptococcus pyogenes	6/7 (85.7)	5/6 (83.3)	15/16 (93.8)	11/12 (91.7)	21/23 (91.3)	16/18 (88.9)
+Enterococcus faecalis	2/3 (66.7)	2/3 (66.7)	7/8 (87.5)	12/13 (92.3)	9/11 (81.8)	14/16 (87.5)
+Gram-negative Organism
+Escherichia coli	5/5 (100)	8/9 (88.9)	7/9 (77.8)	10/11 (90.9)	12/14 (85.7)	18/20 (90.0)
+Enterobacter cloacae	4/6 (66.7)	2/2 (100)	8/8 (100)	8/9 (88.9)	12/14 (85.7)	10/11 (90.9)
+Klebsiella oxytoca	2/2 (100)	2/2 (100)	4/4 (100)	3/3 (100)	6/6 (100)	5/5 (100)
+Klebsiella pneumoniae	11/12 (91.7)	10/11 (90.9)	9/10 (90.0)	11/12 (91.7)	20/22 (90.9)	21/23 (91.3)
+Proteus mirabilis	2/2 (100)	--	6/6 (100)	8/8 (100)	8/8 (100)	8/8 (100)
+Pseudomonas aeruginosa	2/2 (100)	5/5 (100)	9/9 (100)	7/7 (100)	11/11 (100)	16/16 (100)
+1Streptococcus anginosus Group includes patients with any of the following pathogen at baseline Streptococcus constellatus; Streptococcus intermedius and Streptococcus anginosus (per clinical reviewer definition)
+Source: Created by the statistical reviewer using dataset “admb.xpt” and “adef.xpt” corresponding to each study
+L336: ## 5 SUMMARY AND CONCLUSIONS
+L337: ## 5.1 Statistical Issues
+L338: There are no major issues with the statistical interpretation of this NDA. However, there are a few minor points to be considered when interpreting the findings of this review. These issues relate to the extent of missing data in the primary analysis, the Applicant's proposal to include findings for the CE population in the "Clinical Studies" section of the USPI, the importance of verifying extreme subgroup findings, and the limitations of statistical analyses to understand delafloxacin efficacy in some patients.
+L339: Firstly, the amount of missing data in both studies in the primary analysis, i.e., patients who do not have efficacy measurements reported at the primary analysis time point, i.e. 48 to 72 hours, is approximately 7% of patients (7.9% delafloxacin compared to 6.7% control) and 5% of patients (4.7% delafloxacin compared to 4.9% control). Most of this missing data is due to patients who never received treatment in the studies or were lost to follow-up. Sensitivity analyses performed by the reviewer to assess the effect of missing data yielded results that are generally consistent with the primary analysis.
+L340: Secondly, there are concerns with the Applicant's proposal to include findings based on the clinically evaluable analysis population into the USPI. The reasons for exclusion of patients from the clinically evaluable population are defined in the study protocols, i.e. prior to study unblinding. However, these exclusions are based on post-randomization factors which might be influenced by treatment. As shown in this review, analyses in the clinically evaluable population results in substantially higher response rates (exceeding 95%) than observed in the ITT population. While there were no notable imbalances between treatments for the various reasons for exclusion from the CE population, many of the reasons could be linked to failures (e.g. indeterminate response or received &lt; 4 doses and was a failure). Therefore, the response rates in the CE population could be artificially high and not overly informative.
+L341: Thirdly, based on the findings from an exploratory subgroup analysis in Study 302, the Applicant concluded that there is a statistically significant benefit of delafloxacin in obese patients. No such conclusions can be made in Study 303, which was subsequently conducted and enriched with at least 40% obese patients to allow for formal statistical testing of this hypothesis. Therefore, the result of Study 302 was likely a chance finding.
+L342: Finally, there is insufficient information in the Phase 3 studies to adequately assess the efficacy of delafloxacin in patients with severe renal impairment or with end stage renal disease. Furthermore, there are no patients treated in either of these studies with the 200 mg IV delafloxacin dose, which has been proposed for use in patients with severe renal impairment and patients with end stage renal disease. As such, the benefit of delafloxacin in these patients cannot be evaluated. Defer to reviews by other disciplines for adequacy of other information contained in the submission to address these issues.
+L343: ## 5.2 Collective Evidence
+L344: This review evaluates the efficacy of delafloxacin in two pivotal Phase 3 studies, namely, Study 302 and Study 303, which are included in the NDA submissions. The results from each study demonstrates that delafloxacin (IV 300 mg and oral 450 mg) is non-inferior to control with respect to primary endpoint of objective clinical response, i.e. reduction in lesion size of at least 20%, at 48 to 72 hours after treatment initiation in the ITT population as well as in the MITT population. The observed treatment effect at 48 to 72 hours appears to be sustained at later time points evaluated. This provides evidence in support of the oral formulation of delafloxacin which was mostly initiated in Study 303 after the primary evaluation. Evaluation of efficacy based on the secondary endpoint of investigator-assessed response and several subgroup analyses provide further evidence in support of the primary analysis findings.
+L345: There is limited information in these studies to adequately assess the efficacy of delafloxacin in patients with severe renal impairment or kidney disease. Also, there are no patients treated in either of these studies with the 200 mg IV delafloxacin dose, which has been proposed by the Applicant for use in these patients.
+L346: With respect to safety, the adverse events observed in these studies appear consistent with other products currently approved in the US for ABSSSI. There is an apparent association between delafloxacin and diarrhea. The clinical review will provide a more complete assessment of the safety of the product.
+L347: ## 5.3 Conclusions and Recommendations
+L348: The findings from the analyses presented in this statistical review provide evidence that delafloxacin IV 300 mg and delafloxacin oral 450 mg are effective for the treatment of ABSSSI in adults. It should be noted that the results of a pre-specified subgroup analysis in Study 303 showed no apparent differences in treatment effect across BMI categories. As such, the Applicant's conclusion from Study 302 that obese patients treated with delafloxacin had "a statistically better outcome of cure" than those treated with control based on an exploratory subgroup analysis has not been substantiated.
+L349: ## 5.4 Labeling Recommendations
+L350: This section summarizes the major labeling recommendations for the "Clinical Studies" Section of the delafloxacin USPI should the product be approved for the indication sought. *Note that label negotiations are ongoing at the time of this statistical review.*
+L351: The Applicant proposes to include findings for the primary analysis in the ITT population, separately for each of the Phase 3 studies, as shown in Table 29. This table is generally acceptable; but, the 95% CI in Trial 1, i.e. Study 302, should be (-8.8%, 3.6%) instead of (8.8%, -3.6%) as proposed in the table.
+L352: Table 29 Applicant's Proposed Table of Objective Response* at 48 to 72 hours for USPI
+L353: Trial	BAXDELA
+(300 mg IV)	Vancomycin
+15 mg/kg + Aztreonam	Treatment Difference
+(2-sides 95% CI)
+Trial 1
+Total n	331	329	
+Responder, n (%)	259 (78.2%)	266 (80.9%)	-2.6 (8.8, -3.6)
+BAXDELA
+(300 mg IV and 450 mg
+oral)
+Trial 2
+Total N	423	427	
+Responder, n/N (%)	354 (83.7%)	344 (80.6%)	3.1 (-2.0, 8.3)
+L354: CI = Confidence Interval; ITT = Intent to Treat
+L355: *Defined as a 20% or greater decrease in lesion size as determined by digital planimetry of the leading edge of erythema without other reasons for failure (use of another antibacterial or surgical procedure to treat for lack of efficacy). Missing patients were treated as failures in the ITT analysis set.
+L356: Source: Extracted from Table 6 of the Applicant's proposed USPI
+L357: The Applicant also proposes to include findings from a secondary analysis of investigator-assessed response at follow-up visit (based on the response of success =cure +improved) in the ITT and CE populations, shown in Table 30; success rates for CE population based on Applicant's imputation for missing data. The reviewer notes that the FDA ABSSSI Guidance currently recommends a secondary endpoint of resolution of ABSSSI, which appears consistent with this Applicant's cure endpoint. Defer to clinical for which response (cure or success) is most meaningful in describing the benefit of delafloxacin for treatment of ABSSSI in the USPI. Regardless of the endpoint decided on for the USPI, given concerns with interpreting results in the CE population described throughout this review, it is recommended to omit findings from this population and include only those obtained from the ITT population. It is recognized that findings for clinically evaluable populations have been included in the USPI for previously approved ABSSSI products. Therefore, if DAIP decides to include findings from the CE population, the reviewer recommends they be based on analyses without imputation for missing data, see for example, Table 19 for findings for success rates obtained without imputation.
+L358: Table 30 Applicant's Proposed Table of Investigator-Assessed Response at Follow-up
+L359: Trial	BAXDELA
+(300 mg IV)	Vancomycin
+15 mg/kg + Aztreonam	Treatment Difference
+(2-sided 95% CI)
+Trial 1
+Success*, n/N (%) ITT	270/331 (81.6%)	274/329 (83.3%)	-1.7 (-7.6, 4.1)
+Success*, n/N (%) CE	(b)
+(4)/240	238/244 (97.5%)	(b)
+(4)
+BAXDELA
+(300 mg IV and 450 mg
+Oral)
+Trial 2
+Success, n/N (%) ITT	369/423 (87.2%)	362/427 (84.8%)	2.5 (-2.2, 7.2)
+Success, n/N (%) CE	(b)
+(4)/353	319/329 (97.0%)	(b)
+(4)
+L360: CI = confidence interval; ITT = intent to treat; CE = clinically evaluable
+L361: *Success was cure + improved where patients had complete or near resolution of signs and symptoms with no further antibacterial needed.
+L362: Source: Extracted from Table 7 of the Applicant's proposed USPI
+L363: Further, the Applicant proposes to include a table showing success rates at follow-up across various patient subgroups in the ITT population from the pooled phase 3 studies. These subgroup results are not considered to be informative and thus it is recommended they be excluded from the USPI.
+L364: APPEARS THIS WAY ON ORIGINAL
+L365: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L366: /s/
+L367: JANELLE K CHARLES
+03/17/2017
+L368: KAREN M HIGGINS
+03/17/2017
+I concur.
+L369: DIONNE L PRICE
+03/18/2017
+Concur
+L370: ## STATISTICAL REVIEW AND EVALUATIONFILING REVIEW OF AN NDA/BLA
+L371: **NDA#:** 208610 &amp; 208611
+**Related IND #:** 62,772 &amp; 76,096
+**Product Name:** BAXDELA™ (delafoxacin) 450 mg oral tablets or 300 mg IV infusion
+**Indication(s):** Treatment of acute skin and skin structure infections
+**Applicant:** Melinta Therapeutics
+**Dates:** October 19, 2016 (receipt date)
+**Review Priority:** Priority
+**Biometrics Division:** Division of Biometrics IV
+**Statistical Reviewer:** Janelle K. Charles, PhD.
+**Concurring Reviewers:** Karen Higgins, ScD. (Statistics Team Leader)
+**Medical Division:** Division of Anti-Infective Products
+**Clinical Team:** Caroline Jjingo, MD, MPH. (Clinical Reviewer)
+Thomas Smith, MD (Clinical Team Leader)
+**Project Manager:** Fariba Izadi, Pharm. D.
+L372: ## 1. Summary of Efficacy/Safety Clinical Trials to be Reviewed
+L373: Melinta Therapeutics, also referred to as the Applicant, submits a New Drug Application (NDA) 208610 for BAXDELA™ (delafoxacin) 450 mg tablets and NDA 208611 300 mg intravenous (IV) injection route of administration for delafoxacin as original 505(b)(1) applications. These applications were granted Qualified Infectious Disease Products designation on September 8, 2012 and Fast Track designation on December 18, 2012.
+L374: Delafoxacin is a novel investigational anionic fluoroquinolone antibiotic with a broad spectrum of antibacterial activity. The Applicant proposes delafoxacin to be indicated for treatment of acute bacterial skin and skin structure infection (ABSSSI) caused by susceptible isolates of the following Gram-positive organisms: *Staphylococcus aureus* [including methicillin-resistant (MRSA) and methicillin-susceptible (MSSA) isolates], *Staphylococcus haemolyticus*, *Staphylococcus lugdunensis*, *Streptococcus agalactiae*, *Streptococcus anginosus* Group, *Streptococcus pyogenes*, and *Enterococcus faecalis*, and by the following Gram-negative organisms: *Escherichia coli*, *Enterobacter cloacae*, *Klebsiella pneumoniae*, and *Pseudomonas aeruginosa*.
+L375: The statistical review of these applications will focus on evaluation of the primary efficacy data from the following two Phase 3 studies, both of which were reviewed under Special Protocol Assessment1, and submitted to support the proposed indication:
+L376: - RX-3341-302 is titled 'A Phase 3, Multicenter, Randomized, Double-blind, Active-controlled Study to Evaluate the Efficacy and Safety of Delafoxacin Compared with Vancomycin + Aztreonam in Patients with Acute Skin and Skin Structure Infections'. Patients were randomized to receive either delafoxacin 300 mg IV every 12 hours or vancomycin 15 mg/kg IV every 12 hours based on actual body weight. Patients randomly assigned to the vancomycin treatment group were to receive initial vancomycin therapy in combination with aztreonam (2g every 12 hours).
+- RX-3341-303 is titled 'A Phase 3 Multicenter, Randomized, Double-blind, Active-controlled Study to Evaluate the Efficacy and Safety of IV and Oral Delafoxacin Compared With Vancomycin + Aztreonam in Patients With Acute Bacterial Skin and Skin Structure Infections'. Patients randomly assigned to the delafoxacin treatment arm and who had a creatinine clearance (CrCl) greater than 29 mL/min at screening received delafoxacin 300 mg IV every 12 hours for 6 doses with a mandatory switch to delafoxacin 450 mg orally every 12 hours for the remaining doses. Patients randomly assigned to the delafoxacin treatment arm and who had a CrCl of 15 to 29 mL/min at screening received delafoxacin 200 mg IV for all doses. Patients randomly assigned to the vancomycin treatment arm were recommended to receive 15 mg/kg IV every 12 hours for all doses based on actual body weight or as per local standard of care. All vancomycin patients received initial combination therapy with aztreonam (patients with a CrCl greater than 29 mL/min at screening received 2 g every 12 hours; patients with a CrCl of 15 to 29 mL/min at screening were to receive 1 g every 12 hours).
+L377: In both studies, aztreonam treatment was to be discontinued as soon as possible if a gram-negative organism was not identified in baseline cultures. To maintain the blind, patients randomly assigned to the delafoxacin treatment group were to receive initial delafoxacin therapy in combination with a blinded placebo infusion, in place of the aztreonam infusion, which was supplied by the unblinded pharmacist or the unblinded designee. If a gram-negative organism was not identified in baseline cultures, then the aztreonam/placebo infusion was to be discontinued. If the baseline culture (blood or skin specimen) contained a gram-negative organism, aztreonam/placebo therapy was to be continued for the remainder of dosing. Additional details about these studies are shown in Table 1.
+L378: The study reports from the two Phase 2 studies submitted as part of the NDAs will be utilized in the statistical review as supportive information as needed.
+L379: **Reviewer's Comment:** *It appears that the oral formulation of delafoxacin was studied in one of the two Phase 3 studies, i.e. in RX-3341-303 only, and administered to patients with creatinine clearance greater than 29 mL/min only, after they have received 6 doses (i.e. 72 hours) of IV delafoxacin. The primary endpoint, defined in Table 1, is assessed 48 to 72 hours after treatment initiation, which implies prior to switch from IV to oral. Secondary endpoints, defined at later time points, will be evaluated as part of the statistical review and to further assess efficacy of the oral formulation.*
+L380: 1 Refer to SPA agreement letters dated February 7, 2013 and July 1, 2015 for study RX-3341-302 and RX-3341-303, respectively.
+L381: Table 1: Summary of Trials to be Assessed in the Statistical Review
+L382: Trial ID	Design*	Treatment/Sample Size	Endpoint/Analysis	Preliminary Findings**
+RX-3341-302	MC, R, DB, PG, AC	Delafoxacin /331
+Vancomycin+aztreonam/329	
+Primary: Objective response of \ge 20\% reduction in lesion erythema area compared to baseline at 48 - 72 hours after initiation of treatment. Analysis of difference in proportions to assess non-inferiority based on 10% margin in ITT patients.
+Key Secondary: Investigator-assessed response of signs and symptoms of infection at the follow-up visit on Day 14. This is one of 7 secondary endpoints tested hierarchically for superiority, if noninferiority of delafoxacin was declared in the primary analysis.
+Infection types in ITT patients:
+35% wound infection
+25% major cutaneous abscess
+39% cellulitis/erysipelas
+1% burn infection
+The proportions of patients included in the study with the above infections are consistent with protocol specifications and FDA ABSSSI Guidance recommendations.
+Success rates for primary endpoint
+Delafoxacin: 259/331 (78.3%)
+Vancomycin+aztreonam: 226/329 (80.9%)
+
+RX-3341-303	MC, R, DB, PG, AC	Delafoxacin /423
+Vancomycin+aztreonam/427	
+Primary: same as above
+Key Secondary: Investigator-assessed response of signs and symptoms of infection in patients with a baseline BMI \ge 30 at the late follow-up visit, i.e. Day 21 to 28. This is one of 7 secondary endpoints tested hierarchically for superiority, if noninferiority of delafoxacin was declared in the primary analysis.
+Infection types in ITT patients:
+26% wound infection
+25% major cutaneous abscess
+48% cellulitis/erysipelas
+1% burn infection
+The proportions of patients included in the study with the above infections are consistent with protocol specifications and FDA ABSSSI Guidance recommendations.
+Success rates for primary endpoint
+Delafoxacin: 354/423 (83.7%)
+Vancomycin+aztreonam: 344/427 (80.6%)
+L383: * MC: multi-center, R: randomized, DB: double-blind, PG: parallel group, AC: active controlled, ITT: intent-to-treat
+L384: ** Summarized by statistical reviewer using datasets adsl.xpt and adeff xpt for respective study.
+L385: ## 2. Assessment of Protocols and Study Reports
+L386: Table 2: Summary of Information Based Upon Review of the Protocol(s) and the Study Report(s)
+L387: Content Parameter	Response/Comments
+Designs utilized are appropriate for the indications requested.	Yes, both Phase 3 studies are designed to evaluate the non-inferiority (NI) of delafoxacin compared to active-control based on a NI margin of 10%; this NI margin is consistent with FDA ABSSSI guidance.
+Endpoints and methods of analysis are specified in the protocols/statistical analysis plans.	Statistical Analysis Plan (SAP) for RX-3341-302 that was contained in the original submission is not readable; text appears as symbols throughout document. SAP for this study was resubmitted on November 10, 2016 following information request.
+Interim analyses (if present) were pre-specified in the protocol with appropriate adjustments in significance level. DSMB meeting minutes and data are available.	Not applicable
+Appropriate details and/or references for novel statistical methodology (if present) are included (e.g., codes for simulations).	Not applicable
+Investigation of effect of missing data and discontinued follow-up on statistical analyses appears to be adequate.	Yes; patients with missing data treated as failures in primary analyses in both studies.
+L388: ## 3. Electronic Data Assessment
+L389: Table 3: Information Regarding the Data
+L390: Content Parameter	Response/Comments
+Dataset location	\cdsesub1\evsprod\nda208610\0001\m5\datasets\rx-3341-302\analysis\adam\datasets
+\cdsesub1\evsprod\nda208610\0001\m5\datasets\rx-3341-303\analysis\adam\datasets
+Were analysis datasets provided?	Yes
+Dataset structure (e.g., SDTM or ADaM)	Data submitted in both SDTM and ADaM formats
+Are the define files sufficiently detailed?	Yes
+List the dataset(s) that contains the primary	adeff.xpt
+L391: Content Parameter	Response/Comments
+endpoint(s)	
+Are the analysis datasets sufficiently structured and defined to permit analysis of the primary endpoint(s) without excess data manipulation?	Yes
+Are there any initial concerns about site(s) that could lead to inspection? If so, list the site(s) that you request to be inspected and the rationale.	
+Four sites were selected for inspection in collaboration with clinical reviewer Dr. Caroline Jjingo and site inspection team (Dr. Bei Yu, reviewer and Dr. Janice Pohlman, team leader):
+840-002 & 840-014 from study RX-3341-302
+840-302 & 840-327 from study RX-3341-303
+Of note, two of these sites 840-002 and 840-302 are located at the same address and are the highest enrolling sites in the respective studies. It would be of interest to determine if any patients were enrolled in both sites.
+Six investigators participated in both studies (1 site in each study); none of the sites that shared a common investigator raised concern for site inspection.
+
+Safety data are organized to permit analyses across clinical trials in the NDA/BLA.	Yes
+L392: ## 4. Filing Issues
+L393: Table 4: Initial Overview of the NDA/BLA for Refuse-to-file (RTF):
+L394: Content Parameter	Yes	No	NA	Comments
+Index is sufficient to locate necessary reports, tables, data, etc..	X	
+ISS, ISE, and complete study reports are available (including original protocols, subsequent amendments, etc.).	X	Per agreement2 with DAIP, the SCE and SCS are submitted as part of the original submissions instead of ISE and ISS, respectively.
+Safety and efficacy were investigated for gender, racial, and geriatric subgroups.	X	
+Data sets are accessible, sufficiently	X
+L395: 2 Refer to Meeting Request – Written Responses dated December 9, 2015.
+L396: Content Parameter	Yes	No	NA	Comments
+documented, and of sufficient quality (e.g., no meaningful data errors).	
+Application appears to be free from any other deficiency that render the application unreviewable, administratively incomplete, or inconsistent with regulatory requirements.	X
+L397: SCE=summary of clinical efficacy, SCS=summary of clinical safety
+L398: ## IS THE APPLICATION FILEABLE FROM A STATISTICAL PERSPECTIVE?
+L399: Yes.
+L400: ## 5. Comments to be Conveyed to the Applicant
+L401: ## 5.1. *Refuse-to-File Issues*
+L402: None identified.
+L403: ## 5.2. *Information Requests/Review Issues*
+L404: The following information request was sent to the Applicant on November 9, 2016:
+L405: *Reference is made to your NDA 208610 and NDA 208611 for delafoxacin oral and delafoxacin IV, respectively. The Statistical Analysis Plan for FDA Submission for Study RX-3341-302 that was submitted in Module 5.3.5 of your original submissions is not readable. Please resubmit this document to the NDAs by November 16th, 2016.*
+L406: The Applicant adequately addressed this request prior to the date requested. No other information requests or review issues identified at this time.
+L407: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L408: /s/
+L409: JANELLE K CHARLES
+11/25/2016
+L410: KAREN M HIGGINS
+11/29/2016
+L411: SCREENING	TREATMENT PERIOD	FOLLOW-UP PERIOD
+Screening and Enrollment
+Days -1 to 1	Treatment Visits
+Days 1 to 14	End of Treatment	Follow-up Visit
+Day 14 \pm 1	Late Follow-up Visit
+Day 21 to 28	Follow-up Call
+30 Days after last dose
+Obtain informed consent	Study Drug Administration
+One dose every 12 hours (\pm 2 hours) for a total of 10 to 28 doses based on investigator's judgment	
+Screening procedures	
+Enrollment and random assignment to treatment arm (1:1 ratio) via IWRS	Objective Response determined at 48 to 72 hours after initiation of treatment
+(Primary efficacy endpoint for FDA; Secondary efficacy endpoint for EMA)	Investigator-assessed Clinical Response determined at End of Treatment and Follow-up
+(Primary efficacy endpoint for EMA; Secondary efficacy endpoint for FDA/EMA)	Investigator-assessed Clinical Response determined at Late Follow-up
+(Secondary endpoint for FDA/EMA)	Capture 28-day all-cause mortality data, adverse events, and posttreatment medications	
+Delafoxacin + Placebo	Vancomycin + Aztreonam	
+Delafoxacin administered as 300 mg IV every 12 hours	Vancomycin administered as 15 mg/kg IV every 12 hours based on actual body weight, and aztreonam administered as 2 g IV every 12 hours
+L412: SCREENERING
+Screening and Enrollment Days -1 to 1
+Obtain informed consent
+Screening procedures
+Enrollment and random assignment to treatment arm (1:1 ratio) via IWRS
+TREATMENT PERIOD
+Treatment Visits Days 1 to 14
+Study Drug Administration: One dose every 12 hours (\pm 2 hours) for a total of 10 to 28 doses based on investigator's judgment
+Objective Response determined at 48 to 72 hours after initiation of treatment
+FOLLOW-UP PERIOD
+End of Treatment Day 5 to 14
+Follow-up Visit Day 14 \pm 1
+Late Follow-up Visit Days 21 to 28
+Follow-up Call 30 Days after last dose
+Investigator-assessed clinical response
+Capture 28-day all-cause mortality data, adverse events, and posttreatment medications
+Delafoxacin
+Vancomycin + Aztreonam
+CrCl >29 mL/min:
+Delafoxacin
+300 mg IV Q12H
+for 6 doses;
+switch to
+delafoxacin
+450 mg orally
+Q12H for
+remaining doses
+CrCl 15-29 mL/min:
+Delafoxacin
+200 mg IV
+for all doses
+Vancomycin
+15 mg/kg IV every
+12 hours for all doses
+based on actual body
+weight is
+recommendeda, and
+aztreonam 1 or 2 g
+IV every 12 hoursb
+L413: Figure 3 displays two bar charts showing the percent reduction in objective response at 48 to 72 hours for the ITT population in Study 302 and Study 303. The Y-axis represents the percentage of patients (% Patients), ranging from 0 to 90. The X-axis represents the percentage reduction (% Reduction), categorized into bins: \ge 20, \ge 40, \ge 60, \ge 80, \ge 90, and 100.
+Study 302 Data:
+% Reduction	Delafoxacin	Control
+\ge 20	78.3	80.6
+\ge 40	65.6	71.1
+\ge 60	43.8	46.2
+\ge 80	18.7	20.7
+\ge 90	8.8	9.7
+100	2.7	4.6
+Study 303 Data:
+% Reduction	Delafoxacin	Control
+\ge 20	83.7	80.3
+\ge 40	69	67.5
+\ge 60	50.4	45.7
+\ge 80	29.8	21.3
+\ge 90	15.4	9.1
+100	7.8	2.8
+L414: Figure 4 displays violin plots showing the distribution of Treatment Exposure Durations (in Days) for Study 302, comparing Delafoxacin (IV) and Vancomycin + Aztreonam (Control). The X-axis ranges from 2.5 to 15.0 days.
+The Delafoxacin (IV) distribution (N=324) is centered around 7.1 days (Mean) and 6.0 days (Median). The Control distribution (N=326) is centered around 7.1 days (Mean) and 6.0 days (Median).
+Summary statistics are presented in the table below:
+Delafoxacin
+IV
+N=324	Control
+N=326
+Mean	7.1 (2.9)	7.1 (2.6)
+Median	6.0	6.0
+(Range)	(1 – 15)	(1 – 15)
+Central 50%	6 – 8	6 – 8
+Central 90%	2 – 14	3 – 13
+Red line shows mean, dark blue line shows median, dark blue region shows central 50% of the distribution and lighter blue region shows central 90% of the distribution.
+Duration of exposure=last treatment date – first treatment date +1
+Source: Created by the statistical reviewer using adsl.xpt
+L415: Figure 5 displays violin plots showing the distribution of Treatment Exposure Durations (in Days) for Study 303, comparing Delafoxacin (IV/oral) and Vancomycin + Aztreonam (Control). The X-axis ranges from 0 to 15 days.
+The Delafoxacin (IV/oral) distribution (N=417) is centered around 8.0 days (Mean) and 7 days (Median). The Control distribution (N=425) is centered around 7.8 days (Mean) and 7 days (Median).
+Summary statistics are presented in the table below:
+Delafoxacin
+IV/oral
+N=417	Control
+N=425
+Mean	8.0 (3.0)	7.8 (2.9)
+Median	7	7
+(Range)	(1 – 15)	(1 – 16)
+Central 50%	6 – 10	6 – 9
+Central 90%	5 – 14	4 – 14
+Red line shows mean, dark blue line shows median, dark blue region shows central 50% of the distribution and lighter blue region shows central 90% of the distribution.
+Duration of exposure=last treatment date – first treatment date +1
+Source: Created by the statistical reviewer using adsl.xpt
+L416: Horizontal bar chart showing Treatment-Emergent Adverse Events (TEAEs) for Study 302, comparing Control (light blue) and Delafoxacin (dark blue) arms. The horizontal axis represents the percentage of patients (0 to 15). The TEAEs listed are DIZZINESS, CHILLS, PYREXIA, ASPARTATE..., VOMITING, PRURITUS, ALANINE..., PRURITUS GENERALISED, HEADACHE, DIARRHOEA, NAUSEA, INFECTION, and INFUSION SITE....
+TEAE	Control (%)	Delafoxacin (%)
+DIZZINESS	~1.5	~1.5
+CHILLS	~1.5	~1.5
+PYREXIA	~2.5	~2.5
+ASPARTATE...	~2.5	~2.5
+VOMITING	~3.5	~3.5
+PRURITUS	~3.5	~3.5
+ALANINE...	~4.5	~4.5
+PRURITUS GENERALISED	~5.5	~5.5
+HEADACHE	~6.5	~6.5
+DIARRHOEA	~7.5	~7.5
+NAUSEA	~8.5	~8.5
+INFECTION	~9.5	~9.5
+INFUSION SITE...	~12.5	~12.5
+L417: Horizontal bar chart showing Treatment-Emergent Adverse Events (TEAEs) for Study 303, comparing Control (light blue) and Delafoxacin (dark blue) arms. The horizontal axis represents the percentage of patients (0 to 10). The TEAEs listed are PRURITUS, BLOOD CREATINE..., VOMITING, PYREXIA, INFUSION SITE..., HEADACHE, INFECTION, NAUSEA, and DIARRHOEA.
+TEAE	Control (%)	Delafoxacin (%)
+PRURITUS	~1.5	~1.5
+BLOOD CREATINE...	~2.5	~2.5
+VOMITING	~3.5	~3.5
+PYREXIA	~4.5	~4.5
+INFUSION SITE...	~5.5	~5.5
+HEADACHE	~6.5	~6.5
+INFECTION	~7.5	~7.5
+NAUSEA	~8.5	~8.5
+DIARRHOEA	~9.5	~9.5
+L418: Forest plot showing Risk Difference for Diarrhea across three studies (MEL303, RIBX302, and Common). The x-axis is Risk Difference, ranging from 0.02 to 0.08. The y-axis lists the studies. Horizontal lines represent 95% Confidence Intervals (CI). A blue horizontal line indicates a Risk Difference of zero. For MEL303 and RIBX302, the point estimate is slightly above zero, and the CI crosses the zero line. For the Common analysis, the point estimate is significantly above zero, and the CI does not cross the zero line, suggesting a higher risk of diarrhea in the delafoxacin arm compared to control.

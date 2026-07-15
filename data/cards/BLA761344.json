@@ -1,0 +1,85 @@
+{
+  "first_cycle_approval": true,
+  "pivotal_trials": [
+    {
+      "phase": "Phase 2",
+      "design": "Multicenter, open-label, multi-cohort, single-arm (Parts 1 and 2); dose randomization in Part 1 (10 mg vs 100 mg)",
+      "endpoint": "ORR per RECIST v1.1 by BICR (primary); DoR, DCR, PFS, OS (secondary)",
+      "trial_name": "DeLLphi-301 (Study 20200491)",
+      "nct": "NCT05060016",
+      "n": 99,
+      "result": "ORR 40% (95% CI: 31%, 51%); median DoR 9.7 months (range 2.7\u201320.7+ months); 68% of responders with DoR \u22656 months; 40% with DoR \u226512 months; median PFS 4.3 months (95% CI: 3.0, 5.6); median OS 15.2 months (95% CI: 10.8, NE)"
+    },
+    {
+      "phase": "Phase 1",
+      "design": "Open-label, ascending multiple-dose, dose exploration and expansion, single-arm, first-in-human",
+      "endpoint": "Safety/tolerability, MTD/RP2D, preliminary antitumor activity (ORR by investigator assessment)",
+      "trial_name": "DeLLphi-300 (Study 20160323)",
+      "nct": null,
+      "n": 27,
+      "result": "ORR 33.3% (95% CI: 15.6%, 55.3%) in 24 efficacy-evaluable patients at 10 mg dose; median DoR 14.9 months (95% CI: 3.0, NE)"
+    }
+  ],
+  "companion_dx": false,
+  "advisory_committee": {
+    "convened": false,
+    "vote": null
+  },
+  "rems": {
+    "present": false,
+    "type": null
+  },
+  "boxed_warning": {
+    "present": true,
+    "content": "Cytokine release syndrome (CRS), Neurologic toxicity including immune effector cell-associated neurotoxicity syndrome (ICANS)",
+    "full_text": "WARNING: CYTOKINE RELEASE SYNDROME AND NEUROLOGIC TOXICITY including IMMUNE EFFECTOR CELL-ASSOCIATED NEUROTOXICITY SYNDROME\n\n\u2022 Cytokine release syndrome (CRS), including serious or life-threatening reactions, can occur in patients receiving IMDELLTRA. Initiate treatment with IMDELLTRA using the step-up dosing schedule to reduce the incidence and severity of CRS. Withhold IMDELLTRA until CRS resolves or permanently discontinue based on severity.\n\n\u2022 Neurologic toxicity, including immune effector cell-associated neurotoxicity syndrome (ICANS), including serious or life-threatening reactions, can occur in patients receiving IMDELLTRA. Monitor patients for signs and symptoms of neurologic toxicity, including ICANS, during treatment and treat promptly. Withhold IMDELLTRA until ICANS resolves or permanently discontinue based on severity."
+  },
+  "key_safety": "In the pooled safety population (n=187), the most common adverse reactions (\u226520%) were CRS (55%), fatigue (51%), dysgeusia (36%), pyrexia (36%), decreased appetite (34%), constipation (30%), musculoskeletal pain (30%), anemia (27%), and nausea (22%); Grade \u22653 adverse events occurred in 63% of patients.",
+  "target_moa": "Bispecific T-cell engager simultaneously binding DLL3 (delta-like ligand 3) on tumor cells and CD3 on T cells, redirecting T cells to lyse DLL3-expressing cancer cells",
+  "modality": "mAb",
+  "_meta": {
+    "drug": "Imdelltra",
+    "appno": "761344",
+    "type": "BLA",
+    "active": "tarlatamab-dlle",
+    "sponsor": "Amgen, Inc.",
+    "indication": "IMDELLTRA is indicated for the treatment of adult patients with extensive stage small cell lung cancer (ES-SCLC) with disease progression on or after platinum-based chemotherapy.\nThis indication is approved under accelerated approval based on overall response rate and duration of response. Continued approval for this indication may be contingent upon verification and description of clinical benefit in a confirmatory trial(s).",
+    "approval_date": "5/16/2024",
+    "receipt_date": "10/12/2023",
+    "tta_months": 7.1,
+    "review_designation": "Priority",
+    "expedited": {
+      "btd": true,
+      "ft": false,
+      "pr": true,
+      "orph": true,
+      "qidp": false,
+      "accelerated": true
+    },
+    "input_tokens": 208572,
+    "output_tokens": 773,
+    "source_review_type": "MultidisciplineR",
+    "source_document_id": "06723799-b47d-5fc8-b352-3d0978303e82",
+    "source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761344Orig1s000MultidisciplineR.pdf"
+  },
+  "indication_details": {
+    "line_of_treatment": "second-line+",
+    "setting": "metastatic",
+    "population_restrictions": "adults; extensive stage small cell lung cancer (ES-SCLC)",
+    "combination": "monotherapy",
+    "prior_therapy_required": "platinum-based chemotherapy"
+  },
+  "supplements": [
+    {
+      "submission_number": "1",
+      "class_code": "EFFICACY",
+      "class_description": "Efficacy",
+      "approval_date": "20251119",
+      "letter_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761344Orig1s001ltr.pdf",
+      "label_url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2025/761344s001lbl.pdf",
+      "review_url": null,
+      "description": "Converted Imdelltra (tarlatamab-dlle) from accelerated approval to traditional (regular) approval for \"the treatment of adult patients with extensive stage small cell lung cancer (ES-SCLC) with disease progression on or after platinum-based chemotherapy,\" following fulfillment of postmarketing requirements confirming clinical benefit."
+    }
+  ],
+  "therapeutic_area": "Oncology"
+}
