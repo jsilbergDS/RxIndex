@@ -48,8 +48,18 @@ client = anthropic.Anthropic(api_key=api_key) if api_key else None
 # Set APP_PASSWORD as a Space secret to require login.
 # Leave APP_PASSWORD unset to disable auth (dev mode).
 APP_PASSWORD = os.environ.get("APP_PASSWORD", "").strip()
-import secrets as _secrets
-app.config["SECRET_KEY"] = os.environ.get("FLASK_SECRET_KEY") or _secrets.token_hex(32)
+import secrets as _secrets, hashlib as _hashlib
+# Stable secret key so login sessions survive Space restarts (a random key per boot
+# would silently log everyone out). Tied to the password when no explicit key is set.
+app.config["SECRET_KEY"] = (
+    os.environ.get("FLASK_SECRET_KEY")
+    or (_hashlib.sha256(("rxindex::" + APP_PASSWORD).encode()).hexdigest()
+        if APP_PASSWORD else _secrets.token_hex(32)))
+# HF serves the app inside an iframe on huggingface.co (cross-site). A default
+# SameSite=Lax cookie is dropped there, so login "succeeds" then bounces back to
+# /login forever. SameSite=None + Secure lets the session cookie survive the iframe.
+app.config["SESSION_COOKIE_SAMESITE"] = "None"
+app.config["SESSION_COOKIE_SECURE"] = True
 from flask import session, redirect, url_for, make_response
 
 LOGIN_PAGE_HTML = """<!doctype html><html><head>
