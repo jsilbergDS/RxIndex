@@ -1,0 +1,32 @@
+{
+  "app": "BLA761228",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag on '2021' is a false positive: it is the Breakthrough Therapy year, verbatim-cited (18Feb2021) in breakthrough_therapy.basis."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag on '3' is a false positive: it is not an efficacy/safety statistic but a derived count of designations (Orphan, Fast Track, Breakthrough)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "2021",
+        "text": "KIMMTRAK received Orphan Drug Designation (2016), Fast Track (2019), and Breakth"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "KIMMTRAK received Orphan Drug Designation (2016), Fast Track (2019), and Breakth"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

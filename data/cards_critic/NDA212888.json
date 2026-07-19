@@ -1,0 +1,52 @@
+{
+  "app": "NDA212888",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive flag: uncited number '48' is the Week 48 timepoint, which is supported by the endpoint citation ('at Week 48'); not an efficacy value requiring separate citation."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "False-positive flag: uncited number '48' is the Week 48 timepoint, supported by the endpoint citation; not an unsupported efficacy value."
+    },
+    {
+      "field": "modality",
+      "severity": "low",
+      "issue": "False-positive flag: uncited number '2' refers to '2-drug', which is supported by the target_moa/indication citations describing a 2-drug co-packaged product."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: uncited number '2' refers to '2-drug regimen' and 'two phase 3 trials', both supported by cited quotes."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "48",
+        "text": "At Week 48, 2% of CAB+RPV vs 2% CAR had HIV-1 RNA >=50 copies/mL; treatment diff"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "48",
+        "text": "At Week 48, 2% of CAB+RPV vs 1% CAR had HIV-1 RNA >=50 copies/mL; treatment diff"
+      },
+      {
+        "field": "modality",
+        "number": "2",
+        "text": "small molecule (2-drug co-packaged extended-release injectable suspension)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "CABENUVA was a priority review NDA for a novel 2-drug injectable HIV-1 regimen. "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

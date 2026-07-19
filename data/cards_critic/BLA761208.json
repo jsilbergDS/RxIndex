@@ -1,0 +1,33 @@
+{
+  "app": "BLA761208",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 341)",
+  "_raw": "Analyzing the card for quality issues.\n\nLet me check citations, consistency, and completeness carefully.\n\n**pivotal_trials[0].result**: text says \"median DOR 8.3 months (95% CI: 4.2, NR)\" and ORR 23.8%. Citation on line 57 supports both. Good. But the citation quote for `result` (line 57) contains t",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "10",
+        "text": "Application received February 10, 2021 and granted accelerated approval; no prio"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2021",
+        "text": "Application received February 10, 2021 and granted accelerated approval; no prio"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "04",
+        "text": "TIVDAK received Priority review and accelerated approval based on confirmed ORR "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "204",
+        "text": "TIVDAK received Priority review and accelerated approval based on confirmed ORR "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

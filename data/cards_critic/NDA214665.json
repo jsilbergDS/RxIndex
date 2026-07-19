@@ -1,0 +1,36 @@
+{
+  "app": "NDA214665",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "approval_program.confirmatory_requirement.citations[1]",
+      "severity": "high",
+      "issue": "Confirmatory Study 20190009 citation lists NCT03600883, which is the SAME NCT as the pivotal Study 20170543; two different trials cannot share one NCT number, indicating a wrong/erroneous identifier."
+    },
+    {
+      "field": "advisory_committee.vote",
+      "severity": "medium",
+      "issue": "Quote states FDA 'did not refer this supplemental application,' but this is an original NDA (214665, sotorasib's first approval, not previously approved for any indication), so the 'supplemental application' wording is internally inconsistent/mislabeled."
+    },
+    {
+      "field": "companion_dx.detail",
+      "severity": "medium",
+      "issue": "Text asserts two companion diagnostics were 'approved contemporaneously,' but the sole citation only documents submission of PMA applications (not their approval), overstating what the quote supports."
+    },
+    {
+      "field": "trial_name.citations[0]",
+      "severity": "low",
+      "issue": "Citation quote is truncated mid-word ('a mult') but adequately supports the trial name; cosmetic only."
+    },
+    {
+      "field": "post_marketing[3].requirement.citations[0]",
+      "severity": "low",
+      "issue": "Citation quote contains an OCR typo ('sotorabasib') though the content is otherwise supportive; cosmetic."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

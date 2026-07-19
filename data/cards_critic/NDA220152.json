@@ -1,0 +1,87 @@
+{
+  "app": "NDA220152",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n / pivotal_trials[0].result / pivotal_trials[1].n / pivotal_trials[1].result / key_safety",
+      "severity": "low",
+      "issue": "FALSE POSITIVE: all uncited_numbers flags ('85' and '170') refer to the 85 mg and 170 mg dose levels, which are doses and excluded from citation requirements; the actual efficacy/safety numbers (N counts, incidence %, CIs, AE rates) are all supported by their citations."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "85",
+        "text": "N=365 (85 mg N=123, 170 mg N=120, placebo N=122)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "170",
+        "text": "N=365 (85 mg N=123, 170 mg N=120, placebo N=122)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "85",
+        "text": "Incidence of vomiting: 20% (85 mg) and 18% (170 mg) vs 44% placebo; treatment di"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "170",
+        "text": "Incidence of vomiting: 20% (85 mg) and 18% (170 mg) vs 44% placebo; treatment di"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "85",
+        "text": "Incidence of vomiting: 20% (85 mg) and 18% (170 mg) vs 44% placebo; treatment di"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "170",
+        "text": "Incidence of vomiting: 20% (85 mg) and 18% (170 mg) vs 44% placebo; treatment di"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Study 2 (also referred to as Trial 3404 in the review)"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "85",
+        "text": "N=316 (85 mg N=104, 170 mg N=106, placebo N=106)"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "170",
+        "text": "N=316 (85 mg N=104, 170 mg N=106, placebo N=106)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "85",
+        "text": "Incidence of vomiting: 18% (85 mg) and 10% (170 mg) vs 38% placebo; treatment di"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "170",
+        "text": "Incidence of vomiting: 18% (85 mg) and 10% (170 mg) vs 38% placebo; treatment di"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "85",
+        "text": "Incidence of vomiting: 18% (85 mg) and 10% (170 mg) vs 38% placebo; treatment di"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "170",
+        "text": "Incidence of vomiting: 18% (85 mg) and 10% (170 mg) vs 38% placebo; treatment di"
+      },
+      {
+        "field": "key_safety",
+        "number": "170",
+        "text": "Most common adverse reactions (incidence \u22655%) are somnolence, headache, and fati"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

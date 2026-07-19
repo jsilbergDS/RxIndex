@@ -1,0 +1,22 @@
+{
+  "app": "BLA761244",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "post_marketing[2].requirement",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited_number '4332' is a false positive: it is a PMR identifier prefix, not an efficacy/safety number, and the quote supports the requirement text."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "4332",
+        "text": "4332-3: Submit the final report for the planned voluntary European Post-Authoriz"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

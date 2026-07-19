@@ -1,0 +1,37 @@
+{
+  "app": "NDA219379",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "medium",
+      "issue": "The endpoint text adds 'by BICR per REiNS criteria' but the cited quotes do not mention BICR or REiNS criteria, claiming more than the citations support."
+    },
+    {
+      "field": "_meta_tta",
+      "severity": "low",
+      "issue": "Text states 'signed 02/11/2025' but the citations only show 'Issued: 02/2025'; the specific signing date is uncited (flag number '11')."
+    },
+    {
+      "field": "_meta_tta",
+      "severity": "low",
+      "issue": "'approximately 8 months under Priority review' is a derived duration; the number 8 is not in any citation quote but is a reasonable date-based calculation (borderline false positive)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "_meta_tta",
+        "number": "11",
+        "text": "Application received June 28, 2024; PDUFA goal date February 28, 2025; label iss"
+      },
+      {
+        "field": "_meta_tta",
+        "number": "8",
+        "text": "Application received June 28, 2024; PDUFA goal date February 28, 2025; label iss"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

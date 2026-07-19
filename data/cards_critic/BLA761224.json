@@ -1,0 +1,72 @@
+{
+  "app": "BLA761224",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "medium",
+      "issue": "N stated as '1059 treated' but the card's own design citation (line 1475) says 1061 patients, an internal inconsistency in enrollment count."
+    },
+    {
+      "field": "first_cycle_approval.detail.text",
+      "severity": "medium",
+      "issue": "Detail states BLA 'Approved as a priority review... January 7, 2022' but the receipt_date field and cover letter give May 7, 2021; the cited quote refers to a July 6, 2021 filing date, conflating receipt/filing dates."
+    },
+    {
+      "field": "approval_program.summary.text",
+      "severity": "low",
+      "issue": "Summary says BLA 'received May 7, 2021' but its supporting citation states the BLA was 'filed on July 6, 2021'; the received vs filed dates are conflated across the card."
+    },
+    {
+      "field": "approval_program.breakthrough_therapy.basis.text",
+      "severity": "low",
+      "issue": "Text labels it 'Breakthrough Therapy Designation' while the verbatim quote says 'Breakthrough Drug Designation'; minor terminology mismatch (BTD grant itself is supported)."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG on '210' is a false positive \u2014 210 mg is a dose and should be excluded from uncited-number checks; the rate ratio 0.29 (95% CI 0.16, 0.51; p<0.001) is fully supported by citation."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG on '550' is a false positive \u2014 '550 treated' is directly present in the trial-name citation ('Number treated: 550')."
+    },
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG on '52' is a false positive \u2014 '52 week' duration is supported by multiple design/nct citations."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG on '351' is a false positive \u2014 '351(a)' is a statutory section reference (supported by receipt_date citation), not an efficacy/safety figure."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "52",
+        "text": "Annualized asthma exacerbation rate (AAER) over 52 weeks"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "550",
+        "text": "550 treated (placebo 138; 70 mg Q4W 138; 210 mg Q4W 137; 280 mg Q2W 137)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "210",
+        "text": "At the 210 mg Q4W dose, exacerbation rate ratio vs placebo 0.29 (95% CI 0.16, 0."
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "351",
+        "text": "Tezepelumab, submitted as a 351(a) BLA received May 7, 2021, was granted Breakth"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

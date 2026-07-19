@@ -1,0 +1,43 @@
+{
+  "app": "NDA216718",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting ',' delimiter: line 24 column 6 (char 1181)",
+  "_raw": "<think>\nLet me analyze this card systematically.\n\nKey checks:\n\n1. COMPLETENESS - all required fields present? indication \u2713, pivotal_trials \u2713, target_moa \u2713, modality \u2713, key_safety \u2713, receipt_date \u2713, first_cycle_approval \u2713, approval_program \u2713. Seems complete.\n\n2. CITATION SUPPORT issues:\n\n- pivotal_tr",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "408",
+        "text": "Study 1402 Part 2 (Study 408-C-1402; MOXIe), i.e. Study 1 in the label"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "48",
+        "text": "Statistically significant treatment difference (SKYCLARYS minus placebo) in mFAR"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "28",
+        "text": "Approved during the first review cycle; no prior CRL indicated. NDA received Mar"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2023",
+        "text": "Approved during the first review cycle; no prior CRL indicated. NDA received Mar"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1402",
+        "text": "Skyclarys (omaveloxolone) received traditional approval via a Priority review ND"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "Skyclarys (omaveloxolone) received traditional approval via a Priority review ND"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

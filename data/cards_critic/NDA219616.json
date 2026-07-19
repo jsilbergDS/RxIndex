@@ -1,0 +1,32 @@
+{
+  "app": "NDA219616",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "first_cycle_approval.value",
+      "severity": "medium",
+      "issue": "value is null but should default to true since the review shows no prior CRL/RTF; the field is left empty when it should be inferred as true."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "medium",
+      "issue": "The 95% CI is cited from quote '(31.58)' but the text states '(95% CI 31, 58)'; the citation appears to be an OCR-garbled value that does not verbatim contain '31, 58'."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag 'number 3' (from 'RAMP-301') is a study identifier and a false positive; no genuine uncited efficacy/safety number here."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "The combination received accelerated approval based on ORR and duration of respo"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

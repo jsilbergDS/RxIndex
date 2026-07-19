@@ -1,0 +1,135 @@
+{
+  "app": "NDA215559",
+  "drug": "SOHONOS",
+  "docs_read": [
+    {
+      "doc_type": "IntegratedR",
+      "doc_id": "fda_2ac00ab8-202d-5df6-8d9d-638a0da52a4c"
+    },
+    {
+      "doc_type": "OtherR",
+      "doc_id": "fda_6083a517-936c-56d4-91bc-9e65af67955f"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_eb4a9fa4-d15a-57dd-bae0-fd9c6db73285"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC)",
+    "quote": {
+      "doc_type": "OtherR",
+      "doc_id": "fda_6083a517-936c-56d4-91bc-9e65af67955f",
+      "line": 21,
+      "quote": "FDA held an Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC) meeting to discuss"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_6083a517936c",
+      "found_lines": [
+        21
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "June 28, 2023",
+    "quote": {
+      "doc_type": "IntegratedR",
+      "doc_id": "fda_2ac00ab8-202d-5df6-8d9d-638a0da52a4c",
+      "line": 654,
+      "quote": "An Advisory Committee meeting was held on June 28, 2023, to discuss the substantial evidence of effectiveness"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_2ac00ab8202d",
+      "found_lines": [
+        654
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted in favor on both questions: 10 of 14 that Study 301 shows palovarotene is effective in FOP, and 11 of 14 that its benefits outweigh its risks. Yes-voters noted the effect could be small but that unmet need justified approval, and recommended careful patient selection, BMD monitoring, PPC screening in pediatric patients, and a patient registry.",
+    "quote": {
+      "doc_type": "IntegratedR",
+      "doc_id": "fda_2ac00ab8-202d-5df6-8d9d-638a0da52a4c",
+      "line": 665,
+      "quote": "The majority of the Committee members (11 of 14) voted \"Yes,\" that the benefits of palovarotene outweigh its risks for the treatment of patients diagnosed with FOP."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_2ac00ab8202d",
+      "found_lines": [
+        665
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "AC members recommended creation of a patient registry to better understand the FOP patient population and HO volume changes over time.",
+      "change": "FDA imposed a postmarketing observational registry study to obtain further information on flare-ups, premature epiphyseal closure, and fractures.",
+      "category": "Postmarketing requirement / Registry",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "fda_2ac00ab8-202d-5df6-8d9d-638a0da52a4c",
+        "line": 665,
+        "quote": "creation of a patient registry to better understand the FOP patient population and HO volume changes over time",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_2ac00ab8202d",
+          "found_lines": [
+            665
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "fda_2ac00ab8-202d-5df6-8d9d-638a0da52a4c",
+        "line": 24,
+        "quote": "A postmarketing observational registry study will be conducted to obtain further information on the incidence of flare-ups, premature epiphyseal closure, and fractures.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_2ac00ab8202d",
+          "found_lines": [
+            24
+          ]
+        }
+      }
+    },
+    {
+      "concern": "AC members recommended monitoring bone mineral density and screening for premature epiphyseal closure in pediatric patients to mitigate palovarotene's safety risks.",
+      "change": "Product labeling includes a boxed warning for teratogenicity and premature epiphyseal closure.",
+      "category": "Safety / Boxed warning",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "fda_2ac00ab8-202d-5df6-8d9d-638a0da52a4c",
+        "line": 665,
+        "quote": "monitoring bone mineral density in patients, screening for premature epiphyseal closure in pediatric patients",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_2ac00ab8202d",
+          "found_lines": [
+            665
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "fda_2ac00ab8-202d-5df6-8d9d-638a0da52a4c",
+        "line": 24,
+        "quote": "product labeling which includes a boxed warning for teratogenicity and premature epiphyseal closure",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_2ac00ab8202d",
+          "found_lines": [
+            24
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC) meeting was held June 28, 2023, after a Complete Response cycle, to discuss whether palovarotene's post hoc analyses and external-control data supported effectiveness in FOP. The committee voted in favor on both questions (10 of 14 for effectiveness; 11 of 14 that benefits outweigh risks), citing the rarity and unmet need of FOP while acknowledging the small effect size and flawed prespecified analyses. Members' recommendations for a patient registry and for BMD monitoring and PPC screening align with the approval's postmarketing observational registry PMR and the boxed warning for premature epiphyseal closure, though the review documents do not explicitly state the AC caused these changes."
+}

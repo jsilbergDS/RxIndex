@@ -1,0 +1,38 @@
+{
+  "app": "NDA214783",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Extra data: line 55 column 1 (char 3027)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"NDA214783\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].result\",\n      \"severity\": \"high\",\n      \"issue\": \"The result states median duration of response 1.9 months, but the citation calls this DOR 'calcul",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "200",
+        "text": "FDA-adjudicated ORR through Cycle 7 Day 1 was 75% (95% CI: 63, 85) in the 200 mg"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "9",
+        "text": "The application was received 9/30/2020 and approved effective on the date of the"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "30",
+        "text": "The application was received 9/30/2020 and approved effective on the date of the"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2020",
+        "text": "The application was received 9/30/2020 and approved effective on the date of the"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "213",
+        "text": "NDA 214783 for belumosudil, a new molecular entity, was submitted under the 505("
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

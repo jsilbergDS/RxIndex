@@ -1,0 +1,104 @@
+{
+  "app": "BLA761328",
+  "drug": "BEYFORTUS",
+  "docs_read": [
+    {
+      "doc_type": "IntegratedR",
+      "doc_id": "9bd3aed6-e467-5c5c-9549-5001aa4a6ee1"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "8ac2243b-a43b-5db6-8915-8b3d7eefd9c7"
+    },
+    {
+      "doc_type": "Lbl",
+      "doc_id": "10a82bce-0d76-5c05-b871-9601958f3494"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Antimicrobial Drugs Advisory Committee (AMDAC)",
+    "quote": {
+      "doc_type": "IntegratedR",
+      "doc_id": "9bd3aed6-e467-5c5c-9549-5001aa4a6ee1",
+      "line": 1006,
+      "quote": "An Antimicrobial Drugs Advisory Committee Meeting (AMDAC) was held on June 8, 2023."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "9bd3aed6-e467-5c5c-9549-5001aa4a6ee1",
+      "found_lines": [
+        1006
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "June 8, 2023",
+    "quote": {
+      "doc_type": "IntegratedR",
+      "doc_id": "9bd3aed6-e467-5c5c-9549-5001aa4a6ee1",
+      "line": 1006,
+      "quote": "An Antimicrobial Drugs Advisory Committee Meeting (AMDAC) was held on June 8, 2023."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "9bd3aed6-e467-5c5c-9549-5001aa4a6ee1",
+      "found_lines": [
+        1006
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 21-0 that benefits outweigh risks for the Season 1 indication (neonates/infants in their first RSV season) and 19-2 that benefits outweigh risks for the Season 2 indication (children up to 24 months vulnerable through their second RSV season).",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "8ac2243b-a43b-5db6-8915-8b3d7eefd9c7",
+      "line": 55,
+      "quote": "The committee voted 21-0 that the benefits of nirsevimab outweigh the risks for the prevention of RSV lower respiratory disease in neonates and infants born during or entering their first RSV season; the committee also voted 19-2 that the benefits of nirsevimab outweigh the risks for the prevention of RSV lower respiratory disease in children up to 24 months of age who remain vulnerable to severe RSV disease throughout their second RSV season."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "8ac2243b-a43b-5db6-8915-8b3d7eefd9c7",
+      "found_lines": [
+        55
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "During the benefit-risk discussion for the first RSV season, the committee addressed whether use should be limited by chronological or gestational age, and advised that the product should not be restricted to certain age groups for the Season 1 indication.",
+      "change": "The approved Season 1 indication is written broadly for all neonates and infants born during or entering their first RSV season, without any chronological- or gestational-age restriction.",
+      "category": "Population / age restriction (indication scope)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "9bd3aed6-e467-5c5c-9549-5001aa4a6ee1",
+        "line": 1010,
+        "quote": "the committee generally advised that the product should not be limited to certain chronological or gestational ages for the Season 1 indication.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "9bd3aed6-e467-5c5c-9549-5001aa4a6ee1",
+          "found_lines": [
+            1010
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "10a82bce-0d76-5c05-b871-9601958f3494",
+        "line": 66,
+        "quote": "Neonates and infants born during or entering their first RSV season.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "10a82bce-0d76-5c05-b871-9601958f3494",
+          "found_lines": [
+            10,
+            66
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Antimicrobial Drugs Advisory Committee (AMDAC) meeting was held June 8, 2023, and endorsed approval: the committee voted 21-0 that benefits outweigh risks for the first-RSV-season indication and 19-2 for the second-season (up to 24 months) indication. The meeting functioned primarily as a benefit-risk endorsement; the review documents record no committee concern that drove a boxed warning, REMS, PMR/PMC, or indication narrowing (the negotiated PMRs/PMCs concern RSV-variant surveillance, a China trial, and shipping studies, not AC concerns). The one substantive concern-to-outcome correspondence is that the committee advised against limiting Season 1 use by chronological or gestational age, and the approved Season 1 indication is written broadly with no age restriction (linkage marked inferred, as the review does not explicitly state this causal connection)."
+}

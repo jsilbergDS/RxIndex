@@ -1,0 +1,18 @@
+{
+  "app": "NDA218808",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Extra data: line 30 column 1 (char 1392)",
+  "_raw": "Analyzing the card carefully against citations and flags.\n\n```json\n{\n  \"app\": \"NDA218808\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].result\",\n      \"severity\": \"low\",\n      \"issue\": \"AUTOMATED_FLAG uncited_number '24' (Week 24) is a false positive \u2014 the endpoint",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "24",
+        "text": "LS mean percent change in glucocorticoid daily dose at Week 24 was -27.3% (crine"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

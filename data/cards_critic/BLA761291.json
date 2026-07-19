@@ -1,0 +1,37 @@
+{
+  "app": "BLA761291",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "high",
+      "issue": "Population text claims 'all triple-class exposed with a median of 5 prior lines of therapy (78% had at least 4 prior lines), 76% triple-class refractory' but the citation for prior lines refers to a different population than the efficacy N=110; more importantly the field mixes the '4 prior lines' indication threshold \u2014 the citation says median 5 (range 2-14), which is supported, but the phrasing is acceptable; however the '78%' and '76%' numbers ARE in citations, so this is supported."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG 'uncited_number 4334' is a false positive \u2014 4334 is a PMR/PMC study identifier (excluded category), not an efficacy/safety number, and it is supported elsewhere in the card's post_marketing citations."
+    },
+    {
+      "field": "post_marketing[0].requirement",
+      "severity": "medium",
+      "issue": "The text states the confirmatory trial's 'primary endpoint progression-free survival, to verify clinical benefit' \u2014 'primary endpoint progression-free survival' is supported by the line 37 citation, but 'to verify clinical benefit' is not in either quote for this PMR (it appears only in the separate generic accelerated-approval citation); minor overreach."
+    },
+    {
+      "field": "post_marketing[3].requirement",
+      "severity": "low",
+      "issue": "The text expands the redacted '[REDACTED] (b)(4)' quote to 'using a known amount of standard endotoxin,' which is not present in the citation quote (the quote is truncated/redacted), so the specific method described is not citation-supported."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "4334",
+        "text": "TECVAYLI (teclistamab-cqyv) received accelerated approval under Priority review "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

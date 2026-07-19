@@ -1,0 +1,42 @@
+{
+  "app": "BLA761458",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "False positive: uncited_numbers flags '52' but the design citation quote contains '52-week R, DB, PC, PG, MC', so the value is supported."
+    },
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "False positive: uncited_numbers flags '52' but the design citation quote contains '52-week R, DB, PC, PG, MC', so the value is supported."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False positive: uncited_numbers flags '2025' but it is part of the approval date 'December 16, 2025' (dates are excludable) and is supported by the PDUFA/Review Completion Date citation."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "52",
+        "text": "52-week randomized, double-blind, placebo-controlled, parallel-group, multicente"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "52",
+        "text": "52-week randomized, double-blind, placebo-controlled, parallel-group, multicente"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2025",
+        "text": "Original BLA 761458 received December 16, 2024 under Standard review, approved D"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

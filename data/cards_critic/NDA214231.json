@@ -1,0 +1,22 @@
+{
+  "app": "NDA214231",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "Automated flag for uncited number '2' is a false positive; it derives from the '2:1:1' randomization ratio, which is supported by the n-field citation (line 44: 'N=170 (2:1:1)')."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "2",
+        "text": "Randomized, double-blind, parallel-arm, placebo- and active-controlled (GlucaGen"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

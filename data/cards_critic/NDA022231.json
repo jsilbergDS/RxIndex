@@ -1,0 +1,67 @@
+{
+  "app": "NDA022231",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.orphan_drug.orphan_indication",
+      "severity": "low",
+      "issue": "Automated flag 'number 1' is a false positive (fragment of 'V1'/date text), not an uncited efficacy/safety number."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flags for numbers 4, 11, 18, 2020, 2022 are date fragments (excluded category) and vote counts 8/7 are actually supported by the vote citation; all false positives."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/orphan_drug/orphan_indication",
+        "number": "1",
+        "text": "Orphan Drug designation granted October 29, 2004 for terlipressin in HRS-1; beca"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "4",
+        "text": "Terlipressin received Orphan Drug designation (October 29, 2004) and Fast-Track "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "11",
+        "text": "Terlipressin received Orphan Drug designation (October 29, 2004) and Fast-Track "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2020",
+        "text": "Terlipressin received Orphan Drug designation (October 29, 2004) and Fast-Track "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "18",
+        "text": "Terlipressin received Orphan Drug designation (October 29, 2004) and Fast-Track "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2022",
+        "text": "Terlipressin received Orphan Drug designation (October 29, 2004) and Fast-Track "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2020",
+        "text": "Terlipressin received Orphan Drug designation (October 29, 2004) and Fast-Track "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "8",
+        "text": "Terlipressin received Orphan Drug designation (October 29, 2004) and Fast-Track "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "7",
+        "text": "Terlipressin received Orphan Drug designation (October 29, 2004) and Fast-Track "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

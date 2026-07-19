@@ -1,0 +1,22 @@
+{
+  "app": "NDA216059",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag for uncited number '321' is a false positive; it is part of the study identifier 'BRUIN MCL-321', not an efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "321",
+        "text": "JAYPIRCA received accelerated approval under 21 CFR 314.500 based on ORR and DOR"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

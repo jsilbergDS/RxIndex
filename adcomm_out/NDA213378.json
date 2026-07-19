@@ -1,0 +1,131 @@
+{
+  "app": "NDA213378",
+  "drug": "LYBALVI",
+  "docs_read": [
+    {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "fda_a831ba1b-9994-51f6-86d4-d4f71720c0e2"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Joint meeting of the Psychopharmacologic Drugs Advisory Committee (PDAC) and the Drug Safety and Risk Management (DSaRM) Advisory Committee",
+    "quote": {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "fda_a831ba1b-9994-51f6-86d4-d4f71720c0e2",
+      "line": 1686,
+      "quote": "The Agency convened a joint meeting of the Psychopharmacologic Drugs Advisory Committee and the Drug Safety and Risk Management Advisory Committee on October 9, 2020."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_a831ba1b9994",
+      "found_lines": [
+        216,
+        1686
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "October 9, 2020",
+    "quote": {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "fda_a831ba1b-9994-51f6-86d4-d4f71720c0e2",
+      "line": 216,
+      "quote": "The Agency convened a joint meeting of the Psychopharmacologic Drugs Advisory Committee and the Drug Safety and Risk Management Advisory Committee on October 9, 2020."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_a831ba1b9994",
+      "found_lines": [
+        216,
+        1686
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee was asked three voting questions and voted largely in favor: 16 Yes / 1 No that samidorphan meaningfully mitigates olanzapine-associated weight gain; 13 Yes / 3 No / 1 Abstain that the safety profile was adequately characterized; and 11 Yes / 6 No that labeling is sufficient to mitigate the risks of samidorphan's opioid-antagonist action. FDA approved LYBALVI for schizophrenia and bipolar I disorder in adults.",
+    "quote": {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "fda_a831ba1b-9994-51f6-86d4-d4f71720c0e2",
+      "line": 1688,
+      "quote": "Result: 16 Yes, 1 No, 0 Abstain"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_a831ba1b9994",
+      "found_lines": [
+        218,
+        1688
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Committee members recommended careful attention to labeling so it would clearly convey a limitation of use \u2014 that patients already on olanzapine who had experienced weight gain were not studied, and that the effect is weight mitigation rather than weight loss.",
+      "change": "Additional weight-gain data were added to the labeling, and a statement that patients on stable olanzapine therapy were not specifically studied (so the weight effect of switching from olanzapine to LYBALVI is unknown) was included in labeling Section 14 (Clinical Studies).",
+      "category": "Labeling / limitation of use",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "fda_a831ba1b-9994-51f6-86d4-d4f71720c0e2",
+        "line": 1697,
+        "quote": "Careful consideration of labeling details to clearly convey limitation of use (i.e., patients on olanzapine who experienced weight gain were not studied) and weight mitigation rather than weight loss",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a831ba1b9994",
+          "found_lines": [
+            1697
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "fda_a831ba1b-9994-51f6-86d4-d4f71720c0e2",
+        "line": 1697,
+        "quote": "Further weight gain data is included within labeling, and the fact that patients on stable olanzapine therapy were not specifically studied so the weight effect of switching from olanzapine to ALKS 3831 is unknown is included in labeling Section 14 (Clinical Studies).",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a831ba1b9994",
+          "found_lines": [
+            1697
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Whether labeling was sufficient to mitigate the risks related to samidorphan's opioid-antagonist action was a voting question at the AC; the committee was closely divided on this point (11 Yes / 6 No).",
+      "change": "The Agency addressed the concurrent-opioid-use risk through labeling: two Warnings and Precautions sections were added \u2014 one warning about precipitating opioid withdrawal and one about vulnerability to opioid overdose from attempting to overcome samidorphan's receptor blockade or from changes in opioid tolerance when LYBALVI is interrupted.",
+      "category": "Safety / Warnings and Precautions labeling (opioid risk)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "fda_a831ba1b-9994-51f6-86d4-d4f71720c0e2",
+        "line": 1691,
+        "quote": "Is labeling sufficient to mitigate the risks related to the opioid antagonist action of samidorphan?",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a831ba1b9994",
+          "found_lines": [
+            221,
+            1691
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "fda_a831ba1b-9994-51f6-86d4-d4f71720c0e2",
+        "line": 260,
+        "quote": "Two sections were added to the label to warn about risks of ALKS 3831 and concurrent opioid use: one about precipitating opioid withdrawal and a second regarding the potential vulnerability to opioid overdose when trying to overcome samidorphan's opioid receptor blockade or because of changes in opioid tolerance when ALKS 3831 is interrupted.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a831ba1b9994",
+          "found_lines": [
+            260
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "A joint PDAC/DSaRM advisory committee met on October 9, 2020, and voted largely in favor of LYBALVI (olanzapine/samidorphan), agreeing 16-1 that samidorphan meaningfully mitigates olanzapine-associated weight gain, while dividing more closely (11-6) on whether labeling was sufficient to mitigate the opioid-antagonist risk. Consistent with committee discussion, FDA's labeling clarified a limitation of use in Section 14 (patients on olanzapine who gained weight were not studied; effect is weight mitigation, not weight loss) and added Warnings and Precautions on opioid withdrawal and overdose; the Agency concluded that labeling, rather than a REMS, was sufficient to manage the opioid risk."
+}

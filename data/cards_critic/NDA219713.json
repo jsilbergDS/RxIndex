@@ -1,0 +1,21 @@
+{
+  "app": "NDA219713",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "companion_dx.present",
+      "severity": "low",
+      "issue": "present=false is correct (no FDA-approved test), but a fully populated detail object under present=false is slightly inconsistent presentation; acceptable given the citation confirms no approved test exists."
+    },
+    {
+      "field": "_meta_tta",
+      "severity": "low",
+      "issue": "Time-to-approval meta field is null though receipt date (10/23/2024) and PDUFA goal (06/23/2025) are available to compute it; cosmetic, not a required field."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

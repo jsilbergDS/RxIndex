@@ -1,0 +1,23 @@
+{
+  "app": "NDA217026",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 285)",
+  "_raw": "Analyzing the card for quality issues.\n\nLet me check each area systematically.\n\n**Automated flags:** The two uncited_numbers (217026 = NDA number, 2566 = part of study ID ACP-2566) are both identifiers, not efficacy/safety numbers \u2014 false positives.\n\n**Indication:** \"2 years of age and older\" \u2014 supp",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "217026",
+        "text": "Trofinetide (NDA 217026), a new molecular entity, received Priority review and w"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2566",
+        "text": "Trofinetide (NDA 217026), a new molecular entity, received Priority review and w"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

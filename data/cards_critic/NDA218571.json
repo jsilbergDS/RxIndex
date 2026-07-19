@@ -1,0 +1,22 @@
+{
+  "app": "NDA218571",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited '28' is a false positive: the OCR-mashed AE table quote 'Nasal Discomfort62823' encodes placebo=6/70mg=28/2x70mg=23, so the 28% nasal discomfort rate is supported by citation."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "28",
+        "text": "Most common adverse reactions (incidence >5%) are local administration-site reac"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

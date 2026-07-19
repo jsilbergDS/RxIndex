@@ -1,0 +1,37 @@
+{
+  "app": "BLA761235",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "False-positive flag: the number '5' ('5 monthly doses') is supported by the citation which states 'after the first five monthly doses'."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flags: '28' and '2021' are components of the excluded date 'May 28, 2021'; first_cycle_approval=true is correctly inferred from absence of a prior CRL."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "5",
+        "text": "Randomized, multi-center, double-masked, active comparator-controlled 2-year stu"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "28",
+        "text": "Approved effective on the date of the approval letter following review of the BL"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2021",
+        "text": "Approved effective on the date of the approval letter following review of the BL"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

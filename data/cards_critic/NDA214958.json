@@ -1,0 +1,112 @@
+{
+  "app": "NDA214958",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive flag: the uncited number '1' is part of the 'sPGA 0/1' endpoint notation, not an efficacy statistic; the actual result values (54%, 7%, 58%, 13%, p<0.001) are all supported by the citation."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "False-positive flag: the uncited number '1' is part of the 'sPGA 0/1' endpoint notation; the result values (50%, 9%, 53%, 9%, p<0.001) are all supported by the citation."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flags: '10' and '2021' are components of the receipt date 'September 10, 2021' (dates are excluded from uncited-number checks) and the date is supported elsewhere."
+    },
+    {
+      "field": "post_marketing[0].requirement",
+      "severity": "low",
+      "issue": "False-positive flags: '4336' and '1' are PMR tracking/identifier numbers, not efficacy/safety statistics; applies equally to post_marketing[1]-[5]."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "1",
+        "text": "sPGA 0/1: 54% vs 7% placebo; PASI 75: 58% vs 13% placebo (p<0.001)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "1",
+        "text": "sPGA 0/1: 50% vs 9% placebo; PASI 75: 53% vs 9% placebo (p<0.001)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "10",
+        "text": "Approved on the first review cycle; application received September 10, 2021 and "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2021",
+        "text": "Approved on the first review cycle; application received September 10, 2021 and "
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "4336",
+        "text": "4336-1 (PREA): Randomized controlled trial of safety, efficacy, and PK of deucra"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "1",
+        "text": "4336-1 (PREA): Randomized controlled trial of safety, efficacy, and PK of deucra"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "4336",
+        "text": "4336-2 (PREA): Trial of safety, efficacy, and PK of deucravacitinib in pediatric"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "2",
+        "text": "4336-2 (PREA): Trial of safety, efficacy, and PK of deucravacitinib in pediatric"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "4336",
+        "text": "4336-3 (Pregnancy): Prospective, registry-based observational exposure cohort st"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "3",
+        "text": "4336-3 (Pregnancy): Prospective, registry-based observational exposure cohort st"
+      },
+      {
+        "field": "post_marketing[3]/requirement",
+        "number": "4336",
+        "text": "4336-4 (Pregnancy): Pregnancy study of a different design (e.g., retrospective c"
+      },
+      {
+        "field": "post_marketing[3]/requirement",
+        "number": "4",
+        "text": "4336-4 (Pregnancy): Pregnancy study of a different design (e.g., retrospective c"
+      },
+      {
+        "field": "post_marketing[4]/requirement",
+        "number": "4336",
+        "text": "4336-5 (Lactation): Lactation study (milk only) in lactating women who received "
+      },
+      {
+        "field": "post_marketing[4]/requirement",
+        "number": "5",
+        "text": "4336-5 (Lactation): Lactation study (milk only) in lactating women who received "
+      },
+      {
+        "field": "post_marketing[5]/requirement",
+        "number": "4336",
+        "text": "4336-6 (Long-Term Safety): Randomized, active-controlled clinical trial to evalu"
+      },
+      {
+        "field": "post_marketing[5]/requirement",
+        "number": "6",
+        "text": "4336-6 (Long-Term Safety): Randomized, active-controlled clinical trial to evalu"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

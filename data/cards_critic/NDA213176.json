@@ -1,0 +1,34 @@
+{
+  "app": "NDA213176",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Automated flag on number '213176' is a false positive \u2014 it is the NDA application number, not an efficacy/safety figure.",
+      "note": "dismissed flag"
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag on number '3' is a false positive \u2014 it refers to 'Phase 3' confirmatory trial (a phase/design descriptor), not an uncited efficacy/safety statistic.",
+      "note": "dismissed flag"
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "213176",
+        "text": "NDA 213176 was approved under accelerated approval effective the date of the app"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Umbralisib received Breakthrough Therapy Designation (MZL) and orphan drug desig"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

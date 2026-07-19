@@ -1,0 +1,97 @@
+{
+  "app": "NDA217389",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "medium",
+      "issue": "The detail states PDUFA goal date 6/26/2024 and review completion date 6/26/2024, but the attached citation only mentions 'no outstanding issues' and a recommendation for approval; these dates are uncited by this field's quote."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "The '48-week safety cohort' number is not contained in this field's own citations (the 48-week cohort quote is attached to trial_name, not design)."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive flag: 'Week 12' number is not in the result citation but is supported by the endpoint citation ('FEV1 AUC0-12h post dose at Week 12')."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "False-positive flag: 'Week 12' number is not in the result citation but is supported by the endpoint citation."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flags: 'phase 3', 'first cycle', and 'two' trials are supported by other cited fields; no genuine uncited efficacy/safety numbers."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "48",
+        "text": "Phase 3, multicenter, international, randomized, double-blind, placebo-controlle"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "12",
+        "text": "Statistically significant increase in FEV1 AUC0-12h at Week 12 of 0.087 L vs pla"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "12",
+        "text": "Statistically significant increase in FEV1 AUC0-12h at Week 12 of 0.094 L vs pla"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "6",
+        "text": "Approved on the first review cycle; PDUFA goal date 6/26/2024 and review complet"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "26",
+        "text": "Approved on the first review cycle; PDUFA goal date 6/26/2024 and review complet"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2024",
+        "text": "Approved on the first review cycle; PDUFA goal date 6/26/2024 and review complet"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "6",
+        "text": "Approved on the first review cycle; PDUFA goal date 6/26/2024 and review complet"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "26",
+        "text": "Approved on the first review cycle; PDUFA goal date 6/26/2024 and review complet"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2024",
+        "text": "Approved on the first review cycle; PDUFA goal date 6/26/2024 and review complet"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Standard NDA submitted under section 505(b), received June 26, 2023, and approve"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "Standard NDA submitted under section 505(b), received June 26, 2023, and approve"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "Standard NDA submitted under section 505(b), received June 26, 2023, and approve"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

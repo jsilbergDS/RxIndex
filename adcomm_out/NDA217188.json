@@ -1,0 +1,199 @@
+{
+  "app": "NDA217188",
+  "drug": "PAXLOVID (COPACKAGED)",
+  "docs_read": [
+    {
+      "doc_type": "IntegratedR",
+      "doc_id": "ea1c2849-3daf-5e1f-b278-484204efcf71"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "79ca1456-e55b-50f3-872c-26a5b743a12f"
+    },
+    {
+      "doc_type": "AppLtr",
+      "doc_id": "f0e05e75-1e6d-5cbe-bdc2-eb791f206a8c"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Antimicrobial Drugs Advisory Committee (AMDAC)",
+    "quote": {
+      "doc_type": "IntegratedR",
+      "doc_id": "ea1c2849-3daf-5e1f-b278-484204efcf71",
+      "line": 1254,
+      "quote": "The Antimicrobial Drugs Advisory Committee (AMDAC) met on March 16, 2023 to discuss this NDA."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "ea1c2849-3daf-5e1f-b278-484204efcf71",
+      "found_lines": [
+        1254
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "March 16, 2023",
+    "quote": {
+      "doc_type": "IntegratedR",
+      "doc_id": "ea1c2849-3daf-5e1f-b278-484204efcf71",
+      "line": 1254,
+      "quote": "The Antimicrobial Drugs Advisory Committee (AMDAC) met on March 16, 2023 to discuss this NDA."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "ea1c2849-3daf-5e1f-b278-484204efcf71",
+      "found_lines": [
+        1254
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "Committee voted 16 Yes, 1 No, 0 Abstain (94% favorable) that the overall benefit-risk assessment is favorable for PAXLOVID for the proposed indication.",
+    "quote": {
+      "doc_type": "IntegratedR",
+      "doc_id": "ea1c2849-3daf-5e1f-b278-484204efcf71",
+      "line": 1257,
+      "quote": "Vote Result: Yes: 16 No: 1 Abstain: 0"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "ea1c2849-3daf-5e1f-b278-484204efcf71",
+      "found_lines": [
+        1257
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee viewed drug-drug interactions (DDIs) as an area of significant concern and stated that risk mitigation was needed to better communicate DDI risk, since PAXLOVID is largely prescribed by primary care providers who may be unfamiliar with ritonavir DDIs.",
+      "change": "The U.S. Prescribing Information includes a boxed warning to highlight the risk of serious adverse reactions due to PAXLOVID DDIs.",
+      "category": "Safety / Boxed warning",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "ea1c2849-3daf-5e1f-b278-484204efcf71",
+        "line": 1259,
+        "quote": "When it came to safety, drug-drug interactions were an area of significant concern, and many agreed that this is an issue that needs to be addressed further.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "ea1c2849-3daf-5e1f-b278-484204efcf71",
+          "found_lines": [
+            1259
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "ea1c2849-3daf-5e1f-b278-484204efcf71",
+        "line": 1119,
+        "quote": "For these reasons, and with supportive advice from the CDER MPPRC, the USPI will include a boxed warning to highlight this important safety risk.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "ea1c2849-3daf-5e1f-b278-484204efcf71",
+          "found_lines": [
+            1119
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee emphasized completion of studies in the immunocompromised population (and noted concern that one study may be insufficient given the wide spectrum of immunocompromising conditions).",
+      "change": "A postmarketing commitment (4392-7) requires the final study report for the ongoing EPIC-IC trial (C4671034) investigating nirmatrelvir/ritonavir in immunocompromised patients.",
+      "category": "Special population / Postmarketing study (immunocompromised)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "ea1c2849-3daf-5e1f-b278-484204efcf71",
+        "line": 1259,
+        "quote": "Completion of studies pertaining to pregnancy, pediatrics, and in the immunocompromised population was emphasized.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "ea1c2849-3daf-5e1f-b278-484204efcf71",
+          "found_lines": [
+            1259
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "AppLtr",
+        "doc_id": "f0e05e75-1e6d-5cbe-bdc2-eb791f206a8c",
+        "line": 72,
+        "quote": "Study To Investigate Nirmatrelvir/Ritonavir In Nonhospitalized Participants At Least 12 Years Of Age With Symptomatic COVID-19 Who Are Immunocompromised",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "f0e05e75-1e6d-5cbe-bdc2-eb791f206a8c",
+          "found_lines": [
+            72
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee emphasized completion of studies pertaining to pregnancy.",
+      "change": "A postmarketing commitment (4392-8) requires the final study report for the ongoing pharmacokinetic/safety trial (C4671035) of nirmatrelvir/ritonavir in pregnant women with mild-to-moderate COVID-19.",
+      "category": "Special population / Postmarketing study (pregnancy)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "ea1c2849-3daf-5e1f-b278-484204efcf71",
+        "line": 1259,
+        "quote": "Completion of studies pertaining to pregnancy, pediatrics, and in the immunocompromised population was emphasized.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "ea1c2849-3daf-5e1f-b278-484204efcf71",
+          "found_lines": [
+            1259
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "AppLtr",
+        "doc_id": "f0e05e75-1e6d-5cbe-bdc2-eb791f206a8c",
+        "line": 75,
+        "quote": "Orally Administered Nirmatrelvir/Ritonavir In Pregnant Women With Mild-To-Moderate COVID-19",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "f0e05e75-1e6d-5cbe-bdc2-eb791f206a8c",
+          "found_lines": [
+            75
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee recommended that pharmacovigilance plans and nonclinical studies be implemented to monitor PAXLOVID activity against emerging SARS-CoV-2 variants and detect possible emergence of resistant virus.",
+      "change": "Postmarketing requirements under 505(o) require genomic-database surveillance for emergence of SARS-CoV-2 Mpro variants (4392-5) and phenotypic characterization of amino acid substitutions on nirmatrelvir activity (4392-4).",
+      "category": "Antiviral resistance / Postmarketing surveillance",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "ea1c2849-3daf-5e1f-b278-484204efcf71",
+        "line": 1263,
+        "quote": "The committee recommended that pharmacovigilance plans and nonclinical studies should be implemented to study PAXLOVID activity against new emerging variants.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "ea1c2849-3daf-5e1f-b278-484204efcf71",
+          "found_lines": [
+            1263
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "AppLtr",
+        "doc_id": "f0e05e75-1e6d-5cbe-bdc2-eb791f206a8c",
+        "line": 52,
+        "quote": "Conduct a study to monitor genomic database(s) for the emergence of SARS-CoV-2 variants with amino acid polymorphisms in Mpro or Mpro cleavage sites.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "f0e05e75-1e6d-5cbe-bdc2-eb791f206a8c",
+          "found_lines": [
+            52
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Antimicrobial Drugs Advisory Committee (AMDAC) met on March 16, 2023 and voted 16-1 (94%) that PAXLOVID's overall benefit-risk was favorable for treating mild-to-moderate COVID-19 in high-risk adults, and FDA cited that vote in its decision to approve. The meeting was largely confirmatory; the review documents do not explicitly tie any committee concern to a specific approval change. Concerns the committee raised (DDI risk communication; completion of immunocompromised/pregnancy studies; variant/resistance surveillance) correspond to changes in the approval package (a DDI boxed warning and postmarketing requirements/commitments), but these connections are inferred, not stated, and some (e.g., the boxed warning proposed at a February 15, 2023 MPPRC meeting) predate the AdComm."
+}

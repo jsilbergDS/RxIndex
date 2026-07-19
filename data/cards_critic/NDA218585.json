@@ -1,0 +1,32 @@
+{
+  "app": "NDA218585",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG 'uncited number 1.75' is a false positive: it is a dose/concentration in editorial gloss ('aceclidine 1.75%') supported by the modality and design citations, not an efficacy statistic."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG 'uncited number 1.75' is a false positive: dose/concentration gloss, not an efficacy statistic, and consistent with cited modality field."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "1.75",
+        "text": "Primary endpoint met: at Visit 2 (Day 1) 3 hours postdose, responder rate was 64"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "1.75",
+        "text": "Primary endpoint met: responder rate 70.59% for LNZ100 (aceclidine 1.75%, the ap"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

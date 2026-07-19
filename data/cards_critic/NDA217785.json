@@ -1,0 +1,53 @@
+{
+  "app": "NDA217785",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 281)",
+  "_raw": "Analyzing the card for quality issues.\n\nLet me check each area systematically.\n\n**Result field numbers:** The citations only have Pathologist A readings. The result claims difference values \"14 [95% CI 8, 20]\" for 80mg NASH \u2014 but the CI quote is \"14 (8, 20)\\t23 (16, 30)\" \u2014 these are the differences ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Trial MGL-3196-11 (Trial 1)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "80",
+        "text": "Both doses achieved statistical significance on both histopathology endpoints. N"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "100",
+        "text": "Both doses achieved statistical significance on both histopathology endpoints. N"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "80",
+        "text": "Both doses achieved statistical significance on both histopathology endpoints. N"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "100",
+        "text": "Both doses achieved statistical significance on both histopathology endpoints. N"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "21",
+        "text": "Resmetirom received accelerated approval under 21 CFR part 314 subpart H based o"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "314",
+        "text": "Resmetirom received accelerated approval under 21 CFR part 314 subpart H based o"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2019",
+        "text": "Resmetirom received accelerated approval under 21 CFR part 314 subpart H based o"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

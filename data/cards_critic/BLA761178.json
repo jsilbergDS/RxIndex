@@ -1,0 +1,62 @@
+{
+  "app": "BLA761178",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.breakthrough_therapy.basis",
+      "severity": "low",
+      "issue": "Text claims breakthrough designation was requested 'twice' and denied on 'both occasions', but the single citation documents only one denial (March 23, 2015)."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "States 'Two prior requests for breakthrough therapy designation had been denied' but only one denial is supported by citations anywhere in the card."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged uncited number '2021' (June 7, 2021 approval date) is a date not contained in the detail's citation; benign date, false-positive-level."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated uncited-number flags for '761178' and '7' are false positives (application ID and date fragments), not efficacy/safety numbers."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Automated uncited-number flag for '1' (the 'Study 1' label) is a false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study 1 (221AD302 / EMERGE)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2021",
+        "text": "BLA received July 7, 2020; approved under accelerated approval on the date of th"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "761178",
+        "text": "BLA 761178 was received July 7, 2020 and given Priority review. It was approved "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "7",
+        "text": "BLA 761178 was received July 7, 2020 and given Priority review. It was approved "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "7",
+        "text": "BLA 761178 was received July 7, 2020 and given Priority review. It was approved "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

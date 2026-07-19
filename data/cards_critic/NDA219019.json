@@ -1,0 +1,43 @@
+{
+  "app": "NDA219019",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Extra data: line 52 column 1 (char 2462)",
+  "_raw": "Looking at the card carefully:\n\n```json\n{\n  \"app\": \"NDA219019\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"modality\",\n      \"severity\": \"high\",\n      \"issue\": \"Modality states 'Oligonucleotide (small interfering RNA, siRNA)' but the citation only supports siRNA; while siRNA is an ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "3",
+        "text": "Phase 3"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "19",
+        "text": "57 randomized (fitusiran N=38, BPA on-demand N=19)"
+      },
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "3",
+        "text": "Phase 3"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "40",
+        "text": "120 randomized (fitusiran N=80, factor on-demand N=40)"
+      },
+      {
+        "field": "companion_dx/detail",
+        "number": "15",
+        "text": "INNOVANCE Antithrombin assay, FDA-authorized as a companion diagnostic to measur"
+      },
+      {
+        "field": "companion_dx/detail",
+        "number": "35",
+        "text": "INNOVANCE Antithrombin assay, FDA-authorized as a companion diagnostic to measur"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

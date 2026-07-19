@@ -1,0 +1,18 @@
+{
+  "app": "NDA214998",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 10 column 5 (char 337)",
+  "_raw": "Reviewing the card against all check categories.\n\n```json\n{\n  \"app\": \"NDA214998\",\n  \"release_ready\": true,\n  \"issues\": [\n    {\n      \"field\": \"first_cycle_approval.detail.text\",\n      \"severity\": \"low\",\n      \"issue\": \"Flagged uncited number '3' is a false positive: the citation quote states the goa",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "3",
+        "text": "NDA received January 28, 2021 and approved April 28, 2022 (PDUFA goal date exten"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "app": "NDA215888",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 491)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"NDA215888\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].result\",\n      \"severity\": \"high\",\n      \"issue\": \"The p<0.001 is presented as a plain p-value, but the citation labels it a 'Treatment Difference p",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "26",
+        "text": "The NDA was filed July 26, 2021 and approved effective on the date of the approv"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2021",
+        "text": "The NDA was filed July 26, 2021 and approved effective on the date of the approv"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "215888",
+        "text": "Oteseconazole (NDA 215888) received Fast Track and QIDP designations in Septembe"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

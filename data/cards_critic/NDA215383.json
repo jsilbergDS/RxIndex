@@ -1,0 +1,57 @@
+{
+  "app": "NDA215383",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval/detail",
+      "severity": "low",
+      "issue": "Flagged uncited numbers '15' and '2021' are part of the September 15, 2021 PDUFA date \u2014 false positive (dates excluded)."
+    },
+    {
+      "field": "approval_program/priority_review/basis",
+      "severity": "low",
+      "issue": "Flagged '15' and '2021' are part of the September 15, 2021 PDUFA goal date \u2014 false positive (dates excluded)."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "Flagged '2' (from 'Phase 2') and '004' (study ID) are not efficacy/safety numbers \u2014 false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "15",
+        "text": "Regular approval recommended by all disciplines; application approved on first c"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2021",
+        "text": "Regular approval recommended by all disciplines; application approved on first c"
+      },
+      {
+        "field": "approval_program/priority_review/basis",
+        "number": "15",
+        "text": "The application was reviewed as a Priority review (PDUFA goal date September 15,"
+      },
+      {
+        "field": "approval_program/priority_review/basis",
+        "number": "2021",
+        "text": "The application was reviewed as a Priority review (PDUFA goal date September 15,"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "Belzutifan received a regular (not accelerated) approval under Priority review, "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "004",
+        "text": "Belzutifan received a regular (not accelerated) approval under Priority review, "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

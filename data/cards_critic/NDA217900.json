@@ -1,0 +1,57 @@
+{
+  "app": "NDA217900",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Automated flag on numbers 28/2023/2024 are dates and should be excluded; false positive."
+    },
+    {
+      "field": "approval_program.breakthrough_therapy.basis",
+      "severity": "low",
+      "issue": "Automated flag on IND number 131423 is a study/application identifier and should be excluded; false positive."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag on NDA number 217900 is an application identifier and should be excluded; false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "28",
+        "text": "The NDA was submitted July 28, 2023 and approved effective on the date of the ap"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2023",
+        "text": "The NDA was submitted July 28, 2023 and approved effective on the date of the ap"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "28",
+        "text": "The NDA was submitted July 28, 2023 and approved effective on the date of the ap"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2024",
+        "text": "The NDA was submitted July 28, 2023 and approved effective on the date of the ap"
+      },
+      {
+        "field": "approval_program/breakthrough_therapy/basis",
+        "number": "131423",
+        "text": "Breakthrough Therapy Designation had been granted (under IND 131423) but was res"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "217900",
+        "text": "NDA 217900 was submitted under the 505(b)(1) pathway and reviewed on a Standard "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

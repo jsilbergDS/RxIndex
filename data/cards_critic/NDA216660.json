@@ -1,0 +1,31 @@
+{
+  "app": "NDA216660",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "medium",
+      "issue": "The endpoint text claims the ALSFRS-R slope was measured 'over the 24-week study period', but the cited quote only says 'the rate of decline (slope) of the total ALSFRS-R score' without the 24-week qualifier."
+    },
+    {
+      "field": "advisory_committee.vote.text",
+      "severity": "medium",
+      "issue": "The text states the September 7, 2022 committee 'voted 7-2 ... in favor of approval', but the cited quote (YES: 7 NO: 2) does not state the question voted on was approval; the citation does not support the 'in favor of approval' characterization."
+    },
+    {
+      "field": "approval_program.summary.text",
+      "severity": "low",
+      "issue": "The summary characterizes the 7-2 reconvened vote as 'in favor of approval', which is not supported by the cited quote stating only the vote tally; same unsupported inference as in advisory_committee.vote."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "The survival result narrative reports 'median 23.5 vs 18.7 months', but omits/reframes the review's stated 4.8-month difference; minor but the paired median framing is supported so this is borderline."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

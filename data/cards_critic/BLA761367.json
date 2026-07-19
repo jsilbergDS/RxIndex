@@ -1,0 +1,32 @@
+{
+  "app": "BLA761367",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.orphan_drug.orphan_indication",
+      "severity": "low",
+      "issue": "False-positive flag: uncited number '30' is part of the date 'April 30, 2020' and should be excluded."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: uncited number '3' is the trial phase descriptor ('phase 3'), which is supported by the phase field citation, not an efficacy/safety figure."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/orphan_drug/orphan_indication",
+        "number": "30",
+        "text": "Orphan Drug Designation granted April 30, 2020 for bradykinin-mediated angioedem"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Standard-review BLA supported by a single phase 3 trial; garadacimab held Fast T"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

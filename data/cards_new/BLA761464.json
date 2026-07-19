@@ -1,0 +1,189 @@
+{
+  "_meta": {
+    "drug": "DATROWAY",
+    "appno": "761464",
+    "type": "BLA",
+    "active": "DATOPOTAMAB DERUXTECAN-DLNK",
+    "sponsor": "DAIICHI SANKYO INC",
+    "indication": "Adult patients with locally advanced or metastatic EGFR-mutated NSCLC who have received prior EGFR-directed therapy and platinum-based chemotherapy (accelerated approval)",
+    "approval_date": "2025-06-23",
+    "review_designation": "Priority",
+    "expedited": {
+      "btd": false,
+      "ft": false,
+      "pr": true,
+      "orph": false,
+      "accelerated": true,
+      "qidp": false
+    },
+    "receipt_date": "November 12, 2024",
+    "tta_months": 7.3
+  },
+  "pivotal_trials": [
+    {
+      "trial_name": "TROPION-Lung05 (TL05)",
+      "nct": "NCT04484142",
+      "phase": "Phase 2",
+      "design": "Global, multicenter, single-arm, open-label study of Dato-DXd monotherapy",
+      "population": "TL05 enrolled 78 subjects with EGFR mutations (57% of total enrollment N=137) with advanced NSCLC previously treated with applicable targeted therapy and platinum-based chemotherapy. For FDA's efficacy evaluation, 77 patients from TL05 receiving Dato-DXd 6 mg/kg Q3W were pooled with 37 patients from TL01 (total n=114); this 114-patient EGFR-mutated pooled population is a cross-trial pooled population, not TL05's own trial population.",
+      "endpoint": "Overall response rate (ORR) by blinded independent central review (BICR) per RECIST v1.1",
+      "n": "Pooled primary efficacy population n=114 (TL05 n=77; TL01 n=37)",
+      "result": "Pooled ORR by BICR 45% (95% CI: 35, 54); median DoR 6.5 months (95% CI: 4.2, 8.4)"
+    },
+    {
+      "trial_name": "TROPION-Lung01 (TL01) \u2014 supporting study",
+      "nct": "NCT04656652",
+      "phase": "Phase 3",
+      "design": "Global, multicenter, randomized, active-controlled, open-label trial of Dato-DXd versus docetaxel",
+      "population": "Advanced NSCLC with or without an actionable genomic alteration who received at least one prior systemic treatment; EGFR-mutated subgroup (n=37) contributed to the pooled efficacy population",
+      "endpoint": "Dual primary: progression-free survival (PFS) by BICR and overall survival (OS)",
+      "n": "604 randomized (Dato-DXd 299; docetaxel 305); EGFR-mutated subgroup n=84 (Dato-DXd 39; docetaxel 45)",
+      "result": "The randomized-population PFS/OS analyses in the EGFR-mutated subgroup were post-hoc and evaluated as supportive evidence only. Post-hoc EGFR-mutated subgroup: ORR by BICR 41.0% (95% CI: 25.6, 57.9) vs 8.9% (95% CI: 2.5, 21.2) with docetaxel; PFS by BICR HR 0.39 (95% CI: 0.22, 0.69), median PFS 6.8 months (95% CI: 4.2, 8.2) vs 2.7 months (95% CI: 1.5, 4.4); OS HR 0.78 (95% CI: 0.45, 1.35) crossing 1 (non-significant), median OS 15.6 months (95% CI: 12.0, 16.9) vs 12.8 months (95% CI: 6.9, 17.2)"
+    }
+  ],
+  "key_safety": "Most common adverse reactions (\u226520%) were stomatitis (71%), nausea (50%), alopecia (49%), fatigue (42%), constipation (31%), musculoskeletal pain (22%), rash (20%), and decreased appetite (20%); serious adverse reactions in 26%; significant risks are ILD/pneumonitis, ocular toxicity, and stomatitis",
+  "target_moa": "Trop-2-directed antibody-drug conjugate; humanized IgG1 anti-Trop2 antibody linked to DXd, a topoisomerase I inhibitor, via a cleavable linker; upon binding Trop2 it internalizes and releases DXd causing DNA damage and apoptosis",
+  "modality": "ADC (antibody-drug conjugate)",
+  "boxed_warning": {
+    "present": false,
+    "content": null
+  },
+  "rems": {
+    "present": false,
+    "type": "No safety concerns identified warranting consideration for a REMS"
+  },
+  "companion_dx": false,
+  "companion_dx_detail": null,
+  "advisory_committee": {
+    "convened": false,
+    "vote": "FDA did not refer this application to an advisory committee"
+  },
+  "first_cycle_approval": true,
+  "therapeutic_area": "Oncology",
+  "indication_details": {},
+  "supplements": [],
+  "approval_program": {
+    "accelerated_approval": {
+      "present": true,
+      "surrogate_endpoint": {
+        "text": "Overall response rate (ORR), an intermediate endpoint reasonably likely to predict clinical benefit in NSCLC (pooled ORR 45%)",
+        "citations": [
+          {
+            "quote": "ORR is a direct measure of the intervention, as in the absence of therapy, EGFR-mutated NSCLC tumors do not typically regress; for NSCLC, ORR is considered an intermediate endpoint reasonably likely to predict clinical benefit.",
+            "doc_id": "2145fcb6-b2ff-5cd4-8237-0755d1237c42",
+            "line": 53
+          },
+          {
+            "quote": "ORR per BICR was 45% (95% CI: 35, 54)",
+            "doc_id": "2145fcb6-b2ff-5cd4-8237-0755d1237c42",
+            "line": 61
+          }
+        ]
+      },
+      "confirmatory_requirement": {
+        "text": "TROPION-Lung15, an open-label, randomized, controlled trial of Dato-DXd with or without osimertinib versus platinum-based doublet chemotherapy in EGFR-mutated NSCLC (primary endpoint PFS by BICR; OS key secondary)",
+        "citations": [
+          {
+            "quote": "The trial intended to verify the clinical benefit of Dato-DXd in the treatment of patients with EGFR-mutated NSCLC is TROPION-Lung15, an open-label, randomized, controlled trial comparing Dato-DXd or Dato-DXd in combination with osimertinib to platinum-doublet chemotherapy in patients with EGFR-mutated NSCLC whose disease has progressed on prior osimertinib as the most recent line of treatment.",
+            "doc_id": "2145fcb6-b2ff-5cd4-8237-0755d1237c42",
+            "line": 68
+          }
+        ]
+      }
+    },
+    "breakthrough_therapy": {
+      "present": false,
+      "basis": null
+    },
+    "fast_track": {
+      "present": false,
+      "basis": null
+    },
+    "orphan_drug": {
+      "present": false,
+      "orphan_indication": null
+    },
+    "priority_review": {
+      "present": true,
+      "basis": {
+        "text": "Application was reviewed as Priority",
+        "citations": [
+          {
+            "quote": "Application Number(s)\t761464\nPriority or Standard\tPriority",
+            "doc_id": "2145fcb6-b2ff-5cd4-8237-0755d1237c42",
+            "line": 11
+          }
+        ]
+      }
+    },
+    "qidp": {
+      "present": false,
+      "basis": null
+    },
+    "rmat": {
+      "present": false,
+      "basis": null
+    },
+    "summary": {
+      "text": "DATROWAY received accelerated approval as a priority-review BLA for EGFR-mutated NSCLC, based on ORR as an intermediate endpoint reasonably likely to predict clinical benefit, with continued approval contingent on the confirmatory trial TROPION-Lung15.",
+      "citations": [
+        {
+          "quote": "The submitted data provides substantial evidence of effectiveness to support the accelerated approval of datopotamab deruxtecan-dlnk (Dato-DXd) for the treatment of adult patients with locally advanced or metastatic epidermal growth factor receptor (EGFR)-mutated non-small cell lung cancer (NSCLC) who have received prior EGFR-directed therapy and platinum-based chemotherapy.",
+          "doc_id": "2145fcb6-b2ff-5cd4-8237-0755d1237c42",
+          "line": 49
+        },
+        {
+          "quote": "Priority or Standard\tPriority",
+          "doc_id": "2145fcb6-b2ff-5cd4-8237-0755d1237c42",
+          "line": 11
+        },
+        {
+          "quote": "Continued approval for this indication may be contingent upon verification and description of clinical benefit in a confirmatory trial, conducted as a postmarketing requirement.",
+          "doc_id": "2145fcb6-b2ff-5cd4-8237-0755d1237c42",
+          "line": 68
+        }
+      ]
+    }
+  },
+  "post_marketing": [
+    {
+      "type": "PMR",
+      "requirement": {
+        "text": "4860-1 Conduct a multicenter, randomized clinical trial, TROPION-LUNG15, intended to verify and describe the clinical benefit of datopotamab deruxtecan in patients with EGFR-mutated non-small cell lung cancer who have had disease progression after osimertinib.",
+        "citations": [
+          {
+            "quote": "4860-1 Conduct a multicenter, randomized clinical trial, TROPION-LUNG15, intended to verify and describe the clinical benefit of datopotamab deruxtecan in patients with EGFR-mutated non-small cell lung cancer who have had disease progression after osimertinib.",
+            "doc_id": "91442e80-769f-5781-b6f8-25ca6a9252fc",
+            "line": 31
+          }
+        ]
+      }
+    },
+    {
+      "type": "PMC",
+      "requirement": {
+        "text": "4860-2 Complete (b) (4) and (b) (4) anti-drug antibody (ADA) assay validation and include report addendums containing high resolution drug tolerance data and justification to support that the ADA assays are fit-for-purpose to characterize the effects of ADA on pharmacokinetics, pharmacodynamics, safety, and effectiveness of datopotamab deruxtecan.",
+        "citations": [
+          {
+            "quote": "4860-2 Complete (b) (4) and (b) (4) anti-drug antibody (ADA) assay validation and include report addendums containing high resolution drug tolerance data and justification to support that the ADA assays are fit-for-purpose to characterize the effects of ADA on pharmacokinetics, pharmacodynamics, safety, and effectiveness of datopotamab deruxtecan.",
+            "doc_id": "91442e80-769f-5781-b6f8-25ca6a9252fc",
+            "line": 54
+          }
+        ]
+      }
+    }
+  ],
+  "crl_history": {
+    "prior_crl": false,
+    "date": null,
+    "basis": null
+  },
+  "_verify": {
+    "total": 46,
+    "pass": 46,
+    "missing": 0,
+    "num_total": 73,
+    "num_covered": 68
+  },
+  "_source": "single_agent_opus"
+}

@@ -1,0 +1,38 @@
+{
+  "app": "NDA218276",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 415)",
+  "_raw": "Analyzing the card against citations and flags.\n\nLet me verify key claims:\n\n- **result[0]**: \"Hb change from baseline 3.6 vs -0.1 g/dL\" \u2014 citation supports 3.6 and -0.1. The adjusted difference 81.5%, CI 71.6-91.4, p<0.0001 all supported. Transfusion avoidance 95.2%/45.7%/49.5% supported. But card s",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "12",
+        "text": "Two primary endpoints: proportion with sustained increase of \u2265 2 g/dL in hemoglo"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "97",
+        "text": "N=97 randomized (iptacopan n=62; anti-C5 n=35)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "505",
+        "text": "NDA submitted April 5, 2023 under 505(b)(1) and approved; no prior CRL for this "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "1",
+        "text": "NDA submitted April 5, 2023 under 505(b)(1) and approved; no prior CRL for this "
+      },
+      {
+        "field": "receipt_date",
+        "number": "4",
+        "text": "4/5/2023"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

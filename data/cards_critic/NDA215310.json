@@ -1,0 +1,47 @@
+{
+  "app": "NDA215310",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "target_moa",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited number '20' is a false positive \u2014 it belongs to the identifier 'exon 20 insertion' and to the cited IC50 range (2.4\u201322 nM); values are supported by citations."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited number '114' is a false positive \u2014 the N=114 population is verbatim-cited in pivotal_trials[0].n; safety rates 92%/22% are cited in this field's own quotes."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAGS '3' and '4' (from 'Grade 3/4') are false positives \u2014 the diarrhea 22% Grade 3/4 value is supported by cited quote 'Diarrhea\\t92\\t22'; '3/4' is a grade label, not an uncited efficacy/safety statistic."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "target_moa",
+        "number": "20",
+        "text": "Mobocertinib is an oral, irreversible kinase (EGFR TKI) inhibitor designed to se"
+      },
+      {
+        "field": "key_safety",
+        "number": "114",
+        "text": "Most common (>20%) adverse reactions: diarrhea, rash, nausea, stomatitis, vomiti"
+      },
+      {
+        "field": "key_safety",
+        "number": "3",
+        "text": "Most common (>20%) adverse reactions: diarrhea, rash, nausea, stomatitis, vomiti"
+      },
+      {
+        "field": "key_safety",
+        "number": "4",
+        "text": "Most common (>20%) adverse reactions: diarrhea, rash, nausea, stomatitis, vomiti"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

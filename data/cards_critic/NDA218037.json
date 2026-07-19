@@ -1,0 +1,27 @@
+{
+  "app": "NDA218037",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited_number '301' is a false positive: it is part of the study identifier 'ALXN2040-PNH-301', not an efficacy/safety number, and study IDs should be excluded."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "The listed warnings 'hepatic enzyme increases, and hyperlipidemia' are not present in the provided citation quotes (which cover only the boxed encapsulated-bacteria risk and the AE/serious-AR tables); minor unsupported detail."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "301",
+        "text": "Standard-review NDA for danicopan (VOYDEYA), which held orphan drug designation "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

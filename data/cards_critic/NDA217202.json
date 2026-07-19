@@ -1,0 +1,31 @@
+{
+  "app": "NDA217202",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "high",
+      "issue": "The result (42%-89% landiolol vs 0-11% placebo) is attributed to the single Taenaka & Kikawa (2013) trial, but its own citation states this is an aggregate 'based on the submitted placebo-controlled publications,' not this trial's specific outcome."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "medium",
+      "issue": "The result (43% landiolol vs 12% digoxin) is attributed to the single Nagai (2013) trial, but the citation frames it as an aggregate 'compared to active control' finding across HF subjects rather than this specific trial's reported endpoint."
+    },
+    {
+      "field": "pivotal_trials",
+      "severity": "medium",
+      "issue": "Internal inconsistency: the summary states the NDA relied on 6 randomized placebo-controlled and 2 randomized active-controlled trials (8 total), but only 2 pivotal trials are listed, and neither result citation clearly maps to an individual listed trial."
+    },
+    {
+      "field": "approval_program.orphan_drug",
+      "severity": "low",
+      "issue": "Applicant is 'AOP Orphan Pharmaceuticals GmbH' and drug is marketed as 'Onoact/Rapibloc'; orphan_drug=false is plausible for an SVT/AF indication but should be double-checked given the orphan-named sponsor (likely a false-positive concern, noted for verification)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

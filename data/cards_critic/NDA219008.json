@@ -1,0 +1,22 @@
+{
+  "app": "NDA219008",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "companion_dx.detail.text",
+      "severity": "low",
+      "issue": "Automated flag on uncited number '21' is a false positive \u2014 it is part of the mutation identifier 'exon 21 L858R', not an efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "companion_dx/detail",
+        "number": "21",
+        "text": "cobas EGFR Mutation Test v2 used to detect EGFR exon 19 deletions or exon 21 L85"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

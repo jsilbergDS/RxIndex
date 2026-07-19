@@ -1,0 +1,22 @@
+{
+  "app": "NDA219491",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "The '744 total' figure is not in any citation quote, but it is the simple sum of the cited micro-ITT arm sizes (506 + 238); flagged number is a benign derived value."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "744",
+        "text": "930 patients randomized 2:1; primary analysis micro-ITT (urogenital) population "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

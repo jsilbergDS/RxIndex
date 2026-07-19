@@ -1,0 +1,27 @@
+{
+  "app": "NDA218197",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag on number '291' is a false positive; it is part of the trial name 'CAPItello-291', not an efficacy/safety number."
+    },
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "low",
+      "issue": "Text claims PFS was 'prespecified in the overall population and the altered population,' but the citation only explicitly documents the altered population (N=289) as the prespecified primary endpoint."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "291",
+        "text": "TRUQAP received regular (full) approval under Priority Review, reviewed under Pr"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

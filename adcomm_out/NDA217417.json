@@ -1,0 +1,103 @@
+{
+  "app": "NDA217417",
+  "drug": "REZZAYO",
+  "docs_read": [
+    {
+      "doc_type": "IntegratedR",
+      "doc_id": "fda_d59bb6a7-ba56-5591-b518-2d8f9bbf1795"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_569569bf-f6b8-519d-95ef-be21aa00c7a8"
+    },
+    {
+      "doc_type": "Label",
+      "doc_id": "fda_bf9e8d81-41e3-52cd-ad60-5936505ddfd0"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Antimicrobial Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "IntegratedR",
+      "doc_id": "fda_d59bb6a7-ba56-5591-b518-2d8f9bbf1795",
+      "line": 730,
+      "quote": "A meeting of the Antimicrobial Drugs Advisory Committee was convened on January 24, 2023 to discuss this NDA."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_d59bb6a7ba56",
+      "found_lines": [
+        730
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "January 24, 2023",
+    "quote": {
+      "doc_type": "IntegratedR",
+      "doc_id": "fda_d59bb6a7-ba56-5591-b518-2d8f9bbf1795",
+      "line": 730,
+      "quote": "A meeting of the Antimicrobial Drugs Advisory Committee was convened on January 24, 2023 to discuss this NDA."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_d59bb6a7ba56",
+      "found_lines": [
+        730
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 14 \u201cyes\u201d, 1 \u201cno\u201d, and 0 abstentions on whether the overall benefit-risk assessment is favorable for rezafungin in adults with limited or no alternative treatment options.",
+    "quote": {
+      "doc_type": "IntegratedR",
+      "doc_id": "fda_d59bb6a7-ba56-5591-b518-2d8f9bbf1795",
+      "line": 730,
+      "quote": "The committee was asked to vote on whether the overall benefit-risk assessment is favorable for the use of rezafungin for treatment of candidemia/IC in adults with limited or no alternative treatment options. There were 14 \u201cyes\u201d votes, 1 \u201cno\u201d vote, and 0 abstentions."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_d59bb6a7ba56",
+      "found_lines": [
+        730
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Committee members who voted yes recommended that FDA note in the rezafungin labeling that patient populations at higher risk of neurological complications had been excluded from the phase 3 study, so prescribers would understand the trial population and the neurotoxicity uncertainty.",
+      "change": "The finalized prescribing information (ADVERSE REACTIONS / trial population description) was updated to state that patients with a history or significant symptoms of severe ataxia, tremor, or neuropathy, a diagnosis of multiple sclerosis or a movement disorder, or who were taking a neurotoxic medication were excluded from the phase 3 study.",
+      "category": "Labeling / trial population characterization",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "fda_d59bb6a7-ba56-5591-b518-2d8f9bbf1795",
+        "line": 732,
+        "quote": "They also recommended that FDA consider noting in the rezafungin labeling that patient populations with higher risk of neurological complications were excluded from the phase 3 study.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_d59bb6a7ba56",
+          "found_lines": [
+            732
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "fda_d59bb6a7-ba56-5591-b518-2d8f9bbf1795",
+        "line": 2149,
+        "quote": "patients with a history (or presenting with significant symptoms) of severe ataxia, tremor, or neuropathy or a diagnosis of multiple sclerosis or a movement disorder (including Parkinson's Disease or Huntington's Disease) or currently taking a severe neurotoxic medication were excluded from the phase 3 study",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_d59bb6a7ba56",
+          "found_lines": [
+            2149
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Antimicrobial Drugs Advisory Committee met on January 24, 2023 and voted 14 to 1 that rezafungin's benefit-risk was favorable for adults with candidemia/IC who have limited or no alternative treatment options, supporting the limited-use approval FDA ultimately granted. The committee's yes voters recommended that FDA note in labeling that patients at higher risk of neurological complications had been excluded from the phase 3 study; the finalized prescribing information was updated to describe that exclusion. FDA's decision to grant a limited-use rather than broad indication was driven by the study's 20% non-inferiority margin and unmet-need labeling guidance rather than explicitly attributed to the committee."
+}

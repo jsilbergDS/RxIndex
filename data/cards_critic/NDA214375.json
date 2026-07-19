@@ -1,0 +1,72 @@
+{
+  "app": "NDA214375",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "high",
+      "issue": "The observed estimate 1.6% falls outside the stated 95% CI (-3.7%, 0.5%), an internal inconsistency reproduced from the source; the point estimate cannot lie outside its own confidence interval, so the value is not reliable as stated."
+    },
+    {
+      "field": "pivotal_trials[1].endpoint",
+      "severity": "high",
+      "issue": "Same CI/estimate inconsistency as result: estimate 1.6% is not contained within CI (-3.7%, 0.5%)."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "medium",
+      "issue": "The resubmission date 'March 30, 2022' asserted in the detail text is not contained in this field's own citation quote (which only covers the CR issuance); it is supported elsewhere (receipt_date/crl_history) but not here."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: '1' in 'Study 1 (POL-Xe-001)' is a trial label, not an efficacy/safety number."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: '2' in 'Study 2 (POL-Xe-002)' is a trial label, not an efficacy/safety number."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False-positive flag: '31' is present verbatim in the citation quote ('In the remaining 31 patients')."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flag: '30' and '2022' are components of a date (March 30, 2022) and are date-excludable."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study 1 (POL-Xe-001)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "31",
+        "text": "32 patients completed both scans (31 in the primary analysis)."
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Study 2 (POL-Xe-002)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "30",
+        "text": "A Complete Response was issued for the first review cycle due to deficiencies in"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2022",
+        "text": "A Complete Response was issued for the first review cycle due to deficiencies in"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

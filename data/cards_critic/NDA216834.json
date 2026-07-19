@@ -1,0 +1,72 @@
+{
+  "app": "NDA216834",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive flag: '10' is part of the '>=10%' frequency threshold descriptor, not an uncited efficacy/safety data point."
+    },
+    {
+      "field": "boxed_warning.detail",
+      "severity": "low",
+      "issue": "False-positive flag: '2' refers to '2 weeks' vaccination timing, not an efficacy/safety number."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flags: '31', '2022', '17', '2023' are all dates, which are excluded from uncited-number checks."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flags: '216834' is the application/study number and '3' is the trial phase (cited elsewhere), neither is an efficacy/safety datum."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "10",
+        "text": "Most common adverse reactions (>=10%): injection site reactions (29% vs 16% plac"
+      },
+      {
+        "field": "boxed_warning/detail",
+        "number": "2",
+        "text": "WARNING: SERIOUS MENINGOCOCCAL INFECTIONS \u2014 ZILBRYSQ increases the risk of serio"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "31",
+        "text": "Application received August 31, 2022 and approved effective October 17, 2023; no"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2022",
+        "text": "Application received August 31, 2022 and approved effective October 17, 2023; no"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "17",
+        "text": "Application received August 31, 2022 and approved effective October 17, 2023; no"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2023",
+        "text": "Application received August 31, 2022 and approved effective October 17, 2023; no"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "216834",
+        "text": "ZILBRYSQ (zilucoplan) was reviewed as a standard (non-priority) NDA 216834 and a"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "ZILBRYSQ (zilucoplan) was reviewed as a standard (non-priority) NDA 216834 and a"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

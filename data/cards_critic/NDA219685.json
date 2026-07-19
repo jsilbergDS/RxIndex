@@ -1,0 +1,32 @@
+{
+  "app": "NDA219685",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "FALSE POSITIVE: uncited_numbers '505' and '1' are from the regulatory pathway identifier '505(b)(1)', not an efficacy/safety number, and are dismissible."
+    },
+    {
+      "field": "_meta_tta",
+      "severity": "medium",
+      "issue": "Time-to-approval is null although both submission date (8/29/2024) and approval date (8/29/2025) are cited, so it could and should be populated (~12 months)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "Rilzabrutinib received Orphan Drug Designation (2018) and Fast Track designation"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "Rilzabrutinib received Orphan Drug Designation (2018) and Fast Track designation"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

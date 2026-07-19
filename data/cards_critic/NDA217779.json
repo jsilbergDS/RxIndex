@@ -1,0 +1,27 @@
+{
+  "app": "NDA217779",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "medium",
+      "issue": "Design citation states placebo N=59 while the n field and its citation state placebo n=60, an internal inconsistency in the placebo arm size."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Automated flag on the number '3' is a false positive; it is the trial phase (Phase 3), which is cited."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "3",
+        "text": "IMerge (Study MDS3001), Phase 3 part"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

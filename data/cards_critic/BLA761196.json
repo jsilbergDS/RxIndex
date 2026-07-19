@@ -1,0 +1,28 @@
+{
+  "app": "BLA761196",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 406)",
+  "_raw": "Analyzing the card systematically.\n\n{\n \"app\": \"BLA761196\",\n \"release_ready\": false,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[0].population\",\n   \"severity\": \"medium\",\n   \"issue\": \"The value states '59% male' but the citation quote from line 58 says '59% male' \u2014 verify; actually the quote supports",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "402",
+        "text": "ADCT-402-201 (LOTIS-2)"
+      },
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "201",
+        "text": "ADCT-402-201 (LOTIS-2)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "ZYNLONTA received accelerated approval under 21 CFR 601.41 based on overall resp"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "app": "BLA761464",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 319)",
+  "_raw": "Analyzing the card for issues.\n\n```json\n{\n  \"app\": \"BLA761464\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].population\",\n      \"severity\": \"low\",\n      \"issue\": \"Automated flag 'uncited_number 114' is a false positive; the 114-pooled figure is supported by the sec",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "114",
+        "text": "TL05 enrolled 78 subjects with EGFR mutations (57% of total enrollment N=137) wi"
+      },
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "114",
+        "text": "TL05 enrolled 78 subjects with EGFR mutations (57% of total enrollment N=137) wi"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "761464",
+        "text": "BLA 761464 (submitted/received November 12, 2024) was approved under accelerated"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

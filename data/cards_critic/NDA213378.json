@@ -1,0 +1,58 @@
+{
+  "app": "NDA213378",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Extra data: line 57 column 1 (char 3290)",
+  "_raw": "Analyzing the card for QA issues.\n\n```json\n{\n  \"app\": \"NDA213378\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].result\",\n      \"severity\": \"high\",\n      \"issue\": \"The result states 'p<0.001, favoring ALKS 3831 (olanzapine -5.3; 95% CI -8.9, -1.7; p=0.004)' with SE ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "4",
+        "text": "4-week, multinational, randomized (1:1:1), double-blind, olanzapine- and placebo"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "1",
+        "text": "4-week, multinational, randomized (1:1:1), double-blind, olanzapine- and placebo"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "1",
+        "text": "4-week, multinational, randomized (1:1:1), double-blind, olanzapine- and placebo"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "1",
+        "text": "4-week, multinational, randomized (1:1:1), double-blind, olanzapine- and placebo"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "1",
+        "text": "24-week, randomized (1:1), double-blind, olanzapine-controlled weight mitigation"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "1",
+        "text": "24-week, randomized (1:1), double-blind, olanzapine-controlled weight mitigation"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "538",
+        "text": "538 analyzed (ALKS 3831 266, olanzapine 272)"
+      },
+      {
+        "field": "key_safety",
+        "number": "24",
+        "text": "Most common adverse reactions in schizophrenia (\u22655% and \u2265twice placebo): weight "
+      },
+      {
+        "field": "post_marketing[3]/requirement",
+        "number": "505",
+        "text": "505(o)-required: Perform a lactation study (milk only) in lactating women who ha"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

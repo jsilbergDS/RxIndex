@@ -1,0 +1,193 @@
+{
+  "app": "NDA213716",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "indication",
+      "severity": "high",
+      "issue": "Sole citation (line 61, doc ca664a11) is unverified/not found in OCR, leaving the indication text unsupported."
+    },
+    {
+      "field": "target_moa",
+      "severity": "high",
+      "issue": "All three citations (lines 209, 213, 210, doc ca664a11) are unverified/not found in OCR, leaving MOA claims unsupported."
+    },
+    {
+      "field": "modality",
+      "severity": "high",
+      "issue": "Sole citation (line 204, doc ca664a11) is unverified/not found in OCR; small-molecule/capsule claim unsupported."
+    },
+    {
+      "field": "key_safety",
+      "severity": "high",
+      "issue": "All four citations (lines 124, 126, 96, 104, doc ca664a11) are unverified; AE rates (26%/9%, 19%/9%, etc.) and PRES/nephrotoxicity claims are unsupported."
+    },
+    {
+      "field": "boxed_warning.detail",
+      "severity": "high",
+      "issue": "Both citations (lines 58, 59, doc ca664a11) are unverified/not found in OCR; boxed warning text unsupported."
+    },
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "high",
+      "issue": "Both citations (lines 274, 275, doc ca664a11) are unverified; primary endpoint definition unsupported."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "high",
+      "issue": "Sole citation (line 279, doc ca664a11) is unverified/not found in OCR; efficacy result (40.8% vs 22.5%, OR 2.7, CI 1.6-4.3, p<0.001) is unsupported."
+    },
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "high",
+      "issue": "Both citations (lines 263, 269, doc ca664a11) are unverified; population/exclusion claims unsupported."
+    },
+    {
+      "field": "pivotal_trials[0].nct",
+      "severity": "medium",
+      "issue": "Sole citation (line 263, doc ca664a11) is unverified/not found in OCR; NCT number unsupported."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "medium",
+      "issue": "All three citations (lines 263, 264, 265, doc ca664a11) are unverified; design details (357 patients, 1:1, MMF/steroids background) unsupported by verifiable quotes."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "One of two citations (line 264, doc ca664a11) is unverified, but the N=357/179/178 breakdown is corroborated by the verified AURORA-1 citation (doc 8242c493, line 50)."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive flag: uncited_numbers 179 and 178 are present in the verified AURORA-1 citation (n=179 vs n=178, doc 8242c493)."
+    },
+    {
+      "field": "_meta.approval_program",
+      "severity": "medium",
+      "issue": "Orphan drug designation status appears unassessed; lupus nephritis voclosporin had orphan status, yet orphan_drug.present=false with no citation confirming absence."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "179",
+        "text": "Complete renal response at Week 52: 40.8% (73/179) LUPKYNIS vs 22.5% (40/178) pl"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "178",
+        "text": "Complete renal response at Week 52: 40.8% (73/179) LUPKYNIS vs 22.5% (40/178) pl"
+      }
+    ],
+    "unverified_citations": [
+      {
+        "field": "pivotal_trials[0]/nct",
+        "line": 263,
+        "quote": "The safety and efficacy of LUPKYNIS were investigated in Stu"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "line": 263,
+        "quote": "The safety and efficacy of LUPKYNIS were investigated in Stu"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "line": 264,
+        "quote": "A total of 357 patients with LN were randomized in a 1:1 rat"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "line": 265,
+        "quote": "Patients in both arms received background treatment with MMF"
+      },
+      {
+        "field": "pivotal_trials[0]/population",
+        "line": 263,
+        "quote": "biopsy-proven active Class III or IV LN (alone or in combina"
+      },
+      {
+        "field": "pivotal_trials[0]/population",
+        "line": 269,
+        "quote": "Patients with baseline eGFR \\le 45 mL/min/1.73 m^2 were not "
+      },
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "line": 274,
+        "quote": "The primary efficacy endpoint was the proportion of patients"
+      },
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "line": 275,
+        "quote": "- UPCR of \\le 0.5 mg/mg, and\n- eGFR \\ge 60 mL/min/1.73 m^2 o"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "line": 264,
+        "quote": "A total of 357 patients with LN were randomized in a 1:1 rat"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "line": 279,
+        "quote": "Complete Renal Response at Week 52 [n (%)]a\t73 (40.8)\t40 (22"
+      },
+      {
+        "field": "indication",
+        "line": 61,
+        "quote": "LUPKYNIS is indicated in combination with a background immun"
+      },
+      {
+        "field": "target_moa",
+        "line": 209,
+        "quote": "LUPKYNIS is a calcineurin-inhibitor immunosuppressant."
+      },
+      {
+        "field": "target_moa",
+        "line": 213,
+        "quote": "Concentration-dependent calcineurin inhibition, measured as "
+      },
+      {
+        "field": "target_moa",
+        "line": 210,
+        "quote": "Studies in animal models also support a non-immunological ro"
+      },
+      {
+        "field": "modality",
+        "line": 204,
+        "quote": "LUPKYNIS (voclosporin) capsules, a calcineurin-inhibitor imm"
+      },
+      {
+        "field": "key_safety",
+        "line": 124,
+        "quote": "Table 1 lists common adverse reactions occurring in at least"
+      },
+      {
+        "field": "key_safety",
+        "line": 126,
+        "quote": "Glomerular filtration rate decreased*\t26%\t9%\nHypertension\t19"
+      },
+      {
+        "field": "key_safety",
+        "line": 96,
+        "quote": "LUPKYNIS, like other calcineurin-inhibitors, can cause acute"
+      },
+      {
+        "field": "key_safety",
+        "line": 104,
+        "quote": "The most severe neurotoxicities include posterior reversible"
+      },
+      {
+        "field": "boxed_warning/detail",
+        "line": 58,
+        "quote": "## WARNING: MALIGNANCIES AND SERIOUS INFECTIONS"
+      },
+      {
+        "field": "boxed_warning/detail",
+        "line": 59,
+        "quote": "Increased risk for developing malignancies and serious infec"
+      }
+    ],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "app": "BLA761365",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Automated flag for numbers '12' and '2023' is a false positive; both are part of the date 'May 12, 2023' and should be excluded from uncited-number checks."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag for number '3' is a false positive; it is part of 'Phase 3', not an efficacy/safety statistic."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "12",
+        "text": "The original BLA (submitted May 12, 2023) received a Complete Response letter; A"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2023",
+        "text": "The original BLA (submitted May 12, 2023) received a Complete Response letter; A"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "VYLOY received traditional (full) approval based on substantial evidence from tw"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

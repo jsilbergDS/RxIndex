@@ -1,0 +1,77 @@
+{
+  "app": "NDA214916",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "Design text states subjects 'randomized 1:1' but the cited quotes do not mention a 1:1 randomization ratio (though 189/189 supports it elsewhere)."
+    },
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "Design text states 'randomized 1:1' but cited quotes do not state the 1:1 ratio."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive uncited_number flag: '1' is a trial label, not an efficacy/safety figure."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "False-positive uncited_number flag: '2' is a trial label, not an efficacy/safety figure."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive uncited_number flags ('23', '2020') are components of a date and should be excluded."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "CLIN3102 (Trial 1)"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "1",
+        "text": "Randomized, multicenter, double-blind, placebo-controlled, parallel-group trial;"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "1",
+        "text": "Randomized, multicenter, double-blind, placebo-controlled, parallel-group trial;"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "CLIN3103 (Trial 2)"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "1",
+        "text": "Randomized, multicenter, double-blind, placebo-controlled, parallel-group global"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "1",
+        "text": "Randomized, multicenter, double-blind, placebo-controlled, parallel-group global"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "23",
+        "text": "Application received December 23, 2020; approval recommended with benefits outwe"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2020",
+        "text": "Application received December 23, 2020; approval recommended with benefits outwe"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -40,9 +40,9 @@ app = Flask(__name__)
 from werkzeug.middleware.proxy_fix import ProxyFix
 app.wsgi_app = ProxyFix(app.wsgi_app, x_prefix=1, x_host=1, x_proto=1)
 api_key = os.environ.get("ANTHROPIC_API_KEY")
-if not api_key:
-    raise RuntimeError("ANTHROPIC_API_KEY env var is required")
-client = anthropic.Anthropic(api_key=api_key)
+# Optional: the app serves cards + citations with NO key. Chat needs it (set it as a
+# HF Space secret). If unset, the app still boots and chat returns a friendly notice.
+client = anthropic.Anthropic(api_key=api_key) if api_key else None
 
 # --- Optional password gate (cookie-based, password-only UX) ---
 # Set APP_PASSWORD as a Space secret to require login.
@@ -127,6 +127,17 @@ if CITED_PATH.exists():
         CITED_CARDS[_r["app_key"]] = _r["card"]
     print(f"[startup] loaded cited cards: {len(CITED_CARDS)} drugs", flush=True)
 
+# New single-agent pilot cards (design B): merge their cited overlay too.
+CITED_NEW_PATH = DATA_DIR / "cards_recited_new.jsonl"
+if CITED_NEW_PATH.exists():
+    for _line in open(CITED_NEW_PATH):
+        _line = _line.strip()
+        if not _line:
+            continue
+        _r = json.loads(_line)
+        CITED_CARDS[_r["app_key"]] = _r["card"]
+    print(f"[startup] merged new cited cards -> {len(CITED_CARDS)} total", flush=True)
+
 # Verified AdComm re-extraction (run_adcomm.py) -> replaces the external, unverified
 # advisory_committee_detail. Keyed by app_key (type+appno). Each quote is grep-verified.
 ADCOMM_DIR = HERE / "adcomm_out"
@@ -204,20 +215,32 @@ def citation_to_pdf(doc_id_or_short: str, line_n) -> dict | None:
 
 # --- Load cards data ---
 CARDS = []
-CARDS_DIR = DATA_DIR / "cards"
-if CARDS_DIR.exists() and any(CARDS_DIR.glob("*.json")):
-    # Per-card files are the source of truth (git-friendly: one file per drug).
-    for _p in sorted(CARDS_DIR.glob("*.json")):
+# The app shows ONLY the new single-agent pilot cards (design B). Set
+# SHOW_OLD_CARDS=1 to also include the original 20 (data/cards/).
+if os.environ.get("SHOW_OLD_CARDS") == "1":
+    CARDS_DIR = DATA_DIR / "cards"
+    if CARDS_DIR.exists() and any(CARDS_DIR.glob("*.json")):
+        for _p in sorted(CARDS_DIR.glob("*.json")):
+            try:
+                CARDS.append(json.loads(_p.read_text()))
+            except Exception:
+                pass
+    elif CARDS_JSONL.exists():
+        with open(CARDS_JSONL) as f:
+            for line in f:
+                CARDS.append(json.loads(line))
+    print(f"[startup] SHOW_OLD_CARDS=1 -> loaded {len(CARDS)} old cards", flush=True)
+
+# New single-agent pilot cards (design B), value shape converted for the app.
+CARDS_NEW_DIR = DATA_DIR / "cards_new"
+if CARDS_NEW_DIR.exists():
+    _n0 = len(CARDS)
+    for _p in sorted(CARDS_NEW_DIR.glob("*.json")):
         try:
             CARDS.append(json.loads(_p.read_text()))
         except Exception:
             pass
-    print(f"[startup] loaded {len(CARDS)} per-card files from data/cards/", flush=True)
-else:
-    with open(CARDS_JSONL) as f:
-        for line in f:
-            CARDS.append(json.loads(line))
-    print(f"[startup] loaded {len(CARDS)} cards from cards.jsonl", flush=True)
+    print(f"[startup] loaded {len(CARDS) - _n0} NEW pilot cards from data/cards_new/", flush=True)
 
 # --- Resolve each card's app -> paperclip docs by direct SQL query ---
 # Query paperclip for every doc whose URL/source_file contains the app digits.
@@ -252,6 +275,7 @@ def _infer_doc_type(public_url, source_file):
         ('lbl', 'Lbl'),
         ('rems', 'REMS'),
         ('otheractionltrs', 'OtherActionLtrs'),
+        ('ltr', 'AppLetter'),
         ('otherr', 'OtherR'),
         ('memo', 'Memo'),
         ('odmemo', 'ODMemo'),
@@ -260,9 +284,61 @@ def _infer_doc_type(public_url, source_file):
         if stem.endswith(suf): return label
     return 'Other'
 
+# Human-readable names for the terse doc-type codes above.
+_FRIENDLY = {
+    "MultidisciplineR": "Multidiscipline Review", "IntegratedR": "Integrated Review",
+    "MedR": "Medical Review", "SumR": "Summary Review",
+    "ClinPharmR": "Clinical Pharmacology Review", "PharmR": "Pharmacology Review",
+    "BiopharmR": "Biopharmaceutics Review", "StatR": "Statistical Review",
+    "ChemR": "Chemistry Review", "MicroR": "Microbiology Review",
+    "RiskR": "Risk Assessment Review", "CrossR": "Cross-Discipline Review",
+    "NameR": "Proprietary Name Review", "OEList": "Establishment List",
+    "AdminCorres": "Administrative Correspondence", "AdminDocs": "Administrative Docs",
+    "Approv": "Approval Memo", "Lbl": "Label", "REMS": "REMS",
+    "AppLetter": "Approval Letter", "OtherActionLtrs": "Other Action Letters",
+    "OtherR": "Other Review", "Memo": "Memo", "ODMemo": "Orphan Drug Memo",
+    "Other": "Review Document",
+}
+def _friendly(code):
+    return _FRIENDLY.get(code, code or "Review Document")
+
+def _doc_display(url_or_name):
+    """Friendly doc-type label. For Labels (which change post-approval) append the
+    year from the path so it's clear the card cites the ORIGINAL-approval label."""
+    m = re.search(r"([^/\s|]+\.pdf)", url_or_name or "")
+    code = _infer_doc_type(m.group(1), m.group(1)) if m else None
+    label = _friendly(code)
+    if code == "Lbl":
+        y = re.search(r"(20\d\d)", url_or_name or "")
+        if y:
+            label += f" · {y.group(1)}"
+    return label
+
 def discover_docs_for(app_key: str):
     """app_key like NDA217424 -> list of {type, document_id, public_url, source_file} from pre-built index."""
     return DOCS_INDEX.get(app_key, [])
+
+def _cited_docs_for(key, value_card):
+    """Docs the card CITES -> [{document_id, type, public_url, source_file}]. Grounds
+    the chat on exactly the documents behind the card's citations (the new-pipeline
+    cards have no DOCS_INDEX entry, so this is their doc list)."""
+    seen = {}
+    def w(o):
+        if isinstance(o, dict):
+            for c in o.get("citations", []) or []:
+                did = canon_docid(c.get("doc_id") or "")
+                if did and did not in seen:
+                    info = PAGES_META.get(did, {}) or PAGES_META.get("fda_" + did, {})
+                    seen[did] = {"document_id": did, "type": "",
+                                 "public_url": info.get("public_url", ""), "source_file": ""}
+            for v in o.values():
+                w(v)
+        elif isinstance(o, list):
+            for v in o:
+                w(v)
+    w(value_card)
+    w(CITED_CARDS.get(key) or {})
+    return list(seen.values())
 
 DRUG_DOCS = {}
 for card in CARDS:
@@ -270,7 +346,8 @@ for card in CARDS:
     appno = meta.get("appno"); typ = meta.get("type")
     if not appno or not typ: continue
     key = f"{typ}{appno.zfill(6)}"
-    DRUG_DOCS[key] = discover_docs_for(key)
+    idx = discover_docs_for(key)
+    DRUG_DOCS[key] = idx if idx else _cited_docs_for(key, card)
 
 # --- In-memory caches ---
 DOC_TEXT_CACHE = {}   # document_id -> str
@@ -441,10 +518,15 @@ def doc_view(doc_id):
     def _find(rows_):
         if not qn:
             return None
-        for n, t in rows_:
-            if qn in re.sub(r"\s+", " ", t).lower():
-                return n
-        return None
+        matches = [n for n, t in rows_ if qn in re.sub(r"\s+", " ", t).lower()]
+        if not matches:
+            return None
+        # When the quote appears on multiple lines, anchor to the occurrence NEAREST
+        # the cited line (we have the exact line) rather than the first match — this
+        # prevents landing on a stray earlier occurrence.
+        if target is not None:
+            return min(matches, key=lambda n: abs(n - target))
+        return matches[0]
 
     # 1) bundled OCR (matches the cards_recited citations' line numbers)
     parsed = None
@@ -457,12 +539,16 @@ def doc_view(doc_id):
         hit = _find(parsed)
         if hit is not None:
             target = hit; anchored = True
-    # 2) if the quote isn't in the bundled OCR (e.g. AdComm cites paperclip's current
-    #    OCR, which differs), fetch that doc from paperclip and anchor there.
-    if q and not anchored:
+    # 2) not bundled (new single-agent cards), or the quote isn't in the bundle:
+    #    fetch that doc from paperclip and render it, anchoring by quote if found.
+    #    Adopt the paperclip OCR even when the quote can't be located, so the doc
+    #    still opens (at the cited line) rather than 404-ing.
+    if parsed is None or (q and not anchored):
         raw = _paperclip_ocr(doc_id)
         if raw:
             pp = _parse(raw)
+            if parsed is None:
+                parsed = pp
             hit = _find(pp)
             if hit is not None:
                 parsed = pp; target = hit; anchored = True
@@ -542,6 +628,7 @@ def handle_tool_call(app_key: str, name: str, inp: dict) -> str:
             did = d["document_id"]
             listed.append({
                 **d,
+                "type": d.get("type") or _doc_label(did),
                 "doc_short_id": doc_short_id(did),
                 "total_pages": PAGES_META.get(did, {}).get("total_pages"),
                 "total_lines": PAGES_META.get(did, {}).get("total_lines"),
@@ -640,6 +727,11 @@ def chat():
     session_id = body.get("session_id") or str(uuid.uuid4())
     app_key = body["app_key"]
     user_msg = body["message"]
+
+    if client is None:
+        return jsonify({"reply": "Chat is unavailable on this deployment (no API key configured).",
+                        "session_id": session_id, "budget": budget_status(),
+                        "cost_usd": 0.0, "tool_calls": []}), 503
 
     if app_key not in DRUG_DOCS:
         return jsonify({"error": f"unknown app_key {app_key}"}), 400
@@ -752,7 +844,7 @@ _CI_LEVELS = {"95%", "97.5%", "90%", "99%", "2.5%"}
 
 def _ref_label(fname):
     try:
-        return _infer_doc_type(fname, fname) or fname
+        return _doc_display(fname) or fname
     except Exception:
         return fname
 
@@ -768,7 +860,7 @@ def _ref_marker(match, search_text):
     info = PAGES_META.get(doc_id, {}) or PAGES_META.get("fda_" + doc_id, {})
     fname = info.get("filename") or (info.get("public_url", "") or "").rsplit("/", 1)[-1]
     page = match.get("page") or 1
-    label = _ref_label(fname) if fname else doc_id[:8]
+    label = _ref_label(fname) if fname else _doc_label(doc_id)
     refs = _card_refs()
     n = None
     for i, rr in enumerate(refs):
@@ -856,26 +948,38 @@ def render_cited(field) -> str | None:
     if not cites: return H(text)
     text_lc = text.lower()
     spans, placed = [], set()
+    def _cm(c):
+        return {"doc_id": c.get("doc_id"), "line": c.get("line"),
+                "page": line_to_page(c.get("doc_id", ""), c.get("line", 1))}
+    # (a) whole-quote match — prose-style citations (indication, MOA, etc.)
     for c in cites:
         if not c.get("doc_id"):
             continue
         q = (c.get("quote") or "").strip()
         if not q:
             continue
-        idx = text_lc.find(q.lower())          # case-insensitive
-        mlen = len(q)
-        if idx < 0:
-            cand = max(re.findall(r"\d+(?:\.\d+)?%?|\d+/\d+|[A-Za-z][A-Za-z\-]{3,}", q),
-                       default="", key=len)
-            if cand:
-                idx = text_lc.find(cand.lower())
-                mlen = len(cand)
-        if idx < 0:
-            continue
-        match = {"doc_id": c.get("doc_id"), "line": c.get("line"),
-                 "page": line_to_page(c.get("doc_id", ""), c.get("line", 1))}
-        spans.append((idx, idx + mlen, match, q))
-        placed.add((c.get("doc_id"), c.get("line")))
+        idx = text_lc.find(q.lower())
+        if idx >= 0:
+            spans.append((idx, idx + len(q), _cm(c), q))
+            placed.add((c.get("doc_id"), c.get("line")))
+    # (b) per-number attribution — mark EACH standalone number in the prose with the
+    #     citation whose quote contains that same number. This handles table-format
+    #     quotes (e.g. an AE table "ARIA-E\t24\t2") that can't whole-match the prose
+    #     "24% vs 2%", so every rate now gets its own clickable superscript.
+    for mo in re.finditer(r"\d+(?:\.\d+)?", text):
+        n = mo.group(0)
+        s0, e0 = mo.start(), mo.end()
+        if (s0 > 0 and text[s0 - 1].isalpha()) or (e0 < len(text) and text[e0].isalpha()):
+            continue  # digit embedded in an identifier
+        for c in cites:
+            if not c.get("doc_id"):
+                continue
+            if re.search(r"(?<!\d)" + re.escape(n) + r"(?!\d)", c.get("quote") or ""):
+                # Search text = the citation's FULL quote (not the bare number), so
+                # the doc viewer anchors on the source row, not the first stray "25".
+                spans.append((s0, e0, _cm(c), c.get("quote") or n))
+                placed.add((c.get("doc_id"), c.get("line")))
+                break
     spans.sort(key=lambda x: (x[0], -x[1]))
     kept, last_end = [], 0
     for s, e, m, q in spans:
@@ -1046,6 +1150,158 @@ def render_adcom(advcmte, detail, verified=None):
     body = "<div class='adcom-detail'>" + "".join(chunks) + "</div>" if chunks else ''
     return head + body
 
+def render_approval_program(ap):
+    """Render the referenced approval-program section: each granted program with
+    its cited detail (surrogate endpoint / confirmatory trial / basis), + a cited
+    pathway summary. Each detail is a {text, citations} leaf rendered via render_cited
+    so the superscripts open the exact source line."""
+    if not isinstance(ap, dict) or not ap:
+        return ""
+    specs = [
+        ("accelerated_approval", "Accelerated Approval",
+         [("surrogate_endpoint", "Surrogate endpoint"), ("confirmatory_requirement", "Confirmatory trial required")]),
+        ("breakthrough_therapy", "Breakthrough Therapy", [("basis", "Basis")]),
+        ("fast_track", "Fast Track", [("basis", "Basis")]),
+        ("orphan_drug", "Orphan Drug", [("orphan_indication", "Orphan indication")]),
+        ("priority_review", "Priority Review", [("basis", "Basis")]),
+        ("qidp", "QIDP", [("basis", "Basis")]),
+        ("rmat", "RMAT", [("basis", "Basis")]),
+    ]
+    rows = []
+    for key, label, detailkeys in specs:
+        v = ap.get(key)
+        if not (isinstance(v, dict) and v.get("present")):
+            continue
+        det_html = ""
+        for dk, dlabel in detailkeys:
+            dv = v.get(dk)
+            if isinstance(dv, dict) and dv.get("text"):
+                det_html += f'<div class="ap-detail"><span class="ap-k">{H(dlabel)}</span> <span class="ap-v">{render_cited(dv)}</span></div>'
+        rows.append(f'<div class="ap-prog"><span class="ap-badge">{H(label)}</span>{det_html}</div>')
+    summ = ap.get("summary")
+    summ_html = ""
+    if isinstance(summ, dict) and summ.get("text"):
+        summ_html = f'<div class="ap-summary">{render_cited(summ)}</div>'
+    if not rows and not summ_html:
+        return '<div class="ap-none">No expedited-program designations stated in the review.</div>'
+    return f'<div class="approval-program">{"".join(rows)}{summ_html}</div>'
+
+
+def render_cited_single(field):
+    """Like render_cited but appends ONE trailing citation marker per distinct
+    citation instead of marking every number. For single-statement fields (PMR/PMC
+    requirements, supplement descriptions) that often begin with an FDA identifier
+    number ('4384-3: ...') where per-number superscripts are noisy and wrong."""
+    if not (isinstance(field, dict) and "text" in field and "citations" in field):
+        return None
+    text = field.get("text") or ""
+    cites = field.get("citations") or []
+    if not text:
+        return ""
+    out = _md_inline(text)
+    seen, marks = set(), ""
+    for c in cites:
+        if not c.get("doc_id"):
+            continue
+        key = (c.get("doc_id"), c.get("line"))
+        if key in seen:
+            continue
+        seen.add(key)
+        cm = {"doc_id": c.get("doc_id"), "line": c.get("line"),
+              "page": line_to_page(c.get("doc_id", ""), c.get("line", 1))}
+        marks += _ref_marker(cm, c.get("quote") or "")
+    return out + marks
+
+
+def render_post_marketing(pm):
+    """Render the PMR/PMC list (post-marketing requirements & commitments) from the
+    approval letter, each requirement cited via render_cited."""
+    if pm is None:
+        return ('<div class="pm-none">Post-marketing requirements not yet extracted for this card. '
+                'The approval letter was not parsed for PMRs/PMCs — this is a coverage gap, '
+                '<b>not</b> a statement that none exist.</div>')
+    if not pm:
+        return ('<div class="pm-none">None — the approval letter for this application states no '
+                'post-marketing requirements or commitments.</div>')
+    def _items(lst):
+        out = ""
+        for x in lst:
+            req = x.get("requirement")
+            out += f'<li>{render_cited_single(req) if isinstance(req, dict) else H(str(req))}</li>'
+        return out
+    pmrs = [x for x in pm if (x.get("type") or "").upper() == "PMR"]
+    pmcs = [x for x in pm if (x.get("type") or "").upper() == "PMC"]
+    parts = ""
+    if pmrs:
+        parts += f'<div class="pm-group"><span class="pm-badge pmr">PMR · required ({len(pmrs)})</span><ul class="pm-list">{_items(pmrs)}</ul></div>'
+    if pmcs:
+        parts += f'<div class="pm-group"><span class="pm-badge pmc">PMC · committed ({len(pmcs)})</span><ul class="pm-list">{_items(pmcs)}</ul></div>'
+    return f'<div class="post-marketing">{parts}</div>' if parts else '<div class="pm-none">None stated in the approval letter.</div>'
+
+
+def render_crl(crl):
+    """One-line prior-CRL history: Yes (date) — basis, or No."""
+    if not isinstance(crl, dict) or crl.get("prior_crl") is None:
+        return "—"
+    if not crl.get("prior_crl"):
+        return "No prior Complete Response Letter"
+    date = crl.get("date"); basis = crl.get("basis")
+    dtxt = (date.get("text") if isinstance(date, dict) else date) or ""
+    head = "Prior CRL" + (f" · {H(dtxt)}" if dtxt else "")
+    body = render_cited(basis) if isinstance(basis, dict) and basis.get("text") else ""
+    return render_yes_detail(head, None) if not body else (
+        f'<details class="yes-detail"><summary>{head}</summary><div class="yes-detail-body">{body}</div></details>')
+
+
+_DOC_LABEL_CACHE = {}
+def _doc_label(doc_id):
+    """Doc-type label from the precomputed cache (filled once at startup); falls
+    back to the short id. NEVER queries paperclip at render time."""
+    return _DOC_LABEL_CACHE.get(doc_id, doc_id[:8] + "…")
+
+def _precompute_doc_labels():
+    """Populate _DOC_LABEL_CACHE {doc_id -> doc-type label}. Prefers the bundled
+    data/doc_labels.json (shipped in the repo; no paperclip needed on HF); falls
+    back to a batched paperclip lookup when the bundle is absent (local dev)."""
+    bundle = DATA_DIR / "doc_labels.json"
+    if bundle.exists():
+        try:
+            _DOC_LABEL_CACHE.update(json.load(open(bundle)))
+            print(f"[startup] loaded {len(_DOC_LABEL_CACHE)} doc labels from bundle", flush=True)
+            return
+        except Exception as e:
+            print(f"[startup] doc_labels.json load failed ({e}); falling back to paperclip", flush=True)
+    ids = set()
+    def _grab(o):
+        if isinstance(o, dict):
+            for c in o.get("citations", []) or []:
+                if c.get("doc_id"):
+                    ids.add(c["doc_id"])
+            for v in o.values():
+                _grab(v)
+        elif isinstance(o, list):
+            for v in o:
+                _grab(v)
+    for _c in CITED_CARDS.values():
+        _grab(_c)
+    for _c in CARDS:
+        _grab(_c)
+    ids = [i for i in ids if i]
+    for i in range(0, len(ids), 80):
+        inlist = "','".join(ids[i:i + 80])
+        try:
+            out = subprocess.run([PAPERCLIP, "sql", "--source", "fda",
+                f"SELECT document_id, SUBSTRING(public_url FROM 45 FOR 48) AS u FROM documents WHERE document_id IN ('{inlist}')"],
+                capture_output=True, text=True, timeout=60).stdout
+            for ln in out.split("\n"):
+                parts = [p.strip() for p in ln.split("|")]
+                if len(parts) == 2 and re.match(r"^[0-9a-f-]{30,}$", parts[0]):
+                    _DOC_LABEL_CACHE[parts[0]] = (_doc_display(parts[1]) if ".pdf" in parts[1].lower() else parts[0][:8] + "…")
+        except Exception:
+            pass
+    print(f"[startup] precomputed {len(_DOC_LABEL_CACHE)} doc labels", flush=True)
+
+
 def render_card_html(idx, r):
     meta = r.get("_meta", {})
     appno = meta.get("appno") or ""
@@ -1102,6 +1358,10 @@ def render_card_html(idx, r):
         tn_html = cited_or_annotate(f"{fp}.trial_name", t.get('trial_name') or 'Unnamed trial')
         n_val = t.get('n')
         n_html = cited_or_annotate(f"{fp}.n", str(n_val)) if n_val else ''
+        # The extracted n value may already start with "N="/"n=" (new cards give a
+        # descriptive value like "N=462 (drug 309, placebo 153)"). Strip it so the
+        # template's "N=" prefix isn't doubled ("N=N=462").
+        n_html = re.sub(r'^\s*[Nn]\s*=\s*', '', n_html)
         nbit_html = f' · N={n_html}' if n_html else ''
         ep_short_html = cited_or_annotate(f"{fp}.endpoint", (t.get('endpoint') or '')[:120])
         trials_html += f"""
@@ -1110,6 +1370,7 @@ def render_card_html(idx, r):
           <div class="trial-body">
             <div class="row"><span class="k">Phase</span><span class="v"><b>{cited_or_annotate(f'{fp}.phase', t.get('phase'))}</b></span></div>
             <div class="row"><span class="k">Design</span><span class="v">{cited_or_annotate(f'{fp}.design', t.get('design'))}</span></div>
+            <div class="row"><span class="k">Population</span><span class="v">{cited_or_annotate(f'{fp}.population', t.get('population'))}</span></div>
             <div class="row"><span class="k">Endpoint</span><span class="v"><b>{cited_or_annotate(f'{fp}.endpoint', t.get('endpoint'))}</b></span></div>
             <div class="row"><span class="k">Trial</span><span class="v">{tn_html} {('('+nct_link+')') if nct_link else ''}{nbit_html}</span></div>
             <div class="row"><span class="k">Result</span><span class="v"><b>{cited_or_annotate(f'{fp}.result', t.get('result'))}</b></span></div>
@@ -1127,51 +1388,38 @@ def render_card_html(idx, r):
             if val and val.strip().lower() not in ('null','none','not specified','not applicable','n/a',''):
                 ind_chips_html += f'<div class="ind-chip"><span class="ind-chip-k">{label}</span><span class="ind-chip-v">{annotate(app_key, f"indication_details.{key}", val)}</span></div>'
 
-    # Supplements
-    supps = r.get('supplements') or []
-    supps_html = ""
-    if supps and not (len(supps)==1 and supps[0].get('_error')):
-        for s_i, s in enumerate(supps[:20]):
-            if s.get('_error'): continue
-            date = s.get('approval_date') or ''
-            date_fmt = f"{date[:4]}-{date[4:6]}-{date[6:8]}" if len(date)==8 and date.isdigit() else date
-            sn = s.get('submission_number') or '?'
-            desc = s.get('description') or ''
-            # Hide supplements whose description indicates no substantive efficacy/use change.
-            desc_l = desc.lower()
-            non_substantive_markers = (
-                'no new indication',
-                'no new use',
-                'administrative only',
-                'administrative labeling',
-                'labeling updates were administrative',
-                'labeling change only',
-                'labeling only',
-                'updated labeling only',
-                'updated the clinical studies section',
-                'updated the warnings and precautions section',
-                'no substantive efficacy',
-                'no substantive change',
-            )
-            if desc and any(m in desc_l for m in non_substantive_markers):
-                continue
+    # Supplements — EFFICACY (indication-expansion) history. None = not extracted;
+    # [] = deterministically none (Drugs@FDA); list = the expansions, each with a
+    # cited "what changed" description.
+    supps = r.get('supplements')
+    if supps is None:
+        supps_html = ('<div class="supp empty">Efficacy-supplement history not yet extracted '
+                      'for this card — <b>not</b> a statement that none exist.</div>')
+    elif not supps:
+        supps_html = ('<div class="supp empty">No efficacy supplements — no indication expansions '
+                      'after the original approval (per Drugs@FDA).</div>')
+    else:
+        supps_html = ""
+        for s_i, s in enumerate(supps[:25]):
+            date_fmt = s.get('approval_date') or ''
+            sn = s.get('submission_number')
+            desc = s.get('description')
+            desc_html = (render_cited_single(desc) if isinstance(desc, dict) and desc.get('text')
+                         else '<i>description not extracted</i>')
             links = []
-            if s.get('letter_url'): links.append(f'<a href="{H(s["letter_url"])}" target="_blank">letter</a>')
-            if s.get('label_url'):  links.append(f'<a href="{H(s["label_url"])}" target="_blank">label</a>')
-            if s.get('review_url'): links.append(f'<a href="{H(s["review_url"])}" target="_blank">review</a>')
+            for k, lab in (('review_url', 'review'), ('letter_url', 'letter'), ('label_url', 'label')):
+                if s.get(k):
+                    links.append(f'<a href="{H(s[k])}" target="_blank">{lab}</a>')
             link_str = ' · '.join(links)
-            # Render: date + S-N as header, description as body
-            desc_html = annotate(app_key, f"supplements.{s_i}.description", desc) if desc else "<i>no description</i>"
             supps_html += (
                 f'<div class="supp">'
                 f'<div class="supp-head"><span class="supp-date">{H(date_fmt)}</span> '
-                f'<span class="supp-sn">S-{H(sn)}</span> '
+                f'<span class="supp-sn">S-{H(str(sn))}</span> '
+                f'<span class="pm-badge pmr">EFFICACY</span> '
                 f'<span class="supp-links">{link_str}</span></div>'
                 f'<div class="supp-desc">{desc_html}</div>'
                 f'</div>'
             )
-    if not supps_html:
-        supps_html = '<div class="supp empty">no substantive efficacy/use-expansion supplements</div>'
 
     pills = (
         pill('BTD', exped.get('btd')) +
@@ -1182,20 +1430,35 @@ def render_card_html(idx, r):
         pill('QIDP', exped.get('qidp'))
     )
 
-    docs = DRUG_DOCS.get(app_key, []) if app_key else []
+    # Source documents = the docs the card actually CITES (the app's old DRUG_DOCS
+    # discovery returns nothing for new-pipeline cards). Distinct doc_ids, each
+    # clickable to open the OCR at a cited line.
+    _seen_docs = {}
+    def _collect_docs(o):
+        if isinstance(o, dict):
+            for c in o.get("citations", []) or []:
+                did = c.get("doc_id")
+                if did:
+                    _seen_docs.setdefault(did, c.get("line"))
+            for v in o.values():
+                _collect_docs(v)
+        elif isinstance(o, list):
+            for v in o:
+                _collect_docs(v)
+    _collect_docs(CITED_CARDS.get(app_key) or {})   # clinical fields (overlay)
+    _collect_docs(r)                                 # approval_program / post_marketing / crl_history citations
     docs_html = ""
-    if not app_key:
-        docs_html = '<div class="doc-missing">No app number — no paperclip docs available.</div>'
-    elif not docs:
-        docs_html = '<div class="doc-missing">No paperclip review documents found for this app.</div>'
+    if not _seen_docs:
+        docs_html = '<div class="doc-missing">No cited source documents.</div>'
     else:
-        for d in docs:
+        for did in _seen_docs:
+            # REVIEW DOCUMENTS lists whole source docs — open at the TOP (line 1 / page 1),
+            # not at any one cited line. No doc-id hash shown; the type label is enough.
+            payload = json.dumps({"doc_id": did, "line": 1, "page": 1, "s": ""})
+            pa = html_lib.escape(payload, quote=True)
             docs_html += (
-                f'<div class="doc-row">'
-                f'<span class="doc-type">{H(d["type"])}</span> '
-                f'<span class="doc-id">{H(d["document_id"][:8])}…</span> '
-                f'<a class="doc-url" href="{H(d["public_url"])}" target="_blank">{H(d["public_url"].rsplit("/",1)[-1])}</a>'
-                f'</div>'
+                f'<div class="doc-row"><a class="qlink" data-pdf="{pa}">'
+                f'<span class="doc-type">{H(_doc_label(did))}</span></a></div>'
             )
 
     card_body = f"""
@@ -1218,11 +1481,13 @@ def render_card_html(idx, r):
       <div class="section-label">EXPEDITED PROGRAMS</div>
       <div class="pills">{pills}</div>
       <div class="legend">BTD · Fast Track · Priority Review · Orphan · Accelerated Approval · QIDP</div>
+      {(f'<div class="section-label">APPROVAL PROGRAM (referenced)</div>' + render_approval_program(r.get('approval_program'))) if r.get('approval_program') else ''}
 
       <div class="section-label">PIVOTAL EVIDENCE</div>
       {trials_html}
 
       <div class="section-label">APPROVAL-SHAPING FACTORS</div>
+      <div class="row"><span class="k">Prior CRL</span><span class="v">{render_crl(r.get('crl_history'))}</span></div>
       <div class="row"><span class="k">Companion Dx</span><span class="v">{render_yes_detail('Yes' if r.get('companion_dx') is True else 'No' if r.get('companion_dx') is False else '—', r.get('companion_dx_detail'))}</span></div>
       <div class="row"><span class="k">Advisory Cmte</span><span class="v">{render_adcom(advcmte, r.get('advisory_committee_detail'), ADCOMM_VERIFIED.get(app_key))}</span></div>
       <div class="row"><span class="k">REMS</span><span class="v">{render_yes_detail(('Yes' + (' — '+H(rems.get('type')) if rems.get('type') else '') if rems.get('present') else 'No'), rems.get('detail') if rems.get('present') else None)}</span></div>
@@ -1232,6 +1497,9 @@ def render_card_html(idx, r):
       <div class="section-label">DRUG PROFILE</div>
       <div class="row"><span class="k">Target / MOA</span><span class="v"><b>{cited_or_annotate('target_moa', r.get('target_moa',''))}</b></span></div>
       <div class="row"><span class="k">Modality</span><span class="v"><b>{cited_or_annotate('modality', r.get('modality',''))}</b></span></div>
+
+      <div class="section-label">POST-MARKETING REQUIREMENTS (PMR / PMC)</div>
+      {render_post_marketing(r.get('post_marketing'))}
     """
     _refs = _card_refs()
     sources_html = _source_list_html(_refs) if _refs else ""
@@ -1295,6 +1563,21 @@ header .sub { font-size: 11px; color: #9ca3af; margin-top: 2px; }
 .pills { display: flex; gap: 6px; flex-wrap: wrap; margin: 6px 0; }
 .pill { padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
 .legend { font-size: 10px; color: #9ca3af; margin-top: 2px; }
+.approval-program { display: flex; flex-direction: column; gap: 8px; margin: 6px 0; }
+.ap-prog { border-left: 3px solid #0a7d2f; padding: 6px 10px; background: #f6fbf7; border-radius: 4px; }
+.ap-badge { display: inline-block; font-size: 11px; font-weight: 700; color: #0a7d2f; text-transform: uppercase; letter-spacing: 0.03em; margin-bottom: 3px; }
+.ap-detail { font-size: 13px; margin: 2px 0; line-height: 1.4; }
+.ap-detail .ap-k { font-weight: 600; color: #374151; margin-right: 4px; }
+.ap-summary { font-size: 13px; color: #374151; font-style: italic; margin-top: 4px; padding: 4px 0; border-top: 1px dashed #d1d5db; }
+.ap-none { font-size: 13px; color: #9ca3af; }
+.post-marketing { display: flex; flex-direction: column; gap: 8px; margin: 6px 0; }
+.pm-group { border-left: 3px solid #b45309; padding: 4px 10px; background: #fffbeb; border-radius: 4px; }
+.pm-badge { display: inline-block; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.03em; margin-bottom: 3px; }
+.pm-badge.pmr { color: #b45309; }
+.pm-badge.pmc { color: #6b7280; }
+.pm-list { margin: 2px 0 2px 16px; padding: 0; }
+.pm-list li { font-size: 13px; line-height: 1.4; margin: 3px 0; }
+.pm-none { font-size: 13px; color: #9ca3af; }
 .trial { background: #f9fafb; padding: 10px 12px; border-radius: 4px; margin: 8px 0; font-size: 15px; border-left: 3px solid #93c5fd; }
 .trial summary { cursor: pointer; outline: none; list-style: none; padding-right: 6px; }
 .trial summary::-webkit-details-marker { display: none; }
@@ -1540,32 +1823,17 @@ function openDoc(docId, line, q) {
   if (titleEl) titleEl.textContent = 'FDA review OCR' + (line != null ? (' · line ' + line) : '');
   panel.classList.add('open');
 }
-// Source toggle: OCR (exact cited line) vs PDF (approximate page). Default OCR.
-let sourceMode = (localStorage.getItem('srcMode') === 'pdf') ? 'pdf' : 'ocr';
-(function(){
-  const tg = document.createElement('div'); tg.id = 'src-toggle';
-  tg.innerHTML = '<span>Citations open:</span><button data-m="ocr">OCR</button><button data-m="pdf">PDF</button>';
-  document.body.appendChild(tg);
-  function paint(){ tg.querySelectorAll('button').forEach(b => b.classList.toggle('on', b.dataset.m === sourceMode)); }
-  tg.addEventListener('click', ev => { const b = ev.target.closest('button'); if (!b) return; sourceMode = b.dataset.m; localStorage.setItem('srcMode', sourceMode); paint(); });
-  paint();
-})();
+// Citations always open the paperclip OCR at the exact cited line.
 document.body.addEventListener('click', (e) => {
   const el = e.target.closest('.qlink');
   if (!el) return;
-  if (el.closest('#src-toggle')) return;
   e.preventDefault();
   e.stopPropagation();
   let d;
   try { d = JSON.parse(el.dataset.pdf); } catch (err) { return; }
-  if (!d) return;
-  if (sourceMode === 'pdf' && d.url) {
-    openPdf(d.url, d.page || 1, el.title || el.textContent.slice(0, 50), d.s || '');
-  } else if (d.doc_id) {
-    openDoc(d.doc_id, d.line, d.s);
-  } else if (d.url) {
-    openPdf(d.url, d.page || 1, el.title || el.textContent.slice(0, 50), d.s || '');
-  }
+  if (!d || !d.doc_id) return;
+  // Always open the paperclip OCR at the cited line (verified line-accurate).
+  openDoc(d.doc_id, d.line, d.s);
 });
 </script>
 """
@@ -1605,12 +1873,12 @@ def index():
     tas = sorted({(r.get('therapeutic_area') or '').strip() for r in sortable if (r.get('therapeutic_area') or '').strip()})
     ta_options_html = "\n".join(f'<option value="{H(t)}">{H(t)}</option>' for t in tas)
     return f"""<!doctype html><html><head>
-<meta charset="utf-8"><title>FDA 2024 NME Cards + Chat</title>
+<meta charset="utf-8"><title>RxIndex Cards</title>
 <script src="https://cdn.jsdelivr.net/npm/marked@11.1.1/marked.min.js"></script>
 {STYLE}
 </head><body>
 <header>
-  <h1>FDA 2024 NMEs — cards + paperclip-grounded chat</h1>
+  <h1>RxIndex Cards (with paperclip data)</h1>
   <div class="sub">{len(CARDS)} drugs. Each chat has tool-use access to that drug's paperclip-OCR'd FDA review documents.</div>
 </header>
 <div class="layout">
@@ -1652,6 +1920,5 @@ def index():
 
 if __name__ == "__main__":
     print(f"[startup] {len(CARDS)} cards loaded")
-    print(f"[startup] paperclip doc coverage: " +
-          ", ".join(f"{k}={len(v)} docs" for k, v in DRUG_DOCS.items()))
+    _precompute_doc_labels()   # populate _DOC_LABEL_CACHE so SOURCES / REVIEW DOCS show doc types, not hashes
     app.run(host="0.0.0.0", port=PORT, threaded=True)

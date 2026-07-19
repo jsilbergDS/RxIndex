@@ -1,0 +1,58 @@
+{
+  "app": "BLA761328",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 484)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"BLA761328\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"approval_program.breakthrough_therapy.basis\",\n      \"severity\": \"high\",\n      \"issue\": \"The text states BTD was granted February 1, 2019, but the summary and its own ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "1453",
+        "text": "N=1453 (25/969 nirsevimab, 46/484 placebo)"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "1490",
+        "text": "N=1490 (12/994 nirsevimab, 25/496 placebo)"
+      },
+      {
+        "field": "advisory_committee/vote",
+        "number": "8",
+        "text": "Antimicrobial Drugs Advisory Committee (June 8, 2023) unanimously voted that the"
+      },
+      {
+        "field": "advisory_committee/vote",
+        "number": "2023",
+        "text": "Antimicrobial Drugs Advisory Committee (June 8, 2023) unanimously voted that the"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "511",
+        "text": "4470-3: Conduct a long-term follow-up study (HARMONIE study extension for the UK"
+      },
+      {
+        "field": "post_marketing[3]/requirement",
+        "number": "511",
+        "text": "4470-4: Conduct an observational, U.S.-based long-term follow-up study of infant"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "761328",
+        "text": "BLA 761328 for nirsevimab-alip was submitted by AstraZeneca AB and received a st"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "BLA 761328 for nirsevimab-alip was submitted by AstraZeneca AB and received a st"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2019",
+        "text": "BLA 761328 for nirsevimab-alip was submitted by AstraZeneca AB and received a st"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "app": "NDA214900",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flag: '1' is part of the phrase 'first cycle' and not an efficacy/safety statistic."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flag: '2021' is a date (June 1, 2021 review completion), which is excluded from citation requirements."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "Ibrexafungerp (BREXAFEMME) was granted Fast Track and QIDP designations for VVC "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2021",
+        "text": "Ibrexafungerp (BREXAFEMME) was granted Fast Track and QIDP designations for VVC "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

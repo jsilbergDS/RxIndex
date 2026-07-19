@@ -1,0 +1,32 @@
+{
+  "app": "BLA761234",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag for uncited number '3' is a false positive \u2014 it refers to 'Phase 3', a study phase designation, not an efficacy/safety number."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag for uncited number '047' is a false positive \u2014 it is part of the trial name 'RELATIVITY-047', a study identifier, not an efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Opdualag received traditional (regular) approval based on a statistically signif"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "047",
+        "text": "Opdualag received traditional (regular) approval based on a statistically signif"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

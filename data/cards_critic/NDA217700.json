@@ -1,0 +1,33 @@
+{
+  "app": "NDA217700",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Extra data: line 55 column 1 (char 2355)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"NDA217700\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].result\",\n      \"severity\": \"high\",\n      \"issue\": \"The percentages for PR (37%) and MR (14%) are relabeled as absolute counts vs percentages; the ci",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "001",
+        "text": "FIREFLY-1 (DAY101-001/PNOC026)"
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "2",
+        "text": "Conduct a multiregional, randomized clinical trial comparing tovorafenib to phys"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "Tovorafenib (OJEMDA) received accelerated approval under 21 CFR 314.510 based on"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "Tovorafenib (OJEMDA) received accelerated approval under 21 CFR 314.510 based on"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

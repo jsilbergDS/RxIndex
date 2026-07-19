@@ -1,0 +1,43 @@
+{
+  "app": "BLA761204",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 10 column 5 (char 329)",
+  "_raw": "Looking at the card carefully now.\n\n<analysis>\n\n**Automated flags review:**\n\n1. `uncited_numbers`:\n- `trial_name` \"1\" \u2014 cosmetic, \"Trial 1\" is a label. Low/false positive.\n- `phase` \"3\" \u2014 \"Phase 3\" is not stated in the citation (which only says \"adequate and well-controlled trial\"). The Phase 3 desi",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "ATB200-03 (Trial 1)"
+      },
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "3",
+        "text": "Pivotal adequate and well-controlled trial (Phase 3)"
+      },
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "18",
+        "text": "Adult patients (\u2265 18 years) with late-onset Pompe disease (LOPD); 95 (77%) ERT-e"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "761204",
+        "text": "BLA 761204 for cipaglucosidase alfa-atga (co-administered with miglustat/NDA 215"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "215211",
+        "text": "BLA 761204 for cipaglucosidase alfa-atga (co-administered with miglustat/NDA 215"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "03",
+        "text": "BLA 761204 for cipaglucosidase alfa-atga (co-administered with miglustat/NDA 215"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "app": "NDA218860",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "Flagged uncited number '60190' is part of the confirmatory trial identifier CLIN-60190-454 (a study ID), so it is a false positive."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "Flagged uncited number '454' is part of the trial identifier CLIN-60190-454 (a study ID), so it is a false positive."
+    },
+    {
+      "field": "modality",
+      "severity": "low",
+      "issue": "Citation ('tablets, for oral use') supports oral dosage form but does not explicitly establish 'Small molecule'; value is correct but weakly cited."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "60190",
+        "text": "IQIRVO received Breakthrough Therapy Designation (April 16, 2019) and Orphan Dru"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "454",
+        "text": "IQIRVO received Breakthrough Therapy Designation (April 16, 2019) and Orphan Dru"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

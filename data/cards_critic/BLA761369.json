@@ -1,0 +1,48 @@
+{
+  "app": "BLA761369",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 431)",
+  "_raw": "{\n  \"app\": \"BLA761369\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].n\",\n      \"severity\": \"high\",\n      \"issue\": \"Text claims 33 on-demand and 83 routine prophylaxis 'cohorts' totaling 116, but the citations show these are two comparison groups within the same 116",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "12",
+        "text": "One-way, open-label, multicenter, two-phase study with a 6-month observational p"
+      },
+      {
+        "field": "key_safety",
+        "number": "116",
+        "text": "Adverse reactions reported in \u22653% of HYMPAVZI-treated patients (N=116) were inje"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "10",
+        "text": "BLA 761369 was received October 11, 2023, accepted with no filing review issues,"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2024",
+        "text": "BLA 761369 was received October 11, 2023, accepted with no filing review issues,"
+      },
+      {
+        "field": "approval_program/breakthrough_therapy/basis",
+        "number": "5",
+        "text": "A Breakthrough Therapy Designation Request submitted October 5, 2024 was denied "
+      },
+      {
+        "field": "approval_program/breakthrough_therapy/basis",
+        "number": "2024",
+        "text": "A Breakthrough Therapy Designation Request submitted October 5, 2024 was denied "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "761369",
+        "text": "BLA 761369 was a standard review (priority review requested but standard timelin"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

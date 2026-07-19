@@ -1,0 +1,27 @@
+{
+  "app": "NDA216986",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "FALSE POSITIVE: uncited_numbers '505' and '1' are fragments of the application-type identifier '505(b)(1)', not efficacy/safety data, and are supported by the receipt_date citation showing '505(b)(1) NDA'."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "This was a standard (traditional) 505(b)(1) NDA approved under priority review g"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "This was a standard (traditional) 505(b)(1) NDA approved under priority review g"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

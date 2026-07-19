@@ -1,0 +1,31 @@
+{
+  "app": "NDA219876",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "high",
+      "issue": "Result states DOR was evaluated among 11 patients, but the citation quote 'Duration of Response N=11' means 11 responders (the number with a response), not patients evaluated for DOR; the phrasing misstates the population."
+    },
+    {
+      "field": "companion_dx.detail",
+      "severity": "medium",
+      "issue": "companion_dx.present is false but the detail text and citation describe a genuine patient-selection biomarker requirement (H3 K27M mutation) with no approved test; the present/detail flags are internally inconsistent."
+    },
+    {
+      "field": "approval_program.orphan_drug.orphan_indication",
+      "severity": "low",
+      "issue": "Orphan Drug Designations cited are for 'glioblastoma' and 'malignant glioma', not the approved diffuse midline glioma H3 K27M indication; supported by the quote but note the designation mismatch relative to the actual indication."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "medium",
+      "issue": "Detail asserts the drug was 'approved on August 6, 2025, ahead of the goal date' as evidence of first-cycle approval, but no citation supports that this was a single review cycle with no complete-response letter; the first_cycle=true conclusion is not directly supported by the quotes."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

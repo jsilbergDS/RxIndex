@@ -1,0 +1,28 @@
+{
+  "app": "NDA215842",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Detail states 'Original NDA submitted September 30, 2022' but its own citation quote does not contain that submission date; the date is corroborated by receipt_date, so this is a minor citation-scope gap.",
+      "note": "Corresponds to automated uncited_numbers flags for '30' and '2022'; these are dates that should be date-excluded, so treated as low-severity false positives."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "30",
+        "text": "Original NDA submitted September 30, 2022 and approved effective the date of the"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2022",
+        "text": "Original NDA submitted September 30, 2022 and approved effective the date of the"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

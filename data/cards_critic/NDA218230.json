@@ -1,0 +1,38 @@
+{
+  "app": "NDA218230",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting value: line 1 column 1 (char 0)",
+  "_raw": "<think>\nLet me analyze this card carefully.\n\nKey issue: EAGLE-3 result. The result says \"Gepotidacin 162/277 (58.5%) noninferior to nitrofurantoin 115/264 (43.6%)\". But 162/277 = 58.5%. Wait, the EAGLE-2 also has 162/320. Both show 162 gepotidacin responders? That seems suspicious but the citation s",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "EAGLE-2 (Trial 1)"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "5",
+        "text": "Multicenter, parallel-group, double-blind, double-dummy, active comparator-contr"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "EAGLE-3 (Trial 2)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "218230",
+        "text": "NDA 218230 submitted July 26, 2024, granted priority review and filed September "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "218230",
+        "text": "Gepotidacin (Blujepa) received approval via NDA 218230, a 505(b)(1) application "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "app": "NDA214429",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval/detail",
+      "severity": "low",
+      "issue": "False-positive automated flag: the uncited number '1' refers to 'Class 1 Resubmission'/'first cycle' labels, not an efficacy/safety datum, and does not require citation."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "False-positive automated flag: the uncited number '1' refers to 'Class 1 Resubmission', a designation label, not an efficacy/safety datum."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "1",
+        "text": "The initial application was not approved first cycle; FDA issued a Complete Resp"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "Fexinidazole is a new chemical entity that received orphan drug designation (Apr"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

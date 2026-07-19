@@ -1,0 +1,27 @@
+{
+  "app": "NDA214511",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited_numbers for '2' (2-arm) is a false positive; the design citation explicitly states 'two-arm, randomized, intra-patient control design.'"
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Text states 'N=406 received LUMISIGHT (safety population)' but the citation only gives N=406 as the total enrolled (357 imaging + 35 control + 14 withdrawals); labeling all 406 as having 'received LUMISIGHT' is a mild inference not stated verbatim."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "2",
+        "text": "Prospective, multicenter, 2-arm, randomized, intra-patient control study; patien"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

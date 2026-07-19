@@ -1,0 +1,52 @@
+{
+  "app": "BLA761232",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False-positive flag: the '1' comes from the randomization ratio '1:1', not an uncited efficacy/safety number."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flag: the '19' is part of 'COVID-19', not an uncited data value."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: the '302' is part of the study identifier 'RATIONALE-302', not an uncited data value."
+    },
+    {
+      "field": "approval_program.priority_review",
+      "severity": "low",
+      "issue": "PDUFA goal date (July 12, 2022) is 12 months after receipt, consistent with Standard review; priority_review=false is correct and consistent with the summary."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "1",
+        "text": "512 patients randomized 1:1 (256 tislelizumab, 256 ICC)."
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "1",
+        "text": "512 patients randomized 1:1 (256 tislelizumab, 256 ICC)."
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "19",
+        "text": "Approval was delayed pending clinical-site and manufacturing facility inspection"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "302",
+        "text": "Standard (non-priority) BLA approved via traditional (full) approval based on a "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

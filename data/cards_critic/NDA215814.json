@@ -1,0 +1,33 @@
+{
+  "app": "NDA215814",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited_number '2102' is a false positive; it is part of the study identifier 'Study 2102-HEM-101', not an efficacy/safety number.",
+      "field_dismiss": true
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited_number '101' is a false positive; it is part of the study identifier 'Study 2102-HEM-101', not an efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "2102",
+        "text": "Olutasidenib received regular (full) approval as a standard-review NDA for R/R I"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "101",
+        "text": "Olutasidenib received regular (full) approval as a standard-review NDA for R/R I"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

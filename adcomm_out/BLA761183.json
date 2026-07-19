@@ -1,0 +1,150 @@
+{
+  "app": "BLA761183",
+  "drug": "TZIELD",
+  "docs_read": [
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_0833d046-0f43-5ea6-99dc-55b7525278ec"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_8e3632da-8380-58e6-bc64-1a14906eedfa"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_d06a498a-b024-5650-89f3-74b3ac55a0d3"
+    },
+    {
+      "doc_type": "OtherR",
+      "doc_id": "fda_996540df-71b4-56ee-9e75-eda443ba5913"
+    },
+    {
+      "doc_type": "Approv",
+      "doc_id": "fda_338cba4d-f409-54fa-9e1d-d920356df705"
+    },
+    {
+      "doc_type": "Label",
+      "doc_id": "fda_61d52aa4-4841-5d5a-b6bb-476f3100062f"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC)",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_0833d046-0f43-5ea6-99dc-55b7525278ec",
+      "line": 64,
+      "quote": "During the first review cycle, the BLA was discussed at the Endocrinologic and Metabolic Drugs Advisory Committee (see Table 1)."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_0833d0460f43",
+      "found_lines": [
+        64
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "May 27, 2021",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "fda_d06a498a-b024-5650-89f3-74b3ac55a0d3",
+      "line": 156,
+      "quote": "The Endocrinologic and Metabolic Drugs Advisory Committee Meeting (EMDAC)2 was convened on May 27, 2021 to discuss:"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_d06a498ab024",
+      "found_lines": [
+        67,
+        135,
+        156,
+        170
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 10 Yes to 7 No in favor of approval (that the benefits of teplizumab outweigh the risks in support of approval to delay clinical type 1 diabetes).",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "fda_d06a498a-b024-5650-89f3-74b3ac55a0d3",
+      "line": 67,
+      "quote": "The EMDAC vote was 10 \"Yes\" and 7 \"No\" as answers to the voting question, does the information provided in the background documents and presentations by the Applicant and FDA show that the benefits of teplizumab outweigh the risks in support of approval to delay clinical type 1 diabetes mellitus?"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_d06a498ab024",
+      "found_lines": [
+        67
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "In discussing how the indicated population should be described, several committee members recommended that the indication NOT be restricted to relatives of patients with T1D (as in the TN-10 study population) but should also include non-relatives meeting Stage 2 T1D criteria, while otherwise keeping the population restricted to what was studied.",
+      "change": "The approved indication was not limited to relatives of T1D patients; the final label indicates TZIELD for delay of Stage 3 T1D in all adults and pediatric patients aged 8 years and older with Stage 2 T1D, i.e., expanded to include non-relatives.",
+      "category": "Population / indication scope",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_0833d046-0f43-5ea6-99dc-55b7525278ec",
+        "line": 70,
+        "quote": "Collectively, the Committee agreed that based on the data presented, the indication should be restricted to the population that was studied, although several members recommended that the indication not be restricted to relatives of patients with type 1 diabetes but instead should include both non-relatives and relatives meeting the criteria for stage-2 T1D.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_0833d0460f43",
+          "found_lines": [
+            70
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MedR",
+        "doc_id": "fda_8e3632da-8380-58e6-bc64-1a14906eedfa",
+        "line": 365,
+        "quote": "As was generally supported at the advisory committee meeting, expansion of the treatment indication to include non-relatives is recommended, while keeping the intended population otherwise narrow, to the population that was studied in TN-10 (age \\ge 8 years with presence of stage 2 T1D).",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_8e3632da8380",
+          "found_lines": [
+            365
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee noted that patients in TN-10 were not followed for safety after T1D diagnosis and that there was potential for unobserved, longer-latency safety issues (e.g., malignancy); the majority thought this could be addressed with a postmarketing safety study, and the committee agreed a rigorous post-marketing registry would be needed to monitor long-latency safety issues.",
+      "change": "A required postmarketing observational registry study (PMR 4359-2) was issued to assess long-term safety of teplizumab-mzwv in Stage 2 T1D patients, evaluating cytokine release syndrome, serious infections, hypersensitivity reactions, lymphoproliferative disorders, and malignancy.",
+      "category": "Safety / postmarketing requirement",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_0833d046-0f43-5ea6-99dc-55b7525278ec",
+        "line": 70,
+        "quote": "If approved, the Committee agreed that there would be a need to establish a rigorous post-marketing registry to monitor long-latency safety issues.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_0833d0460f43",
+          "found_lines": [
+            70
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Approv",
+        "doc_id": "fda_338cba4d-f409-54fa-9e1d-d920356df705",
+        "line": 68,
+        "quote": "Conduct an observational registry study to assess the long-term safety of teplizumab-mzwv in patients with Stage 2 type 1 diabetes. The study should evaluate cytokine release syndrome, serious infections, hypersensitivity reactions, lymphoproliferative disorders and malignancy.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_338cba4df409",
+          "found_lines": [
+            68
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC) met May 27, 2021 during the first review cycle and voted 10 Yes to 7 No that teplizumab's benefits outweigh its risks in support of approval to delay clinical type 1 diabetes. The committee's discussion of the indicated population fed into the final label not restricting use to relatives of T1D patients (expanding to include non-relatives who meet Stage 2 criteria, ages >=8), and its concern about unobserved long-latency safety events aligned with the required postmarketing observational registry study for teplizumab. Approval ultimately came in the second cycle after a first-cycle Complete Response driven by product-quality and PK-comparability deficiencies unrelated to the AdComm."
+}

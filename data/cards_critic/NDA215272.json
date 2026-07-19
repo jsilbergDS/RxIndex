@@ -1,0 +1,33 @@
+{
+  "app": "NDA215272",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 312)",
+  "_raw": "Looking at the card, let me systematically check each field and the automated flags.\n\n{\n  \"app\": \"NDA215272\",\n  \"release_ready\": true,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].result\",\n      \"severity\": \"low\",\n      \"issue\": \"Uncited number flag for '12' (Week 12) is a false positive; t",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "12",
+        "text": "PGA treatment success at Week 12: 35% tapinarof vs 6% vehicle; difference 29% (9"
+      },
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "3",
+        "text": "Phase 3"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "12",
+        "text": "PGA treatment success at Week 12: 40% tapinarof vs 6% vehicle; difference 34% (9"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "215272",
+        "text": "Application approved; reviewer recommended approval of NDA 215272 for tapinarof "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

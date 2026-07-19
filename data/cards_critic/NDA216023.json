@@ -1,0 +1,28 @@
+{
+  "app": "NDA216023",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 15 column 5 (char 725)",
+  "_raw": "Analyzing the card for quality problems.\n\n```json\n{\n  \"app\": \"NDA216023\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].phase\",\n      \"severity\": \"medium\",\n      \"issue\": \"Phase 3 is claimed but the citation quote only says 'For the proposed phase 3 study in primary",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "3",
+        "text": "Phase 3 (prospective, single-arm, open-label)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "Standard review 505(b)(1) NDA received May 25, 2022 with a May 25, 2023 PDUFA go"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "Standard review 505(b)(1) NDA received May 25, 2022 with a May 25, 2023 PDUFA go"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

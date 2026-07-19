@@ -1,0 +1,167 @@
+{
+  "app": "NDA022231",
+  "drug": "TERLIVAZ",
+  "docs_read": [
+    {
+      "doc_type": "IntegratedR",
+      "doc_id": "cfbd67e9-03be-53d2-8696-3eff54e6ca1b"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "d3ac1236-ca25-57c6-b60a-2229745836b4"
+    },
+    {
+      "doc_type": "OtherR",
+      "doc_id": "80444d74-b56f-5196-92b2-9dbcbbbb0962"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Cardiovascular and Renal Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "IntegratedR",
+      "doc_id": "cfbd67e9-03be-53d2-8696-3eff54e6ca1b",
+      "line": 760,
+      "quote": "The Cardiovascular and Renal Drugs Advisory Committee of the Food and Drug Administration, Center for Drug Evaluation and Research met on July 15, 2020 to discuss the new drug application for terlipressin for the treatment of hepatorenal syndrome type 1 (HRS-1)."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "cfbd67e9-03be-53d2-8696-3eff54e6ca1b",
+      "found_lines": [
+        760
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "July 15, 2020",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "d3ac1236-ca25-57c6-b60a-2229745836b4",
+      "line": 129,
+      "quote": "The benefit-risk profile of terlipressin was discussed at the Cardiovascular and Renal Drugs Advisory Committee meeting on July 15, 2020."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "d3ac1236-ca25-57c6-b60a-2229745836b4",
+      "found_lines": [
+        129
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "Committee voted 8 to 7 in favor of approval of terlipressin for HRS-1.",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "d3ac1236-ca25-57c6-b60a-2229745836b4",
+      "line": 129,
+      "quote": "The committee voted 8 to 7 in favor of approval."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "d3ac1236-ca25-57c6-b60a-2229745836b4",
+      "found_lines": [
+        129
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee agreed that respiratory failure and fluid overload were serious risks of terlipressin and that a clear, effective risk mitigation strategy would be needed for benefits to outweigh risks.",
+      "change": "The approved labeling added instructions to monitor patients for hypoxia using continuous pulse oximetry throughout the prescribing information.",
+      "category": "Safety / Respiratory monitoring",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "cfbd67e9-03be-53d2-8696-3eff54e6ca1b",
+        "line": 762,
+        "quote": "Committee members agreed that respiratory failure and fluid overload were serious risks associated with use of terlipressin and that a clear and effective risk mitigation strategy would be needed to ensure the product's benefits outweighed its risks.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "cfbd67e9-03be-53d2-8696-3eff54e6ca1b",
+          "found_lines": [
+            762
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "cfbd67e9-03be-53d2-8696-3eff54e6ca1b",
+        "line": 174,
+        "quote": "Instructions to monitor patients for hypoxia using continuous pulse oximetry has been included, in various appropriate locations in the prescribing information.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "cfbd67e9-03be-53d2-8696-3eff54e6ca1b",
+          "found_lines": [
+            174
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee agreed that respiratory failure and fluid overload were serious risks of terlipressin requiring risk mitigation.",
+      "change": "The approved labeling added contraindications for patients experiencing hypoxia or worsening respiratory symptoms, and for patients with ongoing coronary, peripheral or mesenteric ischemia.",
+      "category": "Safety / Contraindication",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "cfbd67e9-03be-53d2-8696-3eff54e6ca1b",
+        "line": 762,
+        "quote": "Committee members agreed that respiratory failure and fluid overload were serious risks associated with use of terlipressin and that a clear and effective risk mitigation strategy would be needed to ensure the product's benefits outweighed its risks.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "cfbd67e9-03be-53d2-8696-3eff54e6ca1b",
+          "found_lines": [
+            762
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "cfbd67e9-03be-53d2-8696-3eff54e6ca1b",
+        "line": 176,
+        "quote": "Contraindications for patients experiencing hypoxia or worsening respiratory symptoms, and for patients with ongoing coronary, peripheral or mesenteric ischemia.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "cfbd67e9-03be-53d2-8696-3eff54e6ca1b",
+          "found_lines": [
+            176
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members voiced concern that fewer terlipressin-treated patients received liver transplant (the definitive therapy for HRS-1) than placebo-treated patients.",
+      "change": "The approved labeling added a warning that the benefits of TERLIVAZ may not outweigh its risks in patients with high prioritization for liver transplantation.",
+      "category": "Population / transplant-priority restriction",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "cfbd67e9-03be-53d2-8696-3eff54e6ca1b",
+        "line": 761,
+        "quote": "Some also voiced concern that the proportion of patients on terlipressin who received liver transplants, the definitive therapy for HRS-1, was lower in the terlipressin arm than on placebo.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "cfbd67e9-03be-53d2-8696-3eff54e6ca1b",
+          "found_lines": [
+            761
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "cfbd67e9-03be-53d2-8696-3eff54e6ca1b",
+        "line": 178,
+        "quote": "A warning indicating that the benefits of TERLIVAZ may not outweigh its risks in patients with high prioritization for liver transplantation has been included.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "cfbd67e9-03be-53d2-8696-3eff54e6ca1b",
+          "found_lines": [
+            178
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "FDA convened the Cardiovascular and Renal Drugs Advisory Committee on July 15, 2020, which voted 8 to 7 in favor of approving terlipressin for HRS-1; members agreed CONFIRM met its primary endpoint but that serious risks of respiratory failure and fluid overload required an effective risk mitigation strategy. The final 2022 approval reflected these concerns through labeling rather than a REMS: continuous pulse-oximetry hypoxia monitoring, contraindications for hypoxia/worsening respiratory symptoms and ongoing ischemia, a refined (narrowed) indication, and a warning that benefits may not outweigh risks in patients with high prioritization for liver transplantation. The review team concluded no REMS or postmarketing requirements were needed because the agreed-upon labeling was considered sufficient; the verbatim AdCom transcript is not in paperclip."
+}

@@ -1,0 +1,18 @@
+{
+  "app": "NDA219155",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Extra data: line 18 column 1 (char 658)",
+  "_raw": "Analyzing the card systematically for issues.\n\n```json\n{\n  \"app\": \"NDA219155\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"approval_program/summary\",\n      \"severity\": \"low\",\n      \"issue\": \"The flagged uncited number '3' comes from 'Phase 3', which is a phase descriptor not an eff",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "ANZUPGO received fast track designation (June 12, 2020); breakthrough therapy an"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

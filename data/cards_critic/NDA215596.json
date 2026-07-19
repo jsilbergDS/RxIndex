@@ -1,0 +1,67 @@
+{
+  "app": "NDA215596",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive flag: '10' in '>10%' is a descriptive threshold, not an uncited efficacy/safety statistic."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flags: '23' and '2021' are parts of the receipt date (March 23, 2021), which is a date and should be excluded."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flags: '2011' and '2017' are designation dates and '3'/'303' refer to Phase 3 / Trial 303 identifiers, all excluded categories."
+    },
+    {
+      "field": "target_moa",
+      "severity": "low",
+      "issue": "Text says 'competitively inhibits pUL97 kinase' but the citation only states it 'inhibits' pUL97 in a biochemical assay; 'competitively' is not supported by the quotes."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "10",
+        "text": "Most common adverse events (>10%) were taste disturbance (46% vs 4% IAT), nausea"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "23",
+        "text": "Application received March 23, 2021 and approved effective on the date of the ap"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2021",
+        "text": "Application received March 23, 2021 and approved effective on the date of the ap"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2011",
+        "text": "Maribavir, a first-in-class CMV pUL97 kinase inhibitor, received Priority review"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2017",
+        "text": "Maribavir, a first-in-class CMV pUL97 kinase inhibitor, received Priority review"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Maribavir, a first-in-class CMV pUL97 kinase inhibitor, received Priority review"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "303",
+        "text": "Maribavir, a first-in-class CMV pUL97 kinase inhibitor, received Priority review"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

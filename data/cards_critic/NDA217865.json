@@ -1,0 +1,57 @@
+{
+  "app": "NDA217865",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "FALSE POSITIVE: uncited number '1' is the study label 'Study 1', which appears verbatim in the NCT citation quote."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "FALSE POSITIVE: flagged numbers (217865, 21, 2023) are the NDA application number and submission date, which are excluded/non-efficacy identifiers."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "FALSE POSITIVE: flagged number 217865 is the NDA application number, an identifier not requiring efficacy citation."
+    },
+    {
+      "field": "approval_program.priority_review.basis",
+      "severity": "low",
+      "issue": "Text conflates Priority review status with the rare pediatric disease priority review voucher; the PRV is a separate grant, not the basis for priority review designation."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study DSC/14/2357/48 (Study 48; Study 1)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "217865",
+        "text": "NDA 217865 was submitted April 21, 2023 and approved on the date of the letter; "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "21",
+        "text": "NDA 217865 was submitted April 21, 2023 and approved on the date of the letter; "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2023",
+        "text": "NDA 217865 was submitted April 21, 2023 and approved on the date of the letter; "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "217865",
+        "text": "Duvyzat (givinostat) received a traditional (full) approval under a Priority rev"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

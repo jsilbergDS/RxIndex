@@ -1,0 +1,47 @@
+{
+  "app": "BLA761258",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "Flagged number '200' is a dose (200 mg IV Q2W) present in the population citation; false-positive uncited-number flag."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged number '761258' is the BLA application number, not an efficacy/safety figure; false-positive uncited-number flag."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged number '202' is the study identifier (AK105-202); false-positive uncited-number flag."
+    },
+    {
+      "field": "_meta_tta",
+      "severity": "low",
+      "issue": "Time-to-approval meta field is null; minor completeness gap but not a required clinical field."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "200",
+        "text": "Open-label, multicenter, single-arm trial conducted in a single country (China);"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "761258",
+        "text": "This BLA (761258) was a Class 2 Resubmission; the initial BLA submitted July 16,"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "202",
+        "text": "Traditional (full) approval of the resubmitted BLA (Class 2 Resubmission, standa"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

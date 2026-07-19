@@ -1,0 +1,68 @@
+{
+  "app": "NDA216165",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Summary citation (line 43) describes the trial as 'assessor-blinded' while pivotal_trials[0].design and the summary text call it 'double-blind'; minor internal inconsistency in blinding description.",
+      "flag_note": null
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False-positive flags: '041' and '034' are fragments of '1,041' and '1,034', both present in the citation quote; no real problem."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive flags: denominators '345' and '333' are supported by the adjacent n-field citation (m-MITT 345 vs 333); no real problem."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: '1' from 'Trial 1' is an alias/identifier, corroborated by the NCT citation referencing 'Trial 1'."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: '301' is part of the trial ID 'AT-301', an identifier not a data value."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Trial AT-301 (also referred to as Trial 1)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "041",
+        "text": "1,041 subjects randomized (MITT/safety population 1,034; m-MITT population N=345"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "034",
+        "text": "1,041 subjects randomized (MITT/safety population 1,034; m-MITT population N=345"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "345",
+        "text": "Overall success at Test of Cure occurred in 79.1% (273/345) of the cefepime-enme"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "333",
+        "text": "Overall success at Test of Cure occurred in 79.1% (273/345) of the cefepime-enme"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "301",
+        "text": "NDA 216165 was submitted June 22, 2023 with both Fast Track and Qualified Infect"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

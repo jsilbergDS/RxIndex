@@ -1,0 +1,52 @@
+{
+  "app": "BLA761240",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "_meta.uncited_numbers[first_cycle_approval/detail:23]",
+      "severity": "low",
+      "issue": "False positive: '23' is part of the date 'June 23, 2022', not an efficacy/safety number."
+    },
+    {
+      "field": "_meta.uncited_numbers[approval_program/summary:02]",
+      "severity": "low",
+      "issue": "False positive: '02' comes from trial names JUPITER-02/POLARIS-02, not an uncited data value."
+    },
+    {
+      "field": "_meta.uncited_numbers[approval_program/summary:23]",
+      "severity": "low",
+      "issue": "False positive: '23' is part of the date 'June 23, 2022', not an efficacy/safety number."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "Result labels the 21% ORR as 'BIRC-assessed', but the endpoint field states the primary endpoint was IRC-evaluated ORR; the 21% citation line does not explicitly attribute the value to BIRC, creating minor labeling ambiguity."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "23",
+        "text": "Not a first-cycle approval; FDA issued a Complete Response letter on April 29, 2"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "02",
+        "text": "Toripalimab received Breakthrough Therapy Designation and Priority review, and w"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "02",
+        "text": "Toripalimab received Breakthrough Therapy Designation and Priority review, and w"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "23",
+        "text": "Toripalimab received Breakthrough Therapy Designation and Priority review, and w"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "app": "NDA217564",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval.detail.text",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited_numbers for '30' and '2023' are false positives; they are components of the date 'March 30, 2023', which the rules exclude from uncited-number checks."
+    },
+    {
+      "field": "approval_program.summary.text",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited_numbers for '30' and '2023' are false positives; they are components of the date 'March 30, 2023', which the rules exclude from uncited-number checks."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "30",
+        "text": "Approved effective on the date of the approval letter following review of the ND"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2023",
+        "text": "Approved effective on the date of the approval letter following review of the ND"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "30",
+        "text": "FRUZAQLA received regular (full) approval under a Priority review NDA received M"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2023",
+        "text": "FRUZAQLA received regular (full) approval under a Priority review NDA received M"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

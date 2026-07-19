@@ -1,0 +1,53 @@
+{
+  "app": "NDA215244",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting value: line 1 column 1 (char 0)",
+  "_raw": "<think>\nLet me analyze this card carefully.\n\nKey issue: CRL date discrepancy. The card text says \"May 15, 2025\" but the citation quote says \"May 15, 2015\". This appears in multiple places:\n- first_cycle_approval/detail: \"May 15, 2025\" but quote says \"2015\"\n- crl_history/date: \"May 15, 2025\" but quot",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2025",
+        "text": "Not a first-cycle approval; FDA issued a Complete Response letter on May 15, 202"
+      },
+      {
+        "field": "crl_history/date",
+        "number": "2025",
+        "text": "May 15, 2025"
+      },
+      {
+        "field": "crl_history/basis",
+        "number": "2",
+        "text": "The effectiveness of elamipretide had not been established for traditional appro"
+      },
+      {
+        "field": "crl_history/basis",
+        "number": "001",
+        "text": "The effectiveness of elamipretide had not been established for traditional appro"
+      },
+      {
+        "field": "approval_program/accelerated_approval/surrogate_endpoint",
+        "number": "201",
+        "text": "Knee extensor muscle strength assessed by handheld dynamometry (HHD) in SPIBA-20"
+      },
+      {
+        "field": "approval_program/accelerated_approval/surrogate_endpoint",
+        "number": "2",
+        "text": "Knee extensor muscle strength assessed by handheld dynamometry (HHD) in SPIBA-20"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "15",
+        "text": "Elamipretide (Forzinity) received accelerated approval under 21 CFR 314.510 for "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2025",
+        "text": "Elamipretide (Forzinity) received accelerated approval under 21 CFR 314.510 for "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

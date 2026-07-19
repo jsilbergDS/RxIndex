@@ -1,0 +1,37 @@
+{
+  "app": "NDA214801",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "low",
+      "issue": "Automated flag 'number 1' is a false positive: the '1' in 'phase 1/2 study' is a phase descriptor supported by the trial design, not an uncited efficacy/safety number."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flags 'number 120' and 'number 101' are false positives: these are fragments of the study identifier 'TAS-120-101', which should be excluded like study IDs, not treated as uncited data."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "1",
+        "text": "Phase 2 portion of a phase 1/2 study"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "120",
+        "text": "LYTGOBI (futibatinib) received Priority Review and was granted accelerated appro"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "101",
+        "text": "LYTGOBI (futibatinib) received Priority Review and was granted accelerated appro"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

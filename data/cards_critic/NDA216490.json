@@ -1,0 +1,23 @@
+{
+  "app": "NDA216490",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 239)",
+  "_raw": "{\n \"app\": \"NDA216490\",\n \"release_ready\": true,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[0].trial_name\",\n   \"severity\": \"low\",\n   \"issue\": \"False-positive flag: '1' in 'Study 1' is a study identifier, not an efficacy/safety number.\",\n  },\n  {\n   \"field\": \"pivotal_trials[0].result\",\n   \"severity\":",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "TCP-304 (Study 1)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "26",
+        "text": "At Week 26, 45/61 (74%) of palopegteriparatide subjects met the composite endpoi"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

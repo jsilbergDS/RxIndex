@@ -1,0 +1,18 @@
+{
+  "app": "NDA216340",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 375)",
+  "_raw": "Looking at the card carefully for issues.\n\nLet me verify key data points and check for inconsistencies.\n\n```json\n{\n  \"app\": \"NDA216340\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].phase\",\n      \"severity\": \"low\",\n      \"issue\": \"Automated flag on the number '1' (",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "1",
+        "text": "Phase 2 (Cohort A of a Phase 1/2 dose escalation and expansion trial)"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

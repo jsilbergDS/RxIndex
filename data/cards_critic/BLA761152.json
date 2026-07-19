@@ -1,0 +1,52 @@
+{
+  "app": "BLA761152",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.priority_review.basis",
+      "severity": "low",
+      "issue": "The citation quote 'Priority or StandardPriority (resubmission following Complete Response)' is a mangled/stitched form-field capture rather than a clean verbatim sentence, though the priority designation itself is otherwise supported."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flags: BLA number 761152 and the date components (Nov 17 2020, Oct 15 2021) are identifiers/dates that are in fact supported by the summary's citation quotes; not genuine problems."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "761152",
+        "text": "BLA 761152 for narsoplimab-wuug (a MASP-2 inhibitor mAb) had breakthrough therap"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "BLA 761152 for narsoplimab-wuug (a MASP-2 inhibitor mAb) had breakthrough therap"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "17",
+        "text": "BLA 761152 for narsoplimab-wuug (a MASP-2 inhibitor mAb) had breakthrough therap"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2020",
+        "text": "BLA 761152 for narsoplimab-wuug (a MASP-2 inhibitor mAb) had breakthrough therap"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "15",
+        "text": "BLA 761152 for narsoplimab-wuug (a MASP-2 inhibitor mAb) had breakthrough therap"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2021",
+        "text": "BLA 761152 for narsoplimab-wuug (a MASP-2 inhibitor mAb) had breakthrough therap"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

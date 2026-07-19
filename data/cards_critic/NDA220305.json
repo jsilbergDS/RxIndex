@@ -1,0 +1,73 @@
+{
+  "app": "NDA220305",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting ',' delimiter: line 14 column 6 (char 671)",
+  "_raw": "<think>\nLet me analyze this card carefully.\n\n**Automated flags analysis:**\n\n1. `pivotal_trials[0]/n` number \"2\" - from \"Phase 1b and Phase 2\" - this is likely a false positive (phase number). Low severity note.\n\n2. `pivotal_trials[0]/n` number \"600\" - \"600 mg once daily\" - this is a dose, but the fl",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "2",
+        "text": "N=112 (pooled Phase 1b and Phase 2 patients treated at 600 mg once daily)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "600",
+        "text": "N=112 (pooled Phase 1b and Phase 2 patients treated at 600 mg once daily)"
+      },
+      {
+        "field": "key_safety",
+        "number": "20",
+        "text": "Most common adverse reactions (\u226520%) include infection without an identified pat"
+      },
+      {
+        "field": "key_safety",
+        "number": "52",
+        "text": "Most common adverse reactions (\u226520%) include infection without an identified pat"
+      },
+      {
+        "field": "key_safety",
+        "number": "38",
+        "text": "Most common adverse reactions (\u226520%) include infection without an identified pat"
+      },
+      {
+        "field": "key_safety",
+        "number": "36",
+        "text": "Most common adverse reactions (\u226520%) include infection without an identified pat"
+      },
+      {
+        "field": "key_safety",
+        "number": "35",
+        "text": "Most common adverse reactions (\u226520%) include infection without an identified pat"
+      },
+      {
+        "field": "key_safety",
+        "number": "34",
+        "text": "Most common adverse reactions (\u226520%) include infection without an identified pat"
+      },
+      {
+        "field": "key_safety",
+        "number": "30",
+        "text": "Most common adverse reactions (\u226520%) include infection without an identified pat"
+      },
+      {
+        "field": "key_safety",
+        "number": "28",
+        "text": "Most common adverse reactions (\u226520%) include infection without an identified pat"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "31",
+        "text": "Approved effective on the date of the approval letter following review of the ND"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2025",
+        "text": "Approved effective on the date of the approval letter following review of the ND"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

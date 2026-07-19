@@ -1,0 +1,23 @@
+{
+  "app": "BLA761339",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 299)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"BLA761339\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].n\",\n      \"severity\": \"low\",\n      \"issue\": \"AUTOMATED_FLAG uncited_numbers for '10' is a false positive; the citation quote 'Ten patients ranging f",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "10",
+        "text": "N=10"
+      },
+      {
+        "field": "key_safety",
+        "number": "10",
+        "text": "In 10 treated patients, the most common adverse reactions (reported in two or mo"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

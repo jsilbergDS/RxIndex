@@ -1,0 +1,41 @@
+{
+  "app": "BLA761269",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name.citations[1]",
+      "severity": "high",
+      "issue": "The citation states 'The Division viewed Study 201 as proof-of-concept,' which contradicts using this as the single pivotal/adequate and well-controlled trial and undermines the trial_name field it supports."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "medium",
+      "issue": "The design text calls it a 'dose-finding study' but the supporting Study 201 citation (line 43) does not mention dose-finding; the dose-finding characterization is drawn only from the labeling 'Study 1' quote, creating a mixed identity between Study 201 and Study 1."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "medium",
+      "issue": "The N field mixes identifiers: it labels the cohort as Study 201 in trial_name but the N citation is for 'Study 1' (161 lecanemab / 247 placebo), and these Study 1/Study 201 identifiers are conflated throughout without reconciliation."
+    },
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "low",
+      "issue": "Endpoint states the surrogate was measured at Week 79 via PET SUVr; supported by citations, but the primary clinical endpoint (ADCOMS at Week 53) being reported as 'primary' while approval rests on the surrogate should be flagged as potential reader confusion (minor)."
+    },
+    {
+      "field": "key_safety",
+      "severity": "medium",
+      "issue": "ARIA placebo denominator is stated as 5% (13/245) while symptomatic ARIA and other rates use n=161 and the AR table uses placebo n=245 vs elsewhere n=247/245 \u2014 inconsistent denominators (247 randomized to placebo per N field vs 245 in safety) are not reconciled."
+    },
+    {
+      "field": "advisory_committee.vote",
+      "severity": "low",
+      "issue": "Field is labeled 'vote' but convened=false and no vote occurred; the text is an explanation for non-referral, so labeling it a vote is a minor mislabel."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

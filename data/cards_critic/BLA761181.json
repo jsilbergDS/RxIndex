@@ -1,0 +1,23 @@
+{
+  "app": "BLA761181",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 287)",
+  "_raw": "{\n \"app\": \"BLA761181\",\n \"release_ready\": false,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[0].result\",\n   \"severity\": \"low\",\n   \"issue\": \"Automated flag for uncited number '24' is a false positive; '24' refers to Week 24 (a timepoint from the endpoint), not an efficacy statistic.\",\n  },\n  {\n   \"fi",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "24",
+        "text": "At Week 24, evinacumab LS mean LDL-C change was -47.1% vs +1.9% placebo; differe"
+      },
+      {
+        "field": "key_safety",
+        "number": "24",
+        "text": "Safety data are pooled from two 24-week randomized, double-blind, placebo-contro"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

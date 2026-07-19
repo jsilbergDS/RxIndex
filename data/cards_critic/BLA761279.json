@@ -1,0 +1,82 @@
+{
+  "app": "BLA761279",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "medium",
+      "issue": "Second citation is from a different document/trial named 'AMAN' with different efficacy numbers (23.5% vs card's 24%); it belongs to a comparator/other review section and does not support the OMVOH UC-1 phase description."
+    },
+    {
+      "field": "pivotal_trials[1].phase",
+      "severity": "medium",
+      "issue": "Second citation is from a different trial named 'AMBG' with mismatched numbers (50.4%/26.0% vs card's 51%/27%), an inconsistent cross-reference not describing UC-2 as stated."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Number '12' (Week 12) is a timepoint present in the endpoint citations; false-positive uncited-number flag."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "Number '40' (Week 40) is a timepoint present in the endpoint citation; false-positive uncited-number flag."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Uncited numbers '24' and '2023' are the resubmission date (May 24, 2023); false-positive date flags, and value=false is correctly supported by the cited prior CRL."
+    },
+    {
+      "field": "receipt_date",
+      "severity": "low",
+      "issue": "Uncited numbers '24' and '2023' are part of the resubmission date May 24, 2023; false-positive date flags."
+    },
+    {
+      "field": "receipt_date",
+      "severity": "medium",
+      "issue": "The resubmission portion 'received May 24, 2023' is stated in the text but not covered by the single citation (which only supports the original March 30, 2022 BLA date); the resubmission date is supported elsewhere (summary line 14) but not cited here."
+    },
+    {
+      "field": "approval_program.priority_review",
+      "severity": "low",
+      "issue": "Marked present=false consistent with 'Standard resubmission' citation; no issue, noted for completeness."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "12",
+        "text": "Clinical remission at Week 12: 24% OMVOH (N=795) vs 15% placebo (N=267); treatme"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "40",
+        "text": "Clinical remission at Week 40: 51% OMVOH (N=337) vs 27% placebo (N=169); treatme"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "24",
+        "text": "Not a first-cycle approval; the original BLA received a Complete Response Letter"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2023",
+        "text": "Not a first-cycle approval; the original BLA received a Complete Response Letter"
+      },
+      {
+        "field": "receipt_date",
+        "number": "24",
+        "text": "March 30, 2022 (original BLA); standard resubmission received May 24, 2023"
+      },
+      {
+        "field": "receipt_date",
+        "number": "2023",
+        "text": "March 30, 2022 (original BLA); standard resubmission received May 24, 2023"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "app": "BLA761345",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 15 column 3 (char 787)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n \"app\": \"BLA761345\",\n \"release_ready\": false,\n \"issues\": [\n  {\n   \"field\": \"key_safety\",\n   \"severity\": \"high\",\n   \"issue\": \"Neurologic toxicity is stated as 59% but the cited quote gives CRS 58% and neurologic toxicity 59%; however the '22%' nausea ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "20",
+        "text": "Cytokine release syndrome (58%) and neurologic toxicity (59%) were the key conce"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "ELREXFIO (elranatamab-bcmm) received accelerated approval under section 506(c) b"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "4476",
+        "text": "ELREXFIO (elranatamab-bcmm) received accelerated approval under section 506(c) b"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "ELREXFIO (elranatamab-bcmm) received accelerated approval under section 506(c) b"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "5",
+        "text": "ELREXFIO (elranatamab-bcmm) received accelerated approval under section 506(c) b"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

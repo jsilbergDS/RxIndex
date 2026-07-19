@@ -1,0 +1,99 @@
+{
+  "app": "NDA214938",
+  "drug": "VOXZOGO",
+  "docs_read": [
+    {
+      "doc_type": "IntegratedR",
+      "doc_id": "fda_53112dfa-57f1-5cd5-9fa1-4c74219eb02e"
+    },
+    {
+      "doc_type": "Approv",
+      "doc_id": "fda_ef2d83ae-3481-5e69-8353-ed1a2064a463"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Joint meeting of the Pediatric Advisory Committee (PAC) and the Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC)",
+    "quote": {
+      "doc_type": "IntegratedR",
+      "doc_id": "fda_53112dfa-57f1-5cd5-9fa1-4c74219eb02e",
+      "line": 61,
+      "quote": "On May 11, 2018, a Pediatric Advisory Committee (PAC)/Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC) meeting was held to identify therapeutic goals of the ACH community and to further discuss the appropriate elements of the clinical development program of vosoritide for treatment of ACH, such as study design, duration, efficacy endpoints, and number of studies needed."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_53112dfa57f1",
+      "found_lines": [
+        61
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "May 11, 2018 (a development-program guidance meeting held during clinical development, not a pre-approval review-cycle meeting)",
+    "quote": {
+      "doc_type": "IntegratedR",
+      "doc_id": "fda_53112dfa-57f1-5cd5-9fa1-4c74219eb02e",
+      "line": 902,
+      "quote": "On May 11, 2018, FDA held a joint meeting of the Pediatric Advisory Committee (PAC) and the Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC) to further discuss appropriate drug development programs for ACH indication"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_53112dfa57f1",
+      "found_lines": [
+        902
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "No approval vote was taken; this was a development-guidance meeting. The committee agreed annualized growth velocity (AGV) could serve as the primary endpoint but that final adult height is the key treatment goal and long-term efficacy data on final height should be obtained; disease complications should be key secondary endpoints; and a randomized, placebo-controlled design of at least 2 years is optimal. No second AC was convened during the marketing application review cycle.",
+    "quote": {
+      "doc_type": "IntegratedR",
+      "doc_id": "fda_53112dfa-57f1-5cd5-9fa1-4c74219eb02e",
+      "line": 888,
+      "quote": "Briefly, the Advisory Committee members agreed that the AGV can be used as a primary endpoint; however, final height is a key goal of treatment in the intended population. In addition, improvement in disease complications should be evaluated as key secondary endpoints."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_53112dfa57f1",
+      "found_lines": [
+        888
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The advisory committee agreed that annualized growth velocity (AGV) could be used as a primary endpoint, but emphasized that final adult height is the ultimate goal of treatment and that data on final adult height must be obtained to evaluate long-term clinical efficacy.",
+      "change": "Voxzogo was granted accelerated approval based on the AGV surrogate, with a postmarketing requirement (PMR 4134-1) to conduct a trial measuring the effect of vosoritide on final adult height to verify and describe clinical benefit.",
+      "category": "Endpoint / Accelerated approval + PMR",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "fda_53112dfa-57f1-5cd5-9fa1-4c74219eb02e",
+        "line": 61,
+        "quote": "The Advisory Committee members agreed that annualized growth velocity (AGV) could be used as a primary endpoint; however, data on final adult height should be obtained to evaluate long-term clinical efficacy.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_53112dfa57f1",
+          "found_lines": [
+            61
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Approv",
+        "doc_id": "fda_ef2d83ae-3481-5e69-8353-ed1a2064a463",
+        "line": 50,
+        "quote": "Conduct an open-label, external-controlled trial in subjects with achondroplasia (ACH) 5 years of age and older with open epiphyses to measure the effect of vosoritide on final adult height.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_ef2d83ae3481",
+          "found_lines": [
+            50
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "A joint Pediatric Advisory Committee (PAC)/Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC) meeting was held on May 11, 2018, as development-program guidance during clinical development; no advisory committee was convened during the marketing application review cycle and no approval vote occurred. The committee agreed that annualized growth velocity could serve as the primary endpoint but stressed that final adult height is the ultimate treatment goal requiring long-term data. Consistent with that emphasis, Voxzogo received accelerated approval on the growth-velocity surrogate with a postmarketing requirement (4134-1) to measure the effect on final adult height, though the review does not explicitly attribute the PMR to the committee."
+}

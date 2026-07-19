@@ -1,0 +1,28 @@
+{
+  "app": "BLA761434",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 390)",
+  "_raw": "Analyzing the card for quality issues.\n\n**Automated flags review:**\n- `uncited_numbers` \"30\" and \"1.73\" in population: The population citation only mentions \"biopsy-confirmed IgAN and proteinuria...\" \u2014 it does NOT contain \"eGFR \u2265 30 mL/min/1.73 m2\". However, the trial_name and nct citations (line 11",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "30",
+        "text": "Adults with biopsy-confirmed primary IgAN, eGFR \u2265 30 mL/min/1.73 m2, proteinuria"
+      },
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "1.73",
+        "text": "Adults with biopsy-confirmed primary IgAN, eGFR \u2265 30 mL/min/1.73 m2, proteinuria"
+      },
+      {
+        "field": "approval_program/accelerated_approval/surrogate_endpoint",
+        "number": "9",
+        "text": "Reduction of proteinuria (substantial reduction in uPCR-24h at Month 9), accepte"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

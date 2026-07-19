@@ -1,0 +1,47 @@
+{
+  "app": "NDA216540",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flags: '11', '20', '2024' are components of the excluded review-completion date 11/20/2024, not efficacy/safety numbers."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flags: '216540' is the application ID (excluded) and '3' is from 'phase 3' (not an efficacy/safety number)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "11",
+        "text": "NDA 216540 was submitted for a new molecular entity, acoramidis (AG10); no prior"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "20",
+        "text": "NDA 216540 was submitted for a new molecular entity, acoramidis (AG10); no prior"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2024",
+        "text": "NDA 216540 was submitted for a new molecular entity, acoramidis (AG10); no prior"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "216540",
+        "text": "NDA 216540 was a standard (non-priority) review for the new molecular entity aco"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "NDA 216540 was a standard (non-priority) review for the new molecular entity aco"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

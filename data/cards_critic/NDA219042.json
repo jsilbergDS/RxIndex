@@ -1,0 +1,52 @@
+{
+  "app": "NDA219042",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "medium",
+      "issue": "The phase text says 'Phase Ib portion... registrational portion of the Phase I trial' but the citations only mention 'expansion part (Phase Ib)' and never label it the 'registrational portion of the Phase I trial,' so that characterization is unsupported.",
+      "field_note": "citation support"
+    },
+    {
+      "field": "companion_dx.detail",
+      "severity": "low",
+      "issue": "Automated flag on number '1' is a false positive; it comes from the URL/section reference and the 52% (37/71) figures are supported by the citation quote.",
+      "field_note": "false positive"
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag on '2024' is a false positive; the Breakthrough Therapy designation date '07 Aug 2024' is supported by the basis citation, and year labels for designations are non-substantive.",
+      "field_note": "false positive"
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "medium",
+      "issue": "The detail claims the application was 'reviewed through the Real-Time Oncology Review (RTOR) program' but the only citation supports the December 16, 2024 RTOR submission date, not that RTOR review occurred as stated.",
+      "field_note": "citation support (RTOR characterization only weakly supported)"
+    },
+    {
+      "field": "companion_dx.present",
+      "severity": "low",
+      "issue": "Marked present=true, but the citations describe FDA-approved test selection and a retrospective (not companion/enrollment) use of Oncomine Dx Target Test; no formally approved companion diagnostic is cited, so 'present=true' is arguably overstated.",
+      "field_note": "internal consistency"
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "companion_dx/detail",
+        "number": "1",
+        "text": "Patient selection requires HER2 (ERBB2) TKD activating mutations detected by an "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2024",
+        "text": "Zongertinib received Fast Track (2023) and Breakthrough Therapy (2024) designati"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

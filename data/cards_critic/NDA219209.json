@@ -1,0 +1,57 @@
+{
+  "app": "NDA219209",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Text labels the arm counts as 'in FAS' but the citation says 'Number treated', a minor mismatch of the population descriptor (numbers themselves are supported)."
+    },
+    {
+      "field": "uncited_numbers",
+      "severity": "low",
+      "issue": "False positive: '0' is part of the SPID48 '0-48 hours' range description, not an efficacy statistic."
+    },
+    {
+      "field": "uncited_numbers",
+      "severity": "low",
+      "issue": "False positive: '2025' in first_cycle_approval/detail is a date (approval date), excluded by rule."
+    },
+    {
+      "field": "uncited_numbers",
+      "severity": "low",
+      "issue": "False positive: '2022' in approval_program/summary is a date (Breakthrough designation year), excluded by rule."
+    },
+    {
+      "field": "uncited_numbers",
+      "severity": "low",
+      "issue": "False positive: '3' in approval_program/summary refers to '505(b)(1)/phase 3', not an efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "0",
+        "text": "Primary endpoint: time-weighted SPID48 (sum of pain intensity difference from 0-"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2025",
+        "text": "Original NDA 219209 submitted May 30, 2024; review completed and approved Januar"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2022",
+        "text": "Suzetrigine was submitted under the 505(b)(1) pathway as a new molecular entity "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Suzetrigine was submitted under the 505(b)(1) pathway as a new molecular entity "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

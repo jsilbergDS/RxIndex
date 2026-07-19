@@ -1,0 +1,72 @@
+{
+  "app": "NDA215341",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive flag: '600', '0.82', and '0.86' are all present verbatim in the result citation quotes (600 (21.1%), 0.82, 0.86)."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive flag: the number '10' is part of the '\u226510%' reporting threshold, not an uncited efficacy/safety statistic."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flags: '215341' is the NDA number and the remaining numerals (9, 7, 9, 2021) are date components, all excluded categories."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "600",
+        "text": "Primary composite met: 504 (17.8%) finerenone vs 600 (21.1%) placebo, HR 0.82 (9"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.82",
+        "text": "Primary composite met: 504 (17.8%) finerenone vs 600 (21.1%) placebo, HR 0.82 (9"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.86",
+        "text": "Primary composite met: 504 (17.8%) finerenone vs 600 (21.1%) placebo, HR 0.82 (9"
+      },
+      {
+        "field": "key_safety",
+        "number": "10",
+        "text": "Most frequently reported (\u226510%) adverse reaction was hyperkalemia (18.3% fineren"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "215341",
+        "text": "NDA 215341 for finerenone (Kerendia) was submitted by Bayer HealthCare on Novemb"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "9",
+        "text": "NDA 215341 for finerenone (Kerendia) was submitted by Bayer HealthCare on Novemb"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "7",
+        "text": "NDA 215341 for finerenone (Kerendia) was submitted by Bayer HealthCare on Novemb"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "9",
+        "text": "NDA 215341 for finerenone (Kerendia) was submitted by Bayer HealthCare on Novemb"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2021",
+        "text": "NDA 215341 for finerenone (Kerendia) was submitted by Bayer HealthCare on Novemb"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

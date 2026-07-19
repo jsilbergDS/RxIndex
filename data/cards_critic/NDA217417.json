@@ -1,0 +1,52 @@
+{
+  "app": "NDA217417",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False-positive flag: '199' is supported by the citation quote which spells out 'One hundred and ninety-nine patients'."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive flag: '20' refers to the 20% NI margin, which is cited in the design and endpoint quotes."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flags: '217417' (NDA number) and '22'/'2022' (submission date 7/22/2022) are identifiers/dates supported by the receipt_date citation; not substantive uncited data."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "199",
+        "text": "199 randomized (ITT); 187 in mITT population (rezafungin N=93, caspofungin N=94)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "20",
+        "text": "Study met primary endpoint: Day 30 all-cause mortality 23.7% (rezafungin) vs 21."
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "217417",
+        "text": "NDA 217417 submitted July 22, 2022 and approved effective on the date of the app"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "22",
+        "text": "NDA 217417 submitted July 22, 2022 and approved effective on the date of the app"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2022",
+        "text": "NDA 217417 submitted July 22, 2022 and approved effective on the date of the app"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "app": "BLA761289",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Extra data: line 47 column 1 (char 2546)",
+  "_raw": "Analyzing the card systematically.\n\n```json\n{\n  \"app\": \"BLA761289\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].result\",\n      \"severity\": \"high\",\n      \"issue\": \"The p-value '2-sided p=0.0035' is stated but the text says 'p=0.0035'; this is supported by line 69 c",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "23",
+        "text": "Approved effective on the date of the letter following review of the BLA dated F"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2022",
+        "text": "Approved effective on the date of the letter following review of the BLA dated F"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "761289",
+        "text": "BLA 761289 for tremelimumab (IMJUDO) received Priority review and was supported "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "app": "NDA214662",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False-positive flag: the number '29' is supported by the citation quote which spells it out as 'Twenty-nine patients ... randomized to the RWD period'; no real problem."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "29",
+        "text": "31 patients enrolled in the open-label run-in; 29 randomized to the RWD period ("
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

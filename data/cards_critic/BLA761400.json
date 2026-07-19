@@ -1,0 +1,47 @@
+{
+  "app": "BLA761400",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "receipt_date",
+      "severity": "low",
+      "issue": "False-positive flags: '10' and '2025' are part of the resubmission date January 10, 2025 (dates are excluded from uncited-number checks); the date is also supported by the CR citation in first_cycle_approval."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flags: '1826' and '2245' are study identifiers and '3' is part of 'Phase 3', all of which are excluded from uncited-number checks."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "receipt_date",
+        "number": "10",
+        "text": "December 22, 2023 (original BLA 761400); resubmission received January 10, 2025"
+      },
+      {
+        "field": "receipt_date",
+        "number": "2025",
+        "text": "December 22, 2023 (original BLA 761400); resubmission received January 10, 2025"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1826",
+        "text": "Linvoseltamab received Orphan Drug Designation and Fast Track Designation and th"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Linvoseltamab received Orphan Drug Designation and Fast Track Designation and th"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2245",
+        "text": "Linvoseltamab received Orphan Drug Designation and Fast Track Designation and th"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

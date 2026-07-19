@@ -27,6 +27,14 @@ for l in open(CARDS):
     c = json.loads(l); m = c.get("_meta", {})
     ak = f"{m.get('type','')}{m.get('appno','')}"
     meta[ak] = m.get("drug", ak)
+# also the new single-agent cards, so new drugs get their real names
+for _f in (HERE / "data" / "cards_single").glob("*.json"):
+    try:
+        m = json.loads(_f.read_text()).get("_meta", {})
+        ak = f"{m.get('type','')}{m.get('appno','')}"
+        meta.setdefault(ak, m.get("drug", ak))
+    except Exception:
+        pass
 
 md = PROMPT_FILE.read_text()
 PROMPT_TEMPLATE = re.search(r"```\s*\n(.*?)\n```", md, re.S).group(1)

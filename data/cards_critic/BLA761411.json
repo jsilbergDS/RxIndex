@@ -1,0 +1,23 @@
+{
+  "app": "BLA761411",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 311)",
+  "_raw": "Analyzing the card for quality issues.\n\nLet me check each area systematically.\n\n**Automated flags:**\n- fast_track \"03 MAY 2022\" \u2014 the date is in the quote (\"03 MAY 2022\"). This is a date, should be excluded. The flag caught \"03\" \u2014 false positive.\n- summary \"201\" \u2014 part of \"AGAVE-201\", a study ID. Fa",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/fast_track/basis",
+        "number": "03",
+        "text": "Fast Track Designation granted on 03 MAY 2022 for treatment of patients with act"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "201",
+        "text": "NIKTIMVO (axatilimab-csfr) received traditional approval under Priority Review b"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

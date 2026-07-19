@@ -1,0 +1,47 @@
+{
+  "app": "NDA215239",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive uncited-number flags for NDA ID '215239' and date components (26, 2022); these are an application identifier and a date, which are excluded from citation requirements and are corroborated by the receipt_date field."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive uncited-number flags for date components (26, 2022); these are receipt-date values excluded from citation requirements and corroborated by receipt_date."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "215239",
+        "text": "NDA 215239 received October 26, 2022 was approved effective on the date of the a"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "26",
+        "text": "NDA 215239 received October 26, 2022 was approved effective on the date of the a"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2022",
+        "text": "NDA 215239 received October 26, 2022 was approved effective on the date of the a"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "26",
+        "text": "AGAMREE received a standard (not priority) review as a new molecular entity; the"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2022",
+        "text": "AGAMREE received a standard (not priority) review as a new molecular entity; the"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

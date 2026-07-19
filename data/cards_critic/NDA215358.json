@@ -1,0 +1,92 @@
+{
+  "app": "NDA215358",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "approval_program.accelerated_approval.surrogate_endpoint",
+      "severity": "medium",
+      "issue": "Text says MMR 'at 24 weeks' but the citation quote only states 'based on major molecular response (MMR)' with no '24 weeks' or 'two or more TKIs' timeframe support."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "medium",
+      "issue": "The '96-week follow-up' claim in the summary is not contained in any of the summary's citation quotes (uncited number 96)."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Total N=233 is derived by summing cited arms (157+76); false-positive uncited-number flag."
+    },
+    {
+      "field": "pivotal_trials[1].phase",
+      "severity": "low",
+      "issue": "'Phase 1' is inferred from 'dose escalation, first-in-human' in the cited quote; false-positive uncited-number flag."
+    },
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "'200' refers to the 200 mg twice-daily dose (excluded category) \u2014 false-positive uncited-number flag."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "'200' refers to the 200 mg dose (excluded category) \u2014 false-positive uncited-number flag."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "'24' and '2021' are date components (June 24, 2021) \u2014 false-positive uncited-number flags."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "233",
+        "text": "N=233 (asciminib n=157, bosutinib n=76)"
+      },
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "1",
+        "text": "Phase 1, first-in-human dose escalation"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "200",
+        "text": "Non-randomized, open-label, dose escalation, first-in-human study of asciminib m"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "200",
+        "text": "45 patients (T315I efficacy population at 200 mg twice daily)"
+      },
+      {
+        "field": "approval_program/accelerated_approval/surrogate_endpoint",
+        "number": "24",
+        "text": "Major molecular response (MMR) at 24 weeks (for the Ph+ CML-CP previously treate"
+      },
+      {
+        "field": "approval_program/accelerated_approval/surrogate_endpoint",
+        "number": "2",
+        "text": "Major molecular response (MMR) at 24 weeks (for the Ph+ CML-CP previously treate"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "24",
+        "text": "Priority-review NDA (received June 24, 2021) with orphan drug designation for CM"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2021",
+        "text": "Priority-review NDA (received June 24, 2021) with orphan drug designation for CM"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "96",
+        "text": "Priority-review NDA (received June 24, 2021) with orphan drug designation for CM"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

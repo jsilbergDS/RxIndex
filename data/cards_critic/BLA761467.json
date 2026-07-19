@@ -1,0 +1,18 @@
+{
+  "app": "BLA761467",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Extra data: line 32 column 1 (char 1655)",
+  "_raw": "Looking at the card carefully:\n\n```json\n{\n  \"app\": \"BLA761467\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].result\",\n      \"severity\": \"high\",\n      \"issue\": \"Efficacy states 'median PFS 8.1 months (95% CI: 6.3, 8.3)' but the PFS citation gives '8.1 months (95% CI",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/priority_review/basis",
+        "number": "761467",
+        "text": "The BLA 761467 was designated Priority review"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

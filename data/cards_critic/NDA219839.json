@@ -1,0 +1,23 @@
+{
+  "app": "NDA219839",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 291)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"NDA219839\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].result\",\n      \"severity\": \"low\",\n      \"issue\": \"Automated flag 'uncited number 200' is a false positive; 200 mg is a dose (excluded per rules) and",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "200",
+        "text": "ORR 46% (95% CI: 35, 57) at 200 mg; median DOR 11.1 months (95% CI: 8.2, NE); 72"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2",
+        "text": "NDA dated and received November 7, 2024, with PDUFA goal date July 7, 2025; appr"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

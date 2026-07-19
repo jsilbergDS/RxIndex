@@ -1,0 +1,38 @@
+{
+  "app": "NDA215887",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 373)",
+  "_raw": "Analyzing the card against the automated flags and required checks.\n\n```json\n{\n  \"app\": \"NDA215887\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].design\",\n      \"severity\": \"low\",\n      \"issue\": \"Flagged number '28' (28-week) is not in the design citations, but it ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "28",
+        "text": "28-week multicenter (32 sites, 9 countries), randomized, double-blind, placebo-c"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "9",
+        "text": "28-week multicenter (32 sites, 9 countries), randomized, double-blind, placebo-c"
+      },
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "197",
+        "text": "Primary: change from baseline to Week 28 (Day 197) in the ALSFRS-R total score i"
+      },
+      {
+        "field": "key_safety",
+        "number": "4",
+        "text": "Most common adverse reactions (\u226510%) were pain (42% vs 22% placebo), fatigue (17"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Tofersen received Fast Track (2015) and Orphan Drug designation; a Breakthrough "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

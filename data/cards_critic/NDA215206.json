@@ -1,0 +1,62 @@
+{
+  "app": "NDA215206",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Uncited-number flags for 10/30/60 in result are dose labels (10/30/60 mg), which are excluded per rules; false positives."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "Uncited-number flags for 10/30/60 in result are dose labels (10/30/60 mg), which are excluded per rules; false positives."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Uncited-number flag '1' is the study-label 'Study 1', an identifier excluded per rules; false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study 3101-301-002 (Study 1)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "10",
+        "text": "Mean change from baseline in monthly migraine days: -3.7 (10 mg), -3.9 (30 mg), "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "30",
+        "text": "Mean change from baseline in monthly migraine days: -3.7 (10 mg), -3.9 (30 mg), "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "60",
+        "text": "Mean change from baseline in monthly migraine days: -3.7 (10 mg), -3.9 (30 mg), "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "10",
+        "text": "Mean change from baseline in monthly migraine days: -4.0 (10 mg), -3.8 (30 mg), "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "30",
+        "text": "Mean change from baseline in monthly migraine days: -4.0 (10 mg), -3.8 (30 mg), "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "60",
+        "text": "Mean change from baseline in monthly migraine days: -4.0 (10 mg), -3.8 (30 mg), "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

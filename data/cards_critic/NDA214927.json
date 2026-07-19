@@ -1,0 +1,43 @@
+{
+  "app": "NDA214927",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 421)",
+  "_raw": "Analyzing the card systematically.\n\n{\n \"app\": \"NDA214927\",\n \"release_ready\": false,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[0].n\",\n   \"severity\": \"low\",\n   \"issue\": \"Flagged number '50' is actually supported by the citation quote ('Fifty patients were randomized 2:1'); false positive since the ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "50",
+        "text": "50 patients randomized (2:1 MIPLYFFA:placebo)"
+      },
+      {
+        "field": "advisory_committee/vote",
+        "number": "002",
+        "text": "Genetic Metabolic Diseases Advisory Committee convened August 2, 2024; voted 11 "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "17",
+        "text": "Arimoclomol received Orphan Drug, Fast Track, and Breakthrough Therapy designati"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2021",
+        "text": "Arimoclomol received Orphan Drug, Fast Track, and Breakthrough Therapy designati"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "21",
+        "text": "Arimoclomol received Orphan Drug, Fast Track, and Breakthrough Therapy designati"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2023",
+        "text": "Arimoclomol received Orphan Drug, Fast Track, and Breakthrough Therapy designati"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

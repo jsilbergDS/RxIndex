@@ -1,0 +1,97 @@
+{
+  "app": "BLA761306",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].endpoint",
+      "severity": "low",
+      "issue": "Automated flag for numbers 0/1/2/16 is a false positive; the IGA-score endpoint definition is supported via the 'Same as Study KGAB' cross-reference to the fully cited KGAB endpoint."
+    },
+    {
+      "field": "pivotal_trials[2].endpoint",
+      "severity": "low",
+      "issue": "Automated flag for numbers 0/1/2/16 is a false positive; endpoint carried from 'Same as Studies KGAB and KGAC', which are fully cited."
+    },
+    {
+      "field": "pivotal_trials[2].result",
+      "severity": "low",
+      "issue": "Automated flag for '16' is a false positive; it is the Week 16 timepoint, not an efficacy statistic, and the efficacy numbers (41/22/70/42) are all cited."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flags for 28/2023/14/2024 are false positives; they are date components (Sept 28, 2023 CRL and March 14, 2024 resubmission) which are excluded and are otherwise supported by receipt_date/first_cycle_approval citations."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/endpoint",
+        "number": "0",
+        "text": "Percentage of subjects with an IGA score of 0 or 1 and a \u22652-point reduction from"
+      },
+      {
+        "field": "pivotal_trials[1]/endpoint",
+        "number": "1",
+        "text": "Percentage of subjects with an IGA score of 0 or 1 and a \u22652-point reduction from"
+      },
+      {
+        "field": "pivotal_trials[1]/endpoint",
+        "number": "2",
+        "text": "Percentage of subjects with an IGA score of 0 or 1 and a \u22652-point reduction from"
+      },
+      {
+        "field": "pivotal_trials[1]/endpoint",
+        "number": "16",
+        "text": "Percentage of subjects with an IGA score of 0 or 1 and a \u22652-point reduction from"
+      },
+      {
+        "field": "pivotal_trials[2]/endpoint",
+        "number": "0",
+        "text": "Percentage of subjects with an IGA score of 0 or 1 and a \u22652-point reduction from"
+      },
+      {
+        "field": "pivotal_trials[2]/endpoint",
+        "number": "1",
+        "text": "Percentage of subjects with an IGA score of 0 or 1 and a \u22652-point reduction from"
+      },
+      {
+        "field": "pivotal_trials[2]/endpoint",
+        "number": "2",
+        "text": "Percentage of subjects with an IGA score of 0 or 1 and a \u22652-point reduction from"
+      },
+      {
+        "field": "pivotal_trials[2]/endpoint",
+        "number": "16",
+        "text": "Percentage of subjects with an IGA score of 0 or 1 and a \u22652-point reduction from"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "16",
+        "text": "IGA 0 or 1 at Week 16: 41% EBGLYSS+TCS vs 22% placebo+TCS; EASI-75: 70% vs 42%"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "28",
+        "text": "EBGLYSS was submitted as a 351(a) BLA for a new molecular entity under Standard "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2023",
+        "text": "EBGLYSS was submitted as a 351(a) BLA for a new molecular entity under Standard "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "14",
+        "text": "EBGLYSS was submitted as a 351(a) BLA for a new molecular entity under Standard "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2024",
+        "text": "EBGLYSS was submitted as a 351(a) BLA for a new molecular entity under Standard "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

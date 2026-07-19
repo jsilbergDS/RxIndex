@@ -1,0 +1,22 @@
+{
+  "app": "NDA214985",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive automated flag: the uncited number '3' is part of 'Phase 3' (a study-phase descriptor), not an efficacy/safety figure requiring citation."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Idorsia submitted NDA 214985 for daridorexant, an orexin receptor antagonist, fo"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

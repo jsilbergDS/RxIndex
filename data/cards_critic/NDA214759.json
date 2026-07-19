@@ -1,0 +1,52 @@
+{
+  "app": "NDA214759",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "medium",
+      "issue": "The claim 'no p-value, no prespecified alpha for OS' is not supported by any citation quote; the OS citation only provides the HR and CI."
+    },
+    {
+      "field": "modality",
+      "severity": "low",
+      "issue": "Value 'small molecule' is inferred; the citation only states 'alkylating drug' and does not say small molecule."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited number '20' refers to the '(\u226520%)' frequency threshold descriptor, not present in any quote; minor but the threshold is uncited."
+    },
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "low",
+      "issue": "False-positive flag: uncited number '64' is supported by the citation 'Sixty-four percent of patients had AML.' (word form)."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: uncited number '14' is part of the trial name 'MC-FludT.14/L', not an efficacy/safety figure."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "64",
+        "text": "Adults 18 to 70 years old with AML in complete remission or MDS, Karnofsky perfo"
+      },
+      {
+        "field": "key_safety",
+        "number": "20",
+        "text": "Fatal regimen-related adverse reactions occurred within 30 days of transplantati"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "14",
+        "text": "Standard-review NDA approved via the traditional pathway based on one adequate a"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

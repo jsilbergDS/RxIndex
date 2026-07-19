@@ -1,0 +1,103 @@
+{
+  "app": "NDA215887",
+  "drug": "QALSODY",
+  "docs_read": [
+    {
+      "doc_type": "IntegratedR",
+      "doc_id": "6f0027a6-1967-58c7-9cb9-18bba9326788"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "d3a55e76-c5f9-555f-8ede-59a3f2d4d2e6"
+    },
+    {
+      "doc_type": "Approv",
+      "doc_id": "ec99c3b2-0df0-5233-bc56-e2f969868a25"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Peripheral and Central Nervous System Drugs Advisory Committee (PCNS)",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "d3a55e76-c5f9-555f-8ede-59a3f2d4d2e6",
+      "line": 44,
+      "quote": "A Peripheral and Central Nervous System (PCNS) Advisory Committee (AC) meeting was held on March 22, 2023, to discuss whether the observed reduction of NfL is reasonably likely to predict clinical benefit and support accelerated approval of tofersen for the treatment of patients with SOD1-ALS."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "d3a55e76-c5f9-555f-8ede-59a3f2d4d2e6",
+      "found_lines": [
+        44
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "March 22, 2023",
+    "quote": {
+      "doc_type": "IntegratedR",
+      "doc_id": "6f0027a6-1967-58c7-9cb9-18bba9326788",
+      "line": 1274,
+      "quote": "The Peripheral and Central Nervous System Drugs Advisory Committee Meeting was held on March 22, 2023."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "6f0027a6-1967-58c7-9cb9-18bba9326788",
+      "found_lines": [
+        1274
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "Two votes. Question 1 (whether NfL reduction is reasonably likely to predict clinical benefit): 9 Yes, 0 No (unanimous). Question 2 (whether the clinical data provide convincing evidence of effectiveness): 3 Yes, 5 No, 1 Abstain (majority No).",
+    "quote": {
+      "doc_type": "IntegratedR",
+      "doc_id": "6f0027a6-1967-58c7-9cb9-18bba9326788",
+      "line": 44,
+      "quote": "the committee voted unanimously, 9 to 0, that the available evidence supports that a reduction in NfL concentration observed in tofersen-treated patients with SOD1-ALS is reasonably likely to predict clinical benefit for these patients."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "6f0027a6-1967-58c7-9cb9-18bba9326788",
+      "found_lines": [
+        44
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "A majority of committee members concluded that the clinical data from the placebo-controlled study (which failed its prespecified endpoints) and the open-label extension did not provide convincing evidence of tofersen's effectiveness, with members noting the evidence met the standard for accelerated but not traditional approval.",
+      "change": "The drug was granted accelerated approval based on reduction in plasma NfL as a surrogate endpoint reasonably likely to predict clinical benefit (not traditional approval), and a postmarketing requirement (PMR 4436-1) was issued requiring completion of the confirmatory ATLAS trial (Study 233AS303) to verify clinical benefit.",
+      "category": "Approval pathway / accelerated approval with confirmatory PMR",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "6f0027a6-1967-58c7-9cb9-18bba9326788",
+        "line": 1279,
+        "quote": "For Question 2, a slight majority of the AC members voted *No* (three *Yes*, five *No*, and one *Abstain*), agreeing that the clinical data from the placebo-controlled study and available long-term extension results, with additional supporting results from the effects on relevant biomarkers (i.e., changes in plasma NFL concentration and/or reductions in SOD1), did not provide convincing evidence of effectiveness for tofersen in the treatment of patients with SOD1-ALS.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "6f0027a6-1967-58c7-9cb9-18bba9326788",
+          "found_lines": [
+            1279
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Approv",
+        "doc_id": "ec99c3b2-0df0-5233-bc56-e2f969868a25",
+        "line": 27,
+        "quote": "In order to verify the clinical benefit of tofersen, complete Study 233AS303 (ATLAS)",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "ec99c3b2-0df0-5233-bc56-e2f969868a25",
+          "found_lines": [
+            27
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "A Peripheral and Central Nervous System Drugs Advisory Committee meeting was held on March 22, 2023 to discuss whether the observed reduction of plasma NfL is reasonably likely to predict clinical benefit and support accelerated approval of tofersen (Qalsody) for SOD1-ALS. The committee voted unanimously 9-0 that NfL reduction is reasonably likely to predict clinical benefit, but voted 3 Yes / 5 No / 1 Abstain that the clinical data did not provide convincing evidence of effectiveness, with members noting the evidence met the standard for accelerated but not traditional approval; FDA granted accelerated approval on the NfL surrogate and issued PMR 4436-1 (the confirmatory ATLAS trial) to verify clinical benefit. The AdComm was largely confirmatory of the review team's assessment and did not, per the review documents, drive specific safety labeling changes (warnings for myelitis/radiculitis and aseptic meningitis originated from the clinical reviewer, and no REMS was required)."
+}

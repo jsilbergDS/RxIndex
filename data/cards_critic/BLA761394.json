@@ -1,0 +1,47 @@
+{
+  "app": "BLA761394",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "high",
+      "issue": "PFS p<0.0001 is not supported by any citation; the only p-value quote is 'NS' which applies to OS, so the PFS p-value is uncited/fabricated."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "ORR is labeled 'Confirmed' but the citation only shows 'n (%) 133 (36) 84 (23)' without confirming it is confirmed ORR; minor overclaim (numbers themselves are cited)."
+    },
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "low",
+      "issue": "False-positive flag: number '3' (Phase 3) is supported by the citation stating 'Phase III'."
+    },
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "low",
+      "issue": "False-positive flag: number '0' (IHC 0 / ECOG PS 0) is supported by citations; ECOG PS 0 or 1 is reasonably inferred from 'excluded for ECOG performance status >1'."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "3",
+        "text": "Phase 3, open-label, randomized study (pivotal trial)"
+      },
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "0",
+        "text": "Adults with unresectable or metastatic HR-positive, HER2-negative breast cancer "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.0001",
+        "text": "Median PFS 6.9 vs 4.9 months; HR 0.63 (95% CI 0.52, 0.76); p<0.0001. OS not impr"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

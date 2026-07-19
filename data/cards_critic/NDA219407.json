@@ -1,0 +1,21 @@
+{
+  "app": "NDA219407",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "rems.detail.citations[0].line",
+      "severity": "low",
+      "issue": "The 'No REMS is proposed.' quote is attributed to line 69, the same line another citation attributes to 'Anaphylaxis occurred in one subject.'; likely a line-number attribution error, though the quote content is plausible and not flagged as unverified."
+    },
+    {
+      "field": "_meta_tta",
+      "severity": "low",
+      "issue": "Time-to-approval meta is null; may be non-computable if approval date is absent, so acceptable but noted."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "app": "NDA215152",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Automated flag for number '301' is a false positive; it is part of the study ID 'HP-301', not an efficacy/safety figure."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Automated flags for '3' and '2021' are false positives; they are components of the excluded receipt date 'September 3, 2021'."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flags for '3', '3', and '301' are false positives; they derive from the excluded date 'September 3, 2021' and the study ID 'HP-301'."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "301",
+        "text": "For VOQUEZNA TRIPLE PAK the most common adverse reactions (>=2%) were dysgeusia,"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "3",
+        "text": "The applications, received September 3, 2021, were reviewed and approved effecti"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2021",
+        "text": "The applications, received September 3, 2021, were reviewed and approved effecti"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "These 505(b)(2) NDAs were received September 3, 2021 and reviewed under Priority"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "These 505(b)(2) NDAs were received September 3, 2021 and reviewed under Priority"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "301",
+        "text": "These 505(b)(2) NDAs were received September 3, 2021 and reviewed under Priority"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

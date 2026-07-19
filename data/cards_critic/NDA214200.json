@@ -1,0 +1,87 @@
+{
+  "app": "NDA214200",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Total N=107 is not in the citation quote (which gives only 54 and 53 separately); it is a correct computed sum, minor uncited total."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "Total N=77 is not in the citation quote (only 39 and 38 given); correct computed sum, minor uncited total."
+    },
+    {
+      "field": "pivotal_trials[2].n",
+      "severity": "low",
+      "issue": "Total N=61 is not in the citation quote (only 32 and 29 given); correct computed sum, minor uncited total."
+    },
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "low",
+      "issue": "Flagged number '1' is 'Cycle 1' (a cycle descriptor, not an efficacy value) \u2014 false positive."
+    },
+    {
+      "field": "pivotal_trials[1].endpoint",
+      "severity": "low",
+      "issue": "Flagged number '1' is 'Cycle 1' descriptor \u2014 false positive."
+    },
+    {
+      "field": "pivotal_trials[2].endpoint",
+      "severity": "low",
+      "issue": "Flagged number '1' is 'Cycle 1' descriptor \u2014 false positive."
+    },
+    {
+      "field": "pivotal_trials[2].result",
+      "severity": "low",
+      "issue": "Flagged number '1' is 'Cycle 1' descriptor \u2014 false positive."
+    },
+    {
+      "field": "modality.text",
+      "severity": "low",
+      "issue": "'small molecule' portion is not in the citation quote (which says only 'kinase inhibitor'); reasonable inference but not explicitly cited."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "1",
+        "text": "Duration of severe neutropenia (DSN) in Cycle 1 and proportion of patients with "
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "107",
+        "text": "N=107 (54 trilaciclib; 53 placebo)"
+      },
+      {
+        "field": "pivotal_trials[1]/endpoint",
+        "number": "1",
+        "text": "Duration of severe neutropenia (DSN) in Cycle 1 and proportion of patients with "
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "77",
+        "text": "N=77 (39 trilaciclib; 38 placebo)"
+      },
+      {
+        "field": "pivotal_trials[2]/endpoint",
+        "number": "1",
+        "text": "Duration of severe neutropenia (DSN) in Cycle 1 and proportion of patients with "
+      },
+      {
+        "field": "pivotal_trials[2]/n",
+        "number": "61",
+        "text": "N=61 (32 trilaciclib; 29 placebo)"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "1",
+        "text": "Mean DSN in Cycle 1: 2 days trilaciclib vs 7 days placebo (mean difference -5.5;"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

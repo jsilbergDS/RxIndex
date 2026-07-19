@@ -1,0 +1,47 @@
+{
+  "app": "BLA761179",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "uncited_numbers flags (4, 30, 2021, 6) are date components which are excluded by rule; these are false positives."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "4",
+        "text": "The application was received 4/30/2021 with review completed 6/30/2021 and appro"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "30",
+        "text": "The application was received 4/30/2021 with review completed 6/30/2021 and appro"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2021",
+        "text": "The application was received 4/30/2021 with review completed 6/30/2021 and appro"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "6",
+        "text": "The application was received 4/30/2021 with review completed 6/30/2021 and appro"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "30",
+        "text": "The application was received 4/30/2021 with review completed 6/30/2021 and appro"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2021",
+        "text": "The application was received 4/30/2021 with review completed 6/30/2021 and appro"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

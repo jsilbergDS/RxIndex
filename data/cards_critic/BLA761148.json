@@ -1,0 +1,32 @@
+{
+  "app": "BLA761148",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG for uncited number '13.2' is a dose value (13.2 mg eflapegrastim) and should be excluded per rules; false positive, not a real problem."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG for uncited number '6' is a dose value (pegfilgrastim 6 mg) and should be excluded per rules; false positive, not a real problem."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "13.2",
+        "text": "Randomized (1:1), open-label, active-controlled, non-inferiority, multicenter tr"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "6",
+        "text": "Randomized (1:1), open-label, active-controlled, non-inferiority, multicenter tr"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "app": "NDA217188",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Primary endpoint N (5/671 vs 44/647) reflects the mITT population, not the randomized N=1038/1053 in the n field; label 'mITT' is present so consistent but potentially confusing to a reader."
+    },
+    {
+      "field": "post_marketing[6].requirement",
+      "severity": "medium",
+      "issue": "Adds 'Phase 2', study ID 'C4671034' and 'NCT05438602' not present in the citation quote, which only says 'Submit the final study report with datasets for the ongoing trial.'"
+    },
+    {
+      "field": "post_marketing[7].requirement",
+      "severity": "medium",
+      "issue": "Adds 'Phase 1', study ID 'C4671035' and 'NCT05386472' not supported by the terse citation quote."
+    },
+    {
+      "field": "post_marketing[8].requirement",
+      "severity": "medium",
+      "issue": "Adds 'Phase 1', study ID 'C4671039' and 'NCT05441215' not supported by the citation quote."
+    },
+    {
+      "field": "post_marketing[5].requirement",
+      "severity": "medium",
+      "issue": "Adds severe-renal-impairment detail, study ID 'C4671028' and 'NCT05487040' not present in the citation quote ('Submit the final report with datasets for the ongoing trial')."
+    },
+    {
+      "field": "post_marketing[10].requirement",
+      "severity": "medium",
+      "issue": "Adds 'Phase 2', repeat 5-day course detail, study ID 'C4671042' and 'NCT05567952' not supported by the citation quote."
+    },
+    {
+      "field": "_meta.accelerated_approval",
+      "severity": "low",
+      "issue": "Uncited-number flags for post_marketing entries are Phase numbers/study-ID fragments; the Phase designations are genuinely uncited additions (captured above), remaining fragments are ID/NCT digits and are effectively false positives."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "post_marketing[5]/requirement",
+        "number": "19",
+        "text": "4392-6: Submit final report with datasets for the ongoing trial of nirmatrelvir/"
+      },
+      {
+        "field": "post_marketing[6]/requirement",
+        "number": "2",
+        "text": "4392-7: Submit final study report for ongoing Phase 2 trial of nirmatrelvir/rito"
+      },
+      {
+        "field": "post_marketing[6]/requirement",
+        "number": "12",
+        "text": "4392-7: Submit final study report for ongoing Phase 2 trial of nirmatrelvir/rito"
+      },
+      {
+        "field": "post_marketing[6]/requirement",
+        "number": "19",
+        "text": "4392-7: Submit final study report for ongoing Phase 2 trial of nirmatrelvir/rito"
+      },
+      {
+        "field": "post_marketing[7]/requirement",
+        "number": "1",
+        "text": "4392-8: Submit final study report for ongoing Phase 1 PK/safety trial of nirmatr"
+      },
+      {
+        "field": "post_marketing[7]/requirement",
+        "number": "19",
+        "text": "4392-8: Submit final study report for ongoing Phase 1 PK/safety trial of nirmatr"
+      },
+      {
+        "field": "post_marketing[8]/requirement",
+        "number": "1",
+        "text": "4392-9: Submit final study report for ongoing Phase 1 PK study of nirmatrelvir/r"
+      },
+      {
+        "field": "post_marketing[10]/requirement",
+        "number": "2",
+        "text": "4392-11: Submit final study report for ongoing Phase 2 trial of a repeat 5-day c"
+      },
+      {
+        "field": "post_marketing[10]/requirement",
+        "number": "5",
+        "text": "4392-11: Submit final study report for ongoing Phase 2 trial of a repeat 5-day c"
+      },
+      {
+        "field": "post_marketing[10]/requirement",
+        "number": "12",
+        "text": "4392-11: Submit final study report for ongoing Phase 2 trial of a repeat 5-day c"
+      },
+      {
+        "field": "post_marketing[10]/requirement",
+        "number": "19",
+        "text": "4392-11: Submit final study report for ongoing Phase 2 trial of a repeat 5-day c"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

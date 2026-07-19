@@ -1,0 +1,62 @@
+{
+  "app": "NDA219070",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "low",
+      "issue": "False positive: '24' (Week 24) is supported by the design citation on line 84 ('24-week ... study'), though not in the endpoint quote itself."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False positive: '111' is supported by the design citation ('111 adults') even though the n field's own quote only shows the n=54/n=57 breakdown."
+    },
+    {
+      "field": "pivotal_trials[1].endpoint",
+      "severity": "low",
+      "issue": "False positive: '36' (Week 36) is supported by the design/n citation ('36-week treatment period')."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "False positive: '58' is supported by the population citation ('enrolled 58 participants')."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False positive: '219070' is the NDA application number (an identifier), which should be excluded."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "24",
+        "text": "Proportion of participants achieving biochemical control (IGF-1 level \u2264 1.0 \u00d7 UL"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "111",
+        "text": "111 (PALSONIFY n=54, placebo n=57)"
+      },
+      {
+        "field": "pivotal_trials[1]/endpoint",
+        "number": "36",
+        "text": "Proportion of participants with biochemical response (IGF-1 \u2264 1.0 \u00d7 ULN) at Week"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "58",
+        "text": "58 (PALSONIFY n=30, placebo n=28)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "219070",
+        "text": "NDA 219070 received September 25, 2024 and approved for use as recommended in th"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "app": "NDA215973",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 298)",
+  "_raw": "Analyzing the card for issues.\n\nKey checks:\n- **result \"At Week 52, 83.3% of Cohort 1\"** - the citation shows 30/36 (83.3%) is Cohort 1 Total. But the text says \"83.3% of Cohort 1 achieved HIV-1 RNA <50\" \u2014 that matches the Total row (30/36 = 83.3%). OK, supported.\n- **first_cycle_approval value=fals",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "27",
+        "text": "Not a first-cycle approval; Complete Response Letters were issued on February 28"
+      },
+      {
+        "field": "approval_program/fast_track/basis",
+        "number": "136260",
+        "text": "Fast Track Designation was granted on March 23, 2018 (injectable, IND 136260) an"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2018",
+        "text": "Lenacapavir (SUNLENCA), a first-in-class HIV-1 capsid inhibitor, received Fast T"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "30",
+        "text": "Lenacapavir (SUNLENCA), a first-in-class HIV-1 capsid inhibitor, received Fast T"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2019",
+        "text": "Lenacapavir (SUNLENCA), a first-in-class HIV-1 capsid inhibitor, received Fast T"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "27",
+        "text": "Lenacapavir (SUNLENCA), a first-in-class HIV-1 capsid inhibitor, received Fast T"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

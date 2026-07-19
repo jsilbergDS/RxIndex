@@ -1,0 +1,28 @@
+{
+  "app": "BLA761344",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 10 column 3 (char 344)",
+  "_raw": "{\n \"app\": \"BLA761344\",\n \"release_ready\": true,\n \"issues\": [\n  {\n   \"field\": \"approval_program/summary\",\n   \"severity\": \"low\",\n   \"issue\": \"Automated flags for numbers 20200491, 301, and 304 are false positives \u2014 they are study/trial identifiers (Study 20200491, DeLLphi-301, DeLLphi-304), which are e",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "20200491",
+        "text": "IMDELLTRA received accelerated approval based on ORR and DoR from Study 20200491"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "301",
+        "text": "IMDELLTRA received accelerated approval based on ORR and DoR from Study 20200491"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "304",
+        "text": "IMDELLTRA received accelerated approval based on ORR and DoR from Study 20200491"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

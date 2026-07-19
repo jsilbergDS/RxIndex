@@ -1,0 +1,18 @@
+{
+  "app": "NDA219301",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 336)",
+  "_raw": "Looking at the card, I'll check each area systematically.\n\n```json\n{\n  \"app\": \"NDA219301\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"key_safety\",\n      \"severity\": \"medium\",\n      \"issue\": \"The '600 mg' attribution for the 3.2% headache rate is not supported by the citation quote",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "600",
+        "text": "Adverse reactions were rare; the most common adverse reaction (incidence \u22652%) wa"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

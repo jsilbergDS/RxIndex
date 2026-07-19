@@ -1,0 +1,63 @@
+{
+  "app": "BLA761161",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 10 column 5 (char 387)",
+  "_raw": "Analyzing the card for QA issues.\n\n```json\n{\n  \"app\": \"BLA761161\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].phase\",\n      \"severity\": \"medium\",\n      \"issue\": \"Design/phase citation says infusions were given every 2 weeks for 12 weeks, but the label citation (l",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "6",
+        "text": "Reduction from baseline in renal Gb3 inclusions in kidney peritubular capillarie"
+      },
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "3",
+        "text": "Phase 3 randomized, double-blind, active-controlled trial (used as confirmatory "
+      },
+      {
+        "field": "crl_history/basis",
+        "number": "704",
+        "text": "CMC/manufacturing site major deficiencies (unsatisfactory 704(a)(4) records revi"
+      },
+      {
+        "field": "crl_history/basis",
+        "number": "4",
+        "text": "CMC/manufacturing site major deficiencies (unsatisfactory 704(a)(4) records revi"
+      },
+      {
+        "field": "approval_program/priority_review/basis",
+        "number": "2",
+        "text": "The resubmission review priority was Standard (Class 2 Resubmission, 6 months)"
+      },
+      {
+        "field": "approval_program/priority_review/basis",
+        "number": "6",
+        "text": "The resubmission review priority was Standard (Class 2 Resubmission, 6 months)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "9",
+        "text": "The original BLA was submitted May 27, 2020 seeking accelerated approval based o"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2022",
+        "text": "The original BLA was submitted May 27, 2020 seeking accelerated approval based o"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "9",
+        "text": "The original BLA was submitted May 27, 2020 seeking accelerated approval based o"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2023",
+        "text": "The original BLA was submitted May 27, 2020 seeking accelerated approval based o"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

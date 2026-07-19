@@ -1,0 +1,72 @@
+{
+  "app": "NDA213026",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "advisory_committee.vote",
+      "severity": "low",
+      "issue": "Text claims committee was 'planned or convened' but the quote only supports 'No Advisory Committee is planned', slightly overstating the citation."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "Automated flag on '30' is a false positive: 30 mg/kg is a dose (excluded category) and is supported by the n-field citation 'AMONDYS 45 30 mg/kg Once Weekly'."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Automated flag on '45' is a false positive: it refers to 'exon 45 skipping', which appears in the result citation, not an uncited efficacy figure."
+    },
+    {
+      "field": "receipt_date",
+      "severity": "low",
+      "issue": "Automated flags on '2020' and '2' are false positives: they are date components and a submission ordinal, both non-efficacy/safety and supported by the '1/10/20; 6/25/20' citation."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flags on '4045' and '301' are false positives: they are the study identifier (Study 4045-301), an excluded category."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "30",
+        "text": "Double-blind, placebo-controlled, multicenter trial with a 96-week randomized do"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "45",
+        "text": "Truncated dystrophin by western blot increased from 0.9% of normal at Baseline t"
+      },
+      {
+        "field": "receipt_date",
+        "number": "2020",
+        "text": "1/10/2020 (submission 1) and 6/25/2020 (submission 2, complete NDA)"
+      },
+      {
+        "field": "receipt_date",
+        "number": "2020",
+        "text": "1/10/2020 (submission 1) and 6/25/2020 (submission 2, complete NDA)"
+      },
+      {
+        "field": "receipt_date",
+        "number": "2",
+        "text": "1/10/2020 (submission 1) and 6/25/2020 (submission 2, complete NDA)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "4045",
+        "text": "Casimersen received accelerated approval based on a dystrophin biomarker surroga"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "301",
+        "text": "Casimersen received accelerated approval based on a dystrophin biomarker surroga"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

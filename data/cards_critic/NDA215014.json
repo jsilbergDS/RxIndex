@@ -1,0 +1,47 @@
+{
+  "app": "NDA215014",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Automated flag for number '302' is a false positive: it is the study identifier APL2-302, not an efficacy/safety statistic."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "Automated flags for '8', '2019', '3', '302' are false positives: they are dates (February 8, 2019) and study identifiers (APL2-302, APL2-303), not uncited efficacy/safety data."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "302",
+        "text": "Most common adverse reactions (incidence \u226510%): injection-site reactions, infect"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "8",
+        "text": "Empaveli (pegcetacoplan) was submitted as an original NDA received 9/14/2020 and"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2019",
+        "text": "Empaveli (pegcetacoplan) was submitted as an original NDA received 9/14/2020 and"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Empaveli (pegcetacoplan) was submitted as an original NDA received 9/14/2020 and"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "302",
+        "text": "Empaveli (pegcetacoplan) was submitted as an original NDA received 9/14/2020 and"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

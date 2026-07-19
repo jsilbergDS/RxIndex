@@ -1,0 +1,38 @@
+{
+  "app": "NDA215559",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 10 column 5 (char 417)",
+  "_raw": "Analyzing the card for quality issues.\n\n**Automated flags review:**\n- `n` \"301\" - part of \"Study 301\" study identifier, false positive.\n- `first_cycle_approval` \"16\"/\"2023\" - the resubmission date Feb 16, 2023 is a date; the uncited number is from \"received February 16, 2023\" text not in the citatio",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "301",
+        "text": "107 subjects treated with palovarotene (Study 301); primary analysis compared 97"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "16",
+        "text": "This NDA received a Complete Response action letter on December 23, 2022; approv"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2023",
+        "text": "This NDA received a Complete Response action letter on December 23, 2022; approv"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "28",
+        "text": "Palovarotene received orphan drug designation for FOP (July 21, 2014) and Fast T"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2023",
+        "text": "Palovarotene received orphan drug designation for FOP (July 21, 2014) and Fast T"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

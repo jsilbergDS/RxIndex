@@ -1,0 +1,53 @@
+{
+  "app": "NDA216951",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 10 column 5 (char 342)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"NDA216951\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"boxed_warning.detail.text\",\n      \"severity\": \"medium\",\n      \"issue\": \"The claim 'targeting a hemoglobin greater than 11 g/dL is expected to further increase risk' i",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "boxed_warning/detail",
+        "number": "11",
+        "text": "Increased risk of death, myocardial infarction, stroke, venous thromboembolism, "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "31",
+        "text": "Standard review NDA received 2/1/2022 with PDUFA goal date 2/1/2023 and review c"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "02",
+        "text": "4400-1: Deferred pediatric study under PREA - conduct a trial to evaluate the ph"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "2030",
+        "text": "4400-1: Deferred pediatric study under PREA - conduct a trial to evaluate the ph"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "216951",
+        "text": "Daprodustat was submitted by GlaxoSmithKline under the 505(b)(1) pathway as a ne"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "Daprodustat was submitted by GlaxoSmithKline under the 505(b)(1) pathway as a ne"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "Daprodustat was submitted by GlaxoSmithKline under the 505(b)(1) pathway as a ne"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2023",
+        "text": "Daprodustat was submitted by GlaxoSmithKline under the 505(b)(1) pathway as a ne"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

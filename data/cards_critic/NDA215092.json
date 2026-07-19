@@ -1,0 +1,43 @@
+{
+  "app": "NDA215092",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 10 column 5 (char 305)",
+  "_raw": "Analyzing the card for QA issues.\n\nLet me check each area systematically.\n\n**Automated flags review:**\n- `pivotal_trials[0]/result` \"9\" \u2014 the \"9 timepoints\" appears in the endpoint citation but the result citation says \"majority of the nine post-baseline time points\" which does cover \"9\". False posi",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "9",
+        "text": "Met non-inferiority: upper limits of the 95% CIs for the mean IOP difference wer"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "01171505",
+        "text": "Study 01171505 (Asia, latanoprost-controlled)"
+      },
+      {
+        "field": "pivotal_trials[2]/design",
+        "number": "0.002",
+        "text": "Randomized, double-masked, active-controlled, parallel-group, multicenter non-in"
+      },
+      {
+        "field": "pivotal_trials[2]/design",
+        "number": "0.5",
+        "text": "Randomized, double-masked, active-controlled, parallel-group, multicenter non-in"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "Standard 505(b) NDA supported by three Phase 3 active-controlled non-inferiority"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Standard 505(b) NDA supported by three Phase 3 active-controlled non-inferiority"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

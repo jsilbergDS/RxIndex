@@ -1,0 +1,32 @@
+{
+  "app": "NDA214938",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive flag: '52' refers to 'Week 52' timepoint, which appears in the design and endpoint citations; not an uncited efficacy number."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive flag: '8' is supported by the citation, which spells it as 'Eight (13%) of 60 subjects'; only differs because the quote uses the word rather than the digit."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "52",
+        "text": "Vosoritide was superior to placebo for change in AGV at Week 52: LS mean differe"
+      },
+      {
+        "field": "key_safety",
+        "number": "8",
+        "text": "Most common adverse reactions (>10%) are injection site erythema, injection site"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

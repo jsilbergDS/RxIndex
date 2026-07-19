@@ -1,0 +1,32 @@
+{
+  "app": "NDA212994",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "high",
+      "issue": "The claim 'long-term suppression of growth' is not supported by any provided citation quote (quotes cover common AEs and cardiovascular sudden death only)."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flags: '505' and '2' are components of the 505(b)(2) program identifier (cited in approval_program.summary), not uncited efficacy/safety numbers."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "505",
+        "text": "Standard review recommending approval; no prior CRL indicated. Reviewed as an NM"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2",
+        "text": "Standard review recommending approval; no prior CRL indicated. Reviewed as an NM"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

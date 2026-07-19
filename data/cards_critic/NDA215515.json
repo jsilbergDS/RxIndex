@@ -1,0 +1,47 @@
+{
+  "app": "NDA215515",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "Text characterizes patisiran as an 'active control' but the citations describe the study as externally-controlled using the APOLLO placebo arm; patisiran is only cited as the 3:1 comparator arm, so 'active control' is a mild unsupported characterization."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "Automated flag on number '215515' is a false positive: it is the NDA identifier, not an efficacy/safety figure."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "Automated flag on number '5' is a false positive: it is a spurious parse (from 'well-controlled'/date context), not an efficacy/safety figure."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "Automated flag on number '4' is a false positive: it is a spurious parse, not an efficacy/safety figure."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "215515",
+        "text": "NDA 215515 for vutrisiran was submitted by Alnylam and received April 14, 2021 w"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "5",
+        "text": "NDA 215515 for vutrisiran was submitted by Alnylam and received April 14, 2021 w"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "4",
+        "text": "NDA 215515 for vutrisiran was submitted by Alnylam and received April 14, 2021 w"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "app": "NDA214511",
+  "drug": "LUMISIGHT",
+  "docs_read": [
+    {
+      "doc_type": "MultiR",
+      "doc_id": "fda_76ef4e92-a5e4-5acb-b1ba-92660c96cd6b"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_ee903dd8-510e-52af-8572-538c6880eded"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Medical Imaging Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "MultiR",
+      "doc_id": "fda_76ef4e92-a5e4-5acb-b1ba-92660c96cd6b",
+      "line": 992,
+      "quote": "A meeting of the Medical Imaging Drugs Advisory Committee was held on March 5, 2024, to discuss the persuasiveness of the evidence of performance of LUMISIGHT and to obtain advice on risk mitigation for hypersensitivity reactions, including anaphylaxis, to inform the benefit-risk assessment for LUMISIGHT."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_76ef4e92a5e4",
+      "found_lines": [
+        992
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "March 5, 2024",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "fda_ee903dd8-510e-52af-8572-538c6880eded",
+      "line": 21,
+      "quote": "**03/05/2024:** A Medical Imaging Drugs Advisory Committee Meeting was convened to discuss efficacy and safety data submitted in support of NDA 214511 for Lumisight. The AC voted 16 yes, 2 no, and 1 abstain that the benefits of Lumisight outweigh its risks."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_ee903dd8510e",
+      "found_lines": [
+        21
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 16 Yes, 2 No, 1 Abstain that the benefits of pegulicianine (LUMISIGHT) outweigh its risks.",
+    "quote": {
+      "doc_type": "MultiR",
+      "doc_id": "fda_76ef4e92-a5e4-5acb-b1ba-92660c96cd6b",
+      "line": 1000,
+      "quote": "**Vote Result:** Yes: 16 No: 2 Abstain: 1"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_76ef4e92a5e4",
+      "found_lines": [
+        1000
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee discussed risk mitigation for the serious hypersensitivity reactions/anaphylaxis associated with pegulicianine, and most members stated that a REMS was not needed given the pre-surgical hospital/surgical-center setting.",
+      "change": "FDA determined that a Risk Evaluation and Mitigation Strategy (REMS) is not needed for LUMISIGHT.",
+      "category": "Risk management / REMS not required",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "fda_ee903dd8-510e-52af-8572-538c6880eded",
+        "line": 64,
+        "quote": "A discussion on risk mitigation strategies under consideration was also held, and most members stated that a REMS was not needed to mitigate the risk of anaphylaxis associated with Lumisight.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_ee903dd8510e",
+          "found_lines": [
+            64
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MultiR",
+        "doc_id": "fda_76ef4e92-a5e4-5acb-b1ba-92660c96cd6b",
+        "line": 1028,
+        "quote": "A risk evaluation and mitigation strategy is not needed for LUMISIGHT.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_76ef4e92a5e4",
+          "found_lines": [
+            1028
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members raised anaphylaxis/serious hypersensitivity reactions as a concern and reached general agreement that additional safety data collection through a post-marketing study would be valuable to better understand the incidence of these adverse reactions.",
+      "change": "FDA imposed a required postmarketing study (PMR): a prospective observational study to evaluate the incidence of, and characterize, anaphylactic and other serious hypersensitivity reactions to LUMISIGHT.",
+      "category": "Safety / Postmarketing requirement (PMR)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MultiR",
+        "doc_id": "fda_76ef4e92-a5e4-5acb-b1ba-92660c96cd6b",
+        "line": 997,
+        "quote": "there was general agreement that additional safety data collection through a post-marketing study would be valuable to better understand the incidence of adverse reactions.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_76ef4e92a5e4",
+          "found_lines": [
+            997
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MultiR",
+        "doc_id": "fda_76ef4e92-a5e4-5acb-b1ba-92660c96cd6b",
+        "line": 1030,
+        "quote": "the Applicant will conduct a required postmarketing study",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_76ef4e92a5e4",
+          "found_lines": [
+            1030
+          ]
+        }
+      }
+    },
+    {
+      "concern": "In discussing risk mitigation for hypersensitivity reactions, committee members suggested labeling recommendations for monitoring of patients during infusion and immediate access to medical care in case of adverse reactions.",
+      "change": "LUMISIGHT labeling communicates the risk of anaphylaxis and other serious hypersensitivity reactions in a boxed warning, with Warnings and Precautions recommendations for patient monitoring and availability of emergency resuscitation drugs, equipment, and trained personnel.",
+      "category": "Safety / Boxed warning + labeling",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MultiR",
+        "doc_id": "fda_76ef4e92-a5e4-5acb-b1ba-92660c96cd6b",
+        "line": 997,
+        "quote": "Suggestions for risk mitigation included labeling recommendations for monitoring of patients during infusion and immediate access to medical care in case of adverse reactions.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_76ef4e92a5e4",
+          "found_lines": [
+            997
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "fda_ee903dd8-510e-52af-8572-538c6880eded",
+        "line": 64,
+        "quote": "Additionally, Lumisight's labeling will communicate the risk of anaphylaxis and other serious hypersensitivity reaction in a boxed warning.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_ee903dd8510e",
+          "found_lines": [
+            64
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "A Medical Imaging Drugs Advisory Committee meeting was held on March 5, 2024 to weigh the modest, incremental efficacy of LUMISIGHT (pegulicianine) against its risk of serious hypersensitivity reactions/anaphylaxis; the committee voted 16 Yes, 2 No, 1 Abstain that the benefits outweigh the risks. Most members agreed a REMS was unnecessary given the pre-surgical hospital setting, and FDA accordingly did not require a REMS, while the committee's endorsement of post-marketing safety evaluation and labeling-based risk mitigation aligns with FDA's required postmarketing study (PMR) and boxed warning for anaphylaxis. The verbatim AdCom transcript is not in paperclip; these linkages are drawn from the FDA review documents' account of the meeting."
+}

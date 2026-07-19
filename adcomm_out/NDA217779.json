@@ -1,0 +1,103 @@
+{
+  "app": "NDA217779",
+  "drug": "RYTELO",
+  "docs_read": [
+    {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "fda_31dd61f9-d14b-5459-a25b-a285c5bdfcb4"
+    },
+    {
+      "doc_type": "Approv",
+      "doc_id": "fda_011ce051-8cd6-5219-a372-4049d9e76bf5"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_6197fd63-7ba5-54ca-b1dc-f2af7ef3663c"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Oncologic Drugs Advisory Committee (ODAC)",
+    "quote": {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "fda_31dd61f9-d14b-5459-a25b-a285c5bdfcb4",
+      "line": 2645,
+      "quote": "NDA 217779 was discussed by the Oncologic Drugs Advisory Committee (ODAC) on 3/14/2024."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_31dd61f9d14b",
+      "found_lines": [
+        2645
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "March 14, 2024",
+    "quote": {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "fda_31dd61f9-d14b-5459-a25b-a285c5bdfcb4",
+      "line": 2645,
+      "quote": "NDA 217779 was discussed by the Oncologic Drugs Advisory Committee (ODAC) on 3/14/2024."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_31dd61f9d14b",
+      "found_lines": [
+        2645
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The ODAC voted 12 Yes, 2 No, 0 Abstain in favor that imetelstat's benefits outweigh its risks for the proposed indication.",
+    "quote": {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "fda_31dd61f9-d14b-5459-a25b-a285c5bdfcb4",
+      "line": 2650,
+      "quote": "Vote Result: Yes: 12 No: 2 Abstain: 0"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_31dd61f9d14b",
+      "found_lines": [
+        2650
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee acknowledged the high rate of cytopenias (neutropenia and thrombocytopenia) seen in the trial, while expressing that these toxicities can be controlled in a closely-monitored real-world setting.",
+      "change": "Labeling requires a patient Medication Guide about the risks of thrombocytopenia and neutropenia, and includes Warnings and Precautions for these serious risks with monitoring/dose-modification instructions.",
+      "category": "Safety / Labeling (Warnings & Precautions + Medication Guide)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "fda_31dd61f9-d14b-5459-a25b-a285c5bdfcb4",
+        "line": 2646,
+        "quote": "When it comes to overall safety, the Committee acknowledged the occurrences of cytopenia shown in the data but expressed that these toxicities are not foreign in the population studied and can be well controlled in a real-world setting.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_31dd61f9d14b",
+          "found_lines": [
+            2646
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "fda_31dd61f9-d14b-5459-a25b-a285c5bdfcb4",
+        "line": 77,
+        "quote": "A patient medication guide is required to inform and educate patients of the risks of thrombocytopenia and neutropenia and when to seek immediate medical attention.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_31dd61f9d14b",
+          "found_lines": [
+            77
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "Because of residual uncertainty about imetelstat's benefit-risk profile (driven largely by cytopenias), FDA convened the Oncologic Drugs Advisory Committee (ODAC) on March 14, 2024, which voted 12-2 that the benefits outweigh the risks. That endorsement, combined with high unmet need, supported FDA's decision to grant regular approval for the transfusion-dependent LR-MDS indication. The review documents describe the ODAC as endorsing approval rather than driving specific label restrictions; risk mitigation was handled through Warnings and Precautions and a Medication Guide, which the documents discuss alongside the ODAC concern but do not explicitly attribute to it (hence the single linkage is marked inferred)."
+}

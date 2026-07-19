@@ -1,0 +1,37 @@
+{
+  "app": "NDA217159",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Automated flag '20' (>20% incidence threshold) is descriptive label phrasing not present verbatim in a citation, but individual AE rates are all cited; effectively a false positive."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Automated flags '9' and '2022' are components of the date September 9, 2022 and should be excluded as dates; false positives."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "20",
+        "text": "Most common adverse reactions (incidence >20%): injection site reactions (73%), "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "9",
+        "text": "Application dated and received September 9, 2022; approved effective on the date"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2022",
+        "text": "Application dated and received September 9, 2022; approved effective on the date"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

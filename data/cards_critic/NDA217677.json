@@ -1,0 +1,23 @@
+{
+  "app": "NDA217677",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Extra data: line 37 column 1 (char 1839)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n \"app\": \"NDA217677\",\n \"release_ready\": false,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[0].n\",\n   \"severity\": \"high\",\n   \"issue\": \"Text says '70 nirogacestat, 72 placebo' but the citation shows N=70 for OGSIVEO and N=72 for placebo \u2014 total 142 che",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "3",
+        "text": "Most common (\u226515%) adverse reactions: diarrhea (84% vs 35%), nausea (54%), ovari"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "301",
+        "text": "Nirogacestat received Orphan Drug (2018), Fast Track (2018), and Breakthrough Th"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

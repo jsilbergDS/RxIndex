@@ -1,0 +1,62 @@
+{
+  "app": "NDA216203",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "indication",
+      "severity": "low",
+      "issue": "Automated flag on number '2' is a false positive; it is part of 'type 2 diabetes mellitus,' not an uncited efficacy/safety statistic."
+    },
+    {
+      "field": "crl_history/date",
+      "severity": "low",
+      "issue": "Automated flag on '216203' is a false positive; it is an application identifier, not an uncited efficacy/safety number."
+    },
+    {
+      "field": "crl_history/basis",
+      "severity": "low",
+      "issue": "Automated flag on '1' is a false positive; it derives from 'type 1 diabetes'/NDA 210934 text, not an uncited statistic (the 'eight-fold' figure is present in the citation)."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "Automated flags on '5', '3', and '2019' are false positives; '5'/'3' come from '505(b)'/'phase 3' and '2019' (the prior CRL date) is a date supported by other citations."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "indication",
+        "number": "2",
+        "text": "To reduce the risk of cardiovascular death, hospitalization for heart failure, a"
+      },
+      {
+        "field": "crl_history/date",
+        "number": "216203",
+        "text": "The prior Complete Response letter dated 22 March 2019 was issued under a differ"
+      },
+      {
+        "field": "crl_history/basis",
+        "number": "1",
+        "text": "The prior CRL (NDA 210934) was due to an eight-fold increased risk of diabetic k"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "5",
+        "text": "NDA 216203 was submitted 5/27/2022 as a standard-review NDA under section 505(b)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "NDA 216203 was submitted 5/27/2022 as a standard-review NDA under section 505(b)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2019",
+        "text": "NDA 216203 was submitted 5/27/2022 as a standard-review NDA under section 505(b)"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

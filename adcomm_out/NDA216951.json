@@ -1,0 +1,103 @@
+{
+  "app": "NDA216951",
+  "drug": "JESDUVROQ",
+  "docs_read": [
+    {
+      "doc_type": "IntegratedR",
+      "doc_id": "dfb9966f-846c-5231-a437-4da7dd501e15"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "a6c123e3-8140-5790-8759-04835d270c56"
+    },
+    {
+      "doc_type": "Label",
+      "doc_id": "41cc9781-d97a-5234-a3c2-a082c23f36f7"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Cardiovascular and Renal Drugs Advisory Committee (CRDAC)",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "a6c123e3-8140-5790-8759-04835d270c56",
+      "line": 90,
+      "quote": "A Cardiovascular and Renal Drugs Advisory Committee (CRDAC) meeting was held on October 26, 2022 to discuss whether the benefits of daprodustat outweigh its risks for the treatment of anemia due to CKD in adults who are NDD and those who are DD."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "a6c123e3-8140-5790-8759-04835d270c56",
+      "found_lines": [
+        90
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "October 26, 2022",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "a6c123e3-8140-5790-8759-04835d270c56",
+      "line": 90,
+      "quote": "A Cardiovascular and Renal Drugs Advisory Committee (CRDAC) meeting was held on October 26, 2022 to discuss whether the benefits of daprodustat outweigh its risks for the treatment of anemia due to CKD in adults who are NDD and those who are DD."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "a6c123e3-8140-5790-8759-04835d270c56",
+      "found_lines": [
+        90
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 5 yes vs. 11 no that the benefits outweigh the risks in the non-dialysis (NDD) population, and 13 yes vs. 3 no in favor for the dialysis-dependent (DD) population.",
+    "quote": {
+      "doc_type": "IntegratedR",
+      "doc_id": "dfb9966f-846c-5231-a437-4da7dd501e15",
+      "line": 1696,
+      "quote": "The advisory committee members voted 5 yes vs. 11 no on the question of whether the benefits outweigh the risks for anemia of chronic kidney disease in patients not on dialysis. For the dialysis population, the vote was 13 yes vs. 3 no."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "dfb9966f-846c-5231-a437-4da7dd501e15",
+      "found_lines": [
+        1696
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee was concerned about the potential further increase in some cardiovascular risks seen only in the non-dialysis (NDD) population versus the ESA control, and a majority (11 of 16) voted that benefits did not outweigh risks in NDD patients.",
+      "change": "FDA did not approve daprodustat for the NDD population; the indication was limited to dialysis-dependent (DD) patients, with an explicit Limitation of Use that the drug is not indicated for CKD anemia in patients not on dialysis.",
+      "category": "Population / indication narrowing",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "dfb9966f-846c-5231-a437-4da7dd501e15",
+        "line": 1696,
+        "quote": "However, the committee was concerned about the potential further increase in some cardiovascular risks seen only in the non-dialysis population when compared to the erythropoietin stimulating agent control, which itself carries these risks.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "dfb9966f-846c-5231-a437-4da7dd501e15",
+          "found_lines": [
+            1696
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "a6c123e3-8140-5790-8759-04835d270c56",
+        "line": 58,
+        "quote": "Due to these concerns along with the results and recommendations from the Cardiovascular and Renal Drugs Advisory Committee (CRDAC) meeting, DNH has decided not to approve daprodustat for use in the NDD population.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "a6c123e3-8140-5790-8759-04835d270c56",
+          "found_lines": [
+            58
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "FDA convened the Cardiovascular and Renal Drugs Advisory Committee on October 26, 2022 to weigh daprodustat's benefit-risk in the non-dialysis (NDD) and dialysis-dependent (DD) CKD-anemia populations. The committee voted 5-11 against a favorable benefit-risk in NDD patients (citing a further increase in cardiovascular risk beyond the ESA control) but 13-3 in favor for DD patients. Consistent with the committee's recommendations, FDA approved JESDUVROQ only for dialysis-dependent patients and added a Limitation of Use stating it is not indicated for CKD anemia in patients not on dialysis."
+}

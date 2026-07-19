@@ -1,0 +1,58 @@
+{
+  "app": "BLA761427",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 269)",
+  "_raw": "Let me analyze the card carefully.\n\nLet me check the automated flags and search for other issues.\n\n**Uncited numbers:**\n- `pivotal_trials[1]/n`: \"922\" \u2014 citation quote contains \"~900; 922...\" so 922 IS in the quote. False positive.\n- `pivotal_trials[2]/n`: \"922\" \u2014 same, quote \"~900; 92265 sites\" con",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "922",
+        "text": "922 randomized (614 LIB003, 308 placebo)"
+      },
+      {
+        "field": "pivotal_trials[2]/n",
+        "number": "922",
+        "text": "922 randomized (615 LIB003, 307 placebo)"
+      },
+      {
+        "field": "key_safety",
+        "number": "12",
+        "text": "Common adverse reactions (\u22651%) were injection site reactions, nasopharyngitis, d"
+      },
+      {
+        "field": "key_safety",
+        "number": "5",
+        "text": "Common adverse reactions (\u22651%) were injection site reactions, nasopharyngitis, d"
+      },
+      {
+        "field": "key_safety",
+        "number": "15",
+        "text": "Common adverse reactions (\u22651%) were injection site reactions, nasopharyngitis, d"
+      },
+      {
+        "field": "key_safety",
+        "number": "14",
+        "text": "Common adverse reactions (\u22651%) were injection site reactions, nasopharyngitis, d"
+      },
+      {
+        "field": "key_safety",
+        "number": "18",
+        "text": "Common adverse reactions (\u22651%) were injection site reactions, nasopharyngitis, d"
+      },
+      {
+        "field": "key_safety",
+        "number": "3",
+        "text": "Common adverse reactions (\u22651%) were injection site reactions, nasopharyngitis, d"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Standard-review BLA approved on the basis of substantial evidence from three dou"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

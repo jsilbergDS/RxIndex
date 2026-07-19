@@ -1,0 +1,43 @@
+{
+  "app": "NDA217603",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Extra data: line 43 column 1 (char 1471)",
+  "_raw": "Analyzing the card systematically.\n\n{\n \"app\": \"NDA217603\",\n \"release_ready\": false,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[0].n\",\n   \"severity\": \"low\",\n   \"issue\": \"Uncited number '421' is the sum of cited N=212 and N=209; false positive, arithmetic total is supported by the citation.\"\n  },\n  ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "421",
+        "text": "N=421 (Lotilaner N=212, Vehicle N=209)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "43",
+        "text": "Collarette cure at Day 43: 44% lotilaner vs 7% vehicle; difference 0.3669; p < 0"
+      },
+      {
+        "field": "pivotal_trials[1]/population",
+        "number": "1",
+        "text": "Adults with Demodex blepharitis; identical inclusion/exclusion criteria as Satur"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "412",
+        "text": "N=412 (Lotilaner/TP-03 N=203, Vehicle N=209)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "43",
+        "text": "Collarette cure at Day 43: 55% lotilaner vs 12% vehicle; difference 0.4250; p < "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "1",
+        "text": "NDA submitted through the 505(b)(1) pathway, received August 25, 2022, and appro"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "app": "NDA217388",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive automated flag: the uncited number '1' is the study label 'Study 1', not an efficacy/safety datum, and is supported by the design/endpoint citations referring to 'Study 1'."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study ION-682884-CS3 (NEURO-TTRansform; Study 1)"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

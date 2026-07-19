@@ -1,0 +1,205 @@
+{
+  "app": "NDA215596",
+  "drug": "LIVTENCITY",
+  "docs_read": [
+    {
+      "doc_type": "IntegratedR",
+      "doc_id": "3cc92144-3afd-5da1-91e4-8be77fed3ea8"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "f637b8c0-e050-52fa-a7c4-b0ca361304cf"
+    },
+    {
+      "doc_type": "AppLetter",
+      "doc_id": "e77e7d74-d38d-58e2-8814-8524b43f0692"
+    },
+    {
+      "doc_type": "lbl",
+      "doc_id": "338fc153-0ad4-5760-85da-0f99cf20b1de"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Antimicrobial Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "IntegratedR",
+      "doc_id": "3cc92144-3afd-5da1-91e4-8be77fed3ea8",
+      "line": 870,
+      "quote": "A meeting of the Antimicrobial Drug Advisory Committee of the Center for Drug Evaluation and Research of FDA was held via an online teleconference on October 7, 2021"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "3cc92144-3afd-5da1-91e4-8be77fed3ea8",
+      "found_lines": [
+        870
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "October 7, 2021",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "f637b8c0-e050-52fa-a7c4-b0ca361304cf",
+      "line": 22,
+      "quote": "10/7/2021: Antimicrobial Drugs Advisory Committee Meeting held."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "f637b8c0-e050-52fa-a7c4-b0ca361304cf",
+      "found_lines": [
+        22
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted unanimously to recommend approval of maribavir for treatment of refractory CMV infection/disease (with or without genotypic resistance). The IntegratedR records Yes:17 No:0 Abstain:0 on each of two voting questions (L875, L880); the RiskR summarizes the vote as unanimous 13-0 (L22).",
+    "quote": {
+      "doc_type": "IntegratedR",
+      "doc_id": "3cc92144-3afd-5da1-91e4-8be77fed3ea8",
+      "line": 37,
+      "quote": "An Advisory Committee panel, convened on October 7, 2021, agreed unanimously with approval of maribavir for treatment of resistant or refractory CMV infection/disease."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "3cc92144-3afd-5da1-91e4-8be77fed3ea8",
+      "found_lines": [
+        37
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "During the AC meeting, several committee members expressed the urgent need for maribavir in adolescent transplant patients, who were not directly studied in the pivotal trial.",
+      "change": "The multidisciplinary review team extended the approved indication to include adolescents 12 years of age and older weighing at least 35 kg (based on exposure-matching analyses requested after the AC discussion).",
+      "category": "Population / indication expansion",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "3cc92144-3afd-5da1-91e4-8be77fed3ea8",
+        "line": 846,
+        "quote": "During the Advisory Committee meeting, several members of the Committee expressed the urgent need for the use of maribavir in adolescent transplant patients.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "3cc92144-3afd-5da1-91e4-8be77fed3ea8",
+          "found_lines": [
+            846
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "3cc92144-3afd-5da1-91e4-8be77fed3ea8",
+        "line": 846,
+        "quote": "the multidisciplinary review team decided to extend the indication of maribavir to include adolescents (12 to 18 years of age and weighing at least 35 kg)",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "3cc92144-3afd-5da1-91e4-8be77fed3ea8",
+          "found_lines": [
+            846
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee considered refractory CMV with vs. without genotypic resistance to be a continuum rather than distinct populations, and recommended removal of the clinical distinction as it might be harmful to patients.",
+      "change": "The review team agreed the distinction is not clinically meaningful and approved maribavir in both subpopulations (indication phrased as refractory 'with or without genotypic resistance').",
+      "category": "Indication / population scope",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "3cc92144-3afd-5da1-91e4-8be77fed3ea8",
+        "line": 884,
+        "quote": "The Committee members recommended post-market surveillance, therapeutic drug-monitoring, and removal of the clinical distinction between refractory disease with or without genetic resistance as it might be harmful to patients.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "3cc92144-3afd-5da1-91e4-8be77fed3ea8",
+          "found_lines": [
+            884
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "3cc92144-3afd-5da1-91e4-8be77fed3ea8",
+        "line": 400,
+        "quote": "Generally, the review team agrees with the Advisory Committee that the distinction between resistant and refractory CMV is not clinically meaningful, as the virus is phenotypically resistant in both of these groups. As maribavir may provide clinical benefit in patients with either resistant or refractory CMV, approval in both subpopulations is indicated.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "3cc92144-3afd-5da1-91e4-8be77fed3ea8",
+          "found_lines": [
+            400
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members recommended additional labeling language indicating the antagonism between maribavir and ganciclovir.",
+      "change": "The approved label warns that LIVTENCITY may antagonize the antiviral activity of ganciclovir and valganciclovir and states coadministration is not recommended.",
+      "category": "Safety / labeling (drug interaction)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "3cc92144-3afd-5da1-91e4-8be77fed3ea8",
+        "line": 876,
+        "quote": "additional language in labelling for hematologic and renal laboratory monitoring at baseline as well as language indicating the antagonism between maribavir and ganciclovir",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "3cc92144-3afd-5da1-91e4-8be77fed3ea8",
+          "found_lines": [
+            876
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "lbl",
+        "doc_id": "338fc153-0ad4-5760-85da-0f99cf20b1de",
+        "line": 44,
+        "quote": "LIVTENCITY may antagonize the antiviral activity of ganciclovir and valganciclovir by inhibiting human CMV pUL97 kinase, which is required for activation/phosphorylation of ganciclovir and valganciclovir. Coadministration of LIVTENCITY with ganciclovir or valganciclovir is not recommended",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "338fc153-0ad4-5760-85da-0f99cf20b1de",
+          "found_lines": [
+            23,
+            44,
+            72
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members recommended post-licensing studies of resistance patterns to further characterize the risk of virologic failure due to maribavir resistance.",
+      "change": "FDA issued a postmarketing requirement to assess the serious risk of virologic failure due to resistance to maribavir.",
+      "category": "Safety / postmarketing requirement (PMR)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "IntegratedR",
+        "doc_id": "3cc92144-3afd-5da1-91e4-8be77fed3ea8",
+        "line": 876,
+        "quote": "studies of resistance patterns, pharmacokinetics and other potential drug-drug interactions post-licensing",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "3cc92144-3afd-5da1-91e4-8be77fed3ea8",
+          "found_lines": [
+            876
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "AppLetter",
+        "doc_id": "e77e7d74-d38d-58e2-8814-8524b43f0692",
+        "line": 23,
+        "quote": "We have determined that an analysis of spontaneous postmarketing adverse events reported under subsection 505(k)(1) of the FDCA will not be sufficient to assess a signal of serious risk of virologic failure due to resistance to maribavir.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "e77e7d74-d38d-58e2-8814-8524b43f0692",
+          "found_lines": [
+            23
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Antimicrobial Drugs Advisory Committee meeting was convened on October 7, 2021, and voted unanimously that maribavir's benefit-risk was favorable for treating refractory post-transplant CMV, both with and without genotypic resistance (IntegratedR records 17-0 on each of two questions; RiskR summarizes as 13-0). The committee acknowledged the open-label trial's limitations but endorsed approval, and its discussion directly influenced the approval: expressed urgency drove extension of the indication to adolescents (>=12 years, >=35 kg), and its view that resistant vs. refractory CMV is a single continuum supported approval across both subpopulations. Committee recommendations on labeling (ganciclovir antagonism) and post-licensing resistance study are reflected (inferred) in the approved label language and a resistance-focused postmarketing requirement."
+}

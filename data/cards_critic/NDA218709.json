@@ -1,0 +1,52 @@
+{
+  "app": "NDA218709",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "low",
+      "issue": "Automated flag on '12' is a false positive: the '\u226512 years of age' value is supported by the trial_name/phase citation quote, though not by the population field's own quote."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Automated flag on '31' is a false positive: the citation states 'Thirty-one patients' (spelled out), which supports N=31."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Automated flag on '1' is a false positive: it is the study identifier '(Study 1)', not an efficacy/safety number."
+    },
+    {
+      "field": "key_safety",
+      "severity": "medium",
+      "issue": "The '14%' rate is attributed to epistaxis, vomiting, and dizziness, but no citation quote provides percentages for those three reactions (the table quote only covers thrombocytopenia, pityriasis, rash, and rhinitis)."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Text states common adverse reactions threshold as '(\u226510%)' but the supporting quote says '(>10%)'."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study X4P-001-103 (Study 1)"
+      },
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "12",
+        "text": "Adults and adolescents \u226512 years of age with WHIM syndrome, with a genotype-conf"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "31",
+        "text": "N=31 randomized 1:1 (XOLREMDI N=14, placebo N=17)"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

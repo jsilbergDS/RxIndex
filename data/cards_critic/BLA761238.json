@@ -1,0 +1,26 @@
+{
+  "app": "BLA761238",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "target_moa.text",
+      "severity": "low",
+      "issue": "The descriptors 'glycoengineered chimeric' appear in the MOA text but are not present in the two MOA citations (which support CD20 binding on pre-B/mature B lymphocytes and ADCC/CDC only); that attribute is sourced from the separate modality citation."
+    },
+    {
+      "field": "key_safety.text",
+      "severity": "low",
+      "issue": "The '(5% vs 3%)' figure is labeled 'serious infections,' but the citation fragment begins mid-sentence and does not itself contain the words 'serious infections,' so the label is inferred rather than verbatim-supported."
+    },
+    {
+      "field": "pivotal_trials[0].population.citations[0].line",
+      "severity": "low",
+      "issue": "The enrollment-criteria quote is attributed to doc e6b1302e line 242, the same line used for the design sentence, so at least one line number is likely incorrect (both distinct sentences cannot share one line)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

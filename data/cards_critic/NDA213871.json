@@ -1,0 +1,132 @@
+{
+  "app": "NDA213871",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "_meta.uncited_numbers (doses)",
+      "severity": "low",
+      "issue": "False positives: the flagged 100/200 numbers in design/result/key_safety fields are all drug doses (100 mg/200 mg QD), which are excluded from uncited-data checks and are supported by dose-labeled citations."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False positives: flagged numbers 505 and 1 are part of the program identifier '505(b)(1)', not efficacy/safety data, and are not a real problem."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "100",
+        "text": "Phase 3 randomized, double-blind, placebo-controlled, parallel group, multicente"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "200",
+        "text": "Phase 3 randomized, double-blind, placebo-controlled, parallel group, multicente"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "100",
+        "text": "Phase 3 randomized, double-blind, placebo-controlled, parallel group, multicente"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "200",
+        "text": "Phase 3 randomized, double-blind, placebo-controlled, parallel group, multicente"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "200",
+        "text": "IGA 0/1 responder: 38% (200 mg), 28% (100 mg) vs 9% placebo; EASI-75 responder: "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "100",
+        "text": "IGA 0/1 responder: 38% (200 mg), 28% (100 mg) vs 9% placebo; EASI-75 responder: "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "200",
+        "text": "IGA 0/1 responder: 38% (200 mg), 28% (100 mg) vs 9% placebo; EASI-75 responder: "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "100",
+        "text": "IGA 0/1 responder: 38% (200 mg), 28% (100 mg) vs 9% placebo; EASI-75 responder: "
+      },
+      {
+        "field": "pivotal_trials[2]/design",
+        "number": "100",
+        "text": "Phase 3 randomized, double-blind, double-dummy, placebo-controlled, parallel gro"
+      },
+      {
+        "field": "pivotal_trials[2]/design",
+        "number": "200",
+        "text": "Phase 3 randomized, double-blind, double-dummy, placebo-controlled, parallel gro"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "200",
+        "text": "IGA 0/1 responder: 47% (200 mg), 36% (100 mg), 36% (dupilumab) vs 14% placebo; E"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "100",
+        "text": "IGA 0/1 responder: 47% (200 mg), 36% (100 mg), 36% (dupilumab) vs 14% placebo; E"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "200",
+        "text": "IGA 0/1 responder: 47% (200 mg), 36% (100 mg), 36% (dupilumab) vs 14% placebo; E"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "100",
+        "text": "IGA 0/1 responder: 47% (200 mg), 36% (100 mg), 36% (dupilumab) vs 14% placebo; E"
+      },
+      {
+        "field": "key_safety",
+        "number": "100",
+        "text": "Most common adverse reactions (\u22651%) include nasopharyngitis (12.4% at 100 mg, 8."
+      },
+      {
+        "field": "key_safety",
+        "number": "200",
+        "text": "Most common adverse reactions (\u22651%) include nasopharyngitis (12.4% at 100 mg, 8."
+      },
+      {
+        "field": "key_safety",
+        "number": "100",
+        "text": "Most common adverse reactions (\u22651%) include nasopharyngitis (12.4% at 100 mg, 8."
+      },
+      {
+        "field": "key_safety",
+        "number": "200",
+        "text": "Most common adverse reactions (\u22651%) include nasopharyngitis (12.4% at 100 mg, 8."
+      },
+      {
+        "field": "key_safety",
+        "number": "100",
+        "text": "Most common adverse reactions (\u22651%) include nasopharyngitis (12.4% at 100 mg, 8."
+      },
+      {
+        "field": "key_safety",
+        "number": "200",
+        "text": "Most common adverse reactions (\u22651%) include nasopharyngitis (12.4% at 100 mg, 8."
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "505",
+        "text": "Application submitted as a 505(b)(1) NDA; no prior complete response letter or r"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "1",
+        "text": "Application submitted as a 505(b)(1) NDA; no prior complete response letter or r"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

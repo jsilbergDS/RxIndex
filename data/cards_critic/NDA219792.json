@@ -1,0 +1,33 @@
+{
+  "app": "NDA219792",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 311)",
+  "_raw": "I'll analyze this card systematically against each check category.\n\n```json\n{\n  \"app\": \"NDA219792\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].trial_name\",\n      \"severity\": \"medium\",\n      \"issue\": \"The study identifier 'MT-1621-101' is not present in any citati",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1621",
+        "text": "Trial 1 (MT-1621-101) \u2014 with supporting retrospective chart-review studies Study"
+      },
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "101",
+        "text": "Trial 1 (MT-1621-101) \u2014 with supporting retrospective chart-review studies Study"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "16",
+        "text": "Approved effective the date of the approval letter following review of the NDA r"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2024",
+        "text": "Approved effective the date of the approval letter following review of the NDA r"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

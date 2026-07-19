@@ -1,0 +1,38 @@
+{
+  "app": "NDA214373",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Automated flag on numbers '22'/'2021' is a false positive \u2014 these form the date 'October 22, 2021' (receipt date is cited elsewhere), not efficacy/safety data.",
+      "_flag": "uncited_numbers"
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag on '214373' is a false positive \u2014 it is the NDA application identifier, which is excluded from uncited-number checks."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "22",
+        "text": "Application received October 22, 2021 and approved effective on the date of the "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2021",
+        "text": "Application received October 22, 2021 and approved effective on the date of the "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "214373",
+        "text": "Standard review NDA (214373) received 10/22/2021 with a PDUFA goal date of 1/22/"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

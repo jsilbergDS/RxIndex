@@ -1,0 +1,88 @@
+{
+  "app": "NDA021164",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting value: line 1 column 1 (char 0)",
+  "_raw": "<think>\nLet me analyze the card carefully.\n\nKey checks:\n\n1. Uncited numbers flags - most are false positives (study IDs like 33062, 134001, 007 are identifiers; \"17\" is HAMD-17 label; dates 2002, 2004, 2016, 2022, 23, 16). But some efficacy N numbers need checking.\n\n- pivotal_trials[0]/n: \"204\" - N=",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "33062",
+        "text": "Study 134001 (Org 33062 ER in subjects with major depressive disorder)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "204",
+        "text": "N=204 (gepirone ER n=102/analyzed 101; placebo n=106/analyzed 103)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "17",
+        "text": "HAMD-17 LS mean CFB: gepirone ER -9.04 vs placebo -6.75; placebo-subtracted diff"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "33062",
+        "text": "Study FK-GBE-007 (Org 33062 ER in subjects with major depressive disorder)"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "248",
+        "text": "N=248 (gepirone ER n=124/analyzed 116; placebo n=124/analyzed 122)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "17",
+        "text": "HAMD-17 LS mean CFB: gepirone ER -10.22 vs placebo -7.96; placebo-subtracted dif"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2002",
+        "text": "This was a long-running application with multiple prior non-approvals: FDA refus"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2004",
+        "text": "This was a long-running application with multiple prior non-approvals: FDA refus"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2016",
+        "text": "This was a long-running application with multiple prior non-approvals: FDA refus"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "134001",
+        "text": "EXXUA (gepirone ER) is a new molecular entity approved under a traditional 505(b"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "007",
+        "text": "EXXUA (gepirone ER) is a new molecular entity approved under a traditional 505(b"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "16",
+        "text": "EXXUA (gepirone ER) is a new molecular entity approved under a traditional 505(b"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2016",
+        "text": "EXXUA (gepirone ER) is a new molecular entity approved under a traditional 505(b"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "23",
+        "text": "EXXUA (gepirone ER) is a new molecular entity approved under a traditional 505(b"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2022",
+        "text": "EXXUA (gepirone ER) is a new molecular entity approved under a traditional 505(b"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

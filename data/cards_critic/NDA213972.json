@@ -1,0 +1,52 @@
+{
+  "app": "NDA213972",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Automated flag for uncited number '310' is a false positive; it is a trial identifier (Trial 310), not an efficacy/safety statistic."
+    },
+    {
+      "field": "first_cycle_approval/detail",
+      "severity": "low",
+      "issue": "Automated flag for uncited number '310' is a false positive; it is a trial identifier."
+    },
+    {
+      "field": "approval_program/priority_review/basis",
+      "severity": "low",
+      "issue": "Automated flag for uncited number '213972' is a false positive; it is the NDA application number."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "Automated flag for uncited number '310' is a false positive; it is a trial identifier."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "310",
+        "text": "Most common adverse reactions (>=2%): diarrhea, nausea, vulvovaginal mycotic inf"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "310",
+        "text": "The NDA was originally submitted November 25, 2020 and received a complete respo"
+      },
+      {
+        "field": "approval_program/priority_review/basis",
+        "number": "213972",
+        "text": "The resubmitted NDA 213972 (received April 25, 2024) was designated Priority Rev"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "310",
+        "text": "505(b)(2) NDA for an oral penem antibacterial fixed-dose combination; QIDP- and "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

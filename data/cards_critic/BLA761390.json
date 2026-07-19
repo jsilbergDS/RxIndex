@@ -1,0 +1,42 @@
+{
+  "app": "BLA761390",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "uncited_numbers flag for '761390' is a false positive; it is the BLA application number, not an efficacy/safety figure."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "uncited_numbers flag for '1' is a false positive; it is part of the trial name 'OLYMPIA 1', not a statistical figure."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "uncited_numbers flag for '2' is a false positive; it is part of the trial name 'OLYMPIA 2' / 'two trials', not a statistical figure."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "761390",
+        "text": "BLA 761390 for nemolizumab-ilto was submitted by Galderma and received Priority "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "BLA 761390 for nemolizumab-ilto was submitted by Galderma and received Priority "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "BLA 761390 for nemolizumab-ilto was submitted by Galderma and received Priority "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

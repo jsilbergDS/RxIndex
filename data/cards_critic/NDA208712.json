@@ -1,0 +1,57 @@
+{
+  "app": "NDA208712",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "_meta.uncited_numbers",
+      "severity": "low",
+      "issue": "All flagged uncited_numbers are false positives: '400'/'200' are doses; '9' is part of '10^9/L'; '35' and '24' ('\u226535%', 'Week 24') appear in the relevant endpoint/PMR/surrogate citations."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "400",
+        "text": "Multicenter, randomized, controlled, Phase 3 trial with 1:1:1 allocation to pacr"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "200",
+        "text": "Multicenter, randomized, controlled, Phase 3 trial with 1:1:1 allocation to pacr"
+      },
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "9",
+        "text": "Adults with intermediate- or high-risk primary myelofibrosis, post-polycythemia "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "35",
+        "text": "SVR \u226535% at Week 24 (ITT Efficacy population): pacritinib 200 mg BID 16/74 (21.6"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "24",
+        "text": "4154-1: Conduct a randomized, controlled trial to verify and describe the clinic"
+      },
+      {
+        "field": "approval_program/accelerated_approval/surrogate_endpoint",
+        "number": "35",
+        "text": "Spleen volume reduction (SVR) of \u226535% at Week 24, a surrogate endpoint reasonabl"
+      },
+      {
+        "field": "approval_program/accelerated_approval/surrogate_endpoint",
+        "number": "24",
+        "text": "Spleen volume reduction (SVR) of \u226535% at Week 24, a surrogate endpoint reasonabl"
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "9",
+        "text": "PMR 4154-1: a randomized, controlled trial (the ongoing PACIFICA trial) to verif"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

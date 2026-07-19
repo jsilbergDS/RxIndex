@@ -1,0 +1,23 @@
+{
+  "app": "BLA761183",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Extra data: line 27 column 1 (char 1140)",
+  "_raw": "Analyzing the card systematically.\n\n**Automated flags review:**\n- `post_marketing[0]` number \"2\": the \"2\" comes from \"Part A/Part B\" text and \"two T1D-related autoantibodies\" \u2014 the citation quote does contain \"two type-1 diabetes\"; the \"12-month\" and \"Part A/B\" are structural. This is a false positi",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "2",
+        "text": "4359-1: Conduct a 12-month single-arm, open-label study to assess the safety and"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "10",
+        "text": "Teplizumab-mzwv received Breakthrough Therapy Designation in 2019 and was review"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

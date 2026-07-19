@@ -1,0 +1,38 @@
+{
+  "app": "NDA218275",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 374)",
+  "_raw": "Analyzing the card carefully.\n\n```json\n{\n  \"app\": \"NDA218275\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[2].trial_name\",\n      \"severity\": \"high\",\n      \"issue\": \"Trial 3 is labeled 'BAP248/307-type CABP trial' but the citation only gives NCT00326287; the study cod",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Trial 1 (BPR-CS-009), the SAB pivotal trial"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Trial 2 (BPR-CS-008), the ABSSSI pivotal trial"
+      },
+      {
+        "field": "pivotal_trials[2]/trial_name",
+        "number": "307",
+        "text": "Trial 3 (BAP248/307-type CABP trial), the adult CABP pivotal trial"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2",
+        "text": "NDA 218275 was submitted August 3, 2023, received priority review, was filed Oct"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "218275",
+        "text": "ZEVTERA (NDA 218275) received a traditional approval (not accelerated) based on "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

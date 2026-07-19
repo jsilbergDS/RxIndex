@@ -1,0 +1,23 @@
+{
+  "app": "NDA214154",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 365)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"NDA214154\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].design\",\n      \"severity\": \"medium\",\n      \"issue\": \"Design text claims 'single-arm' but the cited quotes for this field only state 'open-label phas",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "4054",
+        "text": "Standard-review NDA submitted under section 505(b)(2) (referencing the listed dr"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "Standard-review NDA submitted under section 505(b)(2) (referencing the listed dr"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

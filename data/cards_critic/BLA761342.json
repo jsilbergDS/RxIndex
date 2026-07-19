@@ -1,0 +1,53 @@
+{
+  "app": "BLA761342",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 354)",
+  "_raw": "Looking at the card, I'll check each field against citations and the automated flags.\n\nKey observations:\n- NCT split into Phase 1/Phase 2 labels: citation only lists both NCTs together, doesn't assign Phase 1 to one and Phase 2 to the other. Minor inference but plausible; flag low.\n- first_cycle_app",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/nct",
+        "number": "2",
+        "text": "NCT03399799 (Phase 1); NCT04634552 (Phase 2)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "761342",
+        "text": "BLA 761342 was received December 9, 2022 and approved August 9, 2023 (PDUFA goal"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "505",
+        "text": "PMR 4473-2 (505(o)): Conduct a clinical trial to further characterize the seriou"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "Talvey (talquetamab-tgvs) received Priority review and was granted accelerated a"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "Talvey (talquetamab-tgvs) received Priority review and was granted accelerated a"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "Talvey (talquetamab-tgvs) received Priority review and was granted accelerated a"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "4473",
+        "text": "Talvey (talquetamab-tgvs) received Priority review and was granted accelerated a"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "Talvey (talquetamab-tgvs) received Priority review and was granted accelerated a"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

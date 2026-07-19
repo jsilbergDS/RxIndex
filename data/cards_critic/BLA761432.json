@@ -1,0 +1,28 @@
+{
+  "app": "BLA761432",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 10 column 3 (char 287)",
+  "_raw": "Analyzing the card for quality issues.\n\n{\n \"app\": \"BLA761432\",\n \"release_ready\": false,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[0].n\",\n   \"severity\": \"low\",\n   \"issue\": \"False positive: '3' and '632' come from '3,632' which is present in the citation quote as '3632' (comma difference only); the",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "3",
+        "text": "3,632 participants (2421 clesrovimab, 1211 placebo)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "632",
+        "text": "3,632 participants (2421 clesrovimab, 1211 placebo)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "004",
+        "text": "This BLA received Fast Track designation (granted August 27, 2018) and was grant"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

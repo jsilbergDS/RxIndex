@@ -1,0 +1,58 @@
+{
+  "app": "NDA215866",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting ',' delimiter: line 29 column 4 (char 1324)",
+  "_raw": "<think>\nLet me analyze this card carefully.\n\nKey issues to check:\n\n1. **pivotal_trials[0].result** \u2014 The FDA Analysis quote says: \"Difference from comparatorb (95% CI)\t\u2013\t-1.64\\n(-1.94, -1.34)\t1.60\\n(-1.90, -1.30)\t-1.59\\n(-1.90, -1.28)\". Note the 10 mg value in the quote is \"1.60\" (positive), but the",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "5",
+        "text": "mITT per arm: placebo 113; tirzepatide 5 mg 121; 10 mg 121; 15 mg 120"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "10",
+        "text": "mITT per arm: placebo 113; tirzepatide 5 mg 121; 10 mg 121; 15 mg 120"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "15",
+        "text": "mITT per arm: placebo 113; tirzepatide 5 mg 121; 10 mg 121; 15 mg 120"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "15",
+        "text": "HbA1c change at Week 40: placebo -0.09%, tirzepatide 5 mg -1.75%, 10 mg -1.71%, "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "15",
+        "text": "HbA1c change at Week 40: placebo -0.09%, tirzepatide 5 mg -1.75%, 10 mg -1.71%, "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "15",
+        "text": "HbA1c change at Week 40: placebo -0.09%, tirzepatide 5 mg -1.75%, 10 mg -1.71%, "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2021",
+        "text": "Approved during the first review cycle; NDA received September 15, 2021 with PDU"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2021",
+        "text": "Tirzepatide (Mounjaro) was submitted as a 505(b)(1) NDA received September 15, 2"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "Tirzepatide (Mounjaro) was submitted as a 505(b)(1) NDA received September 15, 2"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

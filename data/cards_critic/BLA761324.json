@@ -1,0 +1,23 @@
+{
+  "app": "BLA761324",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 10 column 5 (char 472)",
+  "_raw": "Analyzing the card for real problems.\n\n```json\n{\n  \"app\": \"BLA761324\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"approval_program.priority_review.basis\",\n      \"severity\": \"high\",\n      \"issue\": \"The cited quote contains internally inconsistent dates (Submit/Received Date Septemb",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "01",
+        "text": "EPKINLY (epcoritamab-bysp) received accelerated approval under section 506(c) of"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "05",
+        "text": "EPKINLY (epcoritamab-bysp) received accelerated approval under section 506(c) of"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

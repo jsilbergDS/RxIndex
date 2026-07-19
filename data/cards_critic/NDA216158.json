@@ -1,0 +1,32 @@
+{
+  "app": "NDA216158",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flag: uncited number '2024' is a date year (approval date), which is excluded from citation requirements."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: uncited number '216158' is the NDA application identifier, which is excluded from citation requirements."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2024",
+        "text": "NDA submitted September 26, 2023; approved September 26, 2024 as recommended, wi"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "216158",
+        "text": "NDA 216158 was submitted under the 505(b)(2) pathway relying on trospium chlorid"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

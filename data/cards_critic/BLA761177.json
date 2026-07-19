@@ -1,0 +1,42 @@
+{
+  "app": "BLA761177",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "high",
+      "issue": "Text states sponsor's ANCOVA treatment difference is 0.86 cm/year with 95% CI 0.22, 1.50, p=0.009, but the cited table quote shows 0.86 with limits 0.22 and 1.50 which are the CI bounds and p=0.009 \u2014 this is supported; however the reviewer's single-imputation CI of (0.13, 1.47) is cited and correct, so this is consistent (no error)."
+    },
+    {
+      "field": "receipt_date",
+      "severity": "low",
+      "issue": "Flagged number '6' is part of the date 6/25/2020 which is fully supported by the citation (June 25, 2020); false positive."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "Flagged number '301' is a substring of 'Section 3...(51a)' truncation / trial ID CT-301, not an efficacy/safety number; false positive."
+    },
+    {
+      "field": "first_cycle_approval.detail.citations[0]",
+      "severity": "low",
+      "issue": "Citation quote spells the drug 'Isonapegsomatropin-tcgd' rather than 'lonapegsomatropin-tcgd', an OCR artifact but the citation is otherwise verbatim and supports the receipt date."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "receipt_date",
+        "number": "6",
+        "text": "6/25/2020"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "301",
+        "text": "Skytrofa was approved via traditional (non-accelerated) approval under Section 3"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

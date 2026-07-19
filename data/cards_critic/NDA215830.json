@@ -1,0 +1,47 @@
+{
+  "app": "NDA215830",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive uncited-number flags for '20' and '24' \u2014 these refer to the SALT<=20 threshold and Week 24 timepoint, both verbatim in the endpoint citation, not efficacy magnitudes."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive uncited-number flags for '6', '24', '2022' \u2014 these are date components of the 6/24/2022 submission date and should be excluded as dates."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "20",
+        "text": "SALT <=20 response at Week 24: 23.0% ritlecitinib 50 mg vs 1.6% placebo; differe"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "24",
+        "text": "SALT <=20 response at Week 24: 23.0% ritlecitinib 50 mg vs 1.6% placebo; differe"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "6",
+        "text": "Application submitted 6/24/2022 under 505(b)(1) and approved; no prior CRL indic"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "24",
+        "text": "Application submitted 6/24/2022 under 505(b)(1) and approved; no prior CRL indic"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2022",
+        "text": "Application submitted 6/24/2022 under 505(b)(1) and approved; no prior CRL indic"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

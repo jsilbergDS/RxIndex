@@ -1,0 +1,38 @@
+{
+  "app": "NDA219972",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "high",
+      "issue": "Group E PR is stated as 33% with CR 6% and ORR 38% but 6%+33%=39% not 38%; minor arithmetic aside, the values are cited, but Group E CR/PR (6%, 33%) come from line 248 which is verified\u2014no issue there; however Group D 'PR 69%' plus 'CR 2.9%' does not sum to ORR 71% (should be ~71.9%), a rounding artifact from source, acceptable."
+    },
+    {
+      "field": "approval_program/summary",
+      "number": "01",
+      "severity": "low",
+      "issue": "Automated flag 'uncited number 01' is a false positive: it is a fragment of the trial identifier SOHO-01/Project ORBIS, not an efficacy/safety figure."
+    },
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "low",
+      "issue": "The 'First-in-human trial' claim is not supported by the citation quote, which only describes the trial as non-randomized single-arm and does not state it is first-in-human."
+    },
+    {
+      "field": "companion_dx.detail",
+      "severity": "medium",
+      "issue": "The text says tumor samples 'were retrospectively tested using Oncomine Dx Target Test' but the citation states only 67.2% (82/122) were so tested, so 'tumor samples' overgeneralizes the cited quote."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "01",
+        "text": "Sevabertinib received Priority review and was granted accelerated approval based"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

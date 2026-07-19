@@ -1,0 +1,42 @@
+{
+  "app": "BLA761123",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "FALSE POSITIVE flag on number '3' (Trial 3): the designation is supported by the nct citation quote 'Trial 3 [NCT02446899]'."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "FALSE POSITIVE flag on number '4' (every 4 weeks): this is a dosing interval supported by the design/population citation quotes 'every 4 weeks'."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "FALSE POSITIVE flag on number '52' (Week 52): supported by the endpoint and result citation quotes referencing the 52-week BICLA primary endpoint."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "3",
+        "text": "Study D3461C00004 (Study 04; Trial 3)"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "4",
+        "text": "52-week, multicenter, randomized, double-blind, placebo-controlled, parallel-gro"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "52",
+        "text": "BICLA response at Week 52: anifrolumab 300 mg 47.8% (86/180) vs placebo 31.3% (5"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

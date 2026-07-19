@@ -1,0 +1,21 @@
+{
+  "app": "NDA214520",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "target_moa",
+      "severity": "high",
+      "issue": "The text claims taurolidine 'reacts with cell wall constituents of gram-negative bacteria and neutralizes endotoxin activity,' but the citations only support interaction with bacterial and fungal cell walls; the gram-negative/endotoxin claims are unsupported."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "The HR citation contains two values (0.28 [0.11,0.70] and 0.29 [0.14,0.62]) without labels; selecting 0.29 as the final-analysis HR is plausible but not disambiguated by the quote."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "app": "BLA761166",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Extra data: line 31 column 1 (char 1224)",
+  "_raw": "Analyzing the card for problems.\n\nKey findings:\n- **Modality citation error**: quote says \"polyneuropathy vera\" (OCR typo, wrong disease) \u2014 minor but noting; the modality claim itself is supported by second quote.\n- **first_cycle_approval=false** with a prior CRL cited \u2014 this is consistent (review D",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "9",
+        "text": "Complete hematological response (CHR) determined at 12 months, defined as HCT <4"
+      },
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "9",
+        "text": "Complete hematological response (CHR) determined at 12 months, defined as HCT <4"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "761166",
+        "text": "BLA 761166 for BESREMi held orphan drug designation for polycythemia vera (grant"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "app": "NDA218730",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 328)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"NDA218730\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[1].design\",\n      \"severity\": \"medium\",\n      \"issue\": \"The '56 weeks' duration is stated but no citation quote for Trial 103 contains the 56-week dura",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "56",
+        "text": "Randomized, double-blind, active (ELX/TEZ/IVA)-controlled noninferiority trial ("
+      },
+      {
+        "field": "key_safety",
+        "number": "1",
+        "text": "Most common adverse reactions (\u22655% and \u22651% higher than ELX/TEZ/IVA): cough (25% "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "ALYFTREK was granted Fast Track designation (May 30, 2019) and Orphan Designatio"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

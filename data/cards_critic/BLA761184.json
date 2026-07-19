@@ -1,0 +1,37 @@
+{
+  "app": "BLA761184",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive uncited-number flags for '3', '4', '006' \u2014 these derive from 'phase 3 study (CP-4-006)', i.e. phase/study-ID references, not efficacy/safety numbers."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Original submission date stated as 'October 22, 2020' here, but approval_program.summary citation gives 'November 30, 2020'; minor internal inconsistency on original BLA receipt date (does not affect the first-cycle=false determination)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Standard-review BLA under section 351(a) with Orphan Drug Designation for GHD. T"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "4",
+        "text": "Standard-review BLA under section 351(a) with Orphan Drug Designation for GHD. T"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "006",
+        "text": "Standard-review BLA under section 351(a) with Orphan Drug Designation for GHD. T"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

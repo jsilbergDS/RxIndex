@@ -1,0 +1,42 @@
+{
+  "app": "BLA761336",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged uncited numbers 2017 and 2019 are designation years verbatim supported by the fast_track (25 April 2017) and breakthrough_therapy (01 December 2019) citations; false positive."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged uncited numbers 9 and 2023 refer to the CRL date 'May 9, 2023', which is a date supported by the first_cycle_approval citation; false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "2017",
+        "text": "ANKTIVA received regular (standard) approval as a BLA under section 351(a), supp"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2019",
+        "text": "ANKTIVA received regular (standard) approval as a BLA under section 351(a), supp"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "9",
+        "text": "ANKTIVA received regular (standard) approval as a BLA under section 351(a), supp"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2023",
+        "text": "ANKTIVA received regular (standard) approval as a BLA under section 351(a), supp"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

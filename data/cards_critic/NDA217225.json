@@ -1,0 +1,53 @@
+{
+  "app": "NDA217225",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 10 column 5 (char 303)",
+  "_raw": "Analyzing the card for quality issues.\n\nKey findings:\n- `pivotal_trials[0].result`: \"35% reduction\" text \u2014 35% is supported by the citation. The \"difference 0.67\", \"1.22 vs 1.89\", CI, p<0.01 all supported. 27.38% and p=0.0072 supported. OK.\n- `pivotal_trials[0].n`: \"286\" number \u2014 citation says 77 + ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "286",
+        "text": "286 randomized (Part 1 N=77; Part 2 N=209); Month 12 primary analysis IZERVAY 2 "
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "12",
+        "text": "286 randomized (Part 1 N=77; Part 2 N=209); Month 12 primary analysis IZERVAY 2 "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "217225",
+        "text": "NDA 217225 received December 19, 2022, was approved effective on the date of the"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "19",
+        "text": "NDA 217225 received December 19, 2022, was approved effective on the date of the"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2022",
+        "text": "NDA 217225 received December 19, 2022, was approved effective on the date of the"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "4477",
+        "text": "PMC 4477-1: Submit 24-month safety and efficacy data from ISEE2008 (GATHER2) in "
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "1",
+        "text": "PMC 4477-1: Submit 24-month safety and efficacy data from ISEE2008 (GATHER2) in "
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "4477",
+        "text": "PMC 4477-2: Submit 18-month long-term safety data from ISEE2009, an open-label e"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

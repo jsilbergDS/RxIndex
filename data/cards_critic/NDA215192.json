@@ -1,0 +1,42 @@
+{
+  "app": "NDA215192",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "medium",
+      "issue": "Summary claims a 'deferred pediatric study' but no citation quote supports a deferred pediatric requirement (citations only cover priority review, CRL, efficacy, and the observational safety study)."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flags (14, 17, 13, 10): the values are present in the citation quote as concatenated OCR pairs 'Hypertension*1417' and 'Diarrhea1310'."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "14",
+        "text": "Most common adverse reactions (>=5%) included hypertension (14% vs 17% darbepoet"
+      },
+      {
+        "field": "key_safety",
+        "number": "17",
+        "text": "Most common adverse reactions (>=5%) included hypertension (14% vs 17% darbepoet"
+      },
+      {
+        "field": "key_safety",
+        "number": "13",
+        "text": "Most common adverse reactions (>=5%) included hypertension (14% vs 17% darbepoet"
+      },
+      {
+        "field": "key_safety",
+        "number": "10",
+        "text": "Most common adverse reactions (>=5%) included hypertension (14% vs 17% darbepoet"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

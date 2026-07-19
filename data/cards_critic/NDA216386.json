@@ -1,0 +1,28 @@
+{
+  "app": "NDA216386",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 350)",
+  "_raw": "Analyzing the card for quality issues.\n\n**Trial name issues:**\n- Study 1 trial_name text says \"BHV3500-301\" but citations reference \"Study 1 (NCT04571060)\" and \"Study 301\" \u2014 the BHV3500-301 identifier is not in any quote (uncited identifier, but identifiers are excluded per rules; however the compos",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2023",
+        "text": "NDA received March 9, 2022 with PDUFA goal date March 9, 2023 and approved March"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2023",
+        "text": "NDA received March 9, 2022 with PDUFA goal date March 9, 2023 and approved March"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "Zavegepant, a new molecular entity and the first intranasal CGRP receptor antago"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "app": "NDA218614",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited_numbers '50' is a false positive: it refers to the olezarsen 50 mg dose (a dose, which is excluded), and the actual efficacy statistics (-21.5, CI -48.2 to 5.3, p=0.1153) are all present in the citation quotes."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "50",
+        "text": "Olezarsen 80 mg reduced fasting TG at Month 6 by 44.5% relative to placebo (trea"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

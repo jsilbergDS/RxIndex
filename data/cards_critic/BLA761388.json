@@ -1,0 +1,21 @@
+{
+  "app": "BLA761388",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "approval_program.summary.text",
+      "severity": "medium",
+      "issue": "Summary claims 'postmarketing safety registries' are required, but no citation quote mentions registries; this claim is unsupported."
+    },
+    {
+      "field": "pivotal_trials[0].n.citations[0].line",
+      "severity": "low",
+      "issue": "The n citation quote ('A total of 204 subjects were randomized 2:1...') is attributed to doc baf8f151 line 53, the same line number assigned to the unrelated 'Evidence of benefit' quote, suggesting a mislabeled line reference."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

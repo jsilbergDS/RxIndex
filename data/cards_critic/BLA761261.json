@@ -1,0 +1,23 @@
+{
+  "app": "BLA761261",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 340)",
+  "_raw": "Looking at the card, I'll verify each field against citations and check the automated flags.\n\nKey findings:\n- Trial name/phase citations reference \"DFI12712\"/\"DF112712\" (OCR variants) \u2014 minor.\n- `n`: \"36 randomized\" is cited; \"31 evaluated\" derived from 13+18, both cited. OK.\n- `result`: all numbers",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "3",
+        "text": "BLA received November 3, 2021 and approved effective the date of the approval le"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2021",
+        "text": "BLA received November 3, 2021 and approved effective the date of the approval le"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

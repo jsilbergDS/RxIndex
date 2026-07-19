@@ -1,0 +1,47 @@
+{
+  "app": "BLA761195",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Automated flag for number '1704' is a false positive; it is a study identifier, not an efficacy/safety number."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flags for '12', '20', '2017', '1704' are false positives; they are date components and a study identifier, not efficacy/safety numbers."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "1704",
+        "text": "Most common adverse reactions (>=10%) are respiratory tract infections, headache"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "12",
+        "text": "BLA 761195 was submitted 12/17/2020 and received a standard (not priority) revie"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "20",
+        "text": "BLA 761195 was submitted 12/17/2020 and received a standard (not priority) revie"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2017",
+        "text": "BLA 761195 was submitted 12/17/2020 and received a standard (not priority) revie"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1704",
+        "text": "BLA 761195 was submitted 12/17/2020 and received a standard (not priority) revie"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

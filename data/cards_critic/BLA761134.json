@@ -1,0 +1,26 @@
+{
+  "app": "BLA761134",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "medium",
+      "issue": "Text characterizes GC-627-05 as a 'noninferiority study' but the design field's cited quote (line 130) only says 'active-controlled study' and does not state noninferiority; the noninferiority claim is supported only in the separate result citation."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "The text lists 'leukocytosis' as a class-associated serious risk, but no citation quote mentions leukocytosis (the cited class-warning quote lists aortitis and MDS/AML instead)."
+    },
+    {
+      "field": "target_moa",
+      "severity": "low",
+      "issue": "Text asserts 'G-CSF receptor agonist (Fc-fusion protein)' but the MoA citations describe binding/stimulation only and do not use 'agonist' or 'Fc-fusion'; the Fc-fusion characterization is corroborated by the modality field but not by this field's own quotes."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

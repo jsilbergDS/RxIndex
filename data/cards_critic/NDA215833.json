@@ -1,0 +1,47 @@
+{
+  "app": "NDA215833",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "medium",
+      "issue": "N = 831 total is not stated in any citation quote; the quote only gives 551 and 280 (which sum to 831 but the total itself is uncited/derived)."
+    },
+    {
+      "field": "approval_program.priority_review.basis",
+      "severity": "low",
+      "issue": "The '2022' in the PDUFA goal date is a date; false-positive flag since dates are excluded, though the PDUFA date is actually supported by the receipt_date citation quote."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "The '215833' is the application/NDA number and is supported by the priority_review citation quote ('Application Number(s)\t215833'); false-positive flag."
+    },
+    {
+      "field": "target_moa.text",
+      "severity": "low",
+      "issue": "Ki ~4.7 nM value is properly supported by the line-356 citation; no issue (noted for completeness)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "831",
+        "text": "N = 831 (Lu-177-PSMA-617 plus BSoC N = 551; BSoC alone N = 280)"
+      },
+      {
+        "field": "approval_program/priority_review/basis",
+        "number": "2022",
+        "text": "The NDA was reviewed under Priority Review (PDUFA goal date March 29, 2022)."
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "215833",
+        "text": "PLUVICTO's NDA 215833 received a Priority Review and was granted regular (not ac"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

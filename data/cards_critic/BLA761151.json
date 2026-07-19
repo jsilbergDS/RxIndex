@@ -1,0 +1,37 @@
+{
+  "app": "BLA761151",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "The text states the original BLA was 'submitted July 15, 2020' but neither of this field's citations (line 79, line 8) contains that submission date; it is only supported by a citation on the approval_program.summary field (line 43)."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive-adjacent flag: the number '3' refers to 'Phase 3 trials' (supported by pivotal_trials citations) and 'July 15, 2020' is supported by this field's own citation (line 43); no real problem."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "15",
+        "text": "The original BLA (submitted July 15, 2020) received a Complete Response Letter d"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2020",
+        "text": "The original BLA (submitted July 15, 2020) received a Complete Response Letter d"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Standard (non-priority) BLA review; the original BLA (received July 15, 2020) re"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

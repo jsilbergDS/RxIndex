@@ -1,0 +1,52 @@
+{
+  "app": "BLA761334",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flag: '761334' is the BLA application identifier, which is excluded from uncited-number checks."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flags: '22'/'2023' are the approval date, and '201'/'4412'/'1' are study/PMR identifiers, all excluded from uncited-number checks."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "761334",
+        "text": "BLA 761334 was approved under accelerated approval effective March 22, 2023, wit"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "22",
+        "text": "BLA 761334 received priority review and was granted accelerated approval on Marc"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2023",
+        "text": "BLA 761334 received priority review and was granted accelerated approval on Marc"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "201",
+        "text": "BLA 761334 received priority review and was granted accelerated approval on Marc"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "4412",
+        "text": "BLA 761334 received priority review and was granted accelerated approval on Marc"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "BLA 761334 received priority review and was granted accelerated approval on Marc"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "app": "NDA215498",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "key_safety.uncited_numbers[40,120]",
+      "severity": "low",
+      "issue": "False positive: 40 and 120 refer to mcg/kg dose labels (excluded per rules); the actual AE rates (39.1, 21.1, 13.0, 10, 5) are supported by the line-105 citation."
+    },
+    {
+      "field": "approval_program.summary.uncited_numbers[3,005,10,31,2012]",
+      "severity": "low",
+      "issue": "False positives: '3' is Phase 3, '005' is the trial ID, and 10/31/2012 is a date \u2014 all excluded categories and supported by citations."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "40",
+        "text": "Most common adverse reactions (>2%) are liver test abnormalities, diarrhea, abdo"
+      },
+      {
+        "field": "key_safety",
+        "number": "120",
+        "text": "Most common adverse reactions (>2%) are liver test abnormalities, diarrhea, abdo"
+      },
+      {
+        "field": "key_safety",
+        "number": "40",
+        "text": "Most common adverse reactions (>2%) are liver test abnormalities, diarrhea, abdo"
+      },
+      {
+        "field": "key_safety",
+        "number": "120",
+        "text": "Most common adverse reactions (>2%) are liver test abnormalities, diarrhea, abdo"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "BYLVAY was reviewed as a Priority NDA and approved for pruritus in PFIC based on"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "005",
+        "text": "BYLVAY was reviewed as a Priority NDA and approved for pruritus in PFIC based on"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "10",
+        "text": "BYLVAY was reviewed as a Priority NDA and approved for pruritus in PFIC based on"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "31",
+        "text": "BYLVAY was reviewed as a Priority NDA and approved for pruritus in PFIC based on"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2012",
+        "text": "BYLVAY was reviewed as a Priority NDA and approved for pruritus in PFIC based on"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

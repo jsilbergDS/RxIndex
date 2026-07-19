@@ -1,0 +1,18 @@
+{
+  "app": "BLA761363",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 306)",
+  "_raw": "Analyzing the card systematically.\n\n```json\n{\n  \"app\": \"BLA761363\",\n  \"release_ready\": true,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].design\",\n      \"severity\": \"low\",\n      \"issue\": \"Automated flag on the number '3' is a false positive; it is part of 'Phase 3', which is supported by th",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "3",
+        "text": "Phase 3, multicenter, double-blind, placebo-controlled, parallel-assignment tria"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}
