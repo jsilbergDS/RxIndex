@@ -7,6 +7,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY app.py .
 COPY data/ ./data/
+COPY adcomm_out/ ./adcomm_out/
 
 # HF Spaces requires the app to listen on 0.0.0.0:7860
 ENV PORT=7860
