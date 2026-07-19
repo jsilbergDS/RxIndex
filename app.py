@@ -1750,7 +1750,7 @@ document.querySelectorAll('.chat').forEach(chat => {
       const j = await r.json();
       if (j.error) addMsg(log, 'error', 'ERROR: '+j.error);
       else { addMsg(log, 'assistant', j.reply || '(empty reply)');
-             meta.textContent = `cost: $${j.cost_usd.toFixed(4)} · tool calls: ${j.tool_calls.length}`; }
+             meta.textContent = ''; }
     } catch(e) { addMsg(log, 'error', 'fetch error: '+e); }
     btn.disabled = false; input.focus();
   }
