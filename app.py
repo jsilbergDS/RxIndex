@@ -1453,9 +1453,10 @@ def _app_label(a):
     return f"{a[:3]} {a[3:]}"
 
 def _form_pretty(form):
-    """'TABLET;ORAL; SOLUTION;INTRAVENOUS' -> 'tablet, oral; solution, intravenous'"""
-    parts = [p.strip() for p in re.split(r";\s*(?=[A-Z ,]+;|$)", form or "") if p.strip()]
-    return "; ".join(p.replace(";", ", ").lower() for p in parts) or (form or "").lower()
+    """'POWDER;INTRAVENOUS | SOLUTION;INTRAVENOUS' -> 'powder, intravenous; solution, intravenous'
+    (build_merged_apps.py joins an application's Drugs@FDA forms with ' | ')."""
+    parts = [p.strip() for p in (form or "").split("|") if p.strip()]
+    return "; ".join(re.sub(r"\s*;\s*", ", ", p).lower() for p in parts)
 
 def _appnos_text(app_key, typ, appno):
     """'NDA 205836 / 205837 / 205838' for a merged formulation set, else 'NDA 205836'."""

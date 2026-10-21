@@ -52,7 +52,7 @@ for brand, apps in sorted(groups.items()):
         continue
     for a in apps:
         m = cards[a]["_meta"]
-        out["apps"][a] = {"form": "; ".join(sorted(forms.get(a[3:].lstrip("0"), []))) or "",
+        out["apps"][a] = {"form": " | ".join(sorted(forms.get(a[3:].lstrip("0"), []))) or "",
                           "approval_date": m.get("approval_date") or "",
                           "indication": (m.get("indication") or "")[:240]}
     if brand in SEE_ALSO_BRANDS:
