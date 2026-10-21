@@ -77,6 +77,9 @@ for fp in sorted(glob.glob(str(SRC / "*.json"))):
             "population": t(tr.get("population")),
             "endpoint": t(tr.get("endpoint")), "n": t(tr.get("n")),
             "result": t(tr.get("result")),
+            # NCT looked up on ClinicalTrials.gov by sponsor study id / acronym when the FDA
+            # docs don't print one (backfill_nct_ctgov.py); shown as "via ClinicalTrials.gov"
+            "nct_ctgov": tr.get("nct_ctgov"),
         })
     bw = c.get("boxed_warning", {}) or {}
     rems = c.get("rems", {}) or {}

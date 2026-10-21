@@ -1619,6 +1619,12 @@ def render_card_html(idx, r):
             if nct_num
             else ""
         )
+        cg = t.get("nct_ctgov") if not nct_num else None
+        if isinstance(cg, dict) and cg.get("nct"):
+            # not printed in the FDA docs: matched on ClinicalTrials.gov by sponsor study id / acronym
+            nct_link = (f'<a href="https://clinicaltrials.gov/study/{H(cg["nct"])}" target="_blank" '
+                        f'title="Matched on ClinicalTrials.gov by {H(cg.get("matched_on", ""))}; not stated in the FDA documents">'
+                        f'{H(cg["nct"])}</a> <span class="rel-form">(via ClinicalTrials.gov)</span>')
         fp = f"pivotal_trials.{i}"
         tn_html = cited_or_annotate(f"{fp}.trial_name", t.get('trial_name') or 'Unnamed trial')
         n_val = t.get('n')

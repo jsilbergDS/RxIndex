@@ -29,6 +29,7 @@ done
 wait
 echo "== all shards done; global finish (convert FIRST) =="
 APPS_ALL="${ALL[*]}"
+$PY -u backfill_nct_ctgov.py --apply $APPS_ALL   # NCTs missing from FDA docs, via ClinicalTrials.gov ids (no LLM)
 $PY -u convert_single_to_app.py
 $PY -u bundle_cited_docs.py
 $PY -u bundle_adcomm_docs.py
