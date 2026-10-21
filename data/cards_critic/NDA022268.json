@@ -1,0 +1,72 @@
+{
+  "app": "NDA022268",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "FALSE POSITIVE flag: uncited number '28' is part of '28-day cure rate' (an endpoint label), not an uncited efficacy value."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "FALSE POSITIVE flag: uncited number '1' is the study label 'Study 1', not an uncited data value."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "FALSE POSITIVE flag: uncited number '1' is the study label 'Study 1', not an uncited data value; all efficacy numbers (98.0%, 46.2%, 90.4%, 96.2%, 88.2%, CI 37.8\u201366.0%) are supported by citations."
+    },
+    {
+      "field": "post_marketing[0].requirement",
+      "severity": "low",
+      "issue": "FALSE POSITIVE flag: uncited number '5' corresponds to 'five years' which is supported by the citation ('For a period of five years following approval')."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "FALSE POSITIVE flag: '505' (section 505(b)) is supported by the receipt-date citation, and '3'/'2008' are the advisory-committee date supported elsewhere in the card."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "28",
+        "text": "28-day cure rate (mITT) was 81% (96/118) for the 6-dose arm vs 71% (85/120) for "
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "1",
+        "text": "Study 1: Coartem 51; artemether 52; lumefantrine 52. Study 2: Coartem 52; lumefa"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "1",
+        "text": "Study 1 28-day cure rate: Coartem 98.0% (50/51) vs artemether 46.2% (24/52) vs l"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "5",
+        "text": "Conduct a descriptive study of the use of Coartem Tablets in non-immune traveler"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "Coartem was approved under a standard 505(b) NDA with orphan drug designation (g"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Coartem was approved under a standard 505(b) NDA with orphan drug designation (g"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2008",
+        "text": "Coartem was approved under a standard 505(b) NDA with orphan drug designation (g"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,545 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+L2: **204153Orig1s000**
+L3: **STATISTICAL REVIEW(S)**
+L4: FDA Seal for Drug Evaluation and Research
+L5: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L6: ## STATISTICAL REVIEW AND EVALUATIONCLINICAL STUDIES
+L7: **NDA:** 204153
+**Drug Name:** Luzu (luliconazole) Cream, 1%
+**Indication(s):** Interdigital Tinea Pedis; Tinea Cruris; Tinea Corporis
+**Applicant:** Medicis Pharmaceutical Corp.
+**Date(s):** Receipt Date: 12/11/2012
+PDUFA Date: 12/11/2013
+**Review Priority:** Standard
+**Biometrics Division:** Division of Biometrics 3
+**Statistical Reviewer:** Yuqing Tang, Ph.D.
+**Concurring Reviewers:** Mohamed Alosch, Ph.D.
+**Medical Division:** Division of Dermatology and Dental Products
+**Clinical Team:** Gary Chiang, M.D.
+David Kettl, M.D.
+**Project Manager:** Cristina Attinello/Paul Phillips
+L8: **Keywords:** Superiority trials, repeated measures analysis, multiple imputation
+L9: ## Table of Contents
+L10: 1	EXECUTIVE SUMMARY	3
+2	INTRODUCTION	4
+2.1	OVERVIEW	4
+2.2	DATA SOURCES	5
+3	STATISTICAL EVALUATION	5
+3.1	DATA AND ANALYSIS QUALITY	5
+3.2	EVALUATION OF EFFICACY	6
+3.2.1	Study Design and Endpoints	6
+3.2.2	Statistical Methodologies	8
+3.2.3	Patient Disposition, Demographic and Baseline Characteristics	8
+3.2.4	Results and Conclusions	12
+3.3	EVALUATION OF SAFETY	15
+4	FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	15
+4.1	EFFICACY BY GENDER, AGE, AND RACE	16
+4.2	EFFICACY BY CENTER	16
+4.3	EFFICACY BY BASELINE DISEASE SEVERITY	17
+5	SUMMARY AND CONCLUSIONS	17
+5.1	STATISTICAL ISSUES	17
+5.2	COLLECTIVE EVIDENCE	18
+5.3	CONCLUSIONS AND RECOMMENDATIONS	18
+APPENDIX	19
+L11: ## 1 EXECUTIVE SUMMARY
+L12: The sponsor submitted the findings from three pivotal trials, Study MP-1000-01 (Study 01) for subjects with tinea cruris, Study MP-1000-02 (Study 02) and Study MP-1000-03 (Study 03) for subjects with tinea pedis, in support of their NDA filing. Per the agreement with the Agency at the End of Phase 2 meeting (10/27/2010), the three studies were adequate to support the indication of tinea pedis, tinea cruris, and tinea corporis.
+L13: Study 02 and Study 03 were identical in design. The two studies evaluated subjects aged 12 years or older with clinical diagnosis of interdigital tinea pedis (moderate erythema, moderate scaling, and mild pruritus) on one or both feet, and positive KOH and fungal culture. Study 01 evaluated subjects aged 12 years or older with clinical diagnosis of tinea cruris (moderate erythema, mild scaling, and moderate pruritus), and positive KOH and fungal culture. The protocol specified primary endpoint was the proportion of subjects achieving “complete clearance” at Day 42 for tinea pedis and Day 28 for tinea cruris. “Complete clearance” was defined as both “mycological cure” (negative KOH and negative fungal culture) and “clinical cure” (scores of 0 on each individual signs for erythema, scaling, and pruritus). Efficacy results based on the modified intent to treat (MITT) population with missing data imputed using the Last Observation Carried Forward (LOCF), and efficacy results based on the per protocol (PP) population are presented in Table 1. In all three studies, luliconazole cream 1% demonstrated that it was statistically superior to the vehicle cream.
+L14: **Table 1. Results for Primary Efficacy Endpoint**
+L15: Luliconazole	Vehicle	Treatment Difference and its
+95% Confidence Interval	p-value(3)
+Tinea Cruris
+(Study 01)	
+MITT(1) population	35/165 (21.2%)	4/91 (4.4%)	15.8%, (7.8%, 24.6%)	<0.001
+PP(2) population	29/134 (21.6%)	3/68 (4.4%)	17.2%, (7.2%, 26.0%)	<0.001
+Tinea Pedis (Study
+02)	
+MITT population	28/106 (26.4%)	2/103 (1.9%)	24.5%, (15.5%, 34%)	<0.001
+PP population	26/88 (30.0%)	2/80 (2.5%)	27.0%, (16.4%, 38.1%)	<0.001
+Tinea Pedis (Study
+03)	
+MITT population	15/107 (14.0%)	3/107 (2.8%)	11.2%, (3.7%, 19.5%)	<0.001
+PP population	11/66 (16.7%)	2/60 (3.3%)	13.3%, (2.6%, 24.8%)	0.004
+L16: (1) MITT population was defined as all randomized subjects with positive baseline KOH and fungal cultures.
+L17: (2) PP population was defined as MITT subjects who completed end of treatment and post treatment evaluation without major protocol deviation.
+L18: (3) p-value was calculated from CMH test stratified by center
+L19: ## 2 INTRODUCTION
+L20: ## 2.1 Overview
+L21: The sponsor, Medicis, is seeking approval for luliconazole cream 1% (IND 76049) for the topical treatment of interdigital tinea pedis, tinea cruris, and tinea corporis in patients (b) years of age and older. The proposed product was originally developed for the indication of tinea pedis only. An End-of-Phase 2 meeting for tinea pedis was held with the sponsor on 12/16/2009, followed by a Special Protocol Assessment (SPA) for the Phase 3 protocol TP-1003-01 in tinea pedis submitted on 5/24/2010. A SPA agreement letter for tinea pedis was sent on 7/7/2010. Later on the sponsor proposed to expand the indication to include tinea cruris and tinea corporis. The expanded indication was discussed at an additional End-of-Phase 2 meeting held on 10/27/2010. Agreement was reached that a total of three Phase 3 efficacy and safety trials, two for tinea pedis and one for tinea cruris, would be adequate to support the expanded indication of tinea pedis, tinea cruris, and tinea corporis. Following the meeting, the sponsor submitted the Phase 3 protocol MP-1000-01 (Study 01) in tinea cruris for a special protocol assessment. An SPA agreement letter for tinea cruris was issued on 2/17/2011. The two protocols for tinea pedis were identical and re-numbered as MP-1000-02 (Study 02) and MP-1000-03 (Study 03).
+L22: The study design for tinea pedis (Study 02 and Study 03) and tinea cruris (Study 01) were similar. Per the two SPA agreement letters dated 7/7/2010 for tinea pedis and 2/17/2011 for tinea cruris, agreement was reached regarding the general study design, primary endpoint, inclusion/exclusion criteria, definition of the primary analysis population, primary method for handling missing data, primary analysis method, and multiplicity adjustment method for the secondary endpoints. Protocol MP-1000-01 and Protocol MP-1000-02 (MP-1000-03) were amended on 4/8/2011 and 7/14/2011 after the SPA letters to address the non-agreement items of including details of conducting the multiple imputations and using a repeated measures logistic regression, along with the Generalized Estimating equation (GEE) modeling approach as a sensitivity analysis.
+L23: In addition to the three Phase 3 pivotal studies, the clinical development plan of the proposed product also includes a long-term safety study (MP-1005) and a Phase 2 dose ranging study (TP-0801). This review will focus on the three Phase 3 pivotal studies submitted to establish the efficacy and safety claims. An overview of the clinical studies is presented in Table 2.
+L24: **Table 2: Clinical Study Overview**
+L25: Phase and Design	Treatment Dose and duration	# of MITT Subjects per arm	Study Population	Study Centers
+MP-1000-01	Phase 3, multi-center, double-blind, vehicle controlled	q.d. for 7 days	Luliconazole 165
+Vehicle 91	tinea cruris	23 (US)
+1 (PR(1))
+3 (CA(1))
+MP-1000-02	Phase 3, multi-center, double-blind, vehicle controlled	q.d. for 14 days	Luliconazole 106
+Vehicle 103	interdigital tinea pedis	11 (US)
+1 (PR)
+MP-1000-03	Phase 3, multi-center, double-blind, vehicle controlled	q.d. for 14 days	Luliconazole 107
+Vehicle 107	interdigital tinea pedis	12 (US)
+2 (CA)
+MP-1005	Phase 3, long-term safety study	q.d. for 7 or 14 days	Luliconazole 604	interdigital tinea pedis, tinea cruris or tinea corporis	33 (US)
+1 (PR)
+4 (CA)
+TP-0801	Phase 2, dose ranging study	q.d. for 14 or 28 days	Luliconazole(2) 76
+Vehicle(2) 42	interdigital tinea pedis	5 (US)
+L26: (1) PR=Puerto Rico, CA=Central America
+L27: (2) Luliconazole (vehicle) were applied in 14 (41 in active, 22 in vehicle) and 28 days (35 in active and 20 in vehicle);
+L28: ## 2.2 Data Sources
+L29: This reviewer evaluated the applicant's clinical study reports, datasets, and proposed labeling. This submission was submitted in eCTD format and was entirely electronic. Both study data tabulation (SDTM) datasets and analysis datasets were submitted. The datasets used in this review are archived at \cdsesub1\evsprod\NDA204153\0000\m5\datasets.
+L30: ## 3 STATISTICAL EVALUATION
+L31: ## 3.1 Data and Analysis Quality
+L32: The sponsor submitted electronic analysis datasets for review. The primary efficacy analyses can be conducted using the submitted analysis datasets, which required minimal data management prior to performing analyses. There were no requests for additional datasets made to the sponsor.
+L33: ## 3.2 Evaluation of Efficacy
+L34: The sponsor's original development plan was for the indication of tinea pedis only. After the SPA agreement was reached in treating tinea pedis, the sponsor proposed to expand the indication to include tinea cruris and tinea corporis. An additional End-of-Phase 2 meeting was held on 10/27/2010 and it was agreed that two pivotal trials (MP-1000-02 and MP-1000-03) in subjects with tinea pedis and one pivotal trial (MP-1000-01) in subjects with tinea cruris would be adequate to support the expanded indication of tinea pedis, tinea cruris, and tinea corporis. This review will discuss the efficacy results for tinea pedis (Studies 02 and 03) first, followed by the efficacy results for tinea cruris (Study 01).
+L35: ## 3.2.1 Study Design and Endpoints
+L36: ## Study 02 and Study 03 (Tinea Pedis)
+L37: Both Study 02 and Study 03 were randomized, multi-center, double-blind, vehicle-controlled studies evaluating the efficacy and safety of luliconazole cream 1% for the treatment of tinea pedis. Study 02 enrolled 321 subjects from 12 centers to have 209 subjects (106 luliconazole, 103 vehicle) in the MITT population and Study 03 enrolled 322 subjects from 14 centers to have 214 (107 luliconazole, 107 vehicle) subjects in the MITT population. Both studies enrolled subjects aged 12 years or older with a clinical diagnosis of interdigital tinea pedis (moderate erythema, moderate scaling, and mild pruritus) on one or both feet and a positive potassium hydroxide (KOH). Subjects were randomized in equal proportion within each study center using a block size of four. Enrolled subjects were required to have a positive fungal culture to be eligible for the MITT population. Subjects applied the study medication once daily for 14 days, followed by a 28-day post-treatment follow up period. Subjects were evaluated at baseline, Day 14, Day 28 and Day 42 for each sign and symptom (erythema, scaling, and pruritus). The scales for the signs and symptoms are presented in Table 3.
+L38: **Table 3. Signs and Symptoms**
+L39: Scaling:	
+0	None No scaling
+1	Mild Barely perceptible, fine scales present
+2	Moderate Fine scale generalized to all areas
+3	Severe Scaling and peeling of skin
+Erythema	
+0	None No evidence of erythema present
+1	Mild Slight pink coloration
+2	Moderate Definite redness
+3	Severe Marked erythema, bright red to dusky dark red in color
+Pruritus:	
+0	None No itching
+1	Mild Slight itching, not really bothersome
+2	Moderate Definite itching that is somewhat bothersome
+3	Severe Intense itching that may interrupt daily activities and/or sleep
+L40: The protocol specified primary endpoint was the proportion of subjects achieving “complete clearance” at Day 42. “Complete clearance” was defined as both “mycological cure” (negative KOH and negative fungal culture) and “clinical cure” (scores of 0 on each individual signs for erythema, scaling, and pruritus).
+L41: The protocol specified four secondary endpoints as follows:
+L42: - Proportion of subjects who achieve “effective treatment” (defined as negative KOH and culture and at most mild erythema and/or scaling and no pruritus) at Day 42;
+- The proportion of subjects who achieve “complete clearance” at Day 28;
+- The proportion of subjects who achieve “mycological cure” (negative KOH and culture) at Day 42;
+- The proportion of subjects who achieve “clinical cure” at Day 42.
+L43: According to the SPA agreement letter sent on 7/7/2010, the protocol specified primary endpoint was in agreement with the Division. The letter also stated that whether any of the secondary endpoints were appropriate for labeling would be a review issue.
+L44: ## Study 01 (Tinea Cruris)
+L45: Study 01 was a randomized, multi-center, double-blind, vehicle-controlled studies evaluating the efficacy and safety of luliconazole cream 1% for the treatment of tinea cruris. Study 01 randomized 483 subjects aged 12 years or older from 27 centers to have 256 subjects (165 luliconazole, 91 vehicle) in the MITT population. For enrollment, subjects were required to have a clinical diagnosis of tinea cruris characterized by moderate erythema, mild scaling, and moderate pruritus with a positive potassium hydroxide (KOH). Subjects were randomized in a ratio of 2:1 to receive luliconazole cream 1% or the vehicle cream. The randomization was conducted within each study center using a block size of 6. Enrolled subjects were required to have a positive fungal culture to be eligible for the MITT population. Subjects applied the study medication once daily for 7 days, followed by a 28-day post-treatment follow up period. Subjects were evaluated at baseline, Day 7, Day 14, Day 21 and Day 28 for each sign and symptom (erythema, scaling, and pruritus) presented in Table 3.
+L46: For the tinea cruris indication, the protocol specified primary endpoint was the proportion of subjects achieving “complete clearance” at Day 28. “Complete clearance” was defined as both “mycological cure” (negative KOH and negative fungal culture) and “clinical cure” (scores of 0 on each individual signs for erythema, scaling, and pruritus).
+L47: The protocol specified six secondary endpoints as follows:
+L48: - Proportion of subjects who achieved “effective treatment” (defined as negative KOH and fungal culture and at most mild erythema and/or scaling and no pruritus) at Day 28
+- Proportion of subjects who achieved “clinical cure” at Day 28
+- Proportion of subjects who achieved “mycological cure” at Day 28
+- Proportion of subjects who achieved “effective treatment” at Day 21
+- Proportion of subjects who achieved “effective treatment” at Day 14
+- Proportion of subjects who achieved “effective treatment” at Day 7
+L49: ## 3.2.2 Statistical Methodologies
+L50: For all three studies 01, 02, and 03, the primary efficacy analysis was based on the MITT population defined as all subjects randomized and dispensed medication with positive baseline KOH and fungal cultures. Supportive analysis was based on the per protocol (PP) population defined as the MITT subjects who have completed end of treatment and post-treatment evaluation without any major study protocol violations.
+L51: The primary and secondary endpoints were analyzed with the protocol pre-specified analysis method, Cochran-Mantel-Haenszel (CMH) test stratified by analysis center. Centers with fewer than 4 subjects per treatment arm were pooled with other centers starting from the smallest center combined with the largest center within the same geographic location. Treatment-by-center interaction was evaluated with the Breslow-Day test at the significance level of 0.1. A sequential testing approach was used for multiplicity adjustment for the secondary endpoints.
+L52: For handling missing data, the last observation carried forward (LOCF) was used as the primary imputation method. Three sensitivity analyses were planned for imputing missing values. In the first analysis all missing values were imputed as treatment failure. In the second analysis, multiple imputation method was used for missing data imputation. In the third analysis, repeated measures logistic regression model with treatment group and visits (Days 7, 14, 21, and 28 for Study 1, and Days 14, 28, and 42 for Studies 02 and 03) as independent factors was used for the analysis.
+L53: ## 3.2.3 Patient Disposition, Demographic and Baseline Characteristics
+L54: ## Study 02 and Study 03 (Tinea Pedis)
+L55: Study 02 randomized 321 subjects and had 209 subjects (106 luliconazole, 103 vehicle) in the MITT population. Study 03 randomized 322 subjects and had 214 (107 luliconazole, 107 vehicle) subjects in the MITT population. Subject discontinuation rate of Luliconazole cream 1% was comparable to that of vehicle in Study 02 and slightly lower than that of vehicle (6% vs. 13%) in Study 03. The most common reason for discontinuation was lost to follow up. Only one subject in Study 02 dropped out due to an adverse event. This subject was randomized to the vehicle arm. Reasons for study discontinuation are presented in Table 4.
+L56: **Table 4. Subjects Disposition for Tinea Pedis Subjects**
+L57: Study 02	Study 03
+Luliconazole	Vehicle	Luliconazole	Vehicle
+Subjects randomized	159	162	160	162
+MITT(1) Subjects	106	103	107	107
+Completed	94 (89%)	91 (88%)	101 (94%)	93 (87%)
+Discontinued(2)	12 (11%)	12 (12%)	6 (6%)	14 (13%)
+Reasons for Discontinuation
+Adverse Event	0	1 (1%)	0	0
+Lost to follow up	7 (6%)	8 (8%)	6 (6%)	12 (11%)
+Subject withdrawal	1 (1%)	3 (3%)	0	0
+Protocol violation	2 (2%)	0	0	0
+Physician decision	2 (2%)	0	0	1 (1%)
+Other	0	0	0	1 (1%)
+L58: Source: Reviewer analysis.
+L59: (1) MITT was defined as all randomized subjects with positive baseline KOH and fungal cultures
+L60: (2) Discontinued subjects include subjects dropped out during the treatment period or follow up period.
+L61: Baseline Characteristics including age, gender, and race are presented in Table 5. Both studies were evenly balanced across treatment arms in terms of age. The majority (82%) of the MITT subjects were male. Approximately 52% of MITT subjects were white and 40% of MITT subjects were African American.
+L62: **Table 5. Demographics for Tinea Pedis Subjects**
+L63: Study 02	Study 03
+Luliconazole	Vehicle	Luliconazole	Vehicle
+MITT(1) Subjects	106	103	107	107
+Age	
+Mean (SD)	40 (13)	37 (14)	44 (14)	41 (13)
+Median	40	36	46	40
+Range	20 - 70	13 - 74	16 - 78	14 - 71
+Gender	
+Male	90 (85%)	89 (86%)	82 (77%)	84 (78%)
+Female	16 (15%)	14 (14%)	25 (23%)	23 (22%)
+Race	
+White	55 (52%)	56 (54%)	61 (57%)	50 (47%)
+African American	38 (36%)	31 (30%)	46 (43%)	56 (52%)
+Other(2)	13 (12%)	16 (16%)	0	1 (1%)
+L64: Source: Page 68 (Study 02) and Page 64 (Study 03) of sponsor's clinical study report.
+L65: (1) MITT was defined as all randomized subjects with positive baseline KOH and fungal cultures
+L66: (2) Other includes Persian, Asian, Multiple, American Indian or Alaska Native.
+L67: Baseline disease severity as assessed in terms of signs and symptoms are presented in Table 6. Both studies were balanced across treatment arms with respect to the baseline disease severity.
+L68: The majority of the MITT subjects had a rating of “moderate” in erythema (approximately 83% on average).
+L69: **Table 6. Baseline Disease Severity for Tinea Pedis Subjects**
+L70: Study 02	Study 03
+Luliconazole	Vehicle	Luliconazole	Vehicle
+MITT(1) Subjects	106	103	107	107
+Erythema	
+2 - Moderate	80 (76%)	77 (75%)	98 (92%)	96 (90%)
+3 - Severe	26 (24%)	26 (25%)	9 (8%)	11 (10%)
+Scaling	
+2 - Moderate	58 (55%)	52 (50%)	75 (70%)	63 (59%)
+3 - Severe	48 (45%)	51 (50%)	32 (30%)	44 (41%)
+Pruritus	
+1 - Mild	23 (22%)	14 (14%)	18 (17%)	13 (12%)
+2 - Moderate	52 (49%)	60 (58%)	66 (62%)	62 (58%)
+3 - Severe	31 (29%)	29 (28%)	23 (21%)	32 (30%)
+L71: Source: Page 70 (Study 02) and Page 66 (Study 03) of sponsor's clinical study report.
+L72: (1) MITT was defined as all randomized subjects with positive baseline KOH and fungal cultures
+L73: ## Study 01(Tinea Cruris)
+L74: Study 01 randomized 483 subjects and had 256 subjects (165 luliconazole, 91 vehicle) in the MITT population. Subject discontinuation rate of Luliconazole cream 1% was less than vehicle (5% vs. 12%). The most common reason for discontinuation was lost to follow up. No subject dropped out due to adverse event. Reasons for study discontinuations are presented in Table 7.
+L75: **Table 7. Subjects Disposition for Tinea Cruris Subjects (Study 01)**
+L76: Luliconazole	Vehicle
+Subjects randomized	318	165
+MITT(1) Subjects	165	91
+Completed	157 (95%)	80 (88%)
+Discontinued(2)	8 (5%)	11 (12%)
+Reasons for Discontinuation
+Adverse Event	0	0
+Lost to follow up	4 (2%)	3 (3%)
+Subject withdrawal	3 (2%)	3 (3%)
+Worsening of condition	0	4 (4%)
+Physician decision	1 (1%)	1 (1%)
+L77: Source: Reviewer analysis.
+L78: (1) MITT was defined as all randomized subjects with positive baseline KOH and fungal cultures
+L79: (2) Discontinued subjects include subjects dropped out during the treatment period or follow up period.
+L80: Baseline Characteristics including age, gender, and race are presented in Table 8. Both studies were evenly balanced across treatment arms in terms of age. The majority (82%) of the MITT subjects were male. Approximately 58% of MITT subjects were white and 34% of MITT subjects were African American.
+L81: **Table 8. Demographics for Tinea Cruris Subjects (Study 01)**
+L82: Luliconazole	Vehicle
+MITT(1) Subjects	165	91
+Age	
+Mean (SD)	41 (18)	39 (16)
+Median	41	40
+Range	14 - 88	16 - 87
+Gender	
+Male	137 (83%)	75 (82%)
+Female	28 (17%)	16 (18%)
+Race	
+White	98 (59%)	50 (55%)
+African American	52 (32%)	36 (40%)
+Other(2)	15 (9%)	5 (5%)
+L83: Source: Page 77 (Study 01) of sponsor's clinical study report.
+L84: (1) MITT was defined as all randomized subjects with positive baseline KOH and fungal cultures
+L85: (2) Other includes Native Hawaiian, Other Pacific Islander, American Indian, Alaska Native or Multiple.
+L86: Baseline disease severity as assessed in terms of the signs and symptoms are presented in Table 9. Both studies were balanced across treatment arms with respect to baseline disease severity. The majority of the MITT subjects had a rating of “moderate” in erythema (73%) and Scaling (64%).
+L87: **Table 9. Baseline Disease Severity for Tinea Cruris Subjects (Study 01)**
+L88: Luliconazole	Vehicle
+MITT(1) Subjects	165	91
+Erythema	
+2 - Moderate	118 (72%)	68 (75%)
+3 - Severe	47 (29%)	23 (25%)
+Scaling	
+1 - Mild	14 (9%)	7 (8%)
+2 - Moderate	101 (61%)	61 (67%)
+3 - Severe	50 (30%)	23 (25%)
+Pruritus	
+2 - Moderate	102 (62%)	50 (55%)
+3 - Severe	63 (38%)	41 (45%)
+L89: Source: Page 79 (Study 01) of sponsor's clinical study report.
+L90: (1) MITT was defined as all randomized subjects with positive baseline KOH and fungal cultures
+L91: ## 3.2.4 Results and Conclusions
+L92: For the indication of tinea pedis (Study 02 and 03), the primary endpoint was defined as the proportion of subjects achieving “complete clearance” at Day 42. “Complete clearance” was defined as both “mycological cure” (negative KOH and negative culture) and “clinical cure” (scores of 0 on each individual signs for erythema, scaling, and pruritus). For the indication of tinea cruris (Study 01), the primary endpoint was defined the same as for tinea pedis but was evaluated at a different time point of Day 28.
+L93: For all three studies, the primary endpoints of “complete clearance” were analyzed by CMH test, stratified by analysis center. The primary efficacy analysis was based on MITT population with missing data imputed using the LOCF method. Efficacy analysis based on the PP population (no missing data imputation) was used as supportive analysis. All three studies showed statistically significance based on both the MITT and the PP populations at the level of 0.05. The efficacy results for the primary endpoints are presented in Table 10.
+L94: **Table 10. Primary Efficacy Endpoints**
+L95: Luliconazole	Vehicle	Treatment Difference and its
+95% Confidence Interval	p-value(3)
+Tinea Cruris (Study 01)
+MITT(1) population	35/165 (21.2%)	4/91 (4.4%)	15.8%, (7.8%, 24.6%)	<0.001
+PP(2) population	29/134 (21.6%)	3/68 (4.4%)	17.2%, (7.2%, 26.0%)	<0.001
+Tinea Pedis (Study 02)
+MITT population	28/106 (26.4%)	2/103 (1.9%)	24.5%, (15.5%, 34%)	<0.001
+PP population	26/88 (30.0%)	2/80 (2.5%)	27.0%, (16.4%, 38.1%)	<0.001
+Tinea Pedis (Study 03)
+MITT population	15/107 (14.0%)	3/107 (2.8%)	11.2%, (3.7%, 19.5%)	<0.001
+PP population	11/66 (16.7%)	2/60 (3.3%)	13.3%, (2.6%, 24.8%)	0.004
+L96: Source: Page 73 (Study 02), Page 69 (Study 03), and Page 82 (Study 01) for MITT population, and Page 164 (Study 02), Page 147 (Study 03), and Page 198 (Study 01) for PP population of sponsor's clinical study report and reviewer analysis.
+L97: (1) MITT was defined as all randomized subjects with positive baseline KOH and fungal cultures.
+L98: (2) PP was defined as MITT subjects who completed end of treatment and post treatment evaluation without major protocol deviation.
+L99: (3) p-value was calculated from CMH test stratified by center
+L100: It should also be noted that the response rate of luliconazole in Study 02 (26.4% for the MITT and 30.0% for the PP) was twice as large as that in Study 03 (14.0% for the MITT and 16.7% for the PP). The response rate was 0 in several centers in Study 03 compared to those in Study 02. More details will be presented in Section 4.2 Efficacy by Center.
+L101: The sponsor conducted three sensitivity analyses for handling missing values, i.e., 1) missing imputed as failure, 2) missing imputed using multiple imputation, and 3) a repeated measures modeling approach using logistic regression model.
+L102: The following procedure was implemented for multiple imputation:
+L103: - Calculate the number of missing values (nmiss) for “complete clearance”.
+- The missing values were filled in ‘5 x nmiss’ times to generate ‘5 x nmiss’ complete data sets. A logistic regression model with treatment group as an independent variable was used for the imputation.
+- Each complete dataset was analyzed with a logistic regression with treatment group as an independent factor.
+- The results from these analyses were combined for a single inference.
+L104: For handling missing data with the repeated measures modeling approach using the logistic regression model, treatment groups and follow up visits were included as factors in the model. The results for the three sensitivity analyses are presented in Table 11. All three sensitivity analyses showed that luliconazole cream 1% was superior to vehicle at the two-sided significance level of 0.05.
+L105: **Table 11. Efficacy Results for Sensitivity Analysis for Handling Missing Data**
+L106: Luliconazole	Vehicle	p-value(3)
+Study 02 (Tinea Pedis) at Day 42	
+Missing imputed as failure	28/106 (26.4%)	2/103 (1.9%)	<0.001
+Multiple Imputation(1)	29.0%	2.2%	<0.001
+MMRM Modeling approach(2)	27.5%	3.7%	<0.001
+Study 03 (Tinea Pedis) at Day 42	
+Missing imputed as failure	15/107 (14.0%)	3/107 (2.8%)	<0.001
+Multiple Imputation	15.1%	3.2%	0.01
+MMRM Modeling approach	14.3%	3.7%	0.008
+Study 01 (Tinea Cruris) at Day 28	
+Missing imputed as failure	33/165 (20%)	4/91 (4.4%)	<0.001
+Multiple Imputation	21.2%	5.0%	0.003
+MMRM Modeling approach	18.7%	3.8%	<0.001
+L107: Source: Page 166 (Study 02), Page 153 (Study 03), and Page 194-195 (Study 01) of sponsor's clinical study report and reviewer analysis
+L108: (1) Multiple imputations using a logistic regression model with treatment group as an independent factor
+L109: (2) Repeated measures logistic regression (MMRM) model with treatment group and visits as independent factors
+L110: (3) p-value was calculated from CMH test stratified by center
+L111: For the tinea pedis indication, the protocols for Studies 02 and 03 specified four secondary endpoints as follows:
+L112: - Proportion of subjects who achieve “effective treatment” (defined as negative KOH and culture and at most mild erythema and/or scaling and no pruritus) at Day 42;
+- Proportion of subjects who achieve “complete clearance” at Day 28;
+- Proportion of subjects who achieve “mycological cure” (negative KOH and culture) at Day 42;
+- Proportion of subjects who achieve “clinical cure” at Day 42.
+L113: For the tinea cruris indication, the protocol for Study 01 specified six secondary endpoints as follows:
+L114: - Proportion of subjects who achieved “effective treatment” (defined as negative KOH and fungal culture and at most mild erythema and/or scaling and no pruritus) at Day 28
+- Proportion of subjects who achieved “clinical cure” at Day 28
+- Proportion of subjects who achieved “mycological cure” at Day 28
+- Proportion of subjects who achieved “effective treatment” at Day 21
+- Proportion of subjects who achieved “effective treatment” at Day 14
+- Proportion of subjects who achieved “effective treatment” at Day 7
+L115: According to the SPA agreement letter sent on 7/7/2010, the protocol specified primary endpoint was in agreement with the Division. Whether any of the secondary endpoints were appropriate for labeling would be a review issue. It should be noted that the sponsor’s proposed labeling does include the secondary endpoints.
+L116: Secondary endpoints were analyzed based on the MITT population with missing data imputed using the LOCF method. The efficacy results for the secondary endpoints are presented in Table 12. All secondary endpoints showed statistically significant at the level of 0.05 except “complete clearance” rate at Day 28 in Study 03 and “effective treatment” respond rate at Day 7 in Study 01.
+L117: **Table 12. Efficacy Results for Secondary Endpoints (MITT, LOCF)**
+L118: Luliconazole	Vehicle	p-value(3)
+Tinea Pedis (Study 02)
+Effective Treatment(1)	51/106 (48.1%)	10/103 (9.7%)	<0.001
+Clinical cure(1)	31/106 (29.2%)	8/103 (7.8%)	<0.001
+Mycological Cure(1)	66/106 (62.3%)	18/103 (17.5%)	<0.001
+Complete Clearance(1)	15/106 (14.2%)	2/103 (1.9%)	0.001
+Tinea Pedis (Study 03)
+Effective Treatment	35/107 (32.7%)	16/107 (15%)	<0.001
+Clinical cure	16/107 (15%)	4/107 (3.7%)	<0.001
+Mycological Cure	60/107 (56.1%)	29/107 (27.1%)	<0.001
+Complete Clearance	10/107 (9.3%)	4/107 (3.7%)	0.055
+Tinea Cruris (Study 01)
+Effective Treatment(2)	71/165 (43%)	17/91 (18.7%)	<0.001
+Clinical cure(2)	40/165 (24.2%)	6/91 (6.6%)	<0.001
+Mycological Cure(2)	129/165 (78.2%)	41/91 (45.1%)	<0.001
+Effective Treatment at Day 21	64/165 (38.8%)	13/91 (14.3%)	<0.001
+Effective Treatment at Day 14	43/165 (26.1%)	11/91 (12.1%)	0.012
+Effective Treatment at Day 7	25/165 (15.2%)	6/91 (6.6%)	0.056
+L119: Source: Page 75 (Study 02), Page 71 (Study 03), and Page 65 (Study 01) of sponsor's clinical study report and reviewer analysis
+L120: (1) For tinea pedis subjects, secondary endpoints of effective treatment, clinical cure, and mycological cure were evaluated at Day 42; Secondary endpoint of complete clearance was evaluated at Day 28.
+L121: (2) For Tinea cruris subjects, secondary endpoints of effective treatment, clinical cure, and mycological cure were evaluated at Day 28;
+L122: (3) p-value was calculated from CMH test stratified by center
+L123: ## 3.3 Evaluation of Safety
+L124: Evaluation of safety was based on all randomized subjects who received at least one application and had at least one post-baseline evaluation. Table 13 presents summary of adverse events (AEs) occurring in at least 1% of all subjects per treatment arm.
+L125: **Table 13. Adverse Events Occurring in at Least 1% of All Subjects per Treatment Arm**
+L126: Adverse Events	Study 01	Study 02	Study 03
+Luliconazole
+N=311	Vehicle
+N=160	Luliconazole
+N=152	Vehicle
+N=153	Luliconazole
+N=153	Vehicle
+N=153
+Infections and infestations	16 (5.1%)	3 (1.9%)	5 (3.3%)	5 (3.3%)	6 (3.9%)	4 (2.6%)
+Nervous system disorders	5 (1.6%)	5 (3.1%)	2 (1.3%)	1 (0.7%)	5 (3.3%)	2 (1.3%)
+Reproductive system and breast disorders	3 (1.0%)	2 (1.3%)	1 (0.7%)	0	0	0
+General disorders and administration site conditions	2 (0.6%)	4 (2.5%)	8 (5.3%)	7 (4.6%)	0	0
+Investigations	2 (0.6%)	3 (1.9%)	2 (1.3%)	6 (3.9%)	0	0
+Musculoskeletal and connective tissue disorders	2 (0.6%)	2 (1.3%)	3 (2.0%)	2 (1.3%)	2 (1.3%)	2 (1.3%)
+Metabolism and nutrition disorders	2 (0.6%)	1 (0.6%)	0 (%)	2 (1.3%)	0	1 (0.7%)
+Skin and subcutaneous tissue disorders	2 (0.6%)	0	0 (%)	2 (1.3%)	0	0
+Gastrointestinal disorders	1 (0.3%)	1 (0.6%)	0	1 (0.7%)	4 (2.6%)	2 (1.3%)
+Injury, poisoning and procedural complication	1 (0.3%)	1 (0.6%)	1 (0.7%)	3 (2.0%)	2 (1.3%)	1 (0.7%)
+Respiratory, thoracic and mediastinal disorders	0	3 (1.9%)	2 (1.3%)	2 (1.3%)	0	1 (0.7%)
+L127: Source: Page 100 (Study 01), Page 86 (Study 02), and Page 85 (Study 03) of sponsor's clinical study report.
+L128: ## 4 FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L129: Subgroup analyses conducted in regards to gender, race, and age are presented in Section 4.1. Efficacy results by investigational centers and baseline disease severity are presented in Section 4.2 and 4.3, respectively.
+L130: ## 4.1 Efficacy by Gender, Age, and Race
+L131: Subgroup analysis for the primary endpoint of “complete cure” was investigated for gender (male, female), Age (&lt;median age, ≥median age), and race (white, black, other). The results for each subgroup are presented in Table 15.
+L132: **Table 15. Efficacy Results for Complete Cure Rate by Age, Gender and Race**
+L133: Tinea Pedis (Study 02)	Tinea Pedis (Study 03)	Tinea Cruris (Study 01)
+Luliconazole	Vehicle	Luliconazole	Vehicle	Luliconazole	Vehicle
+MITT(1)	106	103	107	107	165	91
+Gender	
+Male	21/90 (23%)	1/89 (1%)	11/82 (13%)	2/84 (2%)	29/137 (21%)	3/75 (4%)
+Female	7/16 (44%)	1/14 (7%)	4/25 (16%)	1/23 (4%)	6/28 (21%)	1/16 (6%)
+Age	
+< Median	18/50 (36%)	1/54 (2%)	8/45 (18%)	2/58 (3%)	10/82 (12%)	1/46 (2%)
+≥ Median	10/56 (18%)	1/49 (2%)	7/62 (11%)	1/49 (2%)	25/83 (30%)	3/45 (7%)
+Race	
+White	22/55 (40%)	2/56 (4%)	10/61 (16%)	0/50 (0%)	19/98 (20%)	0/50 (0%)
+Black	2/38 (5%)	0/31 (0%)	5/46 (11%)	3/56 (5%)	10/52 (19%)	4/36 (11%)
+Other(2)	4/13 (31%)	0/16 (0%)	-	0/1 (0%)	6/15 (40%)	0/5 (0%)
+L134: Source: Page 193-197 (Study 02), Page 179-183 (Study 03), and Page 231-235 (Study 01) of sponsor's clinical study report
+L135: (1) MITT was defined as all randomized subjects with positive baseline KOH and fungal cultures.
+L136: (2) Other includes Native Hawaiian, Other Pacific Islander, American Indian, Alaska Native or Multiple.
+L137: For the efficacy by gender, it appears that there was a trend showing female has higher success rate than male for subjects with tinea pedis. However, as approximately 82% of the subjects enrolled were male, the number of female subjects was too small to draw any reasonable conclusion.
+L138: For subjects with tinea pedis (Study 02 and Study 03), younger age group (&lt;median age) showed a trend of higher response rate than the older age group (≥median age); however, this pattern was reversed for subjects with tinea cruris (Study 01). For the efficacy by race, White subjects showed a small trend of higher response rate than Black subjects.
+L139: ## 4.2 Efficacy by Center
+L140: The center-by-center efficacy results, ordered by the magnitude of treatment effect, are presented in Figure 1 through Figure 3 in the Appendix. As previously noted, treatment effect in Study 02 (24.5% for MITT and 27% for PP) was twice as large as that in Study 03 (11.2% for MITT and 13.3% for PP). Further investigation of the center-by-center variability showed that only 1 out of 11 study sites showed 0 treatment effect in Study 02, in contrast to 7 out of 14 study sites in Study 03. The two Central American sites (Site 14 and Site 15) in Study 03 enrolled relatively large number of MITT subjects (26 in Site 14 and 42 in Site 15) however these sites had relatively low treatment effect (3.75% in Site 14 and 0% in Site 15).
+L141: To investigate the center-by-center variability, the Breslow-Day test was conducted at the significance level of 0.1. The test was not statistically significant for Study 02 and Study 03;
+L142: however, the test result was statistically significant (p-value&lt;0.1) for Study 01. Further examination showed that study Site 10 in Study 01 showed a negative treatment effect (36% for vehicle vs. 13% for luliconazole).
+L143: ## 4.3 Efficacy by Baseline Disease Severity
+L144: The efficacy by baseline disease severity assessed in terms of signs and symptoms are presented in Table 17.
+L145: **Table 17. Efficacy Results for Complete Cure Rate by Baseline Disease Severity**
+L146: Tinea Pedis (Study 02)	Tinea Pedis (Study 03)	Tinea Cruris (Study 01)
+Luliconazole	Vehicle	Luliconazole	Vehicle	Luliconazole	Vehicle
+MITT(1)	106	103	107	107	165	91
+Erythema	
+2 - Moderate	24/80 (30%)	1/77 (1%)	15/98 (15%)	3/96 (3%)	30/118(25%)	4/68 (6%)
+3 - Severe	4/26 (15%)	1/26 (4%)	0/9 (0%)	0/11 (0%)	5/47 (11%)	0/23 (0%)
+Scaling	
+1 - Mild	-	-	-	-	2/14 (14%)	1/7 (14%)
+2 - Moderate	21/58 (36%)	1/52 (2%)	12/75 (16%)	3/63 (5%)	30/101(30%)	2/61 (3%)
+3 - Severe	7/48 (15%)	1/51 (2%)	3/32 (9%)	0/44 (0%)	3/50 (6%)	1/23 (4%)
+Pruritus	
+1 - Mild	8/23 (35%)	0/14(0%)	4/18 (22%)	0/13 (0%)	-	-
+2 - Moderate	13/52 (25%)	2/60(3%)	9/66 (14%)	3/62 (5%)	22/102(22%)	3/50 (6%)
+3 - Severe	7/31 (23%)	0/29 (0%)	2/23 (9%)	0/32 (0%)	13/63 (21%)	1/41 (2%)
+L147: Source: Page 198-200 (Study 02), Page 185-187 (Study 03), and Page 237-239 (Study 01) of sponsor's clinical study report
+L148: (1) MITT was defined as all randomized subjects with positive baseline KOH and fungal cultures.
+L149: For all three studies, most subjects were enrolled with moderate erythema, scaling, and pruritus. The response rate for these subjects was higher than subjects enrolled with severe erythema, scaling, and pruritus.
+L150: ## 5 SUMMARY AND CONCLUSIONS
+L151: ## 5.1 Statistical Issues
+L152: There are no major statistical issues affecting the overall conclusion. For tinea pedis, it should be noted that the treatment effect in Study 02 (24.5% on MITT and 27% on PP) was twice as large as that in Study 03 (11.2% on MITT and 13.3% on PP). In Study 02, only one out of 11 study sites showed 0 treatment effect, in contrast to 7 out of 14 study sites in Study 03. The two Central America sites (Site 14 and Site 15) in Study 03 enrolled 68 MITT subjects, accounting for approximately 1/3 of the total MITT population in Study 03 however only Site 14 contributed a small treatment effect of 3.75%.
+L153: Treatment effects across centers were generally consistent. The Breslow-Day test showed that the treatment by site interaction was statistically significant at 0.1 level for Study 01. Further
+L154: investigation showed that Site 10 in Study 01 presented a negative treatment effect (10% for luliconazole vs. 33% for vehicle).
+L155: ## 5.2 Collective Evidence
+L156: The sponsor is developing Luliconazole cream 1% for treating tinea pedis, tinea cruris, and tinea corporis. Per the Agency's recommendation, the sponsor conducted three pivotal trials, two (MP-1000-02 and MP-1000-03) for tinea pedis and one (MP-1000-01) for tinea cruris, in support of the NDA filing. Agreement was reached regarding the general study design, patient population, primary endpoint and statistical analysis according to the SPA agreement letters dated 7/7/2010 and 2/17/2011 for tinea pedis and tinea cruris, respectively.
+L157: The primary efficacy endpoint was defined as “complete clearance” at Day 28 for treating tinea cruris and Day 42 for treating tinea pedis. “Complete clearance” was defined as both “mycological cure” (negative KOH and negative fungal culture) and “clinical cure” (scores of 0 on each individual signs for erythema, scaling, and pruritus). The proposed secondary endpoints included “clinical cure”, “mycological cure”, and “effective treatment” (negative KOH and fungal culture and at most mild erythema and/or scaling and no pruritus). A sequential testing procedure was used to control the Type I error rate for secondary endpoints.
+L158: Randomization of all three studies was stratified by center. The CMH test controlled for analysis center was used for analyzing the primary and secondary endpoints. The primary analysis was based on the MITT population including all randomized subjects with positive KOH and fungal culture. Supportive analysis was conducted based on the per-protocol (PP) population.
+L159: Approximately 8% of the MITT subjects dropped out from luliconazole arm and 11% dropped out from the vehicle arm. The main reason for dropping out was lost to follow up. The last observation carried forward (LOCF) approach was used as the primary method for handling missing data. Sensitivity analyses were conducted with missing data imputed as failure, as well as using multiple imputation, and repeated measures logistic regression model. In all these cases, Luliconazole cream 1% was superior to vehicle cream. Overall, Luliconazole cream 1% has demonstrated its superiority over vehicle in all three studies.
+L160: ## 5.3 Conclusions and Recommendations
+L161: Efficacy findings from the three pivotal trials (Study 01, Study 02 and Study 03) established that Luliconazole 1% cream was superior to vehicle gel in the treatment of tinea pedis, tinea cruris, and tinea corporis.
+L162: ## APPENDIX
+L163: Figure 1. Efficacy by Center Results (Study 01)
+L164: Figure 2. Efficacy by Center Results (Study 02)
+L165: Figure 3. Efficacy by Center Results (Study 03)
+L166: ## SIGNATURES/DISTRIBUTION LIST
+L167: Primary Statistical Reviewer: Yuqing Tang, Ph.D.
+Date: June 28, 2013
+L168: Statistical Team Leader: Mohamed ALOSH, Ph.D.
+Date: June 28, 2013
+L169: cc:
+L170: DDDP/Walker
+DDDP/Kettl
+DDDP/Chiang
+DDDP/Gould
+DDDP/Phillips
+OBIO/Patrician
+DBIII/Wilson
+DBIII/Alosh
+DBIII/Tang
+L171: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L172: /s/
+L173: YUQING TANG
+L174: 06/28/2013
+L175: MOHAMED A ALOSH
+L176: 06/28/2013
+L177: ## STATISTICS FILING CHECKLIST FOR A NEW NDA/BLA
+L178: NDA Number: 204153 Applicant: Medicis Pharmaceutical Corp. Stamp Date: 12/11/2012
+Drug Name: Iuliconazole NDA/BLA Type: NDA
+Cream 1%
+L179: On **initial** overview of the NDA/BLA application for RTF:
+L180: Content Parameter	Yes	No	NA	Comments
+1	Index is sufficient to locate necessary reports, tables, data, etc.	X	
+2	ISS, ISE, and complete study reports are available (including original protocols, subsequent amendments, etc.)	X	
+3	Safety and efficacy were investigated for gender, racial, and geriatric subgroups investigated (if applicable).	X	
+4	Data sets in EDR are accessible and do they conform to applicable guidances (e.g., existence of define.pdf file for data sets).	X
+L181: IS THE STATISTICAL SECTION OF THE APPLICATION FILEABLE? Yes
+L182: If the NDA/BLA is not filable from the statistical perspective, state the reasons and provide comments to be sent to the Applicant.
+L183: Please identify and list any potential review issues to be forwarded to the Applicant for the 74-day letter.
+L184: Content Parameter (possible review concerns for 74-day letter)	Yes	No	NA	Comment
+Designs utilized are appropriate for the indications requested.	X	
+Endpoints and methods of analysis are specified in the protocols/statistical analysis plans.	X	
+Interim analyses (if present) were pre-specified in the protocol and appropriate adjustments in significance level made. DSMB meeting minutes and data are available.	X	
+Appropriate references for novel statistical methodology (if present) are included.	X	
+Safety data organized to permit analyses across clinical trials in the NDA/BLA.	X	
+Investigation of effect of dropouts on statistical analyses as described by applicant appears adequate.	X
+L185: File name: Stat_filing_checklist_204153
+L186: ## STATISTICS FILING CHECKLIST FOR A NEW NDA/BLA
+L187: Yuqing Tang	1/25/2012
+Reviewing Statistician	Date
+Mohamed Aloh	1/25/2012
+Team Leader	Date
+L188: File name: Stat_filing_checklist_204153
+L189: Reference ID: 3253005
+L190: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L191: /s/
+L192: YUQING TANG
+L193: 01/30/2013
+L194: MOHAMED A ALOSH
+L195: 01/30/2013
+L196: Figure 1 is a scatter plot showing Complete Clearance Rate (%) versus Study Sites for Study 01, comparing 'Vehicle Cream' (circles) and 'Miconazole Cream 1%' (triangles). The Y-axis ranges from 0 to 100%. The X-axis lists Study Sites 1 through 27.
+Legend: Treatment
+Vehicle Cream (O)
+Miconazole Cream 1% (\Delta)
+Data points for Study 01:
+Study Site	Vehicle Cream (O)	Miconazole Cream 1% (\Delta)
+1	40	23
+2	7	8
+3	2	2
+4	2	1
+5	2	1
+6	2	1
+7	2	2
+8	2	2
+9	4	8
+10	6	16
+11	6	9
+12	1	2
+13	1	2
+14	1	4
+15	1	4
+16	1	17
+17	1	35
+18	1	2
+19	1	2
+20	1	2
+21	1	2
+22	1	2
+23	1	2
+24	1	2
+25	1	2
+26	1	2
+27	1	2
+L197: Figure 2 is a scatter plot showing Complete Clearance Rate (%) versus Study Sites for Study 02, comparing 'Vehicle Cream' (circles) and 'Miconazole Cream 1%' (triangles). The Y-axis ranges from 0 to 100%. The X-axis lists Study Sites 1 through 14.
+Legend: Treatment
+Vehicle Cream (O)
+Miconazole Cream 1% (\Delta)
+Data points for Study 02:
+Study Site	Vehicle Cream (O)	Miconazole Cream 1% (\Delta)
+1	11	10
+2	16	11
+3	9	14
+4	11	9
+5	8	11
+6	18	18
+7	8	11
+8	10	14
+9	1	2
+10	11	9
+11	10	4
+12	10	13
+13	2	4
+14	6	9
+L198: Scatter plot showing Complete Clearance Rate (%) versus Study Sites for Study 03, comparing Vehicle Cream (O) and Miconazole Cream 1% (▲).
+Legend:
+Treatment
+O: Vehicle Cream
+▲: Miconazole Cream 1%
+Data points (Study Site, Vehicle Cream Clearance Rate (%), Miconazole Cream 1% Clearance Rate (%)):
+Study Site	Vehicle Cream	Miconazole Cream 1%
+2	17	12
+7	3	2
+8	5	8
+9	3	4
+11	3	5
+14	10	12
+4	4	16
+5	4	3
+6	3	1
+10	12	12
+12	3	1
+13	8	7
+15	21	21

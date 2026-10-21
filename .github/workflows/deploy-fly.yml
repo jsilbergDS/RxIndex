@@ -1,0 +1,38 @@
+name: Deploy to Fly.io
+
+# Every push to main (a merged PR) re-renders the cards from data/cards_single/ and
+# deploys https://rxindex-cards.fly.dev/. The app serves data/cards_new/, which is
+# derived, so the render runs here to make sure merged edits reach the site.
+# Needs repo secret FLY_API_TOKEN (app-scoped deploy token for rxindex-cards).
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}     # manual "Run workflow" button in the Actions tab
+
+concurrency:
+  group: deploy-fly
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Render cards
+        run: python convert_single_to_app.py
+
+      - uses: superfly/flyctl-actions/setup-flyctl@master
+
+      - name: Deploy
+        run: flyctl deploy --remote-only
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}

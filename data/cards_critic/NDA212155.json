@@ -1,0 +1,42 @@
+{
+  "app": "NDA212155",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "target_moa",
+      "severity": "low",
+      "issue": "False-positive flag: '18' is part of the radionuclide identifier 'F 18', not an efficacy/safety number."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive flag: '9' patients is supported by the citation which spells it 'nine (10%) of 90 patients'."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "False-positive flag: '212155' is the NDA application number (an identifier), not an efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "target_moa",
+        "number": "18",
+        "text": "Fluoroestradiol F 18 is a fluorinated synthetic derivative of 17\u03b2-estradiol that"
+      },
+      {
+        "field": "key_safety",
+        "number": "9",
+        "text": "Safety evaluated in published studies of 1207 patients; reported adverse reactio"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "212155",
+        "text": "Cerianna was approved as an original 505(b)(2) NDA (NDA 212155) under standard r"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

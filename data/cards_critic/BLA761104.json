@@ -1,0 +1,42 @@
+{
+  "app": "BLA761104",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval/detail",
+      "severity": "low",
+      "issue": "Uncited number '761104' is the application number (identifier), a false-positive flag."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "Uncited number '1053' is the study identifier, a false-positive flag."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "Uncited number '3' appears only within '1053'/designation-count context and is a false-positive flag (not an efficacy/safety statistic)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "761104",
+        "text": "BLA 761104 was approved effective the date of the approval letter; the review te"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "LUMOXITI received regular (traditional) approval under a Priority review BLA sup"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1053",
+        "text": "LUMOXITI received regular (traditional) approval under a Priority review BLA sup"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

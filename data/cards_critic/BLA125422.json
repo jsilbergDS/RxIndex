@@ -1,0 +1,47 @@
+{
+  "app": "BLA125422",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Minor internal inconsistency: n text states ocriplasmin 219 (FAS) while the trial_name citation states 217 randomized; the 219 is supported by the FAS citation 'Full Analysis Set (FAS)107219326', so the uncited-number flag for 219 is a false positive."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: '28' refers to the 'Day 28' timepoint label (an endpoint descriptor), not an efficacy statistic, and is established by the endpoint citation."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive uncited-number flags: '125422' is the BLA application identifier and '3' derives from 'Phase 3' (supported by the pivotal-trial phase citations); neither is an efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "219",
+        "text": "326 (ocriplasmin 219, placebo 107 in Full Analysis Set)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "28",
+        "text": "VMA resolution at Day 28: 25.3% ocriplasmin vs 6.2% placebo; difference 19.1% (9"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "125422",
+        "text": "BLA 125422 for Jetrea (ocriplasmin) was received April 17, 2012 and granted a pr"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "BLA 125422 for Jetrea (ocriplasmin) was received April 17, 2012 and granted a pr"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

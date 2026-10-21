@@ -1,0 +1,23 @@
+{
+  "app": "NDA210589",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 321)",
+  "_raw": "Looking at the card, I'll check each area systematically.\n\n{\n \"app\": \"NDA210589\",\n \"release_ready\": true,\n \"issues\": [\n  {\n   \"field\": \"approval_program.summary\",\n   \"severity\": \"low\",\n   \"issue\": \"Automated flag for uncited numbers 34/35 is a false positive: these are study identifiers (Studies 34 ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "34",
+        "text": "Omegaven (NDA 210589) was reviewed under Priority Review, had Fast Track Designa"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "35",
+        "text": "Omegaven (NDA 210589) was reviewed under Priority Review, had Fast Track Designa"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

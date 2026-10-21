@@ -1,0 +1,42 @@
+{
+  "app": "NDA208462",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: '10' is part of the date 'July 10, 2015', not an efficacy/safety number."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: '208462' is the NDA application number, not an efficacy/safety figure."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: '3' comes from 'Phase 3' and is a study design descriptor, not an uncited efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "10",
+        "text": "Application received July 10, 2015 and approved November 20, 2015; no prior acti"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "208462",
+        "text": "NDA 208462 for ixazomib received priority review and had orphan drug designation"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "NDA 208462 for ixazomib received priority review and had orphan drug designation"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

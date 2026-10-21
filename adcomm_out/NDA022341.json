@@ -1,0 +1,227 @@
+{
+  "app": "NDA022341",
+  "drug": "VICTOZA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_10984008-3265-5cf8-86ce-0af729259000"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_287d6ac4-90eb-5275-bc6e-3a5457a85722"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Endocrinology and Metabolism Advisory Committee (EMDAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_10984008-3265-5cf8-86ce-0af729259000",
+      "line": 347,
+      "quote": "This NDA was presented before the Endocrinology and Metabolism Advisory Committee (EMDAC) on April 2, 2009."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_109840083265",
+      "found_lines": [
+        347
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "April 2, 2009",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_10984008-3265-5cf8-86ce-0af729259000",
+      "line": 347,
+      "quote": "This NDA was presented before the Endocrinology and Metabolism Advisory Committee (EMDAC) on April 2, 2009."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_109840083265",
+      "found_lines": [
+        347
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "No single up/down approval vote; the panel voted on four questions. On cardiovascular safety (Q1) the panel voted 8 Yes / 5 No that CV risk was acceptably ruled out. On whether the animal thyroid C-cell tumor findings were shown not relevant to humans (Q2) it voted 1 Yes / 12 No. On whether the C-cell tumor data permit marketing (Q3) it split 6 Yes / 6 No / 1 Abstain. On whether the papillary thyroid cancer data permit marketing (Q4) it voted 12 Yes / 0 No / 1 Abstain.",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_287d6ac4-90eb-5275-bc6e-3a5457a85722",
+      "line": 289,
+      "quote": "With regard to Question 3, six panel members voted \"yes\", six voted \"no\" and one abstained."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_287d6ac490eb",
+      "found_lines": [
+        289
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee was not persuaded that the rodent thyroid C-cell (medullary thyroid carcinoma) tumor findings were irrelevant to humans; those voting against marketing stated that the human risk of medullary thyroid carcinoma with liraglutide is unknown.",
+      "change": "The professional labeling was approved with a boxed warning describing the nonclinical C-cell tumor finding and its potential clinical risk.",
+      "category": "Safety / Boxed warning",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_287d6ac4-90eb-5275-bc6e-3a5457a85722",
+        "line": 291,
+        "quote": "Those voting \"no\" stated that the human risk of medullary thyroid carcinoma with liraglutide is unknown, that there are alternative anti-diabetic medications available, and that it was unclear whether liraglutide offers unique benefits in the treatment armamentarium for type 2 diabetes.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_287d6ac490eb",
+          "found_lines": [
+            291
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_10984008-3265-5cf8-86ce-0af729259000",
+        "line": 368,
+        "quote": "The professional labeling will have a boxed warning which will describe the nonclinical C-cell tumor finding and the potential clinical risk.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_109840083265",
+          "found_lines": [
+            368
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee voted overwhelmingly (1 Yes / 12 No on Q2) that the applicant had not shown the animal thyroid C-cell tumor findings to be irrelevant to humans, leaving residual concern about medullary thyroid carcinoma risk.",
+      "change": "Liraglutide was contraindicated in patients with a personal or family history of medullary thyroid carcinoma or MEN2 syndromes.",
+      "category": "Population / contraindication",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_10984008-3265-5cf8-86ce-0af729259000",
+        "line": 350,
+        "quote": "Has the applicant provided adequate data on the animal thyroid C-cell tumor findings to demonstrate that these findings are not relevant to humans?",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_109840083265",
+          "found_lines": [
+            350
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_10984008-3265-5cf8-86ce-0af729259000",
+        "line": 368,
+        "quote": "liraglutide will be contraindicated in patients with a personal history of MTC or those from families with known familial MTC or MEN2 syndromes.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_109840083265",
+          "found_lines": [
+            368
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee's split and largely unfavorable votes on the thyroid C-cell tumor risk reflected unresolved uncertainty about the human relevance of the medullary thyroid carcinoma signal.",
+      "change": "The NDA was approved with a REMS (Medication Guide and Communication Plan) to ensure the benefits outweigh the risks.",
+      "category": "REMS",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_287d6ac4-90eb-5275-bc6e-3a5457a85722",
+        "line": 291,
+        "quote": "Those voting \"no\" stated that the human risk of medullary thyroid carcinoma with liraglutide is unknown, that there are alternative anti-diabetic medications available, and that it was unclear whether liraglutide offers unique benefits in the treatment armamentarium for type 2 diabetes.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_287d6ac490eb",
+          "found_lines": [
+            291
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_10984008-3265-5cf8-86ce-0af729259000",
+        "line": 414,
+        "quote": "In order to ensure that the benefits of the drug outweigh the risks, this NDA should be approved with a REMS which would include the following:",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_109840083265",
+          "found_lines": [
+            414
+          ]
+        }
+      }
+    },
+    {
+      "concern": "At the meeting the thyroidologist voting against approval recommended additional long-term observation with monitoring of calcitonin and other medullary thyroid carcinoma biomarkers, because only up to 2 years of calcitonin data had been presented.",
+      "change": "An MTC (medullary thyroid carcinoma) case-series registry was imposed as a postmarketing requirement.",
+      "category": "PMR / registry",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_287d6ac4-90eb-5275-bc6e-3a5457a85722",
+        "line": 291,
+        "quote": "The thyroidologist voting against approval recommended additional long-term data\u2014perhaps 6-12 months of longer observation with monitoring of calcitonin and other biomarkers for medullary thyroid carcinoma, such as procalcitonin and carcinoembryonic antigen.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_287d6ac490eb",
+          "found_lines": [
+            291
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_10984008-3265-5cf8-86ce-0af729259000",
+        "line": 420,
+        "quote": "MTC case-series registry",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_109840083265",
+          "found_lines": [
+            420
+          ]
+        }
+      }
+    },
+    {
+      "concern": "On cardiovascular safety the committee's majority in favor (8 Yes / 5 No) was not overwhelming, and the premarketing CV data were retrospective and limited, leaving uncertainty about cardiovascular risk.",
+      "change": "Liraglutide was allowed to market with a commitment to a large postmarketing cardiovascular outcomes trial (listed as a PMR).",
+      "category": "PMR / cardiovascular",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_10984008-3265-5cf8-86ce-0af729259000",
+        "line": 63,
+        "quote": "I do note that the Advisory Committee Panel, with a clear majority voting that there was enough cardiovascular data to allow marketing, was not as overwhelming positive for this drug as it was for saxagliptin that was discussed on the previous day of the 2-day meeting.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_109840083265",
+          "found_lines": [
+            63
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_10984008-3265-5cf8-86ce-0af729259000",
+        "line": 63,
+        "quote": "should therefore, for this issue, be allowed to market with a commitment to perform a large post-marketing study.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_109840083265",
+          "found_lines": [
+            63
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An EMDAC meeting was held April 2, 2009, dominated by the rodent thyroid C-cell (medullary thyroid carcinoma) tumor signal and by cardiovascular safety. The panel voted 1-12 that human irrelevance of the C-cell findings was not demonstrated and split 6-6-1 on whether those data permit marketing, while favoring the CV data (8-5) and the papillary-cancer data (12-0). Reflecting these concerns, Victoza was approved with a boxed warning and contraindication for the C-cell/MTC risk, a REMS (Medication Guide plus Communication Plan), and postmarketing requirements including an MTC case-series registry and a large cardiovascular outcomes trial; the verbatim AC transcript is not in paperclip, so these facts are drawn from the FDA review documents' account."
+}

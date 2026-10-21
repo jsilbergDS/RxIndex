@@ -1,0 +1,139 @@
+{
+  "app": "NDA022405",
+  "drug": "CAPRELSA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "cfe6d56a-ad35-5797-ab3b-562f3e438762"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "cb7d2a1e-8b7a-5435-a049-52c4e73a2d60"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "4a981658-bdb4-5a62-a8c5-754123de897d"
+    },
+    {
+      "doc_type": "Lbl",
+      "doc_id": "1b3dde30-899a-5e4b-97fc-92b8a0c4a002"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Oncologic Drugs Advisory Committee (ODAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "cfe6d56a-ad35-5797-ab3b-562f3e438762",
+      "line": 53,
+      "quote": "Due to the toxicity profile of vandetanib, the application was presented at the December 2, 2010 Oncologic Drugs Advisory Committee."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "cfe6d56a-ad35-5797-ab3b-562f3e438762",
+      "found_lines": [
+        53
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "December 2, 2010",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "cfe6d56a-ad35-5797-ab3b-562f3e438762",
+      "line": 75,
+      "quote": "As noted in section 7, the application was discussed at the 12/2/10 meeting of the Oncologic Drugs Advisory Committee."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "cfe6d56a-ad35-5797-ab3b-562f3e438762",
+      "found_lines": [
+        75
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee agreed that treatment is not indicated in patients with low-burden or asymptomatic disease, and a majority agreed with modifying the indication to those with progressive, symptomatic MTC. On the single formal vote, members voted 10-0-0 (Yes=10) that additional doses of vandetanib should be evaluated as a post-marketing requirement to determine the optimal dose.",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "cfe6d56a-ad35-5797-ab3b-562f3e438762",
+      "line": 53,
+      "quote": "All of the committee members agreed that treatment is not indicated in patients with a low burden or asymptomatic disease. The majority of the committee members agreed with modifying the indication to those with progressive, symptomatic MTC."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "cfe6d56a-ad35-5797-ab3b-562f3e438762",
+      "found_lines": [
+        53
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Given the substantial toxicity of vandetanib and the long natural history of medullary thyroid cancer, the committee was asked whether the indication should be limited to progressive, symptomatic patients; members agreed treatment is not indicated in low-burden/asymptomatic patients and a majority favored restricting the indication to progressive, symptomatic MTC.",
+      "change": "The approved indication was restricted to \"symptomatic or progressive\" medullary thyroid cancer (in patients with unresectable locally advanced or metastatic disease), with a Limitation of Use cautioning against use in indolent, asymptomatic or slowly progressing disease.",
+      "category": "Population / indication restriction",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "cfe6d56a-ad35-5797-ab3b-562f3e438762",
+        "line": 95,
+        "quote": "ODAC and the clinical reviewers found the risk benefit assessment to be acceptable in a subgroup of patients with symptomatic or progressive disease.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "cfe6d56a-ad35-5797-ab3b-562f3e438762",
+          "found_lines": [
+            95
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "1b3dde30-899a-5e4b-97fc-92b8a0c4a002",
+        "line": 11,
+        "quote": "Vandetanib is a kinase inhibitor indicated for the treatment of symptomatic or progressive medullary thyroid cancer in patients with unresectable locally advanced or metastatic disease.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "1b3dde30-899a-5e4b-97fc-92b8a0c4a002",
+          "found_lines": [
+            11
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee voted 10-0 that additional doses of vandetanib should be evaluated as a post-marketing requirement to determine the optimal dose, noting a signal of activity at a lower dose level that should be studied further since a lower dose could also decrease the toxicity profile.",
+      "change": "A post-marketing requirement was imposed to conduct a randomized dose-finding trial comparing vandetanib 300 mg versus 150 mg daily in patients with progressive or symptomatic medullary thyroid cancer.",
+      "category": "Dose optimization / PMR",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "cfe6d56a-ad35-5797-ab3b-562f3e438762",
+        "line": 82,
+        "quote": "Members felt that additional doses of vandetanib should be evaluated as a post-marketing requirement to determine the optimal dose.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "cfe6d56a-ad35-5797-ab3b-562f3e438762",
+          "found_lines": [
+            82
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "cfe6d56a-ad35-5797-ab3b-562f3e438762",
+        "line": 101,
+        "quote": "Conduct a randomized dose-finding trial in which patients with progressive or symptomatic medullary thyroid cancer will be randomized to vandetanib 300 mg or 150 mg daily.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "cfe6d56a-ad35-5797-ab3b-562f3e438762",
+          "found_lines": [
+            101
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "Vandetanib (CAPRELSA) was discussed at the December 2, 2010 Oncologic Drugs Advisory Committee (ODAC) because of its substantial toxicity, especially QT prolongation and sudden death, in a disease with a relatively long natural history. The committee agreed treatment is not indicated in low-burden or asymptomatic patients and a majority favored restricting the indication to progressive, symptomatic disease, which is reflected in the approved indication for \"symptomatic or progressive\" MTC plus a Limitation of Use; it also voted 10-0 that additional doses be studied, consistent with the post-marketing requirement for a randomized 300 mg vs 150 mg dose-finding trial. The verbatim AdCom transcript is not in paperclip; these facts are drawn from the review documents' account of the meeting."
+}

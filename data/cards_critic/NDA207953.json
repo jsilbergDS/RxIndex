@@ -1,0 +1,32 @@
+{
+  "app": "NDA207953",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval.detail.text",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited_numbers '24' and '2014' are false positives \u2014 both are components of the submission date 'November 24, 2014', which should be excluded as dates."
+    },
+    {
+      "field": "modality.text",
+      "severity": "low",
+      "issue": "'small molecule' is not explicitly stated in the cited quote (which says 'alkylating agent'); it is a reasonable inference but slightly exceeds the citation."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "24",
+        "text": "Approved October 23, 2015 for the NDA submitted November 24, 2014; no prior Comp"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2014",
+        "text": "Approved October 23, 2015 for the NDA submitted November 24, 2014; no prior Comp"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

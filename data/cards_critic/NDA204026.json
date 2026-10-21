@@ -1,0 +1,62 @@
+{
+  "app": "NDA204026",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials",
+      "severity": "high",
+      "issue": "approval_program.summary states approval is based on TWO Phase 2 trials (CC-4047-MM-002 and IFM-2009-02), but pivotal_trials lists only one trial (CC-4047-MM-002); the second pivotal trial is missing."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "medium",
+      "issue": "Summary references IFM-2009-02 and its 34% ORR, but no corresponding pivotal_trials entry exists, creating a trial-count inconsistency with the structured data."
+    },
+    {
+      "field": "key_safety",
+      "severity": "high",
+      "issue": "Text labels neutropenia (47%/38%), anemia (22%/21%), and pneumonia (16%/23%) as 'Grade 3/4' events, but the cited quotes (e.g., 'Neutropenia 50 (47) 43 (38)') contain no Grade 3/4 designation, so the grading characterization is unsupported by citation."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Automated uncited_numbers flags for '3' and '4' are the 'Grade 3/4' descriptors; they are a true problem (the quotes do not state Grade 3/4), subsumed by the higher-severity support issue above rather than a false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "3",
+        "text": "Most common adverse reactions (>=30%): fatigue and asthenia, neutropenia, anemia"
+      },
+      {
+        "field": "key_safety",
+        "number": "4",
+        "text": "Most common adverse reactions (>=30%): fatigue and asthenia, neutropenia, anemia"
+      },
+      {
+        "field": "key_safety",
+        "number": "3",
+        "text": "Most common adverse reactions (>=30%): fatigue and asthenia, neutropenia, anemia"
+      },
+      {
+        "field": "key_safety",
+        "number": "4",
+        "text": "Most common adverse reactions (>=30%): fatigue and asthenia, neutropenia, anemia"
+      },
+      {
+        "field": "key_safety",
+        "number": "3",
+        "text": "Most common adverse reactions (>=30%): fatigue and asthenia, neutropenia, anemia"
+      },
+      {
+        "field": "key_safety",
+        "number": "4",
+        "text": "Most common adverse reactions (>=30%): fatigue and asthenia, neutropenia, anemia"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

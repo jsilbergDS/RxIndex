@@ -1,0 +1,37 @@
+{
+  "app": "NDA022090",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval.detail._flag",
+      "severity": "low",
+      "issue": "False positive: flagged numbers '2' and '2007' are part of the date 'July 2, 2007' and should be excluded as date components."
+    },
+    {
+      "field": "post_marketing[2].requirement._flag",
+      "severity": "low",
+      "issue": "False positive: flagged '505' is the statutory provision '505(o)', not an efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2",
+        "text": "Application received July 2, 2007; approved effective the date of the approval l"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2007",
+        "text": "Application received July 2, 2007; approved effective the date of the approval l"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "505",
+        "text": "Required postmarketing clinical trial under 505(o) to collect clinical data suff"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

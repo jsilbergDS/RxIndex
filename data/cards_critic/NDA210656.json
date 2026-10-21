@@ -1,0 +1,32 @@
+{
+  "app": "NDA210656",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "Automated flag for uncited number '2' is a false positive \u2014 it comes from 'Phase 2', not an efficacy/safety statistic."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "Automated flag for uncited number '1003' is a false positive \u2014 it is a study identifier (Study B1371003), which is excluded."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "Glasdegib received regular (full) approval based on an overall survival benefit "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1003",
+        "text": "Glasdegib received regular (full) approval based on an overall survival benefit "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "app": "NDA210730",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 333)",
+  "_raw": "Analyzing the card for issues.\n\nLet me verify the flagged numbers and check for inconsistencies.\n\n**Uncited numbers in pivotal_trials[1]/result:** The dose values (0.35, 0.5, 0.1) are doses \u2014 normally excluded, but they appear as part of efficacy results. The p-values 0.017 and 0.75 ARE in the citat",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.35",
+        "text": "In FDA's SPID24 analysis, two of the three oliceridine doses were superior to pl"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.017",
+        "text": "In FDA's SPID24 analysis, two of the three oliceridine doses were superior to pl"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.5",
+        "text": "In FDA's SPID24 analysis, two of the three oliceridine doses were superior to pl"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.1",
+        "text": "In FDA's SPID24 analysis, two of the three oliceridine doses were superior to pl"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.75",
+        "text": "In FDA's SPID24 analysis, two of the three oliceridine doses were superior to pl"
+      },
+      {
+        "field": "key_safety",
+        "number": "24",
+        "text": "Most common adverse reactions (\u226510%) were nausea, vomiting, dizziness, headache,"
+      },
+      {
+        "field": "key_safety",
+        "number": "63",
+        "text": "Most common adverse reactions (\u226510%) were nausea, vomiting, dizziness, headache,"
+      },
+      {
+        "field": "key_safety",
+        "number": "6",
+        "text": "Most common adverse reactions (\u226510%) were nausea, vomiting, dizziness, headache,"
+      },
+      {
+        "field": "key_safety",
+        "number": "41",
+        "text": "Most common adverse reactions (\u226510%) were nausea, vomiting, dizziness, headache,"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "app": "NDA021883",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Flagged number '301' is a trial identifier, not an uncited efficacy/safety number; false positive."
+    },
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "Flagged number '10' is the non-inferiority margin (10%), which is supported by the design citation ('NI margin was pre-specified at 10%'); false positive."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "Flagged number '302' is a trial identifier, not an uncited data number; false positive."
+    },
+    {
+      "field": "advisory_committee.vote",
+      "severity": "low",
+      "issue": "Flagged '0 against' is supported by the citation 'There were 12 votes in favor and none against'; false positive."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged numbers (26, 2013) are part of the receipt date 'September 26, 2013' and are excluded as dates; false positive, and prior approvable letters are not CRLs so value=true is correct."
+    },
+    {
+      "field": "post_marketing[4].requirement",
+      "severity": "low",
+      "issue": "Flagged '505' is a statutory section reference (505(o)), not an efficacy/safety number; false positive."
+    },
+    {
+      "field": "post_marketing[5].requirement",
+      "severity": "low",
+      "issue": "Flagged '505' is a statutory section reference, not a data number; false positive."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged '3' refers to '5 additional years' / Phase 3 context and is supported/non-data; false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "301",
+        "text": "Trial 301: N=573 (dalbavancin 288, comparator 285)"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "10",
+        "text": "Phase 3, multisite, double-blind, double-dummy, randomized, controlled trial com"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "302",
+        "text": "Trial 302: N=739 (dalbavancin 371, comparator 368)"
+      },
+      {
+        "field": "advisory_committee/vote",
+        "number": "0",
+        "text": "The Anti-Infective Drugs Advisory Committee (March 30, 2014) voted 12 in favor a"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "26",
+        "text": "The ABSSSI NDA (submitted September 26, 2013) was approved with no prior Complet"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2013",
+        "text": "The ABSSSI NDA (submitted September 26, 2013) was approved with no prior Complet"
+      },
+      {
+        "field": "post_marketing[4]/requirement",
+        "number": "505",
+        "text": "2145-5: Conduct US surveillance studies for five years from the date of marketin"
+      },
+      {
+        "field": "post_marketing[5]/requirement",
+        "number": "505",
+        "text": "2145-6: Conduct studies to define the mechanism(s) of resistance for isolates id"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Dalbavancin received QIDP designation for ABSSSI (October 25, 2012) and fast tra"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

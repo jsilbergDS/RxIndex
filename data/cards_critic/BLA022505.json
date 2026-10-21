@@ -1,0 +1,82 @@
+{
+  "app": "BLA022505",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "FALSE POSITIVE: uncited number '10' is a study identifier (LIPO-010 = study 10) explicitly supported by the nct citation."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "FALSE POSITIVE: uncited number '11' is a study identifier (1011 = study 11) explicitly supported by the nct citation."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "FALSE POSITIVE: flagged numbers 29/2009 are the submission date (excluded category); first_cycle_approval is inferential and no prior CRL is mentioned, so value=true is correct."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "FALSE POSITIVE: flagged numbers 29/2009/27/2010 are dates and '0'/'3' derive from supported facts (unanimous 16-0 vote; three PMRs listed), so no genuine uncited efficacy/safety data."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "10",
+        "text": "Study 10 (TH9507-III-LIPO-010)"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "11",
+        "text": "Study 11 (TH9507-CTR-1011)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "29",
+        "text": "Standard review application submitted May 29, 2009; recommended action Approval,"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2009",
+        "text": "Standard review application submitted May 29, 2009; recommended action Approval,"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "29",
+        "text": "Egrifta was approved under a standard NDA review (submitted May 29, 2009) follow"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2009",
+        "text": "Egrifta was approved under a standard NDA review (submitted May 29, 2009) follow"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "0",
+        "text": "Egrifta was approved under a standard NDA review (submitted May 29, 2009) follow"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "27",
+        "text": "Egrifta was approved under a standard NDA review (submitted May 29, 2009) follow"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2010",
+        "text": "Egrifta was approved under a standard NDA review (submitted May 29, 2009) follow"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Egrifta was approved under a standard NDA review (submitted May 29, 2009) follow"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "app": "NDA022399",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 525)",
+  "_raw": "Analyzing the card against the required checks.\n\nLet me work through key fields, inconsistencies, citation support, and the automated flags.\n\n```json\n{\n \"app\": \"NDA022399\",\n \"release_ready\": false,\n \"issues\": [\n  {\n   \"field\": \"key_safety\",\n   \"severity\": \"high\",\n   \"issue\": \"The safety text states ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "12",
+        "text": "Multicenter, randomized, double-blind, placebo-controlled, 12-week parallel-grou"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "12",
+        "text": "Three-arm, randomized, double-blind, placebo-controlled, 12-week trial comparing"
+      },
+      {
+        "field": "key_safety",
+        "number": "12",
+        "text": "Most common adverse reactions (>=10% and at least 2x placebo) were somnolence/se"
+      },
+      {
+        "field": "key_safety",
+        "number": "600",
+        "text": "Most common adverse reactions (>=10% and at least 2x placebo) were somnolence/se"
+      },
+      {
+        "field": "crl_history/date",
+        "number": "16",
+        "text": "Complete Response action on 2/17/10 (February 16, 2010 action letter)"
+      },
+      {
+        "field": "crl_history/date",
+        "number": "2010",
+        "text": "Complete Response action on 2/17/10 (February 16, 2010 action letter)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "022399",
+        "text": "NDA 022399 was submitted under section 505(b)(2) with Neurontin as the reference"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2010",
+        "text": "NDA 022399 was submitted under section 505(b)(2) with Neurontin as the reference"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2011",
+        "text": "NDA 022399 was submitted under section 505(b)(2) with Neurontin as the reference"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

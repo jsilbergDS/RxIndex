@@ -1,0 +1,78 @@
+{
+  "app": "NDA208611",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 437)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"NDA208611\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].result\",\n      \"severity\": \"low\",\n      \"issue\": \"Numbers 331 and 329 flagged as uncited are actually the denominators from the trial N field (331 d",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "331",
+        "text": "Objective clinical response 259/331 (78.2%) delafloxacin vs 266/329 (80.9%) vanc"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "329",
+        "text": "Objective clinical response 259/331 (78.2%) delafloxacin vs 266/329 (80.9%) vanc"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "423",
+        "text": "Objective clinical response 354/423 (83.7%) delafloxacin vs 344/427 (80.6%) vanc"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "427",
+        "text": "Objective clinical response 354/423 (83.7%) delafloxacin vs 344/427 (80.6%) vanc"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "18",
+        "text": "Applications dated October 18, 2016, received October 19, 2016, were reviewed an"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2016",
+        "text": "Applications dated October 18, 2016, received October 19, 2016, were reviewed an"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "19",
+        "text": "Applications dated October 18, 2016, received October 19, 2016, were reviewed an"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2016",
+        "text": "Applications dated October 18, 2016, received October 19, 2016, were reviewed an"
+      },
+      {
+        "field": "post_marketing[3]/requirement",
+        "number": "208610",
+        "text": "3220-4 (NDA 208610): Add the facility responsible for (b)(4) testing"
+      },
+      {
+        "field": "post_marketing[4]/requirement",
+        "number": "208610",
+        "text": "3220-5 (NDA 208610): Establish a validated (b)(4) limit test as part of product "
+      },
+      {
+        "field": "post_marketing[5]/requirement",
+        "number": "208610",
+        "text": "3220-6 (NDA 208610): Update drug product release specifications so commercial ba"
+      },
+      {
+        "field": "post_marketing[6]/requirement",
+        "number": "208611",
+        "text": "3220-7 (NDA 208611): Provide results from the ongoing requalification of the ste"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Delafloxacin (Baxdela) received QIDP designation for the ABSSSI indication on Se"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

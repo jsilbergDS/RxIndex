@@ -1,0 +1,147 @@
+{
+  "app": "NDA022406",
+  "drug": "XARELTO",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "98fe0c92-4734-5fe4-8984-4b71f6002ddd"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "a4f66c58-e315-5b2a-bd02-81fc3362f2ec"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "69b1d837-0232-5e55-89d2-7a24aac934d4"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "f36e0995-9dc6-5109-96cf-80cc0721541c"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "88559e59-e807-5212-8e43-35ea815c2b25"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "FDA Cardiovascular and Renal Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "f36e0995-9dc6-5109-96cf-80cc0721541c",
+      "line": 2146,
+      "quote": "FDA Cardiovascular and Renal Drugs Advisory Committee Meeting was held on March 19, 2009 to discuss NDA 22-406 Xarelto (rivaroxaban) oral tablet 10 mg for the proposed indication."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "f36e0995-9dc6-5109-96cf-80cc0721541c",
+      "found_lines": [
+        2146
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "March 19, 2009",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "f36e0995-9dc6-5109-96cf-80cc0721541c",
+      "line": 2146,
+      "quote": "FDA Cardiovascular and Renal Drugs Advisory Committee Meeting was held on March 19, 2009 to discuss NDA 22-406 Xarelto (rivaroxaban) oral tablet 10 mg for the proposed indication."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "f36e0995-9dc6-5109-96cf-80cc0721541c",
+      "found_lines": [
+        2146
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 15 (yes) to 2 (no) that the available clinical data demonstrate a favorable risk-benefit profile for rivaroxaban in VTE prophylaxis after hip or knee replacement surgery. A separate question on whether a lower dose than 10 mg should be available for special populations was voted 5 (yes) to 9 (no), 3 abstain.",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "98fe0c92-4734-5fe4-8984-4b71f6002ddd",
+      "line": 107,
+      "quote": "The Committee voted 15 (yes) to 2 (no) that the available clinical data demonstrate a favorable risk-benefit profile for rivaroxaban in the prophylaxis of venous thromboembolism in patients undergoing hip or knee replacement surgery."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "98fe0c92-4734-5fe4-8984-4b71f6002ddd",
+      "found_lines": [
+        107
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Committee members raised concern about the strength of the hepatotoxicity signals and the feasibility of long-term studies to further characterize the liver injury potential, and most members stated that longer-term studies are needed.",
+      "change": "The application was not approved in the first cycle; the review team required additional long-term follow-up safety (liver) data from the ongoing ROCKET atrial-fibrillation studies, which the sponsor supplied in the resubmission before approval.",
+      "category": "Safety / Postmarket long-term data requirement",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "f36e0995-9dc6-5109-96cf-80cc0721541c",
+        "line": 671,
+        "quote": "committee members expressed varying levels of concern about the strength of the signals for hepatotoxicity and the feasibility of long term studies to further elucidate the hepatotoxicity seen with rivaroxaban",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "f36e0995-9dc6-5109-96cf-80cc0721541c",
+          "found_lines": [
+            671,
+            792,
+            2146
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "98fe0c92-4734-5fe4-8984-4b71f6002ddd",
+        "line": 99,
+        "quote": "The review team requested additional long term follow-up data from the ROCKET studies where rivaroxaban was used for stroke prophylaxis in patients with atrial fibrillation.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "98fe0c92-4734-5fe4-8984-4b71f6002ddd",
+          "found_lines": [
+            99
+          ]
+        }
+      }
+    },
+    {
+      "concern": "On the question of whether a lower dose than 10 mg should be available for special populations, the committee voted against it (5 yes to 9 no, 3 abstain), with many members saying there was not enough data to support a lower dose.",
+      "change": "The approval used a single 10 mg daily dose for all patients; no lower-strength dose was approved for special populations.",
+      "category": "Dose / Single-dose approval",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "f36e0995-9dc6-5109-96cf-80cc0721541c",
+        "line": 671,
+        "quote": "the committee voted 5 (Yes) to 9 (No) (abstain 3). Many committee members expressed that there was not enough data to support a lower dose",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "f36e0995-9dc6-5109-96cf-80cc0721541c",
+          "found_lines": [
+            671,
+            793,
+            2147
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "98fe0c92-4734-5fe4-8984-4b71f6002ddd",
+        "line": 16,
+        "quote": "A single dose of 10 mg daily is recommended for all patients.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "98fe0c92-4734-5fe4-8984-4b71f6002ddd",
+          "found_lines": [
+            16
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An FDA Cardiovascular and Renal Drugs Advisory Committee met on March 19, 2009 (first review cycle) and voted 15-2 that the data showed a favorable benefit-risk profile for rivaroxaban in VTE prophylaxis after hip or knee replacement surgery; no advisory committee was convened for the 2011 resubmission that led to approval. The committee's main concern was the strength of the hepatotoxicity signal and the need for longer-term data, and the review team required additional long-term liver safety data from the ROCKET atrial-fibrillation studies, which (together with DSI data-integrity findings) resulted in a first-cycle Complete Response and approval only after the resubmission. The committee also voted against making a lower dose available for special populations, and the product was approved at a single 10 mg daily dose; both linkages are inferred because the review documents describe the concerns and the changes but do not explicitly state the causal connection."
+}

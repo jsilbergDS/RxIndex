@@ -1,0 +1,141 @@
+{
+  "app": "NDA210365",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: 'phase 3' number 3 is a descriptor not an efficacy/safety datum; citation supports 'adequate and well-controlled', though 'phase 3' is not explicitly stated.",
+      "note": "dismissible"
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "False-positive: '20' in '20 mg/kg/day' is a dose, excluded from citation requirements.",
+      "note": "dismissible"
+    },
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "low",
+      "issue": "False-positive: '1' derives from '\u22651 concomitant AED'; citation says 'one or more AEDs', which supports it.",
+      "note": "dismissible"
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive: '20' and '10' refer to mg/kg/day doses, which are excluded.",
+      "note": "dismissible"
+    },
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "False-positive: '14' (14-week) is supported by the trial_name citation and design context; cosmetic only.",
+      "note": "dismissible"
+    },
+    {
+      "field": "pivotal_trials[2].design",
+      "severity": "low",
+      "issue": "False-positive: '14' (14-week) is supported by the trial_name/design citation.",
+      "note": "dismissible"
+    },
+    {
+      "field": "pivotal_trials[2].n",
+      "severity": "low",
+      "issue": "False-positive: N=120 is supported via 61 CBD + 59 placebo in the citation; total 120 is arithmetic and consistent.",
+      "note": "dismissible"
+    },
+    {
+      "field": "advisory_committee.vote",
+      "severity": "low",
+      "issue": "False-positive: 'April 19, 2018' is a date, excluded from citation requirements; 13-0 vote is cited.",
+      "note": "dismissible"
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive: 210365 is the NDA number and 10/27/17 is a date; both excluded.",
+      "note": "dismissible"
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "3",
+        "text": "Adequate and well-controlled phase 3 trial"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "20",
+        "text": "14-week, multicenter, randomized, double-blind, placebo-controlled trial; 1:1:1 "
+      },
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "1",
+        "text": "Patients with Lennox-Gastaut syndrome, ages 2-55, with \u22652 drop seizures per week"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "20",
+        "text": "Median percentage change in drop seizure frequency -41.9% (20 mg/kg/day) and -37"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "10",
+        "text": "Median percentage change in drop seizure frequency -41.9% (20 mg/kg/day) and -37"
+      },
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "3",
+        "text": "Adequate and well-controlled phase 3 trial"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "14",
+        "text": "14-week, multicenter, randomized, double-blind, placebo-controlled trial; 1:1 to"
+      },
+      {
+        "field": "pivotal_trials[2]/phase",
+        "number": "3",
+        "text": "Adequate and well-controlled phase 3 trial"
+      },
+      {
+        "field": "pivotal_trials[2]/design",
+        "number": "14",
+        "text": "14-week, multicenter, randomized, double-blind, placebo-controlled trial; 1:1 to"
+      },
+      {
+        "field": "pivotal_trials[2]/n",
+        "number": "120",
+        "text": "120 patients (61 CBD, 59 placebo)"
+      },
+      {
+        "field": "advisory_committee/vote",
+        "number": "19",
+        "text": "PCNS Advisory Committee (April 19, 2018) voted unanimously 13 Yes, 0 No that the"
+      },
+      {
+        "field": "advisory_committee/vote",
+        "number": "2018",
+        "text": "PCNS Advisory Committee (April 19, 2018) voted unanimously 13 Yes, 0 No that the"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "210365",
+        "text": "NDA 210365 was a priority review application, received 10/27/17, supported by or"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "10",
+        "text": "NDA 210365 was a priority review application, received 10/27/17, supported by or"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "17",
+        "text": "NDA 210365 was a priority review application, received 10/27/17, supported by or"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

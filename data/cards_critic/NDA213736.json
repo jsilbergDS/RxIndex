@@ -1,0 +1,52 @@
+{
+  "app": "NDA213736",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval/detail",
+      "severity": "low",
+      "issue": "Flagged numbers 213736/30/2019 are NDA number and submission date, both excluded categories \u2014 false positive."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "Flagged numbers 54828/202 are components of the study ID (Study INCB 54828-202), an excluded identifier \u2014 false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "213736",
+        "text": "NDA 213736 was submitted September 30, 2019 and approved under accelerated appro"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "30",
+        "text": "NDA 213736 was submitted September 30, 2019 and approved under accelerated appro"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2019",
+        "text": "NDA 213736 was submitted September 30, 2019 and approved under accelerated appro"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "54828",
+        "text": "NDA 213736 for pemigatinib was submitted September 30, 2019 under 505(b)(1) seek"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "202",
+        "text": "NDA 213736 for pemigatinib was submitted September 30, 2019 under 505(b)(1) seek"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "202",
+        "text": "NDA 213736 for pemigatinib was submitted September 30, 2019 under 505(b)(1) seek"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

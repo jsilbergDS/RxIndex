@@ -1,0 +1,52 @@
+{
+  "app": "NDA022425",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval/detail",
+      "severity": "low",
+      "issue": "Flagged uncited numbers '22' and '425' are fragments of the application identifier NDA 22-425, not efficacy/safety data \u2014 false positive."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "Flagged uncited numbers '22' and '425' are fragments of the application identifier NDA 22-425 \u2014 false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "22",
+        "text": "NDA 22-425 was approved on the first review cycle; the Division granted priority"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "425",
+        "text": "NDA 22-425 was approved on the first review cycle; the Division granted priority"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "22",
+        "text": "NDA 22-425 was approved on the first review cycle; the Division granted priority"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "425",
+        "text": "NDA 22-425 was approved on the first review cycle; the Division granted priority"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "22",
+        "text": "MULTAQ (dronedarone) NDA 22-425 received priority review because the new indicat"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "425",
+        "text": "MULTAQ (dronedarone) NDA 22-425 received priority review because the new indicat"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

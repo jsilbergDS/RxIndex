@@ -1,0 +1,37 @@
+{
+  "app": "NDA209241",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG false positives: '80' and '40' are dose designations (40 mg/day, 80 mg/day) already present in the design/n citations, not uncited efficacy numbers."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "p=0.002 is supported only by a garbled OCR citation ('p value20.0021&lt;0.0001'); the value is derivable but the quote is not cleanly verbatim, worth a human glance."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "80",
+        "text": "Valbenazine 80 mg/day significantly superior to placebo: AIMS LS mean difference"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "40",
+        "text": "Valbenazine 80 mg/day significantly superior to placebo: AIMS LS mean difference"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.002",
+        "text": "Valbenazine 80 mg/day significantly superior to placebo: AIMS LS mean difference"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

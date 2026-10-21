@@ -1,0 +1,139 @@
+{
+  "app": "NDA022465",
+  "drug": "VOTRIENT",
+  "docs_read": [
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_b0d14630-82e0-54bc-82e5-8824525ec094"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_5a382939-a4ee-5382-be80-d83d5e34b3de"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_c1c4c976-1c1b-5799-ad2b-db67d570cb12"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_d0ea7af2-ee1d-552f-8720-97e7518d2819"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Oncologic Drugs Advisory Committee (ODAC)",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_c1c4c976-1c1b-5799-ad2b-db67d570cb12",
+      "line": 489,
+      "quote": "This application was referred to the Oncologic Drugs Advisory Committee (ODAC) for review because of the considerable evidence of hepatotoxicity in the premarketing setting and because of its status as a new molecular entity."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_c1c4c9761c1b",
+      "found_lines": [
+        489
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "October 5, 2009",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_c1c4c976-1c1b-5799-ad2b-db67d570cb12",
+      "line": 489,
+      "quote": "The ODAC meeting was held on October 5, 2009."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_c1c4c9761c1b",
+      "found_lines": [
+        489
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 10 to 0 (Yes=10, No=0, Abstain=0) that the benefit-to-risk profile of pazopanib was acceptable for the treatment of patients with advanced RCC.",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_b0d14630-82e0-54bc-82e5-8824525ec094",
+      "line": 97,
+      "quote": "The committee voted 10 to 0 that benefit to risk profile was acceptable."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_b0d1463082e0",
+      "found_lines": [
+        97
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Committee members raised concerns about the potential liver toxicity (hepatotoxicity) signal seen in the premarketing data and strongly recommended post-market monitoring of this signal if the drug were approved.",
+      "change": "FDA issued post-marketing requirements focused on the liver safety signal, including a report on the safety of pazopanib dose modification and rechallenge in patients with elevated ALT and a final report of the ongoing hepatic impairment trial.",
+      "category": "Safety / Post-marketing requirement (hepatotoxicity monitoring)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "fda_c1c4c976-1c1b-5799-ad2b-db67d570cb12",
+        "line": 492,
+        "quote": "The committee members expressed concerns about the potential liver toxicity signal and strongly recommended post-market monitoring of this possible signal if approved.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_c1c4c9761c1b",
+          "found_lines": [
+            492
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_5a382939-a4ee-5382-be80-d83d5e34b3de",
+        "line": 43,
+        "quote": "Submit a report, from several ongoing trials, concerning the safety of pazopanib dose modification and rechallenge in patients with elevated ALT.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_5a382939a4ee",
+          "found_lines": [
+            43
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members raised concerns about the potential liver toxicity (hepatotoxicity) signal observed in the premarketing data.",
+      "change": "Hepatotoxicity was included as a boxed warning in the pazopanib label, accompanied by a Medication Guide, to better inform practitioners and patients about the risks of pazopanib.",
+      "category": "Safety / Boxed warning",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "fda_c1c4c976-1c1b-5799-ad2b-db67d570cb12",
+        "line": 492,
+        "quote": "The committee members expressed concerns about the potential liver toxicity signal and strongly recommended post-market monitoring of this possible signal if approved.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_c1c4c9761c1b",
+          "found_lines": [
+            492
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_5a382939-a4ee-5382-be80-d83d5e34b3de",
+        "line": 44,
+        "quote": "Hepatotoxicity was included as a boxed warning in the pazopanib label.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_5a382939a4ee",
+          "found_lines": [
+            44
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Oncologic Drugs Advisory Committee (ODAC) meeting was held on October 5, 2009; the application was referred to ODAC because of considerable premarketing evidence of hepatotoxicity and the drug's status as a new molecular entity. The committee voted 10-0 that pazopanib's benefit-to-risk profile was acceptable for advanced RCC, but members expressed concern about the potential liver toxicity signal and strongly recommended post-market monitoring. Votrient was approved with a hepatotoxicity boxed warning and Medication Guide and with liver-safety post-marketing requirements, though the review documents do not explicitly state these changes were made in direct response to the committee."
+}

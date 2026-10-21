@@ -1,0 +1,97 @@
+{
+  "app": "NDA021992",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Flagged numbers 50/100 are dose labels (DVS SR 50/100 mg) and should be excluded; false positive."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Flagged '8' refers to '8-week' trial duration not stated in the trial_name citations, but is a design descriptor supported elsewhere (design cites parallel-group study); minor/false positive."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Flagged 50/100 are dose labels, not efficacy Ns; false positive (actual Ns 150/150/147 are cited)."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "Flagged 8/50/100 are duration/dose descriptors; false positive."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "Flagged 50/100 are dose labels; false positive (actual Ns 161/164/158 are cited)."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged '505' is a statutory section reference (505(b)), not an efficacy/safety number; false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "8",
+        "text": "Study 332 (US, 8-week fixed-dose MDD trial of DVS SR 50 mg and 100 mg)"
+      },
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "50",
+        "text": "Study 332 (US, 8-week fixed-dose MDD trial of DVS SR 50 mg and 100 mg)"
+      },
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "100",
+        "text": "Study 332 (US, 8-week fixed-dose MDD trial of DVS SR 50 mg and 100 mg)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "50",
+        "text": "Placebo n=150, DVS SR 50 mg n=150, DVS SR 100 mg n=147"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "100",
+        "text": "Placebo n=150, DVS SR 50 mg n=150, DVS SR 100 mg n=147"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "8",
+        "text": "Study 333 (Europe/South Africa, 8-week fixed-dose MDD trial of DVS SR 50 mg and "
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "50",
+        "text": "Study 333 (Europe/South Africa, 8-week fixed-dose MDD trial of DVS SR 50 mg and "
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "100",
+        "text": "Study 333 (Europe/South Africa, 8-week fixed-dose MDD trial of DVS SR 50 mg and "
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "50",
+        "text": "Placebo n=161, DVS SR 50 mg n=164, DVS SR 100 mg n=158"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "100",
+        "text": "Placebo n=161, DVS SR 50 mg n=164, DVS SR 100 mg n=158"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "Standard NDA (505(b)) for the treatment of major depressive disorder; FDA first "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

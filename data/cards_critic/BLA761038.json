@@ -1,0 +1,28 @@
+{
+  "app": "BLA761038",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "The total '133' is not present verbatim in any citation quote, though it is the exact sum of the cited arm sizes (66 + 67); derivable but technically uncited.",
+      "note": "Automated uncited_numbers flag \u2014 near false-positive since both components are cited."
+    },
+    {
+      "field": "approval_program.accelerated_approval.surrogate_endpoint",
+      "severity": "low",
+      "issue": "Field labeled 'surrogate_endpoint' but the cited basis is overall survival and PFS (a direct/intermediate clinical endpoint with residual uncertainty), not a surrogate endpoint; label is a mild mismatch but content is citation-supported."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "133",
+        "text": "133 patients (66 olaratumab plus doxorubicin, 67 single-agent doxorubicin)"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "app": "NDA205858",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.accelerated_approval.confirmatory_requirement",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flags (313, 0124, 0125): these are trial/study identifiers (GS-US-313-0124/0125) and should be excluded, not treated as efficacy numbers."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "313",
+        "text": "Successful completion of either trial GS-US-313-0124 (PMR 2180-2) or GS-US-313-0"
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "0124",
+        "text": "Successful completion of either trial GS-US-313-0124 (PMR 2180-2) or GS-US-313-0"
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "313",
+        "text": "Successful completion of either trial GS-US-313-0124 (PMR 2180-2) or GS-US-313-0"
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "0125",
+        "text": "Successful completion of either trial GS-US-313-0124 (PMR 2180-2) or GS-US-313-0"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

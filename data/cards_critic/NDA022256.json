@@ -1,0 +1,192 @@
+{
+  "app": "NDA022256",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].first_cycle_approval",
+      "severity": "high",
+      "issue": "first_cycle_approval.value=true but the review explicitly states the Division Director recommended a Complete Response in the October 16, 2008 review, which the instructions say contradicts value=true."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "high",
+      "issue": "The n text labels doses as '100 mg/d N=224, 200 mg/d N=441', but the citation only gives raw numbers 'N=223 N=224 N=441' with no support that N=441 corresponds to 200 mg/d (likely a combined/pooled column), so the dose-to-N mapping is uncited and the odd 441 vs 223/224 pattern is suspicious."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "high",
+      "issue": "Result reports the 200 mg/d column as '118 (27%)' responders against placebo 43 (19%), but the citation's first column (61 (27%)) corresponds to the 100 mg/d arm which is omitted; the result cherry-picks columns and mislabels which dose arm is being reported."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "medium",
+      "issue": "Result states 'The six-month results for the 200-mg per day FM pain endpoint were not statistically significant' yet the trial's primary endpoint failing at 6 months is not reflected in an internal consistency note; the trial is presented as supportive without flagging that the 6-month primary endpoint was missed."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "high",
+      "issue": "For Study 2 the 200 mg/d FM Syndrome responders are reported as '55 (14%)' which is LOWER than the 100 mg/d arm's '58 (15%)', an inverse dose-response that is reproduced from the quote but presented without note; verify the quote actually maps 55 (14%) to the 200 mg/d column rather than a stitched mismatch."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "uncited_numbers flags '100' and '200' in the n field, but these are dose labels (mg/d) and should be dismissed as a false positive."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "uncited_numbers flags '1' and '6' (Study 1 label and 6-month duration); the '6'-month duration is supported by the design citation ('Study 031 was a six-month trial'), so dismiss as false positive, though the label 'Study 1' differs from the source's 'Study 031'."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "uncited_numbers flags '2'; the '3-month' duration is supported by the design citation, so dismiss as false positive, though 'Study 2' differs from source's 'Study 02'."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "uncited_numbers flags '3', '100', '200' in the result field; these are the 3-month landmark and dose labels, dismiss as false positives."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "uncited_numbers flags '22', '256', '2009'; these are the NDA number and approval year (excluded categories/already-known identifiers), dismiss as false positives."
+    },
+    {
+      "field": "post_marketing[0].requirement",
+      "severity": "low",
+      "issue": "uncited_numbers flags '2014' (final report due date) which is a date and the due date is not in the citation quote; low severity as it is a date, but note the 'final report due October 2014' detail has no citation support."
+    },
+    {
+      "field": "post_marketing[1].requirement",
+      "severity": "low",
+      "issue": "uncited_numbers flags '505' and '3' (the 505(o)(3) statutory citation); the '(required under 505(o)(3))' parenthetical is not in the citation quote and is an added, uncited characterization."
+    },
+    {
+      "field": "post_marketing[2].requirement",
+      "severity": "low",
+      "issue": "uncited_numbers flags '505' and '3' (505(o)(3)); the statutory basis parenthetical is not supported by the citation quote."
+    },
+    {
+      "field": "approval_program.priority_review.present",
+      "severity": "medium",
+      "issue": "priority_review is set to false with no citation; the review does not establish whether this was standard or priority review, so the false value is an unverified assertion (possible completeness gap for an approval_program designation the drug may have)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study FMS-031 (Study 1), a 6-month trial"
+      },
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "6",
+        "text": "Study FMS-031 (Study 1), a 6-month trial"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "100",
+        "text": "At the 3-month landmark (UPA analysis): placebo N=223, 100 mg/d N=224, 200 mg/d "
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "200",
+        "text": "At the 3-month landmark (UPA analysis): placebo N=223, 100 mg/d N=224, 200 mg/d "
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Study MLN-MD-02 (Study 2), a 3-month trial"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "100",
+        "text": "Placebo N=401, 100 mg/d N=399, 200 mg/d N=396"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "200",
+        "text": "Placebo N=401, 100 mg/d N=399, 200 mg/d N=396"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "3",
+        "text": "Composite FM Pain responders at 3 months (BOCF): placebo 66 (16%) vs Savella 100"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "100",
+        "text": "Composite FM Pain responders at 3 months (BOCF): placebo 66 (16%) vs Savella 100"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "200",
+        "text": "Composite FM Pain responders at 3 months (BOCF): placebo 66 (16%) vs Savella 100"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "100",
+        "text": "Composite FM Pain responders at 3 months (BOCF): placebo 66 (16%) vs Savella 100"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "200",
+        "text": "Composite FM Pain responders at 3 months (BOCF): placebo 66 (16%) vs Savella 100"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2009",
+        "text": "No Complete Response Letter was issued; although a Complete Response was interna"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "2014",
+        "text": "Deferred pediatric study under PREA for the management of fibromyalgia in pediat"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "505",
+        "text": "Develop and maintain a prospective, observational pregnancy exposure registry st"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "3",
+        "text": "Develop and maintain a prospective, observational pregnancy exposure registry st"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "505",
+        "text": "A single-dose, pharmacokinetic, open-label clinical trial in healthy, lactating "
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "3",
+        "text": "A single-dose, pharmacokinetic, open-label clinical trial in healthy, lactating "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "22",
+        "text": "Savella (milnacipran HCl) was approved under a traditional (full) approval pathw"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "256",
+        "text": "Savella (milnacipran HCl) was approved under a traditional (full) approval pathw"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2009",
+        "text": "Savella (milnacipran HCl) was approved under a traditional (full) approval pathw"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Savella (milnacipran HCl) was approved under a traditional (full) approval pathw"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

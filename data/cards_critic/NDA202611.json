@@ -1,0 +1,132 @@
+{
+  "app": "NDA202611",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Flagged number '50' is a dose descriptor (mirabegron 50 mg), excluded from uncited-number checks; false positive."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "Flagged numbers '25'/'50' are dose descriptors (mirabegron 25 mg / 50 mg); false positives."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "Flagged numbers '25'/'50' are dose descriptors; false positives."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Flagged number '1' is a study label (Study 1); false positive."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "Flagged number '4' is the tolterodine comparator dose (ER 4 mg); dose descriptor, false positive."
+    },
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "low",
+      "issue": "Flagged number '12' refers to Week 12, which is present in the design/endpoint citations; false positive."
+    },
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "Flagged number '12' refers to the 12-week trial duration, supported by citation; false positive."
+    },
+    {
+      "field": "post_marketing[2].requirement",
+      "severity": "low",
+      "issue": "Flagged number '505' refers to statutory 505(o) authority, not an efficacy/safety number; false positive."
+    },
+    {
+      "field": "post_marketing[3].requirement",
+      "severity": "low",
+      "issue": "Flagged number '505' refers to statutory 505(o) authority; false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study 178-CL-046 (Study 1)"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "4",
+        "text": "12-week, double-blind, randomized, placebo-controlled, parallel group, multicent"
+      },
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "12",
+        "text": "Co-primary endpoints: change from baseline to Final Visit (Week 12) in mean numb"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "50",
+        "text": "Mirabegron 50 mg incontinence episodes adjusted mean difference vs placebo -0.41"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "12",
+        "text": "12-week, double-blind, randomized, placebo-controlled, parallel group, multicent"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "25",
+        "text": "Incontinence analysis placebo 262, mirabegron 25 mg 254, mirabegron 50 mg 257; m"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "50",
+        "text": "Incontinence analysis placebo 262, mirabegron 25 mg 254, mirabegron 50 mg 257; m"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "25",
+        "text": "Incontinence analysis placebo 262, mirabegron 25 mg 254, mirabegron 50 mg 257; m"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "50",
+        "text": "Incontinence analysis placebo 262, mirabegron 25 mg 254, mirabegron 50 mg 257; m"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "25",
+        "text": "Mirabegron 25 mg incontinence episodes difference vs placebo -0.40 (95% CI -0.74"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "50",
+        "text": "Mirabegron 25 mg incontinence episodes difference vs placebo -0.40 (95% CI -0.74"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "25",
+        "text": "Mirabegron 25 mg incontinence episodes difference vs placebo -0.40 (95% CI -0.74"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "50",
+        "text": "Mirabegron 25 mg incontinence episodes difference vs placebo -0.40 (95% CI -0.74"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "505",
+        "text": "505(o) study 1898-3: long-term observational study in US and European electronic"
+      },
+      {
+        "field": "post_marketing[3]/requirement",
+        "number": "505",
+        "text": "505(o) study 1898-4: long-term observational study in electronic healthcare data"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

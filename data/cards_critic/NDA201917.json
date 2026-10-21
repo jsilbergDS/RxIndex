@@ -1,0 +1,33 @@
+{
+  "app": "NDA201917",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 325)",
+  "_raw": "Analyzing the card for quality issues.\n\n**Study 108 result:** The citation line 280 says \"79% (285/363)\" but the second citation line 92 says \"287/363=79%\". The result text uses 285/363. The difference 32.8% and CI 25.2%, 40.4% are cited. The 285 vs 287 discrepancy within the quotes is minor; the te",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "1",
+        "text": "Treatment-naive genotype 1 chronic hepatitis C subjects with compensated liver d"
+      },
+      {
+        "field": "pivotal_trials[1]/population",
+        "number": "1",
+        "text": "Treatment-naive genotype 1 chronic hepatitis C subjects"
+      },
+      {
+        "field": "pivotal_trials[2]/population",
+        "number": "1",
+        "text": "Previously treated genotype 1 CHC subjects (prior relapsers, partial responders,"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Telaprevir was granted fast-track status and submitted as a rolling NDA; it rece"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

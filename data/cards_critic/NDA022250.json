@@ -1,0 +1,113 @@
+{
+  "app": "NDA022250",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 300)",
+  "_raw": "Analyzing the card for quality issues.\n\nKey checks:\n- Trial 1 design says \"double-blind\" and \"14-week double-blind treatment\" \u2014 supported by citation (14-week double-blind treatment is in quote). OK.\n- Priority review: AMPYRA received priority review? Review doesn't state here; can't flag without ev",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "MS-F203 (Trial 1)"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "MS-F204 (Trial 2)"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "9",
+        "text": "Randomized, placebo-controlled, parallel group, double-blind 14-week study (9 we"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "1582",
+        "text": "PMR 1582-1: Embryo-fetal development study in the rat to qualify a drug product "
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "1",
+        "text": "PMR 1582-1: Embryo-fetal development study in the rat to qualify a drug product "
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "1582",
+        "text": "PMR 1582-2: In vitro bacterial mutagenicity (Ames) assay for an impurity identif"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "2",
+        "text": "PMR 1582-2: In vitro bacterial mutagenicity (Ames) assay for an impurity identif"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "1582",
+        "text": "PMR 1582-3: In vitro chromosomal aberration assay in mammalian cells or in vitro"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "3",
+        "text": "PMR 1582-3: In vitro chromosomal aberration assay in mammalian cells or in vitro"
+      },
+      {
+        "field": "post_marketing[3]/requirement",
+        "number": "1582",
+        "text": "PMR 1582-4: A non-clinical self-administration study to assess the abuse potenti"
+      },
+      {
+        "field": "post_marketing[3]/requirement",
+        "number": "4",
+        "text": "PMR 1582-4: A non-clinical self-administration study to assess the abuse potenti"
+      },
+      {
+        "field": "post_marketing[4]/requirement",
+        "number": "1582",
+        "text": "PMR 1582-5: A receptor binding study (dopamine, serotonin, GABA, opioid, NMDA, m"
+      },
+      {
+        "field": "post_marketing[4]/requirement",
+        "number": "5",
+        "text": "PMR 1582-5: A receptor binding study (dopamine, serotonin, GABA, opioid, NMDA, m"
+      },
+      {
+        "field": "post_marketing[5]/requirement",
+        "number": "1582",
+        "text": "PMR 1582-6: Assessment of adverse events related to abuse potential from clinica"
+      },
+      {
+        "field": "post_marketing[5]/requirement",
+        "number": "6",
+        "text": "PMR 1582-6: Assessment of adverse events related to abuse potential from clinica"
+      },
+      {
+        "field": "post_marketing[6]/requirement",
+        "number": "1582",
+        "text": "PMC 1582-7: A randomized prospective placebo controlled trial to evaluate the ef"
+      },
+      {
+        "field": "post_marketing[6]/requirement",
+        "number": "7",
+        "text": "PMC 1582-7: A randomized prospective placebo controlled trial to evaluate the ef"
+      },
+      {
+        "field": "post_marketing[7]/requirement",
+        "number": "1582",
+        "text": "PMC 1582-8: Support the addition of a 7.5 mg dosage strength for use in patients"
+      },
+      {
+        "field": "post_marketing[7]/requirement",
+        "number": "8",
+        "text": "PMC 1582-8: Support the addition of a 7.5 mg dosage strength for use in patients"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "4",
+        "text": "Traditional approval of a new molecular entity (dalfampridine, 4-aminopyridine) "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

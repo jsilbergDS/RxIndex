@@ -1,0 +1,43 @@
+{
+  "app": "NDA021995",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 276)",
+  "_raw": "Analyzing the card for quality issues.\n\nLet me check the automated flags first:\n- uncited_numbers: all appear to be false positives (\"2\" from \"type 2\", \"4\" from \"DPP-4\", \"100\" from dose, \"677\" is actually in citation \"Six hundred seventy-seven\" spelled out).\n\nLet me verify \"677\" \u2014 citation says \"Six",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "2",
+        "text": "Patients with type 2 diabetes mellitus with HbA1c \u22657% and \u226410% while off any ant"
+      },
+      {
+        "field": "pivotal_trials[1]/population",
+        "number": "2",
+        "text": "Type 2 diabetics on stable metformin (at least 1500 mg daily) with HbA1c between"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "677",
+        "text": "701 randomized (464 sitagliptin 100 mg, 237 placebo); 677 (96.6%) in MITT analys"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "100",
+        "text": "Sitagliptin 100 mg added to metformin gave greater HbA1c reduction than placebo;"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "4",
+        "text": "First-cycle standard approval of a first-in-class DPP-4 inhibitor for type 2 dia"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "First-cycle standard approval of a first-in-class DPP-4 inhibitor for type 2 dia"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,597 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+L2: **208114Orig1s000**
+L3: **STATISTICAL REVIEW(S)**
+L4: FDA Seal/Logo
+L5: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L6: ## ADDENDUM TO STATISTICAL REVIEW AND
+## EVALUATION
+L7: ## CLINICAL STUDIES
+L8: NDA/BLA #:	NDA 208-114
+Supplement #:	000
+Drug Name:	Defibrotide (DEFITELIO)
+Indication(s):	Treatment (b) (4) hepatic veno-occlusive disease (VOD) with (b) (4) dysfunction following hematopoietic stem cell transplant (HSCT)
+Applicant:	Jazz Pharmaceuticals
+Submission Date:	July 31, 2015
+PDUFA Date:	March 31, 2016
+Review Priority:	Priority
+Biometrics Division:	Division of Biometrics V
+Statistical Reviewer:	Cindy Gao, Ph.D.
+Concurring Reviewers:	Yuan-Li Shen, Dr. P.H., Team Leader
+Rajeshwari Sridhara, Ph.D., Division Director
+Medical Division:	Division of Hematology Products
+Clinical Reviewer:	Tanya Wroblewski, M.D.
+Donna Przepiorka, M.D.
+Clinical Team Leader:	Angelo de Claro, M.D.
+Clinical Division Director:	Ann Farrell, M.D.
+Project Manager:	Beatrice Kallungal
+L9: APPEARS THIS WAY ON ORIGINAL
+L10: The review and the product label were discussed with management within Office of Biostatistics at CDER and management within Office of Surveillance and Biometrics at CDRH. Of note, historical controlled studies are routinely accepted in CDRH. The following recommendations were concurred by both the offices:
+L11: (b) (4)
+L12: The review and the product label were also discussed at an internal OHOP meeting with the senior management. The management within OHOP agreed with the OB's recommendations. OHOP management concluded that
+L13: (b) (4)
+L14: should be included in the label. However, the historical control 100 day survival rate could be considered along with the data available in the literature for evaluating the benefit/risk of the treatment of defibrotide.
+L15: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L16: /s/
+L17: XIN GAO
+03/11/2016
+L18: YUAN L SHEN
+03/11/2016
+L19: RAJESHWARI SRIDHARA
+03/11/2016
+L20: FDA Seal/Logo
+L21: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L22: ## STATISTICAL REVIEW AND EVALUATION
+L23: ## CLINICAL STUDIES
+L24: NDA/BLA #:	sNDA 208-114
+Supplement #:	000
+Drug Name:	Defibrotide (Defitelio)
+Indication(s):	Treatment (b) (4) hepatic veno-occlusive disease (VOD) with (b) (4) dysfunction following hematopoietic stem cell transplant (HSCT)
+Applicant:	Jazz Pharmaceuticals
+Submission Date:	July 31, 2015
+PDUFA Date:	
+Review Priority:	Priority
+Biometrics Division:	Division of Biometrics V
+Statistical Reviewer:	Cindy Gao, Ph.D.
+Concurring Reviewers:	Yuan-Li Shen. Dr. P.H., Team Leader
+Rajeshwari Sridhara, Ph.D., Division Director
+Medical Division:	Division of Hematology Products
+Clinical Reviewer:	Tanya Wroblewski, M.D.
+Clinical Team Leader:	Angelo de Claro, M.D.
+Clinical Division Director:	Ann Farrell, M.D.
+Project Manager:	Beatrice Kallungal
+L25: **Keywords:** Historical control, Propensity score analyses
+L26: ## Table of Contents
+L27: 1. EXECUTIVE SUMMARY	4
+INTRODUCTION	6
+1.1 OVERVIEW	6
+1.2 REGULATORY HISTORY	7
+1.3 DATA SOURCES	8
+2. STATISTICAL EVALUATION	8
+2.1 DATA AND ANALYSIS QUALITY	8
+2.2 EVALUATION OF EFFICACY	8
+2.2.1 Study Design and Endpoints	8
+2.2.2 Statistical Methodologies	11
+2.2.3 Patient Disposition, Demographic and Baseline Characteristics	14
+2.2.4 Results and Conclusions	16
+2.3 EVALUATION OF SAFETY	23
+3. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	24
+3.1 GENDER, RACE, AGE, AND GEOGRAPHIC REGION FOR STUDY 2005-01	24
+3.2 OTHER SPECIAL/SUBGROUP POPULATIONS FOR STUDY 2005-01	25
+4. SUMMARY AND CONCLUSIONS	25
+4.1 STATISTICAL ISSUES	25
+4.2 CONCLUSIONS AND RECOMMENDATIONS	25
+4.3 LABELING RECOMMENDATIONS	26
+APPENDICES	27
+L28: ## LIST OF TABLES
+L29: Table 1 Summary of Study 2005-01 and Study 99-118	6
+Table 2 Summary of Demographic and Baseline Characteristics	14
+Table 3 Survival Rate at Day + 100 Post HSCT	16
+Table 4 Efficacy Findings at Various Communications with FDA	17
+Table 5 Sensitivity Analysis of Survival at Day +100 using Koch Method	18
+Table 6 Reviewer's Sensitivity Analysis of Survival at Day + 100 from CMH Test	20
+Table 7 Additional Sensitivity Analyses using Koch Method	20
+Table 8 CR at Day +100 Post HSCT	21
+Table 9 Sensitivity Analyses of Complete Response Rate by Day + 100 Post HSCT	22
+Table 10 Reviewer's Sensitivity Analysis of CR at Day + 100 from CMH Test	22
+Table 11 Overall Survival	23
+Table 12 Sponsor's Derived Strata Based on Quintiles with "Mean" Option using PROC RANK in SAS	29
+Table 13 Sponsor's Derived Strata Based on Quartiles with "Mean" Option using PROC RANK in SAS	29
+Table 14 Reviewer's Derived Quintiles/Quartiles (based on "high" Option using PROC RANK in SAS)	29
+Table 15 Reviewer's Derived Equal Sized 5 Groups	29
+Table 16 Reviewer's Derived Equal Sized 4 Groups	30
+L30: ## LIST OF FIGURES
+L31: Figure 1 Kaplan Meier Curve of Overall Survival	23
+Figure 2 Survival rate by Day +100 in Defibrotide Cohort	24
+Figure 3 Predictive Probability of Being Randomized to Defibrotide Cohort	28
+L32: ## 1. EXECUTIVE SUMMARY
+L33: In this application, the applicant is seeking a full approval for defibrotide for the treatment of hepatic veno-occlusive disease (VOD) with (b)(4) dysfunction following hematopoietic stem-cell transplantation (HSCT).
+L34: The investigated product was submitted in NDA (b)(4), but based on issues identified by FDA including data collection and quality; the applicant withdrew the NDA in August 2011.
+L35: Study 2005-01 was submitted in the current application to support the proposed indication. The Study 2005-01 was a historical control, multicenter, open - label study to evaluate the efficacy and safety of defibrotide for the treatment of severe hepatic VOD in HSCT patients.
+L36: There were two cohorts in Study 2005-01. Defibrotide cohort enrolled 102 subjects, who took a fixed defibrotide dose of 25 mg/kg/day administered as 4 divided doses for a recommended minimum duration of 21 days. Historical control cohort had 32 subjects who received best supportive care. These 32 patients were selected from 6867 subjects undergoing HSCT at 35 medical centers, and reviewed by a Medical Review Committee (MRC) of the applicant (2 independent hematologists) in several rounds. The last round of selection was done after Data Safety Monitoring Board (DSMB) reviewed the interim efficacy results in defibrotide and historical control cohorts and suggested a re-selection of the historical control cohort. The primary efficacy endpoint was survival rate at day + 100 post HSCT.
+L37: To adjust for the confounding effect from the potential prognostic factors, the propensity score adjusted analyses were performed using the quintiles/quartiles derived from the propensity score based on four pre-specified baseline prognostic factors. The two-sided 95.1% confidence interval of the treatment difference of survival rates adjusted for propensity score quintile/quartile was calculated, and when the lower bound exceeded 0, the applicant claimed the results as demonstrating superiority of the defibrotide cohort over the historical control cohort.
+L38: At day + 100 post HSCT, there were 39 (38.2%) patients alive in the defibrotide cohort vs. 8 (25.0%) patients in the historical control cohort, with an unadjusted estimated survival rate difference of 13.0% (95% CI [-4.6%, 31%]) and an adjusted estimated survival rate difference of 23.0% (95.1% CI [5.2%, 40.8%]) and a p-value of 0.011 from the propensity score adjusted analysis. The day + 100 survival rates in subgroup analyses based on demographic characteristics appeared to support the primary results based on the sponsor's analyses. The defibrotide cohort also appeared to show improvement of the day + 100 survival rate as compared with the historical control cohort based on time to event analyses.
+L39: However, due to the concerns of the validity of the propensity score adjusted analysis for small sample size and a variation of treatment effect estimates when varying propensity defined strata were used, the reviewer cannot confirm the sponsor's primary efficacy results for inference purposes (i.e. either the treatment effect estimates or the p-value). Nonetheless, the data show
+L40: consistent numerical improvement of day + 100 survival rate from the defibrotide treated cohort compared with the historical control cohort which may warrant further investigation.
+L41: In a dose finding study 99-118 (see Appendix for summary of the study), the day + 100 survival rate was 44% for defibrotide treated arm at a dose of 25 mg/kg/day (95% CI: 32.5%, 55.9%). This result supports the day + 100 survival rate estimated from Study 2005-01.
+L42: Whether or not the results represent a favorable benefit-to-risk to support an approval of defibrotide is deferred to clinical judgment.
+L43: ## INTRODUCTION
+L44: ## 1.1 Overview
+L45: ## *Disease Background*
+L46: The incidence of hepatic VOD following HSCT based on diagnosis by Baltimore criteria is approximately 9%-14%. The incidence of VOD with associated organ dysfunction after HSCT was determined to be 1.2% (applicant's review of the Center for International Blood and Marrow Transplant Research (CIBMTR) database). Hepatic VOD with multi-organ dysfunction has an associated mortality of greater than 80% if left untreated. Currently, there are no approved therapies in the U.S. for the treatment of hepatic VOD.
+L47: ## *Application Overview*
+L48: In this application, based on the results from the Study 2005-01, the applicant was seeking a full approval for defibrotide for the treatment of hepatic veno-occlusive disease (VOD) with (b) (4) dysfunction following hematopoietic stem-cell transplantation (HSCT). The Study 2005-01 was completed in 2009.
+L49: The proposed clinical dosing regimen for defibrotide is intravenous (IV) infusion of 6.25 mg/kg over a 2-hour period to be repeated every 6 hours for a total of 4 doses with a daily dose of 25 mg/kg/day and should be administered as soon as a diagnosis of hepatic VOD with (b) (4) dysfunction is made, and should be administered for a minimum of 21 days. Treatment should continue until signs and symptoms of hepatic VOD resolve.
+L50: Study 2005-01 was submitted to support for the proposed indication. The Study 2005-01 was a historical control, multicenter, open label study to evaluate the efficacy and safety of defibrotide for the treatment of severe hepatic VOD in HSCT patients.
+L51: Additional efficacy and safety data in the NDA were provided from defibrotide-treated and – untreated patients including a phase 2 dose-finding Study 99-118.
+L52: The table below summarized the features of the Study 2005-01 and the Study 99-118.
+L53: **Table 1 Summary of Study 2005-01 and Study 99-118**
+L54: Pivotal Study	2005-01
+Phase and Design	Multicenter, open label, historical control
+Treatment Period	Fixed defibrotide dose of 6.25 mg/kg every 6 hours (total dose of 25 mg/kg/day given in 4 divided doses) for a recommended minimum duration of 21 days for patients in the defibrotide cohort. Thereafter, treatment was continued, as circumstances allowed, until the patient was discharged from the hospital.
+Follow-up Period	100 days for overall survival and complete response
+# of Subjects per Arm	102 (defibrotide cohort) vs. 32 (historical control cohort)
+Study Population	Patients with hepatic VOD with multi-organ dysfunction (pulmonary and/or renal) following HSCT. Eligible patients were
+L55: those with severe VOD who met Baltimore diagnostic criteria for VOD (hyperbilirubinemia plus two of the following: ascites, \ge 5\% weight gain and hepatomegaly), who also had multi-organ failure(MOF,i.e., pulmonary and/or renal dysfunction, with or without CNS dysfunction)
+Supportive Study	99-118
+Phase and Design	Randomized, open-label, dose-finding, multicenter, phase 2
+Treatment Period	For Arm A, dose of defibrotide started with 2.5mg/kg on day 1 every 6 hours for 4 doses (total dose of 10 mg/kg/day). From day 2, the dose increased to 6.25 mg/kg every 6 hours (total dose of 25 mg/kg/day, given in 4 divided doses). Arm B has a different dosing schedule. Defibrotide was administered for a minimum of 14 days, and treatment was to continue until the occurrence of CR, and may continue beyond 14 days if on day 14 patients had evidence of response by any measure. Treatment was to stop if there was evidence of worsening of the clinical syndrome of VOD, unacceptable toxicity, or a comorbidity that prevented continued treatment.
+Follow-up Period	100 days for survival and complete response
+# of Subjects per Arm	75 (the arm with a total dose of 25 mg/kg/day from day 2)
+Study Population	Seriously ill patients with severe VOD (VOD with multi-organ dysfunction) or patients with VOD at high risk for developing multi-organ dysfunction.
+L56: ## *Study Timeline*
+L57: For Study 2005-01, the first subject was enrolled in July 26, 2006, and the study was completed in April 2009. Day + 180 visit for the last patients was completed in November 19, 2008. The last amendment of the protocol was dated on June 6, 2013. The last amendment of the SAP was signed off on December 29, 2014. Both the protocol and SAP were finalized after the end of study.
+L58: ## 1.2 Regulatory History
+L59: The applicant submitted NDA [REDACTED](b) (4), but based on issues on data collection and quality among others identified by the review team, the applicant withdrew the NDA in August 2011.
+L60: In October 2013, the European Commission granted a Marketing Authorization for defibrotide for the treatment of severe hepatic VOD in HSCT therapy.
+L61: In an applicant meeting in December 2013 (under IND # 062,118), FDA responded to the applicant that “*The current choice of your historical control is problematic due to selection bias. We have reservations regarding comparison of such a selected historical control to your product, based on day + 100 survival data.*”
+L62: ## 1.3 Data Sources
+L63: Material reviewed for this application include the protocols and the amendments, statistical analysis plans and the amendments, DSMB meeting minutes, clinical study reports and the submitted datasets for the pivotal Study 2005-01 and supportive Study 99-118.
+L64: Reviewed data were provided electronically with the standard analysis data formats. Datasets for the pivotal Study 2005-01 were located at:
+L65: \\CDSESUB1\evsprod\NDA208114\0002\m5\datasets\2005-01\analysis\ datasets
+L66: Datasets for the Study 99-118 were located at:
+L67: \\CDSESUB1\evsprod\NDA208114\0002\m5\datasets\99-118\analysis\ datasets
+L68: ## 2. STATISTICAL EVALUATION
+L69: ## 2.1 Data and Analysis Quality
+L70: Data from the Study 2005-01 and the Study 99-118 were provided electronically with standard formats.
+L71: FDA noticed that DSMB concerned on the quality and accuracy of the data.
+L72: Excerpt from DSMB Meeting Minutes, January 14, 2008:
+L73: *"The DSMB cannot make a decision at this time regarding stopping/continuing/increasing sample size of the study based on efficacy because the data as presented are inadequate."*
+L74: Excerpt from DSMB Meeting Minutes, May 8, 2008:
+L75: *"The DSMB was gravely disappointed by the quality and the timeliness of the data sent to it."*
+L76: *"The DSMB did not regard it proper to make a recommendation concerning the further conduct of the study at this time because we are concerned about the accuracy of the data presented to us and the results of the historical controls."*
+L77: ## **Reviewer's Comment:**
+L78: *Unlike randomized clinical trials, the control group in Study 2005-01 was retrospectively selected by a medical review committee through reviewing medical charts, therefore covariates and outcome assessment cannot be pre-specified, such selection relied on others for accurate recordkeeping. The DSMB meeting minutes indicated that the data quality of Study 2005-01 might not be good enough for them to determine the efficacy of the treatment.*
+L79: *In the re-submission of the NDA, the applicant performed source validation for the efficacy endpoints of Study 2005-01.*
+L80: ## 2.2 Evaluation of Efficacy
+L81: ## 2.2.1 Study Design and Endpoints
+L82: ## *Study Design*
+L83: Study 2005-01 was a multicenter, open-label, historical control study designed to evaluate the efficacy and safety of defibrotide for the treatment of hepatic VOD with evidence of multi-organ dysfunction following HSCT.
+L84: There were two cohorts in Study 2005-01, defibrotide cohort (102 subjects) and historical control cohort (32 subjects).
+L85: - Subjects in the defibrotide cohort took a fixed defibrotide dose of 25 mg/kg/day administered as 4 divided doses for a recommended minimum duration of 21 days for patients in the defibrotide cohort. Thereafter, treatment was continued, as circumstances allowed, until the patient was discharged from the hospital. Defibrotide administration was suspended for toxicity or delayed for necessary medical/surgical interventions. If the patient required re-hospitalization, treatment with defibrotide could have been re-started.
+- Subjects in the historical control cohort were treated with best supportive care. The historical control cohort was selected from 6867 subjects undergoing HSCT at 35 medical centers. The selection was done by a Medical Review Committee (MRC) of the applicant (2 independent hematologists) through reviewing the subjects' medical charts. The ultimately selected historical control cohort consisted of 32 subjects with a selection rate of 0.5%.
+L86: For defibrotide cohort, the earliest date of HSCT was 2006 and the latest date of HSCT was 2008. For the historical control cohort, the earliest transplant date was 1995, and the latest date was 2007. The overall timeframe spans 12 years for the historical control cohort.
+L87: ## **Reviewer's Comment:**
+L88: - *In general, for a historical control study, there is no random allocation procedure implemented to assure balance in the potential prognostic factors between treatment cohorts, and potential bias may result from confounding effect when there is an unknown association between observed or unobserved prognostic factors and an outcome. The biasness of the treatment effect due to the confounding factors is difficult to evaluate.*
+L89: *However, it may be useful to provide preliminary evidence that can be used as the basis for hypothesis generating in future randomized studies.*
+L90: - *In Study 2005-01, the timeframe for the historical control cohort differs from that of defibrotide cohort, which could introduce temporal effect in the efficacy analysis results, and the temporal relationship is difficult to assess.*
+- *Whether the subjects in the treatment cohort and the historical control cohort can be considered to come from the same underlying patient population is difficult to evaluate, as many of the potential prognostic factors that might confound the evaluation of temporal effect were not collected.*
+L91: ## *Selection of Historical Control Cohort*
+L92: The first round screening was conducted by independent patient screeners who screened charts for possible historical control patients, and provided the charts of potentially eligible patients to the medical review committee (MRC), which comprised of 2 independent hematologists, for review.
+L93: Then a historical control group was screened and selected by 2 independent hematologists, who were not involved in the conduct of the trial.
+L94: By May 2008, a historical control cohort consisting of 86 subjects were selected out by the MRC. During the DSMB meeting in May 2008, DSMB reviewed the interim analysis results (including 46 patients in the treatment arm and 86 patients in the control arm). After reviewing the interim results, the DSMB commented "*the CR and survival rates of the historical controls were unexpected*", and recommended "*the steering committee confirm the criteria used to select historical controls and the practical application of those criteria*" in the DSMB meeting minutes.
+L95: After that, to ensure the comparability of the criteria used to identify the historical group such that these criteria were clinically comparable to those used to enroll the defibrotide patients, the applicant sent a questionnaire to investigators at the 35 sites in the treatment group with the scope of defining the clinical aspects utilized in patient selection. This was intended to assist the MRC in better understanding factors that led to patient inclusion/exclusion in the treatment group, and facilitate a more balanced selection process between the two groups. One finding was that defibrotide group investigators frequently waited 1-2 days following a possible diagnosis of VOD to alter the management of a patient. Upon amendment to the MRC SOP (Standard Operation Procedure), the MRC was permitted to query data from a potential historical control patient chart for a few days past the chart partition date via an independent physician with access to full chart.
+L96: Then in July 2008, after DSMB reviewed the efficacy results from interim analysis, the MRC was asked to use their best judgment to determine whether the patient had an unequivocal diagnosis of VOD with organ dysfunction. This led to a removal of 54 patients from the historical control. The final review resulted in a selection of 32 patients with a diagnosis of VOD with associated organ dysfunction. The applicant stated that the final review in July 2008 was conducted in a blinded manner such that the MRC did not have access to outcome information.
+L97: ## *Reviewer's Comment:*
+L98: - *The DSMB meeting minutes indicated that the data quality of Study 2005-01 might not be good enough for them to determine the efficacy of defibrotide. After the meeting, the medical review committee further reviewed the source data to make sure that the criteria for multi-organ failure (specifically, renal and pulmonary dysfunction) were comparable between the two cohorts which further reduced the historical controlled patients from 86 to 32.*
+- *Because the ultimate historical control cohort was selected after DSMB reviewing the efficacy results and it suggested a re-selection after unblinded look of the data, efficacy*
+L99: *analyses with the 32 historical control patients may not be considered as a prospectively defined analysis.*
+L100: ## ***Efficacy Endpoints***
+L101: The primary efficacy endpoint evaluated in the pivotal Study 2005-01 was survival at day + 100 post HSCT. The key secondary efficacy endpoint was complete response (CR) by day + 100 post-HSCT. Other secondary efficacy endpoints included CR by day + 180 post-HSCT, survival rate at day + 180 post-HSCT, and overall survival (defined as mortality status at the date of last contact).
+L102: ## ***Statistical Methodologies***
+L103: ## ***Study Population***
+L104: The Sponsor's final efficacy analysis data set included 102 patients in the defibrotide cohort and 32 patients in the historical control cohort.
+L105: ## ***Primary and Key Secondary Efficacy Endpoints***
+L106: The primary efficacy endpoint evaluated in the pivotal Study 2005-01 was survival rate at day + 100 post HSCT. The key secondary efficacy endpoint was complete response rate by day + 100 post-HSCT.
+L107: ## ***Analysis Method for Primary and Key Secondary Endpoints***
+L108: The Study 2005-01 was a historical control study, rather than a randomized study. To adjust for the confounding effect from the potential prognostic factors, the applicant chose the propensity score adjusted analyses by incorporating the observed covariates for the primary and many of the supportive and sensitivity efficacy analyses.
+L109: For each individual, a propensity score for cohort membership (defibrotide cohort vs. historical control cohort) was calculated using a logistic regression, with “cohort membership” as the outcome and 4 baseline prognostic factors of survival (ventilator and/or dialysis dependent, \le 16 years of age [yes/no], allogeneic or autologous transplant, prior stem cell transplant [yes/no] ) as the independent variables. Patients were then categorized into quintiles or quartiles based on this propensity scores.
+L110: The two-sided 95.1% confidence interval of the treatment difference on the binary incidence of each of the primary and selected secondary endpoints adjusted for propensity score quintile or quartile was calculated as follows (Koch et al. 1990).
+L111: \frac{\sum_{h=1}^{n} w_h (p_{ha} - p_{hc})}{\sum_{h=1}^{n} w_h} \pm Z \frac{\left[ \sum_{h=1}^{n} w_h^2 (SE_{ha}^2 + SE_{hc}^2) \right]^{1/2}}{\sum_{h=1}^{n} w_h},
+L112: where n = 5 for quintile and n = 4 for quartile, h = propensity membership, p_{ha} and p_{hc} are the proportion of patients with the given endpoint in the defibrotide and historical control cohorts, respectively. Z is the standard normal variable corresponding to a two-sided confidence level of 95.1%, and
+L113: w_h = \frac{n_{ha} n_{hc}}{n_{ha} + n_{hc}}; SE_{ha}^2 = \frac{p_{ha} (1 - p_{ha})}{n_{ha} - 1}; \text{and} SE_{hc}^2 = \frac{p_{hc} (1 - p_{hc})}{n_{hc} - 1}
+L114: where n_{ha}, n_{hc} are within quintile/quartile sample sizes for the defibrotide and historical control cohorts, respectively.
+L115: A propensity score adjusted Koch's 95.1% confidence interval with a lower bound above 0 was interpreted as demonstrating superiority of the defibrotide cohort over the historical control cohort.
+L116: Two sided p-value was calculated by multiplying the one-sided p-value obtained from a z-test using values in the formula above by two.
+L117: ## **Reviewer's Comment:**
+L118: - *The propensity score method may only incorporate confounding effects from observed prognostic factors, but not unobserved prognostic factors. In Study 20005-01, there were only four pre-specified covariates which were included in the logistic regression model to determine the subject's propensity score.*
+- *The original sample size was planned to be 80 per cohort, however, the sample size of the historical control group in Study 2005-01 was reduced to 32 after MRC review which is too small and makes the propensity score stratified analyses difficult to perform due to the small sample size in each propensity score defined stratum.*
+- *In study 2005-01, the applicant performed the efficacy analysis with 95.1% confidence interval to try to control the type I error rate. However, due to several planned or unplanned interim analyses, the sufficiency of 95.1% confidence interval, rather than a wider confidence interval to support the significance claim was not justified. The study-wise type I error rate was not sufficiently controlled at a two-sided 0.01 as planned.*
+L119: ## *Sample Size Determination*
+L120: The study was originally planned to enroll 80 patients in each treatment cohort to provide 99% power and two-sided 0.01 significance level to detect a treatment effect of CR rate at day + 100 post HSCT of 46% in the defibrotide cohort vs. 11% in the historical control cohort.
+L121: The study eventually enrolled 102 patients in the defibrotide cohort but included only 32 patients in the historical control cohort. Therefore, the sample size of the historical control cohort did not reach the planned 80 subjects. In the last amendment of the SAP, the applicant stated that inclusion of new centers was not considered an acceptable option because enrollment to the treatment group had closed, and continued screening at existing centers would have resulted in a less contemporaneous historical control group which was not considered acceptable.
+L122: ## *Reviewer's comments:*
+L123: - *The reviewer's analyses showed that with three interim analyses (information fraction at 0.389 = 40/102, 0.449 = 46/102, and 0.599 = 61/102 which were the actual number of patients in the defibrotide cohort in the three interim analysis), the study needs 111 patients enrolled in the defibrotide cohort and included 56 patients in the historical control cohort (randomization ratio of 2:1) to detect a treatment effect of survival rate at day +100 post HSCT of 0.4 in the defibrotide cohort vs. 0.2 in the historical control cohort with 80% power and two-sided 0.05 significance level.*
+- *In general for non-randomized studies, because it is very difficult to make accurate comparisons between the treatment groups, studies usually need a large sample size. The sample size of the historical control group in Study 2005-01 is too small to make any adequate assessment of the treatment effect.*
+- *The small sample size in the historical control cohort makes the propensity score stratified analysis difficult to interpret.*
+L124: ## *Interim Analysis*
+L125: In the SAP, there was only one planned interim analysis, which should be performed when 40 patients with defibrotide cohort with efficacy data available, and approximately 80 controls with efficacy data available. This interim analysis was planned for potential necessary sample size increase or futility stop, based on the efficacy results. Two sided significance level of 0.001 was planned to be used for this interim analyses, and two-sided significance level of 0.009 was planned to be used for the final analyses, to control the study-wise two-sided significance level of 0.01.
+L126: During the study, the applicant actually performed 3 interim analyses, which were in January 2008, May 2008, and September 2008, when there were 40 (39%), 46 (45%), and 61 (60%) patients in the defibrotide cohort with available efficacy data respectively. The number of patients included in the historical control cohort in these three interim analyses were 41, 86, and 32, respectively.
+L127: ## **Reviewer's Comments:**
+L128: - *The second and third interim analyses were unplanned without pre-specified appropriate alpha adjustment. Therefore, the study-wise type I error rate may not be sufficiently controlled at a two-sided 0.01 level as planned.*
+L129: ## Patient Disposition, Demographic and Baseline Characteristics
+L130: ## *Patient Disposition*
+L131: The efficacy analysis set for Study 2005-01 included 102 subjects in the defibrotide cohort and 32 subjects in the historical control cohort.
+L132: ## *Demographic and Baseline Characteristics*
+L133: The table below summarized the demographic and some baseline characteristics including the 4 baseline prognostic factors to determine the patient propensity score (ventilator and/or dialysis dependent, \le 16 years of age [yes/no], allogeneic or autologous transplant, prior stem cell transplant [yes/no] as the independent variables).
+L134: Overall, there were more male subjects in the defibrotide cohort than that in the historical control cohort (62.7% vs. 56.3%). There were also more patients who were ventilator/dialysis dependent in the defibrotide cohort than that in the historical control cohort (33.3% vs. 21.9%).
+L135: There were 4 subjects in the defibrotide cohort who did not have a VOD diagnosis by day +21 post HSCT, which was a pre-specified inclusion criterion.
+L136: **Table 2 Summary of Demographic and Baseline Characteristics**
+L137: Demographics	Defibrotide
+(N = 102)	Historical Control
+(N = 32)
+Age at HSCT	
+Mean (SD)	26.0 (21.4)	25.1 (20.2)
+Median	21.0	18.0
+Gender	
+Female	38 (37.3%)	14 (43.8%)
+Male	64 (62.7%)	18 (56.3%)
+Race	
+White	77 (75.5%)	23 (71.9%)
+Latino	10 (9.8%)	1 (3.1%)
+African American	6 (5.9%)	2 (6.3%)
+Asian	4 (3.9%)	2 (6.3%)
+Other	5 (4.9%)	4 (12.5%)
+Propensity Score Variables
+L138: Ventilator-/dialysis dependent	
+Yes	34 (33.3%)	7 (21.9%)
+No	68 (66.7%)	25 (78.1%)
+Age	
+≤ 16 years	44 (43.1%)	14 (43.8%)
+> 16 years	58 (56.9%)	18 (56.3%)
+Graft type	
+Allogeneic	90 (88.2%)	27 (84.4%)
+Autologous	12 (11.8%)	5 (15.6%)
+Prior HSCT	
+Yes	13 (12.7%)	3 (9.4%)
+No	89 (87.3%)	29 (90.6%)
+Other Variables
+BMI	
+< 18.5	3 (5.2%)	0 (0%)
+18.5 – 24.9	20 (34.5%)	9 (50.0%)
+25.0 – 29.9	23 (39.7%)	6 (33.3%)
+≥ 30.0	12 (20.7%)	3 (16.7%)
+Length of hospitalization, days	
+Mean (SD)	51.8 (28.1)	48.0 (35.7)
+Median	46.5	39.5
+GvHD prophylaxis use	
+Sirolimus/tacrolimus	50 (49.0%)	5 (15.6%)
+All other GvHD prophylaxis	40 (39.2%)	22 (68.8%)
+No GvHD prophylaxis use	12 (11.8%)	5 (15.6%)
+Severe VOD diagnosis according to	
+Pulmonary dysfunction only	22 (21.6%)	8 (25.0%)
+Renal dysfunction only	15 (14.7%)	1 (3.1%)
+Both pulmonary and renal dysfunction	65 (63.7%)	23 (71.9%)
+VOD Diagnosis by day +21	
+Yes	98 (96.1%)	32 (100.0%)
+No	4 (3.9%)	0 (0%)
+Severe VOD diagnosis by day +28	
+Yes	101 (99.0%)	32 (100.0%)
+No	1 (1.0%)	0 (0%)
+Time to VOD diagnosis, days	
+Mean (SD)	12.8 (5.7)	11.4 (4.5)
+Median	13.0	11.0
+Time to severe VOD/MOF diagnosis, days	
+Mean (SD)	13.8 (6.1)	12.8 (4.9)
+Median	13.0	12.5
+L139: Source: table 8, table 9 and table 10 from CSR
+L140: **Reviewer's Comments:**
+L141: - There was a notable difference in the use of GvHD medications at baseline between the 2 cohorts with a larger proportion of subject in the defibrotide cohort reporting use of sirolimus/tacrolimus (49.0% in the defibrotide cohort vs. 15.6% in the historical control cohort), and a larger proportion of historical control cohort patients reporting use of all other GvHD medications (39.2% in the defibrotide cohort vs. 68.8% in the historical control cohort. This difference may introduce bias in the efficacy analysis to evaluate treatment effect.
+L142: Survival benefit by day + 100 may be seen with sirolimus in combination with tacrolimus (Cutler et al. 2008), a regimen that was used in 15 patients in the defibrotide cohort vs. none in the historical control cohort, which may contribute to the day + 100 survival benefit, even though the applicant claimed that this low frequency of use is not expected to provide a substantial contribution towards a day + 100 survival advantage.
+L143: ## 2.2.4 Results and Conclusions
+L144: ## 2.2.4.1 Primary Endpoint - Survival at Day+100 Post HSCT
+L145: ## *Primary Analysis*
+L146: There were 39 (38.2%, 95% CI [28.8%, 48.4%]) patients alive at day + 100 post HSCT in the defibrotide cohort vs. 8 (25.0%, 95% CI [11.5 %, 43.4%]) patients in the historical control cohort 1. The unadjusted difference in survival rate between these two cohorts was 13.2% with the p-value of (b) (4) from Chi-square test.
+L147: Using the propensity score stratified weighted estimate, the estimated difference in survival rate at day + 100 post HSCT was 23.0%. The 95.1% confidence interval for the difference of proportional using the Koch method was 5.2% to 40.8%. Because the lower bound the 95.1% confidence interval exceeded 0, the sponsor claimed that the defibrotide treatment improved survival by day + 100 compared to historical control method for the patients with severe VOD.
+L148: **Table 3 Survival Rate at Day + 100 Post HSCT**
+L149: Survival at Day+100 Post HSCT	Defibrotide
+(N = 102)	Historical Control
+(N = 32)
+Number of Patients Alive (%)	39 (38.2%)	8 (25.0%)(b) (4)
+Unadjusted Difference; (95.1% CI)	
+Nominal p-value from \chi^2 test	
+Adjusted Difference a; (95.1% CI)	
+Nominal p-value from Koch method b	(b) (4)
+L150: a CI weighted by propensity score quintile for membership in the defibrotide or historical control cohort using the Koch method.
+L151: b Not adjusted for multiple looks.
+L152: 1 95%CI for the Day +100 survival rate is calculated using exact method, while it is calculated using asymptotic method in the label. The results are similar.
+L153: ## Reviewer's Comments:
+L154: - The Sponsor performed efficacy analyses including survival at day +100 multiple times with various analysis findings. The reviewer summarized the analyses results in various communications with FDA in the following table.
+L155: Table 4 Efficacy Findings at Various Communications with FDA
+L156: Study 2005-01	Treatment Group	Historical Control Group	Rate Difference	P-value
+1st DSMB meeting (January 14, 2008)	16/40 (40.0%)	17/41 (41.5%)	Did not report	The DSMB could not make a decision to stop/continue/increase sample size based on efficacy because the data as presented are inadequate
+2nd DSMB meeting, interim results with control group N = 86 (in May 2008)	19/46 (41.3%)	34/86 (39.5%)	Unadjusted: -1.8% (99.9% CI [-32.4%, 28.8%]);
+Adjusted: 2.8% (99.9% CI [-26.5%, 32.1%])1	p-value not reported; selection per protocol; The DSMB did not regard it proper to make a recommendation concerning the further conduct of the study at this time because the DSMB was concerned about the accuracy of the data and the results of the historical controls.
+3rd DSMB meeting, interim results with control group N = 32 (Sep. 29, 2008)	35/61 (57.4%)	24/32 (75.0%)	Unadjusted: -21.2% (99.9% CI [-54.5%, 12.1%])
+Adjusted: -17.6% (99.9% CI [-52.3%, 17.0%])	DSMB recommended increasing sample size to 160 for defibrotide cohort and 80 for historical control cohort with 80% power and a significance level of 0.01; or 102 for defibrotide cohort and 51 for historical control cohort with a significance level of 0.05. Sponsor elected to stop enrollment with 102 for defibrotide cohort vs 32 for the historical control cohort.
+L157: (b) (4)
+L158: (b) (4)
+IND 62118;
+Efficacy
+results
+with control
+group N = 32
+(November
+2013)	39/102
+(38.2%)	8/32
+(25.0%)	Adjusted: -15.0%
+(99.1% CI
+[-32.3%, 2.3%])4	Adjusted p value =
+(b) (4)
+Current NDA
+submission;
+Efficacy
+results with
+control group
+N = 32 (July
+2015)	39/102
+(38.2%)	8/32
+(25.0%)	Adjusted: 23.0%
+(95.1% CI
+[5.2%, 40.8%])4	Adjusted p value =
+(b) (4)
+L159: - Confidence interval were weighted by propensity score defined strata (no details of reference for propensity score analysis method)
+- P-value were from log-rank test
+- Confidence interval and p-values were adjusted by propensity score defined strata based on quintile using Koch method (1989), but not adjusted for multiple analyses.
+- Confidence interval and p-values were adjusted with propensity score defined strata based on quintile using Koch method (1990), but not adjusted for multiple analyses.
+- *The significance level cannot be determined due to many unplanned adaptations, e.g. sample size reduction and planned/unplanned interim analyses.*
+- *The ranking method for defining quintiles/ quartiles of the propensity scores was not pre-defined in the statistical analysis plan before the study unblinded, and different ranking methods give different efficacy results (refer to sensitivity analyses shown below for more details).*
+L160: ## *Sensitivity Analyses*
+L161: The reviewer performed various sensitivity analyses by varying the ranking methodology when determine the propensity score strata. The sensitivity analyses results were summarized in the following table.
+L162: **Table 5 Sensitivity Analysis of Survival at Day +100 using Koch Method**
+L163: Propensity Score Group	Survival at Day + 100 Rate Difference	Nominal P-Value*
+Sponsor's Primary Analysis
+Quintile	23.0% (5.2%, 40.8%)	(b) (4)
+Sponsor's Sensitivity Analyses
+Quintile, and adjusted for 4 prognostic factors and	10.6% (-13.6%, 34.8%)
+L164: additional other factors	(b) (4)
+Quartile	18.3% (-0.2%, 36.3%)	
+Quartile and adjusted for 4 prognostic factors and additional other factors	14.7% (-7.8%, 37.2%)	
+Reviewer's Sensitivity Analyses
+Quartile/Quintile Group ('high')	20.1% (2.1%, 38.2%)	
+Quartile/Quintile Group ('low')	21.1% (3.4%, 38.8%)	
+Equal space quintile	17.6% (-1.1%, 36.3%)	
+Equal space quartile	16.1% (-1.6%, 33.8%)	
+Unadjusted	13.2% (-4.6%, 31.0%)
+L165: * Not adjusted for multiple looks.
+L166: Note: To determine the propensity score cohort, “mean” algorithm was used for ranking method in the applicant’s analyses and “high” or “low” algorithm was used for ranking method in the reviewer’s analyses. These algorithms can be found using the ranking options in PROC RANK in SAS. The confidence intervals and nominal p-values were adjusted by propensity score defined strata using the Koch method, and not adjusted for multiplicity.
+L167: ## **Reviewer's comments:**
+L168: - Koch's method does not allow for a sample size of one or smaller in any of the propensity score stratum and a size of one is observed in one of the stratum in the sponsor's primary analysis (see Table 12 in the Appendix), therefore the reviewer does not consider the sponsor's primary analysis adequate.
+- Sensitivity analyses of day + 100 survival rate varied by which propensity score strata were used. The nominal p-values from the sensitivity analyses ranged from [REDACTED] (b) (4) so the reviewer could not confirm the sponsor's primary analysis results based on these sensitivity analyses.
+- The reviewer observed that when the between-strata sample sizes are more balanced such as those based on the equal space quintile or quartile (refer to Tables 15 and 16 in the Appendix), the nominal p-values became larger [REDACTED] (b) (4) for equal space quintile and equal space quartile, respectively). This observation further shows that the primary analysis results performed by the sponsor cannot be justified based on its chosen propensity defined strata.
+- The property of the propensity score adjusted analysis method is not known when sample size is small and distribution of the strata level is sparse. Therefore, the Applicant's interpretation of the primary efficacy results is questionable.
+- Whether or not the propensity score adjusted analyses have sufficiently balanced the potential confounding factors between treatment cohorts cannot be determined. However, an exploratory descriptive analysis based on box-plot was performed (refer to Figure 3 in the Appendix), the inter-quartiles of the propensity score distribution appear to be overlapped
+L169: which indicates that the propensity score distribution is somewhat compatible between two treatment cohorts.
+L170: - Additional analyses based on CMH method were performed by the reviewer. This method does not require a sample size of 2 or more in each stratum. The CMH analysis results are shown below.
+L171: The p-value from the CMH test is 0.02 with the propensity quintile (defined by the sponsor) used as the stratification factor. However, the nominal p-values from the CMH tests using other propensity score defined strata (other than the sponsor's defined strata) range from (b) (4). The analyses further demonstrate that the propensity score adjusted analysis results are sensitive to which propensity score defined strata is used.
+L172: **Table 6 Reviewer's Sensitivity Analysis of Survival at Day + 100 from CMH Test**
+L173: Propensity Score Group	Survival at Day +100 Rate Difference b	Nominal p-value
+Quintile (mean) a	23.0% (5.2%, 40.8%)	
+Quartile (mean) a	18.3% (-0.2%, 36.3%)	
+Quintile/Quartile (high) a	20.1% (2.1%, 38.2%)	
+Quintile/Quartile (low) a	21.1% (3.4%, 38.8%)	
+Quintile (equal space)	17.6% (-1.1%, 36.3%)	
+Quartile (equal space)	16.1% (-1.6%, 33.8%)
+L174: a the “mean”, “low” and “high” referred in the parenthesis is based on the ranking algorithm specified in PROC RANK in SAS.
+L175: b Survival at day + 100 rate difference were calculated using Koch method.
+L176: - Additional sensitivity analyses were performed by the reviewer based on day + 180 survival rate post HSCT and day + 100 survival rate post HSCT using a different historical control cohort of 86 patients (the historical control cohort used for the 2nd DSMB meeting in May, 2008). The lower bound of the 95% CIs are all below zero, so the results indicate that the defibrotide's longer term effect (i.e. at day +180) was not demonstrated. The defibrotide treatment cohort also did not show beneficial effect based on the day +100 survival rates while comparing with the 86 historical control cohorts. Therefore, both results did not support the primary efficacy results.
+L177: **Table 7 Additional Sensitivity Analyses using Koch Method**
+L178: Summary statistics	At Day + 180
+Defibrotide. vs.
+Historical Control	At Day + 100
+Defibrotide. vs.
+Historical Control
+L179: (N = 32)	(N = 86)
+Applicant's analysis:
+Quintile	Difference in rates
+(95% CI)	4.4%
+(-9.1%, 18.0%)	16.4%
+(-1.1%, 34.0%)(b) (4)
+Nominal p-value	
+Reviewer's analysis:
+Quartile/Quintile Group	Difference in rates
+(95% CI)	3.9%
+(-9.6%, 17.4%)	14.6%
+(-3.3%, 32.5%)(b) (4)
+Nominal p-value
+L180: Note: To determine the propensity score cohort, “mean” algorithm was used as the ranking method in the applicant’s analyses and “high” algorithm was used as the ranking method in the reviewer’s analyses. These algorithms can be found using the ranking options in PROC RANK in SAS. The confidence intervals and nominal p-values were adjusted by propensity score defined strata using the Koch method, and not adjusted for multiplicity.
+L181: ## 2.2.4.2 Secondary Endpoint - CR rate at Day + 100 Post HSCT
+L182: ## *Primary Analysis*
+L183: There were 26 (25.5%) subjects achieved CR at day + 100 Post HSCT in the defibrotide cohort vs. 4 (12.5%) subjects in the historical control cohort. The observed difference in the proportion was 13.0 (95.1% CI [-1.3%, 27.3%]).
+L184: The estimated difference in the proportion using Koch method with propensity score models was 19.0% with an associated 95.1% CI of 3.5% to 34.6%. Because the lower bound the 95.1% confidence interval exceeded 0, the sponsor claimed that the defibrotide treatment improved CR by day +100 compared to historical control method for patients with severe VOD.
+L185: **Table 8 CR at Day +100 Post HSCT**
+L186: CR rate by Day+100 Post HSCT	Defibrotide
+(N = 102)	Historical Control
+(N = 32)
+Number of Patients (%)	26 (25.5%)	4 (12.5%)
+Observed Difference, % (95.1% CI)	13.0% (-1.3%, 27.3%)
+Adjusted Differencea, % (95.1% CI)	19.0% (3.5%, 34.6%)
+Nominal p-valueb	(b) (4)
+L187: a CI weighted by propensity score defined strata using the Koch method.
+L188: b p-value was not adjusted for multiplicity.
+L189: ## *Sensitivity Analyses*
+L190: Similar to the primary endpoint of survival at day + 100, the reviewer performed various sensitivity analyses by varying the ranking algorithm when determine the propensity score strata. The sensitivity analyses results were summarized in the following tables.
+L191: Table 9 Sensitivity Analyses of Complete Response Rate by Day + 100 Post HSCT
+L192: Propensity Score Strata	Complete Response Rate Difference	Nominal P-value
+Applicant's Primary Analysis
+Quintile	19.0% (3.5%, 34.6%)	(b) (4)
+Applicant's Sensitivity Analyses
+Quintile, adjusted for 4 prognostic factors and additional others factors	7.8% (-11.5%, 27.2%)
+Quartile	15.2% (-0.2%, 30.5%)
+Quartile, adjusted for 4 prognostic factors and additional other factors	14.1% (-5.2%, 33.5%)
+Reviewer's Sensitivity Analyses
+Quintile/Quartile ('high')	17.6% (2.4%, 32.9%)
+Quintile/Quartile ('low')	16.5% (1.0%, 32.0%)
+Unadjusted	13.0% (-1.4%, 27.4%)
+L193: Note: To determine the propensity score cohort, “mean” algorithm was used the ranking method in the applicant’s analyses and “high” or “low” algorithm as the ranking method in the reviewer’s analyses. These algorithms can be found using the ranking options in PROC RANK in SAS. The confidence intervals and nominal p-values were adjusted by propensity score defined strata using the Koch method, and not adjusted for multiplicity.
+L194: Table 10 Reviewer's Sensitivity Analysis of CR at Day + 100 from CMH Test
+L195: Propensity Score Group	Complete Response Rate Difference*	Nominal P-value
+Quintile ('mean')	19.0% (3.5%, 34.6%)	(b) (4)
+Quartile ('mean')	15.2% (-0.2%, 30.5%)
+Quintile/Quartile ('high')	17.6% (2.4%, 32.9%)
+Quintile/Quartile ('low')	16.5% (1.0%, 32.0%)
+L196: * The rate difference is from Koch analysis
+L197: ## Reviewer's Comments:
+L198: The sensitivity analyses results also varies using the Koch method or CMH test when different ranking algorithm were used when determine the propensity score strata. The nominal p-values from the sensitivity analyses range from (b) (4). The sensitivity analyses do not support the sponsor's primary analysis results.
+L199: ## 2.2.4.3 Secondary Endpoint - Overall Survival
+L200: By the end of the study, 22 (21.6%) subjects survived in the defibrotide cohort compared with 7 (21.9%) subjects in the historical control cohort. The median survival was 67.0 days in the defibrotide cohort vs. 40.5 days in the historical control cohort.
+L201: **Table 11 Overall Survival**
+L202: Overall Survival	Defibrotide
+(N = 102)	Historical Control
+(N = 32)
+Survived, n (%)	22 (21.6)	7 (21.9)
+Died, n (%)	80 (78.4)	25 (78.1)
+Median time (95% CI)	67.0 (53.0, 90.0)	40.5 (30.0, 66.0)
+L203: **Figure 1 Kaplan Meier Curve of Overall Survival**
+L204: ## **Reviewer's Comments:**
+L205: - The Kaplan Meier curves of defibrotide cohort and historical control cohort crossed each other at around 600 days after HSCT. It is known that many patients did not have sufficient follow-up after day + 100, so the estimates after that may not be reliable. However, defibrotide treated cohort appears to show numerically better survival benefit by Day 100 based on this time-to-event analysis.
+L206: ## 2.3 Evaluation of Safety
+L207: Please refer to the clinical review for more information about evaluation of safety.
+L208: ## 3. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L209: ## 3.1 Gender, Race, Age, and Geographic Region for Study 2005-01
+L210: Survival rate at day +100 was investigated for the defibrotide cohort by gender, race and age. Subgroup analysis by geographic region was not performed because only 9 (8.8%) subjects were not in the U.S. In general, all the subgroup survival rates at day + 100 were comparable with the primary finding. Survival rate were comparable between female and male. However, survival rates varied among other subgroups. For example, survival rates were lower in patients older than 16 years (29%) and patient who were dialysis and/or ventilator dependent (24%) as compared to the primary finding (38%). However, due to the small sample size and there is no biological plausible reasons to explain the discrepancies, the interpretation of these subgroup analysis results may need to be taken with caution. Survival rate in the historical control group was not investigated by subgroups because of the small sample size.
+L211: Figure 2 Survival rate by Day +100 in Defibrotide Cohort
+L212: ## 3.2 Other Special/Subgroup Populations for Study 2005-01
+L213: Survival rates was investigated among other subgroups of Dial vs. Vent, Primary dis (yes vs. no), Prior SCT (yes vs. no), and transplant type (allogeneic vs. autologous). Patients with an allogeneic transplant had much lower survival rate than patients with vs. autologous transplant (32.2% vs. 83.3%). Survival rate in the historical control group was not investigated by subgroups because of the small sample size.
+L214: ## 4. SUMMARY AND CONCLUSIONS
+L215: ## 4.1 Statistical Issues
+L216: A few statistical issues were identified during the review:
+L217: The significance level cannot be determined due to many unplanned adaptations, e.g. sample size reduction and planned/unplanned interim analyses.
+L218: Koch's method does not allow for a sample size of 1 or smaller in any of the propensity score stratum and a size of 1 is observed in one of the stratum in the sponsor's primary analysis (see Table 10 in the Appendix), therefore the reviewer does not consider the sponsor's primary analysis adequate.
+L219: Sensitivity analyses of day + 100 survival rate varied by which propensity score strata were used. The nominal p-values from the sensitivity analyses ranged from (b) (4), so the sensitivity analyses could not confirm the sponsor's primary analysis results.
+L220: The property of the propensity score adjusted analysis method is not known when sample size is small and distribution of the strata level is sparse. Therefore, the applicant's interpretation of the primary efficacy results is questionable.
+L221: Whether or not the propensity score adjusted analysis have sufficiently balanced the between treatment difference cannot be determined.
+L222: ## 4.2 Conclusions and Recommendations
+L223: Due to the concerns of the validity of the propensity score adjusted analysis for small sample size and a variability of treatment effect estimates based on various propensity defined strata, the reviewer cannot confirm the sponsor's primary efficacy results for inference purpose (i.e. either the treatment effect estimates or the p-value). However, the data show consistent numerical improvement of day + 100 survival rate from the defibrotide treated cohort compared with the historical control cohort which may warrant further investigation.
+L224: The day + 100 survival rates were 38.2% for the defibrotide cohort and 25.0% for the historical control. The day + 100 survival rate differences ranged from 13.0% (unadjusted; 95% CI: -4.6%, 31%) to 23.0% (based on the sponsor's propensity score adjusted analysis; 95% CI: 5.2%, 40.8%) with some of the 95.1% lower bounds below 0.
+L225: The day + 100 survival rates in subgroup analyses appeared to support the primary results. The defibrotide cohort also appeared to show improvement of the day + 100 survival rate as compared with the historical control cohort based on time to event analyses.
+L226: In a dose finding study 99-118 (see Appendix for summary of the study), the day + 100 survival rate was 44% for defibrotide treated arm at a dose of 25 mg/kg/day (95% CI: 32.5%, 55.9%). This result support the day + 100 survival rate estimated from Study 2005-01.
+L227: In summary, the reviewer cannot confirm the applicant reported treatment effect of defibrotide treated cohort vs. the historical control cohort for inference purpose; however, the review confirms that there is consistent numerically higher day +100 survival rates in favor of the defibrotide treated cohort. Whether or not the results represent a favorable benefit to risk to support an approval of defibrotide is deferred to clinical judgment.
+L228: ## 4.3 Labeling Recommendations
+L229: For Study 2005-01, the reviewer has the following major labeling recommendations:
+L230: The applicant proposed (b) (4)
+(b) (4)
+the reviewer recommends (b) (4) in
+the label.
+L231: The applicant proposed (b) (4)
+(b) (4). The medical reviewers (b) (4) is adequately
+captured. (b) (4) The reviewer recommends reporting the (b) (4)
+L232: Furthermore, the medical reviewers consider (b) (4)
+L233: (b) (4)
+L234: For the supportive Study 99-118, the reviewer agrees reporting the day + 100 survival in the label to support the primary efficacy finding from Study 2005-01.
+L235: ## APPENDICES
+L236: ## *Summary of Study 99-118*
+L237: - *Study Design*The Study 99-118 was a randomized, open-label, dose-finding, multicenter Phase 2 study to determine the efficacy and safety of 2 dose levels of defibrotide in adult and pediatric patients with severe hepatic VOD post-HSCT.
+
+The randomization was stratified by prior cyclophosphamide conditioning, and age (&lt; 18 years, \ge 18 years).
+
+- *Dosing Schedule*For both treatment arms, the starting dose of defibrotide on day 1 was 2.5 mg/kg every 6 hours for 4 doses (total dose of 10 mg/kg/day), based on baseline weight. From Day 2, the defibrotide dose was increased to 6.25 mg/kg every 6 hours in arm A (total dose of 25 mg/kg/day given in 4 divided doses), or 10 mg/kg every 6 hours in arm B (total dose of 40 mg/kg/day given in 4 divided doses).
+
+The Arm A has the same dosing schedule per day with defibrotide arm in Study 2005-01. The difference is that defibrotide in Study 99-118 was administered for a minimum of 14 days, and treatment was to continue until the occurrence of CR. Defibrotide administration may have been continued beyond 14 days if on Day 14 patients had evidence of response by any measure.
+
+- *Primary and Key Secondary Endpoint*The primary efficacy endpoint was CR in patients with severe VOD treated with defibrotide. The secondary efficacy endpoint was survival at Day +100.
+
+- *Statistical Methodology*Point estimates with 2-sided 95% confidence intervals were reported for binary endpoints in the 2 treatment arms.
+
+- *Efficacy Results*A total of 150 patients (75 in each treatment arm) were randomized and enrolled in this study at 9 medical centers between April 2000 and May 2007. Of the 75 patient randomized to the 25 mg/kg treatment arm, 35 (46.7%, 95% CI [35.1%, 58.6%]) patients achieved a CR, and 33 (44.0%, 95% CI [32.8%, 55.2%]) patients were alive at Day +100.
+L238: ## *Propensity Score Adjusted Analysis for Study 2005-01*
+L239: For each patient, a propensity probability for belonging to defibrotide cohort is calculated using logistic regression model with the four baseline prognostic factors (ventilator and/or dialysis dependent, \le 16 years of age [yes/no], allogeneic or autologous transplant, prior stem cell transplant [yes/no]).
+L240: Theoretically because all the four prognostic factors are dichotomous variables, there are a total of 2 \times 2 \times 2 \times 2 = 16 possible combinations of the results of the 4 prognostic variables, which leads to only 16 possible propensity probabilities for each patient. In the Study 2005-01, there were 12 observed combinations of results of 4 prognostic variables for the total of 134 subjects.
+L241: The following table summarized the number of patients in each quintile by treatment cohort
+L242: Quintile	Treatment Cohort
+Defibrotide	Historical Control	Total
+1st	8 (7.8%)	4 (12.9%)	12 (9.0%)
+2nd	32 (31.4%)	8 (25%)	40 (29.9%)
+3rd	0 (0.0%)	0 (0.0%)	0
+4th	31 (30.4%)	14 (43.8%)	45 (33.6%)
+5th	31 (30.4%)	6 (18.8%)	37 (27.6%)
+L243: *To explore the comparability of the propensity scores, a box plot for each cohort was displayed in the following figure. The inter-quartiles of the propensity score distribution appear to be overlapped which indicates that the propensity score distribution is somewhat compatible between two treatment cohorts.*
+L244: **Figure 3 Predictive Probability of Being Randomized to Defibrotide Cohort**
+L245: The following tables summarized the Applicant and the reviewer derived strata from propensity scores using different algorithms in PROC RANK in SAS.
+L246: **Table 12 Sponsor's Derived Strata Based on Quintiles with "Mean" Option using PROC RANK in SAS**
+L247: Treatment Cohort	Quintile	Total
+1st	2nd	3rd	4th	5th
+Defibrotide	8	32	20	25	17	102
+Control	4	8	11	8	1	32
+Total	12	40	31	33	18	134
+L248: ## *Reviewer's comments:*
+L249: - A size of 1 is observed in one of the stratum in the sponsor's primary analysis based on the strata shown in Table 12. Since Koch's method would not allow for a sample size of 1 or smaller in any of the propensity score stratum, the reviewer does not consider the sponsor's primary analysis adequate.
+L250: **Table 13 Sponsor's Derived Strata Based on Quartiles with "Mean" Option using PROC RANK in SAS**
+L251: Treatment Cohort	Quartile	Total
+1st	2nd	3rd	4th
+Defibrotide	40	0	31	31	102
+Control	12	0	14	6	32
+Total	52	0	45	37	134
+L252: **Table 14 Reviewer's Derived Quintiles/Quartiles (based on "high" Option using PROC RANK in SAS)**
+L253: Treatment Cohort	Quintile/Quartile	Total
+1st	2nd	3rd	4th
+Defibrotide	8	32	31	31	102
+Control	4	8	14	6	32
+Total	12	40	45	37	134
+L254: This reviewer also performs additional analyses based on strata of approximately equal sizes (4 or 5 groups). The strata used in the sensitivity analyses are shown below:
+L255: **Table 15 Reviewer's Derived Equal Sized 5 Groups**
+L256: Treatment Cohort	Quintile	Total
+1st	2nd	3rd	4th	5th
+L257: Defibrotide	19	19	17	18	29	102
+Control	6	6	8	7	5	32
+Total	25	25	25	25	34	134
+L258: Table 16 Reviewer's Derived Equal Sized 4 Groups
+L259: Treatment Cohort	Quintile/Quartile	Total
+1st	2nd	3rd	4th
+Defibrotide	25	23	23	31	102
+Control	7	9	9	7	32
+Total	32	32	32	38	134
+L260: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L261: /s/
+L262: XIN GAO
+01/11/2016
+L263: YUAN L SHEN
+01/11/2016
+L264: RAJESHWARI SRIDHARA
+01/11/2016
+L265: Kaplan Meier Curve of Overall Survival (Product-Limit Survival Estimates). The X-axis is Analysis Value (days) from 0 to 5000. The Y-axis is Survival Probability from 0.0 to 1.0. The TRTP (25 MG/KG) curve (solid blue line) and the HISTORICAL curve (dashed red line) start at 1.0 survival probability. The TRTP curve drops faster initially, reaching a survival probability of approximately 0.25 around day 600. The HISTORICAL curve drops slower, reaching a survival probability of approximately 0.3 around day 600. The curves cross around day 600. The TRTP curve continues to decline, reaching a survival probability of approximately 0.15 around day 2000. The HISTORICAL curve remains relatively flat around 0.3 until day 3000, then drops sharply to approximately 0.15 around day 4000. The legend indicates TRTP (25 MG/KG) and HISTORICAL, and a legend box for Censored data points.
+L266: Subgroup	# alive/total	Rate(95%CI)	Rate(95%CI)
+Overall	39/102	38.2(28.8,48.4)
+Age	
+...> 16 YEARS	17/58	29.3(18.1,42.7)
+...≤ 16 YEARS	22/44	50.0(34.6,65.4)
+Race	
+...White	33/77	42.9(31.6,54.6)
+...Non-White	6/25	24.0(9.4,45.1)
+Sex	
+...F	14/38	36.8(21.8,54.0)
+...M	25/64	39.1(27.1,52.1)
+Dial./Vent.	
+...YES	8/34	23.5(10.7,41.2)
+...NO	31/68	45.6(33.5,58.1)
+Primary dis.	
+...YES	15/47	31.9(19.1,47.1)
+...NO	24/55	43.6(30.3,57.7)
+Prior SCT	
+...YES	4/13	30.8(9.1,61.4)
+...NO	35/89	39.3(29.1,50.3)
+Transp type	
+...ALLO	29/90	32.2(22.8,42.9)
+...AUTO	10/12	83.3(51.6,97.9)
+Figure 2 is a forest plot illustrating the survival rate by Day +100 in the Defibrotide Cohort for various subgroups. The X-axis represents the survival rate percentage, ranging from 10 to 90. A vertical line is drawn at 38.2, representing the overall survival rate. Each subgroup is represented by a horizontal line segment with a square marker indicating the point estimate and error bars representing the 95% Confidence Interval (CI).
+L267: Box plot titled "Distribution of predtrt by TRTP" showing the Estimated Probability (Y-axis, ranging from 0.65 to 0.85) for two treatment cohorts: 25 MG/KG (Defibrotide) and HISTORICAL (Control).
+The plot compares the distribution of propensity scores for the two groups. The 25 MG/KG group has a median propensity score around 0.75, with the box spanning approximately 0.70 to 0.80. The HISTORICAL group has a median propensity score around 0.75, with the box spanning approximately 0.68 to 0.78. The distributions overlap significantly, indicating compatibility between the two treatment cohorts.

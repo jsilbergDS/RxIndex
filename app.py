@@ -48,6 +48,11 @@ client = anthropic.Anthropic(api_key=api_key) if api_key else None
 # Set APP_PASSWORD as a Space secret to require login.
 # Leave APP_PASSWORD unset to disable auth (dev mode).
 APP_PASSWORD = os.environ.get("APP_PASSWORD", "").strip()
+# Chat is OFF by default (code preserved). Set CHAT_ENABLED=1 to re-enable the per-drug chat.
+CHAT_ENABLED = os.environ.get("CHAT_ENABLED", "").strip() == "1"
+# GitHub repo backing the card content — enables per-card "Suggest an edit" (PR via the
+# GitHub web editor) and "Report an error" (issue) links. Set GITHUB_REPO="" to hide them.
+GITHUB_REPO = os.environ.get("GITHUB_REPO", "jsilbergDS/RxIndex").strip()
 import secrets as _secrets, hashlib as _hashlib
 # Stable secret key so login sessions survive Space restarts (a random key per boot
 # would silently log everyone out). Tied to the password when no explicit key is set.
@@ -113,6 +118,27 @@ def _auth_gate():
 # Pre-built doc index (replaces paperclip SQL discovery)
 with open(DOCS_INDEX_PATH) as _f: DOCS_INDEX = json.load(_f)
 with open(PAGES_META_PATH) as _f: PAGES_META = json.load(_f)
+
+# doc_id -> {url, drug} for every bundled OCR doc (built by build_doc_meta.py from
+# paperclip). Used to label the OCR panel when a citation doc_id isn't in PAGES_META.
+_DOC_META_PATH = DATA_DIR / "doc_meta.json"
+DOC_META = json.load(open(_DOC_META_PATH)) if _DOC_META_PATH.exists() else {}
+
+
+def _doc_panel_label(doc_id):
+    """'<Drug> <DocType> · <Year>' for the OCR panel, from PAGES_META or DOC_META."""
+    info = PAGES_META.get(doc_id, {}) or PAGES_META.get("fda_" + doc_id, {})
+    url = info.get("public_url") or info.get("filename")
+    if url:
+        return _doc_display(url)
+    dm = DOC_META.get(doc_id)
+    if not dm:
+        return _doc_label(doc_id)
+    fname = dm.get("fname") or ""
+    typ = _friendly(_infer_doc_type(fname, fname) if fname else None)
+    drug, yr = dm.get("drug"), dm.get("year")
+    lab = f"{drug} {typ}" if drug else typ
+    return f"{lab} · {yr}" if yr else lab
 
 # Optional: claim audit (built by build_claim_audit.py). If present, used to wrap
 # verified claims in clickable .qlink chips pointing at the source PDF page.
@@ -318,10 +344,10 @@ def _doc_display(url_or_name):
     m = re.search(r"([^/\s|]+\.pdf)", url_or_name or "")
     code = _infer_doc_type(m.group(1), m.group(1)) if m else None
     label = _friendly(code)
-    if code == "Lbl":
-        y = re.search(r"(20\d\d)", url_or_name or "")
-        if y:
-            label += f" · {y.group(1)}"
+    # append the drugsatfda-path year (approval / supplement year) for ALL doc types
+    y = re.search(r"/((?:19|20)\d\d)/", url_or_name or "")
+    if y:
+        label += f" · {y.group(1)}"
     return label
 
 def discover_docs_for(app_key: str):
@@ -567,20 +593,27 @@ def doc_view(doc_id):
     rows = []
     for n, t in parsed:
         cls = "ln hl" if (target is not None and n == target) else "ln"
-        rows.append('<div class="' + cls + '" id="L' + str(n) + '"><div class="n">L' + str(n) + '</div><div class="t">' + H(t) + '</div></div>')
+        rows.append('<div class="' + cls + '" id="L' + str(n) + '"><div class="n" data-n="' + str(n) + '" title="Copy a citation for this line" onclick="cp(this)">L' + str(n) + '</div><div class="t">' + H(t) + '</div></div>')
     body = "".join(rows)
     jump = ('<script>var t=document.getElementById("L' + str(target) + '"); if(t) t.scrollIntoView({block:"center"});</script>') if target is not None else ""
-    hdr = "FDA review OCR · " + H(canon_docid(doc_id)[:8]) + (" · line " + str(target) if target is not None else "") + ("" if (anchored or not q) else " · (line approx)")
+    # Click a line number -> copy {"quote","doc_id","line"} for a card edit / issue.
+    copy_js = ('<script>var DOC=' + json.dumps(doc_id) + ';function cp(el){var q=el.nextElementSibling.textContent.replace(/\\s+/g," ").trim();'
+               'var j=JSON.stringify({quote:q,doc_id:DOC,line:+el.dataset.n});'
+               'navigator.clipboard.writeText(j).then(function(){el.classList.add("ok");setTimeout(function(){el.classList.remove("ok")},1200)});}</script>')
+    _doclabel = _doc_panel_label(doc_id) or "FDA review OCR"
+    hdr = (H(_doclabel) + (" · line " + str(target) if target is not None else "") + ("" if (anchored or not q) else " · (line approx)")
+           + ' <span class="tip">· click a line number to copy a citation (trim the quote to the words you need)</span>')
     return (
         '<!DOCTYPE html><html><head><meta charset="utf-8"><title>' + H(doc_id[:8]) + ' OCR</title>'
         '<style>'
         'body{font-family:ui-monospace,Menlo,monospace;margin:0;padding:12px;color:#222;font-size:13px;line-height:1.5;background:#fff}'
         '.hdr{position:sticky;top:0;background:#fff;border-bottom:1px solid #ccc;padding:6px 0;margin-bottom:8px;font-family:sans-serif;font-size:12px;color:#555}'
         '.ln{display:flex;gap:10px;padding:1px 0}'
-        '.n{color:#aaa;min-width:44px;text-align:right;user-select:none}'
+        '.n{color:#aaa;min-width:44px;text-align:right;user-select:none;cursor:pointer}'
+        '.n:hover{color:#2563eb}.n.ok{color:#16a34a;font-weight:bold}.tip{color:#999}'
         '.t{white-space:pre-wrap;flex:1}'
         '.hl{background:#fff3a8;border-left:3px solid #e6a800;padding-left:6px;margin-left:-9px}'
-        '</style></head><body><div class="hdr">' + hdr + '</div>' + body + jump + '</body></html>'
+        '</style></head><body><div class="hdr">' + hdr + '</div>' + body + jump + copy_js + '</body></html>'
     )
 
 
@@ -733,6 +766,8 @@ SYSTEM_PROMPT = (
 
 @app.route("/api/chat", methods=["POST"])
 def chat():
+    if not CHAT_ENABLED:
+        return jsonify({"reply": "Chat is disabled on this deployment.", "disabled": True}), 403
     body = request.get_json(force=True)
     session_id = body.get("session_id") or str(uuid.uuid4())
     app_key = body["app_key"]
@@ -870,7 +905,7 @@ def _ref_marker(match, search_text):
     info = PAGES_META.get(doc_id, {}) or PAGES_META.get("fda_" + doc_id, {})
     fname = info.get("filename") or (info.get("public_url", "") or "").rsplit("/", 1)[-1]
     page = match.get("page") or 1
-    label = _ref_label(fname) if fname else _doc_label(doc_id)
+    label = _doc_panel_label(doc_id)
     refs = _card_refs()
     n = None
     for i, rr in enumerate(refs):
@@ -883,7 +918,7 @@ def _ref_marker(match, search_text):
         n = len(refs)
     payload = json.dumps({"doc_id": doc_id, "line": line,
                           "url": (f"pdfs/{fname}" if fname else ""),
-                          "page": page, "s": search_text}, ensure_ascii=False)
+                          "page": page, "s": search_text, "label": label}, ensure_ascii=False)
     pa = html_lib.escape(payload, quote=True)
     return (f'<sup class="refmark"><a class="qlink" data-pdf="{pa}" '
             f'title="Source {n}: {H(label)} · line {line}">{n}</a></sup>')
@@ -938,7 +973,8 @@ def _source_list_html(refs):
     for rr in refs:
         payload = json.dumps({"doc_id": rr.get("doc_id"), "line": rr.get("line"),
                               "url": (f"pdfs/{rr['fname']}" if rr.get("fname") else ""),
-                              "page": rr.get("page"), "s": rr.get("search", "")}, ensure_ascii=False)
+                              "page": rr.get("page"), "s": rr.get("search", ""),
+                              "label": rr.get("label")}, ensure_ascii=False)
         pa = html_lib.escape(payload, quote=True)
         items.append(f'<li><a class="qlink" data-pdf="{pa}">{H(rr["label"])} · line {rr.get("line")}</a></li>')
     return f'<div class="section-label">SOURCES ({len(refs)})</div><ol class="refs">{"".join(items)}</ol>'
@@ -1312,6 +1348,164 @@ def _precompute_doc_labels():
     print(f"[startup] precomputed {len(_DOC_LABEL_CACHE)} doc labels", flush=True)
 
 
+def _chg_sortkey(d):
+    d = str(d or "")
+    m = re.search(r"(\d{4})-(\d{2})", d)
+    if m:
+        return (int(m.group(1)), int(m.group(2)))
+    m = re.search(r"(\d{1,2})/(\d{4})", d)
+    if m:
+        return (int(m.group(2)), int(m.group(1)))
+    return (0, 0)
+
+
+def _safety_change_rows(app_key):
+    """Safety changes since approval (from data/label_changes/), as card-style rows —
+    one per date, a single badge, a concise line. Matches the efficacy-supplement rows."""
+    p = DATA_DIR / "label_changes" / f"{app_key}.json"
+    if not p.exists():
+        return []
+    try:
+        lc = json.load(open(p))
+    except Exception:
+        return []
+    months = {}
+    for e in lc.get("events", []):
+        if e.get("category") == "SAFETY":
+            months.setdefault(e["date"], []).append(e)
+    seen_boxed = bool(lc.get("boxed_warning_at_approval"))
+    rows = []
+    for date, evts in months.items():
+        sections = [e.get("section", "") for e in evts]
+        boxed = any(s.lower().startswith("boxed") for s in sections)
+        parts = []
+        if boxed:
+            parts.append("Boxed warning added" if not seen_boxed else "Boxed warning revised")
+            seen_boxed = True
+        if any(s.lower().startswith("contra") for s in sections):
+            parts.append("contraindication updated")
+        if any(("warnings and precautions" in s.lower()) or re.search(r"\(5\.", s) for s in sections):
+            parts.append("warnings updated")
+        if not parts:
+            parts.append("safety labeling updated")
+        cls = "boxed" if boxed else "safety"
+        badge = "BOXED WARNING" if boxed else "SAFETY"
+        desc = "; ".join(parts); desc = desc[0].upper() + desc[1:]
+        # source: open the label OCR at the "RECENT MAJOR CHANGES" line for this change
+        src = next((e for e in evts if e.get("section", "").lower().startswith("boxed")), evts[0])
+        link = ""
+        if src.get("doc_id"):
+            payload = json.dumps({"doc_id": src["doc_id"], "line": src.get("line") or 1,
+                                  "url": "", "page": 1, "s": ""})
+            link = (f'<span class="supp-links"><a class="qlink" '
+                    f'data-pdf="{html_lib.escape(payload, quote=True)}">label</a></span>')
+        rows.append((_chg_sortkey(date),
+                     f'<div class="supp {cls}"><div class="supp-head">'
+                     f'<span class="supp-date">{H(date)}</span> '
+                     f'<span class="pm-badge {cls}">{badge}</span>{link}</div>'
+                     f'<div class="supp-desc">{H(desc)}</div></div>'))
+    return rows
+
+
+def _report_error_link(app_key, drug):
+    """Per-card links to GitHub: 'Suggest an edit' opens the card's source file
+    (data/cards_single/<APP>.json) in GitHub's web editor, which forks + opens a PR for
+    the contributor; 'Report an error' opens a pre-filled issue. Omitted if GITHUB_REPO
+    is unset."""
+    if not GITHUB_REPO:
+        return ""
+    import urllib.parse
+    title = f"Card correction: {drug} ({app_key})"
+    body = (f"**Card:** `{app_key}` — {drug}\n\n"
+            f"**Field / claim with the error:** \n\n"
+            f"**What's wrong:** \n\n"
+            f"**Correct value:** \n\n"
+            f"**FDA source** — click a line number in the card's source viewer to copy a citation, "
+            f"or give the verbatim quote + doc_id + line: \n")
+    q = urllib.parse.urlencode({"title": title, "labels": "card-correction", "body": body})
+    edit = f"https://github.com/{GITHUB_REPO}/edit/main/data/cards_single/{urllib.parse.quote(app_key)}.json"
+    return (f'<span class="report-err">'
+            f'<a target="_blank" rel="noopener" href="{H(edit)}">✎ Suggest an edit</a> · '
+            f'<a target="_blank" rel="noopener" '
+            f'href="https://github.com/{GITHUB_REPO}/issues/new?{H(q)}">⚑ Report an error</a></span>')
+
+
+def _src_link(src):
+    if not src or not src.get("doc_id"):
+        return ""
+    payload = json.dumps({"doc_id": src["doc_id"], "line": src.get("line") or 1, "url": "", "page": 1, "s": ""})
+    return f'<a class="qlink" data-pdf="{html_lib.escape(payload, quote=True)}">label</a>'
+
+
+def _render_changes_section(app_key):
+    """Unified 'Changes since approval' from data/changes/<app>.json (Submissions.txt spine
+    + paperclip content). Describable rows in full; blank labeling supplements collapsed."""
+    p = DATA_DIR / "changes" / f"{app_key}.json"
+    if not p.exists():
+        return None
+    try:
+        data = json.load(open(p))
+    except Exception:
+        return None
+    rows = []; blanks = []
+    for e in data.get("entries", []):
+        sk = _chg_sortkey(e.get("date")); emitted = False
+        supp = e.get("efficacy_supp")
+        if supp and isinstance(supp.get("description"), dict) and supp["description"].get("text"):
+            links = [f'<a href="{H(supp[k])}" target="_blank">{lab}</a>'
+                     for k, lab in (('review_url', 'review'), ('letter_url', 'letter'), ('label_url', 'label')) if supp.get(k)]
+            rows.append((sk, f'<div class="supp"><div class="supp-head">'
+                             f'<span class="supp-date">{H(e["date"])}</span> '
+                             f'<span class="supp-sn">S-{H(str(supp.get("submission_number")))}</span> '
+                             f'<span class="pm-badge pmr">EFFICACY</span> '
+                             f'<span class="supp-links">{" · ".join(links)}</span></div>'
+                             f'<div class="supp-desc">{render_cited_single(supp["description"])}</div></div>'))
+            emitted = True
+        elif e.get("efficacy_note"):
+            rows.append((sk, f'<div class="supp"><div class="supp-head">'
+                             f'<span class="supp-date">{H(e["date"])}</span> '
+                             f'<span class="pm-badge pmr">EFFICACY</span> '
+                             f'<span class="supp-links">{_src_link(e.get("eff_src"))}</span></div>'
+                             f'<div class="supp-desc">{H(e["efficacy_note"])}</div></div>'))
+            emitted = True
+        saf = e.get("safety_summary")
+        if saf:
+            cls = "boxed" if saf.lower().startswith("boxed") else "safety"
+            badge = "BOXED WARNING" if cls == "boxed" else "SAFETY"
+            rows.append((sk, f'<div class="supp {cls}"><div class="supp-head">'
+                             f'<span class="supp-date">{H(e["date"])}</span> '
+                             f'<span class="pm-badge {cls}">{badge}</span> '
+                             f'<span class="supp-links">{_src_link(e.get("safety_src"))}</span></div>'
+                             f'<div class="supp-desc">{H(saf[0].upper() + saf[1:])}</div></div>'))
+            emitted = True
+        if e.get("rems") and not emitted:
+            rows.append((sk, f'<div class="supp"><div class="supp-head">'
+                             f'<span class="supp-date">{H(e["date"])}</span> '
+                             f'<span class="pm-badge pmc">REMS</span></div>'
+                             f'<div class="supp-desc">REMS supplement approved</div></div>'))
+            emitted = True
+        if not emitted:
+            blanks.append(e)
+    rows.sort(key=lambda x: x[0])
+    out = "".join(h for _, h in rows)
+    if blanks:
+        appno = re.sub(r"\D", "", app_key)
+        daf = ("https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm"
+               f"?event=overview.process&ApplNo={appno}")
+        chips = []
+        for e in blanks:
+            for d in e.get("suppl_docs", []):
+                has_pdf = d.get("in_corpus") or d.get("resolves")
+                href = d["url"] if has_pdf else daf
+                note = "" if has_pdf else '<span class="nopdf"> (no PDF posted)</span>'
+                chips.append(f'<a href="{H(href)}" target="_blank">S-{H(str(d["num"]))} '
+                             f'({H(e["date"])})</a>{note}')
+        out += (f'<div class="supp minor"><div class="supp-desc">+ {len(chips)} other labeling '
+                f'supplement{"s" if len(chips) != 1 else ""}: {" · ".join(chips)} — '
+                f"minor labeling; no change flagged in the label's Recent Major Changes.</div></div>")
+    return out or None
+
+
 def render_card_html(idx, r):
     meta = r.get("_meta", {})
     appno = meta.get("appno") or ""
@@ -1359,9 +1553,12 @@ def render_card_html(idx, r):
     trials_html = ""
     for i, t in enumerate(trials[:4]):
         nct = t.get("nct")
+        # Only a real NCT id becomes a link; "Not stated in reviewed documents"/"null"/etc.
+        # are not registry ids (NCT#s are external and often absent from FDA docs) -> omit.
+        nct_num = nct.strip() if (isinstance(nct, str) and re.match(r'NCT\d{3,}', nct.strip())) else None
         nct_link = (
-            f'<a href="https://clinicaltrials.gov/study/{H(nct)}" target="_blank">{H(nct)}</a>'
-            if nct
+            f'<a href="https://clinicaltrials.gov/study/{H(nct_num)}" target="_blank">{H(nct_num)}</a>'
+            if nct_num
             else ""
         )
         fp = f"pivotal_trials.{i}"
@@ -1402,34 +1599,40 @@ def render_card_html(idx, r):
     # [] = deterministically none (Drugs@FDA); list = the expansions, each with a
     # cited "what changed" description.
     supps = r.get('supplements')
-    if supps is None:
-        supps_html = ('<div class="supp empty">Efficacy-supplement history not yet extracted '
-                      'for this card — <b>not</b> a statement that none exist.</div>')
-    elif not supps:
-        supps_html = ('<div class="supp empty">No efficacy supplements — no indication expansions '
-                      'after the original approval (per Drugs@FDA).</div>')
-    else:
-        supps_html = ""
-        for s_i, s in enumerate(supps[:25]):
-            date_fmt = s.get('approval_date') or ''
-            sn = s.get('submission_number')
-            desc = s.get('description')
-            desc_html = (render_cited_single(desc) if isinstance(desc, dict) and desc.get('text')
-                         else '<i>description not extracted</i>')
-            links = []
-            for k, lab in (('review_url', 'review'), ('letter_url', 'letter'), ('label_url', 'label')):
-                if s.get(k):
-                    links.append(f'<a href="{H(s[k])}" target="_blank">{lab}</a>')
-            link_str = ' · '.join(links)
-            supps_html += (
-                f'<div class="supp">'
-                f'<div class="supp-head"><span class="supp-date">{H(date_fmt)}</span> '
-                f'<span class="supp-sn">S-{H(str(sn))}</span> '
-                f'<span class="pm-badge pmr">EFFICACY</span> '
-                f'<span class="supp-links">{link_str}</span></div>'
-                f'<div class="supp-desc">{desc_html}</div>'
-                f'</div>'
-            )
+    supps_html = _render_changes_section(app_key)
+    _skip_legacy = supps_html is not None
+    _safety = [] if _skip_legacy else _safety_change_rows(app_key)
+    _eff = []
+    for s_i, s in enumerate([] if _skip_legacy else (supps or [])[:25]):
+        date_fmt = s.get('approval_date') or ''
+        sn = s.get('submission_number')
+        desc = s.get('description')
+        desc_html = (render_cited_single(desc) if isinstance(desc, dict) and desc.get('text')
+                     else '<i>description not extracted</i>')
+        links = []
+        for k, lab in (('review_url', 'review'), ('letter_url', 'letter'), ('label_url', 'label')):
+            if s.get(k):
+                links.append(f'<a href="{H(s[k])}" target="_blank">{lab}</a>')
+        link_str = ' · '.join(links)
+        _eff.append((_chg_sortkey(date_fmt),
+            f'<div class="supp">'
+            f'<div class="supp-head"><span class="supp-date">{H(date_fmt)}</span> '
+            f'<span class="supp-sn">S-{H(str(sn))}</span> '
+            f'<span class="pm-badge pmr">EFFICACY</span> '
+            f'<span class="supp-links">{link_str}</span></div>'
+            f'<div class="supp-desc">{desc_html}</div>'
+            f'</div>'))
+    if not _skip_legacy:
+        if _eff or _safety:
+            _all = _eff + _safety
+            _all.sort(key=lambda x: x[0])
+            supps_html = "".join(h for _, h in _all)
+        elif supps is None:
+            supps_html = ('<div class="supp empty">Post-approval changes not yet extracted '
+                          'for this card — <b>not</b> a statement that none exist.</div>')
+        else:
+            supps_html = ('<div class="supp empty">No changes recorded after the original approval '
+                          '(per Drugs@FDA / the label).</div>')
 
     pills = (
         pill('BTD', exped.get('btd')) +
@@ -1477,6 +1680,7 @@ def render_card_html(idx, r):
         <span class="tab active">{H('Regular' if typ=='NDA' else 'Regular (BLA)')}</span>
         <span class="metric">First-cycle: <b>{fc_tag}</b></span>
         <span class="metric">TTA: <b>{tta_tag}</b></span>
+        {_report_error_link(app_key, drug)}
       </div>
       <div class="title">{H(drug)} <span class="active-mol">({H(active)})</span></div>
       <div class="sponsor">{H(sponsor)} · {H(typ)} {H(appno)}</div>
@@ -1485,7 +1689,7 @@ def render_card_html(idx, r):
       <div class="indication">"{cited_or_annotate('_meta.indication', indication)}"</div>
       <div class="ind-chips-wrap">{ind_chips_html}</div>
 
-      <div class="section-label">INDICATION EXPANSIONS / EFFICACY SUPPLEMENTS</div>
+      <div class="section-label">CHANGES SINCE APPROVAL</div>
       {supps_html}
 
       <div class="section-label">EXPEDITED PROGRAMS</div>
@@ -1519,6 +1723,8 @@ def render_card_html(idx, r):
     </div>"""
 
 def render_chat_html(r):
+    if not CHAT_ENABLED:
+        return ""
     meta = r.get("_meta", {})
     appno = meta.get("appno") or ""
     typ = meta.get("type") or ""
@@ -1548,6 +1754,8 @@ header .sub { font-size: 11px; color: #9ca3af; margin-top: 2px; }
 .sidebar { width: 240px; flex: 0 0 240px; background: white; border-right: 1px solid #e5e7eb; display: flex; flex-direction: column; min-height: 0; }
 .filter-bar { padding: 8px; border-bottom: 1px solid #e5e7eb; display: flex; flex-direction: column; gap: 6px; }
 .filter-bar input, .filter-bar select { width: 100%; padding: 5px 8px; border: 1px solid #d1d5db; border-radius: 4px; font-size: 13px; box-sizing: border-box; background: white; }
+.filter-bar .f-check { display: flex; align-items: center; gap: 6px; font-size: 12px; color: #374151; cursor: pointer; }
+.filter-bar .f-check input { width: auto; margin: 0; }
 .filter-count { font-size: 11px; color: #6b7280; padding: 2px 4px; text-align: right; }
 .drug-list { flex: 1 1 auto; overflow-y: auto; }
 .drug-item { padding: 8px 12px; cursor: pointer; border-bottom: 1px solid #f3f4f6; font-size: 13px; }
@@ -1608,6 +1816,17 @@ header .sub { font-size: 11px; color: #9ca3af; margin-top: 2px; }
 .supp-links { margin-left: auto; }
 .supp-links a { color: #2563eb; margin-left: 6px; }
 .supp-desc { color: #1f2937; line-height: 1.4; }
+.supp.safety { background: #fff7ed; border-left-color: #fb923c; }
+.supp.safety .supp-head { color: #9a3412; }
+.pm-badge.safety { color: #c2410c; }
+.supp.boxed { background: #fef2f2; border-left-color: #dc2626; }
+.supp.boxed .supp-head { color: #991b1b; }
+.pm-badge.boxed { color: #b91c1c; }
+.supp.minor { background: #f9fafb; border-left-color: #e5e7eb; color: #6b7280; font-style: italic; font-size: 13px; padding: 7px 12px; }
+.supp.minor .nopdf { color: #9ca3af; font-style: normal; font-size: 11.5px; }
+.report-err { margin-left: auto; font-size: 11.5px; color: #9ca3af; }
+.report-err a { color: #9ca3af; text-decoration: none; }
+.report-err a:hover { color: #dc2626; text-decoration: underline; }
 .adcom-detail { margin-top: 6px; font-size: 14px; }
 .adcom-meet { color: #6b7280; font-size: 13px; }
 .adcom-rec { margin-top: 5px; }
@@ -1782,11 +2001,21 @@ const fSearch = document.getElementById('f-search');
 const fTA = document.getElementById('f-ta');
 const fYear = document.getElementById('f-year');
 const fCount = document.getElementById('filter-count');
+const fExp = document.getElementById('f-exp');
+const fCrl = document.getElementById('f-crl');
+const fAdcom = document.getElementById('f-adcom');
+const fBoxed = document.getElementById('f-boxed');
+const fPmr = document.getElementById('f-pmr');
 const nowYear = new Date().getFullYear();
 function applyFilters() {
   const q = fSearch.value.trim().toLowerCase();
   const ta = fTA.value;
   const yspan = parseInt(fYear.value || '0', 10);
+  const exp = fExp.value;
+  const crlOnly = fCrl.checked;
+  const adcomOnly = fAdcom.checked;
+  const boxedOnly = fBoxed.checked;
+  const pmrOnly = fPmr.checked;
   let n = 0;
   items.forEach(it => {
     const text = it.textContent.toLowerCase();
@@ -1796,12 +2025,20 @@ function applyFilters() {
     if (q && !text.includes(q)) ok = false;
     if (ta && itTA !== ta) ok = false;
     if (yspan && (!itYear || itYear < nowYear - yspan)) ok = false;
+    if (exp && !(it.dataset.exp || '').split('|').includes(exp)) ok = false;
+    if (crlOnly && it.dataset.crl !== '1') ok = false;
+    if (adcomOnly && it.dataset.adcom !== '1') ok = false;
+    if (boxedOnly && it.dataset.boxed !== '1') ok = false;
+    if (pmrOnly && it.dataset.pmr !== '1') ok = false;
     it.classList.toggle('hidden', !ok);
     if (ok) n += 1;
   });
   fCount.textContent = n + ' drug' + (n === 1 ? '' : 's');
 }
-[fSearch, fTA, fYear].forEach(el => el.addEventListener('input', applyFilters));
+[fSearch, fTA, fYear, fExp, fCrl, fAdcom, fBoxed, fPmr].forEach(el => {
+  el.addEventListener('input', applyFilters);
+  el.addEventListener('change', applyFilters);
+});
 // Auto-select first
 if (items.length > 0) selectDrug(items[0].dataset.appKey);
 
@@ -1820,7 +2057,7 @@ function closePdf() {
   document.getElementById('pdf-panel').classList.remove('open');
   document.getElementById('pdf-frame').src = '';
 }
-function openDoc(docId, line, q) {
+function openDoc(docId, line, q, label) {
   const panel  = document.getElementById('pdf-panel');
   const frame  = document.getElementById('pdf-frame');
   const titleEl = document.getElementById('pdf-title');
@@ -1830,7 +2067,8 @@ function openDoc(docId, line, q) {
   if (q) qs.push('q=' + encodeURIComponent(q));
   if (qs.length) src += '?' + qs.join('&');
   frame.src = src;
-  if (titleEl) titleEl.textContent = 'FDA review OCR' + (line != null ? (' · line ' + line) : '');
+  if (titleEl) titleEl.textContent = (label || 'FDA review OCR')
+      + (line != null ? (' · line ' + line) : '') + ' · OCR';
   panel.classList.add('open');
 }
 // Citations always open the paperclip OCR at the exact cited line.
@@ -1843,7 +2081,7 @@ document.body.addEventListener('click', (e) => {
   try { d = JSON.parse(el.dataset.pdf); } catch (err) { return; }
   if (!d || !d.doc_id) return;
   // Always open the paperclip OCR at the cited line (verified line-accurate).
-  openDoc(d.doc_id, d.line, d.s);
+  openDoc(d.doc_id, d.line, d.s, d.label);
 });
 </script>
 """
@@ -1862,8 +2100,16 @@ def render_drug_list_item(r):
     m_yr = _re.search(r"(\d{4})", apdate)
     if m_yr: year = m_yr.group(1)
     if not app_key: return ""
+    def _tv(x): return x.get("value", x) if isinstance(x, dict) else x
+    exp = meta.get("expedited") or {}
+    exp_codes = "|".join(k for k, v in exp.items() if v)
+    crl = "1" if _tv((r.get("crl_history") or {}).get("prior_crl")) else "0"
+    adcom = "1" if _tv((r.get("advisory_committee") or {}).get("convened")) else "0"
+    boxed = "1" if (r.get("boxed_warning") or {}).get("present") is True else "0"
+    pm = r.get("post_marketing"); pmr = "1" if isinstance(pm, list) and pm else "0"
     return (
-        f'<div class="drug-item" data-app-key="{H(app_key)}" data-ta="{H(ta)}" data-year="{H(year)}">'
+        f'<div class="drug-item" data-app-key="{H(app_key)}" data-ta="{H(ta)}" data-year="{H(year)}" '
+        f'data-exp="{H(exp_codes)}" data-crl="{crl}" data-adcom="{adcom}" data-boxed="{boxed}" data-pmr="{pmr}">'
         f'<div class="name">{H(drug)} <span class="meta">· {H(year)}</span></div>'
         f'<div class="meta-row">'
         f'<span class="ta-pill">{H(ta) if ta else ""}</span> '
@@ -1879,6 +2125,10 @@ def index():
     drug_list_html = "\n".join(render_drug_list_item(r) for r in sortable)
     cards_html     = "\n".join(render_card_html(i, r) for i, r in enumerate(sortable))
     chats_html     = "\n".join(render_chat_html(r) for r in sortable)
+    chat_pane_html = (('<aside class="chat-pane">'
+                       '<div class="chat-header"><div class="name">Chat</div>'
+                       '<div class="sub">Select a drug to begin</div></div>'
+                       + chats_html + '</aside>') if CHAT_ENABLED else "")
     # Build TA dropdown options from cards
     tas = sorted({(r.get('therapeutic_area') or '').strip() for r in sortable if (r.get('therapeutic_area') or '').strip()})
     ta_options_html = "\n".join(f'<option value="{H(t)}">{H(t)}</option>' for t in tas)
@@ -1888,8 +2138,8 @@ def index():
 {STYLE}
 </head><body>
 <header>
-  <h1>RxIndex Cards (with paperclip data)</h1>
-  <div class="sub">{len(CARDS)} drugs. Each chat has tool-use access to that drug's paperclip-OCR'd FDA review documents.</div>
+  <h1>RxIndex Cards</h1>
+  <div class="sub">{len(CARDS)} FDA drug approvals</div>
 </header>
 <div class="layout">
   <aside class="sidebar">
@@ -1905,6 +2155,19 @@ def index():
         <option value="10">Last 10 years</option>
         <option value="15">Last 15 years</option>
       </select>
+      <select id="f-exp">
+        <option value="">All expedited programs</option>
+        <option value="btd">Breakthrough Therapy</option>
+        <option value="pr">Priority Review</option>
+        <option value="orph">Orphan Drug</option>
+        <option value="ft">Fast Track</option>
+        <option value="accelerated">Accelerated Approval</option>
+        <option value="qidp">QIDP</option>
+      </select>
+      <label class="f-check"><input type="checkbox" id="f-crl"/> Had a CRL (approved on a later cycle)</label>
+      <label class="f-check"><input type="checkbox" id="f-adcom"/> Advisory committee convened</label>
+      <label class="f-check"><input type="checkbox" id="f-boxed"/> Boxed warning</label>
+      <label class="f-check"><input type="checkbox" id="f-pmr"/> Post-marketing requirement</label>
       <div class="filter-count" id="filter-count">{len([r for r in sortable if (r.get('_meta',{}).get('appno'))])} drugs</div>
     </div>
     <div class="drug-list">{drug_list_html}</div>
@@ -1913,10 +2176,7 @@ def index():
     <div class="empty-state">Select a drug from the list to see its card.</div>
     {cards_html}
   </main>
-  <aside class="chat-pane">
-    <div class="chat-header"><div class="name">Chat</div><div class="sub">Select a drug to begin</div></div>
-    {chats_html}
-  </aside>
+  {chat_pane_html}
   <aside class="pdf-panel" id="pdf-panel">
     <div class="pdf-hdr">
       <span class="pdf-hdr-title" id="pdf-title">FDA source document</span>

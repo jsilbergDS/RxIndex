@@ -1,0 +1,182 @@
+{
+  "app": "NDA022416",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "medium",
+      "issue": "Trial name claims 'Study 1 (BIA-2093-301)' but the cited table row is from a different document and the quote 'BIA-2093-301...' is a stitched/tab-delimited OCR fragment; the mapping of Study 1 = 301 is reasonable but the dose columns (400/800/1200) in the N and result rows are not explicitly labeled, risking mis-assignment of the 800 mg column."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "high",
+      "issue": "The cited row 'N\\t95\\t88\\t87' is unlabeled; mapping these to placebo/800mg/1200mg is an inference not supported by the quote, and Studies 1-2 also had a 400mg arm, so the column assignment may be wrong."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "high",
+      "issue": "Cited row 'N\\t99\\t87\\t81' is unlabeled; assigning columns to placebo/800/1200 (omitting the 400mg arm present in Study 2's design) is unsupported by the quote."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "medium",
+      "issue": "Result assigns LS-mean values 6.6/5.0/4.3 to placebo/800/1200 from an unlabeled stitched quote '(p-value)\\t6.6\\t5.0...'; the dose-to-column mapping is inferred and not stated in the quote."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "medium",
+      "issue": "Result assigns 8.6/6.2/6.6 to placebo/800/1200 from an unlabeled stitched quote; dose-to-column mapping is inferred, not verbatim-supported."
+    },
+    {
+      "field": "pivotal_trials[2].result",
+      "severity": "medium",
+      "issue": "Result assigns 7.9/6.5/6.0 to placebo/800/1200 from an unlabeled stitched quote; dose mapping inferred, not stated."
+    },
+    {
+      "field": "pivotal_trials[2].design",
+      "severity": "low",
+      "issue": "Design text merges three separate quotes (dose comparison, 'only new pivotal study', and DE-diary description) into one composite; acceptable since each phrase has its own citation, but it blends review-narrative detail beyond a clean design description."
+    },
+    {
+      "field": "first_cycle_approval.value",
+      "severity": "low",
+      "issue": "value=false is correctly supported here (the review explicitly states a prior CR letter on 4-30-10), so this is appropriate and consistent with crl_history; noted only to confirm it is not a false flag."
+    },
+    {
+      "field": "approval_program.priority_review.basis",
+      "severity": "medium",
+      "issue": "Basis text asserts 'reviewed under Priority review (PDUFA date 11/8/13)' but the only cited quote is 'Review Priority: Priority'; the PDUFA date 11/8/13 is not in this field's citation (it appears only in the receipt_date citation)."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "medium",
+      "issue": "Summary states the resubmission 'added a new controlled Study 304 and updated analyses of Studies 301 and 302', but study IDs 301/302 are not present in any summary citation quote (uncited numbers 301/302)."
+    },
+    {
+      "field": "_flags.uncited_numbers.doses",
+      "severity": "low",
+      "issue": "Flagged numbers '800' and '1200' throughout n/result fields are dose labels and are false positives per the dose-exclusion rule."
+    },
+    {
+      "field": "post_marketing[10].requirement",
+      "severity": "low",
+      "issue": "Flagged number '4' ('maintained...for four weeks') is supported by the citation ('maintained at this dose for four weeks'); false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "800",
+        "text": "Placebo N=95, 800 mg N=88, 1200 mg N=87"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "1200",
+        "text": "Placebo N=95, 800 mg N=88, 1200 mg N=87"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "28",
+        "text": "LS mean seizures per 28 days: placebo 6.6, 800 mg 5.0 (p=0.047), 1200 mg 4.3 (p="
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "800",
+        "text": "LS mean seizures per 28 days: placebo 6.6, 800 mg 5.0 (p=0.047), 1200 mg 4.3 (p="
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "1200",
+        "text": "LS mean seizures per 28 days: placebo 6.6, 800 mg 5.0 (p=0.047), 1200 mg 4.3 (p="
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "800",
+        "text": "Placebo N=99, 800 mg N=87, 1200 mg N=81"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "1200",
+        "text": "Placebo N=99, 800 mg N=87, 1200 mg N=81"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "28",
+        "text": "LS mean seizures per 28 days: placebo 8.6, 800 mg 6.2 (p=0.006), 1200 mg 6.6 (p="
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "800",
+        "text": "LS mean seizures per 28 days: placebo 8.6, 800 mg 6.2 (p=0.006), 1200 mg 6.6 (p="
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "1200",
+        "text": "LS mean seizures per 28 days: placebo 8.6, 800 mg 6.2 (p=0.006), 1200 mg 6.6 (p="
+      },
+      {
+        "field": "pivotal_trials[2]/trial_name",
+        "number": "2093",
+        "text": "Study 3 (BIA-2093-304)"
+      },
+      {
+        "field": "pivotal_trials[2]/n",
+        "number": "800",
+        "text": "Placebo N=212, 800 mg N=200, 1200 mg N=184"
+      },
+      {
+        "field": "pivotal_trials[2]/n",
+        "number": "1200",
+        "text": "Placebo N=212, 800 mg N=200, 1200 mg N=184"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "28",
+        "text": "LS mean seizures per 28 days: placebo 7.9, 800 mg 6.5 (p=0.058, not significant)"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "800",
+        "text": "LS mean seizures per 28 days: placebo 7.9, 800 mg 6.5 (p=0.058, not significant)"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "1200",
+        "text": "LS mean seizures per 28 days: placebo 7.9, 800 mg 6.5 (p=0.058, not significant)"
+      },
+      {
+        "field": "post_marketing[10]/requirement",
+        "number": "4",
+        "text": "2099-11: A prospective human physical dependence trial in healthy volunteers tit"
+      },
+      {
+        "field": "approval_program/priority_review/basis",
+        "number": "11",
+        "text": "The resubmission was reviewed under Priority review (PDUFA date 11/8/13)."
+      },
+      {
+        "field": "approval_program/priority_review/basis",
+        "number": "8",
+        "text": "The resubmission was reviewed under Priority review (PDUFA date 11/8/13)."
+      },
+      {
+        "field": "approval_program/priority_review/basis",
+        "number": "13",
+        "text": "The resubmission was reviewed under Priority review (PDUFA date 11/8/13)."
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "301",
+        "text": "This NDA for eslicarbazepine acetate as adjunctive treatment of partial-onset se"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "302",
+        "text": "This NDA for eslicarbazepine acetate as adjunctive treatment of partial-onset se"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "app": "BLA761034",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 322)",
+  "_raw": "Analyzing the card against all check categories.\n\n```json\n{\n  \"app\": \"BLA761034\",\n  \"release_ready\": true,\n  \"issues\": [\n    {\n      \"field\": \"approval_program.summary\",\n      \"severity\": \"low\",\n      \"issue\": \"False-positive uncited-number flag: '210' comes from the trial name 'IMvigor 210' (a stud",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "210",
+        "text": "TECENTRIQ received Breakthrough Therapy Designation (May 2014) and was granted a"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

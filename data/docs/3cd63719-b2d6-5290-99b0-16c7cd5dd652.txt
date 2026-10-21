@@ -1,0 +1,482 @@
+L1: *APPLICATION NUMBER:*
+L2: **202008Orig1s000**
+L3: **CROSS DISCIPLINE TEAM LEADER REVIEW**
+L4: ## **Cross Disciplinary Team Leader (CDTL) Review**
+L5: Date	22 March 2012
+From	Lucie Yang, Division of Medical Imaging Products (DMIP)
+NDA	202008
+Applicant	Avid Radiopharmaceuticals, Inc.
+Date of Submission	07 October 2011
+PDUFA Goal Date	07 April 2012
+Proprietary Name / Established Name	Amyvid / Florbetapir, ^{18}F-AV-45
+Dosage and Administration	370 MBq (10 mCi), intravenous
+Proposed Indication	Positron Emission Tomography (PET) imaging of \beta-amyloid aggregates in the brain
+Recommendation:	Approval, provided manufacturing facility inspections are acceptable and package insert is satisfactory.
+No Post-Marketing Requirement
+L6: ## TABLE OF CONTENTS
+L7: TABLE OF TABLES	3
+Introduction	4
+Manufacturing Facility Inspections	6
+Chemistry, Manufacturing and Controls (CMC)	6
+Clinical Microbiology	7
+Nonclinical Pharmacology / Toxicology	7
+Clinical Pharmacology / Biopharmaceutics	7
+Bioresearch Monitoring	9
+Clinical / Statistical – Efficacy	9
+    Study A16	10
+        Objectives and success criteria	10
+        Study population	10
+        PET image interpretation and training methods	10
+        Reference standard	11
+        Key efficacy results	12
+            Performance characteristics	12
+            Inter-reader reproducibility	13
+    Study PT01	13
+        Objectives and success criteria	13
+        Study population	14
+        PET image interpretation and training methods	14
+        Reference standard	15
+        Key efficacy results	15
+            Inter-reader reproducibility	15
+            Performance characteristics	15
+Image Interpretation Lessons Learned	17
+Discussion of Study A16 and PT01 Results	19
+Clinical / Statistical Efficacy Conclusions	22
+Safety	22
+Labeling	22
+Post-marketing Requirements	23
+Letter from Public Citizen Health Research Group	23
+L8: ## TABLE OF TABLES
+L9: Table 1. Reviews and consult responses included in this review	5
+Table 2. Evolution of interpretation method and training	11
+Table 3. Conversion of neuritic plaque counts to amyloid presence or absence	12
+Table 4. Amyloid scan results by reader training method and reader performance among autopsied patients, n=59	12
+Table 5. Performance by reader among the 59 autopsied patients	13
+Table 6. Performance characteristics by reader for all autopsy subjects, n=59	15
+Table 7. Positive scans within subject groups and reproducibility of scans among readers	17
+Table 8. Cases with discrepancy between majority read and truth standard	18
+Table 9. Study A16 performance characteristics by reader for all autopsy subjects, n=59	19
+Table 10. Study A16 inter-reader agreement for visual binary interpretation of global amyloid burden, n=59	20
+Table 11. Study PT01 inter-reader agreement for visual binary interpretation of global amyloid burden, n=119	20
+Table 12. Agreement for All Study PT01 cases, n=151	21
+L10: ## Introduction
+L11: The subject of this CDTL review is a resubmission of New Drug Application (NDA 202008) from Avid Radiopharmaceuticals, Inc. for Amyvid (Florbetapir, 18F-AV-45), a radiopharmaceutical imaging agent. This submission is considered a complete, class 2 response to a 17 March 2011 Complete Response Letter (CRL).
+L12: In the first review cycle, the sponsor verified that Amyvid could bind to amyloid aggregates in the brain and be detected on PET scans. The sponsor also informed FDA that the proposed image interpretation method for Amyvid once marketed is the binary (positive, negative) interpretation of global amyloid burden. The review raised concerns about this proposed interpretation method given the lack of data to support its validation; these issues guided the discussion at the 20 January 2011 Advisory Committee meeting. At the end of the first review cycle, there were still three major clinical concerns that were unresolved:
+L13: - Insufficient validation of a clinically applicable interpretation method;
+- Insufficient description of training materials for a clinically applicable interpretation method; and
+- Insufficient data regarding reproducibility using the clinically applicable interpretation method.
+L14: Additional concerns included:
+L15: - Insufficient justification for the proposed package insert text, including the indication statement, and
+- Deficiencies regarding certain facility inspections.
+L16: Among many items, the CRL requested the submission of reader training materials and a re-read of certain images to establish the validity and reproducibility of the training program and Amyvid image interpretation.
+L17: In the resubmission, the sponsor provides a response to each item in the CRL. The revised indication statement submitted with the resubmission reads as follows:
+L18: (b) (4)
+L19: The resubmission also includes Clinical Study Reports for Study A16 and Study PT01, as well as a laptop with draft electronic reader training material, updates on clinical efficacy and safety,
+L20: label justification, revised package insert, draft bulk vial and lead shield labels, additional stability data, post approval stability protocol, revised final product specifications, validation reports for sterility testing, and endotoxin control information.
+L21: **Study A16**, designed based on discussions with the European Medicines Agency, includes image interpretations of all autopsy cases of subjects enrolled in Study A07, the single Phase 3 trial submitted to the original NDA. **Study PT01**, conducted in response to the CRL, includes image interpretations of all subjects in Study A16 and of certain subjects from the non-autopsy Study A05 which was a Phase 2 study submitted to the original NDA.
+L22: Studies A16 and PT01 use a visual, binary, qualitative image interpretation method. Study A16 uses an in-person reader training program and a central core lab for interpretations whereas Study PT01 uses a self-study electronic training program and the readers' usual image-reading environments for interpretations performed over several weeks. The resubmission also summarizes results from Studies A08 and A09 which also used a binary image interpretation method and were submitted to the NDA prior to issuance of the first cycle CRL.
+L23: The clinical aspect of this review will focus on Studies A16 and PT01. Particular attention will be paid to establishing validity and reproducibility of Amyvid PET when images are read using a clinically applicable interpretation method. The achievement of pre-specified success criteria for performance characteristics and inter-reader variability will be documented.
+L24: This review will also include a summary and limited discussion of the disciplinary reviews. This review concludes with a brief response to a 21 October 2011 Public Citizen letter which urges FDA to thoroughly consider the points raised in [1] before taking an action on the Amyvid NDA.
+L25: The reviewer has examined the relevant excerpts from the NDA resubmission and subsequent submissions by the sponsor, as well as reviews and consult responses listed in Table 1.
+L26: **Table 1. Reviews and consult responses included in this review**
+L27: Material Reviewed / Consulted	Name of Discipline Reviewers
+Clinical Review	Qi Feng, MD, PhD, Dwaine Rieves, MD (DD)
+Statistical Review	Jyoti Zalkikar, PhD (TL), Rajeshwari Sridhara, PhD (DD)
+Pharmacology Toxicology Review	Sunny Awe, PhD & Adebayo Laniyonu, PhD (TL)
+CMC Review	Ravindra Kasliwal, PhD & Ali H Al Hakim, PhD (Branch Director)
+Microbiology Review	Stephen Langille, PhD, David Hussong, PhD (Director Scientist)
+Clinical Pharmacology Review	Christy John, PhD, Gene Williams, PhD (TL), Nam Atiquur Rahman, PhD (DD)
+OPDP	James Dvorsky PharmD
+L28: OSI	John Lee, MD, Susan Thompson, MD (Acting TL), Tejashri Purohit-Sheth, MD (Acting DD)
+OSE / DMEPA	Kevin Wright, PharmD, Todd Bridges R.Ph (TL), Carol Holquist RPh (DD)
+Pediatric and Maternal Health	Tammie Howard, RN, MSN, Melissa Tassinari, PhD (Acting TL), Jeanine Best, MSN, RN, PNP, Hari Cheryl Sachs, MD (TL), Lisa Mathis, MD (Associate Director)
+Project Manager	Sharon Thomas, BS, RHIT, CCRP
+L29: CMC=Chemistry, Manufacturing and Controls; DD=Division Director; DMEPA=Division of Medication Error Prevention and Analysis; OSI=Office of Scientific Investigations; OPDP=Office of Prescription Drug Promotion; OSE=Office of Surveillance and Epidemiology; TL=Team Leader;
+L30: For background on Amyvid, regulatory framework for imaging agents, summary of key studies submitted to the original application, critique of the previously submitted data, and summary of the Advisory Committee Meeting held 20 January 2011, please refer to the secondary clinical review filed 12 February 2011.
+L31: ## Manufacturing Facility Inspections
+L32: My review is finalized at a time point when the recommendations for facility inspections have not all been finalized. The final recommendations may impact the approvability of this NDA.
+L33: At the end of the previous review cycle, one inspection was suspended (PETNET Palo Alto, CA), and five facilities had withhold recommendations.
+L34: In the resubmission, the sponsor states that responses to all Form 483 observations had been submitted to the respective District Offices by the firms responsible for each facility. According to an email from Zhong Li (FDA GMP Facility Reviewer) to Sharon Thomas dated 23 February 2012, there was one pending inspection scheduled for that week. The other facilities listed in the NDA had "Acceptable" status.
+L35: The Atlanta District issued a 483 on 29 February 2012 to Cardinal Health in North Carolina. The sponsor responded to the deficiencies on 14 March 2012. The District's recommendation is still pending at the time this review is finalized.
+L36: ## Chemistry, Manufacturing and Controls (CMC)
+L37: The approval from the CMC perspective is contingent upon manufacturing facilities being complaint with cGMP, as well as an acceptable package insert and container closure labeling. I concur.
+L38: The review noted that the updated stability data showed no increase in degradation products, and two batches (though made with slightly different synthesis method) had robust 36 month data; therefore a (b)(4) retest period may be acceptable.
+L39: The review also noted that the resubmission included an acceptable post-approval stability protocol, as well as revised final product specifications to quantitate the amount of ethanol and (b)(4).
+L40: ## Clinical Microbiology
+L41: The microbiology reviewer recommends NDA 202008 for approval. This recommendation is unchanged from that for the original submission. I concur.
+L42: The reviewer notes that the drug product will be (b)(4) processed at 19 different manufacturing sites.
+L43: ## Nonclinical Pharmacology / Toxicology
+L44: The review team indicates no outstanding issues and the previous recommendation of approval stands. The reviewer notes that the resubmission includes no new nonclinical studies. I concur.
+L45: ## Clinical Pharmacology / Biopharmaceutics
+L46: The review team found the resubmission acceptable provided a mutual agreement on the label is reached. Notably, the team proposed a Post Marketing Requirement (PMR) to investigate Standardized Uptake Value Ratio (SUVR) as a possible method to further reduce interpretation variability. The specific language proposed by the Clinical Pharmacology review team is as follows:
+L47: "The applicant will conduct a trial to determine if the use of standard uptake value ratio (SUVR) will increase the accuracy of blinded reads of scans by community hospital radiologist / nuclear medicine physicians. The scans will be obtained in patients with clinically diagnosed Mild Cognitive Impairment (MCI) or Alzheimer's Disease (AD). The trial will include a control group of age-matched healthy volunteers. The primary objective of the trial is to determine if SUVR will improve reading accuracy beyond that which occurs with a visual read alone."
+L48: The Clinical Pharmacology review team's rationale for the proposed PMR includes:
+L49: - Non-specific binding may contribute to inter-reader variability of Amyvid PET.
+- The readers in the clinical trial may not be representative of readers in clinical practice, so the possibility that inter-reader variability would be greater in clinical practice than in clinical trials can not be ruled out.
+- SUVR is an automated semi-quantitative measurement.
+L50: The CDTL reviewer does not agree with requiring the sponsor to conduct a trial to evaluate SUVr for the following two reasons.
+L51: First, the criteria for requiring applicants to conduct postmarketing studies and clinical trials are not met. These criteria [2] include:
+L52: - To assess a known serious risk related to the use of the drug
+- To assess signals of serious risk related to the use of the drug
+- To identify an unexpected serious risk when available data indicate the potential for a serious risk
+L53: While image misinterpretations may be a risk of Amyvid PET, the risk would not be considered a serious risk even though a misinterpretation could lead to additional clinical tests that could cause harm.
+L54: Second, while SUV may be automated and semi-quantitative, there is currently still large variability in PET procedures and methods across institutions which results in less-than desirable reproducibility for SUV measurements [3-7] and calculations made with SUV (such as SUVr).
+L55: In addition, there were three hospital-based (non-academic) readers and two academic readers, so the readers in the clinical trial may be representative of clinical practice.
+L56: Despite these reservations, there are three considerations which make SUVr worth investigating further.
+L57: - SUVr is a ratio of SUVs in the same individual, so cross-instrument variability is less of an issue.
+- In the original NDA submission, an exploratory analysis in Study A07 (Phase 3 study) showed a significant correlation between SUVr (averaged across 6 brain regions) and cortical amyloid burden assessed with immunohistochemistry.
+- There is an effort in the nuclear medicine community to standardize PET scanners and methods [3;7].
+L58: Given these considerations, a post-marketing commitment to further investigate the validity and reproducibility of SUVr in Amyvid PET interpretation in clinical practice is conceivable. If implemented, the reviewer has the following recommendations: the trial should also investigate the post-marketing sufficiency of the visual read methodology (separately for in-person training and electronic, self-study training) for comparison, and the sponsor would need to pre-specify and justify an SUVr threshold for global brain amyloid positivity.
+L59: ## Bio research Monitoring
+L60: Based on reports finalized 05 April 2011 and 19 January 2012, there are no outstanding Good Clinical Practice issues. In the original review cycle, two clinical sites and the sponsor were inspected and no deficiencies were found. At the two sites, data line listings were compared with case report forms for PET scans.
+L61: In the current review cycle, the contract research organization performing Study PT01 (b)(4) was inspected. The ADRT data listing containing the PET image interpretations was verified. The preliminary outcome is that there are no deficiencies. The final outcome classification is pending at the time this review is finalized.
+L62: ## Clinical / Statistical – Efficacy
+L63: The clinical and statistical reviewers recommend approval based predominantly on the achievement of pre-specified endpoints in Study PT01 (clinical) and Studies PT01, A16, and A07 (statistical).
+L64: One of the requests in the CRL was a study which included more individuals with histopathology than the 29 in the primary efficacy population in Study A07. Study A16, though designed based primarily on input from the European Medicines Agency, was performed to satisfy the CRL request.
+L65: The CRL also requested reinterpretation of images from Studies A07 and A05 to establish the validity of the clinically applicable reading method and training program. Study PT01 was designed to satisfy this request.
+L66: Both Study A16 and PT01 used a binary image interpretation method (positive or negative for global brain amyloid burden). Apart from the study population, a key difference between Study A16 and Study PT01 is the method by which reader training was performed.
+L67: - Study A16 used an in-person training method
+- Study PT01 used an electronic self-study method
+L68: According to the sponsor, training other than in the electronic self-study format would likely be requested by future readers of Amyvid PET (Clinical Overview Addendum, page 8). Therefore, both Study A16 and Study PT01 will be discussed in this review.
+L69: Another key difference between the 2 studies was that the reads for Study A16 were performed in a central core lab. In contrast, the reads for Study PT01 were performed in the physician's office.
+L70: Highlights of both Study A16 and Study PT01 follow.
+L71: ## Study A16
+L72: The title of this study which followed up on certain subjects in Study A07 was: "Autopsy follow-up of subjects previously imaged with Florbetapir F 18 (^{18}F-AV-45) PET in trial ^{18}F-AV-45-A07." Study A07 (^{18}F-AV-45-A07) included 35 subjects who underwent autopsy. An extension of 12 months in Study A16 allowed for the completion of autopsies in 24 additional subjects, for a total of 59 subjects with histopathology.
+L73: ## Objectives and success criteria
+L74: First primary objective: To determine sensitivity and specificity of visual binary interpretation (positive or negative) using histopathology as reference standard.
+L75: Success criteria: Co-primary endpoints were majority (of 5 readers) sensitivity \ge 80\%, specificity \ge 80\%.
+L76: A second primary objective was the correlation between semi-quantitative assessment of PET images and quantitative amyloid burden at autopsy where success criterion was a significant correlation. The data for this objective will not be addressed in this review given that it does not directly address any of the requests in the CRL.
+L77: An exploratory analysis was inter-reader agreement for visual binary interpretation of global amyloid burden using the Kappa statistic. The null hypothesis was that agreement would not be different than expected by chance.
+L78: ## Study population
+L79: A total of 59 subjects who underwent autopsy, with 46 subjects who underwent autopsy within 12 months of the Amyvid PET scan. The clinical diagnoses of the 59 subjects were as follows:
+L80: - 29 with AD
+- 5 with MCI
+- 12 with no history of cognitive impairment or dementia
+- 13 with other dementing disorders
+L81: ## PET image interpretation and training methods
+L82: PET images were interpreted on a binary scale (positive or negative for global amyloid burden).
+L83: Key differences in the training strategies used for Study A16 versus studies in the original submission (Study A07 and A05) are as follows (Table 2):
+L84: Table 2. Evolution of interpretation method and training
+L85: Studies A05, A07	Studies A16, PT01
+Scoring method	Semi-quantitative (0-4)	Binary (positive, negative)
+Criteria for amyloid detection	Gestalt of increase cortical to cerebellar uptake, and/or absence of white-matter dominant pattern	Loss of gray / white contrast in any 2 cortical regions, or intense uptake in any 1 cortical region
+Number of training images	Larger number^, to build gestalt for high and low amyloid scans	Smaller number^^, to illustrate key points and potential sources of confusion
+Comparison emphasis	Cortical to cerebellar uptake	Local gray matter to white matter differentiation*
+Scale	Color, black and white	Black and white only**
+L86: ^ 21 and 42 practice cases for A05 and A07, respectively. 0 and 25 self-assessment cases for A05 and A07, respectively.
+L87: ^^ 12 practice cases for PT01, 7 for A16. 20 self-assessment cases for PT01, none for A16.
+L88: * comparison of two adjacent areas—a key component for the binary reading method according to the sponsor.
+L89: ** better suited to identification of boundaries in adjacent regions.
+L90: There were four studies that used the binary reading method: A08, A09, A16, and PT01.
+L91: A change that was made for Study A16 (after Studies A08 and 09 were completed) was that the sponsor stressed the importance of the axial slices over the coronal and sagittal slices. The rationale was that one reader for Study A09 was putting “undue emphasis” on sagittal images. Also, requiring only one slice type would likely decrease the time burden for reading scans.
+L92: The training for Study A16 was conducted in person. To summarize the Study A16 training, images were displayed on a black and white scale (not color scale); viewing of axial images was required, with coronal and sagittal being optional; and there were 5 demonstration cases followed by 7 practice cases.
+L93: ## Reference standard
+L94: Histopathology served as the reference standard. The modified Consortium to Establish a Registry for Alzheimer's Disease (CERAD) categories were used. In contrast to the original CERAD criteria, the patient's age and clinical symptoms are not taken into account in the modified version.
+L95: The sponsor converted the neuritic plaque density into “significant” amyloid being present or absent (Table 3).
+L96: Table 3. Conversion of neuritic plaque counts to amyloid presence or absence
+L97: Neuritic Plaque Counts	CERAD Score	Pathologically "Significant" Amyloid	Number of autopsied subjects in each category (for A16 and PT01)
+<1	None	Negative	15
+Sparse	5
+6-19	Moderate	Positive	9
+Frequent	30
+L98: The sponsor justifies the cut-point between negative and positive for pathologically significant amyloid based on commonalities in a comparison of the original CERAD criteria, modified CERAD criteria, and National Institutes of Aging (NIA)-Reagan criteria. Also, "sparse" for CERAD score is infrequently reported, according to the sponsor.
+L99: ## Key efficacy results
+L100: ## *Performance characteristics*
+L101: Review of the efficacy data for the 59 subjects with histopathology showed the median sensitivity and specificity of amyloid detection highlighted in blue in Table 4 (Zalkikar, page 3). Success criteria were defined using majority read of 5 readers, which is the same as the median for sensitivity, but reported by the sponsor as 100% for specificity.
+L102: The primary endpoint (majority sensitivity \ge 80%, specificity \ge 80%) was met.
+L103: Table 4. Amyloid scan results by reader training method and reader performance among autopsied patients, n=59
+L104: Test Performance	In-Person Training (Study A16)	Electronic Media Training (Study PT01)
+Sensitivity (%)	Median	92	82
+Range among the 5 readers	(69 – 95)	(69 – 92)
+Specificity (%)	Median	95	95
+Range among the 5 readers	(90 – 100)	(90 – 95)
+L105: For the 46 subjects whose autopsies were performed within 1 year of the Amyvid PET scan, the median sensitivity among readers was 96% (95%CI1: 80% to 100%) and specificity was 100% (95% CI: 78% to 100%) (Zalkikar page 3), supporting the sponsor's hypothesis that two of the subjects who were "missed" had converted to positive between the time of the scan
+L106: 1 Confidence interval
+L107: and death (22 and 14 months after Amyvid PET scan) since the sponsor's expert reader also interpreted these scans as negative. See Table 8 below and accompanying discussion.
+L108: Performance by reader among all autopsied patients is shown in Table 5 (Study A16 highlighted in blue). False negatives ranged from 2 to 12 (out of 59) across the 5 readers. There were fewer false positives.
+L109: **Table 5. Performance by reader among the 59 autopsied patients**
+L110: Read Result	In-Person Training (Study A16)
+Reader	Electronic Media Training (Study PT01)
+Reader
+1	2	3	4	5	6	7	8	9	10
+Correct	55	56	53	56	45	49	54	46	53	51
+False Negative	3	2	5	3	12	8	3	12	5	7
+False Positive	1	1	1	0	2	2	2	1	1	1
+L111: ## *Inter-reader reproducibility*
+L112: Inter-reader assessment showed a Fleiss's Kappa of 0.75 (0.67, 0.83), with a 94% agreement among all readers, leading to rejection of the null hypothesis (agreement not different than expected by chance).
+L113: ## **Study PT01**
+L114: The title of this study designed to directly address the CRL request for a re-read using a clinically applicable reading method and an electronic training program was: "*Evaluation of Web-based Training to Educate Physicians in the Methods of Interpreting Florbetapir-PET Scans.*"
+L115: An amendment to add more MCI subjects from Study A05 (based on FDA recommendation) occurred after images for the primary analysis had all been read.
+L116: ## **Objectives and success criteria**
+L117: The sponsor was informed that inter-reader reproducibility and performance characteristics were equally important aspects of this study, even though one objective was labeled as a secondary objective.
+L118: Primary objective: To validate a web-based training program for Amyvid PET interpretation by determining inter-reader reliability.
+L119: Success criteria: Fleiss's kappa \ge 0.64 (lower bound 95% CI \ge 0.58)
+L120: Secondary objective: To determine sensitivity and specificity for subjects with autopsy (same subjects as in Study A16).
+L121: Success criteria: Same 3 of 5 readers will achieve a lower bound of the 95% CI of \ge 0.50 for both sensitivity and specificity.
+L122: ## **Study population**
+L123: Same 59 autopsy subjects as in Study A16, plus 60 subjects from Study A05 (randomly chosen 20 cognitively-normal elderly controls, 20 with MCI, 20 with AD) for a total of 119 image sets which constituted the primary analysis data set. Of the 60 image sets from Study A05, 20 were repeated for determination of intra-reader reproducibility.
+L124: After image sets for the primary analysis had been read by all readers, the remaining 32 MCI subjects from Study A05 whose images had not been used for training were added. Of the 32 image sets, 13 were repeated for determination of intra-reader reproducibility (total 20 MCI cases had repeat reads by each reader).
+L125: ## **PET image interpretation and training methods**
+L126: Study A16 and Study PT01 had similarities. Both used a visual binary interpretation method with the same criteria for amyloid detection (Table 2 above), and both used only black and white images.
+L127: Key differences in the training strategies used for Study PT01 versus Study A16 are as follows:
+L128: - Study PT01 training material was provided on a compact disc to readers. Study A16 was an in-person training program.
+- Study PT01 training had 12 practice cases (7 cases for Study A16) and 20 self-assessment cases (none for Study A16).
+L129: The training for Study PT01 was not conducted in person. To summarize the Study PT01 training, images were displayed on a black and white scale (not color scale); viewing of axial images was required, with coronal and sagittal being optional; and there were 5 demonstration cases followed by 12 practice cases (with detailed narratives discussing the correct interpretation) and 20 self-assessment practice cases (with answer key).
+L130: A key difference in the reading environment was that Study PT01 readers read in their usual reading environment (physician's office) whereas Study A16 readers read at a central core lab.
+L131: Each of the 5 readers (different from the 5 readers in Study A16) interpreted a total of 184 image sets (151 unique sets + 33 repeated sets) in 6 batches (sponsor calls these “tranches”). The reader was instructed to submit only one tranche on a given calendar day.
+L132: The first 139 image sets (59 autopsy + 60 from Study A05 + 20 repeats) were placed in the first 4 tranches. The remaining 45 image sets (32 MCI from Study A05 + 13 repeats) were placed in the last 2 tranches.
+L133: ## Reference standard
+L134: For those with autopsy, the reference standard was the same as for Study A16. There was no reference standard for subjects from Study A05.
+L135: ## Key efficacy results
+L136: ## *Inter-reader reproducibility*
+L137: Review of the efficacy data for inter-reader reproducibility showed an overall Fleiss's kappa statistic of 0.83 (95% CI: 0.78 to 0.88) for the 119 image sets in the primary data set. Thus, the primary endpoint (lower bound \ge 0.58) was met.
+L138: When the additional 32 MCI subjects from Study A05 were included (total 151 image sets), the overall Fleiss's kappa statistic was 0.93 (95% CI: 0.84 to 1.0).
+L139: ## *Performance characteristics*
+L140: For the 59 autopsy subjects, the lower bound of the 95% CI exceeded 0.50 for sensitivity and specificity for all 5 readers (Table 6). Thus, the success criteria (at least 3 of the 5 readers winning on both sensitivity and specificity) were met.
+L141: Table 6. Performance characteristics by reader for all autopsy subjects, n=59
+L142: Reader	Sensitivity
+(95% CI)	Specificity
+(95% CI)
+1	79
+(65-89)	90
+(70-97)
+2	92
+(80-97)	90
+(70-97)
+3	69
+(54-81)	95
+(76-99)
+4	87
+(73-94)	95
+(76-99)
+5	82
+(67-91)	95
+(76-99)
+L143: The sponsor points out that for the 46 subjects whose autopsies were performed within 1 year of the Amyvid PET scan, the median sensitivity was 89% (vs 82% for n=59), though median specificity was essentially unchanged (94% vs 95%). The sponsor attributes the slight increase in median sensitivity to the two subjects whose autopsies were 22 and 14 months after the Amyvid PET scan so while all 5 readers read the scans as negative, the pathology was positive (according to the sponsor, borderline plaque deposition after the Amyvid PET scan). See Table 8 and accompanying discussion.
+L144: See Table 4 above for median reads (see orange highlights). The median sensitivity for Study PT01 decreased by 10%, but the range of sensitivity across the 5 readers was similar to that for Study A16. The median specificity and the range for Study PT01 and Study A16 were similar.
+L145: See Table 5 above for the number of false negative and false positive reads by reader (see orange highlights). Similar to Study A16, false negatives ranged from 3 to 12 (out of 59) across the 5 readers. There were fewer false positives.
+L146: Column 2 of Table 7 (adapted from Zalkikar page 4) lists the median number of positive scans in the different subject groups in Study PT01. As expected, subject clinically diagnosed with AD are more likely to have a positive scan than those who are cognitively normal.
+L147: Column 3 of Table 7 lists the Kappa statistic for the subject groups, some with a small sample size and wide confidence interval.
+L148: The 3 rightmost columns of Table 7 list the percent agreement among the 5 readers for each subject group. The last row (autopsy subjects with non-AD dementia) is notable for ~45% of the 13 subjects having at least 1 reader interpret the scan differently from the other readers, and ~25% of subjects having at least 2 readers interpret the scan differently from the other 3 readers. Also notable is that ~25% of AD subjects had at least 1 reader interpret the scan differently from the other readers. This percentage is similar for all subjects with autopsy.
+L149: Of the 32 cognitively normal subjects, ~10% of subjects had at least 1 reader interpret the scan differently from the other readers. This percentage is similar for the 57 MCI subjects.
+L150: Table 7. Positive scans within subject groups and reproducibility of scans among readers.
+L151: Subject group
+by cognitive and truth standard
+(TS, autopsy) status	Positive Scans,
+n*	Kappa
+(95% CI)	Percent agreement (%)**
+3 agree	4 agree	5 agree
+All subjects with a TS, n = 59	33	0.75
+(0.67, 0.83)	14	10	76
+All subjects without a TS, n = 92	33	0.88
+(0.82, 0.94)	2	11	87
+AD, n = 49
+(29 with TS; 20 no TS)	38	0.67
+(0.58, 0.76)	10	14	76
+MCI, n = 57
+(5 with TS; 52 no TS)	17	0.91
+(0.83, 0.99)	2	7	91
+Cognitively normal without TS,
+n = 20	4	0.83
+(0.69, 0.97)	5	5	90
+Cognitively normal with TS,
+n = 12	1	0.73
+(0.55, 0.87)	0	8	92
+Non-AD dementia with TS,
+n = 13	7	0.52
+(0.35, 0.69)	23	23	54
+L152: * Median number of scans interpreted as positive across the 5 readers for each subgroup of patients listed in the first column
+L153: ** Percent agreement among the 5 readers of each subject's images
+L154: As highlighted by the statistical review (Zalkikar page 4), an extremely small (n=5) number of MCI subjects had autopsy confirmation, limiting the interpretation of the performance characteristics in this subject group.
+L155: Reader agreement in Study PT01 improved compared to Study A05 (Feng page 24), suggesting that the changes to the training methodology (Table 2 above) may have improved inter-reader reproducibility.
+L156: Percent agreement for each of the 5 readers compared to the median read for the MCI subject group (n=52) was 100% for two readers, 98% for another two readers, and 96% for one reader. The Fleiss's kappa for the 52 MCI cases across the 5 readers was 0.93 (95% CI: 0.84 to 1.0).
+L157: Regarding intra-reader reproducibility, 33 image sets were read twice by each of 5 readers. The greatest number of discrepant reads by any one reader was 3 out of 33. One reader had no discrepant reads and another reader had discrepant reads for 2 subjects. For two readers, one image set was not read the same way a second time.
+L158: ## ***Image Interpretation Lessons Learned***
+L159: The sponsor examined in detail the 6 image sets for which the majority of PT01 readers disagreed with pathology on amyloid burden (Table 8).
+L160: Table 8. Cases with discrepancy between majority read and truth standard (reproduced from Clinical Overview Addendum from sponsor)
+L161: Study A07
+Subject
+IDs	PET to
+Autopsy
+Interval
+(months)	Neuropathology
+Diagnosis
+(neuritic plaques)	Pathology
+(Positive /
+negative)	A16 Median
+(Readers)	PT01
+Median
+(Readers)
+054-001	22	Probable AD
+(moderate)	Positive	Negative
+(0+/5-)	Negative
+(0+/5-)
+137-002	14	Probable AD	Positive	Negative
+(0+/5-)	Negative
+(0+/5-)
+522-003	5	(moderate)	Positive	Negative
+(2+/3-)	Negative
+(1+/4-)
+522-006	18	Probable AD
+(moderate)	Positive	Positive
+(4+/1-)	Negative
+(1+/4-)
+062-004	0	Definite AD
+(frequent)	Positive	Positive
+(4+/1-)	Negative
+(2+/3-)
+057-007	4	No AD
+(None)	Negative	Negative
+(2+/3-)	Positive
+(4+/1-)
+L162: For the first two subjects (054-001, 137-002), the sponsor reports that the sponsor's expert reader agreed with all 10 readers (Study A16 and Study PT01) that the scan is negative. Given the moderate neuritic plaque density and the 22 and 14 month intervals between the Amyvid PET scans and autopsies, the sponsor raises the possibility that plaque levels increased and only reached moderate levels after the Amyvid scan.
+L163: For the next three subjects (522-003, 522-006, 062-004), the sponsor's expert reader agreed with pathology and the sponsor offers no explanation for why many of the readers did not read these as positive.
+L164: The sponsor's comment on the last subject (057-007) was that head motion could have contributed to the difficulty interpreting this scan.
+L165: In Study PT01, readers were asked to rate the level of confidence associated with each interpretation. When indicating low confidence for a particular image set, the reader was asked to indicate all features contributing to the low confidence. Across the 151 scans, "low confidence" was selected 38 times (5%). "Atrophy" (n=16) and "image near the positive / negative threshold" (n=15) were the two most frequent reasons for the low confidence. Across the 52 MCI scans, the most frequent reason for low confidence was "image near the positive / negative threshold" (n=4).
+L166: ## ***Discussion of Study A16 and PT01 Results*** (in the context of concerns raised during the first review cycle)
+L167: Below, specific concerns regarding Study A07 raised during the first review cycle (in *black italics*, summarized in Dr. Ganley's review finalized 17 March 2011, page 3) are followed by how the resubmission addressed these concerns (in **blue bold**):
+L168: *Small number of subjects with truth standard (n=35): The resubmission includes 59 subjects with histopathology.*
+L169: *Median read masks individual reader performance and high inter-reader variability:*
+L170: *For Study PT01, performance characteristics for individual readers were assessed as an important secondary endpoint (Table 6 above). For Study A16, if the success criteria for sensitivity and specificity were the same as the secondary endpoint for Study PT01, all 5 of 5 Study A16 readers would have also achieved success (Table 9).*
+L171: **Table 9. Study A16 performance characteristics by reader for all autopsy subjects, n=59**
+L172: Reader	Sensitivity
+(95% CI)	Specificity
+(95% CI)
+1	92
+(78-98)	95
+(73-100)
+2	95
+(81-99)	95
+(73-100)
+3	87
+(72-95)	95
+(73-100)
+4	92
+(78-98)	100
+(80-100)
+5	69
+(52-83)	90
+(67-98)
+L173: *For inter-reader reproducibility in Study A16, individual reader comparisons show that kappa statistics varied for the different comparisons (Table 10). Comparison with Reader 5 appear to have lower agreement and Kappa statistic than comparisons with other readers.*
+L174: Table 10. Study A16 inter-reader agreement for visual binary interpretation of global amyloid burden, n=59.
+L175: Readers compared	Kappa Statistic (lower bound 95% CI)	Observed Agreement (%)*
+1 vs 2	0.89 (0.77)	95
+1 vs 3	0.86 (0.72)	93
+1 vs 4	0.96 (0.89)	98
+1 vs 5	0.53 (0.32)	76
+2 vs 3	0.82 (0.67)	92
+2 vs 4	0.93 (0.83)	97
+2 vs 5	0.63 (0.44)	81
+3 vs 4	0.89 (0.78)	95
+3 vs 5	0.53 (0.32)	76
+4 vs 5	0.56 (0.36)	78
+All readers	0.75 (0.67)	94
+L176: * Agreement calculated using binary visual rating
+L177: For inter-reader reproducibility in Study PT01, each individual reader had a Kappa statistic whose lower bound exceeded 0.58 (Table 11).
+L178: Table 11. Study PT01 inter-reader agreement for visual binary interpretation of global amyloid burden, n=119.
+L179: Readers compared	Kappa Statistic (lower bound 95% CI)
+1 vs 2	0.87 (0.78)
+1 vs 3	0.83 (0.73)
+1 vs 4	0.78 (0.67)
+1 vs 5	0.83 (0.73)
+2 vs 3	0.73 (0.62)
+2 vs 4	0.85 (0.75)
+2 vs 5	0.83 (0.73)
+3 vs 4	0.75 (0.63)
+3 vs 5	0.83 (0.73)
+4 vs 5	0.81 (0.71)
+All readers	0.81 (0.75)
+L180: In Study PT01, for all 151 image sets, individual reader assessments show that the percent agreement with the median (orange highlights) mostly exceeded 90%, except for one reader for positive cases by median read (Table 12).
+L181: Table 12. Agreement for All Study PT01 cases, n=151
+L182: Reader	Positive Cases by Median Read, n=68	Negative Cases by Median Read, n=83	Overall, n=151
+Percent Agreement
+Agrees with Median (n)	Percent Agreement	Agrees with Median (n)	Percent Agreement
+1	63	93	81	98	95
+2	68	100	77	93	96
+3	57	84	83	100	93
+4	66	97	77	93	95
+5	65	96	82	99	97
+L183: *Poor performance characteristics for certain readers despite high correlation between semi-quantitative read score and immunohistochemistry: Study A16 and Study PT01 used the clinically applicable binary reading method rather than the semi-quantitative reading method. See Table 4, Table 5, Table 6, and Table 9 above and accompanying discussion.*
+L184: *Inconsistent performance characteristics between readers and wide confidence intervals (sensitivity point estimates ranged from 55% to 90%, with lower bound of the 95% confidence interval as low as 28%): See Table 4, Table 5, Table 6, and Table 9 above and accompanying discussion.*
+L185: *High inter-reader variability: See Table 7, Table 10, Table 11, and Table 12 and accompanying discussion.*
+L186: *"Specificity" population comprised of young, cognitively intact subjects, so readers may have been un-blinded based on the ability to assess the degree of atrophy (none for these individuals), which was apparent in computed tomography (CT) images for those who had PET/CT scans (and likely apparent on PET images too): True negatives were based on histopathology in Study A16 and Study PT01.*
+L187: *Young, cognitively intact subjects may not reflect the target population for Amyvid, raising questions about the applicability of the "specificity" result to the intended population: True negatives were based on histopathology in Study A16 and Study PT01.*
+L188: Below, specific concerns regarding Study A05 raised during the first review cycle (in *black italics*, summarized in Dr. Ganley's review finalized 17 March 2011, page 3) are followed by how the resubmission addressed these concerns (in **blue bold**):
+L189: *High inter-reader variability: See Table 7, Table 11 and Table 12 and accompanying discussion.*
+L190: *Lower agreement between readers in A05 healthy cohort (40%) than in A07 healthy cohort (young), and A05 healthy cohort (&gt;50 years) more likely representative of intended population: See Table 7 and accompanying discussion. For cognitively normal individuals without autopsy (&gt;50 years of age, from Study A05), 5 out of 5 readers in Study PT01 agreed in 90% of the 20 subjects.*
+L191: *For the 92 A05 scans in Study PT01 which included 20 healthy (&gt;50 years of age) controls, 52 MCI subjects, and 20 AD subjects, the Fleiss's Kappa statistic was 0.88 (95% CI 0.81 to 0.94) for visual binary reads. The percent of image reads that were different from the majority of readers was 3.0% (95% CI: 1.8% to 5.0%).*
+L192: *Agreement between individual readers could be improved (63-91% in healthy cohort (&gt; 50 years of age), 70-98% in MCI cohort, 84-91% in AD cohort): See Table 7 and accompanying discussion.*
+L193: ## ***Clinical / Statistical Efficacy Conclusions***
+L194: Study A16 and Study PT01 both met their primary endpoints. The image interpretation method used in both studies (visual, binary, qualitative interpretation) is directly clinically applicable. The clinically applicable reader training material that was developed can be delivered using an electronic, self-study compact disc or an in-person training session. The interpretation method and training materials were adequately validated, both in terms of performance characteristics and reproducibility of interpretations.
+L195: ## ***Safety***
+L196: I concur with the clinical reviewer that there are no new safety issues. Radiation risk and risks associated with image misinterpretation remain the most important safety risks. Misinterpretation could conceivably lead to additional tests that could cause harm.
+L197: ## ***Labeling***
+L198: I agree with the statistical reviewer's cautions (Zalkikar page 4) which include:
+L199: - Amyvid scan results are indicative of the brain amyloid content only at the time of image acquisition
+- A negative scan result does not preclude the development of brain amyloid in the future
+L200: I also agree with the clinical reviewer's recommendation to dissociate amyloid detection from an AD diagnosis (Feng page 54).
+L201: At the time this review is finalized, labeling negotiations are ongoing with the sponsor. A few key points important to include in the label are:
+L202: - Limitations of use stating that safety and effectiveness of Amyvid have not been established for use as an AD diagnostic test, for predicting development of dementia, and for monitoring response to AD therapy.
+- The need for training in Amyvid PET image interpretation.
+- The importance of not using Amyvid PET alone in making a clinical diagnosis.
+- Warnings and Precautions about the risk for image misinterpretation and about not using clinical information to interpret Amyvid scans.
+L203: ## Post-marketing Requirements
+L204: None. For discussion for a possible post-marketing commitment, see Clinical Pharmacology / Biopharmaceutics above.
+L205: ## Letter from Public Citizen Health Research Group
+L206: FDA received a letter from Drs. Carome and Wolfe of Public Citizen dated 21 October 2011 urging FDA to not take further action on NDA 202008 until thoroughly reviewing and considering the analysis presented in an editorial by Moghbel et al published in the European Journal of Nuclear Medicine and Molecular Imaging [1].
+L207: The 21 October 2011 letter to FDA questions the clinical utility of imaging \beta-amyloid aggregates in the brain and cites a letter published in JAMA in May 2011 [8] urging FDA to not approve NDA 202008 given the “substantial interreader variability.”
+L208: Regarding inter-reader variability, the sponsor of NDA 202008 has recently completed two studies which demonstrate acceptable inter-reader variability (Study A16 and Study PT01), even when image interpretation is not performed in a central core lab and training is performed using a compact disc with training materials (Study PT01). Table 7 shows that for MCI subjects (likely part of the intended population), 5 out of 5 readers agreed on the binary interpretation of 91% of the 57 scans. For AD subjects, at least 4 out of 5 readers agreed on the interpretation of 90% of the 49 scans.
+L209: Table 12 demonstrates at least 90% agreement with the median binary read by all 5 readers for Study PT01 image sets except for one reader in cases determined to be positive for amyloid based on a median read.
+L210: The primary endpoint of Study PT01 (lower bound of Fleiss's Kappa statistic \ge 0.58), was met (Kappa statistic of 0.83 (95%CI: 0.78 to 0.88) for 119 scans which included adults (age &gt; 50) without cognitive impairment as well as subjects with MCI or AD). For the entire set of scans
+L211: read by Study PT01 readers (n=151, which includes 32 additional MCI scans), the Fleiss's Kappa statistic increased to 0.93 (95% CI: 0.84 to 1.0). The Kappa statistic for individual reader comparisons in Study PT01 (Table 11) also demonstrate acceptable inter-reader agreement.
+L212: With regard to questions about the feasibility and utility of \beta-amyloid imaging raised by Moghbel et al, the article by Villemagne et al [9] published in the same issue provide important considerations and responses. These considerations, and additional considerations as they relate to Amyvid PET imaging, are provided below in **bold** in response to each point from the Moghbel et al paper highlighted by the letter from Public Citizen (in *italics*).
+L213: - *Striking discrepancy between the distribution of \beta-amyloid deposits in the brain shown by Amyvid PET scans in patients with AD versus histopathological and immunohistochemical studies of brain samples.**With amyloid tracers, the standardized update values are high in the frontal lobe whereas autopsy studies demonstrate the highest density of \beta-amyloid deposits in the temporal and occipital lobes.*
+- *In AD patients, the greatest degree of brain atrophy and abnormal metabolism occurs in the temporal and parietal lobes, the lowest degree occurs in the frontal lobes*
+L214: The reviewer has considered the points made by Moghbel et al and examined the articles cited by both Moghbel et al and Villemagne et al. Based on [10-14], the reviewer agrees that there is evidence of frontal lobe deposition of \beta-amyloid in AD, sometimes even greater than in the temporal or parietal cortices [12].
+L215: - *Substantial uptake of amyloid tracers in the white matter (believed to be nearly devoid of \beta-amyloid plaques) due to non-specific binding and/or slower clearance from white matter (reduced blood flow in white matter). Certain amyloid tracers have higher ratios of white matter \beta-amyloid to grey matter \beta-amyloid than immunohistochemical tests.*
+L216: The reviewer has considered the points made by Moghbel et al and examined the articles cited by both Moghbel et al and Villemagne et al. The reviewer agrees that non-specific white matter retention of amyloid tracers is a well known phenomenon. Based on [15-18], the reviewer agrees that nonspecific white matter retention of amyloid tracers is no different in AD patients than in healthy individuals.
+L217: For Amyvid PET, the binary image interpretation method developed by the sponsor makes use of the non-specific white matter retention as a comparator for gray matter in the evaluation of amyloid burden.
+L218: - *Size of \beta-amyloid plaques and small percentage of total brain area occupied by \beta-amyloid plaques make accurate detection of \beta-amyloid deposits using amyloid tracers unlikely because there would not be sufficiently greater uptake in \beta-amyloid deposits than in the background.*
+L219: The reviewer has considered the points made by Moghbel et al and examined the articles cited by both Moghbel et al and Villemagne et al. For Amyvid PET, the binary image interpretation method does not rely on resolving an individual \beta-amyloid plaque. For \beta-amyloid imaging in general, the average concentration of amyloid tracer binding sites in a region of interest is evaluated [9].
+L220: The performance characteristics (sensitivity and specificity) obtained by the sponsor of Amyvid in Study A16 and Study PT01 convincingly demonstrate that the visual binary interpretation method for Amyvid PET is effective in detecting \beta-amyloid plaques in brain. This is supported by a significant correlation between semi-quantitative visual interpretation of Amyvid PET images on a 0-4 scale and amyloid burden determined using immunohistochemistry (Study A07).
+L221: This reviewer has thoroughly reviewed and considered the analysis presented in the Moghbel et al publication, the Villemagne et al publication, articles cited by both publications, the amyloid literature at large, and the information presented in NDA 202008. In conclusion, this reviewer does not agree with the suggestion that florbetapir is not useful for imaging \beta-amyloid aggregates in the brain, as suggested by Drs. Carome and Wolfe: A negative scan result can be quite useful given that Alzheimer's disease can be ruled out at the time of image acquisition. Furthermore, the performance characteristics and inter-reader reproducibility results from Study A16 and Study PT01 provide ample support for the following indication:
+L222: Amyvid is indicated for Positron Emission Tomography (PET) imaging of the brain to estimate \beta-amyloid neuritic plaque density in adult patients with cognitive impairment who are being evaluated for Alzheimer's Disease (AD) and other causes of [REDACTED](b)(4). A negative Amyvid scan indicates sparse to no neuritic plaques and is inconsistent with a neuropathological diagnosis of AD at the time of image acquisition; a negative scan result reduces the likelihood that a patient's cognitive impairment is due to AD. A positive Amyvid scan indicates [REDACTED](b)(4) amyloid neuritic plaque in the brain; neuropathological examination has shown this amount of amyloid neuritic plaque in patients with AD, patients with other types of neurologic conditions as well as older people with normal cognition. Amyvid is an adjunct to other diagnostic evaluations [REDACTED](b)(4)
+L223: ## Limitation of Use
+L224: Safety and effectiveness of Amyvid have not been established for the following:
+L225: - As an AD diagnostic test;
+- For predicting development of dementia;
+- For monitoring patient responses to AD therapies.
+L226: This reviewer agrees with Drs. Carome and Wolfe that florbetapir-PET scans are inadequate “for diagnosing AD.”
+L227: ## Reference List
+L228: 1. Moghbel MC, Saboury B, Basu S, Metzler SD, Torigian DA, Langstrom B, Alavi A: **Amyloid-beta imaging with PET in Alzheimer's disease: is it feasible with current radiotracers and technologies?** *Eur.J Nucl.Med Mol.Imaging* 2012, **39**:202-208.
+L229: 2. United States Food and Drug Administration. Guidance for Industry: Postmarketing Studies and Clinical Trials--Implementation of Section 505(o) of the Federal Food, Drug, and Cosmetic Act.
+L230: http://www.fda.gov/downloads/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/UCM172001.pdf . 2009.
+L231: Ref Type: Online Source
+L232: 3. Boellaard R: **Need for standardization of 18F-FDG PET/CT for treatment response assessments.** *J.Nucl.Med.* 2011, **52 Suppl 2**:93S-100S.
+L233: 4. Fahey FH, Kinahan PE, Doot RK, Kocak M, Thurston H, Poussaint TY: **Variability in PET quantitation within a multicenter consortium.** *Med.Phys.* 2010, **37**:3660-3666.
+L234: 5. Keyes JW, Jr.: **SUV: standard uptake or silly useless value?** *J.Nucl.Med.* 1995, **36**:1836-1839.
+L235: 6. Thie JA: **Understanding the standardized uptake value, its methods, and implications for usage.** *J.Nucl.Med.* 2004, **45**:1431-1434.
+L236: 7. Yap J. The Importance of Standardization in Multicenter Clinical Trials, Society for Nuclear Medicine presentation. 2011.
+L237: Ref Type: Slide
+L238: 8. Carome M, Wolfe S: **Florbetapir-PET Imaging and Postmortem beta-Amyloid Pathology.** *JAMA* 2011, **305**:1857.
+L239: 9. Villemagne VL, Klunk WE, Mathis CA, Rowe CC, Brooks DJ, Hyman BT, Ikonomovic MD, Ishii K, Jack CR, Jagust WJ, Johnson KA, Koeppe RA, Lowe VJ, Masters CL, Montine TJ, Morris JC, Nordberg A, Petersen RC, Reiman EM, Selkoe DJ, Sperling RA, Van LK, Weiner MW, Drzezga A: **Abeta Imaging: feasible, pertinent, and vital to progress in Alzheimer's disease.** *Eur.J Nucl.Med Mol.Imaging* 2012, **39**:209-219.
+L240: 10. Arnold SE, Han LY, Clark CM, Grossman M, Trojanowski JQ: **Quantitative neurohistological features of frontotemporal degeneration.** *Neurobiol.Aging* 2000, **21**:913-919.
+L241: 11. Braak H, Braak E: **Frequency of stages of Alzheimer-related lesions in different age categories.** *Neurobiol.Aging.* 1997, **18**:351-357.
+L242: 12. Naslund J, Haroutunian V, Mohs R, Davis KL, Davies P, Greengard P, Buxbaum JD: **Correlation between elevated levels of amyloid beta-peptide in the brain and cognitive decline.** *JAMA* 2000, **283**:1571-1577.
+
+13. Thal DR, Rub U, Orantes M, Braak H: **Phases of A beta-deposition in the human brain and its relevance for the development of AD.** *Neurology.* 2002, **58**:1791-1800.
+
+14. Wolk DA, Grachev ID, Buckley C, Kazi H, Grady MS, Trojanowski JQ, Hamilton RH, Sherwin P, McLain R, Arnold SE: **Association between in vivo fluorine 18-labeled flutemetamol amyloid positron emission tomography imaging and in vivo cerebral cortical histopathology.** *Arch.Neuro.* 2011, **68**:1398-1403.
+
+15. Aizenstein HJ, Nebes RD, Saxton JA, Price JC, Mathis CA, Tsopelas ND, Zielko SK, James JA, Snitz BE, Houck PR, Bi W, Cohen AD, Lopresti BJ, Dekosky ST, Halligan EM, Klunk WE: **Frequent amyloid deposition without significant cognitive impairment among the elderly.** *Arch.Neuro.* 2008, **65**:1509-1517.
+
+16. Rowe CC, Ackerman U, Browne W, Mulligan R, Pike KL, O'Keefe G, Tochon-Danguy H, Chan G, Berlangieri SU, Jones G, Dickinson-Rowe KL, Kung HP, Zhang W, Kung MP, Skovronsky D, Dyrks T, Holl G, Krause S, Friebe M, Lehman L, Lindemann S, Dinkelborg LM, Masters CL, Villemagne VL: **Imaging of amyloid beta in Alzheimer's disease with 18F-BAY94-9172, a novel PET tracer: proof of mechanism.** *Lancet Neurol.* 2008, **7**:129-135.
+
+17. Vandenberghe R, Van LK, Ivanoiu A, Salmon E, Bastin C, Triau E, Hasselbalch S, Law I, Andersen A, Korner A, Minthon L, Garraux G, Nelissen N, Bormans G, Buckley C, Owenius R, Thurfjell L, Farrar G, Brooks DJ: **18F-flutemetamol amyloid imaging in Alzheimer disease and mild cognitive impairment: a phase 2 trial.** *Ann Neurol.* 2010, **68**:319-329.
+
+18. Wong DF, Rosenberg PB, Zhou Y, Kumar A, Raymont V, Ravert HT, Dannals RF, Nandi A, Brasic JR, Ye W, Hilton J, Lyketos C, Kung HF, Joshi AD, Skovronsky DM, Pontecorvo MJ: **In vivo imaging of amyloid deposition in Alzheimer disease using the radioligand 18F-AV-45 (florbetapir [corrected] F 18).** *J Nucl.Med* 2010, **51**:913-920.
+L243: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L244: /s/
+L245: LUCIE L YANG
+03/24/2012
+[and 1 more]

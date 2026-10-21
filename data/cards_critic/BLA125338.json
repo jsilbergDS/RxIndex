@@ -1,0 +1,48 @@
+{
+  "app": "BLA125338",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 348)",
+  "_raw": "Reviewing the card against all check categories.\n\n```json\n{\n  \"app\": \"BLA125338\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"key_safety\",\n      \"severity\": \"high\",\n      \"issue\": \"The >=25% threshold cited for 'most common adverse reactions' is not supported; the cited Table 2 sta",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "AUX-CC-857 (Study 857 / Study 1), U.S."
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "857",
+        "text": "Study 857 (U.S.): CCH n=203, placebo n=103"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "AUX-CC-859 (Study 859 / Study 2), Australia"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "859",
+        "text": "Study 859 (Australia): CCH n=45, placebo n=21"
+      },
+      {
+        "field": "key_safety",
+        "number": "25",
+        "text": "Based on the two pooled placebo-controlled Dupuytren's trials (Studies 1 and 2) "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "125338",
+        "text": "BLA 125338 for Xiaflex (collagenase clostridium histolyticum) was received Febru"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "BLA 125338 for Xiaflex (collagenase clostridium histolyticum) was received Febru"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

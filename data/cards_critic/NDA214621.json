@@ -1,0 +1,32 @@
+{
+  "app": "NDA214621",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flag: '48' (48 weeks) is supported by the endpoint citation quote ('from Week 5 Day 1 (Day 29) through 48 weeks') within the same trial object."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flag: 'phase 3' is supported by the pivotal_trials[0].phase citation quote ('a phase 3, randomized, open-label, parallel-group study')."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "48",
+        "text": "Multinational, randomized (2:1), open-label, parallel-group study comparing oral"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "NDA 214621 for relugolix (ORGOVYX) received Priority review and was granted regu"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "app": "NDA205677",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 306)",
+  "_raw": "Looking at the card, let me check each component carefully.\n\n{\n  \"app\": \"NDA205677\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[1].population\",\n      \"severity\": \"low\",\n      \"issue\": \"The automated flag for uncited number '24' is a false positive; it is part of 'No",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/population",
+        "number": "24",
+        "text": "Patients with Non-24 who had previously participated in/been screened in Study 3"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

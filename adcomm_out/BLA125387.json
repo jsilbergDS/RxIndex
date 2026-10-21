@@ -1,0 +1,174 @@
+{
+  "app": "BLA125387",
+  "drug": "EYLEA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "f77e8f3f-6b2f-5127-afb0-05d23c93d46c"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "42f2451b-fa16-5030-a400-72c223a3cc9a"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "4467a6b6-3783-5de3-aded-48e86759857c"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "00990c80-6187-53c9-8d1a-cb30548ddf4d"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Dermatologic and Ophthalmic Drugs Advisory Committee (DODAC)",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "4467a6b6-3783-5de3-aded-48e86759857c",
+      "line": 21,
+      "quote": "The application for Eylea (aflibercept) was presented to the Dermatologic and Ophthalmic Drugs Advisory Committee (DODAC) on June 17, 2011."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "4467a6b6-3783-5de3-aded-48e86759857c",
+      "found_lines": [
+        21
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "June 17, 2011",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "00990c80-6187-53c9-8d1a-cb30548ddf4d",
+      "line": 139,
+      "quote": "The Dermatologic and Ophthalmic Drugs Advisory Committee of the Food and Drug Administration met on June 17, 2011."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "00990c80-6187-53c9-8d1a-cb30548ddf4d",
+      "found_lines": [
+        139,
+        455
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted unanimously 10 to 0 that aflibercept demonstrated efficacy and safety in neovascular AMD, and recommended the 2 mg every 8 weeks regimen (after 3 monthly loading doses).",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "4467a6b6-3783-5de3-aded-48e86759857c",
+      "line": 21,
+      "quote": "The committee voted unanimously (10 Yes; 0 No) that the product demonstrated efficacy and safety in neovascular AMD, and recommended the 2 mg every 8 weeks dosing regimen (after 3 loading doses given every 4 weeks)."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "4467a6b6-3783-5de3-aded-48e86759857c",
+      "found_lines": [
+        21
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee recommended the 2 mg every 8 weeks (Q8) regimen (after 3 monthly loading doses), rather than the other dosing/formulation options in the original application.",
+      "change": "Regeneron amended the BLA to withdraw the other dose/formulation, and the product was approved at 2 mg every 8 weeks (following 3 initial monthly doses).",
+      "category": "Dose / regimen selection",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "00990c80-6187-53c9-8d1a-cb30548ddf4d",
+        "line": 139,
+        "quote": "The committee recommended 2mg every eight weeks (Q8) with an extra dose at month 2 (2mg monthly for 3 months then once every 2 months).",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "00990c80-6187-53c9-8d1a-cb30548ddf4d",
+          "found_lines": [
+            139,
+            472,
+            1334
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "f77e8f3f-6b2f-5127-afb0-05d23c93d46c",
+        "line": 83,
+        "quote": "However, based on recommendations from the Advisory Committee and Division that the 2 mg dose (40 mg/mL formulation) given every 8 weeks was effective and provided patients with the advantage of less frequent intravitreal injections, Regeneron decided to send an amendment (b) (4) from the BLA on August 1, 2011.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "f77e8f3f-6b2f-5127-afb0-05d23c93d46c",
+          "found_lines": [
+            83
+          ]
+        }
+      }
+    },
+    {
+      "concern": "There was discussion that information on injections every 4 weeks should be included in labeling to allow flexibility for scheduling return appointments.",
+      "change": "The approved labeling states dosing can be given as frequently as every 4 weeks.",
+      "category": "Labeling / dosing flexibility",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "f77e8f3f-6b2f-5127-afb0-05d23c93d46c",
+        "line": 224,
+        "quote": "There was discussion that information on injections every 4 weeks could be included in labeling to allow flexibility for scheduling return appointments.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "f77e8f3f-6b2f-5127-afb0-05d23c93d46c",
+          "found_lines": [
+            224
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "f77e8f3f-6b2f-5127-afb0-05d23c93d46c",
+        "line": 22,
+        "quote": "Dosing can be given as frequently as every 4 weeks based on the results of both Phase 3 studies, but no added benefit was seen with more frequent dosing.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "f77e8f3f-6b2f-5127-afb0-05d23c93d46c",
+          "found_lines": [
+            22
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee commented on including information on increased intraocular pressure (IOP) in labeling.",
+      "change": "The labeling reflects increased intraocular pressure as a reported adverse reaction.",
+      "category": "Labeling / safety (IOP)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "f77e8f3f-6b2f-5127-afb0-05d23c93d46c",
+        "line": 224,
+        "quote": "including information on increased IOP in labeling",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "f77e8f3f-6b2f-5127-afb0-05d23c93d46c",
+          "found_lines": [
+            224
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "f77e8f3f-6b2f-5127-afb0-05d23c93d46c",
+        "line": 258,
+        "quote": "The labeling will reflect findings of nasal ulcerations seen in monkey studies, and adverse reactions reported during clinical trials: arterial thrombotic events, increased intraocular pressure, immunogenicity, and rare complications of intravitreal injections such as endophthalmitis and retinal detachment.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "f77e8f3f-6b2f-5127-afb0-05d23c93d46c",
+          "found_lines": [
+            258
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Dermatologic and Ophthalmic Drugs Advisory Committee (DODAC) met June 17, 2011 and voted unanimously (10-0) that aflibercept demonstrated efficacy and safety in neovascular AMD, specifically recommending the 2 mg every-8-weeks regimen (after 3 monthly loading doses). Following the committee's and Division's recommendation of the 2 mg Q8 regimen, Regeneron amended the BLA to withdraw the other dose/formulation, and the product was approved on that regimen. The committee also discussed labeling points (every-4-week dosing flexibility and inclusion of increased IOP information) that are reflected in the approved labeling, though the review documents do not explicitly tie those labeling choices to the committee."
+}

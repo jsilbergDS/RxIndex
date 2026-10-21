@@ -1,0 +1,211 @@
+{
+  "app": "BLA125422",
+  "drug": "JETREA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "c2669efa-b358-54ca-8888-6b12e4cae61b"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "7c5f2ab6-9526-5e2a-89c3-9df109411997"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "4d3b63b9-f411-5603-8976-83cf95229ad5"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "b71bf92c-e20c-51b0-9f25-07b835a6765f"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "12660da7-0816-5bcb-9246-287dd6578d7f"
+    },
+    {
+      "doc_type": "Label",
+      "doc_id": "1d8b3018-40e3-5cd5-b8e0-082fd99505a4"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Dermatologic and Ophthalmic Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "b71bf92c-e20c-51b0-9f25-07b835a6765f",
+      "line": 323,
+      "quote": "The application was discussed before the Dermatologic and Ophthalmic Drugs Advisory Committee on July 26, 2012."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "b71bf92c-e20c-51b0-9f25-07b835a6765f",
+      "found_lines": [
+        323
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "July 26, 2012",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "c2669efa-b358-54ca-8888-6b12e4cae61b",
+      "line": 131,
+      "quote": "An Advisory Committee meeting was held for ocriplasmin on July 26, 2012."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "c2669efa-b358-54ca-8888-6b12e4cae61b",
+      "found_lines": [
+        131
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted unanimously (Yes 10; No 0) that substantial evidence of effectiveness was provided for treatment of symptomatic vitreomacular adhesion and that the benefits outweighed the risks. It was less supportive of broader macular-hole indications (macular holes associated with VMA: Yes 7; No 3; all macular holes regardless of adhesions: Yes 1; No 8; Abstain 1) and voted (Yes 3; No 6; Abstain 1) that additional studies were not needed prior to approval to evaluate retinal safety.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "4d3b63b9-f411-5603-8976-83cf95229ad5",
+      "line": 20,
+      "quote": "On the question of whether the benefits of administering ocriplasmin for treatment of vitreomacular adhesions outweigh the potential risks, the Committee voted Yes 10; No 0; Abstain 0."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "4d3b63b9-f411-5603-8976-83cf95229ad5",
+      "found_lines": [
+        20
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee found that substantial evidence of effectiveness had not been provided for ocriplasmin in macular holes beyond the symptomatic VMA population (macular holes associated with VMA voted 7-3; all macular holes regardless of adhesions voted 1-8-1), because of insufficient data.",
+      "change": "The approved indication was limited to the treatment of symptomatic vitreomacular adhesion, excluding macular-hole indications.",
+      "category": "Indication / narrowing",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "4d3b63b9-f411-5603-8976-83cf95229ad5",
+        "line": 20,
+        "quote": "On the question of whether substantial evidence of effectiveness had been provided for ocriplasmin 0.125 mg for treatment of all macular holes regardless of the presence of adhesions the Committee voted Yes 1; No 8; Abstain 1.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "4d3b63b9-f411-5603-8976-83cf95229ad5",
+          "found_lines": [
+            20
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Label",
+        "doc_id": "1d8b3018-40e3-5cd5-b8e0-082fd99505a4",
+        "line": 24,
+        "quote": "JETREA\u00ae is a proteolytic enzyme indicated for the treatment of symptomatic vitreomacular adhesion.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "1d8b3018-40e3-5cd5-b8e0-082fd99505a4",
+          "found_lines": [
+            24
+          ]
+        }
+      }
+    },
+    {
+      "concern": "In its labeling suggestions, the committee recommended keeping the word 'symptomatic' in the indication.",
+      "change": "The approved indication reads 'treatment of symptomatic vitreomacular adhesion.'",
+      "category": "Labeling / Indication wording",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "b71bf92c-e20c-51b0-9f25-07b835a6765f",
+        "line": 1230,
+        "quote": "Include the term \"symptomatic\" in the indication",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "b71bf92c-e20c-51b0-9f25-07b835a6765f",
+          "found_lines": [
+            1230
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Label",
+        "doc_id": "1d8b3018-40e3-5cd5-b8e0-082fd99505a4",
+        "line": 24,
+        "quote": "JETREA\u00ae is a proteolytic enzyme indicated for the treatment of symptomatic vitreomacular adhesion.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "1d8b3018-40e3-5cd5-b8e0-082fd99505a4",
+          "found_lines": [
+            24
+          ]
+        }
+      }
+    },
+    {
+      "concern": "In its labeling suggestions, the committee recommended stating that the product is for single use in one eye only.",
+      "change": "The label specifies single-use administration and that each vial provides a single injection for a single eye.",
+      "category": "Labeling / Administration",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "b71bf92c-e20c-51b0-9f25-07b835a6765f",
+        "line": 1230,
+        "quote": "State \"for single use in one eye only\"",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "b71bf92c-e20c-51b0-9f25-07b835a6765f",
+          "found_lines": [
+            1230
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Label",
+        "doc_id": "1d8b3018-40e3-5cd5-b8e0-082fd99505a4",
+        "line": 55,
+        "quote": "Each vial should only be used to provide a single injection for the treatment of a single eye.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "1d8b3018-40e3-5cd5-b8e0-082fd99505a4",
+          "found_lines": [
+            55
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Some committee members noted that while patients with VMA resolution had increased visual acuity, others lost two or more lines of visual acuity in the ocriplasmin arms, and asked FDA to examine the adverse reactions.",
+      "change": "The label carries a Decreased Vision warning (Warnings and Precautions 5.1) describing decreases in vision due to progression of the condition with traction that may require surgical intervention.",
+      "category": "Safety / Warning",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "b71bf92c-e20c-51b0-9f25-07b835a6765f",
+        "line": 64,
+        "quote": "there were others who lost two or more lines (10 or more letters) of visual acuity in the ocriplasmin arms, and asked FDA to examine the adverse reactions",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "b71bf92c-e20c-51b0-9f25-07b835a6765f",
+          "found_lines": [
+            64
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Label",
+        "doc_id": "1d8b3018-40e3-5cd5-b8e0-082fd99505a4",
+        "line": 3,
+        "quote": "Decreases in vision due to progression of the condition with traction may occur requiring surgical intervention.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "1d8b3018-40e3-5cd5-b8e0-082fd99505a4",
+          "found_lines": [
+            3
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Dermatologic and Ophthalmic Drugs Advisory Committee met on July 26, 2012 and voted unanimously (10-0) that ocriplasmin 0.125 mg showed substantial evidence of efficacy for symptomatic vitreomacular adhesion and that its benefits outweighed its risks, while declining to support broader macular-hole indications (7-3 and 1-8-1) for lack of data. The approved indication was limited to symptomatic VMA, and the committee's labeling suggestions (keep 'symptomatic' in the indication, state single-use/one-eye) are reflected in the approved label. The committee suggested post-marketing retinal-safety/OCT studies, but the review team recommended no Postmarketing Requirements or Phase 4 Commitments and no risk-mitigation beyond labeling and routine pharmacovigilance, so that suggestion did not result in a PMR/PMC (SumR line 158); linkages are marked 'inferred' because the review documents describe the concerns and the changes but do not explicitly connect them."
+}

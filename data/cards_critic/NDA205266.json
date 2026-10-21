@@ -1,0 +1,113 @@
+{
+  "app": "NDA205266",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "medium",
+      "issue": "The AE percentages (muscle spasms 54%, alopecia 53%, dysgeusia 46%, fatigue 41%, nausea 39%, musculoskeletal pain 32%) are stated as percentages in the text but the citation quote shows raw table codes (543, 530, 460, 414, 391, 321); the '\u226510%' threshold and the percent interpretation are not literally supported by the cited quote, so these numbers read as uncited."
+    },
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "high",
+      "issue": "Population states the efficacy population was '66 patients with laBCC randomized to 200 mg daily,' but cited quotes only state 66 laBCC patients were randomized to 200 mg; claiming them as 'the efficacy population' overstates the citation (and the 200 mg arm total was 79 per the n field)."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "medium",
+      "issue": "Result says median duration of response 'not reached'; the supporting quote references 31 patients with ongoing responses ranging '1.9+ to 18.6+ months,' but those specific range numbers are not reflected\u2014acceptable, yet the '82%/31 patients' context is dropped, making the DoR claim thinly supported; verify the DoR citation matches the laBCC 200 mg subgroup."
+    },
+    {
+      "field": "first_cycle_approval/detail",
+      "severity": "low",
+      "issue": "Citation line 6 is flagged as unverified (OCR stitched header block); however first_cycle_approval value=true is correctly inferred from absence of a prior CRL (crl_history.prior_crl=false), so the value itself is fine\u2014only the quote verification is a concern."
+    },
+    {
+      "field": "receipt_date",
+      "severity": "medium",
+      "issue": "Receipt date citation (line 6) is in unverified_citations (not found verbatim in OCR), so September 26, 2014 is not reliably sourced even though it is likely correct."
+    },
+    {
+      "field": "approval_program/priority_review/basis",
+      "severity": "medium",
+      "issue": "Priority_review basis citation (line 6) is flagged as unverified; the standard-review claim rests on an unverifiable stitched quote."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "medium",
+      "issue": "Summary citation (line 6) is flagged as unverified; the summary also calls ODOMZO a 'new molecular entity,' a claim not supported by any citation (modality/approval citations do not state NME status)."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "Summary states ORR 58% and 'second Hedgehog pathway inhibitor'\u2014both supported by cited quotes (lines 16 and 12), consistent with no accelerated approval; internally consistent."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Text says '151 to 800 mg, 79 to 200 mg' which matches the cited quote, but the trial_name/design quotes repeatedly misrender the study ID as 'A2001' vs 'A2201' (OCR inconsistency); confirm the correct study identifier."
+    },
+    {
+      "field": "orphan_drug",
+      "severity": "low",
+      "issue": "Orphan_drug present=false with no citation; BCC/laBCC may carry an orphan designation\u2014verify the review does not mention orphan status (possible completeness gap)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "10",
+        "text": "Most common adverse reactions (\u226510%) are muscle spasms (54%), alopecia (53%), dy"
+      },
+      {
+        "field": "key_safety",
+        "number": "53",
+        "text": "Most common adverse reactions (\u226510%) are muscle spasms (54%), alopecia (53%), dy"
+      },
+      {
+        "field": "key_safety",
+        "number": "46",
+        "text": "Most common adverse reactions (\u226510%) are muscle spasms (54%), alopecia (53%), dy"
+      },
+      {
+        "field": "key_safety",
+        "number": "41",
+        "text": "Most common adverse reactions (\u226510%) are muscle spasms (54%), alopecia (53%), dy"
+      },
+      {
+        "field": "key_safety",
+        "number": "39",
+        "text": "Most common adverse reactions (\u226510%) are muscle spasms (54%), alopecia (53%), dy"
+      },
+      {
+        "field": "key_safety",
+        "number": "32",
+        "text": "Most common adverse reactions (\u226510%) are muscle spasms (54%), alopecia (53%), dy"
+      }
+    ],
+    "unverified_citations": [
+      {
+        "field": "first_cycle_approval/detail",
+        "line": 6,
+        "quote": "Application TypeNDAApplication Number(s)205266Priority or St"
+      },
+      {
+        "field": "receipt_date",
+        "line": 6,
+        "quote": "Application TypeNDAApplication Number(s)205266Priority or St"
+      },
+      {
+        "field": "approval_program/priority_review/basis",
+        "line": 6,
+        "quote": "Application TypeNDAApplication Number(s)205266Priority or St"
+      },
+      {
+        "field": "approval_program/summary",
+        "line": 6,
+        "quote": "Application TypeNDAApplication Number(s)205266Priority or St"
+      }
+    ],
+    "empty_fields": []
+  }
+}

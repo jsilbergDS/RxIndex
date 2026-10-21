@@ -1,0 +1,23 @@
+{
+  "app": "BLA125516",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 10 column 5 (char 319)",
+  "_raw": "{\n  \"app\": \"BLA125516\",\n  \"release_ready\": true,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].trial_name\",\n      \"severity\": \"low\",\n      \"issue\": \"Automated flag for uncited number '1' is a false positive; 'Study 1' is a label matching the citation's study naming, not an efficacy/safety nu",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study ANBL0032 / DIV-NB-301 (Study 1)"
+      },
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "3",
+        "text": "Phase 3"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

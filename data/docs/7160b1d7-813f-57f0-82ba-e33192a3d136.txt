@@ -1,0 +1,1828 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+L2: **206709Orig1s000**
+L3: **207223Orig1s000**
+L4: **STATISTICAL REVIEW(S)**
+L5: FDA Seal
+L6: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L7: ## STATISTICAL REVIEW AND EVALUATIONCLINICAL STUDIES
+L8: **NDA/BLA #:** 206709
+**Supplement #:** 0000
+**Drug Name:** Stiripentol
+**Indication(s):** (b) (4) treatment of [REDACTED] (b) (4) seizures associated with Dravet syndrome
+**Applicant:** Biocodex
+**Date(s):** Receipt date (11/10/2015); PDUFA due date (NA; Rolling)
+**Review Priority:** Rolling
+**Biometrics Division:** DBI
+**Statistical Reviewer:** Junshan Qiu, Ph.D.
+**Concurring Reviewers:** Kun Jin, Ph.D., Team Leader
+Hsien Ming (Jim) Hung, Ph.D., Division Director
+**Medical Division:** Division of Neurology
+**Clinical Team:** Steven Dinsmore, M.D.
+Norman Hershkowitz, M.D.
+**Project Manager:** Hamet Toure, Pharm. D.
+L9: **Keywords:** Chi-square Test; Fisher's Exact Test; Sensitivity Analysis
+L10: ## Table of Contents
+L11: 1	EXECUTIVE SUMMARY	5
+2	INTRODUCTION	6
+2.1	OVERVIEW	6
+2.2	DATA SOURCES	7
+3	STATISTICAL EVALUATION	7
+3.1	STATISTICAL ISSUES	7
+3.2	DATA QUALITY	8
+3.3	EVALUATION OF EFFICACY	9
+3.3.1	Study STICLO France	9
+3.3.2	Study STICLO Italy	19
+3.4	EVALUATION OF SAFETY	28
+4	FINDINGS IN SPECIAL/SUBGROUP POPULATIONS (POST BASELINE)	28
+5	SUMMARY AND CONCLUSIONS	28
+5.1	COLLECTIVE EVIDENCE	28
+5.2	CONCLUSIONS AND RECOMMENDATIONS	28
+L12: ## LIST OF FIGURES
+L13: Figure 1. Cumulative Distribution Functions of Two Treatment Groups (Observed)	18
+Figure 2. Cumulative Distribution Functions of Two Treatment Groups (Imputed)	18
+Figure 3. Cumulative Distribution Functions for Two Treatment Groups (Observed)	27
+Figure 4. Cumulative Distribution Functions for Two Treatment Groups (Imputed)	27
+L14: ## LIST OF TABLES
+L15: Table 2-1 Summary of the Studies for Statistical Review and Evaluation	7
+Table 3-1 Summary of Analysis Population	12
+Table 3-2 Demographics Characteristics (EA Population; France)	13
+Table 3-3 Baseline Characteristics (EA Population; France)	13
+Table 3-4 Efficacy Results: Treatment Success/Failure (Efficacy Analysis Population)	13
+Table 3-5 Changes in the number of seizures, decrease or increase, between baseline and the end of month 2 (Week 12)	14
+Table 3-6 Number of tonic-clonic seizures during months 1 and 2 change compared to the baseline period	15
+Table 3-7 Comparison of the log-transformed tonic-clonic seizures adjusted by 30 days at Week 12 between the placebo and the STP groups based on the efficacy analysis population	16
+Table 3-8 Changes in the number of seizures, decrease or increase, between baseline and the end of month 2 (Week 12)	17
+Table 3-9 Summary of tonic-clonic seizures during the first and the second month compared to baseline	17
+Table 3-10 Summary of Analysis Population	21
+Table 3-11 Demographics Characteristics (ITT Population; Italy)	22
+Table 3-12 Baseline Characteristics (ITT Population; Italy)	22
+Table 3-13 Efficacy Results: Treatment Success/Failure (ITT Population)	23
+Table 3-14 Changes in the number of seizures, decrease or increase, between baseline and the end of month 2 (Week 12)	23
+Table 3-15 Number of tonic-clonic seizures during the first and the second month compared to baseline	24
+Table 3-16 Comparison of the log-transformed tonic-clonic seizures adjusted by 30 days at Week 12 between the placebo and the STP groups based on the efficacy analysis population	24
+Table 3-17 Changes in the number of seizures, decrease or increase, between baseline and the end of month 2 (Week 12)	25
+Table 3-18 Summary of tonic-clonic seizures during the first and the second month compared to baseline	25
+Table 3-19 Efficacy Results: Treatment Success/Failure (PP Population)	26
+L16: ## 1 EXECUTIVE SUMMARY
+L17: This application for a labeling claim on Stiripentol for (b) (4) treatment of (b) (4) seizures associated with Dravet syndrome rests mainly on the multicenter, randomized, double-blind, placebo-controlled trial: STICLO France and STICLO Italy provides supportive evidence. The primary efficacy endpoint is treatment success or failure by Week 12. For study STICLO France, the proportion of responders (treatment success) was compared among the two treatment groups: placebo and STP using Chi-square test; and in the efficacy analysis population, the responder (i.e., treatment success) rates were 5.0% in the placebo group and 71.4% in the STP group (p &lt; 0.00002 versus placebo). For study STICLO Italy, the treatment success or failure was compared among the two treatment groups: placebo and STP using Fisher's Exact test due to small sample size. In the efficacy analysis population, the responder (i.e., treatment success) rates were 9.1% in the placebo group and 66.7% in the STP group (p = 0.009 versus placebo).
+L18: In conclusion, the efficacy of Stiripentol is demonstrated in support of the claim for (b) (4) treatment of (b) (4) seizures associated with Dravet syndrome.
+L19: ## 2 INTRODUCTION
+L20: This Biostatistics review focuses on two multicenter, randomized, double-blind, placebo-controlled trials: STICLO France and STICLO Italy.
+L21: ## 2.1 Overview
+L22: Dravet syndrome, or severe myoclonic epilepsy in infancy (SMEI), is a rare catastrophic epileptic encephalopathy with onset during the first year of life. Dravet syndrome affects approximately 2,000 to 8,000 children in the U.S. and is viewed to be one of the most intractable forms of epilepsy. It is characterized by severe epilepsy that does not respond well to currently approved antiepileptic drugs (AEDs); it is often associated with psychomotor retardation and ataxia.
+L23: Stiripentol (STP) is a new drug entity and is originally developed by Laboratories Biocodex [dimethyl-4, 4 (methylene dioxy-3, 4 phenyl)-1 pentene-1 ol-3]. Its anticonvulsant activity has been demonstrated in the rat, mouse and rabbit. This activity has been found in an alumina gel implant model in the monkey. It also has a potential reduction of the sedative effects associated with the majority of antiepileptic drugs. It has very low toxicity in particularly by oral route. Specific antiepileptic activity has not been demonstrated by well-conducted human studies. But its use in combination with other anticonvulsant drugs demonstrates effects on decreasing incidence of seizures and improving patients' inter-critical status.
+L24: Dravet syndrome is the only seizure disorder in which STP was found to be effective. The mechanism of antiepileptic activity of STP is thought to involve potentiation of the GABAergic and glutamatergic transmissions in the central nervous system (CNS). In addition, unlike any other AED, STP apparently enhances the cortical glutamatergic transmission by acting pre-synaptically to increase glutamate release from nerve terminals.
+L25: STEV study, an open-label design and as add-on therapy with SMEI in 25 patients, shown that 10 out of 21 patients had a decrease of over 50% in number of seizures at month 3 and 3 of them were free from seizures. Since at the time the STEV trial was completed, no AED was truly beneficial in Dravet syndrome, the results obtained in STEV were quite striking and prompted the initiation of a clinical program in Dravet syndrome.
+L26: The efficacy and safety of STP in Dravet patients was studied in 7 clinical trials: 2 were double-blind, randomized, placebo-controlled trials (STICLO trials); one was single-blind (STEV; short-term, 84-day treatment trial; patients and their families were blind to treatment); and the remaining 4 trials were open-label (STP-1 included a short-term, 16-week treatment period followed by a long-term 52-week treatment period). The 2 double-blind, randomized, placebo-controlled trials were considered pivotal to support the efficacy of STP in Dravet Syndrome.
+L27: Key information of Study STICLO France and STICLO Italy on the treatment of Dravet syndrome was presented in Table 2-1.
+L28: **Table 2-1 Summary of the Studies for Statistical Review and Evaluation**
+L29: Clinical Trial	Treatment/Number of patients enrolled	Trial Design/Treatment Duration and Dose per Protocol
+STICLO France (1996)	STP: 22; Placebo: 20.	Multicenter (14 centers in France), 4-week baseline on stable optimized AEDs, followed by randomized, double-blind, 8-week treatment, STP vs placebo, parallel groups, add-on to optimized VPA and CLB treatment
+STP dose: 50 mg/kg/day with no dose titration
+STICLO Italy (1999)	STP: 12; Placebo: 11.	Multicenter (6 centers in Italy), 4-week baseline on stable optimized AEDs, followed by randomized, double-blind, 8-week treatment, STP vs placebo, parallel groups, add-on to optimized VPA and CLB treatment
+STP dose: 50 mg/kg/day with no dose titration
+L30: ## 2.2 Data Sources
+L31: At the time of review the locations of the primary endpoint data for the key studies were as follows.
+L32: STICLO France:
+L33: \\\\cdsesub1\evsprod\nda206709\0003\m5\datasets\sticlofrance\analysis\adam\datasets\adsf.xpt
+L34: STICLO Italy:
+L35: \\\\cdsesub1\evsprod\nda206709\0003\m5\datasets\sticloitaly\analysis\adam\datasets\adsf.xpt
+L36: ## 3 STATISTICAL EVALUATION
+L37: ## 3.1 Statistical Issues
+L38: Study STICLO France and Study STICLO Italy are non-US studies. The sponsor never submitted the study protocols for review before the NDA submission. Per the protocols included in the submission, the sponsor planned an interim analysis in each protocol as follows.
+L39: *An interim analysis will take place after the inclusion of 20 patients in each of the treatment groups, without deblinding (i.e., without breaking the blind per the study report). If evidence is found of a significant difference (at the reduced degree of significance \alpha' = 2.5\%) considered to be of clinical value between the two treatment groups regarding the primary endpoint, the study will be terminated. Should this not be the case, the frequency seen in the placebo group will be used to "precisely" determine the total number of patients to be included in the study per treatment group, and the study will be continued until inclusion of this number of patients required (provided that the number of patients is 100 at the most and/or the maximum inclusion period 18 months).*
+L40: Per the description as above, the maximum sample size should be 100. This reviewer calculated the nominal significance level using the Obrien-Fleming spending function at 40% information for Study France and at 20% information for Study Italy. For Study France, the nominal
+L41: significance level is 0.00305, which is greater than the p-value of &lt;.0001 for the Fisher's exact test. However, for Study Italy, the nominal significance level is &lt;.00001, which is smaller than the p-value of 0.01 for the Fisher's exact test. Therefore, Study Italy may not be considered as a stand-alone pivotal trial.
+L42: ## 3.2 Data Quality
+L43: ## Study STICLO France:
+L44: Date of first enrollment was 25/10/1996; date of end of treatment of last patient enrolled was 17/08/1998. Only one version of statistical analysis plan (SAP) was provided without signatures and dates. It was not clear when the SAP was finalized and whether it was finalized prior to the study database lock. But the SAP seems prepared based on the latest protocol, Protocol Amendment 2, dated May 12, 1997, since the statistical method is related to comparison of frequencies of responders, which is the primary endpoint in the Protocol Amendment 2.
+L45: For study STICLO France, the values of frequency of Tonic-Clonic and Clonic seizures out of 30 days for Subjects [REDACTED](b) (6) for analysis visit "FOLLOW-UP M2" and for Subject [REDACTED](b) (6) for analysis visit "Follow-UP" in the data set adsf.xpt: 10.83, 192, and 16.45 are not consistent with the corresponding ones reported in the Appendix 16.2.6: 0.00, 166.67 and 16.15. This reviewer used the values reported in the Appendix 16.2.6 in the following analyses.
+L46: ## Study STICLO Italy:
+L47: The study duration was from 4/20/1999 to 10/20/2000. Only one version of statistical analysis plan (SAP) was provided without signatures and dates. It was not clear when the SAP was finalized and whether it was finalized prior to the study database lock on 6/13/2002 (Final Study Report (FSR) page 24 out of 231).
+L48: For study STICLO Italy, the values of frequency of Tonic-Clonic and Clonic seizures out of 30 days for Subjects [REDACTED](b) (6) for analysis visit "FOLLOW-UP M2" and for Subject [REDACTED](b) (6) for analysis visit "Follow-UP" in the data set adsf.xpt: 8.5 and 39.7 are not consistent with the corresponding ones reported in the list of individual efficacy data: 11.8 and 38.7. This reviewer used the values reported in the list of individual efficacy data in the following analyses.
+L49: We requested the sponsor to clarify when the two SAPs were finalized on 11/28/2016. The sponsor stated in their response dated 12/14/2016 that the STICLO France was an Investigator-initiated Trial and the SAPs remained at Prof. Pon's department and cannot be found currently. However, they emphasized that the primary efficacy analyses were conducted according to the final protocols which were finalized prior to un-blinding the data.
+L50: In all, the quality of the data that were submitted seems to be adequate in terms of the supporting documentation provided and usability.
+L51: ## 3.3 Evaluation of Efficacy
+L52: ## 3.3.1 Study STICLO France
+L53: ## 3.2.1.1 Study Design and Endpoints
+L54: This was a multicenter, randomized, double-blind, comparative, parallel group study of Stiripentol (STP) vs placebo, as add-on treatment to Clobazam (CLB) and Valproate sodium (VPA) therapy.
+L55: This study was conducted in 15 hospital departments coordinated by Department of Neuropediatrics, Saint-Vincent de Paul Hospital, Paris, France. The study involved 2 phases: 1-month baseline period followed by a 2-month comparison period.
+L56: **Study Objective:** The objective of the double-blind placebo control (DBPC) phase was to demonstrate the efficacy of STP, in combination with CLB and VPA in the treatment of clonic seizures and generalized tonic-clonic seizures in children presenting with SMEI.
+L57: ## **Randomization:**
+L58: Allocation of treatments was performed according to a pre-established randomization list. Each center had received 4 pre-numbered treatments, or a multiple of 4, according to a balanced distribution. In each center, the treatments had to be allocated to patients according to order of enrollment and in the chronological order of the treatment box numbers.
+L59: ## **Blinding:**
+L60: The investigated drug and the placebo were supplied as snap-fit capsules with a strictly identical appearance, and they were indistinguishable from each other. A jury to test resemblance was summoned. The jury judged the similarity of the products to be compared and the results were recorded in a certificate of resemblance. Each investigator had a set of sealed, numbered envelopes at his/her disposal in case of emergency situations requiring breaking the blind. The breaking of the blind procedure was performed following the preliminary analysis after enrollment of 20 patients per the FSR (28 out of 86).
+L61: ## **Treatment and Efficacy Assessment:**
+L62: Seizures were recorded by the parents in a diary on a daily basis. The type of seizures (code) as well as their number were recorded in the CRF by the investigator at visits V2 (Week 4), V4 (Week 12) and the telephone call, V3 (Week 8).
+L63: ## **Efficacy Endpoints:**
+L64: The primary endpoint, as defined by amendment No. 2, was a qualitative criterion (success or failure); the percentage of success was compared in each treatment group. Success was confirmed for so-called "responder" children who did not fall into any of the following "non-responder" children categories:
+L65: a- Patients who were treated and followed during the two-month comparison period and whose number of generalized clonic or tonic-clonic seizures during month 2, on a 30-day basis, had not decreased by at least 50% compared to the number of seizures during the baseline period.
+
+b- Patients who were withdrawn from the study because of the occurrence of status epilepticus.
+
+c- Patients whose number of seizures had increased by more than 50% compared to the baseline period, within a 0-20 day period after entry into the comparison period.
+
+d- Patients who, during the baseline period, had an increase of greater than 50% in number of seizures compared to the previous period and in whom the number of seizures did not return to the previous number prior to the baseline period during month 1 of the study comparison period.
+L66: **The secondary endpoints** included the following:
+L67: - Percentage of children in whom the number of generalized tonic-clonic or clonic seizures during the 2nd month of the comparison period, adjusted to 30 days, had decreased by at least 50% in relation to the number of seizures (adjusted to 30 days) during baseline;
+- Percentage of children withdrawn from the study in each treatment group;
+- Number of seizures during the observation period (first and second month taken separately), related to the number of seizures during the baseline period, in each treatment group;
+- Latent period to obtaining the same number of seizures as that in the baseline month.
+L68: ## **Analysis Populations:**
+L69: The efficacy evaluation was performed on enrolled patients for whom the primary endpoint (i.e., responder or non-responder) was available. The sponsor claimed this as intent-to-treat analysis. Note that one patient from the STP arm was removed from the efficacy analysis due to major protocol violation.
+L70: ## 3.2.1.2 Study Statistical Methodologies
+L71: **Efficacy Analyses:** Comparison of frequencies of responders was made using Chi-square test. In case of insufficient number of anticipated sample size, this test was verified using the Fisher's exact test. For the quantitative variables such as number of seizures and ratio of number of seizures, they were tested using the Mann-Whitney U test. In addition, 95% confidence intervals were calculated for the proportion of responders in each group and for the difference of these proportions using the Normal Approximation (calculations were checked in case of a difference using the Binomial Law). Further, the "survival curves" were compared with the log-rank test.
+L72: **Missing Data:** The protocol specified that patients who were withdrawn from the study because of the occurrence of status epilepticus as "non-responder" children. No replacement technique was used for missing data. The analyses were performed on available data (See page 44 of the study report).
+L73: **Study Sites:** The 41 evaluable patients were recruited from 14 centers (i.e., 2.9 patients per center on average). One center enrolled 15 patients (37%). An analysis per center was not justified due to the small sample sizes.
+L74: **Subgroups Analyses:** The two treatment groups were compared with respect to the following parameters: sex, age, height, and weight recorded at baseline. Subgroup analyses with respect to the primary endpoint were not performed.
+L75: ## Interim Analysis
+L76: The sponsor planned an interim analysis in the protocol as follows.
+L77: *An interim analysis will take place after the inclusion of 20 patients in each of the treatment groups, without deblinding (i.e., without breaking the blind per the study report).*
+L78: *If evidence is found of a significant difference (at the reduced degree of significance a' = 2.5\%) considered to be of clinical value between the two treatment groups regarding the primary endpoint, the study will be terminated. Should this not be the case, the frequency seen in the placebo group will be used to "precisely" determine the total number of patients to be included in the study per treatment group, and the study will be continued until inclusion of this number of patients required (provided that the number of patients is 100 at the most and/or the maximum inclusion period 18 months).*
+L79: Per the description as above, the maximum sample size should be 100.
+L80: The clinical relevant difference was not defined in the protocol initially. The FSR states that a criterion of 25% was set by the principal investigator before conducting the preliminary analysis.
+L81: As reported in the FSR (page 44 of 86), the interim analysis, performed as planned after enrollment of 42 patients without breaking the blind, showed that it was not necessary to enroll any additional patients. Thus, the preliminary analysis can be considered as the final analysis.
+L82: Assume that there was an interim look after 40% patients have been enrolled and evaluated. During an interim analysis, a two-sided test at the significance level of 0.05 was used with normal approximation. Using the Obrien-Fleming spending function, the nominal significance level is 0.00305, which is greater than the p-value of &lt;.0001 for the Fisher's exact test.
+L83: **Sensitivity Analyses:** There are no planned sensitivity analyses.
+L84: ## Changes in the Conduct of the Study or Planned Analyses:
+L85: The protocol was amended in May 1997, seven months after the start of the study even though 20 patients had been enrolled. Two changes were proposed:
+L86: - The upper dosage limits for Valproate sodium before the study (20 mg/kg/24 hrs) and on entry in the baseline period (15 mg/kg/24 hrs) were removed to reduce the risk of adverse events.
+- The primary endpoint criterion became qualitative (responder/non-responder) as well. In the first version of the study protocol, the primary endpoint criterion was quantitative and was retained as a secondary endpoint criterion in the final version.
+L87: Patient (b)(6) from (b)(6) in Stiripentol group has a major protocol violation. This case was excluded from the efficacy analysis after discussion before the interim analysis. Other patients with protocol violations were all considered minor and included in the analysis.
+L88: The amendment was approved by the Ethics Committee/Institutional Review Board on 6/30/1997.
+L89: **Multiplicity:** There are no pre-specified multiple testing procedures.
+L90: ## 3.2.1.3 Patient Disposition, Demographic and Baseline Characteristics
+L91: ## 3.2.1.3.1 Patient Disposition
+L92: A total of 47 subjects were screened, of whom 42 were enrolled into the study and were randomized into the STP (N=22) and placebo (N=20) groups in a 1:1 ratio. Of these subjects, 41 (97.6%) subjects were considered evaluable: 20 (100%) in placebo, 21 (95.5%) in STP.
+L93: One patient (b) (6) in the STP group was considered not evaluable because the treatment was taken irregularly and because the seizures were not recorded in the patient's diary. Thus, the endpoint criterion was missing. Five patients discontinued the study early: 1 in the STP group due to epilepticus and 4 in the placebo group due to epilepticus (1), no improvement (2), and drowsiness and motor deficiency (1).
+L94: The numbers of subjects for each analysis set were summarized in Table 3-1.
+L95: **Table 3-1 Summary of Analysis Population**
+L96: Analyzed populations	Placebo n (%)	STP n (%)
+Randomized	20 (100%)	22 (100%)
+Efficacy Analysis (EA)	20 (100%)	21 (100%)
+L97: [Source: reviewer]
+L98: ## 3.2.1.3.2 Demographic and Baseline Characteristics
+L99: The reviewer can regenerate the summary results on demographic and baseline characteristics for the efficacy analysis population as shown in Table 3-2 (FSR, page 34 out of 86). Note that there are no data on race for evaluation per the adsl.xpt file
+L100: (\cdsesub1\evsprod\NDA206709\0006\m5\datasets\sticlofrance\analysis\adam\datasets).
+L101: This reviewer can confirm the summary analysis of number of tonic-clonic seizures during the baseline period as in Table 3-3.
+L102: **Table 3-2 Demographics Characteristics (EA Population; France)**
+L103: Variables	Categories	STP (N=21)	Placebo (N=20)
+Sex	Male	6 (28.6%)	11 (55.0%)
+Female	15 (71.4%)	9 (45.0%)
+Missing values	0	0
+Age (years)	Mean\pmSD	9.4 (\pm4.0)	9.3 (\pm4.9)
+Min-Max	3.0-16.7	3.2-20.7
+Missing values	0	0
+Height (cm)	Mean\pmSD	132.6\pm21.2	126.7\pm19.2
+Min-Max	95.0-171.0	99.0-165.0
+Missing values	2	2
+Weight (kg)	Mean\pmSD	31.8\pm12.7	30.5\pm14.4
+Min-Max	14.0-60.0	15.0-70.0
+Missing values	1	0
+L104: [Source: Reviewer]
+L105: **Table 3-3 Baseline Characteristics (EA Population; France)**
+L106: Characteristics	Statistics	STP (N=21)	Placebo (N=20)	Significance level
+number of tonic-clonic seizures during the baseline period	Mean\pmSD	17.9\pm17.3	18.5\pm17.0	Not significant
+Min-max	3.9-72.9	4.1-76.3
+L107: [Source: Reviewer]
+L108: ## 3.2.1.4 Results and Conclusions
+L109: ## 3.2.1.4.1 Sponsor's Analyses
+L110: ## Primary Efficacy Endpoint: Treatment Success or Failure by Week 12
+L111: The treatment success or failure was compared among the two treatment groups: placebo and STP using Chi-square test as shown in Table 12 in the FSR. In the efficacy analysis population, the responder (i.e., treatment success) rates were 5.0% in the placebo group and 71.4% in the STP group (p &lt; 0.00002 versus placebo).
+L112: **Table 3-4 Efficacy Results: Treatment Success/Failure (Efficacy Analysis Population)**
+L113: responders	frequency	95% CI of responder percentage
+Stirpentol, N=21	15	71.4 %	52.1 – 90.7
+Placebo, N=20	1	5.0 %	0 – 14.6
+L114: [Source: Sponsor]
+L115: ## Secondary Endpoints:
+L116: ## a. Decrease in seizures by at least 50%
+L117: The percentage of children whose number of generalized clonic or tonic-clonic seizures during month 2 of the comparison period, on a 30-day basis, decreased by at least 50%, compared to the number of seizures, on a 30-day basis, during the baseline period was 71.4% in the Stiripentol group and 5.0% in the placebo group.
+L118: Changes in the number of seizures, decrease or increase, between baseline and the end of month 2 (Week 12) were summarized in five categories: decrease =100%, 50% &lt; decrease &lt; 100%, decrease &lt; 50%, increase &lt; 50%, and increase &gt;50%.
+L119: **Table 3-5 Changes in the number of seizures, decrease or increase, between baseline and the end of month 2 (Week 12)**
+L120: stiripentol
+N = 20	placebo
+N = 16	significance level
+chi 2
+decrease = 100 %	9 (45%)	0	p < 0.01
+decrease >50% < 100%	6 (30%)	1 (6%)
+decrease <50%	3 (15%)	5 (31%)
+increase <50%	2 (10%)	8 (50%)
+increase >50%	0	2 (13%)
+L121: [Source: Sponsor]
+L122: ## b. Withdrawals from study
+L123: One subject (5%) was withdrawn from the study and four subjects (20%) were withdrawn from the placebo group. There is no difference in the percentage of children withdrawn between the STP and the placebo groups (p=0.184, using Fisher's exact test).
+L124: ## c. Comparison of number of tonic-clonic seizures during months 1 and 2 and relative change compared to other baseline period
+L125: There is a significant difference between the two treatment groups for the number of seizures during the comparison period, 1 and 2 months, as well as for its relative change compared to the baseline period as in Table 3-6.
+L126: ## d. Time elapsed until the same number of seizures as that of the 1-month baseline period were experienced
+L127: The sponsor used a log-rank test to compare the two treatment groups according to the time where the number of seizures increased above the number of seizures during the baseline period. However, an additional analysis did show that frequency of increase was significantly higher in the placebo group than in the STP group.
+L128: Table 3-6 Number of tonic-clonic seizures during months 1 and 2 change compared to the baseline period
+L129: stiripentol	placebo	significance level
+Mann-Whitney
+Number of tonic-clonic seizures during baseline period
+min-max
+n	17.9 \pm 17.3
+3.9 - 72.9
+21	18.5 \pm 17.0
+4.1 - 76.2
+20	NS
+Number of tonic-clonic seizures during month 1 of the comparison period
+min-max
+n	2.72 \pm 4.06
+0.00 - 13.30
+21	23.82 \pm 36.55
+3.87 - 166.67
+20	p < 0.001
+Rate of change between month 1 and baseline	decrease of
+83.2 % \pm 28.0	increase of
+11.3 % \pm 54.7	p < 0.001
+Number of tonic-clonic seizures during month 2 of comparison period
+min-max
+n	5.15 \pm 7.73*
+0.00 - 26.8
+20	13.80 \pm 7.33\mu
+2.61 - 23.00
+16	p < 0.002
+Rate of change between month 2 and baseline	decrease of
+68.6 % \pm 41.9	increase of
+7.37 % \pm 37.64	p < 0.002
+L130: *The average number of seizures and the relative change in this number during month 2 of the comparison period compared to baseline was calculated only in patients who completed the study. Patients who were withdrawn from the study (b)(6) for the placebo group and (b)(6) for the stiripentol group) were not taken into account.
+L131: [Source: Sponsor]
+L132: ## Authorized Concomitant Treatments
+L133: Beginning with the start of the baseline period, patients had to be treated with Clobazam (0.5 mg/kg/day, max: 20 mg/day), and Valproate sodium. All other antiepileptic drugs were not authorized throughout the duration of the study. Per Tables 8 and 9 in the FSR, antiepileptic treatments including Valproate sodium and Colbazam are balanced across treatment groups. However, this reviewer cannot repeat their analyses with the information included in the cm.xpt dataset. In response to our Information Request dated 7/13/2017, the sponsor submitted a data file named sticlocm.xpt. With the updated data file sticlocm.xpt, this reviewer can regenerate the results as in Table 8 and 9 for drugs Valproate, Clobazam and Progabide (Gabrene). However, there is no data on Diazepam. In addition, the dose unit is mg/kg in the data set but it is reported as mg/kg/day in the Table 8 and 9.
+L134: ## (b)(4) Formulation
+L135: In response to our request on (b)(4) formulation question, the sponsor provided a statement "Also, in the STICLO trials, the capsules were not to be opened, but if the opening of capsules was necessary for any reason, notably if a child was unable to swallow capsules, it was recommended to mix its contents with a little sweet food." The review team noticed that there
+L136: could be less precision in delivered dose among children where study drug delivery requires an opening of the capsule to place sprinkles on food. However, any loss of study drug due to a sprinkle on food method (open capsule) would tend to reduce benefit in the STP treatment arm and bias toward reduced efficacy. Therefore, this does not raise the concern of overestimating treatment effect. As such, no Information Request is needed.
+L137: ## 3.2.1.4.2 Reviewer's Analyses
+L138: ## Primary Endpoint: Treatment Success or Failure.
+L139: This reviewer can repeat the sponsor's primary efficacy analysis.
+L140: In addition, per the medical reviewer's request, this reviewer compared the log-transformed tonic-clonic seizures adjusted by 30 days at Week 12 between the placebo and the STP groups using analysis covariance model with log-transformed baseline as a covariate and treatment as a factor based on the efficacy analysis population. Missing data were imputed using the last available post-baseline observation carry forward approach. The results are summarized as in the following Table 3-7.
+L141: **Table 3-7 Comparison of the log-transformed tonic-clonic seizures adjusted by 30 days at Week 12 between the placebo and the STP groups based on the efficacy analysis population**
+L142: Statistics	Placebo (N=20)	STP (N=21)
+LS means (log-transformed) (SE)	2.7 (0.2)	1.3 (0.2)
+95% CI	2.3, 3.1	0.9, 1.7
+LS means (back transformed)	13.9	2.6
+95% CI	9.1, 21.2	1.5, 4.4
+% Reduction over placebo	81.3%
+p-value	<.0001
+L143: [Source: Reviewer]
+L144: ## Secondary Endpoints:
+L145: - Decrease in seizures by at least 50%: This reviewer repeated the sponsor's analysis. This reviewer's results are listed in Table 3-7. The categories for changes in the number of tonic-clonic seizures between baseline and the end of month 2 are not thorough (e.g., decrease=50% and increase =50% are not included in any of the categories as listed in Table 3-8 on page 42 of the FSR).
+- Withdrawals from study: This reviewer can repeat the sponsor's results.
+- Comparison of number of tonic-clonic seizures during months 1 and 2 and relative change compared to the baseline period: This reviewer can repeat the sponsor's results as summarized in Table 3-9.
+- Time elapsed until the same number of seizures as that of the 1-month baseline period: This reviewer cannot repeat the sponsor's results because there is no corresponding data available. In response to our request dated 11/28/2016, the sponsor stated that the corresponding data collected by the parents of the enrolled children on a daily basis. However, the investigator who collected the dairies only entered the total number of each type of seizure between 2 visits in the CRF. The sponsor further clarified that the number
+L146: of seizures was not considered day by day as reported in Figure 3 on page 44. Therefore, this type of analysis is not appropriate.
+L147: **Table 3-8 Changes in the number of seizures, decrease or increase, between baseline and the end of month 2 (Week 12)**
+L148: STP (N=20)	Placebo (N=16)	Significance level Chi-square
+decrease=100%	9(45.0%)	0(0%)	0.001*
+50%<=decrease<100%	6(30.0%)	1(6.25%)	Significance level Fisher Exact
+0<=decrease<50%	3(15.0%)	5(31.25%)	0.0003
+0<increase<50%	2(10%)	8(50.0%)	
+increase>=50%	0(0%)	2(12.5%)
+L149: *with warning due to 70% of the cells have expected counts less than 5.
+L150: [Source: Reviewer]
+L151: **Table 3-9 Summary of tonic-clonic seizures during the first and the second month compared to baseline**
+L152: Characteristics: number of tonic-clonic seizures (adjusted for 30 days)	Statistics	STP	Placebo	Significance level
+Baseline period	Mean\pmSD	17.9\pm17.3	18.5\pm17.0	Not significant
+Min-max	3.9-72.9	4.1-76.3
+n	21	20
+Month 1	Mean\pmSD	2.7\pm4.1	23.8\pm36.6	0.0002 (Wilcoxon rank sum exact)
+Min-max	0-13.3	3.87-166.7
+n	21	20
+Percent change	-83.2\pm28.0	11.3\pm54.7	<.0001 (Wilcoxon rank sum exact)
+Month 2*	Mean\pmSD	5.15\pm7.7	13.8\pm7.3	<.0001 (Wilcoxon rank sum exact)
+Min-max	0-26.8	2.6-23.0
+n	20	16
+Percent change	-68.6\pm41.9	7.4\pm37.6	<.0001 (Wilcoxon rank sum exact)
+L153: *Patients who were withdrawn from the study (b)(6) from the placebo group and (b)(6) from the STP were not included.
+L154: [Source: Reviewer]
+L155: ## 3.2.1.4.3 Sensitivity Analyses
+L156: The sponsor did not perform any sensitivity analyses.
+L157: ## Reviewer's Analyses
+L158: This reviewer repeated the primary efficacy analysis using Fisher's Exact test based on the EA population. The proportion of responders at the STP group is significantly higher than the placebo group (p&lt;.0001).
+L159: The primary efficacy analysis was performed on the modified EA population with subject (b)(6) included as a non-responder using Chi-square and Fisher's Exact test. The proportion of responders at the STP group is significantly higher than the placebo group using either test (p&lt;.0001).
+L160: ## 3.2.1.4.4 Utility Analyses
+L161: This reviewer did additional utility analyses as in Figures 1 to 2. The cumulative functions for the two treatment groups show good separation across the range of the primary response variable using either observed data only or imputed data.
+L162: Figure 1. Cumulative Distribution Functions of Two Treatment Groups (Observed)
+L163: Figure 2. Cumulative Distribution Functions of Two Treatment Groups (Imputed)
+L164: ## 3.3.2 Study STICLO Italy
+L165: ## 3.2.2.1 Study Design and Endpoints
+L166: This was a multicenter, randomized, double-blind, comparative, parallel group study of Stiripentol (STP) vs placebo, as add-on treatment to Clobazam (CLB) and Valproate sodium (VPA) therapy.
+L167: This study was conducted in 6 centers. The study involved 2 phases: 1-month baseline period followed by a 2-month comparison period.
+L168: ## **Study Objective:**
+L169: The objective of the double-blind placebo control (DBPC) phase was to demonstrate the efficacy of STP, in combination with CLB and VPA in the treatment of clonic seizures and generalized tonic-clonic seizures in children presenting with SMEI.
+L170: ## **Randomization:**
+L171: Allocation of treatments was performed according to a pre-established randomization list. Each center had received 4 pre-numbered treatments, or a multiple of 4, according to a balanced distribution. In each center, the treatments had to be allocated to patients according to order of enrollment and in the chronological order of the treatment box numbers.
+L172: ## **Blinding:**
+L173: The investigated drug and the placebo were strictly identical, and they were indistinguishable from each other. A jury to test resemblance was summoned. The jury judged the similarity of the products to be compared and the results were recorded in a certificate of resemblance. Each investigator had a set of sealed, numbered envelopes at his/her disposal in case of emergency situations requiring breaking the blind.
+L174: ## **Treatment and Efficacy Assessment:**
+L175: Seizures were recorded by the parents in a diary on a daily basis. The type of seizures (code) as well as their number were recorded in the CRF by the investigator at visits V2 (Week 4), V4 (Week 12) and the telephone call, V3 (Week 8).
+L176: ## **Primary Efficacy Endpoint:**
+L177: The primary efficacy endpoint, as defined in the protocol, was a qualitative criterion (success or failure); the percentage of success was compared in each treatment group. Success was confirmed for so-called "responder" children who did not fall into any of the following "non-responder" children categories:
+L178: - Patients who were treated and followed during the two-month comparison period and whose number of generalized clonic or tonic-clonic seizures during month 2, on a 30-day basis, had not decreased by at least 50% compared to the number of seizures during the baseline period.
+- Patients who were withdrawn from the study because of the occurrence of status epilepticus.
+- Patients whose number of seizures had increased by more than 50% compared to the baseline period, within a 0-20 day period after entry into the comparison period.
+- Patients who, during the baseline period, had an increase of greater than 50% in number of seizures compared to the previous period and in whom the number of seizures did not return to
+L179: the previous number prior to the baseline period during month 1 of the study comparison period.
+L180: **The secondary endpoints** included the following:
+L181: - Percentage of children in whom the number of generalized tonic-clonic or clonic seizures during the 2nd month of the comparison period, adjusted to 30 days, had decreased by at least 50% in relation to the number of seizures (adjusted to 30 days) during baseline;
+- Percentage of children withdrawn from the study in each treatment group;
+- Number of seizures during the observation period (first and second month taken separately), related to the number of seizures during the baseline period, in each treatment group;
+- Latent period to obtaining the same number of seizures as that in the baseline month.
+L182: Analysis Populations
+L183: The Intent-to-Treat (ITT) population includes all the subjects and the Per-Protocol (PP) population includes subjects who are in the ITT population with non-missing primary endpoint data. Note that there are no definitions of analysis populations in the protocol. The definitions above were provided in the sponsor's response to the FDA's comments dated 12/15/2015.
+L184: ## Interim Analysis
+L185: The study report states that this study being a supplement to the STICLO study in France was planned to include 20 patients. However, the sponsor planned an interim analysis in the protocol as follows.
+L186: *An interim analysis will take place after the inclusion of 20 patients in each of the treatment groups, without deblinding (i.e., without breaking the blind per the study report).*
+L187: *If evidence is found of a significant difference (at the reduced degree of significance a' = 2.5\%) considered to be of clinical value between the two treatment groups regarding the primary endpoint, the study will be terminated. Should this not be the case, the frequency seen in the placebo group will be used to "precisely" determine the total number of patients to be included in the study per treatment group, and the study will be continued until inclusion of this number of patients required (provided that the number of patients is 100 at the most and/or the maximum inclusion period 18 months).*
+L188: Per the description as above, the maximum sample size should be 100. Even though the sponsor did not document any interim analysis, following the protocol, there should be an interim look after 20% patients have been enrolled and evaluated. During the assumed interim analysis, a two-sided test at the significance level of 0.05 was used with normal approximation. Using the Obrien-Fleming spending function, the nominal significance level is &lt;.00001, which is smaller than the p-value of 0.01 for the Fisher's exact test. Therefore, the trial should not stop at this small sample size. The significant result may be purely due to chance. Therefore, the results of Study STICLO Italy should be supportive.
+L189: ## 3.2.2.2 Study Statistical Methodologies
+L190: **Efficacy Analyses:** Comparison of frequencies of responders was made using Chi-square test. In case of insufficient number of anticipated sample size, this test was verified using the Fisher's exact test. For the quantitative variables such as age, number of seizures and ratio of number of seizures, they were tested using the Mann-Whitney U test. In addition, 95% confidence intervals were calculated for the proportion of responders in each group and for the difference of these proportions using the Normal Approximation (calculations were checked in case of a difference using the Binomial Law). Further, the "survival curves" were compared with the log-rank test.
+L191: **Missing Data:** The protocol specified that patients who were withdrawn from the study because of the occurrence of status epilepticus as “non-responder” children. No replacement technique was specified for handling missing data. (See page 44 of the study report).
+L192: **Study Sites:** The 23 evaluable patients were recruited from 6 centers (i.e., 3.8 patients per center on average). One center enrolled 5 patients (21.7%). An analysis per center was not justified due to the small sample sizes.
+L193: **Subgroup Analyses:** The two treatment groups were compared with respect to the following parameters: sex, age, size (height), weight and seizures characteristics recorded at baseline.
+L194: **Sensitivity Analyses:** The primary efficacy analysis was repeated with respect to the per protocol (PP) population.
+L195: **Changes in the Conduct of the Study or Planned Analyses:** There were 3 minor protocol deviations. The baseline period of patient [REDACTED](b) (6) lasted one additional month for adaptation of the doses in view of the inclusion in the study. This patient had an additional sample before inclusion, for adaptation of the doses.
+L196: Patients [REDACTED](b) (6) had an additional sample 8 days before being prematurely dropped out of the study.
+L197: **Multiplicity:** There are no pre-specified multiple testing procedures.
+L198: ## 3.2.2.3 Patient Disposition, Demographic and Baseline Characteristics
+L199: ## 3.2.2.3.1 Patient Disposition
+L200: A total of 24 subjects were screened, of whom 23 were enrolled into the study and were randomized into the STP (N=12) and placebo (N=11) groups in a 1:1 ratio. Of these subjects, 23 (100%) subjects were considered evaluable. Three patients discontinued the study early: 1 in the STP group due to adverse events and 2 in the placebo group due to worsening (1) and lack of improvement (1).
+L201: The numbers of subjects for each analysis set were summarized in Table 3-9.
+L202: Table 3-10 Summary of Analysis Population
+L203: Analyzed populations	Placebo n (%)	STP n (%)
+Randomized (ITT)	11 (100%)	12 (100%)
+Per Protocol (PP)	9 (81.8%)	11 (91.7%)
+L204: [Source: reviewer]
+L205: ## 3.2.2.3.2 Demographic and Baseline Characteristics
+L206: The reviewer can regenerate the summary results (Table 3-10) on demographic and baseline characteristics for the ITT population as shown in Table 3 in FSR (page 27 out of 231). Note that there are no data on race for evaluation.
+L207: This reviewer can confirm the summary analysis of number of tonic-clonic seizures during the baseline period as in Table 3-10.
+L208: Table 3-11 Demographics Characteristics (ITT Population; Italy)
+L209: Variables	Categories	STP	Placebo
+Sex	Male	8 (66.7%)	5 (45.5%)
+Female	4 (33.3%)	6 (54.5%)
+Missing values	0	0
+Age (years)	Mean\pmSD	9.2\pm3.6	8.7\pm4.4
+Min-Max	3.7-15.5	3.5-18.9
+Missing values	0	0
+Height (cm)	Mean\pmSD	132.8\pm20.4	125.6\pm20.1
+Min-Max	112.0-179.0	106.0-165.0
+Missing values	2	2
+Weight (kg)	Mean\pmSD	31.9\pm11.7	29.2\pm9.0
+Min-Max	16.0-55.0	18.0-49.0
+Missing values	0	0
+L210: [Source: Reviewer]
+L211: Table 3-12 Baseline Characteristics (ITT Population; Italy)
+L212: Characteristics	Statistics	STP (N=12)	Placebo (N=11)	Significance level
+number of tonic-clonic seizures during the baseline period (adjusted 30 days)	Mean\pmSD	33.6\pm28.2	27.5\pm28.7	Not significant
+Min-max	2.1-86.1	3.8-101.1
+L213: [Source: Reviewer]
+L214: ## 3.2.2.4 Results and Conclusions
+L215: ## 3.2.2.4.1 Sponsor's Analyses
+L216: ## Primary Efficacy Endpoint: Treatment Success or Failure by Week 12
+L217: The treatment success or failure was compared among the two treatment groups: placebo and STP using Fisher's Exact test as shown in Table 8 in the FSR. In the efficacy analysis population, the responder (i.e., treatment success) rates were 9.1% in the placebo group and 66.7% in the STP group (p = 0.009 versus placebo).
+L218: Table 3-13 Efficacy Results: Treatment Success/Failure (ITT Population)
+L219: Responders	Frequency	95% CI for responders percentage
+Stiripentol	8/12	66.7%	34.9%-90.2%
+Placebo	1/11	9.1%	0.0%-41.3%
+L220: [Source: Sponsor]
+L221: ## Secondary Endpoints:
+L222: ## Decrease in seizures by at least 50%
+L223: The percentage of children whose number of generalized clonic or tonic-clonic seizures during month 2 of the comparison period, on a 30-day basis, decreased by at least 50%, compared to the number of seizures, on a 30-day basis, during the baseline period was 72.7% (8/11) in the stiripentol group and 11.1% (1/9) in the placebo group.
+L224: Changes in the number of seizures, decrease or increase, between baseline and the end of month 2 (Week 12) were summarized in five categories: decrease =100%, 50% &lt; decrease &lt; 100%, decrease &lt; 50%, increase &lt; 50%, and increase &gt;50%.
+L225: Table 3-14 Changes in the number of seizures, decrease or increase, between baseline and the end of month 2 (Week 12)
+L226: Stiripentol
+n = 11	Placebo
+n = 9	Significance
+(Chi2)
+Decrease = 100%	3 (27%)	0	p \le 0.05
+Decrease > 50% < 100%	5 (45%)	1 (11%)
+Decrease < 50%	3 (27%)	7 (78%)
+Increase < 50%	0	0
+Increase > 50%	0	1 (11%)
+L227: [Source: Sponsor]
+L228: ## Withdrawals from study
+L229: One subject (9%) was withdrawn from the STP and 2 subjects (18%) were withdrawn from the placebo group. No statistical tests were reported.
+L230: ## Comparison of number of tonic-clonic seizures during months 1 and 2 and relative change compared to other baseline period
+L231: There was a significant difference between treatment groups in the number of seizures during the first month of the comparison period, as well as in the relative variations compared to baseline (as shown in table 3-14). The absence of significant difference between treatment groups in the number of seizures during the second month of comparison might be explained by the high variability and the small number of patients, which leads to a low statistical power.
+L232: Table 3-15 Number of tonic-clonic seizures during the first and the second month compared to baseline
+L233: Stiripentol	Placebo	Significance
+Number of tc seizures during baseline
+min-max
+n	33.6 ± 28.2
+2.14 – 86.1
+12	27.4 ± 28.6
+3.75 – 101
+11	p = 0.818
+Number of tc seizures during the 1st month of the comparison period
+min-max
+n	4.7 ± 7.3
+0.00 – 24.2
+12	29.0 ± 35.6
+0.94 – 126
+11	p = 0.0003
+Variation rate between baseline and the 1st month	-89.5 ± 15.7 %	+5.5 ± 55.4 %	p < 0.05
+Number of tc seizures during the 2nd month of the comparison period
+min-max
+n	9.8 ± 10.0
+0.00 – 38.7
+11	16.7 ± 11.3
+0.49 – 31.8
+9	NS
+Variation rate between baseline and the 2nd month	-74.3 ± 26.3 %	-12.7 ± 61.9 %	NS
+L234: [Source: Sponsor]
+L235: ## Latent time to obtain the same number of seizures as that during the baseline
+L236: The latent time to obtaining the same number of seizures as that during the baseline month should have been analyzed as an actuarial curve, using the Kaplan-Meier technique. This was impossible given the small number of patients included in this study.
+L237: ## 3.2.2.4.2 Reviewer's Analyses
+L238: ## Primary Endpoint: Treatment Success or Failure (ITT population).
+L239: This reviewer can repeat the sponsor's primary efficacy analysis except for the upper bound of 95% CI for the STP group. The reviewer got 90.1% rather than 90.2%.
+L240: In addition, per the medical reviewer's request, this reviewer compared the log-transformed tonic-clonic seizures adjusted by 30 days at Week 12 between the placebo and the STP groups using analysis covariance model with log-transformed baseline as a covariate and treatment as a factor based on the efficacy analysis population. Missing data were imputed using the last available post-baseline observation carry forward approach. The results are summarized as in the following Table 3-16.
+L241: Table 3-16 Comparison of the log-transformed tonic-clonic seizures adjusted by 30 days at Week 12 between the placebo and the STP groups based on the efficacy analysis population
+L242: Statistics	Placebo (N=11)	STP (N=12)
+LS means (log-transformed) (SE)	2.8 (0.2)	1.5 (0.2)
+95% CI	2.4, 3.3	1.1, 2.0
+LS means (back transformed)	16.4	4.5
+95% CI	11.0, 27.1	3.0, 7.4
+% Reduction over placebo	81.3%
+p-value	0.0003
+L243: [Source: Reviewer]
+L244: ## Secondary Endpoints:
+L245: Decrease in seizures by at least 50%: This reviewer can repeat the sponsor's results as in Table 3-15. The categories for changes in the number of tonic-clonic seizures between baseline and the end of month 2 are not thorough (e.g., decrease=50% and increase =50% are not included in any of the categories as listed in Table 10 on page 30 of the FSR).
+L246: Table 3-17 Changes in the number of seizures, decrease or increase, between baseline and the end of month 2 (Week 12)
+L247: STP (N=11)	Placebo (N=9)	Significance level chi2
+decrease=100%	3 (27.3%)	0(0.0%)	0.04 (Chi-square)*
+50%<=decrease<100%	5(45.5%)	1(11.1%)	0.0043 (Fisher's Exact)
+0<decrease<50%	3(27.3%)	7(77.8%)	
+0<=increase<50%	0(0.0%)	0(0.0%)	
+increase>=50%	0(0.0%)	1(11.1%)
+L248: *100% of the cells have expected counts less than 5. Chi-square may not be a valid test.
+L249: [Source: Reviewer]
+L250: Table 3-18 Summary of tonic-clonic seizures during the first and the second month compared to baseline
+L251: Characteristics: number of tonic-clonic seizures (adjusted for 30 days)	Statistics	STP	Placebo	Significance level
+baseline period	Mean\pmSD	33.6\pm28.2	27.5\pm28.7	
+Min-max	2.1-86.1	3.8-101.1	
+Month 1	Mean\pmSD	4.7\pm7.3	29.1\pm35.6	p=0.0009 (Wilcoxon rank sum exact test)
+Min-max	0-24.2	0.94-126.3
+n	12	11	
+Percent change	-89.5\pm15.7	5.3\pm55.4	p<0.0001 (Wilcoxon rank sum exact test)
+Month 2	Mean\pmSD	9.8\pm12.0	16.7\pm10.6	Not significant
+Min-max	0-38.7	0.49-31.8
+n	11	9	
+Percent change	-74.3\pm26.4	-12.9\pm62.0	P=0.0004(Wilcoxon rank sum exact test)
+L252: [Source: Reviewer]
+L253: Withdrawals from study: One subject (9%) was withdrawn from the STP and 2 subjects (18%) were withdrawn from the placebo group. There is no difference in the percentage of children withdrawn between the STP and the placebo groups (p=0.5901, using Fisher's exact test).
+L254: Comparison of number of tonic-clonic seizures during months 1 and 2 and relative change compared to the baseline period: This reviewer cannot repeat the sponsor's results except for baseline. The results are summarized in Table 3-16.
+L255: This reviewer did not do any analysis due to the small sample size.
+L256: ## Concomitant Treatments
+L257: Per Tables 5 and 6 in the FSR, antiepileptic treatments including Valproate sodium and Colbazam are balanced across treatment groups. However, this reviewer could not repeat their analyses with the information included in the cm.xpt dataset. In response to our Information Request dated 7/13/2017, the sponsor submitted a data file named sticlocm.xpt. With the updated data file sticlocm.xpt, this reviewer can regenerate most of the results as in Tables 5 and 6 for
+L258: drugs Valproate and Clobazam except for the cell (Clobazam by Stiripentol) in Table 5. For the Clobazam-by-Stiripentol cell, this reviewer got 0.54\pm 0.149 (0.341-0.800). In addition, the dose unit is mg/kg in the data set but it is reported as mg/kg/day in the Tables 5 and 6.
+L259: ## 3.2.2.4.3 Sensitivity Analyses
+L260: ## Sponsor's analyses:
+L261: ## Primary Endpoint: Treatment Success or Failure (PP population).
+L262: Table 3-17 shows that the percentage of responder is significantly higher than in the placebo group (p=0.01; Fisher's exact test).
+L263: Table 3-19 Efficacy Results: Treatment Success/Failure (PP Population)
+L264: Responders	Frequency	95% CI for responders percentage
+Stiripentol	8/11	72.7%	39%-94%
+Placebo	1/9	11.1%	0.281%-48.2 %
+L265: [Source: Sponsor]
+L266: ## Reviewer's analyses:
+L267: ## Primary Endpoint: Treatment Success or Failure (PP population).
+L268: This reviewer can repeat the sponsor's results except for the upper bound of the 95% CI for the placebo group. This reviewer got 48.3% rather than 48.2% probably due to rounding errors. Following the concept of tipping point analysis, this reviewer treated either one of the two drop-off cases (patients [REDACTED](b) (6)) or all the two cases in the placebo arm as treatment success and repeated the primary analysis. Note that in the original analysis, these two cases were treated as treatment failure.
+L269: When one of the two cases was treated as treatment success in the placebo arm, the Fisher's exact test yields a p-value of 0.0361. However, if both the two cases were treated as treatment success, the p-value becomes 0.0995.
+L270: ## 3.2.2.4.4 Utility Analyses
+L271: This reviewer did additional utility analyses as in Figures 3 to 4. The cumulative functions for the two treatment groups show good separation across the range of the primary response variable using either observed data only or imputed data.
+L272: Figure 3. Cumulative Distribution Functions for Two Treatment Groups (Observed)
+L273: Figure 4. Cumulative Distribution Functions for Two Treatment Groups (Imputed)
+L274: ## 3.4 Evaluation of Safety
+L275: Please see the medical officer's review for the evaluation of safety.
+L276: ## 4 FINDINGS IN SPECIAL/SUBGROUP POPULATIONS (post baseline)
+L277: Due to small sample sizes of the studies, no subgroup analyses were specified for post baseline data. In addition, race was not reported as a demographic variable.
+L278: ## 5 SUMMARY AND CONCLUSIONS
+L279: ## 5.1 Collective Evidence
+L280: Statistically significant results were verified for the primary outcome measure (proportion of responders).
+L281: ## 5.2 Conclusions and Recommendations
+L282: This application for a labeling claim on Stiripentol for (b) (4) treatment of (b) (4) seizures associated with Dravet syndrome rests mainly on the multicenter, randomized, double-blind, placebo-controlled trial: STICLO France and STICLO Italy provides supportive evidence. The results show that Stiripentol is superior to placebo with respect to the primary endpoint for the efficacy analysis population.
+L283: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L284: /s/
+L285: JUNSHAN QIU
+L286: 11/13/2017
+L287: KUN JIN
+L288: 11/13/2017
+L289: I concur with the review.
+L290: HSIEN MING J HUNG
+L291: 11/14/2017
+L292: FDA Seal for Drug Evaluation and Research
+L293: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Science
+Office of Biostatistics
+L294: ## Statistical Review and EvaluationCARCINOGENICITY STUDIES
+L295: IND/NDA Number:	NDA-206709
+Drug Name:	Stiripentol
+Indication:	Management of seizures in patients with Dravet's Syndrome
+Studies:	104 Week Carcinogenicity Studies in Rats and 78 Weeks in Mice
+Applicant:	Sponsor:
+Laboratoires Biocodex
+19 rue Barbes
+92126 Montrouge - France
+Testing Facility:	
+Documents Reviewed:	Electronic submission: Submitted on 22 April, 2016
+Electronic data: Submitted on 22 April, 2016
+Review Priority:	Standard
+Biometrics Division:	Division of Biometrics - VI
+Statistical Reviewer:	Hepei Chen
+Concurring Reviewer:	Karl Lin, Ph.D.
+Medical Division:	Division of Neurology and Psychiatry
+Reviewing Pharmacologist:	Edward Fisher, Ph.D.
+Keywords:	Carcinogenicity, Dose response
+L296: ## Table of Contents
+L297: 1.	Background	3
+2.	Rat Study	3
+2.1.	Sponsor's analyses	4
+2.1.1.	Survival analysis	4
+Sponsor's findings	4
+2.1.2.	Tumor data analysis	4
+Adjustment for multiple testing	4
+Sponsor's findings	4
+2.2.	Reviewer's analyses	4
+2.2.1.	Survival analysis	4
+Reviewer's findings	5
+2.2.2.	Tumor data analysis	5
+Multiple testing adjustment	6
+Reviewer's findings	6
+3.	Mouse Study	7
+3.1.	Sponsor's analyses	8
+3.1.1.	Survival analysis	8
+Sponsor's findings	8
+3.1.2.	Tumor data analysis	8
+Sponsor's findings	8
+3.2.	Reviewer's analyses	9
+3.2.1.	Survival analysis	9
+Reviewer's findings	9
+3.2.2.	Tumor data analysis	9
+Reviewer's findings	9
+4.	Summary	11
+5.	Appendix	14
+Table 1A: Intercurrent mortality rate in male rats	
+Table 1B: Intercurrent mortality rate in female rats	
+Table 2A: Tumor rates and p-values for trend and pairwise comparisons in male rats	
+Table 2B: Tumor rates and p-values for trend and pairwise comparisons in female rats	
+Table 3A: Intercurrent mortality rate in male mice	
+Table 3B: Intercurrent mortality rate in female mice	
+Table 4A: Tumor rates and p-values for trend and pairwise comparisons in male mice	
+Table 4B: Tumor rates and p-values for trend and pairwise comparisons in female mice	
+Figure 1A: Kaplan-Meier survival functions for male rats	
+Figure 1B: Kaplan-Meier survival functions for female rats	
+Figure 2A: Kaplan-Meier survival functions for male mice	
+Figure 2B: Kaplan-Meier survival functions for female mice	
+6.	References	32
+L298: ## 1. Background
+L299: In this submission the sponsor included reports of two animal carcinogenicity studies, one in rats and one in mice. These studies were to evaluate the potential tumorigenicity of the test substance, Stiripentol, when administered daily by oral route to rats and mice for a period of at least 104 and 78 weeks, respectively. However, the rats study was terminated after 102 weeks of treatment, when the survival rate among females in the group given 220 mg/kg/day had reached approximately 25%.
+L300: In this review the phrase "dose response relationship" refers to the linear component (trend) of the effect of treatment, and not necessarily to a strictly increasing or decreasing mortality or tumor incidence rate as dose increases.
+L301: ## 2. Rat Study
+L302: Two separate experiments, one in male rats and one in female rats were conducted. As indicated in Table 1, in each of these two experiments there were three treated groups and two vehicle control groups (T1 and T2). Two hundred fifty Sprague-Dawley (CrI CD (SD) BR) rats of each sex were assigned randomly to the treated and control groups in equal size of 50 rats per group. The dose levels for treated groups were 80, 220 or 800 mg/kg/day for both male and female rats. In this review these dose groups were referred to as the low (Group A), mid (Group B), and high (Group C) dose groups, respectively. The rats in the vehicle control group were administered with the vehicle (an aqueous solution of carboxymethylcellulose at 0.5%: water for injections), and handled for the same duration and in the same manner as the treated groups.
+L303: **Table 1: Experimental Design in Rat Study**
+L304: Group No.	No. of Toxicity Animals	Test Material	Dosage Level (mg/kg/day)
+Male	Female	Male	Female
+T1	50	50	Vehicle control	0	0
+T2	50	50	Vehicle control	0	0
+A	50	50	Stiripentol low	80	80
+B	50	50	Stiripentol mid	220	220
+C	50	50	Stiripentol high	800	800
+L305: The animals were checked for clinical signs at least once a day, at the same approximate daily time. After 6 months of treatment, all animals were palpated every 2 weeks in order to record the date of appearance and progression of any masses. All the animals were checked at least twice each day for mortality or signs of morbidity, including weekends. All animals showing signs of poor physical condition, especially if death appeared imminent, were asphyxiated by carbon dioxide and killed by exsanguination after a blood smear had been taken. All animals found dead or sacrificed prematurely were subjected to macroscopic examination and a full spectrum of tissues was preserved
+L306: Microscopic examination was performed on:
+L307: - All masses, macroscopic lesions and tissues listed on page 17 of the sponsor's report (except aorta and except for the animals of the control group T2):in all animals of the high dose (Group C) and control (Group T1) groups sacrificed at the end of the treatment period.
+- in all animals that died or were sacrificed prematurely.
+L308: 2. All masses, macroscopic lesions and liver for all animals of the low and intermediate dose groups (Group A and B).
+L309: ## 2.1. Sponsor's analyses
+L310: ## 2.1.1. Survival analysis
+L311: No method can be located in the sponsor's report for the survival analysis.
+L312: ## Sponsor's findings:
+L313: No statistical results can be located in the sponsor's report for the survival analysis (except for the tables of individual fate of the animals on page 299-319 in the sponsor's report). The sponsor described the mortality findings as follows: "Males and females given 220 and 800 mg/kg/day showed a very slight trend towards a higher rate of mortality during the course of the study, but the overall incidence of mortality at the end of the treatment period showed no indication of an effect of treatment with the test substance."
+L314: ## 2.1.2. Tumor data analysis
+L315: The sponsor analyzed the tumor incidence data using Peto et al. (1980) for the dose-response relationship across the treated groups and the vehicle control group, while no pairwise comparison between the treated groups and the vehicle control group was performed. No other further information about the statistical analysis of the tumor data was provided in the sponsor's report.
+L316: ## Adjustment for multiple testing:
+L317: No information about the adjustment for multiple testing was provided in the sponsor's report.
+L318: ## Sponsor's findings:
+L319: The sponsor reported that the statistical analysis of the neoplastic lesions according to Peto et al. (1980), did not show any positive trend in tumor incidence among treated groups (appendix 13, volume 6).
+L320: ## 2.2. Reviewer's analyses
+L321: To verify the sponsor's analyses and to perform additional analyses suggested by the reviewing toxicologist, this reviewer independently performed the survival and tumor data analyses using the data provided by the sponsor electronically.
+L322: ## 2.2.1. Survival analysis
+L323: The survival distributions of rats in all five groups (Groups T1, T2, A, B, and C) were estimated using the Kaplan-Meier product limit method. The dose response relationship was tested across the combined control group (Group T1+T2), and three treated groups (Group A, B, and C) using the likelihood ratio test, and the homogeneity of survival distributions was tested using the log-rank test.
+L324: The Kaplan-Meier curves for survival rates are given in Figures 1A and 1B in the appendix for all four groups in male and female rats, respectively. The intercurrent mortality data of all five groups, and the results of the tests for dose response relationship and homogeneity of survivals for the combined control group (Group T1+T2), and three treated groups (Group A, B, and C) are given in Tables 1A and 1B in the appendix for male and female rats, respectively.
+L325: ## Reviewer's findings:
+L326: The reviewer's analysis showed that the numbers of rats surviving to their terminal necropsy were 26 (52%), 17 (34%), 16 (32%), 19 (38%), and 17 (34%) in Groups T1, T2, A, B, and C for male rats, respectively, and 20 (40%), 19 (38%), 16 (32%), 12 (24%) and 19 (38%) for female rats, respectively. No statistically significant findings in mortality were noted in for both male and female rats.
+L327: ## Reviewer's comments:
+L328: The original mortality data provided by the sponsor showed one female rat (Animal number E27938) died on Day 767 (Week 110) with DTHSACST = 1 (Natural death or moribund sacrifice). This unreasonable death time may need to be investigated with further information from the sponsor.
+L329: ## 2.2.2. Tumor data analysis
+L330: The tumor data were analyzed for dose response relationships across the vehicle control group (Group T1) and treated groups (Group A, B, and C), and pairwise comparisons of each of the three treated groups (Group A, B, and C) against the vehicle control group (Group T1), using the Poly-k method described in the paper of Bailer and Portier (1988) and Bieler and Williams (1993).
+L331: In the poly-k method, the adjustment for differences in mortality among treatment groups is made by modifying the number of animals at risk in the denominators in the calculations of overall tumor rates in the Cochran-Armitage test to reflect less-than-whole-animal contributions for animals that die without tumor before the end of the study (Bailer and Portier 1988). The modification is made by defining a new number of animals at risk for each treatment group. The number of animals at risk for the i-th treatment group R^* is defined as R^* = \sum w_{ij} where w_{ij} is the weight for the j-th animal in the i-th treatment group, and the sum is over all animals in the group.
+L332: Bailer and Portier (1988) proposed the weight w_{ij} as follows:
+L333: w_{ij} = 1 to animals dying with the tumor, and
+L334: w_{ij} = (t_{ij} / t_{sacr})^k to animals dying without the tumor,
+L335: where t_{ij} is the time of death of the j-th animal in the i-th treatment group, and t_{sacr} is the planned (or intended) time of terminal sacrifice. The above formulas imply that animals living up to the end of the planned terminal sacrifice date without developing any tumor will also be assigned w_{ij} = 1 since t_{ij} = t_{sacr}.
+L336: Certain treatment groups of a study or the entire study may be terminated earlier than the planned (or intended) time of terminal sacrifice due to excessive mortalities. However, based on the principle of the Intention-to-treat (ITT) analysis in randomized trials, the t_{sacr} should not be affected by the unplanned early terminations. The t_{sacr} should always be equal to the planned (or
+L337: intended) time of terminal sacrifice. For those animals that were sacrificed later than t_{sacr}, regardless their actual terminal sacrifice time, t_{sacr} was used as their time of terminal sacrifice in the analysis.
+L338: One critical point for Poly-k test is the choice of the appropriate value of k, which depends on the tumor incidence pattern with the increased dose. For long term 104 week standard rat and mouse studies, a value of k=3 is suggested in the literature. Hence, this reviewer used k=3 for the analysis of this data.
+L339: ## **Multiple testing adjustment:**
+L340: For the adjustment of multiple testing this reviewer used the methodologies suggested in the FDA guidance for statistical design and analysis of carcinogenicity studies (2001). For dose response relationship tests, the guidance suggests the use of test levels of \alpha=0.005 for common tumors and \alpha=0.025 for rare tumors for a submission with two species where both are two-years studies, in order to keep the false-positive rate at the nominal level of approximately 10%. For multiple pairwise comparisons of treated group with control, the guidance suggests the use of test levels of \alpha=0.01 for common tumors and \alpha=0.05 for rare tumors, in order to keep the false-positive rate at the nominal level of approximately 10% for both submissions with two or one species.
+L341: A rare tumor is defined as one in which the published spontaneous tumor rate is less than 1%. However, if the background information for the common or rare tumor is not available, the number of animals bearing tumors in the vehicle control group in the present study was used to determine the common or rare tumor status in the review report. That is, if the number of animals bearing tumors in the vehicle control group is 0, then this tumor is considered as the rare tumor; otherwise, if the number of animals bearing tumors in the control group is greater than or equal to 1, then this tumor is considered as the common tumor.
+L342: ## **Reviewer's findings:**
+L343: The tumor rates and the p-values of the tested tumor types are listed in Tables 2A and 2B in the appendix for male and female rats, respectively. The tumor types with p-values less than or equal to 0.05 for dose response relationship and/or pairwise comparisons of treated groups and vehicle control are reported in Table 2.
+L344: Based on the criteria of adjustment for multiple testing discussed above, the reviewer's analysis showed statistically significant increases for the incidence rates of lipoma in skin, interstitial cell adenoma in testes of male rats, and malignant fibrous histiocytoma in skin of female rats when comparing the mid dose group (Group B) to the control group T1 (Group 1) (p = 0.0209, 0.0290, and 0.0199, respectively), if these tumors were considered to be rare; while no statistically significant dose-response relationships were noted for these tumors. A statistically significant increases was noted for the incidence rates of mixed cell adenoma in pituitary gland of male rats when comparing the low dose group (Group A) to the control group T1 (Group 1) (p\text{-value} = 0.0059), regardless the tumor type to be rare or common. No other statistically significant findings were noted for male and female rats.
+L345: **Table 2. Summary Table of Tumor Types with P-Values ≤ 0.05 for Dose Response Relationship and/or Pairwise Comparisons of Treated Groups and Vehicle Control Group in Rats**
+L346: Organ name	Tumor name	0 mg
+Vehicle (T1)
+P - Trend	80 mg
+Low (A)
+P - L vs. T1	220 mg
+Mid (B)
+P - M vs. T1	800 mg
+High (C)
+P - H vs. T1
+Male
+Pituitary Gland	Mixed Cell Adenoma	8/38 (50)
+0.6781	16/30 (40)
+0.0059 $	7/19 (35)
+0.1689	9/32 (50)
+0.3409
+Skin	Fibroma	1/35 (48)
+0.7469	0/27 (43)
+1.0000	6/24 (41)
+0.0148 @	0/30 (50)
+1.0000
+Lipoma	0/35 (48)
+0.4623	1/27 (43)
+0.4355	4/23 (41)
+0.0209 $	1/30 (50)
+0.4615
+Testes	Interstitial Cell Adenoma	0/36 (50)
+0.1156	1/21 (36)
+0.3684	3/17 (35)
+0.0290 $	3/31 (50)
+0.0938
+Female
+Skin	Malignant Fibrous Histiocytoma	0/34 (49)
+0.4556	1/21 (38)
+0.3818	4/22 (41)
+0.0199 $	1/27 (50)
+0.4426
+L347: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L348: $ = Statistically significant at 0.025 and 0.05 level in rare tumor, or at 0.005 and 0.01 level in common tumor for tests of dose response relationship and pairwise comparison, respectively;
+L349: @ = Not statistically significant at 0.025 and 0.05 level in rare tumor, or at 0.005 and 0.01 level in common tumor for tests of dose response relationship and pairwise comparison, respectively;
+L350: NC = Not calculable.
+L351: ## 3. Mouse Study
+L352: Two separate experiments, one in male mice and one in female mice were conducted. As indicated in Table 3, in each of these two experiments there were three treated groups and two vehicle control groups (Group T1 and T2). Two hundred fifty CD1 Crl: CD-1 (ICR) BR mice of each sex were assigned randomly to the treated and control groups in equal size of 50 mice per group. The dose levels for treated groups were 60, 200 or 600 mg/kg/day for both male and female mice. In this review these dose groups were referred to as the low (Group A), mid (Group B), and high (Group C) dose groups, respectively. The mice in the vehicle control group were administrated with the vehicle (aqueous solution of carboxymethylcellulose at 0.5%: water for injections), and handled for the same duration and in the same manner as the treated groups.
+L353: **Table 3. Experimental Design in Mouse Study**
+L354: Group No.	No. of Toxicity Animals	Test Material	Dosage Level (mg/kg/day)
+Male	Female	Male	Female
+T1	50	50	Vehicle control	0	0
+T2	50	50	Vehicle control	0	0
+A	50	50	Stiripentol low	60	60
+B	50	50	Stiripentol mid	200	200
+C	50	50	Stiripentol high	600	600
+L355: The animals were checked each day for clinical signs or mortality. After 6 months of treatment, the animals were examined by palpation every 2 months in order to record the date of appearance and progression of any masses. Food consumption was measured weekly during the first 13 weeks of treatment, then once every 4 weeks until the end of the study. Body weight was determined once before allocation of the animals to treatment groups, on the first day of treatment, then once every 4 weeks until the end of the study. Blood samples for determination of differential white cell count were obtained for all surviving animals on weeks 52 and 78 of treatment and, when possible for all animals sacrificed during the study. After 78 weeks of treatment, all surviving animals were sacrificed. A macroscopic examination was performed on all animals, including those which were sacrificed prematurely or found dead during the study.
+L356: Microscopic examination was performed on:
+L357: - All masses, macroscopic lesions and tissues listed on page 15-16 of the sponsor's report (except aorta and except for the animals of the control group T2):in all the animals from the high dose (Group C) and control (Group T1) groups sacrificed at the end of the treatment period,
+- in all the animals that died or were sacrificed prematurely.
+- All masses and macroscopic lesions for all the animals from the low and intermediate dose groups (Group A and B),
+- The liver in males and females of control group T2 and the low and intermediate dose groups (Group A and B).
+L358: ## 3.1. Sponsor's analyses
+L359: ## 3.1.1. Survival analysis
+L360: No method can be located in the sponsor's report for the survival analysis.
+L361: ## Sponsor's findings:
+L362: No statistical results can be located in the sponsor's report for the survival analysis (except for the tables of individual fate of the animals on page 276-296 in the sponsor's report). The sponsor described the mortality findings as follows: "Males given 600 mg/kg/day showed a slight trend towards a higher mortality rate during the course of the study, but on completion of the treatment period there was no indication of an effect of treatment with the test substance on overall mortality. For males given 60 and 200 mg/kg/day and females in all treated groups, the incidence and rate of mortality was similar in all groups. Among the treated animals found dead or sacrificed prematurely during the study, there were no consistent clinical macroscopic or microscopic findings to suggest an effect of administration of the test substance".
+L363: ## 3.1.2. Tumor data analysis
+L364: The sponsor analyzed the tumor incidence data using Peto et al. (1980) for the dose-response relationship across the treated groups and the vehicle control group, while no pairwise comparison between the treated groups and the vehicle control group was performed. No other further information about the statistical analysis of the tumor data was provided in the sponsor's report.
+L365: ## Sponsor's findings:
+L366: The sponsor reported an increase in the number of animals bearing liver masses at macroscopic examination in the groups given 200 and 600 mg/kg/day (Group B and C), which was much higher than that usually noted at their laboratory and was considered to be treatment-related. On microscopic examination, the number of animals bearing tumors was slightly higher in the treated animals of the high dose group (Group C). The number of animals bearing more than one primary neoplasm was slight in the treated males vs. zero in control males, and was slightly higher in the high dose (Group C) females. The number of benign tumors was similar between treated and control groups. The number of malignant tumors was higher in the treated males and females. In addition, the incidental tumor analysis showed a decreased latency of hepatic tumors in the treated animals when compared with the controls.
+L367: ## 3.2. Reviewer's analyses
+L368: Similar to the rat study, this reviewer independently performed survival and tumor data analyses of mouse data to verify sponsor's analyses. Data used in this reviewer's analyses were provided by the sponsor electronically.
+L369: For the analysis of the survival data and the tumor data, this reviewer used similar methodologies that were used for the analyses of the survival and tumor data in the rat study.
+L370: ## 3.2.1. Survival analysis
+L371: The Kaplan-Meier curves for survival rates of all treatment groups are given in Figures 2A and 2B in the appendix for male and female mice, respectively. The intercurrent mortality data, and the results of the tests for dose response relationship and homogeneity of survivals for the combined vehicle control, low, mid, and high dose groups were given in Tables 3A and 3B in the appendix for male and female mice, respectively.
+L372: ## Reviewer's findings:
+L373: In the reviewer's analysis, the numbers of mice surviving to their terminal necropsy were 44 (88%), 39 (78%), 35 (70%), 42 (84%), and 34 (68%) in Groups T1, T2, A, B, and C for male mice, respectively, and 36 (72%), 39 (78%), 43 (86%), 38 (76%), and 39 (78%) for female mice, respectively. A statistically significant increase in mortality was noted in the high dose group (Group C) of male mice when compared to the combined vehicle control (Group T1+T2) with a p-value=0.0298, without the corresponding significant dose response relationship for the survival. No statistically significant difference across all dosing groups in mortality was noted in female mice.
+L374: ## 3.2.2. Tumor data analysis
+L375: The tumor rates and the p-values of the tested tumor types are given in Tables 4A and Table 4B in the appendix, for male and female mice, respectively.
+L376: ## Reviewer's findings:
+L377: The tumor types with p-values less than or equal to 0.05 for dose response relationship and/or pairwise comparisons of treated groups and vehicle control are reported in Table 4.
+L378: Based on the criteria of adjustment for multiple testing discussed above, the reviewer's analysis showed statistically significant increases for the tumor incidence rate of bronchiolar adenoma and the combined bronchiolar adenoma and carcinoma in lungs of male rats (p-value = 0.0026, and 0.0010, respectively) when comparing the low dose group (Group A) to the combined vehicle control group (Group T1+T2), regardless their tumor status (rare or common), while no statistically significant dose response relationship was noted for these tumors.
+L379: Based on the criteria of adjustment for multiple testing discussed above, the reviewer's analysis also showed statistically significant positive dose-response relationship for the tumor incidence rate of adenoma, carcinoma, and combined adenoma and carcinoma in liver of female rats (p = 0.0003, &lt;0.0001, and &lt;0.0001, respectively), along with the statistically significant increases in the high dose group (Group C) when compared to the combined vehicle control (Group T1+T2) (p-value = 0.0015, &lt;0.0001, and &lt; 0.0001, respectively), regardless their tumor status (rare or common). In addition, statistically significant increases were noted for the tumor incidence rate of bronchiolar adenoma in lungs of female rats (p-value = 0.0237) when comparing the low dose group (Group A) to the combined vehicle control group (Group T1+T2), if this tumor was considered as rare, while no statistically significant dose response relationship was noted.
+L380: **Table 4. Summary Table of Tumor Types with P-Values ≤ 0.05 for Dose Response Relationship and/or Pairwise Comparisons of Treated Groups and Vehicle Control Group in Mice**
+L381: Organ name	Tumor name	Vehicle	CB (C12)
+0 mg (1+2)
+P-Trend	Low (A)
+60 mg
+P-A vs C12	Mid (B)
+200 mg
+P-B vs C12	High (C)
+600 mg
+P-C vs C12
+0 mg
+T1	0 mg
+T2
+Male	Liver	Adenoma	4/ (50)	3/ (50)	7/45 (100)	4/21 (48)	11/26 (50)	9/23 (50)
+0.0163 @	0.4880	0.0143 @	0.0328 @
+Carcinoma	1/ (50)	3/ (50)	4/43 (100)	1/19 (48)	6/23 (50)	6/21 (50)
+Adenoma/Carcinoma	5/ (50)	6/ (50)	11/47 (100)	5/21 (48)	15/29 (50)	13/25 (50)
+Lungs	Bronchiolar Adenoma	2/ (50)	0/ (0)	2/22 (50)	6/9 (21)	0/3 (10)	0/17 (49)
+0.9792	0.0026 $	1.0000	1.0000
+Bronchiolar Carcinoma	0/ (50)	0/ (0)	0/21 (50)	1/7 (21)	0/3 (10)	0/17 (49)
+0.5625	0.2500	NC	NC
+Bronchiolar Adenoma/
+Bronchiolar Carcinoma	2/ (50)	0/ (0)	2/22 (50)	7/10 (21)	0/3 (10)	0/17 (49)
+0.9853	0.0010 $	1.0000	1.0000
+L382: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L383: $ = Statistically significant at 0.025 and 0.05 level in rare tumor, or at 0.005 and 0.01 level in common tumor for tests of dose response relationship and pairwise comparison, respectively;
+L384: @ = Not statistically significant at 0.025 and 0.05 level in rare tumor, or at 0.005 and 0.01 level in common tumor for tests of dose response relationship and pairwise comparison, respectively;
+L385: NA = Not calculable.
+L386: **Table 4. Summary Table of Tumor Types with P-Values ≤ 0.05 for Dose Response Relationship and/or Pairwise Comparisons of Treated Groups and Vehicle Control Group in Mice (Continued)**
+L387: Organ name	Tumor name	Vehicle	CB (C12)
+0 mg (1+2)
+P-Trend	Low (A)
+60 mg
+P-A vs C12	Mid (B)
+200 mg
+P-B vs C12	High (C)
+600 mg
+P-C vs C12
+0 mg
+T1	0 mg
+T2
+Female
+Liver	Adenoma	0/ (49)	0/ (50)	0/38 (99)
+0.0003 $	0/20 (50)
+NC	3/20 (50)
+0.0369 $	6/22 (50)
+0.0015 $
+Carcinoma	1/ (49)	1/ (50)	2/39 (99)
+0.0000 $	0/20 (50)
+1.0000	0/18 (50)
+1.0000	15/27 (50)
+0.0000 $
+Adenoma/Carcinoma	1/ (49)	1/ (50)	2/39 (99)
+0.0000 $	0/20 (50)
+1.0000	3/20 (50)
+0.2096	21/31 (50)
+0.0000 $
+Sarcoma, Site Of Primary
+Tumor Unknown	1/ (49)	3/ (50)	4/40 (99)
+1.0000	0/20 (50)
+1.0000	0/18 (50)
+1.0000	0/18 (50)
+1.0000
+Bronchiolar Adenoma	0/ (50)	0/ (0)	0/19 (50)
+0.7265	2/4 (12)
+0.0237 $	0/2 (12)
+NC	0/18 (50)
+NC
+Bronchiolo-Alveolar
+Adenoma	1/ (50)	0/ (0)	1/20 (50)
+0.8565	2/4 (12)
+0.0613	0/2 (12)
+1.0000	0/18 (50)
+1.0000
+Lungs	Bronchiolo-Alveolar
+Carcinoma	0/ (50)	0/ (0)	0/19 (50)
+0.3013	1/4 (12)
+0.1739	0/2 (12)
+NC	1/19 (50)
+0.5000
+Bronchiolo-Alveolar
+Adenoma/ Carcinoma	1/ (50)	0/ (0)	1/20 (50)
+0.7686	3/5 (12)
+0.0162 @	0/2 (12)
+1.0000	1/19 (50)
+0.7436
+L388: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L389: $ = Statistically significant at 0.025 and 0.05 level in rare tumor, or at 0.005 and 0.01 level in common tumor for tests of dose response relationship and pairwise comparison, respectively;
+L390: @ = Not statistically significant at 0.025 and 0.05 level in rare tumor, or at 0.005 and 0.01 level in common tumor for tests of dose response relationship and pairwise comparison, respectively;
+L391: NA = Not calculable.
+L392: ## 4. Summary
+L393: In this submission the sponsor included reports of two animal carcinogenicity studies, one in rats and one in mice. These studies were to evaluate the potential tumorigenicity of the test substance, Stiripentol, when administered daily by oral route to rats and mice for a period of at least 104 and 78 weeks, respectively. However, the rats study was terminated after 102 weeks of treatment, when the survival rate among females in the group given 220 mg/kg/day had reached approximately 25%.
+L394: ## Rat Study:
+L395: Two separate experiments, one in male rats and one in female rats were conducted. In each of these two experiments there were three treated groups and two vehicle control groups (T1 and T2). Two hundred fifty Sprague-Dawley (Crl CD (SD) BR) rats of each sex were assigned randomly to the treated and control groups in equal size of 50 rats per group. The dose levels for treated groups were 80, 220 or 800 mg/kg/day for both male and female rats. In this review these dose groups were referred to as the low (Group A), mid (Group B), and high (Group C) dose groups, respectively.
+L396: The reviewer's analysis showed that the numbers of rats surviving to their terminal necropsy were 26 (52%), 17 (34%), 16 (32%), 19 (38%), and 17 (34%) in Groups T1, T2, A, B, and C for male rats, respectively, and 20 (40%), 19 (38%), 16 (32%), 12 (24%) and 19 (38%) for female rats, respectively. No statistically significant findings in mortality were noted in for both male and female rats.
+L397: The reviewer's analysis showed statistically significant increases for the incidence rates of lipoma in skin, interstitial cell adenoma in testes of male rats, and malignant fibrous histiocytoma in skin of female rats when comparing the mid dose group (Group B) to the control group T1 (Group 1) (p = 0.0209, 0.0290, and 0.0199, respectively), if these tumors were considered to be rare; while no statistically significant dose-response relationships were noted for these tumors. A statistically significant increases was noted for the incidence rates of mixed cell adenoma in pituitary gland of male rats when comparing the low dose group (Group A) to the control group T1 (Group 1) (p\text{-value} = 0.0059), regardless the tumor type to be rare or common. No other statistically significant findings were noted for male and female rats.
+L398: ## Mouse Study:
+L399: Two separate experiments, one in male mice and one in female mice were conducted. In each of these two experiments there were three treated groups and two vehicle control groups (Group T1 and T2). Two hundred fifty CD1 Crl: CD-1 (ICR) BR mice of each sex were assigned randomly to the treated and control groups in equal size of 50 mice per group. The dose levels for treated groups were 60, 200 or 600 mg/kg/day for both male and female mice.
+L400: In the reviewer's analysis, the numbers of mice surviving to their terminal necropsy were 44 (88%), 39 (78%), 35 (70%), 42 (84%), and 34 (68%) in Groups T1, T2, A, B, and C for male mice, respectively, and 36 (72%), 39 (78%), 43 (86%), 38 (76%), and 39 (78%) for female mice, respectively. A statistically significant increase in mortality was noted in the high dose group (Group C) of male mice when compared to the combined vehicle control (Group T1+T2) with a p\text{-value} 0.0298, without the corresponding significant dose response relationship for the survival. No statistically significant difference across all dosing groups in mortality was noted in for female mice.
+L401: The reviewer's analysis showed statistically significant increases for the tumor incidence rate of bronchiolar adenoma and the combined bronchiolar adenoma and carcinoma in lungs of male rats (p\text{-value} = 0.0026, and 0.0010, respectively) when comparing the low dose group (Group A) to the combined vehicle control group (Group T1+T2), regardless their tumor status (rare or common), while no statistically significant dose response relationship was noted for these tumors.
+L402: The reviewer's analysis also showed statistically significant positive dose-response relationship for the tumor incidence rate of adenoma, carcinoma, and combined adenoma and carcinoma in liver of female rats (p = 0.0003, &lt;0.0001, and &lt;0.0001, respectively), along with the statistically significant increases in the high dose group (Group C) when compared to the combined vehicle control (Group T1+T2) (p\text{-value} = 0.0015, &lt;0.0001, and &lt;0.0001, respectively), regardless their tumor status (rare or common). In addition, statistically significant increases were noted for the tumor incidence rate of bronchiolar adenoma in lungs of female rats (p\text{-value} = 0.0237) when comparing the low dose group (Group A) to the combined vehicle control group (Group T1+T2), if this tumor was considered as rare, while no statistically significant dose response relationship
+L403: was noted.
+L404: Hepei Chen.
+Mathematical Statistician
+L405: Concur: Karl Lin, Ph.D.
+Team Leader, DBVI
+L406: Cc: Archival NDA 206709
+L407: Dr. Edward Fisher
+Dr. Lillian Patrician
+Dr. Mohammad Atiar Rahman
+L408: ## 5. Appendix
+L409: **Table 1A: Intercurrent Mortality Rate in Male Rats**
+L410: Week / Type of Death	Vehicle Control T1	Vehicle Control T2	80 mg/kg/day Low (A)	220 mg/kg/day Mid (B)	800 mg/kg/day High (C)
+No. of Death	Cum %	No. of Death	Cum %	No. of Death	Cum %	No. of Death	Cum %	No. of Death	Cum %
+0 - 52	2	4.00	3	6.00	3	6.00	6	12.00	7	14.00
+53 - 78	9	22.00	5	16.00	10	26.00	11	34.00	10	34.00
+79 - 91	5	32.00	15	46.00	8	42.00	7	48.00	6	46.00
+92 - 105	8	48.00	10	66.00	13	68.00	7	62.00	10	66.00
+Terminal sacrifice	26	52.00	17	34.00	16	32.00	19	38.00	17	34.00
+Total	50	50	50	50	50	
+Test	All Dose Groups (T1+T2, A, B, C)	Low vs Vehicle Control T1+T2	Mid vs Vehicle Control T1+T2	High vs Vehicle Control T1+T2	
+Dose-Response (Likelihood Ratio)	0.2834	0.2740	0.3789	0.2113	
+Homogeneity (Log-Rank)	0.5270	0.2629	0.3684	0.1995
+L411: #All Cum. % Cumulative Percentage except for Terminal sacrifice;
+L412: **Table 1B: Intercurrent Mortality Rate in Female Rats**
+L413: Week / Type of Death	Vehicle Control T1	Vehicle Control T2	80 mg/kg/day Low (A)	220 mg/kg/day Mid (B)	800 mg/kg/day High (C)
+No. of Death	Cum %	No. of Death	Cum %	No. of Death	Cum %	No. of Death	Cum %	No. of Death	Cum %
+0 - 52	4	8.00	1	2.00	4	8.00	5	10.00	8	16.33
+53 - 78	8	24.00	11	24.00	9	26.00	13	36.00	14	44.90
+79 - 91	7	38.00	7	38.00	9	44.00	9	54.00	5	55.10
+92 - 105	11	60.00	12	62.00	12	68.00	11	76.00	3	61.22
+110 (Ani# E27938)	1	2.04
+Terminal sacrifice	20	40.00	19	38.00	16	32.00	12	24.00	19	38.78
+Total	50	50	50	50	49	
+Test	All Dose Groups (T1+T2, A, B, C)	Low vs Vehicle Control T1+T2	Mid vs Vehicle Control T1+T2	High vs Vehicle Control T1+T2	
+Dose-Response (Likelihood Ratio)	0.4642	0.3226	0.0488	0.3857	
+Homogeneity (Log-Rank)	0.2607	0.3105	0.0406	0.3757
+L414: #All Cum. % Cumulative Percentage except for Terminal sacrifice;
+L415: Table 2A: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Male Rats
+L416: Organ name	Tumor name	0 mg	80 mg	220 mg	800 mg
+Vehicle (T1)
+P - Trend	Low (A)
+P - A vs. T1	Mid (B)
+P - B vs. T1	High (C)
+P - C vs. T1
+Adrenal Glands	Benign Pheochromocytoma	3/36 (49)
+0.6105	2/23 (39)
+0.6541	2/19 (37)
+0.5699	2/30 (50)
+0.7601
+Malignant Pheochromocytoma	0/35 (49)
+0.5913	1/23 (39)
+0.3966	1/19 (37)
+0.3519	0/30 (50)
+NC
+Benign Pheochromocytoma/
+Malignant Pheochromocytoma	3/36 (49)
+0.6841	3/24 (39)
+0.4556	3/19 (37)
+0.3383	2/30 (50)
+0.7601
+Brain	Mixed Glioma	0/36 (50)
+0.3061	0/18 (33)
+NC	0/14 (32)
+NC	1/30 (50)
+0.4545
+Oligodendroglioma	0/36 (50)
+0.3061	0/18 (33)
+NC	0/14 (32)
+NC	1/30 (50)
+0.4545
+Duodenum	Adenocarcinoma	0/34 (46)
+0.4667	0/14 (24)
+NC	1/14 (26)
+0.2917	0/28 (47)
+NC
+Heart	Atrio caval Mesothelioma(Syn.)	1/36 (50)
+0.7050	0/18 (34)
+1.0000	1/15 (33)
+0.5059	0/30 (50)
+1.0000
+Epithelial Atrio caval	0/36 (50)
+0.3100	0/18 (34)
+NC	0/15 (33)
+NC	1/31 (50)
+0.4627
+Neurilemmoma	0/36 (50)
+0.3100	0/18 (34)
+NC	0/15 (33)
+NC	1/31 (50)
+0.4627
+Hemolymphoret. Sys	Granulocytic Leukaemia	2/37 (50)
+1.0000	0/17 (32)
+1.0000	0/14 (32)
+1.0000	0/30 (50)
+1.0000
+Heterogenous Malignant
+Lymphoma	0/36 (50)
+0.3163	0/17 (32)
+NC	0/14 (32)
+NC	1/31 (50)
+0.4627
+Lymphoblastic Malignant
+Lymphoma	2/37 (50)
+0.5781	0/17 (32)
+1.0000	1/15 (32)
+0.6484	1/30 (50)
+0.8378
+Heterogenous /Lymphoblastic
+Malignant Lymphoma	2/37 (50)
+0.3458	0/17 (32)
+1.0000	1/15 (32)
+0.6484	2/31 (50)
+0.6231
+Myeloblastic Leukaemia	1/36 (50)
+0.4953	1/18 (32)
+0.5597	1/14 (32)
+0.4857	1/30 (50)
+0.7063
+L417: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NC = Not calculable.
+L418: **Table 2A: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Male Rats (Continued)**
+L419: Organ name	Tumor name	0 mg	80 mg	220 mg	800 mg
+Vehicle (T1)
+P - Trend	Low (A)
+P - A vs. T1	Mid (B)
+P - B vs. T1	High (C)
+P - C vs. T1
+Kidneys	Benign Mixed Cell Tumour	0/35 (49)
+0.6875	1/27 (43)
+0.4355	0/21 (40)
+NC	0/29 (49)
+NC
+Malignant Mixed Cell Tumour	0/35 (49)
+0.6875	1/27 (43)
+0.4355	0/21 (40)
+NC	0/29 (49)
+NC
+Benign /Malignant Mixed Cell Tumo	0/35 (49)
+0.7523	2/27 (43)
+0.1856	0/21 (40)
+NC	0/29 (49)
+NC
+Tubular Cell Adenoma	1/36 (49)
+0.7580	1/27 (43)
+0.6774	2/22 (40)
+0.3194	0/29 (49)
+1.0000
+
+Liver	Hepatocellular Adenoma	0/35 (47)
+0.1706	0/31 (47)
+NC	1/31 (50)
+0.4697	1/30 (48)
+0.4615
+Hepatocellular Carcinoma	2/35 (47)
+0.5577	0/31 (47)
+1.0000	0/31 (50)
+1.0000	1/30 (48)
+0.8502
+Hepatocellular Adenoma/ Carcinoma	2/35 (47)
+0.2670	0/31 (47)
+1.0000	1/31 (50)
+0.8570	2/30 (48)
+0.6327
+Sarcoma	1/35 (47)
+1.0000	0/31 (47)
+1.0000	0/31 (50)
+1.0000	0/30 (48)
+1.0000
+
+Mesent. Lymph Node	Haemangioma	0/34 (46)
+0.6180	1/14 (26)
+0.2917	0/14 (28)
+NC	0/27 (43)
+NC
+Pancreas	Islet Cell Adenoma	3/35 (48)
+0.7364	0/17 (32)
+1.0000	1/15 (31)
+0.7726	1/30 (49)
+0.9227
+Pituitary Gland	Acidophilic Cell Adenoma	8/37 (50)
+0.9321	10/28 (40)
+0.1642	4/17 (35)
+0.5675	4/31 (50)
+0.8971
+Adenoma Of Pars Intermedia	0/36 (50)
+0.4352	0/25 (40)
+NC	1/17 (35)
+0.3208	0/30 (50)
+NC
+Mixed Cell Adenoma	8/38 (50)
+0.6781	16/30 (40)
+0.0059 $	7/19 (35)
+0.1689	9/32 (50)
+0.3409
+Small Cell Adenoma	2/36 (50)
+0.6943	1/25 (40)
+0.8016	0/17 (35)
+1.0000	1/30 (50)
+0.8440
+L420: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L421: $ = Statistically significant at 0.025 and 0.05 level in rare tumor, or at 0.005 and 0.01 level in common tumor for tests of dose response relationship and pairwise comparison, respectively;
+L422: NC = Not calculable.
+L423: **Table 2A: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Male Rats (Continued)**
+L424: Organ name	Tumor name	0 mg
+Vehicle (T1)
+P - Trend	80 mg
+Low (A)
+P - A vs. T1	220 mg
+Mid (B)
+P - B vs. T1	800 mg
+High (C)
+P - C vs. T1
+Skin	Basal Cell Adenoma	0/35 (48)
+0.2609	0/27 (43)
+NC	0/23 (41)
+NC	1/30 (50)
+0.4615
+Basal Cell Carcinoma	1/35 (48)
+0.4554	0/27 (43)
+1.0000	0/23 (41)
+1.0000	1/30 (50)
+0.7139
+Basal Cell Adenoma/
+Basal Cell Carcinoma	1/35 (48)
+0.1662	0/27 (43)
+1.0000	0/23 (41)
+1.0000	2/30 (50)
+0.4415
+Benign Fibrous Histiocytoma	4/36 (48)
+0.9608	1/27 (43)
+0.9464	2/24 (41)
+0.7804	0/30 (50)
+1.0000
+Fibrolipoma	0/35 (48)
+0.6957	1/27 (43)
+0.4355	0/23 (41)
+NC	0/30 (50)
+NC
+Fibroma	1/35 (48)
+0.7469	0/27 (43)
+1.0000	6/24 (41)
+0.0148 @	0/30 (50)
+1.0000
+Fibrosarcoma	0/35 (48)
+0.6957	1/27 (43)
+0.4355	0/23 (41)
+NC	0/30 (50)
+NC
+Haemangioma	0/35 (48)
+0.6957	1/27 (43)
+0.4355	0/23 (41)
+NC	0/30 (50)
+NC
+Fibrolipoma/Fibroma/
+Fibrosarcoma	1/35 (48)
+0.8475	2/27 (43)
+0.4022	6/24 (41)
+0.0148	0/30 (50)
+1.0000
+Lipoma	0/35 (48)
+0.4623	1/27 (43)
+0.4355	4/23 (41)
+0.0209 $	1/30 (50)
+0.4615
+Malignant Fibrous Histiocytoma	4/37 (48)
+0.8424	1/27 (43)
+0.9428	0/23 (41)
+1.0000	1/30 (50)
+0.9549
+Papilloma	1/35 (48)
+0.7115	0/27 (43)
+1.0000	1/23 (41)
+0.6400	0/30 (50)
+1.0000
+Pilomatricoma	0/35 (48)
+0.8055	3/28 (43)
+0.0825	2/24 (41)
+0.1613	0/30 (50)
+NC
+Trichofolliculoma	0/35 (48)
+0.1089	1/27 (43)
+0.4355	1/23 (41)
+0.3966	2/30 (50)
+0.2091
+Spleen	Haemangiosarcoma	1/36 (49)
+1.0000	0/18 (33)
+1.0000	0/14 (32)
+1.0000	0/30 (49)
+1.0000
+Sternum (+ B.M )	Chondrosarcoma	0/36 (50)
+0.6289	1/17 (32)
+0.3208	0/14 (32)
+NC	0/30 (50)
+NC
+Submaxil./Sublingu	Malignant Fibrous Histiocytoma,
+Site Of Primary Tu	0/36 (50)
+0.3093	0/17 (32)
+NC	0/14 (32)
+NC	1/30 (50)
+0.4545
+Testes	Interstitial Cell Adenoma	0/36 (50)
+0.1156	1/21 (36)
+0.3684	3/17 (35)
+0.0290 $	3/31 (50)
+0.0938
+L425: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L426: $ = Statistically significant at 0.025 and 0.05 level in rare tumor, or at 0.005 and 0.01 level in common tumor for tests of dose response relationship and pairwise comparison, respectively;
+L427: @ = Not statistically significant at 0.025 and 0.05 level in rare tumor, or at 0.005 and 0.01 level in common tumor for tests of dose response relationship and pairwise comparison, respectively;
+L428: NC = Not calculable.
+L429: **Table 2A: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Male Rats (Continued)**
+L430: Organ name	Tumor name	0 mg	80 mg	220 mg	800 mg
+Vehicle (T1)
+P - Trend	Low (A)
+P - A vs. T1	Mid (B)
+P - B vs. T1	High (C)
+P - C vs. T1
+Thymus	Malignant Thymoma	1/36 (49)
+1.0000	0/13 (26)
+1.0000	0/10 (23)
+1.0000	0/28 (46)
+1.0000
+
+Thyroid Glands	Follicular Cell Adenoma	1/36 (49)
+0.5237	1/18 (33)
+0.5597	2/17 (33)
+0.2380	1/30 (50)
+0.7063
+Parafollicular Cell Adenoma	2/36 (49)
+0.1691	0/18 (33)
+1.0000	1/16 (33)
+0.6769	3/30 (50)
+0.4125
+Parafollicular Cell Carcinoma	0/35 (49)
+0.3030	0/18 (33)
+NC	0/16 (33)
+NC	1/30 (50)
+0.4615
+Parafollicular Cell Adenoma/
+Parafollicular Cell Carcinoma	2/36 (49)
+0.0833	0/18 (33)
+1.0000	1/16 (33)
+0.6769	4/31 (50)
+0.2673
+
+
+Urinary Bladder	Transitional Papilloma	0/33 (46)
+0.6024	1/14 (24)
+0.2979	0/11 (23)
+NC	0/25 (37)
+NC
+L431: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L432: NC = Not calculable.
+L433: Table 2B: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Female Rats
+L434: Organ name	Tumor name	0 mg
+Vehicle (T1)
+P - Trend	80 mg
+Low (A)
+P - A vs. T1	220 mg
+Mid (B)
+P - B vs. T1	800 mg
+High (C)
+P - C vs. T1
+Adrenal Glands	Cortical Cell Adenoma	1/35 (50)
+1.0000	0/29 (47)
+1.0000	0/26 (47)
+1.0000	0/26 (50)
+1.0000
+Eyes	Neurosarcoma	0/33 (48)
+0.6413	1/19 (33)
+0.3654	0/14 (31)
+NC	0/26 (49)
+NC
+Hemolymphoret. Sys	Heterogenous Malignant Lymphoma	0/35 (50)
+0.6856	2/20 (36)
+0.1279	1/19 (38)
+0.3519	0/26 (50)
+NC
+Lymphoblastic Malignant Lymphoma	1/36 (50)
+0.4691	0/19 (36)
+1.0000	0/18 (38)
+1.0000	1/27 (50)
+0.6774
+Myeloblastic Leukaemia	1/35 (50)
+0.5173	1/19 (36)
+0.5842	0/18 (38)
+1.0000	1/27 (50)
+0.6854
+Benign Mixed Cell Tumour	0/35 (50)
+0.6667	1/24 (42)
+0.4068	0/20 (41)
+NC	0/26 (50)
+NC
+Liver	Haemangioma	0/34 (48)
+0.7167	1/32 (50)
+0.4848	0/28 (49)
+NC	0/26 (50)
+NC
+Hepatocellular Adenoma	0/34 (48)
+0.1525	0/32 (50)
+NC	1/28 (49)
+0.4516	1/27 (50)
+0.4426
+Histiocytic Sarcoma, Site Of Primary Tumor Unknown	0/34 (48)
+0.4500	0/32 (50)
+NC	1/28 (49)
+0.4516	0/26 (50)
+NC
+Adenofibroma	6/37 (50)
+0.3000	5/27 (43)
+0.5326	4/26 (47)
+0.6643	6/28 (50)
+0.4123
+Mammary Gland	Adenoma	1/35 (50)
+0.3588	0/25 (43)
+1.0000	1/26 (47)
+0.6749	1/27 (50)
+0.6854
+Adenofibroma/Adenoma	7/37 (50)
+0.2749	5/27 (43)
+0.6381	5/27 (47)
+0.6381	7/29 (50)
+0.4139
+Carcinosarcoma	1/35 (50)
+0.6497	0/25 (43)
+1.0000	2/27 (47)
+0.4022	0/26 (50)
+1.0000
+Cystadenoma	0/35 (50)
+0.6875	1/25 (43)
+0.4167	0/26 (47)
+NC	0/26 (50)
+NC
+Ductular Carcinoma	1/35 (50)
+0.2989	4/27 (43)
+0.1074	4/26 (47)
+0.0990	3/27 (50)
+0.2150
+Fibroadenoma	23/40 (50)
+0.9996	22/31 (43)
+0.1790	19/32 (47)
+0.5325	7/28 (50)
+0.9984
+L435: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NC = Not calculable.
+L436: **Table 2B: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Female Rats (Continued)**
+L437: Organ name	Tumor name	0 mg	80 mg	220 mg	800 mg
+Vehicle (T1)
+P - Trend	Low (A)
+P - A vs. T1	Mid (B)
+P - B vs. T1	High (C)
+P - C vs. T1
+Ovaries	Granulosa-Theca Cell Tumour	0/35 (50)
+0.2515	1/25 (43)
+0.4167	1/22 (43)
+0.3860	1/27 (50)
+0.4355
+Papillary Cystadenoma	0/35 (50)
+0.2477	0/25 (43)
+NC	0/22 (43)
+NC	1/27 (50)
+0.4355
+Pancreas	Adenoma Exocrine Pancreas	0/35 (50)
+0.2784	0/18 (35)
+NC	0/17 (36)
+NC	1/27 (50)
+0.4355
+Islet Cell Adenoma	0/35 (50)
+0.6354	1/18 (35)
+0.3396	0/17 (36)
+NC	0/26 (50)
+NC
+Pituitary Gland	Acidophilic Cell Adenoma	9/34 (47)
+0.6409	11/32 (48)
+0.3335	9/27 (44)
+0.3804	7/27 (49)
+0.6312
+Adenoma Of Pars Intermedia	0/32 (47)
+0.4414	0/30 (48)
+NC	1/23 (44)
+0.4182	0/26 (49)
+NC
+Mixed Cell Adenoma	28/41 (47)
+1.0000	25/38 (48)
+0.6831	22/34 (44)
+0.7174	5/26 (49)
+1.0000
+Small Cell Adenoma	2/32 (47)
+0.4649	5/31 (48)
+0.1997	6/25 (44)
+0.0631	3/26 (49)
+0.4002
+Neurinoma	0/30 (41)
+0.6074	1/14 (27)
+0.3182	1/13 (27)
+0.3023	0/26 (45)
+NC
+L438: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NC = Not calculable.
+L439: Table 2B: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Female Rats (Continued)
+L440: Organ name	Tumor name	0 mg	80 mg	220 mg	800 mg
+Vehicle (T1)
+P - Trend	Low (A)
+P - A vs. T1	Mid (B)
+P - B vs. T1	High (C)
+P - C vs. T1
+Skin	Benign Fibrous Histiocytoma	0/34 (49)
+0.3861	2/21 (38)
+0.1414	1/21 (41)
+0.3818	1/27 (50)
+0.4426
+Fibrolipoma	0/34 (49)
+0.6634	1/21 (38)
+0.3818	0/20 (41)
+NC	0/26 (50)
+NC
+Fibroma	2/35 (49)
+0.7665	3/21 (38)
+0.2673	3/22 (41)
+0.2863	1/27 (50)
+0.8269
+Fibrosarcoma	1/34 (49)
+1.0000	0/21 (38)
+1.0000	0/20 (41)
+1.0000	0/26 (50)
+1.0000
+Fibrolipoma/Fibroma/
+Fibrosarcoma	3/35 (49)
+0.8722	4/21 (38)
+0.2298	3/22 (41)
+0.4252	1/27 (50)
+0.9061
+Lipoma	0/34 (49)
+0.6634	1/21 (38)
+0.3818	0/20 (41)
+NC	0/26 (50)
+NC
+Malignant Fibrous Histiocytoma	0/34 (49)
+0.4556	1/21 (38)
+0.3818	4/22 (41)
+0.0199 $	1/27 (50)
+0.4426
+Papilloma	1/34 (49)
+1.0000	0/21 (38)
+1.0000	0/20 (41)
+1.0000	0/26 (50)
+1.0000
+Thymus	Squamous Cell Carcinoma	1/34 (49)
+1.0000	0/21 (38)
+1.0000	0/20 (41)
+1.0000	0/26 (50)
+1.0000
+Benign Thymoma	0/33 (48)
+0.6163	1/15 (28)
+0.3125	0/15 (32)
+NC	0/23 (43)
+NC
+Thyroid Glands	Parafollicular Cell Adenoma	1/35 (50)
+1.0000	0/18 (35)
+1.0000	0/18 (38)
+1.0000	0/26 (50)
+1.0000
+Urinary Bladder	Transitional Papilloma	0/33 (46)
+0.4615	0/16 (31)
+NC	1/16 (33)
+0.3265	0/26 (47)
+NC
+Uterus	Endometrial Adenocarcinom	0/35 (50)
+0.4510	0/21 (39)
+NC	1/20 (40)
+0.3636	0/26 (50)
+NC
+Endometrial Stromal Polyp	0/35 (50)
+0.7760	3/22 (39)
+0.0526	0/20 (40)
+NC	0/26 (50)
+NC
+Endometrial Adenocarcinom/
+Endometrial Stromal Poly	0/35 (50)
+0.7597	3/22 (39)
+0.0526	1/20 (40)
+0.3636	0/26 (50)
+NC
+Fibrolipoma	1/35 (50)
+1.0000	0/21 (39)
+1.0000	0/20 (40)
+1.0000	0/26 (50)
+1.0000
+Neurinoma	0/35 (50)
+0.2621	0/21 (39)
+NC	0/20 (40)
+NC	1/27 (50)
+0.4355
+L441: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L442: $ = Statistically significant at 0.025 and 0.05 level in rare tumor, or at 0.005 and 0.01 level in common tumor for tests of dose response relationship and pairwise comparison, respectively;
+L443: NC = Not calculable.
+L444: **Table 3A: Intercurrent Mortality Rate in Male Mice**
+L445: Week /
+Type of Death	Vehicle
+Control T1	Vehicle
+Control T2	60 mg/kg/day
+Low (A)	200 mg/kg/day
+Mid (B)	600 mg/kg/day
+High (C)
+No. of
+Death	Cum
+%	No. of
+Death	Cum
+%	No. of
+Death	Cum
+%	No. of
+Death	Cum
+%	No. of
+Death	Cum
+%
+0 - 52	1	2.00	3	6.00	4	8.00	3	6.00	7	14.00
+53 - 78	4	10.00	8	22.00	11	30.00	5	16.00	9	32.00
+79 - 91	1	12.00	
+Terminal sacrifice	44	88.00	39	78.00	35	70.00	42	84.00	34	68.00
+Total	50	50	50	50	50	
+Test	All Dose Groups (T1+T2, A, B, C)	Low vs Vehicle
+Control T1+T2	Mid vs Vehicle
+Control T1+T2	High vs Vehicle
+Control T1+T2
+Dose-Response
+(Likelihood Ratio)	0.0761	0.0654	0.9226	0.0298*
+Homogeneity
+(Log-Rank)	0.0478*	0.0559	0.9226	0.0233*
+L446: #All Cum. % Cumulative Percentage except for Terminal sacrifice;
+L447: * = Significant at 5% level;
+L448: **Table 3B: Intercurrent Mortality Rate in Female Mice**
+L449: Week /
+Type of Death	Vehicle
+Control T1	Vehicle
+Control T2	60 mg/kg/day
+Low (A)	200 mg/kg/day
+Mid (B)	600 mg/kg/day
+High (C)
+No. of
+Death	Cum
+%	No. of
+Death	Cum
+%	No. of
+Death	Cum
+%	No. of
+Death	Cum
+%	No. of
+Death	Cum
+%
+0 - 52	2	4.00	4	8.00	4	8.00	7	14.00	7	14.00
+53 - 78	12	28.00	7	22.00	3	14.00	4	22.00	4	22.00
+79 - 91	1	24.00	
+Terminal sacrifice	36	72.00	39	78.00	43	86.00	38	76.00	39	78.00
+Total	50	50	50	50	50	
+Test	All Dose Groups (T1+T2, A, B, C)	Low vs Vehicle
+Control T1+T2	Mid vs Vehicle
+Control T1+T2	High vs Vehicle
+Control T1+T2
+Dose-Response
+(Likelihood Ratio)	0.8570	0.1375	0.9850	0.8639
+Homogeneity
+(Log-Rank)	0.5412	0.1512	0.9850	0.8641
+L450: #All Cum. % Cumulative Percentage except for Terminal sacrifice;
+L451: Table 4A: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Male Mice
+L452: Organ name	Tumor name	Vehicle	CB (C12)
+T1+T2	Low (A)
+60 mg	Mid (B)
+200 mg	High (C)
+600 mg
+0 mg
+T1	0 mg
+T2
+P-Trend	P-A vs C12	P-B vs C12	P-C vs C12
+Caecum	Adenocarcinoma	0/ (46)	0/ (0)	0/20 (46)	1/2 (6)	0/1 (7)	0/16 (45)
+0.4872	0.0909	NC	NC
+Heart	Carcinosarcoma, Site Of Primary Tumor Unknown	0/ (50)	0/ (0)	0/21 (50)	1/4 (15)	0/2 (8)	0/18 (50)
+0.5333	0.1600	NC	NC
+Hemolymphoret. Sys	Malignant Lymphoma 1	0/ (50)	1/ (1)	1/22 (51)	1/4 (14)	0/2 (9)	0/18 (50)
+0.7768	0.2892	1.0000	1.0000
+Malignant Lymphoma 2	1/ (50)	0/ (1)	1/22 (51)	0/3 (14)	2/3 (9)	0/18 (50)
+0.7892	1.0000	0.0291#	1.0000
+Malignant Lymphoma 3	0/ (50)	0/ (1)	0/22 (51)	0/3 (14)	1/3 (9)	0/18 (50)
+0.4565	NC	0.1200	NC
+Liver	Adenoma	1/ (50)	1/ (1)	2/23 (51)	1/4 (14)	3/4 (9)	0/18 (50)
+0.9044	0.3945	0.0128@	1.0000
+Liver	Adenoma/Carcinoma	4/ (50)	3/ (50)	7/45 (100)	4/21 (48)	11/26 (50)	9/23 (50)
+0.0163@	0.4880	0.0143@	0.0328@
+5/ (50)	6/ (50)	11/47 (100)	5/21 (48)	15/29 (50)	13/25 (50)
+Liver	Carcinoma	1/ (50)	3/ (50)	4/43 (100)	1/19 (48)	6/23 (50)	6/21 (50)
+0.0172@	0.8512	0.0757	0.0550
+L453: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L454: @ = Not statistically significant at 0.025 and 0.05 level in rare tumor, or at 0.005 and 0.01 level in common tumor for tests of dose response relationship and pairwise comparison, respectively;
+L455: NA = Not calculable.
+L456: Table 4A: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Male Mice (Continued)
+L457: Organ name	Tumor name	Vehicle	CB (C12)
+0 mg (1+2)
+P-Trend	Low (A)
+60 mg
+P-A vs C12	Mid (B)
+200 mg
+P-B vs C12	High (C)
+600 mg
+P-C vs C12
+0 mg
+T1	0 mg
+T2
+0 mg
+T1	0 mg
+T2
+Lungs	Alveolar Adenoma	1/ (50)	0/ (0)	1/22 (50)
+0.1473	0/6 (21)
+1.0000	0/3 (10)
+1.0000	3/19 (49)
+0.2488
+Alveologenic
+Carcinosarcoma	0/ (50)	0/ (0)	0/21 (50)
+0.3750	0/6 (21)
+NC	0/3 (10)
+NC	1/18 (49)
+0.4615
+Bronchiolar Adenoma	2/ (50)	0/ (0)	2/22 (50)
+0.9792	6/9 (21)
+0.0026 $	0/3 (10)
+1.0000	0/17 (49)
+1.0000
+Bronchiolar Carcinoma	0/ (50)	0/ (0)	0/21 (50)
+0.5625	1/7 (21)
+0.2500	0/3 (10)
+NC	0/17 (49)
+NC
+Bronchiolar Adenoma/
+Carcinoma	2/ (50)	0/ (0)	2/22 (50)
+0.9853	7/10 (21)
+0.0010 $	0/3 (10)
+1.0000	0/17 (49)
+1.0000
+Bronchiolo-Alveolar
+Adenoma	6/ (50)	0/ (0)	6/25 (50)
+0.9896	2/7 (21)
+0.5773	2/4 (10)
+0.3000	0/17 (49)
+1.0000
+Bronchiolo-Alveolar
+Carcinoma	1/ (50)	0/ (0)	1/22 (50)
+0.7059	2/7 (21)
+0.1360	2/4 (10)
+0.0523	1/18 (49)
+0.7038
+Bronchiolo-Alveolar
+Adenoma/ Carcinoma	7/ (50)	0/ (0)	7/25 (50)
+0.9815	4/9 (21)
+0.3070	4/5 (10)
+0.0472 @	1/18 (49)
+0.9925
+Mesent. Lymph Node	Histiocytic Sarcoma, Site Of
+Primary Tumor Unknown	1/ (48)	0/ (0)	1/21 (48)
+1.0000	0/4 (14)
+1.0000	0/2 (8)
+1.0000	0/17 (47)
+1.0000
+Spleen	Haemangioma	0/ (50)	0/ (0)	0/21 (50)
+0.4000	0/4 (15)
+NC	0/2 (9)
+NC	1/18 (50)
+0.4615
+Testes	Interstitial Cell Tumour	0/ (50)	0/ (0)	0/21 (50)
+0.5333	1/4 (15)
+0.1600	0/2 (9)
+NC	0/18 (50)
+NC
+Thyroid Glands	Follicular Cell Adenoma	0/ (50)	0/ (0)	0/21 (50)
+0.4545	0/3 (14)
+NC	1/3 (9)
+0.1250	0/17 (48)
+NC
+L458: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L459: $ = Statistically significant at 0.025 and 0.05 level in rare tumor, or at 0.005 and 0.01 level in common tumor for tests of dose response relationship and pairwise comparison, respectively;
+L460: @ = Not statistically significant at 0.025 and 0.05 level in rare tumor, or at 0.005 and 0.01 level in common tumor for tests of dose response relationship and pairwise comparison, respectively;
+L461: NA = Not calculable.
+L462: Table 4B: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Female Mice
+L463: Organ name	Tumor name	Vehicle	CB (C12)
+0 mg (1+2)
+P-Trend	Low (A)
+60 mg
+P-A vs C12	Mid (B)
+200 mg
+P-B vs C12	High (C)
+600 mg
+P-C vs C12
+0 mg
+T1	0 mg
+T2
+
+Brain	Oligodendroglioma	1/ (50)	0/ (0)	1/20 (50)
+1.0000	0/1 (7)
+1.0000	0/2 (12)
+1.0000	0/18 (50)
+1.0000
+
+Caecum	Sarcoma Metastasis, Site Of Primary Tumor Unknown	0/ (47)	0/ (0)	0/18 (47)
+0.5385	1/2 (6)
+0.1000	0/1 (10)
+NC	0/18 (48)
+NC
+
+Hemolymphoret. Sys	Malignant Lymphoma 1	0/ (50)	1/ (2)	1/20 (52)
+1.0000	0/1 (8)
+1.0000	0/2 (13)
+1.0000	0/18 (50)
+1.0000
+Malignant Lymphoma 2	4/ (50)	0/ (2)	4/22 (52)
+0.9271	1/2 (8)
+0.3804	2/4 (13)
+0.2184	1/19 (50)
+0.9649
+Malignant Lymphoma 3	1/ (50)	1/ (2)	2/21 (52)
+0.9369	1/2 (8)
+0.2490	2/4 (13)
+0.1063	0/18 (50)
+1.0000
+Malignant Lymphoma 1 2 3	5/ (50)	2/ (2)	7/24 (52)
+0.9872	2/3 (8)
+0.2503	4/6 (13)
+0.1106	1/19 (50)
+0.9949
+Liver	Adenoma	0/ (49)	0/ (50)	0/38 (99)
+0.0003 $	0/20 (50)
+NC	3/20 (50)
+0.0369 $	6/22 (50)
+0.0015 $
+Carcinoma	1/ (49)	1/ (50)	2/39 (99)
+0.0000#	0/20 (50)
+1.0000	0/18 (50)
+1.0000	15/27 (50)
+0.0000#
+Adenoma/Carcinoma	1/ (49)	1/ (50)	2/39 (99)
+0.0000#	0/20 (50)
+1.0000	3/20 (50)
+0.2096	21/31 (50)
+0.0000#
+Sarcoma, Site Of Primary Tumor Unknown	1/ (49)	3/ (50)	4/40 (99)
+1.0000	0/20 (50)
+1.0000	0/18 (50)
+1.0000	0/18 (50)
+1.0000
+
+
+Lungs	Alveolar Adenoma	3/ (50)	0/ (0)	3/21 (50)
+0.9391	0/3 (12)
+1.0000	2/3 (12)
+0.0988	0/18 (50)
+1.0000
+Bronchiolar Adenoma	0/ (50)	0/ (0)	0/19 (50)
+0.7265	2/4 (12)
+0.0237 $	0/2 (12)
+NC	0/18 (50)
+NC
+Bronchiolo-Alveolar Adenoma	1/ (50)	0/ (0)	1/20 (50)
+0.8565	2/4 (12)
+0.0613	0/2 (12)
+1.0000	0/18 (50)
+1.0000
+Bronchiolo-Alveolar Carcinoma	0/ (50)	0/ (0)	0/19 (50)
+0.3013	1/4 (12)
+0.1739	0/2 (12)
+NC	1/19 (50)
+0.5000
+Bronchiolo-Alveolar Adenoma/ Carcinoma	1/ (50)	0/ (0)	1/20 (50)
+0.7686	3/5 (12)
+0.0162 @	0/2 (12)
+1.0000	1/19 (50)
+0.7436
+L464: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L465: $ = Statistically significant at 0.025 and 0.05 level in rare tumor, or at 0.005 and 0.01 level in common tumor for tests of dose response relationship and pairwise comparison, respectively;
+L466: @ = Not statistically significant at 0.025 and 0.05 level in rare tumor, or at 0.005 and 0.01 level in common tumor for tests of dose response relationship and pairwise comparison, respectively;
+L467: NA = Not calculable.
+L468: Table 4B: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Female Mice (Continued)
+L469: Organ name	Tumor name	Vehicle	P-Trend	P-A vs C12	P-B vs C12	P-C vs C12
+0 mg	0 mg
+T1	T2
+Mammary Gland	Ductular Carcinoma	0/ (50)	0/ (0)	0/19 (50)	0/1 (7)	1/3 (13)	0/18 (50)
+0.5122	NC	0.1364	NC
+Ovaries	Cystadenoma	0/ (50)	0/ (0)	0/19 (50)	0/17 (43)	2/17 (45)	0/18 (50)
+0.5002	NC	0.2159	NC
+Granulosa/Theca Cell Tumour	0/ (50)	0/ (0)	0/19 (50)	1/17 (43)	0/16 (45)	0/18 (50)
+0.7286	0.4722	NC	NC
+Haemangioma	0/ (50)	0/ (0)	0/19 (50)	0/17 (43)	1/17 (45)	0/18 (50)
+0.4930	NC	0.4722	NC
+Haemangiosarcoma	0/ (50)	0/ (0)	0/19 (50)	0/17 (43)	0/16 (45)	1/19 (50)
+0.2676	NC	NC	0.5000
+Skin	Haemangioma/Haemangiosarcoma	0/ (50)	0/ (0)	0/19 (50)	0/17 (43)	1/17 (45)	1/19 (50)
+0.1933	NC	0.4722	0.5000
+Papillary Cystadenoma	1/ (50)	0/ (0)	1/20 (50)	1/17 (43)	1/17 (45)	0/18 (50)
+0.8156	0.7147	0.7147	1.0000
+Spleen	Teratoma	0/ (50)	0/ (0)	0/19 (50)	1/17 (43)	0/16 (45)	0/18 (50)
+0.7286	0.4722	NC	NC
+Subcutaneous Tissue	Malignant Fibrous Histiocytoma	0/ (50)	0/ (0)	0/19 (50)	0/2 (9)	0/2 (13)	1/19 (50)
+0.4524	NC	NC	0.5000
+Thymus	Haemangiosarcoma	1/ (50)	0/ (0)	1/20 (50)	0/2 (10)	0/4 (17)	0/18 (50)
+1.0000	1.0000	1.0000	1.0000
+Thymus	Basal Cell Carcinoma	0/ (3)	0/ (0)	0/1 (3)	0/0 (1)	1/2 (6)	0/0 (2)
+0.6667	NC	0.6667	NC
+Benign Thymoma	0/ (49)	0/ (0)	0/19 (49)	0/5 (16)	0/5 (18)	1/18 (49)
+Thymus	Malignant Thymoma	0/ (49)	0/ (0)	0/19 (49)	0/5 (16)	0/5 (18)	1/19 (49)
+0.3958	NC	NC	0.5000
+Benign /Malignant Thymoma	0/ (49)	0/ (0)	0/19 (49)	0/5 (16)	0/5 (18)	2/19 (49)
+0.1516	NC	NC	0.2432
+L470: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NA = Not calculable.
+L471: **Table 4B: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Female Mice (Continued)**
+L472: Organ name	Tumor name	Vehicle	CB (C12)
+0 mg (1+2)	Low (A)
+60 mg	Mid (B)
+200 mg	High (C)
+600 mg
+0 mg
+T1	0 mg
+T2
+P-Trend	P-A vs C12	P-B vs C12	P-C vs C12
+Kidneys	Tubular Cell Adenoma	0/ (50)	0/ (0)	0/19 (50)	0/3 (12)	0/2 (13)	1/19 (50)
+0.4419	NC	NC	0.5000
+Uterus	Adenocarcinoma	0/ (50)	0/ (0)	0/19 (50)	0/14 (37)	0/13 (37)	1/19 (50)
+0.2923	NC	NC	0.5000
+Endometrial Polyp	2/ (50)	0/ (0)	2/20 (50)	2/15 (37)	1/13 (37)	1/19 (50)
+0.7621	0.5809	0.7911	0.8753
+Endometrial Stromal Sarcoma	3/ (50)	0/ (0)	3/21 (50)	2/15 (37)	2/14 (37)	3/20 (50)
+0.4632	0.7079	NC	0.6445
+Endometrial Polyp/
+Endometrial Stromal Sarcoma	5/ (50)	0/ (0)	5/22 (50)	4/16 (37)	3/14 (37)	4/20 (50)
+0.6208	0.5837	0.6862	0.7211
+Haemangioma	0/ (50)	0/ (0)	0/19 (50)	1/15 (37)	0/13 (37)	1/19 (50)
+0.3277	0.4412	NC	0.5000
+Leiomyofibroma	1/ (50)	0/ (0)	1/20 (50)	0/14 (37)	1/13 (37)	0/18 (50)
+0.7303	1.0000	0.6402	1.0000
+Leiomyoma	1/ (50)	0/ (0)	1/20 (50)	0/14 (37)	0/13 (37)	0/18 (50)
+1.0000	1.0000	1.0000	1.0000
+Leiomyosarcoma	1/ (50)	0/ (0)	1/20 (50)	0/14 (37)	1/13 (37)	1/19 (50)
+0.4127	1.0000	0.6402	0.7436
+Reticulum Cell Sarcoma	0/ (50)	0/ (0)	0/19 (50)	1/15 (37)	1/13 (37)	0/18 (50)
+0.6115	0.4412	0.4063	NC
+Vagina	Epidermal Cyst	1/ (48)	0/ (0)	1/19 (48)	0/1 (7)	0/2 (11)	0/18 (49)
+1.0000	1.0000	1.0000	1.0000
+L473: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L474: NA = Not calculable.
+L475: Figure 1A: Kaplan-Meier Survival Functions for Male Rats
+L476: Figure 1B: Kaplan-Meier Survival Functions for Female Rats
+L477: Figure 2A: Kaplan-Meier Survival Functions for Male Mice
+L478: Figure 2B: Kaplan-Meier Survival Functions for Female Mice
+L479: ## 6. References
+L480: Bailer, A.J, Portier, C.J. (1988). "Effects of treatment-induced mortality and tumor-induced mortality on tests for carcinogenicity in small samples." *Biometrics*, 44, 417-431.
+
+Bieler, G.S. and Williams, R.L. (1993). "Ratio estimates, the delta method, and quantal response tests for increased carcinogenicity". *Biometrics* 49, 793-801.
+
+Guidance for Industry. Statistical Aspects of the Design, Analysis, and Interpretation of Chronic Rodent Carcinogenicity Studies of Pharmaceuticals (Draft Guidance). U.S. Department of Health and Human Services, Food and Drug Administration, Center for Drug Evaluation and Research (CDER). May 2001.
+
+Haseman, J. (1983). "A re-examination of false-positive rates for carcinogenesis studies", *Fundamental and Applied Toxicology*, 3: 334-339.
+
+Lin K.K. and Rahman A.M. (1998) "Overall false positive rates in tests for linear trend in tumor incidence in animal carcinogenicity studies of new drugs", *Journal of Biopharmaceutical Statistics*, 8(1), 1-15.
+
+Peto, R., M.C. Pike, N.E. Day, R.G. Gray, P.N. Lee, S. Parish, J. Peto, Richards, and J.Wahrendorf. (1980) "Guidelines for sample sensitive significance test for carcinogenic effects in long-term animal experiments", Long term and short term screening assays for carcinogens: A critical appraisal, International agency for research against cancer monographs, *Annex to supplement, World Health Organization, Geneva*, 311-426.
+
+Rahman, A.M., and Lin, K.K. (2008), "A Comparison of False Positive Rates of Peto and Poly-3 Methods for Long-Term Carcinogenicity Data Analysis Using Multiple Comparison Adjustment Method Suggested by Lin and Rahman", *Journal of Biopharmaceutical Statistics*, 18:5, 849-858.
+
+Rahman, A.M., and Lin, K.K. (2009), "Design and Analysis of Chronic Carcinogenicity Studies of Pharmaceuticals in Rodents", in "Design and Analysis of Clinical Trials with Time-to-Event Endpoints", K.E Peace, Editor, Chapman &amp; Hall/CRC, Taylor &amp; Francis Group, LLC, Boca Raton, FL, London, and New York.
+L481: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L482: /s/
+L483: HEPEI CHEN
+L484: 12/13/2016
+L485: KARL K LIN
+L486: 12/14/2016
+L487: Concur with review
+L488: Figure 1 is a plot titled "France (observed)" showing the Cumulative Distribution Function (CDF) of Change from baseline for two treatment groups: Placebo (solid green line) and Treatment (dashed blue line). The X-axis represents Change from baseline (0 to 150+), and the Y-axis represents the Cumulative Distribution Function (0.0 to 1.0). The Placebo group shows a CDF that rises slowly, reaching 1.0 around 100. The Treatment group shows a CDF that rises sharply, reaching 1.0 around 20. The two distributions are clearly separated, indicating a significant difference in the primary response variable between the groups when using observed data.
+Cumulative Distribution Functions of Two Treatment Groups (Observed) for France. The Placebo group (solid green line) and Treatment group (dashed blue line) show good separation, with the Treatment group having a higher cumulative distribution function across the range of change from baseline.
+L489: Figure 2 is a plot titled "France (Imputed)" showing the Cumulative Distribution Function (CDF) of Change from baseline for two treatment groups: Placebo (solid green line) and Treatment (dashed blue line). The X-axis represents Change from baseline (0 to 150+), and the Y-axis represents the Cumulative Distribution Function (0.0 to 1.0). The Placebo group shows a CDF that rises slowly, reaching 1.0 around 100. The Treatment group shows a CDF that rises sharply, reaching 1.0 around 20. The two distributions are clearly separated, indicating a significant difference in the primary response variable between the groups when using imputed data.
+Cumulative Distribution Functions of Two Treatment Groups (Imputed) for France. The Placebo group (solid green line) and Treatment group (dashed blue line) show good separation, with the Treatment group having a higher cumulative distribution function across the range of change from baseline.
+L490: Italy (observed)
+Y-axis: Cumulative Distribution Function (0.0 to 1.0). X-axis: Change from baseline (0 to 30).
+Legend: Placebo (Green line), Treatment (Blue dashed line).
+The observed cumulative distribution functions show that the Treatment group generally achieves higher cumulative distribution values (better outcomes) at lower change from baseline values compared to the Placebo group.
+L491: Italy (Imputed)
+Y-axis: Cumulative Distribution Function (0.0 to 1.0). X-axis: Change from baseline (0 to 100).
+Legend: Placebo (Green line), Treatment (Blue dashed line).
+The imputed cumulative distribution functions show that the Treatment group generally achieves higher cumulative distribution values (better outcomes) at lower change from baseline values compared to the Placebo group.
+L492: Product-Limit Survival Estimates
++ Censored
+Survival Probability
+Survival time (week)
+Dose group
+0 mg/kg/day | Vehicle Control	10 mg/kg/day | Low
+30 mg/kg/day | Mid	100 mg/kg/day | High
+L493: Product-Limit Survival Estimates
+Survival Probability
++ Censored
+Survival time (week)
+Dose group
+0 mg/kg/day | Vehicle Control	10 mg/kg/day | Low
+30 mg/kg/day | Mid	100 mg/kg/day | High
+L494: Product-Limit Survival Estimates
++ Censored
+Dose group
+0 mg/kg/day | Vehicle Control	10 mg/kg/day | Low
+30 mg/kg/day | Mid	90 mg/kg/day | High
+Survival Probability
+Survival time (week)
+L495: Product-Limit Survival Estimates
++ Censored
+Survival Probability
+Survival time (week)
+Dose group
+0 mg/kg/day | Vehicle Control	10 mg/kg/day | Low
+30 mg/kg/day | Mid	90 mg/kg/day | High

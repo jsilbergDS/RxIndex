@@ -1,0 +1,18 @@
+{
+  "app": "NDA022059",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 343)",
+  "_raw": "Analyzing the card for quality issues.\n\nLet me check each field against citations and flags.\n\n**Automated flag \u2014 uncited_numbers \"3\" in key_safety:** This refers to \"Grade 3 13%\". The citation \"Diarrhea\\t65\\t13\\t1\\t40\\t10\\t0\" supports the 65%, 13%, and 40%. The \"3\" is part of \"Grade 3\" which describ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "3",
+        "text": "Most common (>20%) adverse reactions were diarrhea, palmar-plantar erythrodysest"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

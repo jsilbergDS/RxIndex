@@ -1,0 +1,42 @@
+{
+  "app": "NDA207318",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "low",
+      "issue": "False-positive flag: '6' in 'Week 6' derives from 'six-week' trial description in the design citation; not an uncited efficacy number."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False-positive flag: '34' refers to the 34 mg dose, which is excluded from uncited-number checks."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: '3' refers to 'Phase 3', which is supported by the pivotal_trials[0].phase citation."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "6",
+        "text": "Change from baseline to Week 6 on the 9-item Schedule for the Assessment of Posi"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "34",
+        "text": "N=199 randomized (placebo 94, pimavanserin 34 mg 105)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Pimavanserin, a New Molecular Entity, was granted Breakthrough Status prior to s"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

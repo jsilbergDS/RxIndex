@@ -1,0 +1,168 @@
+{
+  "app": "NDA212862",
+  "drug": "PRETOMANID",
+  "docs_read": [
+    {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "405a7482-4f6a-5cc2-a325-29a867eb3302"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "a67ff445-db67-52bb-90d6-0b502c59f77d"
+    },
+    {
+      "doc_type": "Lbl",
+      "doc_id": "dea48fce-6b0d-5016-a8a4-a9f9a2bd6e38"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Antimicrobial Drugs Advisory Committee (AMDAC)",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "a67ff445-db67-52bb-90d6-0b502c59f77d",
+      "line": 26,
+      "quote": "Antimicrobial Drug Advisory Committee (AMDAC) Meeting endorsed the approval of pretomanid as part of a regimen to treat resistant TB in a 14-4 vote."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "a67ff445-db67-52bb-90d6-0b502c59f77d",
+      "found_lines": [
+        26
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "June 6, 2019",
+    "quote": {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "405a7482-4f6a-5cc2-a325-29a867eb3302",
+      "line": 1674,
+      "quote": "An Advisory Committee meeting was held on June 6th, 2019 to discuss NDA 212862."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "405a7482-4f6a-5cc2-a325-29a867eb3302",
+      "found_lines": [
+        1674
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 14 Yes to 4 No that the applicant had provided substantial evidence of effectiveness and sufficient evidence of safety of pretomanid as part of a combination regimen with bedaquiline and linezolid.",
+    "quote": {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "405a7482-4f6a-5cc2-a325-29a867eb3302",
+      "line": 1678,
+      "quote": "Yes: 14, No: 4"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "405a7482-4f6a-5cc2-a325-29a867eb3302",
+      "found_lines": [
+        1678
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee advised that the labeling should require complete blood count monitoring at baseline and during therapy because of hematopoietic cytopenias (myelosuppression) seen with the regimen.",
+      "change": "The approved label directs that complete blood counts be monitored at baseline, at two weeks, and then monthly, with linezolid dose reduction/interruption for myelosuppression.",
+      "category": "Safety / Labeling monitoring",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "405a7482-4f6a-5cc2-a325-29a867eb3302",
+        "line": 1683,
+        "quote": "the Committee advised that the labeling for the proposed regimen (pretomanid, bedaquiline, and linezolid) should include complete blood counts and liver function tests at baseline and monitoring during therapy due to reports of hematopoietic cytopenias and hepatotoxicity",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "405a7482-4f6a-5cc2-a325-29a867eb3302",
+          "found_lines": [
+            1683
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "dea48fce-6b0d-5016-a8a4-a9f9a2bd6e38",
+        "line": 62,
+        "quote": "Complete blood counts should be monitored at a minimum at baseline, at two weeks, and then monthly in patients receiving linezolid as part of the combination regimen of Pretomanid Tablets, bedaquiline, and linezolid",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "dea48fce-6b0d-5016-a8a4-a9f9a2bd6e38",
+          "found_lines": [
+            62
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee advised that the labeling should require liver function test monitoring at baseline and during therapy because of hepatotoxicity seen with the regimen.",
+      "change": "The approved label adds a Hepatotoxicity warning directing monitoring of liver-related laboratory tests and interruption of the entire regimen if liver injury occurs.",
+      "category": "Safety / Labeling monitoring",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "405a7482-4f6a-5cc2-a325-29a867eb3302",
+        "line": 1683,
+        "quote": "the Committee advised that the labeling for the proposed regimen (pretomanid, bedaquiline, and linezolid) should include complete blood counts and liver function tests at baseline and monitoring during therapy due to reports of hematopoietic cytopenias and hepatotoxicity",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "405a7482-4f6a-5cc2-a325-29a867eb3302",
+          "found_lines": [
+            1683
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "dea48fce-6b0d-5016-a8a4-a9f9a2bd6e38",
+        "line": 7,
+        "quote": "Hepatic adverse reactions were reported with the use of the combination regimen of Pretomanid Tablets, bedaquiline, and linezolid. Monitor symptoms and signs and liver-related laboratory tests. Interrupt treatment with the entire regimen if evidence of liver injury occurs.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "dea48fce-6b0d-5016-a8a4-a9f9a2bd6e38",
+          "found_lines": [
+            7
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members who voted 'No' stated the applicant had not provided clinical data supporting the contribution of pretomanid to the regimen, and the Nix-TB trial lacked participants, diversity, and statistical rigor, so the clinical evidence base was limited.",
+      "change": "Pretomanid was approved under the Limited Population pathway, with the indication stating approval is based on limited clinical safety and efficacy data and restricting use to a limited and specific population.",
+      "category": "Indication / Limited population",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "405a7482-4f6a-5cc2-a325-29a867eb3302",
+        "line": 1681,
+        "quote": "stated that the applicant had not provided clinical data supporting the contribution of pretomanid to the regimen for the proposed indication. These same Committee members agreed that the Nix-TB trial was lacking in number of participants, diversity, and statistical rigor.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "405a7482-4f6a-5cc2-a325-29a867eb3302",
+          "found_lines": [
+            1681
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "dea48fce-6b0d-5016-a8a4-a9f9a2bd6e38",
+        "line": 12,
+        "quote": "Approval of this indication is based on limited clinical safety and efficacy data. This drug is indicated for use in a limited and specific population of patients.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "dea48fce-6b0d-5016-a8a4-a9f9a2bd6e38",
+          "found_lines": [
+            12,
+            35
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An FDA Antimicrobial Drugs Advisory Committee (AMDAC) meeting was held on June 6, 2019 for NDA 212862 (pretomanid), where the committee voted 14 Yes to 4 No that the applicant had provided substantial evidence of effectiveness and sufficient evidence of safety of pretomanid as part of the bedaquiline/linezolid (BPaL) regimen. Committee members stressed the limited clinical evidence and urged strict safety monitoring, and specifically advised that labeling require complete blood count and liver function test monitoring at baseline and during therapy for myelosuppression and hepatotoxicity. The approved label carries Hepatotoxicity and Myelosuppression warnings with the recommended monitoring, and the drug was approved via the Limited Population pathway noting approval based on limited clinical data; the review documents do not explicitly attribute these changes to the AC, so the linkages are marked inferred."
+}

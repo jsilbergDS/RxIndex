@@ -1,0 +1,32 @@
+{
+  "app": "NDA208114",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: '2005' is part of the study ID 'Study 2005-01' and should be excluded, not a genuine efficacy/safety number."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: '01' is part of the study ID 'Study 2005-01' and should be excluded, not a genuine efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "2005",
+        "text": "NDA 208114 (received July 31, 2015) was reviewed under priority review with an o"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "01",
+        "text": "NDA 208114 (received July 31, 2015) was reviewed under priority review with an o"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

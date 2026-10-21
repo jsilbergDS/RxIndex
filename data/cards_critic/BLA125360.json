@@ -1,0 +1,42 @@
+{
+  "app": "BLA125360",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG false positive: numbers '120' and '240' are doses supported by the design citation quote ('initial XEOMIN doses of 120 Units and 240 Units') and should be excluded as doses."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG false positive: numbers '30' and '2010' are part of the approval date 'July 30, 2010' (a date), which is supported by citation and should be excluded."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "120",
+        "text": "Phase 3 placebo-controlled cervical dystonia trial (120 U and 240 U vs placebo)"
+      },
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "240",
+        "text": "Phase 3 placebo-controlled cervical dystonia trial (120 U and 240 U vs placebo)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "30",
+        "text": "Standard BLA under section 351 of the Public Health Service Act, received July 2"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2010",
+        "text": "Standard BLA under section 351 of the Public Health Service Act, received July 2"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

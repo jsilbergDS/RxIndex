@@ -1,0 +1,42 @@
+{
+  "app": "BLA125418",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "medium",
+      "issue": "Value 'Phase 3 registration trial' is supported only by a citation about GI perforation 'across three Phase 3 placebo-controlled studies' (colorectal, pancreatic, lung); the quote does not establish that VELOUR itself is a Phase 3 registration trial."
+    },
+    {
+      "field": "post_marketing[2].requirement",
+      "severity": "medium",
+      "issue": "States the PAS deadline 'December 30, 2016' but the citation quote is truncated before that date for drug product; the year 2016 is uncited (automated flag confirms uncited '2016')."
+    },
+    {
+      "field": "post_marketing[1].requirement",
+      "severity": "low",
+      "issue": "Automated flag cites uncited number '30' (CBE-30); the citation quote is truncated and does not contain '30 Days,' so the CBE-30 mechanism is not fully supported by the quote."
+    },
+    {
+      "field": "approval_program.priority_review",
+      "severity": "medium",
+      "issue": "Marked present=false, but the cited submission date (Feb 3, 2012) and PDUFA goal date (Aug 4, 2012) reflect a ~6-month clock consistent with priority review; the card neither confirms nor rules this out, a likely completeness gap."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "30",
+        "text": "Add conductivity testing to the drug product (DP) release specification, with an"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "2016",
+        "text": "Re-evaluate the release and shelf-life specifications for ziv-aflibercept drug p"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

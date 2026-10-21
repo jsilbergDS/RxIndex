@@ -1,0 +1,37 @@
+{
+  "app": "NDA213969",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Result states 27 patients in ProLon1 contributing to survival analysis while the trial's n field says 28 treated; this reflects the citation (27 in analysis vs 28 enrolled) and is not an error but should be noted for consistency."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Uncited-number flags for '18', '2011', and '2' are false positives: they are fragments of dates (October 17, 2018; April 18, 2011) that are supported by the summary/orphan citations."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "18",
+        "text": "Lonafarnib received rare pediatric disease designation (October 17, 2018), break"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2011",
+        "text": "Lonafarnib received rare pediatric disease designation (October 17, 2018), break"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "Lonafarnib received rare pediatric disease designation (October 17, 2018), break"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

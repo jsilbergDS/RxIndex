@@ -1,0 +1,116 @@
+{
+  "app": "BLA125249",
+  "drug": "ARCALYST",
+  "docs_read": [
+    {
+      "doc_type": "ApprovalPackage (s049: ApprLtr+Label+CDTL+ClinR+StatR+ClinPharmR)",
+      "doc_id": "ba0a13b3-e23c-5833-aa77-bce2a606b0eb"
+    },
+    {
+      "doc_type": "ApprovalLetter (2008 s000)",
+      "doc_id": "68d44d60-ed73-5eac-8c4e-49897deb22c4"
+    },
+    {
+      "doc_type": "Label (2008)",
+      "doc_id": "5a1301d4-d1f5-5fe0-8c42-4acac97b791a"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "No advisory committee was convened for this application (BLA 125249/S-049, recurrent pericarditis). The review documents do, however, describe a prior Arthritis Advisory Committee (AAC) meeting held for a separate, non-approved gout-flare BLA supplement.",
+    "quote": {
+      "doc_type": "ClinicalReview",
+      "doc_id": "ba0a13b3-e23c-5833-aa77-bce2a606b0eb",
+      "line": 646,
+      "quote": "A meeting was convened with the Arthritis Advisory Committee (AAC) on 08 MAY 2012 to evaluate the benefit/risk profile from the BLA supplement."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "ba0a13b3-e23c-5833-aa77-bce2a606b0eb",
+      "found_lines": [
+        646
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "No meeting for this approval. The prior AAC meeting (for the gout-flare supplement, not this pericarditis approval) was held 08 MAY 2012.",
+    "quote": {
+      "doc_type": "ClinicalReview",
+      "doc_id": "ba0a13b3-e23c-5833-aa77-bce2a606b0eb",
+      "line": 646,
+      "quote": "A meeting was convened with the Arthritis Advisory Committee (AAC) on 08 MAY 2012 to evaluate the benefit/risk profile from the BLA supplement."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "ba0a13b3-e23c-5833-aa77-bce2a606b0eb",
+      "found_lines": [
+        646
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "No recommendation for this approval (no AC convened). At the 2012 AAC for the gout-flare supplement, the committee voted 11-0 against approval; that gout supplement received a complete response (non-approval). This pericarditis supplement (S-049) was approved without an AC.",
+    "quote": {
+      "doc_type": "ClinicalReview",
+      "doc_id": "ba0a13b3-e23c-5833-aa77-bce2a606b0eb",
+      "line": 646,
+      "quote": "The committee voted 11-0 against approval."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "ba0a13b3-e23c-5833-aa77-bce2a606b0eb",
+      "found_lines": [
+        646
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "At the 2012 Arthritis Advisory Committee (held for the separate, non-approved gout-flare supplement), members judged the small numerical increase in cancer events in the rilonacept arm to be real, raising concern that the drug's immunosuppressive action could increase malignancy risk.",
+      "change": "A malignancy warning was placed in the ARCALYST product labeling; the clinical review states this warning adequately/sufficiently addresses the malignancy risk, and the warning carries over into this pericarditis approval's label.",
+      "category": "Safety / Malignancy warning in labeling",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ClinicalReview",
+        "doc_id": "ba0a13b3-e23c-5833-aa77-bce2a606b0eb",
+        "line": 603,
+        "quote": "there was a small numerical increase in cancer events in the rilonacept arm (0.4%) compared to placebo (0%) considered real by the Arthritis Advisory Committee.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "ba0a13b3-e23c-5833-aa77-bce2a606b0eb",
+          "found_lines": [
+            603
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ClinicalReview",
+        "doc_id": "ba0a13b3-e23c-5833-aa77-bce2a606b0eb",
+        "line": 1013,
+        "quote": "a warning was placed in the product label that adequately addresses this risk.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "ba0a13b3-e23c-5833-aa77-bce2a606b0eb",
+          "found_lines": [
+            1013
+          ]
+        }
+      }
+    }
+  ],
+  "no_adcom_quote": {
+    "doc_type": "CDTL",
+    "doc_id": "ba0a13b3-e23c-5833-aa77-bce2a606b0eb",
+    "line": 1369,
+    "quote": "There was no Advisory Committee meeting for this efficacy supplement because it did not raise any significant safety or efficacy issues."
+  },
+  "summary": "No advisory committee was convened for BLA 125249/S-049 (ARCALYST/rilonacept for recurrent pericarditis, approved 18 Mar 2021); the review states it raised no significant safety or efficacy issues (also noted plainly as 'There was no Advisory Committee'). The review documents do describe a prior Arthritis Advisory Committee meeting (08 May 2012) convened for a separate gout-flare supplement, which voted 11-0 against approval of that (non-approved) indication. That committee judged a small malignancy signal to be real, and the review ties that assessment to a malignancy warning placed in the product label, which persists in this pericarditis approval's labeling.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "ba0a13b3-e23c-5833-aa77-bce2a606b0eb",
+    "found_lines": [
+      1369
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "app": "NDA203585",
+  "drug": "SYNRIBO",
+  "docs_read": [
+    {
+      "doc_type": "CrossR",
+      "doc_id": "374160fe-fb70-58c1-ab66-965ab2659772"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "36a06e3b-02e9-5501-8c58-07fea096e6c5"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "60aa8de1-75d4-5a76-be25-9f7e2a7a0826"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "f492a17d-6bbf-5559-ae69-f2290c72d559"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Oncologic Drugs Advisory Committee (ODAC) \u2014 convened not for this NDA (203585) but for the predecessor application NDA 22374 (same drug, omacetaxine mepesuccinate) submitted by ChemGenex.",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "374160fe-fb70-58c1-ab66-965ab2659772",
+      "line": 18,
+      "quote": "This product was presented at the Oncologic Drugs Advisory Committee (ODAC) on March 22, 2010."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "374160fe-fb70-58c1-ab66-965ab2659772",
+      "found_lines": [
+        18
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "March 22, 2010 (the ODAC meeting for the predecessor NDA 22374, not for NDA 203585).",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "374160fe-fb70-58c1-ab66-965ab2659772",
+      "line": 18,
+      "quote": "This product was presented at the Oncologic Drugs Advisory Committee (ODAC) on March 22, 2010."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "374160fe-fb70-58c1-ab66-965ab2659772",
+      "found_lines": [
+        18
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "On the predecessor NDA 22374, ODAC voted 7 'Yes' to 1 'No' that a well-characterized in vitro diagnostic to identify T315I-mutation patients should be required and reviewed by FDA before approval of omacetaxine.",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "374160fe-fb70-58c1-ab66-965ab2659772",
+      "line": 19,
+      "quote": "The committee vote was 7 \"Yes\" to 1 \"No\"."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "374160fe-fb70-58c1-ab66-965ab2659772",
+      "found_lines": [
+        19
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "ODAC (on the predecessor NDA 22374) raised that the proposed T315I-mutation indication depended on a companion diagnostic, but no reliable/validated in vitro test existed to identify the intended T315I-mutation population; the committee voted 7-1 that such a diagnostic should be required before approval.",
+      "change": "The T315I-mutation-based indication was not pursued. NDA 22374 received a Complete Response letter and was withdrawn; the drug was resubmitted and approved under NDA 203585 for a broader population defined by resistance/intolerance to prior TKIs (third-line setting) rather than by T315I mutation status, removing the companion-diagnostic dependency.",
+      "category": "Indication / population definition (companion diagnostic)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "374160fe-fb70-58c1-ab66-965ab2659772",
+        "line": 18,
+        "quote": "The ODAC discussion focused on the lack of a companion diagnostic to identify the trial population/intended patient population with the Bcr-Abl T315I mutation (for the trial and after approval).",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "374160fe-fb70-58c1-ab66-965ab2659772",
+          "found_lines": [
+            18
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MedR",
+        "doc_id": "60aa8de1-75d4-5a76-be25-9f7e2a7a0826",
+        "line": 65,
+        "quote": "NDA 22347 received a Complete Response letter in April of 2010 on the basis that the intended patient population was not able to be adequately identified given the lack of a reliable test for the determination of the gene mutation status",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "60aa8de1-75d4-5a76-be25-9f7e2a7a0826",
+          "found_lines": [
+            65
+          ]
+        }
+      }
+    }
+  ],
+  "no_adcom_quote": {
+    "doc_type": "CrossR",
+    "doc_id": "374160fe-fb70-58c1-ab66-965ab2659772",
+    "line": 198,
+    "quote": "No Advisory Committee meeting was held for this application. As previously discussed, the application was brought to advisory committee in 2010 for the initial NDA submission by Chemgenex."
+  },
+  "summary": "No advisory committee meeting was held for NDA 203585 itself. However, the same drug (omacetaxine mepesuccinate) had been presented to the Oncologic Drugs Advisory Committee (ODAC) on March 22, 2010 under the predecessor NDA 22374, where the committee voted 7-1 that a validated companion diagnostic should be required to identify the proposed T315I-mutation population. That concern led to a Complete Response letter and withdrawal of NDA 22374; the application was subsequently reformulated (per a June 30, 2010 pre-NDA meeting) and approved under NDA 203585 for a resistance/intolerance-to-prior-TKI (third-line) population not defined by the T315I mutation, which removed the companion-diagnostic dependency that ODAC had flagged.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "374160fe-fb70-58c1-ab66-965ab2659772",
+    "found_lines": [
+      198
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "app": "NDA206038",
+  "drug": "ORKAMBI",
+  "docs_read": [
+    {
+      "doc_type": "CrossR",
+      "doc_id": "d0621d7d-758c-55c5-bec2-1ae65edf0d2d"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "8bda614e-6b3d-5096-9808-49f0404ef320"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "8f33b078-f27e-52f2-9d19-eed153a48d67"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "cd859340-a3cd-562f-b6ad-e86c4e28dee5"
+    },
+    {
+      "doc_type": "LBL",
+      "doc_id": "31eb72b8-8d8d-5f8e-ae53-4d71947dc421"
+    },
+    {
+      "doc_type": "Approv",
+      "doc_id": "cdebd042-da30-5d89-bdf3-80968df46525"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Pulmonary-Allergy Drugs Advisory Committee (PADAC)",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "d0621d7d-758c-55c5-bec2-1ae65edf0d2d",
+      "line": 216,
+      "quote": "A Pulmonary-Allergy Advisory Committee (PADAC) meeting was held on May 12, 2015, to discuss this application for LUM/IVA as a treatment of CF in patients 12 years of age and older who are homozygous for the"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "d0621d7d-758c-55c5-bec2-1ae65edf0d2d",
+      "found_lines": [
+        216
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "May 12, 2015",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "d0621d7d-758c-55c5-bec2-1ae65edf0d2d",
+      "line": 216,
+      "quote": "A Pulmonary-Allergy Advisory Committee (PADAC) meeting was held on May 12, 2015, to discuss this application for LUM/IVA as a treatment of CF in patients 12 years of age and older who are homozygous for the"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "d0621d7d-758c-55c5-bec2-1ae65edf0d2d",
+      "found_lines": [
+        216
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 12 to 1 in favor of approval of Orkambi (LUM 400 mg/IVA 250 mg FDC, twice daily) in CF patients homozygous for the F508del mutation.",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "cd859340-a3cd-562f-b6ad-e86c4e28dee5",
+      "line": 34,
+      "quote": "The committee voted 12 to 1 in favor of approval of Orkambi, 400mg/250mg FDC, administered twice daily in patients with CF homozygous for the F508del mutation in the CFTR gene."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "cd859340-a3cd-562f-b6ad-e86c4e28dee5",
+      "found_lines": [
+        34
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee discussed hepatic (liver) and respiratory safety concerns with LUM/IVA, commenting that these concerns could be managed by monitoring transaminases and pulmonary function.",
+      "change": "The approved ORKAMBI label includes a liver-related Warning (5.2) recommending that transaminases (ALT, AST) and bilirubin be assessed before initiation, every 3 months during the first year of treatment, and annually thereafter.",
+      "category": "Safety / Liver monitoring (labeling)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "d0621d7d-758c-55c5-bec2-1ae65edf0d2d",
+        "line": 231,
+        "quote": "Committee members commented that the hepatic and respiratory related safety concerns could be managed by monitoring transaminases and pulmonary function.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "d0621d7d-758c-55c5-bec2-1ae65edf0d2d",
+          "found_lines": [
+            231
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "LBL",
+        "doc_id": "31eb72b8-8d8d-5f8e-ae53-4d71947dc421",
+        "line": 105,
+        "quote": "It is recommended that ALT, AST, and bilirubin be assessed prior to initiating ORKAMBI, every 3 months during the first year of treatment, and annually thereafter. For patients with a history of ALT, AST, or bilirubin elevations, more frequent monitoring should be considered. Patients who develop increased ALT, AST, or bilirubin should be closely monitored until the abnormalities resolve.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "31eb72b8-8d8d-5f8e-ae53-4d71947dc421",
+          "found_lines": [
+            105
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "A Pulmonary-Allergy Drugs Advisory Committee (PADAC) met on May 12, 2015 and voted 12 to 1 to recommend approval of Orkambi (lumacaftor/ivacaftor FDC) for CF patients 12 years and older homozygous for the F508del mutation. The committee's principal concern was that, because the Phase 3 program lacked an ivacaftor-monotherapy arm, the contribution of lumacaftor to the combination could not be established; however this concern did not change Orkambi's approval, and the FDA documents frame it only as guidance that future CF combination programs should evaluate each component's contribution (ODMemo L92, L96). The committee judged the hepatic/respiratory safety concerns manageable by monitoring, consistent with the approved label's transaminase-monitoring Warning, but the reviews do not explicitly state the label monitoring was added because of the AC, so that linkage is inferred rather than stated."
+}

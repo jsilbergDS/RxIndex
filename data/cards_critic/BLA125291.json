@@ -1,0 +1,33 @@
+{
+  "app": "BLA125291",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 310)",
+  "_raw": "Looking at the card, let me check each component systematically.\n\n**Automated flags:**\n- priority_review basis \"2000\" \u2014 part of \"Lumizyme 2000 L\" product name; this is a product identifier, not an efficacy/safety number \u2192 false positive.\n- summary \"30\" (May 30), \"27\" (Feb 27), \"2009\" \u2014 all dates (Ma",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/priority_review/basis",
+        "number": "2000",
+        "text": "The original BLA (Lumizyme 2000 L) was granted a priority review."
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "30",
+        "text": "The original BLA for Lumizyme 2000 L (submitted May 30, 2008) was granted priori"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "27",
+        "text": "The original BLA for Lumizyme 2000 L (submitted May 30, 2008) was granted priori"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2009",
+        "text": "The original BLA for Lumizyme 2000 L (submitted May 30, 2008) was granted priori"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

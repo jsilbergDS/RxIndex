@@ -1,0 +1,23 @@
+{
+  "app": "NDA205739",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 312)",
+  "_raw": "Analyzing the card for quality issues.\n\nLet me work through the flags and fields systematically.\n\n**Automated flags:**\n- `result` \"0.00\": The citation says Veltassa group had median change of \"0 mEq/L\". The card writes \"0.00 mEq/L\" \u2014 this is the same value, just formatting. Low-severity false positi",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.00",
+        "text": "Part A: overall mean change in serum potassium from baseline to Week 4 was -1.01"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "205739",
+        "text": "Veltassa received a standard (full) approval via NDA 205739 submitted October 21"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

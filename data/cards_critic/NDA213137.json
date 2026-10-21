@@ -1,0 +1,28 @@
+{
+  "app": "NDA213137",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting value: line 1 column 1 (char 0)",
+  "_raw": "<think>\nLet me analyze this card carefully.\n\n**Automated flags:**\n\n1. `uncited_numbers`: \n   - endpoint \"24\" (Week 24) - the endpoint citation says \"proportion of patients achieving change from baseline Hb (CFB) levels \u2265 1 g/dL\" but doesn't mention Week 24. However the result citation and other plac",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "24",
+        "text": "Hemoglobin response rate, defined as the proportion of patients with a hemoglobi"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "1500",
+        "text": "N=274 (voxelotor 1500 mg N=90, voxelotor 900 mg N=92, placebo N=92)"
+      },
+      {
+        "field": "approval_program/accelerated_approval/surrogate_endpoint",
+        "number": "24",
+        "text": "Increase in hemoglobin (Hb) \u2014 hemoglobin response rate (>1 g/dL rise from baseli"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

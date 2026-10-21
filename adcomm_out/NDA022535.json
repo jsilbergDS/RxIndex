@@ -1,0 +1,111 @@
+{
+  "app": "NDA022535",
+  "drug": "ESBRIET",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "813d0d49-e71a-5ba1-b4e5-aa007e1a6c90"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "f82f34e1-7f70-5ad8-a24c-50cf5d68190d"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "a6058c0c-21b2-5ef9-8439-a04aa0cfb3f3"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "56f91c97-ae77-5555-9030-8a7c3e5fc32c"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "7c545f75-cf15-5d9b-bba6-938330757b66"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Pulmonary-Allergy Drugs Advisory Committee (PADAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "813d0d49-e71a-5ba1-b4e5-aa007e1a6c90",
+      "line": 91,
+      "quote": "A Pulmonary-Allergy Drugs Advisory Committee (PADAC) meeting was held on March 9, 2010,"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "813d0d49-e71a-5ba1-b4e5-aa007e1a6c90",
+      "found_lines": [
+        91
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "March 9, 2010 (held during the original/first review cycle; no repeat AdComm was convened for the 2014 approval cycle)",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "a6058c0c-21b2-5ef9-8439-a04aa0cfb3f3",
+      "line": 51,
+      "quote": "A Pulmonary Allergy Drugs Advisory Committee (PADAC) meeting was held March 9, 2010 during the original review cycle."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "a6058c0c-21b2-5ef9-8439-a04aa0cfb3f3",
+      "found_lines": [
+        51
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee was split on efficacy (7 yes, 5 no), found safety adequate (9 yes, 3 no), and voted 9 yes / 3 no in favor of approval. FDA did NOT follow the approval vote in the first cycle: the Division issued a Complete Response Letter for lack of demonstrated efficacy. The drug was ultimately approved in 2014 after a third study (Study 016).",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "813d0d49-e71a-5ba1-b4e5-aa007e1a6c90",
+      "line": 92,
+      "quote": "The committee was split regarding whether there was substantial evidence of efficacy (7 yes, 5 no)."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "813d0d49-e71a-5ba1-b4e5-aa007e1a6c90",
+      "found_lines": [
+        92
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Committee members were divided on efficacy (7 yes vs. 5 no) and voiced doubt about whether the regulatory standard for substantial evidence of efficacy had actually been met, even though the panel ultimately voted 9-3 in favor of approval.",
+      "change": "FDA did not approve the application in the first review cycle; the Division issued a Complete Response Letter (May 4, 2010) citing lack of demonstrated efficacy, and approval was granted only after the applicant submitted a third placebo-controlled study (Study 016) that resolved the efficacy deficiency.",
+      "category": "Efficacy / Complete Response (additional study required)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "56f91c97-ae77-5555-9030-8a7c3e5fc32c",
+        "line": 97,
+        "quote": "Many comments were made from the panel members questioning whether the regulatory standard for efficacy had actually been met",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "56f91c97-ae77-5555-9030-8a7c3e5fc32c",
+          "found_lines": [
+            97
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "f82f34e1-7f70-5ad8-a24c-50cf5d68190d",
+        "line": 221,
+        "quote": "While the advisory committee was in favor of approval, and likely trying to respond to an unmet need, the Division assessed the totality of the data and expert input, and issued a Complete Response, due to lack of demonstration of efficacy.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "f82f34e1-7f70-5ad8-a24c-50cf5d68190d",
+          "found_lines": [
+            221
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "A Pulmonary-Allergy Drugs Advisory Committee (PADAC) met March 9, 2010 during the original (first) review cycle of NDA022535. The committee was split on efficacy (7-5), found safety adequate (9-3), and voted 9-3 in favor of approval; however, FDA overrode the approval vote and issued a Complete Response Letter for failure to demonstrate substantial evidence of efficacy, requiring a third positive study (Study 016) before the 2014 approval. No repeat advisory committee was convened for the approval cycle, so the committee's main documented influence was the shared efficacy doubt (reflected in its split efficacy vote and panel comments) that aligned with the first-cycle Complete Response rather than any label change."
+}

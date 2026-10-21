@@ -1,0 +1,33 @@
+{
+  "app": "NDA022119",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 11 column 5 (char 379)",
+  "_raw": "Analyzing the card for quality issues.\n\nLet me check the automated flags first. The uncited numbers (22, 119, 10, 2000) in the summary: \"NDA 22-119\" is the app number identifier, and \"March 10, 2000 (FR)\" is a date \u2014 both should be excluded by the rules, but they appear flagged. The \"FR March 10, 20",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "22",
+        "text": "NDA 22-119 was submitted under section 505(b)(2) of the FD&C Act by the Feinstei"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "119",
+        "text": "NDA 22-119 was submitted under section 505(b)(2) of the FD&C Act by the Feinstei"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "10",
+        "text": "NDA 22-119 was submitted under section 505(b)(2) of the FD&C Act by the Feinstei"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2000",
+        "text": "NDA 22-119 was submitted under section 505(b)(2) of the FD&C Act by the Feinstei"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

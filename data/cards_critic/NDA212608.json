@@ -1,0 +1,57 @@
+{
+  "app": "NDA212608",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False-positive flag: uncited number '18' is part of 'exon 18', which is present in the citation quote."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flags: '14' and '2019' are components of the date June 14, 2019 and should be excluded."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flags: '505' (from statutory identifier 505(b)(1)), '18' (from 'exon 18'), and '4' (from Fast Track date Oct 4, 2016) are not substantive uncited efficacy/safety numbers."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "18",
+        "text": "Efficacy assessed in 43 patients with PDGFRalpha exon 18 mutations, including 38"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "14",
+        "text": "Application submitted/received June 14, 2019 and approved effective on the date "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2019",
+        "text": "Application submitted/received June 14, 2019 and approved effective on the date "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "NDA 212608 received regular (full) approval under 505(b)(1) for GIST with a PDGF"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "18",
+        "text": "NDA 212608 received regular (full) approval under 505(b)(1) for GIST with a PDGF"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "4",
+        "text": "NDA 212608 received regular (full) approval under 505(b)(1) for GIST with a PDGF"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

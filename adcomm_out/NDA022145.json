@@ -1,0 +1,111 @@
+{
+  "app": "NDA022145",
+  "drug": "ISENTRESS",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_f3bdd952-3fcb-5723-bcd0-900b4a755d98"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_6dd719ad-4ee1-5947-8a2e-59f7f2c922b0"
+    },
+    {
+      "doc_type": "MedR_P1",
+      "doc_id": "fda_aed2c9b6-87f4-53f0-84ae-38d25dc21c70"
+    },
+    {
+      "doc_type": "MedR_P2",
+      "doc_id": "fda_c963af04-e7f7-58d5-9c29-7ced74b05139"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_54724fec-6dca-5674-a9b4-2ab4a293fd3e"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Antiviral Drugs Advisory Committee (called the Antiviral Products Advisory Committee in the Summary Review)",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_6dd719ad-4ee1-5947-8a2e-59f7f2c922b0",
+      "line": 50,
+      "quote": "The application was presented to the Antiviral Drugs Advisory Committee on September 5, 2007."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_6dd719ad4ee1",
+      "found_lines": [
+        50
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "September 5, 2007",
+    "quote": {
+      "doc_type": "MedR_P2",
+      "doc_id": "fda_c963af04-e7f7-58d5-9c29-7ced74b05139",
+      "line": 388,
+      "quote": "A meeting with the Antiviral Drugs Advisory Committee was held September 5, 2007. The questions posed by the FDA are in bold followed by Committee responses:"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_c963af04e7f7",
+      "found_lines": [
+        388
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The Committee voted unanimously that the safety and efficacy supported accelerated approval of raltegravir for treatment-experienced adults with multi-drug resistant HIV-1.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_6dd719ad-4ee1-5947-8a2e-59f7f2c922b0",
+      "line": 50,
+      "quote": "The Committee voted unanimously that the safety and efficacy supported accelerated approval for treatment of treatment-experienced adult patients infected with multi-drug resistant strains of HIV-1."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_6dd719ad4ee1",
+      "found_lines": [
+        50
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "When asked what additional studies it would like undertaken as post-marketing commitments, the Advisory Committee recommended longer studies to gather data on malignancies (a malignancy imbalance had been an identified safety concern during development).",
+      "change": "A five-year post-marketing follow-up study of subjects in Protocols 018 and 019 was adopted as a PMC, with safety evaluations that explicitly include assessment of malignancy.",
+      "category": "Safety / Postmarketing commitment (malignancy follow-up)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR_P2",
+        "doc_id": "fda_c963af04-e7f7-58d5-9c29-7ced74b05139",
+        "line": 392,
+        "quote": "The Committee supported studies to characterize resistance. Additional studies include interaction studies with drugs used for tuberculosis treatment, longer studies to gather data on malignancies, and studies in women and racial minorities.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_c963af04e7f7",
+          "found_lines": [
+            392
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MedR_P2",
+        "doc_id": "fda_c963af04-e7f7-58d5-9c29-7ced74b05139",
+        "line": 433,
+        "quote": "Conduct a five-year follow-up for subjects in Protocols 018 and 019 focusing on safety evaluations, which should include but not be limited to assessment of mortality, malignancy, herpes zoster, creatine kinase elevations, and other adverse events.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_c963af04e7f7",
+          "found_lines": [
+            433
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Antiviral Drugs Advisory Committee meeting was held September 5, 2007, and the Committee voted unanimously that the safety and efficacy data supported accelerated approval of raltegravir (ISENTRESS) for treatment-experienced adults with multi-drug resistant HIV-1. The Summary Review states that labeling and post-marketing commitments addressed the Committee's concerns; in response to the FDA's question on desired post-marketing studies, the Committee recommended longer follow-up on malignancies, and a five-year PMC follow-up of Protocols 018/019 that explicitly assesses malignancy was adopted. The verbatim AdComm transcript is not in paperclip; the above is grounded in the review documents' account of the meeting."
+}

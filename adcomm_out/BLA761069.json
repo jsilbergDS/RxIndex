@@ -1,0 +1,91 @@
+{
+  "app": "BLA761069",
+  "drug": "IMFINZI",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_edff7596-f3dd-5b58-bd19-3bac2faf04fd"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_1ab4cb7b-acc1-5fba-868e-784b4c15daf6"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_7669cafe-d025-5fec-9fa8-b460ebfe1448"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_aeb73e07-d1bf-5e7b-a6e6-3d4064dce578"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_e519066d-cee6-5f04-911a-8c3c8d45f176"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "None convened (Oncologic Drugs Advisory Committee not referred)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_edff7596-f3dd-5b58-bd19-3bac2faf04fd",
+      "line": 151,
+      "quote": "This application was not referred to a meeting of the Oncologic Drugs Advisory Committee as the application did not raise significant safety or efficacy issues that required the advice of the ODAC to make a risk-benefit assessment of durvalumab in this patient population."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_edff7596f3dd",
+      "found_lines": [
+        151
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "No meeting held",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_1ab4cb7b-acc1-5fba-868e-784b4c15daf6",
+      "line": 165,
+      "quote": "An Advisory Committee meeting was not held. It was thought that a meeting was not needed since similar products had received accelerated approval based on similar data."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_1ab4cb7bacc1",
+      "found_lines": [
+        165
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "No advisory committee vote or recommendation (no meeting held)",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_7669cafe-d025-5fec-9fa8-b460ebfe1448",
+      "line": 650,
+      "quote": "Therefore, this application was not referred to the Oncologic Drugs Advisory Committee."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_7669cafed025",
+      "found_lines": [
+        650
+      ]
+    }
+  },
+  "linkages": [],
+  "no_adcom_quote": {
+    "doc_type": "SumR",
+    "doc_id": "fda_edff7596-f3dd-5b58-bd19-3bac2faf04fd",
+    "line": 151,
+    "quote": "This application was not referred to a meeting of the Oncologic Drugs Advisory Committee as the application did not raise significant safety or efficacy issues that required the advice of the ODAC to make a risk-benefit assessment of durvalumab in this patient population."
+  },
+  "summary": "No advisory committee meeting was convened for BLA761069 (durvalumab/IMFINZI). The FDA review documents (SumR, CrossR, MedR) consistently state the application was not referred to the Oncologic Drugs Advisory Committee because it did not raise significant safety or efficacy issues and similar products had already received accelerated approval based on similar data. Because no AdComm was held, there are no committee-driven linkages to the approval.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "fda_edff7596f3dd",
+    "found_lines": [
+      151
+    ]
+  }
+}

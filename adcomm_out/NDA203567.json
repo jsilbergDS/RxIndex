@@ -1,0 +1,88 @@
+{
+  "app": "NDA203567",
+  "drug": "JUBLIA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_db05c56f-862c-51db-86df-bc1cdb903394"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_fb3f3f31-52dc-573d-98b8-16e5ea995a39"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_60d9f786-5b8c-5218-8127-4c4ef7b2d445"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_caaf4d48-acd8-54cc-8e99-b4e73e0e683a"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "None \u2014 no advisory committee convened",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_fb3f3f31-52dc-573d-98b8-16e5ea995a39",
+      "line": 13,
+      "quote": "The application was not discussed before an FDA Advisory Committee as there were no novel or complex scientific or regulatory issues that required outside expertise."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_fb3f3f3152dc",
+      "found_lines": [
+        13
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "None \u2014 no advisory committee convened",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_60d9f786-5b8c-5218-8127-4c4ef7b2d445",
+      "line": 108,
+      "quote": "An Advisory Committee Meeting was not conducted because this drug product has clinically insignificant systemic absorption and causes few adverse events."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_60d9f7865b8c",
+      "found_lines": [
+        108,
+        913
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "None \u2014 no advisory committee convened",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_60d9f786-5b8c-5218-8127-4c4ef7b2d445",
+      "line": 179,
+      "quote": "This application was not referred to an Advisory Committee because the clinical study design was acceptable, the application did not raise significant safety or efficacy issues, the application did not raise significant public health questions on the role of the drug in the diagnosis, cure, mitigation, treatment, or prevention of disease, and outside expertise was not necessary."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_60d9f7865b8c",
+      "found_lines": [
+        179
+      ]
+    }
+  },
+  "linkages": [],
+  "no_adcom_quote": {
+    "doc_type": "ODMemo",
+    "doc_id": "fda_fb3f3f31-52dc-573d-98b8-16e5ea995a39",
+    "line": 13,
+    "quote": "The application was not discussed before an FDA Advisory Committee as there were no novel or complex scientific or regulatory issues that required outside expertise. Efinaconazole is an antifungal product in the azole class, a class which includes several approved products."
+  },
+  "summary": "No FDA advisory committee was convened for JUBLIA (efinaconazole, NDA203567). The Office/Division Director memo and Medical Review both state the application was not referred to an advisory committee because it raised no novel or complex scientific or regulatory issues, the drug has clinically insignificant systemic absorption and few adverse events, and FDA had ample experience with topical azole antifungals. With no AdComm meeting, there are no committee-driven changes to the approval.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "fda_fb3f3f3152dc",
+    "found_lines": [
+      13
+    ]
+  }
+}

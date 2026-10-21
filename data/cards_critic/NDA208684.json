@@ -1,0 +1,52 @@
+{
+  "app": "NDA208684",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Flagged uncited number '12' refers to the timepoint 'Week 12', which is a study timepoint (not an efficacy result) and is supported by the endpoint/design citations; false positive."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Flagged uncited number '12' refers to 'Week 12' timepoint, supported by endpoint citation; false positive."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged numbers '9' and '2016' are part of the date 'June 9, 2016' (a date, supported by receipt_date citation); false positive."
+    },
+    {
+      "field": "approval_program",
+      "severity": "low",
+      "issue": "The summary states a Rare Pediatric Disease designation was granted (Aug 10, 2015) but there is no dedicated approval_program field capturing it; minor completeness gap given schema."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "12",
+        "text": "196 randomized; 51 deflazacort 0.9 mg/kg/day and 50 placebo compared at Week 12"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "12",
+        "text": "Change from baseline at Week 12 in average muscle strength score: deflazacort 0."
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "9",
+        "text": "Application received June 9, 2016 and approved effective on the date of the appr"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2016",
+        "text": "Application received June 9, 2016 and approved effective on the date of the appr"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

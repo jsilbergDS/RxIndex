@@ -1,0 +1,131 @@
+{
+  "app": "NDA211810",
+  "drug": "TURALIO",
+  "docs_read": [
+    {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "fda_25af8406-9e98-564c-8365-fc4ccc0ba499"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_01e87b87-7224-5056-9c25-d9c5d3129ef1"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Oncologic Drugs Advisory Committee (ODAC)",
+    "quote": {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "fda_25af8406-9e98-564c-8365-fc4ccc0ba499",
+      "line": 1368,
+      "quote": "The Division referred this application to the Oncologic Drugs Advisory Committee (ODAC); the meeting was held on May 14, 2019."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_25af84069e98",
+      "found_lines": [
+        1368
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "May 14, 2019",
+    "quote": {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "fda_25af8406-9e98-564c-8365-fc4ccc0ba499",
+      "line": 1368,
+      "quote": "The Division referred this application to the Oncologic Drugs Advisory Committee (ODAC); the meeting was held on May 14, 2019."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_25af84069e98",
+      "found_lines": [
+        1368
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 12 Yes, 3 No, 0 Abstain that the demonstrated benefit of pexidartinib outweighs its risks in the proposed indication. (Note: the RiskR document summarizes the vote as 9 in favor and 3 against.)",
+    "quote": {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "fda_25af8406-9e98-564c-8365-fc4ccc0ba499",
+      "line": 1382,
+      "quote": "Yes: 12 No: 3 Abstain: 0"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_25af84069e98",
+      "found_lines": [
+        1382
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee agreed that hepatotoxicity was an important risk of pexidartinib and generally agreed a REMS was needed to educate prescribers and further evaluate the risk outside the clinical trial setting.",
+      "change": "The drug was approved with a REMS including prescriber certification (ETASU A), pharmacy certification (ETASU B), and a patient registry (ETASU F) to ensure the benefits outweigh the risk of serious and potentially fatal hepatotoxicity.",
+      "category": "Safety / REMS",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "fda_25af8406-9e98-564c-8365-fc4ccc0ba499",
+        "line": 1379,
+        "quote": "The committee members agreed that hepatotoxicity represented an important concern, and generally agreed that a Risk Evaluation and Mitigation Strategy (REMS) is needed to educate prescribers and further evaluate this risk outside of the clinical trial setting",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_25af84069e98",
+          "found_lines": [
+            1379
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "fda_01e87b87-7224-5056-9c25-d9c5d3129ef1",
+        "line": 121,
+        "quote": "Both concurred that a REMS with elements to assure safe use that included prescriber certification (ETASU A), pharmacy certification (ETASU B) and a patient registry (F) is necessary to ensure the benefits of Turalio outweigh the risks of risk of serious and potentially fatal hepatotoxicity.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_01e87b877224",
+          "found_lines": [
+            121
+          ]
+        }
+      }
+    },
+    {
+      "concern": "At the Advisory Committee, members raised concerns about the adequacy of the proposed REMS for managing and further characterizing the hepatotoxicity risk.",
+      "change": "The Applicant amended the goals of the proposed Turalio REMS based on feedback from the Advisory Committee (and Agency comments).",
+      "category": "Safety / REMS",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "fda_01e87b87-7224-5056-9c25-d9c5d3129ef1",
+        "line": 32,
+        "quote": "The committee thought that the proposed REMS was appropriate, given the severity of the adverse events, lack of long-term use and the need to further access adverse events.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_01e87b877224",
+          "found_lines": [
+            32
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "fda_01e87b87-7224-5056-9c25-d9c5d3129ef1",
+        "line": 72,
+        "quote": "The Applicant amended the goals to the proposed Turalio REMS on July 23, 2019, based on feedback from the Advisory Committee and comments from the Agency.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_01e87b877224",
+          "found_lines": [
+            72
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "FDA referred NDA 211810 (pexidartinib/TURALIO for tenosynovial giant cell tumor) to the Oncologic Drugs Advisory Committee, which met on May 14, 2019 to weigh the drug's benefit against its risk of serious hepatotoxicity. The committee voted 12 to 3 that the benefit outweighs the risk (the RiskR document reports the vote as 9 to 3), and concurred that a REMS with prescriber certification, pharmacy certification, and a patient registry was necessary. Turalio was approved with that REMS, whose goals the Applicant amended based on feedback from the Advisory Committee."
+}

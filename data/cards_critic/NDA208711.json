@@ -1,0 +1,52 @@
+{
+  "app": "NDA208711",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False positive: uncited '2008' is a year/date component of the trial name, not an efficacy/safety number."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "False positive: uncited '2' refers to the number of doses ('two doses...12 hours apart'), which is supported by the design citation."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False positive: '100' is the sum of the two 50-patient arms and is supported by the result citation stating '100 randomized patients'."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False positive: uncited '10' is part of the dose '10 mg/kg' (doses are excluded), and the 56% at 10 mg/kg is supported by the abdominal pain citation."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "2008",
+        "text": "Hien (2008) trial"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "2",
+        "text": "Randomized (1:1), open-label, single center trial in Vietnam comparing Egaten 10"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "100",
+        "text": "N=100 (TCBZ n=50, artesunate n=50)"
+      },
+      {
+        "field": "key_safety",
+        "number": "10",
+        "text": "Most common adverse reactions (>2%) at the 20 mg/kg dose are abdominal pain, hyp"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

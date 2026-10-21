@@ -1,0 +1,67 @@
+{
+  "app": "NDA208794",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Flagged uncited number '250' is a dose (250 mg TID), which is in the excluded category \u2014 false positive."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Flagged uncited number '250' is a dose (250 mg TID) \u2014 false positive."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "Flagged uncited number '76' is actually present in the (garbled) citation quote 'Number randomized 1:1:113676' \u2014 false positive."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "The '>=5%' incidence threshold in the text is not contained in the AE-table citation provided, though it is a qualifier rather than a reported result \u2014 false-positive/minor uncited note."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged numbers '30' and '2016' belong to the receipt date 'March 30, 2016' (dates excluded), but no receipt-date citation is attached to the summary; cosmetic \u2014 false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "250",
+        "text": "90 patients evaluated for efficacy (45 Xermelo 250 mg TID, 45 placebo)."
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "250",
+        "text": "Xermelo 250 mg TID reduced bowel movements/day by -1.4 vs -0.6 for placebo; esti"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "76",
+        "text": "76 patients randomized 1:1:1."
+      },
+      {
+        "field": "key_safety",
+        "number": "5",
+        "text": "Most common adverse reactions (>=5% and greater than placebo) included nausea (1"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "30",
+        "text": "Telotristat ethyl, a first-in-class new molecular entity, received Fast Track De"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2016",
+        "text": "Telotristat ethyl, a first-in-class new molecular entity, received Fast Track De"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

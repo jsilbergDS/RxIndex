@@ -1,0 +1,72 @@
+{
+  "app": "NDA205838",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: '1' is the 'Study 1' label, not an efficacy/safety number."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: '2' is the 'Study 2' label, not an efficacy/safety number."
+    },
+    {
+      "field": "pivotal_trials[2].result",
+      "severity": "low",
+      "issue": "False-positive flag: p<0.001 is supported by the citation 'p < .001 for both doses'; the flag arises only from .001 vs 0.001 formatting."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive flag: the '2%' in 'at least 2% more than placebo' is standard label threshold wording, not an uncited efficacy/safety datum."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: '16' refers to the approved age cutoff (patients 16 and older), which is supported by the cited indication."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: 'three' pivotal trials is supported by the cited 'three adequate and well controlled pivotal trials'."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "N01252 (Study 1)"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "N01253 (Study 2)"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "0.001",
+        "text": "Percent reduction over placebo: 100 mg/day 25.2%, 200 mg/day 25.7%; both doses s"
+      },
+      {
+        "field": "key_safety",
+        "number": "2",
+        "text": "Most common adverse reactions (at least 5% and at least 2% more than placebo) we"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "16",
+        "text": "BRIVIACT was reviewed and approved as a standard-review NDA under section 505(b)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "BRIVIACT was reviewed and approved as a standard-review NDA under section 505(b)"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

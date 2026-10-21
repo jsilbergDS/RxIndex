@@ -1,0 +1,27 @@
+{
+  "app": "BLA761169",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "high",
+      "issue": "The n-field citation quote reports the 95% CI as '-28.0% to -4.1%', which contradicts the result field's CI of '-28.4, -2.6' for the same -17.2% mortality rate difference, an internal inconsistency in the confidence interval."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive automated flag: uncited number '3' does not actually appear in the key_safety text (the text lists AEs, no standalone '3'); dismissed."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "3",
+        "text": "Most common adverse events (\u226520% of INMAZEB subjects) were pyrexia, chills, tach"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

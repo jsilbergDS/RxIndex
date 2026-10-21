@@ -1,0 +1,42 @@
+{
+  "app": "BLA761137",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flag: '1' is part of the label 'Cohort 1', which is supported by the population/n citations describing Cohort 1."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flag: '1.25' is a dose (1.25 mg/kg) and should be excluded per rules."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flag: '201' is the study identifier EV-201, which should be excluded per rules."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "EV-201 (SGN22E-001), Cohort 1"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "1.25",
+        "text": "Single-arm, open-label, multicenter trial of enfortumab vedotin 1.25 mg/kg monot"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "201",
+        "text": "PADCEV received accelerated approval under 21 CFR Part 601 Subpart E based on th"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

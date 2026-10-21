@@ -1,0 +1,26 @@
+{
+  "app": "NDA201280",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "high",
+      "issue": "The claim 'with higher rates when combined with a sulfonylurea' is not supported by any of the provided citation quotes."
+    },
+    {
+      "field": "advisory_committee.vote.citations[2]",
+      "severity": "medium",
+      "issue": "Third citation is a stitched quote combining multiple separate bullet lines into one, so it will not be verbatim in the source."
+    },
+    {
+      "field": "advisory_committee.vote",
+      "severity": "low",
+      "issue": "Text references '11 classes of anti-diabetic therapies' which is only present in the stitched/unverifiable citation, not in a clean verbatim quote."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

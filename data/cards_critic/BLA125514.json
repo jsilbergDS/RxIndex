@@ -1,0 +1,22 @@
+{
+  "app": "BLA125514",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "low",
+      "issue": "False-positive automated flag: 'Phase 1' matches the citation's 'Phase I Study' (Roman numeral equivalent); the number is supported."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "1",
+        "text": "Phase 1"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

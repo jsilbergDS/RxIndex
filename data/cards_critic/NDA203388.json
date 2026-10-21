@@ -1,0 +1,37 @@
+{
+  "app": "NDA203388",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "approval_program.priority_review.basis",
+      "severity": "medium",
+      "issue": "Citation quote is a stitched OCR form-header block (not verbatim) per unverified_citations; priority designation is only inferable from the embedded 'Priority' token, so the quote does not cleanly support the field."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "medium",
+      "issue": "Primary citation is the same stitched/non-verbatim form-header block flagged in unverified_citations; it does not verbatim support the summary claims."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Result states laBCC n=63 efficacy-evaluable while the n field states laBCC n=71 enrolled; both are correct but the shift from 71 to 63 is unexplained and could read as an inconsistency to a reviewer."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [
+      {
+        "field": "approval_program/priority_review/basis",
+        "line": 6,
+        "quote": "Application TypeNDAApplication Number(s)203388Priority or St"
+      },
+      {
+        "field": "approval_program/summary",
+        "line": 6,
+        "quote": "Application TypeNDAApplication Number(s)203388Priority or St"
+      }
+    ],
+    "empty_fields": []
+  }
+}

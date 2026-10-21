@@ -1,0 +1,42 @@
+{
+  "app": "BLA761069",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].nct",
+      "severity": "low",
+      "issue": "False-positive automated flag: uncited number '1108' is a study identifier that appears in citations and should be excluded."
+    },
+    {
+      "field": "post_marketing[1].requirement",
+      "severity": "low",
+      "issue": "False-positive automated flag: uncited number '1108' is a study identifier present in citations (Study 1108) and should be excluded."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive automated flag: uncited number '1108' is a study identifier already present in citation text."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/nct",
+        "number": "1108",
+        "text": "Not stated in reviewed documents for Study 1108 (the confirmatory Phase III tria"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "1108",
+        "text": "3205-2: Conduct updated analyses of duration of response for the patients with u"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1108",
+        "text": "Durvalumab received Breakthrough Therapy Designation (February 2016) and Priorit"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

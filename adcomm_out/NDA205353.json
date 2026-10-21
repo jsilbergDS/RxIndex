@@ -1,0 +1,139 @@
+{
+  "app": "NDA205353",
+  "drug": "FARYDAK",
+  "docs_read": [
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_c71400da"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_fa428faf"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_cb9823d2"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_e34a02db"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Oncologic Drugs Advisory Committee (ODAC)",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_c71400da",
+      "line": 435,
+      "quote": "The Oncologic Drugs Advisory Committee was convened on November 6, 2014."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "c71400da",
+      "found_lines": [
+        435
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "November 6, 2014",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_fa428faf",
+      "line": 81,
+      "quote": "This application was presented to the ODAC on November 6, 2014."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fa428faf",
+      "found_lines": [
+        81
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "ODAC voted 2 Yes / 5 No (0 abstain) that the benefit of adding panobinostat to bortezomib and dexamethasone did not outweigh the risks for patients with relapsed multiple myeloma \u2014 i.e., a majority voted against the broad proposed indication.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_fa428faf",
+      "line": 82,
+      "quote": "Voting Result: Yes: 2 No: 5 Abstain: 0"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fa428faf",
+      "found_lines": [
+        82
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "ODAC majority voted 'no', citing the drug's toxicity and the uncertain magnitude of the PFS improvement as yielding a negative overall benefit:risk for the broad relapsed-MM population the applicant proposed.",
+      "change": "FDA did not approve the broad proposed indication; instead it granted accelerated approval restricted to a more heavily pretreated population (patients who had received at least 2 prior regimens including bortezomib and an immunomodulatory agent).",
+      "category": "Population / indication narrowing",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_fa428faf",
+        "line": 83,
+        "quote": "concerns with the toxicity and uncertain magnitude of PFS improvement were cited as contributing to a negative benefit:risk profile overall.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fa428faf",
+          "found_lines": [
+            83
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_fa428faf",
+        "line": 95,
+        "quote": "In agreement with the ODAC recommendation, the Agency is not approving FARYDAK for the broad indication for panobinostat for the treatment of all patients with relapsed MM, requested by the Applicant.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fa428faf",
+          "found_lines": [
+            95
+          ]
+        }
+      }
+    },
+    {
+      "concern": "A committee member questioned whether the dose and combination of agents used in Trial D2308 was ideal for maximizing benefit while minimizing toxicity.",
+      "change": "FDA imposed a postmarketing requirement for a dose-finding trial evaluating the 20 mg dose against a lower dose (possibly 15 mg) before the confirmatory trial.",
+      "category": "Dose / postmarketing requirement",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_fa428faf",
+        "line": 83,
+        "quote": "One Committee member specifically questioned whether the dose and combination of agents from the trial was ideal for maximizing benefit while minimizing toxicity.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fa428faf",
+          "found_lines": [
+            83
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_c71400da",
+        "line": 473,
+        "quote": "Because of the questions that remain about the correct dose of panobinostat in combination with bortezomib and dexamethasone, the Applicant should conduct a dose-finding trial that evaluates the 20 mg dose and a lower dose (possibly 15 mg) prior to initiating the confirmatory trial.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "c71400da",
+          "found_lines": [
+            473
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "FDA took panobinostat (FARYDAK) to the Oncologic Drugs Advisory Committee on November 6, 2014, because the overall benefit:risk looked unfavorable and trial-conduct issues clouded the PFS estimate; ODAC voted 5-2 that the benefit did not outweigh the risks for the broad relapsed-MM population the applicant proposed, citing toxicity and uncertain PFS magnitude. In agreement with ODAC, FDA declined the broad indication and instead granted accelerated approval for a narrowed, more heavily pretreated population (\u22652 prior regimens including bortezomib and an immunomodulatory agent), with a confirmatory trial required. A committee member's question about the dose is reflected (not explicitly linked) in a postmarketing dose-finding requirement comparing 20 mg with a lower dose."
+}

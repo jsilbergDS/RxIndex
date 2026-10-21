@@ -1,0 +1,22 @@
+{
+  "app": "NDA022244",
+  "drug": "LUSEDRA",
+  "docs_read": [],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": null,
+  "meeting_date": null,
+  "recommendation": null,
+  "linkages": [],
+  "no_adcom_quote": {
+    "doc_type": null,
+    "doc_id": null,
+    "line": null,
+    "quote": null,
+    "note": "No FDA source documents for NDA022244 (LUSEDRA / fospropofol) are present in paperclip. Verified via: identifier = 'NDA022244' returns 0 rows (COUNT=0); identifier LIKE '%22244%' returns only 510(k) device K-numbers; public_url ILIKE '%022244%' returns 0 rows; tradename/public_url ILIKE '%lusedra%' or '%fospropofol%' return 0 rows. Nearby application NDA022246 is present, so the absence is specific to this application. No citable line exists to quote."
+  },
+  "summary": "No FDA review documents for NDA022244 (LUSEDRA, fospropofol disodium) could be located in paperclip despite multiple precise SQL searches by identifier, public_url substring, and tradename. Because no source documents are available, whether an advisory committee was convened cannot be established and no meeting facts or concern-to-change linkages can be grounded in verbatim quotes. adcom_held is set to false by default, but this reflects absence of retrievable documents rather than a document explicitly stating no AdComm was held.",
+  "no_adcom_quote_verify": {
+    "status": "EMPTY"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "app": "BLA125557",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "False-positive flag: the '2' in 'Phase 2' is a phase label supported by the citation, not an uncited efficacy/safety number."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flag: '19' is part of the receipt date (September 19, 2014), which is excluded from uncited-number checks and is supported by the receipt_date citation."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "2",
+        "text": "Single-arm, open-label, fixed-dose Phase 2 trial"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "19",
+        "text": "BLA received September 19, 2014 and approved effective this date (12/03/2014) un"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

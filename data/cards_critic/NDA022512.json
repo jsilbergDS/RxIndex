@@ -1,0 +1,62 @@
+{
+  "app": "NDA022512",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "uncited_numbers flags '110' and '150' but these are dosing values (DE 110 mg / 150 mg), excluded by rule \u2014 false positive."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "uncited_numbers flags '150' and '110' but these are dose designations (dabigatran 150 mg / 110 mg), not efficacy numbers \u2014 false positive."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "uncited_numbers flags '9' and '0' (the 9-0-0 CRDAC vote); the summary's own citations do not contain these numbers, though they are supported in advisory_committee.vote \u2014 minor, cosmetic."
+    },
+    {
+      "field": "approval_program.priority_review",
+      "severity": "low",
+      "issue": "Submission 4/19/2010 with PDUFA goal 10/19/2010 implies a ~6-month (priority) review, but priority_review.present=false; possible missing designation not confirmed by an explicit citation."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "110",
+        "text": "18,113 randomized (DE 110 mg: 6015; DE 150 mg: 6076; warfarin: 6022)."
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "150",
+        "text": "18,113 randomized (DE 110 mg: 6015; DE 150 mg: 6076; warfarin: 6022)."
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "150",
+        "text": "For stroke/SEE, dabigatran 150 mg bid was non-inferior and superior to warfarin:"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "110",
+        "text": "For stroke/SEE, dabigatran 150 mg bid was non-inferior and superior to warfarin:"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "9",
+        "text": "PRADAXA (dabigatran etexilate) was approved via a traditional NDA on the basis o"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "0",
+        "text": "PRADAXA (dabigatran etexilate) was approved via a traditional NDA on the basis o"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

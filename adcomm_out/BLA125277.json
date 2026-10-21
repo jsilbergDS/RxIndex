@@ -1,0 +1,176 @@
+{
+  "app": "BLA125277",
+  "drug": "KALBITOR",
+  "docs_read": [
+    {
+      "doc_type": "CrossR",
+      "doc_id": "a465b460-73a8-5a20-ad95-096957e70891"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "6cb8d40e-edaa-5626-b4e6-0789bd3dc9b9"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "e43f478a-7ba7-5c1e-a430-f229ca64c6d4"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "cf79236b-e79e-58df-b5d4-95774a33fa14"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "e032775e-bb1b-5a4f-9105-bbac99b9227f"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Pulmonary-Allergy Drugs Advisory Committee (PADAC)",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "a465b460-73a8-5a20-ad95-096957e70891",
+      "line": 45,
+      "quote": "A Pulmonary Allergy Drugs Advisory Committee (PADAC) was held on February 4, 2009, to discuss the original BLA submission."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "a465b460-73a8-5a20-ad95-096957e70891",
+      "found_lines": [
+        45
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "February 4, 2009",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "cf79236b-e79e-58df-b5d4-95774a33fa14",
+      "line": 456,
+      "quote": "A Pulmonary and Allergy Drug Advisory Committee (PADAC) Meeting was held on February 4, 2009, to discuss the efficacy and safety results with a panel of 13 outside experts in a public forum."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "cf79236b-e79e-58df-b5d4-95774a33fa14",
+      "found_lines": [
+        25,
+        456
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee was split on approval for the proposed indication (Q4: 6 Yes, 5 No, 2 Abstain). It found efficacy sufficient in patients 18+ (8 Yes, 4 No, 1 Abstain) but not in patients <18 (3 Yes, 10 No), judged safety not adequately established, and favored approval in adults with appropriate risk management for anaphylaxis.",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "a465b460-73a8-5a20-ad95-096957e70891",
+      "line": 45,
+      "quote": "With regards to recommendation for approval, the committee was split (6 Yes, 5 No, 2 Abstain), but some panel members noted that if limited to adults only, they would recommend approval. Generally, the committee favored approval in adults, but not in patients less than 18 years of age. The panel recommended appropriate risk management strategies for anaphylaxis."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "a465b460-73a8-5a20-ad95-096957e70891",
+      "found_lines": [
+        45
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee found the efficacy and safety data inadequate in pediatric patients (<18 years), voting against efficacy (3 Yes/10 No) and safety in that age group, for an application that originally proposed use down to age 10.",
+      "change": "The lower age bound of the indication was narrowed; after the Complete Response, Dyax raised the proposed lower age limit from 10 years to 16 years, and the drug was approved for patients 16 years and older.",
+      "category": "Population / age restriction",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "a465b460-73a8-5a20-ad95-096957e70891",
+        "line": 45,
+        "quote": "The voting indicated that the efficacy data for ecallantide was sufficient in patients 18 years and older (8 Yes, 4 No, 1 Abstain), but not in patients less than 18 years of age (3 Yes, 10 No).",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "a465b460-73a8-5a20-ad95-096957e70891",
+          "found_lines": [
+            45
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "a465b460-73a8-5a20-ad95-096957e70891",
+        "line": 8,
+        "quote": "To address the issue regarding pediatric patients, Dyax adjusted the proposed lower age limit from 10 years of age to 16 years of age.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "a465b460-73a8-5a20-ad95-096957e70891",
+          "found_lines": [
+            8
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee identified anaphylaxis and hypersensitivity as a major safety signal (ecallantide is highly immunogenic) and recommended specific safety measures, including education about the anaphylaxis risk, stronger warnings, and administration in a setting able to monitor hypersensitivity reactions.",
+      "change": "A Risk Evaluation and Mitigation Strategy (REMS) was required to mitigate the anaphylaxis risk; it was recommended with a Medication Guide, Communication Plan, and Elements to Assure Safe Use, and the drug was ultimately approved with a REMS (Medication Guide and Communication Plan).",
+      "category": "Safety / REMS",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "e43f478a-7ba7-5c1e-a430-f229ca64c6d4",
+        "line": 31,
+        "quote": "the Pulmonary-Allergy Drugs Advisory Committee (PADAC) felt that specific safety measures were needed such as: a concerted effort to educate institutions and patients of the anaphylaxis risk with the drug; stronger precautions warning about anaphylaxis; recommendation that injections be given in an appropriate setting to monitor hypersensitivity reactions; and comprehensive education regarding monitoring of drug after injection.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "e43f478a-7ba7-5c1e-a430-f229ca64c6d4",
+          "found_lines": [
+            31
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "e43f478a-7ba7-5c1e-a430-f229ca64c6d4",
+        "line": 31,
+        "quote": "These concerns initially prompted OSE and DPAP to recommend a REMS with a Medication Guide (MG), Communication Plan (CP) and Elements to Assure Safe Use (ETASU).",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "e43f478a-7ba7-5c1e-a430-f229ca64c6d4",
+          "found_lines": [
+            31
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Among the safety measures the committee felt were needed was stronger precautionary warning about the anaphylaxis risk of ecallantide.",
+      "change": "The approved labeling included a Boxed Warning regarding anaphylaxis (requiring administration under supervision of a healthcare professional able to manage anaphylaxis, highlighting the symptom overlap between HAE and hypersensitivity reactions, and advising against use in patients with prior hypersensitivity).",
+      "category": "Safety / Boxed warning",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "e43f478a-7ba7-5c1e-a430-f229ca64c6d4",
+        "line": 31,
+        "quote": "stronger precautions warning about anaphylaxis",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "e43f478a-7ba7-5c1e-a430-f229ca64c6d4",
+          "found_lines": [
+            31
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "a465b460-73a8-5a20-ad95-096957e70891",
+        "line": 49,
+        "quote": "The proposed labeling included a Boxed Warning regarding anaphylaxis and Medication Guide, both of which are appropriate.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "a465b460-73a8-5a20-ad95-096957e70891",
+          "found_lines": [
+            49
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "A Pulmonary-Allergy Drugs Advisory Committee (PADAC) met on February 4, 2009 on Dyax's BLA for ecallantide (Kalbitor). The committee split on approval (6 Yes, 5 No, 2 Abstain), supporting efficacy only in adults (not in patients <18) and flagging anaphylaxis/hypersensitivity as the dominant safety concern. FDA issued a Complete Response, and the resulting approval narrowed the indication from the proposed age 10+ to 16 years and older, required a REMS (Medication Guide and Communication Plan) for anaphylaxis, and carried a Boxed Warning about anaphylaxis."
+}

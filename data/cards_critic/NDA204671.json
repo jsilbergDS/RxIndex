@@ -1,0 +1,102 @@
+{
+  "app": "NDA204671",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "high",
+      "issue": "Detail states NDA 'submitted April 6, 2013' but the receipt_date citations state received April 8, 2013; the two citations are also stitched from two different documents into one narrative, and 'approved after review as amended' is composed."
+    },
+    {
+      "field": "receipt_date",
+      "severity": "high",
+      "issue": "Internal inconsistency: receipt_date=April 8, 2013 (supported by its citations) conflicts with April 6, 2013 used in first_cycle_approval, priority_review, and summary."
+    },
+    {
+      "field": "approval_program.priority_review.basis",
+      "severity": "medium",
+      "issue": "States 'submitted April 6, 2013' which conflicts with the official received date April 8, 2013 established in receipt_date."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "medium",
+      "issue": "States NDA 'submitted April 6, 2013' which conflicts with receipt_date April 8, 2013; also 'approved as a standard (non-accelerated) approval' is not supported by any citation quote."
+    },
+    {
+      "field": "pivotal_trials[3].n",
+      "severity": "low",
+      "issue": "Automated flag of uncited numbers '12' and '16' is a false positive: these are week durations supported by design citation 'evaluated 12 or 16 weeks of treatment'."
+    },
+    {
+      "field": "pivotal_trials[3].result",
+      "severity": "low",
+      "issue": "Automated flag of uncited numbers '12' and '16' is a false positive: these are treatment-duration labels, not efficacy numbers; the SVR percentages are cited."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Automated uncited-number flag '6' (from April 6) is a date fragment false positive, but the April 6 vs April 8 conflict is the real underlying problem (flagged high above)."
+    },
+    {
+      "field": "post_marketing[15].requirement",
+      "severity": "low",
+      "issue": "Automated uncited-number flag '3' is a false positive: 'three year follow-up data' is present in the citation."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated uncited-number flag '6' is a date fragment false positive (April 6), subsumed by the date-inconsistency issue flagged above."
+    },
+    {
+      "field": "advisory_committee.vote.text",
+      "severity": "low",
+      "issue": "Text says committee 'voted unanimously to support approval of sofosbuvir' while the citation says 'voted unanimously to approve'; minor paraphrase, supported."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[3]/n",
+        "number": "12",
+        "text": "N=201 (12 weeks N=103; 16 weeks N=98)"
+      },
+      {
+        "field": "pivotal_trials[3]/n",
+        "number": "16",
+        "text": "N=201 (12 weeks N=103; 16 weeks N=98)"
+      },
+      {
+        "field": "pivotal_trials[3]/result",
+        "number": "12",
+        "text": "Overall SVR 50% (51/103) with 12 weeks vs 71% (70/98) with 16 weeks SOVALDI+RBV"
+      },
+      {
+        "field": "pivotal_trials[3]/result",
+        "number": "16",
+        "text": "Overall SVR 50% (51/103) with 12 weeks vs 71% (70/98) with 16 weeks SOVALDI+RBV"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "6",
+        "text": "The original NDA was submitted April 6, 2013 under priority review and was appro"
+      },
+      {
+        "field": "post_marketing[15]/requirement",
+        "number": "3",
+        "text": "2110-16: Submit an interim report from study GS-US-248-0122, a long-term follow-"
+      },
+      {
+        "field": "approval_program/priority_review/basis",
+        "number": "6",
+        "text": "The original NDA was submitted April 6, 2013 and reviewed under priority review."
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "6",
+        "text": "Sofosbuvir was the first-in-class HCV NS5B inhibitor submitted in the U.S.; the "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

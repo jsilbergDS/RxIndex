@@ -1,0 +1,73 @@
+{
+  "app": "NDA211970",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "rems.detail",
+      "severity": "high",
+      "issue": "The REMS citation is drawn from a Complete Response recommendation quote ('The Agency recommends a Complete Response...'), which is not a proper source for the final 'no REMS required' determination and misrepresents review context.",
+      "note": null
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "uncited_numbers flags '4053' and '101' in 'Study 4053-101'; these are study identifiers supported by the phase/population citation (Study 4053-101) \u2014 false positive."
+    },
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "low",
+      "issue": "uncited_number '2' is part of the descriptive 'two parts / Part 1 / Part 2' text supported by the design citation \u2014 false positive."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "medium",
+      "issue": "The total N=25 is not stated verbatim in any citation; it is a sum (12 + 13) not directly cited."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "uncited_numbers '4045' and '301' are the confirmatory study identifier (Study 4045-301) supported by the confirmatory_requirement citation \u2014 false positive."
+    },
+    {
+      "field": "first_cycle_approval.value",
+      "severity": "low",
+      "issue": "value=false is correctly supported here because the review explicitly documents a prior CR letter (August 19, 2019), so this is consistent and not an error."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "4053",
+        "text": "Study 1 (Study 4053-101)"
+      },
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "101",
+        "text": "Study 1 (Study 4053-101)"
+      },
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "2",
+        "text": "First-in-human study conducted in two parts (dose-titration Part 1 and open-labe"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "25",
+        "text": "25 patients in Study 1 Part 2 (12 from Part 1 plus 13 additional treatment-naive"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "4045",
+        "text": "Golodirsen received Fast Track designation and Orphan drug designation for DMD, "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "301",
+        "text": "Golodirsen received Fast Track designation and Orphan drug designation for DMD, "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

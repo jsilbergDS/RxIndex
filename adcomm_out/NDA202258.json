@@ -1,0 +1,200 @@
+{
+  "app": "NDA202258",
+  "drug": "VICTRELIS",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_37cbeecc-2612-54c6-a749-c1e20ea4aab2"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_18616125-c700-5a3b-b26d-ef7edd5e6505"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_52434e9b-b4b9-5ce3-877c-bc80eba00374"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Antiviral Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_37cbeecc-2612-54c6-a749-c1e20ea4aab2",
+      "line": 132,
+      "quote": "The Antiviral Drugs Advisory Committee was convened on April 27, 2011."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_37cbeecc2612",
+      "found_lines": [
+        132
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "April 27, 2011",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_52434e9b-b4b9-5ce3-877c-bc80eba00374",
+      "line": 57,
+      "quote": "The boceprevir NDA was presented to the Antiviral Drugs Advisory Committee on April 27, 2011."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_52434e9bb4b9",
+      "found_lines": [
+        57
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted unanimously, 18 Yes / 0 No / 0 abstain, that benefits outweighed risks and that boceprevir should be approved.",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_37cbeecc-2612-54c6-a749-c1e20ea4aab2",
+      "line": 135,
+      "quote": "The committee voted unanimously (18- yes, 0- no) for the approval of boceprevir."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_37cbeecc2612",
+      "found_lines": [
+        135
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee noted amplification of hematologic toxicities (anemia, neutropenia) with boceprevir and some members raised concern about a more brisk decline in hematologic parameters, recommending physicians be alerted to monitor blood counts more frequently.",
+      "change": "The product labeling includes Warnings and Precautions statements on anemia and neutropenia with instructions for monitoring, plus a required Medication Guide communicating these risks.",
+      "category": "Safety / Warnings and monitoring",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_37cbeecc-2612-54c6-a749-c1e20ea4aab2",
+        "line": 134,
+        "quote": "Some raised concerns that boceprevir may result in a more brisk decline in hematologic parameters and recommended that the label make clear that physicians be vigilant in checking complete blood counts more frequently in patients deemed at risk or exhibiting a sharp decline in RBCs, WBCs or platelets.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_37cbeecc2612",
+          "found_lines": [
+            134
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_52434e9b-b4b9-5ce3-877c-bc80eba00374",
+        "line": 50,
+        "quote": "The labeling includes in the Warnings and Precautions statements on anemia and neutropenia and instructions for monitoring.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_52434e9bb4b9",
+          "found_lines": [
+            50
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee reached no consensus on including prior null responders in the indication; some members stated the evidence was not convincing because prior null responders were not specifically studied in the phase 3 trials.",
+      "change": "The indication was not narrowed to exclude null responders, but the review team added a bulleted Usage statement in the label noting that previous null responders were not studied.",
+      "category": "Indication / population labeling",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_37cbeecc-2612-54c6-a749-c1e20ea4aab2",
+        "line": 137,
+        "quote": "Some of the advisory committee members stated that the evidence was not convincing since patients who were prior null responders were not specifically studied in phase 3 clinical trials.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_37cbeecc2612",
+          "found_lines": [
+            137
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_37cbeecc-2612-54c6-a749-c1e20ea4aab2",
+        "line": 153,
+        "quote": "However, the review team will add a bulleted Usage stating that previous null responders were not studied.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_37cbeecc2612",
+          "found_lines": [
+            153
+          ]
+        }
+      }
+    },
+    {
+      "concern": "In response to Question 5, the committee recommended a number of postmarketing studies, headed by drug-drug interaction trials (e.g., methadone, antidepressants, HIV antiretrovirals, transplant immunosuppressants, oral contraceptives).",
+      "change": "The Division indicated that most of these committee-suggested drug-drug interaction trials would become postmarketing requirements.",
+      "category": "Postmarketing requirements",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_37cbeecc-2612-54c6-a749-c1e20ea4aab2",
+        "line": 145,
+        "quote": "Question 5 asked the committee to list studies/trials that the sponsor should conduct postmarketing. At the top of the list of suggested trials were drug-drug interaction trials including, methadone, antidepressant therapies, commonly used HIV antiretrovirals such as protease inhibitors, transplant immunosuppressants and another drug-drug interaction study with an oral contraceptive.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_37cbeecc2612",
+          "found_lines": [
+            145
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_37cbeecc-2612-54c6-a749-c1e20ea4aab2",
+        "line": 156,
+        "quote": "drug-drug interaction trials mentioned in section 9 under question 5 will become post-marketing requirements.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_37cbeecc2612",
+          "found_lines": [
+            156
+          ]
+        }
+      }
+    },
+    {
+      "concern": "On treatment duration, the committee agreed that patients with cirrhosis may need the longer 44-week duration of triple therapy.",
+      "change": "The final dosing recommendations specify that all patients with cirrhosis should receive 44 weeks of triple therapy after the 4-week PR lead-in.",
+      "category": "Dosing / treatment duration",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_37cbeecc-2612-54c6-a749-c1e20ea4aab2",
+        "line": 143,
+        "quote": "During their presentation, the sponsor conceded that patients with cirrhosis may need 44 weeks of triple therapy. The committee agreed with the longer treatment duration for this subgroup.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_37cbeecc2612",
+          "found_lines": [
+            143
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_37cbeecc-2612-54c6-a749-c1e20ea4aab2",
+        "line": 174,
+        "quote": "All patients with cirrhosis should receive 44 weeks of triple therapy after the 4 week PR lead-in period.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_37cbeecc2612",
+          "found_lines": [
+            12,
+            174
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Antiviral Drugs Advisory Committee met on April 27, 2011 and voted unanimously (18-0) that the benefits of boceprevir (Victrelis) outweighed its risks and it should be approved for chronic hepatitis C genotype 1. The committee's discussion shaped the approval: it prompted Warnings and Precautions and monitoring language for the amplified hematologic toxicities (anemia/neutropenia), a Usage statement that prior null responders were not studied (without excluding them from the indication), 44-week triple therapy for cirrhotics, and a slate of postmarketing drug-drug interaction study requirements. The verbatim transcript is not in paperclip; these facts come from the FDA Summary Review and Office Director memo."
+}

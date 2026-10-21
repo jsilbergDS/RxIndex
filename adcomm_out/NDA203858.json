@@ -1,0 +1,135 @@
+{
+  "app": "NDA203858",
+  "drug": "JUXTAPID",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "e8b67048-eb37-5ad8-b760-1e5df11bde08"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "8b08a1ca-ffd1-525c-86e8-957afdcab5ba"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "7ccd79d4-fe77-592c-bf1f-5659c9b2873e"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC)",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "8b08a1ca-ffd1-525c-86e8-957afdcab5ba",
+      "line": 2050,
+      "quote": "The efficacy and safety of lomitapide mesylate for HoFH was discussed with the Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC) on 17 October 2012."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "8b08a1ca-ffd1-525c-86e8-957afdcab5ba",
+      "found_lines": [
+        2050
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "October 17, 2012",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "e8b67048-eb37-5ad8-b760-1e5df11bde08",
+      "line": 135,
+      "quote": "This application was discussed at the Endocrinologic and Metabolic Drug Advisory Committee on October 17, 2012."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "e8b67048-eb37-5ad8-b760-1e5df11bde08",
+      "found_lines": [
+        135
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 13 to 2 in favor of approval of lomitapide for the treatment of HoFH.",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "e8b67048-eb37-5ad8-b760-1e5df11bde08",
+      "line": 135,
+      "quote": "Regarding whether there is sufficient evidence of efficacy and safety to support the marketing approval of lomitapide, the vote was 13 versus 2 in favor of approval."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "e8b67048-eb37-5ad8-b760-1e5df11bde08",
+      "found_lines": [
+        135
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Most committee members who voted for approval emphasized that the vote was specific to the HoFH population and that the proposed REMS should be tightened beyond prescribers merely attesting that lomitapide is 'medically appropriate' for a patient.",
+      "change": "In response to the Advisory Committee's recommendations, DRISK modified the REMS goals to restrict use of lomitapide to patients whose prescribers certify a clinical or laboratory diagnosis consistent with HoFH, strengthening the prescriber attestation in the prescription authorization form.",
+      "category": "REMS / Population restriction",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "8b08a1ca-ffd1-525c-86e8-957afdcab5ba",
+        "line": 2059,
+        "quote": "Most members who voted for approval emphasized that their vote was specifically for the HoFH population, and that the proposed REMS should be tightened beyond prescribers attesting that lomitapide is \"medically appropriate\" for a patient.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "8b08a1ca-ffd1-525c-86e8-957afdcab5ba",
+          "found_lines": [
+            2059
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "7ccd79d4-fe77-592c-bf1f-5659c9b2873e",
+        "line": 186,
+        "quote": "In response to the Advisory Committee panel recommendations to strengthen the proposed REMS program, DRISK modified the REMS goals to restrict the use of lomitapide only to patients whose prescribers certify to have a clinical or laboratory diagnosis consistent with HoFH.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "7ccd79d4-fe77-592c-bf1f-5659c9b2873e",
+          "found_lines": [
+            186
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Some panel members recommended a more rigorous postmarketing observational study to collect long-term safety data than the one originally proposed by the sponsor.",
+      "change": "As a condition of approval, FDA required a postmarketing requirement (PMR) consisting of a 10-year prospective observational cohort study (product exposure registry) of HoFH patients treated with lomitapide to capture hepatic adverse events, malignancies, teratogenicity, major cardiovascular events, and death.",
+      "category": "Safety / Postmarketing requirement",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "7ccd79d4-fe77-592c-bf1f-5659c9b2873e",
+        "line": 127,
+        "quote": "Some panel members additionally recommended a more rigorous postmarketing observational study to collect long-term safety data than that originally proposed by the sponsor.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "7ccd79d4-fe77-592c-bf1f-5659c9b2873e",
+          "found_lines": [
+            127
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "e8b67048-eb37-5ad8-b760-1e5df11bde08",
+        "line": 131,
+        "quote": "A 10-year, prospective observational cohort study (a product exposure registry) of patients with HoFH treated with lomitapide to obtain information on the occurrence, and outcomes when possible, of hepatic adverse events, hepatic and small bowel malignancies, teratogenicity, major adverse cardiovascular events, and death (including cause of death).",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "e8b67048-eb37-5ad8-b760-1e5df11bde08",
+          "found_lines": [
+            131
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC) met on October 17, 2012 and voted 13 to 2 that lomitapide (JUXTAPID) had sufficient efficacy and safety data to support marketing for HoFH, with members stressing the vote was specific to the HoFH population and that the REMS should be tightened. In response, DRISK strengthened the REMS goals to restrict use to patients whose prescribers certify a clinical or laboratory diagnosis consistent with HoFH. The committee also emphasized obtaining more long-term data, consistent with the required PMR for a 10-year prospective observational HoFH registry."
+}

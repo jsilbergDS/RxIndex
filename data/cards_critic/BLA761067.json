@@ -1,0 +1,82 @@
+{
+  "app": "BLA761067",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive flags: 'reSURFACE 1' and 'Trial 2 in labeling' are trial/labeling identifiers, not efficacy/safety numbers requiring citation."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: 'reSURFACE 2'/'Trial 3 in labeling' are identifiers, not citable numbers."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive flag: the '1' derives from 'PGA 0/1' label; all efficacy percentages (58/7/64/6) are supported by the citation."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "False-positive flag: the '1' derives from 'PGA 0/1' label; all efficacy percentages (55/4/61/6) are supported by the citation."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flags: '23' and '2017' are part of the receipt date 'March 23, 2017', which is excluded from citable numbers."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: the '3' derives from 'section 351(a)' and 'Phase 3', not an efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Trial P010 (reSURFACE 1; Trial 2 in labeling)"
+      },
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "2",
+        "text": "Trial P010 (reSURFACE 1; Trial 2 in labeling)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "1",
+        "text": "Trial P010 at Week 12: PGA 0/1 58% vs 7% placebo; PASI 75 64% vs 6% placebo (p-v"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Trial P011 (reSURFACE 2; Trial 3 in labeling)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "1",
+        "text": "Trial P011 at Week 12: PGA 0/1 55% vs 4% placebo; PASI 75 61% vs 6% placebo (p-v"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "23",
+        "text": "Original BLA received March 23, 2017 and approved effective the date of the appr"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2017",
+        "text": "Original BLA received March 23, 2017 and approved effective the date of the appr"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "ILUMYA was an original BLA under section 351(a) of the PHS Act, given standard r"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

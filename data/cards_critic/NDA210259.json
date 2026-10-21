@@ -1,0 +1,23 @@
+{
+  "app": "NDA210259",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 308)",
+  "_raw": "{\n  \"app\": \"NDA210259\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].endpoint\",\n      \"severity\": \"low\",\n      \"issue\": \"The '2014' in '2014 Lugano Classification' is uncited but is a classification reference year, not an efficacy/safety number; false-positive flag",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "2014",
+        "text": "Overall response rate (ORR) per investigator assessment using the 2014 Lugano Cl"
+      },
+      {
+        "field": "approval_program/accelerated_approval/surrogate_endpoint",
+        "number": "80.6",
+        "text": "Overall response rate (ORR) of 80.6%, considered a surrogate endpoint supported "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

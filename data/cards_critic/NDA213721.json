@@ -1,0 +1,33 @@
+{
+  "app": "NDA213721",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 376)",
+  "_raw": "Analyzing the card for quality issues.\n\nLet me check the automated flags:\n- `uncited_numbers`: \"4/11/2018\" is a date (date component \"4\"), false positive. \"314.510\" (CFR regulation) - not efficacy/safety, borderline but it's a regulation number, and the summary citation quote doesn't contain it. How",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/orphan_drug/orphan_indication",
+        "number": "4",
+        "text": "Orphan drug designation granted 4/11/2018 for the treatment of RET-rearranged NS"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "314.510",
+        "text": "Pralsetinib (a new molecular entity) received Orphan Drug Designation (4/11/2018"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3916",
+        "text": "Pralsetinib (a new molecular entity) received Orphan Drug Designation (4/11/2018"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "Pralsetinib (a new molecular entity) received Orphan Drug Designation (4/11/2018"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

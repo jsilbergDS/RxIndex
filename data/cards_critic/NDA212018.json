@@ -1,0 +1,52 @@
+{
+  "app": "NDA212018",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG 'uncited_numbers' N=87 in key_safety is a false positive; N=87 for BLC2001 is supported by the n field and accelerated_approval citations."
+    },
+    {
+      "field": "approval_program/accelerated_approval/confirmatory_requirement",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG number '3' is the trial phase (Phase 3), not an efficacy/safety figure; false positive."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG numbers '2' and '3' are trial phase designations (Phase 2 study, Phase 3 trial), not efficacy/safety data; false positives."
+    },
+    {
+      "field": "modality",
+      "severity": "low",
+      "issue": "Text claims 'small molecule (oral kinase inhibitor)' but the cited quote only states 'Kinase inhibitor'; 'small molecule' and 'oral' are reasonable but not directly supported by the citation."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "87",
+        "text": "Most common adverse reactions including lab abnormalities (\u226520%) were phosphate "
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "3",
+        "text": "Confirmatory randomized Phase 3 trial BLC3001 comparing erdafitinib with vinflun"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "Erdafitinib, a breakthrough-therapy designated kinase inhibitor, received Priori"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Erdafitinib, a breakthrough-therapy designated kinase inhibitor, received Priori"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

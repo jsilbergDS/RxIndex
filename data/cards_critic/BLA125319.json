@@ -1,0 +1,28 @@
+{
+  "app": "BLA125319",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 295)",
+  "_raw": "Analyzing the card against the review and automated flags.\n\n```json\n{\n  \"app\": \"BLA125319\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].design\",\n      \"severity\": \"low\",\n      \"issue\": \"Automated flag 'Three/3-part' is a false positive; the citation explicitly say",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "3",
+        "text": "Three-part study: Part 1 was an 8-week open-label single-dose run-in to identify"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "16",
+        "text": "35 patients enrolled in Part 1; 31 complete responders randomized into Part 2 (1"
+      },
+      {
+        "field": "key_safety",
+        "number": "3",
+        "text": "Most common adverse reactions are nasopharyngitis, diarrhea, influenza, headache"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

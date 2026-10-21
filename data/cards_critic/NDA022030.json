@@ -1,0 +1,67 @@
+{
+  "app": "NDA022030",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Flagged numbers '4' and '8' are drug doses (Feso 4 mg/8 mg, Tolt 4 mg), which are excluded dose values; false positive."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Flagged number '12' refers to 'week 12', a treatment-duration/time reference supported by the endpoint citations; false positive."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "Flagged numbers '4' and '8' are drug doses (Feso 4 mg/8 mg); false positive."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged number '31' is part of the approval date 'October 31, 2008'; date, false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "4",
+        "text": "Total 1135 randomized (Placebo 285, Feso 4 mg 272, Feso 8 mg 288, Tolt 4 mg 290)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "8",
+        "text": "Total 1135 randomized (Placebo 285, Feso 4 mg 272, Feso 8 mg 288, Tolt 4 mg 290)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "4",
+        "text": "Total 1135 randomized (Placebo 285, Feso 4 mg 272, Feso 8 mg 288, Tolt 4 mg 290)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "12",
+        "text": "At week 12, reduction in micturitions was -1.90 (4 mg) and -1.99 (8 mg) vs -1.08"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "4",
+        "text": "Total 836 randomized (Placebo 274, Feso 4 mg 283, Feso 8 mg 279)."
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "8",
+        "text": "Total 836 randomized (Placebo 274, Feso 4 mg 283, Feso 8 mg 279)."
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "31",
+        "text": "Toviaz was approved through the standard NDA pathway for treatment of overactive"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

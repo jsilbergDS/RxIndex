@@ -1,0 +1,43 @@
+{
+  "app": "NDA209936",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 355)",
+  "_raw": "Analyzing the card for issues.\n\nKey checks:\n- key_safety \"lower respiratory tract infections (21%)\" \u2014 the 21% number has no citation. The AE table citations don't include LRTI. Genuine uncited number.\n- fast_track and orphan_drug: citation quote is a reviewer question \"Is this accurate?\" \u2014 but it's ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "21",
+        "text": "Most common adverse reactions (>=20%) are hyperglycemia (54%), leukopenia (36%),"
+      },
+      {
+        "field": "approval_program/accelerated_approval/surrogate_endpoint",
+        "number": "1",
+        "text": "Overall/objective response rate (ORR) \u2014 durable complete or partial responses in"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "14",
+        "text": "ALIQOPA received accelerated approval under 21 CFR 314.500 (effective September "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2017",
+        "text": "ALIQOPA received accelerated approval under 21 CFR 314.500 (effective September "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3273",
+        "text": "ALIQOPA received accelerated approval under 21 CFR 314.500 (effective September "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "ALIQOPA received accelerated approval under 21 CFR 314.500 (effective September "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

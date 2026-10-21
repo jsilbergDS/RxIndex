@@ -1,0 +1,22 @@
+{
+  "app": "NDA216016",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "receipt_date",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited_number '216016' is a false positive; it is the NDA application identifier, not an efficacy/safety figure, and should be excluded."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "receipt_date",
+        "number": "216016",
+        "text": "Received Dates: November 30 & December 14, 2023, respectively (NDA 216016 receiv"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

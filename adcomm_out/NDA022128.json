@@ -1,0 +1,236 @@
+{
+  "app": "NDA022128",
+  "drug": "SELZENTRY",
+  "docs_read": [
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_52a88a57-433b-5fa0-974f-d0319df47041"
+    },
+    {
+      "doc_type": "Approv",
+      "doc_id": "fda_17e6ffbf-c0a3-5290-9523-393613a70cbe"
+    },
+    {
+      "doc_type": "Lbl",
+      "doc_id": "fda_cc1b0d9a-2b60-5bf3-bcd4-936368e6f1ac"
+    },
+    {
+      "doc_type": "AdminCorres",
+      "doc_id": "fda_802460dc-3051-5723-b936-66612a956bfb"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Antiviral Products Advisory Committee (also referred to in the review as the Antiviral Drugs Advisory Committee)",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_52a88a57-433b-5fa0-974f-d0319df47041",
+      "line": 817,
+      "quote": "A meeting of the Antiviral Products Advisory Committee was held on April 24, 2007."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_52a88a57433b",
+      "found_lines": [
+        817
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "April 24, 2007",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_52a88a57-433b-5fa0-974f-d0319df47041",
+      "line": 135,
+      "quote": "The application was presented to the Antiviral Drugs Advisory Committee on April 24, 2007."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_52a88a57433b",
+      "found_lines": [
+        135
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The Committee voted unanimously that the safety and efficacy data supported accelerated approval for treatment-experienced CCR5-tropic HIV-1 patients, and voted unanimously in favor of the applicant's proposed dosing.",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_52a88a57-433b-5fa0-974f-d0319df47041",
+      "line": 819,
+      "quote": "The Committee voted unanimously that the data supports accelerated approval with the caveat that future study designs include increased representation of women and minorities."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_52a88a57433b",
+      "found_lines": [
+        819
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Hepatotoxicity was among the safety issues presented to and discussed by the committee as a potential risk of maraviroc.",
+      "change": "A boxed warning for hepatotoxicity (WARNING: HEPATOTOXICITY) was included in the label; the reviewer states labeling addresses the committee's concerns.",
+      "category": "Safety / Boxed warning",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "fda_52a88a57-433b-5fa0-974f-d0319df47041",
+        "line": 196,
+        "quote": "The following safety issues were identified and presented at the Antiviral Drugs Advisory Committee meeting on April 24, 2007: cardiovascular toxicity, hepatotoxicity, potential for malignancies and infections based on maraviroc's mechanism of action, and laboratory abnormalities; mortality was also presented.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_52a88a57433b",
+          "found_lines": [
+            196
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MedR",
+        "doc_id": "fda_52a88a57-433b-5fa0-974f-d0319df47041",
+        "line": 220,
+        "quote": "Labeling and post-marketing commitments address the concerns of the Antiviral Drugs Advisory Committee. A boxed warning for hepatotoxicity will help to inform practitioners about the potential for drug-induced liver injury",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_52a88a57433b",
+          "found_lines": [
+            220
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee recommended that labeling include comments on the potential development of malignancies and infections, given that maraviroc's mechanism of action could impact immune surveillance.",
+      "change": "The label includes language stating the drug could affect immune surveillance and lead to an increased risk of malignancy.",
+      "category": "Labeling / Malignancy risk",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "fda_52a88a57-433b-5fa0-974f-d0319df47041",
+        "line": 184,
+        "quote": "The panel members also recommended that labeling include comments related to the potential development of malignancies and infections as this drug's mechanism of action could impact immune surveillance.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_52a88a57433b",
+          "found_lines": [
+            184
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "fda_cc1b0d9a-2b60-5bf3-bcd4-936368e6f1ac",
+        "line": 66,
+        "quote": "While no increase in malignancy has been observed with SELZENTRY, due to this drug's mechanism of action it could affect immune surveillance and lead to an increased risk of malignancy.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_cc1b0d9a2b60",
+          "found_lines": [
+            66
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee discussed postural hypotension as a dose-limiting toxicity and said language should be included in product labeling.",
+      "change": "The label contains a caution about postural hypotension, advising care in patients with a history of postural hypotension or on blood-pressure-lowering medications.",
+      "category": "Labeling / Dose-limiting toxicity",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "fda_52a88a57-433b-5fa0-974f-d0319df47041",
+        "line": 822,
+        "quote": "postural hypotension was discussed as a dose limiting toxicity with need for language to be included in product labeling.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_52a88a57433b",
+          "found_lines": [
+            822
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "fda_cc1b0d9a-2b60-5bf3-bcd4-936368e6f1ac",
+        "line": 60,
+        "quote": "Caution should be used when administering SELZENTRY in patients with a history of postural hypotension or on concomitant medication known to lower blood pressure.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_cc1b0d9a2b60",
+          "found_lines": [
+            60,
+            241
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee recommended postmarketing data collection on patients co-infected with viral hepatitis.",
+      "change": "A postmarketing commitment requires a study in HIV-1 patients co-infected with hepatitis C and/or B, including some subjects with a Child-Pugh score of C.",
+      "category": "Postmarketing commitment / Special population",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "fda_52a88a57-433b-5fa0-974f-d0319df47041",
+        "line": 819,
+        "quote": "The Committee also recommended postmarketing data collection on patients with viral hepatitis co-infection, pediatrics, immunologic signals, and malignancies.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_52a88a57433b",
+          "found_lines": [
+            819
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Approv",
+        "doc_id": "fda_17e6ffbf-c0a3-5290-9523-393613a70cbe",
+        "line": 48,
+        "quote": "Conduct and submit a study in patients with HIV-1 who are co-infected with hepatitis C and/or B, including some subjects with a Child-Pugh score of C.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_17e6ffbfc0a3",
+          "found_lines": [
+            48
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee recommended post-approval evaluation of all potential safety signals, including hepatotoxicity, malignancy, infections, and cardiovascular events.",
+      "change": "A postmarketing commitment requires a five-year follow-up of trial subjects for mortality, liver failure, malignancy, myocardial ischemia or infarction, rhabdomyolysis, and serious infections.",
+      "category": "Postmarketing commitment / Safety surveillance",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "fda_52a88a57-433b-5fa0-974f-d0319df47041",
+        "line": 234,
+        "quote": "The AC also recommended post-approval evaluation of all potential safety signals, including hepatotoxicity, malignancy, infections, and cardiovascular events.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_52a88a57433b",
+          "found_lines": [
+            234
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Approv",
+        "doc_id": "fda_17e6ffbf-c0a3-5290-9523-393613a70cbe",
+        "line": 42,
+        "quote": "Conduct a five-year follow-up for subjects in Studies A4001027 and A4001028 for mortality, liver failure, malignancy, myocardial ischemia or infarction and rhabdomyolysis, as well as for infections reported as serious adverse events or qualify as a CDC Category C event.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_17e6ffbfc0a3",
+          "found_lines": [
+            42
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Antiviral Products Advisory Committee met on April 24, 2007 and voted unanimously that the data supported accelerated approval of maraviroc for treatment-experienced CCR5-tropic HIV-1 patients and unanimously endorsed the proposed dosing. The committee's concerns about hepatotoxicity, malignancy/infection risk from the drug's effect on immune surveillance, and postural hypotension were reflected in the final label (boxed warning for hepatotoxicity, malignancy-risk language, and postural-hypotension caution). Its recommendations for post-approval evaluation of safety signals and for data in viral-hepatitis-co-infected patients map onto the five-year follow-up and co-infection postmarketing commitments, though the approval letter does not explicitly attribute those commitments to the committee."
+}

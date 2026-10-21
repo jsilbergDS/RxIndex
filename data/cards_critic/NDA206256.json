@@ -1,0 +1,48 @@
+{
+  "app": "NDA206256",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 262)",
+  "_raw": "Analyzing the card against all checks.\n\n{\n \"app\": \"NDA206256\",\n \"release_ready\": false,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[0].n\",\n   \"severity\": \"low\",\n   \"issue\": \"Automated flag on '129' is a false positive; the number 129 appears verbatim in the trial_name and design citation quotes.\",\n",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "129",
+        "text": "129 patients enrolled; 120 evaluable for efficacy"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "120",
+        "text": "Overall response rate 25.8% (31/120; 95% CI 18.3-34.6); CR 10.8% (13/120); PR 15"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "120",
+        "text": "Overall response rate 25.8% (31/120; 95% CI 18.3-34.6); CR 10.8% (13/120); PR 15"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "120",
+        "text": "Overall response rate 25.8% (31/120; 95% CI 18.3-34.6); CR 10.8% (13/120); PR 15"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "19",
+        "text": "Belinostat (Beleodaq) received accelerated approval under 21 CFR 314.500 for rel"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2178",
+        "text": "Belinostat (Beleodaq) received accelerated approval under 21 CFR 314.500 for rel"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "Belinostat (Beleodaq) received accelerated approval under 21 CFR 314.500 for rel"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

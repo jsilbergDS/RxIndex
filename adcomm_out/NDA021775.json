@@ -1,0 +1,177 @@
+{
+  "app": "NDA021775",
+  "drug": "ENTEREG",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "2b6ca2fb-1a9e-5962-a769-520a1aab4b9c"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "7ff28c3c-e7a4-5540-bff7-ed8a41acb173"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "f583e3c0-b0df-5352-bb4e-46657ffc196a"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "27591707-6f3c-5fdb-80de-e8128441863a"
+    },
+    {
+      "doc_type": "Label",
+      "doc_id": "d942425b-8b8e-5716-a0cd-8ee0a216c588"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Gastrointestinal Drugs Advisory Committee (GIDAC)",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "f583e3c0-b0df-5352-bb4e-46657ffc196a",
+      "line": 11,
+      "quote": "I concur with the conclusion of FDA Gastrointestinal Drugs Advisory Committee (GIDAC) Meeting held on January 23, 2008"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "f583e3c0-b0df-5352-bb4e-46657ffc196a",
+      "found_lines": [
+        11
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "January 23, 2008 (during the third review cycle)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "2b6ca2fb-1a9e-5962-a769-520a1aab4b9c",
+      "line": 79,
+      "quote": "An Advisory Committee meeting was held on January 23, 2008, during the third review cycle."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "2b6ca2fb-1a9e-5962-a769-520a1aab4b9c",
+      "found_lines": [
+        79
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "Committee recommended approval, 9 to 6 vote, conditioned on a tighter risk management plan to prevent off-label use (15 total doses), restricting use to in-hospital patients treated by surgeons performing bowel resections only, and capture of clinical outcomes.",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "2b6ca2fb-1a9e-5962-a769-520a1aab4b9c",
+      "line": 79,
+      "quote": "The committee recommended approval (9 to 6 vote) with tighter risk management plan to prevent off-label use (15 total doses), restricting use to patients in hospitals treated by surgeons performing bowel resections only, and to capture the clinical outcomes."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "2b6ca2fb-1a9e-5962-a769-520a1aab4b9c",
+      "found_lines": [
+        13,
+        79
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Excess myocardial infarctions seen in a long-term opioid-induced bowel dysfunction trial raised cardiovascular safety concerns; the committee recommended approval only if use were restricted to short-term in-hospital use.",
+      "change": "Approval carried a boxed warning limiting Entereg to short-term hospital use only.",
+      "category": "Safety / Boxed warning",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "7ff28c3c-e7a4-5540-bff7-ed8a41acb173",
+        "line": 22,
+        "quote": "the serious nature of the risk prompted the Advisory Committee to recommend that Entereg be approved for postoperative ileus patients only if measures were implemented to restrict the use of the drug to short-term in-hospital use.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "7ff28c3c-e7a4-5540-bff7-ed8a41acb173",
+          "found_lines": [
+            22
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Label",
+        "doc_id": "d942425b-8b8e-5716-a0cd-8ee0a216c588",
+        "line": 5,
+        "quote": "WARNING: FOR SHORT-TERM HOSPITAL USE ONLY",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "d942425b-8b8e-5716-a0cd-8ee0a216c588",
+          "found_lines": [
+            5,
+            53
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee recommended that the sponsor conduct a postmarketing clinical trial in patients undergoing surgery other than bowel resection with prospective cardiovascular safety monitoring.",
+      "change": "A post-marketing study was required of the sponsor to collect additional safety data.",
+      "category": "Safety / Postmarketing requirement (PMR)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "7ff28c3c-e7a4-5540-bff7-ed8a41acb173",
+        "line": 22,
+        "quote": "the Advisory Committee recommended that the sponsor conduct a postmarketing clinical trial in patients undergoing surgery other than bowel resection in which cardiovascular safety would be prospectively monitored.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "7ff28c3c-e7a4-5540-bff7-ed8a41acb173",
+          "found_lines": [
+            22
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "27591707-6f3c-5fdb-80de-e8128441863a",
+        "line": 38,
+        "quote": "a post-marketing study will be required of the Sponsor to collect additional safety data.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "27591707-6f3c-5fdb-80de-e8128441863a",
+          "found_lines": [
+            38
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members unanimously voted that a stronger risk management plan was needed to prevent outpatient use and longer-term inpatient use.",
+      "change": "The sponsor's RiskMAP was amended to address the questions OSE posed to the committee and was converted to a Risk Evaluation and Mitigation Strategy (REMS).",
+      "category": "Safety / REMS",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "27591707-6f3c-5fdb-80de-e8128441863a",
+        "line": 14,
+        "quote": "The committee members unanimously voted that a stronger risk management plan was needed to prevent outpatient use and longer-term inpatient use.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "27591707-6f3c-5fdb-80de-e8128441863a",
+          "found_lines": [
+            14
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "27591707-6f3c-5fdb-80de-e8128441863a",
+        "line": 38,
+        "quote": "The amended RiskMAP now proposed by the Sponsor adequately responds to the questions that OSE posed to the Advisory Committee during its January 2008 meeting.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "27591707-6f3c-5fdb-80de-e8128441863a",
+          "found_lines": [
+            38
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The FDA Gastrointestinal Drugs Advisory Committee met on January 23, 2008 (third review cycle) and voted 9 to 6 to recommend approval of Entereg (alvimopan) for accelerating GI recovery after bowel resection, contingent on a stronger risk management plan. Driven by an excess of myocardial infarctions in a long-term trial, the committee tied approval to restricting use to short-term in-hospital use, which is reflected in the boxed warning and in a RiskMAP that was converted to a REMS. The committee also recommended a postmarketing cardiovascular safety trial, which FDA required as a condition of approval."
+}

@@ -1,0 +1,42 @@
+{
+  "app": "NDA209363",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "The '21' and '30' (Day 21-30 window) in the result text are not in the result field's citation quotes; they appear in the endpoint citation and are effectively date-window values, so this is a borderline false positive."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Automated flag on '17' and '2017' is a false positive \u2014 these are the January 17, 2017 receipt date, which is an excluded date value."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "21",
+        "text": "Clinical Responder rate at Day 21-30 was 53.3% with SOLOSEC vs 19.3% with placeb"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "30",
+        "text": "Clinical Responder rate at Day 21-30 was 53.3% with SOLOSEC vs 19.3% with placeb"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "17",
+        "text": "Approved on the first cycle; the NDA dated/received January 17, 2017 was approve"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2017",
+        "text": "Approved on the first cycle; the NDA dated/received January 17, 2017 was approve"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

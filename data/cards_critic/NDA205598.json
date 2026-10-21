@@ -1,0 +1,72 @@
+{
+  "app": "NDA205598",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "modality.text",
+      "severity": "low",
+      "issue": "Claims 'small molecule (synthetic peptidomimetic)' but the only citation states 'synthetic growth hormone secretagogue receptor agonist'; 'small molecule/peptidomimetic' is not supported by the quote (though factually correct)."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Text says '157 dosed' but the supporting citation says '157 enrolled', a minor mislabel."
+    },
+    {
+      "field": "crl_history.date",
+      "severity": "low",
+      "issue": "Uncited_numbers flags '5' and '2014' in 'November 5, 2014', but these are date components covered by the cited '11/05/14' quote \u2014 false positives."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Uncited_numbers flags 11, 05, 130, 052, 30, 2017 \u2014 all are date fragments (11/05/2014, Dec 30 2017) or study-ID components (130-052), which are excluded categories \u2014 false positives."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "crl_history/date",
+        "number": "5",
+        "text": "November 5, 2014"
+      },
+      {
+        "field": "crl_history/date",
+        "number": "2014",
+        "text": "November 5, 2014"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "11",
+        "text": "Macrilen (macimorelin) is a 505(b)(1) NDA for a ghrelin/growth hormone secretago"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "05",
+        "text": "Macrilen (macimorelin) is a 505(b)(1) NDA for a ghrelin/growth hormone secretago"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "130",
+        "text": "Macrilen (macimorelin) is a 505(b)(1) NDA for a ghrelin/growth hormone secretago"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "052",
+        "text": "Macrilen (macimorelin) is a 505(b)(1) NDA for a ghrelin/growth hormone secretago"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "30",
+        "text": "Macrilen (macimorelin) is a 505(b)(1) NDA for a ghrelin/growth hormone secretago"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2017",
+        "text": "Macrilen (macimorelin) is a 505(b)(1) NDA for a ghrelin/growth hormone secretago"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

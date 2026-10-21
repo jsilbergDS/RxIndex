@@ -1,0 +1,43 @@
+{
+  "app": "NDA021986",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 287)",
+  "_raw": "{\n  \"app\": \"NDA021986\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[1].result\",\n      \"severity\": \"low\",\n      \"issue\": \"Automated flag for number 63 is a false positive; the citation spells out 'Sixty three (59%) of 107' which supports the value.\",\n    },\n    {\n    ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "63",
+        "text": "MaHR in 63 (59%) of 107 patients; OHR 80%"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "24",
+        "text": "MaHR in 24 (32%) of 74 patients; OHR in 39 (53%)"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "39",
+        "text": "MaHR in 24 (32%) of 74 patients; OHR in 39 (53%)"
+      },
+      {
+        "field": "pivotal_trials[3]/result",
+        "number": "13",
+        "text": "LB CML: MaHR in 13 (31%) of 42; Ph+ ALL: MaHR in 15 (42%) of 36"
+      },
+      {
+        "field": "pivotal_trials[3]/result",
+        "number": "15",
+        "text": "LB CML: MaHR in 13 (31%) of 42; Ph+ ALL: MaHR in 15 (42%) of 36"
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "24",
+        "text": "Sponsor required to submit data from the ongoing Phase 2 studies (24-month follo"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "app": "BLA761062",
+  "drug": "EVENITY",
+  "docs_read": [
+    {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "fda_ce39fac4-c229-5fcf-a4e3-f17ee90a4d45"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_d1b64f2a-2f23-50e6-80ca-b548fa344dab"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Bone, Reproductive, and Urologic Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "fda_d1b64f2a-2f23-50e6-80ca-b548fa344dab",
+      "line": 40,
+      "quote": "The Application was discussed at a meeting of the Bone, Reproductive, and Urologic Drugs Advisory Committee on January 16, 2019."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_d1b64f2a2f23",
+      "found_lines": [
+        9,
+        40
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "January 16, 2019",
+    "quote": {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "fda_ce39fac4-c229-5fcf-a4e3-f17ee90a4d45",
+      "line": 1164,
+      "quote": "An Advisory Committee meeting was held on January 16, 2019 to discuss the cardiovascular safety findings from the romosozumab fracture trials."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_ce39fac4c229",
+      "found_lines": [
+        1164
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 15 (A, approve for proposed indication) : 3 (B, approve for a different indication) : 1 (C, no), i.e. a strong majority supported approval; members recommended a boxed warning against use in highest-MACE-risk patients and an additional post-approval cardiovascular safety study.",
+    "quote": {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "fda_ce39fac4-c229-5fcf-a4e3-f17ee90a4d45",
+      "line": 1177,
+      "quote": "**Committee Vote:** A: 15 B: 3 C: 1"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_ce39fac4c229",
+      "found_lines": [
+        1177
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee concluded the cardiovascular safety of romosozumab was not adequately characterized and there was wide support for a boxed warning against use in patients at highest risk for MACE (e.g., those with a recent myocardial infarction or stroke).",
+      "change": "The approved label added a Boxed Warning stating EVENITY should not be prescribed for patients who have had a myocardial infarction or stroke within one year, with consideration of benefit/risk in patients with other cardiovascular risk factors, plus a one-year limitation of use.",
+      "category": "Safety / Boxed warning",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "fda_ce39fac4-c229-5fcf-a4e3-f17ee90a4d45",
+        "line": 1178,
+        "quote": "Additionally, there was wide support among members for including a boxed warning in the label against use in patients at highest risk for MACE (at least until more is known regarding romosozumab's cardiovascular risk).",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_ce39fac4c229",
+          "found_lines": [
+            1178
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "fda_ce39fac4-c229-5fcf-a4e3-f17ee90a4d45",
+        "line": 1185,
+        "quote": "Added that EVENITY should not be prescribed for patients who have had a myocardial infarction or stroke within one year, and to consider whether the benefits outweigh the risks in patients with other cardiovascular risk factors.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_ce39fac4c229",
+          "found_lines": [
+            1185,
+            1186
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee agreed additional data were needed to characterize the potential cardiovascular risk, recommended that an additional study be conducted post-approval, and noted a traditional observational study would not provide reliable data (favoring a randomized/active-controlled cardiovascular outcomes approach).",
+      "change": "FDA imposed a required postmarketing study: a comparative safety study or trial adequately designed and powered to rule out an unacceptable increase in risk of MI, stroke, and cardiovascular death among users of romosozumab compared to an appropriate comparator.",
+      "category": "Postmarketing requirement (PMR)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "fda_ce39fac4-c229-5fcf-a4e3-f17ee90a4d45",
+        "line": 1193,
+        "quote": "As discussed at the Advisory Committee meeting, it is unlikely that an observational study will adequately answer the question of cardiovascular safety with romosozumab use.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_ce39fac4c229",
+          "found_lines": [
+            1193
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "fda_ce39fac4-c229-5fcf-a4e3-f17ee90a4d45",
+        "line": 1196,
+        "quote": "powered to rule out an unacceptable increase in risk of MI, stroke, and cardiovascular death",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_ce39fac4c229",
+          "found_lines": [
+            1196
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Bone, Reproductive, and Urologic Drugs Advisory Committee met on January 16, 2019 to address the cardiovascular safety signal seen in the romosozumab fracture trials, and voted 15:3:1 that the overall benefit/risk profile supported approval. The committee concluded CV safety was not adequately characterized and recommended both a boxed warning against use in patients at highest MACE risk and an additional post-approval cardiovascular safety study. Both recommendations were reflected in the approval: the label carries a Boxed Warning excluding patients with MI or stroke within one year, and FDA imposed a required postmarketing comparative safety study to rule out an unacceptable increase in MI, stroke, and cardiovascular death."
+}

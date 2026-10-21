@@ -1,0 +1,52 @@
+{
+  "app": "NDA212489",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: uncited number '1' is the study alias 'Study 1' (a study identifier), which is excluded from citation requirements."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: uncited number '2' is the study alias 'Study 2' (a study identifier), not an efficacy/safety value."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flags: '3' derives from 'Phase 3' and '301'/'302' are study identifiers, all excluded from citation requirements."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study 301 (Study 1)"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Study 302 (Study 2)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Opicapone (Ongentys), a new molecular entity peripheral COMT inhibitor, was subm"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "301",
+        "text": "Opicapone (Ongentys), a new molecular entity peripheral COMT inhibitor, was subm"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "302",
+        "text": "Opicapone (Ongentys), a new molecular entity peripheral COMT inhibitor, was subm"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

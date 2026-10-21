@@ -1,0 +1,87 @@
+{
+  "app": "NDA022304",
+  "drug": "NUCYNTA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_c15f23ae-a3a2-57d4-a506-efef20d446bb"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_c1085fec-38cc-5caa-9090-519d9961cabc"
+    },
+    {
+      "doc_type": "MedR_P2",
+      "doc_id": "fda_6683f945-a514-5088-b014-d55abe491aa1"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_0a362940-d923-5385-a29f-040b534a03fc"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "None convened",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_c1085fec-38cc-5caa-9090-519d9961cabc",
+      "line": 139,
+      "quote": "No Advisory Committee Meeting is planned for this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_c1085fec38cc",
+      "found_lines": [
+        139
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "None (no meeting held)",
+    "quote": {
+      "doc_type": "MedR_P2",
+      "doc_id": "fda_6683f945-a514-5088-b014-d55abe491aa1",
+      "line": 707,
+      "quote": "There was no Advisory Committee held related to this NDA submission."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_6683f945a514",
+      "found_lines": [
+        707
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "None (no advisory committee)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_c15f23ae-a3a2-57d4-a506-efef20d446bb",
+      "line": 100,
+      "quote": "This application was not taken before an advisory committee as tapentadol is not a \"first-in-class\" drug and there were no concerning safety signals; nor was there any concern regarding the data provided to support evidence of the product's efficacy."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_c15f23aea3a2",
+      "found_lines": [
+        100
+      ]
+    }
+  },
+  "linkages": [],
+  "no_adcom_quote": {
+    "doc_type": "SumR",
+    "doc_id": "fda_c15f23ae-a3a2-57d4-a506-efef20d446bb",
+    "line": 100,
+    "quote": "This application was not taken before an advisory committee as tapentadol is not a \"first-in-class\" drug and there were no concerning safety signals; nor was there any concern regarding the data provided to support evidence of the product's efficacy."
+  },
+  "summary": "No advisory committee was convened for NUCYNTA (tapentadol, NDA022304). Three original review documents (Summary Review, Cross-Discipline Team Leader review, and Medical Review) all state no AC meeting was held or planned, because tapentadol is not a first-in-class drug, is a member of the previously approved opioid class, and raised no unexpected safety or efficacy concerns. With no committee meeting, there were no AC-driven linkages to changes in the approval.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "fda_c15f23aea3a2",
+    "found_lines": [
+      100
+    ]
+  }
+}

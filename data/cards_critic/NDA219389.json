@@ -1,0 +1,22 @@
+{
+  "app": "NDA219389",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "post_marketing[1].requirement",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: '201' is part of the trial identifier 'MEK-NF-201', not an efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "201",
+        "text": "4785-2: Conduct an integrated safety analysis of clinical trial data to characte"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

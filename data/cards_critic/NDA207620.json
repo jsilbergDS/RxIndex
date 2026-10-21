@@ -1,0 +1,47 @@
+{
+  "app": "NDA207620",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flags (8, 442, 4, 209, 233): the citation quote states '8442 patients were randomized (4209 patients to LCZ696 and 4233 patients to enalapril)', fully supporting the value; the flag only differs due to comma formatting."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "8",
+        "text": "8,442 randomized (4,209 to LCZ696, 4,233 to enalapril)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "442",
+        "text": "8,442 randomized (4,209 to LCZ696, 4,233 to enalapril)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "4",
+        "text": "8,442 randomized (4,209 to LCZ696, 4,233 to enalapril)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "209",
+        "text": "8,442 randomized (4,209 to LCZ696, 4,233 to enalapril)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "4",
+        "text": "8,442 randomized (4,209 to LCZ696, 4,233 to enalapril)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "233",
+        "text": "8,442 randomized (4,209 to LCZ696, 4,233 to enalapril)"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

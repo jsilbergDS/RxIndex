@@ -1,0 +1,152 @@
+{
+  "app": "NDA211765",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers (19.2, 21.2, 11.8, 7.4, 9.4, 38.6, 37.7, 27.8, 10.8, 9.9); all values are present in the concatenated table citation on line 151 and are correctly attributed to Study 1."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers (21.8, 14.3, 7.5, 0.007, 38.9, 27.4, 11.5); all present in the table citation on line 151 for Study 2."
+    },
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "False-positive flag on '01' \u2014 this is part of the study identifier MD-01/MD-02, not an efficacy/safety number."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag on '1' \u2014 part of the study label 'Study 1', not a data value."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers (4, 3); adverse-reaction rates are contained in the table citation 'Nausea224Somnolence*123DryMouth1<12' (line 56) and map correctly to the text."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag on '3' \u2014 refers to '505(b)'/'Phase 3' descriptive text, not an efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "UBR-MD-01 (Study 1)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "19.2",
+        "text": "Pain free at 2 hours: 50 mg 19.2%, 100 mg 21.2% vs placebo 11.8% (difference 7.4"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "21.2",
+        "text": "Pain free at 2 hours: 50 mg 19.2%, 100 mg 21.2% vs placebo 11.8% (difference 7.4"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "11.8",
+        "text": "Pain free at 2 hours: 50 mg 19.2%, 100 mg 21.2% vs placebo 11.8% (difference 7.4"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "7.4",
+        "text": "Pain free at 2 hours: 50 mg 19.2%, 100 mg 21.2% vs placebo 11.8% (difference 7.4"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "9.4",
+        "text": "Pain free at 2 hours: 50 mg 19.2%, 100 mg 21.2% vs placebo 11.8% (difference 7.4"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "38.6",
+        "text": "Pain free at 2 hours: 50 mg 19.2%, 100 mg 21.2% vs placebo 11.8% (difference 7.4"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "37.7",
+        "text": "Pain free at 2 hours: 50 mg 19.2%, 100 mg 21.2% vs placebo 11.8% (difference 7.4"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "27.8",
+        "text": "Pain free at 2 hours: 50 mg 19.2%, 100 mg 21.2% vs placebo 11.8% (difference 7.4"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "10.8",
+        "text": "Pain free at 2 hours: 50 mg 19.2%, 100 mg 21.2% vs placebo 11.8% (difference 7.4"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "9.9",
+        "text": "Pain free at 2 hours: 50 mg 19.2%, 100 mg 21.2% vs placebo 11.8% (difference 7.4"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "01",
+        "text": "Multicenter, randomized, double-blind, placebo-controlled single-attack study; s"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "21.8",
+        "text": "Pain free at 2 hours: 50 mg 21.8% vs placebo 14.3% (difference 7.5%; p=0.007). M"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "14.3",
+        "text": "Pain free at 2 hours: 50 mg 21.8% vs placebo 14.3% (difference 7.5%; p=0.007). M"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "7.5",
+        "text": "Pain free at 2 hours: 50 mg 21.8% vs placebo 14.3% (difference 7.5%; p=0.007). M"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.007",
+        "text": "Pain free at 2 hours: 50 mg 21.8% vs placebo 14.3% (difference 7.5%; p=0.007). M"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "38.9",
+        "text": "Pain free at 2 hours: 50 mg 21.8% vs placebo 14.3% (difference 7.5%; p=0.007). M"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "27.4",
+        "text": "Pain free at 2 hours: 50 mg 21.8% vs placebo 14.3% (difference 7.5%; p=0.007). M"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "11.5",
+        "text": "Pain free at 2 hours: 50 mg 21.8% vs placebo 14.3% (difference 7.5%; p=0.007). M"
+      },
+      {
+        "field": "key_safety",
+        "number": "4",
+        "text": "The most common adverse reactions (at least 2% and greater than placebo) were na"
+      },
+      {
+        "field": "key_safety",
+        "number": "3",
+        "text": "The most common adverse reactions (at least 2% and greater than placebo) were na"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Ubrelvy (ubrogepant) was submitted as a 505(b) NDA received 12/26/2018 and revie"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

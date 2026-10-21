@@ -1,0 +1,102 @@
+{
+  "app": "NDA204427",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Total N '593' is a sum of 399+194 not literally in a citation quote; derivable and harmless (false-positive-ish flag)."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "Total N '601' is a sum of 396+205 not literally in a citation quote; derivable and harmless."
+    },
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "low",
+      "issue": "Flagged number '0' (0% clinical involvement) is a paraphrase of 'completely clear nail' in the citation; false positive."
+    },
+    {
+      "field": "pivotal_trials[1].endpoint",
+      "severity": "low",
+      "issue": "Flagged number '0' is a paraphrase of 'completely clear nail' in the citation; false positive."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Flagged denominators 399 and 194 are supported by the n citation 'N = 399N = 194...'; false positive."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "Flagged denominators 396 and 205 are supported by the n citation 'N = ...N = 396N = 205'; false positive."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged number '204427' is the NDA application ID (excluded category); false positive."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged number '3' refers to 'Phase 3'; false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "0",
+        "text": "Complete cure at Week 52 (0% clinical involvement of the target toenail plus neg"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "593",
+        "text": "593 (399 tavaborole, 194 vehicle)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "399",
+        "text": "Complete cure 6.5% (26/399) tavaborole vs 0.5% (1/194) vehicle; p=0.001"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "194",
+        "text": "Complete cure 6.5% (26/399) tavaborole vs 0.5% (1/194) vehicle; p=0.001"
+      },
+      {
+        "field": "pivotal_trials[1]/endpoint",
+        "number": "0",
+        "text": "Complete cure at Week 52 (0% clinical involvement of the target toenail plus neg"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "601",
+        "text": "601 (396 tavaborole, 205 vehicle)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "396",
+        "text": "Complete cure 9.1% (36/396) tavaborole vs 1.5% (3/205) vehicle; p<0.001"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "205",
+        "text": "Complete cure 9.1% (36/396) tavaborole vs 1.5% (3/205) vehicle; p<0.001"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "204427",
+        "text": "NDA 204427 was approved effective on the date of the approval letter for use as "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Kerydin (tavaborole) was a 505(b)(1) new drug application for a new molecular en"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "app": "BLA761172",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 10 column 5 (char 315)",
+  "_raw": "Analyzing the card against the automated flags and manual checks.\n\n```json\n{\n  \"app\": \"BLA761172\",\n  \"release_ready\": true,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].design\",\n      \"severity\": \"low\",\n      \"issue\": \"False-positive uncited-number flag: '2018' is a date/year referring to t",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "2018",
+        "text": "Multicenter, randomized, open-label, active-controlled trial (control: ZMapp) co"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "28",
+        "text": "28-day mortality 35.1% (61/174) with ansuvimab-zykl vs 49.4% (83/168) with ZMapp"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "8",
+        "text": "Ansuvimab-zykl received Orphan Drug designation (May 8, 2019) and Breakthrough T"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2019",
+        "text": "Ansuvimab-zykl received Orphan Drug designation (May 8, 2019) and Breakthrough T"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "Ansuvimab-zykl received Orphan Drug designation (May 8, 2019) and Breakthrough T"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Ansuvimab-zykl received Orphan Drug designation (May 8, 2019) and Breakthrough T"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "28",
+        "text": "Ansuvimab-zykl received Orphan Drug designation (May 8, 2019) and Breakthrough T"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

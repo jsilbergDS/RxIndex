@@ -1,0 +1,62 @@
+{
+  "app": "NDA206426",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False positive: '621' is part of the study identifier 'Study 0722T0621', not an uncited efficacy/safety number."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False positive: HR 0.666, 95% limits 0.499-0.89, and P=0.0046 are all present verbatim in the 600 mg column of the cited table quote."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False positives: '206426' is the NDA application number and '2' is part of the Phase 2 study reference / PDUFA designation, not uncited efficacy numbers."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "621",
+        "text": "Study 0722T0621 (Study 621)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.666",
+        "text": "Peramivir 600 mg reduced median time to alleviation of symptoms by ~22 hours vs "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.499",
+        "text": "Peramivir 600 mg reduced median time to alleviation of symptoms by ~22 hours vs "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.89",
+        "text": "Peramivir 600 mg reduced median time to alleviation of symptoms by ~22 hours vs "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.0046",
+        "text": "Peramivir 600 mg reduced median time to alleviation of symptoms by ~22 hours vs "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "206426",
+        "text": "RAPIVAB NDA 206426 was submitted December 23, 2013 and reviewed under the PDUFA "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "RAPIVAB NDA 206426 was submitted December 23, 2013 and reviewed under the PDUFA "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "app": "NDA022206",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 295)",
+  "_raw": "Analyzing the card for quality issues.\n\nLet me check each field carefully.\n\n**Trial N values:**\n- SI04009: text says \"Placebo 228, Rapaflo 233\" with total 461. Citation shows \"228 (49.0%) 233 (51.0%) 461 (100%)\". Supported.\n- SI04010: text says \"462 patients randomized (Placebo 229, Rapaflo 233)\". 2",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "22",
+        "text": "NDA 22-206 received December 13, 2008 and approved; no prior Complete Response L"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "206",
+        "text": "NDA 22-206 received December 13, 2008 and approved; no prior Complete Response L"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "Standard NDA under section 505(b) for silodosin (Rapaflo), a selective alpha-1 a"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

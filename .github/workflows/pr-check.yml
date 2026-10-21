@@ -1,0 +1,34 @@
+name: Card PR check
+
+# Runs on every PR that touches a card. No API calls, no secrets:
+#  - changed data/cards_single/*.json must be valid and every NEW/CHANGED citation's
+#    full quote must appear verbatim in its bundled source doc (data/docs/<doc_id>.txt)
+#  - the render step must still run over all cards
+
+on:
+  pull_request:
+    paths:
+      - "data/cards_single/**"
+      - "convert_single_to_app.py"
+      - "ci/**"
+
+permissions:
+  contents: read
+
+jobs:
+  check-cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0          # need the base branch to diff against
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Check changed cards (JSON + verbatim citations)
+        run: python ci/check_cards.py "origin/${{ github.base_ref }}"
+
+      - name: Render all cards (must not fail)
+        run: python convert_single_to_app.py

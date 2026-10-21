@@ -1,0 +1,88 @@
+{
+  "app": "NDA022249",
+  "drug": "TREANDA",
+  "docs_read": [
+    {
+      "doc_type": "CrossR",
+      "doc_id": "064f272d-b240-5c02-9812-9bbb68ba8452"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "8a9d529b-0439-5d3d-8614-b849020c84e6"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "b7199fb6-b957-519b-8c63-ed6ae16821ef"
+    },
+    {
+      "doc_type": "Approval",
+      "doc_id": "d1968aea-655e-59e2-8a66-de62aa379797"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Oncologic Drugs Advisory Committee (not convened for this application)",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "8a9d529b-0439-5d3d-8614-b849020c84e6",
+      "line": 17,
+      "quote": "This application was not presented at the Oncologic Drugs Advisory Committee."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "8a9d529b-0439-5d3d-8614-b849020c84e6",
+      "found_lines": [
+        17
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "No meeting held",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "064f272d-b240-5c02-9812-9bbb68ba8452",
+      "line": 129,
+      "quote": "None held."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "064f272d-b240-5c02-9812-9bbb68ba8452",
+      "found_lines": [
+        129,
+        281
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "No advisory committee recommendation; application was not referred to ODAC",
+    "quote": {
+      "doc_type": "Approval",
+      "doc_id": "d1968aea-655e-59e2-8a66-de62aa379797",
+      "line": 19,
+      "quote": "This application was not referred to the Oncologic Drugs Advisory Committee because the improvements in response rate and progression-free survival with bendamustine compared to chlorambucil were clinically and statistically robust and the safety profile is comparable to other therapies used for the treatment of CLL."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "d1968aea-655e-59e2-8a66-de62aa379797",
+      "found_lines": [
+        19
+      ]
+    }
+  },
+  "linkages": [],
+  "no_adcom_quote": {
+    "doc_type": "ODMemo",
+    "doc_id": "8a9d529b-0439-5d3d-8614-b849020c84e6",
+    "line": 17,
+    "quote": "This application was not presented at the Oncologic Drugs Advisory Committee. The endpoints (response rate and PFS) had been used previously in drug approvals. The observed improvements in these endpoints provide internal consistency of a therapeutic effect and are statistically robust. The safety profile is consistent with other drugs used for the treatment of CLL."
+  },
+  "summary": "No advisory committee meeting was convened for TREANDA (bendamustine, NDA022249). Four independent review documents confirm this: the Cross-Discipline Team Leader review states \"None held.\" under its Advisory Committee Meeting section, the Medical Review's section 9.3 states \"None.\", and both the Division Director memo and the approval letter explain the application was not referred to the Oncologic Drugs Advisory Committee because the response-rate and PFS endpoints had been used in prior approvals, the observed improvements were statistically robust, and the safety profile was consistent with other CLL therapies. Because no committee met, there are no AdCom concern-to-change linkages.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "8a9d529b-0439-5d3d-8614-b849020c84e6",
+    "found_lines": [
+      17
+    ]
+  }
+}

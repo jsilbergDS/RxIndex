@@ -1,0 +1,112 @@
+{
+  "app": "BLA125261",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "rems.detail.text",
+      "severity": "medium",
+      "issue": "The REMS detail asserts the REMS 'was required' and describes a Medication Guide as the element, but the citations only show a REMS heading and a Medication Guide inclusion statement; the claim that a REMS was required with Med Guide as its element is only partially supported (the first quote is just a section header)."
+    },
+    {
+      "field": "crl_history.basis.text",
+      "severity": "high",
+      "issue": "Basis adds specifics ('manufacturing process validation and visible particulate testing' and 'provision of a REMS') that are not in the citation quote, which only states generic 'outstanding needs for product quality information and clinical information.'"
+    },
+    {
+      "field": "target_moa.text",
+      "severity": "low",
+      "issue": "Phrase 'binds with high affinity to the p40 subunit' slightly overstates the quotes, which say it binds to p40 and separately binds with high affinity to IL-12/IL-23; minor composition of two statements."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False positive: automated flag on '45' is a dose (45 mg), which is an excluded category."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False positive: flagged numbers '12' (Week 12) and '45' (45 mg) are week and dose values, both excluded categories; the efficacy numbers (171/67%, 170/66%, 8/3%, p<0.001) are all cited."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "False positive: flagged '12' (Week 12) and '45' (45 mg) are excluded; efficacy numbers (273/67%, 311/76%, 15/4%, p<0.001) are all cited."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False positive: flagged numbers 12, 23, 25, 2009, 29, 2007 are IL-12/IL-23 identifiers and dates (approval/receipt), all excluded categories."
+    },
+    {
+      "field": "approval_program.priority_review.present",
+      "severity": "low",
+      "issue": "Priority review status is marked false but the review documents provided do not clearly establish the review designation; cannot confirm, left as potential completeness gap."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "45",
+        "text": "N=766 (45 mg: 255; 90 mg: 256; placebo: 255)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "12",
+        "text": "Week 12 PASI 75 response: 171 (67%) with 45 mg and 170 (66%) with 90 mg vs 8 (3%"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "45",
+        "text": "Week 12 PASI 75 response: 171 (67%) with 45 mg and 170 (66%) with 90 mg vs 8 (3%"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "45",
+        "text": "N=1230 (45 mg: 409; 90 mg: 411; placebo: 410)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "12",
+        "text": "Week 12 PASI 75 response: 273 (67%) with 45 mg and 311 (76%) with 90 mg vs 15 (4"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "45",
+        "text": "Week 12 PASI 75 response: 273 (67%) with 45 mg and 311 (76%) with 90 mg vs 15 (4"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "12",
+        "text": "STELARA (ustekinumab) is a first-in-class fully humanized IgG1 kappa monoclonal "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "23",
+        "text": "STELARA (ustekinumab) is a first-in-class fully humanized IgG1 kappa monoclonal "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "25",
+        "text": "STELARA (ustekinumab) is a first-in-class fully humanized IgG1 kappa monoclonal "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2009",
+        "text": "STELARA (ustekinumab) is a first-in-class fully humanized IgG1 kappa monoclonal "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "29",
+        "text": "STELARA (ustekinumab) is a first-in-class fully humanized IgG1 kappa monoclonal "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2007",
+        "text": "STELARA (ustekinumab) is a first-in-class fully humanized IgG1 kappa monoclonal "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "app": "NDA211651",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 15 column 5 (char 671)",
+  "_raw": "Analyzing the card systematically for issues.\n\n```json\n{\n  \"app\": \"NDA211651\",\n  \"release_ready\": true,\n  \"issues\": [\n    {\n      \"field\": \"companion_dx.detail\",\n      \"severity\": \"low\",\n      \"issue\": \"The quote says 354 (82%) were confirmed using BRACAnalysis CDx, but the text says the CDx is FDA-",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "211651",
+        "text": "TALZENNA (talazoparib) NDA 211651 was submitted by Pfizer and received April 6, "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "TALZENNA (talazoparib) NDA 211651 was submitted by Pfizer and received April 6, "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

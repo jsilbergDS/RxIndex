@@ -1,0 +1,128 @@
+{
+  "app": "NDA022212",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 342)",
+  "_raw": "Analyzing the card against citations and automated flags.\n\nKey checks:\n- The n/result numbers for both trials ARE contained in the stitched OCR quotes (e.g. \"13/5523.611/10510.513.2(-0.9, 27.2)0.0302\"). The automated flag couldn't parse them because they're concatenated, but they are present verbati",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "55",
+        "text": "QID n=55, placebo n=105 (FDA primary endpoint arms)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "105",
+        "text": "QID n=55, placebo n=105 (FDA primary endpoint arms)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "55",
+        "text": "QID: clearing (=0) of AC cells by Day 8 in 13/55 (23.6%) vs placebo 11/105 (10.5"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "23.6",
+        "text": "QID: clearing (=0) of AC cells by Day 8 in 13/55 (23.6%) vs placebo 11/105 (10.5"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "11",
+        "text": "QID: clearing (=0) of AC cells by Day 8 in 13/55 (23.6%) vs placebo 11/105 (10.5"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "105",
+        "text": "QID: clearing (=0) of AC cells by Day 8 in 13/55 (23.6%) vs placebo 11/105 (10.5"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "10.5",
+        "text": "QID: clearing (=0) of AC cells by Day 8 in 13/55 (23.6%) vs placebo 11/105 (10.5"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "13.2",
+        "text": "QID: clearing (=0) of AC cells by Day 8 in 13/55 (23.6%) vs placebo 11/105 (10.5"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "52",
+        "text": "QID n=52, placebo n=113 (FDA primary endpoint arms)"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "113",
+        "text": "QID n=52, placebo n=113 (FDA primary endpoint arms)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "52",
+        "text": "QID: clearing (=0) of AC cells by Day 8 in 11/52 (21.2%) vs placebo 6/113 (5.3%)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "21.2",
+        "text": "QID: clearing (=0) of AC cells by Day 8 in 11/52 (21.2%) vs placebo 6/113 (5.3%)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "113",
+        "text": "QID: clearing (=0) of AC cells by Day 8 in 11/52 (21.2%) vs placebo 6/113 (5.3%)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "5.3",
+        "text": "QID: clearing (=0) of AC cells by Day 8 in 11/52 (21.2%) vs placebo 6/113 (5.3%)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "15.8",
+        "text": "QID: clearing (=0) of AC cells by Day 8 in 11/52 (21.2%) vs placebo 6/113 (5.3%)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "26",
+        "text": "NDA received December 26, 2007 and approved June 23, 2008 for use as recommended"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2007",
+        "text": "NDA received December 26, 2007 and approved June 23, 2008 for use as recommended"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "23",
+        "text": "NDA received December 26, 2007 and approved June 23, 2008 for use as recommended"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2008",
+        "text": "NDA received December 26, 2007 and approved June 23, 2008 for use as recommended"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "26",
+        "text": "Deferred pediatric study under PREA for the treatment of post-operative inflamma"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "2011",
+        "text": "Deferred pediatric study under PREA for the treatment of post-operative inflamma"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "23",
+        "text": "Durezol (difluprednate), a new molecular entity topical ophthalmic corticosteroi"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2008",
+        "text": "Durezol (difluprednate), a new molecular entity topical ophthalmic corticosteroi"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

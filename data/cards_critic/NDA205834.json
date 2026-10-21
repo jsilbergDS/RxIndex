@@ -1,0 +1,33 @@
+{
+  "app": "NDA205834",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Extra data: line 33 column 1 (char 1235)",
+  "_raw": "Analyzing the card against the review and flags.\n\n```json\n{\n  \"app\": \"NDA205834\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].n\",\n      \"severity\": \"medium\",\n      \"issue\": \"The n text states 'HARVONI 12-week arm N=214' which is cited, and interim N=431 is cited; ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "337",
+        "text": "ION-2 (Study GS-US-337-0109)"
+      },
+      {
+        "field": "pivotal_trials[2]/trial_name",
+        "number": "337",
+        "text": "ION-3 (Study GS-US-337-0108)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "10",
+        "text": "Approved on first review cycle; NDA received February 10, 2014 and approved as r"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2014",
+        "text": "Approved on first review cycle; NDA received February 10, 2014 and approved as r"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

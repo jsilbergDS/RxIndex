@@ -1,0 +1,23 @@
+{
+  "app": "NDA207561",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 345)",
+  "_raw": "{\n  \"app\": \"NDA207561\",\n  \"release_ready\": true,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].result\",\n      \"severity\": \"low\",\n      \"issue\": \"Automated flag on number '48' is a false positive: 'Week 48' is a timepoint, and the citation quote covers the efficacy numbers (92%, 90%, 2.0%, CI",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "48",
+        "text": "HIV-1 RNA < 50 copies/mL at Week 48: 92% GENVOYA vs 90% STRIBILD; treatment diff"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "48",
+        "text": "At Week 48, 96% of patients who switched to GENVOYA had HIV-1 RNA < 50 copies/mL"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

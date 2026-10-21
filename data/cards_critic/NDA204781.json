@@ -1,0 +1,57 @@
+{
+  "app": "NDA204781",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Text says '357 adults administered contrast' but the cited quote says '357 patients were administered contrast agent' (not specifically adults), a minor overstatement."
+    },
+    {
+      "field": "pivotal_trials[1].phase",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag for '3'; Phase 3 is supported by the trial_name citation 'Phase 3 Study DGD-44-051' even though the phase field's own quote omits it."
+    },
+    {
+      "field": "advisory_committee.vote",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag for '2'; the '2 years' reference maps to the cited quote 'aged two years of age and older'."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag for '3'; 'two phase 3 trials' is supported by the pivotal trial citations and the 'both pivotal trials' quote."
+    },
+    {
+      "field": "approval_program.priority_review.basis",
+      "severity": "low",
+      "issue": "Citation quote 'Priority or StandardPrioritySubmit Date(s)September 20, 2012' is a garbled table extraction, but it does contain the Priority designation and is acceptable support."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "3",
+        "text": "Phase 3 (re-read of a single-arm Dotarem study)"
+      },
+      {
+        "field": "advisory_committee/vote",
+        "number": "2",
+        "text": "Medical Imaging Advisory Committee (MIDAC) met February 14, 2013. The committee "
+      },
+      {
+        "field": "advisory_committee/vote",
+        "number": "2",
+        "text": "Medical Imaging Advisory Committee (MIDAC) met February 14, 2013. The committee "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Dotarem (gadoterate meglumine) is a new molecular entity gadolinium-based MRI co"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

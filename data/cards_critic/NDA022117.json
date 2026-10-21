@@ -1,0 +1,52 @@
+{
+  "app": "NDA022117",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "medium",
+      "issue": "Phase text says 'Phase 2/3' but is labeled 'Short-term (6-week) Phase 2/3 schizophrenia trial' while trial 2 (041023) is labeled Phase 3; the cited line groups 041004 among six Phase 2/3 trials, so the mixed Phase 2/3 label for a pivotal trial is ambiguous but is citation-supported \u2014 minor only.",
+      "field_note": "borderline"
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "medium",
+      "issue": "The result states haloperidol 'superior (p=0.034)' without clarifying it is superior to placebo (active control arm), which could be misread as superiority over asenapine; citation supports superiority to placebo only.",
+      "field_note": "clarity"
+    },
+    {
+      "field": "receipt_date.text",
+      "severity": "low",
+      "issue": "Receipt_date reflects the Feb 13, 2009 complete-response resubmission date rather than the original NDA receipt date; acceptable but potentially misleading as the application's receipt date.",
+      "field_note": "note"
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited number '5' is a false positive \u2014 it is the dose 'asenapine 5 mg bid', not an efficacy figure; the actual efficacy numbers (p=0.007, -14.4, -4.6) are all cited.",
+      "field_note": "false-positive flag"
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited number '505' is a false positive \u2014 '505(b)' is a statutory reference supported by the receipt_date citation, not an efficacy/safety number.",
+      "field_note": "false-positive flag"
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "5",
+        "text": "Asenapine 5 mg bid was statistically superior to placebo on PANSS (p=0.007; chan"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "Standard NDA (505(b)) for a new molecular entity atypical antipsychotic; approve"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

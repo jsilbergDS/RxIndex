@@ -1,0 +1,117 @@
+{
+  "app": "NDA022454",
+  "drug": "DATSCAN",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "5c9d162a-4693-5f80-a7e2-69e82dba83ac"
+    },
+    {
+      "doc_type": "SumR",
+      "doc_id": "ecb0c227-0ed0-5485-955c-e8c78d534bc5"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "e1b777ac-0ed3-59af-b43b-f0dd9ba65594"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "69f23e57-f81a-540d-b42d-6b08aaa8febf"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "bd2f21d2-525d-5437-a0cd-93f48352488b"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "932e4e87-f437-56dc-aa3c-5a5f056955ab"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Peripheral and Central Nervous System Drugs Advisory Committee (supplemented with medical imaging experts)",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "69f23e57-f81a-540d-b42d-6b08aaa8febf",
+      "line": 752,
+      "quote": "Meeting of the Peripheral and Central Nervous System Drugs Advisory Committee"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "69f23e57-f81a-540d-b42d-6b08aaa8febf",
+      "found_lines": [
+        752,
+        1176
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "August 11, 2009",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "5c9d162a-4693-5f80-a7e2-69e82dba83ac",
+      "line": 80,
+      "quote": "This application was presented to the Peripheral and Central Nervous System Advisory Committee on August 11, 2009."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "5c9d162a-4693-5f80-a7e2-69e82dba83ac",
+      "found_lines": [
+        80
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 11 to 2 (with 1 abstention) that the data represented a favorable risk-benefit profile for DaTscan, and recommended that the drug be approved.",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "5c9d162a-4693-5f80-a7e2-69e82dba83ac",
+      "line": 80,
+      "quote": "The committee voted (11 to 2) to conclude that the presented data represented a favorable risk to benefit profile for DaTscan."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "5c9d162a-4693-5f80-a7e2-69e82dba83ac",
+      "found_lines": [
+        80
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The advisory committee recommended that clinical studies be conducted for use of DaTSCAN as a screening tool, indicating that use of DaTSCAN for screening was not an established, supported use.",
+      "change": "The approved labeling added a statement that DaTSCAN is not indicated for screening (together with assessment of disease progression or response to treatment).",
+      "category": "Indication / use restriction (labeling)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "69f23e57-f81a-540d-b42d-6b08aaa8febf",
+        "line": 774,
+        "quote": "Clinical studies for use of DaTSCAN as a screening tool",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "69f23e57-f81a-540d-b42d-6b08aaa8febf",
+          "found_lines": [
+            774,
+            1198
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "e1b777ac-0ed3-59af-b43b-f0dd9ba65594",
+        "line": 181,
+        "quote": "Add the statement that Datscan is not indicated for screening, assessment of disease progression or response to treatment.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "e1b777ac-0ed3-59af-b43b-f0dd9ba65594",
+          "found_lines": [
+            181
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An advisory committee was held: the Peripheral and Central Nervous System Drugs Advisory Committee (supplemented with medical imaging experts) met on August 11, 2009 and voted 11 to 2 (1 abstention) that DaTSCAN had a favorable risk-benefit profile, recommending approval. The committee was broadly supportive; it reached no consensus on whether clinical diagnosis was an acceptable standard of truth and recommended that screening use be studied further, and the approved label states DaTSCAN is not indicated for screening. The documents attribute the substantive approval changes (the revised 'visualization'-style indication, proposed by FDA in the pre-meeting briefing document, and the postmarketing commitments for a non-Caucasian/African-American study and a dopaminergic drug-interaction study) to FDA reviewers rather than to concerns raised by the committee, so only the screening linkage is captured here (as inferred)."
+}

@@ -1,0 +1,38 @@
+{
+  "app": "NDA204384",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 313)",
+  "_raw": "Analyzing the card for quality problems.\n\n{\n  \"app\": \"NDA204384\",\n  \"release_ready\": true,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].population\",\n      \"severity\": \"low\",\n      \"issue\": \"Automated flag on '63' is a false positive; the citation quote states 'Sixty-three percent of the pop",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "63",
+        "text": "Newly diagnosed adults with pulmonary multi-drug resistant tuberculosis (MDR-TB)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "24",
+        "text": "Median time to SCC 83 days (bedaquiline) vs 125 days (placebo). Week 24 culture "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "29",
+        "text": "Priority review application received June 29, 2012; approved under accelerated a"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2012",
+        "text": "Priority review application received June 29, 2012; approved under accelerated a"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Bedaquiline (SIRTURO) received a priority review and was approved under the acce"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

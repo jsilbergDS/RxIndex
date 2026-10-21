@@ -1,0 +1,175 @@
+{
+  "app": "NDA204684",
+  "drug": "IMPAVIDO",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_2607d443-3238-5345-9b4a-cf25c89b0064"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_86402db5-c276-5af9-9452-9a7de4855ed7"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_649f6ae2-02a9-50f2-9df4-3aae3415c8ae"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_b60eb857-b394-5bde-bbf1-6dbad1a0233f"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_448936da-88fe-5a38-ba10-c3c06c842439"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Anti-Infective Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_2607d443-3238-5345-9b4a-cf25c89b0064",
+      "line": 133,
+      "quote": "This NDA was discussed by the Anti-Infective Drugs Advisory Committee on October 18, 2013."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_2607d4433238",
+      "found_lines": [
+        133
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "October 18, 2013",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_86402db5-c276-5af9-9452-9a7de4855ed7",
+      "line": 163,
+      "quote": "The Anti-Infective Drugs Advisory Committee met on October 18, 2013, to discuss this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_86402db5c276",
+      "found_lines": [
+        163
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted in favor of approval for all three indications: visceral leishmaniasis (VL) 15-1, cutaneous leishmaniasis (CL) 14-2, and mucosal leishmaniasis (ML) 13-3.",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_b60eb857-b394-5bde-bbf1-6dbad1a0233f",
+      "line": 1550,
+      "quote": "Approve miltefosine in the treatment of VL in geographic areas where *L. donovani* is prevalent (15-1 vote)"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_b60eb857b394",
+      "found_lines": [
+        1550
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee noted that applicability of the trial findings to the US population was limited because the enrolled patients were much lighter than typical US patients and there were no data in patients weighing more than 75 kg; a postmarketing study was suggested.",
+      "change": "A postmarketing commitment was agreed to by the applicant to conduct a descriptive study of efficacy outcome and adverse reactions in leishmaniasis patients weighing more than 75 kg.",
+      "category": "Postmarketing commitment / weight-based efficacy",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_86402db5-c276-5af9-9452-9a7de4855ed7",
+        "line": 165,
+        "quote": "Applicability of trial findings to the US population is limited by lack of data in patients weighing more than 75 kg, and a postmarketing study should be considered.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_86402db5c276",
+          "found_lines": [
+            165
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_2607d443-3238-5345-9b4a-cf25c89b0064",
+        "line": 65,
+        "quote": "This issue was also discussed at the Anti-Infective Advisory Committee meeting for miltefosine held on October 18, 2013. A postmarketing commitment has been agreed to by the applicant to conduct a study regarding efficacy outcome and adverse reactions in patients with leishmaniasis who weigh more than 75 kg.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_2607d4433238",
+          "found_lines": [
+            65
+          ]
+        }
+      }
+    },
+    {
+      "concern": "A dissenting committee member raised that the data showed variability in sensitivity to miltefosine between Leishmania species and within the same species from different geographic areas, limiting generalizability of efficacy beyond the regions studied.",
+      "change": "The Division and applicant agreed to address this concern by adding a Limitations of Use statement to the product labeling (Indications and Usage).",
+      "category": "Labeling / Limitations of Use",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_649f6ae2-02a9-50f2-9df4-3aae3415c8ae",
+        "line": 111,
+        "quote": "discussed the data regarding variability in sensitivity between species and within the same species from different geographic areas",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_649f6ae202a9",
+          "found_lines": [
+            111
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_649f6ae2-02a9-50f2-9df4-3aae3415c8ae",
+        "line": 122,
+        "quote": "The Division and applicant agreed to address this issue through a \"Limitations of Use\" statement in the PI.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_649f6ae202a9",
+          "found_lines": [
+            122
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee discussion centered on female reproductive toxicity, with the recommendation that labeling include recommendations for birth control.",
+      "change": "The Boxed Warning advises females of reproductive potential to use effective contraception during therapy and for 5 months after therapy.",
+      "category": "Safety / Boxed warning (contraception)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "fda_b60eb857-b394-5bde-bbf1-6dbad1a0233f",
+        "line": 1551,
+        "quote": "Discussions also centered on female reproductive toxicity with the recommendation that labeling include recommendations for birth control.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_b60eb857b394",
+          "found_lines": [
+            1551
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_2607d443-3238-5345-9b4a-cf25c89b0064",
+        "line": 150,
+        "quote": "Advise females of reproductive potential to use effective contraception during therapy and for 5 months after therapy.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_2607d4433238",
+          "found_lines": [
+            150
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Anti-Infective Drugs Advisory Committee met on October 18, 2013, and voted in favor of approving miltefosine (IMPAVIDO) for all three leishmaniasis indications (VL 15-1, CL 14-2, ML 13-3). Committee concern that the trial data (in low-weight patients, no data above 75 kg) might not apply to heavier US patients led to a postmarketing commitment to study efficacy and adverse reactions in patients weighing more than 75 kg. Committee discussion of variability in sensitivity between and within Leishmania species across geographic regions was addressed through a Limitations of Use statement in the labeling."
+}

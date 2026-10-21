@@ -1,0 +1,62 @@
+{
+  "app": "NDA206619",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "FALSE POSITIVE: the '10' in '>10%' is a prevalence-category threshold for 'most common adverse reactions', not an uncited efficacy/safety datum; all actual rates are cited."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "FALSE POSITIVE: the '3' is from 'Phase 3', supported by the pivotal-trial citations; not an uncited efficacy/safety number."
+    },
+    {
+      "field": "post_marketing[0].requirement",
+      "severity": "low",
+      "issue": "The '3' and '18' (pediatric age range '3 to less than 18 years') are not contained in the truncated citation quote, but this is descriptive PMR scope, not efficacy/safety data; cosmetic."
+    },
+    {
+      "field": "post_marketing[9].requirement",
+      "severity": "low",
+      "issue": "FALSE POSITIVE: the '1' derives from 'genotype 1'/trial label context in descriptive PMR text, not an efficacy/safety number."
+    },
+    {
+      "field": "approval_program.breakthrough_therapy.basis",
+      "severity": "low",
+      "issue": "Text states 'April/May 2013' but the cited quote says only 'April 2013' (the 'May 2013' date comes from a different field's quote), a minor date-mixing inconsistency."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "10",
+        "text": "With ribavirin, most common adverse reactions (>10%) were fatigue (34% vs 26% pl"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "3",
+        "text": "2830-1 Evaluate the pharmacokinetics, safety and treatment response (SVR as prim"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "18",
+        "text": "2830-1 Evaluate the pharmacokinetics, safety and treatment response (SVR as prim"
+      },
+      {
+        "field": "post_marketing[9]/requirement",
+        "number": "1",
+        "text": "2830-10 Submit the final report and datasets for Phase 3 trial M13-099 in genoty"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "VIEKIRA PAK was granted Breakthrough Therapy Designation and accepted for rollin"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

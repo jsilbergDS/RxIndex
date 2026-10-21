@@ -1,0 +1,87 @@
+{
+  "app": "NDA207103",
+  "drug": "IBRANCE",
+  "docs_read": [
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_9745137f-daa3-5354-90b7-607f6a2e80dd"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_49c94b22-d2b4-5ef7-a7dc-1b4b93eaa83e"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_c7eb41fb-f085-5781-8bde-a870335bc438"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_491775e6-58f9-5b98-8fdd-4784e3df513a"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "None \u2014 no advisory committee convened",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_9745137f-daa3-5354-90b7-607f6a2e80dd",
+      "line": 115,
+      "quote": "This application was not referred to an FDA advisory committee because outside expertise was not necessary; there were no controversial issues that would benefit from advisory committee discussion."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_9745137fdaa3",
+      "found_lines": [
+        115
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "None \u2014 no meeting held",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_c7eb41fb-f085-5781-8bde-a870335bc438",
+      "line": 776,
+      "quote": "No advisory committee meeting was held for this NDA."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_c7eb41fbf085",
+      "found_lines": [
+        776
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "None \u2014 no vote taken because no advisory committee was convened",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_49c94b22-d2b4-5ef7-a7dc-1b4b93eaa83e",
+      "line": 49,
+      "quote": "This application was not referred to an FDA advisory committee because outside expertise was not necessary."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_49c94b22d2b4",
+      "found_lines": [
+        49
+      ]
+    }
+  },
+  "linkages": [],
+  "no_adcom_quote": {
+    "doc_type": "MedR",
+    "doc_id": "fda_c7eb41fb-f085-5781-8bde-a870335bc438",
+    "line": 776,
+    "quote": "No advisory committee meeting was held for this NDA."
+  },
+  "summary": "No FDA advisory committee meeting was convened for IBRANCE (palbociclib) NDA207103. The Medical Review states plainly that no advisory committee meeting was held, and both the Cross-Discipline Team Leader review and the Office Director memo explain the application was not referred because outside expertise was not necessary and there were no controversial issues warranting discussion. With no committee, there are no AdCom-driven linkages to the approval.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "fda_c7eb41fbf085",
+    "found_lines": [
+      776
+    ]
+  }
+}

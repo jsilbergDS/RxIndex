@@ -1,0 +1,152 @@
+{
+  "app": "NDA204063",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False positive: numbers 410/411/416 are contained in citation quote 'Randomized410411416' (OCR removed spacing); 240 is a dose and excluded."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False positive: HR 0.51/0.50 are present in citation 'Hazard ratio0.510.50'; 240 is a dose."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "False positive: 363/362/345 are contained in citation 'Randomized363362345'; 240 is a dose."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "False positive: 0.401/0.224/0.198/0.560/0.495 all appear in the 'Adjusted ARR' and 'Rate Ratio' citations; 240 is a dose."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False positive: 27 and 2012 are part of a date (February 27, 2012) and should be excluded."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "410",
+        "text": "1237 patients randomized (placebo 410, 240 BID 411, 240 TID 416)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "240",
+        "text": "1237 patients randomized (placebo 410, 240 BID 411, 240 TID 416)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "411",
+        "text": "1237 patients randomized (placebo 410, 240 BID 411, 240 TID 416)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "240",
+        "text": "1237 patients randomized (placebo 410, 240 BID 411, 240 TID 416)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "416",
+        "text": "1237 patients randomized (placebo 410, 240 BID 411, 240 TID 416)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "240",
+        "text": "Proportion relapsing: 42% placebo vs 24% (240 BID) vs 23% (240 TID); hazard rati"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "240",
+        "text": "Proportion relapsing: 42% placebo vs 24% (240 BID) vs 23% (240 TID); hazard rati"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.51",
+        "text": "Proportion relapsing: 42% placebo vs 24% (240 BID) vs 23% (240 TID); hazard rati"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.50",
+        "text": "Proportion relapsing: 42% placebo vs 24% (240 BID) vs 23% (240 TID); hazard rati"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "363",
+        "text": "1430 patients enrolled (placebo 363, 240 BID 362, 240 TID 345 randomized)"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "240",
+        "text": "1430 patients enrolled (placebo 363, 240 BID 362, 240 TID 345 randomized)"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "362",
+        "text": "1430 patients enrolled (placebo 363, 240 BID 362, 240 TID 345 randomized)"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "240",
+        "text": "1430 patients enrolled (placebo 363, 240 BID 362, 240 TID 345 randomized)"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "345",
+        "text": "1430 patients enrolled (placebo 363, 240 BID 362, 240 TID 345 randomized)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.401",
+        "text": "Adjusted ARR 0.401 placebo vs 0.224 (240 BID) vs 0.198 (240 TID); rate ratios 0."
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.224",
+        "text": "Adjusted ARR 0.401 placebo vs 0.224 (240 BID) vs 0.198 (240 TID); rate ratios 0."
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "240",
+        "text": "Adjusted ARR 0.401 placebo vs 0.224 (240 BID) vs 0.198 (240 TID); rate ratios 0."
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.198",
+        "text": "Adjusted ARR 0.401 placebo vs 0.224 (240 BID) vs 0.198 (240 TID); rate ratios 0."
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "240",
+        "text": "Adjusted ARR 0.401 placebo vs 0.224 (240 BID) vs 0.198 (240 TID); rate ratios 0."
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.560",
+        "text": "Adjusted ARR 0.401 placebo vs 0.224 (240 BID) vs 0.198 (240 TID); rate ratios 0."
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.495",
+        "text": "Adjusted ARR 0.401 placebo vs 0.224 (240 BID) vs 0.198 (240 TID); rate ratios 0."
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "27",
+        "text": "Application received February 27, 2012 and approved effective on the date of the"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2012",
+        "text": "Application received February 27, 2012 and approved effective on the date of the"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

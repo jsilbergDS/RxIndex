@@ -1,0 +1,135 @@
+{
+  "app": "NDA021986",
+  "drug": "SPRYCEL",
+  "docs_read": [
+    {
+      "doc_type": "MedR",
+      "doc_id": "c9de5530-f73c-50f1-9799-0ce46839185d"
+    },
+    {
+      "doc_type": "APPROV",
+      "doc_id": "679defdb-78a2-5f6b-9c46-4f2ef33f80e0"
+    },
+    {
+      "doc_type": "AdminCorres",
+      "doc_id": "de31925d-2816-549a-a4aa-1a35cd2ab415"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Oncologic Drugs Advisory Committee (ODAC)",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "c9de5530-f73c-50f1-9799-0ce46839185d",
+      "line": 947,
+      "quote": "This application was presented at Oncologic Drugs Advisory Committee meeting on June 2, 2006 at Omni Hotel in Atlanta, GA."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "c9de5530-f73c-50f1-9799-0ce46839185d",
+      "found_lines": [
+        947
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "June 2, 2006",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "c9de5530-f73c-50f1-9799-0ce46839185d",
+      "line": 947,
+      "quote": "This application was presented at Oncologic Drugs Advisory Committee meeting on June 2, 2006 at Omni Hotel in Atlanta, GA."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "c9de5530-f73c-50f1-9799-0ce46839185d",
+      "found_lines": [
+        947
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "ODAC voted overwhelmingly in favor of approval across the CML phases and Ph+ ALL (votes of 14/14 unanimous on most questions; 13/14 for imatinib-intolerant CP CML surrogate endpoint; 12/14 for Ph+ ALL regular approval). The committee recommended that the CML indication be granted accelerated approval and the Ph+ ALL indication regular approval, a recommendation the Division of Drug Oncology Products accepted.",
+    "quote": {
+      "doc_type": "AdminCorres",
+      "doc_id": "de31925d-2816-549a-a4aa-1a35cd2ab415",
+      "line": 390,
+      "quote": "At the Oncologic Drugs Advisory Committee Meeting June 2, 2006 it was recommended that the CML should be approved as accelerated approval and the ALL approved by regular approval. The Division of Drug Oncology Products agreed with this recommendation."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "de31925d-2816-549a-a4aa-1a35cd2ab415",
+      "found_lines": [
+        390
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Which regulatory approval pathway was appropriate for each proposed indication \u2014 ODAC recommended that CML be granted accelerated approval (durable surrogate responses) and that Philadelphia-positive ALL be granted regular approval (durable hematologic responses).",
+      "change": "The Division of Drug Oncology Products agreed with the ODAC recommendation and administratively split the application so the two indications could be approved under different pathways: NDA 21-986 retained the CML indication and a new NDA 22-072 was created for the ALL indication.",
+      "category": "Regulatory pathway / approval type",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "AdminCorres",
+        "doc_id": "de31925d-2816-549a-a4aa-1a35cd2ab415",
+        "line": 390,
+        "quote": "At the Oncologic Drugs Advisory Committee Meeting June 2, 2006 it was recommended that the CML should be approved as accelerated approval and the ALL approved by regular approval. The Division of Drug Oncology Products agreed with this recommendation.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "de31925d-2816-549a-a4aa-1a35cd2ab415",
+          "found_lines": [
+            390
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "AdminCorres",
+        "doc_id": "de31925d-2816-549a-a4aa-1a35cd2ab415",
+        "line": 391,
+        "quote": "In order to reflect in COMIS an accelerated and regular approval for this product, it was necessary to administratively split the NDA. Therefore, NDA 21-986 will retain the CML indication, and NDA 22-072 was created for the ALL indication.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "de31925d-2816-549a-a4aa-1a35cd2ab415",
+          "found_lines": [
+            391
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Whether a lower starting dose should be evaluated to reduce toxicity; among its suggestions the committee called for trials to determine the recommended dose (the approved 70 mg BID dose had required frequent dose interruptions/reductions for toxicity).",
+      "change": "The approval included a postmarketing study commitment for CA-180-034, a randomized two-by-two study of dasatinib in chronic-phase Ph+ CML patients (the dose/schedule study), submitted as part of the applicant's postmarketing commitments.",
+      "category": "Dose optimization / postmarketing study",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "c9de5530-f73c-50f1-9799-0ce46839185d",
+        "line": 976,
+        "quote": "**Committee Suggestions:** 1) Continuation of ongoing trials, 2) Trials to determine recommended dose, 3) Molecular markers, and 4) Determination whether treatment needs to be continued for life, and whether dose can be decreased subsequent to response.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "c9de5530-f73c-50f1-9799-0ce46839185d",
+          "found_lines": [
+            976
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "APPROV",
+        "doc_id": "679defdb-78a2-5f6b-9c46-4f2ef33f80e0",
+        "line": 45,
+        "quote": "You have agreed to submit the completed study report (24 month follow-up) and data from the study, CA-180-034, a randomized, two-by-two, open-label study of dasatinib (BMS-354825) in subjects with Chronic Phase Philadelphia Chromosome Positive Chronic Myeloid Leukemia resistant to or intolerant of Imatinib Mesylate.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "679defdb-78a2-5f6b-9c46-4f2ef33f80e0",
+          "found_lines": [
+            45
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Oncologic Drugs Advisory Committee (ODAC) met on June 2, 2006 and voted overwhelmingly (mostly 14/14 unanimous) that dasatinib's efficacy and risk/benefit supported approval across CML phases and Philadelphia-positive ALL, recommending accelerated approval for CML and regular approval for ALL. The Division agreed and administratively split the application into NDA 21-986 (CML) and NDA 22-072 (ALL) to reflect the two approval pathways. The committee largely endorsed the application; its main documented influence was shaping the differential approval pathway, and it also suggested trials to determine the recommended dose, which the postmarketing commitments (including the randomized CA-180-034 study) addressed."
+}

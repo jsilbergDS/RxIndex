@@ -1,0 +1,53 @@
+{
+  "app": "NDA206488",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting value: line 1 column 1 (char 0)",
+  "_raw": "<think>\nLet me analyze this card carefully.\n\nKey issues to check:\n\n1. **pivotal_trials[0].trial_name** \u2014 text describes \"Study 1... Study 2... Study 3 (Study 301)\". Citation quotes support Study 1, Study 2, and Study 301. So Study 3 = Study 301? The text says \"Study 3 (Study 301)\". The number \"3\" is",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "3",
+        "text": "Study 1 (double-blind, placebo-controlled), followed by open-label extension Stu"
+      },
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "51",
+        "text": "Patients with a confirmed mutation of the DMD gene amenable to exon 51 skipping,"
+      },
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "1",
+        "text": "Patients with a confirmed mutation of the DMD gene amenable to exon 51 skipping,"
+      },
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "3",
+        "text": "Patients with a confirmed mutation of the DMD gene amenable to exon 51 skipping,"
+      },
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "1",
+        "text": "Primary endpoint in Study 1 was dystrophin production; the 6-minute walk test (6"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "12",
+        "text": "Study 1: 12 patients randomized (EXONDYS 51 30 mg/kg n=4, 50 mg/kg n=4, placebo "
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "12",
+        "text": "Study 1: 12 patients randomized (EXONDYS 51 30 mg/kg n=4, 50 mg/kg n=4, placebo "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "3",
+        "text": "No significant difference in 6MWD change between EXONDYS 51 and placebo. In Stud"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

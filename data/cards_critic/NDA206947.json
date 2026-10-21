@@ -1,0 +1,31 @@
+{
+  "app": "NDA206947",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "target_moa.text",
+      "severity": "medium",
+      "issue": "Claims 'anti-VEGFR/tyrosine kinase inhibitor' but the citation only says 'kinase inhibitor'; the VEGFR/tyrosine kinase specificity is not supported by either quote (the second quote only discusses prior anti-VEGF therapy in a subgroup, not lenvatinib's MOA)."
+    },
+    {
+      "field": "modality.text",
+      "severity": "low",
+      "issue": "'small molecule' is inferred; the citation only states 'kinase inhibitor' and does not explicitly state the modality."
+    },
+    {
+      "field": "pivotal_trials[0].endpoint.text",
+      "severity": "low",
+      "issue": "Text expands ORR as 'objective response rate' but the cited quote says 'overall response rate (ORR)'; minor label mismatch with source."
+    },
+    {
+      "field": "boxed_warning.detail.text",
+      "severity": "low",
+      "issue": "Detail text omits the comparator rationale present in the quote (reference to sorafenib's similar serious adverse reaction profile), but the 'no Boxed Warning required' conclusion is supported."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "app": "NDA022275",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited number '3' is a false positive: it is part of 'both phase 3 studies', not an efficacy statistic."
+    },
+    {
+      "field": "receipt_date",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited number '10' is a false positive: it is part of the excluded date 10/23/2007, which matches the citation 'received October 23, 2007'."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "The equivalence SALT-1 = Study 156-02-235 (and SALT-2 = 156-03-238) is inferred; the citations list the SALT names and the 156-xx study numbers separately without explicitly mapping them to each other."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "3",
+        "text": "In a pooled analysis of both phase 3 studies, the average daily mean change in s"
+      },
+      {
+        "field": "receipt_date",
+        "number": "10",
+        "text": "10/23/2007"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

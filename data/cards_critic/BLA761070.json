@@ -1,0 +1,73 @@
+{
+  "app": "BLA761070",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting value: line 1 column 1 (char 0)",
+  "_raw": "<think>\nLet me analyze this card carefully.\n\nLet me check each field and the automated flags.\n\n**Pivotal trials:**\n\nTrial 1 (SIROCCO): endpoint says \"high-dose ICS and LABA\" - citation supports. Result: 0.74 vs 1.52, RR 0.49 (0.37, 0.64) - supported by citation. Good.\n\nTrial 2 (CALIMA): endpoint tex",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "3",
+        "text": "Phase 3"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "30",
+        "text": "Annual exacerbation rate 0.74 for FASENRA (30 mg every 8 weeks) vs 1.52 placebo;"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "8",
+        "text": "Annual exacerbation rate 0.74 for FASENRA (30 mg every 8 weeks) vs 1.52 placebo;"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Trial 2 (CALIMA, D3250C00018)"
+      },
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "3",
+        "text": "Phase 3"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "30",
+        "text": "Annual exacerbation rate 0.73 for FASENRA (30 mg every 8 weeks) vs 1.01 placebo;"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "8",
+        "text": "Annual exacerbation rate 0.73 for FASENRA (30 mg every 8 weeks) vs 1.01 placebo;"
+      },
+      {
+        "field": "pivotal_trials[2]/phase",
+        "number": "28",
+        "text": "Phase 3, 28-week oral corticosteroid (OCS) reduction trial."
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "14",
+        "text": "Approved effective on the date of the approval letter (November 14, 2017) follow"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2017",
+        "text": "Approved effective on the date of the approval letter (November 14, 2017) follow"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "14",
+        "text": "FASENRA (benralizumab) was approved November 14, 2017 as a traditional (non-acce"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2017",
+        "text": "FASENRA (benralizumab) was approved November 14, 2017 as a traditional (non-acce"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

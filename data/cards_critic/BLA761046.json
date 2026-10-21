@@ -1,0 +1,31 @@
+{
+  "app": "BLA761046",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "medium",
+      "issue": "The design text claims an 'adaptive design' but neither citation quote mentions any adaptive design; this characterization is unsupported."
+    },
+    {
+      "field": "pivotal_trials[0].nct",
+      "severity": "low",
+      "issue": "NCT text is the literal string 'null' rather than a real null/empty value, and the attached citation does not contain an NCT number."
+    },
+    {
+      "field": "pivotal_trials[1].nct",
+      "severity": "low",
+      "issue": "NCT text is the literal string 'null' rather than a real null/empty value, and the attached citation does not contain an NCT number."
+    },
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "Design cites only the P002 results line (line 82) for the three-arm structure; the phrase 'multicenter, double-blind, placebo-controlled' derives from a different citation not attached to this field, though the P001 design cites it\u2014minor citation mismatch."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

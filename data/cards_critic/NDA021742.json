@@ -1,0 +1,22 @@
+{
+  "app": "NDA021742",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flag: the '4' corresponds to 'Study 4' / 'a fourth placebo-controlled trial', which is explicitly supported by the citation quote."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "4",
+        "text": "Three randomized, double-blind, placebo-controlled monotherapy trials (Studies 1"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

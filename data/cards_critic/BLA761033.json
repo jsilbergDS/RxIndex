@@ -1,0 +1,197 @@
+{
+  "app": "BLA761033",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "advisory_committee.vote",
+      "severity": "high",
+      "issue": "The vote text says '14 Yes / 0 No against approval (14 No) in pediatrics' which is internally contradictory; the citation shows the pediatric Approval vote was 14 No / 0 Yes, so the drug was voted AGAINST approval in ages 12-17, not '14 Yes'."
+    },
+    {
+      "field": "advisory_committee.vote",
+      "severity": "medium",
+      "issue": "Text states adult approval vote '11 Yes / 3 No' but conflates efficacy/safety/approval; the citation shows Efficacy 13/1, Safety 11/3, Approval 11/3 \u2014 the summary mislabels which vote is which and omits the efficacy vote."
+    },
+    {
+      "field": "indication",
+      "severity": "medium",
+      "issue": "Indication states 'aged 18 years and older' but pivotal trials enrolled 12-75 years; while the citation supports the label text, this is consistent \u2014 no fix needed (note only)."
+    },
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "medium",
+      "issue": "Population states upper age '75 years' but the cited design quote only says 'patients 12 years of age and older'; the 75 upper bound comes from a different (trial title/table) source and is not in this field's citation (uncited number 75)."
+    },
+    {
+      "field": "pivotal_trials[1].population",
+      "severity": "medium",
+      "issue": "Population upper age '75 years' is not supported by the field's cited quote which states only '12 years of age and older' (uncited number 75)."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Approval date 'March 23, 2016' (uncited numbers 23/2016) is not contained in the citation quotes, which only reference 'effective on the date of this letter'; approval date is undated in the quotes."
+    },
+    {
+      "field": "post_marketing[0].requirement",
+      "severity": "low",
+      "issue": "Final report date 'December 2016' is not supported by the citation quote (uncited number 2016); milestone dates for all PMR/PMC entries lack citation support."
+    },
+    {
+      "field": "post_marketing[6].requirement",
+      "severity": "low",
+      "issue": "Final report date 'June 2019' not present in citation quote (uncited number 2019); same pattern across the PMC/PMR milestone dates."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Summary references a 'lung-function trial (3081)' but 3081 is not described as a pivotal trial anywhere and the number 3081 is uncited relative to that claim; mention is consistent with the design table but the lung-function characterization is not directly supported."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "Randomization ratio '(1:1)' (uncited number 1) is supported by the n citation table quote ('Randomized (1:1)'), so the automated flag on 'design' is a false positive."
+    },
+    {
+      "field": "approval_program.priority_review",
+      "severity": "low",
+      "issue": "Priority review marked present=false consistent with summary stating standard PDUFA timeline; no contradiction, note only."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "1",
+        "text": "52-week, randomized (1:1), double-blind, placebo-controlled, parallel-group stud"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "1",
+        "text": "52-week, randomized (1:1), double-blind, placebo-controlled, parallel-group stud"
+      },
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "75",
+        "text": "Patients 12-75 years of age with eosinophilic asthma, blood eosinophil count \u2265 4"
+      },
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "1",
+        "text": "Patients 12-75 years of age with eosinophilic asthma, blood eosinophil count \u2265 4"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "1",
+        "text": "52-week, randomized (1:1), double-blind, placebo-controlled, parallel-group stud"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "1",
+        "text": "52-week, randomized (1:1), double-blind, placebo-controlled, parallel-group stud"
+      },
+      {
+        "field": "pivotal_trials[1]/population",
+        "number": "75",
+        "text": "Patients 12-75 years of age with eosinophilic asthma, blood eosinophil count \u2265 4"
+      },
+      {
+        "field": "pivotal_trials[1]/population",
+        "number": "1",
+        "text": "Patients 12-75 years of age with eosinophilic asthma, blood eosinophil count \u2265 4"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "23",
+        "text": "BLA received March 30, 2015; approved March 23, 2016 (approval letter) with no p"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2016",
+        "text": "BLA received March 30, 2015; approved March 23, 2016 (approval letter) with no p"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "2016",
+        "text": "3053-1: Develop and validate an assay sufficiently sensitive, selective, and spe"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "2017",
+        "text": "3053-2: Use the anti-reslizumab IgE assay developed under 3053-1 to test serum s"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "2016",
+        "text": "3053-3: Submit a qualification report demonstrating the suitability of the comme"
+      },
+      {
+        "field": "post_marketing[3]/requirement",
+        "number": "2017",
+        "text": "3053-4: Develop and validate an assay to detect anti-drug antibodies that neutra"
+      },
+      {
+        "field": "post_marketing[4]/requirement",
+        "number": "2017",
+        "text": "3053-5: Use the assay developed and validated under 3053-4 to detect anti-resliz"
+      },
+      {
+        "field": "post_marketing[5]/requirement",
+        "number": "2017",
+        "text": "3053-6: Implement a [REDACTED] in the drug substance manufacturing process (fina"
+      },
+      {
+        "field": "post_marketing[6]/requirement",
+        "number": "2019",
+        "text": "3053-7: Re-evaluate and tighten the endotoxin acceptance criteria after manufact"
+      },
+      {
+        "field": "post_marketing[7]/requirement",
+        "number": "2017",
+        "text": "3053-8: Establish a hold time limit for the intermediate, validated at scale to "
+      },
+      {
+        "field": "post_marketing[8]/requirement",
+        "number": "2016",
+        "text": "3053-9: Develop, validate and establish an identity test for incoming bulk drug "
+      },
+      {
+        "field": "post_marketing[9]/requirement",
+        "number": "2016",
+        "text": "3053-10: Reduce the vial over fill to comply with USP <1151> recommendations and"
+      },
+      {
+        "field": "post_marketing[10]/requirement",
+        "number": "2016",
+        "text": "3053-11: Requalify the dye ingress container closure integrity test method with "
+      },
+      {
+        "field": "post_marketing[11]/requirement",
+        "number": "2016",
+        "text": "3053-12: Qualify the microbial retention study at routine manufacturing/room tem"
+      },
+      {
+        "field": "post_marketing[12]/requirement",
+        "number": "30",
+        "text": "3053-13: Evaluate and revise, as needed, acceptance criteria for drug substance "
+      },
+      {
+        "field": "post_marketing[12]/requirement",
+        "number": "2019",
+        "text": "3053-13: Evaluate and revise, as needed, acceptance criteria for drug substance "
+      },
+      {
+        "field": "post_marketing[13]/requirement",
+        "number": "2017",
+        "text": "3053-14: Improve the overall control strategy of the drug substance manufacturin"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3081",
+        "text": "BLA 761033 was submitted by Teva under section 351(a) of the PHS Act, received M"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

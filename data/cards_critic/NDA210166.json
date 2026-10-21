@@ -1,0 +1,92 @@
+{
+  "app": "NDA210166",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "The parenthetical arm description '(PRU 2 mg vs placebo)' is not supported by the cited quotes, which only give '12-wk MC R DB PC Phase 3 trial' and an abbreviations key; the specific arm structure is uncited."
+    },
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "The parenthetical arm description '(PRU 1 mg, 1 mg-to-2 mg, and 2 mg vs placebo)' is not supported by the cited quotes, which only give the generic '12-wk MC R DB PC' design line and abbreviations."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited_numbers for '12','19','18','2018','210166' in the summary are false positives (date and NDA/app-ID components that are excluded)."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited_number '210166' is a false positive (application ID, excluded); first_cycle_approval=true is correctly inferred with no prior CRL stated."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "2",
+        "text": "12-week, multi-center, randomized, double-blind, placebo-controlled trial (PRU 2"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "1",
+        "text": "12-week, multi-center, randomized, double-blind, placebo-controlled trial (PRU 1"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "1",
+        "text": "12-week, multi-center, randomized, double-blind, placebo-controlled trial (PRU 1"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "2",
+        "text": "12-week, multi-center, randomized, double-blind, placebo-controlled trial (PRU 1"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "2",
+        "text": "12-week, multi-center, randomized, double-blind, placebo-controlled trial (PRU 1"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "210166",
+        "text": "NDA 210166 was submitted December 21, 2017 with a PDUFA goal date of 12/19/2018 "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "210166",
+        "text": "Standard (non-priority) review of NDA 210166, submitted under section 505(b) and"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "12",
+        "text": "Standard (non-priority) review of NDA 210166, submitted under section 505(b) and"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "19",
+        "text": "Standard (non-priority) review of NDA 210166, submitted under section 505(b) and"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2018",
+        "text": "Standard (non-priority) review of NDA 210166, submitted under section 505(b) and"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "18",
+        "text": "Standard (non-priority) review of NDA 210166, submitted under section 505(b) and"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2018",
+        "text": "Standard (non-priority) review of NDA 210166, submitted under section 505(b) and"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "app": "NDA200796",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "uncited_numbers flags for 24, 40, 80 are false positives \u2014 '24-hour' is a unit descriptor and 40/80 are doses, not efficacy data."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "uncited_numbers flags for 24, 40, 80, 320 are false positives \u2014 '24-hour' is a unit and 40/80/320 mg are doses, all excluded from flagging."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "24",
+        "text": "Placebo-corrected change in 24-hour mean SBP: Edarbi 40 mg -12.08 mm Hg (95% CI "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "40",
+        "text": "Placebo-corrected change in 24-hour mean SBP: Edarbi 40 mg -12.08 mm Hg (95% CI "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "80",
+        "text": "Placebo-corrected change in 24-hour mean SBP: Edarbi 40 mg -12.08 mm Hg (95% CI "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "24",
+        "text": "Placebo-corrected change in 24-hour mean SBP: Edarbi 40 mg -13.16 mm Hg (95% CI "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "40",
+        "text": "Placebo-corrected change in 24-hour mean SBP: Edarbi 40 mg -13.16 mm Hg (95% CI "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "80",
+        "text": "Placebo-corrected change in 24-hour mean SBP: Edarbi 40 mg -13.16 mm Hg (95% CI "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "80",
+        "text": "Placebo-corrected change in 24-hour mean SBP: Edarbi 40 mg -13.16 mm Hg (95% CI "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "320",
+        "text": "Placebo-corrected change in 24-hour mean SBP: Edarbi 40 mg -13.16 mm Hg (95% CI "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "40",
+        "text": "Placebo-corrected change in 24-hour mean SBP: Edarbi 40 mg -13.16 mm Hg (95% CI "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

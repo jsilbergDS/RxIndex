@@ -1,0 +1,87 @@
+{
+  "app": "NDA201532",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "post_marketing[0].requirement",
+      "severity": "low",
+      "issue": "Flagged numbers '1689' and '1' are administrative PMR/PMC identifiers, not efficacy/safety data; false positive."
+    },
+    {
+      "field": "post_marketing[1].requirement",
+      "severity": "low",
+      "issue": "Flagged numbers '1689' and '2' are administrative PMC identifiers; false positive."
+    },
+    {
+      "field": "post_marketing[2].requirement",
+      "severity": "low",
+      "issue": "Flagged numbers '1689' and '3' are administrative PMC identifiers; false positive."
+    },
+    {
+      "field": "post_marketing[3].requirement",
+      "severity": "low",
+      "issue": "Flagged numbers '1689' and '4' are administrative PMC identifiers; false positive."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged numbers '3' (Phase 3) and '305' (study ID) are descriptors/study identifiers, not efficacy/safety data; false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "1689",
+        "text": "PMR 1689-1: Conduct a dedicated clinical trial assessing the safety and pharmaco"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "1",
+        "text": "PMR 1689-1: Conduct a dedicated clinical trial assessing the safety and pharmaco"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "1689",
+        "text": "PMC 1689-2: Submit a final report with updated overall survival results after 95"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "2",
+        "text": "PMC 1689-2: Submit a final report with updated overall survival results after 95"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "1689",
+        "text": "PMC 1689-3: Submit a final report for the ongoing trial E7389-G000-301 (eribulin"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "3",
+        "text": "PMC 1689-3: Submit a final report for the ongoing trial E7389-G000-301 (eribulin"
+      },
+      {
+        "field": "post_marketing[3]/requirement",
+        "number": "1689",
+        "text": "PMC 1689-4: Provide a single Prior Approval CMC supplement containing specified "
+      },
+      {
+        "field": "post_marketing[3]/requirement",
+        "number": "4",
+        "text": "PMC 1689-4: Provide a single Prior Approval CMC supplement containing specified "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Eisai sought and received regular (full) approval for Halaven based on a statist"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "305",
+        "text": "Eisai sought and received regular (full) approval for Halaven based on a statist"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

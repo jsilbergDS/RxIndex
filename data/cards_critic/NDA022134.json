@@ -1,0 +1,26 @@
+{
+  "app": "NDA022134",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "high",
+      "issue": "Claims the redness endpoint was 'not met' for Protocol 05-003-13, but the only citation discusses ocular itching p-values and contains nothing supporting a redness failure for this trial."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "medium",
+      "issue": "The itching 'p<0.001 at all post-challenge time points' is supported only by an aggregate 'Phase 3 CAC studies' quote, not by data specific to Protocol 05-003-11, so the per-trial result is weakly supported."
+    },
+    {
+      "field": "pivotal_trials[2].result",
+      "severity": "low",
+      "issue": "States 'p<0.001 at all post-challenge time points' for 09-003-05, but the cited line-56 quote only says 'successful for ocular itching'; the p-value is drawn from a separate table citation whose column attribution to this trial is not clearly established."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

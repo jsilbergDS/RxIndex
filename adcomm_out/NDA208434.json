@@ -1,0 +1,91 @@
+{
+  "app": "NDA208434",
+  "drug": "ALECENSA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_d3f6c176-29fc-503d-9572-3aacb0bfc502"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_cb58c01c-0f18-5282-ada5-ca61bfc0b3d2"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_e60072d3-a3b7-501e-84a5-47c72a075ab9"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_de51091e-f8b9-53b4-acaa-692738d3b19f"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_f0ae5abb-b78b-59fa-a697-e5c325dfe749"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "None convened",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_d3f6c176-29fc-503d-9572-3aacb0bfc502",
+      "line": 120,
+      "quote": "This NDA was not referred to the Oncologics Drug Advisory Committee because it is not the first drug in its class"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_d3f6c17629fc",
+      "found_lines": [
+        120
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "N/A - no meeting held",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_de51091e-f8b9-53b4-acaa-692738d3b19f",
+      "line": 671,
+      "quote": "There was no Advisory Committee meeting for alectinib"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_de51091ef8b9",
+      "found_lines": [
+        671
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "N/A - no meeting held, no vote taken",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_cb58c01c-0f18-5282-ada5-ca61bfc0b3d2",
+      "line": 104,
+      "quote": "There was no advisory committee meeting for alectinib"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_cb58c01c0f18",
+      "found_lines": [
+        104
+      ]
+    }
+  },
+  "linkages": [],
+  "no_adcom_quote": {
+    "doc_type": "SumR",
+    "doc_id": "fda_d3f6c176-29fc-503d-9572-3aacb0bfc502",
+    "line": 120,
+    "quote": "This NDA was not referred to the Oncologics Drug Advisory Committee because it is not the first drug in its class, the safety profile is acceptable for the proposed indication, the clinical trial design is similar to that used for accelerated approval for patients with NSCLC with no satisfactory alternative therapy, the application did not raise safety or efficacy in the intended patient population, and outside expertise was not necessary as there were no controversial issues that would benefit from advisory committee discussion."
+  },
+  "summary": "No advisory committee meeting was convened for ALECENSA (alectinib, NDA208434). The Summary Review, Cross-Discipline Team Leader review, Office Director memo, and Medical Review all explicitly state the NDA was not referred to the Oncologic Drugs Advisory Committee because alectinib was not first-in-class, had an acceptable safety profile, used a trial design consistent with prior accelerated approvals, and raised no controversial issues requiring outside expertise. With no meeting held, there are no committee-driven linkages to the approval.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "fda_d3f6c17629fc",
+    "found_lines": [
+      120
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "app": "NDA022065",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "False-positive flags: '40' (40 mg/m2) and '3' (every 3 weeks) are doses/schedule, excluded from uncited-number rules; no action needed.",
+      "note": "dismissed flag"
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive flags: '046' and '081' are study-ID references, not efficacy/safety data; no action needed.",
+      "note": "dismissed flag"
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: '3' is part of 'Phase 3' trial descriptor, not an uncited efficacy/safety number; no action needed.",
+      "note": "dismissed flag"
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "40",
+        "text": "Single-arm, multicenter study of ixabepilone monotherapy 40 mg/m2 every 3 weeks"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "3",
+        "text": "Single-arm, multicenter study of ixabepilone monotherapy 40 mg/m2 every 3 weeks"
+      },
+      {
+        "field": "key_safety",
+        "number": "046",
+        "text": "Most common adverse reactions (>=20%) include peripheral sensory neuropathy, fat"
+      },
+      {
+        "field": "key_safety",
+        "number": "081",
+        "text": "Most common adverse reactions (>=20%) include peripheral sensory neuropathy, fat"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Ixabepilone (Ixempra), a new molecular entity, received regular (full) approval "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

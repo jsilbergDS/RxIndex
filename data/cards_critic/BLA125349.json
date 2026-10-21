@@ -1,0 +1,48 @@
+{
+  "app": "BLA125349",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 253)",
+  "_raw": "Analyzing the card for quality issues.\n\nKey checks:\n- `n` fields: N=23 and N=30 are sums (13+10, 17+13) computed from cited numbers \u2014 false positive uncited flags.\n- BLA number 125349 and year 2003 uncited \u2014 but 2003 appears in fast_track/orphan citations; 125349 is a study ID-like identifier. Minor",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "23",
+        "text": "N=23 macaques (13 raxibacumab, 10 placebo)"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "30",
+        "text": "N=30 rabbits (17 raxibacumab, 13 placebo)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "125349",
+        "text": "Not approved first cycle. BLA 125349 was originally received May 14, 2009 and a "
+      },
+      {
+        "field": "receipt_date",
+        "number": "125349",
+        "text": "June 15, 2012 (resubmission of BLA 125349)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "125349",
+        "text": "Raxibacumab (BLA 125349) was approved for inhalational anthrax based solely on a"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2003",
+        "text": "Raxibacumab (BLA 125349) was approved for inhalational anthrax based solely on a"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2003",
+        "text": "Raxibacumab (BLA 125349) was approved for inhalational anthrax based solely on a"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

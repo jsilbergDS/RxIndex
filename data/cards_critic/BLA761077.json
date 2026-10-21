@@ -1,0 +1,67 @@
+{
+  "app": "BLA761077",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "False-positive flag: the number '4' refers to the 4-week baseline period, which is supported by the citation ('After a four-week baseline period')."
+    },
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "False-positive flag: the number '4' refers to the 4-week baseline period, which is supported by the citation ('After a four-week baseline period')."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flag: the flagged '5' is part of the dates 5/17/2017 and 5/17/2018, which are date components and should be excluded."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: the flagged '5' and '2018' are components of the approval dates and should be excluded."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "4",
+        "text": "24-week randomized, double-blind, placebo-controlled trial; patients randomized "
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "4",
+        "text": "12-week randomized, double-blind, placebo-controlled trial; patients randomized "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "5",
+        "text": "BLA received 5/17/2017 with a standard review; approved 5/17/2018 (PDUFA goal da"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "5",
+        "text": "BLA received 5/17/2017 with a standard review; approved 5/17/2018 (PDUFA goal da"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "5",
+        "text": "Aimovig (erenumab-aooe) was submitted as a BLA received 5/17/2017 under a Standa"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "5",
+        "text": "Aimovig (erenumab-aooe) was submitted as a BLA received 5/17/2017 under a Standa"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2018",
+        "text": "Aimovig (erenumab-aooe) was submitted as a BLA received 5/17/2017 under a Standa"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

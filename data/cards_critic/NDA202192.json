@@ -1,0 +1,72 @@
+{
+  "app": "NDA202192",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "high",
+      "issue": "The 50% TSS reduction figures (68 (45.9%) Jakafi vs 8 (5.3%) placebo) are presented as counts/percentages but the citation quote only gives '68 (45.9) 8 (5.3)' without labeling them as patient counts and placebo; percentages labeled as placebo '5.3%' are supported, but the claim 'P < 0.0001' is applied to the TSS endpoint without a citation that ties that p-value to the symptom score result."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Text states 'Jakafi N=155, Placebo N=154' which is supported by the citation, but the same cited quote also contains Study 2 arms (N=146 / N=73), a stitched multi-study header row that could be mis-attributed."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "medium",
+      "issue": "The number '48' (Week 48) in the result text is not contained in any citation quote for this field (uncited_numbers flag); the Week 48 timepoint is only cited in the endpoint field, not the result."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "high",
+      "issue": "The P < 0.0001 cited for Study 2 comes from the same 'P-value < 0.0001 < 0.0001' quote at line 225, which belongs to Study 1's spleen table (65/1 and 41/28.5 are in different columns); the p-value for Study 2's Week 48 endpoint is not clearly supported by a Study-2-specific citation."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "uncited_numbers flags '1' in 'Study 1'; this is a false positive \u2014 it is a study label, not an efficacy/safety number."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "uncited_numbers flags '3' in '3 year follow-up' context; the '3-year' is not in the summary citations but is a non-efficacy PMC detail \u2014 low-severity false positive, though the summary itself does not cite the PREA/3-year number source directly."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "medium",
+      "issue": "The summary claims the drug was 'first-in-class' and that the sponsor was 'exempt from PREA pediatric assessment requirements due to orphan designation' \u2014 the PREA exemption is supported, but 'first-in-class' is sourced correctly; however the phrase 'two adequate and well-controlled Phase 3 trials' conflates the pivotal (Study 1) and supporting (Study 2) trials, which the review distinguishes as pivotal vs supporting."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "The detail text and one citation misquote 'post-essential thrombocytopenia myelofibrosis' from the review whereas the indication field uses 'post-essential thrombocythemia myelofibrosis'; the source quote actually contains the erroneous 'thrombocytopenia', so the mismatch originates in the document, not the card."
+    },
+    {
+      "field": "priority_review.present",
+      "severity": "medium",
+      "issue": "The receipt date is June 3, 2011 with a PDUFA goal date of December 4, 2011 (~6 months), which is consistent with a Priority Review for an orphan oncology NME; priority_review.present=false may be an incorrect omission of a designation the drug plainly had."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study 1 (INCB-351), a double-blind, placebo-controlled pivotal trial"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "48",
+        "text": "35% or greater spleen volume reduction at Week 48: 41 (28.5%) Jakafi vs 0 best a"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Ruxolitinib (Jakafi), a new molecular entity and first-in-class JAK1/JAK2 kinase"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "app": "NDA204819",
+  "drug": "ADEMPAS",
+  "docs_read": [
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "ef58dc14-1254-5344-b405-abcf96dfc26e"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "db8daf28-4a9e-5046-be83-7cb22695ed5e"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "03d48333-a50e-598b-b034-63339c0e0b0c"
+    },
+    {
+      "doc_type": "OtherR",
+      "doc_id": "649ed704-95e7-549e-82af-5beba14a7f86"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Cardiovascular and Renal Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "ef58dc14-1254-5344-b405-abcf96dfc26e",
+      "line": 19,
+      "quote": "this is consistent with the recommendations of the Cardiovascular and Renal Drugs Advisory Committee (convened August 6, 2013)."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "ef58dc14-1254-5344-b405-abcf96dfc26e",
+      "found_lines": [
+        19
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "August 6, 2013",
+    "quote": {
+      "doc_type": "OtherR",
+      "doc_id": "649ed704-95e7-549e-82af-5beba14a7f86",
+      "line": 44,
+      "quote": "Advisory Committee: August 6, 2013"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "649ed704-95e7-549e-82af-5beba14a7f86",
+      "found_lines": [
+        44
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The Committee voted unanimously in favor of approval for both CTEPH and PAH.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "ef58dc14-1254-5344-b405-abcf96dfc26e",
+      "line": 115,
+      "quote": "The Committee voted unanimously in favor of approval for both CTEPH and PAH, opining that there was enough relevance of PAH to approve CTEPH on the basis of a single trial."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "ef58dc14-1254-5344-b405-abcf96dfc26e",
+      "found_lines": [
+        115
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "An FDA Drug Safety and Risk Management (DSaRM) Advisory Committee meeting (December 2012) recommended that teratogenicity REMS programs be targeted to the at-risk population (females) rather than all patients.",
+      "change": "The Adempas REMS was designed to enroll all females, consistent with the DSaRM AC recommendation to target the REMS at the at-risk population.",
+      "category": "REMS / population targeting",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "03d48333-a50e-598b-b034-63339c0e0b0c",
+        "line": 176,
+        "quote": "The Agency held a DSaRM Advisory Committee meeting (AC) in December 2012 which focused on teratogenicity. One of the topics discussed involved the target population for REMS that are in place for teratogenicity. The AC recommendation was to target the REMS to the affected population (in this case, females).",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "03d48333-a50e-598b-b034-63339c0e0b0c",
+          "found_lines": [
+            176
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "03d48333-a50e-598b-b034-63339c0e0b0c",
+        "line": 244,
+        "quote": "All females should be enrolled in the Adempas REMS to prevent misclassification errors and ensure females who have not yet undergone puberty are adequately counseled. This recommendation is consistent the recommendations from the FDA Drug Safety and Risk Management (DSaRM) Advisory Committee meeting in December 2012 to target the REMS at the at-risk population.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "03d48333-a50e-598b-b034-63339c0e0b0c",
+          "found_lines": [
+            244
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An advisory committee was convened for this application: the Cardiovascular and Renal Drugs Advisory Committee met August 6, 2013 to discuss approvability, dosing, and hypotension risk, and voted unanimously in favor of approval for both CTEPH and PAH, with no significant concerns about trial design and the view that hypotension risk was adequately managed by labeling. Because this committee was broadly supportive, the review documents do not tie it to any specific change in the approval. The one advisory-committee-to-change linkage stated in the reviews comes from the earlier December 2012 DSaRM Advisory Committee, whose recommendation to target teratogenicity REMS at the at-risk population shaped the Adempas REMS to enroll all females."
+}

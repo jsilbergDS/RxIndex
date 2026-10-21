@@ -1,0 +1,48 @@
+{
+  "app": "NDA207988",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 312)",
+  "_raw": "Analyzing the card for quality issues.\n\nKey findings:\n1. **Study 302 N inconsistency**: field says ITT \"LESU200 204 / LESU400 200\" but citation shows for study 302: PBO=206, LESU200=204, LESU400=200. The 610 number is uncited (flag). N=610 vs 206+204+200=610 OK, but N=610 appears in quote \"Study 2 (",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "610",
+        "text": "N=610 ITT (PBO 206 / LESU200 204 / LESU400 200); randomized/enrolled 206/204/201"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "25",
+        "text": "Application dated December 25, 2014, received December 29, 2014; approved effect"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2014",
+        "text": "Application dated December 25, 2014, received December 29, 2014; approved effect"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "29",
+        "text": "Application dated December 25, 2014, received December 29, 2014; approved effect"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2014",
+        "text": "Application dated December 25, 2014, received December 29, 2014; approved effect"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "3014",
+        "text": "Study 3014-1: A randomized, controlled clinical trial to evaluate the safety of "
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "1",
+        "text": "Study 3014-1: A randomized, controlled clinical trial to evaluate the safety of "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

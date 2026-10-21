@@ -1,0 +1,37 @@
+{
+  "app": "NDA022341",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flag: '52' (52-week) is supported by the design/phase/endpoint citations referencing the 52-week trial 1573."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flag: '52' (52-week monotherapy trial) is supported by trial-level citations describing the 52-week monotherapy trial."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Minor inconsistency: summary citation quotes NDA date 'March 23, 2008' while receipt_date and first_cycle_approval use 'May 23, 2008'; the summary text itself does not assert a date, so cosmetic only."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "52",
+        "text": "Study 1573 (52-week monotherapy trial)"
+      },
+      {
+        "field": "key_safety",
+        "number": "52",
+        "text": "Most common adverse reactions (>=5% and more common than placebo): headache, nau"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

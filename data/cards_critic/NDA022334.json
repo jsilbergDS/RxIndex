@@ -1,0 +1,28 @@
+{
+  "app": "NDA022334",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 338)",
+  "_raw": "{\n \"app\": \"NDA022334\",\n \"release_ready\": false,\n \"issues\": [\n  {\n   \"field\": \"first_cycle_approval.detail\",\n   \"severity\": \"low\",\n   \"issue\": \"Uncited-number flags for '6', '30', '08' are a false positive: they are components of the date 6/30/08, which is supported by the receipt_date citation and s",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "6",
+        "text": "Approval was recommended; the application was received 6/30/08 as a priority rev"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "30",
+        "text": "Approval was recommended; the application was received 6/30/08 as a priority rev"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "08",
+        "text": "Approval was recommended; the application was received 6/30/08 as a priority rev"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

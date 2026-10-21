@@ -1,0 +1,2134 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+L2: **205422Orig2s000**
+L3: **STATISTICAL REVIEW(S)**
+L4: FDA seal/logo for Drug Evaluation and Research
+L5: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L6: ## STATISTICAL REVIEW AND EVALUATIONCLINICAL STUDIES
+L7: **NDA #:** 205, 422 /O-2
+**Drug Name:** Brexpiprazole
+**Indication(s):** Schizophrenia
+**Applicant:** Otsuka Pharmaceutical Development &amp; Commercialization, Inc
+**Dates:** Submission receipt date: July 11, 2014
+PDUFA date: December July 11, 2015
+**Review Priority:** Standard
+**Biometrics Division:** Division of Biometrics I
+**Statistical Reviewers:** George Kordzakhia, Ph.D.
+**Concurring Reviewers:** Peiling Yang, Ph.D., H.M. James Hung, Ph.D.
+**Medical Division:** Division of Psychiatric Products
+**Clinical Reviewer:** Tiffany Farchione, M.D., Reviewer (Deputy Director)
+**Project Manager:** Kofi Ansah, Pharm. D.
+L8: ## **Keywords:**
+L9: NDA review, clinical studies, MMRM
+L10: ## Table of Contents
+L11: 1. EXECUTIVE SUMMARY	5
+2. INTRODUCTION	6
+2.1 OVERVIEW	6
+2.2 DATA SOURCES	6
+3. STATISTICAL EVALUATION (SCHIZOPHRENIA INDICATION)	6
+3.1 DATA AND ANALYSIS QUALITY	6
+3.2 EVALUATION OF EFFICACY	6
+3.2.1 Study Design and Endpoints	6
+3.2.2 Statistical Methodologies	8
+3.2.3 Patient Disposition, Demographic and Baseline Characteristics	10
+3.2.4 Efficacy Results and Conclusions	11
+3.2.4.1 Primary Efficacy Measure: PANSS Total Score	11
+3.2.4.2 Key Secondary Efficacy Measure: CGI-S	17
+4. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	18
+4.1 GENDER, RACE, AGE	18
+4.2 OTHER SPECIAL/SUBGROUP POPULATIONS: GEOGRAPHIC REGION	19
+5. SUMMARY AND CONCLUSIONS	19
+5.1 STATISTICAL ISSUES	19
+5.2 COLLECTIVE EVIDENCE	20
+5.3 CONCLUSIONS AND RECOMMENDATIONS	21
+APPENDIX A. SUBJECT DISPOSITION	22
+APPENDIX B. BASELINE AND DEMOGRAPHIC CHARACTERISTICS	23
+APPENDIX C. MEAN CHANGE FROM BASELINE IN PANSS TOTAL SCORE BY WEEK	24
+L12: ## LIST OF TABLES
+L13: Table 1. Subject Disposition: Number of Patients by Treatment Group	10
+Table 2. Demographic and Baseline Characteristics by Study (Randomized Population)	11
+Table 3. LS Mean Change from Baseline in PANSS at Week 6 (MMRM)	12
+Table 4. Study 230 Sensitivity Analysis. LS Mean Change from Baseline in PANSS at Week 6 (Pattern Mixture Model with Multiple Imputation)	14
+Table 5. Study 231 Sensitivity Analysis. LS Mean Change from Baseline in PANSS at Week 6 (Pattern Mixture Model with Multiple Imputation)	15
+Table 6. Mean Change from Baseline in CGI-S at Week 6 (MMRM)	17
+Table 7. Subgroup Analysis: Mean Change from Baseline in PANSS at Week 6 (MMRM)	18
+Table 8. Subgroup Analysis by Geographic Region (North America vs. non North America): Mean Change from Baseline in PANSS at Week 6 (MMRM)	19
+Table 9. LS Mean Change from Baseline in PANSS at Week 6 (MMRM)	20
+Table 10. Mean Change from Baseline in CGI-S at Week 6 (MMRM)	21
+Table 11. Study 230: Subject Disposition: Number of Patients by Treatment Group	22
+Table 12. Study 231: Subject Disposition: Number of Patients by Treatment Group	22
+Table 13. Study 230: Demographic and Baseline Characteristics by Treatment Group (Randomized Population)	23
+Table 14. Study 231: Demographic and Baseline Characteristics by Treatment Group (Randomized Population)	23
+Table 15. Mean Change from Baseline in PANSS by Week (MMRM)	24
+L14: ## LIST OF FIGURES
+L15: Figure 1. Study 230 Design Schematic (with planned number of patients)	7
+Figure 2. Study 231 Design Schematic (with planned number of patients)	8
+Figure 3. Study 230 Mean Change from Baseline in PANSS Total Score by Visit (MMRM)	13
+Figure 4. Study 231 Mean Change from Baseline in PANSS Total Score by Visit (MMRM)	13
+Figure 5. Study 230 Mean Change from Baseline in PANSS Total Score by Study Center (LOCF)	16
+Figure 6. Study 231 Mean Change from Baseline in PANSS Total Score by Study Center (LOCF)	16
+L16: ## 1. EXECUTIVE SUMMARY
+L17: The sponsor submitted a new original NME New Drug Application (NDA 205-422) for Brexpiprazole (OPC-34712) in the following indications: (i) Adjunctive treatment of MDD &amp; (ii) treatment of Schizophrenia. This review pertains to the Schizophrenia indication.
+L18: The efficacy of brexpiprazole in the treatment of schizophrenia is supported by two positive Phase 3, short-term, multiple-dose, randomized, double-blind, placebo-controlled multinational, studies.
+L19: Based on the pre-specified primary statistical analysis, Brexpiprazole 4 mg/day demonstrated efficacy (compared to placebo) in both trials as measured by mean reduction in PANSS total score at week 6 (the primary efficacy endpoint). Brexpiprazole 2mg was statistically significantly better than Placebo in one Phase 3 trial, Study 231. The efficacy finding was not replicated in Study 230, although Brexpiprazole 2mg was numerically better than Placebo. Additional evidence (such as another positive clinical trial) may be required to include a claim on Brexpiprazole 2mg into the label.
+L20: The sponsor also pre-specified one key-secondary efficacy endpoint, the change from baseline in CGI-S score. Compared to placebo, Brexpiprazole 2mg and Brexpiprazole 4mg treatment groups showed statistically significantly higher reduction in CGI-S score in one Phase 3 trial, Study 231. In the second Phase 3 study, Study 230, the key-secondary endpoint was not tested under the specified multiple comparison procedure (MCP) because the MCP did not pass the gatekeeper- primary endpoint. [The analysis of the key secondary endpoint was to be conducted only if both comparisons of 4 mg/day Brexpiprazole vs. placebo and 2 mg/day Brexpiprazole vs. placebo of the primary endpoint were statistically significant.] To include efficacy claims pertaining to the improvement in CGI-S into the label, a replication by another positive trial may be required.
+L21: ## 2. INTRODUCTION
+L22: ## 2.1 Overview
+L23: The sponsor submitted a new original NME New Drug Application (NDA 205-422) for Brexpiprazole (OPC-34712). This is a split NDA for the following indications: (i) Adjunctive treatment of MDD &amp; (ii) treatment of Schizophrenia.
+L24: This statistical review pertains to the evaluation of efficacy of Brexpiprazole in the treatment of acute symptoms of Schizophrenia. The sponsor conducted one Phase 2 study (negative) and two Phase 3 studies (positive).
+L25: ## 2.2 Data Sources
+L26: The clinical study reports and data sets were submitted electronically. The network path for the submission is: \\cdsesub1\evsprod\nda205422\0000. Primary analysis data sets are located at \\cdsesub1\evsprod\NDA205422\0000\m5\datasets.
+L27: ## 3. STATISTICAL EVALUATION (schizophrenia indication)
+L28: ## 3.1 Data and Analysis Quality
+L29: The reviewer found the quality and integrity of the submitted data acceptable for the reviewer's analyses.
+L30: ## 3.2 Evaluation of Efficacy
+L31: The sponsor submitted clinical study reports of two positive Phase 3, short-term efficacy studies, 331-10-230 and 331-10-231, evaluating the safety and efficacy of brexpiprazole in the treatment of acute schizophrenia in adults.
+L32: ## 3.2.1 Study Design and Endpoints
+L33: Studies 331-10-230 and 331-10-231 were multicenter, randomized, double-blind, placebo-controlled, fixed-dose (three fixed doses) trials of 6-week duration (double-blind phase).
+L34: ## Enrollment criteria
+L35: Total Brief Psychiatric Rating Scale (BPRS) score \ge 40, and a score of \ge 4 on 2 or more of the following BPRS items: hallucinatory behavior, unusual thought content, conceptual disorganization, or suspiciousness, and a score of \ge 4 on the Clinical Global Impression - Severity of Illness scale (CGI-S).
+L36: ## Treatment Arms and Randomization Ratio
+L37: In Study 230, eligible subjects were randomized into Brexpiprazole 4 mg/day, Brexpiprazole 2 mg/day Brexpiprazole 1 mg/day and Placebo double-blind treatment groups using respective randomization ratio of 3:3:2:3.
+L38: In Study 231, eligible subjects were randomized into Brexpiprazole 4 mg/day, Brexpiprazole 2 mg/day Brexpiprazole 0.25 mg/day and Placebo double-blind treatment groups in a 2:2:1:2 ratio.
+L39: Figure 1 and Figure 2 provide schematics of the study designs for trials 230 and 231.
+L40: Figure 1. Study 230 Design Schematic (with planned number of patients)
+L41: Source: Clinical Study Protocol 331-10-230 Figure 3.1-1. (pg. 30)
+L42: Figure 2. Study 231 Design Schematic (with planned number of patients)
+L43: Source: Clinical Study Protocol 331-10-231 Figure 3.1-1. (pg. 30)
+L44: The *primary efficacy endpoint* was the change from baseline to Week 6 in PANSS Total Score. The sponsor also pre-specified *one key-secondary efficacy endpoint*: the change from baseline in CGI-S score.
+L45: ## 3.2.2 Statistical Methodologies
+L46: The primary statistical comparisons of interest were 4 mg/day Brexpiprazole vs. placebo and 2 mg/day Brexpiprazole vs. placebo.
+L47: ## Primary Analysis Model
+L48: The primary and the key secondary endpoints were analyzed by a mixed model repeated measures (MMRM) analysis with fixed effect factors of treatment, center, visit, treatment visit interaction, and fixed effect covariates baseline and baseline visit interaction.
+L49: ## Variance Covariance Structure
+L50: An unstructured variance covariance matrix was used for the within subject variation. In case there is a convergence problem in the MMRM model with the unstructured variance covariance matrix, the following variance covariance matrix structures were pre-specified in the order of 1) heterogeneous toeplitz, 2) heterogeneous autoregressive of order 1, and 3) heterogeneous
+L51: compound symmetry. The first (co)variance structure which does not have convergence problem was to be the one used for the analysis.
+L52: ## Center Pooling
+L53: A small center is defined as a center which fails to enroll at least one subject for each of the treatment groups for the primary analysis. Small centers were to be pooled to form pseudo centers according to the following algorithm. First, all small centers within a country are pooled to form a pseudo center. If such a pseudo center in a country is still a small center, then this pseudo center will be pooled with the smallest complete center (center with all four treatments) of the same country to get a complete pseudo center.
+L54: ## Multiple Testing
+L55: The difference between the average effect of 4 mg/day and 2 mg/day Brexpiprazole and placebo is tested first at an alpha level of 0.05 (global test). If the global test is significant, then comparisons for each group (4 mg/day and 2 mg/day Brexpiprazole) versus placebo will be performed at significant level 0.05. The analysis of the key secondary endpoint is conducted if both comparisons of 4 mg/day Brexpiprazole vs. placebo and 2 mg/day Brexpiprazole vs. placebo of the primary endpoint are significant. A test procedure similar to the one used in the analysis of the primary efficacy endpoint is adopted.
+L56: ## Sensitivity Analysis of Missing Data
+L57: Pattern-Mixture approach is applied to investigate the MNAR pattern based on dropout reasons. Specifically, MNAR in the following patterns of dropout reasons was investigated:
+L58: - Lack of efficacy (LOE) in Brexpiprazole treatment groups as MNAR
+- LOE and adverse events (AE) in Brexpiprazole treatment groups as MNAR
+L59: ## Delta Adjustment Imputation Method
+L60: “Multiple Imputation (MI) with mixed missing data mechanisms (MNAR for a missing data pattern and MAR for others) will be used to investigate the response profile of dropout patterns. This MNAR sensitivity analysis is to investigate the departure from MAR assumption by progressively decreasing the treatment differences over the missing visits in those treated subjects who fell into an assumed MNAR pattern. This progressive decrease of treatment differences is carried out by subtracting k times the treatment differences from the imputed missing data after dropout in those treated subjects who fell into an assumed MNAR pattern, with k starts from 0%, 10%, 20%, ..., and up to 100% or higher, until conclusion from the primary analysis is overturned (it is called tipping point analysis), or it becomes clinically meaningless to go even higher. Note that when 0% is used, the MI procedure would produce an analysis which is essentially MAR. When 100% is used, the MI procedure would produce an analysis which is essentially something called “copy placebo”.
+L61: The MI procedure follows the following steps:
+L62: - Using Monte Carlo Markov Chain (MCMC) methodology from PROC MI by treatment group to impute the intermittent missing data to a monotone missing pattern;
+- Using a standard MAR-based multiple imputation approach from PROC MI to impute data from monotone missing data;
+L63: - For subjects in the treated groups who fall into a MNAR pattern specified above, a delta which equal to k times their treatment differences obtained from the primary MMRM analysis will be subtracted for their imputed values after the dropout time, with k described in the above paragraph;
+- Using MMRM model in the primary analysis to analyze the completed data along with the imputed data;
+- Obtaining the overall results using PROC MIANALYZE.
+L64: ## 3.2.3 Patient Disposition, Demographic and Baseline Characteristics
+L65: ## **Patient Disposition**
+L66: Study 331-10-230 was conducted at 68 sites in 8 countries (Colombia, Croatia, Mexico, Philippines, Russia, Slovakia, Taiwan, and the US). Of the 674 randomized subjects, a total of 17 subjects did not have both baseline and postbaseline efficacy (PANSS) assessments, and thus were excluded from the efficacy analysis population; 458 (68%) patients completed the double-blind treatment period. Most patients were randomized from Russia (266 subjects) and the US (243 subjects).
+L67: Study 331-10-231 was conducted at 65 sites in 10 countries (Canada, Japan, South Korea, Latvia, Malaysia, Poland, Romania, Serbia, Ukraine, and the US). Of the 636 randomized patients, a total of 623 subjects had both baseline and post-baseline efficacy (PANSS) assessments, and thus were included in the efficacy analysis set; 410 subjects (64.5%) completed the trial. Most patients were randomized from the US (228 subjects) and Ukraine (115 subjects).
+L68: Subject disposition is summarized by treatment group in Table 1. In both studies the incidence of discontinuations was highest in the placebo group and in the lowest brexpiprazole dose groups (1mg in Study 230 and 0.25 mg in Study 231).
+L69: **Table 1. Subject Disposition: Number of Patients by Treatment Group**
+L70: Study 230
+Subjects, N (%)	Brexipiprazole
+1 mg	Brexipiprazole
+2 mg	Brexipiprazole
+4 mg	Placebo
+Randomized	120 (100%)	186 (100%)	184 (100%)	184 (100%)
+Analyzed for Efficacy	117 (97.5%)	179 (96.2%)	181 (98.4%)	180 (97.8%)
+Completed	81 (67.5%)	129 (69.4%)	130 (70.7%)	118 (64.1%)
+Discontinued	39 (32.5%)	57 (30.6%)	54 (29.3%)	66 (35.9%)
+Study 231
+Subjects, N (%)	Brexipiprazole
+0.25 mg	Brexipiprazole
+2 mg	Brexipiprazole
+4 mg	Placebo
+Randomized	90 (100%)	182 (100%)	180 (100%)	184 (100%)
+Analyzed for Efficacy	87 (96.7%)	180 (98.9%)	178 (98.9%)	178 (96.7%)
+Completed	56 (62.2%)	124 (68.1%)	121 (67.2%)	109 (59.2%)
+Discontinued	34 (37.8%)	58 (31.9%)	59 (32.8%)	75 (40.8%)
+L71: N=number of patients; percentages are relative to the number of randomized patients;
+L72: Source: Clinical Study Report 331-10-230 Figure 10.1-1 (pg. 75), Table 10.1-1 (pg. 76), and CT-1.1 (pg. 147). Clinical Study Report 331-10-231 Figure 10.1-1 (pg.78), Table 10.1-1 (pg. 78), and CT-1.1 (pg. 151).
+L73: The most frequent reason for discontinuation in all randomized subjects were subject withdrew consent to participate, adverse events, and lack of efficacy. Discontinuation rates are summarized by treatment arms and by reasons in Appendix A. In both studies the highest rate of adverse events and the highest lack of efficacy rate were observed in the placebo arms.
+L74: ## **Demographic and Baseline Characteristics**
+L75: The demographic and baseline characteristics for studies 331-10-230 and 331-10-231 are summarized by study in Table 2. In both studies, the majority of the patients were male (&gt;60%) and white (&gt;60%). The mean age was approximately 39 years, ranging from 18 to 65 years, and the mean weight was approximately 78 kg, ranging from 37 kg to 170 kg. The demographic and baseline characteristics were generally similar across treatment groups. Summary tables by treatment groups are included in Appendix B.
+L76: **Table 2. Demographic and Baseline Characteristics by Study (Randomized Population)**
+L77: Subjects	Study 230
+N=674	Study 231
+N=636
+Age (years): Mean (SD)	38.4 (11.1)	40.1 (10.8)
+Gender	
+Male	423 (62.8%)	401 (63.1%)
+Female	251 (37.2%)	235 (36.9%)
+Race	
+White	407 (60.4%)	423 (66.5%)
+Black	162 (24.0%)	150 (23.6%)
+Other	105 (15.6%)	63 (9.9%)
+Weight (kg):
+Mean (SD)	77.7 (19.5)	79.1 (18.8)
+BMI: Mean (SD)	26.7 (6.1)	26.8 (5.8)
+L78: N=number of patients; Percentages are relative to the number of randomized patients; SD=Standard Deviation
+Source: Clinical Study Report 331-10-231 Table 11.2.1 (pg. 79-80) and Clinical Study Report 331-10-231 Table 11.2.1 (pg. 81-82)
+L79: ## **3.2.4 Efficacy Results and Conclusions**
+L80: ## **3.2.4.1 Primary Efficacy Measure: PANSS Total Score**
+L81: The primary efficacy endpoint, the change from baseline to Week 6 in PANSS Total score, was analyzed by an MMRM model. The primary statistical comparisons of interest were brexpiprazole 4 mg/day versus placebo and brexpiprazole 2 mg/day versus placebo. The LS mean changes and treatment differences in PANSS score at Week 6 for Studies 230 and 231 are displayed in Table 3.
+L82: In both studies, the gate keeping average treatment effect of Brexpiprazole 2 mg/day and 4 mg/day combined treatment groups was statistically significant, so that comparisons of individual Brexpiprazole 2 mg/day and 4 mg/day groups with placebo group could proceed.
+L83: ## Study 230
+L84: The improvement in PANSS Total Score was statistically superior for the Brexpiprazole 4 mg/day group compared with the placebo group (LS mean difference=-6.5, p=0.002). The Brexpiprazole 2 mg/day group did not demonstrate superiority to placebo, although it showed a greater numerical improvement (LS mean difference=-3.1, p=0.14).
+L85: ## Study 231
+L86: Brexipiprazole 4mg/day and Brexpiprazole 2mg/day were statistically superior to placebo with LS mean treatment differences of -7.64 (nominal p=0.0006) and -8.72 (nominal p&lt;0.0001) respectively.
+L87: Table 3. LS Mean Change from Baseline in PANSS at Week 6 (MMRM)
+L88: Study 230	Brex. 1 mg	Brex. 2 mg	Brex. 4 mg	Placebo
+Number of patients	N=117	N=179	N=181	N=180
+Baseline Mean (SD)	93.2 (12.7)	96.3 (12.9)	95.0 (12.4)	94.6 (12.8)
+Mean Change at Week 6 (SE)	-16.9 (1.9)	-16.6 (1.5)	-20.0 (1.5)	-13.5 (1.5)
+Treatment Difference	-3.4	-3.1	-6.5	-
+95% Confidence Interval	(-8.1, 1.3)	(-7.2, 1.1)	(-10.6, -2.3)	-
+p-value	0.16	0.15	0.0022	-
+Average Effect (2mg & 4mg) versus Placebo	LS Mean Difference=-4.78, p-value=0.0093
+Study 231	Brex. 0.25 mg	Brex. 2 mg	Brex. 4 mg	Placebo
+Number of patients	N=87	N=180	N=178	N=178
+Baseline Mean (SD)	93.6 (11.5)	95.9 (13.7)	94.7 (12.1)	95.7 (11.5)
+Mean Change at Week 6 (SE)	-14.9 (2.2)	-20.7 (1.5)	-19.7 (1.5)	-12.0 (1.6)
+Treatment Difference	-2.9 (2.7)	-8.7 (2.2)	-7.6 (2.2)	-
+95% Confidence Interval	(-8.3, 2.5)	(-13.1, -4.4)	(-12.0, -3.3)	-
+p-value	0.29	<0.0001	0.0006	-
+Average Effect (2mg & 4mg) versus Placebo	LS Mean Difference=-8.18, p-value<0.0001
+L89: N=number of patients, SD=Standard Deviation, SE=Standard Error
+L90: Source: Clinical Study Report 331-10-230 Table 11.4.1.1.1-1. (pg. 83) and CT-5.2.1.1 (pg. 239)
+L91: Source: Clinical Study Report 331-10-231 Table 11.4.1.1.1-1. (pg. 85) and CT-5.2.1.1 (pg. 243)
+L92: Results confirmed by the reviewer
+L93: Figures 3 and 4 depict mean change from baseline in the primary efficacy measure (PANSS) by visit for studies 230 and 231. The graphs are based on the primary efficacy analysis (MMRM). An overtime improvement was observed in all treatment arms through the 6 weeks of double-blind treatment. In both studies, Brexpiprazole 4 mg/day and Brexpiprazole 2 mg/day were numerically better than Placebo for all visits (Week 1 to Week 6). The LS mean changes from baseline in PANSS by Week (Visit) are provided in the Appendix C.
+L94: Figure 3. Study 230 Mean Change from Baseline in PANSS Total Score by Visit (MMRM)
+L95: Source: Reviewer's Result
+L96: Figure 4. Study 231 Mean Change from Baseline in PANSS Total Score by Visit (MMRM)
+L97: Source: Reviewer's Result
+L98: ## **Sensitivity analysis for missing data**
+L99: Delta adjustment multiple imputation approach was applied to investigate the departure from MAR assumption. Multiple imputation was based on monotone missing data structure of the observed change from baseline in PANSS Total using regression option in PROC MI. Monotone missing data structure was achieved using MCMC option of PROC MI. After the imputation, a subject's imputed data subtracted k times the treatment effect at each corresponding visit, if the subject is not from the placebo group and the subject is considered as MNAR candidate.
+L100: By progressively increasing coefficient k the sensitivity analysis explored the tipping point of delta adjustment i.e. the upper bound on the critical value of coefficient k at which conclusion from the primary analysis was overturned, or it became clinically meaningless to go even higher (tipping point analysis). Thirty imputations were derived for each value of k. The case k=100\% corresponds to the “back to placebo” analysis (as referred to by sponsor) and can be considered as a sensitivity threshold.
+L101: The following dropout reasons were investigated by sponsor
+L102: - Lack of efficacy (LOE) in Brexpiprazole treatment groups as MNAR,
+- LOE and adverse events (AE) in Brexpiprazole treatment groups as MNAR.
+L103: ## **Study 230**
+L104: This reviewer confirmed sponsor's results and investigated MNAR mechanism for the dropout due to any reason pattern (i.e. delta adjustment applied to all early dropout patients). The summary is presented in Table 4. For the assumed MNAR patterns “Lack of Efficacy” and ‘Lack of Efficacy and AE’ sensitivity analysis outcomes were consistent with those for the primary analysis. The tipping point for both patterns was above the threshold of 100%. For the “Dropout to Any Reason” pattern, the outcome was more sensitive to the value of delta shift. The tipping point was achieved at adjustment by 80% of the treatment difference.
+L105: **Table 4. Study 230 Sensitivity Analysis. LS Mean Change from Baseline in PANSS at Week 6 (Pattern Mixture Model with Multiple Imputation)**
+L106: Percentage of Treatment Effect Subtracted from MAR imputed missing data	Treatment Comparison	Treatment Difference	95% Confidence Interval	P-value
+Lack of Efficacy in Brex Group as MNAR
+K=100%	Brex.2mg vs Placebo	-2.8	(-7.3, 1.7)	0.22
+Brex.4mg vs Placebo	-5.2	(-9.7, -0.7)	0.0244
+K= 260% (tipping point)	Brex.2mg vs Placebo	-2.3	(-6.7, 2.1)	0.31
+Brex.4mg vs Placebo	-4.3	(-8.8, 0.1)	0.0571
+Lack of Efficacy and AE in Brex Group as MNAR
+K=100%	Brex.2mg vs Placebo	-2.7	(-7.2, 1.9)	0.25
+Brex.4mg vs Placebo	-4.8	(-9.3, -0.2)	0.0395
+K=130% (tipping point)	Brex.2mg vs Placebo	-2.7	(-7.2, 1.8)	0.25
+Brex.4mg vs Placebo	-4.4	(-8.9, 0.1)	0.0526
+Dropout due to Any Reason in Brex Group as MNAR
+K=80% (tipping point)	Brex.2mg vs Placebo	-2.8	(-7.6, 2.0)	0.25
+Brex.4mg vs Placebo	-4.4	(-8.9, 0.1)	0.0529
+L107: Source: Clinical Study Report 331-10-230 Table CT-5.2.5.1. (pg. 265), Table CT-5.2.5.2 (pg. 268), and Reviewer' Results
+L108: ## Study 231
+L109: The results of sensitivity analyses of MNAR using a pattern mixture model with MI were consistent with the primary analysis - the assumption of data missing not at random did not alter the result of the primary analysis (presented in Table 5).
+L110: **Table 5. Study 231 Sensitivity Analysis. LS Mean Change from Baseline in PANSS at Week 6 (Pattern Mixture Model with Multiple Imputation)**
+L111: Percentage of Treatment Effect Subtracted from MAR imputed missing data	Treatment Comparison	Treatment Difference	95% Confidence Interval	P-value
+Lack of Efficacy in Brex Group as MNAR
+K=100%	Brex.2mg vs Placebo	-9.1	(-14.0, -4.3)	0.0002
+Brex.4mg vs Placebo	-8.4	(-13.0, -3.9)	0.0003
+K=500% (tipping point not reached)	Brex.2mg vs Placebo	-5.9	(-11.1, -0.8)	0.024
+Brex.4mg vs Placebo	-7.2	(-12.4, -2.0)	0.0066
+Lack of Efficacy and AE in Brex Group as MNAR
+K=100%	Brex.2mg vs Placebo	-8.6	(-13.4, -3.9)	0.0004
+Brex.4mg vs Placebo	-7.9	(-12.5, -3.2)	0.0009
+K=300% (tipping point)	Brex.2mg vs Placebo	-5.0	(-10.1, 0.2)	0.058
+Brex.4mg vs Placebo	-5.3	(-10.7, 0.2)	0.061
+Dropout due to any Reason in Brex Group as MNAR
+K=100%	Brex.2mg vs Placebo	-7.2	(-12.3, -2.1)	0.0057
+Brex.4mg vs Placebo	-6.2	(-11.0, -1.4)	0.012
+K=160% (tipping point)	Brex.2mg vs Placebo	-5.8	(-10.8, -0.90)	0.021
+Brex.4mg vs Placebo	-5.1	(-10.4, 0.2)	0.061
+L112: Source: Reviewer's Results
+L113: ## **Exploratory Efficacy Summary by Center**
+L114: This reviewer explored mean treatment differences of Brexipiprazole 2 mg and Brexipirazole 4 mg with placebo by study site (non-model based calculations). Figure 5 and Figure 6 display the scatter plots of site treatment differences versus site sizes (number of patients) for studies 230 and 231 respectively.
+L115: In study 231, the variability of observed differences showed tendency to decrease for larger site sizes. In both drug-placebo comparisons the shape of the scatter plots resembled a “horizontal cone”. No obvious outlier observations (study centers) were noted.
+L116: In study 230, the scatter plots did not follow a specific shape although the magnitude of upper and lower bounds on treatment differences appeared to decrease for larger site sizes in general. In the Brexipiprazole 2 mg vs placebo scatter plot, there was one observation with large treatment effect that potentially stood out from the general pattern. The observation corresponds to Site 452 located in Bogota, Colombia. The removal of this site from the primary analysis did not affect nominal statistical significance of Brexipiprazole 4mg-placebo comparison (p-value=0.0087). The global test of average effect of the two doses versus placebo
+L117: serving as a gatekeeper in the multiple testing procedure was on the edge of reaching statistical significance (p=0.0504).
+L118: **Figure 5. Study 230 Mean Change from Baseline in PANSS Total Score by Study Center (LOCF)**
+L119: **Figure 6. Study 231 Mean Change from Baseline in PANSS Total Score by Study Center (LOCF)**
+L120: ## 3.2.4.2 *Key Secondary Efficacy Measure: CGI-S*
+L121: The key secondary efficacy measure, CGI-S, was analyzed by the mixed model repeated measures (MMRM) model specified for the primary analysis. The LS mean changes and treatment differences in CGI-S score at Week 6 are summarized in Table 6.
+L122: ## Study 230
+L123: Because the comparison of Brexpiprazole 2 mg/day versus placebo did not meet the threshold in the primary analysis, further formal statistical testing in the key secondary endpoint was not able to proceed. Numerically, Brexpiprazole 4mg/day and Brexpiprazole 2mg/day groups had better improvement in CGI-S than placebo group with observed LS mean treatment differences of -0.38 (nominal p=0.002) and -0.19 (nominal p=0.127) respectively.
+L124: ## Study 231
+L125: The improvement in CGI-S score from baseline to Week 6 was statistically superior for the Brexpiprazole 4 mg/day and Brexpiprazole 2 mg/day groups compared with the placebo group (LS mean differences of -0.38 [p=0.0015] and -0.33 [p=0.0056]).
+L126: Table 6. Mean Change from Baseline in CGI-S at Week 6 (MMRM)
+L127: Study 230	Brex. 1 mg	Brex. 2 mg	Brex. 4 mg	Placebo
+Number of patients	N=120	N=180	N=183	N=181
+Baseline Mean (SD)	4.9 (0.7)	5.0 (0.7)	4.9 (0.6)	4.9 (0.6)
+Mean Change at Week 6 (SE)	-0.91 (0.11)	-0.99 (0.09)	-1.19 (0.08)	-0.81 (0.09)
+Treatment Difference	-0.10	-0.19	-0.38	-
+95% Confidence Interval	(-0.37, 0.16)	(-0.42, 0.05)	(-0.62, -0.15)	-
+p-value	0.445	0.127	0.002	-
+Average Effect (2mg & 4mg) versus Placebo: p=0.0069
+Study 231	Brex. 0.25 mg	Brex. 2 mg	Brex. 4 mg	Placebo
+Number of patients	N=89	N=181	N=178	N=181
+Baseline Mean (SD)	4.9 (0.6)	4.9 (0.6)	4.8 (0.6)	4.8 (0.7)
+Mean Change at Week 6 (SE)	-0.85 (0.12)	-1.15 (0.08)	-1.20 (0.08)	-0.82 (0.09)
+Treatment Difference	-0.03	-0.33	-0.38	-
+95% Confidence Interval	(-0.31, 0.26)	(-0.56, -0.10)	(-0.61, -0.15)	-
+p-value	0.849	0.0056	0.0012	-
+Average Effect (2mg & 4mg) versus Placebo: p=0.0006
+L128: N=number of patients, SD=Standard Deviation, SE=Standard Error;
+L129: Population consisted of all patients who took at least 1 dose of double-blind investigational product and had at least 1 post-baseline assessment of the key secondary efficacy parameter
+L130: Source: Clinical Study Report 331-10-230 Table 11.4.1.2.1.1-1. (pg. 89) and CT-5.3.1.1 (pg. 273)
+L131: Source: Clinical Study Report 331-10-231 Table 11.4.1.2.1.1-1. (pg. 91) and CT-5.3.1.1 (pg. 281)
+L132: Results confirmed by the reviewer
+L133: ## 4. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L134: ## 4.1 Gender, Race, Age
+L135: This section contains reviewer's exploratory subgroup analysis. The MMRM model with terms treatment, visit, and treatment interacting with visit as fixed effects, and the covariate baseline PANSS Total Score and its interaction with visit was used to investigate gender (Male, Female) and racial (White, Black, Other) subgroups. Age subgroups were not studied since all patients were younger than 65 years.
+L136: The subgroup analysis by gender or race displayed in Table 7 did not suggest any clear evidence of differential responsiveness. In both studies, Brexpiprazole 2mg and Brexpiprazole 4mg arms were numerically better than placebo in all investigated subgroups as measured by mean change in PANSS total score.
+L137: **Table 7. Subgroup Analysis: Mean Change from Baseline in PANSS at Week 6 (MMRM)**
+L138: Brex. 1 mg	Brex. 2 mg	Brex. 4 mg	Placebo
+Study 230	
+Sex: Male, N	N=75	N=117	N=112	N=109
+Mean (SE)	-13.9 (2.3)	-15.1 (1.8)	-18.5 (1.8)	-14.1 (1.9)
+Sex: Female, N	N=42	N=62	N=69	N=71
+Mean (SE)	-21.2 (3.3)	-18.0 (2.7)	-21.8 (2.5)	-12.6 (2.6)
+Race: White, N	N=73	N=113	N=101	N=108
+Mean (SE)	-16.3 (2.4)	-16.9 (1.9)	-18.0 (2.0)	-16.3 (2.0)
+Race: Black, N	N=25	N=39	N=50	N=43
+Mean (SE)	-14.2 (3.9)	-10.0 (2.9)	-20.3 (2.7)	-9.1 (2.7)
+Race: Other, N	N=19	N=27	N=30	N=29
+Mean (SE)	-22.9 (5.1)	-19.7 (4.2)	-24.4 (3.9)	-5.9 (4.3)
+Study 231	
+Sex: Male, N	N=59	N=110	N=109	N=114
+Mean (SE)	-15.8 (2.6)	-21.4 (1.9)	-18.7 (1.9)	-11.7 (1.9)
+Sex: Female, N	N=28	N=70	N=69	N=64
+Mean (SE)	-12.3 (4.5)	-19.6 (2.7)	-21.9 (2.8)	-12.4 (3.0)
+Race: White, N	N=62	N=120	N=117	N=118
+Mean (SE)	-13.8 (2.7)	-22.0 (1.9)	-21.0 (2.0)	-13.2 (2.0)
+Race: Black, N	N=18	N=41	N=42	N=42
+Mean (SE)	-15.3 (4.7)	-17.3 (3.0)	-15.6 (2.9)	-10.3 (2.8)
+Race: Other, N	N=7	N=19	N=19	N=18
+Mean (SE)	-22.4 (8.0)	-19.8 (4.8)	-24.4 (4.7)	-9.6 (5.8)
+L139: N=number of patients; SE=Standard Error
+L140: Source: Reviewer's results
+L141: **Reviewer's Remark:** Compared with the primary efficacy analysis, the MMRM model used for subgroup analyses does not include factor pooled center.
+L142: ## 4.2 Other Special/Subgroup Populations: Geographic Region
+L143: This section includes exploratory efficacy analysis by geographic region (North America, Outside of North America). The results are based on MMRM model similar to the model applied to the gender and racial subgroups and are presented in Table 8. In both geographic region based subgroups, all three brexipiprazole dose arms had numerically greater mean reduction in PANNS compared with placebo arm.
+L144: **Table 8. Subgroup Analysis by Geographic Region (North America vs. non North America): Mean Change from Baseline in PANSS at Week 6 (MMRM)**
+L145: Study 230	Brex. 1 mg	Brex. 2 mg	Brex. 4 mg	Placebo
+North America, N	N=43	N=63	N=66	N=64
+Mean (SE)	-13.2 (3.4)	-12.6 (2.6)	-19.9 (2.6)	-11.6 (2.6)
+Outside of North America, N	N=74	N=116	N=115	N=116
+Mean (SE)	-18.6 (2.3)	-18.0 (1.9)	-19.4 (1.8)	-13.6 (1.9)
+Study 231	Brex. 0.25 mg	Brex. 2 mg	Brex. 4 mg	Placebo
+North America, N	N=32	N=62	N=68	N=64
+Mean (SE)	-13.7 (3.5)	-15.5 (2.6)	-16.4 (2.5)	-8.6 (2.5)
+Outside of North America, N	N=55	N=118	N=110	N=114
+Mean (SE)	-15.6 (2.9)	-23.3 (1.9)	-21.8 (2.0)	-14.2 (2.1)
+L146: N=number of patients; SE=Standard Error
+L147: Source: Reviewer's results
+L148: **Reviewer's Remark:** In study 230, North America region was represented only by US. In study 231, North America included US and Canada.
+L149: ## 5. SUMMARY AND CONCLUSIONS
+L150: ## 5.1 Statistical Issues
+L151: Statistical efficacy analyses (used by sponsor) were pre-specified in the clinical study protocols. This reviewer did not identify any issues with sponsor's statistical methods.
+L152: The observed dropout rates in pivotal trials 230 and 231 were substantial: 32.0% and 35.5% respectively. To address potential problem in case missing data is MNAR the sponsor pre-specified sensitivity analyses based on pattern-mixture model. Results of the sensitivity analysis were in general consistent with primary efficacy findings.
+L153: ## 5.2 Collective Evidence
+L154: ## **Primary efficacy measure: change from baseline in PANSS at Week 6**
+L155: The primary endpoint, change from baseline in PANSS at Week 6, was analyzed by the MMRM model with missing data imputed by LOCF method. The pairwise comparisons versus placebo are summarized in Table 9.
+L156: Brexipiprazole 4mg/day did demonstrate superiority to placebo in both studies with respective LS mean treatment differences of -6.5 (nominal p=0.0022) and -7.6 (nominal p&lt;0.0006).
+L157: Brexipiprazole 2 mg/day was statistically superior to placebo in one study (Study 231) with LS mean treatment difference of -8.7 (nominal p&lt;0.0001). The 2mg/day dose group did not demonstrate superiority to placebo in Study 230, although it showed a greater numerical improvement (LS mean difference=-3.1, p=0.15).
+L158: **Table 9. LS Mean Change from Baseline in PANSS at Week 6 (MMRM)**
+L159: Pairwise Comparison	LS Mean Difference	95% CI	p-value
+Study 230	
+Brex. 2 mg vs Placebo	-3.1	(-7.2, 1.1)	0.15
+Brex. 4 mg vs Placebo	-6.5	(-10.6, -2.3)	0.0022
+Study 231	
+Brex. 2 mg vs Placebo	-8.7	(-13.1, -4.4)	<0.0001
+Brex. 4 mg vs Placebo	-7.6	(-12.0, -3.3)	0.0006
+L160: LS Mean=Least Squares Mean; CI=Confidence Interval
+L161: Source: Clinical Study Report 331-10-230 Table 11.4.1.1.1-1. (pg. 83) and CT-5.2.1.1 (pg. 239)
+L162: Source: Clinical Study Report 331-10-231 Table 11.4.1.1.1-1. (pg. 85) and CT-5.2.1.1 (pg. 243)
+L163: Results confirmed by the reviewer
+L164: ## **Key-secondary efficacy measure: change from baseline in CGI-S**
+L165: Change from baseline in CGI-S was analyzed by the same MMRM model as was used for the primary efficacy endpoint. Treatment comparisons are summarized in Table 10.
+L166: In study 231, Brexipiprazole 4mg/day and Brexipirazole 2mg/day were statistically superior to placebo with LS mean treatment differences of -0.38 (nominal p=0.0012) and -0.33 (nominal p=0.0056) respectively.
+L167: In study 230, the key-secondary endpoint was not tested under the specified multiple comparison procedure (MCP) because the MCP did not pass the gatekeeper- primary endpoint. The analysis of the key secondary endpoint were to be conducted only if both comparisons of 4 mg/day Brexipiprazole vs. placebo and 2 mg/day Brexipiprazole vs. placebo of the primary endpoint were statistically significant. Numerically, Brexipirazole 4mg/day and Brexipirazole 2mg/day groups had better improvement in CGI-S than placebo group with observed LS mean treatment differences of -0.38 (nominal p=0.002) and -0.19 (nominal p=0.127) respectively.
+L168: **Table 10. Mean Change from Baseline in CGI-S at Week 6 (MMRM)**
+L169: Pairwise Comparison	LS Mean Difference	95% CI	p-value
+Study 230	
+Brex. 2 mg vs Placebo	-0.19	(-0.42, 0.05)	0.127
+Brex. 4 mg vs Placebo	-0.38	(-0.62, -0.15)	0.002
+Study 231	
+Brex. 2 mg vs Placebo	-0.33	(-0.56, -0.10)	0.0056
+Brex. 4 mg vs Placebo	-0.38	(-0.61, -0.15)	0.0012
+L170: LS Mean=Least Squares Mean; CI=Confidence Interval
+L171: Source: Clinical Study Report 331-10-230 Table 11.4.1.2.1.1-1. (pg. 89) and CT-5.3.1.1 (pg. 273)
+L172: Source: Clinical Study Report 331-10-231 Table 11.4.1.2.1.1-1. (pg. 91) and CT-5.3.1.1 (pg. 281)
+L173: Results confirmed by the reviewer
+L174: ## 5.3 Conclusions and Recommendations
+L175: In the primary endpoint, the change from baseline in PANNS at week 6, Brexipiprazole 4mg was statistically superior to Placebo which was demonstrated in two positive phase 3 trials.
+L176: Brexipiprazole 2mg was statistically significantly better than Placebo in one Phase 3 trial, Study 231. The efficacy finding was not replicated in Study 230, although Brexipiprazole 2mg was numerically better than Placebo. An additional evidence (such as another positive clinical trial) may be required to include a claim on Brexipiprazole 2mg into the label.
+L177: Brexipiprazole 2mg and Brexipiprazole 4mg treatment groups also showed statistically significantly higher reduction (compared to placebo group) in CGI-S score in one Phase 3 trial (Study 231). To include efficacy claims pertaining to the improvement in CGI-S into the label, a replication by another positive trial may be required.
+L178: ## APPENDIX A. Subject Disposition
+L179: **Table 11. Study 230 Subject Disposition: Number of Patients by Treatment Group**
+L180: Subjects, N (%)	Brexipiprazole
+1 mg	Brexipiprazole
+2 mg	Brexipiprazole
+4 mg	Placebo
+Randomized	120 (100%)	186 (100%)	184 (100%)	184 (100%)
+Analyzed for Efficacy	117 (97.5%)	179 (96.2%)	181 (98.4%)	180 (97.8%)
+Completed	81 (67.5%)	129 (69.4%)	130 (70.7%)	118 (64.1%)
+Discontinued	39 (32.5%)	57 (30.6%)	54 (29.3%)	66 (35.9%)
+Lost to follow-up	0 (0%)	0 (0%)	0 (0%)	0 (0%)
+Adverse Events	11 (9.2%)	11 (5.9%)	13 (7.1%)	22 (12.0%)
+Subject met withdrawal criteria	0 (0%)	0 (0%)	2 (1.1%)	1 (0.5%)
+Investigator withdrew consent	2 (1.7%)	0 (0%)	0 (0%)	1 (0.5%)
+Subject withdrew consent	15 (12.5%)	25 (13.4%)	23 (12.5%)	21 (11.4%)
+Protocol Deviation	2 (1.7%)	1 (0.5%)	0 (0%)	0 (0%)
+Lack of Efficacy	9 (7.5%)	20 (10.8%)	16 (8.7%)	21 (11.4%)
+L181: N=number of patients; percentages are relative to the number of randomized patients;
+L182: Source: Clinical Study Report Figure 10.1-1 (pg. 75), Table 10.1-1 (pg. 76), and CT-1.1 (pg. 147)
+L183: **Table 12. Study 231 Subject Disposition: Number of Patients by Treatment Group**
+L184: Subjects, N (%)	Brexipiprazole
+0.25 mg	Brexipiprazole
+2 mg	Brexipiprazole
+4 mg	Placebo
+Randomized	90 (100%)	182 (100%)	180 (100%)	184 (100%)
+Analyzed for Efficacy	87 (96.7%)	180 (98.9%)	178 (98.9%)	178 (96.7%)
+Completed	56 (62.2%)	124 (68.1%)	121 (67.2%)	109 (59.2%)
+Discontinued	34 (37.8%)	58 (31.9%)	59 (32.8%)	75 (40.8%)
+Lost to follow-up	0 (0%)	0 (0%)	0 (0%)	1 (0.5%)
+Adverse Events	12 (13.3%)	15 (8.2%)	17 (9.4%)	32 (17.4%)
+Subject met withdrawal criteria	1 (1.1%)	0 (0%)	1 (0.6%)	0 (0%)
+Investigator withdrew subject	0 (0%)	1 (0.5%)	1 (0.6%)	3 (1.6%)
+Subject withdrew consent	13 (14.4%)	24 (13.2%)	31 (17.2%)	21 (11.4%)
+Protocol Deviation	1 (1.1%)	1 (0.5%)	2 (1.1%)	0 (0%)
+Lack of Efficacy	7 (7.8%)	17 (9.3%)	7 (3.9%)	18 (9.8%)
+L185: N=number of patients; percentages are relative to the number of randomized patients;
+L186: Source: Clinical Study Report Figure 10.1-1 (pg.78), Table 10.1-1 (pg. 78), and CT-1.1 (pg. 151).
+L187: ## APPENDIX B. Baseline and Demographic Characteristics
+L188: **Table 13. Study 230 Demographic and Baseline Characteristics by Treatment Group (Randomized Population)**
+L189: Study 230	Brexipiprazole	Placebo
+1 mg	2 mg	4 mg
+Age (years):
+Mean (SD)	39.1 (11.9)	36.9 (10.9)	38.6 (11.0)	39.3 (10.8)
+Gender	
+Male	77 (64.2%)	122 (65.6%)	113 (61.4%)	111 (60.3%)
+Female	43 (35.8%)	64 (34.4%)	71 (38.6%)	73 (39.7%)
+Race	
+White	75 (62.5%)	118 (63.4%)	104 (56.5%)	110 (59.8%)
+Black	26 (21.7%)	41 (22.0%)	50 (27.2%)	45 (24.5%)
+Other	19 (15.8%)	27 (14.6%)	30 (16.3%)	29 (15.7%)
+Weight (kg):
+Mean (SD)	77.7 (18.8)	76.4 (19.4)	79.1 (20.7)	77.6 (18.9)
+BMI: Mean (SD)	26.7 (5.8)	26.3 (6.1)	27.1 (6.6)	26.6 (5.6)
+L190: N=number of patients; Percentages are relative to the number of randomized patients; SD=Standard Deviation
+Source: Clinical Study Report Table 11.2.1 (pg. 79-80)
+L191: **Table 14. Study 231 Demographic and Baseline Characteristics by Treatment Group (Randomized Population)**
+L192: Study 231	Brexipiprazole	Placebo
+N=184
+0.25 mg
+N=90	2 mg
+N=182	4 mg
+N=180
+Age (years):
+Mean (SD)	40.5 (11.4)	39.6 (10.2)	40.8 (11.0)	39.7 (10.8)
+Gender	
+Male	61 (67.8%)	111 (61.0%)	111 (61.7%)	118 (64.1%)
+Female	29 (32.2%)	71 (39.0%)	69 (38.3%)	66 (35.9%)
+Race	
+White	63 (70%)	120 (65.9%)	119 (66.1%)	121 (65.8%)
+Black	20 (22.2%)	43 (23.6%)	42 (23.3%)	45 (24.5%)
+Other	7 (7.8%)	19 (10.4%)	19 (10.6%)	18 (9.7%)
+Weight (kg):
+Mean (SD)	78.0 (18.7)	80.0 (19.7)	80.1 (18.3)	77.8 (18.3)
+BMI: Mean (SD)	26.2 (6.3)	27.3 (5.9)	27.1 (5.8)	26.5 (5.4)
+L193: N=number of patients; Percentages are relative to the number of randomized patients; SD=Standard Deviation
+Source: Clinical Study Report Table 11.2.1 (pg. 81-82)
+L194: ## APPENDIX C. Mean Change from Baseline in PANSS Total Score by Week
+L195: Table 15. Mean Change from Baseline in PANSS by Week (MMRM)
+L196: Study 230	Brex. 1 mg	Brex. 2 mg	Brex. 4 mg	Placebo
+Week 1: Mean (SE)	-3.3 (0.8)	-4.3 (0.7)	-5.6 (0.7)*	-3.5 (0.7)
+Week 2: Mean (SE)	-7.6 (1.1)	-8.7 (0.9)	-8.4 (0.9)	-6.6 (0.9)
+Week 3: Mean (SE)	-11.6 (1.3)	-10.7 (1.1)	-12.6 (1.0)*	-9.0 (1.1)
+Week 4: Mean (SE)	-14.0 (1.5)	-13.1 (1.2)	-15.5 (1.2)*	-11.1 (1.2)
+Week 5: Mean (SE)	-14.5 (1.7)	-14.1 (1.4)	-17.3 (1.4)*	-11.9 (1.4)
+Week 6: Mean (SE)	-16.9 (1.9)	-16.6 (1.5)	-20.0 (1.5)*	-13.5 (1.5)
+Study 231	Brex. 0.25 mg	Brex. 2 mg	Brex. 4 mg	Placebo
+Week 1: Mean (SE)	-2.5 (0.8)	-4.9 (0.6)*	-4.4 (0.6)	-2.9 (0.6)
+Week 2: Mean (SE)	-3.3 (1.3)	-8.9 (0.9)*	-9.5 (0.9)*	-5.1 (1.0)
+Week 3: Mean (SE)	-5.7 (1.7)	-11.1 (1.2)*	-12.8 (1.2)*	-7.6 (1.2)
+Week 4: Mean (SE)	-8.9 (1.9)	-14.1 (1.3)*	-16.5 (1.3)*	-8.9 (1.4)
+Week 5: Mean (SE)	-11.9 (2.0)	-17.9 (1.4)*	-18.6 (1.4)*	-10.7 (1.5)
+Week 6: Mean (SE)	-14.9 (2.2)	-20.7 (1.5)*	-19.7 (1.5)*	-12.0 (1.6)
+L197: N=number of patients; SE=Standard Error;
+L198: *Significant difference from placebo at 0.05 (two-sided);
+L199: Source: Clinical Study Report 331-10-230 Table CT-5.2.1.1 (pg. 238-239)
+L200: Source: Clinical Study Report 331-10-231 Table CT-5.2.1.1 (pg. 242-243)
+L201: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L202: /s/
+L203: GEORGE KORDZAKHIA
+06/18/2015
+L204: PEILING YANG
+06/18/2015
+L205: HSIEN MING J HUNG
+06/25/2015
+L206: ## STATISTICS FILING CHECKLIST FOR A NEW NDA/BLA
+L207: NDA Number: 205-422/SN000 Applicant: Otsuka
+Original-2 (schizophrenia)
+L208: Stamp Date: 07/11/2014
+L209: Drug Name: Brexipiprazole NDA/BLA Type: Standard
+L210: On initial overview of the NDA/BLA application for RTF:
+L211: Content Parameter	Yes	No	NA	Comments
+1	Index is sufficient to locate necessary reports, tables, data, etc.	X	
+2	ISS, ISE, and complete study reports are available (including original protocols, subsequent amendments, etc.)	X	
+3	Safety and efficacy were investigated for gender, racial, and geriatric subgroups investigated (if applicable).	X	
+4	Data sets in EDR are accessible and do they conform to applicable guidances (e.g., existence of define.pdf file for data sets).	X
+L212: IS THE STATISTICAL SECTION OF THE APPLICATION FILEABLE? Yes
+L213: If the NDA/BLA is not fileable from the statistical perspective, state the reasons and provide comments to be sent to the Applicant.
+L214: Please identify and list any potential review issues to be forwarded to the Applicant for the 74-day letter.
+L215: Content Parameter (possible review concerns for 74-day letter)	Yes	No	NA	Comment
+Designs utilized are appropriate for the indications requested.	X	
+Endpoints and methods of analysis are specified in the protocols/statistical analysis plans.	X	
+Interim analyses (if present) were pre-specified in the protocol and appropriate adjustments in significance level made. DSMB meeting minutes and data are available.	X	
+Appropriate references for novel statistical methodology (if present) are included.	X	
+Safety data organized to permit analyses across clinical trials in the NDA/BLA.	X	
+Investigation of effect of dropouts on statistical analyses as described by applicant appears adequate.	X
+L216: ## STATISTICS FILING CHECKLIST FOR A NEW NDA/BLA
+L217: George Kordzakhia	08/29/2014
+Reviewing Statistician	Date
+Peiling Yang	08/29/2014
+Supervisor/Team Leader	Date
+L218: File name: Statistics Filing Checklist for a New NDA 206-302
+L219: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L220: /s/
+L221: GEORGE KORDZAKHIA
+08/29/2014
+L222: PEILING YANG
+09/01/2014
+L223: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L224: *APPLICATION NUMBER:*
+L225: **205422Orig1s000**
+L226: **STATISTICAL REVIEW(S)**
+L227: FDA Seal/Logo
+L228: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L229: ## STATISTICAL REVIEW AND EVALUATION
+L230: ## CLINICAL STUDIES
+L231: NDA Number:	205422/O-1
+Drug Name:	Brexpiprazole
+Indication(s):	Major depressive disorder (MDD)
+Applicant:	Otsuka Pharmaceutical Development & Commercialization, Inc.
+Date(s):	Submission date: 07/11/2014
+PDUFA Due Date: 07/11/2015
+Review Priority:	Standard Review
+Biometrics Division:	Division of Biometrics I, Office of Biostatistics
+Statistical Reviewer:	Xiang Ling, Ph.D.
+Concurring Reviewers:	Peiling Yang, Ph.D. Team Leader
+Jim Hung, Ph.D., Director
+Medical Division:	Division of Psychiatry Products, HFD-130
+Clinical Team:	Tiffany R Farchione, MD
+Project Manager:	Kofi Ansah, Pharm D.
+L232: ## Table of Contents
+L233: LIST OF TABLES	3
+LIST OF FIGURES	3
+1. EXECUTIVE SUMMARY	4
+2. INTRODUCTION	5
+2.1 OVERVIEW	5
+2.2 DATA SOURCES	5
+3. STATISTICAL EVALUATION	6
+3.1 DATA AND ANALYSIS QUALITY	6
+3.2 EVALUATION OF EFFICACY	6
+3.2.1 STUDY 331-10-227	6
+3.2.1.1 STUDY DESIGN AND STATISTICAL METHODOLOGY	7
+3.2.1.2 PATIENT DISPOSITION, DEMOGRAPHIC AND BASELINE CHARACTERISTICS	8
+3.2.1.3 RESULTS AND CONCLUSIONS	10
+3.2.2 STUDY 331-10-228	16
+3.2.2.1 STUDY DESIGN AND STATISTICAL METHODOLOGY	16
+3.2.2.2 PATIENT DISPOSITION, DEMOGRAPHIC AND BASELINE CHARACTERISTICS	16
+3.2.2.3 RESULTS AND CONCLUSIONS	18
+3.3 EVALUATION OF SAFETY	20
+4. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	20
+4.1 GENDER, AGE, RACE AND GEOGRAPHIC REGION	20
+4.2 OTHER SPECIAL/SUBGROUP POPULATIONS	22
+5. SUMMARY AND CONCLUSIONS	23
+5.1 STATISTICAL ISSUES AND COLLECTIVE EVIDENCE	23
+5.2 CONCLUSIONS AND RECOMMENDATIONS	24
+L234: ## LIST OF TABLES
+L235: Table 1. Overview of Brexpiprazole Clinical Program for the Treatment of MDD	5
+Table 2. Criteria for Incomplete Treatment Response in Phase A	6
+Table 3. Trial 227: Subject Disposition during Phase B (Randomized Sample)	9
+Table 4. Trial 227: Demographic and Psychiatric Evaluations at Baseline of Phase B (Randomized Sample)	10
+Table 5. Trial 227: Primary Analysis Result of the Primary Endpoint	11
+Table 6. Trial 227: Sponsor's Analysis Result for the Key Secondary Endpoint	11
+Table 7. Trial 227: Reviewer's Analysis Result for the Key Secondary Endpoint	12
+Table 8. Trial 227: Sponsor's Analysis on Per-Protocol Set	12
+Table 9. Trial 227: Reviewer's Exploratory Analysis of the Primary Endpoint	13
+Table 10. Trial 228: Subject Disposition during Phase B (Randomized Sample)	16
+Table 11. Trial 228: Demographic and Psychiatric Evaluations at Baseline of Phase B (Randomized Sample)	17
+Table 12. Trial 228: Key Efficacy Results - MMRM	18
+Table 13. Trial 228: Reviewer's Analysis Result for the Key Secondary Endpoint	18
+Table 14. Trial 228: Sponsor's Analysis on Per-Protocol Set	19
+Table 15. Trial 227: Analysis of the Primary Endpoint by Demographic Subgroups	21
+Table 16. Trial 228: Analysis of the Primary Endpoint by Demographic Subgroups	22
+Table 17. Trial 227: Analysis of the Primary Endpoint by Percent Improvement in MADRS Total Score at End of Phase A	22
+Table 18. Trial 228: Analysis of the Primary Endpoint by Percent Improvement in MADRS Total Score at End of Phase A	22
+Table 19. Summary of Key Efficacy Results	24
+L236: ## LIST OF FIGURES
+L237: Figure 1. Trial 227: Plots of Mean Change from Baseline Score in MADRS Total Score by Site	15
+Figure 2. Trial 228: Plots of Mean Change from Baseline Score in MADRS Total Score by Site	20
+L238: ## 1. EXECUTIVE SUMMARY
+L239: Trial 331-10-228 showed that the Brexpiprazole 2mg was superior to placebo for the primary endpoint of change in MADRS Total Score (LS mean difference=-3.12, p=0.0001), and for the key secondary endpoint of SDS Mean Score (LS mean difference=-0.45, p=0.0372 in the sponsor's analysis; and LS mean difference=-0.42, p=0.0460 based on this reviewer's analysis). For analysis of this secondary endpoint, only SDS values collected per schedule at Week 11 and 14 were included in the sponsor's analysis, while additional subjects who had *any* post-randomization SDS assessments were included in the reviewer's analysis. The efficacy was robust, supported by secondary/sensitivity analyses.
+L240: Trial 331-10-227 demonstrated a marginal treatment effect of Brexpiprazole 3mg. The LS mean difference in the change of MADRS Total Score was -1.52 (p=0.0327). The p-value did not meet the pre-specified threshold of 0.025 using the Hochberg method to correct for multiplicity. Sensitivity analyses related to the handling of missing data and inclusion/exclusion of factors in the primary analysis model yielded similar results. Although brexpiprazole 3mg showed greater improvement than the placebo group for the secondary endpoint of change in SDS Mean Score, with LS mean differences of -0.37 (unadjusted p=0.0474) in the sponsor's analysis and LS mean differences of -0.33 (unadjusted p=0.0937) in the reviewer's analysis, no statistical inference can be drawn from the secondary endpoint unless both brexpiprazole dose groups demonstrated superiority on the MADRS total score.
+L241: The analyses related to the new randomization criteria (reflected in protocol amendment 3) helped contributing evidence of efficacy for Brexpiprazole 3mg. While the study was ongoing, the sponsor amended the randomization criteria to refine incomplete responders as those subjects who did not meet response criteria over the entire course of Phase A, and not solely at the end of Phase A. About half (339) of the subjects were enrolled and 210 randomized before Amendment 3, and only 42 of them did not meet the revised criteria. In the analysis using the Efficacy Sample per Amendment 3 criteria, brexpiprazole 3mg achieved a greater mean change in MADRS Total Score than placebo (LS mean difference =-1.93, p=0.008). This was pre-specified as an analysis of the "per protocol set". Additional exploratory analyses also suggested that subjects who met the Amendment 3 criteria had larger treatment effect; however, the observed greater improvement seems to be mainly driven by those enrolled after the Amendment 3, compared with those enrolled before and still met the Amendment 3 criteria. It is unclear why the results differed between the two enrollment periods despite the same inclusion criteria applied.
+L242: Trial 331-10-227 showed a trend in favor of brexpiprazole 1mg, although not statistically significant. The LS mean difference was -1.19 (p=0.0925) for MADRS Total Score and -0.49[-0.44 (unadjusted p=0.0091[0.0272])] in the sponsor's analysis and this reviewer's analysis respectively for SDS Mean Score.
+L243: Overall, the treatment effect seems larger in Study 228 (brexpiprazole 2mg) than in Study 227 (brexpiprazole 1mg and 3mg), as summarized in Table 19. The majority of subjects were from the U.S. in both trials. It appears that patients in Europe had larger treatment effect than North
+L244: America in Study 227 and the US patients had larger treatment effect in Study 228. Those inconsistent trends between these two trials make it difficult to interpret the trial results. The overall benefit-risk assessment of brexpiprazole will play an important role in the decision for the approval.
+L245: ## 2. INTRODUCTION
+L246: ## 2.1 Overview
+L247: Brexpiprazole has been developed under Investigational New Drug (IND) application 103,958 as an adjunctive therapy to antidepressants for the treatment of major depressive disorder (MDD) in adult patients who had an inadequate response with antidepressant treatment (ADT). The MDD clinical efficacy program consisted of 4 trials designed with an 8-week Single-blind Prospective Treatment phase (Phase A) and a 6-week randomization phase (Phase B). In Phase A, subjects received an adequate course of ADT plus single-blind placebo. In Phase B, subjects with an inadequate response continued the ADT from Phase A were randomized to receive adjunctive brexpiprazole or adjunctive placebo. The flexible-dose, phase 2 trials were conducted in the United States (US); the fixed-dose (2mg/day in 331-10-228; 1 and 3mg/day in 331-10-227), phase 3 trials were conducted in the US, Canada, and Europe. The phase 2 trials failed and the phase 3 trials are the subject of this review.
+L248: **Table 1. Overview of Brexpiprazole Clinical Program for the Treatment of MDD**
+L249: Trial	331-10-228	331-10-227	331-08-211	331-09-222
+Trial Phase	3	2
+Design	Phase A: Single-blind placebo+ADT
+Phase B: Double-blind, placebo-controlled+ADT
+Treatment Duration	Phase A: 8 weeks
+Phase B: 6 weeks
+Dosing Schedule	Fixed	Flexible
+Phase B Treatment Groups (+ADT)	2 mg/day
+Placebo	1 mg/day
+3 mg/day
+Placebo	0.15 mg/day fixed
+0.5\pm0.25 mg/day
+1.5\pm0.5 mg/day
+Placebo	1 to 3 mg/day
+Placebo
+Randomization Ratio	1:1	1:1:1	1:2:2:2	1:1
+Primary Endpoint	Change in MADRS Total Score at Week 14
+Key Secondary Endpoint	Change in SDS Mean Score at Week 14
+L250: Source: module 2.7.3 page 14.
+L251: ## 2.2 Data Sources
+L252: The datasets are located at \\cdsesub1\evsprod\NDA205422\0000\m5\datasets, and the study reports are located at \\cdsesub1\evsprod\NDA205422\0000\m5\53-clin-stud-rep\535-rep-effic-safety-stud\mdd\.
+L253: ## 3. STATISTICAL EVALUATION
+L254: ## 3.1 Data and Analysis Quality
+L255: During the review process, this reviewer was able to trace how the primary endpoint was derived and reproduce the key analysis results.
+L256: ## 3.2 Evaluation of Efficacy
+L257: ## 3.2.1 Study 331-10-227
+L258: Study 331-10-227 (referred to as Study 227 hereafter) was initiated on 25 June 2011 and completed on 12 September 2013. The Statistical Analysis Plan (SAP) was dated 05 September 2013. While the study was ongoing, the sponsor amended the randomization criteria to refine incomplete responders as those subjects who did not meet response criteria over the entire course of Phase A, and not solely at the end of Phase A. The Protocol Amendment 3, reflecting this change, was dated 23 Mar 2012, and first implemented on 24 Apr 2012. By then, 210 subjects were already randomized into in Study 227.
+L259: Specifically, Protocol Amendment 3 added criteria based on the MADRS (Weeks 2, 4, 6, and 8) and CGI-I (Weeks 2, 4, and 6), in addition to the existing criteria for the HAM-D17 and CGI-I at Week 8, in order for a subject to be eligible for randomization into Phase B (Table 2). This amendment was based on learnings from the completed Phase 2 trials that inclusion of transient responders impacted the ability to detect an efficacy signal. In addition, the exact score-based criteria for randomization were included in a blinded addendum.
+L260: **Table 2. Criteria for Incomplete Treatment Response in Phase A**
+L261: Scale Score	Original Criteria	Per Amendment 3 Criteria
+HAM-D17 Total Score	<50% reduction between baseline and the Week 8 visit
+\ge 14 at Week 8
+<50% reduction between baseline and the Week 8 visit
+\ge 14 at Week 8
+
+CGI-I Score	\ge 3 at Week 8
+\ge 3 at Weeks 2, 4, 6, and 8
+
+MADRS Total Score	n/a	<50% reduction from baseline to Weeks 2, 4, 6, and 8
+L262: HAM-D17: Major Depressive Episode with a 17-item Hamilton Depression Rating Scale.
+L263: MADRS: Montgomery Asberg Depression Rating Scale.
+L264: CGI-I: Clinical Global Impression Improvement Scale.
+L265: ## 3.2.1.1 Study Design and Statistical Methodology
+L266: The study was a phase 3, multicenter, randomized, double-blind, placebo-controlled, fixed-dose trial designed to assess the safety and efficacy of brexpiprazole as adjunctive therapy to an assigned open-label ADT in depressed subjects who had demonstrated an incomplete response to prospective treatment with the same ADT. The study consisted a prospective 8-week Phase A and a 6-week randomization Phase B.
+L267: *Phase A (Single-blind Prospective Treatment Phase):* Subjects meeting entrance criteria who were experiencing a HAM-D17 Total Score of \ge 18 at screening and baseline were enrolled into the 8-week Prospective Treatment Phase. Subjects received single-blind placebo plus an investigator-determined, open-label ADT and attended visits at Weeks 1, 2, 3, 4, 6, and 8 during Phase A.
+L268: *Phase B (Double-blind Randomization Phase):* Subjects with an incomplete response in Phase A might be randomized at the end (Week 8 visit) of Phase A to placebo or study drug (1 and 3 mg/day) in a 1:1:1 ratio. The randomization was stratified by trial site. During Phase B, randomized subjects attended weekly visits at Weeks 9, 10, 11, 12, 13, and 14.
+L269: *The primary efficacy endpoint* is the change from the end of Phase A (Week 8 visit) to the end of Phase B (Week 14 visit) in Montgomery Asberg Depression Rating Scale (MADRS) Total Score. *The key secondary efficacy endpoint* is the change from end of Phase A (Week 8 visit) to end of Phase B (Week 14 visit) in Sheehan Disability Scale (SDS) Mean Score.
+L270: ## Analysis Sets
+L271: The primary analysis was performed on *Efficacy Sample* which included all randomized subjects who took at least one dose of trial medication in Phase B and who had both an end of Phase A and at least one post-randomization MADRS Total Score during Phase B.
+L272: *Efficacy Sample per Amendment 3 Criteria* included all subjects in the Efficacy Sample who met the revised randomization criteria for incomplete response as defined in Protocol Amendment 3. This sample was a pre-specified “per protocol set” for the phase 3 trials, as communicated in the correspondence with the FDA (IND 103, 958; Serial # 0148, dated 15 May 2012): “*The final analysis will be based on the intent-to-treat (ITT) principle to include all randomized subjects in the analysis as randomized. In addition, we will provide the analysis on the per-protocol set (PPS) analysis, which will exclude those subjects who do not meet the new response criteria as supportive analysis.*”
+L273: ## Efficacy analyses
+L274: The primary efficacy analyses for the primary and the key secondary endpoint were performed by fitting a mixed model repeated measures (MMRM) analysis with an unstructured variance covariance structure and ‘Kenward-Roger’ type of degree of freedom. The model included fixed class effect terms for treatment, study center, visit week, and an interaction term of treatment by visit week, and included the interaction term of baseline (end of Phase A, Week 8 visit) values of
+L275: the endpoint by visit week as covariates. Small centers were pooled according to the algorithm defined in the SAP.
+L276: In case there was a convergence problem with MMRM model with the unstructured (UN) variance covariance matrix, the following structures other than unstructured were to be used in order of 1) heterogeneous toeplitz (TOEPH), 2) heterogeneous autoregressive of order 1 (ARH1), and 3) heterogeneous compound symmetry (CSH) and the first (co)variance structure converging to the best fit would be used as the primary analysis. If a structured covariance had to be used, the empirical “sandwich” estimator of the standard error of the fixed effects parameters would be used to deal with possible model misspecification of the covariance matrix.
+L277: ## Sensitivity analysis
+L278: Pattern Mixture Models (PMM) based on Multiple Imputation (MI) with mixed missing data mechanisms were used to investigate the response profile of dropout patients by last dropout reason under missing not at random (MNAR) mechanism. In addition to the PMM based on MI, model-based MNAR methods such as the shared parameter model and random coefficient pattern mixture model were also performed to examine the impact of missing data.
+L279: Change from end of Phase A for the MADRS Total Score was evaluated using an analysis of covariance (ANCOVA) with end of Phase A value as covariate and treatment and, in last-observation-carried-forward (LOCF) analyses, study center as main effects. For the OC analyses, study center were not included in the model.
+L280: ## Multiplicity Adjustment
+L281: For study 227, Hochberg's procedure was used to adjust for the multiple comparisons of the two brexpiprazole groups vs placebo. The comparisons of the key secondary endpoints (SDS Mean Score) would be tested using another Hochberg procedure at an alpha level of 0.05 (two-sided) only if both null hypotheses for the primary endpoint (MADRS Total Score) were rejected at an alpha level of 0.05 (two-sided).
+L282: ## 3.2.1.2 Patient Disposition, Demographic and Baseline Characteristics
+L283: A total of 1539 subjects enrolled into Phase A and 677 subjects were subsequently randomized in Phase B. Overall, 94% of subjects in Phase B completed the 6-week double-blind treatment period. Two randomized subjects did not receive double-blind study drug and 6 subjects did not have both an end of Phase A value and at least 1 valid post-randomization value for MADRS Total Score, and thus were excluded from the Efficacy Sample. Most subjects in the Efficacy Sample (94%) fulfilled the revised randomization criteria and were included in the Efficacy Sample per Amendment 3 Criteria. Randomized Sample post-Amendment 3 included about half of the subjects in the Randomized Sample who had signed informed consent for Protocol Amendment 3 prior to enrolling in Phase A of the trial (Table 3).
+L284: **Table 3. Trial 227: Subject Disposition during Phase B (Randomized Sample)**
+L285: BREX 1mg
+(N=226)	BREX 3mg
+(N=230)	PLACEBO
+(N=221)	TOTAL
+(N=677)
+n	(%)§	n	(%)§	n	(%)§	n	(%)§
+NUMBER OF SUBJECTS:	
+RANDOMIZED	226	(100.0)	230	(100.0)	221	(100.0)	677	(100.0)
+COMPLETED	216	(95.6)	210	(91.3)	208	(94.1)	634	(93.6)
+DISCONTINUED	10	(4.4)	20	(8.7)	13	(5.9)	43	(6.4)
+RANDOMIZED SAMPLE PER
+AMENDMENT 3 CRITERIA	212	(93.8)	217	(94.3)	206	(93.2)	635	(93.8)
+RANDOMIZED SAMPLE
+POST-AMENDMENT 3	114	(50.4)	113	(49.1)	111	(50.2)	338	(49.9)
+ANALYZED FOR SAFETYa	226	(100.0)	229	(99.6)	220	(99.5)	675	(99.7)
+ANALYZED FOR EFFICACYa	225	(99.6)	226	(98.3)	218	(98.6)	669	(98.8)
+L286: Source: CSR Table CT-1.2.1.
+L287: The demographic and baseline characteristics were similar among the groups at the baseline of Phase B (Table 4). Overall, the mean age of randomized subjects was 45.6 years, and most were white (84.5%), female (67.9%). The country with the highest percentage of randomized subjects was the US (65%), followed by Germany (11%) and Ukraine (8%).
+L288: **Table 4. Trial 227: Demographic and Psychiatric Evaluations at Baseline of Phase B (Randomized Sample)**
+L289: Demographic Characteristica	1mg Brex+ADT (N=226)	3mg Brex+ADT (N=230)	Placebo+ADT (N=221)	Total (N=677)
+Age (yrs)
+n	226	230	221	677
+Mean (SD)	45.7 (11.6)	44.5 (11.2)	46.6 (11.0)	45.6 (11.3)
+Median	48	46	48	47
+Min, Max	19, 65	18, 64	18, 64	18, 65
+Gender [n (%)]
+n	226	230	221	677
+Male	68 (30.1)	74 (32.2)	75 (33.9)	217 (32.1)
+Female	158 (69.9)	156 (67.8)	146 (66.1)	460 (67.9)
+Race [n (%)]
+n	226	230	221	677
+White	183 (81.0)	201 (87.4)	188 (85.1)	572 (84.5)
+Black or African American	34 (15.0)	23 (10.0)	29 (13.1)	86 (12.7)
+American Indian or Alaska Native	1 (0.4)	3 (1.3)	1 (0.5)	5 (0.7)
+Asian	6 (2.7)	0 (0.0)	2 (0.9)	8 (1.2)
+Other	2 (0.9)	3 (1.3)	1 (0.5)	6 (0.9)
+MADRS Total Score
+n	226	230	221	677
+Mean (SD)	26.7 (5.6)	26.4 (5.2)	26.3 (5.3)	26.5 (5.4)
+Median	26	26	26	26
+Min, Max	16, 43	13, 44	15, 43	13, 44
+SDS Mean Score
+n	222	226	214	662
+Mean (SD)	5.9 (2.0)	5.7 (2.2)	5.6 (1.9)	5.8 (2.1)
+Median	5.7	5.7	5.7	5.7
+Min, Max	0.3, 10	0, 10	0, 10	0, 10
+L290: Source: CSR Table 11.2-1 and Table 11.2.2-1.
+L291: ## 3.2.1.3 Results and Conclusions
+L292: Key efficacy results from the primary and the key secondary endpoints are summarized in the Table 6. With regard to the primary endpoint, neither dose groups demonstrated superiority over placebo. Although the nominal p-value (0.0327) from the brexpiprazole 3mg group comparison was &lt;0.05 (the significance level typically used), it was not statistically significant after adjusting for multiplicity using the pre-specified Hochberg method. The LS mean differences for both brexpiprazole dose groups showed numerically greater improvement compared with the
+L293: placebo group (LS mean difference=-1.19 and -1.52 for brexpiprazole 1mg and 3mg respectively); however, the observed treatment effects were close for the two dose groups, and whether they were clinically relevant is deferred to the clinical review team.
+L294: **Table 5. Trial 227: Primary Analysis Result of the Primary Endpoint**
+L295: Variable	1mg Brex+ADT	3mg Brex+ADT	Placebo+ADT
+MADRS Total Score, MMRM	N=225	N=226	N=218
+Mean (SD) End of Phase A	26.69 (5.61)	26.31 (5.24)	26.23 (5.27)
+LS Mean (SE) Change At Week 14	-7.65 (0.50)	-7.98 (0.51)	-6.45 (0.51)
+LS Mean Difference (95% CI)	-1.19 (-2.58, 0.20)	-1.52 (-2.92, -0.13)	-
+P-value	0.0925	0.0327	-
+L296: Source: CSR Table 11.4.1.1.1-1, confirmed by this reviewer.
+L297: Because neither doses showed statistical significance for the primary endpoint according to the Hochberg procedure, the pre-specified hierarchical testing procedure was terminated after evaluation of the primary endpoint. The key secondary endpoint of mean change from baseline to Week 14 in SDS Mean Score was analyzed using MMRM model with heterogeneous toeplitz covariance structure (TOEPH), because the unstructured covariance structure did not converge in the sponsor's analysis. Both brexpiprazole dose groups showed greater improvement than the placebo group for the change in SDS Mean Score, with LS mean differences of -0.37 (unadjusted p=0.0474) and -0.49, (unadjusted p=0.0091) for brexpiprazole 3mg and 1mg, respectively. Despite the small p-values, it is questionable whether such small observed magnitudes of improvements were clinically relevant.
+L298: **Table 6. Trial 227: Sponsor's Analysis Result for the Key Secondary Endpoint**
+L299: Variable	1mg Brex+ADT	3mg Brex+ADT	Placebo+ADT
+SDS Mean Score, MMRM	N=218	N=212	N=208
+Mean (SD) End of Phase A	5.92 (1.95)	5.76 (2.26)	5.61 (1.93)
+LS Mean (SE) Change At Week 14	-1.33 (0.14)	-1.21 (0.13)	-0.84 (0.13)
+LS Mean Difference (95% CI)	-0.49 (-0.87, -0.12)	-0.37 (-0.73, -0.00)	-
+P-value	0.0091	0.0474	-
+L300: Source: CSR Table 11.4.1.2.1.1-1.
+L301: Unlike the weekly assessment of the primary endpoint MADRS, SDS assessment was only scheduled for Week 11 and Week 14. In the sponsor's MMRM analysis of SDS, the actual visit week for the SDS assessment was used. For example, the assessments of SDS for subject #6868 were taken place at Week 10 and Week 13 and therefore the Week 11 and Week 14 SDS values were set to missing. As a result this subject was excluded from the sponsor's analysis due to missing both Week 11 and Week 14 SDS values. This deviated from the analysis plan that analyses would be based on *Efficacy Sample* which included all randomized subjects who took at least one dose of trial medication in Phase B and who had both an end of Phase A and at least one post-randomization assessment.
+L302: To utilize the assessments that were not exactly on schedule, this reviewer conducted an analysis based on the intended visit week of the assessment. Additionally, assessments from the early termination visit were assigned as Week 11 assessments if they were collected at Week 11 or earlier; and as Week 14 assessments if collected after Week 11. With the inclusion of those
+L303: additional SDS assessment values, the model converged using the unstructured covariance structure. The treatment effects were smaller compared to the sponsor's analysis results, with LS mean differences of -0.33 (unadjusted p=0.0937) and -0.44, (unadjusted p=0.0272) for brexpiprazole 3mg and 1mg, respectively (Table 7).
+L304: **Table 7. Trial 227: Reviewer's Analysis Result for the Key Secondary Endpoint**
+L305: Variable	1mg Brex+ADT	3mg Brex+ADT	Placebo+ADT
+SDS Mean Score, MMRM	N=220	N=219	N=210
+LS Mean (SE) Change At Week 14	-1.30 (0.14)	-1.20 (0.14)	-0.86 (0.15)
+LS Mean Difference (95% CI)	-0.44 (-0.82, -0.05)	-0.33 (-0.72, 0.06)	-
+P-value	0.0272	0.0937	-
+L306: Source: FDA reviewer.
+L307: ## *Supportive Analyses*
+L308: ## Per Protocol Analysis
+L309: An additional analysis for the primary endpoint was performed on a subset of the Efficacy Sample which included those who met the revised criteria for incomplete response in Protocol Amendment 3 (ie, the Efficacy Sample per Amendment 3 Criteria [N=627], excluding 42 subjects not meeting Amendment 3 criteria). The resulting estimates of the treatment effect were greater (LS mean differences were -1.95 and -1.30, with p-values 0.0079 and 0.0737 for the brexpiprazole 3mg and 1mg groups respectively (Table 8).
+L310: **Table 8. Trial 227: Sponsor's Analysis on Per-Protocol Set**
+L311: Variable	1mg Brex+ADT	3mg Brex+ADT	Placebo+ADT
+MADRS Total Score, MMRM	N=211	N=213	N=203
+Mean (SD) End of Phase A	26.85 (5.61)	26.48 (5.29)	26.46 (5.20)
+LS Mean (SE) Change At Week 14	-7.64 (0.52)	-8.29 (0.53)	-6.33 (0.53)
+LS Mean Difference (95% CI)a	-1.30 (-2.73, 0.13)	-1.95 (-3.39, -0.51)	-
+P-valueb	0.0737	0.0079	-
+SDS Mean Score, MMRM	N=204	N=201	N=194
+Mean (SD) End of Phase A	5.95 (1.97)	5.81 (2.25)	5.62 (1.90)
+LS Mean (SE) Change At Week 14	-1.27 (0.15)	-1.26 (0.15)	-0.78 (0.15)
+LS Mean Difference (95% CI)a	-0.49 (-0.89, -0.09)	-0.48 (-0.88, -0.08)	-
+P-valueb	0.0158	0.0191	-
+L312: Source: CSR Table 11.4.1.1.2-1 and Table 11.4.1.2.1.2-1.
+L313: This reviewer's analysis results for the per-protocol set were similar but not exactly the same as the sponsor's results. The LS mean differences in MADRS score were -1.93 (p=0.0085) and -1.29 (p=0.0770) for brexpiprazole 3mg and 1mg respectively, favoring brexpiprazole groups compared with placebo. The LS mean differences in SDS mean score were -0.44 (p=0.0311) and -0.45 (p=0.0258) for brexpiprazole 3mg and 1mg respectively.
+L314: These analyses were regarded as "per protocol" analyses, as communicated in correspondence with the FDA (IND 103, 958; Serial # 0148, dated 15 May 2012): "*The final analysis will be*
+L315: based on the intent-to-treat (ITT) principle to include all randomized subjects in the analysis as randomized. In addition, we will provide the analysis on the per protocol set (PPS) analysis, which will exclude those subjects who do not meet the new response criteria as supportive analysis.” However, the sponsor used the “per protocol” analyses to support the efficacy claim in the NDA and presented those results in the proposed labelling. In this reviewer’s opinion, the Efficacy Sample should be used for the primary analysis as it preserves the randomization and is pre-specified as the primary efficacy set.
+L316: In an attempt to examine those subjects who met the new response criteria while preserving the randomization, this reviewer conducted an analysis on a subgroup of “Efficacy Sample per Amendment 3 and per Randomization”. This subgroup excluded subjects who did not meet the new response criteria together with those who were in the same randomization blocks. For example, the study was randomized in blocks of size 3 and subjects #7454, #7170 and #6509 were in the same block. Although only subject #7454 did not meet the Amendment 3 criteria, all 3 subjects were excluded from this analysis. In total, 89 (13%) subjects of the Efficacy Sample were excluded from this set. The result showed a larger treatment effect in MADRS than that of the primary analysis. The LS mean differences in MADRS score were -2.43 (p=0.0012) and -1.66 (p=0.0256) for brexpiprazole 3mg and 1mg respectively, favoring brexpiprazole groups compared with placebo (Table 9).
+L317: **Table 9. Trial 227: Reviewer’s Exploratory Analysis of the Primary Endpoint**
+L318: 1mg Brex+ADT
+N=225	3mg Brex+ADT
+N=226	Placebo+ADT
+N=218
+Efficacy sample per Amendment 3 criteria and per randomization
+N	195	196	189
+LS Mean (SE) Change At Week 14	-7.64 (0.53)	-8.41 (0.53)	-5.98 (0.54)
+LS Mean Difference (95% CI)	-1.66 (-3.12, -0.20)	-2.43 (-3.90, -0.97)	-
+P-value	0.0256	0.0012	-
+Efficacy sample post Amendment 3
+N	113	110	109
+LS Mean (SE) Change At Week 14	-7.91 (0.72)	-9.36 (0.74)	-6.33 (0.72)
+LS Mean Difference (95% CI)a	-1.58 (-3.53, 0.38)	-3.03 (-5.00, -1.05)	-
+P-valueb	0.1136	0.0028	-
+Enrolled before Amendment 3 but still met the amended inclusion criteria
+N	82	86	80
+LS Mean (SE) Change At Week 14	-7.66 (0.80)	-7.69 (0.80)	-5.91 (0.82)
+LS Mean Difference (95% CI)a	-1.75 (-3.96, 0.47)	-1.78 (-3.99, 0.43)	-
+P-valueb	0.1216	0.1137	-
+L319: Source: FDA reviewer.
+L320: Further subgroup analysis for the primary endpoint was carried out using a subset of subjects from the Efficacy Sample who had signed informed consent for Protocol Amendment 3 prior to enrolling in Phase A. This subset included about 50% of the Efficacy Sample (N=332). Based on this relatively small subgroup, the resulting LS mean difference was -3.03 (p=0.0028) for brexpiprazole 3mg group (middle block of Table 9). It appeared that the observed treatment
+L321: effects, particularly for the brexpiprazole 3mg group, were larger for subjects enrolled after Amendment 3, as compared to those enrolled before Amendment 3 but still met the amended inclusion criteria (bottom block of Table 9). It is unclear why the observed treatment effects differed between enrollment periods despite the same inclusion criteria.
+L322: See the next section “Adjustment for Covariates” for additional discussion regarding amendment 3 criteria.
+L323: ## Adjustments for Covariates
+L324: As the sponsor stated that patients who did not meet the revised criteria for incomplete response in Protocol Amendment 3 “*were fundamentally dissimilar to those with a persistent inadequate response during this phase*,” this reviewer performed the primary MMRM analysis with the additional variable “amend3” (meeting amendment 3 criteria, yes vs no). The result was almost identical with that of the primary analysis. The p-value for the factor “amend3” was 0.34 suggesting that this factor does not significantly impact the analysis results.
+L325: In the primary analysis, study center was included in the model and sites that did not have at least 1 evaluable subject in each treatment group in Phase B were pooled as described in the SAP. This reviewer conducted an analysis using the same MMRM model without site as a factor. The result was similar to that of the primary analysis (LS mean difference=-1.44 and -1.22, p=0.0422 and 0.0848 for the brexpiprazole 3mg and 1mg groups respectively).
+L326: ## Handling of Dropouts or Missing Data
+L327: As the incidence of subjects who discontinued early from the trial was less than 10%, the issue of missing values was limited. One of the pre-specified sensitivity analyses for missing data was ANCOVA based on the LOCF dataset. This was the original primary analysis prior to protocol amendment 3. The analysis result was consistent with the primary analysis. The LS mean difference was -1.47 with p=0.0307 for the brexpiprazole 3mg group. Other pre-specified sensitivity analyses including Pattern Mixture Models based on Multiple Imputation, the shared parameter model and random coefficient pattern mixture model, ANCOVA based on observed data all yielded similar results to the primary analysis, with p-value ranging between 0.022 and 0.032 for the brexpiprazole 3mg group.
+L328: ## Post-hoc Analyses Regarding Violation of Normality Assumption
+L329: The SAP did not discuss checking the normality assumption of the MMRM model for the primary analysis nor specify any alternative analyses in case of violation of normality. A Shapiro-Wilk normality test was conducted by the sponsor which suggested violation of the normality assumption (p=0.0021). The sponsor presented post-hoc sensitivity analyses including nonparametric (The van Elteren test conducted after MI and applied to the missing data [MI van Elteren], LOCF van Elteren, MI robust regression) and semiparametric analysis (generalized estimating equations [GEE] and weighted GEE [WGEE]) to check the impact of violation of normality assumption. The results in general favored the brexpiprazole 3mg group with p-value &lt;0.025. However, those analyses provided limited support for the efficacy of brexpiprazole because of the potential overall type I error inflation due to the model selection and model fitting
+L330: on the same dataset. In addition, a nonparametric test using Wilcoxon Rank Sum test on the LOCF data yielded similar result with that of the primary analysis, with a p-value of 0.0397 for the brexpiprazole 3mg group.
+L331: ## Analyses by Site
+L332: This reviewer created plots of by-site raw mean of the primary efficacy endpoint against number of subjects of each site. Last observed values were used to calculate the raw means for each study site. Most sites enrolled a small number of subjects. No single site affected the primary efficacy result such that excluding this site from the analysis would change the study conclusion.
+L333: **Figure 1. Trial 227: Plots of Mean Change from Baseline Score in MADRS Total Score by Site**
+L334: Note: The dotted line indicates mean of by-site averages of change from baseline in MADRS total score.
+L335: Source: FDA reviewer.
+L336: ## 3.2.2 Study 331-10-228
+L337: Study 331-10-228 (referred to as Study 228 hereafter) was initiated on 25 July 2011 and completed on 02 May 2013. The SAP was dated 10 May 2013. At the time of Amendment 3 (see description for Study 227 regarding details of Amendment 3), 153 subjects were already randomized.
+L338: ## 3.2.2.1 Study Design and Statistical Methodology
+L339: The study design (including efficacy endpoints) and statistical methodology were similar to Study 227, except that there was only one dose (2mg/day) of the study drug. For Study 228, the primary endpoint (change from baseline in MADRS total score) and the key secondary endpoint (change from baseline in SDS mean score) were tested sequentially at 0.05(two-sided).
+L340: ## 3.2.2.2 Patient Disposition, Demographic and Baseline Characteristics
+L341: A total of 826 subjects enrolled into Phase A and 379 subjects were subsequently randomized in Phase B. Overall, 92.9% of subjects in Phase B completed the 6-week double-blind treatment period. One subject did not have post-randomization value for MADRS Total Score, and thus was excluded from the Efficacy Sample. Most subjects in the Efficacy Sample (93%) fulfilled the revised randomization criteria and were included in the Efficacy Sample per Amendment 3 Criteria (Table 10).
+L342: **Table 10. Trial 228: Subject Disposition during Phase B (Randomized Sample)**
+L343: NUMBER OF SUBJECTS:	BREX 2mg
+(N=188)	PLACEBO
+(N=191)	TOTAL
+(N=379)
+n	(%)	n	(%)	n	(%)
+RANDOMIZED	188	(100.0)	191	(100.0)	379	(100.0)
+COMPLETED	174	(92.6)	178	(93.2)	352	(92.9)
+DISCONTINUED	14	(7.4)	13	(6.8)	27	(7.1)
+RANDOMIZED SAMPLE Per
+AMENDMENT 3 CRITERIA	176	(93.6)	178	(93.2)	354	(93.4)
+RANDOMIZED SAMPLE
+POST-AMENDMENT 3	63	(33.4)	68	(35.6)	131	(34.6)
+ANALYZED FOR SAFETY	188	(100.0)	191	(100.0)	379	(100.0)
+ANALYZED FOR EFFICACY	187	(99.5)	191	(100.0)	378	(99.7)
+L344: Source: FDA reviewer.
+L345: The demographic and baseline characteristics were similar between the brexpiprazole and placebo groups at the baseline of Phase B (Table 11). Overall, the mean age of randomized
+L346: subjects was 44.6 years, and most were white (86.8%), female (70.4%). The country with the highest percentage of randomized subjects was the US (67%), followed by France (11%) and Poland (11%).
+L347: **Table 11. Trial 228: Demographic and Psychiatric Evaluations at Baseline of Phase B (Randomized Sample)**
+L348: Demographic Characteristic	2mg Brex+ADT
+(N=188)	Placebo+ADT
+(N=191)	Total
+(N=379)
+Age (yrs)	
+n	188	191	379
+Mean (SD)	44.1 (11.6)	45.2 (11.3)	44.6 (11.5)
+Median	44	46	46
+Min, Max	18, 65	18, 65	18, 65
+Gender [n (%)]	
+n	188	191	379
+Male	58 (30.9)	54 (28.3)	112 (29.6)
+Female	130 (69.1)	137 (71.7)	267 (70.4)
+Race [n (%)]	
+n	188	191	379
+White	163 (86.7)	166 (86.9)	329 (86.8)
+Black or African American	19 (10.1)	22 (11.5)	41 (10.8)
+American Indian or Alaska Native	1 (0.5)	0 (0.0)	1 (0.3)
+Asian	1 (0.5)	0 (0.0)	1 (0.3)
+Other	3 (1.6)	2 (1.0)	5 (1.3)
+Unknown	1 (0.5)	1 (0.5)	2 (0.5)
+MADRS Total Score	
+n	188	191	379
+Mean (SD)	26.6 (5.8)	27.1 (5.6)	26.9 (5.7)
+Median	26	26	26
+Min, Max	12, 42	13, 44	12, 44
+SDS Mean Score	
+n	186	190	376
+Mean (SD)	6 (2.0)	6.3 (2.1)	6.2 (2.1)
+Median	6	6.5	6
+Min, Max	0.7, 10	0, 10	0, 10
+L349: Source: CSR Table 11.2-1 and Table 11.2.2-1.
+L350: ## 3.2.2.3 Results and Conclusions
+L351: The Brexpiprazole 2mg was superior to placebo for the primary endpoint of mean change from baseline to Week 14 in MADRS Total Score (LS mean difference=-3.12, p=0.0001). Following a hierarchical testing procedure, brexpiprazole was superior to placebo for the key secondary endpoint of mean change from baseline to Week 14 in SDS Mean Score (LS mean difference=-0.45, p=0.0372).
+L352: **Table 12. Trial 228: Key Efficacy Results - MMRM**
+L353: Endpoint Parameter	2 mg/day Brex +ADT	Placebo +ADT
+Primary Efficacy Endpoint
+MADRS Total Score, MMRM by Randomized Treatment Group (Efficacy Sample - Primary Analysis)	N=187	N=191
+Mean (SD) end of Phase A (Week 8)	26.61 (5.79)	27.14 (5.60)
+LS mean change (SE) at end of Phase B (Week 14)	-8.27 (0.61)	-5.15 (0.60)
+LS mean differencea (95% CI)	-3.12 (-4.70, -1.54)	-
+P-valueb	0.0001	-
+Key Secondary Efficacy Endpoint
+SDS Mean Score (mean of 3 individual item scores), MMRM (Efficacy Sample)	N=179	N=181
+Mean (SD) end of Phase A (Week 8)	5.97 (1.95)	6.32 (2.16)
+LS mean change (SE) at end of Phase B (Week 14)	-1.35 (0.17)	-0.91 (0.17)
+LS mean differencea (95% CI)	-0.45 (-0.86, -0.03)	-
+P-valueb	0.0372	-
+L354: Source: CSR Table 11.4.1.1.1-1 and Table 11.4.1.2.1.1-1, confirmed by this reviewer.
+L355: This reviewer's analysis of the key secondary endpoint using intended visits (see discussion in study 227) yielded slightly smaller treatment effect (Table 13).
+L356: **Table 13. Trial 228: Reviewer's Analysis Result for the Key Secondary Endpoint**
+L357: Variable	2mg Brex+ADT	Placebo+ADT
+SDS Mean Score, MMRM	N=183	N=188
+LS Mean (SE) Change At Week 14	-1.33 (0.17)	-0.92 (0.16)
+LS Mean Difference (95% CI)	-0.42 (-0.83, -0.01)	-
+P-value	0.0460	-
+L358: Source: FDA reviewer.
+L359: ## Supportive Analyses
+L360: ## Per Protocol Analysis
+L361: The “per protocol” analysis for the primary endpoint on the Efficacy Sample per Amendment 3 Criteria excluded 25 subjects who did not meet Amendment 3 criteria. Exclusion of these subjects did not affect the primary and key secondary efficacy results. The sponsor's results are in Table 14 and the reviewer's results are in Table 19.
+L362: **Table 14. Trial 228: Sponsor's Analysis on Per-Protocol Set**
+L363: Variable	2mg Brex+ADT	Placebo+ADT
+MADRS Total Score, MMRM	N=175	N=178
+Mean (SD) End of Phase A	26.87 (5.71)	27.32 (5.64)
+LS Mean (SE) Change At Week 14	-8.36 (0.64)	-5.15 (0.63)
+LS Mean Difference (95% CD)a	-3.21 (-4.87, -1.54)	-
+P-valueb	0.0002	-
+SDS Mean Score, MMRM	N=167	N=170
+Mean (SD) End of Phase A	6.03 (1.94)	6.34 (2.15)
+LS Mean (SE) Change At Week 14	-1.35 (0.17)	-0.89 (0.17)
+LS Mean Difference (95% CD)a	-0.46 (-0.88, -0.03)	-
+P-valueb	0.0349	-
+L364: Source: CSR Table 11.4.1.1.2-1 and Table 11.4.1.2.1.2-1.
+L365: A post-hoc analysis for the primary endpoint was carried out using a subset of subjects from the Efficacy Sample who had signed informed consent for Protocol Amendment 3 prior to enrolling in Phase A (the Efficacy Sample post-Amendment 3). This subset included 34.4% of the Efficacy Sample (N=130). The resulting LS mean difference was -3.14 (p=0.0262), similar to the primary analysis and per-protocol analysis.
+L366: ## Adjustments for Covariates
+L367: This reviewer conducted analyses using the primary MMRM model without site as a factor, or with additional factor of “Amend3” (meeting amendment 3 criteria, yes vs no). The results supported the primary analysis.
+L368: ## Handling of Dropouts or Missing Data
+L369: As a result of the low dropout rate in this trial, sensitivity analyses based on missing not at random and ANCOVA based on LOCF and observed data all yielded similar results to the primary analysis.
+L370: ## Post-hoc Analyses Regarding Violation of Normality Assumption
+L371: The Shapiro-Wilk normality test was statistically significant (p=0.0248). The sponsor conducted post-hoc sensitivity analyses to check the impact of violation of normality assumption including nonparametric and semi-parametric analysis (Wilcoxon Rank Sum test on the LOCF data, MI van Elteren, LOCF van Elteren, MI robust regression, GEE, and WGEE). The results all supported the primary analysis.
+L372: ## Analyses by Site
+L373: This reviewer created plots of by-site raw mean of the primary efficacy endpoint against number of subjects of each site. Last observed values were used to calculate the raw means for each study site. Most sites enrolled a small number of subjects. No single site affected the primary efficacy result such that excluding this site from the analysis would change the study conclusion.
+L374: **Figure 2. Trial 228: Plots of Mean Change from Baseline Score in MADRS Total Score by Site**
+L375: Note: The dotted line indicates mean of by-site averages of change from baseline in MADRS total score.
+L376: Source: FDA reviewer.
+L377: ## 3.3 Evaluation of Safety
+L378: Please see the clinical review.
+L379: ## 4. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L380: ## 4.1 Gender, Age, Race and Geographic Region
+L381: Results of subgroup analyses are in Table 15 and Table 16. Overall, there was a trend in favor of brexpiprazole in most of the subgroups, except for some subgroups with small sample size. It appears that patients in Europe had larger treatment effect than North America in Study 227 and the US patients had larger treatment effect in Study 228.
+L382: Table 15. Trial 227: Analysis of the Primary Endpoint by Demographic Subgroups
+L383: 1mg Brex+ADT	3mg Brex+ADT
+Gender, Female, N	158	155
+LS Mean Difference (95% CI)	-0.81 (-2.53, 0.91)	-1.30 (-3.03, 0.43)
+P-value	0.3542	0.1414
+Gender, Male, N	67	71
+LS Mean Difference (95% CI)	-1.90 (-4.28, 0.49)	-1.54 (-3.91, 0.83)
+P-value	0.1182	0.2021
+Race, White, N	182	198
+LS Mean Difference (95% CI)	-1.63 (-3.14, -0.13)	-1.31 (-2.79, 0.17)
+P-value	0.0338	0.0818
+Race, All other races, N	43	28
+LS Mean Difference (95% CI)	0.15 (-3.47, 3.76)	-2.23 (-6.30, 1.84)
+P-value	0.9349	0.2796
+Age, <55 years, N	166	175
+LS Mean Difference (95% CI)	-1.21 (-2.82, 0.41)	-1.41 (-3.01, 0.19)
+P-value	0.1422	0.0846
+Age, ≥55 years, N	59	51
+LS Mean Difference (95% CI)	-1.37 (-4.13, 1.38)	-1.72 (-4.57, 1.12)
+P-value	0.3262	0.2340
+Region, North America, N	152	151
+LS Mean Difference (95% CI)	-0.53 (-2.42, 1.36)	-1.03 (-2.93, 0.87)
+P-value	0.5799	0.2854
+Region, Europe, N	73	75
+LS Mean Difference (95% CI)	-2.63 (-4.31, -0.96)	-2.28 (-3.95, -0.61)
+P-value	0.0022	0.0078
+Country, US, N	148	145
+LS Mean Difference (95% CI)	-0.75 (-2.67, 1.16)	-1.38 (-3.31, 0.55)
+P-value	0.4391	0.1611
+Country, non-US, N	77	81
+LS Mean Difference (95% CI)	-2.14 (-3.89, -0.39)	-1.59 (-3.32, 0.14)
+P-value	0.0169	0.0719
+L384: Source: CSR Table 11.4.2.8-1, confirmed by the reviewer.
+L385: **Table 16. Trial 228: Analysis of the Primary Endpoint by Demographic Subgroups**
+L386: Subgroup	2mg Brex
+N	Treatment Comparison Versus Placebo
+LS Mean Difference (95% CI)
+Gender, Male	58	-4.22 (-7.37, -1.07)
+Gender, Female	129	-2.30 (-4.11, -0.50)
+Race, White	163	-2.89 (-4.57, -1.21)
+Race, All Other Races	24	-3.97 (-8.59, 0.66)
+Age, <55 years	145	-3.52 (-5.35, -1.70)
+Age, Age ≥55 years	42	-1.65 (-4.94, 1.64)
+Region, North America	138	-3.64 (-5.60, -1.69)
+Region, Europe	49	-1.04 (-3.35, 1.27)
+Country, US	124	-4.15 (-6.24, -2.07)
+Country, Non-US	63	-0.74 (-2.97, 1.50)
+L387: Source: FDA reviewer.
+L388: ## 4.2 Other Special/Subgroup Populations
+L389: Subgroup analyses based on the degree of improvement during Phase A (&lt;25% improvement and ≥25% improvement) were prospectively defined and additional subgroups (no improvement versus &gt;0% improvement) were requested post-hoc. Only the result for brexpiprazole 3mg group was presented for Study 227. The treatment effect seemed larger in the subgroup of patients with less improvement during Phase A.
+L390: **Table 17. Trial 227: Analysis of the Primary Endpoint by Percent Improvement in MADRS Total Score at End of Phase A**
+L391: Subgroup	3mg Brex
+N	Treatment Comparison Versus Placebo
+LS Mean Difference (95% CI)
+≥ 25% Improvement	46	1.31 (-1.28, 3.89)
+<25 Improvement	162	-2.24 (-3.86, -0.61)
+>0% Improvement	170	-1.18 (-2.71, 0.36)
+≤0 % Improvement	38	-2.54 (-5.88, 0.79)
+L392: Source: sponsor's NDA 2.7.3 table 2.7.3.3.3.6-1 and table 2.7.3.3.3.6-2.
+L393: **Table 18. Trial 228: Analysis of the Primary Endpoint by Percent Improvement in MADRS Total Score at End of Phase A**
+L394: Subgroup	2mg Brex
+N	Treatment Comparison Versus Placebo
+LS Mean Difference (95% CI)
+≥ 25% Improvement	42	-2.01 (-5.24, 1.21)
+<25 Improvement	131	-3.28 (-5.10, -1.45)
+>0% Improvement	137	-2.48 (-4.21, -0.75)
+≤0 % Improvement	36	-4.69 (-8.49, -0.88)
+L395: Source: sponsor's NDA 2.7.3 table 2.7.3.3.3.6-1 and table 2.7.3.3.3.6-2.
+L396: ## 5. SUMMARY AND CONCLUSIONS
+L397: ## 5.1 Statistical Issues and Collective Evidence
+L398: Trial 331-10-228 showed that the Brexpiprazole 2mg was superior to placebo for the primary endpoint of change in MADRS Total Score (LS mean difference=-3.12, p=0.0001), and for the key secondary endpoint of SDS Mean Score (LS mean difference=-0.45, p=0.0372 in the sponsor's analysis; and LS mean difference=-0.42, p=0.0460 based on this reviewer's analysis). For analysis of the secondary endpoint of change in SDS Mean Score, only SDS values collected per schedule at Week 11 and 14 were included in the sponsor's analysis, while additional subjects who had *any* post-randomization SDS assessments were included in the reviewer's analysis. The efficacy was robust, supported by secondary/sensitivity analyses.
+L399: Trial 331-10-227 demonstrated a marginal treatment effect of Brexpiprazole 3mg. The LS mean difference in the change of MADRS Total Score was -1.52 (p=0.0327). The p-value did not meet the pre-specified threshold of 0.025 using the Hochberg method to correct for multiplicity. Sensitivity analyses related to the handling of missing data and inclusion/exclusion of factors in the primary analysis model yielded similar results. Although the brexpiprazole 3mg showed greater improvement than the placebo group for the secondary endpoint of change in SDS Mean Score, with LS mean differences of -0.37 (unadjusted p=0.0474) in the sponsor's analysis and LS mean differences of -0.33 (unadjusted p=0.0937) in the reviewer's analysis, no statistical inference can be drawn from the secondary endpoint unless both brexpiprazole dose groups demonstrated superiority on the MADRS total score.
+L400: The analyses related to the new randomization criteria (reflected in protocol amendment 3) helped contributing evidence of efficacy for Brexpiprazole 3mg. While the study was ongoing, the sponsor amended the randomization criteria to refine incomplete responders as those subjects who did not meet response criteria over the entire course of Phase A, and not solely at the end of Phase A. About half (339) of the subjects were enrolled and 210 randomized before Amendment 3, and only 42 of them did not meet the revised criteria. In the analysis using the Efficacy Sample per Amendment 3 criteria, brexpiprazole 3mg achieved a greater mean change in MADRS Total Score than placebo (LS mean difference =-1.93, p=0.008). This was pre-specified as an analysis of the "per protocol set". Additional exploratory analyses also suggested that subjects who met the Amendment 3 criteria had larger treatment effect; however, the observed greater improvement seems to be mainly driven by those enrolled after the Amendment 3, compared with those enrolled before and still met the Amendment 3 criteria. It is unclear why the results differed between the two enrollment periods despite the same inclusion criteria applied.
+L401: Trial 331-10-227 showed a trend in favor of brexpiprazole 1mg, although not statistically significant. The LS mean difference was -1.19 (p=0.0925) for MADRS Total Score and -0.49[-0.44[(unadjusted p=0.0091[0.0272] in the sponsor's analysis and this reviewer's analysis respectively) for SDS Mean Score.
+L402: Overall, the treatment effect seems larger in Study 228 (brexpiprazole 2mg) than in Study 227 (brexpiprazole 1mg and 3mg), as summarized in Table 19. The majority of subjects were from the U.S. in both trials. It appears that Europe had a larger treatment effect than North America in Study 227 and US had a larger treatment effect in Study 228. Those inconsistent trends between these two trials make it difficult to interpret the trial results.
+L403: **Table 19. Summary of Key Efficacy Results**
+L404: Trial	Brex Dose (+ADT)	LS Mean Difference Versus Placebo (P-value)
+N	Efficacy Sample	N	Efficacy Sample per Amendment 3 Criteria
+Primary Efficacy Endpoint (MADRS Total Score):
+331-10-228	2 mg/day	187	-3.12 (0.0001)	175	-3.21 (0.0002)
+1 mg/day	225	-1.19 (0.0925)	211	-1.29 (0.0770)
+3 mg/day	226	-1.52 (0.0327)	213	-1.93 (0.0085)
+Key Secondary Efficacy Endpoint (SDS Mean Score)
+331-10-227	2 mg/day	183	-0.42 (0.0460)	171	-0.43 (0.0442)
+1 mg/day	220	-0.44 (0.0272)	206	-0.45 (0.0258)
+3 mg/day	219	-0.33 (0.0937)	208	-0.44 (0.0311)
+L405: Source: FDA reviewer.
+L406: ## 5.2 Conclusions and Recommendations
+L407: There is some evidence that brexpiprazole is efficacious in treating major depressive disorder in adult patients who had an inadequate response with antidepressant treatment. Study 228 showed efficacy for Brexpiprazole 2mg. Study 227 seemed to suggest a modest treatment effect for brexpiprazole 3mg; however, it was not statistically significant after adjusting for multiplicity using the pre-specified Hochberg method. Sensitivity analyses for brexpiprazole 3mg seemed to suggest that subjects who met the Amendment 3 criteria had larger treatment effect. However, the observed greater improvement seemed to be mainly driven by those enrolled after Amendment 3, compared with those who were enrolled before and still met the Amendment 3 criteria. Additionally, it appeared that Europe had a larger treatment effect than North America in Study 227 and US had a larger treatment effect in Study 228. The observed differences between the two enrollment periods as well as the inconsistent trends between these two trials make it difficult to interpret the trial results. The overall benefit-risk assessment of brexpiprazole will play an important role in the decision for the approval.
+L408: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L409: /s/
+L410: XIANG LING
+L411: 03/16/2015
+L412: PEILING YANG
+L413: 03/16/2015
+L414: I concur with the primary review.
+L415: HSIEN MING J HUNG
+L416: 03/16/2015
+L417: FDA seal/logo for Center for Drug Evaluation and Research
+L418: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Science
+Office of Biostatistics
+L419: ## Statistical Review and Evaluation
+L420: ## CARCINOGENICITY STUDIES
+L421: IND/NDA Number:	NDA 205-422
+Drug Name:	OPC-331 (Brexpiprazole)
+Indication(s):	104 Week Rat and Mouse Carcinogenicity Studies
+Applicant:	Sponsor: Otsuka Pharmaceutical Co. Ltd.
+Tokushima Research Institute, 463-10 Kagasuno, Kawauchi-cho,
+Tokushima-shi, Tokushima 771-0192, Japan
+Documents Reviewed:	Electronic submission: Submitted on July 11, 2014
+Electronic data: Submitted on August 7, 2014
+Review Priority:	Standard
+Biometrics Division:	Division of Biometrics -6
+Statistical Reviewer:	Mohammad Atiar Rahman, Ph.D.
+Concurring Reviewer:	Karl Lin, Ph.D.
+Medical Division:	Division of Psychiatry Products
+Reviewing Pharmacologist:	Violetta Klimek, Ph.D.
+Project Manager:	Kofi Ansah
+Keywords:	Carcinogenicity, Dose response
+L422: ## Table of Contents
+L423: 1	Background	3
+2	Rat Study	3
+2.1	Sponsor's analyses	3
+2.1.1	Survival analysis	3
+Sponsor's findings	4
+2.1.2	Tumor data analysis	4
+Adjustment for multiple testing	4
+Sponsor's findings	4
+2.2	Reviewer's analyses	5
+2.2.1	Survival analysis	5
+Reviewer's findings	5
+2.2.2	Tumor data analysis	5
+Multiple testing adjustment	6
+Reviewer's findings	6
+Analysis using the negative control	7
+3	Mouse Study	7
+3.1	Sponsor's analyses	7
+3.1.1	Survival analysis	8
+Sponsor's findings	8
+3.1.2	Tumor data analysis	8
+Adjustment for multiple testing	8
+Sponsor's findings	8
+3.2	Reviewer's analyses	8
+3.2.1	Survival analysis	9
+Reviewer's findings	9
+3.2.2	Tumor data analysis	9
+Reviewer's findings	9
+Analysis using the negative control	10
+4	Summary	10
+5	Appendix	13
+6	References	40
+L424: ## 1. Background
+L425: In this submission the sponsor included reports of two animal carcinogenicity studies, one in rats and one in mice. These studies were intended to assess the carcinogenic potential of OPC-331 (Brexpiprazole) when administered orally through gavage at appropriate drug levels for 104 weeks, however due to high mortalities, the male and female mouse studies were terminated on Week 91 and Week 99, respectively. Results of this review have been discussed with the reviewing pharmacologist Dr. Klimek.
+L426: In this review the phrase "dose response relationship" refers to the linear component of the effect of treatment, and not necessarily to a strictly increasing or decreasing mortality or tumor incidence rate as dose increases.
+L427: ## 2. Rat Study
+L428: Two separate experiments were conducted, one in male and one in female rats. In each of these two experiments there were three treated groups, one vehicle control group and one negative control group. Three hundred CrI:CD(SD) SPF rats of each sex were assigned randomly to the treated and control groups in equal size of 60 rats per group. The dose levels for treated groups were 1, 3 and 10 mg/kg/day in male, and 3, 10 and 30 mg/kg/day in female rats. In this review these dose groups are referred to as the low, medium, and high dose groups, respectively. The rats in vehicle control group received the vehicle (5 w/v% Arabic gum solution), while the rats in negative control group received water for injection through gavage.
+L429: During the administration period all rats were observed regularly for clinical signs such as external appearance, nutritional condition, posture, behavior, and abnormality of feces. The rats were also observed daily for morbidity and mortality. In addition, palpation was done once a week to detect superficial masses.
+L430: Body weights of all rats were measured once before the beginning of the study and thereafter once a week up to Week 13, every 4 weeks up to Week 101, and in Week 104.
+L431: ## 2.1. Sponsor's analyses
+L432: For the primary analyses of both mortality and tumor incidences the sponsor used the data from treated groups along with the data from negative control group. The sponsor then compared the mortality and tumor incidence rates in the vehicle control group with those in the negative control group.
+L433: ## 2.1.1. Survival analysis
+L434: The sponsor estimated the proportions of mortalities in all five treatment groups using the Kaplan-Meier product limit method and presented them graphically for male and female rats separately. The sponsor analyzed the mortality data for dose response relationship using similar methodologies suggested (b) (4). The differences between the negative control and each of the treated groups
+L435: were compared using the log-rank test. These tests were conducted at significance level of 0.05 in two-tailed level. In addition, the difference between the vehicle control group and negative control group was also compared.
+L436: **Sponsor's findings:** The sponsor analysis showed 38.3%, 48.3%, 50.0%, 50.0%, and 58.3% survival of male rats and 36.7%, 35.0%, 61.7%, 60.0, and 71.7% survival of female rats in the negative control, vehicle control, low, medium and high dose groups, respectively. The sponsor's analysis showed a statistically significant negative dose response relationship in the mortality in female rats across negative control and treated groups. Also in female rats, the pairwise comparisons showed statistically significant decreased mortalities in all treated groups compared to the negative control. The male rats showed a tendency of negative dose response in the mortality across negative control and treated groups, but were not statistically significant.
+L437: Since there were low mortalities in the negative control group and the incidence of deaths due to pituitary tumors was marginally decreased in all treated groups, the sponsor judged the mortalities in both sexes as incidental.
+L438: ## 2.1.2. Tumor data analysis
+L439: The sponsor analyzed the tumor data using the methods outlined in the paper of Peto et al. (1980) for the dose response relationships and the Fisher Exact test for the pairwise comparisons of treated groups with negative control. For Peto analysis the sponsor first classified the tumor types as fatal and incidental, and analyzed them using the death rate and prevalence methods, respectively. For the evaluation of non-incidental tumors, the strata were defined as Week 1 to Week 52, Week 53 to Week 78, Week 79 to Week 92, Week 93 to Week 104 and the period of live phase until scheduled necropsy. The tumor types with moderate to high incidence rates were analyzed using the asymptotic tests (normal test), while tumor types with small incidence rates were analyzed using the exact test (hypergeometric test).
+L440: **Adjustment for multiple testing:** The sponsor used the significant levels of 0.005 (one-tailed) for common tumors or 0.025 (one-tailed) for rare tumors for dose response relationship, and significant levels of 0.01 (one-tailed) for common tumors or 0.05 (one-tailed) for rare tumors for pairwise comparisons. Common tumors were defined as those with a historical incidence in controls exceeding 1% and rare tumors as 1% or less. It should be noted the above test levels are the suggested values in the FDA guidance for statistical design and analysis of carcinogenicity studies for the adjustment of multiple testing.
+L441: **Sponsor's findings:** The sponsor's analyses did not show statistically significant dose response relationship among the treatment groups in any of the observed tumor types. The pairwise comparisons did not show increased incidence in any of the observed tumors in either sex. The pairwise comparisons also did not show statistically significant difference in the incidence of any of the observed tumor types between the vehicle and negative control groups.
+L442: ## 2.2. Reviewer's analyses
+L443: To verify the sponsor's analyses and to perform additional analyses suggested by the reviewing pharmacologist, this reviewer independently performed survival and tumor data analyses. Data used in this reviewer's analyses were provided by the sponsor electronically.
+L444: For animal carcinogenicity experiments with a negative and a vehicle control, the FDA guidance for statistical design and analysis of carcinogenicity studies suggests using the vehicle control along with the treated groups for the primary analysis. Following the guidance, this reviewer analyzed the data from treated groups along with the data from vehicle control as the primary analysis. Some further analyses have also been performed using the negative control for additional information.
+L445: ## 2.2.1. Survival analysis
+L446: The survival distributions of rats in all five treatment groups were estimated using the Kaplan-Meier product limit method. The dose response relationship across vehicle control, low, medium, and high dose groups was tested using the likelihood ratio test and the homogeneity of survival distributions was tested using the log-rank test. The Kaplan-Meier curves for survival rates are given in Figures 1A and 1B in the appendix for male and female rats, respectively. The intercurrent mortality data are given in Tables 1A and 1B in the appendix for male and female rats, respectively. Results of the tests for dose response relationship and homogeneity of survivals for vehicle control, low, medium, and high dose groups are given in Tables 2A and 2B in the appendix for male and female rats, respectively.
+L447: **Reviewer's findings:** This reviewer's analysis showed 38.3%, 48.3%, 50.0%, 50.0%, and 58.3% survival of male rats and 36.7%, 35.0%, 61.7%, 60.0%, and 71.7% survival of female rats in negative control, vehicle control, low, medium, and high dose groups, respectively. The tests showed statistically significant negative dose response relationship in mortality across the vehicle control and treated groups in female rats. Also in female rats, the pairwise comparisons showed statistically significant decreased mortality in all treated groups compared to their vehicle control group.
+L448: ## 2.2.2. Tumor data analysis
+L449: The tumor data were analyzed for dose response relationships across the vehicle control and treated groups, and pairwise comparisons of vehicle control with each of the treated groups. Both the dose response relationship tests and the pairwise comparisons were performed using the Poly-k method described in the paper of Bailar and Portier (1988) and Bieler and Williams (1993). In this method an animal that lives the full study period (w_{\max}) or dies before the terminal sacrifice but develops the tumor type being tested gets a score of s_h = 1. An animal that dies at week w_h without a tumor before
+L450: the end of the study gets a score of s_h = \left(\frac{w_h}{w_{\max}}\right)^k &lt; 1. The adjusted group size is then defined as \Sigma s_h.
+L451: As an interpretation, an animal with score s_h = 1 can be considered as a whole animal, while an animal with score s_h &lt; 1 can be considered as a partial animal. The adjusted group size \Sigma s_h is equal to N (the original group size) if all animals live up to the end of the study or if each animal that dies before the
+L452: terminal sacrifice develops at least one tumor, otherwise the adjusted group size is less than N. These adjusted group sizes are then used for the dose response relationship (or the pairwise) tests using the Cochran-Armitage test. One critical point for Poly-k test is the choice of the appropriate value of k, which depends on the tumor incidence pattern with the increased dose. For long term 104 week standard rat and mouse studies, a value of k=3 is suggested in the literature. Hence, this reviewer used k=3 for the analysis of these tumor data. For the calculation of p-values the exact permutation method was used with the actual dose levels (1, 3 and 10 for male rats, and 3, 10 and 30 for female rats) as the scores for vehicle control, low, medium, and high dose groups, respectively.
+L453: The tumor rates and the p-values of the tested tumor types are listed in Tables 3A and 3B in the appendix for male and female rats, respectively.
+L454: **Multiple testing adjustments:** For the adjustment of multiple testing this reviewer used the methodologies suggested in the FDA guidance for statistical design and analysis of carcinogenicity studies. For dose response relationship tests, the guidance suggests the use of test levels of \alpha=0.005 for common tumors and \alpha=0.025 for rare tumors for a submission with two species, and a significance level \alpha=0.01 for common tumors and \alpha=0.05 for rare tumors for a submission with one species in order to keep the false-positive rate at the nominal level of approximately 10%. A rare tumor is defined as one in which the published spontaneous tumor rate is less than 1%. For multiple pairwise comparisons of treated group with control the guidance suggests the use of test levels of \alpha=0.01 for common tumors and \alpha=0.05 for rare tumors, in order to keep the false-positive rate at the nominal level of approximately 10% for both submissions with two or one species.
+L455: It should be noted that the FDA guidance for multiple testing for dose response relationship is based on a publication by Lin and Rahman (1998). In this work the authors investigated the use of this rule for Peto analysis. However, in a later work Lin and Rahman (2008) showed that this rule for multiple testing for dose response relationship is also suitable for Poly-k tests.
+L456: **Reviewer's findings:** The following tumor types showed p-values less than or equal to 0.05 either for dose response relationship or pairwise comparisons of treated groups and vehicle control.
+L457: **Summary Table of Tumor Types with P-Values \le 0.05 for Dose Response Relationship or Pairwise Comparisons of Treated Groups and Vehicle Control in Rats**
+L458: Sex	Organ Name	Tumor Name	Veh	P_Value
+Cont	Low	Med	High	Dose Resp	VC vs. L	VC vs. M	VC vs. H
+Male	Hemolymphoreticular(all sites)	LYMPHOMA, MALIGNANT	0	1	0	4	0.0111*	0.4947	.	0.0638
+Pancreas	ADENOMA, ACINAR CELL	0	3	6	0	0.7974	0.1171	0.0142*	.
+ADENOMA, ISLET CELL	17	15	31	20	0.2695	0.5574	0.0103	0.3386
+Testis	LEYDIG CELL TUMOR	1	0	0	3	0.0489	0.4947	0.5052	0.3085
+Female	Mammary gland	ADENOCARCINOMA	27	22	26	40	0.0077	0.8650	0.5867	0.1011
+ADENOMA	0	0	0	3	0.0214*	.	.	0.1792
+ADENOMA+ADENOCARCINOMA	27	22	26	40	0.0077	0.8650	0.5867	0.1011
+Vagina	GRANULAR CELL TUMOR	0	0	1	3	0.0279	.	0.5444	0.1792
+L459: Based on the criteria of adjustment for multiple testing discussed above, the incidences of malignant lymphoma in hemolymphoreticular (all sites) in male rats, and adenoma in mammary gland in female rats were considered to have statistically significant dose response relationships. The pairwise comparison showed statistically significant increased incidence of acinar cell adenoma in pancreas in male rat medium dose group compared to their vehicle control.
+L460: **Analysis using the negative control:** The tumor rates and the p-values of the tested tumor types are listed in Tables 7A and 7B in the appendix for male and female rats, respectively. Tests showed statistically significant increased incidence of adrenal pheochromocytoma in female rat high dose group compared to the negative control. The tumor rates and the p-values for the comparison of vehicle control and negative controls are given in Tables 9A and 9B in the appendix. None of the observed tumor types showed statistically significant increased incidence in the vehicle control compared to the negative control group.
+L461: ## 3. Mouse Study
+L462: Two separate experiments were conducted, one in male and one in female mice. In each of these two experiments there were three treated groups, one vehicle control group and one negative control group. Three hundred Crlj:CD1(ICR) SPF mice of each sex were assigned randomly to the treated and control groups in equal size of 60 mice per group. The dose levels for treated groups were 0.75, 2 and 5 mg/kg/day for both sexes. In this review these dose groups are referred to as the low, medium, and high dose groups, respectively. The mice in the vehicle control group received the vehicle (5 w/v% Arabic gum solution), while the mice in the negative control group received water for injection through gavage.
+L463: As stated earlier, the administration period of mouse study was originally planned as 2 years. However, the mortality increased with the progression of the administration period, as a result the surviving male mice were sacrificed in Week 91 and the surviving female mice were sacrificed in Week 99 when the number of survivors in the male mice negative control group decreased to 20 (33% survival) and in the female mice low dose group decreased to 15 (25% survival).
+L464: During the administration period all mice were observed regularly for clinical signs such as external appearance, nutritional condition, posture, behavior and abnormality of feces. The mice were also observed daily for morbidity and mortality. In addition, palpation was done once a week to detect superficial masses.
+L465: Body weights of all mice were measured once before the beginning of the study and thereafter once a week up to Week 13, every 4 weeks up to Week 89 for males and up to Week 97 for females. Mice were additionally weighed in the final week of administration, males on Week 90 (Day 632) of administration on the day before the start of necropsy and females on Week 98 (Day 691) of administration on the day before necropsy.
+L466: ## 3.1. Sponsor's analyses
+L467: Similar to rat study, for the primary analyses of both mortality and tumor incidences the sponsor
+L468: used data from the treated groups along with the data from the negative control. The sponsor then made comparisons of mortality and tumor incidence rates in the vehicle control group with those in the negative control group.
+L469: ## 3.1.1. Survival analysis
+L470: The sponsor used similar methodologies to analyze the mouse survival data as they used to analyze the rat survival data.
+L471: **Sponsor's findings:** The sponsor analysis showed 33.3%, 48.3%, 51.7%, 46.7%, and 58.3% survival of male mice and 46.7%, 41.7%, 25.0%, 31.7%, and 38.3% survival of female mice in the negative control, vehicle control, low, medium and high dose groups, respectively. The sponsor's analysis showed a statistically significant negative dose response relationship in the mortality in male mice across negative control and treated groups. Also in male mice, the pairwise comparisons showed statistically significant decreased mortality in the high dose group compared to the negative control. Since there were low mortalities in the negative control group and/or suppression of body weight gain was noted in the high dose group, the sponsor judged these mortalities as incidental.
+L472: In female mice the pairwise comparisons showed statistically significant increased mortality in the low and medium dose groups compared to the negative control group. The sponsor noted increased deaths due to mammary gland tumors in all dose groups.
+L473: The sponsor's analysis did not show any difference in mortalities in the vehicle control group compared to the negative control group in either sex.
+L474: ## 3.1.2. Tumor data analysis
+L475: The sponsor used similar methodologies to analyze the mouse tumor data as they used to analyze the rat tumor data.
+L476: **Adjustment for multiple testing:** The sponsor used similar test levels as they used for rat study to adjust for multiple testing.
+L477: **Sponsor's findings:** The sponsor's pairwise comparisons showed increased incidence of mammary gland adenocarcinoma in female mice medium and high dose group compared to their negative control.
+L478: There were no apparent differences in the tumor incidence rates in the vehicle control group from the negative control group.
+L479: ## 3.2. Reviewer's analyses
+L480: Similar to the rat study, to verify sponsor's analyses and to perform additional analyses suggested by the reviewing pharmacologist, this reviewer independently performed survival and tumor data analyses of mouse data. Data used in this reviewer's analyses were provided by the sponsor electronically.
+L481: For the analysis of both the survival data and the tumor data this reviewer used similar methodologies as he used for the analyses of the rat survival and tumor data.
+L482: ## 3.2.1. Survival analysis
+L483: The Kaplan-Meier curves for survival rates of all treatment groups are given in Figures 2A and 2B in the appendix for male and female mice, respectively. The intercurrent mortality data of all treatment groups are given in Tables 4A and 4B in the appendix for male and female mice, respectively. Results of the tests for dose response relationship and homogeneity of survivals for vehicle control, low, medium, and high dose groups are given in Tables 5A and 5B in the appendix for male and female mice, respectively.
+L484: **Reviewer's findings:** This reviewer's analysis showed 33.3%, 48%, 53%, 48% and 60% survival of male mice, and 50%, 42%, 30%, 32%, and 42% survival of female mice in the negative control, vehicle control, low, medium, and high dose groups, respectively. The tests did not show statistically significant dose response relationship across vehicle control and treated groups or pairwise difference between any treated group and vehicle control in mortality in either sex of mice.
+L485: **Reviewer's comment:** The sponsor's analysis showed 33.3%, 48.3%, 51.7%, 46.7%, and 58.3% survival of male mice and 46.7%, 41.7%, 25.0%, 31.7%, and 38.3% survival of female mice in the negative control, vehicle control, low, medium and high dose groups, respectively, while this reviewer's analysis showed 33.3%, 48%, 53%, 48% and 60% survival of male mice, and 50%, 42%, 30%, 32%, and 42% survival of female mice in the negative control, vehicle control, low, medium, and high dose groups, respectively. Clearly there are some differences between the sponsor's and this reviewer's calculation of these percentages. These differences are due to the fact that the following mice died naturally during the terminal sacrifice week. The sponsor classified these mice as dead, while this reviewer classified them as survivor.
+L486: ## **Mice Died Naturally During the Terminal Sacrifice Week**
+L487: Species	Sex	Animal Numbers
+Neg. Cont.	Low	Medium	High
+Mouse	Male	1002, 1016, 1026	3022	4046	5043
+Female	1135, 1144	3121, 3136, 3146	5108, 5126
+L488: ## 3.2.2. Tumor data analysis
+L489: The p-values were calculated using the exact permutation method with actual dose levels (0.75, 2 and 5 for both sexes) as the scores for vehicle control, low, medium, and high dose groups, respectively. The tumor rates and the p-values of the tested tumor types are given in Tables 6A and Table 6B in the appendix, for male and female mice respectively.
+L490: **Reviewer's findings:** Following tumor type showed p-values less than or equal to 0.05 for dose response relationship and/or pairwise comparisons of treated groups and vehicle control.
+L491: ## **Summary Table of Tumor Types with P-Values \le 0.05 for Dose Response Relationship and/or Pairwise Comparisons of Treated Groups and Vehicle Control in Mice**
+L492: Sex	Organ Name	Tumor Name	Veh	Dose Resp	P_Value
+Cont	Low	Med	High	VC vs. L	VC vs. M	VC vs. H
+Male	Harderian gland	ADENOMA	1	2	3	7	0.0120	0.5089	0.3347	0.0448
+Hemolymphoretic	SARCOMA,HISTIOCYTIC	0	1	0	3	0.0446	0.5060	.	0.1523
+Female	Mammary gland	ADENOCARCINOMA	2	14	12	12	0.0568	<0.001*	0.0039*	0.0034*
+ADENOMA+ADENOCARCINOMA	3	14	12	13	0.0522	0.0023*	0.0104	0.0055*
+ADENOMA+ADENOCARCINOMA+CARCINOMA	3	16	23	16	0.0164	<0.001*	<0.001*	<0.001*
+CARCINOMA,ADENOSQUAMOUS	1	3	15	6	0.0673	0.2707	<0.001*	0.0509
+Pituitary	ADENOMA,PARS DISTALIS	0	5	7	7	0.0261	0.0225*	0.0044*	0.0054*
+L493: Based on the criteria of adjustment for multiple testing discussed in the rat data analysis section, the incidence of none of the observed tumor types was considered to have statistically significant dose response relationship in either sex. The pairwise comparisons showed statistically significant increased incidence of (1) adenocarcinoma, joint incidences of adenoma, carcinoma and adenocarcinoma in all treated groups, (2) joint incidences of adenoma and adenocarcinoma in low and high dose groups, and (3) incidence of adenosquamous carcinoma in medium dose group in the female mice mammary gland compared to their vehicle control. The pairwise comparison also showed statistically significant increased incidence of pars distalis adenoma in all treated groups in female mice pituitary gland compared to their vehicle control.
+L494: **Analysis using the negative control:** The tumor rates and the p-values of the tested tumor types are listed in Tables 8A and 8B in the appendix for male and female mice, respectively. Tests showed statistically significant dose response relationship in the incidence of liver hemangiosarcoma in male mice. The pairwise comparison showed statistically significant increased incidence of (1) mammary gland adenocarcinoma in low dose group, (2) mammary gland adenosquamous carcinoma in medium dose group, (3) joint incidences of mammary gland adenoma and carcinoma in low and high dose groups, and (4) joint incidences of mammary gland adenoma, adenocarcinoma and carcinoma in all treated groups in female mice compared to their negative control. The tumor rates and the p-values for the comparison of vehicle control and negative controls are given in Tables 10A and 10B in the appendix. The comparison showed statistically significant increased incidence of bronchiolo-alveol adenoma in male mice vehicle control group compared to their negative control.
+L495: ## 4. Summary
+L496: In this submission the sponsor included reports of two animal carcinogenicity studies, one in rats and one in mice. These studies were intended to assess the carcinogenic potential of OPC-331 (Brexpiprazole) when administered orally through gavage at appropriate drug levels for 104 weeks, however due to high mortalities, the male and female mouse study were terminated on Week 91 and Week 99, respectively.
+L497: In this review the phrase "dose response relationship" refers to the linear component of the effect of
+L498: treatment, and not necessarily to a strictly increasing or decreasing mortality or tumor incidence rate as dose increases.
+L499: **Rat study:** Two separate experiments were conducted, one in male and one in female rats. In each of these two experiments there were three treated groups, one vehicle control group and one negative control group. Three hundred Crl:CD(SD) SPF rats of each sex were assigned randomly to the treated and control groups in equal size of 60 rats per group. The dose levels for treated groups were 1, 3 and 10 mg/kg/day in males, 3, 10 and 30 mg/kg/day in females. The rats in the vehicle control group received the vehicle (5 w/v% Arabic gum solution), while the rats in the negative control group received water for injection through gavage.
+L500: During the administration period all rats were observed regularly for clinical signs. The rats were also observed daily for morbidity and mortality. Palpation was done once a week to detect any superficial masses. Body weights of all rats were measured once before the beginning of the study and thereafter once a week up to Week 13, every 4 weeks up to Week 101, and in Week 104.
+L501: The tests showed statistically significant negative dose response relationship in mortality across the vehicle control and treated groups in female rats. Also in female rats, the pairwise comparisons showed statistically significant decreased mortality in all treated groups compared to their vehicle control group.
+L502: The tests showed a statistically significant dose response relationship in the incidences of malignant lymphoma in hemolymphoretic in male rats, and adenoma in mammary gland in female rats. The pairwise comparison showed statistically significant increased incidence of acinar cell adenoma in pancreas in male rat medium dose group compared to their vehicle control.
+L503: Analysis using the negative control showed statistically significant increased incidence of adrenal pheochromocytoma in female rat high dose group compared to the negative control. None of the observed tumor types showed statistically significant increased incidence in the vehicle control compared to the negative control group.
+L504: **Mouse Study:** Two separate experiments were conducted, one in male and one in female mice. In each of these two experiments there were three treated groups, one vehicle control group and one negative control group. Three hundred Crlj:CD1(ICR) SPF mice of each sex were assigned randomly to the treated and control groups in equal size of 60 mice per group. The dose levels for treated groups were 0.75, 2 and 5 mg/kg/day for both sexes. The mice in the vehicle control group received the vehicle (5 w/v% Arabic gum solution), while the mice in the negative control group received water for injection through gavage.
+L505: The administration period of mouse study was originally planned as 104 weeks. However, the mortality increased with the progression of the administration period, as a result the surviving male mice were sacrificed in Week 91 and the surviving female mice were sacrificed in Week 99 when the number of survivors in the male mice negative control group decreased to 20 (33% survival) and in the female mice low dose group decreased to 15 (25% survival).
+L506: During the administration period all mice were observed regularly for clinical signs. The mice were also observed daily for morbidity and mortality. Palpation was done once a week to detect any superficial masses. Body weights of all mice were measured once before the beginning of the study and thereafter once a week up to Week 13, every 4 weeks up to Week 89 for males and up to Week 97 for females. Mice were additionally weighed in the final week of administration, males on Week 90 (Day 632) of administration on the day before the start of necropsy and females on Week 98 (Day 691) of administration on the day before necropsy.
+L507: The tests did not show statistically significant dose response relationship across vehicle control and treated groups or pairwise difference between any treated group and vehicle control in mortality in either sex of mice.
+L508: The tests did not show statistically significant dose response relationship in any of the observed tumor types in either sex. The pairwise comparisons showed statistically significant increased incidence of (1) adenocarcinoma, joint incidences of adenoma, carcinoma and adenocarcinoma in all treated groups, (2) joint incidences of adenoma and adenocarcinoma in low and high dose groups, and (3) incidence of adenosquamous carcinoma in medium dose group in the female mice mammary gland compared to their vehicle control. The pairwise comparison also showed statistically significant increased incidence of pars distalis adenoma in all treated groups in female mice pituitary gland compared to their vehicle control.
+L509: Analysis using the negative control showed statistically significant dose response relationship in the incidence of liver hemangiosarcoma in male mice. The pairwise comparison showed statistically significant increased incidence of (1) mammary gland adenocarcinoma in low dose group, (2) mammary gland adenosquamous carcinoma in medium dose group, (3) joint incidences of mammary gland adenoma and carcinoma in low and high dose groups, and (4) joint incidences of mammary gland adenoma, adenocarcinoma and carcinoma in all treated groups in female mice compared to their negative control. The comparison vehicle and control groups showed statistically significant increased incidence of bronchiolo-alveol adenoma in male mice vehicle control group compared to their negative control.
+L510: Mohammad Atiar Rahman, Ph.D.
+Mathematical Statistician
+L511: Concur: Karl Lin, Ph.D.
+Team Leader, Biometrics-6
+L512: cc:
+Archival NDA 205-422
+L513: Dr. Klimek
+Ms. Ansah
+L514: Dr. Tsong
+Dr. Lin
+Dr. Rahman
+Ms. Patrician
+L515: ## 5. Appendix
+L516: **Table 1A: Intercurrent Mortality Rate
+Male Rats**
+L517: Week	Neg Control	Veh Control	1 mg/kg/day	3 mg/kg/day	10 mg/kg/day
+No. of Death	#Cum. %	No. of Death	#Cum. %	No. of Death	#Cum. %	No. of Death	#Cum. %	No. of Death	#Cum. %
+0 - 52	3	5.00	.	.	1	1.67	1	1.67	4	6.67
+53 - 78	8	18.33	8	13.33	11	20.00	7	13.33	4	13.33
+79 - 91	6	28.33	11	31.67	5	28.33	7	25.00	9	28.33
+92 - 104	20	61.67	12	51.67	13	50.00	15	50.00	8	41.67
+Ter. Sac.	23	38.33	29	48.33	30	50.00	30	50.00	35	58.33
+Total	N=60	N=60	N=60	N=60	N=60
+L518: # All Cum. %: Cumulative percentage except for Ter. Sac.
+L519: **Table 1B: Intercurrent Mortality Rate
+Female Rats**
+L520: Week	Neg Control	Veh Control	3 mg/kg/day	10 mg/kg/day	30 mg/kg/day
+No. of Death	#Cum. %	No. of Death	#Cum. %	No. of Death	#Cum. %	No. of Death	#Cum. %	No. of Death	#Cum. %
+0 - 52	.	.	1	1.67	1	1.67	.	.	1	1.67
+53 - 78	15	25.00	12	21.67	12	21.67	7	11.67	2	5.00
+79 - 91	15	50.00	14	45.00	2	25.00	10	28.33	4	11.67
+92 - 104	8	63.33	12	65.00	8	38.33	7	40.00	10	28.33
+Ter. Sac.	22	36.67	21	35.00	37	61.67	36	60.00	43	71.67
+Total	N=60	N=60	N=60	N=60	N=60
+L521: # All Cum. %: Cumulative percentage except for Ter. Sac.
+L522: **Table 2A: Intercurrent Mortality Comparison
+Male Rats**
+L523: Test	Statistic	P_Value*
+Dose-Response	Likelihood Ratio	0.3152
+Homogeneity	Log-Rank	0.7998
+L524: # Pvalues were calculated using the vehicle control, low, medium, and high dose groups
+L525: **Table 2B: Intercurrent Mortality Comparison
+Female Rats**
+L526: Test	Statistic	P_Value*
+Dose-Response	Likelihood Ratio	0.0004
+Homogeneity	Log-Rank	0.0001
+L527: # Pvalues were calculated using the vehicle control, low, medium, and high dose groups
+L528: Table 3A: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Male Rats
+L529: Organ Name	Tumor Name	0 mg	1 mg	3 mg	10 mg	P_Value
+Dose
+Resp	P_Value	P_Value	P_Value
+Veh C
+N=60	Low
+N=60	Med
+N=60	High
+N=60	L vs
+Veh C	M vs
+Veh C	H vs
+Veh C
+Abdominal cavity	FIBROSARCOMA	0	0	1	0	0.2500	.	0.5052	.
+MESOTHELIOMA,MALIGNANT	0	0	0	1	0.2500	.	.	0.5000
+Adrenal	CARCINOMA,CORTICAL CELL	0	0	0	1	0.2539	.	.	0.5052
+PHEOCHROMOCYTOMA	9	7	12	7	0.6666	0.5896	0.3306	0.6075
+PHEOCHROMOCYTOMA,COMPLEX,	0	1	0	0	0.5052	0.4947	.	.
+PHEOCHROMOCYTOMA,MALIGNANT	1	2	3	3	0.2199	0.4920	0.3164	0.3164
+Cerebellum	ASTROCYTOMA,MALIGNANT	0	0	0	1	0.2500	.	.	0.5000
+GRANULAR CELL TUMOR	2	0	1	0	0.8332	0.7474	0.5078	0.7526
+Cerebrum	ASTROCYTOMA,MALIGNANT	1	1	0	3	0.0913	0.7474	0.5052	0.3085
+GLIOMA,MIXED,MALIGNANT	0	0	1	0	0.2487	.	0.5102	.
+GRANULAR CELL TUMOR	1	0	1	1	0.3958	0.4947	0.2526	0.7526
+Eye	MELANOMA,AMELANOTIC	1	0	0	0	0.7500	0.4947	0.5052	0.5000
+Heart	MESOTHELIOMA,MALIGNANT	0	0	1	0	0.2500	.	0.5052	.
+SCHWANNOMA	0	0	0	1	0.2500	.	.	0.5000
+SCHWANNOMA,MALIGNANT	0	0	0	1	0.2539	.	.	0.5052
+Hemolymphoretic	LEUKEMIA,GRANULOCYTIC	0	0	0	2	0.0635	.	.	0.2526
+LEUKEMIA,LGL	1	2	1	1	0.5535	0.4920	0.2526	0.7526
+LYMPHOMA,MALIGNANT	0	1	0	4	0.0111*	0.4947	.	0.0638
+SARCOMA,HISTIOCYTIC	1	2	0	1	0.5771	0.5000	0.5052	0.7526
+HEMANGIOSARCOMA	0	0	0	0	0.5026	0.5000	.	.
+Hindlimb	OSTEOMA	0	1	0	0	0.5052	0.4947	.	.
+OSTEOSARCOMA	1	0	0	0	0.7500	0.4947	0.5052	0.5000
+Kidney	NEPHROBLASTOMA	0	1	0	0	0.5026	0.5000	.	.
+Liver	ADENOMA,HEPATOCELLULAR	3	0	2	0	0.8882	0.8711	0.5000	0.8750
+CARCINOMA,HEPATOCELLULAR	2	0	1	1	0.5175	0.7474	0.5078	0.5000
+Lung(bronchus)	OSTEOSARCOMA	0	0	1	0	0.2487	.	0.5102	.
+Lymph node,meso	HEMANGIOSARCOMA	0	2	2	0	0.7227	0.2421	0.2526	.
+Mammary gland	ADENOCARCINOMA	0	1	0	0	0.5052	0.4947	.	.
+ADENOMA	0	0	1	1	0.1898	.	0.5052	0.5000
+FIBROADENOMA	0	2	1	2	0.2044	0.2474	0.5052	0.2526
+Pancreas	ADENOMA,ACINAR CELL	0	3	6	0	0.7974	0.1171	0.0142*	.
+ADENOMA,DUCTAL CELL	0	0	0	1	0.2500	.	.	0.5000
+ADENOMA,ISLET CELL	17	15	31	20	0.2695	0.5574	0.0103	0.3386
+CARCINOMA,ACINAR CELL	1	0	0	0	0.7500	0.4947	0.5052	0.5000
+CARCINOMA,ISLET CELL	9	8	7	11	0.2331	0.4619	0.6242	0.4013
+Parathyroid	ADENOMA	0	0	1	0	0.2500	.	0.5052	.
+L530: Table 3A: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Male Rats
+L531: Organ Name	Tumor Name	0 mg	1 mg	3 mg	10 mg	P_Value	P_Value	P_Value	P_Value
+Veh C
+N=60	Low
+N=60	Med
+N=60	High
+N=60	Dose
+Resp	L vs
+Veh C	M vs
+Veh C	H vs
+Veh C
+Pituitary	ADENOMA,PARS DISTALIS	35	27	25	22	0.9411	0.8933	0.9483	0.9659
+ADENOMA,PARS INTERMEDIA	3	0	2	1	0.6592	0.8750	0.5195	0.6915
+Prostate	ADENOCARCINOMA	1	0	0	0	0.7500	0.4947	0.5052	0.5000
+Skin+subcutaneo	CARCINOMA,SQUAMOUS CELL	0	0	1	1	0.1904	.	0.5102	0.5000
+FIBROMA	1	0	1	1	0.3958	0.4947	0.2526	0.7526
+FIBROSARCOMA	0	0	2	1	0.2032	.	0.2577	0.5000
+HEMANGIOMA	0	1	0	0	0.5052	0.4947	.	.
+HEMANGIOPERICYTOMA,MALIGN	0	1	0	0	0.5052	0.4947	.	.
+KERATOACANTHOMA	4	3	2	1	0.9050	0.5000	0.6806	0.8192
+LIPOSARCOMA	0	0	2	0	0.4385	.	0.2526	.
+LYMPHANGIOMA	0	0	0	1	0.2500	.	.	0.5000
+OSTEOSARCOMA	0	1	0	0	0.5052	0.4947	.	.
+SARCOMA,NOS	0	1	2	0	0.5923	0.5000	0.2577	.
+SCHWANNOMA	0	1	0	0	0.5052	0.4947	.	.
+Spinal cord	ASTROCYTOMA,MALIGNANT	0	1	0	0	0.5052	0.4947	.	.
+GRANULAR CELL TUMOR	0	1	0	0	0.5052	0.4947	.	.
+Spleen	HEMANGIOSARCOMA	0	0	1	2	0.0625	.	0.5052	0.2474
+SARCOMA,NOS	0	0	0	2	0.0615	.	.	0.2474
+Stomach	NEUROENDOCRINE TUMOR,MALI	0	1	0	0	0.5052	0.4947	.	.
+Testis	LEYDIG CELL TUMOR	1	0	0	3	0.0489	0.4947	0.5052	0.3085
+Thoracic cavity	PARAGANGLIOMA,MALIGNANT	0	0	1	0	0.2500	.	0.5052	.
+Thymus	THYMOMA	0	0	0	2	0.0615	.	.	0.2474
+Thyroid	ADENOMA,C CELL	6	7	3	5	0.6846	0.4835	0.7671	0.5291
+ADENOMA,FOLLICULAR CELL	2	3	1	0	0.9456	0.5000	0.5078	0.7526
+CARCINOMA,C CELL	1	0	2	3	0.0702	0.4947	0.5078	0.3085
+CARCINOMA,FOLLICULAR CELL	0	1	2	0	0.5962	0.4947	0.2526	.
+Urinary bladder	PAPILLOMA,TRANSITIONAL CE	0	0	1	0	0.2500	.	0.5052	.
+Vertebra	CHONDROSARCOMA	0	0	0	1	0.2539	.	.	0.5052
+Whole body	HAEMANGIOMA+HAEMANGIOSARC	0	3	3	2	0.3561	0.1171	0.1250	0.2474
+L532: Table 3B: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Female Rats
+L533: Organ Name	Tumor Name	0 mg	3 mg	10 mg	30 mg	P_Value	P_Value	P_Value	P_Value
+Veh C
+N=60	Low
+N=60	Med
+N=60	High
+N=60	Dose
+Resp	L vs
+Veh C	M vs
+Veh C	H vs
+Veh C
+Abdominal cavit	FIBROSARCOMA	0	0	0	1	0.2813	.	.	0.5684
+Adrenal	ADENOMA,CORTICAL CELL	2	1	1	2	0.4801	0.5505	0.5582	0.4088
+CARCINOMA,CORTICAL CELL	0	0	1	0	0.2812	.	0.5444	.
+PHEOCHROMOCYTOMA	3	4	2	6	0.2224	0.5751	0.5735	0.3954
+PHEOCHROMOCYTOMA,MALIGNAN	1	1	0	0	0.8479	0.2880	0.5444	0.5684
+Cerebrum	OLIGODENDROGLIOMA,MALIGNA	1	0	0	1	0.4824	0.5333	0.5385	0.3138
+Clitoral gland	ADENOMA	0	0	1	1	0.2256	.	0.5444	0.5729
+Ear	NEURAL CREST TUMOR	1	0	0	0	0.7824	0.5333	0.5385	0.5625
+Hemolymphoretic	LEUKEMIA,GRANULOCYTIC	0	1	0	0	0.5337	0.5444	.	.
+LEUKEMIA,LGL	0	0	0	2	0.0780	.	.	0.3205
+LYMPHOMA,MALIGNANT	1	2	1	0	0.8633	0.5658	0.2872	0.5625
+SARCOMA,HISTIOCYTIC	2	0	1	0	0.8646	0.7850	0.5582	0.8112
+Intestine,jejun	LEIOMYOMA	0	1	0	0	0.5365	0.5393	.	.
+Intestine,rectu	LEIOMYOSARCOMA	1	0	0	0	0.7824	0.5333	0.5385	0.5625
+Kidney	ADENOMA,RENAL CELL	1	0	1	0	0.6769	0.5393	0.2936	0.5684
+LIPOMA	0	1	0	0	0.5365	0.5393	.	.
+LIPOSARCOMA	0	0	1	0	0.2812	.	0.5444	.
+Liver	ADENOMA,HEPATOCELLULAR	2	1	1	0	0.9108	0.5595	0.5672	0.8163
+Lymph node,mese	HEMANGIOMA	1	0	0	0	0.7824	0.5333	0.5385	0.5625
+HEMANGIOSARCOMA	0	0	1	0	0.2812	.	0.5444	.
+Mammary gland	ADENOCARCINOMA	27	22	26	40	0.0077	0.8650	0.5867	0.1011
+ADENOMA	0	0	0	3	0.0214*	.	.	0.1792
+ADENOMA+ADENOCARCINOMA	27	22	26	40	0.0077	0.8650	0.5867	0.1011
+FIBROADENOMA	26	20	20	19	0.9549	0.9215	0.9335	0.9781
+MIXED TUMOR,MALIGNANT	2	0	0	1	0.5893	0.7850	0.7897	0.5942
+Oral cavity	CARCINOMA,SQUAMOUS CELL	0	1	0	0	0.5337	0.5444	.	.
+Pancreas	ADENOMA,ACINAR-ISLET CELL	0	1	0	0	0.5365	0.5393	.	.
+ADENOMA,ISLET CELL	2	5	2	4	0.4768	0.2875	0.3785	0.4773
+CARCINOMA,ISLET CELL	1	4	3	0	0.9446	0.2249	0.3688	0.5625
+Parathyroid	ADENOMA	0	1	2	0	0.6468	0.5393	0.2936	.
+Pituitary	ADENOMA,PARS DISTALIS	50	32	32	22	1.0000	0.9998	0.9996	1.0000
+CARCINOMA,PARS DISTALIS	1	0	0	0	0.7824	0.5333	0.5385	0.5625
+Salivary gland	ADENOCARCINOMA	0	1	0	0	0.5365	0.5393	.	.
+Skin+subcutaneo	CARCINOMA,BASAL CELL	0	0	1	0	0.2812	.	0.5444	.
+L534: Table 3B: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons Female Rats
+L535: Organ Name	Tumor Name	0 mg	3 mg	10 mg	30 mg	P_Value	P_Value	P_Value	P_Value
+Veh C
+N=60	Low
+N=60	Med
+N=60	High
+N=60	Dose
+Resp	L vs
+Veh C	M vs
+Veh C	H vs
+Veh C
+Skin+subcutaneo	FIBROMA	1	0	0	1	0.4845	0.5393	0.5444	0.3205
+FIBROSARCOMA	0	1	0	0	0.5337	0.5444	.	.
+HIBERNOVA	0	0	1	0	0.2812	.	0.5444	.
+KERATOACANTHOMA	0	0	1	0	0.2812	.	0.5444	.
+Spleen	HEMANGIOMA	0	0	0	1	0.2813	.	.	0.5684
+HEMANGIOSARCOMA	0	1	0	0	0.5365	0.5393	.	.
+Stomach	NEUROENDOCRINE TUMOR,MALI	0	0	1	0	0.2812	.	0.5444	.
+Thymus	THYMOMA	0	1	0	0	0.5365	0.5393	.	.
+Thyroid	ADENOMA,C CELL	5	4	4	5	0.5530	0.5983	0.6108	0.5502
+ADENOMA,FOLLICULAR CELL	1	0	2	1	0.4358	0.5393	0.5672	0.3205
+CARCINOMA,C CELL	0	0	1	0	0.2812	.	0.5444	.
+CARCINOMA,FOLLICULAR CELL	1	0	0	0	0.7865	0.5393	0.5444	0.5684
+Uterus	GRANULAR CELL TUMOR	1	0	0	0	0.7824	0.5333	0.5385	0.5625
+GRANULAR CELL TUMOR,MALIG	0	0	1	0	0.2812	.	0.5444	.
+POLYP,ENDOMETRIAL STROMAL	2	2	6	6	0.1103	0.3701	0.1992	0.2425
+SARCOMA,ENDOMETRIAL STROM	1	0	0	0	0.7865	0.5393	0.5444	0.5684
+Vagina	SCHWANNOMA,MALIGNANT	1	0	0	0	0.7865	0.5393	0.5444	0.5684
+CARCINOMA,SQUAMOUS CELL	1	0	0	0	0.7865	0.5393	0.5444	0.5684
+GRANULAR CELL TUMOR	0	0	1	3	0.0279	.	0.5444	0.1792
+Whole body	SARCOMA,VAGINAL STROMAL	0	0	1	0	0.2812	.	0.5444	.
+HAEMANGIOMA+HAEMANGIOSARC	1	1	1	1	0.4851	0.2816	0.2872	0.3138
+L536: Table 4A: Intercurrent Mortality Rate in Male Mice
+L537: Week	Neg Control	Veh Control	0.75 mg/kg/day	3 mg/kg/day	10 mg/kg/day
+No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %
+0 - 52	4	6.67	9	15.00	9	15.00	8	13.33	5	8.33
+53 - 78	24	46.67	16	41.67	16	41.67	13	35.00	12	28.33
+79 - 90	9	61.67	6	51.67	3	46.67	10	51.67	7	40.00
+Ter. Sac.	23	38.33	29	48.33	32	53.33	29	48.33	36	60.00
+Total	N=60	N=60	N=60	N=60	N=60
+L538: # All Cum. %: Cumulative percentage except for Ter. Sac. @Terminal sacrifice was done at Week 91
+L539: Table 4B: Intercurrent Mortality Rate Female Mice
+L540: Week	Neg Control	Veh Control	0.75 mg/kg/day	3 mg/kg/day	10 mg/kg/day
+No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %
+0 - 52	3	5.00	3	5.00	3	5.00	5	8.33	10	16.67
+53 - 78	12	25.00	17	33.33	23	43.33	18	38.33	10	33.33
+79 - 98	15	50.00	15	58.33	16	70.00	18	68.33	15	58.33
+Ter. Sac.	30	50.00	25	41.67	18	30.00	19	31.67	25	41.67
+Total	N=60	N=60	N=60	N=60	N=60
+L541: # All Cum. %: Cumulative percentage except for Ter. Sac. @Terminal sacrifice was done at Week 99
+L542: Table 5A: Intercurrent Mortality Comparison Male Mice
+L543: Test	Statistic	P_Value#
+Dose-Response	Likelihood Ratio	0.2000
+Homogeneity	Log-Rank	0.5967
+L544: # Pvalues were calculated using the vehicle control, low, medium, and high dose groups
+L545: Table 5B: Intercurrent Mortality Comparison Female Mice
+L546: Test	Statistic	P_Value#
+Dose-Response	Likelihood Ratio	0.8369
+Homogeneity	Log-Rank	0.3249
+L547: # Pvalues were calculated using the vehicle control, low, medium, and high dose groups
+L548: Table 6A: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Male Mice
+L549: Organ Name	Tumor Name	0 mg	0.75mg	2 mg	5 mg	P_Value
+Dose
+Resp	P_Value	P_Value	P_Value
+Veh C
+N=60	Low
+N=60	Med
+N=60	High
+N=60	L vs
+Veh C	M vs
+Veh C	H vs
+Veh C
+Adrenal	ADENOMA,CORTICAL CELL	0	1	0	0	0.5230	0.5060	.	.
+PHEOCHROMOCYTOMA,MALIGNANT	0	0	1	0	0.2686	.	0.5233	.
+Bone+bone marro	HEMANGIOMA	0	0	1	0	0.2701	.	0.5176	.
+HEMANGIOSARCOMA	0	0	0	1	0.2701	.	.	0.5341
+Cerebrum	MENINGIOMA,MALIGNANT	1	0	0	0	0.7644	0.5060	0.5176	0.5341
+Gallbladder	ADENOMA	1	1	1	0	0.7639	0.2530	0.2650	0.5341
+Harderian gland	ADENOMA	1	2	3	7	0.0120	0.5089	0.3347	0.0448
+Hemolymphoretic	LYMPHOMA,MALIGNANT	2	2	2	2	0.5199	0.3262	0.3529	0.3616
+SARCOMA,HISTIOCYTIC	0	1	0	3	0.0446	0.5060	.	0.1523
+Hindlimb	HEMANGIOSARCOMA	0	1	0	0	0.5200	0.5119	.	.
+Intestine,ileum	ADENOCARCINOMA	0	0	1	0	0.2686	.	0.5233	.
+Intestine,jejun	ADENOCARCINOMA	0	0	0	1	0.2701	.	.	0.5341
+ADENOMA	1	0	0	0	0.7644	0.5060	0.5176	0.5341
+Kidney	ADENOMA,TUBULAR CELL	0	0	1	1	0.2092	.	0.5176	0.5341
+Liver	ADENOMA,HEPATOCELLULAR	10	10	8	11	0.4917	0.6005	0.6644	0.5926
+CARCINOMA,HEPATOCELLULAR	3	3	4	0	0.9574	0.3493	0.5391	0.8989
+HEMANGIOMA	0	1	1	0	0.5312	0.5060	0.5233	.
+HEMANGIOSARCOMA	2	1	1	4	0.1304	0.5000	0.5176	0.4043
+Lung(bronchus)	ADENOMA,BRONCHIOLO-ALVEOL	16	8	13	5	0.9953	0.9609	0.7526	0.9976
+CARCINOMA,BRONCHIOLO-ALVE	2	3	3	5	0.1758	0.5116	0.5446	0.2875
+Pancreas	ADENOMA,ISLET CELL	1	0	0	0	0.7644	0.5060	0.5176	0.5341
+Pituitary	ADENOMA,PARS INTERMEDIA	2	0	1	0	0.8650	0.7590	0.5268	0.7858
+Prostate	ADENOCARCINOMA	0	0	1	0	0.2701	.	0.5176	.
+Skin+Subcutaneo	HEMANGIOSARCOMA	0	1	0	0	0.5200	0.5119	.	.
+Spleen	HEMANGIOMA	0	0	1	0	0.2701	.	0.5176	.
+HEMANGIOSARCOMA	0	1	1	0	0.5313	0.5060	0.5176	.
+Stomach	PAPILLOMA,SQUAMOUS CELL	0	1	0	2	0.1265	0.5060	.	0.2824
+Testis	LEYDIG CELL TUMOR	0	0	1	1	0.2092	.	0.5176	0.5341
+Whole body	HAEMANGIOMA+HAEMANGIOSARC	2	3	3	5	0.1668	0.5113	0.5331	0.2762
+L550: Table 6B: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Female Mice
+L551: Organ Name	Tumor Name	0 mg	75 mg	200 mg	500 mg	P_Value	P_Value	P_Value	P_Value
+Veh C
+N=60	Low
+N=60	Med
+N=60	High
+N=60	Dose
+Resp	L vs
+Veh C	M vs
+Veh C	H vs
+Veh C
+Adrenal	ADENOMA,SUBCAPSULAR CELL	1	0	0	0	0.7358	0.4750	0.4815	0.4878
+PHEOCHROMOCYTOMA	1	1	0	1	0.4479	0.7275	0.4815	0.7407
+Bone+bone marrow	HEMANGIOMA	1	0	0	1	0.4410	0.4750	0.4815	0.7407
+2	2	0	0	0.9550	0.6534	0.7343	0.7407
+Harderian gland	ADENOCARCINOMA	1	0	0	0	0.7358	0.4750	0.4815	0.4878
+ADENOMA	2	0	2	0	0.8022	0.7275	0.6735	0.7407
+Hemolymphoretic	LEUKEMIA,GRANULOCYTIC	0	0	0	1	0.2562	.	.	0.4940
+LYMPHOMA,MALIGNANT	10	11	12	6	0.8930	0.3772	0.3320	0.7663
+SARCOMA,HISTIOCYTIC	7	3	1	1	0.9880	0.7769	0.9576	0.9608
+Hindlimb	OSTEOSARCOMA	0	0	1	0	0.4969	.	0.4815	.
+Intestine,duode	ADENOMA	2	0	1	0	0.8327	0.7213	0.4630	0.7346
+Intestine,ileum	HEMANGIOSARCOMA	0	0	1	0	0.4969	.	0.4815	.
+Liver	ADENOMA,HEPATOCELLULAR	0	1	1	1	0.2915	0.4750	0.4815	0.4878
+CHOLANGIOCARCINOMA	0	0	1	0	0.4969	.	0.4815	.
+HEMANGIOMA	1	1	2	0	0.7423	0.7275	0.4719	0.4878
+HEMANGIOSARCOMA	2	2	0	3	0.2809	0.6534	0.7343	0.4766
+Lower jaw	FIBROSARCOMA	0	0	0	1	0.2562	.	.	0.4940
+Lung(bronchus)	ADENOMA,BRONCHIOLO-ALVEOL	9	9	9	9	0.4708	0.4898	0.5377	0.5377
+CARCINOMA,BRONCHIOLO-ALVE	4	4	7	7	0.1506	0.6011	0.2316	0.2598
+Mammary gland	ADENOCARCINOMA	2	14	12	12	0.0568	<0.001*	0.0039*	0.0034*
+ADENOMA	1	1	1	1	0.5129	0.7275	0.7343	0.7407
+ADENOMA+ADENOCARCINOMA	3	14	12	13	0.0522	0.0023*	0.0104	0.0055*
+ADENOMA+ADENOCARCINOMA+CARCINOMA	3	16	23	16	0.0164	<0.001*	<0.001*	<0.001*
+CARCINOMA,ADENOSQUAMOUS	1	3	15	6	0.0673	0.2707	<0.001*	0.0509
+FIBROADENOMA	0	0	0	1	0.2516	.	.	0.4878
+Ovary	CYSTADENOCARCINOMA	0	1	0	0	0.4969	0.4750	.	.
+GRANULOSA CELL TUMOR,MALI	0	0	0	1	0.2516	.	.	0.4878
+Pituitary	ADENOMA,PARS DISTALIS	0	5	7	7	0.0261	0.0225*	0.0044*	0.0054*
+ADENOMA,PARS INTERMEDIA	0	0	0	2	0.0621	.	.	0.2349
+Skin+Subcutaneo	FIBROSARCOMA	1	0	0	0	0.7358	0.4750	0.4815	0.4878
+HEMANGIOMA	0	1	0	0	0.4969	0.4750	.	.
+HEMANGIOSARCOMA	0	1	0	0	0.4969	0.4750	.	.
+SARCOMA,NOS	0	1	1	2	0.1171	0.4750	0.4815	0.2349
+Spleen	HEMANGIOSARCOMA	2	1	0	0	0.9328	0.4620	0.7343	0.7407
+Stomach	PAPILLOMA,SQUAMOUS CELL	0	0	1	0	0.4969	.	0.4815	.
+Tail	FIBROSARCOMA	1	0	0	0	0.7312	0.4691	0.4756	0.4819
+L552: Table 6B: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Female Mice
+L553: Organ Name	Tumor Name	0 mg	75 mg	200 mg	500 mg	P_Value	P_Value	P_Value	P_Value
+Veh C	Low	Med	High	Dose	L vs	M vs	H vs
+N=60	N=60	N=60	N=60	Resp	Veh C	Veh C	Veh C
+Uterus	ADENOMA	1	0	0	1	0.4387	0.4691	0.4756	0.7346
+LEIOMYOMA	2	0	0	0	0.9315	0.7275	0.7343	0.7407
+LEIOMYOSARCOMA	1	0	1	0	0.6180	0.4750	0.7343	0.4878
+POLYP,ENDOMETRIAL STROMAL	5	1	1	1	0.9297	0.8750	0.8816	0.8937
+SARCOMA,ENDOMETRIAL STROM	0	1	0	0	0.4969	0.4750	.	.
+Vagina	LEIOMYOSARCOMA	0	0	1	0	0.4969	.	0.4815	.
+Vertebra	HEMANGIOSARCOMA	1	0	0	0	0.7358	0.4750	0.4815	0.4878
+OSTEOMA	1	0	0	0	0.7358	0.4750	0.4815	0.4878
+Whole body	HAEMANGIOMA+HAEMANGIOSARC	4	5	3	3	0.7003	0.4521	0.4579	0.4723
+L554: Table 7A: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Male Rats
+(Using the Negative Control)
+L555: Organ Name	Tumor Name	0 mg	1 mg	3 mg	10 mg	P_Value
+Dose
+Resp	P_Value	P_Value	P_Value
+Neg C
+N=60	Low
+N=60	Med
+N=60	High
+N=60	L vs
+Neg C	M vs
+Neg C	H vs
+Neg C
+Abdominal cavit	FIBROSARCOMA	0	0	1	0	0.2540	.	0.5213	.
+HEMANGIOSARCOMA	1	0	0	0	0.7619	0.5109	0.5213	0.5161
+MESOTHELIOMA,MALIGNANT	0	0	0	1	0.2540	.	.	0.5161
+Adrenal	CARCINOMA,CORTICAL CELL	1	0	0	1	0.4503	0.5109	0.5213	0.2690
+PHEOCHROMOCYTOMA	6	7	12	7	0.4927	0.5169	0.1226	0.5334
+PHEOCHROMOCYTOMA,COMPLEX,	0	1	0	0	0.5132	0.5109	.	.
+PHEOCHROMOCYTOMA,MALIGNAN	1	2	3	3	0.2326	0.5165	0.3414	0.3414
+Bone,Cranial	OSTEOMA	1	0	0	0	0.7619	0.5109	0.5213	0.5161
+Cerebellum	ASTROCYTOMA,MALIGNANT	0	0	0	1	0.2540	.	.	0.5161
+GRANULAR CELL TUMOR	1	0	1	0	0.6362	0.5054	0.2634	0.5106
+Cerebrum	ASTROCYTOMA,MALIGNANT	0	1	0	3	0.0360	0.5109	.	0.1333
+GLIOMA,MIXED,MALIGNANT	0	0	1	0	0.2526	.	0.5263	.
+GRANULAR CELL TUMOR	0	0	1	1	0.1959	.	0.5213	0.5161
+HEMANGIOMA	1	0	0	0	0.7619	0.5109	0.5213	0.5161
+OLIGODENDROGLIOMA,MALIGNA	1	0	0	0	0.7579	0.5054	0.5158	0.5106
+Heart	MESOTHELIOMA,MALIGNANT	0	0	1	0	0.2540	.	0.5213	.
+SCHWANNOMA	0	0	0	1	0.2540	.	.	0.5161
+SCHWANNOMA,MALIGNANT	0	0	0	1	0.2579	.	.	0.5213
+Hemolymphoretic	LEUKEMIA,GRANULOCYTIC	0	0	0	2	0.0655	.	.	0.2690
+LEUKEMIA,LGL	0	2	1	1	0.4347	0.2582	0.5213	0.5161
+LYMPHOMA,MALIGNANT	1	1	0	4	0.0371	0.2527	0.5158	0.2080
+SARCOMA,HISTIOCYTIC	4	2	0	1	0.8865	0.6714	0.9463	0.8258
+Hindlimb	OSTEOMA	0	1	0	0	0.5132	0.5109	.	.
+Intestine,ileum	LEIOMYOSARCOMA	1	0	0	0	0.7619	0.5109	0.5213	0.5161
+Kidney	NEPHROBLASTOMA	0	1	0	0	0.5105	0.5161	.	.
+Liver	ADENOMA,HEPATOCELLULAR	2	0	2	0	0.8036	0.7635	0.3414	0.7686
+CARCINOMA,HEPATOCELLULAR	0	0	1	1	0.1959	.	0.5213	0.5161
+Lung(bronchus)	OSTEOSARCOMA	0	0	1	0	0.2526	.	0.5263	.
+Lymph node,mese	HEMANGIOSARCOMA	0	2	2	0	0.7306	0.2582	0.2690	.
+Mammary gland	ADENOCARCINOMA	1	1	0	0	0.8252	0.2582	0.5213	0.5161
+ADENOMA	0	0	1	1	0.1959	.	0.5213	0.5161
+FIBROADENOMA	0	2	1	2	0.2148	0.2637	0.5213	0.2690
+Pancreas	ADENOMA,ACINAR CELL	3	3	6	0	0.9553	0.3595	0.2875	0.8906
+ADENOMA,DUCTAL CELL	0	0	0	1	0.2540	.	.	0.5161
+ADENOMA,ISLET CELL	17	15	31	20	0.3259	0.6428	0.0205	0.4308
+CARCINOMA,ISLET CELL	8	8	7	11	0.1994	0.6077	0.5524	0.3413
+L556: Table 7A: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Male Rats
+(Using the Negative Control)
+L557: Organ Name	Tumor Name	0 mg	1 mg	3 mg	10 mg	P_Value
+Dose
+Resp	P_Value	P_Value	P_Value
+Neg C
+N=60	Low
+N=60	Med
+N=60	High
+N=60	L vs
+Neg C	M vs
+Neg C	H vs
+Neg C
+Parathyroid	ADENOMA	2	0	1	0	0.8428	0.7635	0.5322	0.7686
+Pituitary	ADENOMA,PARS DISTALIS	24	27	25	22	0.7029	0.4970	0.4910	0.5794
+ADENOMA,PARS INTERMEDIA	1	0	2	1	0.3821	0.5054	0.5316	0.2581
+Prostate	ADENOCARCINOMA	1	0	0	0	0.7579	0.5054	0.5158	0.5106
+Skin+subcutaneo	CARCINOMA,SQUAMOUS CELL	1	0	1	1	0.4062	0.5109	0.2744	0.2637
+FIBROMA	2	0	1	1	0.5267	0.7581	0.5239	0.5161
+FIBROSARCOMA	2	0	2	1	0.5139	0.7581	0.3407	0.5161
+HEMANGIOMA	0	1	0	0	0.5132	0.5109	.	.
+HEMANGIOPERICYTOMA,MALIGN	0	1	0	0	0.5132	0.5109	.	.
+HEMANGIOSARCOMA	1	0	0	0	0.7579	0.5054	0.5158	0.5106
+KERATOACANTHOMA	1	3	2	1	0.6697	0.3332	0.5399	0.2637
+LIPOSARCOMA	1	0	2	0	0.6536	0.5109	0.5322	0.5161
+LYMPHANGIOMA	0	0	0	1	0.2540	.	.	0.5161
+OSTEOSARCOMA	0	1	0	0	0.5132	0.5109	.	.
+SARCOMA,NOS	0	1	2	0	0.5997	0.5161	0.2744	.
+SCHWANNOMA	0	1	0	0	0.5132	0.5109	.	.
+SCHWANNOMA,MALIGNANT	1	0	0	0	0.7579	0.5054	0.5158	0.5106
+Spinal cord	ASTROCYTOMA,MALIGNANT	0	1	0	0	0.5132	0.5109	.	.
+GRANULAR CELL TUMOR	0	1	0	0	0.5132	0.5109	.	.
+Spleen	HEMANGIOSARCOMA	0	0	1	2	0.0655	.	0.5213	0.2637
+SARCOMA,NOS	1	0	0	2	0.1577	0.5054	0.5158	0.5161
+Stomach	NEUROENDOCRINE TUMOR,MALI	0	1	0	0	0.5132	0.5109	.	.
+Testis	LEYDIG CELL TUMOR	1	0	0	3	0.0511	0.5109	0.5213	0.3332
+Thoracic cavity	MESOTHELIOMA,MALIGNANT	1	0	0	0	0.7619	0.5109	0.5213	0.5161
+PARAGANGLIOMA,MALIGNANT	0	0	1	0	0.2540	.	0.5213	.
+Thymus	THYMOMA	1	0	0	2	0.1592	0.5109	0.5213	0.5245
+Thyroid	ADENOMA,C CELL	6	7	3	5	0.7011	0.5169	0.7877	0.5594
+ADENOMA,FOLLICULAR CELL	2	3	1	0	0.9491	0.5204	0.5239	0.7632
+CARCINOMA,C CELL	1	0	2	3	0.0747	0.5109	0.5322	0.3332
+CARCINOMA,FOLLICULAR CELL	0	1	2	0	0.6037	0.5109	0.2690	.
+Urinary bladder	PAPILLOMA,TRANSITIONAL CE	0	0	1	0	0.2540	.	0.5213	.
+Vertebra	CHONDROSARCOMA	0	0	0	1	0.2579	.	.	0.5213
+Whole body	HAEMANGIOMA+HAEMANGIOSARC	3	3	3	2	0.6800	0.3488	0.3693	0.5204
+Zymbal gland	ADENOCARCINOMA	1	0	0	0	0.7579	0.5054	0.5158	0.5106
+L558: Table 7B: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Female Rats
+(Using the Negative Control)
+L559: Organ Name	Tumor Name	0 mg	3 mg	10 mg	30 mg	P_Value	P_Value	P_Value	P_Value
+Neg C	Low	Med	High	Dose	L vs	M vs	H vs
+N=60 N=60 N=60 N=60 Resp Neg C Neg C Neg C
+Abdominal cavit	FIBROSARCOMA	0	0	0	1	0.2813	.	.	0.5684
+Adrenal	ADENOMA,CORTICAL CELL	1	1	1	2	0.3226	0.2816	0.2872	0.5942
+CARCINOMA,CORTICAL CELL	0	0	1	0	0.2812	.	0.5444	.
+PHEOCHROMOCYTOMA	0	4	2	6	0.0490	0.0797	0.2936	0.0313*
+PHEOCHROMOCYTOMA,MALIGNANT	0	1	0	0	0.5365	0.5393	.	.
+Cerebrum	ASTROCYTOMA,MALIGNANT	2	0	0	0	0.9535	0.7850	0.7897	0.8112
+OLIGODENDROGLIOMA,MALIGNANT	0	0	0	1	0.2813	.	.	0.5684
+Clitoral gland	ADENOMA	0	0	1	1	0.2256	.	0.5444	0.5729
+Ear	NEURAL CREST TUMOR	1	0	0	0	0.7824	0.5333	0.5385	0.5625
+Hemolymphoretic	LEUKEMIA,GRANULOCYTIC	0	1	0	0	0.5337	0.5444	.	.
+LEUKEMIA,LGL	0	0	0	2	0.0780	.	.	0.3205
+LYMPHOMA,MALIGNANT	2	2	1	0	0.9397	0.3770	0.5582	0.8112
+SARCOMA,HISTIOCYTIC	1	0	1	0	0.6728	0.5333	0.2872	0.5625
+Intestine,jejun	LEIOMYOMA	0	1	0	0	0.5365	0.5393	.	.
+Kidney	ADENOMA,RENAL CELL	0	0	1	0	0.2812	.	0.5444	.
+LIPOMA	0	1	0	0	0.5365	0.5393	.	.
+LIPOSARCOMA	0	0	1	0	0.2812	.	0.5444	.
+Liver	ADENOMA,HEPATOCELLULAR	1	1	1	0	0.7846	0.2880	0.2936	0.5684
+Lung(bronchus)	ADENOMA,BRONCHIOLO-ALVEOL	1	0	0	0	0.7865	0.5393	0.5444	0.5684
+Lymph node,mese	HEMANGIOSARCOMA	0	0	1	0	0.2812	.	0.5444	.
+Mammary gland	ADENOCARCINOMA	34	22	26	40	0.0371	0.9810	0.8794	0.3706
+ADENOMA	4	0	0	3	0.3826	0.9562	0.9581	0.6389
+CARCINOMA,ADENOSQUAMOUS C	1	0	0	0	0.7824	0.5333	0.5385	0.5625
+FIBROADENOMA	20	20	20	19	0.8241	0.5911	0.6223	0.7893
+MIXED TUMOR,MALIGNANT	2	0	0	1	0.5893	0.7850	0.7897	0.5942
+Oral cavity	CARCINOMA,SQUAMOUS CELL	0	1	0	0	0.5337	0.5444	.	.
+Ovary	GRANULOSA CELL TUMOR	1	0	0	0	0.7865	0.5393	0.5444	0.5684
+Pancreas	ADENOMA,ACINAR-ISLET CELL	0	1	0	0	0.5365	0.5393	.	.
+ADENOMA,ISLET CELL	8	5	2	4	0.9093	0.8055	0.9748	0.9188
+CARCINOMA,ISLET CELL	5	4	3	0	0.9966	0.6006	0.7382	0.9871
+Parathyroid	ADENOMA	1	1	2	0	0.7943	0.2880	0.5672	0.5684
+Pituitary	ADENOMA,PARS DISTALIS	51	32	32	22	1.0000	0.9999	0.9999	1.0000
+CARCINOMA,PARS DISTALIS	3	0	0	0	0.9903	0.9023	0.9055	0.9197
+L560: Table 7B: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Female Rats
+(Using the Negative Control)
+L561: Organ Name	Tumor Name	0 mg	3 mg	10 mg	30 mg	P_Value	P_Value	P_Value	P_Value
+Neg C	Low	Med	High	Dose	L vs	M vs	H vs
+N=60	N=60	N=60	N=60	Resp	Neg C	Neg C	Neg C
+Salivary gland	ADENOCARCINOMA	0	1	0	0	0.5365	0.5393	.	.
+Skin+subcutaneo	CARCINOMA,BASAL CELL	0	0	1	0	0.2812	.	0.5444	.
+FIBROMA	0	0	0	1	0.2813	.	.	0.5684
+FIBROSARCOMA	2	1	0	0	0.9552	0.5582	0.7897	0.8112
+HIBERNOMA	0	0	1	0	0.2812	.	0.5444	.
+KERATOACANTHOMA	0	0	1	0	0.2812	.	0.5444	.
+SARCOMA,NOS	1	0	0	0	0.7865	0.5393	0.5444	0.5684
+Spleen	HEMANGIOMA	0	0	0	1	0.2813	.	.	0.5684
+HEMANGIOSARCOMA	0	1	0	0	0.5365	0.5393	.	.
+Stomach	NEUROENDOCRINE TUMOR,MALI	0	0	1	0	0.2812	.	0.5444	.
+Thymus	THYMOMA	0	1	0	0	0.5365	0.5393	.	.
+Thyroid	ADENOMA,C CELL	7	4	4	5	0.7163	0.8091	0.8186	0.7790
+ADENOMA,FOLLICULAR CELL	0	0	2	1	0.2461	.	0.2936	0.5684
+CARCINOMA,C CELL	1	0	1	0	0.6769	0.5393	0.2936	0.5684
+PARAGANGLIOMA	1	0	0	0	0.7824	0.5333	0.5385	0.5625
+Uterus	CARCINOMA,ADENOSQUAMOUS C	1	0	0	0	0.7824	0.5333	0.5385	0.5625
+GRANULAR CELL TUMOR	1	0	0	0	0.7865	0.5393	0.5444	0.5684
+GRANULAR CELL TUMOR,MALIG	0	0	1	0	0.2812	.	0.5444	.
+POLYP,ENDOMETRIAL STROMAL	4	2	6	6	0.2303	0.7232	0.4721	0.5379
+Vagina	CARCINOMA,SQUAMOUS CELL	1	0	0	0	0.7824	0.5333	0.5385	0.5625
+GRANULAR CELL TUMOR	0	0	1	3	0.0279	.	0.5444	0.1792
+SARCOMA,VAGINAL STROMAL	0	0	1	0	0.2812	.	0.5444	.
+Whole body	HAEMANGIOMA+HAEMANGIOSARC	0	1	1	1	0.3555	0.5393	0.5444	0.5684
+L562: **Table 8A: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Male Mice
+(Using the Negative Control)**
+L563: Organ Name	Tumor Name	0 mg	75 mg	200 mg	500 mg	P_Value	P_Value	P_Value	P_Value
+Neg C
+N=60	Low
+N=60	Med
+N=60	High
+N=60	Dose
+Resp	L vs
+Neg C	M vs
+Neg C	H vs
+Neg C
+Adrenal	ADENOMA,CORTICAL CELL	1	1	0	0	0.8347	0.2593	0.5238	0.5402
+PHEOCHROMOCYTOMA,MALIGNANT	0	0	1	0	0.2701	.	0.5294	.
+Bone+bone marrow	HEMANGIOMA	1	0	1	0	0.6585	0.5122	0.2714	0.5402
+HEMANGIOSARCOMA	0	0	0	1	0.2717	.	.	0.5402
+Gallbladder	ADENOMA	0	1	1	0	0.5343	0.5122	0.5238	.
+Harderian gland	ADENOCARCINOMA	1	0	0	0	0.7688	0.5122	0.5238	0.5402
+ADENOMA	5	2	3	7	0.1600	0.8029	0.6948	0.4955
+Hemolymphoretic	LYMPHOMA,MALIGNANT	4	2	2	2	0.7683	0.6733	0.7043	0.7140
+SARCOMA,HISTIOCYTIC	1	1	0	3	0.1307	0.2593	0.5238	0.3801
+Hindlimb	HEMANGIOSARCOMA	0	1	0	0	0.5230	0.5181	.	.
+Intestine,ileum	ADENOCARCINOMA	1	0	1	0	0.6553	0.5060	0.2709	0.5341
+Intestine,jejun	ADENOCARCINOMA	0	0	0	1	0.2717	.	.	0.5402
+Kidney	ADENOMA,TUBULAR CELL	0	0	1	1	0.2117	.	0.5238	0.5402
+Liver	ADENOMA,HEPATOCELLULAR	12	10	8	11	0.6281	0.5974	0.8247	0.5981
+CARCINOMA,HEPATOCELLULAR	3	3	4	0	0.9593	0.3610	0.5526	0.9029
+HEMANGIOMA	0	1	1	0	0.5342	0.5122	0.5294	.
+HEMANGIOSARCOMA	0	1	1	4	0.0218*	0.5122	0.5238	0.0834
+Lung(bronchus)	ADENOMA,BRONCHIOLO-ALVEOL	4	8	13	5	0.6467	0.1993	0.0238	0.5874
+CARCINOMA,BRONCHIOLO-ALVE	2	3	3	5	0.1814	0.5234	0.5564	0.2993
+Pancreas	ADENOMA,ISLET CELL	2	0	0	0	0.9476	0.7651	0.7762	0.7915
+Pituitary	ADENOMA,PARS INTERMEDIA	0	0	1	0	0.2717	.	0.5238	.
+Prostate	ADENOCARCINOMA	0	0	1	0	0.2717	.	0.5238	.
+Skin+Subcutaneo	HEMANGIOSARCOMA	1	1	0	0	0.8303	0.2590	0.5176	0.5341
+Spleen	HEMANGIOMA	0	0	1	0	0.2717	.	0.5238	.
+HEMANGIOSARCOMA	0	1	1	0	0.5343	0.5122	0.5238	.
+Stomach	PAPILLOMA,SQUAMOUS CELL	1	1	0	2	0.2917	0.2593	0.5238	0.5609
+Testis	LEYDIG CELL TUMOR	0	0	1	1	0.2117	.	0.5238	0.5402
+Whole body	HAEMANGIOMA+HAEMANGIOSARC	2	3	3	5	0.1721	0.5229	0.5446	0.2875
+L564: Table 8B: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Female Mice
+(Using the Negative Control)
+L565: Organ Name	Tumor Name	0 mg	75 mg	200 mg	500 mg	P_Value	P_Value	P_Value	P_Value
+Neg C	Low	Med	High	Dose	L vs
+Neg C	M vs
+Neg C	H vs
+Neg C
+N=60 N=60 N=60 N=60 Resp
+Abdominal cavit	HEMANGIOSARCOMA	1	0	0	0	0.7178	0.4524	0.4588	0.4651
+Adrenal	PHEOCHROMOCYTOMA	0	1	0	1	0.2924	0.4524	.	0.4651
+Bone+bone marro	HEMANGIOMA	0	0	0	1	0.2454	.	.	0.4651
+HEMANGIOSARCOMA	1	2	0	0	0.8774	0.4279	0.4588	0.4651
+HEMANGIOSARCOMA	1	0	0	0	0.7178	0.4524	0.4588	0.4651
+Gallbladder	ADENOMA	1	0	0	0	0.7178	0.4524	0.4588	0.4651
+Harderian gland	ADENOCARCINOMA	1	0	0	0	0.7178	0.4524	0.4588	0.4651
+ADENOMA	5	0	2	0	0.9775	0.9556	0.7213	0.9606
+Hemolymphoretic	LEUKEMIA,GRANULOCYTIC	0	0	0	1	0.2500	.	.	0.4713
+LYMPHOMA,MALIGNANT	13	11	12	6	0.9480	0.5765	0.5303	0.9004
+SARCOMA,HISTIOCYTIC	2	3	1	1	0.7533	0.3991	0.4296	0.4391
+Hindlimb	OSTEOSARCOMA	0	0	1	0	0.4847	.	0.4588	.
+Intestine,duode	ADENOMA	1	0	1	0	0.5958	0.4471	0.7042	0.4598
+Intestine,ileum	HEMANGIOSARCOMA	0	0	1	0	0.4847	.	0.4588	.
+Liver	ADENOMA,HEPATOCELLULAR	0	1	1	1	0.2748	0.4524	0.4588	0.4651
+CHOLANGIOCARCINOMA	0	0	1	0	0.4847	.	0.4588	.
+HEMANGIOMA	1	1	2	0	0.7280	0.7031	0.4376	0.4651
+HEMANGIOSARCOMA	1	2	0	3	0.1499	0.4279	0.4588	0.2571
+Lower jaw	FIBROSARCOMA	0	0	0	1	0.2500	.	.	0.4713
+Lung(bronchus)	ADENOMA,BRONCHIOLO-ALVEOL	6	9	9	9	0.2231	0.1663	0.1952	0.1952
+CARCINOMA,BRONCHIOLO-ALVE	3	4	7	7	0.0820	0.4072	0.1062	0.1227
+Mammary gland	ADENOCARCINOMA	4	14	12	12	0.0793	0.0037*	0.0159	0.0139
+ADENOMA	0	1	1	1	0.2748	0.4524	0.4588	0.4651
+CARCINOMA,ADENOSQUAMOUS	1	3	15	6	0.0528	0.2394	<0.001*	0.0392
+FIBROADENOMA	0	0	0	1	0.2454	.	.	0.4651
+Mammary gland	ADENOMA+ADENOCARCINOMA	4	14	12	13	0.0546	0.0037*	0.0159	0.0085*
+ADENOMA+ADENOCARCINOMA+CA	4	16	23	16	0.0152	0.0011*	<0.001*	0.0011*
+Ovary	ADENOMA,TUBULOSTROMAL	1	0	0	0	0.7178	0.4524	0.4588	0.4651
+CYSTADENOCARCINOMA	0	1	0	0	0.4847	0.4524	.	.
+GRANULOSA CELL TUMOR	2	0	0	0	0.9216	0.7031	0.7101	0.7168
+GRANULOSA CELL TUMOR,MALI	0	0	0	1	0.2454	.	.	0.4651
+LUTEOMA	2	0	0	0	0.9216	0.7031	0.7101	0.7168
+Pancreas	ADENOMA,ACINAR CELL	1	0	0	0	0.7178	0.4524	0.4588	0.4651
+ADENOMA,ISLET CELL	1	0	0	0	0.7178	0.4524	0.4588	0.4651
+L566: Table 8B: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Female Mice
+(Using the Negative Control)
+L567: Organ Name	Tumor Name	0 mg	75 mg	200 mg	500 mg	P_Value	P_Value	P_Value	P_Value
+Neg C	Low	Med	High	Dose	L vs	M vs	H vs
+N=60	N=60	N=60	N=60	Resp	Neg C	Neg C	Neg C
+Pituitary	ADENOMA,PARS DISTALIS	2	5	7	7	0.0632	0.1543	0.0461	0.0546
+ADENOMA,PARS INTERMEDIA	0	0	0	2	0.0591	.	.	0.2134
+Skin+Subcutaneo	HEMANGIOMA	0	1	0	0	0.4847	0.4524	.	.
+HEMANGIOSARCOMA	0	1	0	0	0.4847	0.4524	.	.
+LEIOMYOSARCOMA	1	0	0	0	0.7178	0.4524	0.4588	0.4651
+SARCOMA,NOS	0	1	1	2	0.1073	0.4524	0.4588	0.2134
+Spleen	HEMANGIOMA	1	0	0	0	0.7178	0.4524	0.4588	0.4651
+HEMANGIOSARCOMA	0	1	0	0	0.4847	0.4524	.	.
+Stomach	CARCINOMA,BASAL CELL	1	0	0	0	0.7178	0.4524	0.4588	0.4651
+CARCINOMA,SQUAMOUS CELL	1	0	0	0	0.7178	0.4524	0.4588	0.4651
+PAPILLOMA,SQUAMOUS CELL	1	0	1	0	0.6001	0.4524	0.7101	0.4651
+Tail	OSTEOSARCOMA	1	0	0	0	0.7178	0.4524	0.4588	0.4651
+Uterus	ADENOCARCINOMA	1	0	0	0	0.7178	0.4524	0.4588	0.4651
+ADENOMA	0	0	0	1	0.2454	.	.	0.4651
+HEMANGIOSARCOMA	2	0	0	0	0.9216	0.7031	0.7101	0.7168
+LEIOMYOSARCOMA	0	0	1	0	0.4847	.	0.4588	.
+POLYP,ENDOMETRIAL STROMAL	3	1	1	1	0.7514	0.6165	0.6270	0.6471
+SARCOMA,ENDOMETRIAL STROM	2	1	0	0	0.9231	0.4279	0.7101	0.7168
+Vagina	LEIOMYOSARCOMA	1	0	1	0	0.6001	0.4524	0.7101	0.4651
+Whole body	HAEMANGIOMA+HAEMANGIOSARC	6	5	3	3	0.8127	0.6208	0.6556	0.6703
+L568: Table 9A: Tumor Rates and P-Values for Pairwise Comparisons of Vehicle and Negative control groups Male Rats
+L569: Organ Name	Tumor Name	Neg Con	Veh	P_Value
+Veh C vs
+Neg C
+N=60	Veh
+ConN=60	N=60	Veh
+ConN=60
+Abdominal cavit	HEMANGIOSARCOMA	1	0	0	0	0.5161
+Adrenal	CARCINOMA,CORTICAL CELL	1	0	0	0	0.5161
+PHEOCHROMOCYTOMA	6	9	0	0	0.3189
+PHEOCHROMOCYTOMA,MALIGNANT	1	1	0	0	0.2637
+Bone,Cranial	OSTEOMA	1	0	0	0	0.5161
+Cerebellum	GRANULAR CELL TUMOR	1	2	0	0	0.5161
+Cerebrum	ASTROCYTOMA,MALIGNANT	0	1	0	0	0.5161
+GRANULAR CELL TUMOR	0	1	0	0	0.5161
+HEMANGIOMA	1	0	0	0	0.5161
+OLIGODENDROGIOMA,MALIGNANT	1	0	0	0	0.5106
+Eye	MELANOMA,AMELANOTIC	0	1	0	0	0.5161
+Hemolymphoretic	LEUKEMIA,LGL	0	1	0	0	0.5161
+LYMPHOMA,MALIGNANT	1	0	0	0	0.5106
+SARCOMA,HISTIOCYTIC	4	1	0	0	0.8258
+Hindlimb	OSTEOSARCOMA	0	1	0	0	0.5161
+Intestine,ileum	LEIOMYOSARCOMA	1	0	0	0	0.5161
+Liver	ADENOMA,HEPATOCELLULAR	2	3	0	0	0.5407
+CARCINOMA,HEPATOCELLULAR	0	2	0	0	0.2637
+Mammary gland	ADENOCARCINOMA	1	0	0	0	0.5161
+Pancreas	ADENOMA,ACINAR CELL	3	0	0	0	0.8906
+ADENOMA,ISLET CELL	17	17	0	0	0.5065
+CARCINOMA,ACINAR CELL	0	1	0	0	0.5161
+CARCINOMA,ISLET CELL	8	9	0	0	0.5381
+Parathyroid	ADENOMA	2	0	0	0	0.7686
+Pituitary	ADENOMA,PARS DISTALIS	24	35	0	0	0.0783
+ADENOMA,PARS INTERMEDIA	1	3	0	0	0.3247
+Prostate	ADENOCARCINOMA	1	1	0	0	0.2581
+Skin+subcutaneo	CARCINOMA,SQUAMOUS CELL	1	0	0	0	0.5161
+FIBROMA	2	1	0	0	0.5161
+FIBROSARCOMA	2	0	0	0	0.7632
+HEMANGIOSARCOMA	1	0	0	0	0.5106
+KERATOACANTHOMA	1	4	0	0	0.2014
+LIPOSARCOMA	1	0	0	0	0.5161
+SCHWANNOMA,MALIGNANT	1	0	0	0	0.5106
+L570: Table 9A: Tumor Rates and P-Values for Pairwise Comparisons of Vehicle and Negative control groups
+Male Rats
+L571: Organ Name	Tumor Name	Neg Con	Veh	P_Value
+Veh C vs
+Neg C
+N=60	Veh
+ConN=60	N=60	Veh
+ConN=60
+Spleen	SARCOMA,NOS	1	0	0	0	0.5106
+Testis	LEYDIG CELL TUMOR	1	1	0	0	0.2637
+Thoracic cavity	MESOTHELIOMA,MALIGNANT	1	0	0	0	0.5161
+Thymus	THYMOMA	1	0	0	0	0.5161
+Thyroid	ADENOMA,C CELL	6	6	0	0	0.4101
+ADENOMA,FOLLICULAR CELL	2	2	0	0	0.3247
+CARCINOMA,C CELL	1	1	0	0	0.2637
+Whole body	HAEMANGIOMA+HAEMANGIOSARC	3	0	0	0	0.8868
+Zymbal gland	ADENOCARCINOMA	1	0	0	0	0.5106
+L572: Table 9B: Tumor Rates and P-Values for Pairwise Comparisons of Vehicle and Negative control groups
+Female Rats
+L573: Organ Name	Tumor Name	Neg Con	Veh	P_Value
+Veh C vs
+Neg C
+N=60	ConN=60	Veh	Neg C
+Adrenal	ADENOMA,CORTICAL CELL	1	2	0.5000	
+PHEOCHROMOCYTOMA	0	3	0.1249	
+PHEOCHROMOCYTOMA,MALIGNANT	0	1	0.5000	
+Cerebrum	ASTROCYTOMA,MALIGNANT	2	0	0.7470	
+OLIGODENDROGLIOMA,MALIGNANT	0	1	0.5060	
+Ear	NEURAL CREST TUMOR	1	1	0.7530	
+Hemolymphoretic	LYMPHOMA,MALIGNANT	2	1	0.5000	
+SARCOMA,HISTIOCYTIC	1	2	0.5000	
+Intestine,rectu	LEIOMYOSARCOMA	0	1	0.5060	
+Kidney	ADENOMA,RENAL CELL	0	1	0.5000	
+Liver	ADENOMA,HEPATOCELLULAR	1	2	0.5000	
+Lung(bronchus)	ADENOMA,BRONCHIOL-ALVEOL	1	0	0.5000	
+Lymph node,meso	HEMANGIOMA	0	1	0.5060	
+Mammary gland	ADENOCARCINOMA	34	27	0.7674	
+ADENOMA	4	0	0.9391	
+CARCINOMA,ADENOSQUAMOUS C	1	0	0.4940	
+FIBROADENOMA	20	26	0.1730	
+MIXED TUMOR,MALIGNANT	2	2	0.6921	
+Ovary	GRANULOSA CELL TUMOR	1	0	0.5000	
+Pancreas	ADENOMA,ISLET CELL	8	2	0.9521	
+CARCINOMA,ISLET CELL	5	1	0.9047	
+Parathyroid	ADENOMA	1	0	0.5000	
+Pituitary	ADENOMA,PARS DISTALIS	51	50	0.5000	
+CARCINOMA,PARS DISTALIS	3	1	0.6921	
+Skin+subcutaneo	FIBROMA	0	1	0.5000	
+FIBROSARCOMA	2	0	0.7470	
+SARCOMA,NOS	1	0	0.5000	
+Thyroid	ADENOMA,C CELL	7	5	0.6046	
+ADENOMA,FOLLICULAR CELL	0	1	0.5000	
+CARCINOMA,C CELL	1	0	0.5000	
+CARCINOMA,FOLLICULAR CELL	0	1	0.5000	
+PARAGANGLIOMA	1	0	0.4940	
+Uterus	CARCINOMA,ADENOSQUAMOUS C	1	0	0.4940	
+GRANULAR CELL TUMOR	1	1	0.2530
+L574: Table 9B: Tumor Rates and P-Values for Pairwise Comparisons of Vehicle and Negative control groups
+Female Rats
+L575: Organ Name	Tumor Name	Neg Con	Veh	P_Value
+N=60	ConN=60	Veh	Neg C	Veh C vs Neg C
+Uterus	POLYP,ENDOMETRIAL STROMAL	4	2	0.6505
+SARCOMA,ENDOMETRIAL STROM	0	1	0.5000
+SCHWANNOMA,MALIGNANT	0	1	0.5000
+Vagina	CARCINOMA,SQUAMOUS CELL	1	1	0.7470
+Whole body	HAEMANGIOMA+HAEMANGIOSARC	0	1	0.5060
+L576: Table 10A: Tumor Rates and P-Values for Pairwise Comparisons of Vehicle and Negative control groups
+Male Mice
+L577: Organ Name	Tumor Name	Neg Con	Veh	P_Value
+Veh C vs
+Neg C
+N=60	ConN=60	Veh	ConN=60
+Adrenal	ADENOMA,CORTICAL CELL	1	0	0	0	0.5062
+Bone+bone marro	HEMANGIOMA	1	0	0	0	0.5062
+Cerebrum	MENINGIOMA,MALIGNANT	0	1	1	0	0.5062
+Gallbladder	ADENOMA	0	1	1	0	0.5062
+Harderian gland	ADENOCARCINOMA	1	0	0	0	0.5062
+ADENOMA	5	1	1	0	0.9047
+Hemolymphoretic	LYMPHOMA,MALIGNANT	4	2	2	0	0.6505
+SARCOMA,HISTIOCYTIC	1	0	0	0	0.5062
+Intestine,ileum	ADENOCARCINOMA	1	0	0	0	0.5000
+Intestine,jejun	ADENOMA	0	1	1	0	0.5062
+Liver	ADENOMA,HEPATOCELLULAR	12	10	10	0	0.5974
+CARCINOMA,HEPATOCELLULAR	3	3	3	0	0.3495
+HEMANGIOSARCOMA	0	2	2	0	0.2593
+Lung(bronchus)	ADENOMA,BRONCHIOL-ALVEOL	4	16	16	0	0.0024*
+CARCINOMA,BRONCHIOL-ALVE	2	2	2	0	0.3172
+Pancreas	ADENOMA,ISLET CELL	2	1	1	0	0.5094
+Pituitary	ADENOMA,PARS INTERMEDIA	0	2	2	0	0.2531
+Skin+Subcutaneo	HEMANGIOSARCOMA	1	0	0	0	0.5000
+Stomach	PAPILLOMA,SQUAMOUS CELL	1	0	0	0	0.5062
+Whole body	HAEMANGIOMA+HAEMANGIOSARC	2	2	2	0	0.3170
+L578: Table 10B: Tumor Rates and P-Values for Pairwise Comparisons of Vehicle and Negative control groups
+Female Mice
+L579: Organ Name	Tumor Name	Neg Con	Veh	P_Value
+Veh C vs
+Neg C
+N=60	ConN=60	Veh	Neg C
+Abdominal cavit	HEMANGIOSARCOMA	1	0	0	0	0.4773
+Adrenal	ADENOMA,SUBCAPSULAR CELL	0	1	1	0	0.4773
+PHEOCHROMOCYTOMA	0	1	1	0	0.4773
+Bone+bone marro	HEMANGIOMA	0	1	1	0	0.4773
+1	2	2	0	0.4655
+HEMANGIOSARCOMA	1	0	0	0	0.4773
+Gallbladder	ADENOMA	1	0	0	0	0.4773
+Harderian gland	ADENOCARCINOMA	1	1	1	0	0.7296
+ADENOMA	5	2	2	0	0.7437
+Hemolymphoretic	LYMPHOMA,MALIGNANT	13	10	10	0	0.6182
+SARCOMA,HISTIOCYTIC	2	7	7	0	0.0644
+Intestine,duode	ADENOMA	1	2	2	0	0.4663
+Liver	HEMANGIOMA	1	1	1	0	0.7296
+HEMANGIOSARCOMA	1	2	2	0	0.4655
+Lung(bronchus)	ADENOMA,BRONCHIOL-ALVEOL	6	9	9	0	0.2405
+CARCINOMA,BRONCHIOL-ALVE	3	4	4	0	0.4486
+Mammary gland	ADENOCARCINOMA	4	2	2	0	0.6064
+ADENOMA	0	1	1	0	0.4773
+CARCINOMA,ADENOSQUAMOUS	1	1	1	0	0.7296
+Mammary_gland	ADENOMA+ADENOCARCINOMA	4	3	3	0	0.4498
+ADENOMA+ADENOCARCINOMA+CARCINOMA	4	3	3	0	0.4498
+Ovary	ADENOMA,TUBULOSTROMAL	1	0	0	0	0.4773
+GRANULOSA CELL TUMOR	2	0	0	0	0.7296
+LUTEOMA	2	0	0	0	0.7296
+Pancreas	ADENOMA,ACINAR CELL	1	0	0	0	0.4773
+ADENOMA,ISLET CELL	1	0	0	0	0.4773
+Pituitary	ADENOMA,PARS DISTALIS	2	0	0	0	0.7296
+Skin+Subcutaneo	FIBROSARCOMA	0	1	1	0	0.4773
+LEIOMYOSARCOMA	1	0	0	0	0.4773
+Spleen	HEMANGIOMA	1	0	0	0	0.4773
+HEMANGIOSARCOMA	0	2	2	0	0.2249
+Stomach	CARCINOMA,BASAL CELL	1	0	0	0	0.4773
+CARCINOMA,SQUAMOUS CELL	1	0	0	0	0.4773
+PAPILLOMA,SQUAMOUS CELL	1	0	0	0	0.4773
+L580: Table 10B: Tumor Rates and P-Values for Pairwise Comparisons of Vehicle and Negative control groups
+Female Mice
+L581: Organ Name	Tumor Name	Neg Con
+N=60	Veh
+ConN=60	P_Value
+Veh C vs
+Neg C	
+Tail	FIBROSARCOMA	0	1	0.4831	
+OSTEOSARCOMA	1	0	0.4773	
+Uterus	ADENOCARCINOMA	1	0	0.4773	
+ADENOMA	0	1	0.4831	
+HEMANGIOSARCOMA	2	0	0.7296	
+LEIOMYOMA	0	2	0.2249	
+LEIOMYOSARCOMA	0	1	0.4773	
+POLYP, ENDOMETRIAL STROMAL	3	5	0.3065	
+SARCOMA, ENDOMETRIAL STROM	2	0	0.7296	
+Vagina	LEIOMYOSARCOMA	1	0	0.4773	
+Vertebra	HEMANGIOSARCOMA	0	1	0.4773	
+OSTEOMA	0	1	0.4773	
+Whole body	HAEMANGIOMA+HAEMANGIOSARC	6	4	0.5561
+L582: Figure 1A: Kaplan-Meier Survival Functions for Male Rats
+L583: Figure 1B: Kaplan-Meier Survival Functions for Female Rats
+L584: Figure 2A: Kaplan-Meier Survival Functions for Male Mice
+L585: Figure 2B: Kaplan-Meier Survival Functions for Female Mice
+L586: ## 6. References
+L587: - Peto, R., M.C. Pike, N.E. Day, R.G. Gray, P.N. Lee, S. Parish, J. Peto, Richards, and J. Wahrendorf, "Guidelines for sample sensitive significance test for carcinogenic effects in long-term animal experiments", Long term and short term screening assays for carcinogens: A critical appraisal, International agency for research against cancer monographs, *Annex to supplement, World Health Organization, Geneva*, 311-426, 1980.
+- Bailer Åj, Portier CJ (1988). "Effects of treatment-induced mortality and tumor-induced mortality on tests for carcinogenicity in small samples." *Biometrics*, 44, 417-431.
+- Bieler, G. S. and Williams, R. L. (1993). "Ratio estimates, the delta method, and quantal response tests for increased carcinogenicity". *Biometrics* 49, 793-801.
+- Tarone RE, "Test for trend in life table analysis", *Biometrika* 1975, 62: 679-82
+- Lin K.K. and Rahman M.A., "Overall false positive rates in tests for linear trend in tumor incidence in animal carcinogenicity studies of new drugs", *Journal of Biopharmaceutical Statistics*, 8(1), 1-15, 1998.
+- Haseman, J, "A re-examination of false-positive rates for carcinogenesis studies", *Fundamental and Applied Toxicology*, 3: 334-339, 1983.
+- Guidance for Industry. Statistical Aspects of the Design, Analysis, and Interpretation of Chronic Rodent Carcinogenicity Studies of Pharmaceuticals (Draft Guidance). U.S. Department of Health and Human Services, Food and Drug Administration, Center for Drug Evaluation and Research (CDER), May 2001.
+L588: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L589: /s/
+L590: MOHAMMAD A RAHMAN
+L591: 12/29/2014
+L592: KARL K LIN
+L593: 12/29/2014
+L594: Concur with review
+L595: ## STATISTICS FILING CHECKLIST FOR A NEW NDA/BLA
+L596: NDA Number: 205422 original-1 Applicant: Xiang Ling
+L597: Stamp Date: 7/11/2014
+L598: Drug Name: Brexpiprazole
+L599: NDA/BLA Type: original NDA
+L600: On **initial** overview of the NDA/BLA application for RTF:
+L601: Content Parameter	Yes	No	NA	Comments
+1	Index is sufficient to locate necessary reports, tables, data, etc.	X	
+2	ISS, ISE, and complete study reports are available (including original protocols, subsequent amendments, etc.)	X	Original protocol is in IND submission
+3	Safety and efficacy were investigated for gender, racial, and geriatric subgroups investigated (if applicable).	X	
+4	Data sets in EDR are accessible and do they conform to applicable guidances (e.g., existence of define.pdf file for data sets).	X
+L602: IS THE STATISTICAL SECTION OF THE APPLICATION FILEABLE? yes
+L603: If the NDA/BLA is not fileable from the statistical perspective, state the reasons and provide comments to be sent to the Applicant.
+L604: Please identify and list any potential review issues to be forwarded to the Applicant for the 74-day letter.
+L605: Content Parameter (possible review concerns for 74-day letter)	Yes	No	NA	Comment
+Designs utilized are appropriate for the indications requested.	X	
+Endpoints and methods of analysis are specified in the protocols/statistical analysis plans.	X	
+Interim analyses (if present) were pre-specified in the protocol and appropriate adjustments in significance level made. DSMB meeting minutes and data are available.	X	
+Appropriate references for novel statistical methodology (if present) are included.	X	
+Safety data organized to permit analyses across clinical trials in the NDA/BLA.	X	
+Investigation of effect of dropouts on statistical analyses as described by applicant appears adequate.	X
+L606: File name: 5_Statistics Filing Checklist for a New NDA_BLA110207
+L607: ## STATISTICS FILING CHECKLIST FOR A NEW NDA/BLA
+L608: Xiang ling
+L609: 8/28/2014
+L610: Reviewing Statistician
+L611: Date
+L612: Supervisor/Team Leader
+L613: Date
+L614: File name: 5_Statistics Filing Checklist for a New NDA_BLA110207
+L615: Reference ID: 3618534
+L616: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L617: /s/
+L618: XIANG LING
+L619: 08/28/2014
+L620: PEILING YANG
+L621: 09/01/2014
+L622: Screening	Double-blind Treatment	Follow-up
+Adults who would benefit from hospitalization or continued hospitalization for acute relapse of schizophrenia (Total BPRS score \ge 40, AND score of \ge 4 on 2 or more of the following BPRS items: hallucinatory behavior, unusual thought content, conceptual disorganization, or suspiciousness, AND CGI-S \ge 4)
+(N = 920 screened)
+(N = 660 randomized)	Brexpiprazole 4 mg/daya (N = 180)	
+Brexpiprazole 2 mg/daya (N = 180)	
+Brexpiprazole 1 mg/day (N = 120)	
+Placebo (N = 180)	
+1 or more visits as needed
+Day -14 to -1	Baseline (Day 1)
+Randomization	Titrationa	Week 1	Week 2	Week 3	Week 4	Week 5	Week 6/
+End of Treatment
+Eligible subjects have option to enter open-label trial	Telephone contact or clinic visit
+30 (+ 2) Days
+Applies only to subjects not entering open-label trial
+a Titration to assigned dose from Baseline to the Week 1 visit for subjects randomized to brexpiprazole 4 or 2 mg/day.
+L623: Figure 2 is a schematic diagram illustrating the Study 231 design, divided into Screening, Double-blind Treatment, and Follow-up phases.
+Screening: Adults who would benefit from hospitalization or continued hospitalization for acute relapse of schizophrenia (Total BPRS score \ge 40 AND score of \ge 4 on 2 or more of the following BPRS items: hallucinatory behavior, unusual thought content, conceptual disorganization, or suspiciousness, AND CGI-S \ge 4). (N = 880 screened, N = 630 randomized).
+Double-blind Treatment: Randomization occurs at Baseline (Day 1). The treatment groups and planned number of patients (N) are:
+Brexipiprazole 4 mg/daya (N = 180)
+Brexipiprazole 2 mg/daya (N = 180)
+Brexipiprazole 0.25 mg/day (N = 90)
+Placebo (N = 180)
+The treatment period spans from Baseline (Day 1) through Week 6/End of Treatment. Titrationa occurs from Baseline to the Week 1 visit for subjects randomized to brexpiprazole 4 or 2 mg/day.
+Follow-up: Telephone contact or clinic visit for 30 (+ 2) Days. Applies only to subjects not entering open-label trial.
+aTitration to assigned dose from Baseline to the Week 1 visit for subjects randomized to brexpiprazole 4 or 2 mg/day.
+L624: Figure 3 is a line graph showing the Mean Change from Baseline in PANSS Total Score (Y-axis, ranging from 0 to -25) over 6 Weeks (X-axis) for Study 230, analyzed using MMRM. The graph compares four treatment groups: Brex_1mg (green solid line), Brex_2mg (red dashed line), Brex_4mg (red dashed line), and Placebo (black solid line). All groups show a decrease in PANSS score over time. The Placebo group shows the largest decrease, reaching approximately -18 by Week 6. The Brex groups show progressively smaller decreases, with Brex_1mg showing the smallest decrease, reaching approximately -15 by Week 6.
+L625: Figure 4 is a line graph showing the Mean Change from Baseline in PANSS Total Score (Y-axis, ranging from 0 to -25) over 6 Weeks (X-axis) for Study 231, analyzed using MMRM. The graph compares four treatment groups: Brex_.25 (green solid line), Brex_2mg (red dashed line), Brex_4mg (red dashed line), and Placebo (black solid line). All groups show a decrease in PANSS score over time. The Placebo group shows the largest decrease, reaching approximately -18 by Week 6. The Brex groups show progressively smaller decreases, with Brex_.25 showing the smallest decrease, reaching approximately -15 by Week 6.
+L626: Figure 5 displays two scatter plots showing the Treatment Difference in PANSS total score (Y-axis, ranging from -50 to 60) versus Site size (Total Number of Subjects) (X-axis, ranging from 0 to 35) for Study 230, comparing BREX 2mg vs Placebo (left panel) and BREX 4mg vs Placebo (right panel). The data points are widely scattered, indicating high variability in the mean change from baseline across different study centers.
+Scatter plot showing Treatment Difference in PANSS total score versus Site size (Total Number of Subjects) for Study 230, comparing BREX 2mg vs Placebo and BREX 4mg vs Placebo.
+L627: Figure 6 displays two scatter plots showing the Treatment Difference in PANSS total score (Y-axis, ranging from -60 to 50) versus Site size (Total Number of Subjects) (X-axis, ranging from 0 to 45) for Study 231, comparing BREX 2mg vs Placebo (left panel) and BREX 4mg vs Placebo (right panel). The data points are widely scattered, indicating high variability in the mean change from baseline across different study centers.
+Scatter plot showing Treatment Difference in PANSS total score versus Site size (Total Number of Subjects) for Study 231, comparing BREX 2mg vs Placebo and BREX 4mg vs Placebo.
+L628: Scatter plot showing Mean change from baseline in MADRS Total Score by Site size (#subjects) for Brexpiprazole 3 mg and Placebo groups. The Y-axis is Mean change from baseline in MADRS (ranging from -25 to 10). The X-axis is Site size (#subjects) (ranging from 0 to 16). The dotted line indicates the mean of by-site averages of change from baseline in MADRS total score, which is approximately -5. The Brexpiprazole 3 mg group shows a wide distribution of mean changes, mostly negative, with several sites showing changes near or below the dotted line. The Placebo group shows a tighter distribution, mostly negative, centered around -5, with one site showing a positive change.
+L629: Figure 2 displays two scatter plots showing the Mean change from baseline in MADRS Total Score (Y-axis, ranging from -35 to 15) versus Site size (#subjects) (X-axis, ranging from 0 to 20) for Trial 228.
+The left plot is titled "Brexpiprazole 2 mg" and the right plot is titled "Placebo". Both plots show numerous data points (circles) representing individual sites. A dotted horizontal line is present in both plots, indicating the mean of by-site averages of change from baseline in MADRS total score.
+In the Brexpiprazole 2 mg plot, the mean change from baseline is slightly negative (around -5). In the Placebo plot, the mean change from baseline is slightly positive (around 0).
+L630: Kaplan-Meier Curve
+Male Rat All Groups
+Y-axis: Survival Distribution Function (0.00 to 1.00)
+X-axis: Time in Week to Death or Sacrifice (0 to 120)
+STRATA:
+dosage High
+Censored dosage High
+dosage Medium
+Censored dosage Medium
+dosage Low
+Censored dosage Low
+dosage Neg C
+Censored dosage Neg C
+dosage Veh C
+Censored dosage Veh C
+L631: Kaplan-Meier Curve
+Female Rat All Groups
+Y-axis: Survival Distribution Function (0.00 to 1.00)
+X-axis: Time In Week to Death or Sacrifice (0 to 120)
+STRATA:
+Black line: dosegrp High
+Blue line: dosegrp Medium
+Red line: dosegrp Low
+Green line: dosegrp Veh C
+Censored data points are marked with open circles.
+Censored dosegrp High
+Censored dosegrp Medium
+Censored dosegrp Low
+Censored dosegrp Neg C
+Censored dosegrp Veh C
+L632: Kaplan-Meier Curve
+Male Mouse All Groups
+Y-axis: Survival Distribution Function (0.00 to 1.00)
+X-axis: Time In Week to Death or Sacrifice (0 to 100)
+STRATA:
+Black line: dosage High
+Blue line: dosage Medium
+Red line: dosage Low
+Green line: dosage Veh C
+Censored data points are marked with open circles.
+Censored dosage High
+Censored dosage Medium
+Censored dosage Low
+Censored dosage Neg C
+Censored dosage Veh C
+L633: Kaplan-Meier Curve
+Female Mouse All Groups
+Y-axis: Survival Distribution Function (0.00 to 1.00)
+X-axis: Time In Week to Death or Sacrifice (0 to 100)
+STRATA:
+Black line: dosage High
+Blue line: dosage Medium
+Red line: dosage Low
+Green line: dosage Veh C
+Censored data points are marked with open circles.
+Censored dosage High
+Censored dosage Medium
+Censored dosage Low
+Censored dosage Neg C
+Censored dosage Veh C

@@ -1,0 +1,68 @@
+{
+  "app": "NDA021928",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 272)",
+  "_raw": "Analyzing the card for quality issues.\n\nLet me evaluate each automated flag and check for other problems.\n\n**Uncited numbers:**\n- `pivotal_trials[0]/n` \"1022\" \u2014 the N\u22481022 is a computed sum (349+329+344=1022). Derived from cited values. Low/acceptable.\n- `result` \"9\" and \"12\" \u2014 these are \"Weeks 9-12",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "1022",
+        "text": "N\u22481022 (Varenicline 349, Zyban 329, Placebo 344)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "9",
+        "text": "4-week CQR (Weeks 9-12): Varenicline 44.4% vs Placebo 17.7% (OR 3.91, 95% CI 2.7"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "12",
+        "text": "4-week CQR (Weeks 9-12): Varenicline 44.4% vs Placebo 17.7% (OR 3.91, 95% CI 2.7"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "1023",
+        "text": "N\u22481023 (Varenicline 343, Zyban 340, Placebo 340)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "4",
+        "text": "4-week CQR (Weeks 9-12): Varenicline 44.0% vs Placebo 17.7% (OR 3.85, 95% CI 2.6"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "9",
+        "text": "4-week CQR (Weeks 9-12): Varenicline 44.0% vs Placebo 17.7% (OR 3.85, 95% CI 2.6"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "12",
+        "text": "4-week CQR (Weeks 9-12): Varenicline 44.0% vs Placebo 17.7% (OR 3.85, 95% CI 2.6"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "10",
+        "text": "Application received November 10, 2005 and approved; no prior complete response/"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2005",
+        "text": "Application received November 10, 2005 and approved; no prior complete response/"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "10",
+        "text": "CHANTIX (varenicline), a first-in-class new molecular entity, was received Novem"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2005",
+        "text": "CHANTIX (varenicline), a first-in-class new molecular entity, was received Novem"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

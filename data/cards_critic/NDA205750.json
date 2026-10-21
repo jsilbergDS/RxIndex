@@ -1,0 +1,62 @@
+{
+  "app": "NDA205750",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "medium",
+      "issue": "Survival figure '41 of 62 (67%)' for SEDs conflicts with the trial N of 50 SED patients stated in pivotal_trials[0].n, an internal inconsistency in denominators."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flags (91, 10, 10, 1) are the trial identifier 'CAC-91-10-10' and should be excluded as a study ID."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flags (2882, 2882, 1) are PMR/PMC identifiers '2882-1' and '2882-2' and should be excluded as study/requirement IDs."
+    },
+    {
+      "field": "key_safety.citations[0].line",
+      "severity": "low",
+      "issue": "The 'Most common adverse reactions (\u22651%)' quote is attributed to line 18 of the label doc, the same line cited elsewhere for the trial protocol description, suggesting a possible line mislabel (content is otherwise a valid safety statement)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "91",
+        "text": "This 505(b)(2) NDA for an orphan-designated bile acid received Priority review a"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "10",
+        "text": "This 505(b)(2) NDA for an orphan-designated bile acid received Priority review a"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "10",
+        "text": "This 505(b)(2) NDA for an orphan-designated bile acid received Priority review a"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2882",
+        "text": "This 505(b)(2) NDA for an orphan-designated bile acid received Priority review a"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "This 505(b)(2) NDA for an orphan-designated bile acid received Priority review a"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2882",
+        "text": "This 505(b)(2) NDA for an orphan-designated bile acid received Priority review a"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "app": "NDA202276",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting value: line 1 column 1 (char 0)",
+  "_raw": "<think>\nLet me analyze this card carefully.\n\nFirst, the automated flags:\n- uncited_numbers: Most are dose numbers (50 mg, 200 mg, 100 mg), study IDs (302), or counts covered elsewhere. Let me check each:\n  - pivotal_trials[0]/n \"50\" - this is \"avanafil 50 mg\" a dose, false positive\n  - pivotal_trial",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "50",
+        "text": "646 randomized (placebo 162, avanafil 50 mg 161, 100 mg 161, 200 mg 162)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "200",
+        "text": "646 randomized (placebo 162, avanafil 50 mg 161, 100 mg 161, 200 mg 162)"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "4",
+        "text": "Multi-center, randomized, double-blind, placebo-controlled trial with a 4-week r"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "12",
+        "text": "Multi-center, randomized, double-blind, placebo-controlled trial with a 4-week r"
+      },
+      {
+        "field": "pivotal_trials[1]/population",
+        "number": "18",
+        "text": "Adult men (\u226518 years) with mild to severe erectile dysfunction of at least 6 mon"
+      },
+      {
+        "field": "pivotal_trials[1]/population",
+        "number": "6",
+        "text": "Adult men (\u226518 years) with mild to severe erectile dysfunction of at least 6 mon"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "302",
+        "text": "In TA-302, SEP3 treatment effect over placebo was 15.2% (p<0.0001) for avanafil "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "100",
+        "text": "In TA-302, SEP3 treatment effect over placebo was 15.2% (p<0.0001) for avanafil "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "200",
+        "text": "In TA-302, SEP3 treatment effect over placebo was 15.2% (p<0.0001) for avanafil "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Standard full approval of avanafil (Stendra), a PDE5 inhibitor, for erectile dys"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

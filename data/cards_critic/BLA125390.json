@@ -1,0 +1,23 @@
+{
+  "app": "BLA125390",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Extra data: line 19 column 1 (char 610)",
+  "_raw": "Analyzing the card for quality issues.\n\nLet me check key areas:\n\n1. **Result SD values**: result text says \"HbA1c change -2 (SD 1.5)%\" \u2014 citation shows \"-2 (1.5)\". The baseline 8.7% is in citation \"8.7 (2)\". Fasting glucose -49 (SD 75), baseline 174 \u2014 in citation. Triglycerides -184, median % -55% f",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "12",
+        "text": "Change from baseline to Month 12 in HbA1c, fasting glucose, and fasting triglyce"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "12",
+        "text": "At Month 12 (N=48): mean HbA1c change -2 (SD 1.5)% from baseline 8.7%; mean fast"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

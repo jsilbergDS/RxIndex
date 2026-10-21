@@ -1,0 +1,82 @@
+{
+  "app": "BLA761053",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[2].n",
+      "severity": "low",
+      "issue": "The total '732 randomized' is not stated verbatim in the citation (which gives 488 OCREVUS and 244 placebo); it is the correct sum but technically an uncited derived number."
+    },
+    {
+      "field": "pivotal_trials[2].phase",
+      "severity": "low",
+      "issue": "False-positive flag: 'Phase 3' is supported by the citation's 'Phase III program' / 'Phase III study'; the number '3' simply differs in Roman-numeral form."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flags: the uncited numbers (4/28/16, 12/28/2016 PDUFA) are date fragments, which are excluded; the receipt date and PDUFA date are corroborated by the receipt_date citation."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flags: the uncited numbers correspond to the 4/28/16 receipt date fragments, which are date-based and corroborated by the receipt_date citation."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[2]/phase",
+        "number": "3",
+        "text": "Phase 3"
+      },
+      {
+        "field": "pivotal_trials[2]/n",
+        "number": "732",
+        "text": "732 randomized (OCREVUS 488, placebo 244)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "4",
+        "text": "Approved during first review cycle; BLA received 4/28/16 with PDUFA goal date De"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "28",
+        "text": "Approved during first review cycle; BLA received 4/28/16 with PDUFA goal date De"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "16",
+        "text": "Approved during first review cycle; BLA received 4/28/16 with PDUFA goal date De"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "28",
+        "text": "Approved during first review cycle; BLA received 4/28/16 with PDUFA goal date De"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2016",
+        "text": "Approved during first review cycle; BLA received 4/28/16 with PDUFA goal date De"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "4",
+        "text": "Ocrelizumab received Fast Track Designation (March 6, 2013) and Breakthrough The"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "28",
+        "text": "Ocrelizumab received Fast Track Designation (March 6, 2013) and Breakthrough The"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "16",
+        "text": "Ocrelizumab received Fast Track Designation (March 6, 2013) and Breakthrough The"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

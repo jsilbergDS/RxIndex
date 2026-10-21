@@ -1,0 +1,82 @@
+{
+  "app": "NDA022004",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "The '6-week' duration in the design text is not contained in the design citation quote (which cites '41 centers' but not the duration), though it is corroborated by the trial_name citation."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Flagged number '200' is a dose (200 mcg) and should be excluded; false-positive flag."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Flagged number '12' (patients 12 and older) is not in the AE citation quote but is corroborated by the indication citation; minor."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged number '20' is part of the approval date (October 20, 2006), a date; false-positive flag, though the approval date itself is not supported by the cited quote (which only gives the PDUFA goal date)."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged '20' is a date component (October 20, 2006); the stated approval date is not in the summary citations but this is a date-type value."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged '12' (patients 12 and older) is not in the summary citations but is corroborated by the indication; minor."
+    },
+    {
+      "field": "receipt_date",
+      "severity": "low",
+      "issue": "Flagged '12' is part of the date 12/22/2005; false-positive flag (date excluded)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "6",
+        "text": "Double-blind, placebo-controlled, parallel-group, multicenter (41 centers, US an"
+      },
+      {
+        "field": "key_safety",
+        "number": "12",
+        "text": "Most common adverse events in 2-6 week trials in patients 12 and older (200 mcg "
+      },
+      {
+        "field": "key_safety",
+        "number": "200",
+        "text": "Most common adverse events in 2-6 week trials in patients 12 and older (200 mcg "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "20",
+        "text": "Approved October 20, 2006; standard review with PDUFA goal date October 22, 2006"
+      },
+      {
+        "field": "receipt_date",
+        "number": "12",
+        "text": "12/22/2005"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "20",
+        "text": "Ciclesonide nasal spray (OMNARIS) is a new molecular entity of the corticosteroi"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "12",
+        "text": "Ciclesonide nasal spray (OMNARIS) is a new molecular entity of the corticosteroi"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

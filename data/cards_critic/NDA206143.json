@@ -1,0 +1,47 @@
+{
+  "app": "NDA206143",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "key_safety.uncited_numbers",
+      "severity": "low",
+      "issue": "The flagged '1' is part of the '\u22651% higher than placebo' threshold descriptor, not an efficacy/safety data point; false positive."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "high",
+      "issue": "The CV death HR text states '95% CI 0.80, 1.03' but labels it 'no statistically significant effect'; this is supported, however the result overstates by presenting HF-hospitalization HR 0.74 as 'the benefit reflected only reduced HF hospitalization' \u2014 this is supported, so acceptable; no actual unsupported numbers (dismiss)."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "medium",
+      "issue": "Text says '6558 adult patients' but the cited quote states 6558; the primary analysis arm Ns (3241+3264=6505) do not sum to 6558, an internal inconsistency not explained."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Card text renders 'I_f inhibitor' but the citation quote reads 'I_t inhibitor'; minor transcription mismatch between field text and its own citation."
+    },
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "low",
+      "issue": "Phase field contains a description ('Outcome study supporting the HF indication') rather than an actual trial phase; mislabeled/non-standard value."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "medium",
+      "issue": "Summary states approval was 'based on the single outcome study SHIFT' but the cited quote notes 'three placebo-controlled outcome studies that are relevant,' overstating reliance on a single study."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "1",
+        "text": "Most common adverse reactions in SHIFT (\u22651% higher than placebo): bradycardia (1"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

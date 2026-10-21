@@ -1,0 +1,36 @@
+{
+  "app": "NDA202514",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials",
+      "severity": "medium",
+      "issue": "The review repeatedly states there were THREE pivotal non-inferiority studies (15-003, 001, and Latanoprost study 74458), but only two trials are described in the card."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "high",
+      "issue": "Text says '191 to timolol' but the cited quote is truncated ('Of the 191 patients rand...') and the completion counts are not fully supported; the 191-to-timolol figure is supported but should be verified\u2014acceptable, however the result/endpoint pairing below is the bigger concern."
+    },
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "medium",
+      "issue": "Endpoint states primary outcome was at Month 6, but the trial is described as a 12-month trial and the result only speaks to non-inferiority 'at each visit and time point' without confirming the Month 6 primary endpoint was met."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "high",
+      "issue": "Internal inconsistency: text says '320 to tafluprost, 323 to timolol' (=643), but the cited quote gives 320 tafluprost + 323 timolol which also sums to 643, consistent \u2014 however the quote lists 306 completed tafluprost of 320, which is plausible; no error here, dismissing."
+    },
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "Design calls it 'parallel group' but the cited quote for Study 001 does not state parallel group (that detail comes from a different summary citation); minor over-attribution."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

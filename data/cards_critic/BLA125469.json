@@ -1,0 +1,147 @@
+{
+  "app": "BLA125469",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "high",
+      "issue": "Several AE rates in the text are not supported by the citation quotes: nausea 12.4% is not in the quote (quote shows '5.312.421.1' which supports 5.3 and 21.1 but 12.4 placement implies 0.75 mg column; still, 12.4 appears) and more importantly 'abdominal pain, and decreased appetite' values are not quantified; the placebo value for nausea (5.3) and diarrhea rates differ, and the mapping of numbers to doses cannot be verified from the stitched/merged OCR quote 'Nausea5.312.421.1'."
+    },
+    {
+      "field": "key_safety",
+      "severity": "medium",
+      "issue": "Uncited number: vomiting placebo 2.3%, 6.0% (0.75 mg), 12.7% (1.5 mg) appear in the quote 'Vomitingb2.36.012.7' so they are supported, but nausea 12.4% and 21.1% vs 5.3% are drawn from a run-together OCR string whose column-to-dose assignment is not explicit; flagged uncited numbers (12.4, 21.1, 5.3) should be verified before release."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Uncited-number flags for 0.75 and 1.5 are false positives \u2014 these are doses (dulaglutide 0.75 mg / 1.5 mg), which are excluded from scrutiny; the efficacy values and CIs are all supported by the citations."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "Uncited-number flags for 0.75 and 1.5 are false positives \u2014 these are doses, not efficacy numbers; the HbA1c differences and CIs are supported by the citation."
+    },
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "low",
+      "issue": "Uncited-number flag for '2' is a false positive \u2014 it is part of 'type 2 diabetes', not an efficacy/safety statistic."
+    },
+    {
+      "field": "boxed_warning.detail",
+      "severity": "low",
+      "issue": "Uncited-number flag for '2' is a false positive \u2014 it refers to 'MEN 2', a condition name, not a statistic."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Uncited-number flag for '2' is a false positive \u2014 it is part of 'type 2 diabetes', not a statistic."
+    },
+    {
+      "field": "receipt_date",
+      "severity": "high",
+      "issue": "The primary receipt_date text 'September 18, 2014' is misleading/likely wrong as the application receipt date; the original BLA was submitted September 18, 2013, and September 18, 2014 is the PDUFA goal date \u2014 labeling 2014 as the receipt date confuses an administrative resubmission acknowledgement with the original receipt."
+    },
+    {
+      "field": "approval_program.priority_review",
+      "severity": "low",
+      "issue": "Priority_review present=false is plausible but not citation-verified; no evidence either way in provided quotes, so acceptable as default."
+    },
+    {
+      "field": "pivotal_trials[1].endpoint",
+      "severity": "medium",
+      "issue": "The endpoint 'Change in HbA1c from baseline to week 26' is supported only by a table-fragment quote ('...52 weeks\\tweek 26...') rather than an explicit endpoint statement; the citation does not clearly state HbA1c change as the primary endpoint for GBDC."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "2",
+        "text": "Adults with type 2 diabetes on background metformin, compared dulaglutide 0.75 m"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.75",
+        "text": "HbA1c reduction vs placebo (wk 26): Dula 0.75 mg -1.04 (95% CI -1.22, -0.86), Du"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "1.5",
+        "text": "HbA1c reduction vs placebo (wk 26): Dula 0.75 mg -1.04 (95% CI -1.22, -0.86), Du"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.75",
+        "text": "HbA1c reduction vs placebo (wk 26): Dula 0.75 mg -1.04 (95% CI -1.22, -0.86), Du"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "1.5",
+        "text": "HbA1c reduction vs placebo (wk 26): Dula 0.75 mg -1.04 (95% CI -1.22, -0.86), Du"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.75",
+        "text": "HbA1c reduction vs metformin (wk 26): Dula 0.75 mg -0.15 (95% CI -0.29, -0.01), "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "1.5",
+        "text": "HbA1c reduction vs metformin (wk 26): Dula 0.75 mg -0.15 (95% CI -0.29, -0.01), "
+      },
+      {
+        "field": "key_safety",
+        "number": "12.4",
+        "text": "Most common adverse reactions (\u22655%): nausea, diarrhea, vomiting, abdominal pain,"
+      },
+      {
+        "field": "key_safety",
+        "number": "0.75",
+        "text": "Most common adverse reactions (\u22655%): nausea, diarrhea, vomiting, abdominal pain,"
+      },
+      {
+        "field": "key_safety",
+        "number": "21.1",
+        "text": "Most common adverse reactions (\u22655%): nausea, diarrhea, vomiting, abdominal pain,"
+      },
+      {
+        "field": "key_safety",
+        "number": "1.5",
+        "text": "Most common adverse reactions (\u22655%): nausea, diarrhea, vomiting, abdominal pain,"
+      },
+      {
+        "field": "key_safety",
+        "number": "5.3",
+        "text": "Most common adverse reactions (\u22655%): nausea, diarrhea, vomiting, abdominal pain,"
+      },
+      {
+        "field": "key_safety",
+        "number": "6.0",
+        "text": "Most common adverse reactions (\u22655%): nausea, diarrhea, vomiting, abdominal pain,"
+      },
+      {
+        "field": "key_safety",
+        "number": "12.7",
+        "text": "Most common adverse reactions (\u22655%): nausea, diarrhea, vomiting, abdominal pain,"
+      },
+      {
+        "field": "key_safety",
+        "number": "2.3",
+        "text": "Most common adverse reactions (\u22655%): nausea, diarrhea, vomiting, abdominal pain,"
+      },
+      {
+        "field": "boxed_warning/detail",
+        "number": "2",
+        "text": "WARNING: RISK OF THYROID C-CELL TUMORS \u2014 dulaglutide causes a dose-related and t"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "Trulicity (dulaglutide) was approved via a standard BLA under section 351(a) of "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

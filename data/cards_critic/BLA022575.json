@@ -1,0 +1,67 @@
+{
+  "app": "BLA022575",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Internal inconsistency in source citations: n/trial_name/population state 25 patients while the design citation says '24 treatment na\u00efve patients'; card uses 25 throughout but the discrepancy is unresolved."
+    },
+    {
+      "field": "pivotal_trials[1].population",
+      "severity": "low",
+      "issue": "The '12 months' (not treated for at least the previous 12 months) is not contained in the provided (truncated) population citation quote; flagged uncited number is a genuine but minor gap."
+    },
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "low",
+      "issue": "False-positive flag: '12' refers to Month 12, a time point supported by the 12-month design/population citations."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "False-positive flag: '34' is supported by the trial_name/design citations ('34 patients'), even if not in the n field's own quotes."
+    },
+    {
+      "field": "target_moa",
+      "severity": "low",
+      "issue": "False-positive flag: '1' is part of the disease name 'type 1 Gaucher disease', not an efficacy/safety number."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive flag: '10' is the '>=10%' reporting threshold descriptor, not an uncited data value."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "12",
+        "text": "Primary endpoint was change from baseline in hemoglobin concentration in the 60 "
+      },
+      {
+        "field": "pivotal_trials[1]/population",
+        "number": "12",
+        "text": "Patients age 3 years and older with Gaucher disease-related anemia and either th"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "34",
+        "text": "34 patients randomized to VPRIV 60 U/kg (N=17) or imiglucerase 60 U/kg (N=17)"
+      },
+      {
+        "field": "target_moa",
+        "number": "1",
+        "text": "Velaglucerase alfa is a recombinant human glucocerebrosidase (beta-glucocerebros"
+      },
+      {
+        "field": "key_safety",
+        "number": "10",
+        "text": "Most common adverse reactions were infusion-related reactions (51.9% of treatmen"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

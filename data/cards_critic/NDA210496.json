@@ -1,0 +1,22 @@
+{
+  "app": "NDA210496",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "low",
+      "issue": "False-positive flag: 'Phase 3' is supported by the citation's 'phase III' (Roman numeral), so uncited_number '3' is not a genuine problem."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "3",
+        "text": "Phase 3"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

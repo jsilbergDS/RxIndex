@@ -1,0 +1,42 @@
+{
+  "app": "NDA022068",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Uncited numbers '29' and '2006' are components of the receipt date (September 29, 2006), which is excluded per rules; false positive, and first_cycle_approval=true is correctly inferred from absence of a prior CRL."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Uncited numbers '2' (from 'phase 2') and '2101' (a study ID) are a phase descriptor and study identifier, both excluded per rules; false positives."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "29",
+        "text": "The NDA received September 29, 2006 was reviewed and approved under accelerated "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2006",
+        "text": "The NDA received September 29, 2006 was reviewed and approved under accelerated "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "Tasigna was approved under accelerated approval regulations (21 CFR 314.510) bas"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2101",
+        "text": "Tasigna was approved under accelerated approval regulations (21 CFR 314.510) bas"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

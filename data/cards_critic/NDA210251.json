@@ -1,0 +1,92 @@
+{
+  "app": "NDA210251",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials",
+      "severity": "high",
+      "issue": "approval_program.summary and citation (line 470) state four primary Phase 3 trials (1489, 1490, 1844, 1878), but only two (1489, 1490) are captured; the two virologically-suppressed trials are missing."
+    },
+    {
+      "field": "key_safety",
+      "severity": "high",
+      "issue": "Text attributes the AE rates to 'Trial 1489', but the cited table has four columns spanning both trials/arms, so the mapping of nausea 5% vs 17% to Trial 1489 (comparator ABC/DTG/3TC) is not established by the quote and may mislabel comparator/trial."
+    },
+    {
+      "field": "key_safety",
+      "severity": "medium",
+      "issue": "The nausea comparator value of 17% is anomalously high versus the other single-digit rates and its column/arm attribution is unverified from the stitched table quote."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited number '1' is a false positive (fragment of 'HIV-1', not an efficacy number)."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited number '1' is a false positive (fragment of 'HIV-1')."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited number '1489' is a false positive (trial/study identifier, excluded by rule)."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG numbers '12' and '2017' are false positives (date components) and first_cycle_approval=true is the correct inferred default with no prior CRL."
+    },
+    {
+      "field": "approval_program.fast_track.basis",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG number '10' is a false positive (date component); note the fast_track quote correctly reflects a DENIED request, so present=false is consistent."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG number '210251' is a false positive (application number)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "1",
+        "text": "HIV-1 RNA <50 copies/mL at Week 48: 92.4% B/F/TAF vs 93% ABC/DTG/3TC; lower boun"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "1",
+        "text": "HIV-1 RNA <50 copies/mL at Week 48: 89.4% B/F/TAF vs 92.9% DTG/F/TAF; lower boun"
+      },
+      {
+        "field": "key_safety",
+        "number": "1489",
+        "text": "Most common adverse reactions (incidence >= 5%, all grades) are diarrhea, nausea"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "12",
+        "text": "Submitted June 12, 2017; Review Completion Date February 6, 2018; approved with "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2017",
+        "text": "Submitted June 12, 2017; Review Completion Date February 6, 2018; approved with "
+      },
+      {
+        "field": "approval_program/fast_track/basis",
+        "number": "10",
+        "text": "Sponsor requested Fast Track Designation on November 10, 2016; on December 9, 20"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "210251",
+        "text": "BIKTARVY (NDA 210251) was reviewed as a New Molecular Entity under Priority Revi"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

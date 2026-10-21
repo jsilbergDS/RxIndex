@@ -1,0 +1,92 @@
+{
+  "app": "NDA022395",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive flag: 9.7 and 0.001 are present in the citation quote 'Diff.p-value vs. control9.70.001' (OCR-concatenated)."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "False-positive flag: 7.6 and 0.011 are present in the citation quote '...7.60.011' (OCR-concatenated)."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive flags: control rates 54, 21, 4, 3 and Qutenza rates 42 are all present in citation quotes (e.g. 'Application Site Erythema6354', 'Application Site Pain4221')."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flag: 022395 is the NDA/application number, not an efficacy/safety number, and appears in the receipt-date citation."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: 022395 is the NDA number and appears verbatim in the summary's own citation."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "9.7",
+        "text": "Percent change from baseline (Weeks 2-8): -29.6 Qutenza vs -19.9 control; differ"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.001",
+        "text": "Percent change from baseline (Weeks 2-8): -29.6 Qutenza vs -19.9 control; differ"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "7.6",
+        "text": "Percent change from baseline (Weeks 2-8): -32.0 Qutenza vs -24.4 control; differ"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.011",
+        "text": "Percent change from baseline (Weeks 2-8): -32.0 Qutenza vs -24.4 control; differ"
+      },
+      {
+        "field": "key_safety",
+        "number": "54",
+        "text": "Most common adverse reactions (\u22655% and greater than control) are application sit"
+      },
+      {
+        "field": "key_safety",
+        "number": "42",
+        "text": "Most common adverse reactions (\u22655% and greater than control) are application sit"
+      },
+      {
+        "field": "key_safety",
+        "number": "21",
+        "text": "Most common adverse reactions (\u22655% and greater than control) are application sit"
+      },
+      {
+        "field": "key_safety",
+        "number": "4",
+        "text": "Most common adverse reactions (\u22655% and greater than control) are application sit"
+      },
+      {
+        "field": "key_safety",
+        "number": "3",
+        "text": "Most common adverse reactions (\u22655% and greater than control) are application sit"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "022395",
+        "text": "Approved effective on the date of the approval letter following review of NDA 02"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "022395",
+        "text": "NDA 022395 was submitted under section 505(b)(2) for QUTENZA (capsaicin) 8% patc"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

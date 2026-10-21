@@ -1,0 +1,93 @@
+{
+  "app": "NDA021526",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 339)",
+  "_raw": "Analyzing the card against all checks.\n\n{\n \"app\": \"NDA021526\",\n \"release_ready\": false,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[0].result\",\n   \"severity\": \"low\",\n   \"issue\": \"Automated flag on numbers 23.7, 0.030, 24.0, 750, 1000 is a false positive; the citation quote 'Trough25827223.7 (10.9)p",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "3033",
+        "text": "CARISA (CVT 3033)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "750",
+        "text": "Statistically significant increase in exercise duration vs placebo at trough: 75"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "23.7",
+        "text": "Statistically significant increase in exercise duration vs placebo at trough: 75"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.030",
+        "text": "Statistically significant increase in exercise duration vs placebo at trough: 75"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "1000",
+        "text": "Statistically significant increase in exercise duration vs placebo at trough: 75"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "24.0",
+        "text": "Statistically significant increase in exercise duration vs placebo at trough: 75"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "3037",
+        "text": "ERICA (CVT 3037)"
+      },
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "3",
+        "text": "Phase 3 pivotal study (only pivotal study in the resubmission)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "6",
+        "text": "Median weekly angina attacks during 6-week treatment phase 2.18 with ranolazine "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "2.18",
+        "text": "Median weekly angina attacks during 6-week treatment phase 2.18 with ranolazine "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "2.43",
+        "text": "Median weekly angina attacks during 6-week treatment phase 2.18 with ranolazine "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.028",
+        "text": "Median weekly angina attacks during 6-week treatment phase 2.18 with ranolazine "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "27",
+        "text": "The original NDA (submitted December 27, 2002) received an approvable letter on "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2002",
+        "text": "The original NDA (submitted December 27, 2002) received an approvable letter on "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "Ranexa was approved via the standard 505(b) NDA pathway for treatment of chronic"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3037",
+        "text": "Ranexa was approved via the standard 505(b) NDA pathway for treatment of chronic"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

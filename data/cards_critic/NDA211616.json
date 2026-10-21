@@ -1,0 +1,77 @@
+{
+  "app": "NDA211616",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "The result citation is a single 4-column table row containing multiple LDL-C values (-18.7, -17.9, -22.0, -29.4); the assignment of -18.7 specifically to Trial 040 (and -17.9 to Trial 047) is plausible but not independently verifiable from the quote's column labels."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False-positive flag: '1488' is supported by citation 'Number treated: 1,488' (differs only by comma formatting)."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive flag: '12' (Week 12) is supported by the endpoint citation 'percent change from baseline to Week 12 in LDL-C'."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "False-positive flag: '12' (Week 12) is supported by the endpoint citation."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: '1002' is a study-identifier prefix, not efficacy/safety data."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: '1002' is a study-identifier prefix, not efficacy/safety data."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: '3' is part of 'Phase 3', supported by the phase citations."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1002",
+        "text": "Trial 1002-040 (CLEAR)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "1488",
+        "text": "2230 randomized (1488 bempedoic acid, 742 placebo)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "12",
+        "text": "Placebo-adjusted LDL-C percent change from baseline at Week 12: -18.7% (95% CI -"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "1002",
+        "text": "Trial 1002-047"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "12",
+        "text": "Placebo-adjusted LDL-C percent change from baseline at Week 12: -17.9% (95% CI -"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "NEXLETOL was reviewed under a standard (not priority) review as an NDA received "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

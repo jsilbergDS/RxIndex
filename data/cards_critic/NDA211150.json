@@ -1,0 +1,82 @@
+{
+  "app": "NDA211150",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "high",
+      "issue": "Design claims 'modafinil-controlled' but the citation only says the study compared WAKIX to 'an active control' without identifying modafinil, so the specific comparator is unsupported."
+    },
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "high",
+      "issue": "Design claims 'modafinil-controlled' but the citation only states 'an active control' without naming modafinil; the comparator identity is unsupported by the quote."
+    },
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "low",
+      "issue": "Flagged uncited number '8' (Week 8) is a false positive; the timeframe of an 8-week treatment period is supported by the design citation and is not an efficacy/safety statistic."
+    },
+    {
+      "field": "pivotal_trials[1].endpoint",
+      "severity": "low",
+      "issue": "Flagged uncited number '8' (Week 8) is a false positive; supported by the 8-week treatment period in the design citation."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged uncited numbers '211150' and '1' are the application/original submission identifiers, not efficacy/safety data; false positive."
+    },
+    {
+      "field": "approval_program.breakthrough_therapy.basis",
+      "severity": "low",
+      "issue": "Flagged uncited number '211150' is the application number identifier, not a statistic; false positive."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged uncited numbers '505' (505(b)(1) application type) and '1' are identifiers cited elsewhere in the card; false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "8",
+        "text": "Epworth Sleepiness Scale (ESS) change from baseline at Week 8"
+      },
+      {
+        "field": "pivotal_trials[1]/endpoint",
+        "number": "8",
+        "text": "Epworth Sleepiness Scale (ESS) change from baseline at Week 8"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "211150",
+        "text": "The EDS indication (NDA 211150/Original 1) was approved effective on the date of"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "1",
+        "text": "The EDS indication (NDA 211150/Original 1) was approved effective on the date of"
+      },
+      {
+        "field": "approval_program/breakthrough_therapy/basis",
+        "number": "211150",
+        "text": "Breakthrough Therapy designation was granted in April 2018 only for the cataplex"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "Pitolisant, a new molecular entity, received Orphan Drug designation (March 2010"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "Pitolisant, a new molecular entity, received Orphan Drug designation (March 2010"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

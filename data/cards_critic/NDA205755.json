@@ -1,0 +1,26 @@
+{
+  "app": "NDA205755",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "high",
+      "issue": "N is stated as 163 (the crizotinib-pretreated efficacy population), but the key_safety field and design/phase citations reference 255 patients at 750 mg; the safety denominator N=255 differs and the trial's total differs \u2014 the single 'n' value conflates distinct populations and should be reconciled."
+    },
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "medium",
+      "issue": "Text asserts the efficacy cohort was 'drawn from patients treated at the 750 mg recommended dose (escalation and expansion phases)' with 255 at 750 mg, but the efficacy/design citations consistently describe 163 efficacy patients; the 255 figure (safety) is mixed into the efficacy phase description, creating internal inconsistency."
+    },
+    {
+      "field": "key_safety",
+      "severity": "medium",
+      "issue": "The safety AE rates (diarrhea 86%, nausea 80%, vomiting 60%, fatigue 52%) are drawn from the N=255 population while the pivotal trial n is 163; this is supportable by citation but the population mismatch should be flagged as a potential reader confusion between efficacy (163) and safety (255) cohorts."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

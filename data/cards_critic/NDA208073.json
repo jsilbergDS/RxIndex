@@ -1,0 +1,18 @@
+{
+  "app": "NDA208073",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Extra data: line 28 column 1 (char 1302)",
+  "_raw": "Looking at the card carefully:\n\n{\n \"app\": \"NDA208073\",\n \"release_ready\": false,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[0].n\",\n   \"severity\": \"low\",\n   \"issue\": \"Automated flag on '5' is a false positive; the '5' comes from 'lifitegrast 5%' (a concentration/dose descriptor), and 711/356/355 are",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "5",
+        "text": "711 randomized subjects (vehicle: 356; lifitegrast 5%: 355)."
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

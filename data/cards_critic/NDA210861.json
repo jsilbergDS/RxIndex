@@ -1,0 +1,32 @@
+{
+  "app": "NDA210861",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "low",
+      "issue": "The number '3' ('pooled across the 3 trials') is not in the citation quote, but it is a descriptive count of the three trials cited elsewhere in the card and is a false-positive-level flag rather than an efficacy/safety statistic."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "NAVIGATE's result reports only the pooled cross-trial ORR of 75% rather than a NAVIGATE-specific result, which is slightly imprecise but consistent with the pooled-analysis basis stated in the card."
+    },
+    {
+      "field": "pivotal_trials[2].result",
+      "severity": "low",
+      "issue": "SCOUT's result reports only the pooled cross-trial ORR of 75% rather than a SCOUT-specific result, which is slightly imprecise but consistent with the pooled-analysis basis stated in the card."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "3",
+        "text": "Adult and pediatric patients with unresectable or metastatic NTRK fusion-positiv"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

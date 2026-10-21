@@ -1,0 +1,91 @@
+{
+  "app": "NDA202207",
+  "drug": "LYMPHOSEEK KIT",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_c0222f31-fceb-5f76-9815-b06119dd9c74"
+    },
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_ac03a833-7dba-5d26-b73f-5bf5ac27f8c4"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_beaa70db-6fad-5a3d-b001-7467f365eabc"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_4bba54d1-190d-5cbb-bfa7-cbbd71411891"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_520b5a7e-6b88-58ce-9d6e-e8e06ea57426"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "None \u2014 no advisory committee was convened",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_beaa70db-6fad-5a3d-b001-7467f365eabc",
+      "line": 40,
+      "quote": "With ILM being a fairly well established procedure in clinical practice, no Advisory Committee meetings have been planned."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_beaa70db6fad",
+      "found_lines": [
+        40
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "None \u2014 no advisory committee meeting was held",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_520b5a7e-6b88-58ce-9d6e-e8e06ea57426",
+      "line": 503,
+      "quote": "Since there are already two other products on the market for similar indications, the Division decided not to hold an advisory committee meeting for the application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_520b5a7e6b88",
+      "found_lines": [
+        503
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "None \u2014 no advisory committee vote or recommendation, as no meeting was convened",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_c0222f31-fceb-5f76-9815-b06119dd9c74",
+      "line": 54,
+      "quote": "This application was not reviewed at an Advisory Committee because the clinical data presented no unique concerns and the nature of the proposed indication is similar to currently approved products."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_c0222f31fceb",
+      "found_lines": [
+        54
+      ]
+    }
+  },
+  "linkages": [],
+  "no_adcom_quote": {
+    "doc_type": "SumR",
+    "doc_id": "fda_c0222f31-fceb-5f76-9815-b06119dd9c74",
+    "line": 54,
+    "quote": "This application was not reviewed at an Advisory Committee because the clinical data presented no unique concerns and the nature of the proposed indication is similar to currently approved products. External advisory consultation was not necessary due to the lack of any unsettled clinical or statistical matters. The main issues during the review pertained to manufacturing and facility information."
+  },
+  "summary": "No advisory committee meeting was convened for NDA202207 (Lymphoseek Kit). The FDA review documents (Summary Review, Cross-Discipline Team Leader review, and Medical Review) consistently state that the application was not brought to an Advisory Committee because the clinical data presented no unique concerns, intraoperative lymphatic mapping is a well-established procedure, and two similar products were already on the market. Consequently there was no committee vote, recommendation, or committee-driven change to the approval.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "fda_c0222f31fceb",
+    "found_lines": [
+      54
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "app": "BLA125511",
+  "drug": "NATPARA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "d961db63-77c8-53ce-9181-cd3908a41592"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "126c5d13-4134-5add-92bb-2e33003932fa"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "42ccd953-e140-51f6-a8d8-dfd95e6f45b5"
+    },
+    {
+      "doc_type": "Lbl",
+      "doc_id": "4f46d4eb-135e-5670-9090-e590c2f3680b"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC)",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "126c5d13-4134-5add-92bb-2e33003932fa",
+      "line": 169,
+      "quote": "This BLA was discussed at an Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC) meeting held on September 12, 2014."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "126c5d13-4134-5add-92bb-2e33003932fa",
+      "found_lines": [
+        169
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "September 12, 2014 (the SumR and CrossR both state September 12, 2014; a single conflicting mention of 'November 12, 2014' appears at CrossR L95)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "d961db63-77c8-53ce-9181-cd3908a41592",
+      "line": 93,
+      "quote": "Efficacy and safety issues were discussed at an Advisory Committee on September 12th 2014."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "d961db63-77c8-53ce-9181-cd3908a41592",
+      "found_lines": [
+        93
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 8 in favor and 5 against (Yes=8, No=5, Abstain=0) that the efficacy and safety findings supported approval of Natpara for the long-term treatment of hypoparathyroidism.",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "126c5d13-4134-5add-92bb-2e33003932fa",
+      "line": 169,
+      "quote": "Members of the committee voted 8 in favor and 5 against approval of Natpara for the proposed indication."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "126c5d13-4134-5add-92bb-2e33003932fa",
+      "found_lines": [
+        169
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee found no clear benefit of Natpara over standard-of-care calcium/vitamin D, but members who supported approval justified it by citing a small subset of patients who could not be well controlled on available therapies.",
+      "change": "The approved indication carries a Limitation of Use restricting Natpara to patients who cannot be well-controlled on calcium and active vitamin D alone.",
+      "category": "Indication / Population restriction",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "d961db63-77c8-53ce-9181-cd3908a41592",
+        "line": 127,
+        "quote": "committee members at the Advisory Committee cited experience of having observed, very rarely, patients with hypoparathyroidism who could not be well controlled on available therapies and cited this reason to substantiate their approval recommendations. I concur with this overall view.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "d961db63-77c8-53ce-9181-cd3908a41592",
+          "found_lines": [
+            127
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "4f46d4eb-135e-5670-9090-e590c2f3680b",
+        "line": 81,
+        "quote": "Because of the potential risk of osteosarcoma, NATPARA is recommended only for patients who cannot be well-controlled on calcium supplements and active forms of vitamin D alone.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "4f46d4eb-135e-5670-9090-e590c2f3680b",
+          "found_lines": [
+            24,
+            81
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee gave extensive attention to the osteosarcoma risk (biologically plausible in humans from animal data), and several members recommended a postmarketing risk management and surveillance program.",
+      "change": "Natpara was approved with a boxed WARNING for potential risk of osteosarcoma and a restricted-distribution REMS with ETASU (prescriber/pharmacy certification and a Patient-Prescriber Acknowledgment Form).",
+      "category": "Safety / Boxed warning + REMS",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "126c5d13-4134-5add-92bb-2e33003932fa",
+        "line": 176,
+        "quote": "several committee members recommended some form of postmarketing risk management and surveillance program. The need for a registry or a similar tracking system was endorsed by most committee members.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "126c5d13-4134-5add-92bb-2e33003932fa",
+          "found_lines": [
+            176
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "d961db63-77c8-53ce-9181-cd3908a41592",
+        "line": 130,
+        "quote": "In accordance with Section 505-1 of the Food Drug and Cosmetics Act, Natpara will be approved with a REMS with ETASU.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "d961db63-77c8-53ce-9181-cd3908a41592",
+          "found_lines": [
+            130
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members who voted yes recommended follow-up safety studies and mandatory reporting of osteosarcoma.",
+      "change": "FDA required, as a postmarketing requirement under 505(o)(3), an enhanced pharmacovigilance study of osteosarcoma in Natpara-treated patients.",
+      "category": "Postmarketing requirement / Safety surveillance",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "d961db63-77c8-53ce-9181-cd3908a41592",
+        "line": 103,
+        "quote": "Follow-up safety studies on osteosarcoma",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "d961db63-77c8-53ce-9181-cd3908a41592",
+          "found_lines": [
+            103
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "d961db63-77c8-53ce-9181-cd3908a41592",
+        "line": 136,
+        "quote": "an enhanced pharmacovigilance study of osteosarcoma in patients treated with Naptara",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "d961db63-77c8-53ce-9181-cd3908a41592",
+          "found_lines": [
+            136
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee reached general consensus that the once-daily regimen likely has a limited effect on calciuria and that a twice-daily regimen should be evaluated.",
+      "change": "FDA required, as a postmarketing requirement, a 26-week clinical trial evaluating an alternative dose/dosing regimen of Natpara, including longer-term safety with respect to hypercalciuria.",
+      "category": "Postmarketing requirement / Dosing regimen",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "126c5d13-4134-5add-92bb-2e33003932fa",
+        "line": 173,
+        "quote": "there was general consensus based on the pharmacokinetic and pharmacodynamic data presented that once daily regimen is likely to have a limited response on calciuria, and that a twice a day regimen should be evaluated.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "126c5d13-4134-5add-92bb-2e33003932fa",
+          "found_lines": [
+            173
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "d961db63-77c8-53ce-9181-cd3908a41592",
+        "line": 136,
+        "quote": "a 26-week clinical trial to evaluate the longer term safety and effect of an alternative dose(s) and/or dosing regimen(s) of Natpara, including longer term safety with respect to hypercalciuria.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "d961db63-77c8-53ce-9181-cd3908a41592",
+          "found_lines": [
+            136
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC) met on September 12, 2014 and voted 8-5 that Natpara's efficacy and safety supported approval for long-term treatment of hypoparathyroidism, though members on both sides were ambivalent given weak evidence of benefit over standard of care and the animal-based osteosarcoma signal. The review documents tie the committee's reasoning (benefit only in patients not controllable on existing therapy) to the Division Director's recommendation that Natpara be reserved for such patients, reflected in the label's Limitation of Use. The committee's osteosarcoma concerns and call for postmarketing surveillance align with the approval's boxed warning, REMS with ETASU, and required postmarketing osteosarcoma pharmacovigilance and alternative-dosing studies, though the review documents do not explicitly attribute those specific measures to the committee."
+}

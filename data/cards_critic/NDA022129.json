@@ -1,0 +1,152 @@
+{
+  "app": "NDA022129",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Citation quote 'N63626461' is a run-together OCR string combining all four N values; the specific split (63 vs 62) is actually supported by the result citation 'Study 1(N=63)...(N=62)', so not a data error but a poor citation."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "Citation quote 'N63626461' is a run-together OCR string; the 64 vs 61 split is supported by the result citation 'Study 2(N=64)...(N=61)', so not a data error but a poor citation."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False-positive flags for numbers 63, 62, 5 \u2014 N values are supported by the result citation and '5' refers to the 5% drug concentration (a dose)."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "False-positive flags for numbers 64, 61, 5 \u2014 N values are supported by the result citation and '5' is the drug concentration."
+    },
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "low",
+      "issue": "False-positive flag for '6' (6 months of age) \u2014 this is an age/eligibility criterion supported by the indication; acceptable."
+    },
+    {
+      "field": "pivotal_trials[1].population",
+      "severity": "low",
+      "issue": "False-positive flag for '6' (6 months of age) \u2014 eligibility criterion, acceptable."
+    },
+    {
+      "field": "target_moa",
+      "severity": "low",
+      "issue": "False-positive flag for '5' (5% concentration) \u2014 a dose/concentration, not an efficacy/safety number."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag for '2005' \u2014 part of the study identifier SU-02-2005, excluded as a study ID."
+    },
+    {
+      "field": "crl_history.date",
+      "severity": "low",
+      "issue": "False-positive flag for '2008' \u2014 a date, excluded by rule."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flags for 22, 129, 2008, 17 \u2014 these are the NDA application number and dates, excluded by rule."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "6",
+        "text": "Subjects 6 months of age and older with active head lice infestation; primary co"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "63",
+        "text": "N=63 (benzyl alcohol 5%) vs N=62 (vehicle) in primary cohort ITT"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "5",
+        "text": "N=63 (benzyl alcohol 5%) vs N=62 (vehicle) in primary cohort ITT"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "62",
+        "text": "N=63 (benzyl alcohol 5%) vs N=62 (vehicle) in primary cohort ITT"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "5",
+        "text": "Lice free: 48/63 (76.2%) with L.A. 5% vs 3/62 (4.8%) vehicle; p < .001"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2005",
+        "text": "Study SU-02-2005 (Study 02)"
+      },
+      {
+        "field": "pivotal_trials[1]/population",
+        "number": "6",
+        "text": "Subjects 6 months of age and older with active head lice infestation; primary co"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "64",
+        "text": "N=64 (benzyl alcohol 5%) vs N=61 (vehicle) in primary cohort ITT"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "5",
+        "text": "N=64 (benzyl alcohol 5%) vs N=61 (vehicle) in primary cohort ITT"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "61",
+        "text": "N=64 (benzyl alcohol 5%) vs N=61 (vehicle) in primary cohort ITT"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "5",
+        "text": "Lice free: 48/64 (75.0%) with L.A. 5% vs 16/61 (26.2%) vehicle; p < .001"
+      },
+      {
+        "field": "target_moa",
+        "number": "5",
+        "text": "Benzyl alcohol 5% lotion acts by stunning the respiratory spiracles of the louse"
+      },
+      {
+        "field": "crl_history/date",
+        "number": "2008",
+        "text": "July 14, 2008 (Approvable action letter)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "22",
+        "text": "NDA 22-129 was a 505(b)(2) application relying on literature references for some"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "129",
+        "text": "NDA 22-129 was a 505(b)(2) application relying on literature references for some"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2008",
+        "text": "NDA 22-129 was a 505(b)(2) application relying on literature references for some"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "17",
+        "text": "NDA 22-129 was a 505(b)(2) application relying on literature references for some"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2008",
+        "text": "NDA 22-129 was a 505(b)(2) application relying on literature references for some"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

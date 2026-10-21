@@ -1,0 +1,18 @@
+{
+  "app": "BLA761092",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 327)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"BLA761092\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].n\",\n      \"severity\": \"low\",\n      \"issue\": \"AUTOMATED_FLAG false positive: N=6 is supported by the citation 'Six patients treated in the study were",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "6",
+        "text": "N=6"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

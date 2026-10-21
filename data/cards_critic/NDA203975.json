@@ -1,0 +1,77 @@
+{
+  "app": "NDA203975",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "medium",
+      "issue": "Claim that pharyngitis occurred in 2% with ANORO vs <1% placebo is not clearly supported; the citation 'Pharyngitis <1 2 1 2' is an unlabeled table row that does not identify which column is ANORO vs placebo."
+    },
+    {
+      "field": "pivotal_trials",
+      "severity": "medium",
+      "issue": "Review identifies four primary efficacy studies (361, 373, 360, 374) per phase/design citations, but only one trial (373) is populated, understating the pivotal trial set."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False-positive automated flags: 373/414/421/421/280 all appear in the concatenated OCR citation 'DB2113373R...414421421280...'."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive automated flags: '62.5' and '25' are doses (mcg) which should be excluded and are also present in the design citations."
+    },
+    {
+      "field": "advisory_committee.vote",
+      "severity": "low",
+      "issue": "False-positive automated flag: '2013' is a date which should be excluded; the AC meeting date is cited in the approval_program summary."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "373",
+        "text": "Study 373: UMEC/VI 62.5/25 (414), UMEC 62.5 (421), VI 25 (421), placebo (280)."
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "414",
+        "text": "Study 373: UMEC/VI 62.5/25 (414), UMEC 62.5 (421), VI 25 (421), placebo (280)."
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "421",
+        "text": "Study 373: UMEC/VI 62.5/25 (414), UMEC 62.5 (421), VI 25 (421), placebo (280)."
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "421",
+        "text": "Study 373: UMEC/VI 62.5/25 (414), UMEC 62.5 (421), VI 25 (421), placebo (280)."
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "280",
+        "text": "Study 373: UMEC/VI 62.5/25 (414), UMEC 62.5 (421), VI 25 (421), placebo (280)."
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "62.5",
+        "text": "UMEC/VI 62.5/25 mcg provided a statistically significant 0.167 L (95% CI: 0.128,"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "25",
+        "text": "UMEC/VI 62.5/25 mcg provided a statistically significant 0.167 L (95% CI: 0.128,"
+      },
+      {
+        "field": "advisory_committee/vote",
+        "number": "2013",
+        "text": "Pulmonary-Allergy Drugs Advisory Committee (PADAC) met September 10, 2013; voted"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

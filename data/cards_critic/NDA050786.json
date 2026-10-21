@@ -1,0 +1,21 @@
+{
+  "app": "NDA050786",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "target_moa.citations[1]",
+      "severity": "low",
+      "issue": "Second citation describes 'Helidac therapy' (the referenced product NDA 50-719), not PYLERA directly; it supports the MOA concept by analogy but is not a statement about PYLERA's own mechanism."
+    },
+    {
+      "field": "advisory_committee",
+      "severity": "low",
+      "issue": "convened and vote are both null; acceptable if no AC was held, but the field is unverified/unstated rather than confirmed."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

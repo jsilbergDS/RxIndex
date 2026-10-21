@@ -1,0 +1,87 @@
+{
+  "app": "NDA022290",
+  "drug": "ADREVIEW",
+  "docs_read": [
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_b5aacefb-62df-54c9-84f6-e6c6b5ba1117"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_32445a72-60ab-5277-888b-6105bb8233a2"
+    },
+    {
+      "doc_type": "Approv",
+      "doc_id": "fda_fa5c9d13-4b06-5411-b976-19717feccc7f"
+    },
+    {
+      "doc_type": "AdminCorres",
+      "doc_id": "fda_b84d0065-1a6e-5297-87e2-427027f7cdae"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "None - no advisory committee convened",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_b5aacefb-62df-54c9-84f6-e6c6b5ba1117",
+      "line": 426,
+      "quote": "An advisory committee meeting is not required"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_b5aacefb62df",
+      "found_lines": [
+        426
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "None - no meeting held",
+    "quote": {
+      "doc_type": "AdminCorres",
+      "doc_id": "fda_b84d0065-1a6e-5297-87e2-427027f7cdae",
+      "line": 327,
+      "quote": "No AC meeting"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_b84d00651a6e",
+      "found_lines": [
+        327
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "None - no advisory committee vote or recommendation",
+    "quote": {
+      "doc_type": "Approv",
+      "doc_id": "fda_fa5c9d13-4b06-5411-b976-19717feccc7f",
+      "line": 15,
+      "quote": "Your application for AdreView\u00ae was not referred to an FDA advisory committee because your product is a member of the class of diagnostic radionuclide-labeled iobenguane products, including a previously approved product, and your product did not pose unique concerns beyond those applicable to other members of this class."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_fa5c9d134b06",
+      "found_lines": [
+        15
+      ]
+    }
+  },
+  "linkages": [],
+  "no_adcom_quote": {
+    "doc_type": "Approv",
+    "doc_id": "fda_fa5c9d13-4b06-5411-b976-19717feccc7f",
+    "line": 15,
+    "quote": "Your application for AdreView\u00ae was not referred to an FDA advisory committee because your product is a member of the class of diagnostic radionuclide-labeled iobenguane products, including a previously approved product, and your product did not pose unique concerns beyond those applicable to other members of this class."
+  },
+  "summary": "No FDA advisory committee meeting was convened for NDA022290 (AdreView/iobenguane I-123). The medical review (8.5) states an advisory committee meeting was not required, the administrative correspondence records 'No AC meeting', and the approval letter explains the application was not referred to an advisory committee because the product is a member of the class of diagnostic radionuclide-labeled iobenguane products (with a previously approved product) and did not pose unique concerns. There are therefore no AdComm concern-to-change linkages.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "fda_fa5c9d134b06",
+    "found_lines": [
+      15
+    ]
+  }
+}

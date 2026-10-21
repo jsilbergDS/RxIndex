@@ -1,0 +1,92 @@
+{
+  "app": "BLA761102",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Flagged numbers '11' and '001' are part of the trial identifier DFCI 11-001, not efficacy/safety data \u2014 false positive."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged numbers '351', '12', '22', '2017', '2018', '19' are application-type/date components, not efficacy/safety numbers \u2014 false positive; first_cycle_approval=true is correctly inferred (no prior CRL)."
+    },
+    {
+      "field": "post_marketing[1].requirement",
+      "severity": "low",
+      "issue": "Flagged number '2' is part of the PMC identifier '3550-2', not a data value \u2014 false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "11",
+        "text": "DFCI 11-001 randomized n=239 (calaspargase n=119, pegaspargase n=120); efficacy "
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "001",
+        "text": "DFCI 11-001 randomized n=239 (calaspargase n=119, pegaspargase n=120); efficacy "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "351",
+        "text": "Original 351(a) BLA received 12/22/2017 with a PDUFA goal date of 12/22/2018; ap"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "12",
+        "text": "Original 351(a) BLA received 12/22/2017 with a PDUFA goal date of 12/22/2018; ap"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "22",
+        "text": "Original 351(a) BLA received 12/22/2017 with a PDUFA goal date of 12/22/2018; ap"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2017",
+        "text": "Original 351(a) BLA received 12/22/2017 with a PDUFA goal date of 12/22/2018; ap"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "12",
+        "text": "Original 351(a) BLA received 12/22/2017 with a PDUFA goal date of 12/22/2018; ap"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "22",
+        "text": "Original 351(a) BLA received 12/22/2017 with a PDUFA goal date of 12/22/2018; ap"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2018",
+        "text": "Original 351(a) BLA received 12/22/2017 with a PDUFA goal date of 12/22/2018; ap"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "12",
+        "text": "Original 351(a) BLA received 12/22/2017 with a PDUFA goal date of 12/22/2018; ap"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "19",
+        "text": "Original 351(a) BLA received 12/22/2017 with a PDUFA goal date of 12/22/2018; ap"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2018",
+        "text": "Original 351(a) BLA received 12/22/2017 with a PDUFA goal date of 12/22/2018; ap"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "2",
+        "text": "PMC 3550-2: Reanalyze remaining immunogenicity samples from Study DFCI 11-001 to"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

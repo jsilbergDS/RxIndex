@@ -1,0 +1,28 @@
+{
+  "app": "NDA208716",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 312)",
+  "_raw": "Analyzing the card against the review data and flags.\n\n```json\n{\n  \"app\": \"NDA208716\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].design\",\n      \"severity\": \"low\",\n      \"issue\": \"False-positive uncited_numbers flag: '3' refers to 'Phase 3', a phase designation s",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "3",
+        "text": "Randomized, double-blind, placebo-controlled Phase 3 trial of abemaciclib plus f"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "446",
+        "text": "N=669 randomized (446 abemaciclib plus fulvestrant, 223 placebo plus fulvestrant"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Abemaciclib received Breakthrough Therapy Designation (Oct 2015) and Fast Track "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

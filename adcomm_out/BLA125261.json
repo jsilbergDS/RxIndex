@@ -1,0 +1,203 @@
+{
+  "app": "BLA125261",
+  "drug": "STELARA",
+  "docs_read": [
+    {
+      "doc_type": "CrossR",
+      "doc_id": "a114e593-5143-585b-9166-5a1a18f74bd0"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "498a8284-f057-5ee3-90fe-17b311ece84c"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "188649f5-05c2-5fdc-b4ac-dc7b017b551e"
+    },
+    {
+      "doc_type": "Approv",
+      "doc_id": "0680cdfd-0e0d-5703-b946-6807513bb3aa"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Dermatologic and Ophthalmic Drugs Advisory Committee (DODAC)",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "498a8284-f057-5ee3-90fe-17b311ece84c",
+      "line": 8,
+      "quote": "The application was discussed before the Dermatologic and Ophthalmic Drugs Advisory Committee (DODAC) on June 17, 2008."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "498a8284-f057-5ee3-90fe-17b311ece84c",
+      "found_lines": [
+        8
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "June 17, 2008",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "a114e593-5143-585b-9166-5a1a18f74bd0",
+      "line": 68,
+      "quote": "The application was presented to the Dermatologic and Ophthalmologic Drugs Advisory Committee on June 17, 2008."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "a114e593-5143-585b-9166-5a1a18f74bd0",
+      "found_lines": [
+        68
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee unanimously recommended approval, with a majority favoring the sponsor's weight-based dosing paradigm. It also voted 7-to-3 (1 abstention) for a 2-step over a 3-step dosing paradigm, and voted 4-to-7 against home self-administration.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "498a8284-f057-5ee3-90fe-17b311ece84c",
+      "line": 20,
+      "quote": "The Advisory Committee unanimously recommended approval of ustekinumab with a majority voting in favor of the sponsor's proposed weight-based dosing paradigm."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "498a8284-f057-5ee3-90fe-17b311ece84c",
+      "found_lines": [
+        20
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee was unanimously concerned about the potential for malignancy demonstrated by the nonclinical (IL-12/IL-23 inhibition) studies and recommended these findings be communicated to prescribers.",
+      "change": "The malignancy signal from the rodent/nonclinical studies was communicated in product labeling (Warnings/Precautions) rather than requiring additional nonclinical carcinogenicity studies.",
+      "category": "Safety / Labeling warning",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "a114e593-5143-585b-9166-5a1a18f74bd0",
+        "line": 68,
+        "quote": "The committee also expressed unanimous concern about the potential for malignancy demonstrated by nonclinical studies and unanimously recommended that these findings be communicated to prescribers.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "a114e593-5143-585b-9166-5a1a18f74bd0",
+          "found_lines": [
+            68
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "a114e593-5143-585b-9166-5a1a18f74bd0",
+        "line": 28,
+        "quote": "Both the Pharmacology/Toxicology team and the Advisory Committee recommended communication in labeling of this signal for potential risk, but did not recommend additional nonclinical carcinogenicity studies.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "a114e593-5143-585b-9166-5a1a18f74bd0",
+          "found_lines": [
+            28
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee unanimously agreed that the applicant's risk assessment proposals were insufficient.",
+      "change": "In response to the DODAC meeting, the sponsor submitted an Enhanced Risk Management Plan (and Malignancy Position Paper); the approval ultimately required a REMS.",
+      "category": "Risk management / REMS",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "a114e593-5143-585b-9166-5a1a18f74bd0",
+        "line": 68,
+        "quote": "The committee unanimously agreed that the applicant's risk assessment proposals were insufficient.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "a114e593-5143-585b-9166-5a1a18f74bd0",
+          "found_lines": [
+            68
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "188649f5-05c2-5fdc-b4ac-dc7b017b551e",
+        "line": 48,
+        "quote": "Centocor's 07/17/2008 Enhanced Risk Management Plan and Malignancy Position Paper, submitted in response to the DODAC June 17, 2008 meeting.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "188649f5-05c2-5fdc-b4ac-dc7b017b551e",
+          "found_lines": [
+            48
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee unanimously agreed subjects had been followed for an insufficient amount of time, and were in near-unanimous agreement that an insufficient number of subjects had been studied.",
+      "change": "Postmarketing requirements were imposed to complete the 5-year PHOENIX 1/PHOENIX 2 trials and to enroll 4000 subjects into the PSOLAR registry followed for 8 years.",
+      "category": "Postmarketing requirement / long-term safety",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "a114e593-5143-585b-9166-5a1a18f74bd0",
+        "line": 68,
+        "quote": "The committee unanimously agreed that subjects had been followed for an insufficient amount of time, and were in near unanimous agreement that an insufficient number of subjects had been studied.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "a114e593-5143-585b-9166-5a1a18f74bd0",
+          "found_lines": [
+            68
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "498a8284-f057-5ee3-90fe-17b311ece84c",
+        "line": 45,
+        "quote": "Complete the treatment and evaluation of patients enrolled in the PHOENIX 1 and PHOENIX 2 trials for a total of 5 years",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "498a8284-f057-5ee3-90fe-17b311ece84c",
+          "found_lines": [
+            45
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee deliberated on the dosing paradigm, voting 7-to-3 for a 2-step over a 3-step regimen and raising concerns about the 3-step paradigm (lack of data at 67.5 mg, stability-data delays, and lack of lowest-effective-dose information).",
+      "change": "Product labeling adopted a weight-based 2-step dosing regimen (45 mg for patients at or below 100 kg; 90 mg for patients above 100 kg), which the Advisory Committee's majority supported.",
+      "category": "Dosing regimen / labeling",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "a114e593-5143-585b-9166-5a1a18f74bd0",
+        "line": 41,
+        "quote": "The committee expressed the following concerns about the 3-step paradigm: (1) lack of data at 67.5 mg (2) possible delays in generating stability data for 67.5 mg and (3) lack of availability of information on the lowest effective dose.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "a114e593-5143-585b-9166-5a1a18f74bd0",
+          "found_lines": [
+            41
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "498a8284-f057-5ee3-90fe-17b311ece84c",
+        "line": 20,
+        "quote": "The Advisory Committee unanimously recommended approval of ustekinumab with a majority voting in favor of the sponsor's proposed weight-based dosing paradigm.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "498a8284-f057-5ee3-90fe-17b311ece84c",
+          "found_lines": [
+            20
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Dermatologic and Ophthalmic Drugs Advisory Committee (DODAC) met on June 17, 2008 and unanimously recommended approval of ustekinumab (Stelara) for moderate-to-severe plaque psoriasis, with a majority endorsing the sponsor's weight-based dosing. The committee's unanimous concerns about malignancy potential, inadequate risk assessment, and insufficient numbers/duration of follow-up are reflected in the approval: the nonclinical malignancy signal was communicated in labeling, the sponsor submitted an Enhanced Risk Management Plan and a REMS in response to the meeting, and long-term postmarketing requirements (5-year PHOENIX trial completion and the 4000-patient PSOLAR registry) were imposed. The committee also voted against home self-administration, but the review documents do not tie that vote to a specific documented change in the approval."
+}

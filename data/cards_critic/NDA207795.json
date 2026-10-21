@@ -1,0 +1,33 @@
+{
+  "app": "NDA207795",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 437)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n \"app\": \"NDA207795\",\n \"release_ready\": false,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[1].result\",\n   \"severity\": \"high\",\n   \"issue\": \"The result claims non-inferiority was met, but the cited quote (line 312) states the study 'does not provide an",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "303259",
+        "text": "Study #769 (BOL-303259-X)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "Vyzulta was approved under a standard 505(b) NDA supported by two adequate and w"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "769",
+        "text": "Vyzulta was approved under a standard 505(b) NDA supported by two adequate and w"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "770",
+        "text": "Vyzulta was approved under a standard 505(b) NDA supported by two adequate and w"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

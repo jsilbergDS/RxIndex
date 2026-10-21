@@ -1,0 +1,43 @@
+{
+  "app": "NDA210795",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: '6 months' is supported by the citation which spells it 'six months postdosing'.",
+      "field_note": "flag dismissed"
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: '6 months' is supported via the endpoint citation ('six months postdosing'); the efficacy figures 60% (155/260), 26% (35/133), OR 0.24 (0.15,0.38), p<0.001, and 75.9% (61.8%,84.8%) are all present in citations."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: the '1' in 'Trial 1' is supported by the nct citation which states 'Trial 1 (NCT01376167)'."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study TAF112582 Part 2 (Trial 1)"
+      },
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "6",
+        "text": "Recurrence-free efficacy at 6 months postdosing"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "6",
+        "text": "Recurrence-free efficacy at 6 months 60% (155/260) with tafenoquine/chloroquine "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

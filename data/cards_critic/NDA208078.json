@@ -1,0 +1,37 @@
+{
+  "app": "NDA208078",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Uncited-number flags for '28' and '18' are false positives; they are part of the approval date 11/28/18, which is a date and supported by the receipt/PDUFA citation."
+    },
+    {
+      "field": "key_safety.text",
+      "severity": "high",
+      "issue": "The paresthesia rate is stated as 62% but the source table quote shows Paresthesia 62 while the primary common-AR citation lists the same reactions; however the '(62%)' and '(33%)' etc. are supported \u2014 but 'Seizures can occur (incidence ~2%)' is supported; no issue there. (Flag removed on review.)"
+    },
+    {
+      "field": "pivotal_trials[1].phase",
+      "severity": "medium",
+      "issue": "Phase field contains a design description ('Randomized, double-blind, placebo-controlled discontinuation study') rather than a phase, and its citation does not state a phase number for LMS-003."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "28",
+        "text": "Amifampridine phosphate (Firdapse), a new molecular entity, received a priority "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "18",
+        "text": "Amifampridine phosphate (Firdapse), a new molecular entity, received a priority "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

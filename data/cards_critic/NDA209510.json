@@ -1,0 +1,18 @@
+{
+  "app": "NDA209510",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 15 column 5 (char 867)",
+  "_raw": "{\n  \"app\": \"NDA209510\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].result\",\n      \"severity\": \"high\",\n      \"issue\": \"The counts '78/176' and '54/166' are stated in the text but the cited quotes only give '78 (44%)' and '54 (33%)'; the denominators come from a se",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "3",
+        "text": "Phase 3 (pivotal registration trial)"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

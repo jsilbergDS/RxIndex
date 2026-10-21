@@ -1,0 +1,23 @@
+{
+  "app": "NDA209299",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 302)",
+  "_raw": "{\n  \"app\": \"NDA209299\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"key_safety\",\n      \"severity\": \"high\",\n      \"issue\": \"The hypertension placebo rate is stated as 13% but the cited AE table row (28 vs 10) shows placebo hypertension of 10%, not 13%; 13% is uncited/incorrect.\",\n  ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "17",
+        "text": "The NDA (received April 17, 2017) was reviewed and fostamatinib may be approved "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2017",
+        "text": "The NDA (received April 17, 2017) was reviewed and fostamatinib may be approved "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

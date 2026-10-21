@@ -1,0 +1,28 @@
+{
+  "app": "NDA202535",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 302)",
+  "_raw": "{\n  \"app\": \"NDA202535\",\n  \"release_ready\": true,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].n\",\n      \"severity\": \"low\",\n      \"issue\": \"Flagged total N=603 is not verbatim in the quote but is the correct arithmetic sum of the cited components (305 dosed + 298 dosed); false positive.\",\n  ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "603",
+        "text": "N=603 (PicoPrep 305 dosed, HalfLytely 298 dosed)"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "598",
+        "text": "N=598 (PicoPrep 296 dosed, HalfLytely 302 dosed)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "PREPOPIK was submitted as a Standard-review 505(b)(2) NDA and approved full (tra"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

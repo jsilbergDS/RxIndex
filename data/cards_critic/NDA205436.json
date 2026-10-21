@@ -1,0 +1,147 @@
+{
+  "app": "NDA205436",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Flagged number 649 is a derived sum of cited components 323+326; false positive."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "Flagged number 666 is a derived sum of cited components 332+334; false positive."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "Flagged '6' (six-day duration) and '10' are present in the design citation quote; false positive."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "Flagged '20' is contained in the trial's cited endpoint definition (20% decrease); false positive."
+    },
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "low",
+      "issue": "Flagged '3' (Phase 3) is supported by the trial_name citation referencing 'Phase 3 trials'; false positive."
+    },
+    {
+      "field": "post_marketing[1].requirement",
+      "severity": "low",
+      "issue": "Flagged '2159' and '2' are PMR identifiers (excluded category); false positive."
+    },
+    {
+      "field": "post_marketing[5].requirement",
+      "severity": "low",
+      "issue": "Flagged '505' and '3' are statutory citation 505(o)(3); false positive."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged '3' refers to Phase 3 trials, supported by card trial citations; false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study TR701-112 (Trial 1)"
+      },
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "3",
+        "text": "Phase 3"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "6",
+        "text": "Randomized, double-blind, double-dummy, multicenter noninferiority trial; oral t"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "649",
+        "text": "N=649 (SIVEXTRO 323; linezolid 326)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "323",
+        "text": "Early clinical response 256/323 (79.3%) tedizolid vs 258/326 (79.1%) linezolid; "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "326",
+        "text": "Early clinical response 256/323 (79.3%) tedizolid vs 258/326 (79.1%) linezolid; "
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Study TR701-113 (Trial 2)"
+      },
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "3",
+        "text": "Phase 3"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "6",
+        "text": "Randomized, double-blind, double-dummy, multicenter noninferiority trial; IV wit"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "666",
+        "text": "N=666 (SIVEXTRO 332; linezolid 334)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "20",
+        "text": "Early clinical response (\u226520% lesion area decrease, Trial 2 primary endpoint) 28"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "332",
+        "text": "Early clinical response (\u226520% lesion area decrease, Trial 2 primary endpoint) 28"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "334",
+        "text": "Early clinical response (\u226520% lesion area decrease, Trial 2 primary endpoint) 28"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "10",
+        "text": "Early clinical response (\u226520% lesion area decrease, Trial 2 primary endpoint) 28"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "2159",
+        "text": "2159-2: Randomized Single-Blind Multicenter Safety and Efficacy Study of IV to o"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "2",
+        "text": "2159-2: Randomized Single-Blind Multicenter Safety and Efficacy Study of IV to o"
+      },
+      {
+        "field": "post_marketing[5]/requirement",
+        "number": "505",
+        "text": "2159-6: Conduct US surveillance studies for five years from the date of marketin"
+      },
+      {
+        "field": "post_marketing[5]/requirement",
+        "number": "3",
+        "text": "2159-6: Conduct US surveillance studies for five years from the date of marketin"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Tedizolid phosphate (Sivextro), the second oxazolidinone-class antibacterial, re"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

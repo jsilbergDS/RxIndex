@@ -1,0 +1,37 @@
+{
+  "app": "BLA125521",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[2].n",
+      "severity": "low",
+      "issue": "Automated flag on number '3' is a false positive: it is a trial label ('Trial 3'), which is not an efficacy/safety datum and is contextually supported by the 'three pivotal trials' citation."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag on number '3' is a false positive: 'three adequate and well-controlled trials' is directly supported by the summary citation quote."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "The RHAZ n-field labels N=433 as Q2W, N=432 as Q4W, N=431 as Placebo, but the cited garbled table header ambiguously interleaves trial and arm columns; values plausibly map to RHAZ arms but the citation does not cleanly verify the arm-to-N assignment."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[2]/n",
+        "number": "3",
+        "text": "RHBC (Trial 3): TALTZ 80 mg Q2W N=385, Placebo N=193 (intent-to-treat efficacy p"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Traditional (full) BLA approval based on three adequate and well-controlled Phas"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

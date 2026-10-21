@@ -1,0 +1,28 @@
+{
+  "app": "BLA761115",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Extra data: line 37 column 1 (char 1790)",
+  "_raw": "Analyzing the card against automated flags and QA criteria.\n\n```json\n{\n  \"app\": \"BLA761115\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"key_safety\",\n      \"severity\": \"high\",\n      \"issue\": \"Serious AE 'infection (9%)' and 'febrile neutropenia (8%)' plus Grade 3-4 neutropenia (43%",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "1.1",
+        "text": "Objective response rate (ORR) by RECIST 1.1 and duration of response."
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "132",
+        "text": "TRODELVY received accelerated approval under 21 CFR 601.41 based on tumor respon"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "05",
+        "text": "TRODELVY received accelerated approval under 21 CFR 601.41 based on tumor respon"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

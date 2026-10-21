@@ -1,0 +1,77 @@
+{
+  "app": "NDA205552",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "post_marketing[0].requirement",
+      "severity": "low",
+      "issue": "Flagged uncited numbers '2122' and '1' are PMR identifier components, not efficacy/safety data; false positive."
+    },
+    {
+      "field": "post_marketing[1].requirement",
+      "severity": "low",
+      "issue": "Flagged uncited numbers '2122' and '2' are PMR identifier components; false positive."
+    },
+    {
+      "field": "approval_program.accelerated_approval.confirmatory_requirement",
+      "severity": "low",
+      "issue": "Flagged numbers '3' (Phase 3) and '1112' (trial ID) are identifiers, not efficacy/safety data; false positive."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged numbers '1112' (trial ID) and '2012' (designation years) are identifiers/dates; false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "2122",
+        "text": "PMR 2122-1: Submit the results of the completed randomized, open-label Phase 3 t"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "1",
+        "text": "PMR 2122-1: Submit the results of the completed randomized, open-label Phase 3 t"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "2122",
+        "text": "PMR 2122-2: Complete and submit the results of the ongoing randomized, double-bl"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "2",
+        "text": "PMR 2122-2: Complete and submit the results of the ongoing randomized, double-bl"
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "3",
+        "text": "Confirmatory Phase 3 trials required (PCYC-1112-CA ibrutinib vs ofatumumab and P"
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "1112",
+        "text": "Confirmatory Phase 3 trials required (PCYC-1112-CA ibrutinib vs ofatumumab and P"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1112",
+        "text": "Ibrutinib for previously treated CLL received accelerated approval under 21 CFR "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2012",
+        "text": "Ibrutinib for previously treated CLL received accelerated approval under 21 CFR "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2012",
+        "text": "Ibrutinib for previously treated CLL received accelerated approval under 21 CFR "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

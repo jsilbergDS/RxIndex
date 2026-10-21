@@ -1,0 +1,23 @@
+{
+  "app": "NDA211230",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 10 column 3 (char 321)",
+  "_raw": "Reviewing the card systematically against the criteria.\n\n{\n \"app\": \"NDA211230\",\n \"release_ready\": true,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[0].trial_name\",\n   \"severity\": \"low\",\n   \"issue\": \"False-positive flag: '1' is a label study-number identifier ('Study 1 in label'), supported by the N",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study 14-002 (TONES 2), narcolepsy (Study 1 in label)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "Standard NDA (505(b)) approved March 20, 2019 for solriamfetol, a new molecular "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

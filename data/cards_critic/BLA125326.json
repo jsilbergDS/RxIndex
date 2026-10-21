@@ -1,0 +1,28 @@
+{
+  "app": "BLA125326",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive automated flag: the number '19' is supported by the citation which spells it as 'Nineteen (18%) developed Grade 4 neutropenia' (line 99); the matcher missed the spelled-out numeral.",
+      "field_note": "dismissed flag"
+    },
+    {
+      "field": "advisory_committee.vote",
+      "severity": "low",
+      "issue": "The ODAC vote quote and the pivotal_trials[0].result ORR quote are both attributed to the same doc_id line 110 despite being different sentences, indicating a likely line-number attribution error; quote text itself is verbatim-supported."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "19",
+        "text": "Most common adverse reactions (\u226510%) were neutropenia, pneumonia, pyrexia, cough"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

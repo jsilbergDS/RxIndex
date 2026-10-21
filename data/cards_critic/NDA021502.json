@@ -1,0 +1,53 @@
+{
+  "app": "NDA021502",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 340)",
+  "_raw": "Analyzing the card now.\n\n```json\n{\n  \"app\": \"NDA021502\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[2].result\",\n      \"severity\": \"high\",\n      \"issue\": \"The standard sunscreen PFA value '4.05 \u00b1 0.59' is not present in any citation quote; the cited quote only states",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "4.05",
+        "text": "Mean PFA \u00b1 SD of formulation 539-009 was 19.53 \u00b1 3.39, versus standard sunscreen"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "0.59",
+        "text": "Mean PFA \u00b1 SD of formulation 539-009 was 19.53 \u00b1 3.39, versus standard sunscreen"
+      },
+      {
+        "field": "pivotal_trials[3]/trial_name",
+        "number": "8",
+        "text": "Study 920.01 (UVA protection factor / PFA determination study using the 8-MOP me"
+      },
+      {
+        "field": "pivotal_trials[3]/n",
+        "number": "11",
+        "text": "14 subjects enrolled; 11 evaluable for formulation 539-009"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "21",
+        "text": "NDA 21-502 was submitted May 12, 2005 as a 505(b)(2) application for Anthelios S"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "502",
+        "text": "NDA 21-502 was submitted May 12, 2005 as a 505(b)(2) application for Anthelios S"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "18",
+        "text": "NDA 21-502 was submitted May 12, 2005 as a 505(b)(2) application for Anthelios S"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "21",
+        "text": "NDA 21-502 was submitted May 12, 2005 as a 505(b)(2) application for Anthelios S"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "app": "NDA202570",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False-positive flag: '136' IS supported by its citation, which spells it out as 'One hundred thirty-six patients'."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "False-positive flag: '119' IS supported by its citation, which spells it out as 'One hundred nineteen patients'."
+    },
+    {
+      "field": "receipt_date",
+      "severity": "low",
+      "issue": "False-positive flag: '3' and '11' are date components of the receipt date 3/30/11, which is itself supported ('March 30th 2011'); dates are excluded."
+    },
+    {
+      "field": "post_marketing[*].requirement",
+      "severity": "low",
+      "issue": "False-positive flags: the '1789' and sub-numbers are PMR/PMC tracking identifiers (not efficacy/safety data) and do not require citation support."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "136",
+        "text": "N=136"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "119",
+        "text": "N=119"
+      },
+      {
+        "field": "receipt_date",
+        "number": "3",
+        "text": "3/30/11"
+      },
+      {
+        "field": "receipt_date",
+        "number": "11",
+        "text": "3/30/11"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "1789",
+        "text": "1789-1: Clinical trial report and datasets from A8081007, a Phase 3 randomized o"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "1",
+        "text": "1789-1: Clinical trial report and datasets from A8081007, a Phase 3 randomized o"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "1789",
+        "text": "1789-2: Clinical trial report and datasets from A8081014, a Phase 3 randomized o"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "2",
+        "text": "1789-2: Clinical trial report and datasets from A8081014, a Phase 3 randomized o"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "1789",
+        "text": "1789-3: Submit the final report on the ongoing in vitro evaluations of induction"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "3",
+        "text": "1789-3: Submit the final report on the ongoing in vitro evaluations of induction"
+      },
+      {
+        "field": "post_marketing[3]/requirement",
+        "number": "1789",
+        "text": "1789-4: Clinical trial in at least 30 patients with ophthalmologic examinations "
+      },
+      {
+        "field": "post_marketing[3]/requirement",
+        "number": "4",
+        "text": "1789-4: Clinical trial in at least 30 patients with ophthalmologic examinations "
+      },
+      {
+        "field": "post_marketing[4]/requirement",
+        "number": "1789",
+        "text": "1789-5: Complete the ECG sub-study in trial A8081007 and submit the final report"
+      },
+      {
+        "field": "post_marketing[4]/requirement",
+        "number": "5",
+        "text": "1789-5: Complete the ECG sub-study in trial A8081007 and submit the final report"
+      },
+      {
+        "field": "post_marketing[5]/requirement",
+        "number": "1789",
+        "text": "1789-6: Conduct a multiple dose trial to determine how to adjust the crizotinib "
+      },
+      {
+        "field": "post_marketing[5]/requirement",
+        "number": "6",
+        "text": "1789-6: Conduct a multiple dose trial to determine how to adjust the crizotinib "
+      },
+      {
+        "field": "post_marketing[6]/requirement",
+        "number": "1789",
+        "text": "1789-7: Conduct a multiple dose trial to determine how to adjust the crizotinib "
+      },
+      {
+        "field": "post_marketing[6]/requirement",
+        "number": "7",
+        "text": "1789-7: Conduct a multiple dose trial to determine how to adjust the crizotinib "
+      },
+      {
+        "field": "post_marketing[7]/requirement",
+        "number": "1789",
+        "text": "1789-8: Conduct a multiple dose trial to determine the appropriate crizotinib do"
+      },
+      {
+        "field": "post_marketing[7]/requirement",
+        "number": "8",
+        "text": "1789-8: Conduct a multiple dose trial to determine the appropriate crizotinib do"
+      },
+      {
+        "field": "post_marketing[8]/requirement",
+        "number": "1789",
+        "text": "1789-9: Conduct a trial to determine the appropriate crizotinib dose in patients"
+      },
+      {
+        "field": "post_marketing[8]/requirement",
+        "number": "9",
+        "text": "1789-9: Conduct a trial to determine the appropriate crizotinib dose in patients"
+      },
+      {
+        "field": "post_marketing[9]/requirement",
+        "number": "1789",
+        "text": "1789-10: Conduct a trial to determine how to dose crizotinib with regard to gast"
+      },
+      {
+        "field": "post_marketing[9]/requirement",
+        "number": "10",
+        "text": "1789-10: Conduct a trial to determine how to dose crizotinib with regard to gast"
+      },
+      {
+        "field": "post_marketing[10]/requirement",
+        "number": "1789",
+        "text": "1789-11: Conduct a clinical trial to explore response to crizotinib in ALK-negat"
+      },
+      {
+        "field": "post_marketing[10]/requirement",
+        "number": "11",
+        "text": "1789-11: Conduct a clinical trial to explore response to crizotinib in ALK-negat"
+      },
+      {
+        "field": "post_marketing[11]/requirement",
+        "number": "1789",
+        "text": "1789-12: Conduct exposure-response analysis for PFS, response rate, overall surv"
+      },
+      {
+        "field": "post_marketing[11]/requirement",
+        "number": "12",
+        "text": "1789-12: Conduct exposure-response analysis for PFS, response rate, overall surv"
+      },
+      {
+        "field": "post_marketing[12]/requirement",
+        "number": "1789",
+        "text": "1789-13: Conduct exposure-response analysis for PFS, response rate, overall surv"
+      },
+      {
+        "field": "post_marketing[12]/requirement",
+        "number": "13",
+        "text": "1789-13: Conduct exposure-response analysis for PFS, response rate, overall surv"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

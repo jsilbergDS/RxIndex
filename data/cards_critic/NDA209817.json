@@ -1,0 +1,23 @@
+{
+  "app": "NDA209817",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 292)",
+  "_raw": "Analyzing the card for quality issues.\n\n{\n \"app\": \"NDA209817\",\n \"release_ready\": true,\n \"issues\": [\n  {\n   \"field\": \"advisory_committee.vote\",\n   \"severity\": \"low\",\n   \"issue\": \"False-positive flag: the '1 no' vote is supported by the citation 'one member who voted no'; the digit '1' vs word 'one' i",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "advisory_committee/vote",
+        "number": "1",
+        "text": "AMDAC met August 8, 2018. ABSSSI: 17 voted yes, 1 no. CABP: 14 voted yes, 4 no."
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "NUZYRA received QIDP designation and Fast Track Designation for CABP/ABSSSI, and"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

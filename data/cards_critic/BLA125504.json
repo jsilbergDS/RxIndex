@@ -1,0 +1,43 @@
+{
+  "app": "BLA125504",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting ',' delimiter: line 14 column 6 (char 542)",
+  "_raw": "<think>\nLet me analyze this card.\n\nLet me check key areas.\n\n**pivotal_trials[0].result**: \"At Week 12 (300 mg): PASI 75 200 (82%) vs placebo 11 (4%); IGA 0/1 160 (65%) vs placebo 6 (2%); PASI 90 145 (59%) vs placebo 3 (1%).\" \n\nCitations: PASI 75 \"200 (82%)...11 (4%)\" \u2713. IGA \"160 (65%)...6 (2%)\" \u2713. P",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "12",
+        "text": "At Week 12 (300 mg): PASI 75 200 (82%) vs placebo 11 (4%); IGA 0/1 160 (65%) vs "
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "300",
+        "text": "N=1306 (300 mg N=327, 150 mg N=327, Placebo N=326, Etanercept N=326)"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "150",
+        "text": "N=1306 (300 mg N=327, 150 mg N=327, Placebo N=326, Etanercept N=326)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "12",
+        "text": "At Week 12 (300 mg): PASI 75 249 (76%) vs placebo 16 (5%) vs etanercept 142 (44%"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "300",
+        "text": "At Week 12 (300 mg): PASI 75 249 (76%) vs placebo 16 (5%) vs etanercept 142 (44%"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "1",
+        "text": "At Week 12 (300 mg): PASI 75 249 (76%) vs placebo 16 (5%) vs etanercept 142 (44%"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

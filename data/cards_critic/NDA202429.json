@@ -1,0 +1,22 @@
+{
+  "app": "NDA202429",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag of uncited number '3' is a false positive; it refers to 'Phase 3', which is a trial-phase descriptor supported by citations, not an uncited efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "ZELBORAF received Fast Track designation (June 2010) and orphan drug designation"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

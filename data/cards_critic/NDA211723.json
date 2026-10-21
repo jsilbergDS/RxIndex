@@ -1,0 +1,28 @@
+{
+  "app": "NDA211723",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Extra data: line 37 column 1 (char 2007)",
+  "_raw": "Reviewing the card against citations and flags.\n\n```json\n{\n  \"app\": \"NDA211723\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].n\",\n      \"severity\": \"high\",\n      \"issue\": \"Text says '44 in Cohort 6' but the PMR 3787-2 citation states 'An additional 25 patients from",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "6",
+        "text": "Study EZH-202, Cohort 5 (with supportive Cohort 6)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "5",
+        "text": "Tazemetostat, a new molecular entity, received Priority Review and accelerated a"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "202",
+        "text": "Tazemetostat, a new molecular entity, received Priority Review and accelerated a"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "app": "NDA022081",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "modality.text",
+      "severity": "low",
+      "issue": "States 'Small molecule' but the citation only describes an endothelin receptor antagonist and does not explicitly state the modality is a small molecule (true, but not citation-supported)."
+    },
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "low",
+      "issue": "False-positive flag: '6' (6-minute walk) and '12' (12 weeks) are supported \u2014 '12-week' appears in the design citation and 'six minute walk distance' appears spelled out in the endpoint citation."
+    },
+    {
+      "field": "pivotal_trials[1].endpoint",
+      "severity": "low",
+      "issue": "False-positive flag: '6' and '12' are supported by the design/endpoint citations (spelled-out 'six minute walk distance' and '12-week')."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: '320' is part of the study identifier AMB-320 (study IDs are excluded) and is present in the citation 'AMB-320...'."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: '321' is part of study identifier AMB-321 and is present in the citation."
+    },
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "low",
+      "issue": "False-positive flag: 'WHO Group 1' \u2014 the citation uses 'WHO Group I' (roman numeral), so the arabic '1' is a benign transcription equivalent."
+    },
+    {
+      "field": "pivotal_trials[1].population",
+      "severity": "low",
+      "issue": "False-positive flag: 'WHO Group 1' corresponds to cited 'WHO Group I'."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive flag: '5' and '10' are doses (5 mg, 10 mg), which are excluded from uncited-number checks."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "False-positive flag: '5' is the dose (5 mg), which is excluded from uncited-number checks."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "320",
+        "text": "ARIES-1 (AMB-320)"
+      },
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "1",
+        "text": "Patients with PAH (WHO Group 1) with WHO functional class II-III symptoms"
+      },
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "6",
+        "text": "Change from baseline in 6-minute walk distance at 12 weeks"
+      },
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "12",
+        "text": "Change from baseline in 6-minute walk distance at 12 weeks"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "5",
+        "text": "Placebo-adjusted mean change in 6MWD of 31 m (5 mg, p=0.008) and 51 m (10 mg, p<"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "10",
+        "text": "Placebo-adjusted mean change in 6MWD of 31 m (5 mg, p=0.008) and 51 m (10 mg, p<"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "321",
+        "text": "ARIES-2 (AMB-321)"
+      },
+      {
+        "field": "pivotal_trials[1]/population",
+        "number": "1",
+        "text": "Patients with PAH (WHO Group 1) with WHO functional class II-III symptoms"
+      },
+      {
+        "field": "pivotal_trials[1]/endpoint",
+        "number": "6",
+        "text": "Change from baseline in 6-minute walk distance at 12 weeks"
+      },
+      {
+        "field": "pivotal_trials[1]/endpoint",
+        "number": "12",
+        "text": "Change from baseline in 6-minute walk distance at 12 weeks"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "5",
+        "text": "Placebo-adjusted mean change in 6MWD of 32 m (2.5 mg, p=0.022) and 59 m (5 mg, p"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

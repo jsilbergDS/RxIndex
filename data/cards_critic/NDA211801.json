@@ -1,0 +1,52 @@
+{
+  "app": "NDA211801",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Uncited-number flags for 09/12/2018, 09/12/2019, and 'phase 3' are false positives: the dates are date fragments already present in the receipt/PDUFA citation and 'phase 3' is supported by the pivotal-trial citations."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "09",
+        "text": "Standard review NDA received 09/12/2018 with a PDUFA goal date of 09/12/2019; ap"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "12",
+        "text": "Standard review NDA received 09/12/2018 with a PDUFA goal date of 09/12/2019; ap"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2018",
+        "text": "Standard review NDA received 09/12/2018 with a PDUFA goal date of 09/12/2019; ap"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "09",
+        "text": "Standard review NDA received 09/12/2018 with a PDUFA goal date of 09/12/2019; ap"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "12",
+        "text": "Standard review NDA received 09/12/2018 with a PDUFA goal date of 09/12/2019; ap"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2019",
+        "text": "Standard review NDA received 09/12/2018 with a PDUFA goal date of 09/12/2019; ap"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Standard review NDA received 09/12/2018 with a PDUFA goal date of 09/12/2019; ap"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

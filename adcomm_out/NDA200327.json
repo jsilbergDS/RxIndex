@@ -1,0 +1,172 @@
+{
+  "app": "NDA200327",
+  "drug": "TEFLARO",
+  "docs_read": [
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "2d86e24a-69b9-5673-9fad-6566aa94ffcc"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "3f56fc24-b4d2-5146-9527-f5d443326759"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "be9a12ba-dfa3-5ab5-adc8-aa3db373203e"
+    },
+    {
+      "doc_type": "Lbl",
+      "doc_id": "5e47a146-dc31-5391-961d-084b703a33e8"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Anti-Infective Drugs Advisory Committee (AIDAC)",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "be9a12ba-dfa3-5ab5-adc8-aa3db373203e",
+      "line": 1905,
+      "quote": "The Anti-Infective Drugs Advisory Committee met on September 7, 2010 at the Hilton Washington, DC/Gaithersburg in Gaithersburg, MD to discuss the new drug application (NDA) 200327 for ceftaroline fosamil for injection which was submitted by Cerexa, Inc. for the treatment of adults with community-acquired bacterial pneumonia (CABP) and acute bacterial skin and skin structure infections (ABSSSI)"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "be9a12ba-dfa3-5ab5-adc8-aa3db373203e",
+      "found_lines": [
+        1905
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "September 7, 2010",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "3f56fc24-b4d2-5146-9527-f5d443326759",
+      "line": 343,
+      "quote": "An AIDAC meeting was held on September 7, 2010 to discuss the NME, ceftaroline, as required by the Food and Drug Administration Amendments Act (FDAAA) 2007."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "3f56fc24-b4d2-5146-9527-f5d443326759",
+      "found_lines": [
+        343
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The AIDAC voted unanimously in favor of approval for both indications: 21-0 (Yes) that safety and efficacy were demonstrated for CABP, and 18-0 (Yes) for ABSSSI.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "2d86e24a-69b9-5673-9fad-6566aa94ffcc",
+      "line": 15,
+      "quote": "On the question of whether safety and efficacy has been demonstrated for ceftaroline for CABP, the Committee voted Yes 21; No 0; abstain 0. On the question of whether safety and efficacy had been demonstrated for ABSSSI, the Committee voted Yes 18; No 0; abstain 0."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "2d86e24a-69b9-5673-9fad-6566aa94ffcc",
+      "found_lines": [
+        15
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Committee members raised concern about the increased frequency of direct Coombs' test seroconversion in the ceftaroline-treated group versus comparator and said it should be addressed in labeling.",
+      "change": "The approved label added Warnings and Precautions section 5.3 'Direct Coombs' Test Seroconversion', reporting the seroconversion rates and recommending a hemolytic-anemia workup if anemia develops.",
+      "category": "Safety / Labeling (Warnings and Precautions)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "2d86e24a-69b9-5673-9fad-6566aa94ffcc",
+        "line": 15,
+        "quote": "They also noted that information should be included in labeling regarding positive direct Coombs' tests and that the labeling should note that ceftaroline is indicated for MRSA in ABSSSI and not for CABP.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "2d86e24a-69b9-5673-9fad-6566aa94ffcc",
+          "found_lines": [
+            15
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "5e47a146-dc31-5391-961d-084b703a33e8",
+        "line": 203,
+        "quote": "Seroconversion from a negative to a positive direct Coombs' test result occurred in 120/1114 (10.8%) of patients receiving Teflaro and 49/1116 (4.4%) of patients receiving comparator drugs in the four pooled Phase 3 trials.",
+        "quote_verify": {
+          "status": "OFFSET",
+          "doc_id_used": "5e47a146-dc31-5391-961d-084b703a33e8",
+          "found_lines": [
+            60
+          ],
+          "offset": -143
+        }
+      }
+    },
+    {
+      "concern": "Committee members were concerned about the lack of evidence for ceftaroline's efficacy against CABP caused by MRSA and the potential for off-label use for MRSA pneumonia, and urged that this be clearly addressed in labeling.",
+      "change": "The approved label added a NOTE stating that clinical efficacy of Teflaro for lower respiratory infections such as CABP due to MRSA has not been studied in adequate and well-controlled trials (MRSA coverage is in the ABSSSI indication, not CABP).",
+      "category": "Indication / Labeling (off-label use limitation)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "2d86e24a-69b9-5673-9fad-6566aa94ffcc",
+        "line": 15,
+        "quote": "They also noted that information should be included in labeling regarding positive direct Coombs' tests and that the labeling should note that ceftaroline is indicated for MRSA in ABSSSI and not for CABP.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "2d86e24a-69b9-5673-9fad-6566aa94ffcc",
+          "found_lines": [
+            15
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "5e47a146-dc31-5391-961d-084b703a33e8",
+        "line": 165,
+        "quote": "Clinical efficacy of Teflaro to treat lower respiratory infections such as community-acquired bacterial pneumonia due to MRSA has not been studied in adequate and well controlled trials",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "5e47a146-dc31-5391-961d-084b703a33e8",
+          "found_lines": [
+            165
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members noted the disparate antimicrobial susceptibility (MIC) breakpoints proposed by the FDA versus the Applicant and flagged establishing appropriate breakpoints using all available data as a concern.",
+      "change": "After continued review of the data (clinical experience, PK/PD models, Monte Carlo simulations), the FDA proposed less stringent breakpoints, to which the Applicant agreed, resolving the disparity.",
+      "category": "Microbiology / Susceptibility breakpoints",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "be9a12ba-dfa3-5ab5-adc8-aa3db373203e",
+        "line": 1913,
+        "quote": "the disparate MIC breakpoints from the FDA and the Applicant, are some of the concerning issues members felt should be addressed in the labeling discussions with the Applicant.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "be9a12ba-dfa3-5ab5-adc8-aa3db373203e",
+          "found_lines": [
+            1913
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "3f56fc24-b4d2-5146-9527-f5d443326759",
+        "line": 19,
+        "quote": "the FDA proposed less stringent breakpoints, to which the Applicant agreed",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "3f56fc24-b4d2-5146-9527-f5d443326759",
+          "found_lines": [
+            19
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Anti-Infective Drugs Advisory Committee (AIDAC) meeting was held on September 7, 2010 for NDA 200327 (ceftaroline fosamil / Teflaro), as required under FDAAA for a new molecular entity. The committee voted unanimously that safety and efficacy had been demonstrated for both proposed indications (21-0 for CABP and 18-0 for ABSSSI) and commended the FDA's earlier-timepoint sensitivity analyses. Committee concerns about Coombs' test seroconversion, the lack of MRSA-CABP efficacy data (off-label use risk), and the FDA-vs-Applicant MIC breakpoint disparity were reflected in the approved labeling (a Coombs' seroconversion warning and a note that CABP-due-to-MRSA efficacy was not studied) and in the agreed less-stringent susceptibility breakpoints."
+}

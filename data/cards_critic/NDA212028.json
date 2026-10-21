@@ -1,0 +1,117 @@
+{
+  "app": "NDA212028",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].nct",
+      "severity": "medium",
+      "issue": "NCT value '0295820' is malformed/truncated (valid NCT numbers are 8 digits, e.g. NCT02952820); the citation quote itself shows the truncated OCR value, so the reported NCT is not a valid identifier."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: uncited number '1' (Study 1 alias) is supported by the review's Study 1/Study 2 labeling elsewhere in the document."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: uncited number '2' (Study 2 alias) is supported by the review's Study 1/Study 2 labeling."
+    },
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "low",
+      "issue": "False-positive flag: 'Phase 3' number is contextually supported by the controlled-studies table (Study 304 entry) and study-design descriptions."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flags: the flagged numbers are dates (12/27/2018, 12/20/2019), which are excluded per rules and are supported by the receipt_date citation."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flags: the flagged numbers are dates already supported by the receipt_date citation and per rules dates are excluded."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study E2006-G000-303 (Study 303 / Study 1)"
+      },
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "3",
+        "text": "Phase 3"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Study E2006-G000-304 (Study 304 / Study 2)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "12",
+        "text": "Application received 12/27/2018 and approved 12/20/2019 within the first review "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "27",
+        "text": "Application received 12/27/2018 and approved 12/20/2019 within the first review "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2018",
+        "text": "Application received 12/27/2018 and approved 12/20/2019 within the first review "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "12",
+        "text": "Application received 12/27/2018 and approved 12/20/2019 within the first review "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "20",
+        "text": "Application received 12/27/2018 and approved 12/20/2019 within the first review "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2019",
+        "text": "Application received 12/27/2018 and approved 12/20/2019 within the first review "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "12",
+        "text": "DAYVIGO (lemborexant) was submitted as a standard-review NDA (received 12/27/201"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "27",
+        "text": "DAYVIGO (lemborexant) was submitted as a standard-review NDA (received 12/27/201"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2018",
+        "text": "DAYVIGO (lemborexant) was submitted as a standard-review NDA (received 12/27/201"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "12",
+        "text": "DAYVIGO (lemborexant) was submitted as a standard-review NDA (received 12/27/201"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "20",
+        "text": "DAYVIGO (lemborexant) was submitted as a standard-review NDA (received 12/27/201"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2019",
+        "text": "DAYVIGO (lemborexant) was submitted as a standard-review NDA (received 12/27/201"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

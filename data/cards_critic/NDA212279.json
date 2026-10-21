@@ -1,0 +1,72 @@
+{
+  "app": "NDA212279",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "low",
+      "issue": "Automated flag for numbers '505'/'2' is a false positive; they derive from the regulatory pathway '505(b)(2)', not an efficacy/safety figure."
+    },
+    {
+      "field": "pivotal_trials[1].phase",
+      "severity": "low",
+      "issue": "Automated flag for numbers '505'/'2' is a false positive; they derive from '505(b)(2)', not an efficacy/safety figure."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Automated flag for number '7' is a false positive; it is part of the approval date November 7, 2019, which is cited."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flags for '7', '2019', and '212279' are false positives; they are the approval date and NDA application number, not efficacy/safety data."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "505",
+        "text": "Not applicable; published diagnostic performance literature study submitted unde"
+      },
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "2",
+        "text": "Not applicable; published diagnostic performance literature study submitted unde"
+      },
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "505",
+        "text": "Not applicable; prospective observational diagnostic performance study submitted"
+      },
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "2",
+        "text": "Not applicable; prospective observational diagnostic performance study submitted"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "7",
+        "text": "Approved effective on the date of the approval letter (November 7, 2019); no pri"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "7",
+        "text": "ExEm Foam was approved November 7, 2019 as an original 505(b)(2) NDA (NDA 212279"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2019",
+        "text": "ExEm Foam was approved November 7, 2019 as an original 505(b)(2) NDA (NDA 212279"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "212279",
+        "text": "ExEm Foam was approved November 7, 2019 as an original 505(b)(2) NDA (NDA 212279"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

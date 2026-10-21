@@ -1,0 +1,1576 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+L2: **202022Orig1s000**
+L3: **STATISTICAL REVIEW(S)**
+L4: FDA Seal for Drug Evaluation and Research
+L5: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L6: ## STATISTICAL REVIEW AND EVALUATIONCLINICAL STUDIES
+L7: **NDA/Serial Number:** 202022 /N000;
+**Drug Name:** TMC278 (rilpivirine), a diarylpyrimidine derivative, NNRTI, 25 mg qd.
+**Indication(s):** Treatment for HIV-1 treatment naïve patients
+**Applicant:** Tibotec
+**Date(s):** Received 07/23/2010, PDUFA due date: 5/23/2011
+**Review Priority:** Standard
+
+**Biometrics Division:** DB4/OB/OTS/CDER
+**Statistical Reviewer:** Lei Nie
+**Concurring Reviewers:** Fraser Smith, Acting team leader
+
+**Medical Division:** DVAP/OAP/OND/CDER
+**Clinical Team:** Yodit Belew, Kimberly Struble
+**Project Manager:** Robert Kosko
+L8: ## Keywords:
+L9: active control/non-inferiority; adverse events (AE); randomization; double blind; clinical studies; confidence interval; covariates; intent-to-treat; interaction; logistic regression; missing data; multi-center; randomization; sensitivity analyses; stratification; subgroup analyses; protease inhibitor; antiretroviral-naïve, HIV-1 infected
+L10: ## Table of Contents
+L11: 1. EXECUTIVE SUMMARY	3
+2. INTRODUCTION	4
+2.1 OVERVIEW	4
+2.2 DATA SOURCES	5
+3. STATISTICAL EVALUATION	6
+3.1 DATA AND ANALYSIS QUALITY	6
+3.2 EVALUATION OF EFFICACY	7
+3.3 EVALUATION OF SAFETY	35
+4. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	35
+4.1 GENDER, RACE, AGE, AND GEOGRAPHIC REGION	35
+4.2 OTHER SPECIAL/SUBGROUP POPULATIONS	38
+5. SUMMARY AND CONCLUSIONS	39
+5.1 STATISTICAL ISSUES AND COLLECTIVE EVIDENCE	39
+5.2 CONCLUSIONS AND RECOMMENDATIONS	39
+CHECK LIST	39
+L12: ## 1. EXECUTIVE SUMMARY
+L13: Tibotec submitted two Phase III trials and one phase II trial to support TMC278 (rilpivirine), a diarylpyrimidine derivative, dosed at 25 mg q.d. in combination with a background regimen containing 2 nucleoside/nucleotide reverse transcriptase inhibitors in the treatment of antiretroviral (ARV)-naïve HIV-1 infected subjects. The sponsor concluded that TMC278 25 mg q.d. is noninferior to Efavirenz (EFV) 600 mg q.d., a treatment previously approved by FDA.
+L14: The reviewer concurs with the sponsor's above conclusion in general. The concurrence is based on the analysis of the pre-specified and commonly used primary endpoint, which is a composite endpoint of efficacy and safety. Evaluated through the primary composite endpoint, TMC278 is noninferior to EFV.
+L15: However, while TMC278 demonstrates its statistically significant superiority over EFV in terms of reduction in adverse events (AE), it also demonstrates its statistically significant inferiority relative to EFV in terms of virologic suppression. In addition, compared to EFV, TMC278's inferior virologic suppression is primarily driven by subjects with high baseline viral loads, but its superior ability of reduction in AE (over EFV) is demonstrated in subjects with either high or low baseline viral loads.
+L16: This review primarily focuses on two randomized and double-blinded Phase III trials. A total of 1368 subjects were randomized and treated with TMC278 or EFV. The noninferiority of TMC278 relative to EFV is demonstrated in each of the two trials for the primary efficacy endpoint.
+L17: The noninferiority of TMC278 relative to EFV for the primary efficacy endpoint is demonstrated in subjects with baseline viral loads higher than 100,000 copies /ml and is also demonstrated in subjects with baseline viral loads lower than 100,000 copies /ml. (See Section 3.3.)
+L18: The efficacy results are numerically consistent in subjects using different background regimens. However, a majority of subjects took tenofovir disoproxil fumarate and emtricitabine as their background treatment and only a small percentage of subjects took the other two background regimens.
+L19: The superiority of TMC278 over EFV in AEs reduction is demonstrated in subjects with baseline viral loads higher than 100,000 copies /ml and also demonstrated in subjects with baseline viral loads lower than 100,000 copies /ml.
+L20: TMC278 is inferior to EFV in virologic suppression in subjects with baseline viral loads higher than 100,000 copies/ml but is similar to EFV in subjects with baseline viral loads lower than 100,000 copies/ml.
+L21: ## 2. INTRODUCTION
+L22: ## 2.1 Overview
+L23: TMC278 (rilpivirine hydrochloride, RPV), a diarylpyrimidine derivative, is a nonnucleoside reverse transcriptase inhibitor (NNRTI) of the human immunodeficiency virus type 1 (HIV-1). TMC278 binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site. TMC278 does not inhibit the human DNA polymerase alpha, beta, and gamma.
+L24: Thirty (30) completed Phase I trials (29 trials in healthy subjects and 1 trial in HIV-1 infected subjects) focused on understanding of the pharmacokinetic characteristics of TMC278, its drug-drug interaction potential and its safety/tolerability profile.
+L25: Two completed Phase IIa Proof-of-Principle trials (R278474-C201 and R278474-C202) provided short-term (7-day treatment) antiviral activity and safety data in both ARV treatment naïve and treatment-experienced HIV-1 infected subjects.
+L26: One ongoing randomized, open-label, active-controlled Phase IIb trial TMC278-C204 (C204) provides long-term data on efficacy and safety with TMC278 in antiretroviral (ARV) treatment-naïve HIV-1 infected subjects. Trial C204 has two parts: a dose-finding part up to 96 weeks and an ongoing long-term part, which has provided data up to 192 weeks.
+L27: Based on the efficacy, safety, pharmacokinetics, and pharmacokinetic/pharmacodynamic assessments obtained from the primary analysis (Week 48 data) of this Phase IIb trial, the dose of TMC278 75 mg q.d. was initially selected for further development.
+L28: However, a change in TMC278 dose from 75 mg q.d. to 25 mg q.d. was implemented prior to the start of the Phase III trials. This change in dose was prompted by data that became available from a thorough QT trial, TMC278 -C131 (C131). The choice of the 25 mg q.d. as the dose for further development was also supported by Week 96 data obtained from the C204 Phase IIb trial.
+L29: Two Phase III ongoing 96-week randomized, double-blind, double dummy, active-controlled international trials were conducted in HIV-1 infected, ARV treatment-naïve adult subjects TMC278- C209 (C209), also known as ECHO, and TMC278-C215 (C215), also known as THRIVE.
+L30: Both trials were designed to compare the long-term efficacy (including antiviral activity, immunologic changes, and evolution of HIV-1 genotypic and phenotypic characteristics), safety, and tolerability of TMC278 given at a dose of 25 mg q.d. versus EFV 600 mg q.d. in HIV-1 infected treatment-naïve subjects. The pharmacokinetics and pharmacokinetic/pharmacodynamic relationships for efficacy and safety of TMC278 were evaluated.
+L31: The following table list all clinical trials conducted at the confirmatory stage: the completed Phase III trials C209 and C215, and Phase IIb C204. All of these trials are still ongoing, the next
+L32: table summarizes information up to week 48, which is the primary endpoint of the purpose of this submission.
+L33: **Table 1: List of three studies**
+L34: C209 (phase III)	C215 (phase III)	C204 (phase II)
+Treatment Arms (sample size: ITT(a))	TMC278 25 mg q.d. (346)(b)
+EFV 600 mg q.d (344)	TMC278 25 mg q.d. (340)
+EFV 600 mg q.d (338)	TMC278 25 mg q.d. (93)
+TMC278 75 mg q.d. (95)
+TMC278 150 mg q.d. (91)
+EFV 600 mg. q.d. (89)
+Design	Double blinded	Double blinded	Open label between TMC278 and EFV; blinded among TMC278 arms
+Population	HIV-1 infected treatment-naïve adult subjects	HIV-1 infected treatment-naïve adult subjects	HIV-1 infected treatment-naïve adults subjects
+Investigational sites	112 sites in 21 countries	98 sites in 21 countries	54 sites in 14 countries
+Study period	Start: 21-Apr-2008 /
+Week 48 data cut-off:
+01-Feb-2010	Start: 22-May-2008 /
+Week 48 data cut-off:
+28-Jan-2010	Start: 01-Jun-2005
+Week 48 data cut-off:
+26-Oct-2006
+Background regimen	TDF/FTC (100%)(c)	TDF/FTC (60%)
+AZT/3TC (30%)
+ABC/3TC (10%)	AZT/3TC (76%);
+TDF/FTC (24%)
+L35: (a): randomized and treated; TDF: tenofovir disoproxil fumarate; FTC: emtricitabine; ABC: abacavir; 3TC: lamivudine; AZT: zidovudine;
+L36: (b): sample size
+L37: (c): percentage of subjects took the background regimen
+L38: Source: summarized from study reports and reviewer's analysis.
+L39: For all of these three trials, efficacy data were submitted. Although trial C204 provided efficacy data, the open-label made it less credible for the TMC278 and EFV comparison. Furthermore, the sample size in trial C204 is also much smaller than in C109 and C215. Therefore, the review will mainly focus on C209 and C215.
+L40: Trials C209 and C215 are identical in design, i.e., active comparator (efavirenz, EFV), subject selection criteria and outcome measures, but differ in background regimen, i.e., while in C209 the NRTI background is fixed to tenofovir disoproxil fumarate (TDF)/emtricitabine (FTC), the background regimen in C215 consists of abacavir (ABC)/lamivudine (3TC), zidovudine (AZT)/3TC, or TDF/FTC.
+L41: ## 2.2 Data Sources
+L42: Applicant study reports,
+L43: Cdsesub1\evsprod\NDA202022\0000\m5\53-clin-stud-rep\535-rep-effic-safety-stud\treatment-hiv-1-infection\5351-stud-rep-cont\TMC278-tidp6-c209
+L44: V:\0000\m5\53-clin-stud-rep\535-rep-effic-safety-stud\treatment-hiv-1-infection\5351-stud-rep-contr\TMC278-tidp6-c215
+L45: V:\0000\m5\53-clin-stud-rep\535-rep-effic-safety-stud\treatment-hiv-1-infection\5351-stud-rep-contr\TMC278-c204-w48
+L46: V:\0000\m5\53-clin-stud-rep\535-rep-effic-safety-stud\treatment-hiv-1-infection\5351-stud-rep-contr\TMC278-c204-w96
+L47: V:\0000\m5\53-clin-stud-rep\535-rep-effic-safety-stud\treatment-hiv-1-infection\5351-stud-rep-contr\TMC278-c204-w192
+L48: data sets analyzed,
+L49: V:\0000\m5\datasets\TMC278-tidp6-c209
+L50: V:\0000\m5\datasets\TMC278-tidp6-c215
+L51: V:\0000\m5\datasets\TMC278-c204-w96
+L52: V:\0000\m5\datasets\TMC278-c204-w192
+L53: ## 3. STATISTICAL EVALUATION
+L54: ## 3.1 Data and Analysis Quality
+L55: The sponsor has submitted both of the raw data and analysis data sets. The reviewer was able to easily reproduce the primary endpoint, the HIV-1 viral load data, from the raw dataset and able to trace how the primary endpoint was derived from the case report form.
+L56: The sponsor's define file can be defined better to facilitate the FDA's review. While the primary endpoint is easily reproduced from the raw data, some other derived variables are not. For example, in V:\0000\m5\datasets\TMC278-tidp6-c209\analysis\define.xml, the variable "CMSWITCH" in the dataset CMAD, referred as "switch from background ARV" was a derived variable, however no definition was given how it was defined and how it is linked to raw data and the case report forms. As another example, the variable "VLDY" in the dataset was labeled as "Day Since First Drug Intake" and it is again a derived variable without explanation how it was derived from raw data. In the analysis datasets, many variables are vaguely defined in a similar fashion. As a consequence, the reviewer is not able to use this type of variables to perform analysis. Instead, the reviewer needs to go back to clearly defined variables that were linked to raw data to find information.
+L57: ## 3.2 Evaluation of Efficacy
+L58: ## Study Design and Endpoints
+L59: C209 and C215 are designed almost identical, except they may use different background regimens. (See Table 1). Consequently, the below description for C209 also applies to C215.
+L60: Both are Phase III, multi-national, randomized, double-blind, active-controlled trials to compare the efficacy, safety, and tolerability of TMC278 25 mg q.d. vs. EFV 600 mg q.d. in treatment-naïve HIV-1 infected subjects.
+L61: Both trials consisted of a screening period of up to 6 weeks, a 96-week treatment period, a post 96-week treatment period (until all subjects in the trial, who had not discontinued earlier, had been treated for at least 96 weeks, and the Week 96 database locked), and a 4-week follow-up period.
+L62: It was planned to randomize, in both trials, approximately 680 subjects to TMC278 25 mg q.d. (investigational treatment group) and EFV 600 mg q.d. (control group) in a 1:1 ratio. The randomization to these 2 treatment arms was stratified by screening plasma viral load (strata were \le 100,000; &gt;100,000 to \le 500,000; and &gt; 500,000 copies/ml). All screened eligible subjects were randomized and allowed to participate in the trials.
+L63: In both trials, the primary efficacy parameter was planned to be the proportion of subjects with plasma viral load &lt; 50 copies/ml at Week 48 (TLOVR), based on an ITT population.
+L64: The primary objective of the trial was to demonstrate non-inferiority of treatment with TMC278 when administered as 25 mg q.d. compared to the control (EFV) group in regard to the proportion of virologic response (plasma viral load &lt; 50 copies/ml, according to TLOVR algorithm) at 48 weeks in treatment-naïve HIV-infected adult subjects, with a maximum allowable difference of 12%.
+L65: Secondary efficacy endpoints include
+L66: - Virologic response defined as the proportion of subjects with a plasma viral load of &lt; 50 HIV-1 RNA copies/ml at other timepoints;
+- Virologic response defined as the proportion of subjects with plasma viral load measurements of &lt; 400 HIV-1 RNA copies/ml at each timepoint;
+- Virologic response defined as the proportion of subjects with plasma viral load measurements of &lt; 200 HIV-1 RNA copies/ml at each timepoint (Observed and TLOVR only);
+- Time to first virologic response where virologic response is defined as plasma viral load measurements of &lt;50 and &lt;400 HIV-1 RNA copies/ml (TLOVR only);
+- Change from baseline in \log_{10} plasma viral load at all timepoints.
+- Time to virologic failure (for all ITT subjects; subjects who never achieved virologic response will be considered to have failed at Day 1) for plasma viral load measurements
+L67: of &lt;50 and &lt;400 HIV-1 RNA copies/ml (3 definitions: TLOVR, TLOVR (non-VF censored), category 2 of Display EFF 7)
+L68: - Change in CD4 cell count (absolute and %)
+- Phenotype and genotype determinations
+L69: Two DSMB analyses were planned. The plan stated “Tibotec, investigators and subjects would be blinded regarding results and randomization codes”.
+L70: However, according to the sponsor's report, DSMB “unanimous in our determination that there appears to be an ongoing increased risk of virologic failure in the subjects receiving TMC278 with high baseline viral load (&gt;100k)...we recommend Sponsor committee be unblinded to at least the high viral load stratum so that unblinding of that portion of the studies can be considered”.
+L71: These two analyses were performed: the first when 50% of the planned number of subjects had reached \ge 12 weeks of treatment or discontinued, and the second when almost all randomized subjects had reached 24 weeks of treatment or discontinued. Data of these analyses were only shared with the DSMB but not with Tibotec Pharmaceuticals (other than the Sponsor Review Committee) or site personnel directly involved in trial conduct. In these analyses, the treatment code was partially unblinded (up to code level) to the DSMB, but not revealed to Tibotec Pharmaceuticals (other than the Sponsor Review Committee). Although full unblinding did not occur, if it had been deemed necessary by the DSMB, treatment codes could have been fully unblinded to the DSMB. Based on these analyses, the DSMB recommended to Tibotec Pharmaceuticals that the trial proceed unchanged.
+L72: After detailed review and discussion of the available data, the DSMB agreed that they were unable to draw definitive conclusions regarding the presence of a safety concern related to virologic failure and thus recommended the study continue unchanged through week 48.
+L73: C204 is a Phase II, randomized, active controlled, partially blinded, 96-week dose-finding trial to evaluate the effect on efficacy, safety, and tolerability of TMC278, given at 3 different doses (25 mg q.d., 75 mg q.d., and 150 mg q.d.), when added to the investigator selected NRTIs.
+L74: ## *Reviewers' comments*
+L75: Comment 1: The design is appropriate.
+L76: Comment 2: The 12% noninferiority margin is appropriate. The 12% is considered as the largest difference that would be clinically acceptable, i.e., M_2 margin, please refer to the “Guidance for Industry Non-Inferiority Clinical Trials” for the concept,
+L77: http://www.fda.gov/downloads/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/UCM202140.pdf,
+L78: After summarizing previous clinical trial data, Dr. Thomas Hammerstrom, the statistical reviewer during the development of TMC278, concluded
+L79: - EFV's treatment effect is highly reproducible and dual nucleosides alone are known to be suboptimal for durable virologic suppression
+- The entire effect of the active control assumed to be present in the Noninferiority study, namely M_1 is at least 45%, which is the lower 95% confidence interval.
+L80: I concur with Dr. Thomas Hammerstrom's assessment and consider the 12% margin is well defined for this study.
+L81: Comment 3: The primary efficacy endpoint, proportion of subjects responding by the FDA Time to Loss of Virologic Response (TLOVR) algorithm at Week 48, is appropriate. However, FDA reviewers now prefer a simpler endpoint, the proportion of subjects responding at Week 48, referred as Snapshot approach. The current preference is based on the following rationale: The TLOVR approach is complex and the results from TLOVR and Snapshot approaches are generally consistent. According to FDA's experiences, which are consistent with my own previous experience to date, TLOVR and snapshot provide similar results.
+L82: ## Patient Disposition, Demographic and Baseline Characteristics
+L83: ## Trial 209:
+L84: A total of 948 subjects were screened in 112 sites in 21 countries. Among all screened subjects, a total of 254 subjects did not pass the screening phase and 4 additional subjects were randomized but did not start treatment. These 4 subjects are all from the control group: three (3) subjects were ineligible to continue the trial; one (1) subject did not fulfill all criteria for trial entry.
+L85: A total of 690 subjects were randomized and started treatment. Among all 346 subjects who received TMC278, 50 subjects discontinued. Among all 344 subjects who received EFV, 56 discontinued.
+L86: The reasons for trial discontinuation as indicated by the investigator are presented in Table 2(a). Of the 690 subjects receiving treatment, 106 (15.4%) prematurely discontinued.
+L87: The reasons for discontinuation were balanced between the TMC278 and control group, except for “AE” (2.3% vs. 8.1%, respectively) and “reached a virologic endpoint according to the investigator” (6.6% vs. 1.7%, respectively).
+L88: Table 2(a): Subject disposition
+L89: Number of Subjects
+Specification, n (%)	TMC278
+N = 346	Control
+N = 344	All Subjects
+N = 690
+Ongoing	296 (85.5)	288 (83.7)	584 (84.6)
+Discontinued	50 (14.5)	56 (16.3)	106 (15.4)
+Adverse event	8 (2.3)	28 (8.1)	36 (5.2)
+Subject reached a virologic endpoint	23 (6.6)	6 (1.7)	29 (4.2)
+Subject lost to follow-up	5 (1.4)	9 (2.6)	14 (2.0)
+Subject withdrew consent	4 (1.2)	7 (2.0)	11 (1.6)
+Subject non-compliant	6 (1.7)	2 (0.6)	8 (1.2)
+Sponsor's decision	2 (0.6)	1 (0.3)	3 (0.4)
+Subject ineligible to continue the trial	1 (0.3)	2 (0.6)	3 (0.4)
+Other	1 (0.3)	1 (0.3)	2 (0.3)
+L90: Source: Table 7, Study report for trial 209.
+L91: Major protocol deviations were noted in a total of 25 subjects; 11 (3.2%) in the TMC278 group and 14 (4.1%) in the control group. The most frequently noted deviation was the use of disallowed medication during the treatment period (6 vs. 9 subjects in the TMC278 and control group, respectively), followed by treatment derivation of background therapy (3 TMC278 and 4 EFV subjects). In addition, 2 subjects (both in the TMC278 group) did not meet selection criteria (See Table 3(a)).
+L92: Table 3 (a): Major protocol violation
+L93: Deviation class
+Deviation, n (%)	TMC278
+N = 346	Control
+N = 344	All Subjects
+N = 690
+Any Major Protocol Deviation	11 (3.2)	14 (4.1)	25 (3.6)
+Forbidden therapy
+Disallowed drug in treatment period	6 (1.7)
+6 (1.7)	9 (2.6)
+9 (2.6)	15 (2.2)
+15 (2.2)
+Selection criteria not met
+Selection criteria not met	2 (0.6)
+2 (0.6)	0
+0	2 (0.3)
+2 (0.3)
+Treatment deviation of investigational medication
+Non compliance with investigational medication intake	1 (0.3)
+1 (0.3)	2 (0.6)
+2 (0.6)	3 (0.4)
+3 (0.4)
+Treatment deviation of background therapy
+Deviation of background regimen intake
+Treatment interruption of background therapy too long	3 (0.9)
+3 (0.9)
+0	5 (1.5)
+4 (1.2)
+1 (0.3)	8 (1.2)
+7 (1.0)
+1 (0.1)
+L94: Source: Table 8, study report for trial 209.
+L95: The countries that participated in the trial in each of the regions are presented in Table 4(a). Subject distribution was similar between treatment groups for all regions. The highest recruiting country was the USA, randomizing 197 subjects (28.6%), followed by Brazil and South Africa, each with 63 subjects (9.1%).
+L96: Table 4(a): Geographical Distribution of Subjects by Treatment
+L97: Number of Subjects Randomized, n (%)
+Region
+Country	TMC278
+N = 346	Control
+N = 344	All Subjects
+N = 690
+United States, Canada, Europe, Australia	207 (59.8)	193 (56.1)	400 (58.0)
+United States	106 (30.6)	91 (26.5)	197 (28.6)
+France	15 (4.3)	20 (5.8)	35 (5.1)
+United Kingdom	16 (4.6)	15 (4.4)	31 (4.5)
+Portugal	14 (4.0)	10 (2.9)	24 (3.5)
+Canada	10 (2.9)	13 (3.8)	23 (3.3)
+Denmark	7 (2.0)	11 (3.2)	18 (2.6)
+Italy	8 (2.3)	10 (2.9)	18 (2.6)
+Spain	9 (2.6)	8 (2.3)	17 (2.5)
+Australia	5 (1.4)	7 (2.0)	12 (1.7)
+Austria	6 (1.7)	4 (1.2)	10 (1.4)
+Romania	4 (1.2)	3 (0.9)	7 (1.0)
+Netherlands	4 (1.2)	0	4 (0.6)
+Sweden	3 (0.9)	1 (0.3)	4 (0.6)
+Africa	32 (9.2)	31 (9.0)	63 (9.1)
+South Africa	32 (9.2)	31 (9.0)	63 (9.1)
+Asia	47 (13.6)	51 (14.8)	98 (14.2)
+Thailand	16 (4.6)	23 (6.7)	39 (5.7)
+Russian Federation	18 (5.2)	13 (3.8)	31 (4.5)
+Taiwan	13 (3.8)	15 (4.4)	28 (4.1)
+Latin America	60 (17.3)	69 (20.1)	129 (18.7)
+Brazil	31 (9.0)	32 (9.3)	63 (9.1)
+Argentina	19 (5.5)	21 (6.1)	40 (5.8)
+Mexico	9 (2.6)	13 (3.8)	22 (3.2)
+Puerto Rico	1 (0.3)	3 (0.9)	4 (0.6)
+L98: Source: Table 6, study report, trial 209.
+L99: Demographic parameters were balanced between the 2 treatment groups. Overall, the median age was 36.0 years (range 18-78 years) and 21.3% of the subjects were female. The trial population was predominantly White (60.9%), and consisted of 24.5% Black/African American subjects and 11.7% Asian subjects. There was a slight imbalance in the proportion of Asian subjects between the TMC278 (9.5%) and the control group (14.0%) (See Table 5(a) for details).
+L100: Table 5(a): Demographic and Baseline Characteristics
+L101: Demographic Parameters
+Specification	TMC278
+N = 346	Control
+N = 344	All Subjects
+N = 690
+Gender
+n (%)	346 (100)	344 (100)	690 (100)
+Female	78 (22.5)	69 (20.1)	147 (21.3)
+Male	268 (77.5)	275 (79.9)	543 (78.7)
+Age, years
+n	346	344	690
+Median (range)	36.0 (18 - 78)	36.0 (19 - 67)	36.0 (18 - 78)
+Height, cm
+n	345	342	687
+Median (range)	174.0 (132 - 200)	172.7 (147 - 202)	173.0 (132 - 202)
+Weight, kg
+n	345	343	688
+Median (range)	71.4 (40 - 130)	70.9 (41 - 125)	71.3 (40 - 130)
+BMI, kg/m2
+n	345	341	686
+Median (range)	24.2 (16-44)	23.7 (16-42)	23.9 (16-44)
+Race
+n (%)	346 (100)	344 (100)	690 (100)
+White	214 (61.8)	206 (59.9)	420 (60.9)
+Black/African American	89 (25.7)	80 (23.3)	169 (24.5)
+Asian	33 (9.5)	48 (14.0)	81 (11.7)
+Other	7 (2.0)	6 (1.7)	13 (1.9)
+Not allowed to ask per local regulations	3 (0.9)	4 (1.2)	7 (1.0)
+L102: Source: Table 9, study report, trial 209.
+L103: The two treatment groups were well balanced for baseline disease characteristics. At baseline, median time since diagnosis of HIV was 1.2 years, median viral load was 5.0 log10 copies /ml, and median CD4 cell count was 245.0 cells /\muL. Consistent with the limited duration of HIV infection of trial subjects, the majority (71.2%) had CDC category A HIV infection at time of entry in the trial, and only 5.4% overall had category C infection (See Table 6(a)).
+L104: Table 6(a): Baseline Disease Characteristics
+L105: Baseline Disease Parameters Specification	TMC278 N = 346	Control N = 344	All Subjects N = 690
+Time since diagnosis of HIV infection*, years
+Median [range]	1.20 [0.00–21.90]	1.30 [0.00–24.90]	1.20 [0.00–24.90]
+Viral load, copies/mL
+Median [range]	94,950.0 [156–3,300,000]	105,000.0 [1,010–3360,000]	102,000.0 [156–3,360,000]
+Log10 viral load, copies/mL
+Median [range]	5.0 [2–7]	5.0 [3–7]	5.0 [2–7]
+CD4+ cells [absolute count], cells/\muL
+Median [range]	240.0 [1–888]	257.0 [1–757]	245.0 [1–888]
+CD4+ cells [relative count], %
+Median [range]	18.7 [0–42]	17.8 [0–43]	18.3 [0–43]
+Clinical stage of HIV infection at screening	
+CDC category A	249 (72.0)	242 (70.3)	491 (71.2)
+CDC category B	83 (24.0)	79 (23.0)	162 (23.5)
+CDC category C	14 (4.0)	23 (6.7)	37 (5.4)
+L106: Source: Table 10, study report, trial 209.
+L107: ## Trial 215
+L108: A total of 947 subjects were screened in 98 sites in 21 countries randomized subjects. Among the 947 subjects, a total of 267 subjects did not pass the screening phase. In addition, 2 subjects were randomized but did not start treatment. Consequently, a total of 678 subjects were randomized and started treatment.
+L109: Of the 269 (267+2) subjects who were screened but did not receive treatment, 232 did not fulfill all inclusion or exclusion criteria, 22 subjects withdrew consent, 9 were lost to follow-up, 5 were ineligible to continue, and 1 subject was discontinued because the time elapsed between screening and baseline was more than 6 weeks.
+L110: Of the 678 subjects receiving treatment, 100 (14.7%) prematurely discontinued. The reasons for discontinuation were balanced between the TMC278 and control group, except for AE (4.4% vs. 7.4%, respectively) and withdrew consent (0.6% vs. 3.3%, respectively) (See Table 2(b)).
+L111: Table 2(b): Subject disposition for trial 215
+L112: TMC278	Control	All Subjects
+Specification n (%)	N = 340	N = 338	N = 678
+Ongoing	296 (87.1)	282 (83.4)	578 (85.3)
+Discontinued	44 (12.9)	56 (16.6)	100 (14.7)
+AE	15 (4.4)	25 (7.4)	40 (5.9)
+Subject reached a virologic endpoint	13 (3.8)	8 (2.4)	21 (3.1)
+Subject lost to follow-up	10 (2.9)	6 (1.8)	16 (2.4)
+Subject withdrew consent	2 (0.6)	11 (3.3)	13 (1.9)
+Other	1 (0.3)	3 (0.9)	4 (0.6)
+Subject non-compliant	2 (0.6)	2 (0.6)	4 (0.6)
+Subject did not fulfill all inclusion/exclusion criteria	0	1 (0.3)	1 (0.1)
+Subject ineligible to continue the trial	1 (0.3)	0	1 (0.1)
+L113: Source: Table 7, study report for trial 215.
+L114: Major protocol deviations were noted in a total of 12 subjects (6 in each treatment group). The most frequently noted deviation was the use of disallowed medication during the treatment period (5 vs. 4 subjects in the TMC278 and control group, respectively). In addition, one subject (215-0197) did not meet selection criterion 2 but was randomized and received study medication before this deviation was noted (See Table 3(b)).
+L115: Table 3(b): Major protocol violation
+L116: Deviation class
+Deviation, n (%)	TMC278
+N = 340	Control
+N = 338	All Subjects
+N = 678
+Any major protocol deviation	6 (1.8)	6 (1.8)	12 (1.8)
+Forbidden therapy	5 (1.5)	4 (1.2)	9 (1.3)
+Disallowed drug in treatment period	5 (1.5)	4 (1.2)	9 (1.3)
+Selection criteria not met	0	1 (0.3)	1 (0.1)
+Selection criteria not met	0	1 (0.3)	1 (0.1)
+Treatment deviation of background therapy	1 (0.3)	1 (0.3)	2 (0.3)
+Disallowed background therapy intake	1 (0.3)	0	1 (0.1)
+Treatment interruption of background therapy too long	0	1 (0.3)	1 (0.1)
+L117: Source: Table 8, study report for trial 215.
+L118: The countries that participated in the trial in each of the regions are presented in Table 4(b). Subject distribution was similar between treatment groups for all regions except for Africa, where there were fewer subjects in the TMC278 group (5.6%) than in the control group (11.2%).
+L119: Table 4(b): Geographical Distribution of Subjects by Treatment
+L120: Number of Subjects Randomized, n (%)
+Region
+Country	TMC278
+N = 340	Control
+N = 338	All Subjects
+N = 678
+USA, Canada, Europe, Australia	172 (50.6)	154 (45.6)	326 (48.1)
+USA	74 (21.8)	69 (20.4)	143 (21.1)
+Germany	30 (8.8)	28 (8.3)	58 (8.6)
+Canada	15 (4.4)	15 (4.4)	30 (4.4)
+Belgium	16 (4.7)	13 (3.8)	29 (4.3)
+Spain	8 (2.4)	11 (3.3)	19 (2.8)
+United Kingdom	9 (2.6)	7 (2.1)	16 (2.4)
+France	5 (1.5)	4 (1.2)	9 (1.3)
+Italy	6 (1.8)	3 (0.9)	9 (1.3)
+Australia	7 (2.1)	1 (0.3)	8 (1.2)
+Portugal	2 (0.6)	3 (0.9)	5 (0.7)
+Latin America	90 (26.5)	85 (25.1)	175 (25.8)
+Brazil	35 (10.3)	38 (11.2)	73 (10.8)
+Chile	13 (3.8)	15 (4.4)	28 (4.1)
+Panama	17 (5.0)	11 (3.3)	28 (4.1)
+Mexico	13 (3.8)	12 (3.6)	25 (3.7)
+Costa Rica	11 (3.2)	8 (2.4)	19 (2.8)
+Puerto Rico	1 (0.3)	1 (0.3)	2 (0.3)
+Asia	59 (17.4)	61 (18.0)	120 (17.7)
+China	20 (5.9)	24 (7.1)	44 (6.5)
+Thailand	18 (5.3)	20 (5.9)	38 (5.6)
+Russian Federation	19 (5.6)	14 (4.1)	33 (4.9)
+India	2 (0.6)	3 (0.9)	5 (0.7)
+Africa	19 (5.6)	38 (11.2)	57 (8.4)
+South Africa	19 (5.6)	38 (11.2)	57 (8.4)
+L121: Source: Table 6, study report for trial 215.
+L122: Demographic parameters were balanced between the two treatment groups. Overall, the median age was 36.0 years (range 19–69 years) and 27.1% of the subjects were female. The trial population was predominantly White (60.7%), and consisted of 22.5% Black/African American and 13.9% Asian subjects. Other racial groups comprised 2.8% of subjects (See Table 5(b)).
+L123: Table 5(b): Demographic and Baseline Characteristics
+L124: Demographic Parameters
+Specification	TMC278
+N = 340	Control
+N = 338	All Subjects
+N = 678
+Gender
+n (%)	340 (100)	338 (100)	678 (100)
+Female	90 (26.5)	94 (27.8)	184 (27.1)
+Male	250 (73.5)	244 (72.2)	494 (72.9)
+Age, years
+n	310	310	620
+Median [range]	36.0 [19–62]	35.5 [19–69]	36.0 [19–69]
+Height, cm
+n	337	336	673
+Median [range]	171.0 [143–198]	172.0 [146–197]	172.0 [143–198]
+Weight, kg
+n	339	337	676
+Median [range]	69.7 [36–201]	68.5 [45–132]	69.0 [36–201]
+BMI, kg/m2
+n	337	336	673
+Median [range]	23.9 [15–73]	23.4 [16–44]	23.5 [15–73]
+Race
+n (%)	338 (100)	338 (100)	676 (100)
+White	206 (60.9)	204 (60.4)	410 (60.7)
+Black/African American	76 (22.5)	76 (22.5)	152 (22.5)
+Asian	45 (13.3)	49 (14.5)	94 (13.9)
+Other	11 (3.3)	8 (2.4)	19 (2.8)
+Not allowed to ask per local regulations	0	1 (0.3)	1 (0.1)
+L125: Source: Table 9, study report for trial 215.
+L126: The two treatment groups were well balanced for baseline disease characteristics. At baseline, median time since diagnosis of HIV was 1.4 years, median viral load was 5.0 log10 copies/mL, and median CD4 cell count was 263.0 cells/\muL. Consistent with the limited duration of HIV infection of trial subjects, the majority (69.2%) had CDC category A HIV infection at time of entry in the trial, and only 5.5% overall had category C infection (See Table 6(b)).
+L127: Table 6(b): Baseline Disease Characteristics
+L128: Baseline Disease Parameters Specification	TMC278 N = 340	Control N = 338	All Subjects N = 678
+Time since diagnosis of HIV infection*, years
+n
+Median [range]	340
+1.70 [0.00–23.90]	338
+1.30 [0.00–27.80]	678
+1.40 [0.00–27.80]
+Viral load, copies/mL
+n
+Median [range]	340
+83,950.0 [836–20,800,000]	338
+102,500.0 [1,140–4550,000]	678
+91,750.0 [836–20,800,000]
+Log10 viral load, copies/mL
+n
+Median [range]	340
+4.9 [3–7]	338
+5.0 [3–7]	678
+5.0 [3–7]
+CD4+ cells (absolute count), cells/\muL
+n
+Median [range]	339
+263.0 [2–744]	338
+263.0 [1–1137]	677
+263.0 [1–1137]
+CD4+ cells (relative count), %
+n
+Median [range]	339
+17.6 [0–45]	338
+17.0 [0–44]	677
+17.4 [0–45]
+Clinical stage of HIV infection at screening
+n (%)
+CDC category A
+CDC category B
+CDC category C	340 (100)
+237 (69.7)
+82 (24.1)
+21 (6.2)	338 (100)
+232 (68.6)
+90 (26.6)
+16 (4.7)	678 (100)
+469 (69.2)
+172 (25.4)
+37 (5.5)
+L129: Source: Table 10, study report for trial 215.
+L130: In both trials (C209 and C215), the primary efficacy analysis population is the intent-to treat (ITT) population, defined as the set of all subjects who were randomized and who took at least 1 dose of study medication, regardless of their adherence with the protocol or their eligibility.
+L131: The other population is the per protocol (PP) population, defined as the set of all randomized subjects who took at least 1 dose of study medication and experienced no major protocol violations during the trial.
+L132: Comment 1: The reviewer thinks that the rate of missing data is well controlled. In C209, the discontinuation rate of 15.4% breaks down to 5.2% for AE, 4.2% virologic failure, 1.6% of withdrew consent and 4.4% for reasons other than AE, virologic failure and withdrew consent.
+L133: Consequently, the rate of missing data due to non compliance, loss to follow-up, and other than these reasons, is well controlled. In C215, the discontinuation rate of 14.7% breaks down to 5.9% for AE, 3.1% virologic failure, 1.9% of withdrew consent and 3.8% for reasons other than AE, virologic failure, and withdrew consent.
+L134: Comment 2: While TMC278 and EFV have similar overall response, which is the primary composite endpoint of virologic efficacy and AEs, TMC278 trades virologic efficacy for safety (AEs).
+L135: ## Statistical Methodologies
+L136: ## *Statistical methodologies used by the Applicant*
+L137: The statistical methodologies used for trial C209 and C215 are identical and described as follows.
+L138: The primary efficacy parameter was the proportion of subjects with plasma viral load &lt; 50 copies/ml at Week 48 (TLOVR). A non-inferiority margin for TMC278 compared with control was provided for a maximum allowable difference of 12% (the primary efficacy analysis) and 10% (secondary efficacy analysis). A p-value for superiority of TMC278 compared with control was also provided where non-inferiority was achieved.
+L139: As supporting analyses, the primary efficacy variable in the primary population (ITT) was also compared between TMC278 and control at the Week 48 time point, adjusted using baseline log10 plasma viral load as a continuous variable. The model-based odds ratio for TMC278 relative to control was presented along with the associated 95% CI. The predicted proportion of response with 95% CI as well as the differences in these proportions with 95% CI, based on the above logistic regression model, for the TMC278 and control arm was calculated.
+L140: The secondary efficacy variables were:
+L141: - Virologic response defined as the proportion of subjects with a plasma viral load of &lt; 50 copies/ml at each time point (except Week 48);
+- Virologic response defined as the proportion of subjects with plasma viral load measurements of &lt; 200 copies/ml at each time point (Observed and TLOVR, see below);
+- Virologic response defined as the proportion of subjects with plasma viral load measurements of &lt; 400 copies/ml at each time point;
+- Time to first virologic response where virologic response is defined as plasma viral load measurements of &lt;50 and &lt;400 copies/ml (TLOVR, see below);
+- Change from baseline in log10 plasma viral load at all time points;
+- Time to virologic failure (for all ITT subjects; subjects who never achieved virologic response were considered to have failed at Day 1) for plasma viral load measurements of &lt; 50 and &lt; 400 copies/ml (TLOVR). For efficacy, virologic failures were classified to one of the following categories hierarchically in decreasing order:
+L142: - Rebounder (either ongoing or discontinued due to virologic failure): Subjects who showed a confirmed response before Week 48, and who showed a confirmed rebound at or before Week 48.
+- Never suppressed (either ongoing or discontinued due to virologic failure): Subjects who never had a confirmed response before Week 48
+- Change in CD4 cells (absolute and relative counts);
+L143: Binary efficacy variables were analyzed using logistic regression, with continuous and categorized baseline viral loads. They were also analyzed through multivariate logistic regression controlling the following factors: baseline log10 plasma viral load (as a continuous variable), baseline CD4 cell count (as a continuous variable), gender, race, ethnicity, age (as a continuous variable), and region. Univariate logistic regression analyses were performed on each of the above factors including treatment group in each model.
+L144: The stratum-adjusted Mantel-Haenszel difference in the proportions of response (&lt; 50 copies/mL, TLOVR) with the 95% CI was determined on the ITT population at Week 48. The 95% CI was additionally calculated using a continuity-corrected estimate of the variance of the stratum-adjusted difference in proportions.
+L145: Missing data may occur at any time point through the trial. Subjects who prematurely discontinued the trial were considered non-responders at all subsequent visits after discontinuation. Intermittent missing viral load values were only imputed as responses if the subject had responded at the preceding and following visit. As we noticed previously, the actual missing data were controlled at a reasonably low rate. All the missing data were treated as failures. This is a traditional treatment of the missing in the HIV trials and was considered appropriate.
+L146: As the HIV RNA measurement is subject to limit of detection therefore may become left or right censoring. For left-censored values, values below the detection limit were scored 49 copies/ml. For right-censored values, the viral load was scored 750,001 copies/ml. Because the primary endpoint is the proportion of subjects' HIV RNA below 50 copies/ml, these treatments of censoring are reasonable.
+L147: ## *The reviewer's alternative methodologies*
+L148: Implementations of many methodologies were results of close work with the medical review team.
+L149: Most of the applicant's analyses were performed based on TLOVR. However, FDA reviewers now prefer a simpler endpoint, the proportion of subjects responding at Week 48, referred as Snapshot approach. The current preference is based on the following rationale: The TLOVR algorithm is complex and the results from TLOVR and snapshot algorithms are generally consistent.
+L150: Since FDA communicated with the sponsor about the current preference of snapshot algorithm prior to the submission, the sponsor has provided the primary analysis based on the snapshot results. On the other hand, all other analyses, including analyses for secondary endpoints, subgroups analyses, are based on the TLOVR algorithms. The reviewer has repeated these analyses based on the snapshot algorithms.
+L151: Working closely with the medical review team, the reviewer conducted and reported the results of the following analyses.
+L152: - We performed the snapshot algorithms and compared to the sponsor's results. We found the difference is negligible.
+- We examine the treatment effect heterogeneity in subjects low vs. high baseline viral load measurements. Because the heterogeneity presents, we conduct separate analyses to verify the noninferiority of TMC278 relative to EFV. Our analyses suggest the noninferiority held in subjects with either low or high baseline viral loads despite the heterogeneity that was found. This analysis allows us to further confirm the noninferiority claims.
+- We conduct a detailed analysis to examine the benefit and risk of TMC278 vs EFV. Although TMC278 appears to perform similarly to EFV in the composite endpoint which is basically driven by the proportions of virologic failures and AEs, TMC278 performs differently in terms of the individual component of the composite endpoint. Our results clearly reveal the strength and risk of TMC278 in relative to EFV: subjects in the TMC278 arm experienced more virologic failures than subjects in the EFV arm; subjects in the TMC278 arm experienced less AEs than subjects in the EFV arm;
+- Investigate potential treatment and covariates interactions. These covariates include baseline viral load (continuous and categorized with different thresholds), CD4 counts (continuous and categorized with different thresholds), region, race, age, background regimen. The sponsor has investigated the potential interaction between the baseline viral loads and treatment. We think it is reasonable to conduct a thorough determination of the potential treatment and covariate interaction. If the quantitative interaction was detected, we further investigate the possible qualitative interaction through the Gail-Simon's test
+- Analysis of week 24 data to examine the potential early virologic failure. The sponsor has provided a graphic presentation of the response rate for these time point. However, we would like a more details analysis to examine the early virologic response, which was a great concern of the DSMB.
+- Sensitivity analyses were performed: in the snapshot algorithm, we considered an alternative approach that treat the switch of background treatment regimen. In one analysis, we consider one switch is permitted when the viral load of the subject is below 50 copies/ml;
+L153: ## Results and Conclusions
+L154: The Applicant's results and conclusions
+L155: ## Trial C209
+L156: The efficacy results of this trial demonstrated non-inferiority of TMC278 vs. control in regard to virologic response, viral load results &lt; 50 copies/mL through TLOVR, at Week 48 (primary efficacy parameter) with a pre-defined non-inferiority margin of 12%. The results of the primary efficacy analysis were supported by a number of secondary analyses, including on the PP population.
+L157: The sponsor's snapshot analysis of ITT population indicates the proportion of virologic response at week 48 was 82% for both the TMC278 and the control group (See Table 7(a)). The corresponding 95% confidence interval of the proportion difference between the TMC278 group and the EFV group is (-5.1%, 6.4%). Since 5.1\% &lt; 12\%, the non-inferiority of TMC278 vs. EFV is demonstrated for the primary endpoint. We repeated the snapshot analysis and found some negligible differences between the sponsor's results and ours. The differences will be illustrated below where we present results obtained by FDA reviewers.
+L158: The noninferiority conclusion is also supported by the TLOVR analysis. The sponsor's TLOVR analysis of ITT population indicates the proportion of virologic response at week 48 was 83% for both the TMC278 and EFV groups (See Table 8(a)). A 95% confidence interval of the proportion difference between the TMC278 group and the EFV group is (-5.5%, 5.7%). Since 5.5\% &lt; 12\%, the non-inferiority of TMC278 vs. EFV is demonstrated for the primary endpoint. Again, we found some differences between the sponsor's and our results. However, these differences are due to slightly different understanding and implementation of the TLOVR algorithm. The misunderstanding of TLOVR is one of the major reasons that FDA now proposes to use Snapshot algorithms. The other major reason is that we found that conclusions obtained from two algorithms are consistent.
+L159: Through a logistic regression model by adjusting for baseline viral load (continuous), the differences in response rate (Snapshot) between the TMC278 and control treatment groups is -0.3% with the corresponding 95% C.I. (-5.4%, 5.9%); the differences in response rate (TLOVR) between the TMC278 and control treatment groups is -0.4% with the corresponding 95% C.I. (-5.9%, 5.2%).
+L160: Table 7(a): Subjects' response to treatments in C209 (Sponsor's Snapshot results)
+L161: Snapshot outcome at Week 48
+Specification, n (%)	TMC278
+N = 346	Control
+N = 344
+Virologic Response HIV RNA <50 copies/mL	285 (82.4)	281 (81.7)
+Non-Responder	
+Virologic Failure	47 (13.6)	24 (7.0)
+Viral load \ge 50 copies/mL	17 (4.9)	13 (3.8)
+Virologic failure leading to discontinuation	20 (5.8)	4 (1.2)
+Discontinued due to other reason and last available viral load \ge 50 copies/mL	10 (2.9)	7 (2.0)
+No Viral Load Data in 48 week window	14 (4.0)	39 (11.3)
+Discontinued due to AE	6 (1.7)	25 (7.3)
+Discontinued due to other reason and last available viral load < 50 copies/mL (or missing)	5 (1.4)	12 (3.5)
+Missing data during window but on study	3 (0.9)	2 (0.6)
+L162: Source: Table 22, study report of trial 209.
+L163: Table 8(a): Subjects' response to treatments in C209 (Sponsor's TLOVR results)
+L164: Virologic outcome at Week 48
+Specification, n (%)	TMC278
+N = 346	Control
+N = 344
+Respondera	287 (82.9)	285 (82.8)
+Non-responder	
+Virologic failure	38 (11.0)	15 (4.4)
+Rebounderb	16 (4.6)	8 (2.3)
+Re-suppressedc	3 (0.9)	3 (0.9)
+Never suppressedd	22 (6.4)	7 (2.0)
+Initial lack of responsee	2 (0.6)	1 (0.3)
+Death	0	0
+Discontinued due to AE	6 (1.7)	25 (7.3)
+Discontinued due to other reason than AE	15 (4.3)	19 (5.5)
+L165: Source: Table 19, study report for trial 209
+L166: In addition, the noninferiority conclusion is also supported by all but one of the sponsor's planned sensitivity analyses, including the pre-protocol analysis. The exception is one sensitivity analysis of TLOVR, in which subjects who did not reach Week 48 for reasons other than virologic failure were excluded. In this analysis, the proportion of responders was 86% of TMC278 subjects and 94% of EFV subjects. The corresponding 95% confidence interval of the proportion difference between TMC278 group and the EFV group is (-12.5%, -3.4%). We note that, this happens because TMC278 performs worse than EFV in terms of virologic failures; however it performs better than EFV in terms of adverse events. This will be continued to be demonstrated throughout this review. We also note that, in trial 215, this sensitivity analysis, in which subjects who did not reach Week 48 for reasons other than virologic failure were
+L167: excluded, did not fail to demonstrate the noninferiority. In other words, unlike trial C209, this particular sensitivity analysis still supports the noninferiority of TMC278 and EFV in C215.
+L168: The following graph is helpful to illustrate the advantages and disadvantages of TMC278 when compared to EFV. While TMC278 appears to perform worse than EFV in terms of virologic failures, it performs better in terms of reduction of AEs (See Figure 1(a)).
+L169: A Cox proportional hazards model, adjusted for baseline viral load as a continuous variable indicated a statistically significant lower probability of response in the TMC278 vs. control group (p = 0.0003, hazard ratio TMC278/control = 0.75 with the corresponding 95% C.I. (0.64; 0.88)). Despite the difference suggesting TMC278's slower response than EFV, similar proportions of response were seen in the TMC278 and control group at week 48, as shown in Table 7(a).
+L170: Figure 1(a): Kaplan-Meier Curves for Time to Discontinuation. For Any Reason (Top); Due to AEs (Middle); Due to Reaching Virologic Endpoint (Bottom)
+L171: Best Available Copy
+L172: At baseline, mean absolute CD4 cell count was similar in the TMC278 and control group (253.2 vs. 267.3 cells/\mul, respectively). The absolute CD4 cell count increased similarly from Week 2 to Week 48 in the TMC278 and control group. At Week 48, there were no statistically significant differences between the TMC278 and control groups with respect to mean change from baseline in absolute (195.5 vs. 181.6 cells/\mul, respectively; p = 0.13). Our analysis agrees with this conclusion although our numbers of the mean change is slightly different.
+L173: ## Trial C215
+L174: The sponsor's Snapshot analysis of ITT population, indicates the proportion of virologic responders at week 48 was 82.6% and 78.4% for the TMC278 and control group, respectively (see Table 7(b)). The corresponding 95% confidence interval of the proportion difference between the TMC278 group and the EFV group is (-1.7%, 10.2%). Since 1.7\% &lt; 12\%, the non-inferiority of TMC278 vs. EFV is demonstrated for the primary endpoint. We repeated the snapshot analysis and found some negligible differences between the sponsor's results and ours. The differences will be illustrated below where we present results obtained by FDA reviewers.
+L175: The noninferiority conclusion is also supported by the TLOVR analysis. The sponsor's TLOVR analysis of ITT population indicates the proportion of virologic response at week 48 was 85.6% and 81.7% for the TMC278 and EFV group, respectively (see Table 8(b)). The corresponding 95% confidence interval of the proportion difference between the TMC278 group and the EFV group is (-1.6%, 9.5%). Since 1.6\% &lt; 12\%, the non-inferiority of TMC278 vs. EFV is demonstrated for the primary endpoint. Again, we found some differences between the sponsor's and our results. However, these differences are due to slightly different understanding and implementation of the TLOVR algorithm. The apparently inevitable misunderstanding of TLOVR is one of the major reasons that FDA now proposes to use snapshot algorithms. The other major reason is that we found that results obtained from two algorithms are consistent.
+L176: Through a logistic regression model by adjusting for baseline viral load (continuous), the differences in response rate (Snapshot) between the TMC278 and control treatment groups is -3.9% with the corresponding 95% C.I. (-1.9%, 9.5%); the differences in response rate (TLOVR) between the TMC278 and control treatment groups is 3.5% with the corresponding 95% C.I. (-1.7%, 8.8%).
+L177: In addition, the noninferiority conclusion is also supported by all of the sponsor's planned sensitivity analyses, including the pre-protocol analysis.
+L178: Table 7(b): Subjects' response to treatments in C215 (Sponsor's Snapshot results)
+L179: Snapshot outcome at Week 48
+Specification, n (%)	TMC278
+N = 340	Control
+N = 338
+Virologic Response HIV RNA <50 copies/mL	281 (82.6)	265 (78.4)
+Non-responder	
+Virologic failure	41 (12.1)	38 (11.2)
+Viral load \ge 50 copies/mL	17 (5.0)	15 (4.4)
+Virologic failure leading to discontinuation	12 (3.5)	8 (2.4)
+Discontinued due to other reason and last available viral load \ge 50 copies/mL	8 (2.4)	9 (2.7)
+Switch in background N(t)RTIs not permitted by protocol	4 (1.2)	6 (1.8)
+No viral load data in 48-week window	18 (5.3)	35 (10.4)
+Discontinued due to AE/death	9 (2.6)	24 (7.1)
+Discontinued due to other reason and last available viral load < 50 copies/mL (or missing)	8 (2.4)	11 (3.3)
+Missing data during window but on study	1 (0.3)	0
+L180: Source: Table 24, study report of trial 215.
+L181: Table 8(b): subjects' response to treatments in C215 (Sponsor's TLOVR results)
+L182: Virologic outcome at Week 48
+Specification, n (%)	TMC278
+N = 340	Control
+N = 338
+Respondera	291 (85.6)	276 (81.7)
+Non-responder	
+Virologic failure	24 (7.1)	18 (5.3)
+Rebounderb	8 (2.4)	7 (2.1)
+Re-suppressedc	1 (0.3)	2 (0.6)
+Never suppressedd	16 (4.7)	11 (3.3)
+Initial lack of responsee	1 (0.3)	1 (0.3)
+Death	1 (0.3)	3 (0.9)
+Discontinued due to AE	8 (2.4)	21 (6.2)
+Discontinued due to other reason than AE	16 (4.7)	20 (5.9)
+L183: Source: Table 23, study report for trial 215
+L184: A Cox proportional hazards model, adjusted for baseline viral load indicated a marginal statistically significant lower probability of response in the TMC278 vs. control group (p = 0.043, hazard ratio TMC278/control is 0.85 with the corresponding 95% CI of (0.72; 0.99).
+L185: There were no differences between treatment groups for the change from baseline in log10 plasma viral load based on observed values for subjects with week 48 data. At baseline, mean absolute CD4 cell count was similar in the TMC278 and control group (264.4 vs. 274.1 cells/\mul, respectively). From Week 2 to Week 48, the change from baseline in absolute counts for CD4 cells appeared to be consistently slightly greater in the TMC278 group compared with control. At Week 48, there were no statistically significant differences between the TMC278 and control group with respect to mean change from baseline in absolute counts for CD4 cells (188.6 vs. 170.7 cells/\mul, respectively; p = 0.09). Our analysis agrees with this conclusion although the actual numbers of the mean change is slightly different.
+L186: ## Trial C204
+L187: The TLOVR analysis of ITT population indicates the proportion of virologic response at week 48 was 80.6% (75/93) and 80.9% (72/89) for the TMC278 25 mg q.d. and EFV group, respectively. These results are generally consistent with the results in C209 and C215.
+L188: The open-label nature of this trial and smaller sample size made it less credible for the TMC278 and FEV comparison. Therefore, we only briefly cite the results, which again are consistent with the other studies.
+L189: ## Reviewer's results
+L190: ## 1. Reviewer's Snapshot results.
+L191: We reproduced and reported below the proportion of virologic response using the snapshot algorithms.
+L192: The snapshot algorithm developed and implemented after the trial started.
+L193: During the development of the snapshot algorithms, the sponsor noted a previous version of the algorithm, in which background drug substitutions (in class or across class) permitted per protocol for documented toxicity reasons are permitted on or before the first trial visit without penalty. If background drug substitutions for toxicity reasons occur after the first trial visit, then patients are considered virologic failures if they have HIV RNA &gt; 50 copies/ml at the time of switch. In addition to this version of snapshot algorithm, this review also includes results obtained using the current version of the snapshot algorithm, in which subjects with background drug substitutions that occur after the first trial visit are considered as failures regardless of HIV RNA value at the time of the switch.
+L194: Our results are generally consistent with what the sponsor obtained. Specifically, our results are inconsistent with the sponsor's in one subject in study 209 and 6 or 12 subjects in trial 215, depending on the ways how the snapshot algorithm classifies subjects who switched their background treatment. If the snapshot algorithm, the current final definition, classifies subjects who ever switched their background treatments as failures, then our results (see Table 9) are
+L195: inconsistent with the sponsor's in 6 subjects in trial 215: Two TMC278 subjects, who were classified as responders in sponsor's algorithm, are classified as one failure and one AE in our algorithm. Another TMC278 subject, who was classified as an AE in sponsor's algorithm, is classified as a failure in our algorithm. One EFV subject who was classified as a virologic failure and two other EFV subjects who were classified as responders in sponsor's algorithm, are classified as "missing data but on study" in our algorithm.
+L196: If the snapshot algorithm, the previous version for which the sponsor was notified, only considers subjects who switched their background treatments and whose HIV RNA &gt; 50 at time of switching as failures, then our results (See Table 10) are inconsistent with the sponsor's in 12 subjects in trial 215. These 12 subjects include the 6 subjects previously stated and 6 additional subjects (2 in the TMC278 arm and 4 in the EFV arm) who were classified as failures due to background drug substitutions by the sponsor's algorithm and are classified as responders in this snapshot algorithm (Table 10). Therefore for trial 215, compared to Table 9 the number of responders in the TMC278 arm in Table 10 increases to from 279 to 281 and the number of responders in the EFV arm increases from 263 to 267. Note that, these 6 additional discrepancies made the results in Table 10 look more like the sponsor's results in Table 7(b) because some of the sponsor's non-responders were reclassified as responders, offsetting the slightly lower response rates observed in Table 9.
+L197: Table 9: Subjects' response to treatments (FDA's Snapshot results: background drug switching is not permitted)
+L198: Virologic outcome at
+Week 48	C209	C215	Pooled
+TMC278
+N=346	EFV
+N=344	TMC278
+N=340	EFV
+N=338	TMC278
+N=686	EFV
+N=682
+Virologic success HIV-1
+RNA < 50 copies/ml	285(82.4)	280(81.4)	279(82.1)	263(77.8)	564(82.2)	543(79.6)
+Virologic failure	47(13.6)	24(7.0)	43(12.6)	37(11.0)	90(13.1)	61(8.9)
+Ongoing and viral
+load >50 copies/ml	17(4.9)	13(3.8)	17(5.0)	14(4.1)	34(5.0)	27(4.0)
+Discontinued due to
+virologic failure	20(5.8)	4(1.2)	12(3.5)	8(2.4)	32(4.7)	12(1.8)
+Discontinued due
+other reasons and
+viral load >50
+copies/mL at time of
+the discontinuation	10(2.9)	7(2.0)	8(2.4)	9(2.7)	18(2.6)	16(2.3)
+Switch in
+background regimen
+not allowed by
+protocol	0	0	6(1.8)	6(1.8)	6(0.9)	6(0.9)
+No virologic data at
+Week 48 window	14(4.0)	40(11.6)	18(5.3)	38(11.2)	32(4.7)	78(11.4)
+Discontinued due to
+adverse event or
+death	6(1.7)	25(7.3)	9(2.6)	24(7.1)	15(2.2)	49(7.2)
+Discontinued for other
+reasons and last
+available HIV-1 RNA
+< 50 copies/ml (or
+missing)	5(1.4)	12(3.49)*	8(2.4)	11(3.3)	13(1.9)	23(3.4)
+Missing data during
+window but on study	3(0.9)	3(0.9)	1(0.3)	3(0.9)	4(0.6)	6(0.9)
+L199: Source: Reviewer's analysis
+L200: Table 10: Subjects' response to treatments (FDA's Snapshot results: background drug switching once is permitted if subjects who switched their background treatments had HIV RNA &lt; 50 copies/ml at time of switching)
+L201: Virologic outcome at Week 48	C209	C215	Pooled
+TMC278
+N=346	EFV
+N=344	TMC278
+N=340	EFV
+N=338	TMC278
+N=686	EFV
+N=682
+Virologic success HIV-1 RNA < 50 copies/ml	285(82.4)	280(81.4)	281(82.7)	267(79.0)	566(82.5)	547(80.2)
+Virologic failure	47(13.6)	24(7.0)	41(12.1)	33(9.8)	88(12.8)	57(8.4)
+Ongoing and viral load >50 copies/ml	17(4.9)	13(3.8)	17(5.0)	14(4.1)	34(5.0)	27(4.0)
+Discontinued due to virologic failure	20(5.8)	4(1.2)	12(3.5)	8(2.4)	32(4.7)	12(1.8)
+Discontinued due other reasons and viral load >50 copies/ml at time of the discontinuation	10(2.9)	7(2.0)	8(2.4)	9(2.7)	18(2.6)	16(2.3)
+Switch in background regimen not allowed by protocol	0	0	4(1.2)	2(0.6)	4(0.6)	2(0.3)
+No virologic data at Week 48 window	14(4.0)	40(11.6)	18(5.3)	38(11.2)	32(4.7)	78(11.4)
+Discontinued due to adverse event or death	6(1.7)	25(7.3)	9(2.6)	24(7.1)	15(2.2)	49(7.2)
+Discontinued for other reasons and last available HIV-1 RNA < 50 copies/ml (or missing)	5(1.4)	12(3.49)*	8(2.4)	11(3.3)	13(1.9)	23(3.4)
+Missing data during window but on study	3(0.9)	3(0.9)	1(0.3)	3(0.9)	4(0.6)	6(0.9)
+L202: Source: Reviewer's analysis
+L203: The difference between the sponsor's and our snapshot results for two versions of the snapshot algorithm are negligible.
+L204: In analyses involved with snapshot, unless clearly specified, we refer to the final version of the snapshot algorithm that classifies subjects who switched their background regimen as failures.
+L205: ## 2. Analysis based on the stratification factor: baseline viral loads.
+L206: Because the initial viral load measurement is an important predictive variable for the primary outcome, the randomization in trial 209 and 215 was stratified by screening plasma viral load.
+L207: The proportion of virology response was separately and jointly analyzed according to the stratification factors and the results were given in Table 11.
+L208: From Table 11, the proportion of virologic response at week 48 in the TMC278 arm is 89% for subjects with baseline plasma viral load \le 100,000 copies/ml. This rate is significantly (p-value &lt; 0.0001) different from the proportion of virologic response of 75% for subjects with baseline plasma viral load &gt;100,000 copies/ml. The mean difference of the response rate is 14% with the 95% confidence interval of (0.09, 0.20). The above result based on the snapshot algorithm is consistent with that derived from the TLOVR algorithm. The proportion of virologic response at week 48 in the TMC278 arm is 90% (TLOVR) for subjects with baseline plasma viral load
+L209: \le 100,000 copies/ml, this rate is significantly (p-value&lt;0.0001) different from the proportion of virologic response of 77% for subjects with baseline plasma viral load &gt; 100,000 copies/ml. The mean difference of the response rate is 13% with the corresponding 95% confidence interval of (0.07, 0.18). In addition, the proportion of virologic response at week 48 in the TMC278 arm is 84% for subjects with baseline plasma viral load \le 500,000 copies/ml, this rate is significantly (p-value=0.001) different from the proportion of virologic response of 67% for subjects with baseline plasma viral load &gt; 500,000 copies/ml.
+L210: We have done similar analyses for the EFV arm.
+L211: The proportion of virologic response at week 48 in the EFV arm is 83% for subjects with baseline plasma viral load \le 100,000 copies/ml. This rate is different at a moderate level (p-value=0.06) from the proportion of virologic response of 75% for subjects with baseline plasma viral load &gt; 100,000. Note that, this p-value is 0.04 if we use the sponsor's snapshot results due to a slight difference between our snapshot analysis results and the sponsor's. In addition, the proportion of virologic response at week 48 in the EFV arm is 81% for subjects with baseline plasma viral load \le 500,000 copies/ml, this rate is not significantly (p-value=0.14) different from the response rate of 73% for subjects with baseline plasma viral load &gt; 500,000 copies/ml.
+L212: Compared to EFV, TMC278 responded 6% better (89%-83%, snapshot) in subjects with baseline plasma viral load \le 100,000 and responded 2% worse (75%-77%, snapshot) in subjects with baseline plasma viral load &gt; 100,000. The treatment and subgroup (baseline viral load \le or &gt; 100,000) interaction is significant at a level of 0.03. The result is consistent with the TLOVR results. TMC278 responded 6% better (90%-84%, TLOVR) in subjects with baseline plasma viral load \le 100,000 and responded 4% worse (77%-81%, TLOVR) in subjects with baseline plasma viral load &gt; 100,000. The treatment and subgroup (viral load \le or &gt; 100,000) interaction is significant at a level of 0.007 using a logistic regression model. On the other hand, the Gail-Simon's test for qualitative interaction is not significant, which could be due to a small sample size. The significance level for the qualitative interaction is .26 and 0.13 for results based on snapshot and TLOVR algorithms.
+L213: Despite the presence of interaction between the treatment and baseline viral loads, we conclude that TMC278 is noninferior to EFV for the primary endpoint. The proportions of responders are 89% (TMC278) and 83% (EFV) in subjects with baseline plasma viral load \le 100,000; the corresponding 95% C.I. of the difference is (1%, 11%). The proportions of responders are 75% (TMC278) and 77% (EFV) in subjects with baseline plasma viral load &gt; 100,000, with a corresponding 95% C.I. for the difference of (-9%, 4%). Because, 9% &lt; 12\%, the defined noninferiority margin, the noninferiority conclusion is held in both subgroups classified by the baseline viral loads measures with the threshold of 100,000 copies/ml. Due to small sample sizes in each subgroup, we considered a similarly subgroup analysis with the threshold of 500,000 copies/ml to be inadequate.
+L214: We simplified the above analysis, by combining data from two studies because the results from two studies were consistent and sample sizes are balanced in both treatment groups and studies. A Breslow-Day test result suggests that there is no statistically significant study heterogeneity in terms of relative efficiency between TMC278 and EFV. An additional test for treatment effect
+L215: and study interaction through a logistic regression model suggests that there is no significant interaction between treatment and study.
+L216: Table 11: Response by baseline viral loads
+L217: Week 48
+Threshold=50
+copies/ml	\le 100,000 copies/ml	> 100,000 copies/ml
+TMC278	EFV	TMC278	EFV
+Pooled results	89% (327/368)	83% (273/330)	75% (237/318)	77% (270/352)
+Trial 209	88%(160/181)	84%(137/163)	76%(125/165)	79%(143/181)
+Trial 215	89%(167/187)	81%(136/167)	73%(112/153)	74%(127/171)
+\le 500,000 copies/ml	> 500,000 copies/ml
+Pooled results	84%(518/617)	81% (483/600)	67% (46/69)	73% (60/82)
+Trial 209	84%(263/312)	82%(243/297)	65% (22/34)	79% (37/47)
+Trial 215	84% (255/305)	79%(240/303)	69% (24/35)	66% (23/35)
+> 100,000 and \le 500,000 copies/ml	> 500,000 copies/ml
+Pooled results	77% (191/249)	78% (210/270)	67% (46/69)	73% (60/82)
+Trial 209	79% (103/131)	79%(106/134)	65% (22/34)	79% (37/47)
+Trial 215	75% (88/118)	76% (104/136)	69% (24/35)	66% (23/35)
+L218: Source: Reviewer's analysis based on FDA's snapshot analysis. Pooled results mean pooling data from both trials.
+L219: ## 3. Benefit and risk
+L220: We make following observations from Table 9: subjects in the TMC278 arm experienced more virologic failures than subjects did in the EFV arm; subjects in the TMC278 arm experienced less AEs than subjects did in the EFV arm. Below we will further investigate this aspect of benefit and risk in detail.
+L221: The proportion of virologic failures at week 48 in the TMC278 arm is 14% in trial 209, and this proportion is almost double the percentage in the EFV arm. The results suggest subjects in the TMC278 arm experienced significantly (p=0.006) more virologic failures than subjects in the EFV arm did. This result is rediscovered in trial 215, although the difference was not as big as it was in trial 209. Overall, the proportion of virologic failures at week 48 in the TMC278 arm is 13%, and this proportion is significantly (p=0.016) different from 9%, the proportion of virologic failures at week 48 in the EFV arm.
+L222: We next conducted the analysis to understand whether the failures are consistent in subjects with high vs. low baseline viral load measurements. The results are presented in Table 12.
+L223: For subjects with baseline viral loads greater than 100,000 copies /ml, the proportion of virologic failures at week 48 in the TMC278 arm is 21.7% and the failure rate in the EFV arm is 12.5%. The difference is statistically significant, with a p-value of 0.002. On the other hand, for subjects with baseline viral loads less than 100,000 copies /ml, the proportion of virologic failures at week 48 in the TMC278 arm and in the EFV arm are not significantly different. The results suggest that only subjects with high baseline viral loads in the TMC278 arm experienced significantly more virologic failures than subjects in the EFV arm did (See Table 12).
+L224: Table 12: Virologic failures: subjects with high vs. low baseline viral load measurements
+L225: Baseline Plasma Viral Load (copies/ml), Snapshot algorithm	TRADE NAME™ + BR
+N=686	Efavirenz + BR
+N=682
+N	Proportion of Virologic Failures(a)
+n (%)	N	Proportion of Virologic Failures(a)
+n (%)
+≤ 100,000 (p=.86)(b)	368	5.2% (19/368)	330	5.5% (18/330)
+> 100,000 (p=.002)(b)	318	21.7% (69/318)	352	12.5% (44/352)
+≤ 100,000 (p=.87)(b)	368	5.2% (19/368)	330	5.5% (18/330)
+> 100,000 and ≤ 500,000 (p=0.007)(b)	249	19.7% (49/249)	270	11.1% (30/270)
+> 500,000 (p=0.08)(b)	69	29.0% (20/69)	82	17.1% (14/82)
+L226: Source: Reviewer's analysis based on the sponsor's snapshot analysis.
+L227: (a) Virologic failure includes subjects who had ≥ 50 copies/ml in the Week 48 window, subjects who discontinued early due to lack or loss of efficacy, subjects who discontinued for reasons other than an adverse event, death or lack or loss of efficacy and at the time of discontinuation had a viral value of ≥ 50 copies/ml, and subjects who had a switch in background regimen that was not permitted by the protocol.
+L228: (b) p is the statistical significance level (p-value) showing the difference between TMC278 and EFV in each subgroup. The p-value is calculated using chi-square test.
+L229: On the other hand, subjects in the TMC278 arm in trial 209 had an AE rate of 2%, which is more than 3-fold reduction from the same rate in the EFV group. The results suggest subjects in the TMC278 arm experienced less AEs than subjects in the EFV arm did. This result is replicated in trial 215.
+L230: The superiority of TMC278 over EFV in AEs reduction is demonstrated in subjects with baseline viral loads higher than 100,000 copies/ml and also demonstrated in subjects with baseline viral loads lower than 100,000 copies/ml (see Table 13).
+L231: Table 13: AE analysis
+L232: Baseline Plasma Viral Load (copies/ml)	TRADE NAME™ + BR
+N=686	Efavirenz + BR
+N=682
+N	Proportion of Subjects with Adverse Events(a)
+n (%)	N	Proportion of Subjects with Adverse Events(a)
+n (%)
+≤ 100,000 (p=.01)(b)	368	2.2% (8/368)	330	6.1% (20/330)
+> 100,000 (p=.005)(b)	318	2.2% (7/318)	352	8.2% (29/352)
+> 100,000 and ≤ 500,000 (p=0.004)(b)	249	1.6% (4/249)	270	8.5% (23/270)
+> 500,000 (p=0.51)(b)	69	4.4% (3/69)	82	7.3% (6/82)
+L233: (a) Reviewer's analysis based on the sponsor's snapshot analysis.
+L234: (b) p is the statistical significance level (p-value) showing the difference between TMC278 and EFV in each subgroup. The p-value is calculated using chi-square test.
+L235: We now conduct an analysis to understand early (week 24) and late response (week 60), compared to response at week 48. However, we note the analysis for week 60 is entirely exploratory due to a high percentage of missing data. The results were given in Tables 14 and 15.
+L236: For subjects with baseline viral loads greater than 100,000 copies /ml, the proportion of virologic responders was generally lower in the TMC278 arm than in the EFV arm, at each of three time points. On the other hand, for subjects with baseline viral loads less than 100,000 copies /ml, the proportion of virologic responders was generally greater in the TMC278 than in the EFV arm, at each of three time points. The same trend was observed when the threshold is changed from 100,000 to 500,000 copies/ml.
+L237: We compared the proportion of TMC278 and EFV virologic responders at week 24 and week 48 and found out that, subjects in the TMC278 arm with high baseline viral loads had lower virologic responses at week 24, but were catching up to the EFV arm with time by week 48.
+L238: Table 14: Response by baseline viral loads (\le 100,000 vs. &gt;100,000 copies/ml)
+L239: Week	Baseline viral load \le 100,000 copies/ml	Baseline viral load >100,000 copies/ml
+TMC278 Responders(a)	EFV Responders(a)	TMC278 Responders(a)	EFV Responders(a)
+Study 209
+Threshold=50 copies/ml	
+Week 60(b)	35%(63/181)	32%(52/163)	31%(51/165)	35%(64/181)
+Missing	54%(97/181)	53%(86/163)	49%(81/165)	45%(85/181)
+Failure or AE	7%(13/181)	7%(12/163)	13%(22/165)	12%(21/181)
+Week 48	88%(160/181)	84%(137/163)	76%(125/165)	79%(143/181)
+Week 24	87%(158/181)	90%(146/163)	72%(119/165)	82%(149/181)
+Study 215
+Week 60(b)	32%(60/187)	29%(48/167)	29%(44/153)	30%(51/171)
+Missing	56%(104/187)	53%(89/167)	48%(73/153)	50%(87/171)
+Failure or AE	7%(14/187)	8%(14/167)	14%(21/153)	12%(21/171)
+Week 48	89%(167/187)	81%(136/167)	73%(112/153)	74%(127/171)
+Week 24	91%(171/187)	83%(140/167)	68%(104/153)	75%(129/171)
+L240: (a) Reviewer's analysis based on FDA's snapshot analysis.
+L241: (b) The analysis at week 60 is an ad-hoc analysis. It is exploratory because of the high percentage of missing data.
+L242: Table 15: Response by baseline viral loads (\le 500,000 vs. &gt;500,000 copies/ml)
+L243: Week	Baseline viral load \le 500,000 copies/ml	Baseline viral load >500,000 copies/ml
+TMC278 Responders(a)	EFV Responders(a)	TMC278 Responders(a)	EFV Responders(a)
+Study 209
+Week 60(b)	35%(108/312)	33%(98/297)	18%(6/34)	38%(18/47)
+Missing	52%(161/312)	51%(151/297)	50%(17/34)	45%(21/47)
+Failure or AE	8%(26/312)	10%(29/297)	26%(9/34)	9%(4/47)
+Week 48	84%(263/312)	82%(243/297)	65%(22/34)	79%(37/47)
+Week 24	83%(258/312)	87%(257/297)	56%(19/34)	81%(38/47)
+Study 215
+Week 60(b)	30%(92/305)	28%(84/303)	34%(12/35)	43%(15/35)
+Missing	53%(163/305)	54%(163/303)	40%(14/35)	37%(13/35)
+Failure or AE	10%(29/305)	10%(30/303)	17%(6/35)	14%(5/35)
+Week 48	84%(255/305)	79%(240/303)	69%(24/35)	66%(23/35)
+Week 24	84%(257/305)	81%(246/303)	51%(18/35)	66%(23/35)
+L244: (a) Reviewer's analysis based on FDA's snapshot analysis.
+L245: (b) The analysis at week 60 is an ad-hoc analysis. It is exploratory because of the high percentage of missing data.
+L246: ## 4. Response rate based on background regimen and analysis of CD4 cell counts
+L247: Subjects in trial 209 only used TDF/FTC as the background regimens; Subjects in trial 215 used TDF/FTC, AZT/3TC, and ABC/3TC as the background regimens. The results are numerically consistent across the initial background regimens. However, only 15% of subjects took AZT/3TC and 5% of subjects took ABC/3TC, the study was not powered for statistical comparisons within these two subgroups. The proportions of virologic response in both arms are given below.
+L248: Table 16: Response rate: by background treatment regimens
+L249: Background Regimen	C209	C215	Pooled
+TMC278
+N=346	EFV
+N=344	TMC278
+N=340	EFV
+N=338	TMC278
+N=686	EFV
+N=682
+TDF/FTC	82.37%
+(285/346)	81.40%
+(280/344)	82.35%
+(168/204)	78.71%
+(159/202)	82.36%
+(453/550)	80.40%
+(439/546)
+AZT/3TC	NA	NA	81.19%
+(82/101)	73.79%
+(76/103)	81.19%
+(82/101)	73.79%
+(76/103)
+ABC/3TC	NA	NA	82.86%
+(29/35)	84.85%
+(28/33)	82.86%
+(29/35)	84.85%
+(28/33)
+L250: NA: No subject had background treatment other than TDF/FTC.
+L251: Source: Reviewer's analysis based on FDA's snapshot analysis.
+L252: At baseline, CD4 cell counts were similar in the TMC278 and EFV arms. At Week 48, there were no statistically significant differences between the TMC278 and control group with respect to mean change from baseline (See Table 17).
+L253: Table 17: Change from baseline in viral loads and CD4 cell counts.
+L254: Trial	TMC278	EFV
+Baseline	Week 48	Baseline	Week 48
+209	253	489	267	479
+215	264	483	274	471
+L255: Source: Reviewer's analysis.
+L256: ## 3.3 Evaluation of Safety
+L257: Please refer to clinical review for other than analyses of AEs presented previously.
+L258: ## 4. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L259: Virologic response data were assessed for trends in a number of subgroups. In general, data were consistent across subgroups. There appeared to be an overall downward trend in the proportion of response at Week 48 in the TMC278 group with increasing baseline viral load, which was not seen in the control group. In addition, the proportion of response in both treatment groups for Black/African American subjects was lower than for other racial categories.
+L260: ## 4.1 Gender, Race, Age, and Geographic Region
+L261: The proportion of virologic responders in the TMC278 arm with low baseline CD4 cell counts (\le 50 cells/\mul) is numerically lower than the EFV arm; while the proportion of virologic responders in the TMC278 arm with high CD4 cell counts (&gt; 50 cells/\mul) is numerically higher than the EFV arm. The results were consistent in both trials. The treatment and CD4 cell counts interaction is statistically significant (p-value=0.049). This result is consistent with the previous result based on analysis of baseline viral loads, as subjects with high baseline viral loads tend to have low baseline CD4 cell counts.
+L262: No clear inconsistencies appear to other subgroups (See Table 18). In addition, there is no statistical significant treatment and covariate interaction for gender, age, region, race, etc.
+L263: In trial C209, the proportion of female virologic responders in the TMC278 arm is numerically higher than the EFV arm, while the proportion of male virologic responders in the TMC278 arm is numerically lower than the EFV arm. However, the gender difference of the treatment effect is not statistically significant in C209. In trial C215, the proportion of female virologic responders
+L264: in the TMC278 arm is numerically lower than the EFV arm, while the proportion of male virologic responders in the TMC278 arm is numerically higher than the EFV arm. However, the gender difference of the treatment effect is not statistically significant in trial C215. We observed an opposite direction of gender difference in two trials; however the differences, which are statistically insignificant, could be nothing but a random variation.
+L265: Table 18. Subgroup Analysis of Response
+L266: factor	level	study	EFAVIRENZ	TMC278
+600MG QD	25MG QD
+Baseline CD4 counts	≤50	209	80.00% (16/20)	60.00% (9/15)
+≤50	215	76.47% (13/17)	61.90% (13/21)
+>50	209	81.79% (265/324)	83.38% (276/331)
+gender	>50	215	78.50% (252/321)	84.01% (268/319)
+Female	209	72.46% (50/69)	80.77% (63/78)
+Female	215	85.11% (80/94)	83.33% (75/90)
+Male	209	84.00% (231/275)	82.84% (222/268)
+race	Male	215	75.82% (185/244)	82.40% (206/250)
+Non-white	209	80.43% (111/138)	78.79% (104/132)
+215	78.36% (105/134)	79.85% (107/134)
+white	209	82.52% (170/206)	84.58% (181/214)
+age	215	78.43% (160/204)	84.47% (174/206)
+≥36	209	87.01% (154/177)	80.75% (151/187)
+215	81.29% (126/155)	82.69% (129/156)
+<36	209	76.05% (127/167)	84.28% (134/159)
+Region	215	75.96% (139/183)	82.61% (152/184)
+Non US	209	81.42% (206/253)	84.58% (203/240)
+215	80.67% (217/269)	84.96% (226/266)
+US	209	82.42% (75/91)	77.36% (82/106)
+215	69.57% (48/69)	74.32% (55/74)
+L267: Source: Reviewer's analysis based on the sponsor's snapshot results.
+L268: We further presented subjects from US and non US with high and low baseline viral loads and CD4 cell counts. Again no geographic heterogeneity was found (See Table 19).
+L269: Table 19. Subgroup Analysis of Response: US vs. non US
+L270: Factor	level	study	US	Non US
+EFAVIRENZ
+600MG QD	TMC278
+25MG QD	EFAVIRENZ
+600MG QD	TMC278
+25MG QD
+Baseline
+CD4 counts	≤50	209	75.00% (9/12)	50.00% (3/6)	87.50% (7/8)	66.67% (6/9)
+215	87.50% (7/8)	50.00% (7/14)	66.67% (6/9)	85.71% (6/7)
+>50	209	83.54% (66/79)	79.00% (79/100)	81.22% (199/245)	85.28% (197/231)
+215	67.21% (41/61)	80.00% (48/60)	81.15% (211/260)	84.94% (220/259)
+Baseline
+viral load	>100K	209	86.27% (44/51)	73.08% (38/52)	76.92% (100/130)	76.99% (87/113)
+215	64.86% (24/37)	72.97% (27/37)	76.87% (103/134)	74.14% (86/116)
+≤100K	209	77.50% (31/40)	81.48% (44/54)	86.18% (106/123)	91.34% (116/127)
+215	75.00% (24/32)	75.68% (28/37)	84.44% (114/135)	93.33% (140/150)
+L271: Source: Reviewer's analysis based on the sponsor's snapshot results.
+L272: Table 20: subgroup analysis of virologic failures(a)
+L273: factor	level	study	EFVIRENZ
+600MG QD	TMC278
+25MG QD
+Baseline CD4 counts	≤50	209	10.00% (2/20)	40.00% (6/15)
+≤50	215	5.88% (1/17)	28.57% (6/21)
+>50	209	6.79% (22/324)	12.39% (41/331)
+>50	215	11.53% (37/321)	10.97% (35/319)
+gender	Female	209	8.70% (6/69)	16.67% (13/78)
+Female	215	10.64% (10/94)	10.00% (9/90)
+Male	209	6.55% (18/275)	12.69% (34/268)
+Male	215	11.48% (28/244)	12.80% (32/250)
+race	Non-white	209	7.97% (11/138)	17.42% (23/132)
+215	11.19% (15/134)	14.18% (19/134)
+white	209	6.31% (13/206)	11.21% (24/214)
+215	11.27% (23/204)	10.68% (22/206)
+age	≥36	209	6.21% (11/177)	14.44% (27/187)
+215	8.39% (13/155)	12.82% (20/156)
+<36	209	7.78% (13/167)	12.58% (20/159)
+215	13.66% (25/183)	11.41% (21/184)
+region	Non US	209	6.72% (17/253)	12.08% (29/240)
+215	10.41% (28/269)	10.53% (28/266)
+US	209	7.69% (7/91)	16.98% (18/106)
+215	14.49% (10/69)	17.57% (13/74)
+L274: (a) Virologic failures includes subjects who had ≥ 50 copies/ml in the Week 48 window, subjects who discontinued early due to lack or loss of efficacy, subjects who discontinued for reasons other than an adverse event, death or lack or loss of efficacy and at the time of discontinuation had a viral value of ≥ 50 copies/ml, and subjects who had a switch in background regimen that was not permitted by the protocol.
+L275: The proportions of virologic failures are generally higher in the TMC278 arm than in the EFV arm, across almost all subgroups (See Table 20).
+L276: The treatment and CD4 cell counts interaction is statistically significant (p-value=0.035), suggesting that the TMC278 arm performs worse compared to EFV in subjects with low CD4 cell counts than in subjects with high CD4 cell counts (See Table 20). While the proportions of virologic failures are generally higher in the TMC278 arm than in the EFV arm, no clear inconsistencies appear to other subgroups. In addition, there is no statistical significant treatment and covariate interaction for gender, age, region, race, etc.
+L277: ## 4.2 Other Special/Subgroup Populations
+L278: None.
+L279: ## 5. SUMMARY AND CONCLUSIONS
+L280: ## 5.1 Statistical Issues and Collective Evidence
+L281: A total of 1368 subjects were randomized and treated with TMC278 or EFV in two almost identical trials. For the primary efficacy endpoint of virologic response at week 48, we conclude that TMC278 is noninferior to EFV in each of the two trials. We also conclude that TMC278 is noninferior to EFV subjects with baseline viral loads higher than 100,000 copies/ml and that noninferiority is also demonstrated in subjects with baseline viral loads lower than 100,000 copies/ml for this endpoint. (see Section 3.3.)
+L282: The results are consistent in subjects using different background regimens in C215 and in C209 subjects in which all received tenofovir disoproxil fumarate and emtricitabine as their background treatment. However, a majority of subjects in trial 215 also received tenofovir disoproxil fumarate and emtricitabine as their background treatment. A small percentage of subjects in trial 215 received the other two background regimens.
+L283: The inferiority of TMC278 under EFV in virologic suppression is demonstrated overall. A further detailed analysis indicates that TMC278 is inferior to EFV in virologic suppression in subjects with baseline viral loads higher than 100,000 copies/ml but is similar to EFV in subjects with baseline viral loads lower than 100,000 copies/ml.
+L284: The superiority of TMC278 over EFV in AEs reduction is demonstrated in subjects in subjects with baseline viral loads higher than 100,000 copies/ml and also demonstrated in subjects with baseline viral loads lower than 100,000 copies/ml.
+L285: ## 5.2 Conclusions and Recommendations
+L286: We conclude that TMC278 is noninferior to EFV. The conclusion is based on the analysis of the pre-specified and commonly used primary endpoint, which is a composite endpoint of efficacy and safety (AEs). Evaluated through the primary composite endpoint, TMC278 is noninferior to EFV. However, while TMC278 demonstrates its statistically significant superiority over EFV in terms of AE reduction, it also demonstrates its statistically significant inferiority compared to EFV in terms of virologic suppression. In addition, compared to EFV, TMC278's weaker ability of virologic suppression is primarily driven by subjects with high baseline viral loads, but its stronger ability of AE reduction (over EFV) is demonstrated in subjects with either high or low baseline viral loads.
+L287: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L288: /s/
+L289: LEI NIE
+03/28/2011
+L290: FRASER B SMITH
+03/28/2011
+L291: FDA seal/logo for Center for Drug Evaluation and Research
+L292: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Science
+Office of Biostatistics
+L293: ## Statistical Review and Evaluation
+L294: ## CARCINOGENICITY STUDIES
+L295: IND/NDA Number:	NDA 20-2022
+Drug Name:	TMC278-HCL
+Indication(s):	104 Week Carcinogenicity Study in Rats and Mice
+Applicant:	Sponsor: Tibotec Pharmaceuticals Ltd., Eastgate Village, Eastgate, Little Island, Co. Cork, Ireland
+Test Facility: (b) (4)
+Documents Reviewed:	Electronic submission, Dated: Oct. 28, 2009
+Electronic data submitted on Feb. 12, 2010
+Review Priority:	Standard
+Biometrics Division:	Division of Biometrics -6
+Statistical Reviewer:	Mohammad Atiar Rahman, Ph.D.
+Concurring Reviewer:	Karl Lin, Ph.D.
+Medical Division:	Division of Pulmonary and Allergy Products
+Reviewing Pharmacologist:	Mark Seaton, Ph.D.
+Project Manager:	Robert Kosko, Pharm.D., M.P. H.
+Keywords:	Carcinogenicity, Dose response
+L296: ## Table of Contents
+L297: 1	Background	3
+2	Rat Study	3
+2.1	Sponsor's analyses	3
+2.1.1	Survival analysis	3
+2.1.2	Tumor data analysis	4
+2.2	Reviewer's analyses	4
+2.2.1	Survival analysis	5
+2.2.2	Tumor data analysis	5
+3	Mouse Study	6
+3.1	Sponsor's analyses	7
+3.1.1	Survival analysis	7
+3.1.2	Tumor data analysis	7
+3.2	Reviewer's analyses	7
+3.2.1	Survival analysis	8
+3.2.2	Tumor data analysis	8
+4	Summary	9
+5	Appendix	11
+6	References	24
+L298: ## 1. Background
+L299: In this submission the sponsor included reports of two animal carcinogenicity studies, one in rats and one in mice. These studies were intended to assess the carcinogenic potential of TMC278-HCL in rats and mice when administered orally by gavage once daily at appropriate drug levels for about 104 weeks. Results of this review have been discussed with the reviewing pharmacologist Dr. Seaton.
+L300: In this review, the phrase "dose response relationship" refers to the linear component of the effect of treatment, and not necessarily to a strictly increasing or decreasing mortality or tumor incidence rate as dose increases.
+L301: ## 2. Rat Study
+L302: Two separate experiments were conducted, one in males and one in females. In each of these two experiments there were four treated groups and one vehicle control group. Three hundred and twenty five Crl: CD_ (ICR) Sprague-Dawley rats of each sex were randomly allocated to treated and control groups in equal size of 65 animals. The dose levels for treated groups were 44, 220, 550, and 1650 mg/kg/day (40, 200, 500, and 1500 mg qu./kg/day). In this review these dose groups were referred to as the low, medium, mid-high, and high dose group, respectively. The controls received the vehicle (0.5% w/v Methocel in purified water) by gavage. All male rats were dosed for up to 104 weeks, however due to small number of surviving animals in the control, the remaining female rats were killed (terminal sacrifice) at Week 98.
+L303: During the administration period animals were inspected visually at least twice daily for the evidences of ill-health or reactions to treatment. In addition, a more detailed weekly physical examination, which included palpation, was performed on each animal to monitor general health. Particular attention was paid to any superficial or palpable swellings, for which the location, size, consistency, time of first observation and subsequent history were recorded every week. The body weight of each rat was recorded one week before treatment commenced (Week -1), the day that treatment commenced (Week 0), at weekly intervals for the first 16 weeks of treatment, thereafter once every four weeks and before necropsy. Additional bodyweights were also performed in Week 53 (males and females) and Week 97 (males only). A complete histopathological examination was performed on all animals from all groups found dead, killed moribund, or sacrificed during or at the end of the experiment.
+L304: ## 2.1. Sponsor's analyses
+L305: ## 2.1.1. Survival analysis
+L306: Survival function of each treatment group was estimated using the Kaplan-Meier product limit method and was presented graphically. Statistical analysis of the data was performed using the two-tailed logrank dose response relationship test for an increase in mortality versus nominal dose level, and two-tailed pairwise tests of each treatment group against the control.
+L307: **Sponsor's findings:** Sponsor's analysis showed 38%, 38%, 42%, 43%, and 32% survival of male rats in control, low, medium, mid-high, and high dose groups, respectively and 31%, 29%, 46%, 49%, and 48% survival of female rats in control, low, medium, mid-high, and high dose groups, respectively. The sponsor's analysis showed that in the males there were no statistically significant differences in mortality between control and treated groups, but in the females statistical significance was attained. The sponsor argued that this significance was due to the higher mortality in the control. The trend test, when all treated female groups were included, was statistically significant (p=0.034). Upon exclusion of the 1650 mg/kg/day treated group,
+L308: the trend test was still significant (p=0.006). Upon further exclusion of the 550 mg/kg/day treated group, the trend test was still significant (p=0.013). Upon further exclusion of the 220 mg/kg/day treated group, the trend test was no longer significant (p=0.508). The pairwise comparisons of the control group with the 550 and 1650 mg/kg/day treated groups were statistically significant (p=0.048 and p=0.034 respectively). The sponsor concluded that the incidence and distribution of the deaths was not treatment-related.
+L309: ## 2.1.2. Tumor data analysis
+L310: Tumor data were analyzed using the methods outlined in the paper of Peto et al. (1982) for positive dose response relationship among control, low, medium, mid-high, and high dose groups, and pairwise comparisons of control and treated groups. Statistical analysis was applied to tumor sites having a total incidence over the treated groups only (i.e. not including the control) of at least two.
+L311: For fatal tumors, the life-table time strata were weeks during which there were deaths. The animals at risk were those which were alive and tumor-free at the beginning of the time interval. If a tissue is autolysed, the particular animal was included at all time points except that the one in which it died. For incidental tumors, the strata were calculated using the "ad hoc" method suggested by Peto et al. The animals at risk were those which died during the time interval. If a tissue is autolysed, the animal was excluded from all time intervals. For palpable tumors, the times of observation were the time when the tumor was first noted. All animals surviving until the first day of the terminal kill were considered to be part of the terminal kill and were included in a single time stratum. When the total incidence for a particular tumor is greater than or equal to 2 and less than 10, a permutation version of the life-table analysis was performed.
+L312: **Adjustment for multiple testing:** The sponsor did not perform any adjustment for multiple testing in their tumor data analysis.
+L313: **Sponsor's findings:** Sponsor's analyses showed an increased incidence of hepatocellular adenoma in male and female rats at 220, 550 and 1650 mg/kg/day and female rats at 44 mg/kg/day. There was no clear dose response relationship in these groups. The sponsor mentioned that the number of tumors seen in all treated female groups was above the observed background level in this strain of rat in this laboratory. In male rats the numbers of tumors at 220, 550 and 1650 mg/kg/day are equal to the maximum level recorded in historical control data. An increased incidence of follicular cell adenoma and/or carcinoma was seen both sexes in all treated groups. In male rats the combined incidences of benign follicular cell adenoma and malignant follicular cell carcinoma showed statistically significant dose response relationship when all groups were included in the analysis (p=0.039). Upon exclusion of the 1650 mg/kg/day treated group the dose response relationship was no longer significant (p=0.058). The pairwise comparison of the control group with the 1650 mg/kg/day treated group was statistically significant (p=0.039). In females for benign follicular cell adenoma, the dose response relationship test was statistically significant when all groups were included in the analysis (p=0.034). Upon exclusion of the 1650 mg/kg/day treated group the dose response relationship test was still significant (p=0.046). Upon further exclusion of the 550 mg/kg/day treated group the dose response relationship test was still significant (p=0.013). None of the pairwise comparisons was statistically significant.
+L314: ## 2.2. Reviewer's analyses
+L315: To verify sponsor's analyses and to perform additional analysis suggested by the reviewing pharmacologist, this reviewer independently performed survival and tumor data analyses. Data used in this reviewer's analyses were provided by the sponsor electronically.
+L316: ## 2.2.1. Survival analysis
+L317: The survival distributions of animals in all four treatment groups were estimated by the Kaplan-Meier product limit method. The dose response relationship was tested using the likelihood ratio test and homogeneity of survival distributions was tested using the log-rank test. The intercurrent mortality data are given in Tables 1A and 1B in the appendix for male and female rats, respectively. The Kaplan-Meier curves for survival rate are given in Figures 1A and 1B in the appendix for male and female rats, respectively. Results of the tests for dose response relationship and homogeneity of survivals, are given in Tables 2A and 2B in the appendix for male and female rats, respectively.
+L318: **Reviewer's findings:** This reviewer's analysis showed 38%, 38%, 42%, 43%, and 32% survival of male rats in control, low, medium, mid-high, and high dose groups, respectively and 31%, 29%, 46%, 49%, and 48% survival of female rats in control, low, medium, mid-high, and high dose groups, respectively. This reviewer's analysis showed statistically significant negative dose response relationship in mortality across treatment groups in female rats.
+L319: ## 2.2.2. Tumor data analysis
+L320: The tumor data were analyzed for dose response relationships and pairwise comparisons of control with each of the treated groups. Both the dose response relationship tests and pairwise comparisons were performed using the Poly-k method described in the paper of Bailer and Portier (1988) and Bieler and Williams (1993). In this method an animal that lives the full study period (w_{max}) or dies before the terminal sacrifice with at least one tumor gets a score of s_h=1. An animal that dies at week w_h without a tumor before the end of the study gets a score of
+L321: s_h = \left( \frac{w_h}{w_{max}} \right)^k &lt; 1.The adjusted group size is defined as N_a = \sum s_h. As an interpretation, an animal with score
+L322: s_h = 1 can be considered as a whole animal while an animal with score s_h &lt; 1 can be considered as a partial animal. The adjusted group size N_a is equal to N (the original group size) if all animals live up to the end of the study or if each animal develops at least one tumor, otherwise the adjusted group size is less than N. These adjusted group sizes are then used for the dose response relationship (or the pairwise) tests using the Cochran-Armitage test. One critical point for Poly-k test is the choice of the appropriate value of k, which depends on the tumor incidence pattern with the increased dose. For long term 104 week standard rat and mouse studies, a value of k=3 is suggested in the literature. Hence, this reviewer used k=3 for the analysis of this data. For the calculation of p-values the exact permutation method was used.
+L323: The tumor rates and the p-values of the tested tumor types are given in Tables 3A and 3B in the appendix for male and female rats, respectively.
+L324: **Multiple testing adjustment:** For the adjustment of multiple testing of dose response relationship, the FDA guidance for the carcinogenicity study design and data analysis suggests the use of test levels \alpha=0.005 for common tumors and \alpha=0.025 for rare tumors for a submission with two species, and a significance level \alpha=0.01 for common tumors and \alpha=0.05 for rare tumors for a submission with one species study in order to keep the false-positive rate at the nominal level of approximately 10%. A rare tumor is defined as one in which the published spontaneous tumor rate is less than 1%. For multiple pairwise comparisons of treated group with control the FDA guidance suggested the use of test levels \alpha=0.01 for common tumors and \alpha=0.05 for rare tumors, in order to keep the false-positive rate at the nominal level of approximately 10% for both submissions with two or one submission.
+L325: It should be noted that the FDA guidance for multiple testing for dose response relationship is based on a publication by Lin and Rahman (1998). In this work the authors investigated the use of this rule for Peto analysis. However, in a later work Lin and Rahman (2008) showed that this rule for multiple testing for dose response relationship is also suitable for Poly-K tests.
+L326: **Reviewer's findings:** Following tumor types showed p-values less than or equal to 0.05 either for dose response relationship and/or pairwise comparisons of control and treated groups.
+L327: ## Tumor Types with P-Values \le 0.05 for Dose Response Relationship or Pairwise Comparisons in Rats
+L328: Sex	Organ Name	Tumor Name	0 mg	44mg	220mg	550mg	1650mg	P_Value	P-Value
+Cont	Low	Med	MIDHI	High	Dose	C vs. L	C vs. M	C VS. MIDHI	C vs. H
+N=65	N=65	N=65	N=65	N=65	Resp	
+Male	LT. TESTIS	INTERSTITIAL (LEYDIG	1	0	1	1	4	0.0108	0.5208	0.2527	0.7473	0.1600
+SKIN	LIPOMA	2	0	0	2	6	0.0012*	0.7678	0.7527	0.6663	0.1064
+THYROIDS	FOLLICULAR CELL-
+ADENOMA+CARCINOMA	1	3	6	6	7	0.0291	0.3407	0.0623	0.0553	0.0250
+Female	THYROIDS	FOLLICULAR CELL
+ADENOMA	0	0	3	3	4	0.0395	.	0.1561	0.1457	0.0858
+FOLLICULAR CELL-
+ADENOMA+CARCINOMA	0	1	4	3	5	0.0409	0.5135	0.0821	0.1457	0.0452*
+L329: Based on the criteria of adjustment for multiple testing discussed above the incidence of lipoma in skin in male rats was considered to have a statistically significant dose response. In pairwise comparisons, the increased combined incidence of adenoma and carcinoma in thyroids in female rats was considered to be statistically significant compared to the control.
+L330: **Reviewer's comment:** The sponsor's analysis showed statistically significant dose response relationship in the incidence of benign follicular cell adenoma in female rats. The sponsor's analysis also showed some statistically significant pairwise comparisons for increased incidence of this tumor type in the treated groups compared to the control. This reviewer's analysis showed some of these p-values to be less than 0.05. However, due to the adjustment for multiple testing, used by this reviewer, these p-values were not considered to be statistically significant.
+L331: ## 3. Mouse Study
+L332: Two separate experiments were conducted, one in male and one in female mice. In each of these two experiments there were three treated groups and one vehicle control group. Two hundred and forty (Crl:CD-1TM(ICR)) mice of each sex were randomly allocated to treated and control groups in equal size of 60 animals. The dose levels for treated groups were 22, 66, and 176 mg/kg/day (20, 60, and 160 mg eq./kg/day). In this review these dose groups were referred to as the low, medium, and high dose group, respectively. The animals in control group received the vehicle (0.5% w/v Methocel in purified water) by gavage.
+L333: Females receiving 176 mg/kg/day were terminated in Week 99 due to increasing mortality in the latter stages of the study. The remaining females were terminated in Week 103. Males receiving 176 mg/kg/day stopped dosing during Week 101. Terminal sacrifice of males was performed after 104 weeks, as scheduled.
+L334: During the administration period animals were inspected visually at least twice daily for evidences of ill-health or reaction to treatment. In addition, a more detailed weekly physical examination, including palpation, was performed on each animal to monitor general health. Particular attention was paid to any superficial or palpable swellings, for which the location, size, consistency, time of first observation and subsequent history were recorded every week. The body weight of each mouse was recorded one week before treatment commenced (Week -1), the day that treatment commenced (Week 0), at weekly intervals for the first 16 weeks of treatment, thereafter once every four weeks and before necropsy. A complete histopathological examination was performed on all animals from all groups found dead, killed moribund, or sacrificed during or at the end of the experiment.
+L335: ## 3.1. Sponsor's analyses
+L336: ## 3.1.1. Survival analysis
+L337: Survival data from the mouse study were analyzed using the same statistical methodologies as the sponsor used to analyze the survival data from the rat study.
+L338: **Sponsor's findings:** Sponsor's analysis showed 58%, 42%, 35%, and 30% survival of male mice in control, low, medium, and high dose groups, respectively and 33%, 38%, 50%, and 28% survival of female mice in control, low, medium, and high dose groups, respectively. For males, the trend test for mortality, when all treated groups were included, was statistically significant (p=0.001). Upon exclusion of the 176 mg/kg/day treated group, the trend test was still significant (p=0.019). Upon further exclusion of the 66 mg/kg/day treated group, the trend test was not significant (p=0.064). The pairwise comparisons of the control group with both the 66 and 176 mg/kg/day treated groups were statistically significant (p=0.032 and p=0.001 respectively). The sponsor concluded that there was no treatment-related effect on survival in females, and the need to kill females at 176 mg/kg/day in Week 99 was due to a rapid increase in deaths in the last few weeks.
+L339: ## 3.1.2. Tumor data analysis
+L340: Tumor data from the mouse study were also analyzed using the same statistical methodologies as the sponsor used to analyze the tumor data from the rat study.
+L341: **Sponsor's findings:** Sponsor's analysis showed that the dose response in the incidence of hepatocellular adenomas in male mice given 22, 66, or 176 mg/kg/day was positive. The pairwise comparison with control showed that the incidence of this tumor type in groups given 66 or 176 mg/kg/day were statistically significant. When incidence of hepatocellular adenomas and carcinomas in males was combined, the trend test and pairwise comparisons were statistically significant for all groups. The sponsor mentioned that the incidences of carcinomas in males given 22 mg/kg/day and of adenomas and carcinomas in males given 66 or 176 mg/kg/day fell outside the background ranges. In females given 66 or 176 mg/kg/day, both individual and combined incidences of hepatocellular adenomas and carcinomas reached statistical significance by both the trend test and pairwise comparison. The sponsor further mentioned that all incidences fell outside the historical background ranges for these tumors.
+L342: ## 3.2. Reviewer's analyses
+L343: This reviewer independently performed survival and tumor data analyses from the mouse study. For the mouse data analyses this reviewer used similar methodologies as he used to analyze the data from the rat study. Data used
+L344: in this reviewer's analyses were provided by the sponsor electronically.
+L345: ## 3.2.1. Survival analysis
+L346: The intercurrent mortality data are given in Tables 4A and 4B in the appendix for male and female mice, respectively. The Kaplan-Meier curves for death rate are given in Figures 2A and 2B in the appendix for male and female mice, respectively. Results for test of dose response relationship and homogeneity of survivals among treatment groups are given in Tables 5A and 5B in the appendix for male and female mice, respectively.
+L347: **Reviewer's findings:** This reviewer's analysis showed 58%, 42%, 35%, and 30% survival of male mice in control, low, medium, and high dose groups, respectively and 33%, 38%, 50%, and 28% survival of female mice in control, low, medium, and high dose groups, respectively. This reviewer's analysis showed statistically significant dose response relationship in survival across treatment groups in male mice. The pairwise comparisons in male mice showed statistically significant increased mortality in medium, and high dose groups compared to the control.
+L348: ## 3.2.2. Tumor data analysis
+L349: The tumor rates and the p-values of the tumor types tested for dose response relationship and pairwise comparisons of control and treated groups are given in Table 6A and 6B in the appendix for male and female mice, respectively.
+L350: **Reviewer's findings:** Following tumor types showed p-values less than or equal to 0.05 either for dose response relationship or pairwise comparisons of control and treated groups.
+L351: ## Tumor Types with P-Values \le 0.05 for Dose Response Relationship or Pairwise Comparisons in Mice
+L352: Sex	Organ Name	Tumor Name	0 mg, 22 mg, 66 mg, 176 mg	P_Value
+Cont
+N=60	Low
+N=60	Med
+N=60	High
+N=60	Dose
+Resp	P_Value
+C vs. L	P_Value
+C vs. M	P_Value
+C vs. H
+Male	CAECUM	ADENOCARCINOMA	0	0	1	3	0.0108*	.	0.4767	0.0757
+LIVER	HEPATOCELLULAR ADENOMA	8	14	21	19	0.0022*	0.0694	0.0020*	0.0015*
+HEPATOCELLULAR-
+ADENOMA+CARCINOMA	11	19	24	27	<0.001*	0.0371	0.0029*	<0.001*
+LUNGS + BRONCHI	BRONCHIOLALVEOLAR
+ADENOCARCINOMA	6	5	0	10	0.0139	0.6992	1.0000	0.0584
+SKIN	FIBROSARCOMA	0	0	0	2	0.0441	.	.	0.1821
+SQUAMOUS CELL PAPILLOMA	0	0	0	2	0.0441	.	.	0.1821
+SPLEEN	HAEMANGIOMA	0	0	0	3	0.0083*	.	.	0.0717
+L353: (Table Continued)
+L354: ## Tumor Types with P-Values \le 0.05 for Dose Response Relationship or Pairwise Comparisons in Mice
+L355: (Table Continued)
+L356: Sex	Organ Name	Tumor Name	0 mg	22 mg	66 mg	176 mg	P_Value
+Cont
+N=60	Low
+N=60	Med
+N=60	High
+N=60	Dose
+Resp	P_Value
+C vs. L	P_Value
+C vs. M	P_Value
+C vs. H
+Female	LIVER	HEPATOCELLULAR ADENOMA	1	0	8	16	<0.001*	1.0000	0.0194	<0.001*
+HEPATOCELLULAR CARCINOMA	0	0	2	7	<0.001*	.	0.2646	0.0032*
+HEPATOCELLULAR-
+ADENOMA+CARCINOMA	1	0	9	20	<0.001*	1.0000	0.0101	<0.001*
+UTERINE CERVIX	LEIOMYOMA	0	0	0	2	0.0498	.	.	0.2162
+UTERUS	LEIOMYOSARCOMA	0	0	0	2	0.0477	.	.	0.2098
+L357: Based on the multiple testing adjustment procedure discussed in the rat data analysis section, the incidences of hepatocellular adenoma, and combined incidence of hepatocellular adenoma and hepatocellular carcinoma in both sexes of mice were considered to have statistically significant positive dose response relationships. In female mice the incidence of hepatocellular carcinoma alone also showed a statistically significant positive dose response relationship. Also, in males the incidences of adenocarcinoma in caecum and haemangioma in spleen were considered to have statistically significant positive dose response relationships. In the pairwise comparisons, hepatocellular adenoma, and combined incidence of hepatocellular adenoma and carcinoma in both sexes were considered to have statistically significant increased incidences in the high dose group compared to their respective control. In female mice the incidence of hepatocellular carcinoma alone was considered to have statistically significant increased incidence in high dose group compared to the control. In male mice the medium dose group also showed statistically significant increased incidence of hepatocellular adenoma and combined hepatocellular adenoma and carcinoma compared to the control.
+L358: ## 4. Summary
+L359: In this submission the sponsor included reports of two animal carcinogenicity studies, one in rats and one in mice. These studies were intended to assess the carcinogenic potential of TMC278_HCL in rats and mice when administered orally by gavage once daily at appropriate drug levels for about 104 weeks.
+L360: In this review, the phrase "dose response relationship" refers to the linear component of the effect of treatment, and not necessarily to a strictly increasing or decreasing mortality or tumor incidence rate as dose increases.
+L361: **Rat Study:** Two separate experiments were conducted, one in males and one in females. In each of these two experiments there were four treated groups and a vehicle control group. Three hundred and twenty five Crl: CD_ (ICR) Sprague-Dawley rats of each sex were randomly allocated to treated and control groups in equal size of 65 animals. The dose levels for treated groups were 44, 220, 550, and 1650 mg/kg/day. In this review these dose groups were referred to as the low, medium, mid-high, and high dose group, respectively. The controls received the vehicle (0.5% w/v Methocel in purified water) by gavage. Due to small number of surviving animals, the female rats were terminally sacrificed during Week 98.
+L362: The tests showed statistically significant negative dose response relationship in mortality across treatment groups in female rats. The tests showed statistically significant positive dose response relationship in the incidence of lipoma in skin in male rats. The pairwise comparison showed statistically significant increased combined incidence of adenoma and carcinoma in thyroids in high dose group compared to the control.
+L363: **Mouse Study:** Two separate experiments were conducted, one in male and one in female mice. In each of these two experiments there were three treated groups and one vehicle control group. Two hundred and forty (Cr:CD-1TM(ICR)) mice of each sex were randomly allocated to treated and control groups in equal size of 60 animals. The dose levels for treated groups were 22, 66, and 176 mg/kg/day. In this review these dose groups were referred to as the low, medium, and high dose group, respectively. The animals in control group received the vehicle (0.5% w/v Methocel in purified water) by gavage.
+L364: Females receiving 176 mg/kg/day were terminated in Week 99 due to increasing mortality in the latter stages of the study. The remaining females were terminated in Week 103. Males receiving 176 mg/kg/day stopped dosing during Week 101. Terminal sacrifice of males was performed after 104 weeks, as scheduled.
+L365: The tests showed statistically significant dose response relationship in survival across treatment groups in male mice. The pairwise comparisons in male mice showed statistically significant increased mortality in medium, and high dose groups compared to the control. The tests showed statistically significant positive dose response relationship the incidences of hepatocellular adenoma, and combined incidence of hepatocellular adenoma and hepatocellular carcinoma in both sexes. In female mice the incidence of hepatocellular carcinoma alone showed statistically significant positive dose response relationship. Also, in male mice the incidences of adenocarcinoma in caecum and haemangioma in spleen showed statistically significant positive dose response relationships. The pairwise comparisons showed statistically significant increased incidences of hepatocellular adenoma, and combined incidence of hepatocellular adenoma and carcinoma in both sexes compared to their respective control. In female mice the pairwise comparisons showed statistically significant increased incidences of hepatocellular carcinoma alone in high dose group compared to the control. In male mice the medium dose group also showed statistically significant increased incidence of hepatocellular adenoma and combined hepatocellular adenoma and carcinoma compared to the control.
+L366: Mohammad Atiar Rahman, Ph.D.
+Mathematical Statistician
+L367: Concur: Karl Lin, Ph.D.
+Team Leader, Biometrics-6
+L368: cc:
+Archival NDA 20-2022
+Dr. Seaton
+Dr. Kosko
+L369: Dr. Machado
+Dr. Lin
+Dr. Rahman
+MS. Patrician
+L370: ## 5. Appendix
+L371: **Table 1A: Intercurrent Mortality Rate
+Male Rats**
+L372: Week	0mg/kg/day	44mg/kg/day	220mg/kg/day	550mg/kg/day	1650mg/kg/day
+No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %
+0 - 52	2	3.08	2	3.08	2	3.08	5	7.69	4	6.15
+53 - 78	11	20.00	6	12.31	11	20.00	14	29.23	18	33.85
+79 - 91	16	44.62	11	29.23	16	44.62	11	46.15	9	47.69
+92 - 104	11	61.54	21	61.54	9	58.46	7	56.92	13	67.69
+Ter. Sac.	25	38.46	25	38.46	27	41.54	28	43.08	21	32.31
+L373: **Table 1B: Intercurrent Mortality Rate
+Female Rats**
+L374: Week	0mg/kg/day	44mg/kg/day	220mg/kg/day	550mg/kg/day	1650mg/kg/day
+No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %
+0 - 52	3	4.62	4	6.15	3	4.62	4	6.15	.	.
+53 - 78	22	38.46	16	30.77	10	20.00	12	24.62	16	24.62
+79 - 91	11	55.38	18	58.46	15	43.08	9	38.46	8	36.92
+92 - 98	9	69.23	8	70.77	7	53.85	8	50.77	10	52.31
+Ter. Sac.	20	30.77	19	29.23	30	46.15	32	49.23	31	47.69
+L375: **Table 2A: Intercurrent Mortality Comparison
+Male Rats**
+L376: Test	Statistic	P-Value
+Dose-Response	Likelihood Ratio	0.1820
+Homogeneity	Log-Rank	0.6970
+L377: **Table 2B: Intercurrent Mortality Comparison
+Female Rats**
+L378: Test	Statistic	P-Value
+Dose-Response*	Likelihood Ratio	0.0306
+Homogeneity	Log-Rank	0.0259
+L379: *This data actually showed a statistically significant negative dose response
+L380: APPEARS THIS WAY ON ORIGINAL
+L381: Table 3A: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Male Rats
+L382: Organ Name	Tumor Name	0 mg	44 mg	220 mg	550 mg	1650 mg	P_Value	P_Value
+Cont
+N=65	Low
+N=65	Med
+N=65	MidHi
+N=65	High
+N=65	Dos
+Resp	P_Value
+C vs. L	P_Value
+C vs. M	P_Value
+C vs. MIDHI	P_Value
+C vs. H
+ABDOMEN	MESOTHELIOMA	0	0	1	0	0	0.3755	.	0.5054	.	.	.
+SARCOMA NOS	0	0	0	1	0	0.3755	.	.	0.4889	.	.
+SCHWANNOMA	0	0	1	0	0	0.3755	.	0.5054	.	.	.
+ADIPOSE TISSUE	HAEMANGIOSARCOMA	0	0	1	0	0	0.3755	.	0.5054	.	.	.
+MALIGNANT SCHWANNOMA	0	1	0	0	0	0.5808	0.5208	.	.	.	.
+ADRENALS	CORTICAL ADENOMA	0	0	1	1	1	0.1514	.	0.5054	0.4889	0.4773	0.4773
+CORTICAL CARCINOMA	0	0	1	0	1	0.1794	.	0.5054	.	0.4773	0.4773
+MALIGNANT PHAEOCHROM	3	3	1	1	1	0.8152	0.3794	0.6998	0.6747	0.6566	0.6566
+PHAEOCHROMOCYTOMA	4	7	8	6	6	0.3635	0.3116	0.1773	0.3560	0.2995	0.2995
+BONE	OSTEOMA	1	0	1	0	0	0.7425	0.5208	0.2527	0.4889	0.4773	0.4773
+BRAIN	ASTROCYTOMA	3	2	3	0	2	0.6077	0.5399	0.3488	0.8708	0.4677	0.4677
+GRANULAR CELL TUMOUR	1	0	0	2	1	0.2085	0.5155	0.5000	0.4750	0.7240	0.7240
+MIXED GLIOMA	1	0	1	0	0	0.7393	0.5155	0.7527	0.4835	0.4719	0.4719
+H-POIETIC TUMOU	HISTIOCYTIC SARCOMA	0	1	0	1	0	0.4493	0.5208	.	0.4889	.	.
+LYMPHOCYTIC / LYMPHO	1	0	0	1	1	0.2442	0.5155	0.5000	0.7360	0.7301	0.7301
+MYELOID CELL LEUKAEM	0	0	1	1	1	0.1556	.	0.5054	0.4945	0.4831	0.4831
+PLEOMORPHIC LYMPHOMA	0	2	1	1	0	0.7111	0.2686	0.5054	0.4889	.	.
+HEAD	OSTEOMA	0	0	0	0	1	0.1834	.	.	.	0.4773	0.4773
+PAPILLOMA	1	0	0	0	0	0.7957	0.5155	0.5000	0.4835	0.4719	0.4719
+HEART	ATRIOCAVAL MESOTHELI	0	0	1	1	0	0.3701	.	0.5054	0.4889	.	.
+ENDOCARDIAL SCHWANNO	0	0	2	0	0	0.6111	.	0.2527	.	.	.
+LIVER	HEPATOCELLULAR ADENO	0	1	3	3	3	0.0854	0.5208	0.1250	0.1168	0.1046	0.1046
+HEPATOCELLULAR CARCI	0	0	0	1	0	0.3755	.	.	0.4889	.	.
+LN MESEENTERIC	HAEMANGIOMA	0	1	0	2	0	0.4863	0.5208	.	0.2362	.	.
+HAEMANGIOSARCOMA	1	0	0	0	0	0.7991	0.5208	0.5054	0.4889	0.4773	0.4773
+HAEMANGIOMA+	
+HAEMANGIOSARCOMA	1	1	0	2	0	0.6404	0.2686	0.5054	0.4831	0.4773	0.4773
+LT. KIDNEY	RENAL LIPOMA	0	2	0	0	0	0.8253	0.2686	.	.	.	.
+TUBULAR ADENOMA	1	0	0	0	1	0.3396	0.5208	0.5054	0.4889	0.7357	0.7357
+LT. TESTIS	INTERSTITIAL (LEYDIG	1	0	1	1	4	0.0108	0.5208	0.2527	0.7473	0.1600	0.1600
+LUNGS + BRONCHI	BRONCHIOLALVEOLAR A	0	2	0	0	1	0.3862	0.2686	.	.	0.4773	0.4773
+MAMMARY	FIBROMA	1	0	0	0	1	0.3338	0.5208	0.5054	0.4889	0.7296	0.7296
+LIPOMA	1	0	2	0	0	0.7940	0.5208	0.5082	0.4889	0.4773	0.4773
+MAMMARY ADENOCARCINO	1	2	2	0	2	0.3545	0.5234	0.5000	0.4835	0.4663	0.4663
+MAMMARY FIBROADENOMA	0	1	1	0	1	0.3142	0.5208	0.5054	.	0.4773	0.4773
+L383: (Table Continued)
+L384: **Table 3A: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Male Rats**
+L385: (Table Continued)
+L386: Organ Name	Tumor Name	0 mg	44 mg	220 mg	550 mg	1650 mg	Dos	P_Value	P_Value
+Cont
+N=65	Low
+N=65	Med
+N=65	MidHi
+N=65	High
+N=65	Resp	P_Value	P_Value	C vs. M	C vs. H
+C vs. L	C vs. M	MIDHI	C vs. H
+PANCREAS	ACINAR CELL ADENOMA	1	2	0	3	1	0.4404	0.5309	0.5000	0.2920	0.7301	
+ISLET CELL ADENOMA	3	4	1	4	0	0.9388	0.5349	0.6916	0.4754	0.8572	
+ISLET CELL CARCINOMA	0	4	1	3	0	0.8349	0.0693	0.5054	0.1168	.	
+PARATHYROIDS	CHIEF CELL ADENOMA	0	0	1	0	1	0.1794	.	0.5054	.	0.4773	
+PAWS	HAEMANGIOMA	0	0	0	1	0	0.3755	.	.	0.4889	.	
+PITUITARY	ADENOMA, PARS DISTA	34	28	27	21	23	0.8535	0.7374	0.7660	0.9236	0.8672	
+ADENOMA, PARS INTERM	0	2	0	1	0	0.6623	0.2738	.	0.4889	.	
+PROSTATE	ADENOCARCINOMA	0	0	1	0	0	0.3755	.	0.5054	.	.	
+RECTUM	ADENOCARCINOMA	1	0	0	0	0	0.7957	0.5155	0.5000	0.4835	0.4719	
+FIBROSARCOMA	0	0	0	1	0	0.3755	.	.	0.4889	.	
+RT. EPIDIDYMIS	MESOTHELIOMA	1	0	0	0	0	0.7991	0.5208	0.5054	0.4889	0.4773	
+SKELETAL MUSCLE	FIBROMA	1	0	0	0	0	0.7957	0.5155	0.5000	0.4835	0.4719	
+HAEMANGIOMA	0	0	0	0	1	0.1834	.	.	.	0.4773	
+SKIN	BASAL CELL CARCINOMA	1	1	0	0	0	0.8697	0.2631	0.5000	0.4835	0.4719	
+BASAL CELL TUMOUR	1	1	1	1	0	0.7338	0.2686	0.2527	0.7416	0.4773	
+CYSTADENOMA	0	0	0	1	0	0.3755	.	.	0.4889	.	
+FIBROLIPOMA	0	1	1	0	0	0.6525	0.5208	0.5054	.	.	
+FIBROMA	7	7	5	4	7	0.3305	0.4352	0.6055	0.6858	0.5251	
+FIBROSARCOMA	1	1	0	1	2	0.1394	0.2631	0.5000	0.7360	0.4574	
+FIBROUS HISTIOCYTOMA	0	0	0	0	1	0.1870	.	.	.	0.4831	
+HAEMANGIOSARCOMA	0	1	0	0	0	0.5808	0.5208	.	.	.	
+KERATOACANTHOMA	2	3	2	4	3	0.2740	0.5296	0.6916	0.3178	0.4462	
+LIPOMA	2	0	0	2	6	0.0012*	0.7678	0.7527	0.6663	0.1064	
+MYXOMA	1	0	0	0	0	0.7957	0.5155	0.5000	0.4835	0.4719	
+RHABDOMYOSARCOMA	0	0	0	0	1	0.1834	.	.	.	0.4773	
+SARCOMA NOS	0	0	2	1	1	0.2282	.	0.2527	0.4889	0.4773	
+SCHWANNOMA	0	1	0	0	0	0.5808	0.5208	.	.	.	
+SEBACEOUS CELL ADENO	2	1	0	0	1	0.5396	0.5316	0.7581	0.7416	0.4655	
+SQUAMOUS CELL PAPILL	0	3	3	2	2	0.3576	0.1372	0.1290	0.2362	0.2249	
+SPINAL C. LUMB.	MIXED GLIOMA	0	0	1	0	0	0.3755	.	0.5054	.	.	
+TAIL	CHORDOMA	0	0	0	0	1	0.1834	.	.	.	0.4773	
+FIBROSARCOMA	0	0	0	0	1	0.1834	.	.	.	0.4773	
+THORAX	OSTEOSARCOMA	0	0	1	0	0	0.3755	.	0.5054	.	.	
+THYMUS	THYMIC ADENOCARCINOM	0	0	0	1	0	0.3783	.	.	0.4945	.	
+THYMOMA (EPITHELIAL)	0	1	0	0	0	0.5808	0.5208	.	.	.	
+THYROIDS	C-CELL ADENOMA	4	8	4	4	2	0.9015	0.1986	0.6309	0.6059	0.5957
+L387: (Table Continued)
+L388: **Table 3A: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Male Rats**
+(Table Continued)
+L389: Organ Name	Tumor Name	0 mg	44 mg	220 mg	550 mg	1650 mg	P_Value	P_Value
+Cont
+N=65	Low
+N=65	Med
+N=65	Mid
+N=65	Hi
+N=65	Dos
+Resp	P_Value
+C vs. L	P_Value
+C vs. M	P_Value
+C vs. MIDHI	P_Value
+C vs. H
+THYROIDS	C-CELL CARCINOMA	0	3	2	0	2	0.3376	0.1372	0.2527	.	0.2249
+FOLLICULAR CELL ADEN	1	3	4	5	5	0.0776	0.3407	0.1943	0.1016	0.0867
+FOLLICULAR CELL CARC	0	0	2	1	2	0.0810	.	0.2527	0.4889	0.2306
+FOLLICULAR_CELL_ADEN	1	3	6	6	7	0.0291	0.3407	0.0623	0.0553	0.0250
+TONGUE	SQUAMOUS CELL CARCIN	0	0	1	0	0	0.3755	.	0.5054	.	.
+SQUAMOUS CELL PAPILL	0	0	1	0	0	0.3755	.	0.5054	.	.
+URINARY BLADDER	TRANSITIONAL CELL CA	0	1	0	0	0	0.5808	0.5208	.	.	.
+TRANSITIONAL CELL PA	0	0	0	1	0	0.3755	.	.	0.4889	.
+WHOLE_BODY	HAEMANGIOMA+	
+HAEMANGIOSARCOMA	1	2	1	3	1	0.4867	0.5316	0.2527	0.2916	0.7296
+L390: Table 3B: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Female Rats
+L391: Organ Name	Tumor Name	0 mg	44 mg	220 mg	550mg	1650mg	P_Value	P_Value
+Cont
+N=65	Low
+N=65	Med
+N=65	MidHi
+N=65	High
+N=65	Dose
+Resp	P_Value
+C vs. L	P_Value
+C vs. M	MIDHI
+C vs. H	P_Value
+C vs. H
+ABDOMEN	MESOTHELIOMA	0	0	0	1	1	0.1353	.	.	0.5325	0.5443
+ADIPOSE TISSUE	LIPOMA	0	0	0	1	0	0.4221	.	.	0.5325	.
+ADRENALS	CORTICAL ADENOMA	2	0	2	1	0	0.8679	0.7603	0.3682	0.5493	0.7955
+MALIGNANT PHAEOCHROM	1	1	0	0	0	0.9004	0.2534	0.5385	0.5325	0.5443
+PHAEOCHROMOCYTOMA	2	1	1	1	0	0.9023	0.5104	0.5583	0.5493	0.7955
+BRAIN	ASTROCYTOMA	0	1	0	0	0	0.6300	0.5135	.	.	.
+GRANULAR CELL TUMOUR	1	1	0	0	0	0.8996	0.2603	0.5385	0.5325	0.5443
+BUCCAL CAVITY	SQUAMOUS CELL PAPILL	0	1	0	0	0	0.6300	0.5135	.	.	.
+CAECUM	LIPOMA	0	0	1	0	0	0.4221	.	0.5385	.	.
+CLITORAL GLANDS	SEBACEOUS CELL CARCI	0	1	0	0	0	0.6332	0.5068	.	.	.
+SQUAMOUS CELL PAPILL	0	0	1	0	0	0.4221	.	0.5385	.	.
+H-POIETIC TUMOU	HISTIOCYTIC SARCOMA	1	0	0	0	0	0.8191	0.5068	0.5385	0.5325	0.5443
+MYELOID CELL LEUKAEM	1	0	0	0	0	0.8191	0.5068	0.5385	0.5325	0.5443
+HARDERIAN GLAND	ADENOMA	0	1	0	0	0	0.6332	0.5068	.	.	.
+JEJUNUM	ADENOCARCINOMA	1	0	1	0	0	0.7899	0.5068	0.2867	0.5325	0.5443
+SARCOMA NOS	1	0	0	0	0	0.8191	0.5068	0.5385	0.5325	0.5443
+LIVER	HEPATOCELLULAR ADENO	1	5	5	6	4	0.4470	0.1124	0.1466	0.0817	0.2398
+HEPATOCELLULAR CARCI	0	0	0	0	1	0.2161	.	.	.	0.5443
+LN MESEENTERIC	HAEMANGIOMA	0	1	0	0	0	0.6332	0.5068	.	.	.
+LT. KIDNEY	RENAL LIPOMA	0	1	0	0	0	0.6332	0.5068	.	.	.
+LUNGS + BRONCHI	NEUROENDOCRINE TUMOU	0	0	0	1	0	0.4221	.	.	0.5325	.
+MAMMARY	ADENOACANTHOMA	0	0	2	0	0	0.6673	.	0.2867	.	.
+FIBROMA	0	1	0	1	1	0.2533	0.5068	.	0.5325	0.5443
+LIPOFIBROMA	0	0	1	0	0	0.4221	.	0.5385	.	.
+LIPOMA	0	0	3	0	1	0.3915	.	0.1561	.	0.5443
+MAMMARY ADENOCARCINO	19	16	19	13	11	0.9779	0.6361	0.5832	0.8801	0.9560
+MAMMARY ADENOMA	0	0	0	3	2	0.0717	.	.	0.1509	0.2931
+MAMMARY FIBROADENOMA	25	24	31	24	20	0.9663	0.5774	0.2897	0.5825	0.8640
+OVARIES	LUTEOMA	0	0	1	0	0	0.4221	.	0.5385	.	.
+SEPTOLIFORM TUBULAR	0	0	0	1	0	0.4221	.	.	0.5325	.
+PANCREAS	ACINAR CELL ADENOCAR	0	0	0	1	0	0.4221	.	.	0.5325	.
+ACINAR CELL ADENOMA	1	1	1	0	1	0.5261	0.2603	0.2867	0.5325	0.2931
+ISLET CELL ADENOMA	3	1	1	0	0	0.9884	0.7032	0.7485	0.9024	0.9097
+L392: (Table Continued)
+L393: **Table 3B: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Female Rats**
+L394: (Table Continued)
+L395: Organ Name	Tumor Name	0 mg	44 mg	220 mg	550mg	1650mg	P_Value	P_Value
+Cont
+N=65	Low
+N=65	Med
+N=65	MidHi
+N=65	High
+N=65	Dose
+Resp	P_Value
+C vs. L	P_Value
+C vs. M	P_Value
+C vs. MIDHI	P_Value
+C vs. H
+PANCREAS	ISLET CELL CARCINOMA	0	0	1	1	0	0.4279	.	0.5385	0.5325	.
+PAWS	BASAL CELL TUMOUR	0	1	0	0	0	0.6332	0.5068	.	.	.
+PITUITARY	ADENOMA, PARS DISTA	48	49	46	43	49	0.6473	0.4197	0.4420	0.5752	0.4643
+CARCINOMA, PARS DIST	1	0	1	0	0	0.7899	0.5068	0.2867	0.5325	0.5443
+SKELETAL MUSCLE	LIPOMA	0	2	1	0	0	0.8666	0.2534	0.5385	.	.
+SKIN	BASAL CELL CARCINOMA	0	1	0	0	0	0.6300	0.5135	.	.	.
+BASAL CELL TUMOUR	0	0	1	0	1	0.2270	.	0.5385	.	0.5443
+FIBROMA	1	1	1	0	0	0.8868	0.2603	0.2867	0.5325	0.5443
+FIBROSARCOMA	0	0	0	1	1	0.1353	.	.	0.5325	0.5443
+KERATOACANTHOMA	1	0	0	0	1	0.3863	0.5068	0.5385	0.5325	0.2931
+MYXOSARCOMA	0	1	0	0	0	0.6332	0.5068	.	.	.
+SARCOMA NOS	0	1	2	0	0	0.8142	0.5135	0.2931	.	.
+SCHWANNOMA	1	0	0	0	0	0.8191	0.5068	0.5385	0.5325	0.5443
+SQUAMOUS CELL CARCIN	0	1	0	1	0	0.5154	0.5068	.	0.5325	.
+SQUAMOUS CELL PAPILL	0	0	1	0	0	0.4221	.	0.5385	.	.
+STOMACH	ADENOCARCINOMA	0	1	0	0	0	0.6300	0.5135	.	.	.
+THYMUS	THYMIC ADENOCARCINOM	0	0	0	1	0	0.4221	.	.	0.5325	.
+THYMOMA (LYMPHOID)	1	0	0	1	0	0.5924	0.5068	0.5385	0.2802	0.5443
+THYROIDS	C-CELL ADENOMA	3	4	2	4	3	0.5936	0.5308	0.5738	0.5870	0.4382
+C-CELL CARCINOMA	0	1	1	0	0	0.7110	0.5068	0.5385	.	.
+FOLLICULAR CELL ADEN	0	0	3	3	4	0.0395	.	0.1561	0.1457	0.0858
+FOLLICULAR CELL CARC	0	1	1	0	1	0.3803	0.5135	0.5385	.	0.5443
+FOLLICULAR_CELL_ADEN	0	1	4	3	5	0.0409	0.5135	0.0821	0.1457	0.0452*
+GANGLIONEUROMA	2	0	0	0	0	0.9680	0.7603	0.7902	0.7847	0.7955
+URINARY BLADDER	MESENCHYMAL TUMOUR	0	1	0	0	0	0.6332	0.5068	.	.	.
+TRANSITIONAL CELL PA	0	0	0	0	1	0.2161	.	.	.	0.5443
+UTERINE CERVIX	ENDOMETRIAL POLYP	0	0	1	0	1	0.2270	.	0.5385	.	0.5443
+GRANULAR CELL TUMOUR	0	0	0	0	1	0.2161	.	.	.	0.5443
+LEIOMYOMA	0	1	0	0	0	0.6332	0.5068	.	.	.
+MALIGNANT SCHWANNOMA	0	0	1	0	1	0.2270	.	0.5385	.	0.5443
+UTERUS	ENDOMETRIAL ADENOCAR	1	1	1	0	1	0.5290	0.2534	0.2867	0.5325	0.2931
+ENDOMETRIAL POLYP	3	2	6	1	8	0.0506	0.5260	0.3382	0.7402	0.1833
+LEIOMYOMA	1	0	0	0	0	0.8191	0.5068	0.5385	0.5325	0.5443
+MALIGNANT SCHWANNOMA	1	2	1	2	1	0.5960	0.5205	0.2867	0.5583	0.2931
+SQUAMOUS CELL CARCIN	0	0	0	0	1	0.2161	.	.	.	0.5443
+VAGINA	FIBROMA	0	0	0	0	1	0.2161	.	.	.	0.5443
+GRANULAR CELL TUMOUR	1	0	0	0	0	0.8191	0.5068	0.5385	0.5325	0.5443
+WHOLE_BODY	HAEMANGIOMA+	
+HAEMANGIOSARCOMA	0	1	0	0	0	0.6332	0.5068	.	.	.
+L396: **Table 4A: Intercurrent Mortality Rate in Male Mice**
+L397: Week	0 mg/kg/day	22 mg/kg/day	66 mg/kg/day	176 mg/kg/day
+No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %
+0 - 52	5	8.33	8	13.33	8	13.33	11	18.33
+53 - 78	8	21.67	8	26.67	7	25.00	15	43.33
+79 - 91	7	33.33	7	38.33	10	41.67	9	58.33
+92 - 104	5	41.67	12	58.33	14	65.00	7	70.00
+Ter. Sac.	35	58.33	25	41.67	21	35.00	18	30.00
+L398: **Table 4B: Intercurrent Mortality Rate Female Mice**
+L399: Week	0 mg/kg/day	22 mg/kg/day	66 mg/kg/day	176 mg/kg/day
+No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %
+0 - 52	6	10.00	4	6.67	5	8.33	4	6.67
+53 - 78	13	31.67	14	30.00	8	21.67	18	36.67
+79 - 91	3	36.67	13	51.67	9	36.67	8	50.00
+92 - 102	18	66.67	6	61.67	8	50.00	13	71.67
+Ter. Sac.*	20	33.33	23	38.33	30	50.00	17	28.33
+L400: *Terminal sacrifice of high dose (176 mg/kg/day) group happened in Week 99
+L401: **Table 5A: Intercurrent Mortality Comparison Male Mice**
+L402: Test	Statistic	P_Value
+Dose-Response	Likelihood Ratio	0.0020
+Homogeneity	Log-Rank	0.0078
+L403: **Table 5B: Intercurrent Mortality Comparison Female Mice**
+L404: Test	Statistic	P_Value
+Dose-Response	Likelihood Ratio	0.2410
+Homogeneity	Log-Rank	0.1016
+L405: Table 6A: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Male Mice
+L406: Organ Name	Tumor Name	0 mg	22 mg	66 mg	176 mg	P_Value
+Dos
+Resp	P_Value
+Cont
+N=60	Low
+N=60	Med
+N=60	High
+N=60	C vs. L	C vs. M	C vs. H
+ABDOMEN	HAEMANGIOSARCOMA	0	1	0	0	0.7170	0.4767	.	.
+ADRENALS	CORTICAL ADENOMA	0	0	1	0	0.4591	.	0.4706	.
+PHAEOCHROMOCYTOMA	0	1	1	0	0.5644	0.4828	0.4706	.
+SUBCAPSULAR CELL ADENOMA	3	2	3	2	0.4991	0.7818	0.6052	0.7122
+BONE	OSTEOMA	0	0	0	1	0.2075	.	.	0.4231
+CAECUM	ADENOCARCINOMA	0	0	1	3	0.0108*	.	0.4767	0.0757
+COLON	ADENOCARCINOMA	1	2	1	0	0.8305	0.4738	0.7227	1.0000
+ADENOMA	0	0	0	1	0.2075	.	.	0.4231
+DUODENUM	ADENOMA	0	1	0	0	0.7188	0.4828	.	.
+GALL BLADDER	PAPILLOMA	0	0	1	0	0.4591	.	0.4706	.
+H-POIETIC TUMOU	HISTIOCYTIC SARCOMA	0	1	1	0	0.5644	0.4828	0.4706	.
+MALIGNANT LYMPHOMA	8	6	10	6	0.4427	0.7545	0.3172	0.6289
+MYELOID CELL LEUKAEMIA	1	0	0	1	0.3710	1.0000	1.0000	0.6641
+HARDERIAN GLAND	ADENOCARCINOMA	0	0	1	0	0.4591	.	0.4706	.
+ADENOMA	6	2	9	4	0.3583	0.9609	0.2375	0.6870
+LIVER	HEPATOBLASTOMA	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+HEPATOCELLULAR ADENOMA	8	14	21	19	0.0022*	0.0694	0.0020*	0.0015*
+HEPATOCELLULAR CARCINOMA	4	7	7	9	0.0554	0.2116	0.1994	0.0576
+HEPATOCELLULAR_ADEN+CAR	11	19	24	27	<0.001*	0.0371	0.0029*	<0.001*
+LUNGS + BRONCHI	BRONCHIOLALVEOLAR ADENOCARCIN	6	5	0	10	0.0139	0.6992	1.0000	0.0584
+BRONCHIOLALVEOLAR ADENOMA	15	14	21	16	0.0945	0.5632	0.0775	0.1734
+PITUITARY	ADENOMA, PARS INTERMEDIA	0	0	1	0	0.4591	.	0.4706	.
+SKIN	FIBROSARCOMA	0	0	0	2	0.0441	.	.	0.1821
+FIBROUS HISTIOCYTOMA	0	1	0	0	0.7170	0.4767	.	.
+SARCOMA (N.O.S.)	0	1	0	1	0.2542	0.4828	.	0.4231
+SQUAMOUS CELL PAPILLOMA	0	0	0	2	0.0441	.	.	0.1821
+SPLEEN	HAEMANGIOMA	0	0	0	3	0.0083*	.	.	0.0717
+HAEMANGIOSARCOMA	0	1	0	0	0.7170	0.4767	.	.
+HAEMANGIOMA+HAEMANGIOSARCOMA	0	1	0	3	0.0188*	0.4767	.	0.0717
+STOMACH	SQUAMOUS CELL CARCINOMA	0	0	1	0	0.4591	.	0.4706	.
+TESTES	INTERSTITIAL (LEYDIG) CELL ADE	1	0	3	1	0.3062	1.0000	0.2736	0.6703
+THYROIDS	FOLLICULAR CELL CARCINOMA	0	0	1	0	0.4591	.	0.4706	.
+WHOLE_BODY	HAEMANGIOMA+HAEMANGIOSARCOMA	2	3	0	4	0.1150	0.4450	1.0000	0.1956
+L407: Table 6B: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons Female Mice
+L408: Organ Name	Tumor Name	0 mg	22 mg	66 mg	176 mg	P_Value	P_Value	P_Value	P_Value
+Cont
+N=60	Low
+N=60	Med
+N=60	High
+N=60	Dos
+Resp	C vs. L	C vs. M	C vs. H
+ADIPOSE TISSUE	LEIOMYOMA	0	0	1	0	0.4938	.	0.5172	.
+ADRENALS	CORTICAL CARCINOMA	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+SUBCAPSULAR CELL ADENOMA	0	1	1	0	0.6004	0.4878	0.5172	.
+CAECUM	ADENOCARCINOMA	0	0	0	1	0.2209	.	.	0.4615
+H-POIETIC TUMOU	HISTIOCYTIC SARCOMA	1	2	2	3	0.1505	0.4726	0.5172	0.2530
+MALIGNANT LYMPHOMA	15	16	16	13	0.5343	0.4715	0.5278	0.5715
+HARDERIAN GLAND	ADENOMA	2	4	4	1	0.7742	0.3153	0.3602	0.8439
+HEAD	OSTEOMA	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+LIVER	HAEMANGIOMA	0	1	1	2	0.0961	0.4878	0.5172	0.2098
+HAEMANGIOSARCOMA	1	1	0	0	0.9340	0.7407	1.0000	1.0000
+HAEMANGIOMA+HAEMANGIOSARCOMA	1	2	1	2	0.3062	0.4815	0.7698	0.4417
+HEPATOCELLULAR ADENOMA	1	0	8	16	<0.001*	1.0000	0.0194	<0.001*
+HEPATOCELLULAR CARCINOMA	0	0	2	7	<0.001*	.	0.2646	0.0032*
+HEPATOCELLULAR ADEN+CAR	1	0	9	20	<0.001*	1.0000	0.0101	<0.001*
+LUNGS + BRONCHI	BRONCHIOLALVEOLAR ADENOCARCIN	3	1	2	1	0.7433	0.9360	0.8407	0.9215
+BRONCHIOLALVEOLAR ADENOMA	5	11	6	8	0.3324	0.0668	0.5327	0.1978
+MAMMARY	ADENOACANTHOMA	1	0	0	1	0.3919	1.0000	1.0000	0.7069
+MAMMARY ADENOCARCINOMA	6	3	1	4	0.5779	0.9043	0.9944	0.7769
+OVARIES	CYSTADENOMA	0	1	3	1	0.3017	0.4878	0.1339	0.4615
+GRANULOSA CELL TUMOUR	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+LUTEOMA	2	3	0	0	0.9837	0.4766	1.0000	1.0000
+TUBULOSTROMAL ADENOMA	1	0	2	0	0.6578	1.0000	0.5262	1.0000
+PITUITARY	ADENOMA, PARS DISTALIS	2	2	1	1	0.7228	0.6735	0.8917	0.8491
+ADENOMA, PARS INTERMEDIA	1	0	0	1	0.3940	1.0000	1.0000	0.7133
+SKELETAL MUSCLE	OSTEOSARCOMA	0	1	0	0	0.7407	0.4878	.	.
+SKIN	HAEMANGIOSARCOMA	0	1	0	0	0.7407	0.4878	.	.
+SARCOMA (N.O.S.)	0	3	0	0	0.8854	0.1160	.	.
+SCHWANOMMA	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+SQUAMOUS CELL PAPILLOMA	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+SPLEEN	HAEMANGIOMA	0	0	0	1	0.2209	.	.	0.4615
+STOMACH	SARCOMA (N.O.S.)	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+UTERINE CERVIX	ADENOCARCINOMA	0	0	1	0	0.4938	.	0.5172	.
+ENDOMETRIAL POLYP	1	1	0	0	0.9324	0.7410	1.0000	1.0000
+LEIOMYOMA	0	0	0	2	0.0498	.	.	0.2162
+STROMAL SARCOMA	1	0	1	0	0.7453	1.0000	0.7698	1.0000
+L409: (Table Continued)
+L410: **Table 6B: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Female Mice**
+L411: (Table Continued)
+L412: Organ Name	Tumor Name	0 mg	22 mg	66 mg	176 mg	P_Value	P_Value	P_Value	P_Value
+Cont	Low	Med	High	Dos
+N=60	N=60	N=60	N=60	Resp	C vs. L	C vs. M	C vs. H
+UTERUS	ENDOMETRIAL ADENOMA	0	0	1	0	0.4938	.	0.5172	.
+ENDOMETRIAL POLYP	2	7	1	5	0.2655	0.0778	0.8917	0.1667
+ENDOMETRIAL STROMAL CELL SARCO	1	4	2	0	0.9115	0.1648	0.5262	1.0000
+HAEMANGIOSARCOMA	0	0	0	1	0.2209	.	.	0.4615
+LEIOMYOMA	1	3	1	3	0.2036	0.2895	0.7698	0.2515
+LEIOMYOSARCOMA	0	0	0	2	0.0477	.	.	0.2098
+WOLE_BODY	HAEMANGIOMA+HAEMANGIOSARCOMA	1	3	1	4	0.0973	0.2895	0.7698	0.1424
+L413: Figure 1A: Kaplan-Meier Survival Functions for Male Rats
+Male Rats
+L414: X-Axis: Weeks, Y-Axis: Survival rates
+L415: Figure 1B: Kaplan-Meier Survival Functions for Female Rats
+Female Rats
+L416: X-Axis: Weeks, Y-Axis: Survival rates
+L417: Figure 2A: Kaplan-Meier Survival Functions for Male Mice
+Male Mice
+L418: X-Axis: Weeks, Y-Axis: Survival rates
+L419: Figure 2B: Kaplan-Meier Survival Functions for Female Mice
+Female Mice
+L420: X-Axis: Weeks, Y-Axis: Survival rates
+L421: ## 6. References
+L422: - Peto, R., M.C. Pike, N.E. Day, R.G. Gray, P.N. Lee, S. Parish, J. Peto, Richards, and J. Wahrendorf, "Guidelines for sample sensitive significance test for carcinogenic effects in long-term animal experiments", Long term and short term screening assays for carcinogens: A critical appraisal, International agency for research against cancer monographs, *Annex to supplement, World Health Organization, Geneva*, 311-426, 1980.
+- Bailer AJ, Portier CJ (1988). "Effects of treatment-induced mortality and tumor-induced mortality on tests for carcinogenicity in small samples." *Biometrics*, 44, 417-431.
+- Bieler, G. S. and Williams, R. L. (1993). "Ratio estimates, the delta method, and quantal response tests for increased carcinogenicity". *Biometrics* 49, 793-801.
+- Tarone RE, "Test for trend in life table analysis", *Biometrika* 1975, 62: 679-82
+- Lin K.K. and Rahman M.A., "Overall false positive rates in tests for linear trend in tumor incidence in animal carcinogenicity studies of new drugs", *Journal of Biopharmaceutical Statistics*, 8(1), 1-15, 1998.
+- Haseman, J, "A re-examination of false-positive rates for carcinogenesis studies", *Fundamental and Applied Toxicology*, 3: 334-339, 1983.
+L423: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L424: /s/
+L425: ATIAR MOHAMMAD A RAHMAN
+02/15/2011
+L426: KARL K LIN
+02/15/2011
+Concur with review
+L427: ## STATISTICS FILING CHECKLIST FOR A NEW NDA
+L428: NDA Number: 202022
+L429: Applicant: Tibotec
+L430: Stamp Date: 07/24/2010
+L431: Drug Name: Rilpivirine
+L432: NDA/BLA Type: Standard Review
+L433: Reviewers: Thomas Hammerstrom Ph.D.
+L434: On initial overview of the NDA/BLA application for RTF:
+L435: Content Parameter	Yes	No	NA	Comments
+1	Index is sufficient to locate necessary reports, tables, data, etc.	X	
+2	ISS, ISE, and complete study reports are available (including original protocols, subsequent amendments, etc.)	X	
+3	Safety and efficacy were investigated for gender, racial, and geriatric subgroups investigated (if applicable).	X	
+4	Data sets in EDR are accessible and do they conform to applicable guidances (e.g., existence of define.pdf file for data sets).	X
+L436: IS THE STATISTICAL SECTION OF THE APPLICATION FILEABLE? Yes
+L437: If the NDA/BLA is not fileable from the statistical perspective, state the reasons and provide comments to be sent to the Applicant.
+L438: ## STATISTICS FILING CHECKLIST FOR A NEW NDA
+L439: Please identify and list any potential review issues to be forwarded to the Applicant for the 74-day letter.
+L440: Content Parameter (possible review concerns for 74-day letter)	Yes	No	NA	Comment
+Designs utilized are appropriate for the indications requested.	X	
+Endpoints and methods of analysis are specified in the protocols/statistical analysis plans.	X	
+Interim analyses (if present) were pre-specified in the protocol and appropriate adjustments in significance level made. DSMB meeting minutes and data are available.	X	
+Appropriate references for novel statistical methodology (if present) are included.	X	
+Safety data organized to permit analyses across clinical trials in the NDA/BLA.	
+Investigation of effect of dropouts on statistical analyses as described by applicant appears adequate.	X
+L441: Thomas Hammerstrom
+L442: Reviewing Statisticians
+L443: Date
+L444: Supervisor/Team Leader
+L445: Date
+L446: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L447: /s/
+L448: THOMAS S HAMMERSTROM
+09/27/2010
+L449: GUOXING SOON
+10/06/2010
+L450: ## STATISTICS FILING CHECKLIST FOR A NEW NDA
+L451: NDA Number: 202022
+L452: Applicant: Tibotec
+L453: Stamp Date: 07/24/2010
+L454: Drug Name: Rilpivirine
+L455: NDA/BLA Type: Standard Review
+L456: Reviewers: Thomas Hammerstrom
+L457: On initial overview of the NDA/BLA application for RTF:
+L458: Content Parameter	Yes	No	NA	Comments
+1	Index is sufficient to locate necessary reports, tables, data, etc.	X	
+2	ISS, ISE, and complete study reports are available (including original protocols, subsequent amendments, etc.)	X	
+3	Safety and efficacy were investigated for gender, racial, and geriatric subgroups investigated (if applicable).	X	See C1.
+4	Data sets in EDR are accessible and do they conform to applicable guidances (e.g., existence of define.pdf file for data sets).	X	See C2.
+L459: C1. Subgroup analyses were conducted for baseline demographics, characteristics, and lead-in duration. Additionally, the primary efficacy endpoint was analyzed using combinations of different assay profiles, different algorithms to define virologic responders, and different analysis datasets.
+L460: C2. SAS *.xpt files, SAS programs for efficacy analyses can be found in the four subdirectories of NDA201152 (~) in the CDER EDR.
+L461: a. For Study 1100.1486, the analysis *.XPT files (with define.pdf) and SAS programs can be found in ~\0000\m5\datasets\1100-1486\analyses, and raw *.XPT files (with define.pdf) can be found in ~\0000\m5\datasets\1100-1486\tabulations.
+L462: b. Likewise, for Study 1100.1526, the analysis *.XPT files (with define.pdf) and SAS programs can be found in ~\0000\m5\datasets\1100-1526\analyses, and raw *.XPT files (with define.pdf) can be found in ~\0000\m5\datasets\1100-1526\tabulations.
+L463: c. The HIV-1 viral load data (*.xpt files and define.pdf) measured by Taqman and Amplicor assays can be found ~\0000\m5\datasets\1100-1486-1100-1526\analyses.
+L464: d. SAS programs, *.XPT file and define.pdf for analyses by sites can be found in ~\0002\m5\datasets\1100-1486\analysis.
+L465: **IS THE STATISTICAL SECTION OF THE APPLICATION FILEABLE? Yes**
+L466: If the NDA/BLA is not fileable from the statistical perspective, state the reasons and provide comments to be sent to the Applicant.
+L467: ## STATISTICS FILING CHECKLIST FOR A NEW NDA
+L468: Please identify and list any potential review issues to be forwarded to the Applicant for the 74-day letter.
+L469: Content Parameter (possible review concerns for 74-day letter)	Yes	No	NA	Comment
+Designs utilized are appropriate for the indications requested.	X	
+Endpoints and methods of analysis are specified in the protocols/statistical analysis plans.	X	
+Interim analyses (if present) were pre-specified in the protocol and appropriate adjustments in significance level made. DSMB meeting minutes and data are available.	X	See C3.
+Appropriate references for novel statistical methodology (if present) are included.	X	
+Safety data organized to permit analyses across clinical trials in the NDA/BLA.	See C4.
+Investigation of effect of dropouts on statistical analyses as described by applicant appears adequate.	X	See C5.
+L470: C3. No formal interim analysis was performed. However, a DSMB periodically reviewed unblinded safety and efficacy data for Study 1100-1486, according to its clinical study report.
+L471: C4. Please refer to the medical reviewer's comments.
+L472: C5. Various methods were used to assess impact of missing data on efficacy endpoints.
+L473: Reviewing StatisticiansDate
+L474: Supervisor/Team LeaderDate
+L475: Application Type/Number	Submission Type/Number	Submitter Name	Product Name
+NDA-202022	ORIG-1	TIBOTEC INC	TMC278
+L476: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L477: /s/
+L478: THOMAS S HAMMERSTROM
+09/03/2010
+L479: GUOXING SOON
+09/16/2010
+L480: Top Panel: Kaplan-Meier Curve for Time to Discontinuation for Any Reason.
+Y-axis: Subjects Ongoing (%). X-axis: Weeks.
+Legend: TMC278 (Blue line), Control (Yellow line).
+Data Table:
+0	6	12	18	24	30	36	42	48	54	60	66	72	78	84
+TMC278	346	343	338	331	318	314	310	307	304	212	122	81	58	30	4
+Control	344	330	325	321	318	309	304	301	296	216	125	83	57	28	6
+L481: Middle Panel: Kaplan-Meier Curve for Time to Discontinuation Due to AEs.
+Y-axis: Subjects Ongoing (%). X-axis: Weeks.
+Legend: TMC278 (Blue line), Control (Yellow line).
+Data Table:
+0	6	12	18	24	30	36	42	48	54	60	66	72	78	84
+TMC278	346	343	338	331	318	314	310	307	304	212	122	81	58	30	4
+Control	344	330	325	321	318	309	304	301	296	216	125	83	57	28	6
+L482: Bottom Panel: Kaplan-Meier Curve for Time to Discontinuation Due to Reaching Virologic Endpoint.
+Y-axis: Subjects Ongoing (%). X-axis: Weeks.
+Legend: TMC278 (Blue line), Control (Yellow line).
+Data Table:
+0	6	12	18	24	30	36	42	48	54	60	66	72	78	84
+TMC278	346	343	338	331	318	314	310	307	304	212	122	81	58	30	4
+Control	344	330	325	321	318	309	304	301	296	216	125	83	57	28	6
+L483: Kaplan-Meier Curve
+Male Rats (Using 5 groups)
+Survival Distribution Function
+STRATA:
+dosegrp=0
+dosegrp=44
+dosegrp=220
+dosegrp=550
+dosegrp=1650
+DTHSACTIV
+Censored dosegrp=0
+Censored dosegrp=44
+Censored dosegrp=220
+Censored dosegrp=550
+Censored dosegrp=1650
+L484: Kaplan-Meier Curve
+Female Rats (Using 5 Groups)
+Survival Distribution Function
+STRATA:
+dosegrp=0
+dosegrp=44
+dosegrp=220
+dosegrp=550
+dosegrp=1650
+DTHSACTIV
+Censored dosegrp=0
+Censored dosegrp=44
+Censored dosegrp=220
+Censored dosegrp=550
+Censored dosegrp=1650
+L485: Kaplan-Meier Curve for Male Mice.
+The X-axis represents Weeks (0 to 120), and the Y-axis represents Survival Distribution Function (0.00 to 1.00).
+STRATA:
+dosegrp=0 (Black line)
+Censored dosegrp=0 (Black circles)
+dosegrp=22 (Red line)
+Censored dosegrp=22 (Red circles)
+dosegrp=66 (Green line)
+Censored dosegrp=66 (Green circles)
+dosegrp=176 (Blue line)
+Censored dosegrp=176 (Blue circles)
+L486: Kaplan-Meier Curve for Female Mice.
+The X-axis represents Weeks (0 to 120), and the Y-axis represents Survival Distribution Function (0.00 to 1.00).
+STRATA:
+dosegrp=0 (Black line)
+Censored dosegrp=0 (Black circles)
+dosegrp=22 (Red line)
+Censored dosegrp=22 (Red circles)
+dosegrp=66 (Green line)
+Censored dosegrp=66 (Green circles)
+dosegrp=176 (Blue line)
+Censored dosegrp=176 (Blue circles)

@@ -1,0 +1,147 @@
+{
+  "app_key": "NDA022244",
+  "_meta": {
+    "type": "NDA",
+    "appno": "022244",
+    "sponsor": "EISAI INC",
+    "drug": "LUSEDRA",
+    "active": "FOSPROPOFOL DISODIUM",
+    "approval_date": "2008-12-08",
+    "review_priority": "STANDARD"
+  },
+  "card": {
+    "_note": "None of the documents available in this environment pertain to LUSEDRA (fospropofol disodium, NDA022244). All provided documents are unrelated CDRH 510(k) medical-device clearance letters (verified: e.g., K200730 personal lubricant, K222244/K222442 medical gloves, K222447 FreeStyle Libre glucose monitor, K222448 sacroiliac joint fixation system, K222440 sterilization pouches). No FDA drug-review, label, or approval-letter source exists here to ground any claim, so all fields are null per the no-invention / null-is-acceptable rule.",
+    "pivotal_trials": [],
+    "indication": {
+      "text": null,
+      "citations": []
+    },
+    "target_moa": {
+      "text": null,
+      "citations": []
+    },
+    "modality": {
+      "text": null,
+      "citations": []
+    },
+    "key_safety": {
+      "text": null,
+      "citations": []
+    },
+    "boxed_warning": {
+      "present": false,
+      "detail": null
+    },
+    "rems": {
+      "present": false,
+      "detail": null
+    },
+    "companion_dx": {
+      "present": false,
+      "detail": null
+    },
+    "advisory_committee": {
+      "convened": null,
+      "vote": null
+    },
+    "first_cycle_approval": {
+      "value": null,
+      "detail": null
+    },
+    "receipt_date": {
+      "text": null,
+      "citations": []
+    },
+    "post_marketing": [],
+    "crl_history": {
+      "prior_crl": null,
+      "date": null,
+      "basis": null
+    },
+    "approval_program": {
+      "accelerated_approval": {
+        "present": false,
+        "surrogate_endpoint": null,
+        "confirmatory_requirement": null
+      },
+      "breakthrough_therapy": {
+        "present": false,
+        "basis": null
+      },
+      "fast_track": {
+        "present": false,
+        "basis": null
+      },
+      "orphan_drug": {
+        "present": false,
+        "orphan_indication": null
+      },
+      "priority_review": {
+        "present": false,
+        "basis": null
+      },
+      "qidp": {
+        "present": false,
+        "basis": null
+      },
+      "rmat": {
+        "present": false,
+        "basis": null
+      },
+      "summary": {
+        "text": null,
+        "citations": []
+      }
+    },
+    "supplements": [],
+    "therapeutic_area": "Other"
+  },
+  "_verify": {
+    "total": 0,
+    "pass": 0,
+    "missing": 0,
+    "num_total": 0,
+    "num_covered": 0
+  },
+  "_model": "claude-opus-4-8",
+  "_repair": {
+    "changes": [
+      {
+        "field": "indication",
+        "action": "could_not_fix",
+        "note": "No LUSEDRA/fospropofol source exists; grep for 'fospropofol|LUSEDRA|propofol|022244|NDA' returned no drug content across all 11 docs (all are 510(k) device clearances, e.g., K200730 lubricant, K222447 glucose monitor), so indication cannot be grounded; left null."
+      },
+      {
+        "field": "target_moa",
+        "action": "could_not_fix",
+        "note": "No drug pharmacology document is present; available docs are device 510(k) submissions (gloves, ultrasound, sterilization pouches), none describing fospropofol mechanism; left null."
+      },
+      {
+        "field": "modality",
+        "action": "could_not_fix",
+        "note": "No FDA drug review/label for NDA022244 available to state modality; all source docs are unrelated CDRH device clearances; left null."
+      },
+      {
+        "field": "key_safety",
+        "action": "could_not_fix",
+        "note": "No drug safety/adverse-event review is present in the docs; grep found only device safety-standard testing (e.g., ASTM glove/sterilizer tests), nothing on fospropofol; left null."
+      },
+      {
+        "field": "receipt_date",
+        "action": "could_not_fix",
+        "note": "No NDA review cover page ('Received Date(s)'/'Submit Date(s)') exists; docs contain only device 'Date Prepared' lines (e.g., Aug.12,2022 for a sacroiliac screw); no LUSEDRA receipt date to ground; left null."
+      },
+      {
+        "field": "pivotal_trials",
+        "action": "could_not_fix",
+        "note": "No clinical-trial efficacy review for LUSEDRA is present; device docs contain only non-clinical/bench testing; no pivotal trial can be grounded; left empty."
+      },
+      {
+        "field": "_meta.source_documents",
+        "action": "could_not_fix",
+        "note": "Verified all 11 available docs are unrelated CDRH 510(k) device clearances (K-numbers), none pertaining to LUSEDRA/NDA022244; no drug source can be substituted here, so the card remains fully null and the provenance note was updated to list the verified device docs."
+      }
+    ],
+    "model": "claude-opus-4-8"
+  }
+}

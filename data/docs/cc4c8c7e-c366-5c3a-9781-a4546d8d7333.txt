@@ -1,0 +1,714 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+L2: **212489Orig1s000**
+L3: **STATISTICAL REVIEW(S)**
+L4: FDA seal/logo for Drug Evaluation and Research
+L5: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L6: ## STATISTICAL REVIEW AND EVALUATION
+## CLINICAL STUDIES
+L7: NDA #:	212,489
+Drug Name:	Opicapone (OPC)
+Indication(s):	Adjunct to levodopa/dopa decarboxylase inhibitor for use in patients with Parkinson's disease and end-of-dose motor fluctuations
+Applicant:	Neurocrine Biosciences Inc.
+Date(s):	Submission date: 04/26/2019, PDUFA date: 04/26/2020
+Review Priority:	Standard
+Biometrics Division:	Division of Biometrics I
+Statistical Reviewer:	Minjeong Park, Ph.D.
+Concurring Reviewers:	Kun Jin, Ph.D., Team Leader
+H.M. James Hung, Ph.D., Division Director
+Medical Division:	Division of Neurology
+Clinical Team:	Kenneth Bergmann, MD., Primary Clinical reviewer
+Gerald Podskalny, D.O., MPH, Medical Team Leader
+Project Manager:	Stacy Metz, Pharm D
+Keywords:	ANCOVA, Mixed Models, LOCF
+L8: ## Table of Contents
+L9: 1	EXECUTIVE SUMMARY	4
+2	INTRODUCTION	5
+2.1	OVERVIEW	5
+2.2	DATA SOURCES	5
+3	STATISTICAL EVALUATION	6
+3.1	DATA AND ANALYSIS QUALITY	6
+3.2	EVALUATION OF EFFICACY IN STUDY 301	6
+3.2.1	Study Design and Endpoints	6
+3.2.2	Statistical Methodologies	7
+3.2.3	Patient Disposition, Demographic and Baseline Characteristics	9
+3.2.4	Results and Conclusions	12
+3.2.4.1	Primary Efficacy Endpoint	12
+3.2.4.1.1	Sensitivity Analysis	14
+3.2.4.2	Key Secondary Efficacy Endpoints	15
+3.3	EVALUATION OF EFFICACY IN STUDY 302	16
+3.3.1	Study Design and Endpoints	16
+3.3.2	Statistical Methodologies	17
+3.3.3	Patient Disposition, Demographic and Baseline Characteristics	17
+3.3.4	Results and Conclusions	20
+3.3.4.1	Primary Efficacy Endpoint	20
+3.3.4.1.1	Sensitivity Analysis	22
+3.3.4.2	Key Secondary Efficacy endpoints	22
+3.4	EVALUATION OF SAFETY	23
+4	FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	24
+4.1	GENDER, AGE, RACE AND GEOGRAPHIC REGION IN STUDY 301	24
+4.2	GENDER, AGE, RACE AND GEOGRAPHIC REGION IN STUDY 302	24
+5	SUMMARY AND CONCLUSIONS	27
+5.1	STATISTICAL ISSUES	27
+5.2	COLLECTIVE EVIDENCE	27
+5.3	CONCLUSIONS AND RECOMMENDATIONS	27
+L10: ## LIST OF TABLES
+L11: Table 1: List of all studies included in analysis	5
+Table 2: Study Disposition in Study 301 – DB (Randomized sets)	9
+Table 3: Baseline Demographic Characteristics in Study 301 (FAS)	10
+Table 4: Baseline Parkinson's Disease Characteristics in Study 301 (FAS)	11
+Table 5: Absolute OFF-time (minutes): Summary of primary analyses for change from baseline to endpoint in Study 301 (DB, LOCF)	12
+Table 6. Sensitivity analysis on LOCF approach in double-blind period of Study 301	14
+Table 7. Reviewer's sensitivity analyses on LOCF Approach in Study 301	14
+Table 8. OFF- and ON-time responder rates at endpoint in Study 301 (FAS)	15
+Table 9. Absolute ON-time without troublesome dyskinesia (minutes) in Study 301– Change from baseline to Endpoint (FAS)	15
+Table 10. Study Disposition in Study 302 – DB (Randomized sets)	18
+Table 11. Baseline Demographic Characteristics in Study 302 (FAS)	18
+Table 12: Baseline Parkinson's Disease Characteristics in Study 302 (FAS)	19
+Table 13. Change from Baseline in Absolute OFF-time (minutes) at Visit 7 in Study 302 (DB, LOCF, FAS)	20
+Table 14. Sensitivity analysis on LOCF approach in double-blind period of Study 302	22
+Table 15. OFF- and ON-time Responders at Visit 7 in Study 302 – LOCF (FAS)	23
+Table 16. Absolute ON-time without troublesome dyskinesia (minutes) in Study 302 – Change from baseline to Endpoint - LOCF (FAS)	23
+Table 17: Subgroup Analysis for Study 301– Absolute OFF-time (minutes) and Change from Baseline to Visit 7 - ANCOVA (FAS - DB, LOCF)	25
+Table 18: Subgroup Analysis for Study 302– Absolute OFF-time (minutes) and Change from Baseline to Visit 7 - ANCOVA (FAS - DB, LOCF)	26
+L12: ## LIST OF FIGURES
+L13: Figure 1. Overview of Study design in Study 301	7
+Figure 2. The stepwise gatekeeping procedure with hierarchical tests of Opicapone vs. Placebo (upper row) and Opicapone vs. Entecapone (lower row) in Study 301	8
+Figure 3. Distribution of Changes in Absolute OFF-time and missing rates by Treatment Arm in Study 301 (FAS-DB)	13
+Figure 4. Trend of Absolute OFF-time over time by Treatment Arm in Study 301 (Observed case)	13
+Figure 5. Overview of Study design in Study 302	16
+Figure 6. Distribution of Changes in Absolute OFF-time and missing rates by Treatment Arm in Study 302 (FAS-DB)	21
+Figure 7. Trend of Absolute OFF-time over time by Treatment Arm in Study 302 (Observed case)	21
+L14: ## 1 EXECUTIVE SUMMARY
+L15: Neurocrine Biosciences Inc. submitted two phase 3 studies (referred to as Study 301 and Study 302 in this document) to support the claim of the efficacy and safety of opicapone (OPC), when administered with the existing treatment of L-DOPA plus a DDCI, in patients with Parkinson's disease. In Study 301, subjects treated with OPC 50mg showed a statistically significant decrease in absolute OFF-time of 60.8 minutes (p-value=0.0015) compared to the placebo. Study 302 also showed a statistically significant decrease in absolute OFF-time of 54.3 (p-value=0.0081) in subjects treated with OPC 50mg. Subjects treated with either OPC 5mg or 25mg failed to reach statistical significance.
+L16: ## 2 INTRODUCTION
+L17: ## 2.1 Overview
+L18: This application contains two phase 3 studies. One is a double-blind, randomized, placebo- and active-controlled, parallel-group, multicenter clinical study (BIA 9-1067-301 – referred to as “Study 301” in this document) designed to evaluate the efficacy and safety of opicapone (OPC) compared to active-control and placebo in one double-blind treatment period (DB period) with one subsequent open-label extension period (OL period) in idiopathic Parkinson’s disease (PD) patients with “wearing off” phenomenon treated with levodopa plus a dopa decarboxylase inhibitor (DDCI) using 3 different doses of OPC (5mg, 25mg or 50mg) in 14- to 15-week DB period followed by the OL period for 1 year. Another one is a double-blind, randomized, placebo-controlled, parallel-group, multicenter clinical study (BIA 9-1067-302 – referred to as “Study 302” in this document) designed to evaluate the efficacy and safety of OPC compared to placebo in one DB period with one subsequent OL period in idiopathic PD patients with “wearing off” phenomenon treated with levodopa plus a dopa decarboxylase inhibitor (DDCI) using 2 different doses of OPC (25mg and 50mg) in 14- to 15-week DB period followed by the OL period for 1 year.
+L19: **Table 1: List of all studies included in analysis**
+L20: Phase and Design	Treatment Period	# of Subjects per Arm randomized	Study Population
+BIA 9-1067-301	Phase 3 – DB, R, P/AC, PG, MC trial	Placebo/Active-Controlled: 14-15 weeks
+No Placebo
+Control: 1 year	5 mg OPC: 122
+25 mg OPC: 119
+50 mg OPC: 116
+200 mg Entacapone: 122
+Placebo: 121	subjects aged 30-83 with idiopathic PD for at least 3 years in disease severity stage I-III at ON, with signs of “wearing-off” phenomenon treated with levodopa plus a DDCI
+BIA 9-1067-302	Phase 3 – DB, R, PC, PG, MC trial	Placebo-Controlled: 14-15 weeks
+No Placebo
+Control: 1 year	25 mg OPC: 129
+50 mg OPC: 154
+Placebo: 144	subjects aged 30-83 with idiopathic PD for at least 3 years in disease severity stage I-III at ON, with signs of “wearing-off” phenomenon treated with levodopa plus a DDCI
+L21: * DB: double-blind, R: randomized, P/AC: placebo- and active-controlled, PC: placebo-controlled, PG: parallel group, MC: multicenter
+L22: ## 2.2 Data Sources
+L23: All documents reviewed for this supplement submission are in electronic form.
+The electronic location of the submission is \CDSESUB1\evsprod\NDA212489\0001.
+L24: ## 3 STATISTICAL EVALUATION
+L25: ## 3.1 Data and Analysis Quality
+L26: The Sponsor submitted all necessary analysis datasets, SAS and R programs. This reviewer found the datasets acceptable. With these, this reviewer verified the analysis datasets and the primary results from the Clinical Study Report.
+L27: ## 3.2 Evaluation of Efficacy in Study 301
+L28: ## 3.2.1 Study Design and Endpoints
+L29: Study 301 includes a double-blind, randomized, placebo- and active-controlled, parallel-group, multicenter study with 14-15 weeks DB period followed by a consecutive open-label, non-controlled extension period for 1 year. The DB period of the study had 5 treatment arms: 3 different doses of OPC groups (5mg once daily [QD], 25mg QD or 50mg QD), a 200mg QD of entacapone with each L-DOPA/DDCI intake and a placebo. Eligible subjects after the screening period were randomized to arms using a 1:1:1:1:1 ratio. During the OL period, all subjects were treated with OPC (5mg QD, 25mg QD, or 50mg QD) according to clinical response (see Figure 1). The study was conducted at 104 sites in 19 countries (Austria, Bosnia-Herzegovina, Bulgaria, Croatia, Czech Republic, France, Germany, Hungary, Italy, Latvia, Lithuania, Poland, Portugal, Romania, Russia, Serbia, Slovakia, Spain, and Ukraine). OPC was administered once a day orally with existing treatment of L-DOPA/DDCI. From V2 to V4 of the DB period, the investigator had the option to decrease the daily dose of L-DOPA/DDCI according to subject response. The dose could have been increased again but was not to exceed the baseline dose level.
+L30: The primary efficacy variable is the change in absolute OFF-time from baseline to the end of the DB period (efficacy endpoint). The average OFF-time of diaries completed on the last 3 days prior to V2 was considered as the baseline value. The average OFF-time of diaries completed on the last 3 days under treatment in the DB period prior to V7 or end of discontinuation visit (EDV) was considered as the endpoint value. The key secondary endpoints are OFF-time responders who had 1 hour or more reduction in absolute OFF-time from baseline to endpoint and ON-time responders who had 1 hour or more increase in absolute ON-time from baseline to endpoint. Absolute ON-time without troublesome dyskinesia (ON-time with non-troublesome dyskinesia + ON-time without dyskinesia) is also included in this report due to its clinical importance.
+L31: Figure 1. Overview of Study design in Study 301
+L32: DDCI=Dopa decarboxylase inhibitor; EDV=Early Discontinuation Visit; EOS=End of study; L-DOPA=levodopa; PSV=Post study visit; V=Visit
+L33: Source: Figure 1 on page 29 of Clinical Study Report (BIA-91067-301 DB).
+L34: ## 3.2.2 Statistical Methodologies
+L35: ## **Sponsor's Methods**
+L36: The primary efficacy analysis focused on identification of at least 1 efficacious dose of OPC and its subsequent comparison with the active control, entacapone, with regard to the change in absolute OFF-time from baseline to the end of the DB period. One-sided tests were used to test superiority vs. placebo and non-inferiority vs. entacapone. In order to control for multiplicity, a sequential gatekeeping procedure was used to use the family-wise error rate of 0.025 (see Figure 2). In the first step of the test procedure, each dose of OPC was compared with placebo using three 1-sided tests for superiority as following: H_{01}: \mu_{5mg} = \mu_{Plac} vs. H_{11}: \mu_{5mg} &gt; \mu_{Plac}; H_{02}: \mu_{25mg} = \mu_{Plac} vs. H_{12}: \mu_{25mg} &gt; \mu_{Plac}; H_{03}: \mu_{50mg} = \mu_{Plac} vs. H_{13}: \mu_{50mg} &gt; \mu_{Plac}, where \mu denotes the mean reduction in OFF-time from baseline to the end of DB period. The superiority tests were done for full analysis set (FAS) which consisted of all randomized subjects, treated with at least 1 dose of investigational medicinal product (IMP) after randomization and with at least 1 post-baseline OFF-time efficacy assessment. The non-inferiority of OPC vs. entacapone was tested after the efficacy of OPC vs. placebo had been established as following: H_{04}: \mu_{5mg} = \mu_{ent} - \delta vs. H_{14}: \mu_{5mg} &gt; \mu_{ent} - \delta; H_{05}: \mu_{25mg} = \mu_{ent} - \delta vs. H_{15}: \mu_{25mg} &gt; \mu_{ent} - \delta; H_{06}: \mu_{50mg} = \mu_{ent} - \delta vs. H_{16}: \mu_{50mg} &gt; \mu_{ent} - \delta, where \delta denotes the shift parameter or non-inferiority margin for mean reduction in OFF-time and was set to \delta = 30 minutes. The non-inferiority tests were done for the PP set which consisted of all subjects of the FAS without any major protocol deviations.
+L37: **Figure 2.** The stepwise gatekeeping procedure with hierarchical tests of Opicapone vs. Placebo (upper row) and Opicapone vs. Entacapone (lower row) in Study 301.
+L38: Source: Figure 2 on page 68 of Clinical Study Report (BIA-91067-301 DB).
+L39: The sample size calculation was based on data from previous studies which reported a mean reduction in OFF-time of between 60-145 minutes and common standard deviation of 130 minutes. Power calculations were done for 3 different scenarios assuming 75-, 90-, and 105-minute mean reductions in OFF-time for the OPC doses and 30-minute mean reduction for placebo. Assuming that the mean reduction in OFF-time of at least 1 dose is 105 minutes relative to a placebo reduction of 30 minutes, a sample size of 100 subjects per treatment group ensured a marginal power of more than 95% to confirm a treatment effect in the most efficacious dose group. For those doses where the test for superiority was significant, non-inferiority was tested in a second step. Assuming the same mean values under OPC as above and a mean change in OFF-time under entacapone of 75 minutes, the disjunctive power to obtain at least 1 significant result in the non-inferiority tests was about 84%. Assuming a 10% rate of subjects with major protocol violations, 110 subjects were to be randomized to each group.
+L40: Multiple one-sided tests based on an analysis of covariance (ANCOVA) were used to test superiority vs. placebo in the FAS and non-inferiority vs. entacapone in the PP set. For both the superiority and non-inferiority tests, an ANCOVA model with a common error variance was used to generate adjusted estimates and test statistics. The model included treatment group and region (North Eastern Europe, Russia/Ukraine, South Eastern Europe, Southern Europe or Western Europe) as fixed effects and baseline OFF-time as a covariate.
+L41: If the primary variable was missing at endpoint, it was replaced by the last available post-baseline observation until endpoint. Sensitivity analyses were performed on the primary endpoint using a mixed model for repeated measurement (MMRM), modeling the change from baseline in absolute OFF-time at each post-baseline visit was used to estimate and compare the least square (LS) means by visit to account for missing data and early discontinuations in both the FAS and the PP set.
+L42: ## **Reviewer's Comments:**
+L43: - Since this study was conducted under European Medicines Agency guidance, non-inferiority test was included. However, the reviewer only focused on the superiority part and applied the sponsor's rule for superiority test, hence, efficacy results from non-inferiority test were not presented in this document and did not affect to the evaluation of this application.
+L44: 2. The reviewer recommends calling the last available value approach throughout the report instead of last observation carried forward (LOCF).
+L45: ## 3.2.3 Patient Disposition, Demographic and Baseline Characteristics
+L46: Of 600 subjects, 122 subjects were randomized to OPC 5mg, 119 to OPC 25mg, 116 to OPC 50mg, 122 to entacapone 200mg and 121 to the placebo. In the placebo-controlled period (Sponsor's DB), 58 subjects did not complete the study. Incompletion rates in randomized groups are ranged from 7.8% as lowest to 12.3% as highest. Details of subject disposition are presented in Table 2.
+L47: **Table 2: Study Disposition in Study 301 – DB (Randomized sets)**
+L48: Discontinuation	Statistic	Placebo
+(N=121)	Entacapone
+200mg
+(N=122)	OPC 5mg
+(N=122)	OPC 25mg
+(N=119)	OPC 50mg
+(N=116)	Total OPC
+(N=357)
+Total Number of Subjects Who Completed the Study	n (%)	110 (90.9%)	107 (87.7%)	110 (90.2%)	108 (90.8%)	107 (92.2%)	325 (91.0%)
+Total Number of Subjects who Discontinued the Study Prematurely	n (%)	11 (9.1%)	15 (12.3%)	12 (9.8%)	11 (9.2%)	9 (7.8%)	32 (9.0%)
+Primary reason:	
+Withdrawal of Consent	n (%)	4 (3.3%)	6 (4.9%)	3 (2.5%)	3 (2.5%)	3 (2.6%)	9 (2.5%)
+Safety or Ethical Reasons that, in the Investigator's Opinion, Would be Detrimental to the Subject's Well-Being if They Continue	n (%)	-	-	-	1 (0.8%)	-	1 (0.3%)
+Subject's Non-Compliance	n (%)	-	1 (0.8%)	-	1 (0.8%)	-	1 (0.3%)
+Significant Protocol Violations	n (%)	1 (0.8%)	-	-	-	-	-
+Adverse Events (Serious or Non-Serious)	n (%)	5 (4.1%)	6 (4.9%)	5 (4.1%)	6 (5.0%)	5 (4.3%)	16 (4.5%)
+Sponsor's Discretion	n (%)	-	-	1 (0.8%)	-	-	1 (0.3%)
+Ineligibility	n (%)	-	2 (1.6%)	-	-	1 (0.9%)	1 (0.3%)
+Pregnancy	n (%)	-	-	-	-	-	-
+Development of Hypersensitivity Signs or Symptoms, Including Rash, Considered Related to Study Treatment	n (%)	1 (0.8%)	-	-	-	-	-
+Unblinding of the IMP	n (%)	-	-	-	-	-	-
+Other Reason	n (%)	-	-	3 (2.5%)	-	-	3 (0.8%)
+L49: Note: Multiple reasons for discontinuation could be specified for a given subject.
+L50: Source: Table 14.1.2 on page 144 of Clinical Study Report.
+L51: The baseline demographic characteristics for FAS are presented in Table 3. In the FAS population, 58.3% of subjects were male in the placebo group, 61.7% male in entacapone, 57.7% male in total OPC (57.1% with 5mg, 56% with 25mg and 60% with 50mg). The average age of subjects was ranged between 63.5 and 64.5 years old with small variances between groups. All subjects were Caucasian across entire randomized groups.
+L52: **Table 3: Baseline Demographic Characteristics in Study 301 (FAS)**
+L53: Characteristic	Statistic	Placebo
+(N=120)	Entacapone
+200mg
+(N=120)	OPC 5mg
+(N=119)	OPC 25mg
+(N=116)	OPC 50mg
+(N=115)	Total OPC
+(N=350)
+Age (yrs)	n	120	120	119	116	115	350
+nmiss	0	0	0	0	0	0
+Mean	64.5	63.6	63.3	64.3	63.5	63.7
+SD	9.18	8.78	9.20	9.04	9.22	9.14
+Q1	57.5	57.5	57.0	58.0	56.0	57.0
+Median	65.0	63.0	63.0	64.5	64.0	64.0
+Q3	72.0	70.0	70.0	71.0	71.0	71.0
+Min	39	42	34	41	36	34
+Max	83	83	82	82	82	82
+Age group	< 70 yrs	n (%)	79 (65.8%)	83 (69.2%)	87 (73.1%)	79 (68.1%)	80 (69.6%)	246 (70.3%)
+>= 70 yrs	n (%)	41 (34.2%)	37 (30.8%)	32 (26.9%)	37 (31.9%)	35 (30.4%)	104 (29.7%)
+Missing	n (%)	-	-	-	-	-	-
+Sex	Male	n (%)	70 (58.3%)	74 (61.7%)	68 (57.1%)	65 (56.0%)	69 (60.0%)	202 (57.7%)
+Female	n (%)	50 (41.7%)	46 (38.3%)	51 (42.9%)	51 (44.0%)	46 (40.0%)	148 (42.3%)
+Missing	n (%)	-	-	-	-	-	-
+Race/ Ethnicity	Caucasian	n (%)	120 ( 100%)	120 ( 100%)	119 ( 100%)	116 ( 100%)	115 ( 100%)	350 ( 100%)
+African	n (%)	-	-	-	-	-	-
+Asian	n (%)	-	-	-	-	-	-
+Other	n (%)	-	-	-	-	-	-
+Missing	n (%)	-	-	-	-	-	-
+Weight (kg)	n	120	120	119	116	115	350
+nmiss	0	0	0	0	0	0
+Mean	75.7	76.7	75.1	75.8	76.2	75.7
+SD	13.01	15.14	12.13	14.14	14.46	13.57
+Q1	65.5	67.5	66.0	64.0	67.0	66.0
+Median	76.0	75.0	76.0	76.5	73.0	75.0
+Q3	85.0	85.0	84.0	88.0	87.0	85.0
+Min	48	43	46	45	36	36
+Max	116	141	103	108	116	116
+Height (cm)	n	120	120	119	116	115	350
+nmiss	0	0	0	0	0	0
+Mean	167.3	167.7	168.5	167.8	167.7	168.0
+SD	9.64	9.19	9.18	8.34	9.65	9.05
+Q1	161.0	162.0	162.0	162.0	160.0	162.0
+Median	168.0	168.0	168.0	168.0	169.0	168.0
+Q3	173.0	173.5	175.0	174.0	175.0	175.0
+Min	144	140	150	149	145	145
+Max	189	190	190	185	188	190
+Body Mass Index (\text{kg}/\text{m}^2)	n	120	120	119	116	115	350
+nmiss	0	0	0	0	0	0
+Mean	27.1	27.2	26.5	26.8	27.1	26.8
+SD	4.16	4.66	4.43	4.33	4.61	4.45
+Q1	24.1	24.7	23.1	23.6	23.6	23.5
+Median	26.7	27.1	26.1	26.5	26.8	26.3
+Q3	29.8	29.4	29.6	29.9	30.1	29.8
+Min	18	17	17	18	17	17
+Max	39	51	41	37	47	47
+Body Mass Index Group	< 18 \text{kg}/\text{m}^2	n (%)	1 (0.8%)	1 (0.8%)	1 (0.8%)	-	1 (0.9%)	2 (0.6%)
+18 - 30 \text{kg}/\text{m}^2	n (%)	91 (75.8%)	98 (81.7%)	93 (78.2%)	88 (75.9%)	84 (73.0%)	265 (75.7%)
+> 30 \text{kg}/\text{m}^2	n (%)	28 (23.3%)	21 (17.5%)	25 (21.0%)	28 (24.1%)	30 (26.1%)	83 (23.7%)
+Missing	n (%)	-	-	-	-	-	-
+L54: Source: Table 14.3.2 on page 195-197 of Clinical Study Report.
+L55: At baseline, the average time from Parkinson's disease (PD) diagnosis were similar as approximately 7 years in all groups. The averages OFF-time were ranged from 6.2 to 6.9 hours and the percentages of OFF-time in total awake time were ranged from 38.2% up to 42.2%. The average time of total ON-time with troublesome or non-troublesome dyskinesia were similar across all groups. Details of baseline PD characteristics in FAS are shown in Table 4.
+L56: **Table 4: Baseline Parkinson's Disease Characteristics in Study 301 (FAS)**
+L57: Characteristic	Statistics	Placebo
+(N=120)	Entecapon
+(N=120)	OPC 5 mg
+(N=119)	OPC 25 mg
+(N=116)	OPC 50 mg
+(N=115)
+Time since PD diagnosis (years)	Mean (SD)	7.7 (4.19)	7.1 (4.12)	7.5 (3.59)	7.2 (4.14)	7.0 (3.84)
+Time since start of motor fluctuations (years)	Mean (SD)	2.2 (1.87)	2.2 (2.13)	2.3 (2.32)	2.3 (2.51)	2.2 (2.29)
+Incidence of dyskinesiaa	n (%)	50 (41.7%)	51 (42.5%)	56 (47.1%)	49 (42.2%)	51 (44.3%)
+OFF-time
+Absolute time (hours)b	Mean (SD)	6.2 (1.78)	6.5 (2.17)	6.7 (2.14)	6.9 (2.20)	6.2 (1.78)
+% of total awake time	Mean (SD)	38.2 (10.84)	40.2 (12.89)	40.9 (12.25)	42.2 (12.94)	38.7 (10.45)
+Total ON-time
+Absolute time (hours)b	Mean (SD)	10.0 (2.01)	9.6 (2.15)	9.7 (2.28)	9.4 (2.26)	9.9 (2.05)
+% of total awake time	Mean (SD)	61.8 (10.84)	59.8 (12.89)	59.1 (12.25)	57.8 (12.94)	61.3 (10.45)
+ON-time with non-troublesome dyskinesia
+Absolute time (hours)b	Mean (SD)	1.1 (1.76)	1.1 (1.66)	1.1 (1.95)	0.9 (1.82)	1.0 (1.91)
+% of total awake time	Mean (SD)	6.8 (11.1)	6.8 (10.5)	6.8 (11.2)	5.3 (10.9)	6.2 (12.0)
+ON-time with troublesome dyskinesia
+Absolute time (hours)b	Mean (SD)	0.4 (1.10)	0.3 (0.92)	0.4 (1.18)	0.3 (0.79)	0.3 (0.98)
+% of total awake time	Mean (SD)	2.5 (6.72)	1.9 (6.52)	2.5 (6.99)	1.6 (4.86)	1.9 (5.91)
+Total UPDRS (Part I, II [ON], III)	Mean (SD)	37.6 (16.56)	35.4 (19.98)	38.2 (16.16)	40.1 (18.56)	38.8 (18.99)
+UPDRS Part II (OFF)	Mean (SD)	18.6 (7.02)	18.0 (7.88)	17.8 (6.22)	18.5 (7.30)	18.9 (6.61)
+UPDRS Part III	Mean (SD)	27.6 (11.68)	25.8 (13.80)	28.5 (11.90)	29.0 (12.93)	28.4 (13.74)
+Modified H&Y (ON)	Mean (SD)	2.4 (0.51)	2.3 (0.55)	2.4 (0.42)	2.4 (0.52)	2.4 (0.52)
+Schwab and England (ON)	Mean (SD)	82.6 (11.31)	82.5 (11.97)	82.9 (10.36)	81.9 (12.01)	82.9 (11.90)
+L58: FAS=Full Analysis Set; H&amp;Y=Hoehn and Yahr; OPC=opicapone; PD=Parkinson's disease; SD=standard deviation;
+L59: UPDRS=Unified Parkinson's Disease Rating Scale
+L60: a From Unified Parkinson's Disease Rating Scale question 32 at Visit 2: any subjects above &gt;0
+L61: b Source tables present these values in minutes
+L62: Source: Table 10 on page 88 of Clinical Study Report.
+L63: ## **Reviewer's Comment:**
+L64: The overall observed missing/drop-out rate of primary efficacy measurement was 5.3%. It is necessary to confirm the impact of missing data on primary endpoint and imputation approach that the sponsor proposed (last observation carried forward/ available post-baseline observation until endpoint) since single imputation approaches can be problematic because they may underestimate the standard error of the treatment effect. The reviewer performed further sensitivity analyses in addition to one that the sponsor provided to assess the impact of missing. Results are presented in section 3.2.5.
+L65: ## 3.2.4 Results and Conclusions
+L66: ## 3.2.4.1 Primary Efficacy Endpoint
+L67: ## **Sponsor's Results**
+L68: The results of primary analyses are summarized in Table 5. In the analysis covariance, the least square (LS) mean change in absolute OFF-time was -116.8 in OPC 50mg, -85.9 in OPC 25mg, -91.3 in OPC 5mg, and -56.0 in the placebo. In the superiority test, OPC 50mg showed the largest LS mean difference from placebo as -60.8 (SE=18.52) with adjusted p-value of 0.0015. Neither OPC 25mg nor OPC 5mg showed statistically significant treatment effect compared to the placebo in the FAS.
+L69: **Table 5: Absolute OFF-time (minutes): Summary of primary analyses for change from baseline to endpoint in Study 301 (DB, LOCF)**
+L70: Treatment comparison	N	LS mean (SE)	Upper bound of CIa	Local p-value	Local significance levelb	Adjusted p-valueb
+Full Analysis Set (FAS)
+Placebo	120	-56.0 (13.38)	-29.7	-	-	-
+OPC 5 mg	119	-91.3 (13.46)	-64.8	-	-	-
+OPC 25 mg	116	-85.9 (13.69)	-59.1	-	-	-
+OPC 50 mg	115	-116.8 (13.97)	-89.4	-	-	-
+Test for superiority (FAS):
+OPC 5 mg – Placebo	-35.2 (18.38)	0.9	0.0279	0.01250	0.0558
+OPC 25 mg – Placebo	-29.9 (18.54)	6.5	0.0536	0.01250	0.0796
+OPC 50 mg – Placebo	-60.8 (18.52)	-24.4	0.0005	0.00833	0.0015
+L71: Source: Table 14.9.1, 14.9.2, and Table 14.9.3
+L72: CI=confidence interval; FAS=Full Analysis set; LS mean=least squares mean; N=number of non-missing values;
+OPC=opicapone; PP=Per-protocol; SE=standard error
+L73: Note: p-values are 1-sided and based on Type III sums of squares.
+L74: a Upper bound of the 2-sided unadjusted 95% CI.
+L75: b Calculated using Graph Based Multiple Comparison Procedure gMCP (from CRAN, see Bretz 2011)
+L76: Source: Table 16 on page 98 of Clinical Study Report
+L77: ## **Reviewer's Results**
+L78: This reviewer verified the results of the primary endpoint in Table 5. Figure 3 summarized the response distribution of Parkinson's disease patients to the OPC by displaying density curves of change in absolute OFF-time at the endpoint from baseline by treatment arm for FAS population. It also displays the proportion of subjects who dropped out of the study before the endpoint or missed primary efficacy assessment time point.
+L79: In the FAS population, the drug's response distribution shows that the density curve of OPC 50mg is skewed to the left compared to the placebo, having fewer subjects with worsening (positive portion in distribution) which indicates less absolute OFF-time at the endpoint in OPC 50mg group. This response distribution supports the effectiveness of OPC 50mg. The missing of primary efficacy measurement occurred in the investigational drug with various doses and placebo. The group with OPC 5mg had higher missing rates than the rest, however, it did not exceed 5.1%.
+L80: Sensitivity analyses for LOCF approach were performed since there were 16 subjects in FAS (3 placebo, 6 OPC 5mg, 3 OPC 25mg, 4 OPC 50mg) missed or reported insufficient information for the primary efficacy assessment at the endpoint of DB period. The results of sensitivity analyses are presented in section 3.2.5.
+L81: **Figure 3. Distribution of Changes in Absolute OFF-time and missing rates by Treatment Arm in Study 301 (FAS-DB)**
+L82: Source: Reviewer
+L83: Figure 4 shows the trend of absolute OFF-time over time by displaying means and 95% confidence intervals at each visit using observed cases only by the treatment arm for the FAS population. All arms including placebo show a trend of decreasing over time, the slope in OPC 50mg group shows greater improvement than the placebo.
+L84: The definition of FAS is identical to that of ITT population, the reviewer did not repeat primary analysis in ITT population.
+L85: **Figure 4. Trend of Absolute OFF-time over time by Treatment Arm in Study 301 (Observed case)**
+L86: Source: Reviewer
+L87: ## 3.2.4.1.1 Sensitivity Analysis
+L88: ## **Sponsor's Report**
+L89: Sensitivity analysis was performed on the LOCF approach in both FAS and PPS population. In addition, a mixed model repeated measures [MMRM] analysis was provided to check the impact of missing values only for comparison between OPC 50mg and placebo. Table 6 summarized sensitivity analyses with LS mean differences (95% Confidence Intervals (CI)) and p-values for OPC 50mg vs. placebo.
+L90: **Table 6. Sensitivity analysis on LOCF approach in double-blind period of Study 301**
+OPC 50mg vs. Placebo
+(Superiority test)
+L91: Analysis method
+Analysis set	LS Mean Diff
+(95% CI)	p-value
+ANCOVA
+FAS, LOCF	-60.8 (-97.2, -24.4)	0.0005
+PPS, LOCF	-59.4 (-96.3, -22.5)	0.0008
+MMRM
+FAS, Observed Case	-54.9 (-91.3, -18.5)	0.003
+PPS, Observed Case	-52.1 (-89.0, -15.3)	0.006
+L92: Source: Sponsor (Table 14.9.2, Table 14.9.3, End-of-text table 14.9.17, End-of-text table 14.9.18 of Clinical Study Report) and reviewer.
+L93: ## **Reviewer's Results**
+L94: The reviewer was able to replicate sensitivity analysis results in Table 6. In addition to the repetition of MMRM analysis, the reviewer performed further sensitivity analyses with two different scenarios of missing pattern (see Table 7). These sensitivity analyses only focused on comparisons between OPC 50mg vs. placebo. Scenario A is to replace a missing endpoint in placebo group with the mean endpoint value of OPC 50mg group, and to replace a missing endpoint in OPC 50mg group with the mean endpoint of placebo group. Scenario B is to replace a missing change at the endpoint from baseline in the placebo group with the mean change of OPC 50mg group at the endpoint, and a missing change in OPC 50mg group with the mean change of placebo group at the endpoint. Results are summarized in Table 7. Table 6 and Table 7 show the minor impact of missing values in this study. In the superiority test, MMRM and two different scenarios yielded similar treatment effects to the primary efficacy results and maintained a statistical significance in both FAS and PPS population.
+L95: **Table 7. Reviewer's sensitivity analyses on LOCF Approach in Study 301**
+OPC 50mg vs. Placebo
+(Superiority)
+L96: Analysis method
+Analysis set	LS Mean Diff
+(95% CI)	p-value
+ANCOVA
+FAS, Scenario A	-52.7 (-88.8, -16.7)	0.0042
+PPS, Scenario A	-51.3 (-87.7, -14.8)	0.0060
+FAS, Scenario B	-52.4 (-88.5, -16.2)	0.0046
+PPS, Scenario B	-50.6 (-87.1, -14.1)	0.0067
+L97: Source: Reviewer
+L98: ## 3.2.4.2 Key Secondary Efficacy Endpoints
+L99: ## OFF- and ON-time responder
+L100: OFF-time responders are subjects who had 1 hour or more reduction in absolute OFF-time from baseline to endpoint, ON-time responders are subjects who had 1 hour or more increase in absolute ON-time from baseline to endpoint. Table 8 shows a summary of the number and proportion of responders and analysis results using Cochran-Mantel-Haenszel test with region as the stratification factor. OFF-time responder rates in OPC 50mg was higher (69.6%) compared to the placebo (47.5%) and ON-time responder rates in OPC 50mg was also higher (65.2%) compared to the placebo (45.8%). The reviewer verified the results.
+L101: **Table 8. OFF- and ON-time responder rates at endpoint in Study 301 (FAS)**
+L102: Characteristic	Statistic	Placebo
+(N=120)	OPC 5 mg
+(N=119)	OPC 25 mg
+(N=116)	OPC 50 mg
+(N=115)
+OFF-time Reduction
+Responders	n (%)	57 (47.5%)	71 (59.7%)	70 (60.3%)	80 (69.6%)
+Non-responders	n (%)	63 (52.5%)	48 (40.3%)	46 (39.7%)	35 (30.4%)
+Missing	n (%)	0 (0.0%)	0 (0.0%)	0 (0.0%)	0 (0.0%)
+Difference with placebo
+CMH-test vs. Placebo	p-value	-	0.0650	0.0464	0.0011
+Breslow-Day test	p-value	-	0.7738	0.0789	0.8330
+ON-time Increase
+Responders	n (%)	55 (45.8%)	65 (54.6%)	66 (56.9%)	75 (65.2%)
+Non-responders	n (%)	65 (54.2%)	54 (45.4%)	50 (43.1%)	40 (34.8%)
+Missing	n (%)	0 (0.0%)	0 (0.0%)	0 (0.0%)	0 (0.0%)
+Difference with placebo
+CMH-test vs. Placebo	p-value	-	0.1690	0.0947	0.0028
+Breslow-Day test	p-value	-	0.7654	0.5339	0.4686
+L103: CMH=Cochran-Mantel-Haenszel-test, stratified by region; OPC=opicapone
+L104: Source: Table 19 on page 101 of Clinical Study Report
+L105: ## Absolute ON-time without troublesome dyskinesia
+L106: The results are summarized in Table 9. In the analysis covariance, the differences of LS mean change in absolute ON-time without troublesome dyskinesia compared to the placebo was 65.1 in OPC 50mg, 41.8 in OPC 25mg, 37.4 in OPC 5mg.
+L107: **Table 9. Absolute ON-time without troublesome dyskinesia (minutes) in Study 301– Change from baseline to Endpoint (FAS)**
+L108: Parameter	Placebo
+(N=120)	OPC 5 mg
+(N=119)	OPC 25 mg
+(N=116)	OPC 50 mg
+(N=115)
+Summary Statistics
+Mean (SD)	35.0 (165.7)	82.3 (174.5)	88.8 (170.0)	100.5 (134.3)
+Median (Min/Max)	40.0 (-440/510)	70.0 (-470/460)	75.0 (-495/670)	100.0 (-400/425)
+ANCOVA (Difference with Placebo)
+LS Mean	-	39.4	41.8	65.1
+95% CI	-	(1.1, 77.6)	(3.3, 80.4)	(26.4, 103.7)
+p-value	-	0.0437	0.0336	0.0010
+L109: ANCOVA=analysis of covariance; CI=confidence interval; LOCF=last post-baseline observation carried forward; LS=least squares; Max=maximum; OPC=opicapone
+L110: Note: Results are based on ANCOVA with treatment and region as factors and baseline ON-time without troublesome dyskinesia as a covariate.
+L111: Source: Reviewer
+L112: ## 3.3 Evaluation of Efficacy in Study 302
+L113: ## 3.3.1 Study Design and Endpoints
+L114: Study 302 includes a double-blind, randomized, placebo-controlled, parallel-group, multicenter study with 14-15 weeks DB period followed by a consecutive open-label (OL), non-controlled extension period for 1 year. The DB period of the study had 3 treatment arms: 2 different doses of OPC groups (25mg QD or 50mg QD) and a placebo. Eligible subjects after the screening period were randomized to arms using a 1:1:1 ratio. During the OL period, all subjects were treated with OPC (25mg QD, or 50mg QD) (see Figure 5). The study was conducted at 69 sites in 12 countries (Argentina, Australia, Belgium, Chile, Czech Republic, Estonia, India, Israel, South Korea, Russia, South Africa and UK). OPC was administered once a day orally with existing treatment of L-DOPA/DDCI. From V2 to V4 of the DB period, the investigator had the option to decrease the daily dose of L-DOPA/DDCI according to subject response. If judged necessary by the investigator, the dose could have been increased again up to the baseline dose level.
+L115: The primary efficacy variable is the change from baseline in absolute OFF-time at the end of the DB period (efficacy endpoint). Absolute OFF-time was calculated in minutes as the average over the 3 days preceding each visit of the total daily sum of 30-minute periods classified as OFF in the subject's diary. The key secondary variables are the proportion of OFF- and ON-time responders at the end of the DB period, change from baseline at the end of the DB period for UPDRS III (ON state) score, change from baseline at the end of the DB period of absolute total ON-time and change from baseline at the end of the DB period of percentage OFF-time. Absolute ON-time without troublesome dyskinesia (ON-time with non-troublesome dyskinesia + ON-time without dyskinesia) is also included in this report due to its clinical importance.
+L116: Figure 5. Overview of Study design in Study 302
+L117: BIA-9-1067=opicapone; D=Day; DDCI=dopa decarboxylase inhibitor; L-DOPA=levodopa; OL=open-label; PSV=Post study visit; SCR=screening; TEAE=treatment-emergent adverse event; V=Visit
+Source: Figure 1 on page 31 of Clinical Study Report (BIA-91067-302 DB).
+L118: ## 3.3.2 Statistical Methodologies
+L119: Power calculations were done for two different scenarios assuming 90- and 105-minute mean reductions in OFF-time for the OPC doses and 30 minutes for placebo. In order to demonstrate efficacy of OPC, at least one of the doses (25 mg or 50 mg) had to show the significant reduction in OFF-time. Assuming that the mean reductions in OFF-time were 90- and 105-minutes for the two OPC doses and 30 minutes for the placebo, a sample size of 135 subjects per treatment group in the FAS ensured a marginal power of more than 95% to confirm a treatment effect in the most efficacious group and a marginal power of about 85% to confirm a treatment effect in the less efficacious dose. Therefore, 405 subjects were to be randomized in order to have 135 subjects in each treatment group.
+L120: The primary analysis was performed using ANCOVA, with regards to the change from baseline in absolute OFF-time at the end of the DB period in the FAS population which was the same as intent-to-treat (ITT) population. The model included treatment group and pooled country (Belgium/UK/Israel, Estonia/Czech Republic/Russia, South Africa/Australia /South Korea, India or Argentina/Chile) as factors and baseline OFF-time as a covariate. A Dunnett's alpha level adjustment was used for the comparison of each active dose group with placebo. A two-sided significance level of 0.05 was used. If the primary variable at the endpoint was missing, it was replaced by the last available post-baseline observation.
+L121: Three different sensitivity analyses were performed on the primary efficacy variable to account for missing data and the impact of early discontinuations. The first sensitivity analysis used MMRM with treatment, time, pooled country and treatment by visit interaction as fixed effects and baseline OFF-time as a covariate. The second was to test the robustness of the results under the assumption of missing at random (MAR) that is made by the MMRM analysis. The last one was a repeat of the primary analysis but included awake time at the last post-baseline visit as a covariate.
+L122: ## Reviewer's Comment:
+L123: The reviewer recommends calling the last available value approach throughout the report instead of last observation carried forward (LOCF).
+L124: ## 3.3.3 Patient Disposition, Demographic and Baseline Characteristics
+L125: Of 427 subjects, 129 subjects were randomized to OPC 25mg, 154 subjects to OPC 50mg and 144 to the placebo. In the placebo-controlled period (Sponsor's DB), 51 subjects dropped out which is 11.9% of entire randomized subjects. A missing rate in OPC 50mg group was higher than other two groups and it was driven by the number of adverse events which indicates that the missing mechanism may be different between groups. Details of patient disposition are presented in Table 8.
+L126: The baseline demographic characteristics for FAS are presented in Table 9. In the FAS population, 52.6% of subjects were male in the placebo group, 65.6% male in the OPC 25mg group and 60.5% male in the OPC 50mg group. The average age of subjects was ranged between 61.5 and 65.5 years old. Majority of subjects were Caucasian and 20-30% were Asian. The average baseline weight, height and BMI were similar between groups with small variances.
+L127: **Table 10. Study Disposition in Study 302 – DB (Randomized sets)**
+L128: Statistic	OPC
+25mg/day
+(N = 129)	OPC
+50mg/day
+(N = 154)	Placebo
+(N = 144)	Total
+(N = 427)
+Number of Subjects Who Completed the Study	n (%)	118 (91.5%)	128 (83.1%)	130 (90.3%)	376 (88.1%)
+Number of Subjects Who Terminated the Study	n (%)	11 (8.5%)	26 (16.9%)	14 (9.7%)	51 (11.9%)
+Primary Reason for Premature Study Termination	
+Ineligibility	n (%)	0	0	1 (0.7%)	1 (0.2%)
+Lost To Follow Up	n (%)	0	0	1 (0.7%)	1 (0.2%)
+Adverse Event	n (%)	5 (3.9%)	17 (11.0%)	9 (6.3%)	31 (7.3%)
+Lack Of Efficacy	n (%)	3 (2.3%)	0	0	3 (0.7%)
+Non-Compliance	n (%)	0	3 (1.9%)	0	3 (0.7%)
+Protocol Violation	n (%)	0	1 (0.6%)	0	1 (0.2%)
+Withdrawal Of Consent	n (%)	3 (2.3%)	2 (1.3%)	1 (0.7%)	6 (1.4%)
+Other	n (%)	0	3 (1.9%)	2 (1.4%)	5 (1.2%)
+L129: Note: Percentages are based on the number of subjects in the randomized set.
+L130: Source: Table 14.1.1 on page 161 of Clinical Study Report.
+L131: **Table 11. Baseline Demographic Characteristics in Study 302 (FAS)**
+L132: Placebo
+N = 135	OPC 25 mg
+N = 125	OPC 50 mg
+N = 147
+Age, years	
+Mean (SD)	61.5 (8.87)	62.5 (8.50)	65.5 (8.41)
+Min/Max	36/81	43/82	44/83
+Age, n (%)	
+<70 years	107 (79.3%)	96 (76.8%)	96 (65.3%)
+≥70 years	28 (20.7%)	29 (23.2%)	51 (34.7%)
+Gender, n (%)	
+Male	71 (52.6%)	82 (65.6%)	89 (60.5%)
+Female	64 (47.4%)	43 (34.4%)	58 (39.5%)
+Race, n (%)	
+White	89 (65.9%)	90 (72.0%)	115 (78.2%)
+Asian	42 (31.1%)	29 (23.2%)	31 (21.1%)
+American Indian/Alaska Native	0	0	0
+Black or African American	0	0	0
+Native Hawaiian/Pacific Islander	0	0	0
+Other	3 (2.2%)	6 (4.8%)	1 (0.7%)
+Weight, kg	
+Mean (SD)	72.12 (16.989)	75.35 (16.794)	71.61 (15.100)
+Min/Max	39.4/133.8	44.5/147.6	41.0/118.0
+Height, m	
+Mean (SD)	1.65 (0.103)*	1.67 (0.102)	1.66 (0.101)
+Min/Max	1.4/1.9*	1.4/2.0	1.4/1.9
+BMI, kg/m2	
+Mean (SD)	26.45 (5.175)*	26.79 (4.903)	25.79 (4.342)
+Min/Max	15.6/49.2*	17.1/52.8	15.8/37.9
+L133: BMI = body mass index; FAS = Full Analysis Set; Max = maximum; Min = minimum; OPC = opicapone; SD = standard deviation.
+L134: *N=134
+L135: Source: Table 6 on page 92 of Clinical Study Report.
+L136: At baseline, the average time from PD diagnosis for each group was 8.5, 8.2 and 7.7 years in OPC 25mg, OPC 50mg and placebo group, respectively. The average OFF-time was ranged from 6.1 to 6.3 hours and the percentage of OFF-time in total awake time was approximately 38% across groups. The average time of total ON-time with troublesome or non-troublesome dyskinesia were similar between group with small variances. Details of baseline PD characteristics in FAS population are shown in Table 10.
+L137: **Table 12: Baseline Parkinson's Disease Characteristics in Study 302 (FAS)**
+L138: Parameter	Placebo
+N = 135	OPC 25 mg
+N = 125	OPC 50 mg
+N = 147
+Time since PD diagnosis, years
+Mean (SD)	7.73 (3.685)	8.54 (4.417)	8.20 (4.543)
+Time since start of motor fluctuations, years*
+Mean (SD)	3.02 (2.338)	3.22 (2.752)	3.21 (3.255)
+OFF-time
+Absolute time, hours
+Mean (SD)	6.12 (2.33)	6.21 (2.24)	6.32 (2.22)
+Percentage of Total Awake Time, %
+Mean (SD)	37.5 (13.82)	38.8 (13.24)	38.9 (12.81)
+ON-time without or with non-troublesome dyskinesia
+Absolute time, hours
+Mean (SD)	9.61 (2.40)	9.20 (2.32)	9.37 (2.22)
+Percentage of Total Awake Time, %
+Mean (SD)	59.0 (14.48)	57.4 (12.91)	57.9 (12.99)
+ON-time with troublesome dyskinesia
+Absolute time, hours
+Mean (SD)	0.57 (1.40)	0.58 (1.25)	0.53 (1.21)
+Percentage of Total Awake Time, %
+Mean (SD)	3.5 (8.69)	3.8 (8.53)	3.2 (7.14)
+Total UPDRS (Part I, II [ON] and III)
+Mean (SD)	31.5 (17.00)	30.8 (16.88)	31.7 (17.55)
+UPDRS Part II (OFF)**
+Mean (SD)	17.4 (7.08)	17.1 (6.75)	17.3 (7.49)
+UPDRS Part III (ON)
+Mean (SD)	22.5 (11.96)	21.5 (11.95)	22.5 (12.26)
+Modified Hoehn and Yahr (ON)
+Mean (SD)	2.4 (0.61)	2.3 (0.67)	2.4 (0.53)
+Schwab and England ADL (ON)
+Mean (SD)	83.1 (11.62)	84.7 (10.05)	82.8 (11.57)
+Incidence of Dyskinesia (UPDRS item 32)
+n (%)	72 (53.3%)	65 (52.0%)	80 (54.4%)
+L139: ADL = activities of daily living; FAS = Full Analysis Set; OPC = opicapone; PD = Parkinson's Disease; SD = standard deviation; UPDRS = United Parkinson's Disease Rating Scale.
+L140: *N=110, 131 and 123 for OPC 25 mg, 50 mg and placebo, respectively
+L141: **N=124, 143 and 133 for OPC 25 mg, 50 mg and placebo, respectively
+L142: Source: Table 7 on page 94 of Clinical Study Report.
+L143: ## **Reviewer's Comment:**
+L144: The overall observed missing/drop-out rate was 11.9%. Besides, the missing rate in OPC 50mg group is 16.9% which is much higher than other two groups, and the primary reason for drop-out was adverse event which indicates the missing for each group may not occur randomly. Hence, the reviewer performed further sensitivity analyses in addition to ones that the sponsor provided and results are presented in Table 12.
+L145: ## 3.3.4 Results and Conclusions
+L146: ## 3.3.4.1 Primary Efficacy Endpoint
+L147: ## **Sponsor's Report**
+L148: The results of primary analyses are summarized in Table 11. In the analysis covariance, the LS mean change in absolute OFF-time at visit 7 from baseline was -64.46 (SE=14.35) for placebo, -101.67 (SE=14.86) for OPC 25mg and -118.77 (SE=13.81) for OPC 50mg. A Dunnett's alpha level adjustment was used for the comparison of each active group with placebo. The difference was -37.21 (SE=19.64, adjusted p-value=0.1061) between OPC 25mg and placebo, and -54.31 (SE=18.86, adjusted p-value=0.0081) between OPC 50mg and placebo. Based on adjusted p-values, the difference from placebo was statistically significant for OPC 50mg but did not reach statistical significance for OPC 25mg.
+L149: **Table 13. Change from Baseline in Absolute OFF-time (minutes) at Visit 7 in Study 302 (DB, LOCF, FAS)**
+L150: Placebo
+N = 135	OPC 25 mg
+N = 125	OPC 50 mg
+N = 147
+Summary Statistics
+Mean (SD)	-64.5 (155.35)	-102.8 (159.42)	-124.0 (178.23)
+ANCOVA Analysis
+LS Mean (SE)	-64.46 (14.35)	-101.67 (14.86)	-118.77 (13.81)
+Difference in LS Mean (SE) with Placebo	-37.21 (19.64)	-54.31 (18.86)
+95% CI for Difference with Placebo	(-80.82, 6.40)	(-96.18, -12.44)
+Adjusted P-value for pairwise comparison with Placebo	0.1061	0.0081
+L151: ANCOVA = analysis of covariance; CI = confidence interval; FAS = Full Analysis Set; LOCF = last post-baseline observation carried forward; LS = least square; OPC = opicapone; SD = standard deviation; SE = standard error.
+L152: Note: Statistical analysis is based on an ANCOVA model with treatment group and pooled country as factors and baseline OFF-time as a covariate. Dunnett's alpha level adjustment is used for the comparison of each active dose group with placebo.
+L153: Source: Table 14 on page 103 of Clinical Study Report
+L154: ## **Reviewer's Report**
+L155: The reviewer verified results of the primary efficacy endpoint in Table 11. Since 33 subjects (9 placebo, 8 OPC 25mg, 16 OPC 50mg) in FAS were lost to follow up with no information measured for the primary efficacy assessment at visit 7, sensitivity analyses on LOCF approach were performed and results are presented in Table 12.
+L156: Figure 6 displays the density curves of changes in absolute OFF-time at the endpoint from baseline in PD patients by treatment arm. It also displays the proportion of subjects who were either lost to follow up or missed primary efficacy assessment. The treatment response distribution shows that the density of OPC 50mg tends to be higher in the range below -200 minutes and lower in positive portion than the placebo group. This supports a greater treatment effect of OPC 50mg compared to the placebo. Also, the density curve of OPC 25mg tends to be skewed to the left compared to the placebo although the difference is not remarkable. The missing of primary efficacy assessment occurred in both investigational drug and placebo, and the OPC 50mg group had higher missing rate of primary efficacy assessment than the rest.
+L157: **Figure 6. Distribution of Changes in Absolute OFF-time and missing rates by Treatment Arm in Study 302 (FAS-DB)**
+L158: Source: Reviewer
+L159: Figure 7 displays the absolute OFF-time over time with means and 95% confidence intervals at each visit using observed case only by the treatment arm. All arms including placebo show a trend of decreasing over time, and the slope of OPC 50mg and placebo shows a discernable gap toward the endpoint (V7) which indicates greater improvement in OPC 50mg than the placebo. Although the magnitude of difference between OPC 25mg and placebo was not as large, the OPC 25mg also shows improvement compared to the placebo. The definition of FAS is identical to that of ITT population, the reviewer did not repeat primary analysis in ITT population.
+L160: **Figure 7. Trend of Absolute OFF-time over time by Treatment Arm in Study 302 (Observed case)**
+L161: Source: Reviewer
+L162: ## 3.3.4.1.1 Sensitivity Analysis
+L163: ## Sponsor's Report
+L164: Three different sensitivity analyses were performed on the primary efficacy variable to account for missing data and impact of early discontinuations. The first analysis was performed on observed case data using a MMRM. The second was to test the robustness of the results under the assumption of missing at random (MAR) that is made by the MMRM analysis. The third sensitivity analysis was a repetition of the primary analysis but included awake time at the last post-baseline visit as a covariate. Table 12 shows the sensitivity analysis results regarding comparison between OPC 50mg and placebo only, performed by the sponsor and reviewer side by side. Both results show similar treatment effects with the same direction and maintained a statistical significance.
+L165: **Table 14. Sensitivity analysis on LOCF approach in double-blind period of Study 302**
+L166: OPC 50mg vs. Placebo
+Analysis method
+Analysis set	Sponsor	Reviewer	p-value
+LS Mean Diff
+(95% CI)	p-value	LS Mean Diff
+(95% CI)	p-value
+ANCOVA
+FAS, LOCF †	-54.3 (-96.2, -12.4)	0.0081	-54.3 (-96.2, -12.4)	0.0081	
+PPS, LOCF †	-60.6 (-105.9, -15.3)	0.0062	-60.6 (-105.9, -15.3)	0.0062	
+FAS, MI	-53.3 (-91.4, -15.2)	0.0061	-52.9 (-90.9, -14.9)	0.0063	
+FAS, MI, Wake time	-52.1 (-93.3, -10.8)	0.0102	-52.3 (-89.9, -14.7)	0.0064	
+FAS, MI, adjusted to a
+16-hr waking day	-51.8 (-88.6, -15.0)	0.0058	-52.5 (-89.2, -15.8)	0.0051	
+MMRM
+FAS, Observed Case	-58.6 (-97.1, -20.0)	0.003	-58.5 (-97.2, -19.8)	0.0031	
+FAS, Observed Case, adjusted
+for standardized to a 16-hour
+waking day	-58.2 (-95.3, -21.0)	0.002	-58.4 (-95.4, -21.4)	0.0021
+L167: †Dunnett's alpha level adjustment is used for the comparison of each active dose group with placebo.
+L168: Source: Sponsor (Table 14.2.3.1, Table 14.2.4.1, Table 14.2.4.2, Table 14.2.4.3, Table 14.2.5.1, Table 14.2.5.2, Table 14.2.5.3.1.1 of Clinical Study Report) and the reviewer
+L169: ## Reviewer's Report
+L170: Results in Table 12 show the minor impact of missing values in this study. In both FAS and PPS population, ANCOVA with LOCF approach and MMRM using observed cases yielded similar results and both were statistically significant. Sensitivity analyses using multiple imputation approach showed small differences from what the sponsor provided, and these differences are in acceptable ranges when considering randomness from imputation procedure.
+L171: ## 3.3.4.2 Key Secondary Efficacy endpoints
+L172: ## Proportion of OFF- and ON-time responders
+L173: An OFF-time responder was defined as a subject who had a reduction of at least 1 hour in absolute OFF-time from baseline to endpoint, and an ON-time responder was defined as a subject who had an increase of at least 1 hour in absolute total ON-time. Table 15 shows a summary of the number and proportion of responders and analysis results using Cochran-Mantel-Haenszel test with pooled country as the stratification factor. OFF-time responder rates in OPC 50mg was higher (66.0%) compared to the placebo (50.4%) and ON-time responder rates in OPC 50mg was also higher (61.9%) compared to the placebo (45.2%). The reviewer verified the results.
+L174: **Table 15. OFF- and ON-time Responders at Visit 7 in Study 302 – LOCF (FAS)**
+L175: Placebo
+N = 135	OPC 25 mg
+N = 125	OPC 50 mg
+N = 147
+OFF-time Responders
+n (%)	68 (50.4%)	78 (62.4%)	97 (66.0%)
+Odds Ratio (95%CI)	1.68 (1.02, 2.76)	1.91 (1.17, 3.09)
+P-value	0.0405	0.0088
+ON-time Responders
+n (%)	61 (45.2%)	79 (63.2%)	91 (61.9%)
+Odds Ratio (95%CI)	2.07 (1.26, 3.41)	1.97 (1.21, 3.20)
+P-value	0.0040	0.0061
+L176: CI = confidence interval; FAS = Full Analysis Set; LOCF = last post-baseline observation carried forward; OPC = opicapone.
+L177: Source: Table 16 on page 105 of Clinical Study Report
+L178: ## Absolute ON-time without troublesome dyskinesia
+L179: The results are summarized in Table 16. In the analysis covariance, the differences of LS mean change in absolute ON-time without troublesome dyskinesia compared to the placebo was 37.4 in OPC 50mg, 35.9 in OPC 25mg.
+L180: **Table 16. Absolute ON-time without troublesome dyskinesia (minutes) in Study 302 – Change from baseline to Endpoint - LOCF (FAS)**
+L181: Parameter	Placebo
+(N=135)	OPC 25 mg
+(N=125)	OPC 50 mg
+(N=147)
+Summary Statistics	
+Mean (SD)	49.8 (164.8)	95.3 (177.1)	94.3 (187.7)
+ANCOVA	
+LS Mean (SE)	48.2 (15.4)	84.1 (15.9)	85.6 (14.8)
+Difference in LS Mean with placebo (SE)	-	35.95 (21.13)	37.42 (20.23)
+95% CI for difference with placebo	-	(-5.59, 77.48)	(-2.35, 77.20)
+P-value for pairwise comparison with placebo	-	0.0897	0.0651
+L182: ANCOVA=analysis of covariance, CI=confidence interval, FAS=full analysis set, LOCF=last post-baseline observation carried forward, LS=least square, OPC=opicapone, SD=standard deviation, SE=standard error
+L183: Source: Reviewer
+L184: ## 3.4 Evaluation of Safety
+L185: This review does not evaluate safety. Please refer to the clinical review for an evaluation of safety.
+L186: ## 4 FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L187: This section contains the results of this reviewer's subgroup analyses. Each subgroup analysis was conducted by running the primary ANCOVA, focusing on comparisons between OPC 50mg vs. placebo for the FAS population in DB period.
+L188: ## 4.1 Gender, Age, Race and Geographic Region in Study 301
+L189: For all subgroup analyses, the FAS was used to test superiority for the OPC 50mg vs. placebo. Since all subjects in the FAS were Caucasian, a subgroup analysis for race was not conducted.
+L190: **Geographic Region:** For the superiority test, all regions show a similar pattern of OPC treatment effect compared to the placebo except for Southern Europe which shows the greatest effect with OPC 5mg and no beneficial effect with OPC 25mg compared to the placebo. In Southern Europe, there was a stronger placebo response than other regions. The rest shows a consistent pattern with the primary efficacy analysis results.
+L191: **Age:** The reviewer categorized an age into two groups, &lt;65 and ≥65 years old, which is close to the median value. With this category, OPC 50mg was also superior to the placebo in both age groups.
+L192: **Gender:** Both male and female show similar patterns in superiority, and the magnitudes of treatment effects were higher in female than male.
+L193: ## 4.2 Gender, Age, Race and Geographic Region in Study 302
+L194: All subgroup analyses show a similar treatment effect of OPC compared to the placebo.
+L195: **Geographic Region:** India shows a greater treatment effect of OPC 25mg than OPC 50mg compared to the placebo while the primary efficacy analysis results support that OPC 50mg is the more effective than 25mg. Other regions show a consistent pattern with the primary efficacy results.
+L196: **Age:** The reviewer considered 65 years old as a cut-off for age category. With this category, younger subjects show a slightly greater treatment effect with OPC 25mg than OPC 50mg, and elderly subjects show a greater treatment effect with OPC 50mg than OPC 25mg.
+L197: **Race:** The majority of subjects in this study were White and about 28% of FAS population was either Asian or other races. All race groups show the greatest treatment effect of OPC 50mg.
+L198: **Gender:** In female, the treatment effects of OPC 25mg and 50mg were similar. On the other hand, male shows a greater effect of OPC 50mg and the magnitude of effect was larger than one from female.
+L199: Table 17: Subgroup Analysis for Study 301– Absolute OFF-time (minutes) and Change from Baseline to Visit 7 - ANCOVA (FAS - DB, LOCF)
+L200: Subgroup	Treatment Arm	Sample Size	Baseline Mean (SD)	LS Mean Diff. from Baseline (SE)	LS Mean Diff. from Placebo (95% CI)
+Region	North Eastern Europe	OPC 50mg	38	366.1 (119.0)	-108.6 (23.0)	-41.5 (-104.9, 21.9)
+OPC 25mg	37	447.2 (120.0)	-101.5 (23.5)	-34.4 (-98.8, 30.0)
+OPC 5mg	40	388 (135.6)	-87.2 (22.4)	-20.2 (-82.9, 42.5)
+Placebo	39	359.4 (133.1)	-67.1 (22.7)	--
+Russia/Ukraine	OPC 50mg	23	386.5 (83.5)	-92.6 (29.5)	-65.7 (-148.7, 17.3)
+OPC 25mg	21	433.1 (97.7)	-55.5 (31.0)	-28.6 (-113.6, 56.4)
+OPC 5mg	23	418.5 (88.3)	-52.9 (29.6)	-26.0 (-109.1, 57.0)
+Placebo	22	386.1 (71.7)	-26.9 (30.2)	--
+South Eastern Europe	OPC 50mg	33	367.6 (107.8)	-116.3 (24.7)	-73.9 (-142.5, -5.4)
+OPC 25mg	33	407.6 (137.2)	-77.0 (24.7)	-34.6 (-103.2, 33.9)
+OPC 5mg	30	392.7 (118.2)	-70.4 (25.9)	-28.1 (-98.3, 42.1)
+Placebo	33	388.3 (123.7)	-42.3 (24.7)	--
+Southern Europe	OPC 50mg	18	375.0 (112.6)	-146.2 (33.4)	-25.8 (-121.4, 69.9)
+OPC 25mg	18	325.8 (146.8)	-94.8 (33.5)	25.6 (-70.0, 121.3)
+OPC 5mg	18	436.4 (150.6)	-186.6 (33.5)	-66.1 (-162.1, 30.0)
+Placebo	16	343.1 (106.5)	-120.5 (35.5)	--
+Age	Western Europe	OPC 50mg	3	373.3 (127.0)	-140.3 (81.8)	-154.9 (-338, 28.3)
+OPC 25mg	7	391.4 (154.1)	-89.5 (53.5)	-104.1 (-241.2, 33.1)
+OPC 5mg	8	400.0 (176.9)	-59.3 (50.1)	-73.9 (-205.9, 58.2)
+Placebo	10	359.0 (88.7)	14.5 (44.8)	--
+< 65 years old	OPC 50mg	58	369.0 (103.5)	-100.6 (19.1)	-56.3 (-107.7, -4.8)
+OPC 25mg	58	404.7 (124.1)	-76.6 (19.3)	-32.3 (-83.9, 19.3)
+OPC 5mg	65	426.8 (133.8)	-94.9 (18.1)	-50.6 (-101.1, -0.2)
+Placebo	59	365.6 (98.5)	-44.3 (19.1)	--
+≥ 65 years old	OPC 50mg	57	375.4 (111.2)	-133.0 (19.4)	-66.0 (-117.6, -14.4)
+OPC 25mg	58	417.7 (140.8)	-95.2 (18.9)	-28.3 (-79.6, 23.1)
+OPC 5mg	54	374.8 (115.9)	-86.5 (19.7)	-19.6 (-71.7, 32.5)
+Placebo	61	374.3 (114.8)	-66.9 (18.3)	--
+Gender	Male	OPC 50mg	69	361.1 (98.2)	-102.9 (17.6)	-41.4 (-88.7, 5.8)
+OPC 25mg	65	412.9 (132.0)	-65.7 (18.2)	-4.3 (-52.4, 43.8)
+OPC 5mg	68	404.0 (133.7)	-97.5 (17.5)	-36.1 (-83.6, 11.3)
+Placebo	70	373.1 (97.9)	-61.4 (17.3)	--
+Female	OPC 50mg	46	388.8 (118.1)	-136.3 (21.4)	-88.9 (-145.8, -32.0)
+OPC 25mg	51	408.9 (133.9)	-110.7 (20.0)	-63.2 (-118.7, -7.8)
+OPC 5mg	51	402.1 (121.6)	-81.8 (20.1)	-34.4 (-89.8, 21.0)
+Placebo	50	365.8 (118.8)	-47.4 (20.3)	--
+UPDRS V	< 2.5	OPC 50mg	43	361.4 (110.6)	-102.7 (22.3)	-73.2 (-130.6, -15.7)
+OPC 25mg	48	410.7 (140.5)	-95.7 (20.8)	-66.2 (-122.0, -10.3)
+OPC 5mg	42	433.0 (137.0)	-90.5 (22.2)	-60.9 (-119.1, -2.8)
+Placebo	53	344.7 (96.5)	-29.6 (19.8)	--
+≥ 2.5	OPC 50mg	72	378.6 (105.0)	-126.3 (17.3)	-48.6 (-95.9, -1.4)
+OPC 25mg	68	411.5 (127.3)	-80.4 (17.8)	-2.7 (-50.6, 45.2)
+OPC 5mg	77	386.9 (120.8)	-92.7 (16.7)	-15.0 (-61.5, 31.5)
+Placebo	67	390.1 (110.8)	-77.7 (18.0)	--
+L201: †: Analysis results using PPS population.
+L202: * Note: Statistical analysis is based on an ANCOVA model with treatment group, pooled country, subgroup and treatment by subgroup as fixed factors and baseline OFF-time as a covariate.
+L203: Source: Reviewer.
+L204: Table 18: Subgroup Analysis for Study 302– Absolute OFF-time (minutes) and Change from Baseline to Visit 7 - ANCOVA (FAS - DB, LOCF)
+L205: Subgroup	Treatment Arm	Sample Size	Baseline Mean (SD)	LS Mean Diff. from Baseline (SE)	LS Mean Diff. from Placebo (95% CI)
+Region	Argentina/Chile	OPC 50mg	48	370.7 (126.4)	-147.2 (23.0)	-56.5 (-121.5, 8.5)
+OPC 25mg	36	364.9 (135.6)	-132.6 (26.5)	-41.9 (-111.9, 28.1)
+Placebo	45	356.1 (121.9)	-90.7 (23.8)	--
+Belgium/UK/Israel	OPC 50mg	20	333.0 (132.9)	-147.7 (35.7)	-66.6 (-175.7, 42.5)
+OPC 25mg	16	350.3 (148.4)	-118.9 (39.8)	-37.7 (-152.3, 76.8)
+Placebo	14	352.1 (94.6)	-81.1 (42.6)	--
+Estonia/Russia/Czech Republic	OPC 50mg	20	427.0 (167.8)	-75.4 (35.7)	-17.2 (-117.5, 83.1)
+OPC 25mg	14	418.9 (153.0)	-77.5 (42.6)	-19.3 (-129.5, 91.0)
+Placebo	19	408.2 (180.8)	-58.2 (36.6)	--
+India	OPC 50mg	11	253.2 (93.8)	-76.8 (48.5)	-10.4 (-138.7, 117.8)
+OPC 25mg	12	339.6 (143.6)	-108.8 (46.0)	-42.4 (-168.0, 83.2)
+Placebo	13	264.6 (121.6)	-66.4 (44.6)	--
+Age	< 65 years old	South Africa/ Australia/ South Korea	48	415.9 (109.2)	-115.3 (23.1)	-74.2 (-139.6, -8.8)
+OPC 50mg	47	380.3 (121.6)	-81.2 (23.2)	-40.1 (-105.8, 25.6)
+OPC 25mg	44	396.5 (141.3)	-41.1 (24.0)	--
+OPC 50mg	65	383.8 (127.8)	-107.8 (20)	-44.0 (-95.5, 7.5)
+OPC 25mg	75	378.5 (113.5)	-117.6 (19.2)	-53.8 (-103.2, -4.4)
+Placebo	84	369.5 (144.8)	-63.8 (18.0)	--
+≥ 65 years old	OPC 50mg	82	375.5 (138.5)	-129.0 (18.3)	-61.2 (-116.8, -5.5)
+OPC 25mg	50	363.4 (161.7)	-79.9 (22.6)	-12.0 (-74.2, 50.1)
+Placebo	51	363.9 (131.8)	-67.8 (22.5)	--
+OPC 50mg	115	389.3 (138.5)	-113.2 (16.6)	-49.8 (-94.0, -5.6)
+OPC 25mg	90	369.1 (139.7)	-97.2 (18.2)	-33.8 (-80.8, 13.3)
+Placebo	89	381.6 (145.5)	-63.4 (18.9)	--
+Race	White	OPC 50mg	32	343.0 (107.6)	-135.3 (31.3)	-69.1 (-141.4, 3.1)
+OPC 25mg	35	381.0 (121.3)	-112.7 (29.7)	-46.5 (-117.1, 24.1)
+Placebo	45	339.4 (125.6)	-66.2 (26.6)	--
+Asian/Others	OPC 50mg	89	381.6 (135.0)	-121.9 (17.4)	-76.3 (-125.9, -26.6)
+OPC 25mg	82	356.4 (138.9)	-95.1 (18.0)	-49.4 (-100.0, 1.2)
+Placebo	71	369.7 (150.4)	-45.7 (19.1)	--
+Gender	Male	OPC 50mg	58	375.6 (132.2)	-116.0 (21.3)	-29.0 (-85.5, 27.5)
+OPC 25mg	43	403.0 (121.2)	-116.3 (24.9)	-29.3 (-90.8, 32.2)
+Placebo	64	364.8 (127.7)	-87.0 (20.6)	--
+Female	OPC 50mg	58	375.6 (132.2)	-116.0 (21.3)	-29.0 (-85.5, 27.5)
+OPC 25mg	43	403.0 (121.2)	-116.3 (24.9)	-29.3 (-90.8, 32.2)
+Placebo	64	364.8 (127.7)	-87.0 (20.6)	--
+L206: *Note: Statistical analysis is based on an ANCOVA model with treatment group, pooled country, subgroup and treatment by subgroup as fixed factors and baseline OFF-time as a covariate.
+Source: Reviewer.
+L207: ## 5 SUMMARY AND CONCLUSIONS
+L208: ## 5.1 Statistical Issues
+L209: No statistical issues affected the primary and key secondary endpoints.
+L210: ## 5.2 Collective Evidence
+L211: Study 301 and Study 302 provided statistically significant evidence in superiority of OPC 50 mg vs. placebo as measured by change from baseline in absolute OFF-time at the end of the DB period. The OPC 5mg and 25mg showed numerical improvement in absolute OFF-time, however, it did not reach a statistical significance.
+L212: ## 5.3 Conclusions and Recommendations
+L213: There is adequate evidence to significant treatment effect of the OPC 50mg measured by absolute OFF-time. While the 5mg and 25mg of OPC did not have adequate statistical information in support of efficacy, wearing-off phenomenon was moderately improved at the 5mg and 25mg doses.
+L214: This is a representation of an electronic record that was signed electronically. Following this are manifestations of any and all electronic signatures for this electronic record.
+L215: /s/
+L216: MINJEONG PARK
+02/21/2020 09:38:42 AM
+L217: KUN JIN
+02/21/2020 12:04:33 PM
+I concur with the review.
+L218: HSIEN MING J HUNG
+02/21/2020 12:10:38 PM
+L219: Figure 1 is a timeline diagram illustrating the study design for Study 301, divided into four periods: Screening Period, Double-blind Period, Open-label extension Period, and Follow-up Period. The timeline shows visits (V1 to V14) and the corresponding days relative to the start of the double-blind treatment (V2, Day 0).
+Screening Period: Includes a Screening visit (V1, Day -7 to -14±2) and a Stable L-Dopa regimen period.
+Double-blind Period: Starts at V2 (Day 0, Randomisation/Start of double-blind treatment). Treatments include Opicapone: 5 mg, Opicapone: 25 mg, Opicapone: 50 mg, Entacapone: 200 mg, and Placebo. The period includes an adjustment phase (Adjust L-Dopa/DDCI at Investigator's discretion) and a Stable L-Dopa regimen phase.
+Open-label extension Period: Starts at V7 (Day 7±1 from V2). Treatments include Opicapone: 25 mg. The period includes an adjustment phase (Adjust L-Dopa/DDCI at Investigator's discretion) and a Stable L-Dopa regimen phase. A note indicates: "Up-titration to 50 mg opicapone if the 'wearing-off' is not sufficiently controlled. If unacceptable dopaminergic AEs appear, the L-DOPA/DDCI dose should be adjusted first and only then; if not sufficient, the opicapone dose can be down titrated".
+Follow-up Period: Starts at V14 (Day 365±5 from V7, EOS or EDV). Treatments include Opicapone and L-DOPA/DDCI dose should be stable.
+The timeline shows the following visit days (Day from V2): V3 (7±1), V4 (14 or 21±3), V5 (28±3), V6 (56±3), V7 (84±3), V8 (7±1), V9 (28±3), V10 (56±3), V11 (112±5), V12 (210±5), V13 (322±5), V14 (365±5), and PSV (14±3).
+L220: Diagram illustrating the stepwise gatekeeping procedure. The upper row shows three hypotheses (H_{01}, H_{02}, H_{03}) for Opicapone vs. Placebo, each associated with a significance level of \alpha/3. The lower row shows three hypotheses (H_{04}, H_{05}, H_{06}) for Opicapone vs. Entacapone, each associated with a significance level of 0. Arrows indicate dependencies between the hypotheses. The connections are labeled with probabilities (1 or 1/2).
+H_{01} connects to H_{04} (1), H_{05} (1/2), and H_{06} (1/2).
+H_{02} connects to H_{04} (1/2), H_{05} (1), and H_{06} (1/2).
+H_{03} connects to H_{04} (1/2), H_{05} (1/2), and H_{06} (1).
+L221: Figure 3 displays two plots related to the distribution of changes in Absolute OFF-time and missing rates by Treatment Arm in Study 301 (FAS-DB).
+The left plot is a density plot showing the distribution of the Difference in Absolute OFF-time (minute) across four treatment arms: Placebo (red), OPC 5mg (green), OPC 25mg (teal), and OPC 50mg (purple). The density axis ranges from 0.000 to 0.004. The x-axis ranges from -500 to 500 minutes. All arms show a distribution centered around 0 minutes, indicating minimal change in absolute OFF-time. The OPC 50mg arm shows the highest density near 0 minutes.
+The right plot is a bar chart showing the Percent of Subjects (%) missing across the four treatment arms. The missing rate is highest for the OPC 5mg arm (approximately 4.5%), followed by OPC 25mg (approximately 2.8%), OPC 50mg (approximately 3.5%), and Placebo (approximately 2.5%).
+L222: Figure 4 is a line graph showing the trend of Absolute OFF-time (minute) over time (Visit) for four treatment arms: Placebo (red triangle), OPC 5mg (green square), OPC 25mg (blue circle), and OPC 50mg (purple diamond). The y-axis ranges from 200 to 450 minutes, and the x-axis shows visits from Baseline to V7. All arms show a decreasing trend in Absolute OFF-time over time. The OPC 50mg group shows the steepest decrease, starting highest (around 400 minutes) and ending lowest (around 270 minutes). The Placebo group starts around 370 minutes and ends around 300 minutes. OPC 5mg and OPC 25mg groups show intermediate trends.
+L223: Timeline diagram illustrating the study design in Study 302, spanning from Screening Period (SCR Visit) through Follow-up Period (PSV).
+The timeline is divided into four main periods:
+Screening Period: Includes SCR Visit (Week -2 to -1).
+Double-blind Period: Includes Visits V1, V2, V3, V4, V5, V6, V7, V8, V9, V10, V11, V12, V13, V14.
+Open-label extension Period: Includes Visits OL 1, OL 4, OL 8, OL 16, OL 30, OL 46, OL 52.
+Follow-up Period: Includes PSV (post-treatment).
+Treatment Arms (Randomization): BIA-9-1067: 25 mg, BIA-9-1067: 50 mg, Placebo.
+Adjustment Protocol:
+SCR Visit leads to Stable L-DOPA regimen.
+Stable L-DOPA regimen leads to Adjust L-DOPA/DDCI at Investigator's discretion (following V2).
+Adjust L-DOPA/DDCI at Investigator's discretion leads to Stable L-DOPA regimen (following V4).
+Stable L-DOPA regimen leads to Adjust L-DOPA/DDCI at Investigator's discretion (following V14).
+Open-label extension Period Treatment: BIA-9-1067: 25 mg.
+Open-label extension Period Adjustment Protocol: Up-titration to 50 mg opicapone if the "wearing-off" is not sufficiently controlled. If unacceptable dopaminergic TEAEs appear, the L-DOPA dose should be adjusted first and only then; if not sufficient, the BIA-9-1067 dose can be down titrated.
+Follow-up Period Treatment: Opicapone and L-DOPA/DDCI dose should be stable.
+L224: Figure 6 displays two plots related to the distribution of changes in Absolute OFF-time and missing rates by Treatment Arm in Study 302 (FAS-DB).
+The left plot is a density plot showing the distribution of the Difference in Absolute OFF-time (minute) for four treatment arms: Placebo (Red), OPC 25mg (Green), and OPC 50mg (Blue). The density axis ranges from 0.000 to 0.003. The x-axis ranges from -800 to 400 minutes. All arms show a distribution centered around 0 minutes, indicating minimal change in absolute OFF-time compared to baseline. OPC 50mg shows the highest density near 0 minutes.
+The right plot is a bar chart showing the Percent of Subjects (%) missing for each treatment arm. The y-axis ranges from 0 to 10%. The missing rate for Placebo is approximately 7%, for OPC 25mg is approximately 7.5%, and for OPC 50mg is approximately 10.5%.
+L225: Figure 7 is a line graph showing the Trend of Absolute OFF-time (minute) over time (Visit) by Treatment Arm in Study 302 (Observed case). The y-axis represents Absolute OFF-time (minute), ranging from 200 to 450. The x-axis represents Visit, including Baseline, V3, V4, V5, V6, and V7.
+The graph displays means and 95% confidence intervals for three treatment arms: Placebo (Red line with triangles), OPC 25mg (Green line with circles), and OPC 50mg (Blue line with diamonds).
+At Baseline, all arms show high absolute OFF-time (around 380-400 minutes). Over time, all arms show a decreasing trend in absolute OFF-time. OPC 50mg consistently shows the lowest absolute OFF-time, followed by OPC 25mg, and then Placebo. The gap between OPC 50mg and Placebo widens significantly by Visit V7, where OPC 50mg is approximately 250 minutes, Placebo is approximately 300 minutes, and OPC 25mg is approximately 270 minutes.

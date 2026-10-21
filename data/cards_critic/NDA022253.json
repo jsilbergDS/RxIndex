@@ -1,0 +1,72 @@
+{
+  "app": "NDA022253",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flags (0.14, 400, 0.003, 600): all are present in the citation quote 'DoseNP-value vs Pbo200 mg/day107-14.8%0.14400 mg/day...600 mg/day105-21.5%0.026' as unspaced digit runs."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flags (0.011, 600): both appear in the citation quote '400 mg/day201-21.2%0.011600 mg/day97-24.8%0.009'."
+    },
+    {
+      "field": "pivotal_trials[2].result",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flags (0.05, 400): both appear in the citation quote '200 mg/day160-13.6%0.05400 mg/day158-27.3%0.027'."
+    },
+    {
+      "field": "modality",
+      "severity": "low",
+      "issue": "Value 'small molecule' is correct for lacosamide but its citation only describes a film-coated tablet formulation and does not explicitly characterize modality."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.14",
+        "text": "Median percent reduction in seizure frequency vs placebo: 200 mg/day -14.8% (p=0"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "400",
+        "text": "Median percent reduction in seizure frequency vs placebo: 200 mg/day -14.8% (p=0"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.003",
+        "text": "Median percent reduction in seizure frequency vs placebo: 200 mg/day -14.8% (p=0"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "600",
+        "text": "Median percent reduction in seizure frequency vs placebo: 200 mg/day -14.8% (p=0"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.011",
+        "text": "Median percent reduction in seizure frequency vs placebo: 400 mg/day -21.2% (p=0"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "600",
+        "text": "Median percent reduction in seizure frequency vs placebo: 400 mg/day -21.2% (p=0"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "0.05",
+        "text": "Median percent reduction in seizure frequency vs placebo: 200 mg/day -13.6% (p=0"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "400",
+        "text": "Median percent reduction in seizure frequency vs placebo: 200 mg/day -13.6% (p=0"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

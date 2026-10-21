@@ -1,0 +1,458 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+L2: **202714Orig1s000**
+L3: **STATISTICAL REVIEW(S)**
+L4: FDA Seal/Logo
+L5: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L6: ## STATISTICAL REVIEW AND EVALUATIONCLINICAL STUDIES
+L7: NDA Serial Number:	202714 /0001
+Drug Name:	Carfilzomib for Injection (Kyprolis®)
+Indication(s):	Multiple myeloma
+Applicant:	ONYX Pharmaceuticals, Inc.
+Submitted date:	September 27, 2011
+PDuFA date:	July 27, 2012
+Review Priority:	Standard
+Biometrics Division:	DB V / CDER
+Statistical Reviewer:	Dr. Kallappa M. Koti
+Concurring Reviewers:	Dr. Mark Rothmann, Lead Mathematical Statistician
+Dr. Rajeshwari Sridhara, Director
+Division of Biometrics V
+Medical Division:	DHP
+Clinical Team:	Dr. Thomas Herndon
+Dr. Albert Deisseroth, Team Leader
+Project Manager:	Ms. Karen Bengtson
+L8: **Keywords:** Binomial proportion, z-test, Confidence interval, Kaplan-Meier method, Median.
+L9: ## Table of Contents
+L10: LIST OF TABLES	3
+LIST OF FIGURES	3
+1. EXECUTIVE SUMMARY	4
+2. INTRODUCTION	5
+2.1 OVERVIEW	5
+2.2 DATA SOURCES	6
+3. STATISTICAL EVALUATION	6
+3.1 DATA AND ANALYSIS QUALITY	6
+3.2 EVALUATION OF EFFICACY	6
+3.3 EVALUATION OF SAFETY	15
+4. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	15
+4.1 GENDER, RACE, AGE, AND GEOGRAPHIC REGION	16
+4.2 OTHER SPECIAL/SUBGROUP POPULATIONS	16
+5. SUMMARY AND CONCLUSIONS	18
+5.1 STATISTICAL ISSUES AND COLLECTIVE EVIDENCE	18
+5.2 CONCLUSIONS AND RECOMMENDATIONS	18
+APPENDICES	19
+SIGNATURES/DISTRIBUTION LIST	21
+CHECK LIST	22
+L11: ## **LIST OF TABLES**
+L12: Table 2.1.1: List of studies included in analysis	6
+Table 3.2.1: Carfilzomib dosage regimen	8
+Table 3.2.2: Schedule of study assessments	8
+Table 3.2.3: Summary of patient disposition	10
+Table 3.2.4: Best response by IRC and Investigator assessments	12
+Table 4.2.1: ORR and DoR by Unresponsive or Intolerant to Approved Agents	17
+L13: ## **LIST OF FIGURES**
+L14: Figure 3.2.1: Carfilzomib treatment cycles	7
+Figure 3.2.2: Kaplan-Meier curve for the IRC assessed duration of response	13
+Figure 3.2.3: Kaplan-Meier curve for IRC assessed PFS	14
+Figure 3.2.4: Kaplan-Meier curve for overall survival	15
+L15: ## 1. EXECUTIVE SUMMARY
+L16: The Sponsor submitted study report includes results from 526 patients enrolled in 4 single arm studies that administered carfilzomib (CFZ) monotherapy in patients with relapsed and/or refractory multiple myeloma. Study PX-171-003, in patients with relapsed and refractory multiple myeloma, is presented in two study reports: Study Report PX-171-003 – Part 1 (A0), a completed pilot study, and Study Report PX-171-003 – Part 2 (A1), considered as the pivotal study. The pivotal study used a carfilzomib dose of 20 to 27 mg/m2. Study PX-171-004, in patients with relapsed or refractory multiple myeloma, is also reported in 2 study reports: ongoing Study Report PX-171-004 – Part 1 in bortezomib-treated patients and ongoing Study Report PX-171-004 – Part 2 in bortezomib-naïve patients. The primary endpoint was overall response rate (ORR) (\ge partial response [PR]) based on an Independent Review Committee (IRC) assessment.
+L17: The Sponsor is undertaking a Phase 3 trial (PX-171-009). It is a 700-patient, multicenter, international, randomized, open-label study of lenalidomide with low dose dexamethasone (Rd) versus carfilzomib + Rd (CRd) with PFS as the primary endpoint in patients with relapsed or refractory MM after 1-3 prior therapies. This study will serve as the confirmatory trial.
+L18: The key efficacy findings based on all subjects (n=266) from study PX-171-003- Part 2 (A1) are:
+L19: - The overall response rate (ORR) among was 23% [95% CI: (18%, 28%)]. The ORR was significantly greater than 10% (p-value &lt; 0.0001).
+- Only one subject (0.4%) achieved complete response (CR).
+- IRC assessed median duration of response (DoR) was 7.8 months [95% CI: (5.6, 9.2)].
+- The clinical benefit rate (CBR) was 36% [95% CI: (30%, 41%)].
+- IRC assessed median PFS was 3.7 months [95% CI: (2.8, 4.6)].
+- One-hundred and thirty-two (50%) patients died during the study. The median overall survival was 15.4 months [95% CI: (12.4, 19.0)].
+- A subset of subjects (not all subjects) was unresponsive or intolerant to all available agents. A summary of ORR and median DoR for subgroups of subjects who were unresponsive and intolerant to approved agents is provided in Table 4.2.1.
+L20: ## 2. INTRODUCTION
+L21: ## 2.1 Overview
+L22: PX-171-003 – Part 1(A0) was an open-label, multicenter, single arm study of carfilzomib monotherapy at a dosage level of 20 \text{mg}/\text{m}^2. The first patient commenced treatment on 14 August 2007 and the last patient completed their final visit on 1 December 2008. Forty-six patients were treated with carfilzomib at a dose of 20 \text{mg}/\text{m}^2 in 11 centers. Best overall response to treatment was the primary endpoint. The best overall response rate was estimated based on the crude proportion of evaluable patients (n = 38) who achieved stringent complete response (sCR), complete response (CR), very good partial response (VGPR), or partial response (PR).
+L23: PX-171-003 – Part 2(A1) was an open-label, single arm, Phase 2 study of carfilzomib in patients with relapsed multiple myeloma whose disease was refractory (defined as &lt;25% response on, or progression during or &lt;60 days after completion of, therapy) to their last treatment regimen. Patients were included in the study if they had received \ge 2 prior therapies including: 1) bortezomib (BTZ) and either thalidomide (THAL) or lenalidomide (LEN), and 2) an alkylating agent. This was a multi-center study with 31 study sites in North America screening patients for participation. The first patient was screened on 24 June 2008. This study is ongoing (for long-term follow-up study). The last visit was completed on 30 November 2010. The patient population in the pivotal study PX-171-003 Part 2 (A1) was very heavily pretreated and had a long history of myeloma with accumulation of multiple comorbidities. These patients had a median age of 63, myeloma for 5.4 years, had received a median of 13 distinct anti myeloma agents.
+L24: Patients received CFZ at 20 \text{mg}/\text{m}^2 on a QD\times 2 schedule (days 1, 2, 8, 9, 15, and 16 every 28 days) in cycle 1 and were dose escalated to 27 \text{mg}/\text{m}^2 on the same schedule thereafter for up to 12 cycles. The primary endpoint was overall response rate (ORR) (\ge partial response [PR]) based on an Independent Review Committee (IRC) assessment. Secondary endpoints included: clinical benefit response (CBR) (ORR + Minimal response [MR]), duration of response for \gePR (DOR), overall survival (OS), time to progression (TTP), progression free survival (PFS). Responses and progression were determined according to the International Myeloma Working Group (IMWG) criteria and were assessed and confirmed by an Independent Response Committee (IRC).
+L25: Key information regarding studies PX-171-0003 Part 2 (A1) and PX-171-003 Part 1 (A0) is summarized in Table 2.1.1 below.
+L26: Table 2.1.1: List of studies included in analysis
+L27: Study	Phase and Design	Treatment Period	Follow-up Period	# of Subjects	Study Population
+PX-171-0003 Part 2 (A1)	Phase 2, Single arm	1 year, Median = 3 months	June 2008 to Nov. 2010	266	Multiple Myeloma*
+PX-171-003 Part 1 (A0)	Phase 2, Single arm	1 year, Median = 3 months	Aug. 2007 to Dec 2008	46	Multiple Myeloma*
+L28: * Relapsed and Refractory Multiple Myeloma
+L29: ## 2.2 Data Sources
+L30: The path to the CDER Electronics Document Room (EDR) is:
+L31: \CDSUB1\EVSPROD\NDA202714\0001
+L32: The SAS datasets used in this review are: ADEF.XPT, ADPT.XPT, ADSL.XPT, ADRS.XPT, and EOTX.
+L33: ## 3. STATISTICAL EVALUATION
+L34: ## 3.1 Data and Analysis Quality
+L35: Data quality was good. It was possible to reproduce all efficacy results easily. The Sponsor's Guide to Analysis Data and Guide to Raw Tabulation Data were helpful.
+L36: ## 3.2 Evaluation of Efficacy
+L37: ## Study Design and Endpoints
+L38: PX-171-003 – Part 2(A1) was an open-label, single arm, Phase 2 study of carfilzomib (CFZ) in patients with relapsed multiple myeloma whose disease was refractory (defined as &lt;25% response on, or progression during or &lt;60 days after completion of, therapy) to their last treatment regimen. Patients must have received ≥2 prior therapies including: 1) bortezomib (BTZ) and either thalidomide (THAL) or lenalidomide (LEN), and 2) an alkylating agent. This was a multi-center study with 31 study sites screening patients for participation. The first patient was screened on 24 June 2008. It is an ongoing study. The last visit was completed on 30 November 2010. The study was conducted in 30 clinical sites in North America.
+L39: Patients received CFZ at 20 mg/m2 on a QD×2 schedule (days 1, 2, 8, 9, 15, and 16 every 28 days) in cycle 1 and were dose escalated to 27 mg/m2 on the same schedule thereafter for up to 12 cycles.
+L40: ## *Sample size determination*
+L41: The primary endpoint was overall response rate (ORR) (\ge partial response [PR]) based on an Independent Review Committee (IRC) assessment. The study was considered successful if the lower boundary of the 2-sided 95% confidence interval about the overall response rate endpoint exceeds 10%, which was considered to represent the lower threshold of a clinically meaningful overall response rate in this patient population. Based on available data, the Sponsor anticipated a true overall response rate of 16%. With a sample size of 250 subjects, a one-sample chi-square test with one-sided significance level of 2.5% will have 83% power to detect a difference between the null hypothesis of proportion of 10% versus the alternative proportion of 16%.
+L42: The dose is calculated using the patient's actual body surface area (BSA) at baseline. Patients with a BSA greater than 2.2 \text{ m}^2 should receive a dose based upon a 2.2 \text{ m}^2 BSA. In Cycle 1 (see Figure 3.2.1 for diagram of carfilzomib treatment cycle), patients received carfilzomib 20 \text{ mg/m}^2 IV on Days 1, 2, 8, 9, 15, and 16. If all doses were administered and well-tolerated over the 28-day cycle, beginning with Cycle 2 the dose escalated to 27 \text{ mg/m}^2 IV on Days 1, 2, 8, 9, 15, and 16 for all subsequent cycles. Carfilzomib treatment cycles were to be repeated every 28 days. A maximum of 12 cycles were administered.
+L43: Figure 3.2.1: Carfilzomib treatment cycles
+L44: Further details on carfilzomib dose during cycles 1, 2, and beyond are shown in Table 3.2.1 below.
+L45: Table 3.2.1: Carfilzomib dosage regimen
+L46: Carfilzomib
+Dose
+(mg/m2)	Cycle 1
+Week 1	Week 2	Week 3	Week 4
+Day 1	Day 2	Day 3-7	Day 8	Day 9	Days 10-14	Day 15	Day 16	Days 17-21	Days 22-28	Days 29-35	Days 36-42
+20	20	No Dosing	20	20	No Dosing	20	20	No Dosing	No Dosing	No Dosing	No Dosing
+Carfilzomib
+Dose
+(mg/m2)	Cycle 2 and Beyond
+Week 1	Week 2	Week 3	Week 4
+Day 1	Day 2	Day 3-7	Day 8	Day 9	Days 10-14	Day 15	Day 16	Days 17-21	Days 22-28	Days 29-35	Days 36-42
+27	27	No Dosing	27	27	No Dosing	27	27	No Dosing	No Dosing	No Dosing	No Dosing
+L47: Further details of study assessments are provided in Table 3.2.2 below.
+L48: Table 3.2.2: Schedule of study assessments
+L49: VISIT	SCR	Cycle 1	Cycle 1-2	Cycle 1	Cycle 1-12	Cycle 1-12	Cycle 1-12	Cycle 2-12	Cycle 2-12	EOS*
+D -14 to -1	Day 1	Days 3, 10,17	Day 15	Day 2, 9	Day 8	Day 16	Day 1	Day 15	30 Days
+Written Informed Consent	X	
+Medical History	X	
+Complete Physical Exam	X	X
+Neurologic Assessment	X	X	X
+Routine Physical Exam	X	X	
+Symptom Directed Physical Examination	X	X	X	
+Blood Pressure, Pulse Rate, and Oral Temperature	X	X	X	X	X	X	X	X	X	X
+12-lead Electrocardiogram	X	X
+CBC + platelets	X	X	X	X	X	X	X
+Serum for beta-2 Microglobulin	X	
+IV Hydration	X	X	X	X	X	
+Carfilzomib Dosing	X	X	X	X	X	X	X	
+Required Disease Response Assessment Labs	X	X	X	X
+Bone Marrow Biopsy, Aspirate, cytogenetics/FISH	X	
+Adverse Events	X	X	X	X	X	X	X	X	X	X
+Concomitant Medications	X	X	X	X	X	X	X	X	X	X
+L50: * End of study/Early withdrawal: within 30 days of study discontinuation
+L51: The primary efficacy endpoint was overall response (OR), which includes the following response categories: Stringent complete response (sCR), complete response (CR), very good partial response (VGPR), and partial response (PR). The criteria for sCR, CR, VGPR, and PR were determined according to the International Myeloma Working Group (IMWG) Uniform Response Criteria. Definitions are provided in the Appendix of this review. Overall response rate (ORR) is derived by the number of subjects with a sCR, CR, VGPR, or PR response divided by the number of subjects at site in the analysis. The OR to treatment as determined by IRC assessment using International Myeloma Working Group (IMWG) Uniform Response Criteria [Durie B, Harousseau, J. et al. International uniform response criteria for multiple myeloma. *Leukemia* 2006; 20: 1467-73. Erratum in; *Leukemia* 2007; 21: 1134].
+L52: The clinical benefit rate (CBR) was a secondary efficacy endpoint. It included all categories comprising ORR and the minimal response (MR) category.
+L53: Duration of response (DOR) was a secondary efficacy endpoint. It was defined as the time from first evidence of PR or better for overall response (OR) to confirmation of disease progression. DOR was censored at the last disease assessment visit for subjects who started alternative therapy, who were lost to follow-up, or who died before documentation of disease progression before a data analysis cutoff date.
+L54: Progression-free survival (PFS) was a secondary efficacy endpoint. It was defined as the time from start of treatment to disease progression or death due to any cause, irrespective of disease status. PFS was censored at the last disease visit for subjects who started alternative therapy or who were lost to follow-up before documentation of disease progression, or who were alive and did not have documentation of disease progression before a data analysis cutoff date.
+L55: Overall survival (OS) was also a secondary endpoint. It was defined as the time from start of treatment to death due to any cause. OS was censored on the date of the subject was last known to be alive for those who are alive or lost to follow-up as of a data analysis cutoff date.
+L56: ## Patient Disposition, Demographic and Baseline Characteristics
+L57: The average age of a patient was 63 years. The youngest patient was 37 and the oldest was 87 years of age. The study included 111 (42%) females and 155 (58%) males. There were 190 (71.4%) Caucasian, 53 (20%) African American subjects in the study. The remaining 23 were either Asian/Pacific Islanders, Hispanic or belonged to other ethnic groups. A total of 198 (74%) subjects received a stem cell transplant. Sixty-eight (26%) patients did not receive stem cell transplant.
+L58: The elapsed time from diagnosis to study Day 1 (DIAGELTM) varied from 0.5 years to 22.3 years. Median was 5.4 years. The number of prior regimens varied from 1 to 20. The median was 5.
+L59: The study included 265 subjects who were relapsed and refractory. One subject was not refractory. Forty-nine (18.5%) subjects achieved \le 25\% response to most recent therapy. Three (1%) subjects had progression. A total of 132 (49.8%) subjects had progression during the most recent therapy. Eighty-one subjects had progression within 60 days of completion of most recent therapy.
+L60: Sixty-nine (26%) subjects' Eastern Oncology Group (ECOG) Performance status was 0. They were fully active and were able to carry on all pre-disease performance without restriction. ECOG Performance Status for 162 (61%) was 1. That is, they had symptoms, but fully ambulatory. They were restricted in physically strenuous but ambulatory and able to carry out work of a light or sedentary nature. The remaining 35 (13%) subjects had ECOG Performance status of 2. That is, they were capable of only limited self-care, confined to bed or chair more than 50% of waking hours.
+L61: Table 3.2.3 below summarizes the numbers of patients who discontinued study drug for various reasons both before starting cycles 3 (hence before completing the minimum 2 cycles specified by protocol) and the maximum 12 cycles specified by protocol.
+L62: Table 3.2.3: Summary of patient disposition
+L63: Prior to Cycle 12
+n (%)	Prior to Cycle 3
+n (%)
+Discontinued Study Drug	226 (85.0)	97 (36.5)
+Reasons for Study Drug Discontinued	
+Progressive Disease	157 (59.0)	61 (22.9)
+Adverse Event	33 (12.4)	19 (7.1)
+Withdrew Consent	22 (8.3)	10 (3.8)
+Other	14 (5.3)	7 (2.6)
+L64: ## Statistical Methodologies
+L65: The modified intention-to-treat (mITT) population was defined as all subjects who were enrolled and received at least one dose of carfilzomib. The null hypothesis of ORR of 10% was tested using the z-test. Ninety-five percent confidence interval on the overall response rate was calculated. Kaplan-Meier method was used to estimate the median duration of response, median progression-free survival, and median overall survival.
+L66: ## Results and Conclusions
+L67: ## Sponsor's efficacy results
+L68: The Response Evaluable Population consisted of 257 patients, excluding 9 of the 266 enrolled patients (3.4%) who were either missing a post-baseline disease assessment or had no useful baseline assessment due to reasons other than related AE.
+L69: The primary endpoint was ORR to treatment, as determined by IRC assessment using IMWG criteria. ORR (sCR + CR + VGPR + PR) was 23.7% (95% CI: 18.7, 29.4). In the 61 responders, response categories included CR in 1 patient, VGPR in 13, and PR in 47.
+L70: The median time to response, analyzed post-hoc, was 1.9 months (range: 0.3, 5.6).
+L71: A comparison of response categories according to IRC determination with those according to the Investigator's assessment in the Response Evaluable Population showed concordance in 81.3% of 257 patients. For ORR, the rate of concordance between the IRC and the investigator was 93.1% (i.e., 54 of 58 observations).
+L72: The clinical benefit rate (CBR), which included all categories comprising ORR as well as the MR category, was 37.0% (95% CI: 31.1, 43.2) in the Response Evaluable Population.
+L73: The median duration of IRC confirmed overall response (DOR) in the Response Evaluable Population was 7.8 months (95% CI: 5.6, 9.2).
+L74: The median duration of clinical benefit was 8.3 months (95% CI: 6.5, 9.7).
+L75: ## Reviewer's analyses and efficacy results
+L76: As per IRC assessment, 61 patients had at least a partial response (PR, VGPR, CR). One patient achieved complete response. The overall response rate (ORR) was 23% [95% CI: (18%, 28%)]. The ORR was significantly greater than 10% (p-value &lt;0.0001). As seen from Table 3.2.4 below, 34 patients had a minimal response. IRC assessed clinical benefit rate (CBR) was 36% [95% CI: (30%, 41%)]. As per Investigator assessment, the ORR was 22.5% [95% CI: (17.5%, 27.6%)]. There was no CR. The Investigator assessment resulted in a CBR of 33.4% [95% CI: (28%, 34%)]. Further details on best response are provided in Table 3.2.4 below.
+L77: Table 3.2.4: Best response by IRC and Investigator assessments
+L78: Response category	Number (%) of Patients
+IRC assessment	Number (%) of Patients
+Investigator assessment
+Complete response	1 (0.38%)	0 (0%)
+Very good partial response	13 (4.89%)	15 (5.64%)
+Partial response	47 (17.67%)	45 (16.92%)
+Minimal response	34 (12.78%)	29 (10.9%)
+Stable disease	81 (30.45%)	93 (34.96%)
+Progressive disease	69 (25.94%)	69 (25.94%)
+Not evaluable	21 (7.89%)	-
+Off study prior to assessment	-	15 (5.64%)
+Overall response	61 (23.0%)	60 (22.5%)
+95% confidence interval	(18%, 28%)	(17.5%, 27.6%)
+Clinical benefit rate	95 (36%)	89 (33.4%)
+95% confidence interval	(30%, 41%)	(28%, 34%)
+L79: Source: Dataset ADEF.XPT
+L80: ## Duration of Response (DoR)
+L81: As per IRC assessment, thirty-eight (62%) of the 61 responders lost response by the data cut-off date and the remaining 23 (38%) responders maintained response. IRC assessed median duration of response was 7.8 months [95% CI: (5.6, 9.2)].
+L82: Figure 3.2.2: Kaplan-Meier curve for the IRC assessed duration of response.
+L83: ## Clinical benefit rate (CBR)
+L84: The CBR included all categories comprising ORR and the minimal response (MR) category. As per the IRC assessment, 34 subjects achieved an MR, so that a total of 95 patients derived a clinical benefit from carfilzomib treatment. The CBR was 36% (95% CI: 30, 41).
+L85: ## Progression-free survival
+L86: As per IRC assessment, there were 201 PFS events. PFS for 65 (24%) subjects was censored. IRC assessed median PFS was 3.7 months [95% CI: (2.8, 4.6)].
+L87: Figure 3.2.3: Kaplan-Meier curve for IRC assessed PFS
+L88: ## Overall survival
+L89: One-hundred and thirty-two (50%) patients died during the study. Nine patients died within one month after they started the treatment. The median overall survival was 15.4 months [95% CI: (12.4, 19.0)].
+L90: Figure 3.2.4: Kaplan-Meier curve for overall survival
+L91: The estimated median PFS and OS can only be used for descriptive purposes and no inference may be drawn.
+L92: ## 3.3 Evaluation of Safety
+L93: See the medical officer's safety review.
+L94: ## 3.4 Benefit:Risk Assessment (Optional)
+L95: Benefit-Risk assessment is not done in this review.
+L96: ## 4. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L97: ## 4.1 Gender, Race, Age, and Geographic Region
+L98: - There were 111 (42%) females and 155 (58%) males in the study. As per IRC assessment, 32 females achieved overall response. The overall response rate (ORR) in females was 28.8%. The 95% confidence interval on ORR was (20%, 37%). As per IRC assessment, 29 males achieved overall response. The ORR in males was 19%. The 95% confidence interval on ORR was (13%, 25%).
+- There were 146 (55%) subjects who were less than 65 years of age. As per IRC assessment, 35 of these subjects achieved overall response. The overall response rate (ORR) was 24%. The 95% confidence interval on ORR was (17%, 31%). There were 120 (45%) subjects who were 65 years of age or older. As per IRC assessment, 26 of these subjects achieved overall response. The overall response rate (ORR) was 22%. The 95% confidence interval on ORR was (14%, 29%).
+- The study included 190 (71%) Caucasian subjects. As per IRC assessment, 48 of the 190 Caucasian subjects achieved overall response. The ORR in Caucasian subjects was 25%. The 95% confidence interval on ORR was (19%, 31%). The study included 53 (20%) African American subjects. As per IRC assessment, 8 of the 53 African American subjects achieved overall response. The ORR was 15%. The 95% confidence interval on ORR was (5%, 25%). As the numbers of subjects in other ethnic subgroups were very small, subgroup analyses are not performed in this review.
+L99: Subgroup analyses by geographic region are not performed as all the patients studied were from North America.
+L100: ## 4.2 Other Special/Subgroup Populations
+L101: - A total of 198 (74%) subjects received a stem cell transplant. As per IRC, 43 (22%) achieved overall response. The 95% confidence interval was (16%, 27%). Sixty-eight (26%) patients did not receive a stem cell transplant. Eighteen (26%) of these 68 subjects had an overall response. The 95% confidence interval was (16%, 37%).
+- The median number of prior regimen was 5. A total of 154 subjects had received 5 or less regimens. Of these 154 subjects, 38 (24.7%) achieved ORR. The 95% confidence interval was (18%, 31%). One-hundred and twelve subjects were treated with at least 6 regimens prior to be in this study. Of these 112 subjects, 23 (20.5%) achieved ORR. The 95% confidence interval was (16%, 32%).
+- Subgroup analyses of ORR and duration of response (DoR) by unresponsive or intolerant to approved agents (based on N=266 Patients) are provided in Table 4.2.1.
+L102: Table 4.2.1: ORR and DoR by Unresponsive or Intolerant to Approved Agents
+L103: Patient population	ORR n/N (%) and (95% CI)	Median duration of response in months (95% CI)
+Intent to Treat Population	61/266 (22.9)
+(18.0%, 28.5%)	7.8 (5.6, 9.2)
+Unresponsive or Intolerant to Bortezomib	48/231 (20.9)
+(15.7%, 26.6%)	7.82 (5.55, 9.23)
+Unresponsive or Intolerant to Bortezomib and Lenalidomide	42/208 (20.2)
+(15.0%, 26.3%)	7.39 (5.55, 8.41)
+Unresponsive or Intolerant to Bortezomib, Lenalidomide, and Anthracycline	17/77 (22.1)
+(13.4%, 33.0%)	8.31 (6.47, 9.23)
+Unresponsive or Intolerant to Bortezomib, Lenalidomide, Anthracycline, Melphalan, Cyclophosphamide, or history of transplant	16/69 (23.2)
+(13.9%, 34.9%)	8.31 (6.7, 9.23)
+L104: - A total of 157 (59%) subjects had received a drug in bortezomib group, a drug in any of the lenalidomide, thalidomide, pomalidomide groups, and a drug in the alkylating agent group, a drug in the steroid group, and a drug in the anthracycline group. Thirty-two (20%) of these 157 subjects achieved overall response. The 95% confidence interval was (14%, 27%).
+- One-hundred and nine (41%) patients were not treated with all 5 agents mentioned above. Twenty-nine (27%) of these 109 subjects had an overall response. The 95% confidence interval was (18%, 35%). ORR among the recipients of the 5 agents was numerically lower than that among the non-recipients. However, there was no statistically significant association between overall response and whether a patient was treated with these 5 agents.
+L105: ## 5. SUMMARY AND CONCLUSIONS
+L106: ## 5.1 Statistical Issues and Collective Evidence
+L107: The exact sample size required was 243. The Sponsor mentioned it to be 250 and recruited 266 subjects. There were 5 responders among the 16 who last entered the study. Sample proportions for n = 250 and for n = 266 were 0.224 and 0.229, respectively. Standard errors under null hypothesis were 0.019 and 0.0184 when n = 250 and when n = 266, respectively.
+L108: ## 5.2 Conclusions and Recommendations
+L109: The key efficacy findings based on all subjects from study PX-171-003- Part 2 (A1) are:
+L110: - The overall response rate (ORR) was 30% [95% CI: (18%, 28%)]. The ORR was significantly greater than 10% (p-value &lt; 0.0001).
+- IRC assessed median duration of response was 7.8 months [95% CI: (5.6, 9.2)].
+- The clinical benefit rate (CBR) was 36% [95% CI: (30%, 41%)].
+- One-hundred and thirty (50%) patients died during the study. The median overall survival was 15.4 months [95% CI: (12.4, 19.0)].
+- IRC assessed median PFS was 3.7 months [95% CI: (2.8, 4.6)].
+- A subset of subjects (not all subjects) were unresponsive or intolerant to all available agents. A summary of ORR and median DoR for subgroups of subjects who were unresponsive and intolerant to approved agents is provided in Table 4.2.1.
+L111: ## APPENDICES
+L112: ## International Myeloma Working Group (IMWG) Uniform Response Criteria
+L113: ## Response
+L114: ## Subcategory Response Criteria
+L115: sCR	CR as defined below plus normal FLC ratio and absence of clonal cells in bone marrow by immunohistochemistry or immunofluorescence
+CR	Negative immunofixation on the serum and urine, disappearance of any soft tissue plasmacytomas and < 50% plasma cells in bone marrow
+VGPR	Serum and urine M-protein detectable by immunofixation but not on electrophoresis or 90% or greater reduction in serum M-protein with urine M-protein level < 100 mg per 24 hours
+PR	\ge 50\% reduction of serum M-protein and reduction in 24 hour urinary M-protein by \ge 90\% or to < 200 mg per 24 hoursIf the serum and urine M-protein are unmeasurable, a \ge 50\% decrease in the difference between involved and uninvolved FLC levels is required in place of the M-protein criteria
+If serum and urine M-protein and serum FLC are unmeasurable, then \ge 50\% reduction in plasma cells is required in place of M-protein, provided baseline bone marrow plasma cell percentage was \ge 30\%
+In addition to the above listed criteria, if present at baseline, a \ge 50\% reduction in the size of soft tissue plasmacytomas is also required
+
+SD	Not meeting criteria for CR, VGPR, PR, MR or PD
+PD	Progressive Disease requires any one or more of the following:Increase of \ge 25\% from lowest response level in (i) serum M-component and/or (the absolute increase must be \ge 0.5 g/dL), (ii) urine M-component and/or (the absolute increase must be \ge 200 mg/24 h)
+Only in patients without measurable serum and urine M-protein levels: the difference between involved and uninvolved FLC levels. The absolute increase must be > 10 mg/dL
+Bone marrow plasma cell percentage: the absolute % must be \ge 10\%
+Definite development of new bone lesions or soft tissue plasmacytomas or definite increase in the size of existing bone lesions or soft tissue plasmacytomas
+L116: - Development of hypercalcemia (corrected serum calcium &gt; 11.5 mg/dL or 2.65 mmol/L) that can be attributed solely to the plasma cell proliferative disorder
+- Bone marrow plasma cell percentage: the absolute % must be \ge 10\%
+- Definitive development of new bone lesions or soft tissue plasmacytomas or definite increase in the size of existing bone lesions or soft tissue plasmacytomas
+- Development of hypercalcemia (corrected serum calcium &gt; 11.5 mg/dL or 2.65 mmol/L) that can be attributed solely to the plasma cell proliferative disorder
+L117: ## **SIGNATURES/DISTRIBUTION LIST**
+L118: Primary Statistical Reviewer:
+L119: Dr. Kallappa M. Koti
+Mathematical Statistician
+L120: Date:
+L121: Statistical Team Leader: Dr. Mark Rothmann
+L122: Biometrics Division Director: Dr. Rajeshwari Sridhara
+L123: cc:
+L124: HFD-150/Ms. Karen Bengtson
+L125: HFD-150/Dr. Dr. Thomas Herndon
+L126: HFD-150/Dr. Albert Deisseroth
+L127: HFD-150/Dr. Ann Farrell
+L128: HFD-711/Dr. Mark Rothmann
+L129: HFD-711/Dr. Rajeshwari Sridhara
+L130: HFD-700/Ms. Lillian Patricia
+L131: M:\NDA202714.doc
+L132: ## CHECK LIST
+L133: Number of Pivotal Studies: 1
+L134: ## Trial Specification
+L135: Specify for each trial:
+L136: **Protocol Number (s):** PX-171-003 – Part 2 (A1)
+**Protocol Title:** An Open-label, Single-arm, Phase 2 Study of Carfilzomib in Patients with Relapsed and Refractory Multiple Myeloma
+**Phase:** 2
+**Control:** None
+**Blinding:** Open-Label
+**Number of Centers:** 31
+**Region(s) (Country):** US, Canada
+**Duration:** 8 Weeks
+**Treatment Arms:** Carfilzomib 20/27 mg/m2 QD IV - given as monotherapy
+**Treatment Schedule:** IV on Days 1, 2, 8, 9, 15, and 16 of a 28-day cycle (up to 12 cycles)
+**Randomization:** NA
+**Primary Endpoint:** Overall response rate (ORR)
+**Primary Analysis Population:** NA
+**Statistical Design:** Superiority/Non-Inferiority NA
+**Primary Statistical Methodology:** z-test, confidence interval on ORR
+**Interim Analysis:** NA
+**Sample Size:** 266 (all treated)/ 257 (evaluable)
+**Sample Size Determination:** Was it calculated based on the primary endpoint variable and the analysis being used for the primary variable? Yes
+Statistic = Normal approximation to the binomial distribution
+Power = 83%
+\Delta = 6%
+\alpha = 0.025 (1-sided)
+- Was there an **Alternative Analysis** in case of violation of assumption; e.g., Lack of normality, Proportional Hazards Assumption violation. NA
+- Were there any major changes, such as changing the statistical analysis methodology or changing the primary endpoint variable? NA
+- Were the **Covariates** pre-specified in the protocol? NA
+- Did the Applicant perform **Sensitivity Analyses**? NA
+- How were the **Missing Data** handled? NA
+- Was there a **Multiplicity** involved? NA
+If yes,
+L137: Multiple Arms (Yes/No)?
+L138: Multiple Endpoints (Yes/No)?
+L139: Which method was used to control for type I error?
+L140: - **Multiple Secondary Endpoints:** Are they being included in the label? If yes, method to control for type 1 error. NA
+L141: **Were Subgroup Analyses Performed (Yes/No)?** Yes
+L142: - Were there any **Discrepancies** between the protocol/statistical analysis plan vs. the study report? NA
+- Overall, was the study positive (Yes/No)? Yes
+L143: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L144: /s/
+L145: KALLAPPA M KOTI
+05/30/2012
+L146: MARK D ROTHMANN
+05/31/2012
+I concur
+L147: RAJESHWARI SRIDHARA
+05/31/2012
+L148: FDA Seal/Logo
+L149: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L150: ## STATISTICAL REVIEW AND EVALUATION
+L151: **NDA Number:** 202714
+**Drug Name:** Carfilzomib
+**Indication(s):** Relapsed and Refractory Multiple Myeloma
+**Dosage Form:** Powder, For Injection Solution, Lyophilized
+**Applicant:** Onyx Pharmaceuticals, Inc.
+**Date(s):** Date Received: 10/21/2011
+Completion Date: 1/31/2012
+**Review Priority:**
+**Biometrics Division:** VI
+**Statistical Reviewer:** Youngsook Jeon, Ph.D.
+**Concurring Reviewers:** Yi Tsong, Ph.D.
+**Project Manager:** Karen Bengtson
+**Distribution:** Yi Tsong, Ph.D.
+Lillian Patrician, M.S.
+Karen Bengtson
+Mike Adams, Ph.D.
+L152: ## Table of Contents
+L153: 1.	EXECUTIVE SUMMARY	3
+2.	INTRODUCTION	3
+3.	SPONSOR'S SUBMISSION	3
+3.1	DATA	3
+3.2	STUDY REPORT	4
+4.	REVIEWER'S ASSESSMENT	4
+4.1	STATISTICAL EVALUATION	4
+4.2	SUMMARY AND CONCLUSIONS	6
+L154: ## 1. EXECUTIVE SUMMARY
+L155: This review describes statistical findings on Onyx Pharmaceutical's stability data from the study under long-term storage condition (2 – 8 °C) so that FDA office of New Drug Quality Assessment can make informed decisions on the proposed shelf life of 18 months for Carfilzomib for Injection.
+L156: The FDA statistician conducted a stability analysis to estimate a shelf life of the drug product based on 12-month long-term stability data. Seven test attributes – Assay, (b)(4), Total Imp, Water Content, and pH – are analyzed. Estimated shelf lives are longer than the proposed shelf life, 18 months. 6-month extrapolation beyond the period covered by the long-term data can be considered according 2004 ICH Q1E Guidance. Therefore, the proposed 18-month shelf life of Carfilzomib for Injection is supported by the statistical analysis on long-term stability data.
+L157: ## 2. INTRODUCTION
+L158: This review describes statistical findings on Onyx Pharmaceutical's stability data from the study under long-term storage condition (2 – 8 °C) so that FDA office of New Drug Quality Assessment can make informed decisions on the proposed shelf life of Carfilzomib for Injection.
+L159: The sponsor proposed 18-month shelf life of the drug product based on 12-month long-term stability data. The FDA statistician evaluated the sponsor's study report and conducted independent statistical analysis on the sponsor's data. The sponsor's submission and the reviewer's assessment can be found in Section 3 and Section 4, respectively.
+L160: The following are the EDR locations of the submission:
+L161: - Sponsor's study report and data: \\Cdsesub1\evsprod\NDA202714\0001\m3\32-body-data\32p-drug-prod\cfzdp-lyophilized\32p8-stab
+- Sponsor's SAS data sets: \\Cdsesub1\evsprod\NDA202714\0001\m3\32-body-data\32p-drug-prod\cfzdp-lyophilized\32p8-stab\datasets\tabulations
+L162: ## 3. SPONSOR'S SUBMISSION
+L163: ## 3.1 Data
+L164: The sponsor used statistical analysis on 12-month primary drug product's stability lots under long-term storage condition, 2 – 8 °C (Table 1). Stability data for the primary lots were submitted in SAS format (Dp_prim.xpt).
+L165: Table 1 Sponsor's Stability Data
+L166: Drug Product Lota	Manufacturing Site	Stability Start Date	5°C ± 3°C
+Data Available
+(months)
+A61343	June 2010	12
+A60571	June 2010	12
+A60011	March 2010	12
+L167: Source: Table 1 in Sponsor's study report, 3.2.P.8.1 Stability Summary (Page 5 of 38)
+L168: The stability data were collected at Month 0, 1, 3, 6, 9, and 12 from twelve stability tests. Among them, the following seven stability tests (acceptance criterion in the parenthesis) are amenable to statistical analysis:
+L169: - Assay (b) (4) label claim)
+- 
+- 
+- 
+- Total Imp (b) (4)
+- Water Content (b) (4)
+- pH (b) (4)
+L170: ## 3.2 Study Report
+L171: The sponsor performed statistical analysis in accordance with ICH Q1E Guidance (2004) using SLIMStat+(r) v 4.2.0w. The sponsor conducted batch poolability tests first and then estimated self lives based on the final models determined by the poolability tests.
+L172: The sponsor reported that stability results for all lots have met all acceptance criteria for the proposed commercial regulatory specification at the long-term storage condition of 5°C ± 3°C for test intervals up to 12 months. The sponsor concluded that since no significant change has been observed at the accelerated condition of 25°C ± 2°C/60% ± 5% RH when tested for 6 months, the maximum extrapolation permitted by ICH Q1A(R2) and ICH Q1E is 6 months; therefore, the maximum permitted shelf life is 18 months. Thus, the sponsor proposed the shelf life of 18 months for Carfilzomib for Injection when stored at the recommended storage condition of 5°C ± 3°C.
+L173: ## 4. REVIEWER'S ASSESSMENT
+L174: ## 4.1 Statistical Evaluation
+L175: The FDA statistician evaluated the sponsor's study report and long-term stability data compliant with 2003 ICH Q1A(R2) Guidance and 2004 ICH Q1E Guidance. The reviewer conducted ANCOVA analysis to estimate a shelf life of the drug product using Statistical Analysis Software, SAS.
+L176: First, the reviewer performed batch poolability tests. For Water Content and pH, slopes and intercepts cannot be pooled and hence regression model with the separate intercepts and separate slopes were fitted to the data. For the other attributes, parallel regression models were fitted to the data since only slopes were pooled.
+L177: Second, the reviewer estimated shelf life for each test attribute against the proposed commercial specifications. Table 2 displays the estimated shelf lives for all attributes. The shortest shelf life is 30 months for pH. Figure 1 displays the fitted regression line and two one-sided 95% prediction limits of the regression mean (bands) for pH. It is longer than the period covered by long-term data (12 months) and the proposed shelf life (18 months). In this case, according to 2004 ICH Q1E Guidance, a shelf life can be extrapolated up to 6 months beyond the period covered by refrigerated long-term data. Therefore, statistical analysis supports the extrapolation of a shelf life to 18 months.
+L178: **Table 2. Estimated Shelf Life (Months)**
+L179: Batch	Test
+Assay	(b) (4)
+Total
+Imp	Water
+Content	pH
+A60011	82	126	111	96
+A60571	62	124	>200	30
+A61343	75	123	>200	46
+L180: **Figure 1. Fitted Regression Line with Two One-Sided 95% Prediction Limits for pH**
+L181: ## 4.2 Summary and Conclusions
+L182: The FDA statistician conducted a stability analysis to estimate a shelf life of the drug product based on 12-month data from stability study under long-term storage condition (2 – 8 °C). Seven test attributes – Assay, (b)(4) Total Imp, Water Content, and pH – are analyzed. Estimated shelf lives are longer than the proposed shelf life, 18 months. 6-month extrapolation beyond the period covered by data stored under refrigerated long-term condition can be considered according 2004 ICH Q1E Guidance. Therefore, the proposed 18-month shelf life of Carfilzomib for Injection is supported by the statistical analysis on long-term stability data.
+L183: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L184: /s/
+L185: YOUNGSOOK JEON
+L186: 01/31/2012
+L187: YI TSONG
+L188: 01/31/2012
+L189: ## STATISTICS FILING CHECKLIST FOR NDA 202714/0001:
+## Relapsed and Refractory Multiple Myeloma
+L190: NDA Number: 202714/0001
+L191: Applicant: ONYX Pharmaceuticals
+L192: Stamp Date: SEPT-27-2011
+L193: Drug Name: Carfilzomib
+L194: NDA Type: Original
+L195: On initial overview of the NDA/BLA application for RTF:
+L196: Content Parameter	Yes	No	NA	Comments
+1	Index is sufficient to locate necessary reports, tables, data, etc.	X	
+2	ISS, ISE, and complete study reports are available (including original protocols, subsequent amendments, etc.)	X	
+3	Safety and efficacy were investigated for gender, racial, and geriatric subgroups investigated (if applicable).	X	
+4	Data sets in EDR are accessible and do they conform to applicable guidances (e.g., existence of define.pdf file for data sets).	X
+L197: IS THE STATISTICAL SECTION OF THE APPLICATION FILEABLE? YES
+L198: If the NDA/BLA is not file-able from the statistical perspective, state the reasons and provide comments to be sent to the Applicant.
+L199: Please identify and list any potential review issues to be forwarded to the Applicant for the 74-day letter.
+L200: Content Parameter (possible review concerns for 74-day letter)	Yes	No	NA	Comment
+Designs utilized are appropriate for the indications requested.	X	
+Endpoints and methods of analysis are specified in the protocols/statistical analysis plans.	X	
+Interim analyses (if present) were pre-specified in the protocol and appropriate adjustments in significance level made. DSMB meeting minutes and data are available.	X	
+Appropriate references for novel statistical methodology (if present) are included.	X	
+Safety data organized to permit analyses across clinical trials in the NDA/BLA.	X	
+Investigation of effect of dropouts on statistical analyses as described by applicant appears adequate.	X
+L201: ## STATISTICS FILING CHECKLIST FOR NDA 202714/0001:
+## Relapsed and Refractory Multiple Myeloma
+L202: Reviewing Statistician	11-08-2011
+Date
+L203: Supervisor/Team Leader	11-08-2011
+Date
+L204: Page 2 of 2
+L205: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L206: /s/
+L207: KALLAPPA M KOTI
+11/02/2011
+L208: MARK D ROTHMANN
+11/02/2011
+L209: Diagram illustrating Carfilzomib treatment cycles over 4 weeks (28 days).
+The timeline shows Weeks 1, 2, 3, and 4. Carfilzomib administration occurs on specific Days:
+Week 1: Days 1 and 2.
+Week 2: Days 8 and 9.
+Week 3: Days 15 and 16.
+Legend:
+Cycle 1: 20 \text{ mg/m}^2
+Cycles 2 and higher: 27 \text{ mg/m}^2
+L210: Kaplan-Meier curve showing the probability of response maintained over time (IRC Duration of Response in months). The curve starts at 1.0 probability at 0 months and decreases stepwise. The IRC Median Duration of Response (DoR) is 7.8 months (95% CI: 5.5, 9.2).
+IRC Median DoR in months: 7.8 (95% CI: 5.5, 9.2)
+Y-axis: Prob. of Response Maintained (0.2 to 1.0)
+X-axis: IRC Duration of Response in months (0 to 14)
+L211: Kaplan-Meier curve showing the probability of progression-free survival (PFS) over time (IRC PFS in months). The curve starts at 1.0 probability at 0 months and decreases stepwise. The median IRC PFS is indicated as 3.68 months (95% CI: 2.8, 4.6).
+Y-axis: PFS Survival Probability (0.0 to 1.0). X-axis: IRC PFS in months (0 to 16).
+L212: Kaplan-Meier curve for overall survival. The Y-axis represents Survival Probability (0.2 to 1.0) and the X-axis represents Overall Survival in months (0 to 22). The curve shows a stepwise decrease in survival probability over time. The median overall survival (OS) is indicated as: Median OS in months: 15.4 (95% CI: 12.4, 19.0).
+L213: Figure 1: A scatter plot showing pH versus Time in Month (0 to 18). Data points for three batches (A60011, A60571, A61343) are plotted, along with a fitted regression line and two one-sided 95% prediction limits (shaded bands). The pH values generally decrease slightly over time. The legend indicates: A60011 (circle), A60571 (plus sign), and A61343 (cross).

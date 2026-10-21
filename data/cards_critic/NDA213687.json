@@ -1,0 +1,52 @@
+{
+  "app": "NDA213687",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged numbers 30/2020/2017 are components of dates (June 30 2020 approval, 2017 breakthrough denial) already supported by other fields' citations; false positives."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "high",
+      "issue": "Result frames the absence of a between-arm difference as 'qualitative evidence of efficacy,' but the phase citation (line 251) states the trial 'did not demonstrate a difference between treatment arms in the clinical events of interest' \u2014 the endpoints were not met, so characterizing this as positive efficacy overstates the finding without flagging that the trial technically failed its comparative endpoints."
+    },
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "medium",
+      "issue": "Text labels cardiac function, total energy expenditure, and treadmill testing as 'primary endpoints' while separately calling treadmill an 'exploratory primary endpoint'; the citation shows the whole primary set was exploratory (line 41), so the wording is internally inconsistent/misleading about endpoint status."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "Text asserts a 'target dose of 20% DCI' as fact; citation clarifies patients were only instructed to consume 20% DCI and actually took 11%\u201322% DCI averaging ~15% \u2014 the phrasing slightly overstates the achieved dosing but is otherwise supported."
+    },
+    {
+      "field": "modality",
+      "severity": "low",
+      "issue": "Labeled 'Small molecule' while all citations describe it only as a 'medium-chain triglyceride'; the small-molecule characterization is an inference not stated in the quotes."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "30",
+        "text": "Triheptanoin (Dojolvi) was submitted as a 505(b)(2) NDA on July 31, 2019 and app"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2020",
+        "text": "Triheptanoin (Dojolvi) was submitted as a 505(b)(2) NDA on July 31, 2019 and app"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2017",
+        "text": "Triheptanoin (Dojolvi) was submitted as a 505(b)(2) NDA on July 31, 2019 and app"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

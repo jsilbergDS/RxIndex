@@ -1,0 +1,63 @@
+{
+  "app": "NDA208547",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting value: line 1 column 1 (char 0)",
+  "_raw": "<think>Let me analyze this card carefully.\n\nLet me check the automated flags first.\n\n**uncited_numbers:**\n\n1. `pivotal_trials[0]/endpoint` number \"111\" - \"In 111 pentetreotide\" - this is part of a drug name (indium In 111 pentetreotide), not an efficacy/safety number. False positive. But wait, is \"1",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "111",
+        "text": "Sensitivity and specificity vs OctreoScan (In 111 pentetreotide) with a non-infe"
+      },
+      {
+        "field": "pivotal_trials[2]/endpoint",
+        "number": "68",
+        "text": "Correct localization of NETs by Ga 68 dotatate PET against a reference standard"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "1",
+        "text": "Approved effective June 1, 2016 following review of the 505(b)(2) NDA received J"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2016",
+        "text": "Approved effective June 1, 2016 following review of the 505(b)(2) NDA received J"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "505",
+        "text": "Approved effective June 1, 2016 following review of the 505(b)(2) NDA received J"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2",
+        "text": "Approved effective June 1, 2016 following review of the 505(b)(2) NDA received J"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "1",
+        "text": "Approved effective June 1, 2016 following review of the 505(b)(2) NDA received J"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2015",
+        "text": "Approved effective June 1, 2016 following review of the 505(b)(2) NDA received J"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "NETSPOT was submitted as a 505(b)(2) NDA supported by published literature and t"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2016",
+        "text": "NETSPOT was submitted as a 505(b)(2) NDA supported by published literature and t"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

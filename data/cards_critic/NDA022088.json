@@ -1,0 +1,52 @@
+{
+  "app": "NDA022088",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "high",
+      "issue": "The serious risks listed (hypersensitivity reactions, hyperglycemia, interstitial lung disease, bowel perforation, acute renal failure) are not supported by any citation quote."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False-positive flag: '626' is supported because the citation spells it out as 'Six hundred and twenty six patients were randomized'."
+    },
+    {
+      "field": "approval_program.priority_review.basis",
+      "severity": "low",
+      "issue": "False-positive flags: '22' and '088' are parts of the NDA application number (22,088), an identifier that should be excluded."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: '3' refers to 'phase 3', which is supported by the pivotal trial citations."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "626",
+        "text": "626 randomized: IFN alone (n=207), temsirolimus 25 mg (n=209), temsirolimus 15 m"
+      },
+      {
+        "field": "approval_program/priority_review/basis",
+        "number": "22",
+        "text": "NDA 22,088 for temsirolimus (Torisel) received a Priority Designation of Priorit"
+      },
+      {
+        "field": "approval_program/priority_review/basis",
+        "number": "088",
+        "text": "NDA 22,088 for temsirolimus (Torisel) received a Priority Designation of Priorit"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Temsirolimus (Torisel) for advanced renal cell carcinoma had Fast Track status a"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "app": "NDA210867",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Automated flag on '10' is a false positive; it is the >10% AE reporting threshold, not an uncited efficacy/safety statistic."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Automated flags on '06' and '18' are false positives; they are components of the PDUFA goal date 06/13/18, which is a date."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag on '12' is a false positive; it derives from the '12 months' trial timepoint / date context, not an uncited statistic."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "10",
+        "text": "Most common adverse reactions (>10%) were eosinophilia (74% vs 79% ivermectin), "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "06",
+        "text": "NDA received October 13, 2017, PDUFA goal date 06/13/18; approved effective on t"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "18",
+        "text": "NDA received October 13, 2017, PDUFA goal date 06/13/18; approved effective on t"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "12",
+        "text": "Moxidectin received orphan drug designation for onchocerciasis (September 2010) "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

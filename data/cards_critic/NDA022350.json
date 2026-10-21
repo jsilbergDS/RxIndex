@@ -1,0 +1,77 @@
+{
+  "app": "NDA022350",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "medium",
+      "issue": "Trial name labels Study 11 as 'placebo-controlled monotherapy trial' but the only citation merely lists it among three monotherapy studies; the monotherapy/placebo-controlled descriptors are not supported by this quote."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "high",
+      "issue": "Design states '24-week' for Study CV181011 but the citation describing the 24-week duration refers to 'two 24-week trials' collectively and the 401-patient quote ('first trial') is not tied to Study 11; it conflates two different studies' details into one trial."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "high",
+      "issue": "N=401 is drawn from 'the first trial' quote, which is not identified as Study CV181011; the citation does not confirm 401 belongs to Study 11."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "medium",
+      "issue": "The result (Table 3, 401-patient 'first trial') is attributed to Study CV181011 but no citation links that monotherapy efficacy table to Study 11 specifically."
+    },
+    {
+      "field": "pivotal_trials",
+      "severity": "medium",
+      "issue": "The review states three Phase 2/3 monotherapy studies (CV181008, CV181011, CV18138) were designed, yet only one pivotal trial is recorded, an internal inconsistency in trial count vs. trials described."
+    },
+    {
+      "field": "key_safety",
+      "severity": "high",
+      "issue": "Peripheral edema is stated as 'ONGLYZA 5 mg plus TZD (8.1% vs 4.3% placebo)' but the citation says add-on to TZD trial; combining add-on TZD, add-on glyburide hypoglycemia, and monotherapy AE rates mixes different trial populations into one 'key safety' narrative without distinguishing them clearly."
+    },
+    {
+      "field": "key_safety",
+      "severity": "medium",
+      "issue": "The headline AEs (URTI 7.7%, UTI 6.8%, headache 6.5%) describe a specific pooled/monotherapy table, but are presented as the generic 'most common adverse reactions'; the characterization slightly overstates what the single table citation supports."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Automated flags for numbers '30' and '2008' in the detail are false positives (they are part of the receipt date June 30, 2008, which is excluded as a date); no action needed."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Automated flag for the number '5' is a false positive \u2014 it refers to the ONGLYZA 5 mg dose, which is dose-excluded and is supported by the design/N citations."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "5",
+        "text": "At Week 24, placebo-corrected A1C change was -0.6% for both ONGLYZA 2.5 mg and 5"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "5",
+        "text": "At Week 24, placebo-corrected A1C change was -0.6% for both ONGLYZA 2.5 mg and 5"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "30",
+        "text": "The NDA received June 30, 2008 was approved effective on the date of the approva"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2008",
+        "text": "The NDA received June 30, 2008 was approved effective on the date of the approva"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

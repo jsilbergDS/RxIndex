@@ -1,0 +1,42 @@
+{
+  "app": "NDA204677",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: '3' refers to '3 of 5 readers', which the citation states verbatim as 'Three out of 5 blinded readers must win'."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: '3' is from 'Phase 3', supported by the pivotal trial's phase citation."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: '14595' is a study identifier (excluded category), cited in pivotal_trials.trial_name."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "3",
+        "text": "Co-primary endpoints of sensitivity and specificity of visual assessment of flor"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Neuraceq (florbetaben F18) was a 505(b)(1) new molecular entity NDA given standa"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "14595",
+        "text": "Neuraceq (florbetaben F18) was a 505(b)(1) new molecular entity NDA given standa"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

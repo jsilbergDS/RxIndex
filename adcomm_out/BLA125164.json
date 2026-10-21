@@ -1,0 +1,188 @@
+{
+  "app": "BLA125164",
+  "drug": "MIRCERA",
+  "docs_read": [
+    {
+      "doc_type": "Approv",
+      "doc_id": "fda_c3f47dbe-54f5-53c2-a851-a1e127ab8947"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_2ee9d362-4f74-556e-a9d5-793442e1d727"
+    },
+    {
+      "doc_type": "MedR_P1",
+      "doc_id": "fda_7c70809b-2b9a-5de1-9bb8-68b5e9d1720c"
+    },
+    {
+      "doc_type": "MedR_P2",
+      "doc_id": "fda_85b8bec2-7f7c-5eff-8ca5-6591e35fdcf0"
+    },
+    {
+      "doc_type": "MedR_P3",
+      "doc_id": "fda_07bff45a-68cc-52e6-a91b-fe4e5de36d67"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "No advisory committee was convened for the Mircera BLA itself; the relevant committee was a joint meeting of the Cardiovascular and Renal Drugs Advisory Committee and the Drug Safety and Risk Management Advisory Committee (a class-wide ESA meeting whose recommendations FDA applied to the Mircera label).",
+    "quote": {
+      "doc_type": "Approv",
+      "doc_id": "fda_c3f47dbe-54f5-53c2-a851-a1e127ab8947",
+      "line": 17,
+      "quote": "a joint meeting of the Cardiovascular and Renal Drugs Advisory Committee and the Drug Safety and Risk Management Advisory Committee on September 11, 2007"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_c3f47dbe54f5",
+      "found_lines": [
+        17
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "September 11, 2007 (class-wide ESA advisory committee meeting; not a Mircera-specific meeting)",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_2ee9d362-4f74-556e-a9d5-793442e1d727",
+      "line": 31,
+      "quote": "Safety issues regarding the use of ESAs in the treatment of the anemia of CRF were discussed at a September 11, 2007 joint meeting of the Cardiovascular Drugs and Drug Safety and Risk Management Advisory Committees."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_2ee9d3624f74",
+      "found_lines": [
+        31
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The class-wide committee recommended revising the ESA labeling to indicate a target hemoglobin range of 10 to 12 g/dL (and to describe the supporting studies), dosing consistent with the CHOIR study including an arbitrary maximum dose, and new post-marketing studies; FDA incorporated these class recommendations into the Mircera label.",
+    "quote": {
+      "doc_type": "MedR_P1",
+      "doc_id": "fda_7c70809b-2b9a-5de1-9bb8-68b5e9d1720c",
+      "line": 141,
+      "quote": "The September 2007 FDA Advisory Committee (AC) recommended that ESA class label be revised to indicate a treatment target hemoglobin range of 10 to 12 g/dL, and to describe the published study results that supported this target hemoglobin range."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_7c70809b2b9a",
+      "found_lines": [
+        141
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The class-wide ESA advisory committee recommended that the ESA labeling be revised to indicate a treatment target hemoglobin range of 10 to 12 g/dL.",
+      "change": "The committee's labeling recommendations were incorporated into the Mircera label (and the previously approved ESA labels).",
+      "category": "Safety / Labeling (hemoglobin target)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MedR_P1",
+        "doc_id": "fda_7c70809b-2b9a-5de1-9bb8-68b5e9d1720c",
+        "line": 141,
+        "quote": "The September 2007 FDA Advisory Committee (AC) recommended that ESA class label be revised to indicate a treatment target hemoglobin range of 10 to 12 g/dL, and to describe the published study results that supported this target hemoglobin range.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_7c70809b2b9a",
+          "found_lines": [
+            141
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Approv",
+        "doc_id": "fda_c3f47dbe-54f5-53c2-a851-a1e127ab8947",
+        "line": 17,
+        "quote": "The committees provided recommendations regarding the labeling for all ESA products and these recommendations were incorporated into the previously approved ESA labels, as well as the label for your product.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_c3f47dbe54f5",
+          "found_lines": [
+            17
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee recommended that ESAs be used in chronic kidney disease according to a dosing strategy consistent with the CHOIR study, which specified an arbitrary maximum dose.",
+      "change": "FDA asked the sponsor to propose a maximum Mircera dose paralleling the maximum epoetin alfa dose in CHOIR.",
+      "category": "Dose / Labeling (maximum dose)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MedR_P1",
+        "doc_id": "fda_7c70809b-2b9a-5de1-9bb8-68b5e9d1720c",
+        "line": 39,
+        "quote": "The September 2007 FDA Advisory Committee, however, recommended that ESAs be used in chronic kidney disease according to a dosing strategy consistent with that used in the CHOIR study, which included the specification of an arbitrary maximum dose.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_7c70809b2b9a",
+          "found_lines": [
+            39
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MedR_P1",
+        "doc_id": "fda_7c70809b-2b9a-5de1-9bb8-68b5e9d1720c",
+        "line": 39,
+        "quote": "The sponsor should propose a maximum Mircera dose that parallels the maximum epoetin alfa dose in CHOIR",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_7c70809b2b9a",
+          "found_lines": [
+            39
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee recommended that post-marketing (PMC) studies be performed to further investigate optimal target hemoglobin ranges and to better define a strategy for identifying and managing hyporesponders.",
+      "change": "FDA indicated the committee's discussions would shape the extent and nature of Mircera's post-marketing commitments.",
+      "category": "Post-marketing studies (PMC)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MedR_P1",
+        "doc_id": "fda_7c70809b-2b9a-5de1-9bb8-68b5e9d1720c",
+        "line": 39,
+        "quote": "The AC also recommended that PMC studies be performed to further investigate optimal target hemoglobin ranges as well as to better define a strategy for identifying and managing hyporesponders.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_7c70809b2b9a",
+          "found_lines": [
+            39
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MedR_P3",
+        "doc_id": "fda_07bff45a-68cc-52e6-a91b-fe4e5de36d67",
+        "line": 244,
+        "quote": "discussions at the September 11, 2007 Advisory Committee may impact the extent and nature of the post-marketing clinical studies and the sponsor is encouraged to request a meeting to discuss the impact of the Committee's discussions upon the post-marketing commitments.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_07bff45a68cc",
+          "found_lines": [
+            244
+          ]
+        }
+      }
+    }
+  ],
+  "no_adcom_quote": {
+    "doc_type": "Approv",
+    "doc_id": "fda_c3f47dbe-54f5-53c2-a851-a1e127ab8947",
+    "line": 17,
+    "quote": "Your application was not referred to an FDA advisory committee for review for the following reasons: The safety considerations for approved Erythropoiesis-Stimulating Agents (ESAs) were discussed at a joint meeting of the Cardiovascular and Renal Drugs Advisory Committee and the Drug Safety and Risk Management Advisory Committee on September 11, 2007."
+  },
+  "summary": "No advisory committee was convened specifically for the Mircera BLA (the review and approval letter both state 'Advisory Committee: None' / the application 'was not referred to an FDA advisory committee for review'). However, a class-wide ESA advisory committee (a September 11, 2007 joint meeting of the Cardiovascular and Renal Drugs Advisory Committee and the Drug Safety and Risk Management Advisory Committee) made recommendations that FDA explicitly applied to Mircera: a target hemoglobin range of 10-12 g/dL and supporting study descriptions incorporated into the label, a maximum dose paralleling the CHOIR dosing strategy, and new post-marketing studies on optimal hemoglobin targets and hyporesponder management. Thus the approval was influenced by a class-level advisory committee even though no Mircera-specific meeting was held.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "fda_c3f47dbe54f5",
+    "found_lines": [
+      17
+    ]
+  }
+}

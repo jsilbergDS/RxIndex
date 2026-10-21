@@ -1,0 +1,141 @@
+{
+  "app": "BLA125276",
+  "drug": "ACTEMRA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "d7645a3c-7f16-5559-931a-02e1cfff0768"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "76553ccc-ca30-5296-a395-15313e54d306"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fcb8a3a4-35f1-5233-874f-5b148db2dde1"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "8dd24d5b-a506-5212-b663-88077d6cca2f"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Arthritis Advisory Committee",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "8dd24d5b-a506-5212-b663-88077d6cca2f",
+      "line": 8,
+      "quote": "A meeting of the Arthritis Advisory Committee was convened on July 29, 2008 to discuss the clinical data in the original tocilizumab BLA submission."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "8dd24d5b-a506-5212-b663-88077d6cca2f",
+      "found_lines": [
+        8
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "July 29, 2008 (first review cycle; approval granted January 8, 2010 after Complete Response resubmission)",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "8dd24d5b-a506-5212-b663-88077d6cca2f",
+      "line": 8,
+      "quote": "A meeting of the Arthritis Advisory Committee was convened on July 29, 2008 to discuss the clinical data in the original tocilizumab BLA submission."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "8dd24d5b-a506-5212-b663-88077d6cca2f",
+      "found_lines": [
+        8
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 10-to-1 in favor of approval.",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "8dd24d5b-a506-5212-b663-88077d6cca2f",
+      "line": 8,
+      "quote": "The committee voted 10-to-1 in favor of approval."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "8dd24d5b-a506-5212-b663-88077d6cca2f",
+      "found_lines": [
+        8,
+        569
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Committee members were concerned that tocilizumab raises total cholesterol and LDL, and that this lipid elevation might increase cardiovascular risk; the long-term cardiovascular effect was unknown.",
+      "change": "A postmarketing cardiovascular outcome study was required to assess whether the lipid abnormalities are associated with increased risk of serious cardiovascular events.",
+      "category": "Safety / Postmarketing cardiovascular study",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fcb8a3a4-35f1-5233-874f-5b148db2dde1",
+        "line": 15,
+        "quote": "During the first review cycle, an Advisory Committee meeting was held. Members expressed concern over the unknown cardiovascular effects that may occur because TCZ raises total cholesterol and LDL cholesterol.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fcb8a3a4-35f1-5233-874f-5b148db2dde1",
+          "found_lines": [
+            15
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "d7645a3c-7f16-5559-931a-02e1cfff0768",
+        "line": 75,
+        "quote": "In order to assess whether the lipid abnormalities are associated with an increased risk of cardiovascular thromboembolic events, the Applicant should carry out a cardiovascular outcome study, adequately designed to rule out a moderately increased risk of serious cardiovascular events.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "d7645a3c-7f16-5559-931a-02e1cfff0768",
+          "found_lines": [
+            75
+          ]
+        }
+      }
+    },
+    {
+      "concern": "At the committee meeting, panel members (led by Dr. David Felson, with others agreeing) argued that because the ACR components differed little between 4 mg/kg and 8 mg/kg except for CRP, the correct initial dose for DMARD-inadequate responders was 4 mg/kg rather than 8 mg/kg.",
+      "change": "Labeling for DMARD-inadequate responders allows a starting dose of 4 mg/kg, followed by an increase to 8 mg/kg based on clinical response (rather than starting all patients at 8 mg/kg).",
+      "category": "Dosing / Starting-dose option",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "8dd24d5b-a506-5212-b663-88077d6cca2f",
+        "line": 465,
+        "quote": "He argued that therefore the correct initial dose for DMARD incomplete responders was 4 mg/kg. He acknowledged that in other patient groups, e.g., TNF blocker incomplete responders, that 8 mg/kg provided better efficacy than 4 mg/kg. Other members of the panel agreed with Dr. Felson.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "8dd24d5b-a506-5212-b663-88077d6cca2f",
+          "found_lines": [
+            465,
+            649
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MedR",
+        "doc_id": "8dd24d5b-a506-5212-b663-88077d6cca2f",
+        "line": 242,
+        "quote": "In patients who have had an inadequate response to one or more DMARDs, a starting dose of 4 mg/kg in combination with DMARDs may be considered, followed by an increase to 8 mg/kg based on clinical response.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "8dd24d5b-a506-5212-b663-88077d6cca2f",
+          "found_lines": [
+            242
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Arthritis Advisory Committee met July 29, 2008 during the first review cycle and voted 10-to-1 in favor of approving tocilizumab (Actemra) for RA. The committee's main concern was that tocilizumab's LDL/cholesterol elevations might raise cardiovascular risk, and the FDA review documents tie this concern to a required postmarketing cardiovascular outcome study (approval followed a 2008 Complete Response and was granted January 8, 2010). The committee also debated the 4 mg/kg vs 8 mg/kg starting dose, with panel members arguing 4 mg/kg was the appropriate initial dose for DMARD-inadequate responders, and the approved labeling offers 4 mg/kg as a starting-dose option that can be increased to 8 mg/kg based on response."
+}

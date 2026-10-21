@@ -1,0 +1,62 @@
+{
+  "app": "NDA209569",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "high",
+      "issue": "Result cites Study #3 closure figures (Brilliant Blue 15/100%, Trypan Blue 19/95%, ICG 13/86%, P=0.480) but the n field says Study #3 enrolled only 50 eyes across three groups, which cannot sum to 15+19+13=47 with those denominators being inconsistent, and the closure counts/percentages are labeled to a Study #3 that is never described as a pivotal trial \u2014 potential mislabeling/inconsistency.",
+      "field_note": "internal inconsistency between described pivotal Study #1 and the Study #3 numbers reported as results"
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "medium",
+      "issue": "The '1' and '3' Study identifiers are uncited (false-positive since these are study labels, not efficacy numbers) \u2014 low-severity note.",
+      "severity_note": "false positive"
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "high",
+      "issue": "References 'Study #3' comparative case series but only one pivotal trial (Study #1) is described in the card, creating an internal inconsistency about how many studies exist and which is pivotal.",
+      "field_note": "trial set referenced vs. trials described"
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "Uncited number '1' is the study identifier 'Study #1', a false positive.",
+      "severity_note": "false positive"
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Uncited number '3' is the study identifier 'Study #3', a false positive; however the underlying Study #3 remains undescribed elsewhere in the card.",
+      "severity_note": "false positive for number, but see inconsistency above"
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "1",
+        "text": "Study #1: systematic review of MEDLINE, EMBASE and Cochrane Central Register of "
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "1",
+        "text": "The pivotal supporting evidence (Study #1 meta-analysis) pooled multiple publish"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "3",
+        "text": "The pivotal supporting evidence (Study #1 meta-analysis) pooled multiple publish"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "3",
+        "text": "The pivotal Study #1 meta-analysis author concluded there was no significant dif"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

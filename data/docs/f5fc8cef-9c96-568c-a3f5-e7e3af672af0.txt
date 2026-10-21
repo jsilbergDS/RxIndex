@@ -1,0 +1,1015 @@
+L1: CENTER FOR DRUG EVALUATION ANDRESEARCH
+L2: APPLICATION NUMBER:
+L3: 204781Orig1s000
+L4: STATISTICAL REVIEW(S)
+L5: Seal of the Center for Drug Evaluation and Research, FDA. The seal features a caduceus (a staff with two snakes and wings) in the center, flanked by two scales of justice. The text 'Center for Drug Evaluation and Research' and 'FDA' are visible around the border.
+L6: U.S. Department of Health and Human ServicesFood and Drug AdministrationCenter for Drug Evaluation and ResearchOffice of Translational SciencesOffice of Biostatistics
+L7: STATISTICAL REVIEW AND EVALUATIONCLINICAL STUDIES
+L8: NDA/BLA NDA 204-781Serial Number: Application No SD 1Drug Name: Gadoterate Meglumine (Dotarem) - MRI diagnostic contrast agentIndication(s): Dotarem is a gadolinium-based contrast agent indicated for intravenous use with magnetic resonance imaging (MRI) in brain (intracranial), spine and associated tissues in adults and pediatric patients (from neonate to 17 years of age) to detect and visualize areas with disruption of the blood brain barrier (BBB) and/or abnormal vascularity.Applicant: Guerbet LLCDate(s): NDA Submission: September 20, 2012PDUFDA Date: March 20, 2013Review Priority: PriorityBiometrics Division: OB/DBVStatistical Reviewer: Satish Misra, Ph. D.Concurring Reviewers: Jyoti Zalkikar, Ph. D., Team LeaderThomas E. Gwise, Ph. D., Deputy DirectorDivision of Biostatistics VMedical Division: Division of Medical Imaging Products (DMIP)Clinical Team: Clinical: Barbara Stinson, M. D.Clinical TL/DD: Alex Gorovets, M. D. / Dwaine Rieves, M. D.Project Manager: James W MooreKeywords: Confidence Interval, t-test, Regression Analysis, Missing Values
+L9: Table of Contents
+L10: U.S. DEPARTMENT OF HEALTH AND HUMAN SERVICES.....1FOOD AND DRUG ADMINISTRATION.....1STATISTICAL REVIEW AND EVALUATION .....1LIST OF TABLES.....31. EXECUTIVE SUMMARY .....42. INTRODUCTION .....5    2.1    OVERVIEW .....5        2.1.1 Identified Studies in the review.....6        2.1.2 Analysis Populations .....6    2.2    DATA SOURCES.....63. STATISTICAL EVALUATION .....7    3.1    DATA AND ANALYSIS QUALITY .....7    3.2    EVALUATION OF EFFICACY .....7        3.2.1 Study Design.....7        3.2.2 Demographic and Baseline Characteristics .....10        3.2.3 Patient Disposition .....11        3.2.4 Objective.....11        3.2.5 Statistical Method for Image Evaluation.....11    3.3    RESULTS AND CONCLUSIONS.....14        3.3.1 Primary Efficacy Analysis .....14        3.3.2 Secondary Efficacy Analysis for Study 050.....15        3.3.3 Patient-level Lesion Visualization for Study 050.....17        3.3.4 Pre versus Post Analysis for Study 050.....18        3.3.5 Lesion Level Exploratory Analysis .....19        3.3.6 Evaluation of Safety.....224. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS.....23    4.1    GENDER, RACE, AGE, AND GEOGRAPHIC REGION FOR STUDY 050 .....23    4.2    OTHER SPECIAL/SUBGROUP POPULATIONS .....255. SUMMARY AND CONCLUSIONS.....26    5.1    STATISTICAL ISSUES AND COLLECTIVE EVIDENCE .....26    5.2    CONCLUSIONS AND RECOMMENDATIONS.....27SIGNATURES/DISTRIBUTION LIST.....28
+L11: LIST OF TABLES
+L12: Table 1: Randomized Pivotal Study -050 (Sponsor’s Table) .....
+8
+
+
+Table 2: Non-randomized Pivotal Study -051 (Sponsor’s Table) .....
+9
+
+
+Table 3: Features (Phase 3 Pivotal Trials 050, 051).....
+9
+
+
+Table 4: Patient Demographics and Baseline Characteristics: Randomized Trial DGD-44-050 (Adults) &amp; DGD-44-051 (Adults), Full Analysis Set .....
+10
+
+
+Table 5: Patient Disposition: Randomized Trial DGD-44-050 .....
+11
+
+
+Table 6: Example of scoring system.....
+12
+
+
+Table 7: Rules for handling missing data .....
+13
+
+
+Table 8: Trial 050 Primary Endpoints Results – Pre vs. Paired (FAS): .....
+14
+
+
+Table 9: Trial 051 Primary Endpoints Results – Pre vs. Paired: .....
+15
+
+
+Table 10: Trial 050 Secondary Endpoints (Pediatric 2 Years &amp; Older).....
+16
+
+
+Table 11: Results (Secondary Endpoint) .....
+16
+
+
+Table 12: Results (Secondary Endpoint) .....
+17
+
+
+Table 13: Results (Secondary Endpoint) .....
+18
+
+
+Table 14: Trial 050 Secondary Endpoints Results – Pre vs. Paired: .....
+19
+
+
+Table 15: Study 44-050 – Dotarem Adult Population .....
+20
+
+
+Table 16: Study 050 – Dotarem Adult Population .....
+21
+
+
+Table 17: Study 44-050 Treatment – Dotarem Pediatric Population (2 years &amp; Older) .....
+22
+
+
+Table 18: Trial 050 Primary Endpoints Results – Pre vs. Paired: .....
+23
+
+
+Table 19: Trial 050 Primary Endpoints Results – Pre vs. Paired: .....
+23
+
+
+Table 20: Trial 050 Primary Endpoints Results – Pre vs. Paired: .....
+24
+
+
+Table 21: Trial 050 Primary Endpoints Results – Pre vs. Paired: .....
+25
+L13: 1. EXECUTIVE SUMMARY
+L14: The proposed indication is “Dotarem is a gadolinium-based contrast agent indicated for intravenous use with magnetic resonance imaging (MRI) in brain (intracranial), spine and associated tissues in adults and pediatric patients (from neonate to 17 years of age) to detect and visualize areas with disruption of the blood brain barrier (BBB) and/or abnormal vascularity.”
+L15: The data and analyses provided by the sponsor and additional statistical analyses conducted by this statistical reviewer provide adequate evidence to support the effectiveness and safety claims that the sponsor has made regarding the detection and visualization of lesions in brain, spine and associated tissues in adults and pediatric patients (2 to 18 years of age). However, adequate information was not provided to assess the efficacy of pediatric patients less than 2 years of age.
+L16: There were two Phase-3 trials (DGD-44- 050 and DGD-44-051) undertaken for the development in the US. The sponsor provided safety and efficacy information for these two pivotal trials. The primary efficacy objective of the phase 3 trials to demonstrate superiority of the combined non-contrast and Dotarem MRI over non-contrast MRI using lesion characteristics (assessment of border delineation, degree of contrast enhancement, and internal morphology of the lesions) in CNS lesions with a disruption of the blood brain barrier (BBB) and/or with abnormal vascularity (including tumoral, vascular, inflammatory, or infectious diseases). The sponsor met this pre-specified primary efficacy objective. Additional analyses of efficacy demonstrated that the efficacy of Dotarem is consistent across demographic subgroups and geographic regions.
+L17: One of these Phase-3 studies (DGD-44-050) compared Dotarem with Magnevist and showed, in pre-specified secondary endpoints, no difference in efficacy for both agents. Likewise, improved image quality and diagnostic confidence were consistently shown for all 3 blinded readers.
+L18: Efficacy in the pediatric population was assessed for 38 subjects ages 2 years and older enrolled in the DGD-44- 050 study with analysis for lesion visualization, number of lesions, image quality, confidence in diagnosis, signal intensity and inter and intra reader agreement. The data supported efficacy in this group also. However, for the pediatric population under 2 years of age, sufficient information was not available to conclude efficacy. There were only seven subjects properly identified in this subgroup for efficacy.
+L19: The efficacy results obtained from the supportive studies are consistent with those from the pivotal studies.
+L20: This reviewer concludes that the protocol defined analyses and additional statistical analyses provide adequate evidence to support the proposed indication for Dotarem for improved contrast-enhanced imaging in 2 years and older patients requiring contrast-enhanced MRI of the CNS.
+L21: 2. INTRODUCTION
+L22: Dotarem is a macrocyclic paramagnetic gadolinium (Gd) chelate that causes shortening of relaxation times (T1 and T2) yielding contrast enhancement in magnetic resonance imaging (MRI).
+L23: Dotarem was first approved in France in 1989. In addition to approval for intracranial and spinal MRI, Dotarem is approved for contrast-enhanced MRI of the whole body as well as for contrast-enhanced magnetic resonance angiography (MRA) in pediatrics from neonates to 18 years of age (from age 2 to 18 in UK and Spain) in various countries . . The standard dose throughout the world is 0.1 mmol/kg for CNS, body, and MRA imaging with approval in some countries for an additional 0.2 mmol/kg dose (total 0.3 mmol/kg) for CNS study to increase the diagnostic accuracy of the exam. At this time, in addition to the current application for CNS MRI indication, Guerbet is performing clinical trials in US under Special Protocol Assessment (SPA) for an indication in
+L24: (b) (4)
+L25: 2.1 Overview
+L26: The Sponsor (Guerbet LLC) submitted an IND 65,041 for Dotarem (gadoterate meglumine) to the FDA on June 12, 2002. In early 2003, Guerbet discussed CMC issues with the FDA via three teleconferences. This resulted in additional CMC changes leading to changes in industrial strategy and subsequently, changes in planned manufacturing sites for the US market.
+L27: On September 9, 2009, Guerbet presented the pivotal CNS study DGD-44-050 to the FDA to be conducted under a Special Protocol Assessment (SPA) and proposed a reread of the images from the failed DGD-03-44 CNS study as the second study. The FDA agreed that this was acceptable following the revision of the SPA. The protocol design, statistical analysis plan, and blinded evaluation charter were rewritten and submitted to the FDA on June 11, 2010, with the SPA concurrence on July 29, 2010. The nonclinical studies and data were updated on April 22, 2010 following an FDA request for information.
+L28: The pre-NDA meeting between Guerbet and the Agency was held on June 12, 2012. The FDA agreed that Guerbet's proposed strategy for the Integrated Summary of Efficacy (ISE) and the Integrated Summary of Safety (ISS) was appropriate.
+L29: Guerbet submitted this NDA September 20, 2012. The proposed indication is for intravenous use with magnetic resonance imaging (MRI) in brain (intracranial), spine and associated tissues in adults and pediatric patients (from neonate to 17 years of age) to detect and visualize areas with disruption of the blood brain barrier (BBB) and/or abnormal vascularity. Currently, eight GBCAs have been approved by the FDA and six of these agents are marketed with a CNS imaging indication. However, no GBCA is approved for use in pediatric patients under two years of age. Therefore, this review was granted priority review. The Dotarem application is proposed for marketing at a dose of 0.1 mmol/kg, the same dosage recommended for the other CNS imaging agents.
+L30: 2.1.1 Identified Studies in the review
+L31: The Dotarem efficacy data are derived from two phase 3 studies. The main confirmatory study is known as Study DGD-44-050 (also referred as 050). Phase 3 Study DGD-44-050 is entitled : “Safety and efficacy evaluation of Dotarem® in magnetic resonance imaging (MRI) in patients with central nervous system (CNS) lesions (SENTIO Study)”. The data in this study are important to assessing Dotarem efficacy. The study 050 also provided supportive efficacy data for the pediatric indication (aged 2 years and older) and comparative information of Dotarem®-enhanced MRI with Magnevist®-enhanced MRI.
+L32: Phase 3 Study DGD-44-051 (also referred as 051) is entitled: “Evaluation of MRI with Dotarem® in the diagnosis or follow up assessment of cerebral or spinal tumors. Re-reading of MRI images” This study is also known as Study DGD-3-44 and is a re-read of a previously conducted study; that is, the images had previously been interpreted for other purposes. Because of study limitations, the findings of this study are considered supportive but not the definitive determiner of efficacy.
+L33: 2.1.2 Analysis Populations
+L34: There were 4 analysis populations considered in this submission:
+L35: All Included Patients population (AIP) consists of all patients who met the inclusion/exclusion criteria and signed the informed consent. This population was used for demography, medical history, concomitant medication, and patient disposition summaries, unless otherwise noted.
+L36: The Full Analysis Set (FAS or ITT) consists of all patients having at least one lesion seen and scored on either “pre” or “paired” images, i.e., all patients with valid co-primary endpoint assessments. The statistical analyses were performed for this population. This population is the focus of this review.
+L37: The Per-protocol population (PP) efficacy population - a sub-group of the ITT population and includes all patients who have no significant protocol deviations or violations.
+L38: The safety population - all patients receiving at least one injection of contrast agent, regardless of the quantity.
+L39: 2.2 Data Sources
+L40: This was an electronic submission. The sponsor provided adequate definition files and the data in xpt format. During the analyses by stat team, some additional data and clarification were requested which the sponsor promptly provided.
+L41: The NDA in eCTD and SAS export files of these data are located at:
+L42: \\CDSESUB1/EVSPROD\NDA204781\204781_enx
+L43: 3. STATISTICAL EVALUATION
+L44: 3.1 Data and Analysis Quality
+L45: In support of this submission, the sponsor provided adequate information and data. Summary data were provided in SAS xpt format. During the course of statistical review, some additional data were also requested which the sponsor promptly provided.
+L46: 3.2 Evaluation of Efficacy
+L47: 3.2.1 Study Design
+L48: Study DGD-44-050 is a multicenter, international, randomized, double-blind, fixed sequence (unenhanced MRI followed by either Dotarem- or Magnevist-enhanced MRI), active comparator study. Patients served as their own control for Dotarem evaluations and Magnevist served as an internal validation. This study was conducted in 11 countries with patients coming from US and Europe (France, Germany, Italy, Spain, UK and Austria), Korea and Latin America (Argentina, Brazil and Chile). Dotarem was administered at a dose of 0.1 mmol/kg.
+L49: Adult patients (364) were randomly assigned to receive Dotarem or Magnevist in a 2 (245 in Dotarem) to 1 (119 in Magnevist) ratio. Age range for the adult population was 18 to 94 years. Majority of patients were Caucasian (84.5% for Dotarem and 79.8% for Magnevist). Pediatric patients (38), aged 2-18 years were assigned to the Dotarem group only. A total of 355 adult patients (238 in Dotarem and 117 in Magnevist) completed study.
+L50: An unenhanced MRI (within 28 days of screening) was followed immediately by the contrast-enhanced MRI. MR images of all patients were read by each of the three off-site independent readers blinded to clinical information. The primary endpoint was assessed only among the subjects who received Dotarem. Secondary endpoints were assessed for the pediatric patients and the patients who received Magnevist.
+L51: Table 1: Randomized Pivotal Study -050 (Sponsor’s Table)
+L52: Randomized clinical studies in CNS imaging
+
+Phase of studyStudy IdentifierLocation of Study reportMain Objective of the StudyStudy Design and Type of ControlTest Product(s): Dosage Regimen; Route of AdministrationNumber of injected subjectsHealthy Subjects or Diagnosis of PatientsDuration of TreatmentStudy Status
+
+
+
+Type of study regarding the ApplicationReport Status
+
+Phase III/IVEfficacy and SafetyDGD-44-050Module 5.3.5.1.Efficacy of Dotarem®-enhanced MRI as compared to unenhanced MRI in terms of lesion visualization (border delineation, visualization of internal morphology and degree of contrast enhancement)Multicenter, international, double-blind, randomized, comparative trial with independent expert centralized blinded reading in CNS lesions with a disruption of the BBB and/or with abnormal vascularity (including tumoral, vascular, inflammatory or infectious diseases)Dotarem® 0.1 mmol/kg, IVMagnevist® 0.1 mmol/kg, IVDotarem® = 278Magnevist® = 117Patients with CNS lesionsSingle doseSingle doseCompleteFull
+L53: Study DGD-44-051 (re-read) was a multicenter, open label, Phase 3 study conducted in Europe (France and Germany) and was blinded centralized re-read of the previously conducted Phase 3 study (Protocol DGD-3-44) in 150 patients presenting or suspected of cerebral or spinal tumors, referred to contrast-enhanced MRI of the CNS. Age ranged from 18 to 79 years, and 97.4% of patients were Caucasians. Randomized images were read by three off-site independent readers blinded to clinical information. A total of 150 adult patients completed study.
+L54: Table 2: Non-randomized Pivotal Study -051 (Sponsor’s Table)
+L55: Non-randomized clinical studies in CNS imaging
+
+Phase of studyStudy IdentifierLocation of Study reportMain Objective of the StudyStudy Design and Type of ControlTest Product(s); Dosage Regimen; Route of AdministrationNumber of injected SubjectsHealthy Subjects or Diagnosis of PatientsDuration of TreatmentStudy Status Report Status
+
+
+
+Type of study regarding the Application
+
+Phase IIIbEfficacy and SafetyDGD-03-044Module 5.3.5.1.Efficacy of Dotarem® enhanced-MRI compared to a non-enhanced MRI in the characterization of cerebral and spinal tumorsMulticenter, open-label, using the subject as his/her own control and histology as “standard of truth” for comparisonDotarem® 0.1 mmol/kg, IV150Patients presenting or suspected of having cerebral or spinal tumor(s)Single doseCompleteFull
+
+Phase IIIbEfficacy and SafetyDGD-44-051 (re-read of the DGD-03-044 study)Module 5.3.5.1.Efficacy of Dotarem® enhanced-MRI compared to a non-enhanced MRI in the characterization of cerebral and spinal tumors using histologyMulticenter, open-label, using the subject as his/her own control and histology as “standard of truth” for comparisonDotarem® 0.1 mmol/kg, IV150Patients presenting or suspected of having cerebral or spinal tumor(s)Single doseCompleteFull
+L56: Basic features of two Phase 3 pivotal trials are given below.
+L57: Table 3: Features (Phase 3 Pivotal Trials 050, 051)
+L58: Trial 050Trial 051
+
+
+
+InclusionAdults, known or suspected CNS lesions; peds \geq 2 to &lt; 18 yearsAdults, known brain tumors, 3 lesions max to undergo surgery or biopsy
+
+ExclusionGrade 4/5 renal insufficiency or long QT syndrome1 site for renal failure; no cardiac exclusions
+
+SitesGlobal8/9 sites in France
+
+DesignRandomized, comparator Dotarem/Magnevist comparisonsDotarem only
+
+Drug Admin.Dotarem 2mL/secDotarem 1-2 mL/sec
+
+SafetyLaboratory, vital signs, AEs f/u 24 hrs.Vital signs and AEs f/u 24 hrs.
+L59: 3.2.2 Demographic and Baseline Characteristics
+L60: Demographic data for the 2 pivotal studies, DGD-44-050 and DGD-44-051, are presented in Tables 4 below. Study DGD-44-050 enrolled a somewhat greater number of female than male patients. The age range for the entire adult population was 18 to 94 years. The majority of patients were Caucasian (84.5% for Dotarem and 79.8% for Magnevist). In study DGD-44-051 (the blinded image re-reading of DGD-3-44 MRI scans), there were numerically more male than female patients and a slightly narrower range for age, 18 to 79 years. The majority of patients were Caucasian (97.4%).
+L61: Table 4: Patient Demographics and Baseline Characteristics: Randomized Trial DGD-44-050 (Adults) &amp; DGD-44-051 (Adults), Full Analysis Set
+L62: StudyDGD-44-050DGD-44-051
+
+CharacteristicDotaremMagnevistPediatricDotarem
+
+
+
+Gender, N (%)
+
+Male114 (46.5%)54 (45.4%)54 (45.4%)84 (55.6%)
+
+Female131 (53.4%)64 (54.6%)67 (44.4%)
+
+Age (Yr)
+
+N245119151
+
+Mean (SD)53.2 (14.4)56.0 (14.4)53.9 (13.5)
+
+Median55.157.455.0
+
+Min., Max18.89, 85.119.0, 94.418.0, 79.0
+
+Ethnic Origin, N (%)
+
+Caucasian207 (84.5 %)95 (79.8 %)147 (97.4 %)
+
+Asian15 (12.6 %)
+
+Black27 (11.0 %)8 (6.7 %)1 (0.7%)
+
+Other9 (3.7 %)1 (0.8 %)3 (2.0 %)
+
+2 (0.8 %)
+
+Height (cm)
+
+N242119136
+
+Mean (SD)168.3 (9.9)167.3 (10.0)169.8 (9.1)
+
+Median168.0168.0170.0
+
+Min., Max138.0, 194.0146.0, 196.0141.0, 197.0
+
+Weight (kg)
+
+N244118151
+
+Mean (SD)76.0 (17.0)76.7 (16.4)73.2 (13.8)
+
+Median74.075.072.0
+
+Min., Max43.0, 139.044.0, 135.441.0, 120.0
+
+BMI (kg/m2)
+
+N241118136
+
+Mean (SD)26.8 (5.3)27.3 (4.9)25.6 (4.0)
+
+Median26.126.825.1
+
+Min., Max16.7, 57.316.6, 47.316.9, 30.2
+L63: Abbreviations: BMI = body mass index; cm = centimeter; kg = kilogram; m2 = meter squared; Max = maximum value; Min = minimum value; N = number of patients; SD = standard deviation; yr = year
+L64: 3.2.3 Patient Disposition
+L65: In study DGD-44-050, 377 adult patients were screened, 364 were enrolled, and 357 patients were administered contrast agent (Dotarem 240, Magnevist 117). The Full Analysis Set (FAS) for off-site MRI readings was 345, 347, and 354 patients for Readers 1, 2, and 3, respectively. A total of 355 (97.5%) adult patients completed the trial. The most common reasons for discontinuation were adverse events (2 patients) and technical incidents (3 patients).
+L66: Table 5: Patient Disposition: Randomized Trial DGD-44-050
+L67: CategoryDotaremMagnevistAll Included Patients, N245119Safety (Treated) Population, N240117Full Analysis Set, NR1 = 345; R2 = 347; R3 = 354Completed the Study, N (%)238 (97.1%)117 (98.3%)Number of Patients Prematurely Discontinued, N (%)    Withdrew Consent1 (0.4%)0 (0.0%)    Adverse Event2 (0.8%)0 (0.0%)    Patient Lost to Follow-up1 (0.4%)0 (0.0%)    Technical Incident2 (0.8%)1 (0.8%)    Other*1 (0.4%)1 (0.8%)
+L68: Abbreviations: N = number of patients; R1 = Reader 1 (Vossoug); R2 = Reader 2 (Tsiouri); R3 = Reader 3 (Maldjia)
+L69: *Other reasons reported as psychological disorder (Dotarem), failed inclusion criteria (metal coil in brain), no drug
+L70: In DGD-44-051, 151 adult patients were in the trial, of which 2 withdrew consent to participate, leaving 149 in the FAS. A total of 149 (98.7%) completed the study.
+L71: 3.2.4 Objective
+L72: The primary objective was to demonstrate the superiority of Dotarem-enhanced MRI as compared to unenhanced MRI in terms of lesion visualization (border delineation, internal morphology and degree of contrast enhancement) in CNS lesions with a disruption of the BBB and/or with abnormal vascularity (including tumoral, vascular, inflammatory or infectious diseases) (off-site assessment).
+L73: 3.2.5 Statistical Method for Image Evaluation
+L74: This primary analysis was performed within the Dotarem group at the patient level using these off-site readings. Each image reader reviewed all images from “Pre”, “Post” and “Paired” MRI modalities and rated up to a limit of the 5 largest representative lesions identified, employing a 3-point scale; unevaluable (0), seen but imperfectly (1), or seen completely/perfectly (2). For each co-primary variable, a subject score was calculated by adding up all within-subject lesion scores (up to 5 lesions) and the within-subject difference between the “Pre” and “Paired” scores (primary analysis) and the “Pre” and “Post” scores (secondary analysis) was then derived for each variable.
+L75: The Full Analysis Set (FAS) was used for the analyses reported in this document. The definition of the FAS was: all patients with valid co-primary endpoint assessments.
+L76: For each co-primary endpoint, a patient score was computed by:
+L77: • summing all lesion scores within patient for each MRI modality (per patient "Paired" scores sum and "Pre" scores sum);
+• calculating within patient the difference between the 2 MRI modalities ("Paired" scores sum and "Pre" scores sum).
+L78: An example below in Table 6 is given to understand the scoring system:
+L79: Table 6: Example of scoring system
+L80: Subject #Lesion #Score PreScore PairedSubject's score Paired – Pre*
+
+
+
+011124 - 2 = 2
+
+211
+
+301
+
+021125 - 4 = 1
+
+222
+
+310
+
+4-1
+
+50-
+
+031123 - 4 = -1
+
+221
+
+31-
+L81: (*) No matching lesion needed to compute the subject's score
+L82: The primary criteria, the sum of lesions' scores instead of mean of lesions' scores within patient was used, in order to reflect the number of lesions detected.
+L83: Statistical hypotheses for each of co-primary endpoints
+L84: \mu and s are respectively the expected mean and standard deviation of the patient score (within subject difference ["Paired" scores sum – "PRE" scores sum]) for each of co-primary endpoints in the Dotarem® group.
+L85: \mu_1 = 0.5 (average minimum patient score if there is benefit to use Dotarem®)
+L86: \mu_0 = 0.0 (average score in case of no benefit of Dotarem®)
+L87: s = 2.5
+L88: The success hypothesis (sum of lesion scores in "Paired" MRI is at least in average 0.5 higher than sum of lesion scores in "PRE" MRI) is based upon the Multihance® label results where this outcome was observed in average for the 3 readers of a phase III pivotal study MH-105 (referred as study A) which included a population of patients similar to the one targeted in the present study.
+L89: Null hypothesis: H_0 : \mu_1 = \mu_0 ; \text{one-sided } \alpha = 0.025
+L90: Alternative hypothesis: H_1 : \mu_1 &gt; \mu_0 ; 1-\beta = 0.80
+L91: The efficacy goal was to show that the paired patient scores for each primary endpoint component were superior for the paired images compared to the uncontrasted images. In both DGD-44-050 and DGD-44-051, each co-primary criterion was analyzed using a multiple regression model, modeling the patient's score as a function of the MRI modality ("Pre", "Post" and "Paired") with adjustment for centers and repeated measures for each patient.
+L92: To be successful, 2 out of 3 off-site blinded readers had to meet the alternative hypothesis for the 3 co-primary variables in the Dotarem group: a statistically significant (with 1-sided p \leq 0.025) positive difference in score means in border delineation, morphology and degree of contrast enhancement.
+L93: In study DGD-44-050, a similar statistical approach was employed to compare Dotarem and Magnevist for these same co-primary variables. (In DGD-44-051, there was only a Dotarem group.)
+L94: In addition to the co-primary variables, the secondary criteria for the evaluation of efficacy were also assessed in both DGD-44-050 and DGD-44-051, such as sum of scores of lesion visualization on "Post only" and "Pre" at patient level.
+L95: Handling of Missing Data
+L96: Two situations of missing data could occur in the study for the primary endpoints: a patient with no lesion and a patient with non-assessable images. In these situations, rules for handling missing data on primary endpoints for a given off-site reading are described in the following table 7.
+L97: Table 7: Rules for handling missing data
+L98: Missing SituationStatusScore PreScore PairedScore (Paired-Pre)Included in Analysis
+
+
+
+No lesionNo lesion on Pre and Paired---No
+
+No lesion on Paired but lesions on Pre20-2Yes
+
+No lesion on Pre but lesions on Paired022Yes
+
+Not assessableSubject with Pre or Contrast agent MRI not performed---No
+
+Non assessable on Pre and Paired---No
+
+Non assessable on Pre but assessable on Paired022Yes
+
+Assessable on Pre but non assessable on Paired20-2Yes
+L99: 3.3 Results and Conclusions
+L100: There were different sets of readers for two studies -050 and -051.
+L101: 3.3.1 Primary Efficacy Analysis
+L102: The primary analysis consisted of a within-group comparison of the “Paired” (U + C) versus the Pre-Dotarem (U) images for the 3 co-primary variables. The Study DGD-44-050 achieved all components of its primary endpoint as summarized in Table 8. The statistical assessments demonstrated the superiority of the “Paired” image evaluations over the “Pre” (unenhanced) images for CNS lesion visualization for all 3 co-primary variables for all 3 readers favoring the “Paired” over the “Pre” Dotarem administration images with a statistically significant difference (p &lt; 0.001) for all within-group comparisons for each of the 3 co-primary variables for each of the 3 readers.
+L103: Table 8: Trial 050 Primary Endpoints Results – Pre vs. Paired (FAS): Patients Score (Sum) for Lesion Visualization, by Reader (mean, SD)
+L104: ReadersReader 1Reader 2Reader 3
+
+ModalityPrePairedPrePairedPrePaired
+
+
+
+N Patients224230224230222235
+
+Border Delineation Score
+
+Mean (SD)1.06 (1.23)3.30 (2.64)1.62 (1.43)4.49 (2.94)1.43 (1.29)2.54 (2.30)
+
+Estimate*1.093.351.654.571.432.58
+
+Prob &gt; T*&lt; 0.001&lt; 0.001&lt; 0.001
+
+Internal Morphology Score
+
+Mean (SD)0.97 (1.05)3.70 (2.63)1.76 (1.24)4.49 (2.93)1.45 (1.13)2.93 (2.30)
+
+Estimate*0.973.721.804.571.422.96
+
+Prob &gt; T*&lt; 0.001&lt; 0.001&lt; 0.001
+
+Contrast Enhancement Score
+
+Mean (SD)0.01 (0.20)3.11 (2.52)0.01 (0.15)3.73 (2.67)0.01 (0.13)2.95 (2.44)
+
+Estimate*0.053.180.053.810.023.01
+
+Prob &gt; T*&lt; 0.001&lt; 0.001&lt; 0.001
+L105: *Estimate and p-values based on Regression Model: Lesion border delineation score = Treatment group + Session + Treatment group x Session + Region, Repeated Session within subject / type=CS
+L106: For Study DGD-44-051 the blinded image reviews and the subsequent statistical assessments demonstrated the superiority of the “Paired” (Dotarem-enhanced) image evaluations over the “Pre” (unenhanced) images for lesion visualization for all 3 co-primary variables for all 3 readers favoring the “Paired” readings with a statistically significant difference (p &lt; 0.001) for each of the 3 co-primary variables for each of the 3 readers (Table 9).
+L107: Table 9: Trial 051 Primary Endpoints Results – Pre vs. Paired: Patients Score (Sum) for Lesion Visualization, by Reader (mean, SE)
+L108: ReadersReader 1Reader 2Reader 3
+
+ModalityPrePairedPrePairedPrePaired
+
+
+
+N Patients149149149149149149
+
+Border Delineation Score
+
+Mean (SE)0.94 (0.07)1.98 (0.07)1.41 (0.08)2.18 (0.08)0.34 (0.08)1.62 (0.08)
+
+Difference* (SE)1.05 (0.08)0.77 (0.08)1.28 (0.10)
+
+95% CI of difference(0.88, 1.21)(0.62, 0.92)(1.07, 1.48)
+
+Internal Morphology Score
+
+Mean (SE)1.09 (0.07)2.23 (0.07)1.34 (0.08)2.28 (0.08)0.67 (0.08)2.41 (0.08)
+
+Difference* (SE)1.14 (0.07)0.94 (0.07)1.74 (0.09)
+
+95% CI of difference(1.00, 1.29)(0.80, 1.08)(1.56, 1.92)
+
+Contrast Enhancement Score
+
+Mean (SE)0.00 (0.06)2.06 (0.08)0.00 (0.07)2.11 (0.07)0.00 (0.07)2.21 (0.07)
+
+Difference* (SE)2.06 (0.08)2.10 (0.10)2.21 (0.10)
+
+95% CI of difference(1.90, 2.22)(1.91, 2.29)(2.02, 2.40)
+L109: *p-value , all analyses, &lt; 0.001
+L110: Abbreviations: CI = confidence interval; Paired = side-by-side comparison of MRI scans obtained before and after Dotarem administration; Pre = MRI obtained before Dotarem administration; SE = standard error
+L111: 3.3.2 Secondary Efficacy Analysis for Study 050
+L112: Among the pediatric patients within Study 050, the average visualization scores also showed a generally consistent pattern of improvement following Dotarem administration (Table 10). This pattern was also found in multiple other subsets such as patients grouped by gender and ethnicity.
+L113: Table 10: Trial 050 Secondary Endpoints (Pediatric 2 Years &amp; Older)Results – Pre vs. Paired:Patients Score (Sum) for Lesion Visualization, by Reader (mean, SD)
+L114: ReadersReader 1Reader 2Reader 3
+
+ModalityPrePairedPrePairedPrePaired
+
+
+
+N Patients*313234353336
+
+Border Delineation Score
+
+Mean (SD)1.42 (1.09)2.47 (1.52)1.18 (1.03)3.51 (2.50)1.06 (0.66)1.36 (1.10)
+
+Difference1.052.330.30
+
+95% CI on Diff(0.40, 1.70)(1.43, 3.23)(-0.12, 0.72)
+
+Internal Morphology Score
+
+Mean (SD)1.13 (0.88)2.75 (1.50)1.41 (0.78)3.51 (2.48)1.06 (0.56)1.81 (1.09)
+
+Difference1.622.10.75
+
+95% CI on Diff(1.01, 2.23)(1.24, 2.96)(0.35, 1.15)
+
+Contrast Enhancement Score
+
+Mean (SD)01.81 (1.09)02.69 (2.03)01.64 (1.25)
+
+Difference1.812.691.64
+
+95% CI on Diff(1.43, 2.19)(1.99, 3.39)(0.21, 2.05)
+L115: * FAS – Full Analysis Set or Efficacy Evaluable
+L116: Dotarem, compared to Magnevist, demonstrated similar diagnostic performance in terms of lesion visualization endpoints (Table 11). No significant difference between the performance of Dotarem and Magnevist for all 3 co-primary variables for the 3 off-site readers was noted (Table 12).
+L117: Table 11: Results (Secondary Endpoint)Lesion Visualization Scores with MagnevistPaired vs. Pre (Patient Level)FAS Adults: Randomized Trial DGD-44-050
+L118: ReadersReader 1Reader 2Reader 3
+
+ModalityPrePairedPrePairedPrePaired
+
+
+
+N Patients111114113114113116
+
+Border Delineation Score
+
+Estimate1.303.671.654.571.702.94
+
+Difference2.382.911.24
+
+p-value&lt;0.001&lt;0.001&lt;0.001
+
+Internal Morphology Score
+
+Estimate1.144.001.824.581.513.13
+
+Difference2.862.761.62
+
+p-value&lt;0.001&lt;0.001&lt;0.001
+
+Contrast Enhancement Score
+
+Estimate0.093.470.103.810.043.19
+
+Difference3.383.713.15
+
+p-value&lt;0.001&lt;0.001&lt;0.001
+L119: Table 12: Results (Secondary Endpoint)Dotarem vs. Magnevist (Patient Level)FAS Adults: Randomized Trial DGD-44-050
+L120: ReadersReader 1Reader 2Reader 3
+
+
+
+Border Delineation Score
+
+Dot-Mag-0.30-0.05-0.29
+
+95% CI(Dot-Mag)(-0.75, 0.16)(-0.53, 0.44)(-0.71, 0.13)
+
+Internal Morphology Score
+
+Dot-Mag-0.19-0.11-0.11
+
+95% CI(Dot-Mag)(-0.59, 0.20)(-0.53, 0.32)(-0.44, 0.22)
+
+Contrast Enhancement Score
+
+Dot-Mag-0.26-0.10-0.15
+
+95% CI(Dot-Mag)(-0.65, 0.12)(-0.50, 0.30)(-0.51, 0.21)
+L121: Conclusion – No significant difference between the performance of Dotarem and Magnevist for all 3 co-primary variables for the 3 off-site readers.
+L122: 3.3.3 Patient-level Lesion Visualization for Study 050
+L123: Table 13 displays the proportion of patients with paired read as better, or not better as the pre-contrast MRI images. Table 13 shows improvement for the three visualization parameters for all three readers; more lesions were seen in the paired images than in the pre-contrast images alone; and the percentage of patients with improved lesion visualization for Paired images compared to Pre images ranged from 56% to 94%.
+L124: Table 13: Results (Secondary Endpoint)
+Patient-level Lesion Visualization Results with Dotarem
+FAS Adults: Randomized Trial DGD-44-050
+L125: Reader 1Reader 2Reader 3
+
+N = 231N = 232N = 237
+
+
+
+Border Delineation :
+
+    Not Better*28 (12%)7 (3%)88 (37%)
+
+    Better195 (84%)215 (93%)132 (56%)
+
+    Missing8 (4%)10 (4%)17 (7%)
+
+Internal Morphology :
+
+    Not Better*5 (2%)8 (3%)33 (14%)
+
+    Better218 (94%)214 (93%)187 (79%)
+
+    Missing8 (4%)10 (4%)17 (7%)
+
+Contrast Enhancement :
+
+    Not Better*15 (6%)6 (3%)12 (5%)
+
+    Better208 (90%)216 (93%)208 (88%)
+
+    Missing8 (4%)10 (4%)17 (7%)
+L126: * Not better = # of patient with paired score is the same as or worse than the pre score
+Better = # of patients paired score is greater than the pre score.
+Missing = # of patients with missing images
+L127: 3.3.4 Pre versus Post Analysis for Study 050
+L128: The Study 050 also achieved all components of secondary endpoint of comparing pre versus post (U versus C) as summarized in Table 14. The Table shows that the average patient scores for the post ( C ) image results were higher than the pre or uncontrasted (U) image results. All comparisons are consistent with success upon the primary endpoint.
+L129: Table 14: Trial 050 Secondary Endpoints Results – Pre vs. Paired: Patients Score for Lesion Visualization, by Reader
+L130: ReadersReader 1Reader 2Reader 3
+
+ModalityPrePostPrePostPrePost
+
+N Patients*224228224230222226
+
+
+
+Border Delineation Score
+
+Mean1.062.951.623.851.432.35
+
+SD(1.23)(2.56)(1.43)(2.74)(1.29)(2.18)
+
+Difference1.892.230.92
+
+p-value**&lt;0.001&lt;0.001&lt;0.001
+
+Internal Morphology Score
+
+Mean0.972.401.762.531.451.63
+
+SD(1.05)(2.09)(1.24)(1.93)(1.13)(1.37)
+
+Difference1.430.770.18
+
+p-value**&lt;0.001&lt;0.0010.04
+
+Contrast Enhancement Score
+
+Mean0.013.150.013.700.013.04
+
+SD(0.20)(2.51)(0.15)(2.68)(0.13)(2.41)
+
+Difference3.143.693.03
+
+p-value**&lt;0.001&lt;0.001&lt;0.001
+L131: * FAS – Full Analysis Set or Efficacy Evaluable
+L132: ** p-value (t-test), all analyses
+L133: 3.3.5 Lesion Level Exploratory Analysis
+L134: The scale of 0, 1, and 2 used to rate visualization in studies - 050 and – 051 may be difficult to interpret and have little clinical relevance. This becomes especially challenging when these scores are added for up to five largest lesions to arrive at a total score on a patient level and then nominal or ordinal level scores converted to continuous level and averaged. These averages may have little or no clinical relevance. The total score may be biased as some patients, especially severely ill patients may contribute more to total. Per recommendation of the clinical review team additional lesion level analyses were performed.
+L135: The exploratory analytical examination of the distribution of visualization outcomes have consistently shown improved visualization with gadoterate. The following table 15 shows the distribution of patients by the lesions visualized by Readers (a patient could have up to five lesions scored) for Border Delineation using the FAS patient population. A similar distribution pattern was found for other co-primary endpoints. Highlighted is the distribution of patients with “seen completely” lesions, the highest visualization score.
+L136: Table 15: Study 44-050 – Dotarem Adult PopulationNumber of Patients by Five Largest Lesions Visualized &amp; Lesion Score
+L137: Lesion Score*Study 44-050 - Border Delineation - Adult, Reader 1Total Number of Lesions (All)
+
+First Largest LesionSecond Largest LesionThird Largest LesionFourth Largest LesionFifth Largest Lesion
+
+PrePairPrePairPrePairPrePairPrePairPrePair
+
+
+
+0 (%)95 (42)1 (1)2401119050144 (41)2 (1)
+
+1 (%)107 (48)67 (29)272022911091176 (50)97 (22)
+
+2 (%)22 (10)162 (70)77424302902331 (9)331 (77)
+
+Total2242305894355320291424351430
+
+Lesion Score*Study 44-050 - Border Delineation - Adult, Reader 2Total Number of Lesions (All)
+
+First Largest LesionSecond Largest LesionThird Largest LesionFourth Largest LesionFifth Largest Lesion
+
+PrePairPrePairPrePairPrePairPrePairPrePair
+
+0 (%)34060101000420
+
+1 (%)18717404302201703431
+
+2 (%)3229311918525213110516
+
+Total22423083119458525521831395517
+
+Lesion Score*Study 44-050 - Border Delineation - Adult, Reader 3Total Number of Lesions (All)
+
+First Largest LesionSecond Largest LesionThird Largest LesionFourth Largest LesionFifth Largest Lesion
+
+PrePairPrePairPrePairPrePairPrePairPrePair
+
+0 (%)39270605020592
+
+1 (%)1641284538281716101111264204
+
+2 (%)1910543822421701227196
+
+Total2222355676364123271323350402
+L138: * 0= Unevaluable 1= Seen, but imperfectly, 2=Seen completely/perfectly
+L139: Note – First refers to first lesion seen and provides number of patients with a lesion score of 0, 1, or 2 seen first by the readers. Second refers to second largest lesion seen in patients who also had first lesion seen by the same reader. And so on. Fifth means four largest lesions were already seen by the same reader in a patient and also had a visible fifth lesion. By design, only 5 largest lesions seen by a reader were documented. Lesion size was not documented. First lesion seen appears to be representative of performance of Dotarem in visualizing CNS lesions. It is also a per-patient analysis.
+L140: The exploratory analyses are consistent with success upon the primary endpoint. These analyses also indicate improved visualization of the paired images compared to the pre-contrast images. The following table 16 summarizes the imaging efficacy outcomes for adults based upon a distribution of the number of patients with various scores for the “first” lesion listed within the dataset tabulations.
+L141: Table 16: Study 050 – Dotarem Adult PopulationNumber of Patients Categorized by “First Lesion” Visualization Score*
+L142: Lesion Score*Readers
+
+Reader 1Reader 2Reader 3
+
+Border Delineation - Adult
+
+PrePairedPrePairedPrePaired
+
+
+
+0 (%)95 (42)1 (1)34 (15)0 (0)39 (18)2 (1)
+
+1 (%)107 (48)67 (29)187 (84)1 (1)164 (74)128 (54)
+
+2 (%)22 (10)162 (70)3 (1)229 (99)19 (8)105 (45)
+
+Total # of Patients224230224230222235
+
+Internal Morphology- Adult
+
+PrePairedPrePairedPrePaired
+
+0 (%)77120145
+
+1 (%)1445222120250
+
+2 (%)322402296180
+
+Total # of Patients224230224230222235
+
+Contrast Enhancement - Adult
+
+PrePairedPrePairedPrePaired
+
+0 (%)224262231322113
+
+1 (%)018029034
+
+2 (%)018611881188
+
+Total # of Patients224230224230222235
+L143: * 0= Unevaluable 1= Seen, but imperfectly, 2=Seen completely/perfectly
+L144: Pediatric Population for Study 44-050
+L145: Pediatric Population for Study 44-050 analyses also indicate improved visualization of the paired images compared to the pre-contrast images. The following table summarizes the pediatric imaging efficacy outcomes based upon a distribution of the number of patients with various scores for the “first” lesion listed within the dataset tabulations.
+L146: Table 17: Study 44-050 Treatment – Dotarem Pediatric Population (2 years &amp; Older)
+    # of Patients by Lesion Score for first detected/visualized lesion - FAS Population
+L147: Lesion Score*Readers
+
+Reader 1Reader 2Reader 3
+
+Border Delineation - Pediatric
+
+PrePairedPrePairedPrePaired
+
+
+
+0 (%)3 (10)0 (0)7 (21)0 (0)5 (15)3 (8)
+
+1 (%)23 (74)7 (22)26 (76)1 (3)27 (82)26 (72)
+
+2 (%)5 (16)25 (78)1 (3)34 (97)1 (3)7 (20)
+
+Total # of Patients313234353336
+
+Internal Morphology - Pediatric
+
+PrePairedPrePairedPrePaired
+
+0700042
+
+12403402814
+
+2032035120
+
+Total # of Patients313234353336
+
+Contrast Enhancement - Pediatric
+
+PrePairedPrePairedPrePaired
+
+0318346337
+
+1020307
+
+2022026022
+
+Total # of Patients313234353336
+L148: * 0= Unevaluable 1= Seen, but imperfectly, 2=Seen completely/perfectly
+L149: All these exploratory analyses are consistent with success upon the primary endpoint.
+L150: 3.3.6 Evaluation of Safety
+L151: For the safety evaluation report, readers are referred to the clinical review.
+L152: 4. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L153: 4.1 Gender, Race, Age, and Geographic Region for Study 050
+L154: For the DGD 44-050_study, findings by gender, race, age, ethnicity, and geographic region were assessed. The results indicated a general consistency across each stratification for each of the 3 variables for each reader. The details are provided in Tables 15, 16, 17 and 18.
+L155: Table 18: Trial 050 Primary Endpoints Results – Pre vs. Paired: Patients Score (Sum) for Lesion Visualization, by Sex &amp; Reader (mean, SD)
+L156: ReadersReader 1Reader 2Reader 3
+
+SubgroupPrePairedPrePairedPrePaired
+
+
+
+Border Delineation Score
+
+Male (Means)(N, SD)0.91106, 1.173.44107, 2.821.68107, 1.404.82110, 2.991.41108, 1.302.73109, 2.59
+
+Female (Means)(N, SD)1.19118, 1.273.18123, 2.481.56117, 1.464.18120, 2.861.46114, 1.282.36126, 2.02
+
+Internal Morphology Score
+
+Male (Means)(N, SD)0.92106, 1.033.91107, 2.781.85107, 1.284.82110, 2.981.44108, 1.093.18109, 2.578
+
+Female (Means)(N, SD)1.02118, 1.083.51123, 2.501.67117, 1.214.18120, 2.861.46114, 1.172.71126, 2.02
+
+Contrast Enhancement Score
+
+Male (Means)(N, SD)0106, 03.44107, 2.620107, 04.05110, 2.830.02108, 0.193.25109, 2.61
+
+Female (Means)(N, SD)0.03118, 0.282.83123, 2.400.03117, 0.214.44120, 2.490114, 02.70126, 2.25
+L157: Abbreviations: Paired = side-by-side comparison of MRI scans obtained before and after Dotarem administration; Pre = MRI obtained before Dotarem administration; SD = standard deviation
+L158: Table 19: Trial 050 Primary Endpoints Results – Pre vs. Paired: Patients Score (Sum) for Lesion Visualization, by Race &amp; Reader (mean, SE)
+L159: ReadersReader 1Reader 2Reader 3
+
+SubgroupPrePairedPrePairedPrePaired
+
+
+
+Border Delineation Score
+
+Caucasian (Means)(N, SD)0.98190, 1.153.13195, 2.431.51190, 1.384.37195, 2.851.35188, 1.212.38199, 2.08
+
+Non-Caucasian (Means)(N, SD)1.5334, 1.564.2635, 3.482.2334, 1.625.1435, 3.371.8834, 1.593.3636, 3.17
+
+Internal Morphology Score
+
+Caucasian (Means)(N, SD)0.89190, 0.953.55195, 2.471.67190, 1.144.37195, 2.841.39188, 1.082.79199, 2.10
+
+Non-Caucasian (Means)(N, SD)1.4434, 1.444.5135, 3.342.2434, 1.675.1435, 3.371.8234, 1.343.6936, 3.09
+
+Contrast Enhancement Score
+
+Caucasian (Means)(N, SD)0190, 02.93195, 2.350.01190, 0.153.66195, 2.540188, 02.80199, 2.28
+
+Non-Caucasian (Means)(N, SD)0.0934, 0.514.1135, 3.150.0334, 0.174.4635, 3.240.0634, 0.343.7836, 3.09
+L160: Abbreviations: Paired = side-by-side comparison of MRI scans obtained before and after Non-Caucasian include Black, Asian and Other.. Pre = MRI obtained before Dotarem administration; SD = standard deviation
+L161: Table 20: Trial 050 Primary Endpoints Results – Pre vs. Paired: Patients Score (Sum) for Lesion Visualization, by Age &amp; Reader (mean, SE)
+L162: ReadersReader 1Reader 2Reader 3
+
+SubgroupPrePairedPrePairedPrePaired
+
+
+
+Border Delineation Score
+
+&lt; 65 (Means)(N, SD)1.03165, 1.203.38170, 2.811.58167, 1.354.65171, 3.061.48165, 1.402.58175, 2.46
+
+≥ 65 (Means)(N, SD)1.1559, 1.323.0760, 2.111.7457, 1.654.0359, 2.531.3057, 0.912.4060, 1.77
+
+Internal Morphology Score
+
+&lt; 65 (Means)(N, SD)0.99165, 1.103.77170, 2.801.76167, 1.254.65171, 3.051.52165, 1.202.94175, 2.41
+
+≥ 65 (Means)(N, SD)0.9359, 0.923.4860, 2.091.7457, 1.234.0059, 2.521.2857, 0.882.8760, 1.97
+
+Contrast Enhancement Score
+
+&lt; 65 (Means)(N, SD)0.02165, 0.233.21170, 2.720.01167, 0.083.86171, 2.840.01165, 0.162.98175, 2.58
+
+≥ 65 (Means)(N, SD)059, 02.8360, 1.830.0457, 0.263.3759, 2.07057, 02.8760, 1.97
+L163: Abbreviations: Paired = side-by-side comparison of MRI scans obtained before and after Dotarem administration; Pre = MRI obtained before Dotarem administration; SD = standard deviation
+L164: Table 21: Trial 050 Primary Endpoints Results – Pre vs. Paired: Patients Score (Sum) for Lesion Visualization, by Geographic Region &amp; Reader (mean, SD)
+L165: ReadersReader 1Reader 2Reader 3
+
+SubgroupPrePairedPrePairedPrePaired
+
+
+
+Border Delineation Score
+
+Europe (Means)(N, SD)0.92113, 1.063.07115, 2.471.49112, 1.274.28114, 2.931.37111, 1.102.48115, 2.19
+
+USA (Means)(N, SD)1.3354, 1.473.8158, 2.691.8055, 1.774.7061, 2.891.5754, 1.572.6362, 2.35
+
+South America (Means)(N, SD)0.7131, 0.642.2931, 1.271.1031, 0.604.0029, 2.330.9431, 0.571.6932, 0.86
+
+Korea (Means)(N, SD)1.5426, 1.654.3826, 3.772.4226, 1.705.4626, 3.562.0026, 1.723.6226, 3.35
+
+Internal Morphology Score
+
+Europe (Means)(N, SD)0.81113, 0.883.50115, 2.521.67112, 1.154.28114, 2.931.41111, 1.052.96115, 2.17
+
+USA (Means)(N, SD)1.1354, 1.184.2158, 2.691.8755, 1.324.6961, 2.871.6554, 1.332.7462, 2.30
+
+South America (Means)(N, SD)0.7431, 0.512.6131, 1.231.3231, 0.474.0029, 2.330.9731, 0.312.1332, 0.87
+
+Korea (Means)(N, SD)1.6226, 1.584.6926, 3.582.4226, 1.775.4626, 3.561.8526, 1.414.2326, 3.37
+
+Contrast Enhancement Score
+
+Europe (Means)(N, SD)0113, 03.03115, 2.370.02112, 0.193.70114, 2.660111, 02.96115, 2.32
+
+USA (Means)(N, SD)054, 03.2258, 2.76055, 03.7061, 2.60054, 02.9762, 2.60
+
+South America (Means)(N, SD)031, 02.1931, 1.17031, 03.0029, 1.85031, 02.0032, 1.01
+
+Korea (Means)(N, SD)0.1226, 0.594.3026, 3.300.0426, 0.204.7726, 3.390.0826, 0.394.0826, 3.26
+L166: Abbreviations: Paired = side-by-side comparison of MRI scans obtained before and after Dotarem administration; Pre = MRI obtained before Dotarem administration; SD = standard deviation
+L167: 4.2 Other Special/Subgroup Populations
+L168: There were no special subgroups or populations identified by the clinical team for analyses in this review.
+L169: 5. SUMMARY AND CONCLUSIONS
+L170: 5.1 Statistical Issues and Collective Evidence
+L171: Currently, eight GBCAs have been approved by the FDA and six of these agents are marketed with a CNS imaging indication. However, no GBCA is approved for use in pediatric patients under two years of age. This resulted in the designation for a priority review for Dotarem application. The Dotarem is proposed for marketing at a dose of 0.1 mmol/kg, the same dosage recommended for the other CNS imaging agents.
+L172: During the review of this submission, it was noted that all three primary visualization endpoints are soft endpoints and may be subjective. Also, the scale of 0, 1, and 2 used to rate visualization in studies - 050 and - 051 may be difficult to interpret and have little clinical relevance.
+L173: GBCAs with a CNS imaging indication have all followed the same phase 3 drug development paradigm in which studies generally assessed improved anatomical visualization of CNS lesions. FDA has long accepted improved visualization as indicative of efficacy and the precedent aligns with the guidance published in 2004.
+L174: Our guidance states that, “Ordinarily the ability to locate and outline normal structures or distinguish between normal and abnormal anatomy can speak for itself with respect to the clinical value of the information.” The ability to provide clinically useful information is the main determiner of efficacy for medical imaging drugs and the Dotarem phase 3 studies followed the FDA-accepted visualization paradigm.
+L175: The Dotarem efficacy data were derived from two phase 3 studies. The main confirmatory study is Study DGD-44-050. This study enrolled adults as well as pediatric subjects aged two years or more. These data are important to assessing Dotarem efficacy. The other study DGD-44-051 (also was known as Study DGD-3-44) and was a re-read of a previously conducted study; that is, the images had previously been interpreted for other purposes. Because of study limitations, the findings of this study are considered as supportive but not the definitive determiner of efficacy from statistical point of view.
+L176: In the study 050, adults were randomized, with a two to one ratio randomizing the subjects to either Dotarem or Magnevist. Magnevist is an approved drug and is indicated for use with MRI in adults and pediatric patients (2 years of age and older) to visualize lesions with abnormal vascularity in the brain, spine and associated tissues as well as visualization of lesions with abnormal vascularity of the head and neck and the body (excluding the heart). This was a valid comparison. The results found that Dotarem and the Magnevist performance were similar.
+L177: Among the pediatric patients within Study 050, the average visualization scores also showed a generally consistent pattern of improvement following Dotarem administration. This pattern was also found in multiple other subsets such as patients grouped by gender and ethnicity.
+L178: The major supportive study, Study 051, also produced results indicating improved lesion visualization with Dotarem.
+L179: Adequate data pertinent to patients aged &lt; 2 years to evaluate safety and effectiveness were not provided. The applicant has supplied no PK data for pediatric patients, and pilot clinical trial data are limited to only 7 patients aged less than 2 years. These patients may be at greatest safety risks due to immature drug metabolism and excretion processes.
+L180: The meeting of the Medical Imaging Drug Advisory Committee was held on 2/14/2013 to address, among other things, the consideration of approval of Dotarem for use in pediatric patients less than two years of age.
+L181: The committee voted unanimously (17 to 0) for the finding of favorable “risk-to-benefit” assessment for use of Dotarem in CNS MRI among adults and pediatric patients aged two years and older. The committee voted against approving the drug for children younger than two years of age (10 to 6, with 1 abstention). Those who did vote for approval found the cited by the applicant historical data obtained outside US to be sufficient. The majority voted against approving Dotarem in infants and neonates for the lack of clinical and pharmacokinetic data in this age group as well as for the lack of supportive juvenile animal data.
+L182: 5.2 Conclusions and Recommendations
+L183: This statistical reviewer’s conclusion is that adequate evidence is provided to approve the following indication for Dotarem:
+L184: DOTAREM is a gadolinium-based contrast agent indicated for intravenous use with magnetic resonance imaging (MRI) in brain (intracranial), spine and associated tissues in adults and pediatric patients (from 2 years of age and older) to detect and visualize areas with disruption of the blood brain barrier (BBB) and/or abnormal vascularity.
+L185: Adequate data pertinent to patients aged &lt; 2 years to evaluate safety and effectiveness were not provided. The applicant has supplied no PK data for pediatric patients, and pilot clinical trial data are limited to only 7 patients aged less than 2 years. The safety and efficacy for this group is inconclusive based on the information submitted in this application.
+L186: SIGNATURES/DISTRIBUTION LIST
+L187: Signatures:
+L188: Primary Statistical Reviewer: Satish Misra, Ph. D.Date: February 22, 2013
+L189: Statistical Team Leader: Jyoti Zalkikar, Ph. D.,
+L190: Biometrics Deputy Division Director: Thomas E. Gwise, Ph. D.Division of Biostatistics V
+L191: Distribution List:
+L192: Project Manager:James W MooreMedical Officer:Barbara Stinson, MDMedical Team Leader:Alex Gorovets MDPrimary Statistical Reviewer:Satish Misra, Ph. DStatistical Team Leader:Jyoti Zalkikar, Ph. D.Biometrics Deputy Division Director:Thomas E. Gwise, Ph. D. DBVBiometrics Division Director:Rajeshwari Sridhara, Ph. D., DBVLillian Patrician
+L193: File: C:\CDER\2013 IND NDA\NDA 204-781 Dotarem Stat Review 26Feb2013.doc
+L194: -----This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.-----
+L195: /s/-----
+L196: SATISH C MISRA
+L197: 03/05/2013
+L198: JYOTI ZALKIKAR
+L199: 03/05/2013
+L200: I concur with overall conclusion of the primary reviewer. I find that the primary reviewer's lesion-level exploratory analyses (section 3.3.5) are redundant and don't add any meaning to the scoring system.
+L201: THOMAS E GWISE
+L202: 03/05/2013
+L203: I concur with the overall conclusion that the data submitted provide support for approving the drug under conditions stated in the reviews, but some analysis methods chosen by the sponsor are difficult to interpret with respect to clinical meaning.
+L204: Seal of the Center for Drug Evaluation and Research, FDA. The seal features a caduceus (a staff with two snakes and wings) in the center, surrounded by the text 'Center for Drug Evaluation and Research' and 'FDA' at the bottom.
+L205: U.S. Department of Health and Human ServicesFood and Drug AdministrationCenter for Drug Evaluation and ResearchOffice of Translational SciencesOffice of Biostatistics
+L206: STATISTICAL REVIEW AND EVALUATION
+L207: CLINICAL STUDIES
+L208: NDA/BLA Serial Number: 204781Drug Name: DotaremIndication(s): Dotarem a gadolinium-based contrast agent indicated for intravenous use with magnetic resonance imaging (MRI) in brain (intracranial), spine and associated tissues in adults and pediatric patients (from 2 years of age and older) to detect and visualize areas with disruption of the blood brain barrier (BBB) and/or abnormal vascularity.Applicant: Guerbet LLCDate(s): Primary Review: February 20, 2013Secondary Review: February 22, 2013PDUFa date : March 20, 2013Review Priority: Priority 6 monthsBiometrics Division: Division of Biometrics VSecondary Statistical Reviewer: Jyoti Zalkikar, Ph.D.Concurring Reviewers: Thomas Gwise, Ph.D.Medical Division: Division of Medical Imaging ProductsClinical Team: Barbara Stinson, M.D., Medical ReviewerAlex Gorovets, M.D, Clinical Team LeaderDwaine Rieves, M.D., Division DirectorProject Manager: James Moore
+L209: Keywords: Visualization endpoints, Visualization score, Missing data.
+L210: EXECUTIVE SUMMARY
+L211: Note: The written primary statistical review of this product has been delayed. This secondary review is submitted before the primary review.
+L212: The sponsor had submitted an application for Dotarem, a gadolinium-based contrast agent, indicated for intravenous use with magnetic resonance imaging (MRI) in brain (intracranial), spine and associated tissues in adults and pediatric patients (from neonates and up) to detect and visualize areas with disruption of the blood brain barrier (BBB) and/or abnormal vascularity. That prompted FDA to convene an Advisory Committee (AC) Meeting to discuss this application, especially the lack of data originating in patients under 2 years of age (only 7 patients) from safety point of view. The AC recommended that application should not be approved in pediatric patients less than 2 years of age.
+L213: Division of Medical Imaging adopted the AC recommendation and is now reviewing this application for adults and pediatric patients of 2 years and older.
+L214: The recommended dose of Dotarem is 0.2 mL/kg (0.1 mmol/kg) body weight administered as an intravenous bolus injection at a flow rate of approximately 2 mL/second for adults and 1-2 mL/second for children delivered by manual or by power injection. Each mL of Dotarem Injection contains 376.9 mg gadoterate meglumine (equivalent to 0.5 mmol/mL). The sponsor claims that its thermodynamic stability and kinetic stability are such that this drug is very stable and its gadolinium remains chelated, but offers no proof and that is why its label is likely to have following class warning of NEPHROGENIC SYSTEMIC FIBROSIS (NSF):
+L215: Gadolinium-based contrast agents (GBCAs) increase the risk for NSF among patients with impaired elimination of the drugs. Avoid use of GBCAs in these patients unless the diagnostic information is essential and not available with non-contrasted MRI or other modalities. NSF may result in fatal or debilitating fibrosis affecting the skin, muscle and internal organs.
+L216: • The risk for NSF appears highest among patients with:- Chronic, severe kidney disease (GFR &lt;30 mL/min/1.73m2), or- Acute kidney injury.• Screen patients for acute kidney injury and other conditions that may reduce renal function. For patients at risk for chronically reduced renal function (e.g. age &gt;60 year, hypertension, diabetes), estimate the glomerular filtration rate (GFR) through laboratory testing (5.1).
+L217: For patients at risk for NSF, do not exceed the recommended DOTAREM dose and allow a sufficient period of time for elimination of the drug from the body prior to re-administration.
+L218: Dotarem was evaluated in two well-controlled Phase III clinical trials studying its use in the central nervous system (Study DGD -44-050 henceforth 050 and Study DGD-44-051 henceforth 051). In both studies, patients received Dotarem at a dose of 0.2mL/kg (0.1 mmol/kg) body weight.
+L219: Study 050 is a phase III (USA and Korean) or IV (other countries), multicenter, double-blind, randomized, fixed sequences (unenhanced MRI followed by either Dotarem-enhanced MRI or Magnevist-enhanced MRI), comparative trial which is primarily to compare the efficacy and safety of Dotarem in MRI in adult and pediatric patients with brain or spine lesions and secondarily to confirm and validate these outcomes with an active comparator, Magnevist. A total number of 364 patients were enrolled in the study. Dotarem and Magnevist were randomly allocated to adult patients according to a blinded randomization list in a 2 to 1 ratio. The population of 38 pediatric patients underwent an unenhanced MRI immediately followed by Dotarem-enhanced MRI.
+L220: In Study 050, the Dotarem arm enrolled 245 adults and 38 pediatric patients aged 2 years and older. Among the adult patients, there were 114 (46.5%) men and 131 (53.5%) women with a mean age of 53 years (range 18 to 85 years), the racial and ethnic representations were 84% Caucasian, 11% Asian, 4% Black, and 1% other racial or ethnic groups.
+L221: Study 050 was designed to demonstrate superiority of Dotarem MRI to non-contrast MRI for lesion visualization in adult patients. For this study, pre-contrast (Pre), post-contrast (Post), and pre-plus-post contrast images (Paired) were independently evaluated by three blinded readers for lesion border delineation, internal morphology and contrast enhancement of up to five largest lesions using a scale of 0 to 2 : unevaluable (0), seen but imperfectly (1), and seen completely/perfectly (2). For each endpoint, a patient score will be computed by: i&gt; Adding up all lesion scores within subject for each MRI modality (per subject “Paired” scores sum and “Pre” scores sum). ii&gt; Calculating within subject difference between the 2 MRI modalities (“Paired” scores sum – “Pre” scores sum). Lesion counting was also automatically performed for Pre, Post and Paired image sets in calculating the scores sum (Pre, Post and Paired). Readers were blinded to the clinical information. Two situations of missing data can possibly occur in the study: patients with no lesions and patients with non-assessable images. That is why the number of patients is varied between three readers.
+L222: Following table gives the rules that the sponsor used to impute missing data.
+L223: Rules for Handling Missing Data on Primary Endpoints for a Given Off-site Reader Missing SituationsRuleScore PreScore PairedScore (Paired-Pre)Included in Analysis
+
+
+
+No lesionNo lesion seen on "Pre" and "Paired"---No
+
+No lesion seen on "Paired" but lesions seen on "Pre"20-2Yes
+
+No lesion seen on "Pre" but lesions seen on "Paired"022Yes
+
+Non-assessableSubject with "Pre" or Dotarem® MRI not performed---No
+
+Non-assessable on "Pre" and "Paired"---No
+
+Non-assessable on "Pre" but assessable on "Paired"022Yes
+
+Assessable on "Pre" but non-assessable on "Paired"20-2Yes
+L224: Table 1 displays a comparison of paired images (pre-and post-contrast) versus pre-contrast images with respect to the difference in the mean score (after imputing the missing data) and with respect to the proportion of patients with paired read as better, or not better as the pre-contrast MRI images. Table 1 shows that based on a patient-level analysis 0.1 mmol/kg Dotarem provided a statistically significant (p-value &lt; 0.001 for paired t-test) improvement for the three visualization parameters for all three readers; more lesions were seen in the paired images than in the pre-contrast images alone; and the percentage of patients with improved lesion visualization for Paired images compared to Pre images ranged from 56% to 94%.
+L225: Table 1: Patient-level Lesion Visualization Results with Dotarem - Study 050
+L226: Reader 1Reader 2Reader 3
+
+N = 231N = 232N = 237
+
+
+
+Border Delineation :
+
+Difference in Mean Score (a)2.26*2.89*1.17*
+
+Not Better (b)28 (12%)7 (3%)88 (37%)
+
+Better195 (84%)215 (93%)132 (56%)
+
+Missing8 (4%)10 (4%)17 (7%)
+
+Internal Morphology :
+
+Difference in Mean Score (a)2.74*2.75*1.54*
+
+Not Better (b)5 (2%)8 (3%)33 (14%)
+
+Better218 (94%)214 (93%)187 (79%)
+
+Missing8 (4%)10 (4%)17 (7%)
+
+Contrast Enhancement :
+
+Difference in Mean Score (a)3.09*3.69*2.92*
+
+Not Better (b)15 (6%)6 (3%)12 (5%)
+
+Better208 (90%)216 (93%)208 (88%)
+
+Missing8 (4%)10 (4%)17 (7%)
+L227: *: Statistically significant (by paired t-test)
+L228: (a) Difference of mean score = (paired mean score) – (pre mean score)
+L229: (b) Not better = paired mean score is the same as or worse than the pre mean score
+L230: Better = paired mean score is greater than the pre mean score.
+L231: Missing = patients with missing images
+L232: The internal validity of the results with Dotarem was evaluated using the active comparator, Magnevist. The primary efficacy endpoints for lesion visualization, were evaluated by comparing the result with Dotarem with that of lesion visualization endpoints in patients treated with Magnevist. Table 2 shows the comparison between Dotarem and Magnevist that showed no significant differences between the 2 contrast agents for all 3 co-primary endpoints for the all 3 readers.
+L233: Table 2: Lesion Visualization Results with Dotarem and Magnevist - Study 050
+L234: Reader 1Reader 2Reader 3
+
+n1=231,n2=114n1=232,n2=115n1=237,n2=117
+
+
+
+Border Delineation :
+
+Difference in Mean Score (a) (SE)- 0.28 (0.23)- 0.04 (0.25)- 0.29 (0.21)
+
+95% Confidence Interval(- 0.73, 0.17)(- 0.52, 0.45)(- 0.71, 0.13)
+
+Internal Morphology :
+
+Difference in Mean Score (a) (SE)- 0.19 (0.20)- 0.10 (0.22)- 0.11 (0.17)
+
+95% Confidence Interval(- 0.58, 0.20)(- 0.52, 0.33)(- 0.44, 0.22)
+
+Contrast Enhancement :
+
+Difference in Mean Score (a) (SE)- 0.25 (0.19)- 0.08 (0.20)- 0.14 (0.18)
+
+95% Confidence Interval(- 0.63, 0.12)(- 0.47, 0.31)(- 0.49, 0.21)
+L235: The performance of Dotarem in 38 pediatric patients (aged 2 years and older) was similar to those seen in adults.
+L236: Study 051 was a re-read study with Dotarem arm enrolling 83 (55%) men and 67 (45%) women with a mean age of 53 years (range 18 to 79 years), and the racial and ethnic representations were 97% Caucasian, 1% Black, and 2% other racial or ethnic groups. This study was not randomized with active control (another GBCA) arm and therefore considered as supportive study. It showed similar results as the adult population of Study 050.
+L237: COMMENTS AND CONCLUSIONS
+L238: Comments:
+L239: • The scale of 0, 1, and 2 used to rate visualization in study 50 may be difficult to interpret and have little clinical relevance.
+• Visualization ratings are subjective and in consideration of the contrast enhancement, can be influenced by many factors including the difficulty in masking (blinding) contrast and non-contrast treatments in imaging studies.
+L240: This application is approvable from the statistical view point in spite of the drawbacks of visualization endpoints because the (secondary) comparison with Magnevist (another approved GBCA) showed no difference in a randomized trial (study 050). The statistical team would like to express is that in the future, the agency should consider entertaining visualization endpoints (based on scores) only in randomized, active controlled, non-inferiority studies.
+L241: -----This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.-----
+L242: /s/-----
+L243: JYOTI ZALKIKAR02/26/2013
+L244: THOMAS E GWISE02/26/2013
+L245: STATISTICS FILING CHECKLIST FOR A NEW NDA/BLA
+L246: NDA Number: 204781
+L247: Applicant: Guerbet
+L248: Stamp Date: 9/20/2012
+L249: Drug Name: Dotarem
+L250: NDA/BLA Type: NDA
+L251: On initial overview of the NDA/BLA application for RTF:
+L252: Content ParameterYesNoNAComments
+
+
+
+1Index is sufficient to locate necessary reports, tables, data, etc.x
+
+2ISS, ISE, and complete study reports are available (including original protocols, subsequent amendments, etc.)x
+
+3Safety and efficacy were investigated for gender, racial, and geriatric subgroups investigated (if applicable).x
+
+4Data sets in EDR are accessible and do they conform to applicable guidances (e.g., existence of define.pdf file for data sets).x
+L253: IS THE STATISTICAL SECTION OF THE APPLICATION FILEABLE?     Yes
+L254: If the NDA/BLA is not fileable from the statistical perspective, state the reasons and provide comments to be sent to the Applicant.
+L255: Please identify and list any potential review issues to be forwarded to the Applicant for the 74-day letter.
+L256: Content Parameter (possible review concerns for 74-day letter)YesNoNAComment
+
+
+
+Designs utilized are appropriate for the indications requested.x
+
+Endpoints and methods of analysis are specified in the protocols/statistical analysis plans.x
+
+Interim analyses (if present) were pre-specified in the protocol and appropriate adjustments in significance level made. DSMB meeting minutes and data are available.x
+
+Appropriate references for novel statistical methodology (if present) are included.x
+
+Safety data organized to permit analyses across clinical trials in the NDA/BLA.x
+
+Investigation of effect of dropouts on statistical analyses as described by applicant appears adequate.x
+L257: Satish C. Misra, Ph. D.
+L258: 12/27/2012
+L259: Reviewing Statistician
+L260: Date
+L261: Anthony Mucci, Ph. D.
+L262: 12/27/2012
+L263: Acting Supervisor/Team Leader
+L264: Date
+L265: File name: 5_Statistics Filing Checklist for a New NDA_BLA110207
+L266: -----This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.-----
+L267: /s/-----
+L268: SATISH C MISRA
+L269: 12/27/2012
+L270: ANTHONY G MUCCI
+L271: 12/27/2012

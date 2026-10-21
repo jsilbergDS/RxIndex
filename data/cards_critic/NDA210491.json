@@ -1,0 +1,47 @@
+{
+  "app": "NDA210491",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "high",
+      "issue": "The placebo result text says LS mean -0.6 and TEZ/IVA 3.4, but the citation table shows N=256/245 aligned so placebo=-0.6 and TEZ/IVA=3.4 is consistent; however the p-value 'p<0.0001' and treatment difference '4.0 (3.1, 4.8)' are supported \u2014 the placebo within-group p-value in the quote is 0.06 (-1.3, 0), not flagged, so this is acceptable (note only)."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "high",
+      "issue": "N text states 'IVA N=156, TEZ/IVA N=161' as if parallel arms, but Trial 108 is a crossover study; the FAS total is 244 patients and the N=161/156/161 figures are period-level treatment counts, so labeling them as separate arm Ns misrepresents the crossover design."
+    },
+    {
+      "field": "approval_program.priority_review.basis",
+      "severity": "medium",
+      "issue": "The date 'August 23, 2017' derives from a citation reading '8/23/17'; the automated flag on '2017' is a false positive since the citation supports the date (low-severity note)."
+    },
+    {
+      "field": "approval_program.orphan_drug.orphan_indication",
+      "severity": "medium",
+      "issue": "Citation from doc 6edf0f52 gives orphan designation date as April 24, 2014 while the summary/doc d541455b quote gives 6/15/17 for 'orphan therapy designation'; the two cited dates conflict internally."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "The claim 'Transaminase elevations noted with SYMDEKO or ivacaftor' has no supporting citation quote among the three provided."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "The placebo N in the result text (256 in the n field) versus the result table N=256/245 differs from the n field's 248/256 split (248 TEZ/IVA, 256 placebo vs table 245 TEZ/IVA analyzed), a minor N-set inconsistency worth noting."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/priority_review/basis",
+        "number": "2017",
+        "text": "TEZ/IVA was granted priority review designation on August 23, 2017"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

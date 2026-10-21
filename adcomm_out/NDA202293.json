@@ -1,0 +1,139 @@
+{
+  "app": "NDA202293",
+  "drug": "FARXIGA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "f64a366f-714c-5133-bb69-433dfc018878"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "d89833e5-caff-564d-b328-676d7e8ed520"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "eba5f7f8-dca5-5063-b3e4-0876e15b0b07"
+    },
+    {
+      "doc_type": "Approv",
+      "doc_id": "e101adf0-7f62-5b33-a6c4-7191bd65928d"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "f64a366f-714c-5133-bb69-433dfc018878",
+      "line": 124,
+      "quote": "On December 12th 2013 an Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC) meeting was convened to"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "f64a366f-714c-5133-bb69-433dfc018878",
+      "found_lines": [
+        124
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "December 12, 2013 (resubmission cycle). An earlier EMDAC meeting was held July 19, 2011 during the first review cycle, which ended in a Complete Response.",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "d89833e5-caff-564d-b328-676d7e8ed520",
+      "line": 170,
+      "quote": "On December 12, 2013, an Advisory Committee meeting was held to discuss the resubmitted dapagliflozin application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "d89833e5-caff-564d-b328-676d7e8ed520",
+      "found_lines": [
+        170
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "At the December 12, 2013 EMDAC, members voted 13 Yes to 1 No that the benefits of dapagliflozin outweigh its identified risks and support marketing; a separate question on acceptable cardiovascular risk profile passed 10 Yes to 4 No. (At the July 19, 2011 first-cycle AC the vote on approval had been 6 Yes to 9 No.)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "f64a366f-714c-5133-bb69-433dfc018878",
+      "line": 130,
+      "quote": "Yes =13, No=1, Abstain=0"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "f64a366f-714c-5133-bb69-433dfc018878",
+      "found_lines": [
+        130
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Advisory committee members, including oncology experts, were unwilling to fully dismiss the numeric imbalance in bladder cancer cases favoring the comparator, and advised FDA that the signal be made prominent to prescribers and patients.",
+      "change": "FDA required the bladder cancer imbalance to be described in the Warnings and Precautions section of the label rather than the applicant's proposed non-specific malignancy language.",
+      "category": "Safety / Labeling (Warnings and Precautions)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "f64a366f-714c-5133-bb69-433dfc018878",
+        "line": 131,
+        "quote": "Members with expertise in oncology were not ready to completely dismiss the bladder cancer finding as due to chance but acknowledged that the large residual uncertainty around the estimate limited interpretability of the signal. These experts were not concerned enough to ask for additional pre-marketing data related to bladder cancer but did advise FDA to feature this imbalance prominently in labeling and to follow this potential risk in the post-marketing setting.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "f64a366f-714c-5133-bb69-433dfc018878",
+          "found_lines": [
+            131
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "f64a366f-714c-5133-bb69-433dfc018878",
+        "line": 152,
+        "quote": "The Division prefers that the identified signal be described in the Warnings and Precautions section of the label. The bladder cancer imbalance was the basis for requiring a post-marketing study and the Warning and Precautions section of the label is appropriate for describing potential serious risks.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "f64a366f-714c-5133-bb69-433dfc018878",
+          "found_lines": [
+            152
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The advisory committee panel struggled with the unresolved bladder cancer signal and agreed it was important to collect further data in the post-marketing setting rather than require additional pre-marketing studies.",
+      "change": "FDA imposed a post-marketing requirement (PMR 2121-6) to assess bladder cancer risk by following patients beyond completion of the DECLARE cardiovascular outcomes trial until 66 bladder cancer events are observed.",
+      "category": "Safety / Post-marketing requirement (PMR)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "eba5f7f8-dca5-5063-b3e4-0876e15b0b07",
+        "line": 46,
+        "quote": "Panel members struggled with the bladder cancer issue, and agreed it was important to collect further data post-marketing.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "eba5f7f8-dca5-5063-b3e4-0876e15b0b07",
+          "found_lines": [
+            46
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Approv",
+        "doc_id": "e101adf0-7f62-5b33-a6c4-7191bd65928d",
+        "line": 61,
+        "quote": "2121-6 To assess the risk of bladder cancer associated with dapagliflozin, conduct adequate follow-up beyond completion of the cardiovascular outcomes trial (DECLARE) to observe a total of 66 events of bladder cancer, with 80% power to exclude a relative risk of 2.0 for dapagliflozin versus placebo, assuming a 2-sided alpha of 5%.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "e101adf0-7f62-5b33-a6c4-7191bd65928d",
+          "found_lines": [
+            61
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "Dapagliflozin (FARXIGA) was discussed at an Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC) meeting on December 12, 2013 during its resubmission cycle; the panel voted 13-1 that benefits outweighed risks and 10-4 that the cardiovascular risk profile was acceptable, clearing the drug for approval after a prior 2012 Complete Response. The committee's central unresolved concern was a numeric imbalance in bladder cancer cases: oncology experts could not fully dismiss it and advised FDA to feature it prominently in labeling and to follow it post-marketing. In response, FDA placed the bladder cancer imbalance in the Warnings and Precautions section of the label and required a post-marketing study (PMR 2121-6) to further assess bladder cancer risk beyond the DECLARE cardiovascular outcomes trial."
+}

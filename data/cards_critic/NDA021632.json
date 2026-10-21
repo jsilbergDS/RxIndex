@@ -1,0 +1,62 @@
+{
+  "app": "NDA021632",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "medium",
+      "issue": "The number 601 is not present in any citation quote; it is a computed sum (300+301) and no quote states 601 treated patients."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False positive: '256' and '245' are supported by citations that spell them out ('Two hundred and fifty-six', 'Two hundred and forty-five')."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "False positive: '300' is supported by the citation spelling it out ('Three hundred patients received ERAXIS')."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False positive: '2006' is a date year inferred from 'date of this letter'; dates are excluded and this is not an efficacy/safety number."
+    },
+    {
+      "field": "advisory_committee.convened",
+      "severity": "low",
+      "issue": "advisory_committee is null; acceptable if the review does not state an AC was convened, but note it is unverified."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "256",
+        "text": "256 patients randomized and treated (131 anidulafungin, 125 fluconazole); 245 in"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "245",
+        "text": "256 patients randomized and treated (131 anidulafungin, 125 fluconazole); 245 in"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "601",
+        "text": "601 treated (300 ERAXIS, 301 fluconazole); clinically evaluable population 231 a"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "300",
+        "text": "601 treated (300 ERAXIS, 301 fluconazole); clinically evaluable population 231 a"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2006",
+        "text": "ERAXIS (anidulafungin) NDA 21-632 was originally submitted April 25, 2003, recei"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

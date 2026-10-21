@@ -1,0 +1,237 @@
+{
+  "app": "NDA202611",
+  "drug": "MYRBETRIQ",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "178e4227-2b8b-5393-9cf6-7f7d35c61b99"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "1c5c0450-a934-5d3a-83c9-3fe6ba51aeca"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "1771771e-b40f-59e7-a880-9e1c2df0d258"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "bb94c8ff-7ea8-5187-a998-f6b6c7dc0777"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Reproductive Health Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "178e4227-2b8b-5393-9cf6-7f7d35c61b99",
+      "line": 266,
+      "quote": "On April 5, 2012 a Reproductive Health Drugs Advisory Committee meeting was held to discuss the efficacy and safety data for mirabegron as a new molecular entity."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "178e4227-2b8b-5393-9cf6-7f7d35c61b99",
+      "found_lines": [
+        266
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "April 5, 2012",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "1771771e-b40f-59e7-a880-9e1c2df0d258",
+      "line": 126,
+      "quote": "The Advisory Committee for Reproductive Health Drugs (ACRHD) of the Food and Drug Administration, Center for Drug Evaluation and Research, met on April 5, 2012."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "1771771e-b40f-59e7-a880-9e1c2df0d258",
+      "found_lines": [
+        126
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted in favor on all three questions. On efficacy/benefit it voted Yes 8, No 4; on safety Yes 9, No 3; and on the overall benefit-risk question supporting approval, Yes 7, No 4, Abstain 1. The majority agreed mirabegron was safe and effective and that the benefit-risk assessment supported approval.",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "178e4227-2b8b-5393-9cf6-7f7d35c61b99",
+      "line": 272,
+      "quote": "Committee voted Yes 7, No 4, Abstain 1"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "178e4227-2b8b-5393-9cf6-7f7d35c61b99",
+      "found_lines": [
+        272
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Advisory Committee members were concerned that the mirabegron-associated increases in blood pressure seen in phase 1 and phase 3 studies could translate into increased cardiovascular events after marketing.",
+      "change": "FDA required a postmarketing (PMR) claims-database cardiovascular outcomes study to assess CV risk in mirabegron users versus non-users.",
+      "category": "Safety / Postmarketing requirement (cardiovascular)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "178e4227-2b8b-5393-9cf6-7f7d35c61b99",
+        "line": 227,
+        "quote": "The majority of the AC members at the meeting expressed some concern that the findings of increased mean blood pressures changes from baseline reported in phase 1 and 3 studies could result in increased cardiovascular outcomes postmarketing.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "178e4227-2b8b-5393-9cf6-7f7d35c61b99",
+          "found_lines": [
+            227
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "178e4227-2b8b-5393-9cf6-7f7d35c61b99",
+        "line": 274,
+        "quote": "The safety concerns raised by the committee regarding cardiovascular outcomes and reports of neoplasms will be further evaluated through postmarketing required studies.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "178e4227-2b8b-5393-9cf6-7f7d35c61b99",
+          "found_lines": [
+            274
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Advisory Committee members were concerned about the increased reporting of neoplasms in the mirabegron 100 mg group in the long-term extension study (178-CL-049).",
+      "change": "FDA required a postmarketing (PMR) observational cohort study to further assess the potential mirabegron-associated risk of new malignancies.",
+      "category": "Safety / Postmarketing requirement (neoplasms)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "178e4227-2b8b-5393-9cf6-7f7d35c61b99",
+        "line": 239,
+        "quote": "to perform additional postmarketing evaluation of this potential safety finding of increased reporting of neoplasms in the long term extension study and requested a consult from the Division of Epidemiology II.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "178e4227-2b8b-5393-9cf6-7f7d35c61b99",
+          "found_lines": [
+            239
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "178e4227-2b8b-5393-9cf6-7f7d35c61b99",
+        "line": 274,
+        "quote": "The safety concerns raised by the committee regarding cardiovascular outcomes and reports of neoplasms will be further evaluated through postmarketing required studies.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "178e4227-2b8b-5393-9cf6-7f7d35c61b99",
+          "found_lines": [
+            274
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Some Advisory Committee members recommended starting all patients at the lower 25 mg dose, which appeared to represent the lowest effective dose and could reduce exposure-related adverse events.",
+      "change": "The recommendations on efficacy and dosing, including the 25 mg starting dose, were incorporated into the product labeling.",
+      "category": "Dosing / Labeling",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "bb94c8ff-7ea8-5187-a998-f6b6c7dc0777",
+        "line": 1409,
+        "quote": "some Advisory Committee members have recommended starting all patients at mirabegron 25mg daily.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "bb94c8ff-7ea8-5187-a998-f6b6c7dc0777",
+          "found_lines": [
+            1409
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "178e4227-2b8b-5393-9cf6-7f7d35c61b99",
+        "line": 274,
+        "quote": "The majority of the recommendations regarding efficacy and dosing were incorporated into labeling.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "178e4227-2b8b-5393-9cf6-7f7d35c61b99",
+          "found_lines": [
+            274
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Some Advisory Committee members expressed concern about the two reported hepatic adverse events (cases meeting Hy's Law) in the mirabegron program.",
+      "change": "The liver function test findings from the pivotal trials and a reference to the cases meeting Hy's Law were described in the product labeling.",
+      "category": "Safety / Labeling (hepatic)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "178e4227-2b8b-5393-9cf6-7f7d35c61b99",
+        "line": 216,
+        "quote": "Although there were some members of the Advisory Committee who expressed concerns regarding the two reported hepatic adverse events, after review of the limited data from the available reports, I concur with the clinical review team to describe the liver function test findings from the pivotal clinical trials and a reference to the cases that met Hy",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "178e4227-2b8b-5393-9cf6-7f7d35c61b99",
+          "found_lines": [
+            216,
+            252
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "178e4227-2b8b-5393-9cf6-7f7d35c61b99",
+        "line": 216,
+        "quote": "to describe the liver function test findings from the pivotal clinical trials and a reference to the cases that met Hy",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "178e4227-2b8b-5393-9cf6-7f7d35c61b99",
+          "found_lines": [
+            216
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Some Advisory Committee members expressed concern about the delayed hypersensitivity reactions reported in clinical trials, including serious episodes of leukoclastic vasculitis.",
+      "change": "Leukoclastic vasculitis was included as an adverse event in the Clinical Trials Experience section of the final mirabegron labeling.",
+      "category": "Safety / Labeling (hypersensitivity)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "178e4227-2b8b-5393-9cf6-7f7d35c61b99",
+        "line": 252,
+        "quote": "Although there were some members of the Advisory Committee who expressed concerns regarding the delayed hypersensitivity reactions, after review of the limited data from the available reports, I concur with the clinical review team that the rare reports of these serious episodes of leukoclastic vasculitis should be included in labeling.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "178e4227-2b8b-5393-9cf6-7f7d35c61b99",
+          "found_lines": [
+            216,
+            252
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "178e4227-2b8b-5393-9cf6-7f7d35c61b99",
+        "line": 252,
+        "quote": "Leukoclastic vasculitis is included as an adverse event in the Clinical Trials Experience section of final labeling for mirabegron.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "178e4227-2b8b-5393-9cf6-7f7d35c61b99",
+          "found_lines": [
+            252
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Reproductive Health Drugs Advisory Committee met on April 5, 2012 for mirabegron (an NME) and voted in favor of its efficacy (8-4), safety (9-3), and overall benefit-risk supporting approval (7-4-1). Members raised concerns about blood-pressure/cardiovascular risk and the neoplasm imbalance, which the Division carried forward into required postmarketing studies, while concerns about hepatic adverse events, hypersensitivity (leukoclastic vasculitis), and the starting dose were addressed through product labeling, including adoption of a 25 mg starting dose."
+}

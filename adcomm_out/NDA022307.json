@@ -1,0 +1,139 @@
+{
+  "app": "NDA022307",
+  "drug": "EFFIENT",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "079dcba7-5220-5d93-81e8-6e8d19c6ef97"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "ac404aa4-398b-56c9-be19-4dd60f072cbd"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "760808ee-19ae-553b-a03e-3cefa632f057"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "0cec2ad1-a237-5910-a379-0322a912d90d"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Cardiovascular and Renal Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "ac404aa4-398b-56c9-be19-4dd60f072cbd",
+      "line": 19,
+      "quote": "these were discussed at length internally and at the Cardiovascular and Renal Drugs Advisory Committee meeting on February 3, 2009 (which recommended approval by a 9 to 0 vote)"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "ac404aa4-398b-56c9-be19-4dd60f072cbd",
+      "found_lines": [
+        19
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "February 3, 2009",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "ac404aa4-398b-56c9-be19-4dd60f072cbd",
+      "line": 19,
+      "quote": "at the Cardiovascular and Renal Drugs Advisory Committee meeting on February 3, 2009"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "ac404aa4-398b-56c9-be19-4dd60f072cbd",
+      "found_lines": [
+        19
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee recommended approval by a 9 to 0 vote.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "ac404aa4-398b-56c9-be19-4dd60f072cbd",
+      "line": 19,
+      "quote": "the Cardiovascular and Renal Drugs Advisory Committee meeting on February 3, 2009 (which recommended approval by a 9 to 0 vote)"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "ac404aa4-398b-56c9-be19-4dd60f072cbd",
+      "found_lines": [
+        19
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The advisory committee noted the finding of excess newly-diagnosed malignancies in the prasugrel group but was skeptical that it represented a real drug effect; it did not consider the cancer signal strong enough to warrant placement among the drug's warnings.",
+      "change": "The cancer finding was placed in the Adverse Reactions section of labeling (rather than Warnings/Precautions), as the committee had urged.",
+      "category": "Labeling / placement of safety finding",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "760808ee-19ae-553b-a03e-3cefa632f057",
+        "line": 25,
+        "quote": "The February 2009 Advisory Committee noted the finding but was skeptical, urging its placement in the Adverse Reactions section, rather than in Warnings/Precautions",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "760808ee-19ae-553b-a03e-3cefa632f057",
+          "found_lines": [
+            25
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "760808ee-19ae-553b-a03e-3cefa632f057",
+        "line": 25,
+        "quote": "urging its placement in the Adverse Reactions section, rather than in Warnings/Precautions, which is where it has been placed",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "760808ee-19ae-553b-a03e-3cefa632f057",
+          "found_lines": [
+            25
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The advisory committee discussed the uncertain signal of excess malignancies observed with prasugrel in TRITON-TIMI 38.",
+      "change": "A post-marketing requirement was imposed to collect baseline and subsequent cancer data in the ongoing TRILOGY trial.",
+      "category": "Postmarketing requirement (PMR)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "760808ee-19ae-553b-a03e-3cefa632f057",
+        "line": 25,
+        "quote": "The February 2009 Advisory Committee noted the finding but was skeptical",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "760808ee-19ae-553b-a03e-3cefa632f057",
+          "found_lines": [
+            25
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "760808ee-19ae-553b-a03e-3cefa632f057",
+        "line": 25,
+        "quote": "There is a post-marketing requirement to collect baseline and subsequent cancer data in the ongoing TRILOGY trial.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "760808ee-19ae-553b-a03e-3cefa632f057",
+          "found_lines": [
+            25
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Cardiovascular and Renal Drugs Advisory Committee met on February 3, 2009 to discuss prasugrel's bleeding risk, an unexpected excess of malignancies, and a salt-to-base product-quality issue, and recommended approval by a 9 to 0 vote. Although initially the Division had planned to forego an AdComm, the Office convened one for these complex issues. The committee's main documented influence was on the cancer signal: it was skeptical of the finding and urged that it be described in the Adverse Reactions section rather than Warnings/Precautions, which is where FDA placed it, while a post-marketing requirement to collect cancer data in the TRILOGY trial was also adopted."
+}

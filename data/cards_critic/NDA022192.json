@@ -1,0 +1,92 @@
+{
+  "app": "NDA022192",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "high",
+      "issue": "Tachycardia 12% and dry mouth 10% are attributed to the 'FANAPT 20-24 mg/day' dose group, but the cited table ('1 3 12' / '1 8 10') has no dose-column labels in any citation, so the dose attribution is unsupported."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Automated flags for numbers '20' and '24' in key_safety correspond to the uncited '20-24 mg/day' dose attribution captured in the high-severity issue above."
+    },
+    {
+      "field": "crl_history.basis",
+      "severity": "medium",
+      "issue": "The basis asserts 'lack of sufficient effectiveness data and lack of sufficient safety data' but the citations only support QT prolongation concerns, titration difficulty, and concerns about the 3 short-term studies, not a general effectiveness/safety insufficiency statement."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "Automated flag of '160' is a false positive: it belongs to the ziprasidone '160 mg/day' dose, which is excluded as a dose and is supported by the design citation."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "Automated flag of '4' (4-week) is a false positive: the 4-week duration is supported by the design citation ('The double-blind phase lasted for four weeks')."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flags for '505', '2007', and '2008' are false positives: 505(b) and the dates are supported by citations (statutory section and submission/action-letter dates)."
+    },
+    {
+      "field": "first_cycle_approval.value",
+      "severity": "low",
+      "issue": "value=false is correct and consistent with the documented prior Not Approvable letter; not an inferential-default violation."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "4",
+        "text": "Study VP-VYV-683-3101 (4-week placebo- and active-controlled trial)"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "4",
+        "text": "Randomized, double-blind, placebo-controlled, parallel-group, multi-center study"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "160",
+        "text": "n=604 (4-week trial) / 606 randomized (iloperidone 24 mg/day, ziprasidone 160 mg"
+      },
+      {
+        "field": "key_safety",
+        "number": "20",
+        "text": "Commonly observed adverse reactions (incidence \u22655% and two-fold greater than pla"
+      },
+      {
+        "field": "key_safety",
+        "number": "24",
+        "text": "Commonly observed adverse reactions (incidence \u22655% and two-fold greater than pla"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2007",
+        "text": "This NDA was first submitted September 27, 2007; FDA issued a Not Approvable let"
+      },
+      {
+        "field": "crl_history/date",
+        "number": "2008",
+        "text": "July 25, 2008 (Not Approvable letter)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "FANAPT (iloperidone) was approved under a standard 505(b) NDA for the acute trea"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2007",
+        "text": "FANAPT (iloperidone) was approved under a standard 505(b) NDA for the acute trea"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

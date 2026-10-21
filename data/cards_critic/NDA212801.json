@@ -1,0 +1,112 @@
+{
+  "app": "NDA212801",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "high",
+      "issue": "The phase citation references study C2302 ('The Phase 3 study... C2302, is still ongoing'), which is a different, ongoing trial, not the pivotal C2301; it does not support C2301 being Phase 3."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "medium",
+      "issue": "The '12-week open-label dose titration', '12-week open-label maintenance', and 'four periods' details are not supported by the citations, which only state a 48-week Core Period and an 8-week Period 3 randomized withdrawal."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "Uncited numbers '12' (x2) and '4' in the design text describe period durations/count not present in any citation quote."
+    },
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "low",
+      "issue": "The parenthetical 'Week 34' is not contained in the endpoint citation (which references the end of the 8-week Period 3, not a numbered week)."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Trial identified as C2301, but the pivotal efficacy/safety citations come from a separate document (d99ce1c1) that does not name the study, creating potential ambiguity with C2302."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Uncited numbers '10' (>10% threshold), '48' (week), and '137' (N) appear in text but are contextual/framing values not in the AE-rate citation; N=137 is corroborated by the trial n field citation, so acceptable."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged uncited numbers '7'/'2019' are the receipt date (3/7/2019), which is a date and cited elsewhere in receipt_date; false-positive flag."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged uncited '3' values are part of the receipt date March 7, 2019, which is a date and cited in receipt_date; false-positive flag."
+    },
+    {
+      "field": "first_cycle_approval.value",
+      "severity": "low",
+      "issue": "value=true is correctly inferred from absence of a prior CRL (crl_history.prior_crl=false); no issue, noted per instructions."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "12",
+        "text": "48-week multicenter study (Core Period) with a 12-week open-label dose titration"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "12",
+        "text": "48-week multicenter study (Core Period) with a 12-week open-label dose titration"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "4",
+        "text": "48-week multicenter study (Core Period) with a 12-week open-label dose titration"
+      },
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "34",
+        "text": "Primary endpoint: percentage of complete responders (mUFC \u2264 ULN) at the end of t"
+      },
+      {
+        "field": "key_safety",
+        "number": "10",
+        "text": "Most common adverse reactions (>10%) in the 48-week study (N=137) were adrenal i"
+      },
+      {
+        "field": "key_safety",
+        "number": "48",
+        "text": "Most common adverse reactions (>10%) in the 48-week study (N=137) were adrenal i"
+      },
+      {
+        "field": "key_safety",
+        "number": "137",
+        "text": "Most common adverse reactions (>10%) in the 48-week study (N=137) were adrenal i"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "7",
+        "text": "The NDA (received March 7, 2019) was reviewed and approved, effective on the dat"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2019",
+        "text": "The NDA (received March 7, 2019) was reviewed and approved, effective on the dat"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "This was a standard (not priority) review of a 505(b)(1) NDA received March 7, 2"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "This was a standard (not priority) review of a 505(b)(1) NDA received March 7, 2"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

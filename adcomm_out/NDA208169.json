@@ -1,0 +1,91 @@
+{
+  "app": "NDA208169",
+  "drug": "XURIDEN",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_a1b56c83-e1ab-58b3-b962-1a9769e6c83f"
+    },
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_8fef5d2e-9abb-5ba5-954b-81091cb5ed15"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_11557995-0fd9-5373-893d-3f58a3006c81"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_818d2f74-4441-5c7a-8f5b-05d4a2313d6e"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_60892f9a-328d-5485-bbe5-2ddfd8c30449"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "None",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_a1b56c83-e1ab-58b3-b962-1a9769e6c83f",
+      "line": 109,
+      "quote": "This application did not require an Advisory Committee meeting."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_a1b56c83e1ab",
+      "found_lines": [
+        109
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "None",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_11557995-0fd9-5373-893d-3f58a3006c81",
+      "line": 348,
+      "quote": "No advisory committee meeting was held."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_115579950fd9",
+      "found_lines": [
+        348
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "None",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_60892f9a-328d-5485-bbe5-2ddfd8c30449",
+      "line": 540,
+      "quote": "No advisory committee meeting was held for this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_60892f9a328d",
+      "found_lines": [
+        540
+      ]
+    }
+  },
+  "linkages": [],
+  "no_adcom_quote": {
+    "doc_type": "ODMemo",
+    "doc_id": "fda_818d2f74-4441-5c7a-8f5b-05d4a2313d6e",
+    "line": 89,
+    "quote": "No Advisory Committee input was sought on this application. Although Xuriden is a New Molecular Entity, the application did not raise significant public health questions, and there were no novel or complex regulatory issues that required the input of an advisory committee."
+  },
+  "summary": "No advisory committee meeting was held for the Xuriden (uridine triacetate) NDA208169 approval. The Summary Review, Cross-Discipline Team Leader review, Medical Review, and Office/Division Director memo all state that no AC was convened because the clinical program was designed with FDA input and raised no efficacy, safety, or novel regulatory issues requiring committee input. With no AdComm, there are no committee-to-change linkages.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "fda_818d2f744441",
+    "found_lines": [
+      89
+    ]
+  }
+}

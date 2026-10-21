@@ -1,0 +1,107 @@
+{
+  "app": "NDA208254",
+  "drug": "RHOPRESSA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_bbd88921-e071-55d2-913b-d34c5ffaac91"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_a1affe6a-128a-5d78-822f-c7407bd3b314"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_569735c5-9f54-5a14-a608-f363806a7488"
+    },
+    {
+      "doc_type": "OtherR",
+      "doc_id": "fda_5ee88d39-f547-561f-ae51-aab2ad2bcc61"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Dermatologic and Ophthalmic Drugs Advisory Committee (DODAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_bbd88921-e071-55d2-913b-d34c5ffaac91",
+      "line": 192,
+      "quote": "A Dermatologic and Ophthalmic Drugs Advisory Committee Meeting was held on 10/13/17 at the FDA White Oak Campus, 10903 New Hampshire Avenue, Building 31 Conference Center, Great Room (Rm. 1503), Silver Spring, Maryland."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_bbd88921e071",
+      "found_lines": [
+        192
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "October 13, 2017",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "fda_569735c5-9f54-5a14-a608-f363806a7488",
+      "line": 20,
+      "quote": "10/13/2017: A meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee (DODAC or AC) was convened to discuss the safety and efficacy of NDA 208254."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_569735c59f54",
+      "found_lines": [
+        20
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The AC unanimously agreed the trials support efficacy (Vote #1: 10 yes / 0 no) and voted 9 yes / 1 no that the efficacy benefits outweigh the identified safety risks (Vote #2).",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "fda_569735c5-9f54-5a14-a608-f363806a7488",
+      "line": 20,
+      "quote": "The AC unanimously agreed that the clinical trials support the efficacy of netarsudil ophthalmic solution for reducing elevated IOP in patients with OAG or OHT. The AC voted 9 yes/1 no that the efficacy benefits outweigh the identified safety risks."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_569735c59f54",
+      "found_lines": [
+        20
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "During the labeling discussion, the advisory committee recommended that corneal verticillata (a common ocular adverse reaction of netarsudil) be added to the Highlights section of the Prescribing Information.",
+      "change": "The final labeling describes corneal verticillata in the Adverse Reactions section and includes it in the Highlights section, explicitly stated to be consistent with the Advisory Committee recommendation.",
+      "category": "Labeling / Adverse reactions",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_bbd88921-e071-55d2-913b-d34c5ffaac91",
+        "line": 205,
+        "quote": "Recommend adding corneal verticillata to Highlights section",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_bbd88921e071",
+          "found_lines": [
+            205
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_bbd88921-e071-55d2-913b-d34c5ffaac91",
+        "line": 236,
+        "quote": "Corneal verticillata are described in the Adverse Reactions section of the Prescribing Information and included in the Highlights section consistent with the Advisory Committee recommendation.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_bbd88921e071",
+          "found_lines": [
+            236
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Dermatologic and Ophthalmic Drugs Advisory Committee met on 10/13/17 for NDA 208254 (Rhopressa/netarsudil). It voted 10-0 that the trials support efficacy and 9-1 that benefits outweigh the identified safety risks, principally the risk of corneal verticillata. The committee's labeling discussion recommended adding corneal verticillata to the Highlights section, and the approved labeling did so, explicitly noting the change was consistent with the AC recommendation; no REMS or postmarketing requirements were imposed."
+}

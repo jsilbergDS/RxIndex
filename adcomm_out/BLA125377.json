@@ -1,0 +1,87 @@
+{
+  "app": "BLA125377",
+  "drug": "YERVOY",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_7557b1df-db85-53f2-9ab3-8daf3afb83aa"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_62a41da8-027b-576f-8054-198c4122bb49"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_8318b735-2062-5f20-972f-57f41dc1cbfc"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_dc5e42ba-d11f-5883-9483-588ecf07bc27"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Oncologic Drugs Advisory Committee (ODAC) \u2014 referenced as the relevant committee, but not consulted",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_7557b1df-db85-53f2-9ab3-8daf3afb83aa",
+      "line": 157,
+      "quote": "Advice regarding the approvability of this application was not sought from the Oncologic Drugs Advisory Committee"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_7557b1dfdb85",
+      "found_lines": [
+        157
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "No advisory committee meeting was held for this application",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_8318b735-2062-5f20-972f-57f41dc1cbfc",
+      "line": 540,
+      "quote": "An advisory committee meeting was not convened for this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_8318b7352062",
+      "found_lines": [
+        540
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "No vote or recommendation \u2014 no advisory committee was convened",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_62a41da8-027b-576f-8054-198c4122bb49",
+      "line": 64,
+      "quote": "Advice regarding the approvability of this application was not sought from the Oncologic Drugs Advisory Committee"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_62a41da8027b",
+      "found_lines": [
+        64
+      ]
+    }
+  },
+  "linkages": [],
+  "no_adcom_quote": {
+    "doc_type": "MedR",
+    "doc_id": "fda_8318b735-2062-5f20-972f-57f41dc1cbfc",
+    "line": 540,
+    "quote": "An advisory committee meeting was not convened for this application. Advanced melanoma has uniformly dismal prognosis and ipilimumab is the first drug to have shown survival advantage in this disease. During the review cycle, after top line data for another nearly completed study were made available to FDA for review, the review team felt comfortable in recommending approval of ipilimumab without seeking input from the advisory committee."
+  },
+  "summary": "No advisory committee meeting was convened for YERVOY (ipilimumab, BLA125377). The FDA review documents (Medical Review, Summary Review, and Office Director Memo) explicitly state that advice from the Oncologic Drugs Advisory Committee was not sought, because the demonstration of an overall survival advantage in controlled trials in advanced melanoma \u2014 a disease with no highly effective treatment \u2014 provided sufficient evidence of clinical benefit. Because no committee met, there are no committee-driven linkages to changes in the approval.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "fda_8318b7352062",
+    "found_lines": [
+      540
+    ]
+  }
+}

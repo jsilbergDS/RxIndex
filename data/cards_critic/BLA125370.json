@@ -1,0 +1,67 @@
+{
+  "app": "BLA125370",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: p=0.0207 IS contained in the citation quote 'p-value0.10410.02070.01290.0006'; dismissed."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: p=0.0006 IS contained in the citation quote 'p-value0.10410.02070.01290.0006'; dismissed."
+    },
+    {
+      "field": "advisory_committee.vote",
+      "severity": "low",
+      "issue": "False-positive flags on '16' and '2010' \u2014 these are the AC meeting date (November 16, 2010), which are excluded date components; dismissed."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flags on '3', '52', '10' \u2014 '3' is from 'Phase 3', '52' is week-52 endpoint, and '10' is the 10 mg/kg dose, all supported elsewhere in the card's citations; dismissed."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.0207",
+        "text": "SRI response at week 52: 43% belimumab 10 mg/kg vs 34% placebo (OR 1.52, 95% CI "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.0006",
+        "text": "SRI response at week 52: 58% belimumab 10 mg/kg vs 44% placebo (OR 1.83, 95% CI "
+      },
+      {
+        "field": "advisory_committee/vote",
+        "number": "16",
+        "text": "Arthritis Advisory Committee (November 16, 2010): substantial evidence of effica"
+      },
+      {
+        "field": "advisory_committee/vote",
+        "number": "2010",
+        "text": "Arthritis Advisory Committee (November 16, 2010): substantial evidence of effica"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Benlysta (belimumab) was submitted June 9, 2010 and reviewed as a Priority BLA, "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "52",
+        "text": "Benlysta (belimumab) was submitted June 9, 2010 and reviewed as a Priority BLA, "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "10",
+        "text": "Benlysta (belimumab) was submitted June 9, 2010 and reviewed as a Priority BLA, "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,687 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH AND CENTER FOR BIOLOGICS
+## EVALUATION AND RESEARCH**
+L1: *APPLICATION NUMBER:*
+**125147/0**
+L2: **STATISTICAL REVIEW(S)**
+L3: FDA Seal/Logo
+L4: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Pharmacoepidemiology and Statistical Science
+Office of Translational Sciences
+L5: ## STATISTICAL REVIEW AND EVALUATION
+L6: ## CLINICAL STUDIES
+L7: **BLA Serial Number:** 125147 / 0
+**Drug Name:** Panitumumab (rHuMab-EGFr)
+**Indication(s):** —
+**Applicant:** Amgen Inc
+**Submitted date:** 28 March 2006
+**PDuFA date:** 28 September 2006
+**Review Priority:** Priority
+**Biometrics Division:** DB V / CDER
+**Statistical Reviewer:** Dr. Kallappa M. Koti
+**Concurring Reviewers:** Dr. Mark Rothmann, Lead Mathematical Statistician
+Dr. Aloka Chakravarty, Division Director
+Division of Biometrics V
+**Medical Division:** DBOP
+**Clinical Team:** Dr. Ruthann Giusti, Dr. Kaushikkumar Shastri
+**Project Manager:** Ms. Monica Hughes
+L8: **Keywords:** Best care support, Randomized trial, RECIST, PFS, OS, Stratified log-rank test, p-value.
+L9: ## Table of Contents
+L10: LIST OF TABLES	3
+LIST OF FIGURES	3
+1. EXECUTIVE SUMMARY	4
+1.1 CONCLUSIONS AND RECOMMENDATIONS	4
+1.2 BRIEF OVERVIEW OF CLINICAL STUDIES	4
+1.3 STATISTICAL ISSUES AND FINDINGS	5
+2. INTRODUCTION	6
+2.1 OVERVIEW	6
+2.2 DATA SOURCES	7
+3. STATISTICAL EVALUATION	7
+3.1 EVALUATION OF EFFICACY	7
+3.2 EVALUATION OF SAFETY	21
+4. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	21
+4.1 GENDER, RACE AND AGE	21
+4.2 OTHER SPECIAL/SUBGROUP POPULATIONS	22
+5. SUMMARY AND CONCLUSIONS	23
+5.1 STATISTICAL ISSUES AND COLLECTIVE EVIDENCE	23
+5.2 CONCLUSIONS AND RECOMMENDATIONS	24
+APPENDICES	25
+SIGNATURES/DISTRIBUTION LIST PAGE	27
+L11: ## LIST OF TABLES
+L12: Table 3.1 1	Strata-wise subjects distribution- Study 20020408	9
+Table 3.1 2	Baseline Disease Characteristics	10
+Table 3.1 3	Summary of the primary efficacy endpoint- All enrolled Set	12
+Table 3.1 4	Summary of the primary efficacy endpoint- Adjud. Prior Failure Set	12
+Table 3.1 5	Summary of the primary efficacy endpoint- Per Protocol Set	15
+Table 3.1 6	Sensitivity analyses	16
+Table 3.1 7	Unscheduled tumor assessments before Week 8	17
+Table 3.1 8	Summary of objective response	18
+Table 3.1 9	Summary of overall survival analysis	19
+Table 3.1 10	Summary of efficacy endpoints (Central Assessment): All Enrolled Analysis Set	20
+Table 4.1 1	Age-group-wise subgroup analysis for PFS (Central, RECIST)	21
+Table 4.1 2	Number of subjects: Treatment by Sex	21
+Table 4.1 3	Gender-wise subgroup analysis for PFS (Central, RECIST)	21
+Table 4.2 1	Subgroup analysis for PFS (Central, RECIST)- primary diagnosis type	22
+Table 4.2 2	Number of subjects: Code by Treatment	22
+Table 4.2 3	Subgroup analysis for PFS (Central, RECIST)- by Code	22
+Table 4.2 4	Hazard ratios for PFS and OS- by Lines of prior therapy	23
+Table 4.2 5	Hazard ratios for PFS and OS- by ECOG performance status	23
+Table A. 1	Schedule of Assessments (Screening Through Week 16)	25
+Table A. 2	Schedule of Assessments (Week 17 through Week 32)	25
+Table A. 3	Schedule of Assessments (Week 33 through Week 48)	26
+Table A. 4	Schedule of Assessments (Week 49 through Safety Follow-Up)	26
+L13: ## LIST OF FIGURES
+L14: Figure 3.1 1	Primary efficacy endpoint PFS	13
+Figure 3.1 2	The SAS LLS plot for PFS	14
+Figure 3.1 3	Overall survival time	19
+L15: ## 1. EXECUTIVE SUMMARY
+L16: The Sponsor submitted this application for —
+L17: — Protocol 20020408-entitled “An Open-label, Randomized, Multi-center, Phase 3 Clinical Trial of ABX-EGF plus Best Supportive Care Versus Best Supportive Care in Subjects with Metastatic Colorectal Cancer” is the sole pivotal study.
+L18: This was a comparative study of panitumumab monotherapy at a dose of 6 mg/kg given once every 2 weeks plus best supportive care versus best supportive care alone in subjects with metastatic colorectal cancer who had documented disease progression during or after prior standard treatment with fluoropyrimidine, irinotecan, and oxaliplatin chemotherapy. This study was conducted in Europe, Canada, Australia, and New Zealand. The study initiation date was January 16, 2004 and the data cutoff date was June 30, 2005. Report date is March 9, 2006. The Sponsor has requested an accelerated approval of this submission.
+L19: A secondary statistical review was written by Dr. Mark Rothmann on a further evaluation of the overall survival comparison and the predictability of the PFS comparison on an overall survival comparison. This review should be considered in conjunction with Dr. Rothmann’s review.
+L20: ## 1.1 Conclusions and Recommendations
+L21: The primary analysis of the progression-free survival (PFS) data from Study 20020408 indicated that the panitumumab mono-therapy at a dose of 6 mg/kg given once every 2 weeks plus best supportive care (BSC) prolongs disease progression in a group of subjects with refractory metastatic colorectal cancer (p-value &lt; 0.0001). The median PFS for the panitumumab plus BSC and the BSC alone group were 8 weeks and 7.3, respectively, a difference of 0.7 weeks. However, the subjects in the panitumumab plus BSC had a mean PFS of 13.7 weeks compared with just 8.6 weeks for the BSC alone group. The hazard rates for the two arms were far from proportional. The lack of proportional hazards needs to be considered with any reference to an estimate of a PFS hazard ratio (see Section 1.3). The panitumumab plus BSC arm is superior to BSC alone arm in terms of objective response. The data from this pivotal study indicate that the panitumumab monotherapy plus best supportive care was not significantly different from best supportive care alone in terms of survival benefit for colorectal cancer patients.
+L22: ## 1.2 Brief Overview of Clinical Studies
+L23: Protocol 20020408, the pivotal efficacy study, is reviewed in this document. Panitumumab is a fully human IgG2 monoclonal antibody that is directed against the human epidermal growth factor receptor (EGFr). This phase 3 study was conducted to provide a controlled, 1:1 comparison of the efficacy and safety of panitumumab plus best supportive care (BSC) versus BSC alone in subjects with EGFr-expressing metastatic colorectal cancer who had documented
+L24: disease progression during or after prior standard treatment with fluoropyrimidine, irinotecan, and oxaliplatin chemotherapy.
+L25: This study was conducted in Europe, Canada, Australia, and New Zealand. Most of the subjects were from Belgium (168) and Italy (92). Forty-one subjects were Australians. Only nineteen subjects were recruited from Canada. None of the patients were from the United States. The primary objective of this study was to assess whether panitumumab plus BSC improves progression-free survival compared with BSC alone in this subject population for the purpose of seeking accelerated approval according to subpart E.
+L26: Secondary objectives were to evaluate survival time, objective response, duration of response, time to response, time to disease progression, time to treatment failure, duration of stable disease, patient-reported outcomes, and the safety profile of panitumumab plus BSC compared with BSC in this subject population.
+L27: Eligible subjects were men and women 18 years of age or older, competent to comprehend and sign an informed consent form, who had a pathologic diagnosis of colorectal adenocarcinoma with documented evidence of disease progression during or after prior treatment with a fluoropyrimidine, irinotecan, and oxaliplatin at an adequate pre-specified overall exposure. Radiographic documentation of disease progression during or within 6 months after the most recent regimen was required for enrollment, and the time interval between documented tumor progression and study entry was not to exceed 6 months. Subjects also were required to have unidimensionally measurable disease (\ge 20 mm); an ECOG status of 0 to 2; EGFr expression in \ge 1\% of evaluated tumor cells; and adequate hematologic, renal, and hepatic function.
+L28: ## 1.3 Statistical Issues and Findings
+L29: As seen from Table 3.1.1, the distribution of subjects among the strata is imbalanced. Three-hundred and fifty eight (77%) out of 463 subjects are from Western Europe. A very small number of patients, only 67 (14.4%) had baseline ECOG performance status was 2 or 3. No patients were from the United States. There is no comparative evidence provided of the benefits and risks of patients from the United States receiving panitumumab under medical practice of the United States investigators.
+L30: A higher percentage of subjects in the pivotal study had unscheduled tumor assessments done before week 8 in the BSC alone group (59%) than in the panitumumab plus BSC group (36%). Since this had the potential to affect the difference in PFS between treatment groups, a post-hoc sensitivity analysis was conducted in which events of disease progression by central review were moved to the day of the closest post-randomization scheduled assessment time (i.e., 8 weeks, 16 weeks etc.) in both treatment groups.
+L31: Data on tumor assessments during the unscheduled visits before Week 8 are analyzed to examine if there was an agreement between the local and central reviewers. The results from the following tables 3.1.7a, 3.1.7b, and 3.1.7c indicate a possible disagreement. The local reviewer's
+L32: proportion of positive response (disease progression) is significantly different from that of the central reviewer.
+L33: The Sponsor has calculated the PFS hazard ratio using the Cox proportional hazards model, which requires the ratios of hazards rates under the two treatment arms be constant in time. The appropriateness of the proportional hazards regression method and the validity of the results depend on the correctness of the proportional hazards assumption. The proportional hazards assumption is checked using the SAS log-log survival (LLS) curves. The LLS plot in Figure 3.1.2 does not exhibit parallel pattern. This suggests that the ratio of hazard rates varied greatly over time. That is, the hazards were far from proportional. Therefore, it would be difficult to interpret a universal estimate of the hazard ratio and presentation of such a universal estimate of a hazard ratio may be misleading. This reviewer believes that the PFS comparison would be best summarized in labeling by providing the estimates of the mean (which are reliably estimated) and the Kaplan-Meier curves.
+L34: ## 2. INTRODUCTION
+L35: ## 2.1 Overview
+L36: Panitumumab (rHuMab-EGFr), manufactured using the Chinese hamster ovary expression system, — production scale), was supplied in single-use 10-mL glass vials containing 20 mg of panitumumab per mL, to be diluted in pyrogen-free 0.9% sodium chloride solution (USP/PhEur). Panitumumab was administered IV at a dose of 6 mg/kg once every 2 weeks. Infusions were administered through a peripheral line or indwelling catheter using a 0.22-micron in-line filter. The pivotal study 20020408 was a multi-center, randomized, open-label, comparative study of panitumumab plus BSC versus BSC alone in subjects with metastatic colorectal cancer who had disease progression during or after treatment with prior, standard fluoropyrimidine, irinotecan, and oxaliplatin chemotherapy. Subjects were randomly assigned in a 1:1 ratio to receive panitumumab plus BSC or BSC alone. Randomization was stratified by ECOG performance status (0 or 1 versus 2) and geographic region (Western Europe versus Central and Eastern Europe versus and rest of world). A total of 463 subjects were randomized into this study.
+L37: In this pivotal study (20020408), subjects received panitumumab once every 2 weeks until disease progression, inability to tolerate investigational product, or other reason for discontinuation. Subjects were to be evaluated for tumor response according to modified Response Evaluation Criteria in Solid Tumors (RECIST) at weeks 8, 12, 16, 24, 32, 40, and 48 and every 3 months thereafter until disease progression. Progression-free survival was the protocol specified primary efficacy endpoint. The primary analysis was conducted using the All Enrolled (intent-to-treat) analysis set. Progression-free survival was analyzed at the 5% significance level using a log-rank test stratified by the stratification factors of baseline ECOG performance status and geographic region. The Sponsor reports that a statistically significant improvement in the primary endpoint of progression-free survival was observed for the panitumumab plus BSC group compared with BSC alone group (p&lt;0.0001). Compared with
+L38: BSC alone, the rate of disease progression or death was reduced by approximately 46% in the panitumumab plus BSC group (hazard ratio = 0.542).
+L39: Survival and best objective response over time were co-secondary endpoints. No significant difference in survival was observed between treatment groups. Nineteen subjects (8%) in the panitumumab plus BSC group and no subject in the BSC alone group had an objective response per modified RECIST criteria. The Sponsor states that this difference was statistically significant at the 1% level (p &lt; 0.0001, stratified exact test of common odds ratio).
+L40: ## 2.2 Data Sources
+L41: \Cbsap58\MeCTD_Submissions\STN125147\0002\m5\datasets\20020408\analysis
+L42: ## 3. STATISTICAL EVALUATION
+L43: Report of Clinical Study 20020408 is the focus of this review.
+L44: ## 3.1 Evaluation of Efficacy
+L45: This is a multicenter, randomized, open-label, comparative study of panitumumab plus BSC versus BSC alone in subjects with metastatic colorectal cancer who had disease progression during or after treatment with prior, standard fluoropyrimidine, irinotecan, and oxaliplatin chemotherapy. Subjects were randomly assigned in a 1:1 ratio to receive panitumumab plus BSC or BSC alone. Randomization was stratified by Eastern Cooperative Oncology Group (ECOG) performance status (0 or 1 versus 2) and geographic region (Western Europe versus Central and Eastern Europe versus rest of World). Panitumumab was administered as an intravenous (IV) infusion at a dose of 6 mg/kg given once every 2 weeks until disease progression, inability to tolerate investigational product, or other reason for discontinuation. BSC was defined as the best palliative care available as judged appropriate by the investigator (excluding antineoplastic chemotherapy). Subjects were to be evaluated for tumor response according to modified Response Evaluation Criteria in Solid Tumors (RECIST) at weeks 8, 12, 16, 24, 32, 40, and 48 and every 3 months thereafter until disease progression. Tumor responses were to be confirmed no less than 4 weeks after the criteria for response were first met. In addition to the investigator's assessments, scans of all subjects evaluated for tumor response were evaluated by a blinded Independent Review Committee. Subjects determined to have progressive disease by investigator assessment were discontinued from the treatment phase of the study. All subjects were to complete a safety follow-up visit at least 4 weeks after the last assigned treatment (for the panitumumab plus BSC group) or at any time within 4 weeks after the decision to withdraw from the treatment phase (for the BSC group). Subjects in the BSC alone group who had disease progression at any time were eligible to receive panitumumab 6 mg/kg administered once every 2 weeks as part of a separate protocol (Study 20030194). All subjects are being followed-up for survival approximately every 3 months for up to 2 years after their randomization into the study.
+L46: ## 3.1.1 Study Design and Endpoints
+L47: *Sample size considerations.* The primary objective of this study was to demonstrate a statistically significant reduction in the overall disease progression rate for panitumumab plus BSC versus BSC alone. The median progression-free survival for BSC alone was assumed to be 2.5 months. The sample size goal was to achieve at least 90% power for a 2-sided 1% significance level test given a hazard ratio (panitumumab plus BSC:BSC) of 0.67. Assuming exponential progression-free survival, the hypothesized treatment effect translates into a 50% relative median increase in progression-free survival (2.5 versus 3.75 months) or a 14% absolute increase in the 6-month progression-free rate (19% versus 33%). To achieve this goal, at least 362 subjects in total were required to have either documented evidence of objective progression or to have died, to detect a 33% reduction in the overall disease progression rate.
+L48: Randomization was stratified by Eastern Cooperative Oncology Group (ECOG) performance status (0 or 1 versus 2) and geographic region (Western Europe versus Central and Eastern Europe versus rest of World). The numbers of subjects in various strata are shown in Table 3.1.1.
+L49: The trial consists of four phases: screening, treatment, safety follow-up and long-term follow-up. Tabular summaries of study tests and observations are provided in Table A.1 (screening through week 16), Table A.2 (weeks through 17-48), and Table A.3 (week 49 through disease progression or safety follow-up) in the Appendix at the end of this review.
+L50: Progression-free survival (PFS) is the primary efficacy endpoint. The primary analysis of all efficacy endpoints was conducted using the All Enrolled (intent-to-treat) analysis set, which included all randomized subjects who signed the informed consent and were randomized into the study. A secondary analysis of the efficacy endpoints was done using the Adjudicated Prior Failure analysis set, which included subjects who were determined by an Independent Eligibility Review Committee to have developed progression disease or relapsed during or after standard fluoropyrimidine, irinotecan, and oxaliplatin chemotherapy. The primary analyses of all efficacy endpoints used the data from the independent Review Committee.
+L51: APPEARS THIS WAY
+ON ORIGINAL
+L52: Table 3.11 Strata-wise subjects distribution- Study 20020408
+L53: Strata	Treatment Group	Total
+BSC alone	Panit. + BSC
+Western Europe and ECOG performance status 0-1	150	155	305
+Western Europe and ECOG performance status 2 or 3	30	23	53
+Central and Eastern Europe and ECOG performance status 0-1	17	17	34
+Central and Eastern Europe and ECOG performance status 2 or 3	2	3	5
+Rest of World and ECOG performance status 0-1	28	29	57
+Rest of World and ECOG performance status 2 or 3	5	4	9
+Total	232	231	463
+L54: ## Patient Disposition, Demographic and Baseline Characteristics
+L55: A total of 463 subjects were randomized into this study (231 in the panitumumab plus BSC group and 232 subjects in the BSC alone group). Of the 231 subjects randomized to the panitumumab plus BSC group, 229 subjects (99%) received panitumumab at a dose of 6 mg/kg given once every 2 weeks during the study; 2 subjects died of disease progression within 1 day of randomization before receiving panitumumab. In accordance with the protocol, no subject in the BSC group received panitumumab during the treatment period of this study. At the time of the data cutoff (30 June 2005), enrollment was complete, and a higher percentage of subjects was still in the treatment period in the panitumumab plus BSC group (29 subjects, 13%) compared with the BSC alone group (3 subjects, 1%). Most subjects in both groups discontinued the treatment period because of disease progression (by investigator assessment), although the percentage was lower in the panitumumab plus BSC group (75%) than in the BSC alone group (85%). The median follow-up time was 20.0 weeks (range: 0 to 62.4) in the panitumumab plus BSC group and 18.2 weeks (range: 0.1 to 71.1) in the BSC alone group. A total of 175 subjects (75%) in the BSC alone group who had radiographic disease progression (as determined by the investigator) were subsequently enrolled in Study 20030194. Baseline disease characteristics are summarized in Table 3.12.
+L56: Table 3.12 Baseline Disease Characteristics
+L57: Panitumumab
++ BSC
+(N = 231)	BSC
+Alone
+(N = 232)	Total
+Primary diagnosis- n (%)	
+Colon cancer	153 (66)	157 (68)	310 (67)
+Rectal cancer	78 (34)	75 (32)	153 (33)
+Months since primary diagnosis	
+N	201	202	403
+Mean	22.1	21.7	21.9
+SD	13.2	11.0	12.2
+Median	18.9	19.3	19.1
+Q1, Q3	14.1, 26.2	14.0, 27.0	14.0, 26.6
+Min, Max	5, 129	5, 69	5, 129
+Months since metastatic disease diagnosis	
+N	201	202	403
+Mean	22.1	21.7	21.9
+SD	13.2	11.0	12.2
+Median	18.9	19.3	19.1
+Q1, Q3	14.1, 26.2	14.0, 27.0	14.0, 26.6
+Min, Max	5, 129	5, 69	5, 129
+ECOG performance status- n (%)	
+0	107 (46)	80 (34)	187 (40)
+1	94 (41)	115 (50)	209 (45)
+2	29 (13)	35 (15)	64 (14)
+3	1 (0)	2 (1)	3 (1)
+Lines of Prior Therapy	
+1	1 (<.5)	0 (0)	1 (<.5)
+2	146 (63)	144 (62)	290 (63)
+3	72 (31)	77 (33)	149 (32)
+4	9 (3.9)	10 (4.3)	19 (4)
+5	3 (1.3)	0 (0)	3 (0.6)
+6	0 (0)	1 (<.5)	1 (<.5)
+L58: ## 3.1.2 Statistical Methodologies
+L59: The primary analysis of all efficacy endpoints was conducted using the All Enrolled (intent-to-treat) analysis set, which included all randomized subjects who signed the informed consent and were randomized into the study. A secondary analysis of the efficacy endpoints was done using the Adjudicated Prior Failure analysis set, which included subjects who were determined by an Independent Eligibility Review Committee to have developed progressive disease or relapsed during or after standard fluoropyrimidine, irinotecan, and oxaliplatin chemotherapy.
+L60: Progression-free survival was analyzed at the 5% significance level using a log-rank test stratified by the stratification factors of baseline ECOG performance status and geographic region. The primary analysis was based on the response assessment from a blinded review of radiographic scans by the Independent Review Committee. For subjects who withdrew because of disease progression that was not confirmed by the Independent Review Committee, radiographic data collected during the long-term follow-up (both treatment groups) or the extension protocol (Study 20030194) (BSC alone group) was used in the primary analysis of progression-free survival. If the log-rank test for progression-free survival was significant, the co-secondary endpoints of survival and best objective response rate were to be analyzed simultaneously. To control for multiple testing, survival was to be analyzed controlling at the 4% significance level, whereas response rate was to be analyzed at the 1% significance level. The primary analyses for progression-free survival and best objective response rate were to coincide; however, survival was to be analyzed sequentially, with the primary analysis planned to occur after the last subject had the opportunity to be followed for 1 year after randomization. A 1% significance test of survival was to be performed as an interim analysis, which was to coincide with the primary analysis of progression-free survival and objective response rate. The nominal significance level for the primary analysis of survival will be calculated to preserve an overall 4% significance level, based on the proportion of events shared between the interim and primary analysis (planned to occur after the last subject has the opportunity to complete 1 year of long-term follow-up). All other efficacy endpoints were analyzed descriptively including point estimates and 95% confidence intervals.
+L61: The time-adjusted AUC values for the PRO scales were analyzed for weeks 8 to 16. Analysis of covariance was used to estimate difference between treatment groups, with main effects for treatment group, baseline PRO scale score, and the stratification variables of baseline ECOG performance status and geographic region. Summary statistics were calculated for all PRO scale scores and changes from baseline for each visit by treatment group and overall.
+L62: ## 3.1.3 Summary of primary efficacy endpoints (Central Assessment)
+L63: The primary efficacy endpoint PFS is a duration, which is derived as the number of days from the date of enrollment to the date of the first observed disease progression per modified-RECIST criteria. If no disease progression is observed, the date of death is used. If no disease progression is observed or death, the date of last evaluable tumor assessment is used. Subjects who have not
+L64: progressed or died while on study are censored at their last evaluable tumor assessment date. The primary analysis uses the central data from — along with CRF data on date of death. The results of the primary analysis of the primary endpoint PFS are summarized in Table 3.1.3 below. The Kaplan-Meier curves are shown in Figure 3.1.1 below.
+L65: Table 3.1.3 Summary of the primary efficacy endpoint- All enrolled Set
+L66: Statistic	Panitumumab +
+BSC	BSC alone
+PFS	N	231	232
+Progressed	N (%)	193 (84%)	208 (90%)
+Censored	N (%)	38 (16%)	24 (10%)
+Overall PFS (days)	Median [95% CI]	56 (55, 59)	51 (50, 54)
+Mean	96.4	59.7
+SD	5.3	3.75
+Min, Max	0, 357	0, 337
+Hazard Ratio [95% CI]	0.544 (0.445, 0.665)
+Log-rank test p-value	Stratified: < 0.0001
+L67: Central assessment
+L68: A secondary analysis of the efficacy endpoint PFS is done using the Adjudicated Prior Failures analysis set, which includes subjects who were determined by an Independent Eligibility Review Committee to have developed progressive disease or relapsed during or after standard fluoropyrimidine, irinotecan, and oxaliplatin chemotherapy. Results are provided in Table 3.1.4 below. Numerically, all descriptive statistics for Panitumumab arm remain the same compared to those in Table 3.1.3 whereas for BSC alone arm, they look slightly better.
+L69: Table 3.1.4 Summary of the primary efficacy endpoint- Adjud. Prior Failure Set
+L70: Statistic	Panitumumab +
+BSC	BSC alone
+PFS	N	179	173
+Progressed	N (%)	150 (89%)	153 (84%)
+Censored	N (%)	29 (11%)	20 (16%)
+Overall PFS (days)	Median [95% CI]	56 (54, 58)	52 (50, 55)
+Mean	94	62
+SD	6.0	4.7
+Min, Max	0, 357	0, 337
+Hazard Ratio [95% CI]	0.587 (0.466, 0.739)
+Log-rank test p-value	Un-stratified: < 0.0001
+Stratified: < 0.0001
+L71: Figure 3.1.1 Primary efficacy endpoint PFS
+L72: ARREARS THIS WAY
+ON ORIGINAL
+L73: Figure 3.1 2 The SAS LLS plot for PFS
+L74: APPEARS THIS WAY
+ON ORIGINAL
+L75: Another secondary analysis of the efficacy endpoint PFS is done using the Per Protocol set, which included subjects in the Adjudicated Prior Failure analysis set who did not have any selected, important, predefined protocol deviations thought to potentially impact the efficacy analyses. Results are summarized in Table 3.1.5 below. Numerically, all descriptive statistics for Panitumumab arm remain the same compared to those in Table 3.1.3 whereas for BSC alone arm, they look slightly better.
+L76: Table 3.1.5 Summary of the primary efficacy endpoint- Per Protocol Set
+L77: Statistic	Panitumumab +
+BSC	BSC alone
+PFS	N	171	166
+Progressed	N (%)	142 (83%)	147 (88.5%)
+Censored	N (%)	29 (17%)	19 (11.5%)
+Overall PFS (days)	Median [95% CI]	56 (54, 58)	52 (50, 55)
+Mean	92.5	63.1
+SD	6.3	4.8
+Min, Max	0, 357	0, 337
+Hazard Ratio [95% CI]	0.621 (0.491, 0.786)	
+Log-rank test p-value	Un-stratified: < 0.0001
+Stratified: < 0.0001
+L78: ## 3.1.4 Sensitivity Analyses
+L79: Sensitivity analyses of progression-free survival were performed in the following categories:
+L80: - Local versus central radiology
+- Use of data from study 20030194
+- Bias due to skipped tumor assessments and
+- Protocol deviations
+L81: Category 1 is examined by contrasting the PFS results derived from central versus local radiology. Results are shown in Table 3.1.6 (a). Category 2 is examined by deriving PFS from central radiology both with and without tumor assessments obtained from study 20030194. Results are shown in Table 3.1.6 (b). Category 3 is examined by deriving PFS from central radiology with 2 alternative methods for handling missing/skipped assessments. Results are shown in Table 3.1.6 (c). Category 4 is examined by deriving PFS from central radiology including data from 20030194 excluding subjects with important protocol deviation thought to impact on the efficacy analysis. Analysis of the primary efficacy variables is performed using the Per Protocol Analysis Set. Results are shown in Table 3.1.6 (d).
+L82: Table 3.1.6 Sensitivity analyses
+L83: (a) Local versus central radiology
+Treatment Group	Number of Subjects	Median
+(C. I.)	Mean	Hazard Ratio
+(p-value)
+Failed	Censored	Total
+Panitumumab + BSC	195	36	231	61 (56, 84)	101.13	0.396
+BSC alone	221	11	232	49 (46, 51)	50.34	(<.0001)
+Total	416	47	453	
+(b) Use of data from study 20030194
+Treatment Group	Number of Subjects	Median
+(C. I.)	Mean	Hazard Ratio
+(p-value)
+Failed	Censored	Total
+Panitumumab + BSC	186	45	231	56 (55, 59)	92.6	0.411
+BSC alone	182	50	232	50 (48, 52)	47.9	(<.0001)
+Total	368	95	453	
+(c) Bias due to skipped tumor assessments
+Treatment Group	Number of Subjects	Median
+(C. I.)	Mean	Hazard Ratio
+(p-value)
+Failed	Censored	Total
+Panitumumab + BSC	193	38	231	56 (55, 59)	93.2	0.556
+BSC alone	208	24	232	51 (50, 54)	59.7	(<.0001)
+Total	401	62	453	
+(d) Protocol deviations
+Treatment Group	Number of Subjects	Median
+(C. I.)	Mean	Hazard Ratio
+(p-value)
+Failed	Censored	Total
+Panitumumab + BSC	190	41	231	56 (55, 59)	93.8	0.554
+BSC alone	208	24	232	51 (50, 54)	59.7	(<.0001)
+Total	398	65	453
+L84: Results in Table 3.1.6 (a) indicate that PFS derived from local radiology better panitumumab effect. Results from Table 3.1.6 (b), Table 3.1.6 (c) and Table 3.1.6 (d) indicate no differences from those in Table 3.1.3.
+L85: Data on tumor assessments during the unscheduled visits before Week 8 are analyzed to examine if there was an agreement between the local and central reviewers. Results are provided in Tables 3.1.7a, 3.1.7b and 3.1.7c.
+L86: Table 3.17 Unscheduled tumor assessments before Week 8
+L87: (a) Both treatments combined
+CENTRAL ↓	LOCAL	Total
+Disease Progressive	Other
+Disease Progressive	58	7	65
+Other	17	6	23
+Total	75	13	88*
+* Frequency missing = 14. McNemar's test: p-value = 0.0412
+(b) Best Supportive Care alone
+CENTRAL ↓	LOCAL	Total
+Disease Progressive	Other
+Disease Progressive	58	7	65
+Other	17	6	23
+Total	75	13	88*
+* Frequency missing = 10. McNemar's test: p-value = 0.0105
+(c) Panitumumab + BSC
+CENTRAL ↓	LOCAL	Total
+Disease Progressive	Other
+Disease Progressive	6	2	8
+Other	0	1	1
+Total	6	3	9*
+* Frequency missing = 4. McNemar's test: p-value = 0.1573
+L88: ## 3.1.5 Results and Conclusions
+L89: The Sponsor reports: "A statistically significant improvement in the primary endpoint of progression-free survival was observed for the panitumumab plus BSC group compared with the BSC alone group (p &lt; 0.0001, stratified log-rank test, All Enrolled analysis set). Compared with BSC alone, the rate of disease progression or death was reduced by approximately 46% in the panitumumab plus BSC group (hazard ratio = 0.542, 95% CI: 0.443, 0.663). The 95% CIs for the difference in Kaplan-Meier progression-free rates favored the panitumumab plus BSC group at all protocol-specified assessment time points from week 8 to week 32. All prospectively defined and post-hoc sensitivity analyses confirmed the results of the primary analysis. Furthermore, 19 subjects (8%) in the panitumumab plus BSC group and no subject in the BSC alone group had an objective response per modified RECIST criteria by central review (all partial responses). This difference was statistically significant at the 1% level (p &lt; 0.0001, stratified exact test of common odds ratio, All Enrolled analysis set). The median duration of response was 17.0 weeks (95% CI: 16.4, 25.3; range: 4.0+, 40.4+, All Enrolled analysis set). An additional 64 subjects (28%) in the panitumumab plus BSC group and 24 subjects (10%) in the BSC alone group had a best response of stable disease in the All Enrolled analysis set; the median duration of stable disease was 23.7 weeks (95% CI: 16.0, 24.3; range: 7.1+, 44.7) and 17.3 weeks (95% CI: 15.4, 241.; range: 7.1+, 48.1), respectively, in these subjects. In a post-hoc analysis, the rate of
+L90: progression-free survival and overall survival in the panitumumab plus BSC group was favorable for subjects who had either a partial response or stable disease compared with subjects who did not. No difference in survival was observed between treatment groups at the 1% level in this interim analysis. The effect of panitumumab on progression-free survival and objective response were consistent within subpopulations defined by age, sex, primary tumor type, ECOG performance status, and the quantity of tumor EGFr membrane staining (1% to 9% versus \ge 10\% of tumor cells) or highest tumor EGFr membrane staining intensity (0% 3+ staining versus &gt; 0\% 3+ staining); similar results also were observed in post-hoc analyses with alternative categories for the quantity of tumor EGFr membrane staining (1% to &lt; 10\%, 10% to 35%, or &gt; 35\%) and highest staining intensity (1+, 2+, or 3+)."
+L91: ## 3.1.6 Reviewer's verification of sponsor's analyses of secondary endpoints
+L92: ## *Objective Response Rate*
+L93: Central data from — alone are used. Subjects with no baseline assessment or without a post baseline tumor response assessment or subjects with an observed complete response (CR) or partial response (PR) that is not confirmed are considered non-responders. Of the 232 patients in the BSC group none had complete or partial response. In the panitumumab group 19 subjects had partial response and none had complete response.
+L94: Table 3.18 Summary of objective response
+L95: ND*	PD	PR	SD	UE*	Total
+Best Supportive Care (BSC)	25	156	0	24	27	232
+Panitumumab + BSC	31	113	19	64	4	231
+Total	56	269	19	88	31	463
+L96: * ND: Not Done; UE: Unevaluable
+L97: ## *Survival Time*
+L98: Death data for all subjects collected during the treatment phase, the safety follow-up phase, during the long-term follow-up and during 20030194 are included in the analysis. Data indicate that 131 subjects from BSC alone group and 119 subjects receiving panitumumab died. The median survival time for BSC alone group was 184 days whereas for the panitumumab plus BSC group it was 193 days. As reported by the Sponsor, the two treatment groups are not significantly different in terms of the overall survival time. The p-value for the stratified analysis is 0.6041. The Cox regression has a hazard ratio of 0.935 for treatment. The Kaplan-Meier curves are shown in Figure 3.1.2 below.
+L99: Table 3.1.9 Summary of overall survival analysis
+L100: Statistic	Panitumumab + BSC	BSC
+Overall Survival	N	231	232
+Progressed	N (%)	119 (51.3%)	131 (56.5%)
+Censored	N (%)	112 (48.7%)	101 (43.5%)
+Overall Survival (days)	Median [95% CI]	193 (174, 233)	184 (148, 228)
+Mean	215	>218
+SD	10.9	12.6
+Min, Max	0, 434	0, 490†
+Hazard Ratio [95% CI]	0.935 (0.768, 1.267)
+Log-rank test p-value	Stratified: 0.6041
+L101: Figure 3.1.3 Overall survival time
+L102: Efficacy results are summarized in Table 3.1.10 below. These results are also verified by this reviewer.
+L103: Table 3.1 10 Summary of efficacy endpoints (Central Assessment): All Enrolled Analysis Set
+L104: Panitumumab
+Plus BSC
+(N = 231)	BSC Alone
+(N = 232)
+Progression-free survival (weeks)	
+Subjects who progressed/died- n (%)	193 (84)	208 (90)
+Median time (95% CI)	8.0 (7.9, 8.4)	7.3 (7.1, 7.7)
+Mean (sd)**	13.8 (0.76)	8.5 (0.54)
+Minimum, Maximum	0, 51	0, 48
+Log-rank test stratified by IVRS	
+ECOG and region	
+Normal score	-6.15	
+p-value	<0.001	
+Overall survival (months)	
+Subjects who died- n (%)	119 (52)	131 (56)
+Median time (95% CI)	6.3 (5.7, 7.7)	6.0 (4.9, 7.5)
+Mean (sd)**	7.1 (0.36)	>7.2 (0.43)
+Minimum, Maximum	0, 14	0, 16
+Log-rank test stratified by IVRS	
+ECOG and region	
+Normal score	-0.52	
+p-value	0.6065	
+Objective tumor response	
+Subject responding - n (%)	19 (8)	0 (0)
+Rate (95% CI)- %	8.23 (5.02, 12.55)	0.0 (0.0, 1.6)
+Difference in rates (95% CI)	8.2 (4.5, 12.7)
+Odds ratio (99% CI) stratified by	
+IVRS, ECOG and region	NE (3.9, NE)
+p-value	< 0.0001
+Duration of response (weeks)	
+Median time (95% CI)	17.0 (16.4, 25.3)	NE (NE, NE)
+Minimum, Maximum	4, 40	NE, NE
+Time to response (weeks)	
+N (%)	19 (100)	NE (NE)
+Mean (SD)	8.9 (2.7)	NE (NE)
+Median	7.9	NE
+Q1, Q3	7.1, 10.6	NE, NE
+Minimum, Maximum	6.7, 15.4	NE, NE
+Time to disease progression (weeks)	
+Median time (95% CI)	8.0 (7.9, 8.7)	7.3 (7.1, 7.7)
+Minimum, Maximum	0, 51	0.48
+L105: For a further evaluation of the overall survival comparison and predictability of the PFS comparison on an overall survival comparison, please see Dr. Rothmann's review.
+L106: ## 3.2 Evaluation of Safety
+L107: See the medical officer's review.
+L108: ## 4. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L109: ## 4.1 Gender, Race and Age
+L110: The average of a subject was 61.3 years with a standard deviation of 10.5. The youngest was 27 years old and the oldest was 83 years of age.
+L111: Table 4.1.1 Age-group-wise subgroup analysis for PFS (Central, RECIST)
+L112: Age \ge 65 years	Age < 65 years
+BSC alone	Panit. + BSC	BSC alone	Panit. + BSC
+Total # of subjects	91	96	141	135
+# of disease progression	79	79	129	114
+Median Time	55 days	57 days	49 days	56 days
+Log-rank test: p-value	0.0016	< 0.0001
+L113: As seen from Table 4.1.2, study included 294 (63%) males and 169 (37%) females. Gender-wise analysis of PFS is summarized in Table 4.1.3 below. The panitumumab PFS benefit is similar in both sexes.
+L114: Table 4.1.2 Number of subjects: Treatment by Sex
+L115: Female	Male	Total
+Best Supportive Care (BSC) alone	84	148	232
+Panitumumab + BSC	85	146	231
+Total	169	294	463
+L116: Table 4.1.3 Gender-wise subgroup analysis for PFS (Central, RECIST)
+L117: Male	Female
+BSC alone	Panit. + BSC	BSC alone	Panit. + BSC
+Total # of subjects	148	146	84	85
+# of disease progression	132	121	76	72
+Median Time	51 days	57 days	50 days	56 days
+Log-rank test: p-value	< 0.0001	< 0.0001
+L118: ## 4.2 Other Special/Subgroup Populations
+L119: Out of 463 subjects enrolled, 310 were primarily diagnosed as having colon cancer. These 310 subjects were almost evenly randomized to BSC (157) and Panitumamb (153) groups. Remaining 153 subjects who had rectal cancer were also evenly split into BSC (75) and Panitumamb (78) groups.
+L120: Table 4.2.1 Subgroup analysis for PFS (Central, RECIST)- primary diagnosis type
+L121: RECTAL	COLON
+BSC alone	Panit. + BSC	BSC alone	Panit. + BSC
+Total # of subjects	75	78	157	153
+# of disease progression	67	67	141	126
+Median Time	54	57	50	56
+p-value	0.0003	<0.0001
+L122: Only 4 out of 463 subjects in this pivotal study had 5 or more prior lines of chemotherapy. Two-hundred and ninety had one or two prior chemotherapy and the remaining 169 subjects had 3 or 4 prior chemotherapy. Table 4.2.2 shows treatment-wise breakup of the subjects. Here codes are:
+L123: Code 1: Lines of prior therapy = 1 or 2
+L124: Code 2: Lines of prior therapy = 3 or 4
+L125: Code 3: Others
+L126: Table 4.2.2 Number of subjects: Code by Treatment
+L127: Code	Total
+1	2	3
+BSC alone	144	87	1	232
+Panitumumab + BSC	146	82	3	231
+Total	290	169	4	463
+L128: PFS median times for the two arms in subgroups of subjects under codes 1 and 2 are provided in Table 4.2.3 below.
+L129: Table 4.2.3 Subgroup analysis for PFS (Central, RECIST)- by Code
+L130: Code 1	Code 2
+BSC alone	Panit. + BSC	BSC alone	Panit. + BSC
+Total # of subjects	144	146	87	82
+# of disease progression	132	121	75	69
+Median Time	51	55	51	70
+p-value	0.0003	<0.0001
+L131: Hazard ratios for PFS and OS in subgroups of subjects under codes 1 and 2 are shown in Table 4.2.4 below.
+L132: Table 4.2.4 Hazard ratios for PFS and OS- by Lines of prior therapy
+L133: Lines of prior therapy \le 2	Lines of prior therapy > 2
+HR (C.I.)	HR (C.I.)
+PFS	0.635 (0.495, 0.815)	0.405 (0.285, 0.574)
+OS	0.869 (0.634, 1.191)	0.989 (0.659, 1.486)
+L134: Results from Table 4.2.3 and 4.2.4 suggest that the patients having more than 2 lines of prior chemotherapy are more benefited by panitumumab monotherapy in terms of PFS. However, these patients are less benefited by the panitumumab monotherapy in terms of overall survival.
+L135: Hazard ratios for PFS and OS in subgroups of subjects with ECOG performance status 0 versus others are shown in Table 4.2.5 below. As seen from this table, panitumumab monotherapy appears to be less effective in subjects with ECOG performance status of 0 compared to others.
+L136: Table 4.2.5 Hazard ratios for PFS and OS- by ECOG performance status
+L137: ECOG performance status = 0*
+(n = 187)	ECOG performance status > 0
+(n = 276)
+HR (C.I.)	HR (C.I.)
+PFS	0.736 (0.533, 1.016)	0.464 (0.357, 0.603)
+OS	1.528 (0.959, 2.434)	0.821 (0.605, 1.114)
+L138: 0* Fully active
+L139: ## 5. SUMMARY AND CONCLUSIONS
+L140: ## 5.1 Statistical Issues and Collective Evidence
+L141: As seen from Table 3.1.1 above, the distribution of subjects among the strata is imbalanced. Three-hundred and fifty eight (77%) out of 463 subjects are from Western Europe. A very small number of patients' baseline ECOG performance status was 2 or 3. To be specific, 67 (14.4%) patients had their baseline ECOG performance status was 2 or 3. No patients, no investigational sites, were from the United States. There is no comparative evidence provided of the benefits and risks of patients from the United States receiving panitumumab under medical practice of the United States investigators.
+L142: A higher percentage of subjects in the pivotal study had unscheduled tumor assessments done before week 8 in the BSC alone group (59%) than in the panitumumab plus BSC group (36%).
+L143: Since this had the potential to affect the difference in PFS between treatment groups, a post-hoc sensitivity analysis was conducted in which events of disease progression by central review were moved to the day of the closest post-randomization scheduled assessment time (i.e., 8 weeks, 16 weeks etc.) in both treatment groups.
+L144: Data on tumor assessments during the unscheduled visits before Week 8 are analyzed to examine if there was an agreement between the local and central reviewers. The results from the following tables 3.1.7a, 3.1.7b, and 3.1.7c indicate a possible disagreement. The local reviewer's proportion of positive response (disease progression) is significantly different from that of the central reviewer.
+L145: The Sponsor has calculated the PFS hazard ratio using the Cox proportional hazards model, which requires the ratios of hazards rates under the two treatment arms be constant in time. The appropriateness of the proportional hazards regression method and the validity of the results depend on the correctness of the proportional hazards assumption. The proportional hazards assumption is checked using the SAS log-log survival (LLS) curves. The LLS plot in Figure 3.1.2 does not exhibit parallel pattern. This suggests that the ratio hazard rates varied greatly over time. That is, the hazards were far from proportional. Therefore, it would be difficult to interpret a universal estimate of the hazard ratio and presentation of such a universal estimate of a hazard ratio may be misleading. This reviewer believes that the PFS comparison would be best summarized in labeling by providing the estimates of the mean (which are reliably estimated) and the median.
+L146: ## 5.2 Conclusions and Recommendations
+L147: The conclusions and recommendations are based on the sole confirmatory study 20020408 entitled "An Open-label, Randomized, Multi-center, Phase 3 Clinical Trial of ABX-EGF plus Best Supportive Care Versus Best Supportive Care in Subjects with Metastatic Colorectal Cancer". This was a comparative study of panitumumab monotherapy at a dose of 6 mg/kg given once every 2 weeks plus best supportive care versus best supportive care alone in subjects with metastatic colorectal cancer who had documented disease progression during or after prior standard treatment with fluoropyrimidine, irinotecan, and oxaliplatin chemotherapy. This study was conducted in Europe, Canada, Australia, and New Zealand. The study initiation date was January 16, 2004 and the data cutoff date was June 30, 2005. Report date is March 9, 2006. The Sponsor has requested an accelerated approval of this submission.
+L148: The primary analysis of the progression-free survival (PFS) data from Study 20020408 indicated that the panitumumab mono-therapy at a dose of 6 mg/kg given once every 2 weeks plus best supportive care prolongs disease progression in a group of subjects with refractory metastatic colorectal cancer (p-value &lt; 0.0001). The median PFS for the panitumumab plus BSC and the BSC alone group were 8 weeks and 7.3, respectively- difference of 0.7 weeks. However, the subjects in the panitumumab plus BSC had a mean PFS of 13.7 weeks compared with just 8.6 weeks for the BSC alone group. The hazard rates for the two arms were far from proportional. The lack of proportional hazards needs to be considered with any reference to an estimate of a
+L149: PFS hazard ratio. The panitumumab plus BSC arm turned out to be superior to BSC alone arm in terms of objective response. The data from this pivotal study indicate that the panitumumab monotherapy plus best supportive care was not significantly different from best supportive care alone in terms of survival benefit for colorectal cancer patients.
+L150: ## APPENDICES
+L151: Table A. 1 Schedule of Assessments (Screening Through Week 16)
+L152: Study Procedure	Screening	Week
+-28 days	-7 days	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16
+NCCN and DLQI92	X	X	X	X	X	X	
+EORTC-QLQ-C30	X	X	X	X	
+Panitumumab Infusion	X	X	X	X	X	X	X	X	
+Skin toxicity assess.	X	X	X	X	X	X	X	X	
+Transfusions etc.	X	X	X	X	X	X	X	X	X	
+Resource utilization	X	X	X	X
+L153: Table A. 2 Schedule of Assessments (Week 17 through Week 32)
+L154: Study Procedure	Week
+17	18	19	20	21	22	23	24	25	26	27	28	29	30	31	32
+Physical Exam etc.	X	X	X	X	
+ECOG Performance Status	X	X	X	X	
+Hematology	X	X	X	X	
+Serum for EGFr analysis	X	X	X
+CT scans / chest X-ray / Tumor response	X	
+NCCN and DLQI92 and EORTCQLQC30 etc.	X	X	X	X	
+Panitumumab Infusions	X	X	X	X	X	X	X	X	
+Skin toxicity assess.	X	X	X	X	X	X	X	X	
+Transfusions, procedures	X	X	X	X	X	X	X	X
+L155: APPEARS THIS WAY
+ON ORIGINAL
+L156: Table A. 3 Schedule of Assessments (Week 33 through Week 48)
+L157: Study Procedure	Week
+33	34	35	36	37	38	39	40	41	42	43	44	45	46	47	48
+Physical Exam etc.	x	x	x	x	
+ECOG Performance Status	x	x	x	x	
+Hematology	x	x	x	x	
+Serum for EGFr analysis	x	x	
+CT scans / chest X-ray / Tumor response	x	x
+NCCN and DLQI92 and EORTCQLQC30 etc.	x	x	x	x	
+Panitumumab Infusions	x	x	x	x	x	x	x	x	
+Skin toxicity assess.	x	x	x	x	x	x	x	x	
+Transfusions, procedures	x	x	x	x	x	x	x	x
+L158: Table A. 4 Schedule of Assessments (Week 49 through Safety Follow-Up)
+L159: Study Procedure	Week 49 Until Disease Progression; 12-week Repeated Treatment Period	Safety Follow-up
+1	2	3	4	5	6	7	8	9	10	11	12
+Physical Exam etc.	x	x	x	x
+ECOG Perform. Status	x	x	x	x
+Hematology	x	x	x	x
+Serum for EGFr analysis	x
+CT scans / chest X-ray / Tumor response	x	x
+NCCN and DLQI92 and EORTCQLQC30 etc.	x	x	x	x
+Panitumumab Infusions	x	x	x	x	x	x	
+Skin toxicity assess.	x	x	x	x	x	x	x
+Transfusions, procedures	x	x	x	x	x	x	x
+L160: APPEARS THIS WAY
+ON ORIGINAL
+L161: ## SIGNATURES/DISTRIBUTION LIST PAGE (Optional)
+L162: Primary Statistical Reviewer:
+L163: Kallappa Koti
+L164: Dr. Kallappa M. Koti
+L165: Mathematical Statistician
+L166: Date: 9-14-2006
+L167: Mark Rothmann 9/14/06
+L168: Statistical Team Leader: Dr. Mark Rothmann
+L169: Aloka Chakravarty
+9/14/06
+L170: Biometrics V Division Director: Dr. Aloka Chakravarty
+L171: cc:
+L172: HFD-107/Ms. Monica Hughes
+L173: HFD-107/Dr. Ruthann Giusti
+L174: HFD-107/Dr. Kaushikkumar Shastri
+L175: HFD-107/Dr. Patricia Keegan
+L176: HFD-711/Dr. Mark Rothmann
+L177: HFD-711/Dr. Aloka Chakravarty
+L178: HFD-700/Ms. Lillian Patrician
+L179: HFD-700/Dr. Robert T. O'Neill
+L180: c:\AmgenInc.doc
+L181: FDA Seal/Logo
+L182: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L183: ## STATISTICAL REVIEW AND EVALUATION
+## ON OVERALL SURVIVAL
+L184: FOR CLINICAL STUDY 20020408
+L185: BLA/Serial Number: 125147 / 0
+L186: Drug Name: Vectibix (Panitumumab)
+L187: Indication(s): —
+L188: Applicant: Amgen
+L189: Date(s): Submitted March 29, 2006
+L190: —
+PDUFA date: September 28, 2006
+L191: Review Priority: Standard
+L192: Biometrics Division: Division of Biometric V
+L193: Statistical Reviewer: Dr. Mark Rothmann, Lead Mathematical Statistician
+L194: Concurring Reviewers: Dr. Aloka Chakravarty, Division Director,
+Division of Biometrics V
+L195: Medical Division: Division of Biologic Oncology Products
+L196: Clinical Team: Dr. Ruthann Giusti, clinical reviewer
+Dr. Kaushikkumar Shastri, clinical team leader
+L197: Project Manager: Ms. Monica Hughes
+L198: **Keywords:** Accelerated Approval, Surrogate Outcomes, Cox proportional hazards regression, Subgroup analyses
+L199: ## Table of Contents
+L200: 1. EXECUTIVE SUMMARY	3
+1.1 CONCLUSIONS AND RECOMMENDATIONS	3
+1.2 BRIEF OVERVIEW OF CLINICAL STUDIES	3
+1.3 STATISTICAL ISSUES AND FINDINGS	3
+2. INTRODUCTION	4
+2.1 OVERVIEW	4
+2.2 DATA SOURCES	5
+3. STATISTICAL EVALUATION	6
+3.1 EVALUATION OF EFFICACY	6
+3.2 EVALUATION OF SAFETY	9
+4. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	10
+4.1 GENDER, RACE AND AGE	10
+4.2 OTHER SPECIAL/SUBGROUP POPULATIONS	10
+5. SUMMARY AND CONCLUSIONS	10
+5.1 STATISTICAL ISSUES AND COLLECTIVE EVIDENCE	10
+5.2 CONCLUSIONS AND RECOMMENDATIONS	12
+SIGNATURES/DISTRIBUTION LIST	13
+L201: APPEARS THIS WAY
+ON ORIGINAL
+L202: ## 1. EXECUTIVE SUMMARY
+L203: The sponsor submitted the results of study 20020408 for the purpose of gaining accelerated approval for panitumumab. Study 20020408 was a multi-center, randomized, open-label, comparative study of panitumumab plus best supportive care (BSC) versus BSC alone in patients with metastatic colorectal cancer who had disease progression during or after treatment with prior, standard fluoropyrimidine, irinotecan, and oxaliplatin chemotherapy. The primary statistical reviewer is Dr. Kallappa Koti. Please see his review for general evaluation of the efficacy endpoints. This review is a team leader secondary statistical review that should be considered in conjunction with Dr. Koti's review. This review will focus on a) the overall survival comparison between the panitumumab +BSC arm and the BSC arm and b) the predictability of the PFS comparison on an overall survival comparison.
+L204: ## 1.1 Conclusions and Recommendations
+L205: For study 20020408, the panitumumab (plus best supportive care) arm demonstrated superior progression-free survival (PFS) when compared with the best supportive care (BSC) arm. This is not in dispute. However, superiority has neither been demonstrated nor *reasonably likely predicted* for the panitumumab arm in a comparison of a clinical benefit endpoint. After 250 events, overall survival is similar between the arms. Also, in question is the meaningfulness or lack of meaningfulness of the superior PFS.
+L206: ## 1.2 Brief Overview of Clinical Studies
+L207: For a brief overview of clinical study 20020408 and an evaluation of the PFS comparisons and other efficacy results please see the statistical review by Dr. Kallappa Koti. I'd like to acknowledge Dr. Koti for performing various analyses that appear in this review.
+L208: ## 1.3 Statistical Issues and Findings
+L209: Particular findings and issues are summarized below.
+L210: - The estimated difference in overall survival between the two arms is small and the direction of that difference depends on the type of measurement/method that is selected to compare overall survival. For more details see section 3.1.1.
+- After 250 events from a study involving a total of 463 patients, the estimated mean overall survival is larger in the BSC arm than in the panitumumab + BSC arm (&gt; 7.2 months vs. 7.1 months). For more details see section 3.1.1.
+- Forty-six percent (46%) of the patients on the panitumumab + BSC arm had baseline ECOG performance status of 0 compared to 34% for the BSC arm (a difference of 12%). Based on the overall survival data from this study, the instantaneous risk of death was 2.3 times greater for patients with baseline ECOG performance status of \ge 1 as compared
+L211: with patients with baseline ECOG performance status of 0. When adjusting for ECOG performance status as a nominal covariate, the panitumumab + BSC versus BSC overall survival hazard ratio was 1.003. For more details see section 3.1.1.
+L212: - The amount of follow-up for overall survival was longer on the BSC arm than on the panitumumab arm by more than 15 days on average. It is probably the better follow-up of overall survival of the patients on the BSC arm that produced a difference in the number of deaths (119 vs. 131) larger than one would tend to see for the observed overall survival hazard ratio. For more details see section 3.1.1.
+- For patients having two or fewer lines of prior therapy, the panitumumab + BSC versus BSC hazard ratio for overall survival was 0.869. There were 157 deaths among these 291 patients at the time of the analysis. For patients having three or more lines of prior therapy, the panitumumab + BSC versus BSC hazard ratio for overall survival was 0.989. There were 93 deaths among these 172 patients at the time of the analysis. These survival analyses do not adjust for baseline ECOG performance status.
+- PFS was statistically significantly longer on the panitumumab arm compared with the BSC arm with respective means of 13.8 weeks and 8.5 weeks. Among the 232 patients on the BSC arm 175 received panitumumab after investigator ascertainment of disease progression. For the patients in this study, overall survival was practically equal between the two arms. So not giving the patients on the BSC arm any anti-cancer therapy until they had an investigator ascertainment of disease progression or died, and then giving 175 of the survivors panitumumab led to the same overall survival as giving panitumumab upfront to the patients on the panitumumab arm. This brings the meaningfulness of the PFS comparison into question. Delaying panitumumab until investigator ascertainment of disease progression or death and then probably getting panitumumab (among the survivors) for a group that had a noticeably less favorable distribution for baseline ECOG performance status was as good as getting panitumumab upfront for a group that had a noticeably more favorable distribution for ECOG performance status. Also, another study in metastatic colorectal cancer where patients failed at least two prior lines of therapy comparing FOLFOX4 with LV5FU2, study EFC4760, had the time to disease progression comparison fail to predict the overall survival comparison. For more details see section 3.1.2.
+L213: ## 2. INTRODUCTION
+L214: ## 2.1 Overview
+L215: Study 20020408 was a multi-center, randomized, open-label, comparative study of panitumumab plus BSC versus BSC alone in patients with metastatic colorectal cancer who had disease progression during or after treatment with prior, standard fluoropyrimidine, irinotecan, and oxaliplatin chemotherapy. A total of 463 patients were randomly assigned in a 1:1 ratio to receive panitumumab plus BSC or BSC alone. The randomization was stratified by ECOG
+L216: performance status (0 or 1 versus 2) and geographic region (Western Europe versus Central and Eastern Europe versus the rest of world). Two hundred thirty-one patients were assigned to the panitumumab + BSC arm, 232 patients were assigned to the BSC arm. Panitumumab was administered IV at a dose of 6 mg/kg once every 2 weeks. Infusions were administered through a peripheral line or indwelling catheter using a 0.22-micron in-line filter.
+L217: Progression-free survival was the primary endpoint of this study for the purpose of accelerated approval (*reasonably likely to predict clinical benefit*). The primary analysis of PFS was based on the intent-to-treat population – all patients as randomized. Each patient was followed for their overall survival (a clinical benefit endpoint).
+L218: Patients in the BSC arm upon having disease progression were eligible to receive panitumumab 6 mg/kg administered once every 2 weeks as part of a separate protocol (Study 20030194). One hundred seventy-five patients (75% of 232) on the BSC arm received panitumumab after having disease progression.
+L219: The results of the primary analyses of PFS and overall survival are summarized in Table 1 below. The panitumumab + BSC arm statistically demonstrated longer PFS than the BSC arm. However, based on 250 deaths, overall survival is fairly similar between arms. For Kaplan-Meier curves of PFS and overall survival please see the statistical review by Dr. Kallappa Koti.
+L220: Table 1 Summary of the primary analyses of PFS and Overall survival
+L221: Panitumumab +
+BSC
+(N = 231)	BSC
+(N = 232)
+Progression-free survival (weeks)	
+Subjects who progressed/died- n (%)	193 (84)	208 (90)
+Median time (95% CI)	8.0 (7.9, 8.4)	7.3 (7.1, 7.7)
+Mean (sd)	13.8 (0.76)	8.5 (0.54)
+p-value1	<0.001
+Overall survival (months)	
+Subjects who died- n (%)	119 (52)	131 (56)
+Median time (95% CI)	6.3 (5.7, 7.7)	6.0 (4.9, 7.5)
+Mean (sd)	7.1 (0.36)	> 7.2
+p-value1	0.6065
+L222: 1 P-values based on log-rank tests stratified by IVRS ECOG performance status and region
+L223: ## 2.2 Data Sources
+L224: Data analyses used data submitted by the sponsor located at
+\\Cbsap58M\eCTD_Submissions\STN125147\0002\m5\datasets\20020408\analysis.
+L225: ## 3. STATISTICAL EVALUATION
+L226: ## 3.1 Evaluation of Efficacy
+L227: This review will focus on a) the overall survival comparison between the panitumumab +BSC arm and the BSC arm and b) the predictability of the PFS comparison on an overall survival comparison.
+L228: ## 3.1.1 Overall Survival comparison
+L229: The estimated difference in overall survival between the two arms is small and the direction of that difference depends on the type of measurement/method that is selected to compare overall survival.
+L230: There were 250 events from a total of 463 patients for the overall survival analysis. The estimated panitumumab versus BSC overall survival hazard ratio based on a stratified analysis consistent with the primary analysis method of overall survival is 0.935. The stratified analysis does not adjust for the imbalance in baseline performance status given in Table 2 below. The BSC arm has a larger unadjusted nonparametric maximum likelihood estimate of mean overall survival than the panitumumab arm (&gt; 7.2 months vs. 7.1 months). The overall survival Kaplan-Meier curve for the panitumumab curve reaches zero (see Dr. Koti's review for the Kaplan-Meier curves), therefore the area under the curve (7.1 months) represents the unadjusted nonparametric maximum likelihood estimate of mean overall survival. The overall survival Kaplan-Meier curve for the BSC curve is suspended above zero; therefore the area under that curve (7.2 months) represents a smaller value than any unadjusted nonparametric maximum likelihood estimate of mean overall survival. The area underneath the overall survival Kaplan-Meier curve for the BSC arm (7.2 months) is larger than the area underneath the overall survival Kaplan-Meier curve for the panitumumab arm (7.1 months).
+L231: ## *Effect of the imbalance on performance status*
+L232: Performance status is the most influential prognostic factor for overall survival in metastatic colorectal cancer and many other cancers. The randomization was stratified by 0 or 1 baseline ECOG performance status vs. a baseline ECOG performance status of 2. However, the distribution for baseline ECOG performance status was noticeably more favorable for the panitumumab arm (see Table 2 below). Among the patients in the panitumumab arm 54% had ECOG performance status at baseline \ge 1 compared with 66% of the patients on the BSC arm.
+L233: APPEARS THIS WAY
+ON ORIGINAL
+L234: Table 2. Baseline ECOG performance status
+L235: ECOG performance status	Meaning	Panitumumab plus BSC (N=231)	BSC (N=232)
+0	No symptoms, fully active, able to work.	107 (46%)	80 (34%)
+1	Symptomatic, but not spending extra time in bed. Able to do light work.	94 (41%)	115 (50%)
+2	In bed less than 50% of the time, unable to work, but able to care for self.	29 (13%)	35
+3	In bed more than 50% of the time, though not bedridden, limited self care.	1 (0.4%)	2
+L236: A Cox's proportional hazards model on overall survival was fitted having treatment as a factor with ECOG performance status as a nominal covariate and region as a stratification factor. The instantaneous risk of deaths was 2.3 times greater for patients with baseline ECOG performance status of 1 as compared with patients with baseline ECOG performance status of 0. As seen in Table 2, 46% of the patients on the panitumumab + BSC arm had baseline ECOG performance status of 0 compared to 34% for the BSC arm (a difference of 12%), while 41% of the patients on the panitumumab + BSC arm had baseline ECOG performance status of 1 compared to 50% for the BSC arm (a difference of -9%). The panitumumab + BSC versus BSC overall survival hazard ratio from this Cox model was 1.003.
+L237: Also, despite the more favorable distribution of ECOG performance status for the patients on the panitumumab arm, the unadjusted estimate of mean overall survival was greater for the patients on the BSC arm than on the panitumumab arm.
+L238: ## *Crossover Excuse*
+L239: An excuse of the impact of "crossover" from the control arm to the experimental arm has often been provided to explain/rationalize a statistically significant PFS advantage in the absence of an observed (or the absence of a statistically significant) overall survival advantage. This rationale assumes the experimental treatment impacts overall survival positively, i.e. it assumes exactly what it was supposed to (and failed to) be demonstrated. Also, a statistical test weighs what is observed against the null hypothesis of equality, not against the alternative hypothesis. The overall survival evidence is weighed against the hypothesis that the population (at large) of patients will have equal survival between the experimental arm and the control arm. If the data is not inconsistent with this hypothesis, then this hypothesis cannot be rejected. If an overall survival advantage is concluded either due to a statistically significant result in either overall survival or PFS, the type I error rate will be increased (inflated).
+L240: ## *Differences in the amount of follow-up for overall survival*
+L241: Because a hazard ratio more different from one than observed for overall survival would tend to accompany having 119 deaths out of 231 patients in one arm and 131 deaths out of 232 patients in the other arm, the follow-up times for overall survival were compared between the arms using a Cox proportional hazards model with treatment as a factor and switching the roles of the values on the censoring indicator for overall survival. First, the study entry times were compared. The patients on the panitumumab + BSC arm started on average 1.2 days before the patients on the BSC arm. If all patients were continuously followed until the data cutoff date, the patients on the panitumumab + BSC arm should have a mean follow-up for overall survival 1.2 days longer than the patients on the BSC arm. The results of this Cox model indicate that the patients on the BSC arm had on average more than 15 days of follow-up for overall survival than the patients on the panitumumab + BSC arm. It is probably the better follow-up of overall survival of the patients on the BSC arm that produced a difference in the number of deaths larger than one would tend to see for the observed overall survival hazard ratio.
+L242: The better overall survival follow-up on the BSC arm may be due to the follow-up of 175 BSC arm patients on study 20030194. Subjects in the BSC arm who had disease progression were eligible to receive panitumumab 6 mg/kg administered once every 2 weeks as part of a separate protocol (Study 20030194). A total of 175 subjects (75%) in the BSC arm (who had radiographic disease progression as determined by the investigator) were subsequently enrolled in Study 20030194. The explanation by the sponsor in the difference in the survival analyses previously presented to the FDA and those submitted in the BLA are also suggestive of better follow-up for overall survival for patients who were subsequently enrolled in study 20030194.
+L243: ## *Differences between a survival analysis that was previously presented to the FDA and the survival analysis submitted in the BLA*
+L244: The Kaplan-Meier curve of overall survival for the BSC arm previously presented to the FDA had a patient with a censored overall survival of 78 weeks. The largest overall survival value in the BLA submission for the BSC arm is a value censored at 70 weeks. Also previously presented to the FDA was a p-value of 0.7033 for the stratified log-rank test on overall survival, but the BLA submission indicates a respective p-value slightly larger than 0.6. The sponsor was requested to clarify.
+L245: The sponsor responded that different datasets were used for these analyses. The dataset submitted in the BLA includes changed survival censoring times for 27 subjects, 26 in the BSC arm and 1 in the panitumumab arm. These changes were made so that no subject would have a follow-up time for overall survival later than the data cutoff of 30-JUN-05. In the previous analysis 27 subjects had survival censoring dates from contact dates after 30-JUN-2005. The censoring dates for these 27 subjects were revised based on the latest available contact data that did not extend beyond the 30-JUN-2005 cutoff date.
+L246: ## *Subgroup analyses based on the number of lines of prior therapy*
+L247: Since it is very rare that a therapy demonstrates a survival advantage in an advanced solid tumor setting when patients have had more than one line of prior therapy, overall survival comparisons were performed for different subgroups based on the number of prior lines of therapy. See
+L248: section 4.2 for subgroup analysis of overall survival based on the number of prior lines of therapy.
+L249: ## 3.1.2 The predictability of the PFS comparison on an overall survival comparison
+L250: PFS was statistically significantly longer on the panitumumab arm compared with the BSC arm with respective means of 13.8 weeks and 8.5 weeks. Among the 232 patients on the BSC arm 175 received panitumumab after investigator ascertainment of disease progression. For the patients in this study, overall survival was practically equal between the two arms. So not giving the patients on the BSC arm any anti-cancer therapy until they had an investigator ascertainment of disease progression or died, and then giving 175 of the survivors panitumumab led to the same overall survival as giving panitumumab upfront to the patients on the panitumumab arm. This does not say much for the meaningfulness of a PFS event in its relationship with overall survival. Delaying panitumumab until investigator ascertainment of disease progression or death and then probably getting panitumumab (among the survivors) for a group that had a noticeably less favorable distribution for baseline ECOG performance status was as good as getting panitumumab upfront for a group that had a noticeably more favorable distribution for ECOG performance status.
+L251: ## *Results from another study in metastatic colorectal cancer where patients failed at least two lines of prior therapy*
+L252: Study EFC4760 was an add-on trial of oxaliplatin for third-line therapy for patients having metastatic colorectal cancer. The design of this study along with the results is summarized in Kemeny, et. al. (2004, *Journal of Clinical Oncology*, vol. 22 no. 23 pp. 4753-4761). Two hundred fourteen patients randomly were assigned to receive either LV 200 \text{mg}/\text{m}^2 intravenously (IV) and FU 400 \text{mg}/\text{m}^2 IV bolus, followed by FU 600 \text{mg}/\text{m}^2 IV over 22 hours on days 1 and 2, every 2 weeks (LV5FU2); or LV and FU as described, plus oxaliplatin 85 \text{mg}/\text{m}^2 IV over 2 hours on day 1 of the schedule (FOLFOX4). One hundred four patients were assigned to the control arm of LV5FU and 110 patients were assigned to FOLFOX4. Median times to disease progression were 2.4 months and 4.8 months (P &lt; .0001) respectively for the LV5FU2 and FOLFOX4 arms, while median overall survival were 11.4 months and 9.9 months (P = .20) for LV5FU2 and FOLFOX4 arms, respectively. The overall survival analysis was based on 85 events and 96 events (181 total events) in the LV5FU2 and FOLFOX4 arms, respectively. While the overall survival hazard ratio was not reported in the paper, based on the information on overall survival that was reported the FOLFOX4 versus LV5FU2 overall survival hazard should be roughly 1.21. For the patients on this trial, the patients in the control arm lived longer than the patients in the experimental arm, despite the patients on the experimental arm having double the median time to disease progression of the patients on the control arm. Here, the time to disease progression comparison failed to predict the overall survival comparison.
+L253: ## 3.2 Evaluation of Safety
+L254: For a summary of the evaluation of safety see the review by Dr. Ruthann Giusti.
+L255: ## 4. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L256: ## 4.1 Gender, Race and Age
+L257: See the review of Dr. Kaltappa Koti for PFS analyses by gender, race and age. Since there is no overall estimated survival advantage for the panitumumab + BSC arm, subgroup analyses by gender, race or age were not performed.
+L258: ## 4.2 Other Special/Subgroup Populations
+L259: ## *Subgroup analyses based on the number of lines of prior therapy*
+L260: Since it very rare that a therapy demonstrates a survival advantage in an advanced solid tumor setting when patients have had more than one line of prior therapy, overall survival comparisons were performed for different subgroups based on the number of prior lines of therapy. Table 3 below gives the distribution of the number of lines of prior therapy for each arm.
+L261: Table 3. Distributions for the number of lines of prior therapy
+L262: Number of lines of prior therapy	Panitumumab + BSC (N=231)	BSC alone (N=232)
+1	1	0
+2	146	144
+3	72	77
+4	9	10
+5	3	0
+6	0	1
+L263: For patients having two or fewer lines of prior therapy, the panitumumab + BSC versus BSC hazard ratio for overall survival was 0.869. There were 157 deaths among these 291 patients at the time of the analysis. For patients having three or more lines of prior therapy, the panitumumab + BSC versus BSC hazard ratio for overall survival was 0.989. There were 93 deaths among these 172 patients at the time of the analysis. These survival analyses do not adjust for baseline ECOG performance status.
+L264: ## 5. SUMMARY AND CONCLUSIONS
+L265: ## 5.1 Statistical Issues and Collective Evidence
+L266: Particular findings and issues are summarized below.
+L267: - The estimated difference in overall survival between the two arms is small and the direction of that difference depends on the type of measurement/method that is selected to compare overall survival.
+L268: - After 250 events from a study involving a total of 463 patients, the estimated mean overall survival is larger in the BSC arm than in the panitumumab + BSC arm (&gt; 7.2 months vs. 7.1 months).
+- Forty-six percent (46%) of the patients on the panitumumab + BSC arm had baseline ECOG performance status of 0 compared to 34% for the BSC arm (a difference of 12%). Based on the overall survival data from this study, the instantaneous risk of death was 2.3 times greater for patients with baseline ECOG performance status of \ge 1 as compared with patients with baseline ECOG performance status of 0. When adjusting for ECOG performance status as a nominal covariate, the panitumumab + BSC versus BSC overall survival hazard ratio was 1.003.
+- The amount of follow-up for overall survival was longer on the BSC arm than on the panitumumab arm by more than 15 days on average. It is probably the better follow-up of overall survival of the patients on the BSC arm that produced a difference in the number of deaths (119 vs. 131) larger than one would tend to see for the observed overall survival hazard ratio.
+- For patients having two or fewer lines of prior therapy, the panitumumab + BSC versus BSC hazard ratio for overall survival was 0.869. There were 157 deaths among these 291 patients at the time of the analysis. For patients having three or more lines of prior therapy, the panitumumab + BSC versus BSC hazard ratio for overall survival was 0.989. There were 93 deaths among these 172 patients at the time of the analysis. These survival analyses do not adjust for baseline ECOG performance status.
+- PFS was statistically significantly longer on the panitumumab arm compared with the BSC arm with respective means of 13.8 weeks and 8.5 weeks. Among the 232 patients on the BSC arm 175 received panitumumab after investigator ascertainment of disease progression. For the patients in this study, overall survival was practically equal between the two arms. So not giving the patients on the BSC arm any anti-cancer therapy until they had an investigator ascertainment of disease progression or died, and then giving 175 of the survivors panitumumab led to the same overall survival as giving panitumumab upfront to the patients on the panitumumab arm. This brings the meaningfulness of the PFS comparison into question. Delaying panitumumab until investigator ascertainment of disease progression or death and then probably getting panitumumab (among the survivors) for a group that had a noticeably less favorable distribution for baseline ECOG performance status was as good as getting panitumumab upfront for a group that had a noticeably more favorable distribution for ECOG performance status. Also, another study in metastatic colorectal cancer where patients failed at least two prior lines of therapy comparing FOLFOX4 with LV5FU2, study EFC4760, had the time to disease progression comparison fail to predict the overall survival comparison.
+L269: ## 5.2 Conclusions and Recommendations
+L270: Having no anti-cancer therapy and then waiting for a PFS event (disease progression or death) before starting panitumumab therapy (if alive and choose to) did not seem to impact overall survival. The overall survival results are consistent with panitumumab having no effect on overall survival. If these two groups of patients (231 patients in the panitumumab + BSC arm and 232 patients in the BSC arm) are good enough to provide a sound comparison on one endpoint (e.g., PFS) then these two groups of patients should be good enough to provide a sound comparison on other endpoints (e.g., overall survival). The patients on the panitumumab + BSC arm had longer PFS than the patients on the BSC arm, however overall survival for the patients on the panitumumab + BSC arm was similar to the overall survival of the patients on the BSC arm. The superior PFS of the panitumumab + BSC arm failed to predict an overall survival benefit when comparing the same two groups of patients. Since an overall survival benefit will not be predicted when comparing the same two groups of patients, it is not likely that the superior PFS of the patients on the panitumumab + BSC arm in this study would predict an overall survival advantage when comparing two other different groups of patients (one group receiving panitumumab and the other group not receiving panitumumab).
+L271: Also, no patient in this trial was cured of their disease. The medians for overall survival for FOLFOX-4 in study N9741 and IFL + Avastin study AVF210g as front-line therapies were both approximately 20 months. For study 20020408, the estimated survival probability beyond 14.3 months is zero for the panitumumab + BSC arm (see Dr. Koti's review for the overall survival Kaplan-Meier curves). It is not clear whether any patient in the panitumumab + BSC arm had their lives prolonged or whether any of these patients had the effects of their cancer reversed.
+L272: APPEARS THIS WAY
+ON ORIGINAL
+L273: ## SIGNATURES/DISTRIBUTION LIST
+L274: Statistical Team Leader and author of this review: Dr. Mark Rothmann, Ph. D.
+Date: September 12, 2006
+L275: Concurring Reviewer(s):
+L276: Biometrics Deputy Division Director: Dr. Aloka Chakravarty, Ph. D.
+L277: cc:
+L278: HFD-107/Ms. Hughes
+HFD-107/Dr. Giusti
+HFD-107/Dr. Shastri
+HFD-107/Dr. Keegan
+HFD-711/Dr. Koti
+HFD-711/Dr. Rothmann
+HFD-711/Dr. Chakravarty
+HFD-700/Ms. Patrician
+HFD-700/Dr. O'Neill
+L279: C:\BTSS\BLA\Vectibix\Panitumumab review
+L280: Survival Distribution Function
+PFS Day (Central, RECIST)
+STRATA:
+TRT=Best supportive care
+Censored TRT=Best supportive care
+TRT=panit. plus best supportive care
+Censored TRT=panit. plus best supportive care
+L281: Log Negative Log SDF
+Log of PFS Day (Central, RECIST)
+STRATA:
+— TRT=Best supportive care
+----- TRT=panit. plus best supportive care
+L282: Survival Distribution Function
+Death Day
+STRATA:
+TRT=Best supportive care
+Censored TRT=Best supportive care
+TRT=panit. plus best supportive care
+Censored TRT=panit. plus best supportive care

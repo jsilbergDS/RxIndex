@@ -1,0 +1,183 @@
+{
+  "app": "BLA125293",
+  "drug": "KRYSTEXXA",
+  "docs_read": [
+    {
+      "doc_type": "CrossR",
+      "doc_id": "beae647a-7f11-5da7-b05e-203c9fc92d83"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "6d2dba50-5812-5b4f-8ad6-536be6eb99b4"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "192ace1c-2d46-5d27-9dfc-dcfec2a070c0"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "8bc21c91-93c7-5b61-9501-c4276c7df625"
+    },
+    {
+      "doc_type": "Label",
+      "doc_id": "cfbb6eb8-e564-5b7c-9c39-0a5aa860876b"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Arthritis Advisory Committee, supplemented by members from the Cardiovascular and Renal Drug Products Advisory Committee and the Drug Safety Advisory Committee",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "6d2dba50-5812-5b4f-8ad6-536be6eb99b4",
+      "line": 282,
+      "quote": "A meeting of the Arthritis Advisory Committee was held on June 16, 2009 to discuss pegloticase for chronic gout refractory to conventional therapy. The committee was supplemented by members from the Cardiovascular and Renal Drug Products Advisory Committee and the Drug Safety Advisory Committee."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "6d2dba50-5812-5b4f-8ad6-536be6eb99b4",
+      "found_lines": [
+        282,
+        469
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "June 16, 2009",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "6d2dba50-5812-5b4f-8ad6-536be6eb99b4",
+      "line": 11,
+      "quote": "An Arthritis Advisory Committee meeting was convened on June 16, 2009 to discuss the risks and benefits associated with pegloticase treatment in patients with gout and hyperuricemia refractory to conventional therapy."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "6d2dba50-5812-5b4f-8ad6-536be6eb99b4",
+      "found_lines": [
+        11
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The panel voted 14 to 1 in favor of approval.",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "beae647a-7f11-5da7-b05e-203c9fc92d83",
+      "line": 230,
+      "quote": "The panel voted 14 to 1 in favor of approval."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "beae647a-7f11-5da7-b05e-203c9fc92d83",
+      "found_lines": [
+        13,
+        230
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee could not agree whether the imbalance of serious cardiovascular adverse events seen in the controlled trials represented a true safety signal, and recommended collecting additional postmarketing safety information, possibly via an observational epidemiologic study.",
+      "change": "FDA imposed a clinical postmarketing requirement: an observational study of 500 refractory gout patients treated with pegloticase for 1 year to evaluate infusion reactions, anaphylaxis, immune complex-related events, and serious adverse events.",
+      "category": "Safety / Postmarketing requirement (PMR)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "6d2dba50-5812-5b4f-8ad6-536be6eb99b4",
+        "line": 11,
+        "quote": "The committee could not reach agreement as to whether there was a true cardiovascular safety signal given the small number of cases and the multiple comorbidities of the subjects and recommended collecting additional postmarketing information.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "6d2dba50-5812-5b4f-8ad6-536be6eb99b4",
+          "found_lines": [
+            11
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "beae647a-7f11-5da7-b05e-203c9fc92d83",
+        "line": 264,
+        "quote": "Conduct an observational study enrolling 500 patients with hyperuricemia and gout who are refractory to standard uric acid lowering therapies who are treated with pegloticase for 1 year, in order to evaluate the frequency and severity of infusion reactions, anaphylaxis, immune complex-related adverse events and serious adverse events.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "beae647a-7f11-5da7-b05e-203c9fc92d83",
+          "found_lines": [
+            264
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members considered it important to limit use of pegloticase to patients who were truly refractory to conventional therapy, given the risk:benefit balance.",
+      "change": "The approved indication restricts pegloticase to chronic gout in adult patients refractory to conventional therapy.",
+      "category": "Population / indication restriction",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "beae647a-7f11-5da7-b05e-203c9fc92d83",
+        "line": 230,
+        "quote": "Panel members also considered it important to limit the use of the product to patients who were truly refractory to conventional therapy.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "beae647a-7f11-5da7-b05e-203c9fc92d83",
+          "found_lines": [
+            13,
+            230
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Label",
+        "doc_id": "cfbb6eb8-e564-5b7c-9c39-0a5aa860876b",
+        "line": 70,
+        "quote": "KRYSTEXXA\u2122 (pegloticase) is a PEGylated uric acid specific enzyme indicated for the treatment of chronic gout in adult patients refractory to conventional therapy.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "cfbb6eb8-e564-5b7c-9c39-0a5aa860876b",
+          "found_lines": [
+            12,
+            70
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee supported a sponsor proposal to incorporate instructions in labeling regarding cessation of treatment when uric acid rises above 6 mg/dL, in order to minimize the risk of infusion reactions.",
+      "change": "The label directs prescribers to monitor serum uric acid prior to infusions and consider discontinuing treatment if levels rise above 6 mg/dL, particularly with 2 consecutive levels above 6 mg/dL.",
+      "category": "Safety / Labeling (monitoring and discontinuation)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "beae647a-7f11-5da7-b05e-203c9fc92d83",
+        "line": 230,
+        "quote": "There was also support for a sponsor proposal to incorporate instructions in labeling regarding cessation of treatment when uric acid rises above 6 mg/dL in order to minimize the risk of infusion reactions.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "beae647a-7f11-5da7-b05e-203c9fc92d83",
+          "found_lines": [
+            13,
+            230
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Label",
+        "doc_id": "cfbb6eb8-e564-5b7c-9c39-0a5aa860876b",
+        "line": 87,
+        "quote": "Monitor serum uric acid levels prior to infusions and consider discontinuing treatment if levels increase to above 6 mg/dL, particularly when 2 consecutive levels above 6 mg/dL are observed.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "cfbb6eb8-e564-5b7c-9c39-0a5aa860876b",
+          "found_lines": [
+            10,
+            68,
+            87,
+            100
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Arthritis Advisory Committee meeting (supplemented by members of the Cardiovascular and Renal Drug Products and Drug Safety advisory committees) was held June 16, 2009 and voted 14 to 1 in favor of approving pegloticase for refractory chronic gout. The committee could not agree whether the cardiovascular serious-adverse-event imbalance was a true signal but recommended collecting additional postmarketing information, which the review team tied to a postmarketing observational study requirement; members also urged limiting use to truly refractory patients and supported labeling to stop treatment when uric acid rises above 6 mg/dL to reduce infusion reactions, both reflected in the approved indication and label."
+}

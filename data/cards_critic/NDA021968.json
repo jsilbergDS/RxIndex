@@ -1,0 +1,23 @@
+{
+  "app": "NDA021968",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 301)",
+  "_raw": "Analyzing the card against all criteria.\n\n```json\n{\n  \"app\": \"NDA021968\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].n\",\n      \"severity\": \"low\",\n      \"issue\": \"False-positive flag: 'N=106' is supported by the citation 'One hundred six patients were enrolled int",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study 1 \u2014 A Pivotal Study of SU011248 in the Treatment of Patients with Cytokine"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "106",
+        "text": "N=106"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

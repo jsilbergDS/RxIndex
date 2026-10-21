@@ -1,0 +1,147 @@
+{
+  "app": "NDA022468",
+  "drug": "FOLOTYN",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_2e5b976a-3b5a-5ef1-afc7-4c187f53dd12"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_237e82e9-8348-5d81-a5b8-1fec6f35b465"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_abe1eee5-248f-5912-8070-779a00e199ab"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_0501faff-4529-5e28-b803-8ee3c0d55716"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_6cc6c14e-8517-5e9e-9b31-eb4c3ec78ad3"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Oncologic Drugs Advisory Committee (ODAC)",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_237e82e9-8348-5d81-a5b8-1fec6f35b465",
+      "line": 86,
+      "quote": "An oncologic drug advisory committee meeting (ODAC) was held on September 2, 2009 to discuss the clinical significance of the overall response rate and duration of response as well as the benefit:risk ratio for pralatrexate treatment in patients with relapsed or refractory PTCL."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_237e82e98348",
+      "found_lines": [
+        21,
+        86
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "September 2, 2009",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_237e82e9-8348-5d81-a5b8-1fec6f35b465",
+      "line": 86,
+      "quote": "An oncologic drug advisory committee meeting (ODAC) was held on September 2, 2009"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_237e82e98348",
+      "found_lines": [
+        21,
+        86
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 10 Yes to 4 No that the response rate and duration of response results were reasonably likely to predict for clinical benefit.",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_237e82e9-8348-5d81-a5b8-1fec6f35b465",
+      "line": 86,
+      "quote": "The committee voted 10 Yes to 4 No."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_237e82e98348",
+      "found_lines": [
+        21,
+        86
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "ODAC was convened to assess whether the surrogate endpoints (overall response rate and duration of response) from the single-arm trial were reasonably likely to predict clinical benefit; the committee split, with 4 of 14 members voting No, reflecting uncertainty that these endpoints predict clinical benefit.",
+      "change": "FDA granted accelerated approval for pralatrexate (FOLOTYN) as a single agent for relapsed or refractory PTCL, with the Division Director explicitly relying on ODAC's view that the results were reasonably likely to predict clinical benefit.",
+      "category": "Approval pathway / Accelerated approval on surrogate endpoint",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_237e82e9-8348-5d81-a5b8-1fec6f35b465",
+        "line": 86,
+        "quote": "The committee was asked the following question: \"Are the response rate and duration of response results \"reasonably likely\" to predict for clinical benefit? Clinical benefit in lymphomas would be defined as an improvement in overall survival or a robust effect on progression-free survival.\" The committee voted 10 Yes to 4 No.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_237e82e98348",
+          "found_lines": [
+            21,
+            86
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_2e5b976a-3b5a-5ef1-afc7-4c187f53dd12",
+        "line": 131,
+        "quote": "I concur with the reviewers' recommendation for accelerated approval and the conclusions that the benefits of pralatrexate outweigh the risks in patients with relapsed or refractory PTCL. ODAC felt that the results of the study were reasonably likely to predict for clinical benefit, such as an improvement in overall survival or a robust improvement in progression-free survival.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_2e5b976a3b5a",
+          "found_lines": [
+            131
+          ]
+        }
+      }
+    },
+    {
+      "concern": "ODAC's endorsement rested on surrogate endpoints (response rate and duration of response) that were only reasonably likely to\u2014but not confirmed to\u2014predict clinical benefit such as overall survival or progression-free survival, leaving actual clinical benefit unconfirmed.",
+      "change": "A postmarketing requirement was imposed to submit protocols for at least two randomized trials to confirm the clinical benefit of pralatrexate, as a condition of the accelerated approval.",
+      "category": "Postmarketing requirement / Confirmatory trials",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_2e5b976a-3b5a-5ef1-afc7-4c187f53dd12",
+        "line": 131,
+        "quote": "ODAC felt that the results of the study were reasonably likely to predict for clinical benefit, such as an improvement in overall survival or a robust improvement in progression-free survival.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_2e5b976a3b5a",
+          "found_lines": [
+            131
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_2e5b976a-3b5a-5ef1-afc7-4c187f53dd12",
+        "line": 71,
+        "quote": "To confirm the clinical benefits of pralatrexate treatment and to fulfill the requirement for the recommended accelerated approval, the following postmarket requirement are recommended:",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_2e5b976a3b5a",
+          "found_lines": [
+            71
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Oncologic Drugs Advisory Committee (ODAC) meeting was held September 2, 2009 and voted 10 Yes to 4 No that pralatrexate's response rate and duration of response in relapsed/refractory PTCL were reasonably likely to predict clinical benefit. FDA relied on this favorable ODAC opinion in granting accelerated approval, with the Division Director explicitly citing ODAC's view in the Summary Review. Because approval rested on surrogate endpoints, FDA imposed postmarketing requirements to conduct at least two confirmatory randomized trials to verify clinical benefit."
+}

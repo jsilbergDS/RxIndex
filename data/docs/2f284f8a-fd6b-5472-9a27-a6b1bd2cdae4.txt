@@ -1,0 +1,1101 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+L2: **761143Orig1s000**
+L3: **STATISTICAL REVIEW(S)**
+L4: FDA Seal for Drug Evaluation and Research
+L5: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L6: ## STATISTICAL REVIEW AND EVALUATIONCLINICAL STUDIES
+L7: NDA/BLA #:	BLA 761143
+Supplement #:	0001
+Drug Name:	(b)(4)™ (Teprotumumab) for Injection
+Indication(s):	Treatment of Active Thyroid Eye Disease (TED)
+Applicant:	Horizon Pharma Ireland Ltd.
+Date(s):	Submitted: 07/06/2019
+Review Completion Goal Date: 12/10/2019
+PDUFA Goal date: 03/06/2020
+Review Priority:	Priority
+Biometrics Division:	DBIV
+Statistical Reviewer:	Yunfan Deng, Ph.D.
+Concurring Reviewers:	Greg Soon, Ph.D.
+Medical Division:	Division of Transplant and Ophthalmology Products
+Clinical Team:	Wiley Chambers, MD, Supervisory Medical Officer
+William Boyd, MD, Team Leader
+Project Manager:	Jacquelyn Smith
+L8: **Keywords:** active thyroid eye disease, Cochran-Mantel-Haenszel test
+L9: ## Table of Contents
+L10: 1	EXECUTIVE SUMMARY	4
+2	INTRODUCTION	5
+2.1	OVERVIEW	5
+2.1.1	Drug Class and Indication	5
+2.1.2	History of Drug Development	7
+2.1.3	Studies Reviewed	8
+2.2	DATA SOURCES	9
+3	STATISTICAL EVALUATION	9
+3.1	DATA AND ANALYSIS QUALITY	9
+3.2	EVALUATION OF EFFICACY	10
+3.2.1	Study Design and Endpoints	10
+3.2.2	Statistical Methodologies	12
+3.2.3	Patient Disposition, Demographic and Baseline Characteristics	15
+3.2.3.1	Study TED01RV	15
+3.2.3.2	Study 301	17
+3.2.4	Results and Conclusions	18
+3.2.4.1	Study TED01RV	18
+3.2.4.2	Study 301	21
+3.2.4.3	Additional Supportive Analyses	24
+3.2.4.3.1	Non-Study Eye	24
+3.2.4.3.2	Diplopia	25
+3.2.4.3.3	Relapse Status During the Extended Period	25
+3.2.4.4	Conclusion	26
+3.3	EVALUATION OF SAFETY	26
+4	FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	29
+4.1	GENDER, RACE, AGE, AND GEOGRAPHIC REGION	29
+5	SUMMARY AND CONCLUSIONS	30
+5.1	STATISTICAL ISSUES	30
+5.2	COLLECTIVE EVIDENCE	30
+5.3	CONCLUSIONS AND RECOMMENDATIONS	32
+5.4	LABELING RECOMMENDATIONS	32
+APPENDIX 1: INCLUSION AND EXCLUSION CRITERIA AND SCHEDULE OF ASSESSMENT	36
+L11: ## LIST OF TABLES
+L12: Table 1: Study TED01RV and Study HZNP-TEP-301 Primary Efficacy Results at Week 24 (ITT)	5
+Table 2: Summary of Efficacy Studies to be assessed in the Statistical Review	8
+Table 3: Study TED01RV Summary of Subjects' Disposition	16
+Table 4: Study TED01RV Demographic and Baseline Characteristics (ITT Population)	16
+Table 5: Study 301 Summary of Subjects' Disposition	17
+Table 6: Study 301 Demographic and Baseline Characteristics (ITT Population)	18
+Table 7: Study TED01RV Study Eye Overall Responder Status by Visit (ITT)	19
+Table 8: Study TED01RV Overall Responder at Week 24 Results Using Different Methods (ITT Population)	19
+Table 9: Study TED01RV Proptosis Responder Status by Visit (ITT)	20
+Table 10: Study TED01RV Analysis of Change from Baseline in Proptosis (ITT Population)	21
+Table 11: Study 301 Proptosis Responder Status by Visit (ITT)	21
+Table 12: Study 301 Proptosis Responder Rate at Week 24 Results Using Different Methods	22
+Table 13: Study 301 Analysis of Change from Baseline in Proptosis (ITT Population)	22
+Table 14: Study 301 Overall Responder Status by Visit (ITT)	23
+Table 15: Non-Study Eye Proptosis Response Rate by Visit (ITT)	24
+Table 16: Non-Study Eye Overall Response Rate by Visit (ITT)	24
+Table 17: Non-Study Eye Analysis of Change from Baseline in Proptosis by Visit (ITT)	24
+Table 18: Study Eye Diplopia Response Rate by Visit (ITT)	25
+Table 19: Study TED01RV Proportion of Proptosis Responders Who Relapsed from Week 24 to Week 72	25
+Table 20: Study TED01RV Safety Analysis: Treatment-Emergent Adverse Events Reported in at Least 5% of Subjects in Either Treatment Group by System Organ Class and Preferred Term (Safety Population)	26
+Table 21: Study 301 Safety Analysis: Treatment-Emergent Adverse Events Reported in at Least 5% of Subjects in Either Treatment Group by System Organ Class and Preferred Term (Safety Population)	27
+Table 22: Study TED01RV Listing of Serious Treatment-Emergent Adverse Events	28
+Table 23: Study 301 Listing of Serious Treatment-Emergent Adverse Events	29
+Table 24: Proptosis Response Rate by Visit (ITT)	31
+Table 25: Overall Response Rate by Visit (ITT)	32
+L13: ## LIST OF FIGURES
+L14: Figure 1: Schematic of Study Design (Studies TED01RV and HZNP-TEP-301)	11
+Figure 2: Study TED01RV Overall Responder Rate by Visit	19
+Figure 3: Study TED01RV Proptosis Responder Rate by Visit	20
+Figure 4: Study 301 Proptosis Responder Rate by Visit	22
+Figure 5: Study 301 Overall Responder Rate by Visit	23
+Figure 6: Proptosis Response Rate Subgroup Analysis	29
+Figure 7: Overall Response Rate Subgroup Analysis	30
+L15: ## 1 EXECUTIVE SUMMARY
+L16: This BLA seeks approval of [REDACTED](b) (4)™ (Teprotumumab) for intravenous (IV) infusion for the treatment of active thyroid eye disease (TED).
+L17: TED, also known as thyroid-associated ophthalmopathy or Graves' ophthalmopathy (GO) or orbitopathy, is an autoimmune disease associated with major comorbidities that can lead to blindness. Currently, there are no United States (U.S.) Food and Drug Administration (FDA)-approved medical treatments for Active TED. The natural history of TED involves an initial progressive worsening of signs and symptoms with visible signs of inflammation (the Active TED phase), followed by a plateau phase where no further deterioration occurs (the Inactive TED phase). Once in the inactive phase, it is unlikely for a patient to return into the active phase. For most patients, Active TED lasts between 1 to 3 years and then the inflammation subsides to leave the permanent pathology of Inactive TED.
+L18: The efficacy of [REDACTED](b) (4) was evaluated in two pivotal studies: Study TED01RV, and Study HZNP-TEP-301. Both studies were randomized, double-masked, placebo-controlled, parallel-group, multicenter studies that evaluated the efficacy and safety of IV teprotumumab infusions every 3 weeks (Q3W) for the treatment of Active TED. Both study designs included a 24-Week Treatment Period and a 48-week off-treatment Follow-up Period. The 24-Week Treatment Period and Follow-up Period of Study TED01RV have been completed. The 24-Week Treatment Period of Study HZNP-TEP-301 has been completed and the Follow-up Period is currently ongoing.
+L19: For Study TED01RV, the primary outcome measure was the overall responder rate in the study eye at week 24, which was defined as the percentage of patients with \ge 2 mm reduction in proptosis (bulging of the eye) in the study eye from baseline and with a \ge 2-point reduction in clinical activity score (CAS), without deterioration in the non-study eye (\ge 2 mm increase in proptosis or a \ge 2-point increase in CAS). CAS is a 7-point scale used to measure the signs and symptoms of TED including pain, gaze evoked orbital pain, swelling, eyelid erythema, redness, chemosis and inflammation, where lower scores indicate fewer symptoms. For Study HZNP-TEP-301, the primary outcome measure was the proptosis responder rate in the study eye at week 24, defined as the percentage of patients with a \ge 2 mm reduction from baseline in proptosis in the study eye without deterioration of \ge 2 mm increase in proptosis in the non-study eye; the overall responder rate was the first secondary efficacy outcome in this study. It should be noted that the proptosis responder rate is the Agency's clinical review team preferred primary efficacy measure.
+L20: For both studies, compared with placebo, significantly more patients treated with teprotumumab had an improvement in both proptosis responder rate and the overall responder rate. In Study TED01RV, the proptosis responder rate was 71.3% in teprotumumab vs. 20.0% of placebo, the treatment difference was 51.1% with 95% CI of (32.5%, 69.7%); the overall responder rate was 69.1% in teprotumumab vs. 20.0% in placebo, the treatment difference was 49.1% with 95% CI of (30.8%, 67.3%). In Study HZNP-TEP-301, the proptosis responder rate was 82.9% in teprotumumab vs. 9.5% of placebo, the treatment difference was 73.4% with 95% CI of (58.9%, 88.0%); the overall responder rate was 78.0% in teprotumumab vs. 7.1% in placebo, the treatment difference was 70.8% with 95% CI of (55.9%, 85.6%).
+L21: In conclusion, the two pivotal studies demonstrated that teprotumumab was efficacious in treating active TED; and the treatment effects were relatively consistent across the two studies. Therefore, the statistical reviewer recommends the approval of teprotumumab for the treatment of active thyroid eye disease.
+L22: **Table 1: Study TED01RV and Study HZNP-TEP-301 Primary Efficacy Results at Week 24 (ITT)**
+L23: Study TED01RV	Study HZNP-TEP-301
+Teprotumumab	Placebo	Difference (95% CI)1	Teprotumumab	Placebo	Difference (95% CI)1
+Proptosis Response Rate	30/42 (71.3%)	9/45 (20.0%)	51.1% (32.5%, 69.7%)	34/41 (82.9%)	4/42 (9.5%)	73.4% (58.9%, 87.9%)
+Overall Response Rate	29/42 (69.1%)	9/45 (20.0%)	48.9% (30.2%, 67.6%)	32/41 (78.1%)	3/42 (7.1%)	70.9% (56.0%, 85.8%)
+L24: 1 Difference and its corresponding 95% CI is based on a weighted average of the difference within each randomization stratum (tobacco user, tobacco non-use) using CMH weights. Missing responses were imputed as non-responders.
+L25: Source: Statistical reviewer's analysis for Study TED01RV and Tables 14.2.1.3.1 and 14.2.2.1.3 of Study 301 Report
+L26: ## 2 INTRODUCTION
+L27: ## 2.1 Overview
+L28: ## 2.1.1 Drug Class and Indication
+L29: Thyroid eye disease (TED), also termed Graves' orbitopathy/ophthalmopathy (GO) and thyroid-associated ophthalmopathy (TAO), is an autoimmune condition commonly associated with Graves' disease (GD). Thyroid eye disease is divided by severity into mild, moderate, and severe disease, with moderate to severe disease representing approximately 25% of TED cases. In terms of time course, TED can be considered as two distinct conditions: "active TED", which is an autoimmune inflammatory response targeting orbital soft tissues; and "inactive TED", which is the name given to the expanded and fibrotic tissues that are the sequelae of the active disease. During the active phase, there is a progressive increase in the severity of Active TED, with an increase in proptosis, increased eyelid aperture, compromised eye motility, diplopia and, in severe cases, dysthyroid optic neuropathy. During the inactive phase, inflammation is absent and the disease plateaus, but significant remodeling of orbital tissue remains and rarely does the patient return to baseline. Once in the inactive phase, it is unlikely for a patient to return into the active phase. Active TED typically lasts 1 to 3 years, and then the inflammation spontaneously subsides to leave inactive TED, which is permanent. There are currently no United States (U.S.) FDA-approved medical treatments available for patients with Active TED
+L30: The annual incidence rate of TED in the US has been estimated to be 16 cases per 100,000 people for women and 2.9 cases per 100,000 people for men. Patients aged between 30 and 50 years are most frequently affected, with severe cases more frequent in those older than 50 years. The occurrence and severity of TED is associated with smoking.
+L31: According to the applicant, although TED is heterogeneous and variable in presentation, protrusion of the eyeball from the socket, termed proptosis is one of the most prevalent and widely known symptoms of TED. Proptosis results from inflammation, edema, proliferation, hyaluronan deposition and expansion of soft tissue and muscle tissue posterior to the eye. Excessive proptosis impairs a patient's ability to close their eyes, resulting in pain, corneal ulceration and inability to sleep. Moreover, the activity of the disease is often estimated using the Clinical Activity Score (CAS) in clinical practice. The CAS is the total score of the following seven items (one point for the presence of each item):
+L32: - Spontaneous orbital pain.
+- Gaze evoked orbital pain.
+- Eyelid swelling that is considered to be due to active (inflammatory phase) GO.
+- Eyelid erythema.
+- Conjunctival redness that is considered to be due to active (inflammatory phase) GO (ignore "equivocal" redness).
+- Chemosis.
+- Inflammation of caruncle or plica.
+L33: In addition, diplopia (double vision) is another common symptom of TED resulting in difficulty working, driving and other activities of daily living, that is of clinical interest.
+L34: The investigational product, teprotumumab was originally developed by F. Hoffman-La Roche Ltd., for the treatment of a variety of solid tumors; however, the program was terminated due to lack of efficacy. River Vision Development Corporation licensed teprotumumab and began development for the treatment of TED and for the treatment of diabetic macular edema (DME). The development program for DME was terminated due to difficulty enrolling subjects and the development of TED continued. The applicant (Horizon Pharma USA) acquired River Vision in May 2017 and continued the clinical development program of teprotumumab for TED.
+L35: Teprotumumab (also identified as HZN-001 by the applicant) is a fully human immunoglobulin G1 monoclonal antibody directed against human insulin-like growth factor (IGF)-1 receptor (IGF-1R). The IGF-1R is a tyrosine kinase cell surface receptor that shares ~50% overall homology with the insulin receptor. Teprotumumab binds with high affinity and selectivity to the extracellular domain of IGF-1R and prevents its activation by the endogenous ligands, IGF-1 and IGF-2. The applicant believed that administering teprotumumab early in the disease process could reduce the inflammation, proptosis and diplopia associated with Active TED, which may lead to better long-term outcomes, such as a reduced need for surgical decompression or improvement of diplopia or appearance. Teprotumumab was granted orphan drug designation by the FDA for the treatment of active (dynamic) phase Graves' orbitopathy (Orphan Drug Designation 12-3878) on 6 May 2013. In addition, teprotumumab has received Breakthrough Therapy designation for the treatment of active, moderate-to-severe TED (granted 29 July 2016) and Fast Track designation (granted April 2015) from the FDA.
+L36: ## 2.1.2 History of Drug Development
+L37: The applicant conducted all clinical studies for teprotumumab under IND 112952.
+L38: On December 12, 2018, a Type-C meeting was held between the sponsor and the Agency to discuss the Statistical Analysis Plan (SAP) of proposed pivotal Study HZNP-TEP-301 (following the promising results of the Phase 2 Study TED01RV), the following is the excerpt from the meeting minutes regarding the proposed primary and secondary efficacy analyses:
+L39: **“Does the Agency agree that the analyses described in the Phase 3 study HZNP-TEP-301 statistical analysis plan (SAP) will be sufficient to assess the benefits and risks of HZN-001 in the treatment of TED?”**
+L40: *FDA's Preliminary Response: Final determinations regarding safety and efficacy of a product can only be determined once a NDA/BLA is submitted in its entirety and reviewed. We have the following comments:*
+L41: - *We recommend that the primary efficacy analysis focus on estimating and testing the difference in the proportion of proptosis responders between the treatment groups. Your proposed primary efficacy analysis appears to estimate the conditional odds ratio using a logistic regression model (with tobacco use as a categorical covariate). This analysis assumes that the odds ratio is the same for tobacco users and non-users. In general, the true conditional odds ratios may differ across the covariate levels. Even if the odds ratio across the covariate levels are the same, this common odds ratio may differ from the population-wide odds ratio. Therefore, you should clearly describe in the SAP why the set of conditional odds ratios is more relevant compared to the population-wide odds ratio or the population difference in the rates of responders.*
+- *You proposed to categorize subjects who prematurely discontinue study drug dosing prior to Week 21 but return for the Week 24 evaluation as treatment failures (non-responders). We recommend that the efficacy data collected at Week 24 be used in the primary analysis regardless of whether subjects prematurely discontinue study drug.*
+- *For the secondary categorical endpoints, we recommend you focus on estimating and testing the difference in the response rates between the treatment groups and provide a 95% confidence interval for the treatment difference.*
+L42: *Meeting Discussion: Horizon clarified that randomization in the phase 3 study was stratified by tobacco use status to assure balance. The SAP will be amended to justify using the stratified analysis as the primary analysis. As a part of the overall analysis, the results will be analyzed in an unstratified manner as recommended by the Agency. The impact of smoking status on the overall findings will be evaluated using additional analyses including subgroup analysis.*
+L43: The Agency noted that it did not have concerns with stratified analysis in principle, but it is not clear what Horizon's proposed logistic regression is intended to estimate. Horizon
+L44: agreed to use all the efficacy data collected at Week 24 in the primary analysis. Horizon will unblind the study in February. Horizon also plans to change to stage 3 optics study and asked if there were any concerns with endpoints.
+L45: The Agency stated there were no concerns regarding endpoints.”
+L46: A pre-NDA meeting was held on May 14, 2019, the following excerpt was taken from the meeting minutes for that meeting regarding the two submitted studies:
+L47: “Does the Agency agree that the efficacy and safety data from the Phase 3 trial HZNP-TEP-301 and from the Phase 2 trial TED01RV are adequate to support submission of a BLA for teprotumumab for the proposed indication in the treatment of Active TED as summarized in Sections 12.2 and 12.3?”
+L48: *FDA Response: The efficacy and safety data from the Phase 3 trial HZNP-TEP-301 and from the Phase 2 trial TED01RV appear adequate for BLA filing. Decisions regarding adequacy of studies to support safety and efficacy are only made once a BLA is submitted and reviewed.”*
+L49: ## 2.1.3 Studies Reviewed
+L50: The efficacy of (b)(4) was evaluated in two pivotal studies: Study TED01RV, and Study HZNP-TEP-301 (referred to as Study 301 below). Both studies were randomized, double-masked, placebo-controlled, parallel-group, multicenter studies that evaluated the efficacy and safety of intravenous teprotumumab infusions every 3 weeks (Q3W) for the treatment of Active TED. Study TED01RV was initially designed as a Phase 2 study, as its results demonstrated statistically significant differences between teprotumumab and placebo for the applicant-defined primary and secondary efficacy endpoints, the applicant decided to use it as one of the pivotal studies for the BLA submission and subsequently designed a similar pivotal study (Study 301).
+L51: **Table 2: Summary of Efficacy Studies to be assessed in the Statistical Review**
+L52: Study No	Design	Objective	Treatment Groups Randomized/Completed	Study Population
+TED01RV	Multi-center, randomized, double-masked, parallel group, placebo-control	to investigate the efficacy, safety, and tolerability of teprotumumab administered q3W for 6 months, in comparison to placebo, in the treatment of subjects suffering from active TED	teprotumumab / 45
+placebo / 42	Adult subjects with active TED with a clinical activity score (CAS) ≥4 (on the 7-point version of the scale) for the most severely affected eye (Study Eye)
+HZNP-TEP-301	Multi-center, randomized,	to investigate the efficacy, safety, and tolerability of teprotumumab	teprotumumab / 41
+placebo / 42	Adult subjects with active TED with a clinical activity score
+L53: double-masked, parallel group, placebo-control	administered q3W for 6 months, in comparison to placebo, in the treatment of subjects suffering from moderate-to-severe active TED	(CAS) \ge 4 (on the 7-point version of the scale) for the most severely affected eye (Study Eye) and were considered as having moderate-to-severe active TED
+L54: Source: Statistical Reviewer's Summary.
+L55: ## 2.2 Data Sources
+L56: The data sources for this review mainly came from the applicant's study reports for studies TED01RV, and HZNP-TEP-301. The study reports are available at the following locations:
+L57: \\CDSesub1\evsprod\BLA761143\0001\m5\53-clin-stud-rep\535-rep-effic-safety-stud\active-thyroid-eye-disease\5351-stud-rep-contr\ted01rv
+L58: \\CDSesub1\evsprod\BLA761143\0001\m5\53-clin-stud-rep\535-rep-effic-safety-stud\active-thyroid-eye-disease\5351-stud-rep-contr\hznp-tep-301
+L59: The applicant submitted SAS datasets electronically; the datasets for the two studies are available respectively at:
+L60: \\CDSesub1\evsprod\BLA761143\0001\m5\datasets\ted01rv
+L61: \\CDSesub1\evsprod\BLA761143\0001\m5\datasets\hznp-tep-301
+L62: The SAS program codes that were used to generate the results in the study reports are available respectively at:
+L63: \\CDSesub1\evsprod\BLA761143\0001\m5\datasets\ted01rv\analysis\adam\programs
+L64: \\CDSesub1\evsprod\BLA761143\0001\m5\datasets\hznp-tep-301\analysis\adam\programs
+L65: The efficacy assessments were included in the "adeff.xpt" dataset with variable names "AVAL" for responder or not (1 or 0). The treatment variable, given both as numeric (TRTPN) and character (TRTP), was also included in both the above datasets. The adverse events were included in the "adae.xpt" dataset.
+L66: ## 3 STATISTICAL EVALUATION
+L67: ## 3.1 Data and Analysis Quality
+L68: Overall, the submitted data were of good quality with definitions provided for each variable. Results of the primary and secondary efficacy endpoints can be reproduced by the statistical reviewer with minor data manipulation. The statistical reviewer's analyses were primarily based on the analysis datasets. The final statistical analysis plans (SAPs) for the two pivotal studies were submitted.
+L69: ## 3.2 Evaluation of Efficacy
+L70: ## 3.2.1 Study Design and Endpoints
+L71: The two pivotal efficacy studies TED01RV, and HZNP-TEP-301 were similarly designed pivotal studies. Both studies were randomized, multi-center, double-masked, placebo-controlled, parallel-group studies investigating the efficacy, safety, and tolerability of teprotumumab, administered q3W for 6 months, in comparison to placebo, in the treatment of subjects suffering from active TED. Study TED01RV was initially designed as a Phase 2 study, as it showed statistically significant efficacy results, the applicant decided to use it as one of the pivotal studies for the BLA submission and designed a similar subsequent Phase 3 study (HZNP-TEP-301).
+L72: Both studies consisted of three periods:
+L73: - A screening period within 2 to 6 weeks prior to the Baseline (Day 1) visit. Subjects visited the study clinic once or twice or as required.
+- A double-masked treatment period of 24 weeks. Subjects attended clinic visits at Week 0 (baseline visit, 1st infusion), Weeks 1 and 3 (2nd infusion), 4 and 6 (3rd infusion), 9 (4th infusion), 12 (5th infusion), 15 (6th infusion), 18 (7th infusion), 21 (8th infusion), and 24 (final assessment visit). Research staff telephoned subjects focusing on safety and tolerability aspects the day after infusion for the 1st and 2nd infusions, and thereafter as required. Research staff also contacted subjects who experienced an infusion-related event the day after the infusion.
+- A follow-up period of 48 weeks with no additional treatment during at least the first 12 weeks. Subjects attended clinic visits at Week 28, 36, 48, 60, and 72.
+L74: The 24-Week Treatment Period and Follow-up Period of Study TED01RV have been completed. The 24-Week Treatment Period of Study HZNP-TEP-301 has been completed and the Follow-up Period is currently ongoing.
+L75: During the screening period, subjects completed eligibility assessments. The entry criteria for the studies were similar, allowing for the assessment of efficacy of teprotumumab in a relevant population of adult subjects with Active TED. All subjects had a clinical diagnosis of Graves' disease with a CAS \ge 4 on a 7-point scale (with a score of \ge 3 indicating Active TED) for the most severely affected eye. The onset of Active TED symptoms was within 9 months prior to Baseline. Subjects had not received surgical or medical treatment, with the exception of oral steroids (cumulative dose &lt; 1 g of methylprednisolone or equivalent, with a washout period of 4 [Study HZNP-TEP-301] or 6 weeks [Study TED01RV]). Subjects must have been euthyroid with the Baseline disease under control or have mild hypo-hyperthyroidism (defined as free thyroxine [FT4] and free triiodothyronine [FT3] levels &lt; 50% above or below the normal limits) at Screening. Please also see Appendix 1 for a more detailed listing of Inclusion and Exclusion Criteria.
+L76: Subjects who met study entry criteria were randomly assigned (stratified by smoking status: user and non-user) to the double-masked treatment phase in a 1:1 ratio to receive a starting dose of 10 mg/kg of teprotumumab or placebo every 3 weeks (q3W) via IV infusion. At Week 3, the dose
+L77: was escalated to 20 mg/kg IV q3W. Following dose escalation, subjects continued at this dose level for all subsequent infusions. In the case of an intolerable adverse event (AE), subjects were withdrawn from the study. During the 24-week treatment period, subjects were evaluated at clinic visits every 3 weeks and, if appropriate, by telephone contact by research staff. Measurements for efficacy, tolerability, safety, biomarkers, and PK were performed according to the assessment schedule (see Appendix 1 for Assessment Schedule). Subjects were withdrawn from the study if they developed optic neuropathy or any eye condition that required surgical intervention. The following figure depicts the schematic of both studies.
+L78: **Figure 1: Schematic of Study Design (Studies TED01RV and HZNP-TEP-301)**
+L79: * Infusion of study drug.
+L80: M = Month; q3W = every 3 weeks; TED = thyroid eye disease; W = Week.
+L81: 1. Subjects were randomized in a 1:1 ratio (stratified by tobacco use status) to receive:
+L82: - Teprotumumab 20 mg/kg (10 mg/kg on Day 1 followed by 20 mg/kg q3W for the remaining 7 infusions); or
+- Placebo (placebo q3W for all 8 infusions).
+L83: 2. Visit windows were \pm 1 day for Weeks 1 and 4, \pm 3 days for Weeks 3, 6, 9, 12, 15, 18 and 21, and \pm 7 days for Week 24.
+L84: 3. Subjects who were proptosis responders or non-responders who do not elect to participate in the open-label extension study entered a Follow-Up Period. Subjects who were responders at Week 24 but relapse during the Follow-Up Period may have enrolled in the open-label extension study if they met the criteria.
+L85: 4. Visit windows of \pm 7 days.
+L86: 5. Subjects who completed the Week 72 Visit were contacted via phone or email by research staff to enquire if any treatment for TED had been received since last study contact.
+L87: 6. Subjects who were proptosis non-responders at Week 24 of the Double-Masked Treatment Period were offered the option to enter an open-label extension study.
+L88: Source: Figure 9-1 of Study 301 Report.
+L89: Subjects had the right to withdraw from the trial at any time for any reason. The investigator (after consultation with the applicant) or the applicant also had the right to withdraw subjects from the trial in the event of concurrent illness, AEs, treatment failure after a prescribed procedure, protocol violations, administrative, or other reasons. Every reasonable attempt was made to encourage the subject to return at Visit 12 (Week 24) for evaluation at the end of the treatment period and at Week 72 at the end of the follow up period. Subjects who met the response criteria at Week 24 but subsequently experience a disease relapse during the 48-week Follow-up Period will have the option to enter the open-label extension study (HZNP-TEP-302) and receive 8 infusions of teprotumumab. Determination of relapse is based on the following criteria:
+L90: - Increase in proptosis of \ge 2 mm in the study eye since Week 24, or
+- An increase in CAS of \ge 2 points since Week 24 with an absolute CAS of \ge 4 in the study eye following the Week 24 Visit.
+- In addition to one of the bullet points above, the Investigator should consider the subject's symptomology to ensure a relapse has occurred (e.g., new onset of double vision).
+L91: For Study TED01RV, the primary efficacy endpoint was whether the subject was an overall responder or not (yes or no) at Week 24. An overall responder was defined as a subject with the following:
+L92: - A decrease in overall CAS \ge 2 points AND
+- A reduction in proptosis \ge 2 mm, AND
+- No deterioration of CAS in the Non-Study Eye (ie, increase of CAS \ge 2 points OR increase in proptosis \ge 2 mm) at the 24-week evaluation.
+L93: For Study 301, the primary efficacy endpoint was the proptosis responder rate, defined as the percentage of subjects with a \ge 2 mm reduction from Baseline in proptosis in the study eye, without deterioration [\ge 2 mm increase] of proptosis in the fellow eye at Week 24. The overall responder rate defined the same as in Study TED01RV was the first secondary efficacy endpoint in this study.
+L94: In both studies, the most severely affected eye was defined as the "study eye" at the Baseline visit. Although efficacy assessments from ophthalmological examinations were performed for both eyes at each assessment time point, the study eye was used to assess the primary and secondary endpoints, as applicable.
+L95: ## 3.2.2 Statistical Methodologies
+L96: The sample size estimation for Study TED01RV was based on the following assumptions:
+L97: - 0.05 two-sided level of significance for chi-square test
+- 80% power
+- 30% overall responder rate for the placebo group
+- 60% overall responder rate for the teprotumumab group
+L98: Based on the above assumption, the estimated sample size was approximately 42 subjects per arm (84 subjects total).
+L99: The sample size estimation for Study 301 was based on the following assumptions:
+L100: - 0.05 two-sided level of significance for chi-square test
+- 90% power
+- The proptosis responder rate difference between the teprotumumab group and the placebo group was 39%
+- A 16% dropout rate
+L101: Based on the above assumption, the estimated sample size was approximately 45 subjects per arm (90 subjects total).
+L102: For both studies, the null hypothesis for the responder analysis (overall responder for Study TED01RV and proptosis responder for Study 301) was that the response rate at Week 24 in the teprotumumab group (p_t) is less than or equal to the response rate in the placebo group (p_c) versus the alternative that the teprotumumab group response rate was larger:
+L103: - H_0: p_t \le p_c (null) VS.
+- H_1: p_t \le p_c (alternative)
+L104: For both studies, there were four different analysis populations (also known as analysis sets) defined by the applicant:
+L105: - **Intent-to-Treat (ITT) population**, which included all randomized subjects. The ITT population was analyzed as randomized and the primary efficacy analyses of both studies were based on the ITT population.
+- **Modified ITT (mITT) population**, which included all ITT subjects who received at least one dose of study drug and had at least one post-Baseline proptosis measurement. The mITT population was analyzed as randomized and used to evaluate the sensitivity of the primary efficacy analysis.
+- **Per-Protocol (PP) Population**, which was a subset of the mITT population who completed the Double-Masked Treatment Period and did not incur any major protocol violations that would have challenged the validity of their data. The PP population was analyzed according to treatment received and used to evaluate the sensitivity of the primary analysis.
+- **Safety Population**, which included all randomized subjects who received at least one dose of study treatment. The safety population was analyzed as treated and used for the safety analyses.
+L106: ## Efficacy Analysis for Study TED01RV
+L107: For Study TED01RV, the primary analysis used a logistic regression model with treatment group as the model effect and was performed on the ITT population. Smoking status was treated as a covariate. The odds ratio comparing the experimental group to the control group was provided, along with the corresponding 95% confidence intervals (CIs) and P-value. This analysis was based on observed values without any missing imputation.
+L108: To assess the impact of missing information, the following sensitivity analyses were performed:
+L109: - Subjects missing the Week 24 evaluation were analyzed using their last observed value of responder status (LOCF) for the logistic regression model for the ITT Population.
+- All dropouts were analyzed as treatment failures, notwithstanding their return for the Week 24 assessment.
+- An analysis was performed in which only subjects with a non-missing Week 24 assessment, regardless of whether they completed all scheduled treatments, was included.
+L110: In addition, a chi-square test was performed to evaluate the difference in the proportion of responders between treatment groups at Week 24 for the ITT Population. The number and percentage of responders are presented by treatment, along with the treatment difference, the corresponding 95% confidence interval (CI) and P-value.
+L111: To investigate the effect of treatment on the Non-Study Eye, a calculation of its response was conducted (using a definition analogous to the one used for the Study Eye) at Week 24 and all other visits. The primary logistic analysis and the unstratified chi-square analysis were conducted at Week 24 and all other visits.
+L112: As discussed in the meeting held on December 12, 2018 with the sponsor, a logistic regression model (with tobacco use as a categorical covariate) estimates the conditional odds ratio based on the assumption that the odds ratio is the same for tobacco users and non-users. In general, the true conditional odds ratios may differ across the covariate levels. Even if the odds ratio across the covariate levels are the same, this common odds ratio may differ from the population-wide odds ratio. Therefore, the statistical review focused on the results of responder analysis using CMH weights where all missing values were considered as treatment failures for both Study TED01RV and Study 301; and proposed to present these results with the corresponding 95% confidence interval (CI) in the clinical studies section in the label.
+L113: ## Efficacy Analysis for Study 301
+L114: For Study 301, the primary analysis of the proptosis responder endpoint assessed the stratified difference in the proportions of proptosis responders between the treatment groups. Stratification for the analysis used the same factor as was used to stratify randomization, tobacco use (non-user, user). The primary analysis used the ITT Population. The primary analysis was a stratified difference, which is a weighted average of the difference within each stratum. Estimates from the two strata were combined using Cochran-Mantel-Haenszel weights.
+L115: Subjects missing the Week 24 evaluation were considered treatment failures (non-responders) for the primary analysis. Further, subjects who prematurely discontinued study drug dosing prior to Week 21 during the Double-Masked Treatment Period were analyzed as treatment failures (non-responders), unless an assessment at Week 24 was available.
+L116: The primary efficacy analysis was repeated for the mITT and PP Populations as sensitivity analyses. Additionally, the primary analysis was repeated for the ITT Population using logistic regression, with treatment group as the fixed effect and tobacco use as a covariate in the model. The following sensitivity analyses were conducted using the primary analysis method to evaluate the impact of missing data:
+L117: - Subjects missing the Week 24 evaluation were analyzed using their last available assessment for classification of responder or non-responder for the ITT Population. Data collected from premature withdrawal visits were considered for this analysis
+- An analysis was performed in which only subjects with a non-missing Week 24 evaluation were included, regardless if they completed all scheduled treatments.
+L118: A chi-square test was performed to evaluate the difference in percentage of responders between treatment groups at Week 24 for the ITT Population, considering subjects missing the Week 24 evaluation as treatment failures (non-responders). The number and percentage of responders were presented by treatment, along with treatment difference, the corresponding asymptotic 95% CI and p-value.
+L119: Secondary endpoints (with the main analyses defined in the study eye as appropriate) were analyzed using the ITT Population in a hierarchical manner in the order as presented in the following sections. For each outcome measure, teprotumumab was tested against placebo at the
+L120: 0.05 significance level only if the test statistic was statistically significantly in favor of teprotumumab for the outcome measure preceding it in the hierarchical order.
+L121: The first secondary efficacy endpoint of the overall responder rate was analyzed using an analysis of the stratified difference in proportions of responders with stratification by tobacco use (non-user, user). Subjects missing the Week 24 evaluation were considered treatment failures (non-responders) for the analysis. The difference in response rates comparing teprotumumab to placebo was estimated along with the corresponding 95% CIs and p-value.
+L122: To investigate the effect of treatment on the Non-Study Eye, a calculation of its response was conducted (using a definition analogous to the one used for the Study Eye) at Week 24 and all other visits. The primary logistic analysis and the unstratified chi-square analysis were conducted at Week 24 and all other visits.
+L123: ## 3.2.3 Patient Disposition, Demographic and Baseline Characteristics
+L124: Study TED01RV has been completed. The 24-Week Treatment Period of Study HZNP-TEP-301 has been completed and the Follow-up Period is currently ongoing.
+L125: ## 3.2.3.1 Study TED01RV
+L126: There were 88 subjects enrolled in the study. Of these, 87 subjects took at least 1 dose of study drug and were included in the ITT and mITT Populations. One subject [REDACTED] (b) (6) enrolled and was randomized but voluntarily withdrew prior to receiving study drug because of difficulty with blood draws. Of the 87 subjects, 42 randomized to the teprotumumab group; and 45 to the placebo group.
+L127: Most of the subjects in the placebo and teprotumumab groups completed the Double-Masked Treatment Period (95.2% and 95.1%, respectively). A total of 4 subjects (2 placebo and 2 teprotumumab) were prematurely discontinued from the Double-Masked Treatment Period. Reasons for early discontinuation included TEAE (*Visual field defect* in placebo Subject [REDACTED] (b) (6) after her third dose of study drug on Day 43 and *Infusion related reaction* in teprotumumab Subject [REDACTED] (b) (6) during his first infusion of study drug on Day 1) and withdrawal by subject (placebo Subject [REDACTED] (b) (6) decided to pursue alternative treatment after his fifth dose of study drug on Day 85 and teprotumumab Subject [REDACTED] (b) (6) requested withdrawal due to the potential risk of an allergic reaction given the skin itchiness and redness experienced after her third dose of study drug on Day 43).
+L128: Three (3) subjects received the wrong treatment for at least 1 infusion:
+L129: - Subject [REDACTED] (b) (6) randomized into the placebo group received 2 wrong infusions (teprotumumab); and an administrative decision on part of the applicant was made to discontinue this subject;
+- Subjects [REDACTED] (b) (6) randomized into the placebo group received 1 wrong infusion; and
+- Subject [REDACTED] (b) (6) randomized in the teprotumumab group received 1 wrong infusion.
+L130: According to the applicant, none of the mask for these three subjects were broken during their treatment period. These subjects were analyzed under the first treatment actually received for the Safety Population; for the primary efficacy analysis, they were analyzed based on the treatment they were randomized to.
+L131: **Table 3: Study TED01RV Summary of Subjects' Disposition**
+L132: Teprotumumab
+(N=42)
+n (%)	Placebo
+(N=45)
+n (%)	Overall
+(N=87)
+n (%)
+Number of Subjects Randomized	43	45	88
+ITT Population	42 (100)	45 (100)	87 (100)
+mITT Population	42 (100)	45 (100)	87 (100)
+PP Population	33 (78.6)	36 (80.0)	69 (79.3)
+Safety Population	43 (102.4)	44 (97.8)	87 (100)
+Completed the Study Treatment (Week 24)	37 (88.1)	39 (86.7)	76 (87.4)
+Discontinued the Study Treatment	37 (15.5)	43 (17.6)	93 (13.0)
+Reasons for Early Discontinuation	
+Adverse Event	5 (11.9)	1 (2.2)	6 (6.9)
+Lack of efficacy	0	2 (4.4)	2 (2.3)
+Other	1 (2.4)	3 (6.7)	4 (4.6)
+Completed the Study (Week 72)	37 (88.1)	39 (86.7)	76 (87.4)
+Discontinued the Study Treatment	37 (15.5)	43 (17.6)	93 (13.0)
+Reasons for Early Discontinuation	
+Adverse Event	5 (11.9)	1 (2.2)	6 (6.9)
+Lack of efficacy	0	2 (4.4)	2 (2.3)
+Other	1 (2.4)	3 (6.7)	4 (4.6)
+L133: Note: All subjects who signed informed consent were considered enrolled in the study. The percentages presented in this table are based on the ITT Population. Three subjects received the wrong treatment; these 3 subjects were excluded from the PP Population and analyzed under the first treatment received for the Safety Population. One subject (Subject (b) (6)), randomized to teprotumumab, terminated early, and never received any study drug.
+L134: Source: Table 4 of Study TED01RV Report.
+L135: As presented in the following table, in general, demographic and baseline characteristics were comparable among the treatment groups.
+L136: **Table 4: Study TED01RV Demographic and Baseline Characteristics (ITT Population)**
+L137: Characteristics	Teprotumumab
+(N=42)	Placebo
+(N=45)	Overall
+(N=87)
+n (%)	n (%)	n (%)
+Gender	
+Male	14 (33.3)	9 (20)	23 (26.4)
+Female	28 (66.7)	36 (80)	64 (73.6)
+Age	
+Mean (Std)	51.7 (10.78)	54.1 (12.87)	52.9 (11.90)
+Min, Max	22.3, 72.6	20.4, 77.0	20.4, 77.0
+Median	51.1	55.1	52.8
+L138: Characteristics	Teprotumumab	Placebo	Overall
+(N=42)
+n (%)	(N=45)
+n (%)	(N=87)
+n (%)
+Race	
+Asian	1 (2.4)	2 (4.4)	3 (3.4)
+Black/African American	4 (9.5)	4 (8.9)	8 (9.2)
+Native Hawaiian or Other Pacific Islander	1 (2.4)	0	1 (1.1)
+White	36 (85.7)	39 (86.7)	75 (86.2)
+Ethnicity	
+Hispanic or Latino	2 (4.8)	4 (8.9)	6 (6.9)
+Non-Hispanic or Latino	40 (95.2)	41 (91.1)	81 (93.1)
+Weight (kg)	
+Mean (Std)	80.4 (19.8)	80.8 (21.4)	80.6 (20.5)
+Min, Max	47.6, 138	53.6, 168.7	47.6, 168.7
+Median	74.9	73.5	74
+Study Eye	
+Left Eye	16 (38.1)	24 (53.3)	40 (46.0)
+Right Eye	26 (61.9)	21 (46.7)	47 (54.0)
+Smoking Status	
+Non-smoker	31 (73.8)	27 (60.0)	58 (66.7)
+Smoker	11 (26.2)	18 (40.0)	29 (33.3)
+L139: Source: Statistical Reviewer's Analysis.
+L140: ## 3.2.3.2 Study 301
+L141: There were 83 subjects randomized in the study. Of these 83 subjects, 41 were randomized to the teprotumumab group; and 42 to the placebo group. Similar proportions of subjects in each group were included in the PP Population (80.0% in the placebo group and 78.6% in the teprotumumab group).
+L142: **Table 5: Study 301 Summary of Subjects' Disposition**
+L143: Teprotumumab
+(N=41)
+n (%)	Placebo
+(N=42)
+n (%)	Overall
+(N=83)
+n (%)
+Number of Subjects Randomized	41	42	83
+ITT Population	41 (100)	42 (100)	83 (100)
+mITT Population	40 (97.6)	42 (100)	82 (97.6)
+PP Population	33 (80.5)	34 (81.0)	67 (80.7)
+Safety Population	41 (100)	42 (100)	83 (100)
+Completed the Double-Masked Treatment Period	39 (95.1)	40 (95.2)	79 (95.2)
+Discontinued Early	2 (4.9)	2 (4.8)	4 (4.8)
+Reasons for Early Discontinuation	
+Adverse Event	1 (2.4)	1 (2.4)	2 (2.4)
+Withdrawal by Subject	1 (2.4)	1 (2.4)	2 (2.4)
+L144: Source: Table 7 of Study 302 Report.
+L145: As presented in the following table, demographic and baseline characteristics were comparable among the treatment groups.
+L146: **Table 6: Study 301 Demographic and Baseline Characteristics (ITT Population)**
+L147: Characteristics	Teprotumumab	Placebo	Overall
+(N=41)
+n (%)	(N=42)
+n (%)	(N=83)
+n (%)
+Gender	
+Male	12 (29.3)	11 (26.2)	23 (27.7)
+Female	29 (70.7)	31 (73.8)	60 (72.3)
+Age	
+Mean (Std)	51.6 (12.63)	48.9 (12.96)	50.2 (12.79)
+Min, Max	31, 79	20, 73	20, 79
+Median	53.0	51.5	52.0
+Race	
+Asian	2 (4.9)	1 (2.4)	3 (3.6)
+Black/African American	4 (9.8)	2 (4.8)	6 (7.2)
+White	35 (85.4)	37 (88.1)	72 (86.7)
+Other	0	2 (4.8)	2 (2.4)
+Ethnicity	
+Hispanic or Latino	2 (4.9)	1 (2.4)	3 (3.6)
+Non-Hispanic or Latino	39 (95.1)	41 (97.6)	80 (96.4)
+Weight (kg)	
+Mean (Std)	75.03 (16.54)	75.79 (18.51)	75.41 (17.46)
+Min, Max	49.4, 110.0	45.0, 122.9	45.0, 122.0
+Median	73.9	74.5	73.9
+Study Eye	
+Left Eye	16 (37.2)	24 (54.5)	40 (46.0)
+Right Eye	27 (62.8)	20 (45.5)	47 (54.0)
+Smoking Status	
+Never	23 (56.1)	25 (59.5)	48 (57.8)
+Current	9 (22.0)	8 (19.0)	17 (20.5)
+Former	9 (22.0)	9 (21.4)	18 (21.7)
+L148: Source: Tables 11-2 and 11-3 of Study 301 report.
+L149: ## 3.2.4 Results and Conclusions
+L150: ## 3.2.4.1 Study TED01RV
+L151: The primary outcome measure was the overall responder rate at week 24, which was defined as the percentage of patients with \ge 2 mm reduction in proptosis in the study eye from baseline and with a \ge 2-point reduction in CAS, without deterioration in the non-study eye (\ge 2 mm increase in proptosis or a \ge 2-point increase in CAS).
+L152: Treatment effects were observed for the teprotumumab group starting from Week 6. The overall response rates for the teprotumumab group at Week 6, week 12, and Week 18 were 46.2% (18/42), 57.5% (23/42), and 76.9% (30/42), respectively, compared with 4.8% (2/45), 4.9% (2/45), and 4.9% (2/45) for the placebo group. At Week 24, the responder rate was 69.1% (29/42) for the teprotumumab group and 20.0% (9/45) for the placebo group; the treatment difference was 49.1% with 95% CI of (30.8%, 67.3%). The overall responder rate from Week 6 to Week 24 lists in the following table and depicts in the subsequent figure.
+L153: **Table 7: Study TED01RV Study Eye Overall Responder Status by Visit (ITT)**
+L154: Visit	Teprotumumab
+(N=42)	Placebo
+(N=45)	Difference
+(95% CI)1
+Week 6	18 (42.9)	2 (4.4)	40.0 (24.2, 56.3)
+Week 12	23 (54.8)	2 (4.4)	49.0 (32.4, 65.6)
+Week 18	30 (71.4)	2 (4.4)	65.8 (50.2, 81.3)
+Week 24	29 (69.1)	9 (20.0)	48.9 (30.2, 67.6)
+L155: 1 Difference and its corresponding 95% CI is based on a weighted average of the difference within each randomization stratum (tobacco user, tobacco non-use) using CMH weights. Missing responses were imputed as non-responders.
+L156: Source: Statistical Reviewer's Analysis
+L157: **Figure 2: Study TED01RV Overall Responder Rate by Visit**
+L158: Source: Statistical Reviewer's Analysis.
+L159: The following analyses for the primary efficacy endpoint of the overall responder rate were also conducted by the applicant. These supportive analyses yielded the same conclusion as the above analysis.
+L160: **Table 8: Study TED01RV Overall Responder at Week 24 Results Using Different Methods (ITT Population)**
+L161: Teprotumumab
+(N=42)	Placebo
+(N=45)	Difference (95% CI)
+Responders	n (%)	n (%)	
+Chi-Square Test	29 (69.1)	9 (20.0)	49.0 (30.8, 67.3)
+Logistic Regression	29 (69.1)	9 (20.0)	Odds Ratio (95% CI)
+8.86 (3.29, 23.83)
+L162: Source: Statistical Reviewer's Analysis based on Table 14.2.7.2 of Study TED01RV Report.
+L163: For the efficacy endpoint of proptosis responder rates defined as the percentage of patients with a \ge 2 mm reduction from baseline in proptosis in the study eye without deterioration of \ge 2 mm increase in proptosis in the non-study eye (the primary efficacy endpoint for the other pivotal Study 301), treatment effects were also observed for the teprotumumab group starting from Week 6. The proptosis response rates for the teprotumumab group at Week 6, week 12, and Week 18 were 52.4% (22/42), 57.1% (24/42), and 76.1% (32/42), respectively, compared with 8.9% (4/45), 4.4% (2/45), and 8.9% (4/45) for the placebo group. At Week 24, the proptosis responder rate was 71.3% (30/42) for the teprotumumab group and 20.0% (9/45) for the placebo group; the treatment difference was 51.4% with 95% CI of (33.5%, 69.4%). The overall responder rate from Week 6 to Week 24 lists in the following table and depicts in the subsequent figure.
+L164: **Table 9: Study TED01RV Proptosis Responder Status by Visit (ITT)**
+L165: Visit	Teprotumumab
+(N=42)	Placebo
+(N=45)	Difference
+(95% CI)1
+Week 6	22 (52.4)	4 (8.9)	43.5 (26.3, 60.7)
+Week 12	24 (57.1)	2 (4.4)	52.7 (36.6, 68.8)
+Week 18	32 (76.1)	4 (8.9)	67.3 (52.0, 82.6)
+Week 24	30 (71.3)	9 (20.0)	51.4 (33.5, 69.4)
+L166: 1 Difference and its corresponding 95% CI is based on a weighted average of the difference within each randomization stratum (tobacco user, tobacco non-use) using CMH weights. Missing responses were imputed as non-responders.
+L167: Source: Statistical Reviewer's Analysis based on Table 14.2.7.2 of Study TED01RV Report.
+L168: **Figure 3: Study TED01RV Proptosis Responder Rate by Visit**
+L169: Source: Statistical Reviewer's Graph based on Table 14.2.7.2 of Study TED01RV Report.
+L170: To further investigate the treatment effect on proptosis, an MMRM analysis was fit to the individual change from Baseline in proptosis value using Baseline value, smoking status, treatment, time, time by treatment, and time by baseline score interaction as fixed effects. The following table presents the results of the analysis based this analysis. These results further confirmed the treatment effect observed for the proptosis responder rate.
+L171: **Table 10: Study TED01RV Analysis of Change from Baseline in Proptosis (ITT Population)**
+L172: Visit	Teprotumumab
+(N=42)*	Placebo
+(N=45)*	Difference
+(95% CI)*
+LS Mean (SE)	
+Week 6	-1.80 (0.23)	-0.05 (0.22)	-1.75 (-2.37, -1.14)
+Week 12	-2.11 (0.23)	-0.13 (0.22)	-1.98 (-2.60, -1.37)
+Week 18	-2.97 (0.22)	-0.13 (0.21)	-2.84 (-3.44, -2.25)
+Week 24	-2.95 (-0.27)	-0.30 (0.26)	-2.95 (-3.38, -1.92)
+L173: * Results were obtained from an MMRM with an unstructured covariance matrix and including treatment, smoking status, baseline value, visit, treatment by visit, and visit by baseline value interaction as fixed effects. Missing responses were imputed as non-responders.
+Source: Table 14.2.7.3.1 of Study TED01RV Report.
+L174: ## 3.2.4.2 Study 301
+L175: The primary outcome measure of Study 301 was the proptosis responder rate at week 24, defined as the percentage of patients with a \ge 2 mm reduction from baseline in proptosis in the study eye without deterioration of \ge 2 mm increase in proptosis in the non-study eye; the overall responder rate as defined in Study TED01RV was the first secondary efficacy outcome in this study.
+L176: Treatment effects were observed for the teprotumumab group starting from Week 6. The proptosis response rates for the teprotumumab group at Week 6, week 12, and Week 18 were 56.1% (23/41), 75.6% (31/41), and 82.9% (34/41), respectively, compared with 7.1% (3/42), 14.3% (6/42), and 14.3% (6/42) for the placebo group. At Week 24, the responder rate was 82.9% (34/41) for the teprotumumab group and 9.5% (4/42) for the placebo group; the treatment difference was 73.5% with 95% CI of (58.9%, 88.0%). The overall responder rate from Week 6 to Week 24 lists in the following table and depicts in the subsequent figure.
+L177: **Table 11: Study 301 Proptosis Responder Status by Visit (ITT)**
+L178: Visit	Teprotumumab
+(N=41)	Placebo
+(N=42)	Difference
+(95% CI)1
+Week 6	23 (56.1)	3 (7.1)	48.9 (31.8, 66.0)
+Week 12	31 (75.6)	6 (14.3)	61.8 (44.4, 78.2)
+Week 18	34 (82.9)	6 (14.3)	68.6 (52.8, 84.3)
+Week 24	34 (82.9)	4 (9.5)	73.4 (58.9, 87.9)
+L179: 1 Difference and its corresponding 95% CI is based on a weighted average of the difference within each randomization stratum (tobacco user, tobacco non-use) using CMH weights. Missing responses were imputed as non-responders.
+Source: Table 14.2.1.3.1 of Study TED01RV Report.
+L180: Figure 4: Study 301 Proptosis Responder Rate by Visit
+L181: Source: Statistical Reviewer's Graph based on Table 14.2.1.3.1 of Study TED01RV Report.
+L182: The following analyses for the primary efficacy endpoint of the overall responder rate were also conducted by the applicant. These supportive analyses yielded the similar results as the above analysis.
+L183: Table 12: Study 301 Proptosis Responder Rate at Week 24 Results Using Different Methods
+L184: Teprotumumab
+(N=41)	Placebo
+(N=42)	Difference (95% CI)
+Responders
+n (%)	34 (82.9)	4 (9.5)	73.4 (58.9, 87.9)
+Chi-Square Test	
+Logistic Regression	34 (82.9)	4 (9.5)	46.5 (12.5, 173.3)
+L185: Source: Tables 14.2.1.2.1 and 14.2.1.1.4 of Study TED01RV Report.
+L186: To further investigate the treatment effect on proptosis, an MMRM analysis was fit to the individual change from Baseline in proptosis value using baseline value, smoking status, treatment, time, time by treatment, and time by baseline health score interaction as fixed effects. The following table presents the results of the analysis based this analysis. These results further confirmed the treatment effect observed for the proptosis responder rate.
+L187: Table 13: Study 301 Analysis of Change from Baseline in Proptosis (ITT Population)
+L188: Visit	Teprotumumab
+(N=41)*	Placebo
+(N=42)*	Difference
+(95% CI)*
+LS Mean (SE)	
+Week 6	-2.0 (0.19)	-0.38 (0.19)	-1.61 (-2.1, -1.1)
+Week 12	-2.70 (0.22)	-0.64 (0.22)	-2.06 (-2.6, -1.5)
+Week 18	-3.26 (0.22)	-0.59 (0.22)	-2.67 (-3.2, -2.1)
+Week 24	-3.32 (0.23)	-0.53 (0.24)	-2.79 (-3.4, -2.2)
+L189: * Results were obtained from an MMRM with an unstructured covariance matrix and including treatment, smoking status, baseline value, visit, treatment by visit, and visit by baseline value interaction as fixed effects.
+Source: Table 14.2.4.1.1 of Study 301 Report.
+L190: For the first secondary efficacy endpoint of overall responder rates defined the same as the primary efficacy endpoint for the other pivotal Study TED01RV, treatment effects were also observed for the teprotumumab group starting from Week 6. The proptosis response rates for the teprotumumab group at Week 6, week 12, and Week 18 were 52.4% (22/42), 57.1% (24/42), and 76.1% (32/42), respectively, compared with 8.9% (4/45), 4.4% (2/45), and 8.9% (4/45) for the placebo group. At Week 24, the proptosis responder rate was 71.3% (30/42) for the teprotumumab group and 20.0% (9/45) for the placebo group; the treatment difference was 51.4% with 95% CI of (33.5%, 69.4%). The overall responder rate from Week 6 to Week 24 lists in the following table and depicts in the subsequent figure.
+L191: **Table 14: Study 301 Overall Responder Status by Visit (ITT)**
+L192: Visit	Teprotumumab
+(N=41)	Placebo
+(N=42)	Difference
+(95% CI)1
+Week 6	18 (43.9)	2 (4.8)	39.1 (22.6, 55.6)
+Week 12	26 (63.4)	5 (11.9)	51.5 (33.8, 69.2)
+Week 18	30 (73.2)	5 (11.9)	61.3 (44.5, 78.0)
+Week 24	32 (78.1)	3 (7.1)	70.9 (56.03, 85.8)
+L193: 1 Difference and its corresponding 95% CI is based on a weighted average of the difference within each randomization stratum (tobacco user, tobacco non-use) using CMH weights. Missing responses were imputed as non-responders.
+L194: Source: Statistical Reviewer's Analysis based on Table 14.2.2.1.3 of Study 301 Report.
+L195: **Figure 5: Study 301 Overall Responder Rate by Visit**
+L196: Source: Statistical Reviewer's Graph based on Table 14.2.2.1.3 of Study 301 Report.
+L197: ## 3.2.4.3 Additional Supportive Analyses
+L198: ## 3.2.4.3.1 Non-Study Eye
+L199: As an IV injection, if there is any treatment effect of teprotumumab in the study eye, similar treatment effect would be expected in the non-study eye as well. The following tables summarize the proptosis responder rate, the overall responder rate, and the change from baseline in proptosis in the non-study eye by study visit. Subjects missing the evaluation were considered non-responders at each visit. As seen in the study eye, in both studies, treatment effects in the non-study eye were also observed for the teprotumumab group starting from Week 6 till Week 24 and were consistent with those seen for the study eye.
+L200: **Table 15: Non-Study Eye Proptosis Response Rate by Visit (ITT)**
+L201: Visit	Study TED01RV	Study 301
+Teprotumumab
+(N=42)	Placebo
+(N=45)	Difference
+(95% CI)	Teprotumumab
+(N=41)	Placebo
+(N=42)	Difference
+(95% CI)
+Week 6	9 (21.4)	3 (6.7)	14.4 (0.0, 28.9)	22 (53.7)	0	53.4 (38.1, 68.7)
+Week 12	15 (35.7)	3 (6.7)	28.9 (12.2, 45.8)	24 (58.5)	2 (4.8)	53.5 (37.1, 69.9)
+Week 18	21 (50.0)	4 (8.9)	41.0 (23.5, 58.6)	29 (70.7)	2 (4.8)	65.9 (50.5, 81.4)
+Week 24	26 (61.9)	6 (13.3)	48.4 (30.4, 66.4)	27 (65.9)	1 (2.4)	63.5 (48.3, 78.7)
+L202: 1 Difference and its corresponding 95% CI is based on a weighted average of the difference within each randomization stratum (tobacco user, tobacco non-use) using CMH weights. Missing responses were imputed as non-responders.
+L203: Source: Statistical reviewer's analysis for Study TED01RV and Table 14.2.1.3.1 of Study 301 Report
+L204: **Table 16: Non-Study Eye Overall Response Rate by Visit (ITT)**
+L205: Visit	Study TED01RV	Study 301
+Teprotumumab
+(N=42)	Placebo
+(N=45)	Difference
+(95% CI)	Teprotumumab
+(N=41)	Placebo
+(N=42)	Difference
+(95% CI)
+Week 6	8 (19.1)	2 (4.4)	14.7 (1.3, 28.1)	17 (41.5)	0	41.0 (25.9, 56.1)
+Week 12	13 (31.0)	1 (2.2)	29.6 (14.6, 44.6)	19 (46.3)	2 (4.8)	41.1 (24.6, 57.5)
+Week 18	17 (40.5)	1 (2.2)	38.4 (22.7, 54.1)	24 (58.5)	1 (2.4)	55.8 (40.1, 71.6)
+Week 24	22 (52.4)	6 (13.3)	38.9 (20.6, 57.3)	25 (61.0)	0	60.9 (45.9, 75.8)
+L206: 1 Difference and its corresponding 95% CI is based on a weighted average of the difference within each randomization stratum (tobacco user, tobacco non-use) using CMH weights. Missing responses were imputed as non-responders.
+L207: Source: Statistical reviewer's analysis for Study TED01RV and Table 14.2.2.1.5 of Study 301 Report.
+L208: **Table 17: Non-Study Eye Analysis of Change from Baseline in Proptosis by Visit (ITT)**
+L209: Visit	Study TED01RV	Study 301
+Teprotumumab
+(N=42)*	Placebo
+(N=45)*	Difference
+(95% CI)*	Teprotumumab
+(N=41)*	Placebo
+(N=42)*	Difference
+(95% CI)*
+LS Mean (SE)	
+Week 6	-1.10 (0.20)	-0.17 (0.19)	-1.27 (-1.81, -0.73)	-1.61 (0.19)	-0.01 (0.19)	-1.60 (-2.1, -1.1)
+Week 12	-1.28 (0.20)	0.03 (0.19)	-1.31 (-1.84, -0.79)	-1.93 (0.21)	0.02 (0.21)	-1.94 (-2.49, -1.39)
+Week 18	-1.86 (0.22)	0.22 (0.21)	-0.21 (-2.68, -1.49)	-2.68 (0.23)	0.05 (0.23)	-2.73 (-3.32, -2.14)
+Week 24	-2.19 (0.24)	0.20 (0.23)	-2.39 (-3.03, -1.74)	-2.59 (0.22)	0.09 (0.22)	-2.68 (-3.25, -2.11)
+L210: * Results were obtained from an MMRM with an unstructured covariance matrix and including treatment, smoking status, baseline value, visit, treatment by visit, and visit by baseline value interaction as fixed effects.
+L211: Source: Table 14.2.7.3.2 of Study TED01RV Report and Table 14.2.4.1.2 of Study 301 Report.
+L212: ## 3.2.4.3.2 Diplopia
+L213: Diplopia (double vision) is another common symptom of TED resulting in difficulty working, driving and other activities of daily living, that is of clinical interest. Therefore, the statistical reviewer performed exploratory responder analysis of the diplopia. In this analysis, a diplopia responder is defined as subjects with baseline diplopia grade &gt; 0 who had diplopia dropped to zero.
+L214: For Study TED01RV, at baseline, there were 31 subjects in the placebo group and 38 subjects in the teprotumumab group who had diplopia. For Study 301, at baseline, there were 28 subjects in the placebo group and 28 subjects in the teprotumumab group who had diplopia. Among these subjects with diplopia at baseline, by Week 24, more subjects in the teprotumumab group experienced no more diplopia in the study eye than those in the placebo group, as presented in the following table.
+L215: **Table 18: Study Eye Diplopia Response Rate by Visit (ITT)**
+L216: Visit	Study TED01RV	Study 301
+Teprotumumab (N=38)	Placebo (N=31)	Difference (95% CI)	Teprotumumab (N=28)	Placebo (N=28)	Difference (95% CI)
+Week 6	9 (23.7)	4 (12.9)	10.8 (-7.2, 28.7)	10 (35.7)	1 (3.6)	32.1 (13.1, 51.2)
+Week 12	12 (31.6)	6 (19.4)	12.2 (-8.1, 32.5)	14 (50.0)	4 (14.3)	35.7 (13.1, 58.3)
+Week 18	12 (31.6)	5 (16.1)	15.5 (-4.0, 35.1)	18 (64.3)	6 (21.4)	42.9 (19.5, 66.2)
+Week 24	17 (44.7)	4 (12.9)	31.8 (12.1, 51.6)	17 (60.7)	7 (25.0)	35.7 (11.5, 59.9)
+L217: Source: Statistical Reviewer's Analysis
+L218: ## 3.2.4.3.3 Relapse Status During the Extended Period
+L219: In Study TED01RV, following completion of the 24-Week Double-Masked Treatment Period in Study TED01RV, subjects were followed for an additional of 48 weeks. Subjects received no additional study treatment during the 48-week follow-up period; they attended clinic visits at Weeks 28, 36, 48, 60, and 72 for safety assessments; efficacy was only measured at Weeks 28 and 72.
+L220: To evaluate long-term response post-treatment, subjects who were proptosis responders at Week 24 and who entered the 48-week off-treatment Follow-up Period were further evaluated for loss of proptosis response. Among these subjects who entered the 48-week follow-up period, a total of 39 subjects who were proptosis responders at Week 24 (30 from the teprotumumab group and 9 from the placebo group). The proportion of proptosis responders who relapsed from Week 24 to 72, defined as an increase in proptosis of \ge 2 mm from Week 24 in the Study Eye, is presented in the following table.
+L221: **Table 19: Study TED01RV Proportion of Proptosis Responders Who Relapsed from Week 24 to Week 72**
+L222: Visit	Teprotumumab (N=30)	Placebo (N=9)
+Week 72	n (%)	n (%)
+L223: Relapse	12 (40.0)	3 (33.0)
+No Relapse	18 (60.0)	6 (67.0)
+L224: Relapse was defined as an increase in proptosis of \ge 2 mm from Week 24 in the Study Eye only.
+Source: Statistical Reviewer's Analysis based on Table 14.2.7.2 of Study TED01RV Report.
+L225: By Week 72, teprotumumab group had 40% patients and placebo group had about one third patients who had relapsed. Since about 40% subjects in the treatment group experienced relapse, it would be helpful if the applicant could plan any future studies to explore the possibility of re-treatment for those relapsed subjects.
+L226: ## 3.2.4.4 Conclusion
+L227: In conclusion, the two pivotal studies Study TED01RV and Study 301 demonstrated that teprotumumab was efficacious in terms of proptosis responder rate and overall responder rate at Week 24 compared with placebo.
+L228: ## 3.3 Evaluation of Safety
+L229: For Study TED01RV, overall, the 4 most common treatment-emergent adverse events (TEAEs) reported in at least 5% of subjects in either group were nausea (13.8%), muscle spasms (11.5%), fatigue (10.3%), and diarrhea (9.2%) (Table 20). Except for fatigue, these events were reported in a higher proportion of subjects in the teprotumumab group compared to the placebo group.
+L230: In this study, three (3) subjects received the wrong treatment for at least 1 infusion; two randomized to the placebo group but received at least one infusion of teprotumumab; and one randomized to the teprotumumab group but received one wrong infusion of placebo. According to the applicant, none of the mask for these three subjects were broken during their treatment period; and these subjects were analyzed under the first treatment actually received for the Safety Population. In principle, subjects were supposed to be analyzed based on the treatment group they were randomized to. In this case, as there were only 3 subjects affected and they were in both treatment arms, the overall impact to the safety results was ignorable.
+L231: **Table 20:** Study TED01RV Safety Analysis: Treatment-Emergent Adverse Events Reported in at Least 5% of Subjects in Either Treatment Group by System Organ Class and Preferred Term (Safety Population)
+L232: System Organ Class
+Preferred Term	Teprotumumab
+N=43
+n (%)	Placebo
+N=44
+n (%)	Total
+N=87
+n (%)
+Any TEAEs	32 (72.7)	32 (74.4)	64 (73.6)
+Gastrointestinal Disorders	
+Nausea	16 (37.2)	6 (13.6)	22 (25.3)
+Diarrhea	8 (18.6)	4 (9.1)	12 (13.8)
+Diarrhea	6 (14.0)	2 (4.5)	8 (9.2)
+Infection and Infestations	
+Upper respiratory tract infection	13 (30.2)	9 (20.5)	22 (25.3)
+Upper respiratory tract infection	0	4 (9.1)	4 (4.6)
+L233: Skin and Subcutaneous Tissue Disorders	11 (25.6)	9 (20.5)	20 (23.0)
+Alopecia	3 (7.0)	2 (4.5)	5 (5.7)
+Dry Skin	3 (7.0)	0	3 (3.4)
+Rash	3 (7.0)	4 (9.1)	7 (8.0)
+Musculoskeletal and Connective Tissue Disorders	13 (30.2)	9 (20.5)	22 (25.3)
+Muscle Spasms	8 (18.6)	2 (4.5)	10 (11.5)
+Nervous System Disorders	10 (23.3)	9 (20.5)	19 (21.8)
+Dizziness	0	4 (9.1)	4 (4.6)
+Dysgeusia	3 (7.0)	0	3 (3.4)
+Headache	3 (7.0)	2 (4.5)	5 (5.7)
+Paraesthesia	3 (7.0)	0	3 (3.4)
+Somnolence	0	3 (6.8)	3 (3.4)
+Investigations	9 (20.9)	7 (15.9)	16 (18.4)
+Weight decreased	3 (7.0)	0	3 (3.4)
+Metabolism and Nutrition Disorders	10 (23.3)	2 (4.5)	12 (13.8)
+Hyperglycaemia	5 (11.6)	2 (4.5)	7 (8.0)
+General Disorders and Administrative Site Conditions	6 (14.0)	10 (22.7)	16 (18.4)
+Fatigue	3 (7.0)	6 (13.6)	9 (10.3)
+L234: Source: Table 16 of Study TED01RV Report.
+L235: For Study 301, TEAEs that occurred more commonly in the teprotumumab group compared to the placebo group (\ge 5.0\% difference) included *Muscle spasms* (31.7% vs. 9.5%), *Alopecia* (19.5% vs. 11.9%), *Nausea* (14.6% vs. 9.5%), *Fatigue* (12.2% vs. 2.4%), *Dysgeusia* (9.8% vs. 0), *Dry skin* (9.8% vs. 0), *Dizziness* (7.3% vs. 0) and *Amenorrhoea* (7.3% vs. 0).
+L236: **Table 21: Study 301 Safety Analysis: Treatment-Emergent Adverse Events Reported in at Least 5% of Subjects in Either Treatment Group by System Organ Class and Preferred Term (Safety Population)**
+L237: System Organ Class
+Preferred Term	Teprotumumab
+N=41
+n (%)	Placebo
+N=42
+n (%)	Total
+N=83
+n (%)
+Any TEAEs	35 (85.4)	29 (69.0)	64 (77.1)
+Gastrointestinal Disorders	18 (43.9)	9 (21.4)	27 (32.5)
+Abdominal pain upper	2 (4.9)	3 (7.1)	5 (6.0)
+Diarrhea	4 (9.8)	5 (11.9)	9 (10.8)
+Nausea	6 (14.6)	4 (9.5)	10 (12.0)
+Stomatitis	3 (7.3)	1 (2.4)	4 (4.8)
+General Disorders and administration site conditions	8 (19.5)	4 (9.5)	12 (14.5)
+Fatigue	5 (12.2)	1 (2.4)	6 (7.2)
+Infection and Infestations	16 (39.0)	10 (23.8)	26 (31.3)
+Influenza	1 (2.4)	3 (7.1)	4 (4.8)
+L238: Skin and Subcutaneous Tissue Disorders	15 (36.6)	11 (26.2)	26 (31.3)
+Alopecia	8 (19.5)	5 (11.9)	13 (15.7)
+Dry Skin	4 (9.8)	0	4 (4.8)
+Musculoskeletal and Connective Tissue Disorders	16 (39.0)	5 (11.9)	21 (25.3)
+Muscle Spasms	13 (31.7)	4 (9.5)	17 (20.5)
+Nervous System Disorders	14 (34.1)	8 (19.0)	22 (26.5)
+Dizziness	3 (7.3)	0	3 (3.6)
+Dysgeusia	4 (9.8)	0	4 (4.8)
+Headache	4 (9.8)	4 (9.5)	8 (9.6)
+Reproductive system and breast disorders	4 (9.8)	0	4 (4.8)
+Amenorrhea	3 (7.3)	0	3 (3.6)
+Respiratory, thoracic and mediastinal disorders	4 (9.8)	0	4 (4.8)
+Cough	2 (4.9)	3 (7.1)	5 (6.0)
+L239: Source: Table 12-3 of Study 301 Report.
+L240: In Study TED01RV, a total of six (6.9%) subjects in the study experienced SAEs: 1 (2.3%) subject in the placebo group and 5 (11.6%) subjects in the teprotumumab group. None of the SAEs occurred in &gt;1 subject. In the placebo group, an SAE of optic neuropathy was reported. In the teprotumumab group, SAEs of diarrhea, inflammatory bowel disease, Escherichia sepsis, Hashimoto's encephalopathy, and urinary retention were reported. In Study 301, three (3.6%) subjects experienced SAEs: 1 (2.3%) in the placebo group and 2 (4.8%) in the teprotumumab group. In the placebo group, an SAE of visual field defect was reported. In the teprotumumab group, SAEs of infusion related reaction, and pneumothorax were reported. The following two tables list the above serious treatment-emergent adverse events by subjects in each study.
+L241: **Table 22: Study TED01RV Listing of Serious Treatment-Emergent Adverse Events**
+L242: Subject ID	Preferred Term	Outcome	Severity	Causality (Related with the Study Treatment)	Study Medication
+Teprotumumab(b) (6)	Hashimoto's encephalopathy	Unknown	Moderate	Possible	Treatment interrupted
+Urinary retention	Resolved	Moderate	Unrelated	Treatment not changed
+Diarrhea	Resolved	Severe	Possible	Treatment withdrawn
+Escherichia sepsis	Unknown	Severe	Unrelated	Treatment withdrawn
+Inflammatory bowel disease	Resolved with sequelae	Severe	Unrelated	Treatment withdrawn
+Placebo(b) (6)	Optic neuropathy	Resolved	Mild	Unrelated	N/A
+L243: Source: Table 17 of Summary of Clinical Safety.
+L244: **Table 23: Study 301 Listing of Serious Treatment-Emergent Adverse Events**
+L245: Subject ID	Preferred Term	Outcome	Severity	Causality (Related with the Study Treatment)	Study Medication
+Teprotumumab
+(b) (6)	Infusion related reaction	Resolved	Moderate	Related	Treatment withdrawn
+Pneumothorax	Resolved	Life-threatening	Unrelated	Treatment not changed
+Placebo
+(b) (6)	Visual field defect	Recovering	Severe	Unrelated	Treatment withdrawn
+L246: Source: Table 17 of Summary of Clinical Safety.
+L247: Please see the review of the medical reviewer for details of the safety evaluation.
+L248: ## 4 FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L249: ## 4.1 Gender, Race, Age, and Geographic Region
+L250: Subgroup analyses based on gender, race, and age were performed. The forest plot for the subgroup analysis in both studies for the overall responder rate and for the proptosis responder rate are presented in the following figures. In both studies, all the subgroup analyses results were consistent with those seen for the overall population for each demographic subgroup.
+L251: **Figure 6: Proptosis Response Rate Subgroup Analysis**
+L252: Source: Statistical reviewer's analysis.
+L253: Figure 7: Overall Response Rate Subgroup Analysis
+L254: Source: Statistical reviewer's analysis.
+L255: ## 5 SUMMARY AND CONCLUSIONS
+L256: ## 5.1 Statistical Issues
+L257: There are no major statistical issues identified for the two pivotal studies submitted.
+L258: For Study TED01RV, the primary efficacy analysis was based on a logistic regression model with treatment group as the model effect and smoking status as the covariate. However, as discussed in the meeting held on December 12, 2018 with the applicant, a logistic regression model estimates the conditional odds ratio based on the assumption that the odds ratio is the same for tobacco users and non-users. In general, the true conditional odds ratios may differ across the covariate levels. Even if the odds ratio across the covariate levels are the same, this common odds ratio may differ from the population-wide odds ratio. Therefore, the statistical review focused on the results of responder analysis using CMH weights and proposed to present these results with the corresponding 95% confidence interval (CI) in the clinical studies section in the label.
+L259: ## 5.2 Collective Evidence
+L260: For the proptosis response rate, treatment effects were also observed for the teprotumumab group starting from Week 6 in both studies.
+L261: - In Study TED01RV, in the study eye, the proptosis response rates for the teprotumumab group at Week 6, Week 12, and Week 18 were 52.4% (22/42), 57.1% (24/42), and 76.1% (32/42), respectively, compared with 8.9% (4/45), 4.4% (2/45), and 8.9% (4/45) for the placebo group.
+- In Study 301, in the study eye, the proptosis response rates for the teprotumumab group at Week 6, Week 12, and Week 18 were 56.1% (23/41), 75.6% (31/41), and 82.9% (34/41),
+L262: respectively, compared with 7.1% (3/42), 14.3% (6/42), and 14.3% (6/42) for the placebo group.
+L263: - At Week 24, in Study TED01RV, the proptosis response rate in the study eye was 71.3% (30/42) for the teprotumumab group and 20.0% (9/45) for the placebo group; the treatment difference was 51.1% with 95% CI of (32.5%, 69.7%); in Study 301, the proptosis responder rate in the study eye was 82.9% (34/41) for the teprotumumab group and 9.5% (4/42) for the placebo group; the treatment difference was 73.4% with 95% CI of (58.9%, 87.9%).
+- The non-study eye also showed consistent effect in proptosis responder rate as those seen in the study eye.
+L264: The proptosis responder rates from Week 6 to Week 24 are listed in the following table.
+L265: **Table 24: Proptosis Response Rate by Visit (ITT)**
+L266: Visit	Study TED01RV	Study 301
+Teprotumumab (N=42)	Placebo (N=45)	Difference (95% CI)1	Teprotumumab (N=41)	Placebo (N=42)	Difference (95% CI)1
+Study Eye
+Week 6	22 (52.4)	4 (8.9)	46.2 (29.7, 62.6)	23 (56.1)	3 (7.1)	48.9 (31.8, 66.0)
+Week 12	24 (57.1)	2 (4.4)	51.9 (35.4, 68.4)	31 (75.6)	6 (14.3)	61.8 (44.4, 78.2)
+Week 18	32 (76.1)	4 (8.9)	65.9 (49.9, 81.8)	34 (82.9)	6 (14.3)	68.6 (52.8, 84.3)
+Week 24	30 (71.3)	9 (20.0)	51.1 (32.5, 69.7)	34 (82.9)	4 (9.5)	73.4 (58.9, 87.9)
+Non-study Eye
+Week 6	9 (21.4)	3 (6.7)	14.4 (0.0, 28.9)	22 (53.7)	0	53.4 (38.1, 68.7)
+Week 12	15 (35.7)	3 (6.7)	28.9 (12.2, 45.8)	24 (58.5)	2 (4.8)	53.5 (37.1, 69.9)
+Week 18	21 (50.0)	4 (8.9)	41.0 (23.5, 58.6)	29 (70.7)	2 (4.8)	65.9 (50.5, 81.4)
+Week 24	26 (61.9)	6 (13.3)	48.4 (30.4, 66.4)	27 (65.9)	1 (2.4)	63.5 (48.3, 78.7)
+L267: 1 Difference and its corresponding 95% CI is based on a weighted average of the difference within each randomization stratum (tobacco user, tobacco non-use) using CMH weights.
+L268: Source: Statistical reviewer's analysis for Study TED01RV and Tables 14.2.1.3.1 of Study 301 Report
+L269: For the overall responder rate, treatment effects were observed for the teprotumumab group starting from Week 6 in both studies:
+L270: - In Study TED01RV, for the study eye, the overall response rates for the teprotumumab group at Week 6, week 12, and Week 18 were 42.9% (18/42), 54.8% (23/42), and 71.4% (30/42), respectively, compared with 4.4% (2/45), 4.4% (2/45), and 4.4% (2/45) for the placebo group.
+- In Study 301, for the study eye, the overall response rates for the teprotumumab group at Week 6, week 12, and Week 18 were 43.9% (18/41), 63.4% (26/41), and 73.2% (30/41), respectively, compared with 4.8% (2/42), 11.9% (5/42), and 11.9% (5/42) for the placebo group.
+- At Week 24, in Study TED01RV, the overall response rate in the study eye was 69.1% (29/42) for the teprotumumab group and 20.0% (9/45) for the placebo group; the treatment difference was 49.1% with 95% CI of (30.2%, 67.6%). In Study 301, the overall responder rate in the study eye was 78.1% (32/41) for the teprotumumab group and 7.1% (3/42) for the placebo group; the treatment difference was 70.9% with 95% CI of (56.0%, 85.8%).
+L271: - The non-study eye also showed consistent effect in overall responder rate as those seen in the study eye.
+L272: The overall response rates from Week 6 to Week 24 are listed in the following table.
+L273: **Table 25: Overall Response Rate by Visit (ITT)**
+L274: Visit	Study TED01RV	Study 301
+Teprotumumab
+(N=42)	Placebo
+(N=45)	Difference
+(95% CI)1	Teprotumumab
+(N=41)	Placebo
+(N=42)	Difference
+(95% CI)1
+Study Eye
+Week 6	18 (42.9)	2 (4.4)	40.0 (24.2, 56.3)	18 (43.9)	2 (4.8)	39.1 (22.6, 55.6)
+Week 12	23 (54.8)	2 (4.4)	49.0 (32.4, 65.6)	26 (63.4)	5 (11.9)	51.5 (33.8, 69.2)
+Week 18	30 (71.4)	2 (4.4)	65.8 (50.2, 81.3)	30 (73.2)	5 (11.9)	61.3 (44.5, 78.0)
+Week 24	29 (69.1)	9 (20.0)	48.9 (30.2, 67.6)	32 (78.1)	3 (7.1)	70.9 (56.0, 85.8)
+Non-Study Eye
+Week 6	8 (19.1)	2 (4.4)	14.7 (1.3, 28.1)	17 (41.5)	0	41.0 (25.9, 56.1)
+Week 12	13 (31.0)	1 (2.2)	29.6 (14.6, 44.6)	19 (46.3)	2 (4.8)	41.1 (24.6, 57.5)
+Week 18	17 (40.5)	1 (2.2)	38.4 (22.7, 54.1)	24 (58.5)	1 (2.4)	55.8 (40.1, 71.6)
+Week 24	22 (52.4)	6 (13.3)	38.9 (20.6, 57.3)	25 (61.0)	0	60.9 (45.9, 75.8)
+L275: 1 Difference and its corresponding 95% CI is based on a weighted average of the difference within each randomization stratum (tobacco user, tobacco non-use) using CMH weights.
+L276: Source: Statistical reviewer's analysis for Study TED01RV and Table 14.2.2.1.3 of Study 301 Report.
+L277: ## 5.3 Conclusions and Recommendations
+L278: In conclusion, for both the proptosis responder rate and the overall responder rate, the two pivotal studies Study TED01RV and Study HZNP-TEP-301 demonstrated that teprotumumab was efficacious in treating subjects with active TED compared with placebo; the treatment effects were relatively consistent across the two studies.
+L279: Therefore, the statistical reviewer recommended the approval of teprotumumab for the treatment of active thyroid eye disease.
+L280: ## 5.4 Labeling Recommendations
+L281: Of note, by the time this statistical review is finalizing, the name “[REDACTED]”(b) (4) has been conditionally approved by the Agency's labeling review group while the name “TEPEZZA” is still used by the applicant in their proposed label. In the clinical studies section of the applicant proposed label, the following table was presented for the efficacy results.
+L282: “Table 2. Principle Efficacy Results in Patients with Active Thyroid Eye Disease in Study 1 and 2
+L283: Study 1	Study 2
+L284: Parameter	TEPEZZA
+(n=41)	Placebo
+(n=42)	TEPEZZA
+(n=42)	Placebo
+(n=45)
+Proptosis responder ratea
+at week 24, % (n)	83% (34)	10% (4)	71% (30)	20% (9)
+Overall responder rate
+(Proptosis and Clinical
+Activity Score)b at week
+24, % (n)	78% (32)	7% (3)	69% (29)	20% (9)
+Clinical Activity Score
+responder ratec at week
+24, % (n)	59% (24)	21% (9)	67% (28)	22% (10)
+Proptosis (mm) average
+change from baseline
+through week 24, LS Mean
+(SE)	-2.82 (0.19)	-0.54 (0.19)	-2.46 (0.20)	-0.15 (0.19)
+L285: *P* &lt; 0.001 for all parameters
+L286: a Proptosis responder was defined as \ge 2 mm reduction in proptosis from baseline in the study eye without deterioration of \ge 2 mm increase in proptosis in the non-study eye
+L287: b Overall responder was defined as a \ge 2 mm reduction in proptosis in the study eye from baseline and with a \ge 2-point reduction in Clinical Activity Score (a 7-point scale where a lower score indicates fewer symptoms) without deterioration in the non-study eye (\ge 2 mm increase in proptosis or a \ge 2-point increase in Clinical Activity Score)
+L288: c A score of 0 or 1
+L289: ”
+L290: As the clinical review team has concerns of the clinical meaningfulness of clinical activity score, the statistical reviewer would like to defer (b) (4) to the clinical review team. For the presentation of the results of efficacy endpoints, the statistical reviewer recommends that the treatment differences and corresponding 95% CIs be included for a better understanding of the treatment effect. Specifically, the statistical reviewer recommends that Table 2 be presented in the following format:
+L291: ## ***Principle Efficacy Results in Patients with Active Thyroid Eye Disease in Study 1 and 2***
+L292: Study 1	Study 2
+Teprotumumab
+(N=41)	Placebo
+(N=42)	Difference
+(95% CI)	Teprotumumab
+(N=42)	Placebo
+(N=45)	Difference
+(95% CI)
+Proptosis responder
+rate at week 24, %
+(n)1	34 (82.9)	4 (9.5)	73.4 (58.9, 87.9)	30 (71.3)	9 (20.0)	51.1
+(32.5, 69.7)
+Overall responder
+rate (Proptosis and
+Clinical Activity
+Score) at week 24,
+% (n)1	29 (69.1)	9 (20.0)	48.9 (30.2, 67.6)	32 (78.1)	3 (7.1)	70.9
+(56.0, 85.8)
+Proptosis (mm)
+average change
+from baseline
+through week 24, LS
+Mean (SE)2	-2.45 (0.20)	-0.15
+(0.19)	-2.30
+(-2.83, -1.78)	-2.82 (0.19)	-0.54
+(0.19)	-2.28
+(-2.77, -1.80)
+L293: 1 Difference and its corresponding 95% CI is based on a weighted average of the difference within each randomization stratum (tobacco user, tobacco non-use) using CMH weights.
+L294: 2 Results were obtained from an MMRM with an unstructured covariance matrix and including treatment, smoking status, baseline value, visit, treatment by visit, and visit by baseline value interaction as fixed effects. A change from Baseline of 0 was imputed at the first post-Baseline visit for any subject without a post-Baseline value.
+L295: ## Appendix 1: Inclusion and Exclusion Criteria and Schedule of Assessment
+L296: For Study TED01RV, the key inclusion and key exclusion criteria are listed as follows:
+L297: ## Study TED01RV Key Inclusion Criteria:
+L298: - Aged 18-75 years (inclusive).
+- Clinical diagnosis of Graves' disease associated with active TED with a clinical activity score (CAS) \ge 4 (on the 7-point version of the scale) for the most severely affected eye (Study Eye).
+- Fewer than 9 months from onset of TED as determined by patient records.
+- No previous medical or surgical therapy for TED, excluding local supportive measures and oral steroids if the maximum cumulative dose was &lt;1000 mg methylprednisolone or equivalent. There were at least 6 weeks between last administration of steroids and study randomization.
+- Subjects were euthyroid or with mild hypo- or hyperthyroidism defined as free thyroxine (FT4) and free triiodothyronine (FT3) levels &lt;50% above or below the normal limits. Every effort was made to correct the mild hypo- or hyperthyroidism promptly.
+- Did not require immediate surgical ophthalmological intervention.
+- Alanine aminotransferase (ALT)/aspartate aminotransferase (AST) \le 3 \times the upper limit of normal (ULN) for the reference laboratory; serum creatinine &lt;1.5 \times ULN according to age.
+- Subjects with diabetes were well controlled, demonstrated by no change in diabetes medication (oral or insulin) &gt;10% for the previous 60 days.
+- Women of childbearing potential, including those with an onset of menopause within the previous 2 years (women without at least 12 months of nontherapy-induced amenorrhea or not surgically sterile [absence of ovaries and/or uterus]), required a negative pregnancy test at screening and all treatment visits up to follow-up Visit 2 (Week 36) post-randomization. They were also willing and able to use two different methods of contraceptive, one of which had to be oral. Male subjects had to be surgically sterile or agreed to use a barrier contraceptive method. Contraception had to be continued for 3 months after the last dose of study drug.
+L299: ## Study TED01RV Key Exclusion Criteria:
+L300: - Decreased best corrected visual acuity due to optic neuropathy as defined by a decrease in vision within the last 6 months of 2 lines of Snellen chart, new visual field defect or color defect secondary to optic nerve involvement.
+- Corneal decompensation unresponsive to medical management.
+- Improvement in CAS of \ge 2 points between screening and baseline.
+- Treatment with oral or IV steroids within the previous 3 months, except oral steroids for the treatment of TED with a cumulative dose of &lt;1000 mg methylprednisolone or equivalent, provided there was a 6-week washout prior to study randomization.
+L301: Administration of any other immunosuppressive agent for any indication in the previous 3 months. Topical steroids for dermatological conditions were not excluded.
+L302: - Any treatment with any investigational agent for any condition in the past 60 days or treatment with an investigational agent for any condition during the study.
+- Any previous treatment with rituximab (Rituxan® or MabThera®).
+- Previous orbital irradiation.
+- Identified pre-existing ophthalmic disease that in the judgment of the investigator would preclude study participation or complicate interpretation of study results.
+- Platelet count &lt;100 \times 10^9/L at screening or baseline. Subjects with platelet count &lt;35 \times 10^9/L following dosing were to be withdrawn.
+- Bleeding diathesis.
+- Hemoglobin concentration &gt;2 g/dL below the lower limit of the local laboratory reference range.
+- Malignant condition in the past 12 months (with the exception of successfully treated basal cell carcinoma of the skin).
+- Pregnant or lactating women.
+- Current drug or alcohol abuse, or history of either within the previous 2 years, in the opinion of the investigator or as reported by the subject.
+- Poorly controlled diabetes.
+- Known hypersensitivity to any of the components of HZN-001 or prior hypersensitivity reactions to monoclonal antibodies.
+- Any other condition that in the opinion of the investigator would preclude inclusion in the study.
+- Subjects who had already been randomized and received treatment under this protocol. Under no circumstances were subjects who were enrolled in this study permitted to be re-randomized and enrolled for a second course of treatment.
+L303: Schedule of assessments for Study TED01RV are presented in the following table.
+L304: ## Study TED01RV Schedule of Assessments
+L305: Week	Screen	Treatment Period	Follow-up	Early Withdrawalb
+1a	2	3b	4	5	6	7	8	9	10	11	FU1	FU2	FU3	FU4	FU5
+Study Visit	S1-S3	W0/M0	W1	W3	W4/
+M1	W6	W9	W12/
+M3	W15	W18	W21	W24/
+M6	W28/
+M7	W36/
+M9	W48/
+M12	W60/
+M15	W72/
+M18	EW1
+Week (W)/ Month (M)	W-4	
+Day (d)	(\pm2d)	(\pm3d)	(\pm1d)	(\pm3d)	(\pm1d)	(\pm3d)	
+Informed consent	x	
+Demographics	x	
+Medical historyc	x	x	
+Pregnancy testd	x	x	x	x	x	x	x	x	x	x	x	x	x
+Physical and ophthalmic examinatione	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x
+Vital signs	x	xf	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x
+Electrocardiogramf	x	xf	x	xf	xf	x	x	x
+Laboratory testsg	x	x	xk	x	xk	x	x	x	xk	x	xk	x	x	x	x
+Infusion	x	x	x	x	x	x	x	x	
+CAS	x	xl	x	x	x	x	x	x	x	x	x	x
+CSS	x	xl	x	x	x	x	x	x	x	x	x	x
+Proptosis	x	xl	x	x	x	x	x	x	x	x	x	x
+Motility	x	xl	x	x	x	x	x	x	x	x	x	x
+Photographs	x	x	x	x	x	x	x	x	x	x	x
+Biomarker sample	xl	x	x	xm	x	x
+Pharmacokinetic sampleh	x	x	x	x	x	x	
+Adverse eventsi	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x	x
+GO-QOL	x	x	x	x	x	x	x	x
+L306: Abbreviations: AE = adverse event; CAS = Clinical Activity Score; CSS = clinical measures of severity score; d = day; EW = Early withdrawal; FU = follow up; GO-QOL = Graves' Ophthalmopathy Quality of Life scale; FT3 = free triiodothyronine; FT4 = free thyroxine; IL = interleukin; M = month; RANTES = regulated on activation, normal t cells expressed and secreted; SV = screening visit; W = week
+L307: a Early withdrawal visit during treatment phase.
+L308: b Telephone contact by research staff focused on safety and tolerability aspects made the day after the infusion for 1st and 2nd infusions and thereafter as required. Subjects with an infusion-related event were also contacted by telephone by research staff the day after the infusion.
+L309: c Medical history, including smoking history.
+L310: d Serum pregnancy test was performed at screening and urine pregnancy tests performed prior to dose at all other visits.
+L311: e Physical and ophthalmic examination. Ophthalmic examination included best-corrected visual acuity, pupil examination, color vision assessment, Ishihara color plates (or equivalent) or related red desaturation, intraocular pressure, and slit lamp examination. If significant abnormalities were noted compared to previous visits, including a loss of 2 lines or more of vision, development of pupil abnormalities, including afferent pupillary defect, rise in intraocular pressure, development of corneal infiltrates, or other abnormalities not here specified but of concern to the ophthalmologist, further investigations of visual function were conducted according to the ophthalmologist's decision.
+L312: f Electrocardiograms were performed in triplicate (1 minute apart) at all time points. At Weeks 0, 6, and 12, electrocardiograms were performed before and after the infusion. A single electrocardiogram was performed at Week 72.
+L313: g Hematology, biochemistry, FT3, FT4, TSH (Germany only) and urinalysis performed prior to dose at each time point except Weeks 1, 4, 15, and 21 (hematology and glucose only). Hemoglobin A1c performed at screening. Weeks 12, 24, 36, and 72. Serum HAHA prior to dose at Weeks 0, 3, and 9 and Weeks 24, 36, and 72. Analysis of HAHA performed only when all subjects had completed masked phase of study. Any subject with treatment-emergent positive HAHA at Week 72 was followed.
+L314: h Sampling performed prior to and at the end of infusion at Weeks 0, 3, and 9. A single sample was drawn at Weeks 1, 4, and 24.
+L315: i Treatment-emergent AEs were reported following onset of study treatment (including pretreatment regimens). Events occurring prior to dosing reported as medical history.
+L316: j To be performed prior to and after the dose.
+L317: k Hematology and blood glucose at Weeks 1, 4, 15, and 21 for all subjects. Subjects were fasting at Weeks 1 and 4.
+L318: l To be performed prior to the dose.
+L319: m IL-6, IL-16, and RANTES were not measured at Week 28.
+L320: Source: Table 1 of Study TED01RV Report.
+L321: For Study 301, the key inclusion and key exclusion criteria are listed as follows:
+L322: ## Study 301 Key Inclusion Criteria:
+L323: - Written informed consent.
+- Male or female subject between the ages of 18 and 80 years, inclusive, at Screening.
+- Clinical diagnosis of Graves' disease associated with Active TED with a CAS \ge4 (on the 7-item scale) for the most severely affected eye at Screening and Baseline.
+- Moderate-to-severe Active TED (not sight-threatening but had an appreciable impact on daily life), usually associated with 1 or more of the following: lid retraction \ge2 mm, moderate or severe soft tissue involvement, exophthalmos \ge3 mm above normal for race and gender and/or inconstant or constant diplopia.
+- Onset of Active TED symptoms (as determined by subject records) within 9 months prior to Baseline.
+L324: - Subjects must have been euthyroid with the Baseline disease under control or have mild hypo- or hyperthyroidism (defined as free thyroxine [FT4] and free triiodothyronine [FT3] levels &lt;50% above or below the normal limits) at Screening. Every effort was made to correct the mild hypo- or hyperthyroidism promptly and to maintain the euthyroid state for the full duration of the clinical trial.
+- Did not require immediate surgical ophthalmological intervention and was not planning corrective surgery/irradiation during the course of the study.
+- Alanine aminotransferase or aspartate aminotransferase \le 3 times the upper limit of normal (ULN) or serum creatinine &lt;1.5 times the ULN according to age at Screening.
+- Diabetic subjects must have had well-controlled stable disease (defined as HbA1c &lt;9.0% with no new diabetic medication [oral or insulin] or more than a 10% change in the dose of a currently prescribed diabetic medication within 60 days prior to Screening).
+L325: ## Study 301 Key Exclusion Criteria:
+L326: - Decreased best corrected visual acuity due to optic neuropathy as defined by a decrease in vision of 2 lines on the Snellen chart, new visual field defect, or color defect secondary to optic nerve involvement within the last 6 months.
+- Corneal decompensation unresponsive to medical management.
+- Decrease in CAS of \ge 2 points in the study eye between Screening and Baseline.
+- Decrease in proptosis of \ge 2 mm in the study eye between Screening and Baseline.
+- Previous orbital irradiation or surgery for TED.
+- Any steroid use (intravenous [IV] or oral) with a cumulative dose equivalent to \ge 1 g of methylprednisolone for the treatment of TED. Previous steroid use (IV or oral) with a cumulative dose of &lt;1 g methylprednisolone or equivalent for the treatment of TED and previous use of steroid eye drops was allowed if discontinued at least 4 weeks prior to Screening.
+- Corticosteroid use for conditions other than TED within 4 weeks prior to Screening (topical steroids for dermatological conditions and inhaled steroids were allowed).
+- Selenium and biotin must have been discontinued 3 weeks prior to Screening and must not have been restarted during the clinical trial; however, taking a multivitamin that included selenium and/or biotin was allowed.
+- Any previous treatment with rituximab (Rituxan® or MabThera®) or tocilizumab (Actemra® or Roactemra®). Use of any other non-steroid immunosuppressive agent within 3 months prior to Screening.
+- Use of an investigational agent for any condition within 60 days prior to Screening or anticipated use during the course of the trial.
+- Identified pre-existing ophthalmic disease that, in the judgment of the Investigator, would have precluded study participation or complicated interpretation of study results.
+- Bleeding diathesis that, in the judgment of the Investigator, would have precluded inclusion in the clinical trial.
+- Malignant condition in the past 12 months (except successfully treated basal/squamous cell carcinoma of the skin).
+- Pregnant or lactating women.
+L327: - Current drug or alcohol abuse, or history of either within the previous 2 years, in the opinion of the Investigator or as reported by the subject.
+- Biopsy-proven or clinically suspected inflammatory bowel disease (e.g., diarrhea with or without blood or rectal bleeding associated with abdominal pain or cramping/colic, urgency, tenesmus, or incontinence for more than 4 weeks without a confirmed alternative diagnosis OR endoscopic or radiologic evidence of enteritis/colitis without a confirmed alternative diagnosis).
+- Known hypersensitivity to any of the components of teprotumumab or prior hypersensitivity reactions to monoclonal antibodies.
+- Any other condition that, in the opinion of the Investigator, would have precluded inclusion in the study.
+- Previous enrollment in this study or participation in a prior teprotumumab clinical trial.
+- Human immunodeficiency virus, hepatitis C or hepatitis B infections.
+L328: Schedule of assessments for Study 301 are presented in the following table.
+L329: Study Visit	Screening1	Treatment Period2	Follow-Up Period3	Follow-Up Contact4
+S1/S2/S3	1	2	3	4	5	6	7	8	9	10	11/
+PW15	12	13	14	15	16/
+PW26	17	18
+Week (W)/
+Month (M)	-42 to -14
+days	Day 17	W1	W3	W4/
+M1	W6	W9	W12/
+M3	W15	W18	W21	W24/
+M6	W28/
+M7	W36/
+M9	W48/
+M12	W60/
+M15	W72/
+M18	W96/
+M42	W120/
+M66
+Visit Window (± days)	(±3)	(±1)	(±3)	(±1)	(±3)	(±3)	(±3)	(±3)	(±3)	(±3)	(±7)	(±7)	(±7)	(±7)	(±7)	(±7)	(±14)	(±14)
+Informed Consent	X	
+Review inc/exc criteria	X	X	
+Demographics	X	
+Medical History8	X9	X	
+Weight10	X	X	X	X	X	X	X	
+Randomization11	X7	
+Study drug infusion	X	X	X	X	X	X	X	X	X	X	
+Phone (email) contact for safety
+24 hours postdose12	X	X	
+Efficacy assessments	
+CAS13	X	X14	X	X	X	X	X	X	X	X	X	X	X	X	
+Clinical Measures of Severity
+- includes proptosis, diplopia
+and motility restriction	X	X15	X	X	X	X	X	X	X	X	X	X	X	X	
+Safety assessments	
+Pregnancy Test16	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X17	
+Physical exam18	X19	X18	X	X	X	X	X	X	X	X18	X	X	X	X18	
+Ophthalmic exam20	X21	X	X	X	X	X	X	X	X	X	X	X	X	X	
+Vital Signs22	X	X22	X	X22	X	X	X	X	X	X	X	X	X	X	X	X	X	
+12-Lead ECG	X	X	X	X	X	X	X	X	X	X	X	X	X	
+Clinical laboratory tests23	
+Chemistry (excl. glucose)	X24	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	
+Thyroid (FT3, FT4, TSH)25	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	
+Hematology	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	
+Glucose23	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X
+L330: Study Visit	Screening1	Treatment Period2	Follow-Up Period3	Follow-Up Contact4
+S1/S2/S3	1	2	3	4	5	6	7	8	9	10	11/
+PW15	12	13	14	15	16/
+PW26	17	18
+Week (W)/
+Month (M)	-42 to -14
+days	Day 17	W1	W3	W4/
+M1	W6	W9	W12/
+M3	W15	W18	W21	W24/
+M6	W28/
+M7	W36/
+M9	W48/
+M12	W60/
+M15	W72/
+M18	W96/
+M42	W120/
+M66
+Visit Window (\pm days)	(\pm3)	(\pm1)	(\pm3)	(\pm1)	(\pm3)	(\pm3)	(\pm3)	(\pm3)	(\pm3)	(\pm3)	(\pm7)	(\pm7)	(\pm7)	(\pm7)	(\pm7)	(\pm7)	(\pm14)	(\pm14)
+HbA1c26	X	X	X	X	
+Urinalysis	X	X	X	X	X	X	X	X	
+ADA/NAb samples27	X	X	X	X28	X	X	
+AE, SAE assessment29	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	
+Concomitant medications	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	
+GO-QoL Questionnaire	X	X	X	X	
+Biomarker samples30	X	X	X	X	
+PK samples31	X	X	X	X	X28	
+Contact (phone/email) to assess additional TED treatment32	X	X
+L331: ADA=anti-drug antibody; AE=adverse event; CAS=Clinical Activity Score; ECG=electrocardiogram; FT3=free triiodothyronine; FT4=free thyroxine; FU=Follow-Up; GO-QoL=Graves' Ophthalmopathy Quality of Life Questionnaire; HbA1c=glycated hemoglobin; M=month; NAb=neutralizing antibody; PK=pharmacokinetic; PW=pregnancy withdrawal; SAE=serious adverse event; TED=thyroid eye disease; TSH=thyroid stimulating hormone; W=week.
+L332: ## **Footnotes:**
+L333: - Screening procedures can take place over more than 1 day/clinic visit provided consent is obtained first and all assessments are completed within the designated window.
+- Double-masked Treatment Period. Subjects who are **proptosis** non-responders at Week 24 are eligible to enroll in an open-label extension study in which all subjects will receive teprotumumab 20 mg/kg (10 mg/kg for the first infusion and 20 mg/kg for the remaining infusions).
+- **Proptosis** responders and non-responders who choose not to enroll in the open-label extension study will participate in a 48-week Follow-Up Period.
+- Subjects who complete the Week 72 Visit will be contacted via phone or email by research staff to inquire if any treatment for TED has been received since last study contact.
+- If a subject prematurely discontinues study drug during the Treatment Period, they will return for a clinic visit and undergo the Week 24 assessments, with the exception of the collection of blood samples for PK and ADA evaluations. Subjects will be encouraged to continue study participation in the Follow-Up Period.
+- If a subject prematurely discontinues from the study during the Follow-Up Period, they will return for a clinic visit and undergo the Week 72 assessments prior to discharge.
+- On Day 1 (Baseline), subjects will be randomized and receive the first dose of study drug; however, Baseline assessments will be performed prior to dosing.
+- Medical history including tobacco use history and Graves' disease and treatment history.
+- TED must be moderate to severe in intensity (non-sight threatening but appreciable impact on daily life) with an onset of symptoms (as determined by subject records) within 9 months prior to the Baseline Visit for study enrollment.
+- Dosing will be adjusted if there is a change in weight during the Treatment Period. The weight obtained at Week 12 can be used in dose calculations beginning at Week 12 or Week 15.
+- Subjects will be randomized in a 1:1 ratio (stratified by tobacco use status) to receive either: a) teprotumumab (10 mg/kg on Day 1 followed by 20 mg/kg q3W for the remaining 7 infusions) or b) placebo (q3W for all 8 infusions).
+- Phone (or email) contact by research staff focusing on safety and tolerability aspects will be made the day after infusion for the first and second infusions, and thereafter as deemed appropriate. In addition, subjects who experience an infusion-associated event after any subsequent infusion will also be contacted by phone (or email) by research staff the day after the infusion, and thereafter as deemed appropriate.
+- CAS must be \ge 4 for enrollment and randomization.
+- Subjects whose CAS score decreases 2 or more points in the study eye from Screening are not eligible for randomization.
+- Subjects who have a \ge 2 mm decrease in proptosis in the study eye from Screening are not eligible for randomization.
+- Serum pregnancy test at Screening and urine pregnancy tests prior to dose at all other visits, as applicable. Perform for female subjects of childbearing potential (including those with an onset of menopause &lt;2 years prior to Screening, non-therapy-induced amenorrhea for &lt;12 months prior to Screening, or not surgically sterile [absence of ovaries and/or uterus]).
+- Pregnancy test only performed for female subjects of childbearing potential who enter the Follow-Up Period but discontinue study participation prior to Week 48.
+- Physical exam will include assessment of presence or absence of pretibial myxedema on Day 1 and Week 24 (or PW) of the Treatment Period and Week 72 (or PW) of the Follow-Up Period. If present, measurements of instep and calf will be taken.
+- Height will be measured at Screening only.
+- Ophthalmic exam: best corrected visual acuity, pupil exam, color vision assessment, Ishihara color plates (or equivalent) or related red desaturation, intraocular pressure, and slit lamp exam. If significant abnormalities are noted compared to previous visits, including a loss of 2 lines or more of vision, development of pupil abnormalities including APD, rise in intraocular pressure, development of corneal infiltrates or other abnormalities not here specified but of concern to the ophthalmologist, further investigations of visual function will be conducted according to the ophthalmologist decision.
+- Subjects who have decreased best-corrected visual acuity due to optic neuropathy (defined by a decrease in vision of 2 lines on the Snellen chart, new visual field defect, or color defect secondary to optic nerve involvement within the last 6 months) are not eligible for randomization.
+- Vital signs (heart rate, blood pressure, respiratory rate, temperature) will be measured at all clinic visits. Vital signs will be measured pre- and post-infusion on Day 1 and Week 3, and pre-dose on all other infusion days. Additional vital signs will be monitored if infusion-associated AEs occur (see Section 9.5.5.4 for details).
+- Non-diabetic subjects should be fasting at Weeks 1 and 4 only. Diabetic subjects should be fasting at each visit blood glucose is evaluated.
+- ALT/AST must be \le 3 x the upper limit of normal (ULN) and serum creatinine must be &lt;1.5 x the ULN according to age to be eligible for randomization.
+- Subjects must be euthyroid with the baseline disease under control or have mild hypo- or hyperthyroidism (defined as free thyroxine (FT4) and free triiodothyronine (FT3) levels &lt;50\% above or below the normal limits). Every effort should be made to correct the mild hypo- or hyperthyroidism promptly and to maintain the euthyroid state for the full duration of the clinical trial.
+- HbA1c must be &lt;9.0\% for randomization. If the HbA1c is elevated and considered clinically significant at any time point after Screening, it will be repeated approximately every 45 days until it returns to normal or baseline value.
+- If a sample is positive in the ADA test, after confirmatory and reactive titer testing, the sample will then be tested for NAb. If the subject tests positive for NAb, he/she will be followed until levels either revert to Baseline or the subject's value decreases or remains stable. Any subject with a positive NAb test at Week 72 (or PW) during the Follow-Up Period will continue to be followed until the subject's value decreases or remains stable.
+- Not collected for subjects who prematurely discontinue from the Treatment Period.
+- Adverse events (AEs) that occur within 2 weeks prior to Day 1 and prior to dosing on Day 1 will be considered baseline signs/symptoms. Adverse events occurring or worsening after the dose on Day 1 through the end of the Treatment Period will be considered treatment-emergent AEs (TEAEs). Adverse events occurring or worsening during the Follow-Up Period will be considered postdose AEs. All SAEs that occur from the signing of informed consent through 30 days after study discontinuation will be recorded.
+L334: 30. Serum (two 5.0 mL samples) will be obtained on Day 1 and Weeks 12 and 24 of the Treatment Period for possible analysis of interleukin (IL)-4, IL-6, IL-10, IL-12, IL-13, IL-17, IL-23, IL-1\beta, sIL-1RA, \text{TNF}\gamma, \text{TGF}\beta, \text{TNF}\alpha, miRNA and TSH-R-Ab. Based on the results of the above assays, other similar serum biomarkers may be assayed to further explore drug and disease mechanisms.
+
+31. PK samples will be collected prior to, and at the end of, the infusion on Day 1 and Weeks 3 and 9 of the Treatment Period; additional single samples will be collected at Weeks 1, 4, and 24.
+
+32. If TED treatment has been received since last contact, the subject will be questioned regarding type of treatment and outcome/response.
+L335: This is a representation of an electronic record that was signed electronically. Following this are manifestations of any and all electronic signatures for this electronic record.
+L336: /s/
+L337: YUNFAN DENG
+L338: 12/10/2019 01:25:27 PM
+L339: GUOXING SOON
+L340: 12/10/2019 02:23:48 PM
+L341: TSAE YUN D LIN
+L342: 12/10/2019 02:30:11 PM
+L343: Figure 1 is a schematic timeline illustrating the study design for Studies TED01RV and HZNP-TEP-301. The timeline is divided into four main phases: Screen, Baseline, Double-Masked Treatment Period, Follow-Up Period, and Follow-Up Contact.
+Screen: 2 to 6 weeks (predose).
+Baseline: Day 1.
+Double-Masked Treatment Period: Teprotumumab or Placebo1,2 (24 Weeks). This period includes Clinic Visits at W1, W3, W4 (M1), W6, W9, W12 (M3), W15, W18, W21, and W246 (M6).
+Follow-Up Period: 48 Weeks3,4. This period includes Clinic Visits at W28 (M7), W36 (M9), W48 (M12), W60 (M15), W72 (M18), W96 (M24), and W120 (M30).
+Follow-Up Contact: 48 Weeks5.
+A horizontal line indicates the Study Week/Month progression, spanning from Day 1 through W120.
+Randomization (n=38/\text{group}^1) occurs before the Double-Masked Treatment Period.
+L344: Bar chart showing the Overall Responder Rate by Visit for the Placebo (n=45) and Teprotumumab (n=42) groups.
+Legend: Placebo (n=45) and Teprotumumab (n=42).
+Visit	Placebo (n=45)	Teprotumumab (n=42)
+Week 6	4.4%	42.9%
+Week 12	4.4%	54.8%
+Week 18	4.4%	71.4%
+Week 24	20.0%	69.1%
+L345: Bar chart showing Proptosis Responder Rate by Visit (ITT) for Placebo (n=45) and Teprotumumab (n=42).
+Legend: Placebo (n=45) and Teprotumumab (n=42).
+Visit	Placebo (n=45)	Teprotumumab (n=42)
+Week 6	8.90	52.4
+Week 12	4.4	57.1
+Week 18	8.9	76.2
+Week 24	20	71.4
+L346: Bar chart showing the Proptosis Responder Rate by Visit for Placebo (n=42) and Teprotumumab (n=41).
+Visit	Placebo (n=42)	Teprotumumab (n=41)
+Week 6	7.10	56.1
+Week 12	14.3	75.6
+Week 18	14.3	82.9
+Week 24	9.5	82.9
+L347: Bar chart showing the Overall Responder Rate by Visit for Placebo (n=42) and Teprotumumab (n=41).
+Legend: Placebo (n=42) and Teprotumumab (n=41).
+Visit	Placebo (n=42)	Teprotumumab (n=41)
+Week 6	4.80	43.9
+Week 12	11.9	63.4
+Week 18	11.9	73.2
+Week 24	7.1	78.1
+L348: Figure 6 displays two forest plots showing the Proptosis Response Rate Subgroup Analysis for Study TED01RV (left) and Study 301 (right).
+Both plots show the Treatment Difference (Teprotumumab minus Placebo) on the x-axis, ranging from -0.2 to 1.0. A value of 0.0 indicates no difference. Values to the right of 0.0 indicate Teprotumumab is better, and values to the left indicate Placebo is better.
+The y-axis lists subgroups: Overall, Tobacco (User, Non-User), Age (<= 65 Yr, > 65 Yr), Sex (Male, Female), Race or ethnic group (Nonwhite, White), and Region (EU, US).
+Study TED01RV Week 24 Proptosis Responders Rate Subgroup Analysis Data:
+Subgroup	No. (%) of Patients	Teprotumumab	Placebo	Diff
+Overall	87(100)	30/42	9/45	0.51
+Tobacco	
+User	29(33)	6/11	5/18	0.27
+Non-User	58(67)	24/31	4/27	0.63
+Age	
+<= 65 Yr	74(85)	27/39	8/36	0.49
+> 65 Yr	13(15)	3/4	1/9	0.64
+Sex	
+Male	23(26)	9/14	1/9	0.53
+Female	64(74)	21/28	8/36	0.53
+Race or ethnic group	
+Nonwhite	12(14)	2/8	0/6	0.33
+White	75(86)	28/36	9/39	0.55
+Region	
+EU	35(40)	12/16	3/19	0.59
+US	52(60)	18/26	6/26	0.46
+Study 301 Week 24 Proptosis Responders Rate Subgroup Analysis Data:
+Subgroup	No. (%) of Patients	Teprotumumab	Placebo	Diff
+Overall	83(100)	34/41	4/42	0.73
+Tobacco	
+User	17(20)	7/9	1/8	0.85
+Non-User	66(80)	27/32	3/34	0.76
+Age	
+<= 65 Yr	70(84)	26/32	4/38	0.7
+> 65 Yr	13(16)	8/9	0/4	0.89
+Sex	
+Male	23(28)	10/12	0/11	0.83
+Female	60(72)	24/29	4/31	0.7
+Race or ethnic group	
+Nonwhite	11(13)	6/6	1/5	0.8
+White	72(87)	28/35	3/37	0.72
+Region	
+EU	39(46)	14/19	2/20	0.84
+US	44(54)	20/22	2/22	0.82
+L349: Figure 7 displays two forest plots showing the Overall Response Rate Subgroup Analysis for Study TED01RV (Week 24) and Study 301 (Week 24). The plots compare Teprotumumab versus Placebo across various subgroups.
+Study TED01RV Week 24 Overall Responders Rate Subgroup Analysis
+Subgroup	No. (%) of Patients	Treatment Difference	Teprotumumab	Placebo	Diff
+Overall	87(100)	29/42	9/45	0.49	
+Tobacco	
+User	29(33)	6/11	5/18	0.27	
+Non-User	58(67)	23/32	4/27	0.59	
+Age	
+<= 65 Yr	74(85)	26/38	8/36	0.46	
+> 65 Yr	13(15)	3/4	1/9	0.64	
+Sex	
+Male	23(26)	9/14	1/9	0.53	
+Female	64(74)	20/28	8/36	0.49	
+Race or ethnic group	
+Nonwhite	12(14)	1/6	0/6	0.17	
+White	75(86)	28/36	9/39	0.55	
+Region	
+EU	35(40)	12/16	3/19	0.59	
+US	52(60)	17/26	6/26	0.42	
+Study 301 Week 24 Overall Responders Rate Subgroup Analysis
+Subgroup	No. (%) of Patients	Treatment Difference	Teprotumumab	Placebo	Diff
+Overall	83(100)	32/41	3/42	0.71	
+Tobacco	
+User	17(20)	7/9	1/8	0.65	
+Non-User	66(80)	25/32	2/34	0.72	
+Age	
+<= 65 Yr	70(84)	24/32	3/38	0.67	
+> 65 Yr	13(16)	8/9	0/4	0.89	
+Sex	
+Male	23(28)	10/12	0/11	0.83	
+Female	60(72)	22/29	3/31	0.66	
+Race or ethnic group	
+Nonwhite	11(13)	5/6	1/5	0.63	
+White	72(87)	27/35	2/37	0.72	
+Region	
+EU	39(46)	14/19	2/20	0.64	
+US	44(54)	18/22	1/22	0.77

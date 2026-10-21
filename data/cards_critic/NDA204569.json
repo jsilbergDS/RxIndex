@@ -1,0 +1,107 @@
+{
+  "app": "NDA204569",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flag: placebo 385/low 254/high 383 are supported by citation quote 'Randomized385254383' (OCR concatenation)."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flag: placebo 387/low 240/high 392 are supported by citation quote 'Randomized387240392' (OCR concatenation)."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flag for '3': 'Month 3' is a timepoint label, and the efficacy values (-22.9, 19.7, p-values) are each supported by citations."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flags for '3.6' and '0.27': supported by citation quote 'HD vs Pbo-3.60.27' (line 87)."
+    },
+    {
+      "field": "pivotal_trials[1].endpoint",
+      "severity": "low",
+      "issue": "False-positive flag for '28': 'Study 28' is a study identifier (cross-reference), not an efficacy/safety number."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flags for '6' and '2': headache 7 vs 6 and dizziness 3 vs 2 are supported by citation quotes 'Headache67' and 'Dizziness23'."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "385",
+        "text": "A total of 1022 patients were randomized (placebo 385, low dose 254, high dose 3"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "254",
+        "text": "A total of 1022 patients were randomized (placebo 385, low dose 254, high dose 3"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "383",
+        "text": "A total of 1022 patients were randomized (placebo 385, low dose 254, high dose 3"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "3",
+        "text": "Positive for sleep maintenance: at Month 3, high dose reduced WASO by -22.9 min "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "3",
+        "text": "Positive for sleep maintenance: at Month 3, high dose reduced WASO by -22.9 min "
+      },
+      {
+        "field": "pivotal_trials[1]/endpoint",
+        "number": "28",
+        "text": "Same prespecified primary endpoints as Study 28: change from baseline in sTST an"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "387",
+        "text": "A total of 1019 patients were randomized (placebo 387, low dose 240, high dose 3"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "240",
+        "text": "A total of 1019 patients were randomized (placebo 387, low dose 240, high dose 3"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "392",
+        "text": "A total of 1019 patients were randomized (placebo 387, low dose 240, high dose 3"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "3.6",
+        "text": "Positive for sleep maintenance: at Month 3, high dose increased sTST by 25.1 min"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.27",
+        "text": "Positive for sleep maintenance: at Month 3, high dose increased sTST by 25.1 min"
+      },
+      {
+        "field": "key_safety",
+        "number": "6",
+        "text": "The most common adverse reaction (>=5% and at least twice placebo) was somnolenc"
+      },
+      {
+        "field": "key_safety",
+        "number": "2",
+        "text": "The most common adverse reaction (>=5% and at least twice placebo) was somnolenc"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

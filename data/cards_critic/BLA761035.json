@@ -1,0 +1,22 @@
+{
+  "app": "BLA761035",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: the '2' in 'ELOQUENT-2' is part of the trial alias/identifier, not an efficacy or safety number; dismissed."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "2",
+        "text": "CA204004 (ELOQUENT-2)"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

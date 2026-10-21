@@ -1,0 +1,3983 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+L2: **208745Orig1s000**
+L3: **STATISTICAL REVIEW(S)**
+L4: FDA Seal
+L5: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L6: ## STATISTICAL REVIEW AND EVALUATIONCLINICAL STUDIES
+L7: **NDA #:** 208,745
+**Supplement #:** Original
+**Drug Name:** Truelance® (Plecanatide)
+**Indication(s):** Chronic Idiopathic Constipation (CIC)
+**Applicant:** Synergy Pharmaceuticals Inc.
+**Dates:**
+Submission date 01/29/2016
+Primary review 09/29/2016
+PDUFA V 01/29/2017
+**Review Priority:** Standard
+**Biometrics Division:** Division of Biometrics 3
+**Statistical Team:**
+Reviewers Shahlia Farr, M.S.
+Concurring Reviewer Yeh-Fong Chen, Ph.D.
+**Medical Division:** Division of Gastroenterology and Inborn Errors Products
+**Clinical Team:**
+Reviewer Lesley Hanes, MD
+Team Leader Laurie Muldowney, MD
+Project Manager Maureen Dewey, MPH
+**EDR Locations:** C:\CDSESUB1\evsprod\NDA208745\208745.enx
+**Keywords:** NDA review, clinical study
+L8: ## Table of Contents
+L9: 1	EXECUTIVE SUMMARY	3
+2	INTRODUCTION	3
+2.1	OVERVIEW AND BACKGROUND	4
+2.2	DATA SOURCES	5
+2.3	DATA AND ANALYSIS QUALITY	5
+3	STATISTICAL EVALUATION	5
+3.1	DESCRIPTION OF BOTH STUDIES	6
+3.1.1	Study Objectives	6
+3.1.2	Study Design	6
+3.1.3	Primary and Secondary Endpoints	7
+3.1.4	Analysis Population	7
+3.1.5	Imputing Missing Values and Early Terminations	8
+3.2	STATISTICAL METHODS	9
+3.2.1	Determination of Sample Size	9
+3.2.2	Controlling for Multiplicity of Endpoints	9
+3.3	STUDY SPD304203-00	11
+3.3.1	Patients' Disposition and Discontinuation	11
+3.3.2	Demographics and Baseline Characteristics - Study SPD304203-00	14
+3.3.3	Analysis of the Primary Efficacy Endpoint	15
+3.3.4	Analysis of the Sensitivity	17
+3.3.5	Analysis of the Secondary Efficacy Endpoint	18
+3.4	STUDY SPD304203-03	20
+3.4.1	Subjects with Major Protocol Deviations – Study SPD304203-03	20
+3.4.2	Patients' Disposition and Discontinuation – Study SPD304203-03	21
+3.4.3	Demographics and Baseline Characteristics for Study SPD304203-03	23
+3.4.4	Analysis of the Primary Efficacy Endpoint	24
+3.4.5	Analysis of the Sensitivity	26
+3.4.6	Analysis of the Secondary Efficacy Endpoint	26
+3.5	EVALUATION OF SAFETY	27
+4	FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	28
+4.1	SUBGROUP ANALYSIS OF THE PRIMARY EFFICACY ENDPOINT, STUDY SPD304203-00	28
+4.2	SUBGROUP ANALYSIS OF THE PRIMARY EFFICACY ENDPOINT, STUDY SPD304203-03	28
+4.3	GENDER, RACE, AGE, AND GEOGRAPHIC REGION*	29
+4.4	OTHER SPECIAL/SUBGROUP POPULATIONS	29
+5	SUMMARY AND CONCLUSIONS	29
+L10: ## 1 EXECUTIVE SUMMARY
+L11: The sponsor has submitted the results of two identical, Phase 3, multicenter, randomized double-blind, placebo-controlled, parallel-group studies (Study SPD304203-00 and Study SPD304203-03) to support the efficacy of Truelance® (Plecanatide) for the indication of Chronic Idiopathic Constipation (CIC).
+L12: The summaries of results for both pivotal studies are as follows:
+L13: ## Study SPD304203-00
+L14: **Difference between Plecanatide 3 mg and Placebo = 10.6%**
+**95% CI for the difference (6.0%, 15.2%)**
+L15: ## Study SPD304203-03
+L16: **Difference between Plecanatide 3 mg and Placebo = 7.5%**
+**95% CI (2.6%, 12.5%)**
+L17: After thorough evaluation and clarifications with the sponsor, the statistical review team concluded that results of the submitted two studies are statistically significant and can be used to support Plecanatide's efficacy for the indication of Chronic Idiopathic Constipation (CIC) in adults.
+L18: ## 2 INTRODUCTION
+L19: (Descriptions in this section are extracted from the sponsor's clinical study report)
+L20: Plecanatide (SP-304) is a peptide discovered, synthesized, and patented by Synergy Pharmaceuticals Inc. (hereafter referred to as Synergy) for treating patients with idiopathic or functional constipation.
+L21: The sponsor noted in the submission that idiopathic or functional constipation is a common disorder that affects approximately 15% of the population of the United States (US), depending on demographic factors and the definition used. Internationally, similar prevalence rates have been observed in most geographic areas. The sponsor emphasized that although laxatives can be used to relieve constipation, chronic use of laxatives is often inappropriate, and may lead to side effects, such as dependency and progressive tolerance, electrolyte imbalance, and, for the anthraquinones, melanosis coli. In addition, stimulant laxatives may damage the myenteric plexus, resulting in cathartic colon. Laxatives available over the counter are, in general, approved for episodic and not chronic use. (b)(4)
+L22: Therefore, the results are reported, mainly, for the 3 mg plecanatide.
+L23: ## 2.1 Overview and Background
+L24: The sponsor has submitted two similar Phase 3, multicenter, randomized double-blind, placebo-controlled, parallel-group studies (Study SPD304203-00 and Study SPD304203-03) for duration
+L25: of 12 weeks to assess the safety and efficacy of Plecanatide (3 mg and 6 mg) for the indication of Chronic Idiopathic Constipation (CIC). Table 1 lists a brief description of the two studies.
+L26: **Table 1: Brief Description of the Phase 3 Efficacy Studies**
+L27: Study #	Design*	Treatment Arm/ Sample Size	Endpoints	Statistical Analyses
+Primary	Secondary
+Study SPD304203-00	MC, R, DB, PG, PC	3.0 mg / 471
+6.0 mg / 456
+Placebo / 467	Proportion of durable overall CSBM responders over the 12-week	Change from baseline in frequency rate of CSBMs and SBMs;
+Change from baseline in stool consistency based upon the BSFS;
+Change from baseline in Straining Score;
+Treatment Satisfaction;
+Patient reported symptoms associated with constipation in the Daily Symptom Diary;
+Cochran-Mantel-Haenszel (CMH) test stratified by gender
+Study SPD304203-03	Same as Study 00, above	3.0 mg / 469
+6.0 mg / 471
+Placebo / 469	Same as Study 00, above	Same as Study 00, above
+L28: * MC: multi-center, R: randomized, DB: double-blind, PG: parallel group, PC: placebo controlled
+L29: The statistically-relevant changes to the protocol were added in Protocol version 4.0, dated 10 April 2015 as follows:
+L30: - Changes to the statistical section of the protocol included use of MRA as the primary method for imputation of missing data and replaced MRA in the list of sensitivity analyses with observed case (originally planned as the primary method).
+- Re-organized secondary endpoints into secondary and additional and changed terminology from key secondary to secondary (these changes are described later in the body of this review).
+- No difference could be detected when the efficacy of the 3 mg dose was compared to the 6 mg. So, in a mid-cycle communication with the sponsor (dated July 11, 2016), (b) (4)
+- There had been some issues regarding the data integrity with (b) (4) (b) (4) as these sites have had previous Agency enforcement action or warning letters. For that reason, we recommended that patients who were enrolled in these study sites be removed from the primary and secondary efficacy analysis for study SP304203-03, as well as the safety analyses. The applicant agreed to remove the (b) (4) patients as requested. On August 5, 2016 Synergy (the applicant) sent summary tables with the (b) (4) patients removed.
+L31: During the review cycle, we asked the sponsor to re-analyze the primary endpoint by treating patients who had 4 or more days of missing data in a week as non-responders for that week (i.e.,
+L32: worst case approach). We also asked the sponsor to provide the analyses based on patients' actual number of observed bowel movements when they had more than 3 days of non-missing data in a week.
+L33: ## 2.2 Data Sources
+L34: In this report, we reviewed the applicant's clinical study reports, datasets, clinical summaries, and proposed labeling. The submission was submitted in semi-eCTD format and was entirely electronic. Both SDTM and analysis datasets (ADaM) were submitted. The applicant supplied all data electronically as SAS transport files and can be found in the CDER electronic document room (EDR):
+L35: CDSesub1/evsprod/NDA208745/208745.enx
+L36: The dataset that contains the primary endpoint is: ADRESP.XPT for both studies.
+L37: ## 2.3 Data and Analysis Quality
+L38: In Study sp304203-00, after database lock on 09 Jun 2015, the Sponsor noted a data discrepancy for Patient 652-101. This patient had an adverse event (AE) of fecal incontinence recorded, but the reason for discontinuation was recorded as severe diarrhea with no corresponding entry on the AE page. To ensure accurate tabulation of the event, the Sponsor elected to revise the recorded AE from fecal incontinence to severe diarrhea. This was accomplished via (i) database unlock, (ii) the standard query method to the site and (iii) database relock. The specific data changes were (i) addition of the AE of severe diarrhea, (ii) indication that the cause of early withdrawal was the AE of severe diarrhea, (iii) deletion of the AE of fecal incontinence to avoid double-counting of the same event.
+L39: No other changes to any data were made during database unlock on 22 Oct 2015. After database relock on 27 Oct 2015, the tabulation of patients who discontinued therapy due to diarrhea now correctly included Patient 652-101.
+L40: The reviewer found the quality and integrity of the submitted data acceptable for the efficacy analyses.
+L41: ## 3 STATISTICAL EVALUATION
+L42: The objectives, study design, primary and secondary efficacy endpoints, the definition of analysis populations and statistical methodology were similar in both clinical trials. Therefore, in this review, these studies are described together. The detailed efficacy analysis results for each study are reported separately.
+L43: ## 3.1 Description of Both Studies
+L44: ## 3.1.1 Study Objectives
+L45: The primary objective of both studies was to evaluate the efficacy and safety of 3 mg and 6 mg of plecanatide administered once daily (QD) for 12 weeks in a population of patients with CIC.
+L46: The secondary objectives of these studies were to evaluate the effect of 3 mg and 6 mg plecanatide on secondary efficacy endpoints including frequency of spontaneous (SBM) and complete spontaneous bowel movements (CSBMs), stool consistency, straining, treatment satisfaction, and abdominal symptoms associated with constipation.
+L47: ## 3.1.2 Study Design
+L48: The studies were designed as randomized, 12-week, multicenter, double-blind, parallel group, placebo-controlled in patients with chronic idiopathic constipation (CIC).
+L49: Male and female patients who met the protocol's criteria for CIC, based on a modification of Rome III criteria and who were between the ages of 18 and 80 years (inclusive) were screened for enrollment. Eligible patients did not have structural or post-surgical gastrointestinal (GI) disorders, irritable bowel syndrome (IBS), other active GI disease, or other chronic diseases that could cause constipation or otherwise interfere with the assessments conducted in this study.
+L50: When the first set of required screening evaluations and washouts (washout of a prohibited concomitant medication or stabilization of a medical condition existing before the Pre-Treatment Period) was completed, patients who remained eligible were given an electronic hand-held device (EHD) in order to complete two weeks of daily diary entries as part of a Pre-Treatment EHD Screening assessment. Patients completed daily Pre-Treatment Period, daily assessments of bowel movements (BMs) (Daily BM Diary) and symptoms (Daily Symptom Diary) using the EHD and also recorded the amount of rescue medication (Dulcolax® 5 mg tablets, the only rescue medication allowed for the study) taken.
+L51: To remain eligible during the Screening Period, patients had to complete at least 6 of the 7 days of EHD entries each week during the 2-week Pre-Treatment assessment. During the Treatment Period, patients who completed less than 4 days of EHD entries in any given week were considered a treatment failure for that week. A patient was considered compliant and evaluable for the day if he or she completed the BM Diary for that day up to and including the RM questions. Patients were NOT allowed to enter data retrospectively in the next day.
+L52: Patients were required to have &lt; 3 CSBMs, no more than 2 days of RM use, and completion of 6 of the 7 required daily EHD entries (among other criteria) in each of the two Pre-Treatment weeks to be eligible for participation.
+L53: Patients who were still eligible at the end of the Screening Period were stratified by gender then randomized in a 1:1:1 ratio to one of the following three treatment groups: 3 mg plecanatide, 6 mg plecanatide, or placebo on Day 1 of the Treatment Period. They received their assigned study drug on the day of randomization (Day 1 of Week 1) and took their first dose at the clinical site.
+L54: Patients continued to take a single oral dose of study drug once daily for 12 weeks. At Weeks 4, 8, and 12 (each \pm 3 days), patients returned to the clinic to undergo safety and efficacy assessments.
+L55: At the end of the 12 weeks of study drug administration (\pm3 days), patients returned to the clinical site for End of Treatment (EOT) safety and efficacy assessments. At the end of the 2-week Post-
+L56: Treatment Period, they returned for End of Study (EOS) efficacy and safety assessments. Patients continued to complete daily EHD diaries throughout the Treatment and Post-Treatment Periods.
+L57: ## 3.1.3 Primary and Secondary Endpoints
+L58: The primary efficacy endpoint was the proportion of patients who were durable overall CSBM responders over the 12-week Treatment Period.
+L59: A CSBM weekly responder was defined as a patient who had \ge 1 CSBM for that same week. An overall CSBM responder was defined as a patient who was a weekly responder for at least 9 of the 12 treatment weeks, and a durable overall CSBM responder was also a weekly responder in at least 3 of the last 4 weeks.
+L60: Secondary efficacy endpoints included:
+L61: - Change from baseline in frequency rate of CSBMs and SBMs
+- Change from baseline in stool consistency based upon the BSFS
+- Change from baseline in Straining Score
+- Treatment satisfaction
+- Patient reported symptoms associated with constipation in the Daily Symptom Diary
+L62: ## 3.1.4 Analysis Population
+L63: The following patient populations were assessed for the study:
+L64: **Safety Population:** All randomized patients who received at least one dose of the study drug. Patients were to be analyzed according to the treatment received. All safety analyses were based upon the Safety Population.
+L65: **Intent-to-Treat (ITT) Population:** All unique patients who were randomized into the study. Patients were analyzed according to their randomized treatment. This was the main population for assessment of efficacy.
+L66: **Per Protocol (PP) Population:** All patients in the ITT Population who completed the 12-week Treatment Period or discontinued from study treatment due to reasons of AE(s) or lack of efficacy (insufficient therapeutic response) were treatment compliant and had no major protocol violations. Decisions regarding exclusion from the PP analysis were made prior to unblinding the database. All duplicate patients (index and non-index) were removed from the PP population as major protocol violators.
+L67: ## 3.1.5 Imputing Missing Values and Early Terminations
+L68: The primary method for imputation of missing diary data was the mean replacement approach (MRA).
+L69: For the responder analyses, patients who had fewer than four complete diary days were considered “non-responders” for that week. For this indication (CIC) the diary was considered complete for the day if the patient had entered at least one Daily BM Diary including RM use, or
+L70: Daily Symptom Diary entry. If a patient had between 4 and 6 assessments (inclusive) in a week, the calculations were based on a mean replacement approach (MRA). Using MRA, when diary data were missing in a week with partial data, the calculation of the overall weekly CSBM /SBM rate during a given week was seven times the number of CSBMs / SBMs divided by the number of days the patient reported bowel habits data. Patients with no assessments in a week were left as missing in the linear mixed model and analysis of covariance (ANCOVA).
+L71: For secondary efficacy endpoints based on a change from baseline, a mean replacement approach (MRA) was applied to missing data. Specifically for BMs, when diary data were missing in a week with partial data, for the calculation of the overall weekly CSBM/SBM rate during a given week, the Sponsor multiplied seven by the number of CSBMs/SBMs divided by the number of days the patient reported bowel habits data. In an IR we requested the Sponsor to recalculate these numbers without multiplication by 7. However, if a patient had less than four diary entries in a week, the entire week was set to missing. For stool consistency and straining scores, any missing diary entry in a week did not contribute to either the numerator or denominator in computing the average score for the week, i.e., the weekly scores equaled the total of the BSFS or straining scores reported for the week divided by the number of scores reported for that week; however, if a patient had less than four diary entries in a week, the entire week was set to missing for the BSFS or straining score. Patients with no assessments in a week were left as missing in the linear mixed model (i.e., missing weekly data were not imputed) under the assumption that the weekly data were missing at random (MAR).
+L72: For assessing Change from Baseline, the sponsor used a linear mixed-effects model or an analysis of covariance (ANCOVA). Patients with no assessments in a week were left as missing in these models. Additional sensitivity analyses may have been performed to test the assumption that missing weekly data were MAR.
+L73: Sensitivity analyses based on alternative missing diary data imputation methods (such as the Multiple Imputation [MI], Observed Cases [OC], and Last Observation Carried Forward [LOCF] methodologies) were performed on the primary endpoint and the CSBM weekly responder rates by week over the 12-week Treatment period.
+L74: The sponsor states that the patients who withdrew after randomization were not replaced. However, it is not clear whether these subjects were coded as non-responders.
+L75: ## 3.2 Statistical Methods
+L76: ## 3.2.1 Determination of Sample Size
+L77: The planned sample size for this study was based on results of the previously completed large, multicenter, 12-week dose ranging study of plecanatide in patients with CIC and on consideration of overall safety exposure requirements. The percentage of overall responders used for the calculation was based only on information regarding the current day's symptoms provided by the patient (i.e., "historic" data provided for a previous- day were excluded).
+L78: The power calculation assumes that the 6 mg plecanatide overall responder rate was the same as seen in the 3 mg plecanatide dose group; 16.9% response rate for each plecanatide arm and 9.4%
+L79: for placebo. Using these assumptions, and based on a chi-square continuity-corrected test with the intention of providing approximately 90% power at 5% significance level, enrollment of at least 450 patients per treatment arm was required.
+L80: The efficacy analyses were based on the ITT Population and a secondary analysis was also performed based upon the PP Population, to assess the sensitivity of the analysis to the choice of analysis set.
+L81: The primary efficacy endpoint was based on an analysis of the durable overall CSBM responder rates using a Cochran-Mantel-Haenszel (CMH) test stratified by gender. For each plecanatide group, the proportion of durable overall CSBM responders was compared to the proportion in the placebo group using the CMH test stratified by gender. The number and percentage of durable overall CSBM responders for each treatment group (and 95% confidence intervals [CI]), the difference in responder rates between each plecanatide group and the placebo group (and 95% CIs), and the two-sided p-value associated with the above CMH test were presented period. The weekly responder rate by week was analyzed using a separate CMH test, stratified by gender.
+L82: ## 3.2.2 Controlling for Multiplicity of Endpoints
+L83: Control of family-wise type I error was applied to two sets of hypotheses—one for testing plecanatide 3.0 mg versus placebo and the other for testing plecanatide 6.0 mg versus placebo.
+L84: The Holm-based tree-gatekeeping procedure was applied to p-values adjustment to control the family-wise Type I error rate at 5% (2-sided) by taking into account multiple doses and multiple primary and secondary endpoints. The hypotheses associated with the primary and secondary variables for efficacy claim were grouped into the following hierarchical families:
+L85: - Primary efficacy endpoint for the 6 mg dose group test at \alpha = 0.05 level
+- Primary efficacy endpoint for the 3 mg dose group and the following secondary efficacy endpoints for the 6 mg dose group:Change from baseline over the 12-week treatment period in CSBM frequency rate
+- Change from baseline over the 12-week treatment period in stool consistency
+L86: The three individual hypotheses within this step were tested using an overall type I error rate of 0.05 by means of a Holm procedure to control for multiple parameters within this step.
+L87: - The following secondary efficacy endpoints for the 6 mg dose group:Change from baseline over the 12-week Treatment Period in SBM frequency rate
+- Time to first SBM
+- Change from baseline over the 12-week Treatment Period in straining score
+L88: The three individual hypotheses within this step were tested using an overall type I error rate of 0.05 by means of a Holm procedure to control for multiple endpoints within this step.
+L89: ## 4. The following efficacy endpoints for the 3 mg dose group:
+L90: - Change from baseline over the 12-week Treatment Period in CSBM frequency rate
+- Change from baseline over the 12-week Treatment Period in stool consistency
+L91: The two individual hypotheses within this step were tested using an overall type I error rate of 0.05 by means of a Holm procedure to control for multiple endpoints within this step.
+L92: ## 5. The following secondary efficacy endpoints for the 3 mg dose group:
+L93: - Change from baseline over the 12-week Treatment Period in SBM frequency rate
+- Time to first SBM
+- Change from baseline over the 12-week Treatment Period in straining score
+L94: The three individual hypotheses within this step were tested using an overall type I error rate of 0.05 by means of a Holm procedure to control for multiple endpoints within this step.
+L95: ## 6. The following secondary efficacy endpoints for the 6 mg dose group:
+L96: - Percentage of patients with SBM within 24 hours of the first dose
+- Percentage of patients with CSBM within 24 hours of the first dose
+- Treatment satisfaction
+L97: The three individual hypotheses within this step were tested using an overall type I error rate of 0.05 by means of a Holm procedure to control for multiple endpoints within this step.
+L98: ## 7. The following secondary efficacy endpoints for the 3 mg dose group:
+L99: - Percentage of patients with SBM within 24 hours of the first dose
+- Percentage of patients with CSBM within 24 hours of the first dose
+- Treatment satisfaction
+L100: The three individual hypotheses within this step were tested using an overall type I error rate of 0.05 by means of a Holm procedure to control for multiple endpoints within this step.
+L101: Following this multiple comparison procedure, progression to the next step(s) only occurred if all individual hypotheses within a step were rejected and the previous step(s) were all rejected at the step-specific overall significant level.
+L102: If any hypothesis within a step was not rejected, the hypothesis tests corresponding to all subsequent steps were considered not statistically significant.
+L103: ## 3.3 Study SPD304203-00
+L104: This Study started on 03 Dec 2013, ended on 23 Apr 2015 and was conducted in a total of 164 sites (153 in US and 11 Canada).
+L105: Table 2 summarizes the subjects with major protocol deviations for Study SPD304203-00.
+L106: **Table 2: Subjects with Major Protocol Deviations - Study SPD304203-00**
+L107: Deviation Category	Total Major Deviations (%)
+Duplicate Subject	69 (34.7%)
+Randomization Criteria Not Met	58 (29.1%)
+IP Dispensing Error	28 (14.1%)
+Diary Eligibility Not Met	21 (10.6%)
+Study Drug Compliance	10 (5.0%)
+Prohibited Concomitant Medication	9 (4.5%)
+Other	4 (2%)
+Total Major Protocol Deviations	199
+Patients with More than 1 deviation	12
+Total Patients with a Major PD	187
+L108: IP = investigational product, PD = protocol deviation.
+L109: Source: Sponsor's Study Report
+L110: As it is seen in Table 2, a high number of subjects had major deviations from the protocol. A total of 69 subjects (34.7%) were duplicates (were not included in the ITT population); 58 subjects (29.1%) did not meet the criteria for randomization; 28 (14.1%) errors were made in dispensing the drug.
+L111: ## 3.3.1 Patients' Disposition and Discontinuation
+L112: A total of 1394 patients were enrolled in the study; of these, 96.8%, 96.2%, and 96.7% were randomized to the placebo, 3 mg plecanatide, and 6 mg plecanatide groups, respectively. Five (0.4%) randomized patients were not treated.
+L113: Two patients were inadvertently mis-randomized during this time period; one was due to human error and the other one was due to late detection of a programming error. During the course of this study, 69 subjects were identified as having study participation at more than one site and/or in another plecanatide study; these patients were considered to be duplicate patients. For each such instance of participation or attempted participation in one or more studies, the patient was assigned a unique, study-specific, patient identifier; thus a single individual who was classified as a duplicate patient was represented under more than one unique patient identifier in one or more studies. Duplicate patients were identified as such in the patient listings and were counted only once in the current ITT Population.
+L114: Nine patients from the randomized population received study treatment which was inconsistent with their planned treatment assignment. Seven of the nine incidents occurred at one site where a new coordinator failed to follow proper drug kit assignment instructions.
+L115: The All Randomized Population reflects the planned treatment group assignments (n = 467 placebo, 471 plecanatide 3 mg, and 456 plecanatide 6 mg, respectively). Five patients did not receive drug following randomization; three were in the placebo group and two in the 6 mg plecanatide group. The safety population reflects the actual treatment received i.e., not including patients not dosed and adjustments for actual treatment received (n = 458 placebo, 474 plecanatide 3 mg, and 457 plecanatide 6 mg, respectively).
+L116: Table 3 shows the number of subjects that were planned, screened and subjects who completed the study as a whole and for each treatment arm for study sp304203-00.
+L117: **Table 3: Number of Subjects - Study SPD304203-00**
+L118: Planned	1350
+Screened	2864
+Randomized (including duplicate patients)
+1394
+Placebo
+467	3 mg
+471	6 mg
+456
+Completed Treatment (EOT, Week 12)
+1153
+Placebo
+388	3 mg
+390	6 mg
+375
+Completed Study (EOS, Week 14)
+1140
+Placebo
+385	3 mg
+384	6 mg
+371
+L119: **Reviewer's Notes:** There were discrepancies in the total number of sites reported by the Sponsor throughout the Study Report.
+L120: A total of 1394 patients were randomized and 1389 patients received at least one dose of study drug (Safety Population, including duplicate patients) at 164 *clinical sites* in the US and Canada. In the Synopsis of the Study Report, under "Study Centers" it is reported that a total of 180 *sites* in US and Canada were planned, however, the actual number of active sites was 183 of which 164 randomized patients (153 US, 11 Canada). On Page 22 of 148 of the study report under section 6, it says: "This study was conducted at 183 *clinical sites* in the United States of America (USA) and Canada". However, 39 of these sites had initiated, but no patients were randomized. But, 183-39=144 and not 164. Table 4 shows the disposition of the subjects.
+L121: **Table 4: Disposition of Subjects (Includes duplicate patients) - Study SPD304203-00**
+L122: Placebo
+(N=467)	Plecanatide
+3 mg
+(N=471)	Plecanatide
+6 mg
+(N=456)	Active
+Combined
+(N=927)	Overall
+(N=1394)
+Analysis Populations, n (%)	
+ITT Populationa	452 (96.8)	453 (96.2)	441 (96.7)	894 (96.4)	1346 (96.6)
+Randomized, not treated	3 (0.6)	0	2 (0.4)	2 (0.2)	5 (0.4)
+Non-duplicate patientsd	448 (95.9)	443 (94.1)	434 (95.2)	877 (94.6)	1325 (95.1)
+Index case patientsd	4 (0.9)	10 (2.1)	7 (1.5)	17 (1.8)	21 (1.5)
+Safety Populationb	464 (99.4)	471 (100.0)	454 (99.6)	925 (99.8)	1389 (99.6)
+Non-duplicate patientsd	445 (95.3)	443 (94.1)	432 (94.7)	875 (94.4)	1320 (94.7)
+Duplicate patientsd	19 (4.1)	28 (5.9)	22 (4.8)	50 (5.4)	69 (4.9)
+Index case patientsd	4 (0.9)	10 (2.1)	7 (1.5)	17 (1.8)	21 (1.5)
+PP Populationc	354 (75.8)	357 (75.8)	343 (75.2)	700 (75.5)	1054 (75.6)
+Completion Status, n (%)	
+Discontinued from the Study During the Treatment Phase	79 (16.9)	81 (17.2)	81 (17.8)	162 (17.5)	241 (17.3)
+Completed Study Treatment Phase (Week 12 (EOT))	388 (83.1)	390 (82.8)	375 (82.2)	765 (82.5)	1153 (82.7)
+Discontinued from the Study after the Treatment Phase	3 (0.6)	6 (1.3)	4 (0.9)	10 (1.1)	13 (0.9)
+Completed the Study (Week 14, EOS)	385 (82.4)	384 (81.5)	371 (81.4)	755 (81.4)	1140 (81.8)
+Primary Reason for Discontinuation in Patients Who Completed Study Treatment Phase (Week 12, EOT), n (%)	
+Adverse Event	0	1 (0.2)	0	1 (0.1)	1 (0.1)
+Death	0	0	0	0	0
+Insufficient Therapeutic Effect	0	0	0	0	0
+Lost to Follow-Up	0	1 (0.2)	3 (0.7)	4 (0.4)	4 (0.3)
+Non-compliance with Study Drug	0	0	0	0	0
+Physician Decision	0	0	0	0	0
+Protocol Violation	0	1 (0.2)	0	1 (0.1)	1 (0.1)
+Withdrawal of Consent by Patient	0	1 (0.2)	0	1 (0.1)	1 (0.1)
+Other	3 (0.6)	2 (0.4)	1 (0.2)	3 (0.3)	6 (0.4)
+Primary Reason for Discontinuation in Patients Who Did Not Complete Study Treatment Phase (Week 12, EOT), n (%)	
+Adverse Event	6 (1.3)	23 (4.9)	24 (5.3)	47 (5.1)	53 (3.8)
+Death	0	0	0	0	0
+Insufficient Therapeutic Effect	14 (3.0)	4 (0.8)	3 (0.7)	7 (0.8)	21 (1.5)
+Lost to Follow-Up	8 (1.7)	15 (3.2)	7 (1.5)	22 (2.4)	30 (2.2)
+Non-compliance with Study Drug	0	1 (0.2)	1 (0.2)	2 (0.2)	2 (0.1)
+Physician Decision	2 (0.4)	1 (0.2)	0	1 (0.1)	3 (0.2)
+Protocol Violation	5 (1.1)	6 (1.3)	12 (2.6)	18 (1.9)	23 (1.6)
+Withdrawal of Consent by Patient	19 (4.1)	14 (3.0)	13 (2.9)	27 (2.9)	46 (3.3)
+Other	25 (5.4)	17 (3.6)	21 (4.6)	38 (4.1)	63 (4.5)
+L123: AE = adverse event, EOS = end of study, EOT = end of treatment, ITT = Intent-To-Treat, PP = Per Protocol
+L124: Note: Percentages were based on the number of enrolled patients in each treatment group.
+L125: - The ITT Population consisted of all randomized patients. Duplicate patients could appear at most once in the ITT Population as the index case.
+- The Safety Population consisted of all randomized patients who had received at least one dose of the study drug. Patients in the Safety Population were analyzed according to the treatment received. Duplicate patients could appear more than once in the Safety Population.
+- The PP Population consisted of all patients in the ITT Population who completed the 12-week Treatment Period or discontinued from study treatment due to AE(s) or lack of efficacy (insufficient therapeutic response); were treatment compliant; and had no major protocol violations. Duplicate patients (including index cases) had a major protocol violation and were not included in the PP Population.
+- "Duplicate patients" were patients who had more than one unique patient identifier in this study and/or any previous or concurrent plecanatide study. For duplicate patients, the earliest instance of screening in any study was designated as the index case for purposes of proper assignment of duplicate patients to analysis populations.
+L126: Source: Sponsor's Table 8 in the Study Report
+L127: **Reviewer's Note:** It should be noted that a high number of subjects withdrew from the study during the treatment Phase (around 17%). However, the number and proportion of these subjects were similar in the three treatment groups.
+L128: Figure 1 shows the disposition of subjects for Study SPD304203-00
+L129: Figure 1: Disposition of Subjects - Study SPD304203-00
+L130: AE = adverse event, EW = early withdrawal, FU = follow up, I/E = inclusion/exclusion, ITT = Intent-To-Treat, LOE = lack of efficacy, PP = Per Protocol.
+L131: Source: Sponsor's Study Report
+L132: ## 3.3.2 Demographics and Baseline Characteristics - Study SPD304203-00
+L133: Patients ranged between 79% to 82.1% female; 45.0 year to 46.4 year mean age; 66.7% to 71.5% White/Caucasian and 23.9% to 28.5% Black/African American for race; 24.7% to 29.3% Hispanic or Latino ethnicity; and mean BMI 28.07 to 28.16 (kg/m2).
+L134: Four hundred fifty two patients comprised the Intent-to-Treat (ITT) placebo group population with 453 and 441 patients, respectively, making up the ITT plecanatide 3 mg and 6 mg population.
+L135: Table 5 shows the demographic and baseline characteristics in the ITT Population.
+L136: **Table 5: Demographic and Baseline Characteristics in ITT Population – Study SPD304203-00**
+L137: Characteristics	Placebo
+(N=452)	Plecanatide
+3 mg
+(N=453)	Plecanatide
+6 mg
+(N=441)	Active
+Combined
+(N=894)	Overall
+(N=1346)
+Age (years)	
+n	452	453	441	894	1347
+Mean (SD)	46.4 (13.92)	45.0 (14.62)	45.1 (13.77)	45.1 (14.20)	45.5 (14.12)
+Median	46.0	45.0	45.0	45.0	46.0
+Min, Max	18, 78	18, 79	18, 79	18, 79	18, 79
+Gender (n [%])	
+Male	95 (21.0)	85 (18.8)	79 (17.9)	164 (18.3)	259 (19.2)
+Female	357 (79.0)	368 (81.2)	362 (82.1)	730 (81.7)	1087 (80.8)
+Race (n [%])	
+American Indian or Alaskan Native	0	2 (0.4)	5 (1.1)	7 (0.8)	7 (0.5)
+Asian	13 (2.9)	13 (2.9)	18 (4.1)	31 (3.5)	44 (3.3)
+Black or African American	108 (23.9)	129 (28.5)	108 (24.5)	237 (26.5)	345 (25.6)
+Native Hawaiian or Other Pacific Islander	0	2 (0.4)	1 (0.2)	3 (0.3)	3 (0.2)
+White/Caucasian	323 (71.5)	302 (66.7)	302 (68.5)	604 (67.6)	927 (68.9)
+Other	8 (1.8)	5 (1.1)	7 (1.6)	12 (1.3)	20 (1.5)
+Biracial	0	0	1 (0.2)	1 (0.1)	1 (0.1)
+Black/Korean	0	0	1 (0.2)	1 (0.1)	1 (0.1)
+Black/White Mixed	0	0	1 (0.2)	1 (0.1)	1 (0.1)
+Caucasian, African American	0	1 (0.2)	0	1 (0.1)	1 (0.1)
+German and Hispanic	0	1 (0.2)	0	1 (0.1)	1 (0.1)
+Half Black, Half White	1 (0.2)	0	0	0	1 (0.1)
+Hispanic	1 (0.2)	2 (0.4)	0	2 (0.2)	3 (0.2)
+Indian	2 (0.4)	0	0	0	2 (0.1)
+Maya Indian	0	0	1 (0.2)	1 (0.1)	1 (0.1)
+Mexican	1 (0.2)	0	1 (0.2)	1 (0.1)	2 (0.1)
+Mexican American	0	0	1 (0.2)	1 (0.1)	1 (0.1)
+Mix Race (White and Black)	1 (0.2)	1 (0.2)	1 (0.2)	2 (0.2)	3 (0.2)
+Native American	1 (0.2)	0	0	0	1 (0.1)
+White and South American	1 (0.2)	0	0	0	1 (0.1)
+Ethnicity (n [%])	
+Hispanic or Latino	131 (29.0)	112 (24.7)	129 (29.3)	241 (27.0)	372 (27.6)
+Non-Hispanic or Latino	321 (71.0)	341 (75.3)	312 (70.7)	653 (73.0)	974 (72.4)
+BMI (kg/m2)	
+n	452	453	441	894	1346
+Mean (SD)	28.07 (5.273)	28.12 (5.323)	28.16 (5.270)	28.14 (5.294)	28.12 (5.285)
+Median	27.72	27.59	27.67	27.62	27.63
+Min, Max	17.8, 41.7	18.2, 39.9	18.1, 39.9	18.1, 39.9	17.8, 41.7
+L138: BMI = body mass index, ITT = Intent-To-Treat, kg = kilograms, Max = maximum, Min = minimum, N/n = number of patients, SD = standard deviation.
+L139: Note: Percentages are based on the number of patients in the ITT Population in each treatment group.
+L140: Source: Sponsor's Table 10 of the Study Report
+L141: **Reviewer's Note:** It should be noted that the vast majority of subjects were female (81%). However, based on the clinical reviewer, this is similar to the general population with this disease.
+L142: ## 3.3.3 Analysis of the Primary Efficacy Endpoint
+L143: Overall, 47 patients with 48 patient records were removed from the randomized population for duplication, leaving 1346 patients in the ITT Population, the major analysis population for efficacy endpoints.
+L144: The Per Protocol Population (PP Population) (n=1054) consisted of all patients in the ITT Population who completed the 12-week Treatment Period or discontinued from the study due to a TEAE or lack of efficacy (75), who were treatment compliant, and had no other major protocol violations. Approximately 75% of the ITT Population comprised the PP Population; there were no
+L145: meaningful differences among the three treatment groups with respect to percentages of patients comprising the PP Population.
+L146: Sixty-six unique patients were identified as having participated in previous plecanatide clinical trials or at multiple sites in the SP304203-00 study. Sixty-nine patient identification numbers are associated with these 66 unique patients. Of those 69 records, 21 randomized patients were classified as “index cases” (the earliest instance of screening in any study) and were retained in the ITT Population. Forty eight “non-index” case records (i.e., patient activity that occurred subsequent to the earliest instance of screening in any study) were removed from the ITT Population, bringing the number of randomized patients (1394) down to an ITT Population of 1346.
+L147: The primary efficacy endpoint was the proportion of patients who were durable overall CSBM responders over the 12-week Treatment Period. A CSBM weekly responder was defined as a patient who had \ge 3 for a given week and an increase from baseline of \ge 1 CSBM for that same week. An overall CSBM responder was defined as a patient who was a weekly responder for at least 9 of the 12 treatment weeks, and a durable overall CSBM responder was also a weekly responder in at least 3 of the last 4 weeks.
+L148: The primary efficacy endpoint results were based on an analysis of durable overall CSBM responder rates for the 3 mg plecanatide group and the 6 mg plecanatide group (individually) compared to the rates in the placebo group using a mean replacement approach (MRA) and the CMH test (stratified by gender) over the 12-week Treatment Period. Durable overall CSBM responder rates for each treatment group (and 95% confidence intervals) over the 12-week Treatment Period and the two-sided p-values associated with the CMH test are presented in Table 6.
+L149: **Table 6: Sponsor's Analysis of the Primary Endpoint – Study SPD304203-00**
+**Number and Percentage of Durable Overall CSBM Responders**
+**Applying the Mean Replacement Approach (MRA) – ITT Population**
+L150: Placebo
+(N=452)	Plecanatide
+3 mg
+(N=453)	Plecanatide
+6 mg
+(N=441)	Active
+Combined
+(N=894)
+Durable Overall CSBM Responders, n (%)a	46 (10.2)	95 (21.0)	86 (19.5)	181 (20.2)
+95% CI (%)b	(7.5, 13.3)	(17.3, 25.0)	(15.9, 23.5)	(17.7, 23.0)
+Non-Responders, n (%)c	406 (89.8)	358 (79.0)	355 (80.5)	713 (79.8)
+CMH p-valued	-	< 0.001	< 0.001	-
+Odds Ratio (adjusted)e	-	0.429	0.469	-
+95% CI	-	(0.294, 0.627)	(0.319, 0.688)	-
+Difference in Proportions (adjusted)f	-	0.107	0.094	-
+95% CI	-	(0.061, 0.154)	(0.047, 0.140)	-
+Breslow-Day p-valueg	-	0.609	0.096	-
+L151: CI = confidence interval, CMH = Cochran Mantel Haenszel (test), CSBM = complete spontaneous bowel movement, ITT = Intent-To-Treat, MRA = mean replacement approach, N = number of patients.
+L152: a. A durable overall CSBM responder was a patient who was a weekly CSBM responder for at least 9 of the 12 treatment weeks, including at least 3 of the last 4 weeks. A CSBM weekly responder was defined as a patient who had \ge 3 CSBMs for a given week and an increase from Baseline of \ge 1 CSBM for that same week, determined using MRA methodology as defined in Section 4.1.2 of the statistical analysis plan.
+
+b. Clopper-Pearson method.
+
+c. Patients missing with respect to the endpoint were scored as non-responders.
+
+d. CMH p-value for the comparison of treatment group to placebo, stratified by gender.
+
+e. Common odds ratio, treatment/placebo adjusted for stratification factor (gender) in the CMH analysis.
+
+f. Proportion of responders in treatment group minus proportion in Placebo group, adjusted for stratification factor (gender) in the CMH analysis.
+
+g. Breslow-Day p-value for the test of consistency of the treatment effect across the stratification.
+L153: Source: Sponsor's Table 14 of the Study Report
+L154: The reviewer's results were identical to that of the Sponsor's as shown in the above Table. Both the 3 mg plecanatide group and the 6 mg plecanatide group were highly statistically significant (p-value &lt; 0.001) compared to the placebo group in terms of the overall CSBM responder rate using the MRA method of analysis at 12 weeks in the ITT population.
+L155: The difference in proportion between the 3 mg plecanatide and placebo was 10.8% with a 95% CI (6.1%, 15.5%).
+L156: ## 3.3.4 Analysis of the Sensitivity
+L157: For sensitivity analyses, the statistical reviewer evaluated the primary endpoint, solely, based on subjects who had completed the study and had data available. Table 7 shows these results.
+L158: **Table 7: Reviewer's Sensitivity Analysis of the Primary Endpoint – Study SPD304203-00**
+**Number and Percentage of Durable Overall CSBM Responders (Including the Index Subjects)**
+**Completers – Observed Data**
+L159: Treatment Arm	Placebo
+n=370	3 mg
+n=368	6 mg
+n=361	P-Value
+(overall)
+Responder Rate	45 (12.2%)	91 (24.7%)	85 (23.6%)	<0.001
+L160: Source: Reviewer
+L161: A total of 1099 subjects had completed the Week 12 end of the study with available data. The difference in proportion between the 3 mg plecanatide and placebo was 12.6% with a 95% CI (7.0%, 18.1%).
+L162: ## 3.3.5 Analysis of the Secondary Efficacy Endpoint
+L163: The Sponsor has introduced several secondary efficacy endpoints and they changed the order of the secondary efficacy endpoints prior to database lock from the final protocol to the final SAP; in addition several of the secondary efficacy endpoints listed in the final protocol were pre-specified as “additional efficacy endpoints” in the SAP. Final order of Secondary Efficacy Endpoints in the protocol:
+L164: - Change from baseline in frequency of CSBMs and SBMs
+- Time to first SBM and first CSBM
+- Percentage of patients with SBMs and CSBMs within the first 24 hours
+- Change from baseline in stool consistency based upon the BSFS
+- Change from baseline in straining score
+- Days of RM use
+- PAC-SYM and PAC-QOL questionnaires
+- Patient-reported symptoms associated with constipation in the Daily Symptom Diary
+- PGA
+L165: Based on the agreement with the reviewing clinical team, in this review, we report the results of the analyses for only the following four secondary endpoint variables. Table 8 shows these results.
+L166: - Change from baseline in 12-week CSBM Frequency Rate
+- Change from baseline in 12-week SBM Frequency Rate
+- Change from baseline in 12-week Stool Consistency
+- Change from baseline in 12-week Straining
+L167: **Table 8: Sponsor's Analysis of the Secondary Endpoints – Linear Mixed-Effects Model, Mean Replacement Approach (MRA) – ITT Population – Non-Missing Values**
+**Study SPD304203-00**
+L168: ## **Change from Baseline in Complete Spontaneous Bowel Movements (CSBMs/week)**
+L169: Placebo
+(N=452)	Plecanatide
+3 mg
+(N=453)	Plecanatide
+6 mg
+(N=441)	Active
+Combined
+(N=894)
+Change from Baselinea - (overall average estimate across the 12-week Treatment Period)
+LS Mean (SE)	1.22 (0.147)	2.46 (0.148)	2.21 (0.151)	-
+Difference from Placebo	-	1.24	0.99	-
+95% CIb	-	0.87, 1.62	0.61, 1.37	-
+p-value vs. Placeboc	-	< 0.001	< 0.001	-
+Baselinea
+n	449	453	439	892
+Mean	0.39 (0.570)	0.32 (0.514)	0.32 (0.509)	0.32 (0.511)
+L170: ## **Change from Baseline in Spontaneous Bowel Movements (SBMs/week)**
+L171: Placebo
+(N=452)	Plecanatide
+3 mg
+(N=453)	Plecanatide
+6 mg
+(N=441)	Active
+Combined
+(N=894)
+Change from Baselinea - (overall average estimate across the 12-week Treatment Period)
+LS Mean (SE)	1.27 (0.195)	3.19 (0.196)	3.11 (0.200)	-
+Difference from Placebo	-	1.92	1.84	-
+95% CIb	-	1.43, 2.42	1.34, 2.34	-
+p-value vs. Placeboc	-	< 0.001	< 0.001	-
+Baselinea
+n	449	453	439	892
+Mean (SD)	2.18 (2.032)	1.97 (1.772)	1.82 (1.824)	1.90 (1.798)
+L172: ## **Change from Baseline in Stool Consistency**
+L173: Placebo
+(N=452)	Plecanatide
+3 mg
+(N=453)	Plecanatide
+6 mg
+(N=441)	Active
+Combined
+(N=894)
+Change from Baselinea - (overall average estimate across the 12-week Treatment Period)
+LS Mean (SE)	0.77 (0.058)	1.53 (0.058)	1.52 (0.059)	-
+Difference from Placebo	-	0.76	0.75	-
+95% CIb	-	0.61, 0.90	0.60, 0.89	-
+p-value vs. Placeboc	-	< 0.001	< 0.001	-
+Baselinea
+n	441	438	422	860
+Mean (SD)	2.56 (1.114)	2.52 (1.046)	2.59 (1.171)	2.55 (1.109)
+L174: ## **Change from Baseline in Straining Score**
+L175: Placebo
+(N=452)	Plecanatide
+3 mg
+(N=453)	Plecanatide
+6 mg
+(N=441)	Active
+Combined
+(N=894)
+Change from Baselinea - (overall average estimate across the 12-week Treatment Period)
+LS Mean (SE)	-0.57 (0.039)	-0.92 (0.040)	-0.88 (0.040)	-
+Difference from Placebo	-	-0.35	-0.30	-
+95% CIb	-	-0.45, -0.25	-0.40, -0.20	-
+p-value vs. Placeboc	-	< 0.001	< 0.001	-
+Baselinea
+n	445	441	427	868
+Mean (SD)	2.31 (0.835)	2.30 (0.842)	2.28 (0.894)	2.29 (0.867)
+L176: Source: Extracted from the Sponsor's Tables 15, 16, 17 and 18 of the Study Report
+L177: As shown in Table 8, the 3 mg Plecanatide showed statistically significant results in all four key secondary endpoints (p&lt;0.001) compared to Placebo.
+L178: ## 3.4 Study SPD304203-03
+L179: This trial was conducted between 16 May 2014 and 13 May 2015 at 180 study sites in the US.
+L180: We had concerns about the data integrity from two specific clinical sites (below) as these sites had had previous Agency enforcement action or warning letters. Therefore, we recommended that patients who were enrolled in these study sites be removed from the primary efficacy analysis for study SP304203-03, as well as the safety analyses. We requested that the Sponsor to resubmit the primary efficacy table for study SP304203-03 and the primary and secondary pooled safety tables and data analysis sets, excluding data from patients enrolled at the following sites:
+L181: (b) (4)
+L182: On July 21, 2016 we received a response from Synergy, where they acknowledged our concerns and removed the 30 patients from the analyses as requested.
+L183: ## 3.4.1 Subjects with Major Protocol Deviations – Study SPD304203-03
+L184: Table 9 summarizes the major protocol deviations for Study SPD304203-03.
+L185: **Table 9: Subjects with Major Deviations - Study SPD304203-03**
+L186: Deviation Category	Total Major Deviations	Percentage
+Duplicate Subject	96	39.0%
+Randomization Criteria Not Met	82	33.3%
+Diary Eligibility Not Met	19	7.7%
+Study Drug Compliance	18	7.3%
+Prohibited Concomitant Medication	16	6.5%
+IP Dispensing Error	7	2.8%
+Other	8	3.2%
+Total Major Protocol Deviations	246	
+Patients with More than 1 deviation	19	
+Total Patients with a Major PD	224
+L187: IP = investigational product, PD = protocol deviation.
+L188: Source: Sponsor's Table 10 of the Study Report
+L189: As it is seen in Table 9, high number of subjects had major deviations from the protocol. A total of 96 subjects (39.0%) were duplicates; 82 subjects (33.3%) did not meet the criteria for randomization. These are considerable large numbers and errors to be made in a clinical trial and cause concern regarding the integrity and accuracy of the results of the study.
+L190: According to the Sponsor duplicate patients (who may have had more than one patient identifier in the current and/or previous or concurrent plecanatide studies) appeared only once in the current ITT Population of 1337. However, in the efficacy dataset provided by the Sponsor, which we used for our analyses of efficacy in this review, we identified a total of 1310 subjects in the ITT population. This discrepancy was fixed by the Sponsor in a response to our IR. On August 5, 2016
+L191: and August 19, 2016 Synergy (the applicant) sent summary tables for the results of primary efficacy endpoint that matched the numbers achieved by the reviewer.
+L192: ## 3.4.2 Patients' Disposition and Discontinuation – Study SPD304203-03
+L193: A total of 185 study sites were initiated in the US; of these, 180 were active (i.e., screened patients) and 162 sites enrolled (randomized) 1410 patients. Eight randomized patients (7 in the ITT Population and 1 non-index duplicate) were not treated with study drug after being enrolled in the study leaving 1402 patient who were randomized and received study drug. All patients were evenly randomized and stratified (by gender) among the three treatment groups.
+L194: In the Study Report, under "Disposition of Patients" it is stated that "*Eight* randomized patients (0.5%) were not treated after being enrolled in the study." However in the body of the Study Report as well as in the Synopsis it is reported that "*Seven* randomized patients (0.5%) were not treated with study drug after being enrolled in the study.
+L195: **Table 10: Number of Subjects - Study SPD304203-03**
+L196: Planned	1350
+Screened	2941
+Randomized (including duplicate patients)
+1410
+Placebo
+469	3 mg
+470	6 mg
+471
+Completed Treatment (EOT, Week 12)
+1212
+Placebo
+410	3 mg
+394	6 mg
+408
+Completed Study (EOS, Week 14)
+1140
+Placebo
+406	3 mg
+392	6 mg
+405
+L197: **Table 11: Patient Disposition – All Randomized (Includes Sites 362 and 402) – Study SPD304203-03**
+L198: Placebo
+(N=469)	Plecanatide
+3 mg
+(N=470)	Plecanatide
+6 mg
+(N=471)	Active
+Combined
+(N=941)	Overall
+(N=1410)
+Analysis Populations, n (%)	
+ITT Populationa	445 (94.9)	443 (94.3)	449 (95.3)	892 (94.8)	1337 (94.8)
+Randomized, not treated	1 (0.2)	4 (0.9)	2 (0.4)	6 (0.6)	7 (0.5)
+Non-duplicate patientsb	437 (93.2)	434 (92.3)	443 (94.1)	877 (93.2)	1314 (93.2)
+Index case patientsb	8 (1.7)	9 (1.9)	6 (1.3)	15 (1.6)	23 (1.6)
+Safety Populationc	467 (99.6)	466 (99.1)	469 (99.6)	935 (99.4)	1402 (99.4)
+Non-duplicate patientsb	436 (93.0)	430 (91.5)	441 (93.6)	871 (92.6)	1307 (92.7)
+Duplicate patientsb	31 (6.6)	36 (7.7)	28 (5.9)	64 (6.8)	95 (6.7)
+Index case patientsb	8 (1.7)	9 (1.9)	6 (1.3)	15 (1.6)	23 (1.6)
+PP Populationd	353 (75.3)	340 (72.3)	355 (75.4)	695 (73.9)	1048 (74.3)
+PK Populatione	32 (6.8)	31 (6.6)	32 (6.8)	63 (6.7)	95 (6.7)
+Completion Status, n (%)	
+Discontinued from the Study During the Treatment Phase	59 (12.6)	76 (16.2)	63 (13.4)	139 (14.8)	198 (14.0)
+Completed Study Treatment Phase (Week 12, EOT)	410 (87.4)	394 (83.8)	408 (86.6)	802 (85.2)	1212 (86.0)
+Discontinued from the Study after the Treatment Phase	4 (0.9)	2 (0.4)	3 (0.6)	5 (0.5)	9 (0.6)
+Completed the Study (Week 14, EOS)	406 (86.6)	392 (83.4)	405 (86.0)	797 (84.7)	1203 (85.3)
+Primary Reason for Discontinuation in Patients Who Completed Study Treatment Phase (Week 12, EOT), n (%)	
+Adverse Event	0	0	0	0	0
+Death	0	0	0	0	0
+Insufficient Therapeutic Effect	0	0	0	0	0
+Lost to Follow-Up	1 (0.2)	0	1 (0.2)	1 (0.1)	2 (0.1)
+Non-compliance with Study Drug	1 (0.2)	0	0	0	1 (0.1)
+Physician Decision	0	0	0	0	0
+Protocol Violation	1 (0.2)	0	1 (0.2)	1 (0.1)	2 (0.1)
+Withdrawal of Consent by Patient	1 (0.2)	1 (0.2)	1 (0.2)	2 (0.2)	3 (0.2)
+Other	0	1 (0.2)	0	1 (0.1)	1 (0.1)
+Primary Reason for Discontinuation in Patients Who Did Not Complete Study Treatment Phase (Week 12, EOT), n (%)	
+Adverse Event	14 (3.0)	14 (3.0)	17 (3.6)	31 (3.3)	45 (3.2)
+Death	0	0	0	0	0
+Insufficient Therapeutic Effect	8 (1.7)	3 (0.6)	1 (0.2)	4 (0.4)	12 (0.9)
+Lost to Follow-Up	8 (1.7)	7 (1.5)	6 (1.3)	13 (1.4)	21 (1.5)
+Non-compliance with Study Drug	1 (0.2)	0	0	0	1 (0.1)
+Physician Decision	0	0	0	0	0
+Protocol Violation	17 (3.6)	18 (3.8)	14 (3.0)	32 (3.4)	49 (3.5)
+Withdrawal of Consent by Patient	8 (1.7)	31 (6.6)	23 (4.9)	54 (5.7)	62 (4.4)
+Other	3 (0.6)	3 (0.6)	2 (0.4)	5 (0.5)	8 (0.6)
+L199: AE = adverse event, EOS = end of study, EOT = end of treatment, ITT = Intent-To-Treat, PK = pharmacokinetic, PP = Per Protocol.
+L200: Note: Percentages were based on the number of enrolled patients in each treatment group.
+L201: - The ITT Population consisted of all randomized patients. Duplicate patients could appear at most once in the ITT Population as the index case.
+- "Duplicate patients" were patients who had more than one unique patient identifier in this study and/or any previous or concurrent plecanatide study. For duplicate patients, the earliest instance of screening in any study was designated as the "index case" for purposes of proper assignment of duplicate patients to analysis populations.
+- The Safety Population consisted of all randomized patients who had received at least one dose of the study drug. Patients in the Safety Population were analyzed according to the treatment received. Duplicate patients could appear more than once in the Safety Population.
+- The PP Population consisted of all patients in the ITT Population who completed the 12-week Treatment Period or discontinued from study treatment due to AE(s) or lack of efficacy (insufficient therapeutic response); were diary and treatment compliant; and had no major protocol violations. Duplicate patients had a major protocol violation and were not included in the PP Population.
+- The PK Population consisted of all randomized patients who received study drug and had at least one post-dose PK collection completed. PK results were analyzed/retained by a separate PK vendor.
+L202: Source: Sponsor's Table 9 of the Study Report
+L203: **Figure 2: Disposition of Subjects - Study SPD304203-03**
+L204: I/E = inclusion/exclusion, ITT = Intent-To-Treat, PP = Per Protocol, PK = pharmacokinetic.
+L205: Source: Sponsor's Figure 3 of the Study Report
+L206: ## 3.4.3 Demographics and Baseline Characteristics for Study SPD304203-03
+L207: Table 12 shows the demographics and baseline characteristics for Study 03.
+L208: **Table 12: Demographics and Baseline Characteristics (ITT) - Study SPD304203-03**
+L209: Characteristics	Placebo
+(N=445)	Plecanatide
+3 mg
+(N=443)	Plecanatide
+6 mg
+(N=449)	Active
+Combined
+(N=892)	Overall
+(N=1337)
+Age (years)	
+n	445	443	449	892	1337
+Mean (SD)	44.6 (14.59)	45.5 (14.38)	45.3 (14.47)	45.4 (14.42)	45.1 (14.47)
+Median	44.0	46.0	45.0	45.0	45.0
+Min, Max	18, 80	18, 80	18, 80	18, 80	18, 80
+Gender (n [%])	
+Male	95 (21.3)	98 (22.1)	96 (21.4)	194 (21.7)	289 (21.6)
+Female	350 (78.7)	345 (77.9)	353 (78.6)	698 (78.3)	1048 (78.4)
+Race (n [%])	
+American Indian or Alaskan Native	0	0	2 (0.4)	2 (0.2)	2 (0.1)
+Asian	14 (3.1)	7 (1.6)	11 (2.4)	18 (2.0)	32 (2.4)
+Black or African American	91 (20.4)	88 (19.9)	102 (22.7)	190 (21.3)	281 (21.0)
+Native Hawaiian or Other Pacific Islander	3 (0.7)	0	1 (0.2)	1 (0.1)	4 (0.3)
+White/Caucasian	331 (74.4)	341 (77.0)	324 (72.2)	665 (74.6)	996 (74.5)
+Other	6 (1.3)	7 (1.6)	9 (2.0)	16 (1.8)	22 (1.6)
+African American and Caucasian	0	0	1 (0.2)	1 (0.1)	1 (0.1)
+African American/Asian	0	1 (0.2)	0	1 (0.1)	1 (0.1)
+L210: American Indian/Alaskan Native	1 (0.2)	0	0	0	1 (0.1)
+Asian & White	1 (0.2)	0	0	0	1 (0.1)
+Asian and Native American	0	1 (0.2)	0	1 (0.1)	1 (0.1)
+Biracial (African American and White)	0	0	1 (0.2)	1 (0.1)	1 (0.1)
+Black and White	0	0	1 (0.2)	1 (0.1)	1 (0.1)
+Black or African American and American Indian	1 (0.2)	0	0	0	1 (0.1)
+Black/Creole	1 (0.2)	0	0	0	1 (0.1)
+Creole	0	0	1 (0.2)	1 (0.1)	1 (0.1)
+Indian Non-American	0	0	1 (0.2)	1 (0.1)	1 (0.1)
+Mexican	1 (0.2)	1 (0.2)	0	1 (0.1)	2 (0.1)
+Mixed Black and White/Caucasian	0	0	1 (0.2)	1 (0.1)	1 (0.1)
+Mixed White and Black	0	1 (0.2)	0	1 (0.1)	1 (0.1)
+Moroccan	0	0	1 (0.2)	1 (0.1)	1 (0.1)
+Multiracial	1 (0.2)	1 (0.2)	0	1 (0.1)	2 (0.1)
+Pakistan	0	0	1 (0.2)	1 (0.1)	1 (0.1)
+Pakistan Indian	0	1 (0.2)	0	1 (0.1)	1 (0.1)
+White & American Indian	0	1 (0.2)	0	1 (0.1)	1 (0.1)
+White, Black and American Indian	0	0	1 (0.2)	1 (0.1)	1 (0.1)
+Ethnicity (n [%])	
+Hispanic or Latino	254 (57.1)	246 (55.5)	234 (52.1)	480 (53.8)	734 (54.9)
+Non-Hispanic or Latino	191 (42.9)	197 (44.5)	215 (47.9)	412 (46.2)	603 (45.1)
+BMI (kg/m2)	
+n	445	443	449	892	1337
+Mean (SD)	27.97 (5.081)	28.59 (4.718)	28.38 (4.864)	28.48 (4.791)	28.31 (4.893)
+Median	27.35	28.20	27.82	28.07	27.76
+Min, Max	18.3, 40.0	18.3, 39.9	18.5, 40.0	18.3, 40.0	18.3, 40.0
+L211: BMI = body mass index, ITT = Intent-To-Treat, kg = kilograms, Max = maximum, Min = minimum, N/n = number of patients, SD = standard deviation.
+L212: Note: Percentages are based on the number of patients in the ITT Population in each treatment group.
+L213: Source: Sponsor's Table 11 of the Study Report
+L214: ## 3.4.4 Analysis of the Primary Efficacy Endpoint
+L215: The primary efficacy endpoint was the proportion of patients who were durable overall CSBM responders over the 12-week Treatment Period. A CSBM weekly responder was defined as a patient who had \ge 3 for a given week and an increase from baseline of \ge 1 CSBM for that same week. An overall CSBM responder was defined as a patient who was a weekly responder for at least 9 of the 12 treatment weeks, and a durable overall CSBM responder was also a weekly responder in at least 3 of the last 4 weeks.
+L216: The primary efficacy endpoint results were based on an analysis of durable overall CSBM responder rates for the 3 mg plecanatide group and the 6 mg plecanatide group (individually) compared to the rates in the placebo group using a mean replacement approach (MRA) and the CMH test (stratified by gender) over the 12-week Treatment Period.
+L217: (b) (4)
+L218: There had been some issues regarding the data integrity with
+L219: (b) (4)
+L220: (b) (4) as these sites have had previous Agency enforcement action or warning letters. For that reason, we recommended that patients who were enrolled in these study sites be removed from the primary and secondary efficacy analysis for study SP304203-03, as well as the safety analyses.
+L221: Table 13 shows the results of the primary efficacy analysis of the primary endpoint variable (overall CSBM responder rates) by the reviewer.
+L222: **Table 13: Reviewer's Analysis of the Primary Endpoint – Study SPD304203-03
+Number and Percentage of Overall CSBM Responders (as Planned, TRT01P)
+Applying the Mean Replacement Approach (MRA) – ITT Population,
+After deleting Sites 362 and 402**
+L223: Primary parameter (CSBM Responders)	Placebo (n=440)	3 mg (n=430)	6 mg (n=440)	P-Value* (overall)
+Response Rate	57 (13.0%)	88 (20.5%)	88 (20%)	<0.005
+L224: *Using Chisq. Test
+L225: The 3 mg plecanatide group was statistically significant compared to the placebo in terms of the overall CSBM responder rate using the MRA method at 12 weeks, based on "as planned treatment" (p-value = 0.003) where the difference between 3 mg arm and placebo arm was 7.5% with a 95% CI (2.6%, 12.5%).
+L226: **Reviewer's Notes:** There were discrepancies in the total number of the subjects between what the Sponsor, originally, had submitted vs. what we have calculated from the data. On August 5, 2016 Synergy (the applicant) sent a summary table 142.1.1.1 for the results of primary efficacy endpoint (shown below). In this Table, the total number of subjects matches the reviewer's (N=1310) and the results are similar to that of the reviewer's and statistically significant (p-value \le 0.005).
+L227: Table 14.2.1.1.1 Number and Percentage of Durable Overall CSBM Responders, Mean Replacement Approach (MRA) (ITT Population) - Excluding sites 362 and 402
+L228: Placebo (N=440)	Plecanatide 3 mg (N=430)	Plecanatide 6 mg (N=440)	Active Combined (N=870)
+Durable Overall CSBM Responders, n (%) [1]	57 (13.0)	88 (20.5)	88 (20.0)	176 (20.2)
+95% CI (%) [2]	(10.0, 16.5)	(16.7, 24.6)	(16.4, 24.0)	(17.6, 23.1)
+Non-Responders, n (%) [3]	383 (87.0)	342 (79.5)	352 (80.0)	694 (79.8)
+CMH p-value [4]	-	0.003	0.005	-
+Odds Ratio (adjusted) [5]	-	0.581	0.597	-
+95% CI	-	(0.404, 0.835)	(0.415, 0.857)	-
+Difference in Proportions (adjusted) [6]	-	0.075	0.070	-
+95% CI	-	(0.026, 0.124)	(0.022, 0.119)	-
+Breslow-Day p-value [7]	-	0.076	0.071	-
+L229: Source: Listings 16.2.6.1.1, 16.2.6.1.2
+L230: [1] A durable overall CSBM responder is a patient who is a weekly CSBM responder for at least 9 of the 12 treatment weeks, including at least 3 of the last 4 weeks. (A CSBM weekly responder is defined as a patient who has \ge 3 CSBMs per week and an increase from baseline of \ge 1 CSBM for that week, determined using mean replacement approach (MRA) methodology as defined in Section 4.1.2 of the statistical analysis plan.)
+L231: [2] Clopper-Pearson method
+L232: [3] Patients missing with respect to the endpoint were scored as non-responders.
+L233: [4] CMH p-value for the comparison of treatment group to placebo, stratified by gender.
+L234: [5] Common odds ratio, treatment/placebo adjusted for stratification factor (gender) in the CMH analysis.
+L235: [6] Proportion of responders in treatment group minus proportion in Placebo group, adjusted for stratification factor (gender) in the CMH analysis.
+L236: [7] Breslow-Day p-value for the test of consistency of the treatment effect across the stratification
+L237: (b) (4) 18JUL2016:12:39 PM • I:\Synergy\33610\21_Stat\Programs\Tables\T_respond_FDA.sas • (b) (4)
+L238: Reviewer's submission dated august 5, 2016
+L239: ## 3.4.5 Analysis of the Sensitivity
+L240: For sensitivity analyses, the statistical reviewer evaluated the primary endpoint variable, solely, based on subjects who had completed the study and had data available. Table 14 shows these results.
+L241: **Table 14: Reviewer's Sensitivity Analysis of the Primary Endpoint – Study SPD304203-03
+Number and Percentage of Overall CSBM Responders Completers – Observed Data**
+L242: Treatment Arm	Placebo
+n=392	3 mg
+n=373	6 mg
+n=388	P-Value*
+(overall)
+Responder Rate	56 (14.3%)	83 (22.3%)	85 (22.4%)	<0.005
+L243: *Using Chisq. Test
+L244: A total of 1153 subjects had completed the Week 12 end of the study with available data. The difference in proportion between the 3 mg plecanatide and placebo was 8.0% with a 95% CI (3.0%, 13.4%).
+L245: ## 3.4.6 Analysis of the Secondary Efficacy Endpoint
+L246: Based on the agreement with the reviewing clinical team, we report the results of the analyses for only the following four secondary endpoint variables. Table 18 shows these results.
+L247: - Change from baseline in 12-week CSBM Frequency Rate
+- Change from baseline in 12-week SBM Frequency Rate
+- Change from baseline in 12-week Stool Consistency
+- Change from baseline in 12-week Straining
+L248: **Table 15: Sponsor's Analysis of the Secondary Endpoints – Linear Mixed-Effects Model, Mean Replacement Approach (MRA) – ITT Population – Non-Missing Values**
+**Study SPD304203-03**
+L249: ## **Change from Baseline in Complete Spontaneous Bowel Movements (CSBMs/week)**
+L250: Placebo
+(N=432)	Plecanatide
+3 mg
+(N=422)	Plecanatide
+6 mg
+(N=434)	Active
+Combined
+(N=856)
+Change from Baseline [1], (overall average estimate across the 12-week treatment period)	
+LS Mean (SE)	1.41 (0.138)	2.34 (0.139)	2.19 (0.138)	-
+Difference from Placebo	-	0.93	0.77	-
+95% CI [2]	-	0.56, 1.29	0.42, 1.13	-
+p-value vs. Placebo [3]	-	<0.001	<0.001	-
+Baseline [1]	
+n	431	418	432	850
+Mean (SD)	0.31 (0.490)	0.28 (0.553)	0.24 (0.427)	0.26 (0.493)
+L251: ## **Change from Baseline in Spontaneous Bowel Movements (SBMs/week)**
+L252: Placebo
+(N=432)	Plecanatide
+3 mg
+(N=422)	Plecanatide
+6 mg
+(N=434)	Active
+Combined
+(N=856)
+Change from Baseline [1], (overall average estimate across the 12-week treatment period)	
+LS Mean (SE)	1.52 (0.162)	2.71 (0.165)	2.85 (0.163)	-
+Difference from Placebo	-	1.18	1.33	-
+95% CI [2]	-	0.76, 1.60	0.92, 1.75	-
+p-value vs. Placebo [3]	-	<0.001	<0.001	-
+Baseline [1]	
+n	431	418	432	850
+Mean (SD)	1.55 (1.591)	1.79 (2.084)	1.63 (1.673)	1.71 (1.887)
+L253: ## **Change from Baseline in Stool Consistency**
+L254: Placebo
+(N=432)	Plecanatide
+3 mg
+(N=422)	Plecanatide
+6 mg
+(N=434)	Active
+Combined
+(N=856)
+Change from Baseline [1], (overall average estimate across the 12-week treatment period)	
+LS Mean (SE)	0.88 (0.062)	1.51 (0.062)	1.52 (0.062)	-
+Difference from Placebo	-	0.63	0.64	-
+95% CI [2]	-	0.47, 0.79	0.49, 0.80	-
+p-value vs. Placebo [3]	-	<0.001	<0.001	-
+Baseline [1]	
+n	394	403	405	808
+Mean (SD)	2.35 (1.090)	2.16 (1.036)	2.27 (1.113)	2.22 (1.076)
+L255: ## **Change from Baseline in Straining**
+L256: Placebo
+(N=432)	Plecanatide
+3 mg
+(N=422)	Plecanatide
+6 mg
+(N=434)	Active
+Combined
+(N=856)
+Change from Baseline [1], (overall average estimate across the 12-week treatment period)	
+LS Mean (SE)	-0.62 (0.041)	-0.90 (0.041)	-0.87 (0.041)	-
+Difference from Placebo	-	-0.28	-0.24	-
+95% CI [2]	-	-0.39, -0.17	-0.35, -0.14	-
+p-value vs. Placebo [3]	-	<0.001	<0.001	-
+Baseline [1]	
+n	422	417	427	844
+Mean (SD)	2.42 (0.855)	2.46 (0.859)	2.47 (0.888)	2.46 (0.874)
+L257: Source: Sponsor's September 16, 2016 submission
+L258: As shown in Table 15, the 3 mg Plecanatide showed statistically significant results in all four key secondary endpoints (p&lt;0.001) compared to Placebo.
+L259: ## 3.5 Evaluation of Safety
+L260: The evaluation of safety was not performed in this review. For the safety evaluation refer to the clinical review.
+L261: ## 4 FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L262: ## 4.1 Subgroup Analysis of the Primary Efficacy Endpoint, Study SPD304203-00
+L263: The statistical reviewer detected some gender differences in the efficacy of the treatment groups. One concern was the number of female to male ratio (larger than 3:1). Therefore, in this section, we report the subgroup analyses by gender only for Study SPD304203-00. Table 16 shows the results of the primary endpoint variable analysis by gender for Study SPD304203-00.
+L264: **Table 16: Primary Endpoint Variable Analysis by Gender - Study SPD304203-00**
+L265: Placebo
+(n=467)	3 mg
+(n=471)	6 mg
+(n=456)
+Female	n=370	n=382	n=373
+Response Rate	41 (11%)	84 (22%)	70 (19%)
+Male	n=97	n=89	n=83
+Response Rate	7 (7%)	17 (19%)	20 (24%)
+L266: Source: Reviewer
+L267: When the primary analysis was performed by gender, the female subpopulation was highly statistically significant (p&lt;0.0001) whereas, the male subgroup showed a borderline statistical significance (p=0.025); however, it should also be noted that the study was not powered to show statistical significance difference for efficacy by each gender individually.
+L268: ## 4.2 Subgroup Analysis of the Primary Efficacy Endpoint, Study SPD304203-03
+L269: Based on a medical reviewer's concern, in this section, we report the subgroup analyses by age category only for Study SPD304203-03. The subgroup analyses were based on the "Safety Population".
+L270: Table 17 shows the results of the primary endpoint variable analysis by gender for Study SPD304203-03.
+L271: **Table 17: Primary Endpoint Variable Analysis by Gender - Study SPD304203-03**
+L272: Placebo	3 mg	6 mg
+65 and older	n=102
+11 (10.8%)	n=89
+21 (23.6%)	n=97
+14 (14.4%)
+Younger than 65	n=823
+94 (11.4%)	n=834
+172 (20.6%)	n=816
+165 (20.2%)
+L273: A total of 2761 subjects were included in the safety population; of which a total of 288 (10.4%) subjects were age 65 or older. The P-value for Breslow-Day Test for Homogeneity of the Odds Ratios to test the consistency of the treatment effect across the stratification was 0.3076.
+L274: This section contains the reviewer's results of the exploratory subgroup analysis for Studies SPD304203-00 and SPD304203-03 combined.
+L275: ## 4.3 Gender, Race, Age, and Geographic Region*
+L276: Table 18 shows the results of the primary endpoint analyses by gender, age category and ethnicity for both studies combined.
+L277: **Table 18: Primary Endpoint Variable Analysis by Subgroups- Study SPD304203-00 and Study SPD304203-03 Combined**
+L278: Gender
+Female	Placebo
+n=731	3 mg
+n=732	6 mg
+n=730
+81 (11.1%)	159 (21.7%)	142 (19.5%)
+Male	Placebo
+n=194	3 mg
+n=191	6 mg
+n=183
+24 (12.4%)	34 (17.8%)	37 (20.2%)
+Age Category
+65 and older	Placebo
+n=102	3 mg
+n=89	6 mg
+n=97
+11 (10.8%)	21 (23.6%)	14 (14.4%)
+Younger than 65	Placebo
+n=823	3 mg
+n=834	6 mg
+n=816
+94 (11.4%)	172 (20.6%)	165 (20.2%)
+Ethnicity
+White	Placebo
+n=672	3 mg
+n=655	6 mg
+n=642
+80 (11.9%)	133 (20.3%)	137 (21.3%)
+Black	Placebo
+n=210	3 mg
+n=233	6 mg
+n=216
+19 (9.1%)	53 (22.8%)	37 (17.1%)
+Asian	Placebo
+n=27	3 mg
+n=20	6 mg
+n=29
+3 (11.1%)	4 (20.0%)	1 (3.5%)
+L279: *More than 96% of the subjects in Study SPD304203-00 and 100% of subjects in Study SPD304203-03 were in the US. Therefore, the reviewer did not conduct any subgroup analyses by region.
+L280: ## 4.4 Other Special/Subgroup Populations
+L281: No other subgroups were analyzed.
+L282: ## 5 SUMMARY AND CONCLUSIONS
+L283: The sponsor has submitted the results of two identical Phase 3, multicenter, randomized double-blind, placebo-controlled, parallel-group studies (Study SPD304203-00 and Study SPD304203-03) to support the efficacy of Truelance® (Plecanatide) for the indication of Chronic Idiopathic Constipation (CIC).
+L284: After thorough evaluation, the statistical review team concluded that results of the submitted two studies are statistically significance and can be used to support Plecanatide's efficacy for the indication of Chronic Idiopathic Constipation (CIC) in adults.
+L285: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L286: /s/
+L287: SHAHLA S FARR
+11/02/2016
+L288: YEH FONG CHEN
+11/02/2016
+L289: FDA Seal for Drug Evaluation and Research
+L290: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Science
+Office of Biostatistics
+L291: ## Statistical Review and EvaluationCARCINOGENICITY STUDIES
+L292: IND/NDA Number:	NDA-208745
+Drug Name:	Plecanatide™ (SP-304)
+Indication:	Treatment of Chronic Idiopathic Constipation (Chronic Constipation)
+Studies:	104 Week Carcinogenicity Studies in Rats and Mice
+Applicant:	Sponsor:
+Synergy Pharmaceuticals Inc., New York, New York
+Testing Facility:	Rats: [REDACTED] (b) (4)
+Mice: [REDACTED] (b) (4)
+Documents Reviewed:	Electronic submission: Submitted on 21 January, 2016
+Electronic data: Submitted on 21 January, 2016
+Review Priority:	Standard
+Biometrics Division:	Division of Biometrics - VI
+Statistical Reviewer:	Hepei Chen
+Concurring Reviewer:	Karl Lin, Ph.D.
+Medical Division:	Division of Gastroenterology and Inborn Error Products
+Reviewing Pharmacologist:	Yuk-Chow Ng, Ph.D.
+Keywords:	Carcinogenicity, Dose response
+L293: ## Table of Contents
+L294: 1.	Background	3
+2.	Rat Study	3
+2.1.	Sponsor's analyses	4
+2.1.1.	Survival analysis	4
+Sponsor's findings	4
+2.1.2.	Tumor data analysis	4
+Adjustment for multiple testing	4
+Sponsor's findings	4
+2.2.	Reviewer's analyses	4
+2.2.1.	Survival analysis	5
+Reviewer's findings	5
+2.2.2.	Tumor data analysis	5
+Multiple testing adjustment	6
+Reviewer's findings	6
+3.	Mouse Study	7
+3.1.	Sponsor's analyses	7
+3.1.1.	Survival analysis	7
+Sponsor's findings	8
+3.1.2.	Tumor data analysis	8
+Sponsor's findings	9
+3.2.	Reviewer's analyses	9
+3.2.1.	Survival analysis	9
+Reviewer's findings	9
+3.2.2.	Tumor data analysis	10
+Reviewer's findings	10
+4.	Summary	10
+5.	Appendix	13
+Table 1A: Intercurrent mortality rate in male rats	
+Table 1B: Intercurrent mortality rate in female rats	
+Table 2A: Tumor rates and p-values for trend and pairwise comparisons in male rats	
+Table 2B: Tumor rates and p-values for trend and pairwise comparisons in female rats	
+Table 3A: Intercurrent mortality rate in male mice	
+Table 3B: Intercurrent mortality rate in female mice	
+Table 4A: Tumor rates and p-values for trend and pairwise comparisons in male mice	
+Table 4B: Tumor rates and p-values for trend and pairwise comparisons in female mice	
+Figure 1A: Kaplan-Meier survival functions for male rats	
+Figure 1B: Kaplan-Meier survival functions for female rats	
+Figure 2A: Kaplan-Meier survival functions for male mice	
+Figure 2B: Kaplan-Meier survival functions for female mice	
+6.	References	51
+L295: ## 1. Background
+L296: In this submission the sponsor included reports of two animal carcinogenicity studies, one in rats and one in mice. These studies were to evaluate the carcinogenic potential of the test article, plecanatide (also known as SP-304), when administered once daily by oral gavage to both rats and mice for up to 104 weeks. However, in the rats study, as survival was low in both male and female control groups (20 remaining), the animals from all groups were terminated in Week 94 based on guidance from the FDA. Also, in the mice study, as survival was low in the male control group (20 remaining), the males in all groups were terminated beginning in Week 98, and low survival in the females at the mid dose group (15 remaining) triggered termination of females in all groups beginning on the last day of Week 104 based on guidance from the FDA.
+L297: In this review the phrase "dose response relationship" refers to the linear component (trend) of the effect of treatment, and not necessarily to a strictly increasing or decreasing mortality or tumor incidence rate as dose increases.
+L298: ## 2. Rat Study
+L299: Two separate experiments, one in male rats and one in female rats were conducted. As indicated in Table 1, in each of these two experiments there were three treated groups and one vehicle control group. Two hundred sixty four Crl:CD®(SD) rats of each sex were assigned randomly to the treated and control groups in equal size of 66 rats per group. The dose levels for treated groups were 10, 30, and 100 mg/kg/day for both male and female rats. In this review these dose groups were referred to as the low (Group 2), mid (Group 3), and high (Group 4) dose groups, respectively. The rats in the vehicle control group were administrated with the vehicle (distilled water from deionized tap water), and handled for the same duration and in the same manner as the treated groups.
+L300: **Table 1: Experimental Design in Rat Study**
+L301: Group No.	No. of Toxicity Animals	Test Material	Dosage Level (mg/kg/day)
+Male	Female	Male	Female
+1	66	66	Vehicle control	0	0
+2	66	66	SP-304 low	10	10
+3	66	66	SP-304 mid	30	30
+4	66	66	SP-304 high	100	100
+L302: This study was terminated during Week 94 due to low survival among the control animals (20 remaining) in accordance with the specifications recommended by the FDA (IND 74883, Serial 0150, February 2, 2015)
+L303: All animals were observed for morbidity, mortality, injury, and the availability of food and water twice daily and beginning on Week 53, a third mortality check in the evening was conducted. A detailed clinical examination of each animal was performed prior to randomization and weekly during the study. The examinations performed prior to randomization are not reported but are maintained in the study file. On occasion, clinical observations were recorded at unscheduled intervals. The observations included, but were not limited to, evaluation of the skin, fur, eyes, ears, nose, oral cavity, thorax, abdomen, external genitalia, limbs and feet, respiratory and circulatory effects, autonomic effects such as salivation, and nervous system effects including
+L304: tremors, convulsions, reactivity to handling, and unusual behavior, and the palpation of masses. The location, appearance, and size of the masses were documented.
+L305: ## 2.1. Sponsor's analyses
+L306: ## 2.1.1. Survival analysis
+L307: The sponsor performed the overall test comparing all groups using a log-rank test. If this overall test was significant (p &lt; 0.05) and there are more than two groups, then a follow up analysis was done where each treatment group was compared to the control group using a log-rank test. Results of all pair-wise comparisons are reported at the 0.05 and 0.01 significance levels. All endpoints were analyzed using two-tailed tests.
+L308: ## Sponsor's findings:
+L309: The sponsor reported no treatment effects on survival: "survival in the treated groups exceeded survival in the control values groups in both sexes without any statistical significance. Survival treads for the control group on this study are not atypical or dissimilar from those of recent/current historical control data for Sprague-Dawley rats in 2-year carcinogenicity studies conducted at [REDACTED] (b) (4)
+L310: ## 2.1.2. Tumor data analysis
+L311: The sponsor analyzed the tumor incidence data using both survival adjusted and unadjusted tests. The unadjusted tests were based on the incidence and number of sites examined for each tumor type. The Cochran-Armitage trend test was calculated and Fisher's exact test was used to compare each treatment group with the control group. The survival adjusted test was conducted according to the prevalence/mortality methods described by Peto et al.
+L312: ## Adjustment for multiple testing:
+L313: The sponsor applied the evaluation criteria (p-values of significance) differently for rare tumors (background rate of 1% or less) and common tumors (background rate greater than 1%), using the evaluation criteria (from the FDA) in the following table.
+L314: Evaluation Criteria for Common and Rare Tumors
+Test for Positive Trends	Control-High Pair-wise Comparisons
+Common and rare tumors were tested at 0.005 and 0.025 significance levels, respectively	Common and rare tumors were tested at 0.01 and 0.05 significance levels, respectively
+L315: ## Sponsor's findings:
+L316: The sponsor reported no treatment-related increases in tumor incidence occurred in either sex, and there were no statistically significant neoplastic findings.
+L317: ## 2.2. Reviewer's analyses
+L318: To verify the sponsor's analyses and to perform additional analyses suggested by the reviewing
+L319: toxicologist, this reviewer independently performed the survival and tumor data analyses using the data provided by the sponsor electronically.
+L320: ## 2.2.1. Survival analysis
+L321: The survival distributions of rats in all four groups (Groups 1, 2, 3, and 4) were estimated using the Kaplan-Meier product limit method. The dose response relationship was tested across Groups 1, 2, 3, and 4 using the likelihood ratio test, and the homogeneity of survival distributions was tested using the log-rank test. The Kaplan-Meier curves for survival rates are given in Figures 1A and 1B in the appendix for all four groups in male and female rats, respectively. The intercurrent mortality data of all four groups, and the results of the tests for dose response relationship and homogeneity of survivals for Groups 1, 2, 3, and 4 are given in Tables 1A and 1B in the appendix for male and female rats, respectively.
+L322: ## Reviewer's findings:
+L323: The reviewer's analysis showed that the numbers of rats surviving to their terminal necropsy were 20 (30.30%), 17 (25.76%), 21 (31.82%), and 24 (36.36%) in Groups 1, 2, 3, and 4 for male rats, respectively, and 19 (28.79%), 17 (25.76%), 27 (40.91%), and 25 (37.88%) for female rats, respectively. No statistically significant findings in mortality were noted in for both male and female rats.
+L324: ## 2.2.2. Tumor data analysis
+L325: The tumor data were analyzed for dose response relationships across Groups 1, 2, 3, and 4, and pairwise comparisons of each of the three treated groups (Groups 2, 3, and 4) against the vehicle control group (Group 1), using the Poly-k method described in the paper of Bailer and Portier (1988) and Bieler and Williams (1993).
+L326: In the poly-k method, the adjustment for differences in mortality among treatment groups is made by modifying the number of animals at risk in the denominators in the calculations of overall tumor rates in the Cochran-Armitage test to reflect less-than-whole-animal contributions for animals that die without tumor before the end of the study (Bailer and Portier 1988). The modification is made by defining a new number of animals at risk for each treatment group. The number of animals at risk for the i-th treatment group R^* is defined as R^* = \sum w_{ij} where w_{ij} is the weight for the j-th animal in the i-th treatment group, and the sum is over all animals in the group.
+L327: Bailer and Portier (1988) proposed the weight w_{ij} as follows:
+L328: w_{ij} = 1 to animals dying with the tumor, and
+L329: w_{ij} = (t_{ij} / t_{sacr})^k to animals dying without the tumor,
+L330: where t_{ij} is the time of death of the j-th animal in the i-th treatment group, and t_{sacr} is the planned (or intended) time of terminal sacrifice. The above formulas imply that animals living up to the end of the planned terminal sacrifice date without developing any tumor will also be assigned w_{ij} = 1 since t_{ij} = t_{sacr}.
+L331: Certain treatment groups of a study or the entire study may be terminated earlier than the planned (or intended) time of terminal sacrifice due to excessive mortalities. However, based on the principle of the Intention-to-treat (ITT) analysis in randomized trials, the t_{sacr} should not be
+L332: affected by the unplanned early terminations. The t_{sacr} should always be equal to the planned (or intended) time of terminal sacrifice. For those animals that were sacrificed later than t_{sacr}, regardless their actual terminal sacrifice time, t_{sacr} was used as their time of terminal sacrifice in the analysis.
+L333: One critical point for Poly-k test is the choice of the appropriate value of k, which depends on the tumor incidence pattern with the increased dose. For long term 104 week standard rat and mouse studies, a value of k=3 is suggested in the literature. Hence, this reviewer used k=3 for the analysis of this data.
+L334: ## Multiple testing adjustment:
+L335: For the adjustment of multiple testing this reviewer used the methodologies suggested in the FDA guidance for statistical design and analysis of carcinogenicity studies (2001). For dose response relationship tests, the guidance suggests the use of test levels of \alpha=0.005 for common tumors and \alpha=0.025 for rare tumors for a submission with two species where both are two-years studies, in order to keep the false-positive rate at the nominal level of approximately 10%. For multiple pairwise comparisons of treated group with control, the guidance suggests the use of test levels of \alpha=0.01 for common tumors and \alpha=0.05 for rare tumors, in order to keep the false-positive rate at the nominal level of approximately 10% for both submissions with two or one species.
+L336: A rare tumor is defined as one in which the published spontaneous tumor rate is less than 1%. However, if the background information for the common or rare tumor is not available, the number of animals bearing tumors in the vehicle control group in the present study was used to determine the common or rare tumor status in the review report. That is, if the number of animals bearing tumors in the vehicle control group is 0, then this tumor is considered as the rare tumor; otherwise, if the number of animals bearing tumors in the control group is greater than or equal to 1, then this tumor is considered as the common tumor.
+L337: ## Reviewer's findings:
+L338: The tumor rates and the p-values of the tested tumor types are listed in Tables 2A and 2B in the appendix for male and female rats, respectively. The tumor types with p-values less than or equal to 0.05 for dose response relationship and/or pairwise comparisons of treated groups and vehicle control are reported in Table 2.
+L339: **Table 2. Summary Table of Tumor Types with P-Values \le 0.05 for Dose Response Relationship and/or Pairwise Comparisons of Treated Groups and Vehicle Control Group in Rats**
+L340: Organ name	Tumor name	0 mg	10 mg	30 mg	100 mg
+Vehicle (C)
+P - Trend	Low (L)
+P - C vs. L	Mid (M)
+P - C vs. M	High (H)
+P - C vs. H
+Male: Pancreas	Carcinoma, Islet Cell	0/32 (66)	1/29 (66)	1/31 (66)	4/36 (66)
+0.0216 $	0.4754	0.4921	0.0723
+L341: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L342: $ = Statistically significant at 0.025 level in rare tumor for test of dose response relationship;
+L343: NC = Not calculable.
+L344: Based on the criteria of adjustment for multiple testing discussed above, the reviewer's analysis showed that a statistically significant positive trend (p = 0.0216) for the incidence rates of carcinoma islet cell of pancreas in male rats, if this tumor was considered to be rare; while no statistically significant pairwise comparisons were noted for this tumor. No other statistically significant findings were noted for male and female rats.
+L345: ## 3. Mouse Study
+L346: Two separate experiments, one in male mice and one in female mice were conducted. As indicated in Table 3. In each of these two experiments there were three treated groups and one vehicle control group. Two hundred forty CD-1 mice of each sex were assigned randomly to the treated and control groups in equal size of 60 mice per group. The dose levels for treated groups were 10, 30, and 90 mg/kg/day for both male and female mice. In this review these dose groups were referred to as the low (Group 2), mid (Group 3), and high (Group 4) dose groups, respectively. The mice in the vehicle control group were administrated with the vehicle (distilled water from deionized tap water), and handled for the same duration and in the same manner as the treated groups.
+L347: **Table 3. Experimental Design in Mouse Study**
+L348: Group No.	No. of Toxicity Animals	Test Material	Dosage Level (mg/kg/day)
+Male	Female	Male	Female
+1	60	60	Vehicle control	0	0
+2	60	60	SP-304 low	10	10
+3	60	60	SP-304 mid	30	30
+4	60	60	SP-304 high	90	90
+L349: As survival was low in the male control group (20 remaining), the males in all groups were euthanized and necropsied beginning in Week 98, and low survival in the females at 10 mg/kg/day (15 remaining) triggered termination of females in all groups beginning on the last day of Week 104, based on guidance from the FDA (e-mail to Synergy Pharmaceuticals Inc., Nov 18, 2014, Reference ID 3659953).
+L350: Animals were observed in their cages twice daily for mortality and general condition. Animals in extremely poor health or in a possible moribund condition were identified for further monitoring and possible euthanasia. During the treatment period, all animals were observed for signs of toxic or pharmacologic effects twice daily. Animals were removed from their cages and examined twice pretest and once weekly during the study period. Examinations included observations of general condition, skin and fur, eyes, nose, oral cavity, abdomen and external genitalia as well as evaluations of respiration and palpation for tissue masses.
+L351: ## 3.1. Sponsor's analyses
+L352: ## 3.1.1. Survival analysis
+L353: The sponsor analyzed the number of animal deaths during the study, up to terminal sacrifice using the log-rank tests for a trend across the groups. The numbers of animal deaths during the study were presented as life-tables and Kaplan-Meier survival curves. Two statistical tests were carried out, including a two-tailed test for a trend across the groups, and a two-tailed pairwise
+L354: comparison test of each treatment group against the control group. Where the test for trend was statistically significant, the highest dose group was excluded and the trend test repeated using a one-tailed test in the direction identified with all groups included, until the test was no longer statistically significant. As a check, tests for non-linearity (not presented) were carried out. In this study, the non-linearity tests were not statistically significant at the 1% level, and thus the results of the trend tests are to be preferred.
+L355: ## Sponsor's findings:
+L356: The sponsor's analysis showed that the numbers of mice surviving to their terminal necropsy were 28 (46.67%), 26, (43.33%), 30 (50.00%), and 23 (38.33%) in Groups 1, 2, 3, and 4 for male, respectively, and 23 (38.33%), 20 (33.33%), 23 (38.33%), and 26, (43.33%) for female, respectively. The sponsor reported that by both trend and pairwise comparison, there were no statistically significant differences in survival in the low, mid, and high dose groups in comparison with vehicle control group for both male and female mice.
+L357: ## 3.1.2. Tumor data analysis
+L358: The sponsor analyzed tumors from tissues listed in the protocol for all animals. Tumor types were selected for full statistical analysis where at least two tumors were observed in treated groups for which all animals were examined.
+L359: For non-palpable tumors, each tumor was categorized as non-incidental if the tumor was a factor contributing towards the death of the animal, incidental otherwise. For statistical purposes, all animals that died after terminal sacrifice commenced (Week 99 for males and from Week 105 for females) were considered terminal and the tumors observed in these animals were categorized as incidental. For palpable tumors, each tumor was classified as non-incidental if it was palpable before death and before the terminal sacrifice commenced, or, if it was a factor contributing towards the death of the animal. The tumor was classified as incidental, if the tumor was first found after death and was not a factor contributing towards the death of the animal, or if it was first found in or after the first week of the terminal sacrifice.
+L360: The sponsor used the life-table analysis to indicate the number of animals with a specific tumor and the number of animals at risk for the incidental tumors in the following fixed time strata, 1-52, 53-78, 79-92, 93-98 weeks and terminal sacrifice for males, and 1-52, 53-78, 79-92, 93-104 weeks and terminal sacrifice for females, respectively. For the non-incidental tumors, the strata are defined as those weeks during which there were deaths.
+L361: The sponsor used the time-to-tumor log-rank analysis to analyze the number of animals with tumors across treatment groups. The two \chi^2 statistical tests were carried out, including a one-tailed test for a trend using nominal dose levels, with the control group, and a one-tailed pairwise comparison test of each treatment group against the control group. Where the test for trend was statistically significant, the highest dose group was excluded and the trend test was repeated using a one-tailed test until the test was no longer statistically significant. The significance levels were adjusted using a continuity correction where there was one degree of freedom. As a check, tests for non-linearity were carried out (not presented). For all analyses the non-linearity tests were not statistically significant at the 1 % level, hence the trend tests are to be preferred.
+L362: Where there were fewer than ten observed tumors, exact one-tailed p-values were calculated using permutation tests for stratified contingency tables, to test for trend and for pairwise comparisons of each treatment group against the control group.
+L363: ## **Sponsor's findings:**
+L364: The sponsor's analysis showed no treatment-related neoplastic findings in unscheduled decedents and/or terminal sacrifice animals.
+L365: In males, the pairwise comparison of the control group with the low dose group was statistically significant (p=0.039) for pleomorphic fibrosarcoma in skin; the trend test was not statistically significant when all groups were included in the analysis (p=0.931). This was considered not biologically significant because the finding had no dose relationship (occurring in the low dose of males only) and was not significant when evaluated in combination with fibrosarcoma and sarcoma, not otherwise specified. There were no statistically significant differences for the females between the control group and the treated groups for tumors.
+L366: All other neoplasms occurred with comparable incidence in the treated and control groups or occurred sporadically were not considered to be treatment-related. These incidental neoplasms have been seen in untreated control mice of this strain and age used in other studies conducted in this facility.
+L367: ## 3.2. Reviewer's analyses
+L368: Similar to the rat study, this reviewer independently performed survival and tumor data analyses of mouse data to verify sponsor's analyses. Data used in this reviewer's analyses were provided by the sponsor electronically.
+L369: For the analysis of both the survival data and the tumor data, this reviewer used similar methodologies that were used for the analyses of the rat survival and tumor data.
+L370: ## 3.2.1. Survival analysis
+L371: The Kaplan-Meier curves for survival rates of all treatment groups are given in Figures 2A and 2B in the appendix for male and female mice, respectively. The intercurrent mortality data, and the results of the tests for dose response relationship and homogeneity of survivals for the combined vehicle control, low, mid, and high dose groups were given in Tables 3A and 3B in the appendix for male and female mice, respectively.
+L372: ## **Reviewer's findings:**
+L373: In the reviewer's analysis, the numbers of mice surviving to their terminal necropsy were 20 (33.33%), 29 (48.33%), 23 (41.67%), and 21 (35.00%) in Groups 1, 2, 3, and 4 for male mice, respectively, and 20 (33.33%), 14 (23.33%), 24 (40.00%), and 22 (36.67%) for female mice, respectively. No statistically significant difference across all dosing groups in mortality was noted in for both male and female mice.
+L374: ## 3.2.2. Tumor data analysis
+L375: The tumor rates and the p-values of the tested tumor types are given in Tables 4A and Table 4B in the appendix, for male and female mice, respectively.
+L376: ## Reviewer's findings:
+L377: The tumor types with p-values less than or equal to 0.05 for dose response relationship and/or pairwise comparisons of treated groups and vehicle control are reported in Table 4.
+L378: **Table 4. Summary Table of Tumor Types with P-Values \le 0.05 for Dose Response Relationship and/or Pairwise Comparisons of Treated Groups and Vehicle Control Group in Mice**
+L379: Organ name	Tumor name	0 mg	10 mg	30 mg	100 mg
+Vehicle (C)
+P - Trend	Low (L)
+P - C vs. L	Mid (M)
+P - C vs. M	High (H)
+P - C vs. H
+Male-Skin and Subcutis	Fibrosarcoma, Pleomorphic	0/33 (59)
+0.9091	5/39 (60)
+0.0412 $	0/35 (60)
+NC	0/32 (59)
+NC
+L380: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L381: $ = Statistically significant at 0.05 level in rare tumor for test of pairwise group comparison;
+L382: NC = Not calculable.
+L383: Based on the criteria of adjustment for multiple testing discussed above, the reviewer's analysis showed a statistically significant increase (p = 0.0412) in the low dose group when compared to the vehicle control group for the incidence rates of pleomorphic fibrosarcoma in skin and subcutis in male mice, if this tumor was considered to be rare; however no statistically significant dose response relationship was noted for this tumor. No other statistically significant findings were noted for male and female mice.
+L384: ## 4. Summary
+L385: In this submission the sponsor included reports of two animal carcinogenicity studies, one in rats and one in mice. These studies were to evaluate the carcinogenic potential of SP-304 when administered daily via oral gavage to both rats and mice for at least 104 weeks.
+L386: ## Rat Study:
+L387: Two separate experiments, one in male rats and one in female rats were conducted. In each of these two experiments there were three treated groups and one vehicle control group. Two hundred sixty four Crl:CD®(SD) rats of each sex were assigned randomly to the treated and control groups in equal size of 66 rats per group. The dose levels for treated groups were 10, 30, and 100 mg/kg/day for both male and female rats. The rats in the vehicle control group were administrated with the vehicle (distilled water from deionized tap water), and handled for the same duration and in the same manner as the treated groups.
+L388: This study was terminated during Week 94 due to low survival among the control animals (20 remaining) in accordance with the specifications recommended by the FDA (IND 74883, Serial 0150, February 2, 2015)
+L389: The reviewer's analysis showed that the numbers of rats surviving to their terminal necropsy
+L390: were 20 (30.30%), 17 (25.76%), 21 (31.82%), and 24 (36.36%) in Groups 1, 2, 3, and 4 for male rats, respectively, and 19 (28.79%), 17 (25.76%), 27 (40.91%), and 25 (37.88%) for female rats, respectively. No statistically significant findings in mortality were noted in for both male and female rats.
+L391: Based on the criteria of adjustment for multiple testing discussed above, the reviewer's analysis showed that a statistically significant positive trend (p = 0.0216) for the incidence rates of carcinoma islet cell of pancreas in male rats, if this tumor was considered to be rare; while no statistically significant pairwise comparisons were noted for this tumor. No other statistically significant findings were noted for male and female rats.
+L392: ## Mouse Study:
+L393: Two separate experiments, one in male mice and one in female mice were conducted. In each of these two experiments there were three treated groups and one vehicle control group. Two hundred forty CD-1 mice of each sex were assigned randomly to the treated and control groups in equal size of 60 mice per group. The dose levels for treated groups were 10, 30, and 90 mg/kg/day for both male and female mice. The mice in the vehicle control group were administrated with the vehicle (distilled water from deionized tap water), and handled for the same duration and in the same manner as the treated groups.
+L394: As survival was low in the male control group (20 remaining), the males in all groups were euthanized and necropsied beginning in Week 98, and low survival in the females at 10 mg/kg/day (15 remaining) triggered termination of females in all groups beginning on the last day of Week 104, based on guidance from the FDA (e-mail to Synergy Pharmaceuticals Inc., Nov 18, 2014, Reference ID 3659953).
+L395: In the reviewer's analysis, the numbers of mice surviving to their terminal necropsy were 20 (33.33%), 29 (48.33%), 23 (41.67%), and 21 (35.00%) in Groups 1, 2, 3, and 4 for male mice, respectively, and 20 (33.33%), 14 (23.33%), 24 (40.00%), and 22 (36.67%) for female mice, respectively. No statistically significant difference across all dosing groups in mortality was noted in for both male and female mice.
+L396: Based on the criteria of adjustment for multiple testing discussed above, the reviewer's analysis showed a statistically significant increase (p = 0.0412) in the low dose group when compared to the vehicle control group for the incidence rates of pleomorphic fibrosarcoma in skin and subcutis in male mice, if this tumor was considered to be rare; however no statistically significant dose response relationship was noted for this tumor. No other statistically significant findings were noted for male and female mice.
+L397: Hepei Chen.
+Mathematical Statistician
+L398: Concur: Karl Lin, Ph.D.
+Team Leader, DBVI
+L399: Cc: Archival NDA 208745
+L400: Dr. Yuk-Chow Ng
+Dr. Lillian Patrician
+Dr. Mohammad Atiar Rahman
+L401: ## 5. Appendix
+L402: **Table 1A: Intercurrent Mortality Rate in Male Rats**
+L403: Week / Type of Death	0 mg/kg/day
+Vehicle Control	10 mg/kg/day
+Low	30 mg/kg/day
+Mid	100 mg/kg/day
+High
+Cum %	No. of Death	Cum %	No. of Death	Cum %	No. of Death	Cum %	Cum %
+0 - 50	6	9.09	6	9.09	6	9.09	3	4.55
+51 - 80	29	53.03	31	56.06	26	48.48	25	42.42
+81 - 91	10	68.18	10	71.21	10	63.64	8	54.55
+92 - 104	1	1.52	2	3.03	3	4.55	6	9.09
+Terminal sacrifice	20	30.30	17	25.76	21	31.82	24	36.36
+Total	66	66	66	66	
+Test	All Dose Groups	Vehicle Control vs. Low	Vehicle Control vs. Mid	Vehicle Control vs. High
+Dose-Response (Likelihood Ratio)	0.2104	0.4060	0.9536	0.4790
+Homogeneity (Log-Rank)	0.4430	0.3986	0.9528	0.4738
+L404: #All Cum. % Cumulative Percentage except for Terminal sacrifice;
+L405: **Table 1B: Intercurrent Mortality Rate in Female Rats**
+L406: Week / Type of Death	0 mg/kg/day
+Vehicle Control	10 mg/kg/day
+Low	30 mg/kg/day
+Mid	100 mg/kg/day
+High
+Cum %	No. of Death	Cum %	No. of Death	Cum %	No. of Death	Cum %	Cum %
+0 - 50	2	3.03	5	7.58	3	4.55	2	3.03
+51 - 80	29	46.97	31	54.55	20	34.85	24	39.39
+81 - 91	12	65.15	10	69.70	14	56.06	11	56.06
+92 - 104	4	6.06	3	4.55	2	3.03	4	6.06
+Terminal sacrifice	19	28.79	17	25.76	27	40.91	25	37.88
+Total	66	66	66	66	
+Test	All Dose Groups	Vehicle Control vs. Low	Vehicle Control vs. Mid	Vehicle Control vs. High
+Dose-Response (Likelihood Ratio)	0.1025	0.6726	0.1053	0.1845
+Homogeneity (Log-Rank)	0.1024	0.6688	0.1013	0.1792
+L407: #All Cum. % Cumulative Percentage except for Terminal sacrifice;
+L408: Table 2A: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Male Rats
+L409: Organ name	Tumor name	0 mg
+Vehicle (C)
+P - Trend	10 mg
+Low (L)
+P - C vs. L	30 mg
+Mid (M)
+P - C vs. M	100 mg
+High (H)
+P - C vs. H
+Adrenal Glands	Adenoma, Cortical	5/34 (66)
+0.8791	0/29 (66)
+0.9604	2/32 (66)
+0.7606	1/35 (66)
+0.9075
+Carcinoma, Cortical	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+Leukemia, Large Granular Lymph	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Lymphoma	0/32 (66)
+0.4653	0/29 (66)
+NC	2/32 (66)
+0.2460	0/34 (66)
+NC
+Pheochromocytoma	14/38 (66)
+0.8315	9/32 (66)
+0.6969	11/35 (66)
+0.5943	9/37 (66)
+0.8224
+Anus	Leiomyosarcoma	0/32 (66)
+0.2677	0/29 (66)
+NC	1/32 (66)
+0.5000	0/34 (66)
+NC
+Bone Marrow, Femur	Leukemia, Granulocytic	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Leukemia, Large Granular Lymph	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Lymphoma	0/32 (66)
+0.6073	0/29 (66)
+NC	3/33 (66)
+0.1249	0/34 (66)
+NC
+Schwannoma	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Bone Marrow, Sternum	Leukemia, Granulocytic	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Bone Marrow, Sternum	Leukemia, Large Granular Lymph	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Lymphoma	0/32 (66)
+0.6073	0/29 (66)
+NC	3/33 (66)
+0.1249	0/34 (66)
+NC
+L410: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L411: NC = Not calculable.
+L412: **Table 2A: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Male Rats (Continued)**
+L413: Organ name	Tumor name	0 mg	10 mg	30 mg	100 mg
+Vehicle (C)
+P - Trend	Low (L)
+P - C vs. L	Mid (M)
+P - C vs. M	High (H)
+P - C vs. H
+Brain	Astrocytoma	4/33 (66)
+0.9867	2/29 (66)
+0.5998	1/32 (66)
+0.8127	0/34 (66)
+0.9466
+Carcinoma, Pars Distalis	0/32 (66)
+0.3368	1/29 (66)
+0.4754	0/31 (66)
+NC	1/35 (66)
+0.5224
+Granular Cell Tumor	4/34 (66)
+0.6341	1/29 (66)
+0.7691	0/31 (66)
+0.9315	2/35 (66)
+0.6774
+Leukemia, Large Granular Lymph	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Lymphoma	0/32 (66)
+0.2677	0/29 (66)
+NC	1/32 (66)
+0.5000	0/34 (66)
+NC
+Oligodendroglioma	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+
+Cavity, Abdominal	Adenocarcinoma	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Leukemia, Granulocytic	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Lymphoma	0/32 (66)
+0.4622	0/29 (66)
+NC	2/33 (66)
+0.2538	0/34 (66)
+NC
+Sarcoma, Undifferentiated	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+Cavity, Thoracic	Leiomyosarcoma	0/32 (66)
+0.2698	0/29 (66)
+NC	1/31 (66)
+0.4921	0/34 (66)
+NC
+Lymphoma	0/32 (66)
+0.3368	1/29 (66)
+0.4754	0/31 (66)
+NC	1/35 (66)
+0.5224
+Schwannoma	0/32 (66)
+0.3359	1/30 (66)
+0.4839	0/31 (66)
+NC	1/35 (66)
+0.5224
+Coagulating Glands	Adenocarcinoma	0/32 (66)
+0.3293	1/30 (66)
+0.4839	0/31 (66)
+NC	1/34 (66)
+0.5152
+Lymphoma	0/32 (66)
+0.6073	0/29 (66)
+NC	3/33 (66)
+0.1249	0/34 (66)
+NC
+Epididymides	Lymphoma	0/32 (66)
+0.4622	0/29 (66)
+NC	2/33 (66)
+0.2538	0/34 (66)
+NC
+Sarcoma, Undifferentiated	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+L414: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NC = Not calculable.
+L415: **Table 2A: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Male Rats (Continued)**
+L416: Organ name	Tumor name	0 mg
+Vehicle (C)
+P - Trend	10 mg
+Low (L)
+P - C vs. L	30 mg
+Mid (M)
+P - C vs. M	100 mg
+High (H)
+P - C vs. H
+Eyes	Leukemia, Granulocytic	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Lymphoma	0/32 (66)
+0.6073	0/29 (66)
+NC	3/33 (66)
+0.1249	0/34 (66)
+NC
+Melanoma, Amelanotic	0/32 (66)
+0.5159	1/29 (66)
+0.4754	0/31 (66)
+NC	0/34 (66)
+NC
+Eyes, Optic Nerves	Lymphoma	0/32 (66)
+0.4653	0/29 (66)
+NC	2/32 (66)
+0.2460	0/34 (66)
+NC
+Galt	Adenocarcinoma	0/32 (66)
+0.5118	1/30 (66)
+0.4839	0/31 (66)
+NC	0/34 (66)
+NC
+Leukemia, Granulocytic	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Lymphoma	0/32 (66)
+0.4622	0/29 (66)
+NC	2/33 (66)
+0.2538	0/34 (66)
+NC
+Harderian Glands	Leukemia, Large Granular Lymph	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Lymphoma	0/32 (66)
+0.6073	0/29 (66)
+NC	3/33 (66)
+0.1249	0/34 (66)
+NC
+Heart	Leukemia, Granulocytic	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Leukemia, Large Granular Lymph	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Lymphoma	0/32 (66)
+0.4653	0/29 (66)
+NC	2/32 (66)
+0.2460	0/34 (66)
+NC
+Schwannoma	1/32 (66)
+0.5967	2/29 (66)
+0.4625	1/31 (66)
+0.7460	1/35 (66)
+0.2691
+L417: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L418: NC = Not calculable.
+L419: **Table 2A: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Male Rats (Continued)**
+L420: Organ name	Tumor name	0 mg
+Vehicle (C)
+P - Trend	10 mg
+Low (L)
+P - C vs. L	30 mg
+Mid (M)
+P - C vs. M	100 mg
+High (H)
+P - C vs. H
+Kidneys	Adenoma, Renal Tubule, (Av) Type	0/32 (66)
+0.2170	1/30 (66)
+0.4839	3/33 (66)
+0.1249	2/35 (66)
+0.2691
+Carcinoma, Renal Tubule, (Av)	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+Adenoma/ Carcinoma, Renal Tubule, (Av) Type	1/33 (66)
+0.3330	1/30 (66)
+0.7296	3/33 (66)
+0.3066	2/35 (66)
+0.5224
+Leukemia, Granulocytic	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Leukemia, Large Granular Lymph	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Lymphoma	0/32 (66)
+0.6073	0/29 (66)
+NC	3/33 (66)
+0.1249	0/34 (66)
+NC
+Sarcoma, Undifferentiated	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+Schwannoma	1/32 (66)
+0.4768	0/29 (66)
+0.4754	0/31 (66)
+0.4921	1/35 (66)
+0.2691
+Lacrimal Glands, Exorbital	Leukemia, Large Granular Lymph	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Lymphoma	0/32 (66)
+0.6073	0/29 (66)
+NC	3/33 (66)
+0.1249	0/34 (66)
+NC
+Large Intestine, Cecum	Leukemia, Granulocytic	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Leukemia, Large Granular Lymph	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Lymphoma	0/32 (66)
+0.2677	0/29 (66)
+NC	1/32 (66)
+0.5000	0/34 (66)
+NC
+Large Intestine, Colon	Adenocarcinoma	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Leukemia, Granulocytic	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Lymphoma	0/32 (66)
+0.2677	0/29 (66)
+NC	1/32 (66)
+0.5000	0/34 (66)
+NC
+Large Intestine, Rectum	Lymphoma	0/32 (66)
+0.4622	0/29 (66)
+NC	2/33 (66)
+0.2538	0/34 (66)
+NC
+L421: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NC = Not calculable.
+L422: **Table 2A: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Male Rats (Continued)**
+L423: Organ name	Tumor name	0 mg	10 mg	30 mg	100 mg
+Vehicle (C)
+P - Trend	Low (L)
+P - C vs. L	Mid (M)
+P - C vs. M	High (H)
+P - C vs. H
+Larynx	Lymphoma	0/32 (66)
+0.4622	0/29 (66)
+NC	2/33 (66)
+0.2538	0/34 (66)
+NC
+
+Liver	Adenoma, Hepatocellular	1/32 (66)
+0.6433	0/29 (66)
+0.4754	1/32 (66)
+NC	0/34 (66)
+0.5152
+Carcinoma, Hepatocellular	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Leukemia, Granulocytic	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Leukemia, Large Granular Lymph	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Lymphoma	0/32 (66)
+0.4381	1/29 (66)
+0.4754	3/33 (66)
+0.1249	1/35 (66)
+0.5224
+Sarcoma, Histiocytic	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+Sarcoma, Undifferentiated	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+Schwannoma	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+
+
+Lung	Adenoma, Bronchiolar Alveolar	0/32 (66)
+0.5159	1/29 (66)
+0.4754	0/31 (66)
+NC	0/34 (66)
+NC
+Carcinoma, Cortical	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+Leukemia, Granulocytic	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Leukemia, Large Granular Lymph	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Lymphoma	0/32 (66)
+0.7022	1/29 (66)
+0.4754	3/33 (66)
+0.1249	0/34 (66)
+NC
+Sarcoma, Histiocytic	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+Sarcoma, Undifferentiated	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+Schwannoma	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+L424: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L425: NC = Not calculable.
+L426: **Table 2A: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Male Rats (Continued)**
+L427: Organ name	Tumor name	0 mg
+Vehicle (C)
+P - Trend	10 mg
+Low (L)
+P - C vs. L	30 mg
+Mid (M)
+P - C vs. M	100 mg
+High (H)
+P - C vs. H
+Lymph Node, Axillary	Lymphoma	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Sarcoma, Histiocytic	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+Lymph Node, Mandibular	Leukemia, Large Granular Lymph	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Lymphoma	0/32 (66)
+0.7022	1/29 (66)
+0.4754	3/33 (66)
+0.1249	0/34 (66)
+NC
+Lymph Node, Mediastinal	Lymphoma	0/32 (66)
+0.5159	1/29 (66)
+0.4754	0/31 (66)
+NC	0/34 (66)
+NC
+Lymph Node, Mesenteric	Hemangioma	1/32 (66)
+0.7460	0/29 (66)
+0.4754	0/31 (66)
+0.4921	0/34 (66)
+0.5152
+Hemangiosarcoma	0/32 (66)
+0.3303	1/29 (66)
+0.4754	0/31 (66)
+NC	1/34 (66)
+0.5152
+Leukemia, Granulocytic	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Leukemia, Large Granular Lymph	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Lymphangioma	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Lymphoma	0/32 (66)
+0.6073	0/29 (66)
+NC	3/33 (66)
+0.1249	0/34 (66)
+NC
+Adenocarcinoma	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Mammary Gland	Adenoma	0/32 (66)
+0.2061	0/29 (66)
+NC	1/32 (66)
+0.5000	1/34 (66)
+0.5152
+Adenocarcinoma/Adenoma	0/32 (66)
+0.0749	0/29 (66)
+NC	1/32 (66)
+0.5000	2/35 (66)
+0.2691
+Fibroadenoma	2/32 (66)
+0.7500	2/29 (66)
+0.6555	0/31 (66)
+0.7460	1/34 (66)
+0.5231
+Lymphoma	0/32 (66)
+0.4653	0/29 (66)
+NC	2/32 (66)
+0.2460	0/34 (66)
+NC
+L428: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L429: NC = Not calculable.
+L430: **Table 2A: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Male Rats (Continued)**
+L431: Organ name	Tumor name	0 mg
+Vehicle (C)
+P - Trend	10 mg
+Low (L)
+P - C vs. L	30 mg
+Mid (M)
+P - C vs. M	100 mg
+High (H)
+P - C vs. H
+Multicentric Neoplasm	Hemangioma	2/32 (66)
+0.9370	0/29 (66)
+0.7290	0/31 (66)
+0.7460	0/34 (66)
+0.7688
+Hemangiosarcoma	0/32 (66)
+0.3303	1/29 (66)
+0.4754	0/31 (66)
+NC	1/34 (66)
+0.5152
+Leukemia, Granulocytic	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Leukemia, Large Granular Lymph	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Lymphoma	0/32 (66)
+0.3079	2/30 (66)
+0.2300	3/33 (66)
+0.1249	2/35 (66)
+0.2691
+Sarcoma, Histiocytic	2/33 (66)
+0.9340	0/29 (66)
+0.7208	0/31 (66)
+0.7381	0/34 (66)
+0.7612
+Papilloma	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+Nerve, Sciatic	Lymphoma	0/32 (66)
+0.4622	0/29 (66)
+NC	2/33 (66)
+0.2538	0/34 (66)
+NC
+Nose, Level A	Lymphoma	0/32 (66)
+0.4622	0/29 (66)
+NC	2/33 (66)
+0.2538	0/34 (66)
+NC
+Nose, Level B	Lymphoma	0/32 (66)
+0.4622	0/29 (66)
+NC	2/33 (66)
+0.2538	0/34 (66)
+NC
+Nose, Level C	Adenoma	1/32 (66)
+0.7460	0/29 (66)
+0.4754	0/31 (66)
+0.4921	0/34 (66)
+0.5152
+Lymphoma	0/32 (66)
+0.4622	0/29 (66)
+NC	2/33 (66)
+0.2538	0/34 (66)
+NC
+Nose, Level D	Adenoma	0/32 (66)
+0.2698	0/29 (66)
+NC	1/31 (66)
+0.4921	0/34 (66)
+NC
+Chondroma	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+Lymphoma	0/32 (66)
+0.4622	0/29 (66)
+NC	2/33 (66)
+0.2538	0/34 (66)
+NC
+L432: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NC = Not calculable.
+L433: **Table 2A: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Male Rats (Continued)**
+L434: Organ name	Tumor name	0 mg	10 mg	30 mg	100 mg
+Vehicle (C)
+P - Trend	Low (L)
+P - C vs. L	Mid (M)
+P - C vs. M	High (H)
+P - C vs. H
+Pancreas	Adenoma, Acinar Cell	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+Adenoma, Islet Cell	4/33 (66)
+0.5323	4/31 (66)
+0.6096	4/33 (66)
+NC	4/35 (66)
+0.3888
+Carcinoma, Islet Cell	0/32 (66)
+0.0216 $	1/29 (66)
+0.4754	1/31 (66)
+0.4921	4/36 (66)
+0.0723
+Adenoma, Islet Cell/
+Carcinoma, Islet Cell	4/33 (66)
+0.1737	5/31 (66)
+0.4589	5/33 (66)
+0.5000	8/38 (66)
+0.2486
+Lymphoma	0/32 (66)
+0.4622	0/29 (66)
+NC	2/33 (66)
+0.2538	0/34 (66)
+NC
+Sarcoma, Undifferentiated	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+Adenoma	1/32 (66)
+0.2758	1/29 (66)
+0.7290	0/31 (66)
+0.4921	2/35 (66)
+0.5341
+Adenoma, Pars Distalis	47/55 (66)
+0.5071	42/52 (66)
+0.6514	44/51 (66)
+0.5634	46/55 (66)
+0.5000
+Pituitary Gland	Carcinoma, Pars Distalis	0/32 (66)
+0.4706	2/30 (66)
+0.2300	0/31 (66)
+NC	1/35 (66)
+0.5224
+Adenoma, Pars Intermedia	1/33 (66)
+0.6374	0/29 (66)
+0.4677	1/32 (66)
+0.7462	0/34 (66)
+0.5075
+Adenoma, Pars Distalis/
+Carcinoma, Pars Distalis	47/55 (66)
+0.5437	44/53 (66)
+0.5335	44/51 (66)
+0.5634	47/56 (66)
+0.4837
+Adenoma, Pars Distalis/
+Carcinoma, Pars Distalis/
+Adenoma, Pars Intermedia	48/55 (66)
+0.6123	44/53 (66)
+0.6372	45/52 (66)
+0.4320	47/56 (66)
+0.5909
+Leukemia, Large Granular Lymph	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Lymphoma	0/32 (66)
+0.2677	0/29 (66)
+NC	1/32 (66)
+0.5000	0/34 (66)
+NC
+Carcinoma, Squamous Cell	1/32 (66)
+0.7460	0/29 (66)
+0.4754	0/31 (66)
+0.4921	0/34 (66)
+0.5152
+Lymphoma	0/32 (66)
+0.6073	0/29 (66)
+NC	3/33 (66)
+0.1249	0/34 (66)
+NC
+Adenocarcinoma	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Adenoma	0/32 (66)
+0.2677	0/29 (66)
+NC	1/32 (66)
+0.5000	0/34 (66)
+NC
+Preputial Glands	Lymphoma	0/32 (66)
+0.6073	0/29 (66)
+NC	3/33 (66)
+0.1249	0/34 (66)
+NC
+Adenocarcinoma	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Prostate Gland	Adenoma	0/32 (66)
+0.2677	0/29 (66)
+NC	1/32 (66)
+0.5000	0/34 (66)
+NC
+Lymphoma	0/32 (66)
+0.6073	0/29 (66)
+NC	3/33 (66)
+0.1249	0/34 (66)
+NC
+Adenocarcinoma	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+L435: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L436: $ = Statistically significant at 0.025 and 0.05 level in rare tumor for tests of dose response relationship and pairwise comparison, respectively;
+L437: NC = Not calculable.
+L438: **Table 2A: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Male Rats (Continued)**
+L439: Organ name	Tumor name	0 mg
+Vehicle (C)
+P - Trend	10 mg
+Low (L)
+P - C vs. L	30 mg
+Mid (M)
+P - C vs. M	100 mg
+High (H)
+P - C vs. H
+Salivary Gland, Mandibular	Lymphoma	0/32 (66)
+0.4622	0/29 (66)
+NC	2/33 (66)
+0.2538	0/34 (66)
+NC
+Lymphoma	0/32 (66)
+0.4622	0/29 (66)
+NC	2/33 (66)
+0.2538	0/34 (66)
+NC
+Salivary Gland, Sublingual	Lymphoma	0/32 (66)
+0.4622	0/29 (66)
+NC	2/33 (66)
+0.2538	0/34 (66)
+NC
+Lymphoma	0/32 (66)
+0.4622	0/29 (66)
+NC	2/33 (66)
+0.2538	0/34 (66)
+NC
+Seminal Vesicles	Adenocarcinoma	1/32 (66)
+0.4768	0/29 (66)
+0.4754	0/31 (66)
+0.4921	1/35 (66)
+0.2691
+Lymphoma	0/32 (66)
+0.6073	0/29 (66)
+NC	3/33 (66)
+0.1249	0/34 (66)
+NC
+Sarcoma, Undifferentiated	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+Skeletal Muscle, Biceps
+Femoris	Lymphoma	0/32 (66)
+0.6073	0/29 (66)
+NC	3/33 (66)
+0.1249	0/34 (66)
+NC
+Lymphoma	0/32 (66)
+0.6073	0/29 (66)
+NC	3/33 (66)
+0.1249	0/34 (66)
+NC
+Skin	Adenoma, Sebaceous Cell	0/32 (66)
+0.2677	0/29 (66)
+NC	1/32 (66)
+0.5000	0/34 (66)
+NC
+Basal Cell Tumor	0/32 (66)
+0.5159	1/29 (66)
+0.4754	0/31 (66)
+NC	0/34 (66)
+NC
+Fibroma	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Fibrosarcoma	1/33 (66)
+0.8144	1/29 (66)
+0.7208	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+Keratoacanthoma	3/33 (66)
+0.3054	2/29 (66)
+0.4376	2/32 (66)
+0.4851	4/36 (66)
+0.5497
+Lymphoma	0/32 (66)
+0.2677	0/29 (66)
+NC	1/32 (66)
+0.5000	0/34 (66)
+NC
+Papilloma, Squamous Cell	0/32 (66)
+0.7502	2/29 (66)
+0.2219	2/32 (66)
+0.2460	0/34 (66)
+NC
+L440: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NC = Not calculable.
+L441: **Table 2A: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Male Rats (Continued)**
+L442: Organ name	Tumor name	0 mg	10 mg	30 mg	100 mg
+Vehicle (C)
+P - Trend	Low (L)
+P - C vs. L	Mid (M)
+P - C vs. M	High (H)
+P - C vs. H
+Skin, Subcutis	Carcinoma, Sebaceous Cell	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Fibroma	2/32 (66)
+0.2893	1/29 (66)
+0.4625	3/32 (66)
+0.5000	3/35 (66)
+0.5432
+Fibrosarcoma	0/32 (66)
+0.3640	1/29 (66)
+0.4754	2/32 (66)
+0.2460	1/35 (66)
+0.5224
+Leukemia, Granulocytic	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Lipoma	1/32 (66)
+NC	1/29 (66)
+0.7290	0/31 (66)
+0.4921	1/34 (66)
+0.2615
+Lymphoma	0/32 (66)
+0.2061	0/29 (66)
+NC	1/32 (66)
+0.5000	1/34 (66)
+0.5152
+Sarcoma, Histiocytic	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+Schwannoma	0/32 (66)
+0.7637	2/30 (66)
+0.2300	0/31 (66)
+NC	0/34 (66)
+NC
+Skin/Skin, Subcutis	Fibroma/Fibrosarcoma	3/33 (66)
+0.2875	3/30 (66)
+0.6169	5/33 (66)
+0.3542	5/36 (66)
+0.4056
+Small Intestine, Duodenum	Leukemia, Granulocytic	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Small Intestine, Duodenum	Leukemia, Large Granular Lymph	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Lymphoma	0/32 (66)
+0.2677	0/29 (66)
+NC	1/32 (66)
+0.5000	0/34 (66)
+NC
+Small Intestine, Ileum	Leukemia, Granulocytic	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Small Intestine, Ileum	Leukemia, Large Granular Lymph	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Lymphoma	0/32 (66)
+0.4622	0/29 (66)
+NC	2/33 (66)
+0.2538	0/34 (66)
+NC
+L443: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L444: NC = Not calculable.
+L445: **Table 2A: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Male Rats (Continued)**
+L446: Organ name	Tumor name	0 mg
+Vehicle (C)
+P - Trend	10 mg
+Low (L)
+P - C vs. L	30 mg
+Mid (M)
+P - C vs. M	100 mg
+High (H)
+P - C vs. H
+Small Intestine, Jejunum	Adenocarcinoma	0/32 (66)
+0.5234	1/30 (66)
+0.4839	1/31 (66)
+0.4921	0/34 (66)
+NC
+Leukemia, Granulocytic	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Leukemia, Large Granular Lymph	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Lymphoma	0/32 (66)
+0.4622	0/29 (66)
+NC	2/33 (66)
+0.2538	0/34 (66)
+NC
+Spinal Cord, Cervical	Leukemia, Large Granular Lymph	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Spinal Cord, Lumbar	Leukemia, Large Granular Lymph	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Spinal Cord, Thoracic	Astrocytoma	1/32 (66)
+0.7460	0/29 (66)
+0.4754	0/31 (66)
+0.4921	0/34 (66)
+0.5152
+Leukemia, Large Granular Lymph	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Spleen	Hemangioma	1/32 (66)
+0.7460	0/29 (66)
+0.4754	0/31 (66)
+0.4921	0/34 (66)
+0.5152
+Leiomyosarcoma	1/32 (66)
+0.7460	0/29 (66)
+0.4754	0/31 (66)
+0.4921	0/34 (66)
+0.5152
+Leukemia, Granulocytic	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Leukemia, Large Granular Lymph	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Liposarcoma	0/32 (66)
+0.2698	0/29 (66)
+NC	0/31 (66)
+NC	1/34 (66)
+0.5152
+Lymphoma	0/32 (66)
+0.4381	1/29 (66)
+0.4754	3/33 (66)
+0.1249	1/35 (66)
+0.5224
+Sarcoma, Histiocytic	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+Sarcoma, Undifferentiated	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+L447: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NC = Not calculable.
+L448: **Table 2A: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Male Rats (Continued)**
+L449: Organ name	Tumor name	0 mg
+Vehicle (C)
+P - Trend	10 mg
+Low (L)
+P - C vs. L	30 mg
+Mid (M)
+P - C vs. M	100 mg
+High (H)
+P - C vs. H
+Stomach, Glandular	Leukemia, Granulocytic	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Lymphoma	0/32 (66)
+0.2677	0/29 (66)
+NC	1/32 (66)
+0.5000	0/34 (66)
+NC
+Sarcoma, Undifferentiated	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+Stomach, Nonglandular	Lymphoma	0/32 (66)
+0.2677	0/29 (66)
+NC	1/32 (66)
+0.5000	0/34 (66)
+NC
+Sarcoma, Undifferentiated	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+Adenoma, Leydig Cell	3/33 (66)
+0.7022	0/29 (66)
+0.8557	1/31 (66)
+0.6694	1/34 (66)
+0.7046
+Testes	Lymphoma	0/32 (66)
+0.4622	0/29 (66)
+NC	2/33 (66)
+0.2538	0/34 (66)
+NC
+Sarcoma, Undifferentiated	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+Leukemia, Granulocytic	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Thymus	Lymphoma	0/32 (66)
+0.5120	2/30 (66)
+0.2300	3/33 (66)
+0.1249	1/35 (66)
+0.5224
+Thymoma	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+L450: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L451: NC = Not calculable.
+L452: **Table 2A: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Male Rats (Continued)**
+L453: Organ name	Tumor name	0 mg
+Vehicle (C)
+P - Trend	10 mg
+Low (L)
+P - C vs. L	30 mg
+Mid (M)
+P - C vs. M	100 mg
+High (H)
+P - C vs. H
+Thyroid Gland	Adenoma, C-Cell	4/34 (66)
+0.1838	7/31 (66)
+0.2034	5/33 (66)
+0.4804	9/39 (66)
+0.1705
+Carcinoma, C-Cell	1/32 (66)
+NC	1/29 (66)
+0.7290	0/31 (66)
+0.4921	1/34 (66)
+0.2615
+Thyroid Gland	Adenoma, C-Cell/
+Carcinoma, C-Cell	5/34 (66)
+0.1590	7/31 (66)
+0.3094	5/33 (66)
+0.6136	10/39 (66)
+0.1947
+Adenoma, Follicular Cell	1/33 (66)
+0.2002	0/29 (66)
+0.4677	2/32 (66)
+0.4883	2/35 (66)
+0.5224
+Carcinoma, Follicular Cell	0/32 (66)
+0.5275	1/29 (66)
+0.4754	1/31 (66)
+0.4921	0/34 (66)
+NC
+Adenoma, Follicular Cell/
+Carcinoma, Follicular Cell	1/33 (66)
+0.3404	1/29 (66)
+0.7208	3/32 (66)
+0.2949	2/35 (66)
+0.5224
+Leukemia, Granulocytic	0/32 (66)
+0.2756	0/29 (66)
+NC	0/31 (66)
+NC	1/35 (66)
+0.5224
+Lymphoma	0/32 (66)
+0.5273	1/29 (66)
+0.4754	1/32 (66)
+0.5000	0/34 (66)
+NC
+Tongue	Lymphoma	0/32 (66)
+0.6073	0/29 (66)
+NC	3/33 (66)
+0.1249	0/34 (66)
+NC
+Sarcoma, Undifferentiated	1/33 (66)
+0.7402	0/29 (66)
+0.4677	0/31 (66)
+0.4844	0/34 (66)
+0.5075
+Trachea	Lymphoma	0/32 (66)
+0.4622	0/29 (66)
+NC	2/33 (66)
+0.2538	0/34 (66)
+NC
+Urinary Bladder	Lymphoma	0/32 (66)
+0.6073	0/29 (66)
+NC	3/33 (66)
+0.1249	0/34 (66)
+NC
+Zymbal's Gland	Carcinoma, Zymbals Gland	1/33 (66)
+0.4653	0/29 (66)
+0.4677	0/31 (66)
+0.4844	1/34 (66)
+0.2537
+Lymphoma	0/32 (66)
+0.2677	0/29 (66)
+NC	1/32 (66)
+0.5000	0/34 (66)
+NC
+L454: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NC = Not calculable.
+L455: Table 2B: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Female Rats
+L456: Organ name	Tumor name	0 mg	10 mg	30 mg	100 mg
+Vehicle (C)
+P - Trend	Low (L)
+P - C vs. L	Mid (M)
+P - C vs. M	High (H)
+P - C vs. H
+Adrenal Glands	Adenoma, Cortical	8/34 (66)
+0.9546	2/31 (66)
+0.9430	3/37 (66)
+0.9293	2/37 (66)
+0.9693
+Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	1/32 (66)
+0.7594	0/30 (66)
+0.4839	0/36 (66)
+0.5294	0/35 (66)
+0.5224
+Pheochromocytoma	1/32 (66)
+0.5109	5/32 (66)
+0.0980	4/37 (66)
+0.2268	3/37 (66)
+0.3640
+
+Bone Marrow, Femur	Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+
+Bone Marrow, Sternum	Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+
+Brain	Astrocytoma	2/32 (66)
+0.9673	2/31 (66)
+0.6815	0/36 (66)
+0.7823	0/35 (66)
+0.7757
+Carcinoma, Pars Distalis	3/32 (66)
+0.8460	2/31 (66)
+0.4846	1/36 (66)
+0.7366	1/36 (66)
+0.7366
+Granular Cell Tumor	1/32 (66)
+0.6533	0/30 (66)
+0.4839	1/36 (66)
+0.2766	0/35 (66)
+0.5224
+Lymphoma	0/31 (66)
+0.5303	1/31 (66)
+0.5000	1/36 (66)
+0.5373	0/35 (66)
+NC
+
+
+Cavity, Abdominal	Hemangiosarcoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lipoma	1/32 (66)
+0.7594	0/30 (66)
+0.4839	0/36 (66)
+0.5294	0/35 (66)
+0.5224
+Lymphoma	1/32 (66)
+0.7621	1/31 (66)
+0.7460	1/36 (66)
+0.2766	0/35 (66)
+0.5224
+Sertoli Cell Tumor	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+L457: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NC = Not calculable.
+L458: **Table 2B: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Female Rats (Continued)**
+L459: Organ name	Tumor name	0 mg
+Vehicle (C)
+P - Trend	10 mg
+Low (L)
+P - C vs. L	30 mg
+Mid (M)
+P - C vs. M	100 mg
+High (H)
+P - C vs. H
+Cavity, Oral	Rhabdomyosarcoma	1/32 (66)
+0.7594	0/30 (66)
+0.4839	0/36 (66)
+0.5294	0/35 (66)
+0.5224
+Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Cavity, Thoracic	Schwannoma	1/32 (66)
+0.7594	0/30 (66)
+0.4839	0/36 (66)
+0.5294	0/35 (66)
+0.5224
+Adenocarcinoma	1/32 (66)
+0.7594	0/30 (66)
+0.4839	0/36 (66)
+0.5294	0/35 (66)
+0.5224
+Clitoral Glands	Lymphoma	0/31 (66)
+0.5303	1/31 (66)
+0.5000	1/36 (66)
+0.5373	0/35 (66)
+NC
+Sarcoma, Stromal	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Sarcoma, Histiocytic	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Ears	Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Melanoma, Amelanotic	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Eyes, Optic Nerves	Lymphoma	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Galt	Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Harderian Glands	Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Joint, Tibiofemoral	Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+L460: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NC = Not calculable.
+L461: **Table 2B: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Female Rats (Continued)**
+L462: Organ name	Tumor name	0 mg
+Vehicle (C)
+P - Trend	10 mg
+Low (L)
+P - C vs. L	30 mg
+Mid (M)
+P - C vs. M	100 mg
+High (H)
+P - C vs. H
+Kidneys	Adenoma, Renal Tubule, (Av) Type	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Carcinoma, Renal Tubule, (Av)	0/31 (66)
+0.6198	1/31 (66)
+0.5000	2/37 (66)
+0.2924	0/35 (66)
+NC
+Adenoma/ Carcinoma, Renal Tubule, (Av) Type	0/31 (66)
+0.6997	1/31 (66)
+0.5000	3/37 (66)
+0.1550	0/35 (66)
+NC
+Lymphoma	1/32 (66)
+0.7621	1/31 (66)
+0.7460	1/36 (66)
+0.2766	0/35 (66)
+0.5224
+Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Lacrimal Glands, Exorbital	Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Large Intestine, Cecum	Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Large Intestine, Colon	Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Large Intestine, Rectum	Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Larynx	Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Liver	Fibrosarcoma	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	1/32 (66)
+0.7621	1/31 (66)
+0.7460	1/36 (66)
+0.2766	0/35 (66)
+0.5224
+L463: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NC = Not calculable.
+L464: **Table 2B: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Female Rats (Continued)**
+L465: Organ name	Tumor name	0 mg	10 mg	30 mg	100 mg
+Vehicle (C)
+P - Trend	Low (L)
+P - C vs. L	Mid (M)
+P - C vs. M	High (H)
+P - C vs. H
+Lung	Adenocarcinoma	0/31 (66)
+0.4812	2/31 (66)
+0.2459	0/36 (66)
+NC	1/36 (66)
+0.5373
+Carcinoma, C-Cell	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Carcinoma, Zymbals Gland	1/32 (66)
+0.7594	0/30 (66)
+0.4839	0/36 (66)
+0.5294	0/35 (66)
+0.5224
+Carcinosarcoma	0/31 (66)
+0.2707	0/30 (66)
+NC	0/36 (66)
+NC	1/36 (66)
+0.5373
+Hemangiosarcoma	0/31 (66)
+0.2632	0/30 (66)
+NC	1/37 (66)
+0.5441	0/35 (66)
+NC
+Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	1/32 (66)
+0.6533	0/30 (66)
+0.4839	1/36 (66)
+0.2766	0/35 (66)
+0.5224
+Lymph Node, Mandibular	Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	1/32 (66)
+0.7621	1/31 (66)
+0.7460	1/36 (66)
+0.2766	0/35 (66)
+0.5224
+Lymph Node, Mediastinal	Lymphoma	1/32 (66)
+0.7594	0/30 (66)
+0.4839	0/36 (66)
+0.5294	0/35 (66)
+0.5224
+Lymph Node, Mesenteric	Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphangioma	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	1/32 (66)
+0.6533	0/30 (66)
+0.4839	1/36 (66)
+0.2766	0/35 (66)
+0.5224
+L466: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NC = Not calculable.
+L467: **Table 2B: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Female Rats (Continued)**
+L468: Organ name	Tumor name	0 mg
+Vehicle (C)
+P - Trend	10 mg
+Low (L)
+P - C vs. L	30 mg
+Mid (M)
+P - C vs. M	100 mg
+High (H)
+P - C vs. H
+Mammary Gland	Adenocarcinoma	20/41 (66)
+0.3145	23/42 (66)
+0.3725	21/45 (66)
+0.4921	26/47 (66)
+0.3451
+Adenoma	4/34 (66)
+0.6059	3/32 (66)
+0.4653	2/37 (66)
+0.7031	3/36 (66)
+0.5327
+Carcinosarcoma	0/31 (66)
+0.0718	0/30 (66)
+NC	0/36 (66)
+NC	2/36 (66)
+0.2849
+Adenocarcinoma/Adenoma/Carcin
+osarcoma	24/43 (66)
+0.3341	26/44 (66)
+0.4632	23/46 (66)
+0.6316	29/48 (66)
+0.4083
+Fibroadenoma	33/44 (66)
+0.9400	27/43 (66)
+0.8411	23/44 (66)
+0.9773	24/44 (66)
+0.9633
+Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Liposarcoma	1/32 (66)
+0.7594	0/30 (66)
+0.4839	0/36 (66)
+0.5294	0/35 (66)
+0.5224
+Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Sarcoma, Stromal	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Multicentric Neoplasm	Hemangiosarcoma	0/31 (66)
+0.4585	0/30 (66)
+NC	2/37 (66)
+0.2924	0/35 (66)
+NC
+Nerve, Sciatic	Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	1/32 (66)
+0.8549	2/31 (66)
+0.4879	1/36 (66)
+0.2766	0/35 (66)
+0.5224
+Sarcoma, Histiocytic	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Nose, Level A	Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Nose, Level B	Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+L469: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NC = Not calculable.
+L470: **Table 2B: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Female Rats (Continued)**
+L471: Organ name	Tumor name	0 mg	10 mg	30 mg	100 mg
+Vehicle (C)
+P - Trend	Low (L)
+P - C vs. L	Mid (M)
+P - C vs. M	High (H)
+P - C vs. H
+Nose, Level C	Adenoma	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Nose, Level D	Chondroma	1/32 (66)
+0.7594	0/30 (66)
+0.4839	0/36 (66)
+0.5294	0/35 (66)
+0.5224
+Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Ovaries	Carcinoma, Renal Tubule, (Av)	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Carcinoma, Yolk Sac	0/31 (66)
+0.2707	0/30 (66)
+NC	0/36 (66)
+NC	1/36 (66)
+0.5373
+Leiomyosarcoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Luteoma	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Mesothelioma	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Sertoli Cell Tumor	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Oviducts	Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+L472: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NC = Not calculable.
+L473: **Table 2B: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Female Rats (Continued)**
+L474: Organ name	Tumor name	0 mg
+Vehicle (C)
+P - Trend	10 mg
+Low (L)
+P - C vs. L	30 mg
+Mid (M)
+P - C vs. M	100 mg
+High (H)
+P - C vs. H
+Pancreas	Adenoma, Islet Cell	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Carcinoma, Islet Cell	1/32 (66)
+0.7594	0/30 (66)
+0.4839	0/36 (66)
+0.5294	0/35 (66)
+0.5224
+Adenoma, Islet Cell/
+Carcinoma, Islet Cell	1/32 (66)
+0.6533	0/30 (66)
+0.4839	1/36 (66)
+0.2766	0/35 (66)
+0.5224
+Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	1/32 (66)
+0.6533	0/30 (66)
+0.4839	1/36 (66)
+0.2766	0/35 (66)
+0.5224
+Parathyroid Glands	Adenoma	1/32 (66)
+0.2070	0/30 (66)
+0.4839	2/37 (66)
+0.5551	2/36 (66)
+0.5447
+Pituitary Gland	Adenoma, Pars Distalis	50/58 (66)
+0.5644	46/55 (66)
+0.5478	52/59 (66)
+0.4857	49/58 (66)
+0.5000
+Carcinoma, Pars Distalis	3/32 (66)
+0.8874	3/32 (66)
+NC	1/36 (66)
+0.7366	1/36 (66)
+0.7366
+Adenoma, Pars Distalis/
+Carcinoma, Pars Distalis	53/59 (66)
+0.6919	49/56 (66)
+0.5404	53/60 (66)
+0.4870	50/58 (66)
+0.6248
+Lymphoma	1/32 (66)
+0.6533	0/30 (66)
+0.4839	1/36 (66)
+0.2766	0/35 (66)
+0.5224
+Salivary Gland, Mandibular	Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Salivary Gland, Parotid	Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Salivary Gland, Sublingual	Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Skeletal Muscle, Biceps
+Femoris	Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+L475: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NC = Not calculable.
+L476: **Table 2B: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Female Rats (Continued)**
+L477: Organ name	Tumor name	0 mg	10 mg	30 mg	100 mg
+Vehicle (C)
+P - Trend	Low (L)
+P - C vs. L	Mid (M)
+P - C vs. M	High (H)
+P - C vs. H
+Skin	Basal Cell Tumor	1/32 (66)
+0.7594	0/30 (66)
+0.4839	0/36 (66)
+0.5294	0/35 (66)
+0.5224
+Carcinoma, Squamous Cell	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Fibroma	0/31 (66)
+0.2707	0/30 (66)
+NC	0/36 (66)
+NC	1/36 (66)
+0.5373
+Hair Follicle Tumor	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Keratoacanthoma	1/32 (66)
+0.7594	0/30 (66)
+0.4839	0/36 (66)
+0.5294	0/35 (66)
+0.5224
+Lymphoma	0/31 (66)
+0.5303	1/31 (66)
+0.5000	1/36 (66)
+0.5373	0/35 (66)
+NC
+
+Skin, Subcutis	Fibroma	3/32 (66)
+0.9871	0/30 (66)
+0.8689	0/36 (66)
+0.9010	0/35 (66)
+0.8965
+Fibrosarcoma	0/31 (66)
+0.2388	2/31 (66)
+0.2459	1/36 (66)
+0.5373	2/36 (66)
+0.2849
+Hemangiosarcoma	0/31 (66)
+0.2632	0/30 (66)
+NC	1/37 (66)
+0.5441	0/35 (66)
+NC
+Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lipoma	0/31 (66)
+0.4615	0/30 (66)
+NC	2/36 (66)
+0.2849	0/35 (66)
+NC
+Rhabdomyosarcoma	1/32 (66)
+0.7594	0/30 (66)
+0.4839	0/36 (66)
+0.5294	0/35 (66)
+0.5224
+Skin/Skin, Subcutis	Fibroma/ Fibrosarcoma	3/32 (66)
+0.4600	2/31 (66)
+0.4846	1/36 (66)
+0.7366	3/37 (66)
+0.4090
+Small Intestine, Duodenum	Adenocarcinoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Small Intestine, Ileum	Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+L478: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NC = Not calculable.
+L479: **Table 2B: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Female Rats (Continued)**
+L480: Organ name	Tumor name	0 mg
+Vehicle (C)
+P - Trend	10 mg
+Low (L)
+P - C vs. L	30 mg
+Mid (M)
+P - C vs. M	100 mg
+High (H)
+P - C vs. H
+Small Intestine, Jejunum	Adenocarcinoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Spinal Cord, Cervical	Lymphoma	0/31 (66)
+0.5303	1/31 (66)
+0.5000	1/36 (66)
+0.5373	0/35 (66)
+NC
+Spinal Cord, Lumbar	Lymphoma	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Spinal Cord, Thoracic	Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	0/31 (66)
+0.5303	1/31 (66)
+0.5000	1/36 (66)
+0.5373	0/35 (66)
+NC
+Spleen	Carcinoma, Yolk Sac	0/31 (66)
+0.2707	0/30 (66)
+NC	0/36 (66)
+NC	1/36 (66)
+0.5373
+Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	1/32 (66)
+0.7621	1/31 (66)
+0.7460	1/36 (66)
+0.2766	0/35 (66)
+0.5224
+Stomach, Glandular	Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	1/32 (66)
+0.6533	0/30 (66)
+0.4839	1/36 (66)
+0.2766	0/35 (66)
+0.5224
+Stomach, Nonglandular	Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Thymus	Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	1/32 (66)
+0.7621	1/31 (66)
+0.7460	1/36 (66)
+0.2766	0/35 (66)
+0.5224
+Thymoma	1/32 (66)
+0.7594	0/30 (66)
+0.4839	0/36 (66)
+0.5294	0/35 (66)
+0.5224
+L481: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NC = Not calculable.
+L482: **Table 2B: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Female Rats (Continued)**
+L483: Organ name	Tumor name	0 mg
+Vehicle (C)
+P - Trend	10 mg
+Low (L)
+P - C vs. L	30 mg
+Mid (M)
+P - C vs. M	100 mg
+High (H)
+P - C vs. H
+Thyroid Gland	Adenoma, C-Cell	6/33 (66)
+0.4977	4/32 (66)
+0.6133	7/38 (66)
+0.6121	6/37 (66)
+0.4621
+Carcinoma, C-Cell	0/31 (66)
+0.5303	1/31 (66)
+0.5000	1/36 (66)
+0.5373	0/35 (66)
+NC
+Adenoma, C-Cell/
+Carcinoma, C-Cell	6/33 (66)
+0.5374	5/33 (66)
+0.5000	8/39 (66)
+0.5219	6/37 (66)
+0.4621
+Adenoma, Follicular Cell	0/31 (66)
+0.3414	1/31 (66)
+0.5000	0/36 (66)
+NC	1/36 (66)
+0.5373
+Carcinoma, Follicular Cell	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Adenoma, Follicular Cell/
+Carcinoma, Follicular Cell	0/31 (66)
+0.3360	1/31 (66)
+0.5000	1/36 (66)
+0.5373	1/36 (66)
+0.5373
+Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Tongue	Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Trachea	Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Urinary Bladder	Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+L484: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NC = Not calculable.
+L485: **Table 2B: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Female Rats (Continued)**
+L486: Organ name	Tumor name	0 mg
+Vehicle (C)
+P - Trend	10 mg
+Low (L)
+P - C vs. L	30 mg
+Mid (M)
+P - C vs. M	100 mg
+High (H)
+P - C vs. H
+Uterus With Cervix	Adenoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Carcinoma, Squamous Cell	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Granular Cell Tumor	1/32 (66)
+0.4753	1/31 (66)
+0.7460	0/36 (66)
+0.5294	1/36 (66)
+0.2766
+Leiomyosarcoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Polyp, Endometrial Stromal	3/32 (66)
+0.9035	0/30 (66)
+0.8689	3/37 (66)
+0.4090	0/35 (66)
+0.8965
+Polyp, Glandular	1/32 (66)
+0.7594	0/30 (66)
+0.4839	0/36 (66)
+0.5294	0/35 (66)
+0.5224
+Sarcoma, Stromal	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Sarcoma, Undifferentiated	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Schwannoma	0/31 (66)
+0.5303	1/31 (66)
+0.5000	1/36 (66)
+0.5373	0/35 (66)
+NC
+L487: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NC = Not calculable.
+L488: **Table 2B: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Female Rats (Continued)**
+L489: Organ name	Tumor name	0 mg	10 mg	30 mg	100 mg
+Vehicle (C)
+P - Trend	Low (L)
+P - C vs. L	Mid (M)
+P - C vs. M	High (H)
+P - C vs. H
+Vagina	Carcinoma, Squamous Cell	1/32 (66)
+0.7594	0/30 (66)
+0.4839	0/36 (66)
+0.5294	0/35 (66)
+0.5224
+Granular Cell Tumor	2/32 (66)
+0.3382	2/31 (66)
+0.6815	1/36 (66)
+0.5447	3/37 (66)
+0.5698
+Leukemia, Granulocytic	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Polyp	1/32 (66)
+0.7594	0/30 (66)
+0.4839	0/36 (66)
+0.5294	0/35 (66)
+0.5224
+Sarcoma, Stromal	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Sarcoma, Undifferentiated	0/31 (66)
+0.5338	1/31 (66)
+0.5000	0/36 (66)
+NC	0/35 (66)
+NC
+Schwannoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+Zymbal's Gland	Adenoma, Sebaceous Cell	0/31 (66)
+0.2194	0/30 (66)
+NC	1/36 (66)
+0.5373	1/36 (66)
+0.5373
+Carcinoma, Zymbals Gland	1/32 (66)
+0.7637	1/31 (66)
+0.7460	1/37 (66)
+0.2839	0/35 (66)
+0.5224
+Lymphoma	0/31 (66)
+0.2652	0/30 (66)
+NC	1/36 (66)
+0.5373	0/35 (66)
+NC
+L490: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L491: NC = Not calculable.
+L492: Table 3A: Intercurrent Mortality Rate in Male Mice
+L493: Week /
+Type of Death	0 mg/kg/day
+Vehicle Control	10 mg/kg/day
+Low	30 mg/kg/day
+Mid	90 mg/kg/day
+High
+Cum
+%	No. of
+Death	Cum
+%	No. of
+Death	Cum
+%	No. of
+Death	Cum
+%	Cum
+%
+0 - 50	8	13.33	3	5.00	2	3.33	4	6.67
+51 - 80	12	33.33	14	28.33	21	38.33	22	43.33
+81 - 91	9	48.33	9	43.33	8	51.67	9	58.33
+92 - 104	10	16.67	4	6.67	4	6.67	4	6.67
+Accidental Death	1	1.67	1	1.67	
+Terminal sacrifice	20	33.33	29	48.33	25	41.67	21	35.00
+Total	60	60	60	60	
+Test	All Dose Groups	Vehicle Control
+vs. Low	Vehicle Control
+vs. Mid	Vehicle Control
+vs. High
+Dose-Response
+(Likelihood Ratio)	0.3661	0.1577	0.6002	0.8504
+Homogeneity
+(Log-Rank)	0.3845	0.1547	0.5962	0.8490
+L494: #All Cum. % Cumulative Percentage except for Terminal sacrifice;
+L495: Table 3B: Intercurrent Mortality Rate in Female Mice
+L496: Week /
+Type of Death	0 mg/kg/day
+Vehicle Control	10 mg/kg/day
+Low	30 mg/kg/day
+Mid	90 mg/kg/day
+High
+Cum
+%	No. of
+Death	Cum
+%	No. of
+Death	Cum
+%	No. of
+Death	Cum
+%	Cum
+%
+0 - 50	3	5.00	4	6.67	1	1.67	5	8.33
+51 - 80	14	28.33	18	36.67	12	21.67	10	25.00
+81 - 91	15	53.33	13	58.33	8	35.00	8	38.33
+92 - 104	8	13.33	11	18.33	14	23.33	15	25.00
+Accidental Death	1	1.67	
+Terminal sacrifice	20	33.33	14	23.33	24	40.00	22	36.67
+Total	60	60	60	60	
+Test	All Dose Groups	Vehicle Control
+vs. Low	Vehicle Control
+vs. Mid	Vehicle Control
+vs. High
+Dose-Response
+(Likelihood Ratio)	0.2341	0.2964	0.2662	0.5344
+Homogeneity
+(Log-Rank)	0.1151	0.2901	0.2616	0.5311
+L497: #All Cum. % Cumulative Percentage except for Terminal sacrifice;
+L498: Table 4A: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Male Mice
+L499: Organ name	Tumor name	0 mg
+Vehicle (C)
+P - Trend	10 mg
+Low (L)
+P - C vs. L	30 mg
+Mid (M)
+P - C vs. M	90 mg
+High (H)
+P - C vs. H
+Adrenals	Adenoma, Subcapsular Cell	1/34 (59)
+0.8047	1/37 (60)
+0.2680	0/34 (59)
+0.5000	0/32 (59)
+0.4848
+Hemangiosarcoma	0/33 (59)
+0.2391	0/37 (60)
+NC	1/35 (60)
+0.5147	0/33 (60)
+NC
+Duodenum	Adenocarcinoma, Duodenum	0/32 (56)
+0.2464	0/37 (60)
+NC	0/35 (60)
+NC	1/34 (60)
+0.5152
+Carcinoma, Squamous Cell	0/1 (2)
+0.4286	0/2 (3)
+NC	1/1 (3)
+0.5000	0/3 (6)
+NC
+Ear(S)/Pinna(E)	Neural Crest Tumor	0/1 (2)
+0.5714	1/2 (3)
+0.6667	0/1 (3)
+NC	0/3 (6)
+NC
+Adenoma, Interstitial Cell	1/34 (59)
+0.7554	0/37 (60)
+0.5211	0/35 (60)
+0.5072	0/33 (60)
+0.4925
+Harderian Glands	Adenocarcinoma	1/34 (59)
+0.7554	0/37 (60)
+0.5211	0/35 (60)
+0.5072	0/33 (60)
+0.4925
+Adenoma	9/35 (59)
+0.9513	7/40 (60)
+0.7207	8/37 (60)
+0.5525	3/34 (60)
+0.9387
+Hemopoietic System	Leukemia, Granulocytic	5/37 (59)
+0.8948	1/38 (60)
+0.9062	0/35 (60)
+0.9688	1/33 (60)
+0.8726
+Lymphoma	7/35 (59)
+0.3622	6/39 (60)
+0.5861	12/40 (60)
+0.2343	8/37 (60)
+0.5486
+Sarcoma, Histiocytic	4/34 (59)
+0.7332	3/39 (60)
+0.5778	3/36 (60)
+0.5327	2/34 (60)
+0.6636
+Tumor, Mast Cell, Malignant	0/33 (59)
+0.2374	0/37 (60)
+NC	1/36 (60)
+0.5217	0/33 (60)
+NC
+L500: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NC = Not calculable.
+L501: **Table 4A: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Male Mice (Continued)**
+L502: Organ name	Tumor name	0 mg	10 mg	30 mg	90 mg
+Vehicle (C)
+P - Trend	Low (L)
+P - C vs. L	Mid (M)
+P - C vs. M	High (H)
+P - C vs. H
+Liver	Adenoma, Hepatocellular	4/34 (59)
+0.8095	5/38 (60)
+0.5722	7/38 (60)
+0.3265	2/33 (60)
+0.6491
+Carcinoma, Hepatocellular	8/37 (59)
+0.1281	7/39 (60)
+0.5457	7/37 (60)
+0.5000	11/37 (60)
+0.2977
+Adenoma/
+Carcinoma Hepatocellular	12/38 (59)
+0.2909	11/40 (60)
+0.5585	12/40 (60)
+0.4628	13/37 (60)
+0.4674
+Hemangioma	0/33 (59)
+0.5758	1/37 (60)
+0.5286	2/36 (60)
+0.2685	0/33 (60)
+NC
+Hemangiosarcoma	0/33 (59)
+0.2446	0/37 (60)
+NC	0/35 (60)
+NC	1/34 (60)
+0.5075
+Hemangioma/Hemangiosarcoma	0/33 (59)
+0.3156	1/37 (60)
+0.5286	2/36 (60)
+0.2685	1/34 (60)
+0.5075
+Lungs And Bronchi	Adenoma, Bronchiolo-Alveolar	5/35 (59)
+0.7952	3/38 (60)
+0.6906	7/36 (60)
+0.3971	2/34 (60)
+0.7738
+Carcinoma, Bronchiolo-Alveolar	4/36 (59)
+0.1102	4/38 (60)
+0.3866	5/36 (60)
+0.5000	7/35 (60)
+0.2404
+Pancreas	Adenoma, Bronchiolo-Alveolar
+/Carcinoma, Bronchiolo-Alveolar	9/37 (59)
+0.3358	6/38 (60)
+0.7369	12/38 (60)
+0.3296	9/36 (60)
+0.5806
+Hemangiosarcoma	1/34 (59)
+0.7554	0/37 (60)
+0.5211	0/35 (60)
+0.5072	0/33 (60)
+0.4925
+Adenoma, Islet Cell	0/33 (57)
+0.4928	1/37 (60)
+0.5286	0/35 (60)
+NC	0/33 (60)
+NC
+Prostate	Adenoma	0/33 (59)
+0.2296	0/37 (60)
+NC	0/34 (58)
+NC	1/31 (57)
+0.4844
+Fibrosarcoma	1/34 (59)
+0.7536	0/37 (60)
+0.5211	0/35 (60)
+0.5072	0/32 (59)
+0.4848
+L503: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L504: NC = Not calculable.
+L505: **Table 4A: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Male Mice (Continued)**
+L506: Organ name	Tumor name	0 mg	10 mg	30 mg	90 mg
+Vehicle (C)
+P - Trend	Low (L)
+P - C vs. L	Mid (M)
+P - C vs. M	High (H)
+P - C vs. H
+Skin and Subcutis	Carcinoma, Squamous Cell	0/33 (59)
+0.2336	0/37 (60)
+NC	1/35 (60)
+0.5147	0/32 (59)
+NC
+Papilloma, Squamous Cell	0/33 (59)
+0.2336	0/37 (60)
+NC	1/35 (60)
+0.5147	0/32 (59)
+NC
+Carcinoma, Squamous Cell/
+Papilloma, Squamous Cell	0/33 (59)
+0.4139	0/37 (60)
+NC	2/35 (60)
+0.2612	0/32 (59)
+NC
+Fibrosarcoma	4/35 (59)
+0.6543	2/38 (60)
+0.7018	3/37 (60)
+0.5317	2/33 (59)
+0.6347
+Fibrosarcoma, Pleomorphic	0/33 (59)
+0.9091	5/39 (60)
+0.0412 $	0/35 (60)
+NC	0/32 (59)
+NC
+Sarcoma Nos	0/33 (59)
+0.4855	1/38 (60)
+0.5352	0/35 (60)
+NC	0/32 (59)
+NC
+Fibrosarcoma/ Fibrosarcoma,
+Pleomorphic/Sarcoma Nos	4/35 (59)
+0.9018	8/41 (60)
+0.2605	3/37 (60)
+0.5317	2/33 (59)
+0.6347
+Melanoma, Malignant	0/33 (59)
+0.2336	0/37 (60)
+NC	0/35 (60)
+NC	1/32 (59)
+0.4923
+
+
+Spleen	Hemangiosarcoma	1/33 (58)
+0.7609	0/37 (60)
+0.5286	0/35 (60)
+0.5147	0/33 (60)
+0.5000
+Stomach	Sarcoma Nos	1/33 (58)
+0.7609	0/37 (60)
+0.5286	0/35 (60)
+0.5147	0/33 (60)
+0.5000
+Systemic	Hemangioma	0/34 (60)
+0.5725	1/37 (60)
+0.5211	2/36 (60)
+0.2609	0/33 (60)
+NC
+Hemangiosarcoma	3/36 (60)
+0.7297	1/38 (60)
+0.7130	1/35 (60)
+0.6822	1/34 (60)
+0.6710
+Hemangioma/Hemangiosarcoma	3/36 (60)
+0.7665	2/38 (60)
+0.5260	3/36 (60)
+NC	1/34 (60)
+0.6710
+Testes	Adenoma, Interstitial (Leydig)
+Cell	0/33 (59)
+0.1879	0/37 (60)
+NC	2/35 (60)
+0.2612	1/33 (60)
+0.5000
+Fibrosarcoma	0/33 (59)
+0.4928	1/37 (60)
+0.5286	0/35 (60)
+NC	0/33 (60)
+NC
+
+Thyroids	Adenoma, Follicular Cell	1/34 (59)
+0.7554	0/37 (60)
+0.5211	0/35 (60)
+0.5072	0/33 (60)
+0.4925
+L507: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L508: $ = Statistically significant at 0.025 and 0.05 level in rare tumor for tests of dose response relationship and pairwise comparison, respectively;
+L509: NC = Not calculable.
+L510: Table 4B: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Female Mice
+L511: Organ name	Tumor name	0 mg	10 mg	30 mg	90 mg
+Vehicle (C)
+P - Trend	Low (L)
+P - C vs. L	Mid (M)
+P - C vs. M	High (H)
+P - C vs. H
+Adrenals	Adenoma, Subcapsular Cell	1/40 (60)
+0.4705	1/36 (60)
+0.7263	2/44 (58)
+0.5361	1/42 (60)
+0.2593
+Carcinoma, Subcapsular Cell	0/40 (60)
+0.5280	1/36 (60)
+0.4737	0/43 (58)
+NC	0/42 (60)
+NC
+Adenoma, Subcapsular Cell/
+Carcinoma, Subcapsular Cell	1/40 (60)
+0.5931	2/36 (60)
+0.4600	2/44 (58)
+0.5361	1/42 (60)
+0.2593
+
+Brain	Meningioma, Malignant	1/40 (60)
+0.8267	1/37 (60)
+0.7334	0/43 (59)
+0.5181	0/42 (60)
+0.5122
+
+Harderian Glands	Adenocarcinoma	1/40 (60)
+0.7516	0/36 (60)
+0.4737	0/43 (59)
+0.5181	0/42 (59)
+0.5122
+Adenoma	4/40 (60)
+0.0575	4/37 (60)
+0.5991	5/43 (59)
+0.5467	9/43 (59)
+0.1430
+
+Hemopoietic System	Leukemia, Granulocytic	2/41 (60)
+0.5539	0/36 (60)
+0.7198	0/43 (59)
+0.7648	1/43 (60)
+0.5181
+Lymphoma	15/45 (60)
+0.0653	22/46 (60)
+0.1162	23/51 (59)
+0.1668	28/53 (60)
+0.0411
+Sarcoma, Histiocytic	6/41 (60)
+0.9898	11/40 (60)
+0.1252	6/46 (59)
+0.4635	2/43 (60)
+0.8825
+
+Liver	Adenoma, Hepatocellular	0/40 (60)
+0.0692	0/36 (60)
+NC	0/43 (59)
+NC	2/43 (60)
+0.2654
+Carcinoma, Hepatocellular	0/40 (60)
+0.2609	0/36 (60)
+NC	1/43 (59)
+0.5181	0/42 (60)
+NC
+Adenoma, Hepatocellular /
+Carcinoma, Hepatocellular	0/40 (60)
+0.0736	0/36 (60)
+NC	1/43 (59)
+0.5181	2/43 (60)
+0.2654
+Hemangioma	0/40 (60)
+0.0692	0/36 (60)
+NC	0/43 (59)
+NC	2/43 (60)
+0.2654
+Hemangiosarcoma	0/40 (60)
+0.2593	0/36 (60)
+NC	1/44 (59)
+0.5238	0/42 (60)
+NC
+Hemangioma/Hemangiosarcoma	0/40 (60)
+0.0735	0/36 (60)
+NC	1/44 (59)
+0.5238	2/43 (60)
+0.2654
+L512: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L513: NC = Not calculable.
+L514: **Table 4B: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Female Mice (Continued)**
+L515: Organ name	Tumor name	0 mg
+Vehicle (C)
+P - Trend	10 mg
+Low (L)
+P - C vs. L	30 mg
+Mid (M)
+P - C vs. M	90 mg
+High (H)
+P - C vs. H
+Lungs And Bronchi	Adenoma, Bronchiolo-Alveolar	4/40 (60)
+0.6009	5/39 (60)
+0.4836	3/44 (59)
+0.5539	4/44 (60)
+0.4116
+Carcinoma, Bronchiolo-Alveolar	5/40 (60)
+0.1607	0/36 (60)
+0.9644	5/44 (59)
+0.4320	6/44 (60)
+0.5684
+Adenoma, Bronchiolo-Alveolar/
+Carcinoma, Bronchiolo-Alveolar	9/40 (60)
+0.4126	5/39 (60)
+0.7967	7/44 (59)
+0.6882	9/45 (60)
+0.5075
+
+Mammary	Adenocarcinoma	3/40 (59)
+0.9255	1/36 (58)
+0.6515	3/42 (56)
+0.3615	0/41 (58)
+0.8842
+Carcinosarcoma	1/40 (59)
+0.7452	0/35 (58)
+0.4667	0/41 (56)
+0.5062	0/41 (58)
+0.5062
+Adenocarcinoma/Carcinosarcoma	4/41 (59)
+0.9586	1/36 (58)
+0.7776	3/42 (56)
+0.5137	0/41 (58)
+0.9421
+
+Ovaries	Adenoma, Tubulostromal	0/40 (60)
+0.2547	0/36 (60)
+NC	1/44 (59)
+0.5238	0/41 (58)
+NC
+Hemangioma	1/40 (60)
+0.7500	0/36 (60)
+0.4737	0/43 (59)
+0.5181	0/41 (58)
+0.5062
+Luteoma	1/40 (60)
+0.6407	0/36 (60)
+0.4737	1/43 (59)
+0.2654	0/41 (58)
+0.5062
+Cystadenoma	0/40 (60)
+0.2122	2/37 (60)
+0.2276	1/43 (59)
+0.5181	2/41 (58)
+0.2531
+Tumor, Sertoli Cell, Benign	1/40 (60)
+0.4549	0/36 (60)
+0.4737	0/43 (59)
+0.5181	1/42 (58)
+0.2593
+Tumor, Sex Cord Stromal, Mixed,
+Benign	0/40 (60)
+0.2562	0/36 (60)
+NC	1/43 (59)
+0.5181	0/41 (58)
+NC
+Luteoma/Tumor, Sertoli Cell,
+Benign/Cystadenoma/Tumor, Sex
+C	2/40 (60)
+0.3476	2/37 (60)
+0.6623	3/43 (59)
+0.5347	3/42 (58)
+0.5234
+Mullerian Tumor, Mixed	0/40 (60)
+0.2547	0/36 (60)
+NC	1/44 (59)
+0.5238	0/41 (58)
+NC
+L516: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L517: NC = Not calculable.
+L518: **Table 4B: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Female Mice (Continued)**
+L519: Organ name	Tumor name	0 mg	10 mg	30 mg	90 mg
+Vehicle (C)
+P - Trend	Low (L)
+P - C vs. L	Mid (M)
+P - C vs. M	High (H)
+P - C vs. H
+Pituitary	Adenoma, Pars Distalis	1/39 (59)
+0.7500	0/34 (55)
+0.4658	0/41 (55)
+0.5125	0/42 (58)
+0.5185
+
+Skin and Subcutis	Carcinoma, Squamous Cell	0/40 (60)
+0.2609	0/36 (60)
+NC	0/43 (59)
+NC	1/42 (60)
+0.5122
+Papilloma, Squamous Cell	0/40 (60)
+0.2654	0/36 (60)
+NC	0/43 (59)
+NC	1/43 (60)
+0.5181
+Tumor, Hair Follicle	0/40 (60)
+0.5247	1/37 (60)
+0.4805	0/43 (59)
+NC	0/42 (60)
+NC
+Carcinoma, Squamous Cell/
+Papilloma, Squamous Cell/
+Tumor, Hair Follicle	0/40 (60)
+0.1194	1/37 (60)
+0.4805	0/43 (59)
+NC	2/43 (60)
+0.2654
+Fibrosarcoma	0/40 (60)
+0.4490	4/38 (60)
+0.0517	1/44 (59)
+0.5238	2/43 (60)
+0.2654
+Fibrosarcoma, Pleomorphic	1/40 (60)
+0.2006	0/36 (60)
+0.4737	2/44 (59)
+0.5361	2/43 (60)
+0.5274
+Sarcoma Nos	0/40 (60)
+0.2110	0/36 (60)
+NC	1/43 (59)
+0.5181	1/43 (60)
+0.5181
+Fibrosarcoma/Fibrosarcoma,
+Pleomorphic/Sarcoma Nos	1/40 (60)
+0.1575	4/38 (60)
+0.1636	4/45 (59)
+0.2189	5/44 (60)
+0.1242
+Schwannoma, Malignant	0/40 (60)
+0.3239	1/36 (60)
+0.4737	1/44 (59)
+0.5238	1/43 (60)
+0.5181
+Tumor, Mast Cell	0/40 (60)
+0.2593	0/36 (60)
+NC	1/44 (59)
+0.5238	0/42 (60)
+NC
+Spleen	Hemangiosarcoma	1/40 (60)
+0.7516	0/36 (59)
+0.4737	0/43 (59)
+0.5181	0/42 (60)
+0.5122
+
+Systemic	Hemangioma	2/40 (60)
+0.3042	0/36 (60)
+0.7263	0/44 (60)
+0.7762	2/43 (60)
+0.3358
+Hemangiosarcoma	1/40 (60)
+0.8485	2/38 (60)
+0.4805	1/44 (60)
+0.2714	0/42 (60)
+0.5122
+Hemangioma/Hemangiosarcoma	3/41 (60)
+0.6187	2/38 (60)
+0.4635	1/44 (60)
+0.7183	2/43 (60)
+0.5229
+L520: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+NC = Not calculable.
+L521: **Table 4B: Tumor Rates and P-Values for Trend and Pairwise Comparisons in Female Mice (Continued)**
+L522: Organ name	Tumor name	0 mg
+Vehicle (C)
+P - Trend	10 mg
+Low (L)
+P - C vs. L	30 mg
+Mid (M)
+P - C vs. M	90 mg
+High (H)
+P - C vs. H
+Thyroids	Adenoma, Follicular Cell	1/40 (60)	0/36 (59)	0/43 (59)	0/42 (59)
+0.7516	0.4737	0.5181	0.5122
+Uterus And Cervix	Adenocarcinoma, Endometrial	0/40 (60)	0/36 (60)	1/43 (59)	0/42 (60)
+0.2609	NC	0.5181	NC
+Hemangioma	1/40 (60)	0/36 (60)	0/43 (59)	0/42 (60)
+0.7516	0.4737	0.5181	0.5122
+Hemangiosarcoma	0/40 (60)	2/38 (60)	0/43 (59)	0/42 (60)
+0.7726	0.2341	NC	NC
+Hemangioma/Hemangiosarcoma	1/40 (60)	2/38 (60)	0/43 (59)	0/42 (60)
+0.9045	0.4805	0.5181	0.5122
+Leiomyoma	0/40 (60)	0/36 (60)	2/44 (59)	1/43 (60)
+0.2278	NC	0.2714	0.5181
+Leiomyosarcoma	0/40 (60)	0/36 (60)	2/43 (59)	1/42 (60)
+0.2225	NC	0.2654	0.5122
+Polyp, Endometrial	6/41 (60)	7/40 (60)	1/43 (59)	2/43 (60)
+0.9737	0.4804	0.9523	0.8825
+Vagina	Leiomyoma	0/40 (60)	0/36 (60)	0/43 (59)	1/41 (58)
+0.2562	NC	NC	0.5062
+Papilloma, Squamous Cell	0/40 (60)	1/36 (60)	0/43 (59)	0/41 (58)
+0.5250	0.4737	NC	NC
+L523: &amp; X/YY (ZZ): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L524: NC = Not calculable.
+L525: Figure 1A: Kaplan-Meier Survival Functions for Male Rats
+L526: Figure 1B: Kaplan-Meier Survival Functions for Female Rats
+L527: Figure 2A: Kaplan-Meier Survival Functions for Male Mice
+L528: Figure 2B: Kaplan-Meier Survival Functions for Female Mice
+L529: ## 6. References
+L530: Bailer, A.J, Portier, C.J. (1988). "Effects of treatment-induced mortality and tumor-induced mortality on tests for carcinogenicity in small samples." *Biometrics*, 44, 417-431.
+
+Bieler, G.S. and Williams, R.L. (1993). "Ratio estimates, the delta method, and quantal response tests for increased carcinogenicity". *Biometrics* 49, 793-801.
+
+Guidance for Industry. Statistical Aspects of the Design, Analysis, and Interpretation of Chronic Rodent Carcinogenicity Studies of Pharmaceuticals (Draft Guidance). U.S. Department of Health and Human Services, Food and Drug Administration, Center for Drug Evaluation and Research (CDER). May 2001.
+
+Haseman, J. (1983). "A re-examination of false-positive rates for carcinogenesis studies", *Fundamental and Applied Toxicology*, 3: 334-339.
+
+Lin K.K. and Rahman A.M. (1998) "Overall false positive rates in tests for linear trend in tumor incidence in animal carcinogenicity studies of new drugs", *Journal of Biopharmaceutical Statistics*, 8(1), 1-15.
+
+Peto, R., M.C. Pike, N.E. Day, R.G. Gray, P.N. Lee, S. Parish, J. Peto, Richards, and J.Wahrendorf. (1980) "Guidelines for sample sensitive significance test for carcinogenic effects in long-term animal experiments", Long term and short term screening assays for carcinogens: A critical appraisal, International agency for research against cancer monographs, *Annex to supplement, World Health Organization, Geneva*, 311-426.
+
+Rahman, A.M., and Lin, K.K. (2008), "A Comparison of False Positive Rates of Peto and Poly-3 Methods for Long-Term Carcinogenicity Data Analysis Using Multiple Comparison Adjustment Method Suggested by Lin and Rahman", *Journal of Biopharmaceutical Statistics*, 18:5, 849-858.
+
+Rahman, A.M., and Lin, K.K. (2009), "Design and Analysis of Chronic Carcinogenicity Studies of Pharmaceuticals in Rodents", in "Design and Analysis of Clinical Trials with Time-to-Event Endpoints", K.E Peace, Editor, Chapman &amp; Hall/CRC, Taylor &amp; Francis Group, LLC, Boca Raton, FL, London, and New York.
+L531: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L532: /s/
+L533: HEPEI CHEN
+10/11/2016
+L534: KARL K LIN
+10/13/2016
+Concur with review
+L535: Flowchart illustrating the disposition of subjects in Study SPD304203-00:
+Screened (N=2864) leads to Screen Failure (N=1470) and Randomized Population (N=1394).
+Screen Failure details: General I/E Criteria Failed: 807, Diary I/E Criteria Failed: 646, Other: 17.
+Randomized Population (N=1394) leads to Completed Treatment (N=1153), Not Dosed (N=5), and Safety Population (N=1389).
+Completed Treatment (N=1153) leads to Completed Study (N=1140).
+Safety Population (N=1389) leads to ITT Population (N=1346) and Duplicate Patient Records (non-index) (N=48).
+ITT Population (N=1346) leads to PP Population (N=1054) and Reason for Exclusion.
+Reason for Exclusion details: Protocol Deviations: 139, Did not Complete Treatment: 128, Completed Treatment, but Non-Compliant with Dosing: 25.
+L536: Flowchart illustrating the disposition of subjects in Study SPD304203-03.
+Screening: Screened N=2941. Screen Failure N=1531.
+Screen Failure Breakdown:
+General I/E Criteria Failed: 802
+Diary I/E Criteria Failed: 612
+Other: 118
+Randomized Population: N=1410.
+Randomized Population Breakdown:
+Not Dosed: N=8
+Safety Population: N=1402
+Duplicate Patient Records (non-index): N=73
+ITT Population: N=1337.
+ITT Population Breakdown:
+PP Population: N=1048
+PK Population: N=95
+Reason for Exclusion (from ITT Population):
+Protocol Deviations: 151
+Did not Complete Treatment: 83
+Completed Treatment, but Non-Compliant with Dosing or EHD: 55
+L537: Product-Limit Survival Estimates
++ Censored
+Survival Probability
+Survival time (week)
+Dose group
+0 mg/kg/day | Vehicle Control	10 mg/kg/day | Low
+30 mg/kg/day | Mid	100 mg/kg/day | High
+L538: Product-Limit Survival Estimates
++ Censored
+Survival Probability
+Survival time (week)
+Dose group
+0 mg/kg/day | Vehicle Control	10 mg/kg/day | Low
+30 mg/kg/day | Mid	100 mg/kg/day | High
+L539: Product-Limit Survival Estimates
++ Censored
+Survival Probability
+Survival time (week)
+Dose group
+0 mg/kg/day | Vehicle Control	10 mg/kg/day | Low
+30 mg/kg/day | Mid	90 mg/kg/day | High
+L540: Product-Limit Survival Estimates
++ Censored
+Survival Probability
+Survival time (week)
+Dose group
+0 mg/kg/day | Vehicle Control	10 mg/kg/day | Low
+30 mg/kg/day | Mid	90 mg/kg/day | High

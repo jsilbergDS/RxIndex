@@ -1,0 +1,134 @@
+{
+  "app": "BLA203314",
+  "drug": "TRESIBA",
+  "docs_read": [
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_2b15a45a-6837-5046-8d8e-688ce271ee9e"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_2b15a45a-6837-5046-8d8e-688ce271ee9e"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "The review refers to the advisory committee only as 'EMDAC' (its briefing packet / background document); the full committee name is not written out in the available FDA documents. The relevant FDA division is the Division of Metabolism and Endocrinology Products (DMEP).",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_2b15a45a-6837-5046-8d8e-688ce271ee9e",
+      "line": 1104,
+      "quote": "Source: EMDAC background document, page 211-212"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_2b15a45a6837",
+      "found_lines": [
+        1104
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "November 8, 2012 (during the first-cycle review of the original insulin degludec NDA).",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_2b15a45a-6837-5046-8d8e-688ce271ee9e",
+      "line": 1105,
+      "quote": "As part of the first cycle review, an advisory committee meeting was held on November 8, 2012, to discuss the safety and efficacy of both products."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_2b15a45a6837",
+      "found_lines": [
+        1105
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee agreed there was an increase in cardiovascular risk and unanimously voted (12 yes, 0 no) that the Sponsor should conduct a cardiovascular outcomes trial (CVOT).",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_2b15a45a-6837-5046-8d8e-688ce271ee9e",
+      "line": 1105,
+      "quote": "The committee unanimously voted (12-yes, 0-No) that the Sponsor should conduct a cardiovascular outcomes trial."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_2b15a45a6837",
+      "found_lines": [
+        1105
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The advisory committee was concerned about a cardiovascular safety signal (a meta-analysis suggested insulin degludec could increase cardiovascular risk); it agreed CV risk was elevated and unanimously voted that a dedicated cardiovascular outcomes trial (CVOT) was needed.",
+      "change": "FDA required a CVOT: the February 8, 2013 Complete Response letter requested one, and when Tresiba was ultimately approved (September 25, 2015) on an interim DEVOTE analysis, the approval carried Post-Marketing Requirement (PMR) #2954-2 mandating completion of the cardiovascular outcomes trial.",
+      "category": "Safety / Postmarketing requirement (CVOT)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "fda_2b15a45a-6837-5046-8d8e-688ce271ee9e",
+        "line": 1105,
+        "quote": "The Advisory Committee agreed that there was an increase in CV risk observed in most of the clinical trials, and although some of the results were not statistically significant, they were potentially concerning. The committee unanimously voted (12-yes, 0-No) that the Sponsor should conduct a cardiovascular outcomes trial.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_2b15a45a6837",
+          "found_lines": [
+            1105
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_2b15a45a-6837-5046-8d8e-688ce271ee9e",
+        "line": 734,
+        "quote": "While the Agency approved insulin degludec based on the results of the interim analysis, it also issued Post-Marketing Requirement (PMR) #2954-2, requiring the Applicant to \u201cconduct a randomized, double-blind, active-controlled trial evaluating the effect of Tresiba (insulin degludec injection) on the incidence of major cardiovascular events (MACE) in subjects with type 2 diabetes mellitus.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_2b15a45a6837",
+          "found_lines": [
+            734,
+            880
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Hypoglycemia was a topic at the November 8, 2012 advisory committee meeting; the Applicant's proposed hypoglycemia risk-reduction benefit was not accepted, and the Applicant was told a claim would require additional demonstration of a meaningful risk reduction over other basal insulins.",
+      "change": "In response to the CR-letter deficiencies, the Applicant added statistically powered secondary hypoglycemia endpoints to the DEVOTE trial; no hypoglycemia benefit claim was granted at the original approval.",
+      "category": "Efficacy claim / Labeling (hypoglycemia)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_2b15a45a-6837-5046-8d8e-688ce271ee9e",
+        "line": 735,
+        "quote": "Hypoglycemia was also a topic at the initial November 8, 2012 Advisory Committee meeting and of the original NDA review. While the Applicant had argued that the unique PK/PD characteristics of insulin degludec (avoiding the peaks and troughs typically associated with insulin products) should mitigate events of hypoglycemia, the Applicant was informed that a hypoglycemia risk reduction claim would require additional demonstration of a meaningful risk reduction over other available once-daily basal insulins.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_2b15a45a6837",
+          "found_lines": [
+            735,
+            881
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_2b15a45a-6837-5046-8d8e-688ce271ee9e",
+        "line": 736,
+        "quote": "In response to the deficiencies related to the claim of a benefit related to hypoglycemia cited in the February 8, 2013 CR letter, the Applicant incorporated secondary endpoints into the design of DEVOTE to show that the use of insulin degludec resulted in fewer hypoglycemia events compared to the use of insulin glargine in patients with T2D. The secondary endpoints related to hypoglycemia were statistically powered",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_2b15a45a6837",
+          "found_lines": [
+            736,
+            882
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An advisory committee (referred to in the review as EMDAC) met on November 8, 2012 during the first-cycle review of insulin degludec; it agreed cardiovascular risk appeared elevated and unanimously voted 12-0 that the Sponsor should conduct a dedicated cardiovascular outcomes trial. This drove the February 8, 2013 Complete Response letter and, at the eventual September 25, 2015 approval of Tresiba on an interim DEVOTE analysis, the attachment of PMR #2954-2 requiring completion of the CVOT. Hypoglycemia was also raised at the meeting; a benefit claim was not granted and the Applicant added powered hypoglycemia secondary endpoints to DEVOTE. (Note: the original Orig1s000 review documents are not in paperclip; these facts are drawn from the s008 approval package's CDTL/Division Summary Memo and Clinical Review, which recount the original review history.)"
+}

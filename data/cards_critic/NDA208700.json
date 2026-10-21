@@ -1,0 +1,42 @@
+{
+  "app": "NDA208700",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval/detail",
+      "severity": "low",
+      "issue": "False-positive automated flag: '26' and '2017' are part of the date 'July 26, 2017' and should be excluded as date components, not uncited numbers."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "False-positive automated flag: '26' and '2017' are part of the date 'July 26, 2017' and should be excluded as date components, not uncited numbers."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "26",
+        "text": "A Complete Response Letter was issued on December 19, 2016, to the original NDA "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2017",
+        "text": "A Complete Response Letter was issued on December 19, 2016, to the original NDA "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "26",
+        "text": "Lutathera is a new molecular entity radiolabeled somatostatin analog submitted u"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2017",
+        "text": "Lutathera is a new molecular entity radiolabeled somatostatin analog submitted u"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

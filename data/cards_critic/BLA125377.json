@@ -1,0 +1,38 @@
+{
+  "app": "BLA125377",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 327)",
+  "_raw": "Analyzing the card against the FDA review and automated flags.\n\n```json\n{\n  \"app\": \"BLA125377\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[1].n\",\n      \"severity\": \"medium\",\n      \"issue\": \"The '500' in '497 patients treated (designed to enroll 500)' is not containe",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "1",
+        "text": "Multi-center, randomized (1:1), double-blind, two-arm trial of dacarbazine plus "
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "1",
+        "text": "Multi-center, randomized (1:1), double-blind, two-arm trial of dacarbazine plus "
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "20",
+        "text": "Multi-center, randomized (1:1), double-blind, two-arm trial of dacarbazine plus "
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "500",
+        "text": "497 patients treated (designed to enroll 500)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "20",
+        "text": "High-level survival results demonstrated that treatment with ipilimumab resulted"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

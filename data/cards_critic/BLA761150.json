@@ -1,0 +1,32 @@
+{
+  "app": "BLA761150",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval.detail.text",
+      "severity": "low",
+      "issue": "Automated flag on '2020' is a false positive; it is a date (December 2020 approval letter) and is date-excluded/cosmetic."
+    },
+    {
+      "field": "approval_program.summary.text",
+      "severity": "low",
+      "issue": "Automated flag on '3' is a false positive; it refers to 'Phase 3', a phase descriptor supported by trial citations, not an efficacy/safety statistic."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2020",
+        "text": "Approved effective on the date of the December 2020 approval letter for the reco"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "BLA 761150 was submitted under section 351(a) and received a Standard review; th"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

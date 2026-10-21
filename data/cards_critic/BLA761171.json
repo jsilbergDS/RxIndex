@@ -1,0 +1,31 @@
+{
+  "app": "BLA761171",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "Text says 'nonrandomized' but the cited quote only states 'open-label, single-center trial'; 'nonrandomized' is not in this citation (though supported elsewhere in the phase citation)."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "medium",
+      "issue": "Text states '23% of the 13 responders had observed DOR of 6 months' \u2014 the 23% figure appears only in the prose citation without independent verification of the underlying count, but is cited; acceptable. However 'confirmed ORR 34%' with 13 responders (10 CR + 3 PR) is internally consistent and cited \u2014 no error."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "The common-AE list omits several reactions present in the citation (erythema multiforme, urticaria, headache, injection site reaction, edema, anxiety, localized edema, irritability); under-inclusive summary but not a false claim."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "medium",
+      "issue": "Summary asserts a 'Rare Pediatric Disease Designation' as a granted designation; the citation supports it ('was granted a Rare Pediatric Disease Designation by FDA'), so it is cited \u2014 but this designation is not captured in any structured approval_program field, only in free-text summary."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

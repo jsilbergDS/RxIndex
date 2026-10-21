@@ -1,0 +1,167 @@
+{
+  "app": "NDA203568",
+  "drug": "KYNAMRO",
+  "docs_read": [
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fbfa1009-4a64-5078-a520-11b618e9da8d"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "376a7a7b-d0ff-5df6-886b-3312278676f8"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "950c40cc-dd47-52a0-8b25-c0b64c937d4d"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Endocrinologic and Metabolic Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fbfa1009-4a64-5078-a520-11b618e9da8d",
+      "line": 125,
+      "quote": "This application was discussed at the Endocrinologic and Metabolic Drugs Advisory Committee meeting on October 18, 2012."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fbfa1009-4a64-5078-a520-11b618e9da8d",
+      "found_lines": [
+        125
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "October 18, 2012",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "950c40cc-dd47-52a0-8b25-c0b64c937d4d",
+      "line": 846,
+      "quote": "On October 18, 2012, the Endocrinologic and Metabolic Drugs Advisory Committee voted 9:6 in favor of the approval of mipomersen for the treatment of adult patients with HoFH."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "950c40cc-dd47-52a0-8b25-c0b64c937d4d",
+      "found_lines": [
+        846
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "Voted 9 to 6 in favor of approval of mipomersen for adult patients with HoFH; the panel recommended the REMS restrict the drug to the approved indication.",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "950c40cc-dd47-52a0-8b25-c0b64c937d4d",
+      "line": 846,
+      "quote": "voted 9:6 in favor of the approval of mipomersen for the treatment of adult patients with HoFH. The panel recommended the REMS program restrict the drug to the approved indication."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "950c40cc-dd47-52a0-8b25-c0b64c937d4d",
+      "found_lines": [
+        846
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The advisory committee recommended that the REMS program be strengthened to restrict mipomersen to the approved HoFH indication (protecting the larger hypercholesterolemic population from an unproven hepatotoxicity risk).",
+      "change": "FDA (DRISK) modified the REMS goals to restrict use of mipomersen to patients whose prescribers certify a clinical phenotype consistent with HoFH, and updated the prescriber attestation statement in the prescription authorization form accordingly.",
+      "category": "Risk management / REMS restriction",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "950c40cc-dd47-52a0-8b25-c0b64c937d4d",
+        "line": 846,
+        "quote": "The panel recommended the REMS program restrict the drug to the approved indication.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "950c40cc-dd47-52a0-8b25-c0b64c937d4d",
+          "found_lines": [
+            846
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "950c40cc-dd47-52a0-8b25-c0b64c937d4d",
+        "line": 892,
+        "quote": "In response to the Advisory Committee panel recommendations to strengthen the proposed REMS program, DRISK modified the REMS goals to restrict the use of mipomersen only to patients whose prescribers certify to have a clinical phenotype consistent with HoFH.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "950c40cc-dd47-52a0-8b25-c0b64c937d4d",
+          "found_lines": [
+            892
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members expressed high concern about hepatotoxicity, noting that 4 of 5 liver biopsies showed steatohepatitis with ballooning degeneration of hepatocytes.",
+      "change": "Labeling includes a Boxed Warning for hepatotoxicity with recommendations for monitoring with liver chemistry tests. (The review documents do not explicitly attribute the Boxed Warning to the AC discussion.)",
+      "category": "Safety / Boxed warning",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "376a7a7b-d0ff-5df6-886b-3312278676f8",
+        "line": 1087,
+        "quote": "High concern: 4 out of 5 of the biopsies showed steatohepatitis and had ballooning degeneration of hepatocytes",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "376a7a7b-d0ff-5df6-886b-3312278676f8",
+          "found_lines": [
+            1087
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fbfa1009-4a64-5078-a520-11b618e9da8d",
+        "line": 130,
+        "quote": "Labeling will contain a Boxed Warning for hepatotoxicity, along with recommendations for monitoring with liver chemistry tests",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fbfa1009-4a64-5078-a520-11b618e9da8d",
+          "found_lines": [
+            130
+          ]
+        }
+      }
+    },
+    {
+      "concern": "A committee member voting in favor emphasized that a rigorous postmarketing study is needed given the uncertain long-term risk/benefit of mipomersen.",
+      "change": "As a condition of approval the applicant is required to conduct a 10-year prospective observational cohort (product exposure registry) in HoFH patients to characterize long-term liver effects, malignancies, and new autoimmune disorders. (The documents discuss both but do not explicitly tie the PMR to the AC comment.)",
+      "category": "Postmarketing requirement (PMR)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "376a7a7b-d0ff-5df6-886b-3312278676f8",
+        "line": 1104,
+        "quote": "A rigorous postmarketing study is needed.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "376a7a7b-d0ff-5df6-886b-3312278676f8",
+          "found_lines": [
+            1104
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fbfa1009-4a64-5078-a520-11b618e9da8d",
+        "line": 122,
+        "quote": "As a condition of approval, the applicant will be required to conduct the following postmarket studies (PMRs) to better define the risks of mipomersen:A 10-year, prospective, observational cohort study (product exposure registry) in HoFH patients to characterize the long-term effect of mipomersen on the liver",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fbfa1009-4a64-5078-a520-11b618e9da8d",
+          "found_lines": [
+            122
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Endocrinologic and Metabolic Drugs Advisory Committee met on October 18, 2012 and voted 9 to 6 in favor of approving mipomersen (KYNAMRO) for adult HoFH patients, with hepatotoxicity (steatosis/steatohepatitis and transaminase elevations) the dominant concern. The review documents explicitly state that, in response to the committee's recommendation to strengthen the REMS, DRISK modified the REMS goals to restrict mipomersen to patients whose prescribers certify an HoFH clinical phenotype. The approval also carried a Boxed Warning for hepatotoxicity and a 10-year postmarketing observational study, which align with the committee's liver and postmarketing concerns though the reviews do not explicitly link those two changes to the AC."
+}

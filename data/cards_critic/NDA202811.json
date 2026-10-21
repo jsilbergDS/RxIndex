@@ -1,0 +1,72 @@
+{
+  "app": "NDA202811",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "high",
+      "issue": "The N for Trial 2 is swapped: text cites N=401/403 but assigns 804 total; however the result/n mapping for Trial 2 uses 290 mcg N=401 Placebo N=403 which matches the SECOND column (12.7%/3.0%) \u2014 this is consistent, but the design citation (line 84, '26 weeks') is pasted into Trial 1 (LIN-MD-31) which is a 12-week trial, not applicable here."
+    },
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "high",
+      "issue": "Design cites a '26 weeks' dosing quote (line 84) for LIN-MD-31, which is a 12-week trial with a 4-week randomized withdrawal period, so the citation contradicts and does not support the field."
+    },
+    {
+      "field": "pivotal_trials[1].population",
+      "severity": "high",
+      "issue": "Citation describes a '266 \u00b5g/day dose' comparison, which is a different/comparator dose value and does not match the approved 290 mcg trial; value appears to reference the wrong study dose."
+    },
+    {
+      "field": "pivotal_trials[1].endpoint",
+      "severity": "medium",
+      "issue": "The specific '9/12 week APC 3+1 responder (at least 9 of the first 12 weeks)' definition is not supported by the cited quote, which only names the endpoint without defining the 9-of-12-week criterion."
+    },
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "medium",
+      "issue": "The detailed definition 'combined abdominal pain and CSBM responder for at least 9 of the first 12 weeks' is not contained in the citation, which only names '9/12 week APC 3+1 Responder'."
+    },
+    {
+      "field": "indication",
+      "severity": "low",
+      "issue": "Field asserts a single indication combining IBS-C and CIC; this is supported by two separate citations and is acceptable, noted only for clarity."
+    },
+    {
+      "field": "key_safety",
+      "severity": "medium",
+      "issue": "The CIC 'severe diarrhea occurred in 2%' / pooled figures: the stated '16% vs 5% in CIC trials' is supported, but the blended severe-diarrhea 2% figure is only cited for the IBS-C pool (line 89) and is attributed generally; partially uncited for CIC."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "medium",
+      "issue": "Summary states 'two placebo-controlled CIC trials (Trials 3 and 4)' but the card's pivotal_trials only describe the two IBS-C trials; CIC trials are referenced but not listed, a potential completeness/consistency gap (though citation at line 102 supports their existence)."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited number '2' (Trial 2 in label) is a label cross-reference, not an efficacy/safety number \u2014 false positive, dismissed."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited number '1' (Trial 1 in label) is a label cross-reference, not an efficacy/safety number \u2014 false positive, dismissed."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "2",
+        "text": "MCP-103-302 (Trial 2 in label)"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "1",
+        "text": "LIN-MD-31 (Trial 1 in label)"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

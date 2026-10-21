@@ -1,0 +1,38 @@
+{
+  "app": "BLA125431",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 381)",
+  "_raw": "Analyzing the card for all issue categories.\n\nKey findings:\n\n1. **Trial count inconsistency**: The `phase` citation states \"8 phase 3 clinical trials\" but only 1 pivotal trial is described. However, the card only claims this is one pivotal trial (monotherapy), so this is a minor note rather than a c",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "52",
+        "text": "Change in HbA1c from baseline to Week 52 (albiglutide minus comparator)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "52",
+        "text": "HbA1c change from placebo at Week 52: TANZEUM 30 mg -0.84% (95% CI -1.11, -0.58)"
+      },
+      {
+        "field": "boxed_warning/detail",
+        "number": "2",
+        "text": "WARNING: RISK OF THYROID C-CELL TUMORS \u2014 thyroid C-cell tumors observed in roden"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "14",
+        "text": "BLA received January 14, 2013 and approved effective the date of the approval le"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2013",
+        "text": "BLA received January 14, 2013 and approved effective the date of the approval le"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

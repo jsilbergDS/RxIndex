@@ -1,0 +1,32 @@
+{
+  "app": "BLA125147",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: '20020408' and '20050181' are study IDs and '3' is from 'Phase 3', all excluded categories and otherwise supported by citations."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "20020408",
+        "text": "Vectibix received accelerated approval under 21 CFR 601.40-46 based on an improv"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Vectibix received accelerated approval under 21 CFR 601.40-46 based on an improv"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "20050181",
+        "text": "Vectibix received accelerated approval under 21 CFR 601.40-46 based on an improv"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

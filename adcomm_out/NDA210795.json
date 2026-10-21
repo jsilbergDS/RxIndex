@@ -1,0 +1,100 @@
+{
+  "app": "NDA210795",
+  "drug": "KRINTAFEL",
+  "docs_read": [
+    {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "fda_28f371ce-c5b8-5f08-9040-8f43c5a5797b"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_06eb75f2-6d98-5ecd-aa73-7d6631764a13"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Antimicrobial Drugs Advisory Committee (AMDAC)",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "fda_06eb75f2-6d98-5ecd-aa73-7d6631764a13",
+      "line": 20,
+      "quote": "Meeting of the Antimicrobial Drugs Advisory Committee was convened to discuss the effectiveness and safety of tafenoquine for the radical cure (prevention of relapse) of *P. vivax* malaria in patients 16 years and older."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_06eb75f26d98",
+      "found_lines": [
+        20
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "July 12, 2018",
+    "quote": {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "fda_28f371ce-c5b8-5f08-9040-8f43c5a5797b",
+      "line": 1620,
+      "quote": "An Advisory Committee meeting was held on July 12th, 2018 to discuss NDA 210795."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_28f371cec5b8",
+      "found_lines": [
+        1620
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted that the applicant provided substantial evidence of effectiveness (13:0) and safety (12:1).",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "fda_06eb75f2-6d98-5ecd-aa73-7d6631764a13",
+      "line": 20,
+      "quote": "The committee voted that the applicant provided substantial evidence of effectiveness (voted 13:0) and safety (voted 12:1) based on the data presented."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_06eb75f26d98",
+      "found_lines": [
+        20,
+        60
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "A speaker at the advisory committee's open public hearing questioned the potential neurotoxic effects of tafenoquine (TQ) and the need for additional nonclinical studies, based on published neurotoxicity of other 8-aminoquinolines.",
+      "change": "The approval included a postmarketing requirement (PMR 3436-1) to conduct an active pharmacovigilance surveillance study specifically soliciting for neuropsychiatric adverse reactions (along with hypersensitivity and hematologic reactions).",
+      "category": "Safety / Postmarketing requirement",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "fda_28f371ce-c5b8-5f08-9040-8f43c5a5797b",
+        "line": 1642,
+        "quote": "During the July 12, 2018, Advisory Committee, one of the speakers at the open public hearing raised a question regarding the potential neurotoxic effects of TQ and need for additional nonclinical studies.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_28f371cec5b8",
+          "found_lines": [
+            1642
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "fda_28f371ce-c5b8-5f08-9040-8f43c5a5797b",
+        "line": 1653,
+        "quote": "The approval of NDA 210795 will include a postmarketing requirement to conduct an active pharmacovigilance surveillance study to specifically solicit for neuropsychiatric adverse reactions, as well as hypersensitivity and hematological adverse reactions.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_28f371cec5b8",
+          "found_lines": [
+            1653
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Antimicrobial Drugs Advisory Committee (AMDAC) meeting was convened on July 12, 2018 to discuss KRINTAFEL (tafenoquine) for the radical cure of P. vivax malaria in patients 16 years and older; the committee voted 13:0 that effectiveness was demonstrated and 12:1 that safety was demonstrated. During the open public hearing, a speaker raised a concern about the potential neurotoxicity of tafenoquine and the need for additional nonclinical studies; the FDA ultimately concluded no additional animal studies were warranted but imposed a postmarketing requirement (PMR 3436-1) for an active pharmacovigilance study specifically soliciting neuropsychiatric adverse reactions. The AdComm was supportive of approval, and its principal documented influence on the application was this neuropsychiatric-focused pharmacovigilance PMR."
+}

@@ -1,0 +1,38 @@
+{
+  "app": "NDA203108",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 267)",
+  "_raw": "Analyzing the card for quality issues.\n\nKey checks:\n- **first_cycle_approval**: value=false, and the review explicitly shows a CRL (3/14/13). This is correct given the CRL \u2014 NOT an issue.\n- **crl_history**: prior_crl=true with proper citations \u2014 consistent with first_cycle_approval=false. Good.\n- **",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "5",
+        "text": "STRIVERDI RESPIMAT 5 mcg showed significant improvement in FEV1 AUC0-3hr vs plac"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "24",
+        "text": "STRIVERDI RESPIMAT 5 mcg showed significant improvement in FEV1 AUC0-3hr vs plac"
+      },
+      {
+        "field": "crl_history/date",
+        "number": "2013",
+        "text": "March 14, 2013"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2013",
+        "text": "Standard 505(b) NDA for olodaterol received May 14, 2012. The application was di"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Standard 505(b) NDA for olodaterol received May 14, 2012. The application was di"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "app": "NDA208254",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].endpoint",
+      "severity": "medium",
+      "issue": "Endpoint text lists 'Week 2, Week 6, and Month 3 Visits' for the 6-month Study 304, borrowing Study 301's SAP quote (PP population baseline <25 mmHg); the cited endpoint does not clearly describe Study 304's actual endpoint timepoints.",
+      "_note": null
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "medium",
+      "issue": "The claim that mean IOP change was 'similar between groups' for baseline IOP <25 mmHg subjects (N=186/187) has no citation containing supporting numbers; only the >=25 group numbers (-4.1, -5.9, 1.8) are cited."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Result presents netarsudil as 'non-inferior to timolol' but the supporting table citation is explicitly labeled 'POST HOC ANALYSIS'; the post-hoc nature should be disclosed."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Automated flags for numbers 12, 18, 2017 are false positives \u2014 they are fragments of the approval date 12/18/2017 and should be excluded per date rules."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flags for numbers 2, 28, 12, 18, 2017 are false positives \u2014 they are fragments of the dates 2/28/17 and 12/18/2017 and should be excluded per date rules."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "12",
+        "text": "Standard review NDA received 2/28/17 and approved 12/18/2017 with no prior Compl"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "18",
+        "text": "Standard review NDA received 2/28/17 and approved 12/18/2017 with no prior Compl"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2017",
+        "text": "Standard review NDA received 2/28/17 and approved 12/18/2017 with no prior Compl"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "Rhopressa was submitted as a standard-review 505(b) NDA for a new molecular enti"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "28",
+        "text": "Rhopressa was submitted as a standard-review 505(b) NDA for a new molecular enti"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "12",
+        "text": "Rhopressa was submitted as a standard-review 505(b) NDA for a new molecular enti"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "18",
+        "text": "Rhopressa was submitted as a standard-review 505(b) NDA for a new molecular enti"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2017",
+        "text": "Rhopressa was submitted as a standard-review 505(b) NDA for a new molecular enti"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

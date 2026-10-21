@@ -1,0 +1,395 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+L2: **205739Orig1s000**
+L3: **STATISTICAL REVIEW(S)**
+L4: FDA Seal/Logo
+L5: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L6: ## STATISTICAL REVIEW AND EVALUATIONCLINICAL STUDIES
+L7: **NDA: Supplement:** 205739
+**Drug Name:** RLY5016 for Oral Suspension (Veltassa)
+**Indication(s):** Hyperkalemia
+**Applicant:** Relypsa, Inc.
+**Date(s):** October 21, 2014
+**Review Priority:** Standard
+L8: **Biometrics Division:** DBI/OB/OTS
+**Statistical Reviewer:** Fanhui Kong, PhD
+**Concurring Reviewers:** Hsien Ming Hung, PhD
+L9: **Medical Division:** Division of Cardiovascular and Renal Products
+**Clinical Team:** Shen Xiao, MD.
+**CDTL** Aliza Thompson, MD.
+**Project Manager:** Sabry Soukehal
+L10: **Keywords:** Randomized withdraw study, Multiple imputation, Nonparametric tests, Repeated measures analysis, Hodges-Lehmann estimator.
+L11: ## Table of Contents
+L12: 1	EXECUTIVE SUMMARY	3
+2	INTRODUCTION	4
+2.1	OVERVIEW	4
+2.2	DATA SOURCES	5
+3	STATISTICAL EVALUATION	5
+3.1	DATA AND ANALYSIS QUALITY	5
+3.2	EVALUATION OF EFFICACY	6
+3.2.1	Study Design and Endpoints	6
+3.2.2	Statistical Methodologies	9
+3.2.3	Patient Disposition, Demographic VISITN \ge 101; c and Baseline Characteristics	10
+3.2.4	Results and Conclusions	15
+3.3	EVALUATION OF SAFETY	17
+4	FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	17
+4.1	SUBGROUP ANALYSES IN PART A	18
+4.2	SUBGROUP ANALYSES IN PART B	20
+5	SUMMARY AND CONCLUSIONS	22
+5.1	STATISTICAL ISSUES	22
+5.2	COLLECTIVE EVIDENCE	22
+5.3	CONCLUSIONS AND RECOMMENDATIONS	22
+L13: ## 1 EXECUTIVE SUMMARY
+L14: In this submission the Sponsor provides the data of a pivotal efficacy study RLY5016-301 on the use of RLY5016 for Oral Suspension (Veltassa) to assess whether the treatment achieved a clinically meaningful reduction in serum potassium levels in subjects with hyperkalemia, and whether it had a continued effect preventing the recurrence of hyperkalemia.
+L15: Study RLY5016-301 was a two-part, single-blind, Phase 3 study of Veltassa in subjects with hyperkalemia and CKD. Part A of the study was a single arm with two dose level, 4-week treatment phase study to assess if Veltassa achieved a clinically meaningful reduction in serum potassium levels in subjects with hyperkalemia. As agreed by FDA, for the primary efficacy results from Part A to be considered as pivotal, the decrease in serum potassium from Part A Baseline to Part A Week 4 must have been \ge 0.7 mEq/L with p &lt; 0.05 in the comparison to zero. Part B was an 8-week, randomized, placebo-controlled, withdrawal phase to evaluate the effect of withdrawing Veltassa (i.e., randomized assignment to placebo) on serum potassium control as compared to continued dosing with the treatment, to assess whether it had a continued effect and prevented the recurrence of hyperkalemia. Part B thereby assessed the need for chronic treatment in subjects with CKD whose hyperkalemia had responded to treatment with Veltassa during Part A.
+L16: The primary efficacy analysis in Part A of Study RLY5016-301 gave an overall mean change in serum potassium from Part A Baseline to Week 4 of -1.01 (with se of 0.031) mEq/L [95% CI: (-1.07, -0.95)], that gave p &lt; 0.001 in the comparison to zero. These results satisfied the agreement with FDA, so the primary efficacy results from Part A of the study were considered as pivotal. The estimated difference in median change from Part B baseline between placebo and Veltassa was 0.72 mEq/L with 95% CI (0.46, 0.99), and p &lt; 0.001 for between-group difference in mean ranks of change. In conclusion, these results provided adequate evidence to support the effectiveness of Veltassa in achieving a clinically meaningful reduction in serum potassium levels in subjects with hyperkalemia, and a continued effect preventing the recurrence of hyperkalemia.
+L17: ## 2 INTRODUCTION
+L18: Veltassa contains a new chemical entity belonging to the pharmacologic class of Potassium Binders. The proposed clinical use for Veltassa is the treatment of hyperkalemia. The prevalence of hyperkalemia in patients with renal insufficiency or chronic kidney disease (CKD) ranges from 5% to 50% and increases as renal function declines. Thus, patients most at risk of hyperkalemia are those with compromised renal excretion of potassium, primarily patients with CKD and/or patients being treated with drugs that inhibit renal potassium excretion, including renin angiotensin aldosterone system inhibitors (RAASI). The Sponsor is seeking approval of Veltassa for the treatment of hyperkalemia.
+L19: ## 2.1 Overview
+L20: The clinical development program for Veltassa summarized in this NDA comprises eight studies: three Phase 1 studies, four Phase 2 studies and one two-part Phase 3 study (RLY5016-301) conducted under a Special Protocol Assessment (SPA) in which each part (Part A and Part B) serves as one of the two pivotal studies for marketing approval evaluation. A total of 791 subjects participated in these eight clinical studies, including patients with hyperkalemia, CKD, heart failure, diabetes, hypertension and/or patients who were receiving dialysis and healthy volunteer subjects; 734 subjects received at least one dose of Veltassa and the duration of dosing ranged from a single dose to 1 year.
+L21: The design of the clinical development program was discussed with FDA in a number of meetings. In the June 18, 2010 Type C Meeting, FDA recommended that the Sponsor design a program to support a treatment of hyperkalemia indication [REDACTED](b) (4) and confirmed that a serum potassium-related endpoint would be acceptable for approval. The Sponsor then initiated the treatment study RLY5016-205 with a primary efficacy endpoint of change in serum potassium from baseline.
+L22: At the End-of-Phase 2 (EOP2) meeting in November 22, 2011, FDA advised that rather than two separate pivotal studies for approval, the Sponsor could submit the results of a single Phase 3 study with an open-label treatment phase and a randomized withdrawal phase, with each phase serving as one of two pivotal studies required for approval. As a result, the Sponsor submitted a request for SPA for Phase 3 Study RLY5016-301, which was agreed to by FDA in the SPA Agreement Letter dated December 26, 2012. For the primary efficacy results from Part A in Study RLY5016-301 to be considered pivotal, the decrease in serum potassium from Part A Baseline to Part A Week 4 must have been \ge 0.7 mEq/L with p &lt; 0.05 (the choice of 0.7 mEq/L had been based on doubling 0.36 mEq/L, the estimated maximum change in serum potassium from Part A Baseline that could be expected due to undetected hemolysis in serum potassium samples).
+L23: Five clinical studies were conducted that comprise the core safety and efficacy evaluation of RLY5016 for Oral Suspension. Three of these five studies required hyperkalemia for entry and are subsequently referred to as Treatment studies:
+L24: - RLY5016-301 - "A Two-Part, Single-Blind, Phase 3 Study Evaluating the Efficacy and Safety of Patiromer for the Treatment of Hyperkalemia."
+- RLY5016-205 - "A Multicenter, Randomized, Open-Label, Dose Ranging Study to Evaluate the Efficacy and Safety of RLY5016 in the Treatment of Hyperkalemia in Patients with Hypertension and Diabetic Nephropathy Receiving ACEI and/or ARB Drugs, with or without Spironolactone."
+- RLY5016-103 - "A Phase 1 Open-Label, Single Arm Study of the Time to Onset of Action of RLY5016 (Patiromer) in Subjects with Chronic Kidney Disease and Hyperkalemia."
+L25: As the two pivotal studies for marketing approval evaluation, the two parts of the Phase 3 study RLY5016-301 are selected for full statistical review and evaluation.
+L26: ## 2.2 Data Sources
+L27: The sponsor's electronic data sources were stored in the directory of \\CDSESUB1\evsprod\NDA205739\0000 of the Center's electronic document room of the Agency. Data sources include all material reviewed, i.e., study reports, raw data sets in SDTM format, analysis data sets in ADAM format, SAS programs for deriving the data sets and analysis results, protocol amendments, individual data listings, reporting and statistical analysis plan, and literature referenced, etc. The SAS data sets are stored in the directory of \\CDSESUB1\evsprod\NDA205739\0000\m5\datasets. The analysis software is also stored in the same directory.
+L28: ## 3 STATISTICAL EVALUATION
+L29: ## 3.1 Data and Analysis Quality
+L30: The sponsor provides high quality data sets along with the programs to produce the analysis data sets and efficacy results which allow the statistical reviewer to confirm the efficacy results. The viewer is also able to verify the randomized treatment assignments by comparing the treatment assignment sheet with the analysis data set.
+L31: According to Clinical Study Report (CSR), all data were collected on original source documents and the investigators maintained detailed records for all study subjects. Subject data gathered during the study were captured electronically using eCRFs. The investigators and site personnel were trained on proper data collection processes per ICH guidelines at the investigators' meeting. Study sites were monitored by the sponsor at regular intervals in accordance with regulatory and
+L32: ICH guidelines. Fifteen (15) study sites were chosen for routine on-site quality assurance GCP audits.
+L33: Subjects who met Part B eligibility criteria were randomized centrally by the Interactive Web Response System (IWRS) in 1:1 ratio either to Veltassa or placebo. The Part B randomization was stratified within the four strata formed by the combination of the following two baseline characteristics: (1) Type 2 diabetes mellitus (T2DM) (yes/no), (2) Part A baseline central laboratory serum potassium (&lt; 5.8 mEq/L versus \ge 5.8 mEq/L). The randomization schedule was generated for each stratum using blocks of size 4.
+L34: According to CSR, the study was single-blind: the investigators were aware of subjects' treatment assignment while subjects were blinded throughout the study. Investigators were unblinded to allow management of subjects' serum potassium appropriately, and also to allow titration of Veltassa and decision-making about RAASi medication to be conducted appropriately. Statisticians involved in the statistical data analyses for the study were blinded to Part B treatment assignments and remained blinded until after the database was locked.
+L35: The original Statistical Analysis Plan (SAP) was developed on February 15, 2013. It was amended on March 20, 2013. A memorandum was added on August 2, 2013, and an addendum was added on September 30, 2013. Specified statistical data programming conventions were used in the Part B efficacy analyses, including details regarding the handling of missing data in the analysis of the Part B primary and secondary efficacy endpoints.
+L36: ## 3.2 Evaluation of Efficacy
+L37: ## 3.2.1 Study Design and Endpoints
+L38: Study RLY5016-301 was a two-part, single-blind, Phase 3 study of Veltassa in 243 subjects with hyperkalemia and CKD. Each part of Study RLY5016-301 (Part A and Part B) serves as one of the two pivotal studies for marketing approval evaluation. Part A of the study, the 4-week Treatment Phase, evaluated the ability of Veltassa to achieve a clinically meaningful reduction in serum potassium levels in subjects with hyperkalemia. As agreed by FDA, for the primary efficacy results from Part A of the study to be considered pivotal, the decrease in serum potassium from Part A Baseline to Part A Week 4 must have been \ge 0.7 mEq/L with p &lt; 0.05. Part B, the 8-week, randomized, placebo-controlled, withdrawal phase, evaluated the effect of withdrawing Veltassa (i.e., randomized assignment to placebo) on serum potassium control as compared to continued dosing with the treatment, to assess whether it had a continued effect and prevented the recurrence of hyperkalemia. Part B thereby assessed the need for chronic treatment in subjects with CKD whose hyperkalemia had responded to treatment with Veltassa during Part A.
+L39: Subjects who met eligibility criteria of Part A (screening serum potassium of 5.1 to &lt; 6.5 mEq/L) were assigned to one of the two Veltassa starting dose groups:
+L40: - Dose Group 1 – Subjects with a Part A screening serum potassium (local laboratory) of 5.1 to &lt; 5.5 mEq/L were assigned to a starting Veltassa dose of 8.4 g/day patiromer (administered as 4.2 g twice daily [BID]).
+- Dose Group 2 – Subjects with a Part A screening serum potassium (local laboratory) of 5.5 to &lt; 6.5 mEq/L were assigned to a starting Veltassa dose of 16.8 g/day patiromer (administered as 8.4 g BID).
+L41: Subjects with a baseline serum potassium \ge 5.5 mEq/L (central laboratory) at the beginning of Part A were entered into Part B of the study if they had responded to the 4 weeks of treatment with Veltassa during Part A, defined as completing Part A and satisfying all of the following at the Part A Week 4 visit: (1) serum potassium (local laboratory) in the target range for Part A (3.8 to &lt; 5.1 mEq/L), (2) receiving a RAASi and (3) receiving Veltassa at a dose of 8.4 to 50.4 g/day patiromer. Subjects eligible for Part B were randomized equally to either (1) continue Veltassa at the same daily dose as administered at the time of the Part A Week 4 visit or (2) withdraw (i.e., discontinue) Veltassa and receive placebo for an additional 8 weeks. At the beginning of Part B, a subject's dose of RAASi was the same as had been administered at the time of the Part A Week 4 visit.
+L42: Figure 3.1 Study Design of Study RLY-5016-301
+L43: Source: Figure 2 of the Analysis Data Reviewer's Guide by the Sponsor
+L44: A total of 243 subjects were enrolled in Part A of the study and 108 subjects were randomized into Part B of the study. Because one subject was randomized into Part B in error and not dosed, 107 subjects were analyzed for efficacy in Part B. Study RLY5016-301 was conducted by 71 principal investigators at 20 sites in the United States of America, 5 sites in Croatia, 1 site in Czech Republic, 6 sites in Denmark, 12 sites in Georgia, 9 sites in Hungary, 1 site in Italy, 4 sites in Serbia, 3 sites in Slovenia and 10 sites in Ukraine.
+L45: The sample size of the study was planned in order to have at least 90% power to detect a difference between Veltassa and placebo on the primary efficacy endpoint in Part B. A sample size of 40 in each group in Part B was estimated to provide over 90% power to detect such a difference. To ensure at least 40 subjects per group in Part B, approximately 240 subjects were needed in Part A of the study. With such a sample size, Part A was estimated to have more than 99% power to detect a mean change from baseline in serum potassium \ge 0.3 mEq/L.
+L46: Randomization in Part B of the study was stratified to ensure equal distribution to the placebo and Veltassa groups within the four strata formed by the combination of the following two baseline characteristics: (1) T2DM (yes/no), (2) Part A baseline central laboratory serum potassium (&lt; 5.8 mEq/L versus \ge 5.8 mEq/L).
+L47: ## Primary Endpoints:
+L48: ## Part A
+L49: The primary efficacy endpoint for Part A was the change in serum potassium (central laboratory) from Part A baseline to the Part A Week 4 visit. The secondary efficacy endpoint was the proportion of subjects with a centrally measured serum potassium level that was in the Part A target range (3.8 to &lt; 5.1 mEq/L) after 4 weeks of treatment with (i.e., at the Part A Week 4 visit).
+L50: ## Part B
+L51: The primary efficacy endpoint for Part B was the change from Part B baseline (central laboratory) serum potassium to serum potassium (central laboratory) at either:
+L52: - the Part B Week 4 visit, if the subject's serum potassium (local laboratory) remained \ge 3.8 mEq/L and &lt; 5.5 mEq/L up to the Part B Week 4 visit, or
+- the earliest Part B visit at which the subject's serum potassium (local laboratory) was &lt; 3.8 mEq/L or \ge 5.5 mEq/L.
+L53: The secondary endpoints for Part B were: (1) the proportion of subjects with a serum potassium \ge 5.5 mEq/L at any time (post Part B Baseline) through the Part B Week 8 visit, and (2) the proportion of subjects with a serum potassium \ge 5.1 mEq/L at any time (post Part B Baseline) through the Part B Week 8 visit.
+L54: ## 3.2.2 Statistical Methodologies
+L55: According to the CSR, the original SAP was finished on February 15, 2013, prior to the start of enrollment in the study on February 20, 2013. The last subject completed the study on August 6, 2013, and the clinical database was locked on September 30, 2013 and the data were unblinded on October 1, 2013. In addition, an amendment of the SAP was made on March 20, 2013; a memorandum was made on August 2, 2013 and an addendum was added on September 30, 2013. The SAP for the Integrated Summary of Efficacy (ISE) was made on June 24, 2014, to provide detailed descriptions of the analyses and presentation of the pooled data proposed for the ISE of RLY5016 for Oral Suspension.
+L56: An Intent-to-Treat (ITT) population was used for all efficacy summaries and analyses for both Part A and Part B of the study. The ITT population for the efficacy analyses in Part A consisted of all enrolled subjects, defined as any subject who took at least one dose of Veltassa. The ITT population for the efficacy analyses in Part B included all subjects randomized, defined as any subject who met all eligibility criteria for Part B and who was randomized to either Veltassa or placebo group.
+L57: In Part A, as the primary efficacy analysis, the mean change will be estimated using a longitudinal repeated measures model that includes two binary covariates for the presence of heart failure (HF) at baseline (yes/no) and T2DM at baseline (yes/no) and a continuous covariate containing the Baseline Part A level of serum K^+. As agreed by FDA, for the primary efficacy results from Part A of the study to be considered pivotal, the decrease in serum potassium from Part A Baseline to Part A Week 4 must have been \ge 0.7 mEq/L with p &lt; 0.05.
+L58: In Study 301, there are more local laboratory results available than those from central laboratory at each visit. Two methods for estimating missing central laboratory data were used. If no central laboratory serum potassium value is available for a visit but a local laboratory value is available, missing central laboratory serum potassium results were estimated from local laboratory results using a linear regression. Multiple imputation procedures were used in the event where the local laboratory result was also missing at a given visit.
+L59: Imputation was used to estimate missing serum potassium levels in the primary analysis of the Part B primary efficacy endpoint for four subjects, as follows:
+L60: - The potassium level was estimated using multiple imputation for 3 of 107 subjects, which were missing both central and local laboratory serum potassium values at Week 4 because of early withdrawal from Part B (and none of these subjects had a local laboratory serum potassium value post-Part B baseline that was &lt; 3.8 mEq/L or \ge 5.5 mEq/L); the potassium levels for these three subjects were estimated using multiple imputation.
+- For 1 of 107 subjects (1%), a missing central laboratory serum potassium value was imputed for analysis from the local laboratory value. The missing central laboratory value was imputed by applying a regression model to the local laboratory value.
+L61: In Part B, changes from baseline serum potassium were ranked, and the treatment groups were compared using an ANOVA model with strata used at randomization (Part A Baseline serum potassium [\le 5.8 or \ge 5.8 mEq/L] and presence of T2DM [yes/no]) included as covariates and a treatment indicator. To compare Veltassa with placebo, the difference between the mean ranks was tested using a two-sided t-test. The difference and 95% CI between the treatment groups in median change from baseline was estimated using a Hodges-Lehmann estimator. The statistical tests and estimates were calculated for each of the 10 complete observation datasets and combined using multiple imputation methods.
+L62: ## 3.2.3 Patient Disposition, Demographic and Baseline Characteristics
+L63: A total of 243 subjects were enrolled in Part A (n = 92 in Dose Group 1 and n = 151 in Dose Group 2). All the 243 subjects received at least one dose of Veltassa and were included in the ITT population for the analysis of Part A. Of these 243 subjects, a majority (64%) were enrolled at sites in 3 countries in Eastern Europe that were not EU member states; 27% were enrolled at sites in 6 countries in the EU; 9% were enrolled at 14 sites in the US.
+L64: Of the 243 subjects enrolled into Part A of the study, 58% were male and 98% were white; the median age was 65 years (range: 29 to 80 years). A greater proportion of subjects were assigned to Dose Group 2 (n = 151 assigned to Dose Group 2 as compared to n=92 assigned to Dose Group 1). The distributions of gender and age were similar in the two starting dose groups.
+L65: The baseline medical history in Part A is as follows. Based on the eGFR, 45% (109/243) of the subjects overall had Stage 4 CKD or worse (eGFR &lt; 30), 26% (63/243) had Stage 3b CKD (eGFR 30 to &lt; 45), 20% (49/243) had Stage 3a CKD (eGFR 45 to &lt; 60) and 9% (22/243) had Stage 2 CKD (eGFR 60 to &lt; 90). Overall, 57% (139/243) of the subjects had T2DM; 42% (102/243) of the subjects had HF; 25% (60/243) of the subjects had experienced a prior MI; and 97% (236/243) of the subjects had hypertension.
+L66: Of the 107 subjects who participated in Part B of the study, 54% were male and all were white; the median age was 65 years (range: 32 to 80 years). The demographics were similar in the placebo and Veltassa groups.
+L67: The baseline medical history in Part B is similar to that of Part A. Based on the eGFR, 41% (44/107) of the Part B subjects overall had Stage 4 or worse CKD, 27% (29/107) had Stage 3b CKD, 21% (22/107) had Stage 3a CKD and 11% (12/107) had Stage 2 CKD. Sixty-three percent (63% [67/107]) of the Part B subjects overall had T2DM and the proportion with T2DM was similar in both treatment groups; 46% (49/107) of the Part B subjects had HF, with similar proportions in both arms; 30% [32/107] of the Part B subjects had experienced a prior MI, with similar proportions in both treatment arms, and 97% (104/107) of the Part B subjects had hypertension, with similar proportions in both treatment arms.
+L68: The medical history of both part A and Part B are depicted in Table 3.1.
+L69: Table 3.1 Key Demographic/Baseline Characteristics during the Randomized Phase (Randomized ITT Population)
+L70: Demographic/Baseline Characteristic	Part A (243)	Part B
+Placebo (52)	RLY 5016 FOS (55)
+Gender	Male	140 (58%)	30 (58%)	28 (51%)
+Age	≥ 65	131 (54%)	31 (60%)	29 (53%)
+≥ 75	41 (17%)	7 (13%)	11 (20%)
+Race	White	239 (98%)	52 (100%)	55 (100%)
+Black	3 (1%)	-	-
+Chronic Kidney Disease	2	22 (9%)	4 (8%)	8 (15%)
+3a	49 (20%)	11 (21%)	11 (20%)
+3b	63 (26%)	14 (27%)	15 (27%)
+4 or worse	109 (45%)	23 (44%)	21 (38%)
+Type 2 Diabetes	139 (57%)	33 (63%)	34 (62%)
+Heart Failure	102 (42%)	22 (42%)	27 (49%)
+Prior Myocardial Infarction	60 (25%)	14 (27%)	18 (33%)
+Hypertension	236 (97%)	50 (96%)	54 (98%)
+Eastern Europe (non-EU)	152 (64%)	40 (77%)	44 (80%)
+European Union	64 (27%)	10 (19%)	8 (15%)
+US Subjects	22 (9%)	2 (4%)	2 (4%)
+Baseline Serum Potassium	5.58±0.03	4.45±0.34	4.49±0.43
+L71: Source: Tables 21, 22, 24, 26, 27, 29, 30 in Clinical Study Report: RLY5016-301
+L72: ## Disposition in Part A
+L73: Of the 243 subjects enrolled in Part A, 92 (38%) had a screening serum potassium from 5.1 to &lt; 5.5 mEq/L and they were, therefore, assigned to Dose Group 1; the remaining 151 subjects (62%) had a screening serum potassium from 5.5 to &lt; 6.5 mEq/L and they were assigned to Dose Group 2. Of the 243 subjects enrolled in Part A, 219 subjects (90% overall; 85 subjects [92%] from Dose Group 1 and 134 subjects [89%] from Dose Group 2) completed Part A and 24 subjects (10% overall; 7 subjects [8%] from Dose Group 1 and 17 subjects [11%] from Dose Group 2) withdrew early from Part A. The reasons of withdraw are depicted in Table 3.2.
+L74: Table 3.2 Patient Disposition in Part A (Part A ITT Population)
+L75: Part A Treatment Phase	Group 1
+92 (%)	Group 2
+151 (%)	Total
+243 (%)
+Subjects
+Completing Part A	Total	85 (92)	134 (89)	219 (90)
+Eligible for Part B	16 (17)	94 (62)	110 (45)
+Reasons for not
+Completing Part A	Total	7 (8)	17 (11)	24 (10)
+AEs	2 (2)	8 (5)	10 (4)
+Subject withdrew	2 (2)	3 (2)	5 (2)
+High serum potassium	1 (1)	2 (1)	3 (1)
+Low serum potassium	0	1 (1)	1 (<1)
+eGFR decrease	2 (2)	0	2 (1)
+Protocol violation	0	2 (2)	2 (1)
+Non-compliance	0	1 (1)	1 (<1)
+L76: Source: Table 14 in Clinical Study Report: RLY5016-301
+L77: ## Disposition of Subjects in Part B
+L78: Of the 107 subjects who participated in Part B of the study, 85 (79%) were enrolled at sites in 3 countries in Eastern Europe that were not EU member states, 18 (17%) were enrolled at sites in 6 countries in the EU and 4 (4%) were enrolled at 3 sites in the US. A greater proportion (79%) of the subjects in Part B were from sites in non-EU countries as compared to the proportion of Part A subjects (64%) enrolled at sites in non-EU countries.
+L79: Of the 107 subjects who participated in Part B, 95 subjects (45 [87%] in placebo and 50 [91%] in the Veltassa group) remained in the study through Week 4 of Part B; 12 subjects (7 [13%] in placebo and 5 [9%] in the Veltassa group) discontinued prior to Week 4 of Part B. The reasons for early withdrawal from Part B were depicted in Tables 3.3 and 3.4.
+L80: Table 3.3 Patient Disposition in Part B (Part B ITT Population)
+L81: Placebo
+N = 52
+n (%)	RLY5016 FOS
+N = 55
+n (%)	Total
+N = 107
+n (%)
+Part B Randomized Withdrawal Phase	
+Remained on IP through Part B Week 4a	45 (87)	50 (91)	95 (89)
+Discontinued IP prior to Part B Week 4	7 (13)	5 (9)	12 (11)
+Remained on IP through Part B Week 8b	30 (58)	45 (82)	75 (70)
+Discontinued IP prior to Part B Week 8	22 (42)	10 (18)	32 (30)
+After Part B Randomized Withdrawal Phase	
+Completed follow-up in Part B	45 (87)	51 (93)	96 (90)
+Did not complete follow-up in Part B	7 (13)	4 (7)	11 (10)
+L82: eCRF = electronic case report form; IP = investigational product (i.e., placebo or RLY5016 FOS); ITT = intent-to-treat; IWRS = interactive web response system; RLY5016 FOS = RLY5016 for Oral Suspension
+L83: Source: Table 17 in Clinical Study Report: RLY5016-301
+L84: Table 3.4 Reasons for Not Completing Part B (Part B ITT Population)
+L85: Placebo
+N = 52
+n (%)	RLY5016 FOS
+N = 55
+n (%)	Total
+N = 107
+n (%)
+Completed Part B	30 (58)	45 (82)	75 (70)
+Did not complete Part B	22 (42)	10 (18)	32 (30)
+Met protocol-specified withdrawal criteria (high serum potassium results)	14 (27)	2 (4)	16 (15)
+Met protocol-specified withdrawal criteria (low serum potassium results)	1 (2)	2 (4)	3 (3)
+Met protocol-specified withdrawal criteria (serum potassium results)	2 (4)	1 (2)	3 (3)
+Adverse event	1 (2)	1 (2)	2 (2)
+Met protocol-specified withdrawal criteria (eGFR decrease to < 10 mL/min/1.73m2 or need for	1 (2)	1 (2)	2 (2)
+Physician decision	1 (2)	1 (2)	2 (2)
+Death	1 (2)	0	1 (1)
+Lost to follow-up	0	1 (2)	1 (1)
+Non-compliance with study drug	0	1 (2)	1 (1)
+Withdrawal by subject	1 (2)	0	1 (1)
+L86: Source: Table 18 in Clinical Study Report: RLY5016-301
+L87: ## Protocol Violations/Deviations
+L88: The SAP identified the following as important protocol deviations: subject enrolled in violation of the entry criteria for either Part A or Part B; informed consent violations; subject received prohibited potassium-affecting medication during study participation; subject met one of the study withdrawal criteria but was not withdrawn from study; and treatment arms were incorrectly dispensed.
+L89: Of the 243 subjects who participated in Part A, there were 16 subjects with important protocol deviations (7 subjects in Dose Group 1 and 9 subjects in Dose Group 2). Of the 107 subjects who participated in Part B, there were 2 subjects with important protocol deviations. Of the 16 subjects with important protocol deviations in Part A, 1 subject had 3 important protocol deviations and the other 15 subjects each had 1 important protocol deviation. There were no informed consent violations or important protocol deviations of treatment arm being incorrectly dispensed.
+L90: ## 3.2.4 Results and Conclusions
+L91: ## Primary Analysis of Part A Primary Efficacy Endpoint
+L92: The primary efficacy outcome for Part A was the change in serum potassium from Part A Baseline to the Part A Week 4 visit; mean change was estimated using a longitudinal repeated measures model. Twenty-four (24) subjects (10%) had neither a central nor a local laboratory serum potassium value at Week 4. Six (6) of the 243 subjects in the Part A ITT Analysis Population did not have at least one post-baseline serum potassium because of early withdrawal from Part A. These 6 subjects were, therefore, not included in the longitudinal Part A primary efficacy analysis.
+L93: Mean (SD) serum potassium at Part A Baseline was 5.58 (0.51) mEq/L overall, 5.31 (0.57) mEq/L in Dose Group 1 and 5.74 (0.40) mEq/L in Dose Group 2. The mean change from baseline in serum potassium at Week 4 was -0.65 mEq/L [95% CI: (-0.74, -0.55)] in Dose Group 1, and -1.23 mEq/L [95% CI: (-1.31, -1.16)] in Dose Group 2. The overall mean (SE) change in serum potassium from Part A Baseline to Part A Week 4 was -1.01 (0.031) mEq/L [95% CI: (-1.07, -0.95)] (p &lt; 0.001). These results satisfied the agreement with FDA, that for the primary efficacy results from Part A of the study to be considered pivotal, the decrease in serum potassium from Part A Baseline to Part A Week 4 must have been \ge 0.7 mEq/L with p &lt; 0.05 (p-value comparing mean change from baseline to zero).
+L94: **Table 3.5 Estimated Change in Serum Potassium (mEq/L) from Part A Baseline to up to Part A Week 4 (Part A ITT Population)**
+L95: Visit	Dose Group 1
+5.1 to < 5.5 mEq/L
+N = 90	Dose Group 2
+5.5 to < 6.5 mEq/L
+N = 147	Total
+5.1 to < 6.5 mEq/L
+N=237
+Mean\pmSE	95% CI	Mean\pmSE	95% CI	Mean\pmSE	95% CI	p-value†
+Part A Week 1	-0.47 \pm 0.047	(-0.56, -0.37)	-0.87 \pm 0.042	(-0.95, -0.78)	-0.71 \pm 0.032	(-0.78, -0.65)	
+Part A Week 2	-0.63 \pm 0.051	(-0.73, -0.53)	-1.09 \pm 0.039	(-1.17, -1.01)	-0.91 \pm 0.031	(-0.97, -0.85)	
+Part A Week 3	-0.68 \pm 0.057	(-0.79, -0.57)	-1.23 \pm 0.039	(-1.30, -1.15)	-1.02 \pm 0.032	(-1.08, -0.95)	
+Part A Week 4	-0.65 \pm 0.049	(-0.74, -0.55)	-1.23 \pm 0.040	(-1.31, -1.16)	-1.01 \pm 0.031	(-1.07, -0.95)	< 0.001
+L96: Source: Tables 35 in Clinical Study Report: RLY5016-301
+L97: The estimates for Part A Week 1 through Part A Week 4 come from a longitudinal model with an unstructured covariance structure and three categorical covariates: a) time as defined by weekly Part A visits, b) presence of type 2 diabetes mellitus at Part A Baseline and c) presence of heart failure at Part A Baseline; and Part A Baseline central serum potassium as a continuous covariate.
+L98: †The p-value comes from a test comparing the mean change in serum potassium at Part A Week 4 to zero.
+L99: ## Primary Analysis of Part B Primary Efficacy Endpoint
+L100: According to the sponsor, changes from baseline serum potassium were ranked, and the treatment groups were compared using an ANOVA model with strata used at randomization (Part A Baseline serum potassium [&lt;5.8 or \ge 5.8 mEq/L] and presence of T2DM [yes/no]) included as covariates in the model and a treatment indicator.
+L101: There were three subjects with missing both central and local laboratory serum potassium values at Week 4 because of early withdrawal from Part B. The potassium levels for these three subjects were estimated using multiple imputation. One patient had missing central laboratory serum potassium value and it was imputed for analysis from the local laboratory value.
+L102: The statistical tests and estimates were calculated for each of the 10 complete observation datasets and combined using multiple imputation methods. The estimated median change in the Veltassa group was calculated as the median of Veltassa medians from the 10 complete-observation datasets created through multiple imputations. The placebo median was calculated by adding the Hodges-Lehmann difference to the RLY5016 FOS median.
+L103: The distribution of serum potassium at Part B Baseline was similar in the placebo and Veltassa groups. The estimated median changes from Part B baseline in serum potassium in the placebo and the Veltassa group were increases of 0.72 and 0 mEq/L, respectively. The estimated difference in median change from Part B baseline (placebo minus Veltassa) was 0.72 mEq/L with 95% CI (0.46, 0.99); with p&lt;0.001 for between-group difference in mean ranks of change.
+L104: **Table 3.6 Change in Serum Potassium from Part B Baseline to Part B Week 4 or the First Local Laboratory Serum Potassium Result of &lt; 3.8 mEq/L or \ge 5.5 mEq/L (Part B ITT Population)**
+L105: Estimated Median Change in Serum K+ (mEq/L) (quartiles)	Difference in Median Change (mEq/L)
+Placebo
+N = 52	RLY5016 FOS
+N = 55	Estimate (95% CI)	p-value
+0.72 (0.22, 1.22)	0.00 (-0.30, 0.30)	0.72 (0.46, 0.99)	< 0.001
+L106: Source: Tables 41 in Clinical Study Report: RLY5016-301
+L107: The reviewer confirmed the efficacy results for both Part A and Part B of the study using the analysis data that were provided by the sponsor. The reviewer also used other nonparametric test statistical methods such as Wilcoxon test to verify the primary efficacy results in Part B. The missing data in these two parts of the study seem to be minor and do not lead to a different conclusion of the primary efficacy results.
+L108: ## Analyses of Part B Secondary Efficacy Endpoints
+L109: On the other hand, the sponsor also provided the efficacy results of the two secondary endpoints. These are (1) the proportion of subjects with a central laboratory serum potassium \ge 5.5 mEq/L at any time (post-Part B Baseline) through the Part B Week 8 visit and (2) the proportion of subjects with a central laboratory serum potassium \ge 5.1 mEq/L at any time (post-Part B Baseline) through the Part B Week 8 visit.
+L110: The estimated proportion of subjects with a serum potassium \ge 5.5 mEq/L was 60% in the placebo and 15% in the Veltassa group; the estimated difference in percentages was 45% (95% CI of [29%, 61%]) which was statistically significant (p &lt; 0.001). The estimated proportion of subjects with a serum potassium \ge 5.1 mEq/L was 91% in the placebo and 43% in the Veltassa group; the estimated difference in percentages was 48% (95% CI of [33%, 63%]) which was statistically significant (p &lt; 0.001).
+L111: **Table 3.7 Efficacy Results of Part B Secondary Outcomes
+(Part B ITT Population)**
+L112: Secondary Outcome	Stratified Percentage (95% CI)
+Placebo
+N = 52	RLY5016 FOS
+N = 55	Difference	p-value
+Having a serum K^+ \ge 5.5
+through the Part B Week 8	60 (47, 74)	15 (6, 24)	45 (29, 61)	< 0.001
+Having a serum K^+ \ge 5.1
+through the Part B Week 8	91 (83, 99)	43 (30, 56)	48 (33, 63)	< 0.001
+L113: Source: Tables 42 in Clinical Study Report: RLY5016-301
+L114: As a result, for the subjects with a response to an initial 4 weeks of treatment of hyperkalemia with Veltassa during Part A, their results in Part B demonstrated a statistically significant increase in mean serum potassium when Veltassa was withdrawn as compared to maintaining the serum potassium at the Part B baseline level. Significantly more subjects in the placebo group than in the Veltassa group developed recurrent hyperkalemia in Part B. The Part B data seem to support the need for the continued use of Veltassa to maintain control of serum potassium.
+L115: ## 3.3 Evaluation of Safety
+L116: NA.
+L117: ## 4 FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L118: ## 4.1 Subgroup Analyses in Part A
+L119: Subgroup analyses of the Part A primary endpoint were performed by age (&lt;65 years, \ge 65 years), sex, region (non-EU countries, EU countries combined with US), T2DM, HF, and Part A Baseline (central laboratory) serum potassium (&lt; 5.5 mEq/L, \ge 5.5 mEq/L). As 98% of the subjects were white, no subgroup analysis by race was performed. In the ITT population of the Part A of the study, the sample size of each of the subgroups and the subgroup analysis results are given in Figure 4.1. All subgroup analyses are considered exploratory.
+L120: Tests of whether the mean change in each subgroup was different from zero resulted in nominal p-values &lt; 0.001 in all subgroups (note that these p-values have no formal inferential interpretation). Out of the seven baseline characteristics examined by subgroup, the subgroups corresponding to the Part A Baseline serum potassium level (&lt; 5.5 mEq/L, \ge 5.5 mEq/L) exhibited the greatest difference in the magnitude of the mean change in serum potassium. The higher Part A Baseline serum potassium levels, the greater reduction from baseline in serum potassium observed in the subgroup.
+L121: For each baseline characteristic for which an endpoint was examined by subgroup, an interaction p-value was generated to aid in assessing differences in the effect size across the subgroups. Interaction p-values suggested a differential response for the subgroups based on Part A baseline serum potassium level (p &lt; 0.001), sex (p = 0.003) and region (p &lt; 0.001).
+L122: Figure 4.1 Forest Plot of the Part A Primary Efficacy Endpoint by Subgroups:
+Change in Serum Potassium from Part A Baseline to Part A Week 4
+(Part A ITT Population)
+L123: Source: Figure 8 in Clinical Study Report: RLY5016-301.
+L124: ## 4.2 Subgroup Analyses in Part B
+L125: Subgroup analyses of the Part B primary endpoint were performed by age (&lt;65 years, \ge 65 years), sex, region (non-EU countries, EU countries combined with US), T2DM, HF, and Part A Baseline (central laboratory) serum potassium (&lt; 5.5 mEq/L, \ge 5.5 mEq/L), and investigator's assessment of whether the subject was on a maximal RAASi medication dose at the Part A Baseline. No subgroup analysis by race was performed as all of the subjects participating in Part B were white. In the ITT population of the Part B of the study, the sample size of each of the subgroups and the subgroup analysis results are given in Figure 4.2. All subgroup analyses are considered exploratory.
+L126: For each baseline characteristic for which an endpoint was examined by subgroup, an interaction p-value was generated to aid in assessing differences in the effect size across the subgroups.
+L127: In all 14 subgroups, the estimated median change in serum potassium from Part B Baseline was an increase in the placebo group (0.52 mEq/L to 1.32 mEq/L) and in the Veltassa group (-0.10 mEq/L to 0.10 mEq/L). Tests comparing Veltassa with placebo in each subgroup resulted in nominal p-values \le 0.006 in all subgroups in favor of the treatment (note that these p-values have no formal inferential interpretation). Interaction p-values indicated a differential response for the subgroups based on region (p = 0.003).
+L128: **Figure 4.2 Forest Plot of the Part B Primary Efficacy Endpoint by Subgroups:
+Change in Serum Potassium from Part B Baseline to Part B Week 4 or the First Local
+Laboratory Serum Potassium Value of &lt; 3.8 mEq/L or \ge 5.5 mEq/L
+(Part B ITT Population)**
+L129: Source: Figure 9 in Clinical Study Report: RLY5016-301
+L130: In addition to the estimated overall median of the change from Part B Baseline to Part B Week 4 or the first local laboratory serum potassium result of &lt; 3.8 mEq/L or \ge 5.5 mEq/L for each subgroup, the estimated medians in the placebo and the Veltassa group are given in the following table for sex and age groups.
+L131: **Table 4.1 Change in Serum Potassium from Part B Baseline to Part B Week 4 or the First Local Laboratory Serum Potassium Value of &lt; 3.8 mEq/L or \ge 5.5 mEq/L in Age Groups (ITT population)**
+L132: Age group	Placebo	RLY5016 FOS
+Median Change	Quartiles	Median Change	Quartiles
+< 65 years	N = 21	N = 26
+N = 47	0.57	(-0.23, 0.88)	0.00	(-0.20, 0.40)
+\ge 65 years	N = 31	N = 29
+N = 60	0.81	(0.51, 1.48)	0.00	(-0.35, 0.30)
+L133: Source: Table 44 in Clinical Study Report: RLY5016-301
+L134: **Table 4.2 Change in Serum Potassium from Part B Baseline to Part B Week 4 or the First Local Laboratory Serum Potassium Value of &lt; 3.8 mEq/L or \ge 5.5 mEq/L in Sex Groups (ITT population)**
+L135: Sex group	Placebo	RLY5016 FOS
+Median Change	Quartiles	Median Change	Quartiles
+Male	N = 30	N = 28
+N = 58	0.60	(0.13, 1.03)	-0.10	(-0.34, 0.30)
+Female	N = 22	N = 27
+N = 49	0.93	(0.38, 1.38)	0.10	(-0.15, 0.30)
+L136: Source: Table 44 in Clinical Study Report: RLY5016-301
+L137: ## 5 SUMMARY AND CONCLUSIONS
+L138: ## 5.1 Statistical Issues
+L139: The study design and statistical analysis methods seem to be appropriate for the assessment of the effectiveness of Veltassa in the reduction of serum potassium levels in subjects with hyperkalemia, (b) (4).
+L140: ## 5.2 Collective Evidence
+L141: Study RLY5016-301 was a two-part, single-blind, Phase 3 study of Veltassa served as two pivotal studies to assess whether the treatment achieved a clinically meaningful reduction in serum potassium levels in subjects with hyperkalemia, and whether it had a continued effect preventing the recurrence of hyperkalemia.
+L142: The primary efficacy analysis in Part A of Study RLY5016-301 gave an overall mean change in serum potassium from Part A Baseline to Week 4 of -1.01 (with se of 0.031) mEq/L [95% CI: (-1.07, -0.95)], that gave p &lt; 0.001 in the comparison to zero. These results satisfied the agreement with FDA therefore Part A was considered as a pivotal study supporting the effectiveness of Veltassa in achieving a clinically meaningful reduction in serum potassium levels. (b) (4)
+L143: ## 5.3 Conclusions and Recommendations
+L144: Study RLY5016-301 consisted of two parts, Part A and Part B. The ITT population of Part A had 237 subjects with at least one post-baseline serum potassium measure. With the overall mean (SE) change in serum potassium from Baseline to Week 4 being -1.01 (0.031) mEq/L [95% CI: (-1.07, -0.95)] (p &lt; 0.001), Part A satisfied the agreement with FDA, so it was considered pivotal. At the same time, the estimated difference in median change from Part B baseline between placebo and Veltassa was 0.72 mEq/L with 95% CI (0.46, 0.99), with p &lt; 0.001 for between-group difference in mean ranks of change. In combination, these results provide adequate evidence to support the effectiveness of Veltassa in achieving a clinically meaningful reduction in serum potassium levels in subjects with hyperkalemia, (b) (4)
+L145: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L146: /s/
+L147: FANHUI KONG
+L148: 06/11/2015
+L149: HSIEN MING J HUNG
+L150: 06/11/2015
+L151: ## STATISTICS FILING CHECKLIST FOR A NEW NDA/BLA
+L152: NDA Number: 205739
+L153: Applicant: Relypsa, Inc.
+L154: Stamp Date: 10/21/2014
+L155: Drug Name: patiromer
+L156: NDA/BLA Type: NDA
+L157: On **initial** overview of the NDA/BLA application for RTF:
+L158: Content Parameter	Yes	No	NA	Comments
+1	Index is sufficient to locate necessary reports, tables, data, etc.	X	
+2	ISS, ISE, and complete study reports are available (including original protocols, subsequent amendments, etc.)	X	
+3	Safety and efficacy were investigated for gender, racial, and geriatric subgroups investigated (if applicable).	X	
+4	Data sets in EDR are accessible and do they conform to applicable guidances (e.g., existence of define.pdf file for data sets).	X
+L159: IS THE STATISTICAL SECTION OF THE APPLICATION FILEABLE? YES
+L160: If the NDA/BLA is not fileable from the statistical perspective, state the reasons and provide comments to be sent to the Applicant.
+L161: Please identify and list any potential review issues to be forwarded to the Applicant for the 74-day letter.
+L162: Content Parameter (possible review concerns for 74-day letter)	Yes	No	NA	Comment
+Designs utilized are appropriate for the indications requested.	Y	
+Endpoints and methods of analysis are specified in the protocols/statistical analysis plans.	Y	
+Interim analyses (if present) were pre-specified in the protocol and appropriate adjustments in significance level made. DSMB meeting minutes and data are available.	NA	
+Appropriate references for novel statistical methodology (if present) are included.	NA	
+Safety data organized to permit analyses across clinical trials in the NDA/BLA.	
+Investigation of effect of dropouts on statistical analyses as described by applicant appears adequate.	Y
+L163: File name: 5_Statistics Filing Checklist for a New NDA_BLA110207
+L164: ## STATISTICS FILING CHECKLIST FOR A NEW NDA/BLA
+L165: Fanhui Kong	12/4/2014
+Reviewing Statistician	Date
+L166: Supervisor/Team Leader	Date
+L167: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L168: /s/
+L169: FANHUI KONG
+L170: 12/12/2014
+L171: HSIEN MING J HUNG
+L172: 12/12/2014
+L173: Part A: Treatment Phase
+Single-Arm
+4 Weeks
+RLY5016 for Oral Suspension Dose
+Titrated to K^+ 3.8 to < 5.1 mEq/L
+Part B: Withdrawal Phase
+Randomized,
+Placebo-Controlled
+8 Weeks
+Responders with ABL K^+ 5.5-6.4
+243 Patients with CKD and on RAAS Inhibitor Medications
+Screening K^+ 5.1 to < 5.5 mEq/L
+Starting dose = 8.4 g/d
+Screening K^+ 5.5 to < 6.5 mEq/L
+Starting dose = 16.8 g/d
+Primary Endpoint:
+Change from Part A Baseline (ABL) in Mean Serum K^+
+RLY5016 for Oral Suspension + RAAS Inhibitor
+Placebo + RAAS Inhibitor
+Primary Endpoint:
+Between Group Difference in Serum K^+ at 4 weeks
+L174: Subgroup	N (%)	Estimated mean change (95% CI)	Interaction p-value
+Overall	237 (100)	-1.01 (-1.07, -0.95)	
+Type 2 diabetes mellitus	
+Present	138 (58)	-1.00 (-1.08, -0.92)	0.77
+Not present	99 (42)	-1.02 (-1.12, -0.92)	0.22
+Heart failure	
+Present	100 (42)	-1.06 (-1.16, -0.95)	0.22
+Not present	137 (58)	-0.98 (-1.06, -0.90)	0.22
+Baseline serum potassium	<0.001
+<5.5 mmol/l	99 (42)	-0.54 (-0.64, -0.44)	
+≥ 5.5 mmol/l	138 (58)	-1.35 (-1.43, -1.27)	
+RAASi	0.20
+On maximal dose	102 (43)	-0.96 (-1.05, -0.87)	
+Not on maximal dose	135 (57)	-1.05 (-1.13, -0.96)	
+Sex	0.003
+Male	136 (57)	-0.93 (-1.01, -0.84)	
+Female	101 (43)	-1.12 (-1.21, -1.02)	
+Age group	0.50
+<65 years	111 (47)	-0.96 (-1.05, -0.88)	
+≥ 65 years	126 (53)	-1.01 (-1.10, -0.92)	
+Region	<0.001
+Eastern Europe (non-EU)	153 (65)	-1.15 (-1.23, -1.07)	
+European Union and US	84 (35)	-0.75 (-0.87, -0.64)	
+Change from Baseline in Serum Potassium (mmol/l)
+L175: Subgroup	N (%)	Difference in median change (mEq/L)	Interaction p-value
+Estimates	95% CI
+Part B ITT population	107 (100)	0.72	(0.46, 0.99)	
+Type 2 diabetes mellitus	
+Present	67 (63)	0.66	(0.28, 1.03)	0.56
+Not present	40 (37)	0.82	(0.47, 1.17)	0.50
+Heart failure	
+Present	49 (46)	0.64	(0.29, 0.99)	0.50
+Not present	58 (54)	0.83	(0.42, 1.24)	0.50
+ABL central laboratory serum K+	
+<5.8 mEq/L	53 (50)	0.80	(0.44, 1.17)	0.74
+\ge5.8 mEq/L	54 (50)	0.72	(0.34, 1.09)	0.74
+RAASi	
+On maximal dose	42 (39)	0.92	(0.54, 1.29)	0.41
+Not on maximal dose	65 (61)	0.69	(0.32, 1.05)	0.41
+Sex	
+Male	58 (54)	0.70	(0.36, 1.04)	0.63
+Female	49 (46)	0.83	(0.41, 1.24)	0.63
+Age group	
+<65 years	47 (44)	0.57	(0.11, 1.03)	0.37
+\ge65 years	60 (56)	0.81	(0.49, 1.14)	0.37
+Region	
+Eastern Europe (non-EU)	85 (79)	0.52	(0.25, 0.78)	0.003
+European Union and US	22 (21)	1.39	(0.91, 1.88)	0.003
+| --- Favors RLY5016 FOS --->

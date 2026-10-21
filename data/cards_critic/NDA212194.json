@@ -1,0 +1,37 @@
+{
+  "app": "NDA212194",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "receipt_date",
+      "severity": "low",
+      "issue": "Automated flags on numbers 15, 2018, 22 are false positives; they are components of dates (November 15, 2018 / January 22, 2019) which are excluded from citation-support requirements, though these dates are not in the receipt_date citation quote (they do appear in the priority_review line 12 citation)."
+    },
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "low",
+      "issue": "The endpoint text adds the qualifier 'in AIP patients', which is not stated in the primary endpoint citation (the quote defines AAR without restricting to AIP)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "receipt_date",
+        "number": "15",
+        "text": "June 4, 2019 (NDA dated and received June 4, 2019; earlier submissions November "
+      },
+      {
+        "field": "receipt_date",
+        "number": "2018",
+        "text": "June 4, 2019 (NDA dated and received June 4, 2019; earlier submissions November "
+      },
+      {
+        "field": "receipt_date",
+        "number": "22",
+        "text": "June 4, 2019 (NDA dated and received June 4, 2019; earlier submissions November "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

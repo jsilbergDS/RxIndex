@@ -1,0 +1,22 @@
+{
+  "app": "NDA022252",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False-positive automated flag: '1377' is contained in the citation quote as '1,377 subjects in Europe' (comma-formatted), so it is actually cited."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "1377",
+        "text": "N=1377 subjects treated"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

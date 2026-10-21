@@ -1,0 +1,68 @@
+{
+  "app": "NDA209521",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "medium",
+      "issue": "The age range '9 to 45 years of age' is not contained in this field's citation quote (which only covers IGA score and lesion counts); it appears in the design/phase citation but not here.",
+      "flag": "uncited_numbers 9,45"
+    },
+    {
+      "field": "pivotal_trials[1].population",
+      "severity": "medium",
+      "issue": "The age range '9 to 45 years of age' is not contained in this field's citation quote (which only covers IGA score and lesion counts)."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "medium",
+      "issue": "The claim 'approved without a prior complete response letter' is not supported by the field's citation, which is only the NDA reference/receipt letter; the inference is fine but the added CRL statement is uncited."
+    },
+    {
+      "field": "first_cycle_approval.detail (flag: uncited_numbers 2018)",
+      "severity": "low",
+      "issue": "False positive: '2018' is the PDUFA goal date (a date), which should be excluded from uncited-number checks; no action needed."
+    },
+    {
+      "field": "approval_program.summary (flag: uncited_numbers 209521)",
+      "severity": "low",
+      "issue": "False positive: '209521' is the NDA application number (an identifier), which should be excluded from uncited-number checks; no action needed."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "9",
+        "text": "Patients 9 to 45 years of age with moderate to severe acne vulgaris (IGA score \u2265"
+      },
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "45",
+        "text": "Patients 9 to 45 years of age with moderate to severe acne vulgaris (IGA score \u2265"
+      },
+      {
+        "field": "pivotal_trials[1]/population",
+        "number": "9",
+        "text": "Patients 9 to 45 years of age with moderate to severe acne vulgaris (IGA score \u2265"
+      },
+      {
+        "field": "pivotal_trials[1]/population",
+        "number": "45",
+        "text": "Patients 9 to 45 years of age with moderate to severe acne vulgaris (IGA score \u2265"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2018",
+        "text": "Standard NDA received October 20, 2017 with PDUFA goal date October 20, 2018; ap"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "209521",
+        "text": "NDA 209521 was submitted by Allergan under the 505(b)(1) pathway and received a "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

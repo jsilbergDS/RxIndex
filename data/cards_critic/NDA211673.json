@@ -1,0 +1,43 @@
+{
+  "app": "NDA211673",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 308)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"NDA211673\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].trial_name\",\n      \"severity\": \"low\",\n      \"issue\": \"Uncited number '3781' in the trial identifier NAB-BC-3781-3101 is a study code component, not ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "3781",
+        "text": "Study 3101 (NAB-BC-3781-3101)"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "3781",
+        "text": "Study 3102 (NAB-BC-3781-3102)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "19",
+        "text": "Applications received December 19, 2018; approved effective on the date of the a"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2018",
+        "text": "Applications received December 19, 2018; approved effective on the date of the a"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "19",
+        "text": "Applications received December 19, 2018; approved effective on the date of the a"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2019",
+        "text": "Applications received December 19, 2018; approved effective on the date of the a"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

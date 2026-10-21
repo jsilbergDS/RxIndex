@@ -1,0 +1,92 @@
+{
+  "app": "NDA202806",
+  "drug": "TAFINLAR",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_78195470-14a2-5f6a-911d-50d4973a5530"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_0d7975c0-8c58-5c14-b848-b2045824bfa0"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_942cdd5a-a366-570a-a5f0-84d5e22fcfd1"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_dacb0b10-0f1c-581f-9e08-fc66810ab155"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_533635b7-d88f-528d-b9eb-a1ad511ae434"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "None convened; the Oncologic Drugs Advisory Committee (ODAC) was the relevant committee but was not consulted",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_0d7975c0-8c58-5c14-b848-b2045824bfa0",
+      "line": 212,
+      "quote": "No Oncologic Drugs Advisory Committee meeting was held for this application. Dabrafenib is not the first drug in its class. Additionally, no Special Government Employees were consulted for this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_0d7975c08c58",
+      "found_lines": [
+        212
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "No meeting held",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_78195470-14a2-5f6a-911d-50d4973a5530",
+      "line": 216,
+      "quote": "This NDA was not referred for review to the Oncologic Drugs Advisory Committee because this is not the first drug (BRAF inhibitor) in its class, there were no issues related to the clinical trial design or primary endpoint used, and there were no novel issues identified that would benefit from the Advisory Committee's expertise."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_7819547014a2",
+      "found_lines": [
+        216,
+        394
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "No advisory committee vote or recommendation; none was convened",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_dacb0b10-0f1c-581f-9e08-fc66810ab155",
+      "line": 803,
+      "quote": "The Division did not obtain the advice of the Oncologic Drugs Advisory Committee (ODAC) for this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_dacb0b100f1c",
+      "found_lines": [
+        803
+      ]
+    }
+  },
+  "linkages": [],
+  "no_adcom_quote": {
+    "doc_type": "CrossR",
+    "doc_id": "fda_0d7975c0-8c58-5c14-b848-b2045824bfa0",
+    "line": 212,
+    "quote": "No Oncologic Drugs Advisory Committee meeting was held for this application. Dabrafenib is not the first drug in its class. Additionally, no Special Government Employees were consulted for this application."
+  },
+  "summary": "No advisory committee was convened for TAFINLAR (dabrafenib, NDA202806). The FDA review documents (Summary Review, Cross-Discipline Team Leader review, Office Director memo, and Medical Review) consistently state the application was not referred to the Oncologic Drugs Advisory Committee because dabrafenib was not the first BRAF inhibitor in its class, there were no issues with the clinical trial design or primary endpoint, and no novel issues warranted committee input. Because no AdComm occurred, there are no committee-driven linkages to the approval.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "fda_0d7975c08c58",
+    "found_lines": [
+      212
+    ]
+  }
+}

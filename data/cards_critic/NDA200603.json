@@ -1,0 +1,122 @@
+{
+  "app": "NDA200603",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "high",
+      "issue": "States '-3.8 (placebo)' as placebo but the citation labels '-3.8 (pbo)'; acceptable, but text asserts 'both doses superior to placebo' which is supported by the N citation \u2014 no error here actually; however p-values match citation. (No issue.)"
+    },
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "low",
+      "issue": "Study D1050006 is described as Phase 2, consistent with its citation; trial_name uses 'label Study 1' uncited number is a false positive (label designation)."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "'~50 per group' is an uncited derived estimate (N=145/3) not stated in any citation quote."
+    },
+    {
+      "field": "pivotal_trials[2].result",
+      "severity": "medium",
+      "issue": "Text labels values '-9.7, -7.5, -12.6' as 'placebo-adjusted LS mean PANSS change from baseline,' but the citation is an unlabeled table row that does not state these are placebo-adjusted values, so the 'placebo-adjusted' characterization overstates the quote."
+    },
+    {
+      "field": "pivotal_trials[2].endpoint",
+      "severity": "low",
+      "issue": "'week 6' number is a false-positive uncited flag; the 6-week duration is supported by the design/N citations."
+    },
+    {
+      "field": "approval_program.priority_review.present",
+      "severity": "low",
+      "issue": "Priority review is marked false with no citation; review time (~10 months) is consistent with standard review, so likely correct, but the designation absence is unverified in the provided citations."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Uncited numbers '28' and '2010' are false positives (approval date components, an excluded date)."
+    },
+    {
+      "field": "pivotal_trials[*].endpoint/design 'week 6'",
+      "severity": "low",
+      "issue": "Multiple 'week 6' uncited-number flags are false positives, supported by '6-week' phrasing in the design/N citations."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study D1050006 (label Study 1)"
+      },
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "6",
+        "text": "Change from baseline to endpoint in BPRS total score at week 6"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "50",
+        "text": "N=145 (~50 per group)"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "6",
+        "text": "Multicenter, randomized, double-blind, placebo-controlled, fixed-dose, 6-week US"
+      },
+      {
+        "field": "pivotal_trials[1]/endpoint",
+        "number": "6",
+        "text": "Change from baseline to endpoint in BPRS total score at week 6"
+      },
+      {
+        "field": "pivotal_trials[2]/design",
+        "number": "15",
+        "text": "Multicenter, randomized, double-blind, 6-week, placebo- and active-controlled, f"
+      },
+      {
+        "field": "pivotal_trials[2]/endpoint",
+        "number": "6",
+        "text": "Change from baseline to endpoint in PANSS total score at week 6 (MMRM)"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "40",
+        "text": "Placebo-adjusted LS mean PANSS change from baseline: lurasidone 40 mg -9.7, lura"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "120",
+        "text": "Placebo-adjusted LS mean PANSS change from baseline: lurasidone 40 mg -9.7, lura"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "15",
+        "text": "Placebo-adjusted LS mean PANSS change from baseline: lurasidone 40 mg -9.7, lura"
+      },
+      {
+        "field": "pivotal_trials[3]/trial_name",
+        "number": "4",
+        "text": "Study D1050229 (label Study 4)"
+      },
+      {
+        "field": "pivotal_trials[3]/endpoint",
+        "number": "6",
+        "text": "Change from baseline to endpoint in PANSS total score at week 6 (MMRM)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "28",
+        "text": "Standard NDA under section 505(b) for an atypical antipsychotic; the application"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2010",
+        "text": "Standard NDA under section 505(b) for an atypical antipsychotic; the application"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

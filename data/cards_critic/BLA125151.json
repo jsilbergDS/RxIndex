@@ -1,0 +1,37 @@
+{
+  "app": "BLA125151",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: uncited number '23' is part of the receipt date 'November 23, 2005' (dates are excluded); not a real problem."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: uncited number '2005' is part of the receipt date 'November 23, 2005' (dates are excluded); not a real problem."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "The 'nine sites' detail in the design text is not contained in the design field's own citations (it appears only in the n field citation); minor sourcing mismatch."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "23",
+        "text": "Elaprase (idursulfase) received Orphan Drug designation (November 28, 2001) and "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2005",
+        "text": "Elaprase (idursulfase) received Orphan Drug designation (November 28, 2001) and "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

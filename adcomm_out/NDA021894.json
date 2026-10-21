@@ -1,0 +1,135 @@
+{
+  "app": "NDA021894",
+  "drug": "XENAZINE",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "a27e4fb3-6d90-5deb-9d09-ce9f52f950c8"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "69cf18c1-f916-52c1-a06a-729641e88a69"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "1e53212d-949a-58f4-b20f-d4afe32077be"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Peripheral and Central Nervous Systems Drugs Advisory Committee (PCNS AC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "a27e4fb3-6d90-5deb-9d09-ce9f52f950c8",
+      "line": 5,
+      "quote": "this application was discussed at a meeting of the Peripheral and Central Nervous Systems Drugs Advisory Committee (PCNS AC) on 12/6/07"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "a27e4fb3-6d90-5deb-9d09-ce9f52f950c8",
+      "found_lines": [
+        5
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "December 6, 2007",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "1e53212d-949a-58f4-b20f-d4afe32077be",
+      "line": 15,
+      "quote": "The PCNS Advisory Committee met on December 6, 2007 to discuss the efficacy and safety of this drug."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "1e53212d-949a-58f4-b20f-d4afe32077be",
+      "found_lines": [
+        15
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted to recommend approval; the SumR describes the vote as overwhelming and the RiskR describes it as unanimous.",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "1e53212d-949a-58f4-b20f-d4afe32077be",
+      "line": 81,
+      "quote": "The Advisory Panel voted unanimously to recommend the approval of tetrabenazine."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "1e53212d-949a-58f4-b20f-d4afe32077be",
+      "found_lines": [
+        81
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee did not favor the sponsor's originally proposed restricted-distribution program (RiskMAP during dose titration), judging it would make the drug too difficult to obtain.",
+      "change": "The sponsor replaced the restricted-distribution RiskMAP with a revised risk program centered on targeted education and outreach to providers, patients, and caregivers (later finalized as the REMS communication plan / medication guide).",
+      "category": "Risk management / restricted distribution removed",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "69cf18c1-f916-52c1-a06a-729641e88a69",
+        "line": 34,
+        "quote": "The Committee did not favor a restricted distribution program that would make obtaining the drug difficult.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "69cf18c1-f916-52c1-a06a-729641e88a69",
+          "found_lines": [
+            34
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "1e53212d-949a-58f4-b20f-d4afe32077be",
+        "line": 9,
+        "quote": "Following discussion at a December 2007 Peripheral and Central Nervous System (PCNS) Advisory Committee Meeting, the Sponsor submitted a revised RiskMAP that included targeted education and outreach of the providers, patient and caregivers to minimize adverse events including depression and suicidality.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "1e53212d-949a-58f4-b20f-d4afe32077be",
+          "found_lines": [
+            9
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee was concerned about the drug's safety findings (notably depression and suicidality) and emphasized the need to alert prescribers to control dosing and to distinguish adverse effects from disease progression.",
+      "change": "The approved labeling carries a box warning about depression and suicidality emphasizing care in patients with a history of depression/suicide attempts, balancing risk against need for chorea control, and close observation for worsening.",
+      "category": "Safety / Boxed warning",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "69cf18c1-f916-52c1-a06a-729641e88a69",
+        "line": 34,
+        "quote": "The Committee emphasized the need to alert prescribers to the need to control dosing and to consider whether adverse effects are consequences of disease progression or of treatment.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "69cf18c1-f916-52c1-a06a-729641e88a69",
+          "found_lines": [
+            34
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "69cf18c1-f916-52c1-a06a-729641e88a69",
+        "line": 39,
+        "quote": "It has a box warning about depression and suicidality that emphasizes 1) the need for particular care in people with a history of",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "69cf18c1-f916-52c1-a06a-729641e88a69",
+          "found_lines": [
+            39
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The PCNS Drugs Advisory Committee met on December 6, 2007 and, despite concern over depression, suicidality, and adverse effects on cognitive and functional outcomes, voted (described as overwhelming/unanimous in the reviews) to recommend approval of tetrabenazine for Huntington's chorea. The committee's opposition to a restrictive distribution program led the sponsor to replace its restricted-distribution RiskMAP with an education-based risk program, ultimately implemented as a REMS. The drug was approved with a box warning on depression and suicidality consistent with the committee's emphasis on alerting prescribers and controlling dosing."
+}

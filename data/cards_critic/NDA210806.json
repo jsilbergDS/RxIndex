@@ -1,0 +1,47 @@
+{
+  "app": "NDA210806",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "The total '766' is not verbatim in any quote but is the exact sum of cited arm sizes (383+383); a derived total, not a data error."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "The total '728' is not verbatim in any quote but is the exact sum of cited arm sizes (364+364); a derived total, not a data error."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged numbers '23'/'2017' are the receipt date (October 23, 2017), which is a date and is cited under receipt_date; false-positive flag."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "766",
+        "text": "766 subjects (DOR n=383; DRV+r n=383)."
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "728",
+        "text": "728 subjects (DOR/3TC/TDF n=364; EFV/FTC/TDF n=364)."
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "23",
+        "text": "Approved effective on the date of the approval letter following review of the ND"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2017",
+        "text": "Approved effective on the date of the approval letter following review of the ND"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

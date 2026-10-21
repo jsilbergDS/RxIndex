@@ -1,0 +1,33 @@
+{
+  "app": "NDA022363",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 350)",
+  "_raw": "Looking at the card, let me verify each field against citations and flags.\n\n{\n \"app\": \"NDA022363\",\n \"release_ready\": true,\n \"issues\": [\n  {\n   \"field\": \"first_cycle_approval.detail.text\",\n   \"severity\": \"low\",\n   \"issue\": \"The detail text includes dates (October 1, 2008 / received October 3, 2008) n",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "1",
+        "text": "The NDA submitted on behalf of Kowa Company, Limited, dated October 1, 2008, rec"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2008",
+        "text": "The NDA submitted on behalf of Kowa Company, Limited, dated October 1, 2008, rec"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "3",
+        "text": "The NDA submitted on behalf of Kowa Company, Limited, dated October 1, 2008, rec"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2008",
+        "text": "The NDA submitted on behalf of Kowa Company, Limited, dated October 1, 2008, rec"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

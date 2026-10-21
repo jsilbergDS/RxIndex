@@ -1,0 +1,175 @@
+{
+  "app": "NDA204042",
+  "drug": "INVOKANA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "c5ae57ac-fc16-58e0-937d-e4a6b6137647"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "25cd19f8-3f8e-5d9b-ad67-af186ba2ab04"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "87fa158e-a045-5e09-a90a-46c6c13048e5"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "a9ff812f-39b3-5bc0-81ce-c251d4de2c21"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "89d07f9e-0a44-5539-b8c0-59de27efe4a3"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC)",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "89d07f9e-0a44-5539-b8c0-59de27efe4a3",
+      "line": 19,
+      "quote": "The Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC) met on January 10, 2013 to discuss the benefits and risks of canagliflozin."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "89d07f9e-0a44-5539-b8c0-59de27efe4a3",
+      "found_lines": [
+        19
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "January 10, 2013",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "c5ae57ac-fc16-58e0-937d-e4a6b6137647",
+      "line": 170,
+      "quote": "An advisory committee meeting was held on January 10, 2013 for this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "c5ae57ac-fc16-58e0-937d-e4a6b6137647",
+      "found_lines": [
+        170
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 10 to 5 that the applicant had provided sufficient efficacy and safety data to support marketing of canagliflozin (i.e., in favor of approval), while recommending postmarketing trial(s) to resolve the remaining safety signals.",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "25cd19f8-3f8e-5d9b-ad67-af186ba2ab04",
+      "line": 477,
+      "quote": "the members voted 10 to 5 to recommend approval of canagliflozin. The members recommended requiring post marketing trial(s) to resolve the signals."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "25cd19f8-3f8e-5d9b-ad67-af186ba2ab04",
+      "found_lines": [
+        477
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Committee members who supported approval still wanted further study of cardiovascular effects, especially over longer-term exposure, and had residual CV safety concerns (early event imbalance, stroke point estimate, LDL-C increase), and questioned whether the public disclosure of the CANVAS interim results compromised the ongoing trial.",
+      "change": "Postmarketing requirement (PMR 5) to conduct a new trial or expand CANVAS enrollment to exclude a CV risk margin of 1.3 and further investigate potential acute CV risk in high-risk patients.",
+      "category": "Safety / Postmarketing CV outcomes trial (PMR)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "25cd19f8-3f8e-5d9b-ad67-af186ba2ab04",
+        "line": 538,
+        "quote": "Those committee members who voted \u201cyes\u201d consistently expressed a remaining desire for further study of cardiovascular effects, especially in longer term exposure.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "25cd19f8-3f8e-5d9b-ad67-af186ba2ab04",
+          "found_lines": [
+            538
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "c5ae57ac-fc16-58e0-937d-e4a6b6137647",
+        "line": 196,
+        "quote": "**PMR 5:** Conduct a new trial or expand enrollment into CANVAS with the objective of excluding a CV risk margin of 1.3 and to further investigate potential CV risk in the acute setting in high risk patients",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "c5ae57ac-fc16-58e0-937d-e4a6b6137647",
+          "found_lines": [
+            196
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Several committee members were concerned about use in patients with moderate renal impairment, stating their support for a favorable benefit-risk profile did not extend to these patients, and that the labeling should reflect these concerns.",
+      "change": "Dose of canagliflozin limited to 100 mg once-daily in patients with eGFR 45 to 60 mL/min/1.73m2 (with use not recommended below that range), reflected in labeling.",
+      "category": "Population / renal impairment dose restriction (labeling)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "25cd19f8-3f8e-5d9b-ad67-af186ba2ab04",
+        "line": 538,
+        "quote": "Several members also described a concern over usage in patients with moderate renal impairment, with many mentioning that their support for a favorable benefit-risk profile did not extend to these patients. Those committee members frequently stated that the drug labeling should reflect concerns in these patients.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "25cd19f8-3f8e-5d9b-ad67-af186ba2ab04",
+          "found_lines": [
+            538
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "c5ae57ac-fc16-58e0-937d-e4a6b6137647",
+        "line": 72,
+        "quote": "I concur with Dr. Kwon that in those with eGFR \\ge 45 to 60 mL/min/1.73m^2, the dose of canagliflozin should be limited to 100 mg once-daily until further long-term safety data are obtained in this population from the postmarketing setting.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "c5ae57ac-fc16-58e0-937d-e4a6b6137647",
+          "found_lines": [
+            72
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee discussed the clinical relevance of canagliflozin-related changes in bone metabolism and density in light of the increased fracture incidence, and recommended following the bone mineral density (BMD) assessment out further.",
+      "change": "Postmarketing requirement (PMR 4) to complete and submit study DIA3010 to provide long-term bone safety data.",
+      "category": "Safety / Postmarketing bone safety data (PMR)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "25cd19f8-3f8e-5d9b-ad67-af186ba2ab04",
+        "line": 515,
+        "quote": "At the January 10th 2013 EMDAC advisory committee meeting the panel members were asked to discuss the clinical relevance of the changes related to bone metabolism and density and interpret them in light of the increased fracture incidence.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "25cd19f8-3f8e-5d9b-ad67-af186ba2ab04",
+          "found_lines": [
+            515
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "c5ae57ac-fc16-58e0-937d-e4a6b6137647",
+        "line": 195,
+        "quote": "**PMR 4:** Completion and submission of DIA3010 to provide long-term bone safety data",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "c5ae57ac-fc16-58e0-937d-e4a6b6137647",
+          "found_lines": [
+            195
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC) met on January 10, 2013 and voted 10 to 5 that canagliflozin had sufficient efficacy and safety data to support marketing, while recommending postmarketing trials to resolve remaining signals. Discussion centered on cardiovascular, renal, and bone safety; the committee's residual CV concerns map to a postmarketing requirement to continue/expand CANVAS (PMR 5), and its concern about use in moderate renal impairment is reflected in the renal dose restriction in labeling. The committee's call to follow bone mineral density further corresponds to a postmarketing requirement to complete DIA3010 (PMR 4), though the review does not explicitly tie that PMR to the AC recommendation."
+}

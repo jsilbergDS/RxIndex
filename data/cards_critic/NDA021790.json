@@ -1,0 +1,67 @@
+{
+  "app": "NDA021790",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "indication",
+      "severity": "low",
+      "issue": "The IPSS 'intermediate-1' and 'intermediate-2' group numbers are in the field text but the citation quote is truncated at 'inter' and does not contain them; likely supported elsewhere in the review but the attached quote does not cover it."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False-positive flag: '89' is supported by the citation 'Eighty-nine patients were randomized to decitabine plus supportive care' (spelled out)."
+    },
+    {
+      "field": "receipt_date",
+      "severity": "low",
+      "issue": "False-positive flag: '11' is part of the date 11/15/2005, which is supported by 'received November 15, 2005'."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flags: '31' and '2005' are the date August 31, 2005 (cited), and '4' refers to 'Phase 4' commitments, supported by the 'None.' citation; all contextually supported."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "89",
+        "text": "N=170 (89 randomized to Dacogen plus supportive care, 81 to supportive care)."
+      },
+      {
+        "field": "indication",
+        "number": "1",
+        "text": "Dacogen is indicated for treatment of patients with myelodysplastic syndromes (M"
+      },
+      {
+        "field": "indication",
+        "number": "2",
+        "text": "Dacogen is indicated for treatment of patients with myelodysplastic syndromes (M"
+      },
+      {
+        "field": "receipt_date",
+        "number": "11",
+        "text": "11/15/2005"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "31",
+        "text": "Dacogen received full (traditional) approval as a 505(b)(2) NDA for myelodysplas"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2005",
+        "text": "Dacogen received full (traditional) approval as a 505(b)(2) NDA for myelodysplas"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "4",
+        "text": "Dacogen received full (traditional) approval as a 505(b)(2) NDA for myelodysplas"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

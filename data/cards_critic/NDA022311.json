@@ -1,0 +1,78 @@
+{
+  "app": "NDA022311",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 273)",
+  "_raw": "Let me work through each flag and field carefully.\n\n**Uncited numbers analysis:**\n\n- `pivotal_trials[0]/result` \"150\" and \"148\": these ARE in the citation quote (\"n = 150)Placebo and G-CSF (n = 148)\"). False positives.\n- `pivotal_trials[1]/result` \"148\" and \"154\": present in citation (\"n = 148)Place",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "150",
+        "text": "59% (89/150) of Mozobil+G-CSF patients collected \u2265 5\u00d710^6 CD34+ cells/kg in \u22644 a"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "148",
+        "text": "59% (89/150) of Mozobil+G-CSF patients collected \u2265 5\u00d710^6 CD34+ cells/kg in \u22644 a"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "148",
+        "text": "72% (106/148) of Mozobil+G-CSF patients collected \u2265 6\u00d710^6 CD34+ cells/kg in \u22642 "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "154",
+        "text": "72% (106/148) of Mozobil+G-CSF patients collected \u2265 6\u00d710^6 CD34+ cells/kg in \u22642 "
+      },
+      {
+        "field": "key_safety",
+        "number": "34",
+        "text": "Most common adverse reactions (\u226510%) more frequent than placebo during HSC mobil"
+      },
+      {
+        "field": "key_safety",
+        "number": "27",
+        "text": "Most common adverse reactions (\u226510%) more frequent than placebo during HSC mobil"
+      },
+      {
+        "field": "key_safety",
+        "number": "34",
+        "text": "Most common adverse reactions (\u226510%) more frequent than placebo during HSC mobil"
+      },
+      {
+        "field": "key_safety",
+        "number": "13",
+        "text": "Most common adverse reactions (\u226510%) more frequent than placebo during HSC mobil"
+      },
+      {
+        "field": "key_safety",
+        "number": "11",
+        "text": "Most common adverse reactions (\u226510%) more frequent than placebo during HSC mobil"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "16",
+        "text": "Approved on the date of the approval letter following review of the NDA received"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2008",
+        "text": "Approved on the date of the approval letter following review of the NDA received"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3101",
+        "text": "Mozobil received a Priority review and holds orphan drug designation for the NHL"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3102",
+        "text": "Mozobil received a Priority review and holds orphan drug designation for the NHL"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

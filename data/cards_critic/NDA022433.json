@@ -1,0 +1,38 @@
+{
+  "app": "NDA022433",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "key_safety.text",
+      "severity": "high",
+      "issue": "Dyspnea rate '14%' is cited but the paired non-CABG bleeding figure '12%' and the specific '13.8% vs 7.8%' dyspnea and '8.7% vs 7.0%' bleeding values are cited; however the text labels '8.7% vs 7.0%' as 'Non-CABG total bleeding (Major + Minor)' while the citation only says 'Total (Major + Minor) 8.7 7.0' without the 'Non-CABG' qualifier \u2014 the Non-CABG characterization is not supported by the quote."
+    },
+    {
+      "field": "receipt_date.text",
+      "number": "11",
+      "severity": "low",
+      "issue": "Automated flag for '11' in '11/16/2009' is a false positive; the citation states 'received November 16, 2009' which supports the date."
+    },
+    {
+      "field": "first_cycle_approval.value",
+      "severity": "low",
+      "issue": "value=false is correctly supported \u2014 the review explicitly references a December 16, 2010 Complete Response action letter, consistent with crl_history.prior_crl=true; no issue."
+    },
+    {
+      "field": "crl_history.basis.citations[0]",
+      "severity": "medium",
+      "issue": "The quote is truncated mid-sentence ('Had the Agency been ready to accept the') and does not actually contain the regional (North America/US) difference claim stated in the basis text, so the basis is not fully supported by its citation."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "receipt_date",
+        "number": "11",
+        "text": "11/16/2009"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

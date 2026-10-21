@@ -1,0 +1,37 @@
+{
+  "app": "NDA209884",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "high",
+      "issue": "Result cites N=1096 for siponimod and N=545 for placebo denominators but the citation table header shows Siponimod (N=1099) and Placebo (N=546); the text also asserts '21.2% relative risk reduction' and '5.4% absolute risk reduction' which the raw table quote labels only as bare numbers (21.2%, 5.4%) without defining them as RRR/ARR."
+    },
+    {
+      "field": "key_safety",
+      "severity": "medium",
+      "issue": "The 'decline in pulmonary function (FEV1)' claim's citation supports FEV1 decline but the FEV1 magnitude (88 mL, CI 139,37) and macular edema rates (1.8% vs 0.2%) are cited yet the summarized numbers headache/hypertension/etc. percentages are supported; overall the FEV1/macular numbers appear only in citations not in the field text, which is acceptable, but the field asserts 'decline in pulmonary function' as a listed key safety risk without stating it is dose-dependent per source \u2014 minor overstatement."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "uncited_numbers flag for '3' is a false positive \u2014 the '3' is part of 'September 2012'/date/context fragment and not an efficacy/safety statistic."
+    },
+    {
+      "field": "approval_program.priority_review",
+      "severity": "low",
+      "issue": "priority_review present=false but the application had a March 26, 2019 PDUFA goal date consistent with standard 10-month review, so this is likely correct; noting for reviewer confirmation only."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Siponimod (a new molecular entity) received Fast Track designation for the SPMS "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

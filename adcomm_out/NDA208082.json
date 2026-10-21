@@ -1,0 +1,91 @@
+{
+  "app": "NDA208082",
+  "drug": "AUSTEDO",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_9ae15211-74ca-561c-b2b3-0ce049cc1bce"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_242b4a26-4f46-514e-a6db-189590f1cccf"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_48b5cd03-ab52-5561-b758-3d07ea1fd000"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_5dbae850-9eb9-5707-8c5a-55b00b0b429c"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_d4f1037f-1d91-517f-adc9-3c373b8f402f"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "None convened",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_48b5cd03-ab52-5561-b758-3d07ea1fd000",
+      "line": 46,
+      "quote": "The NDA was not presented to the Peripheral and Central Nervous System Drugs Advisory Committee. This is a 505(b)(2) application without novel or controversial safety or efficacy issues."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_48b5cd03ab52",
+      "found_lines": [
+        46
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "No meeting held",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_9ae15211-74ca-561c-b2b3-0ce049cc1bce",
+      "line": 46,
+      "quote": "No advisory committee meeting was held for this 505(b)(2) application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_9ae1521174ca",
+      "found_lines": [
+        46
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "No advisory committee recommendation (no meeting held)",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_242b4a26-4f46-514e-a6db-189590f1cccf",
+      "line": 139,
+      "quote": "The application does not meet conditions for utilization of an advisory committee. Although SD-809 is classified as a NME, it is not a drug that represents a therapeutic advance over currently marketed products from the standpoint of safety or effectiveness."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_242b4a264f46",
+      "found_lines": [
+        139
+      ]
+    }
+  },
+  "linkages": [],
+  "no_adcom_quote": {
+    "doc_type": "SumR",
+    "doc_id": "fda_9ae15211-74ca-561c-b2b3-0ce049cc1bce",
+    "line": 46,
+    "quote": "No advisory committee meeting was held for this 505(b)(2) application."
+  },
+  "summary": "No advisory committee meeting was convened for AUSTEDO (deutetrabenazine, NDA208082). The FDA reviews uniformly state that this 505(b)(2) application did not meet the conditions for an advisory committee because it presented no novel or controversial safety or efficacy issues and did not represent a therapeutic advance over the already-marketed tetrabenazine. Because no committee was held, there are no AdComm-driven linkages to the approval.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "fda_9ae1521174ca",
+    "found_lines": [
+      46
+    ]
+  }
+}

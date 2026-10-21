@@ -1,0 +1,72 @@
+{
+  "app": "BLA125277",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "FALSE POSITIVE flag: 49.5, 18.5, 31.0 are present in the citation quote 'TOS at 4 hrs (mean)ITT as treated49.518.531.0(0.037)' (concatenated OCR); numbers are supported."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "FALSE POSITIVE flag: 45.3 is present in the citation quote 'TOS at 4 hrs (mean)ITT as randomized...53.48.145.3(0.003)'; supported."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "FALSE POSITIVE flag: the '1' is from the 1:1 randomization ratio, which is supported by the population/n citations; not a genuine uncited number."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "FALSE POSITIVE flag: the '1' is from the 1:1 ratio; the quote states 'the same randomization ratio' as EDEMA3's documented 1:1; supported."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "1",
+        "text": "Randomized, double-blind, placebo-controlled, parallel-arm, multi-center study; "
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "1",
+        "text": "Randomized, double-blind, placebo-controlled, parallel-arm, multi-center study; "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "49.5",
+        "text": "Mean TOS at 4 hrs: ecallantide 49.5 vs placebo 18.5, difference 31.0 (p=0.037) i"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "18.5",
+        "text": "Mean TOS at 4 hrs: ecallantide 49.5 vs placebo 18.5, difference 31.0 (p=0.037) i"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "31.0",
+        "text": "Mean TOS at 4 hrs: ecallantide 49.5 vs placebo 18.5, difference 31.0 (p=0.037) i"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "1",
+        "text": "N=96 randomized 1:1 (ecallantide N=48, placebo N=48)."
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "1",
+        "text": "N=96 randomized 1:1 (ecallantide N=48, placebo N=48)."
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "45.3",
+        "text": "Mean change from baseline in MSCS at 4 hrs: ecallantide -0.81 vs placebo -0.37, "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

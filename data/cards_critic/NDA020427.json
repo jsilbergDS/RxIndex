@@ -1,0 +1,82 @@
+{
+  "app": "NDA020427",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Flag on number '024' is a false positive; the citation says 'study 24' and the design/n citations reference 'Study 024', so the trial name is adequately supported (cosmetic numbering variant).",
+      "false_positive": true
+    },
+    {
+      "field": "key_safety",
+      "severity": "medium",
+      "issue": "Tremor figures '15 (3 g) vs 8 placebo' are not clearly supported; the only tremor citation is 'Tremor 20 (15) 7 (16) 11 (8)' which does not map cleanly to a '3 g vs placebo' comparison, making the number '8 placebo' and '15' uncited/mislabeled.",
+      "false_positive": false
+    },
+    {
+      "field": "key_safety",
+      "severity": "medium",
+      "issue": "The '28%' fatigue SABRIL figure is cited but the placebo fatigue rate '15%' in the text is supported; however the fatigue SABRIL N denominator and the tremor parenthetical remain the automated-flag concern \u2014 the '3' flag is a false positive (it refers to '3 g' dose), so dismissable.",
+      "false_positive": true
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "medium",
+      "issue": "The result labels the 8.5\u21925.5 and 9.0\u21927.0 values as 'CPS frequency' but the study endpoint/citation concerns 'all partial seizures'; the table quotes do not state these are CPS-specific medians, so the 'CPS' labeling overstates the citation.",
+      "false_positive": false
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "high",
+      "issue": "P<0.05 is asserted for Study 024, but the cited table/footnote applies the asterisk to Study 025 arms (line 41/42); Study 024's 3 g value '5.5' has no asterisk in its quote (line 38), so the P<0.05 significance claim for Study 024 is unsupported and likely wrong (Study 024 is generally the equivocal trial).",
+      "false_positive": false
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "States '1 g/day (N=45) was not effective' \u2014 supported by the cited 7.5\u21927.7 values showing no reduction, acceptable.",
+      "false_positive": false
+    },
+    {
+      "field": "approval_program.priority_review",
+      "severity": "low",
+      "issue": "priority_review present=false is plausible but the long multi-cycle history and no explicit review-designation statement leaves this unverifiable; not a confirmed defect.",
+      "false_positive": false
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "medium",
+      "issue": "Summary lists SHARE as part of REMS/post-marketing and describes 'post-marketing requirements covering pediatric study and vision-loss safety' but includes details (SHARE distribution) whose numeric/program linkage spans multiple cited quotes; the claim is broadly supported but stitches REMS and PMR content beyond any single citation.",
+      "false_positive": false
+    },
+    {
+      "field": "first_cycle_approval.value",
+      "severity": "low",
+      "issue": "value=false is correctly supported here because the review explicitly documents prior Not Approvable Letters (1995, 1998) and an Approvable Letter (1997); consistent with crl_history.prior_crl=true \u2014 no defect.",
+      "false_positive": false
+    },
+    {
+      "field": "crl_history.basis",
+      "severity": "medium",
+      "issue": "Date field cites 'Not-Approvable letter issued in March, 1995' but the date field elsewhere states 'April 28, 1995'; the basis citation says 'March, 1995' while the rest of the card uses April 28, 1995, creating an internal date inconsistency.",
+      "false_positive": false
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "024",
+        "text": "Study 024"
+      },
+      {
+        "field": "key_safety",
+        "number": "3",
+        "text": "Most serious risk is permanent progressive bilateral concentric visual field con"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

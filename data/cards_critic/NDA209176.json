@@ -1,0 +1,22 @@
+{
+  "app": "NDA209176",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "Automated flag 'uncited_numbers' for the number 3 is a false positive; it refers to 'Phase 3'/'Study 19' phase descriptors, not an efficacy/safety statistic, and is dose/ID-like context."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Edaravone received orphan drug designation for ALS (5/12/2015) and was reviewed "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

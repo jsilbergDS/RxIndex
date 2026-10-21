@@ -1,0 +1,112 @@
+{
+  "app": "NDA022072",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "approval_program.accelerated_approval.present",
+      "severity": "high",
+      "issue": "Marked false, but the approval is based on hematologic/cytogenetic response rates with the label stating 'There are no controlled trials demonstrating a clinical benefit, such as ... increased survival' plus a confirmatory 24-month follow-up PMC for CA-180-015 \u2014 hallmarks of accelerated approval that this card fails to capture."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "The '\u226510%' threshold number is not contained in any citation quote; cosmetic uncited number since the actual AE percentages (50,49,40,39) are all cited."
+    },
+    {
+      "field": "first_cycle_approval/detail",
+      "severity": "low",
+      "issue": "Automated flags for 28/2005/2006 are dates and are false positives (dates are excluded); first_cycle_approval=true is correctly inferred from absence of a prior CRL."
+    },
+    {
+      "field": "post_marketing[0]/requirement",
+      "severity": "low",
+      "issue": "Flagged numbers 06/2008 are the final-report submission date and are false positives (dates excluded)."
+    },
+    {
+      "field": "post_marketing[1]/requirement",
+      "severity": "low",
+      "issue": "Flagged numbers 01/2009 are the final-report submission date and are false positives (dates excluded)."
+    },
+    {
+      "field": "post_marketing[2]/requirement",
+      "severity": "low",
+      "issue": "Flagged numbers 12/2006 are the final-report submission date and are false positives (dates excluded)."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "Flagged numbers 22/072 are the NDA application number and are false positives (study/application IDs excluded)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "10",
+        "text": "Most common adverse events (\u226510%) included fluid retention (50%), diarrhea (49%)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "28",
+        "text": "The NDA dated December 28, 2005 was approved effective on the date of the approv"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2005",
+        "text": "The NDA dated December 28, 2005 was approved effective on the date of the approv"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "28",
+        "text": "The NDA dated December 28, 2005 was approved effective on the date of the approv"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2006",
+        "text": "The NDA dated December 28, 2005 was approved effective on the date of the approv"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "06",
+        "text": "Submit the complete study report (24 month follow-up) and data from study CA-180"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "2008",
+        "text": "Submit the complete study report (24 month follow-up) and data from study CA-180"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "01",
+        "text": "Submit the complete study report and data from study CA-180-051, a single-dose p"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "2009",
+        "text": "Submit the complete study report and data from study CA-180-051, a single-dose p"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "12",
+        "text": "Submit the complete study report and data from study CA-180-021, an open-label s"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "2006",
+        "text": "Submit the complete study report and data from study CA-180-021, an open-label s"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "22",
+        "text": "SPRYCEL (NDA 22-072) was submitted December 28, 2005 and approved June 28, 2006 "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "072",
+        "text": "SPRYCEL (NDA 22-072) was submitted December 28, 2005 and approved June 28, 2006 "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

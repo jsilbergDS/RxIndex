@@ -1,0 +1,28 @@
+{
+  "app": "NDA208623",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 332)",
+  "_raw": "{\n \"app\": \"NDA208623\",\n \"release_ready\": false,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[0].population\",\n   \"severity\": \"low\",\n   \"issue\": \"Flagged uncited number '293' is part of the assay name 'CT HEK-293', not an efficacy/safety statistic; false positive but the assay label is not supported b",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "293",
+        "text": "Patients 16 years and older with Fabry disease who had an amenable (initially te"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "13",
+        "text": "The NDA was received December 13, 2017 and approved under accelerated approval r"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2017",
+        "text": "The NDA was received December 13, 2017 and approved under accelerated approval r"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

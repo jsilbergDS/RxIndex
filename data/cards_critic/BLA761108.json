@@ -1,0 +1,33 @@
+{
+  "app": "BLA761108",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "False-positive flag: the '3' in 'Phase 3' is supported by the trial name/phase citations for PNH-302; not a genuine uncited efficacy/safety number.",
+      "ignore": false
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "The '2018' (Approved December 2018) is not contained in the cited quote, which only mentions the February 18, 2019 PDUFA goal date; the approval-date claim is uncited, though first_cycle_approval=true itself is a valid inferred default."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "3",
+        "text": "Phase 3, randomized (1:1), open-label, multicenter, active-controlled, non-infer"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2018",
+        "text": "Approved December 2018 ahead of the February 18, 2019 PDUFA goal date; no prior "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

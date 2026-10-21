@@ -1,0 +1,82 @@
+{
+  "app": "NDA211527",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Total N=1208 is a computed sum of cited arms (612+596); the total itself does not appear verbatim in the citation."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "Total N=1212 is a computed sum of cited arms (602+610); the total itself does not appear verbatim in the citation."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: the number '1' is only the cosmetic 'Study 1' label, which is supported by citations."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: the number '2' is only the cosmetic 'Study 2' label, which is supported by citations."
+    },
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "low",
+      "issue": "False-positive flag: 'Week 12' is supported by other citations (result/design/trial_name) even if absent from the endpoint quote."
+    },
+    {
+      "field": "pivotal_trials[1].endpoint",
+      "severity": "low",
+      "issue": "False-positive flag: 'Week 12' is supported by other citations even if absent from the endpoint quote."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: the number '3' refers to 'Phase 3', which is supported by the phase citations."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Trial 18251 (Study 1)"
+      },
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "12",
+        "text": "Co-primary endpoints (face) at Week 12: success on IGA (clear/almost clear with "
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "1208",
+        "text": "N=1208 (AKLIEF 612, Vehicle 596)"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Trial 18252 (Study 2)"
+      },
+      {
+        "field": "pivotal_trials[1]/endpoint",
+        "number": "12",
+        "text": "Co-primary endpoints (face) at Week 12: success on IGA (clear/almost clear with "
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "1212",
+        "text": "N=1212 (AKLIEF 602, Vehicle 610)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Standard review NDA 211527 submitted under the 505(b)(1) pathway for a new molec"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

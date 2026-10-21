@@ -1,0 +1,1061 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+L2: **206500Orig1s000**
+L3: **STATISTICAL REVIEW(S)**
+L4: FDA seal/logo for Drug Evaluation and Research
+L5: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L6: ## STATISTICAL REVIEW AND EVALUATION
+L7: ## Clinical Studies
+L8: NDA/Serial Number:	206500/0000
+Drug Name:	Rolapitant hydrochloride
+Indication:	Prevention of chemotherapy-induced nausea and Vomiting
+Applicant:	TESARO, Inc.
+Dates:	Received: September 05, 2014
+PDUFA: September 04, 2015
+Review Priority:	Standard
+Biometrics Division:	DBIII
+Statistical Reviewer:	Wen-Jen Chen, Ph.D.
+Concurring Reviewers:	Yeh-Fong Chen, Ph.D. (Team Lead)
+Mike Welch, Ph.D. (Deputy Director).
+Medical Division:	Division of Gastroenterology and Inborn Errors Products
+Clinical Team:	Aisha Peterson, M.D.
+Ruyi He, M.D. (Team Lead)
+Project Manager:	Mary Chung
+L9: **Keywords:** NDA review, clinical studies, Cochran-Mantel-Haenszel test
+L10: ## Table of Contents
+L11: 1. EXECUTIVE SUMMARY	3
+    2.1 OVERVIEW	3
+    2.2 DATA SOURCE	5
+3. STATISTICAL EVALUATION	5
+    3.1 DATA AND ANALYSIS QUALITY	5
+    3.2 EVALUATION OF EFFICACY	6
+        3.2.1 Description of Studies TS-P04832, TS-P04833, TS-P04834 and TS-P04351	6
+            3.2.1.1 Study Design and Objectives	6
+            3.2.1.2 Efficacy Endpoints and Analyses	8
+        3.2.2 Patient Disposition and Demographic and Baseline Characteristics	14
+            3.2.2.1 Study TS-P04832	14
+            3.2.2.2 Study TS-P04833	17
+            3.2.2.3 Study TS-P04834	19
+            3.2.2.4 Study TS-P04351	21
+        3.2.3 Sponsor's Efficacy Results and Conclusions	22
+            3.2.3.1 Study TS-P04832	22
+            3.2.3.2 Study TS-P04833	24
+            3.2.3.3 Study TS-P04834	25
+            3.2.3.4 Study TS-P04351	26
+        3.2.4 Sponsor's Conclusion	27
+        3.2.5 Statistical Reviewer's Findings and Comments	27
+            3.2.5.1 Study TS-P04832	27
+            3.2.5.2 Study TS-P04833	29
+            3.2.5.3 Study TS-P04834	31
+            3.2.5.4 Study TS-P04351	34
+    3.3 EVALUATION OF SAFETY	38
+4. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	38
+    4.1 GENDER, RACE AND AGE	38
+        4.1.1 Study TS-P04832	39
+        4.1.2 Study TS-P04833	40
+        4.1.3 Study TS-P04834	41
+    4.2 OTHER SPECIAL/SUBGROUP POPULATIONS	43
+5. SUMMARY AND CONCLUSIONS	43
+    5.1 STATISTICAL ISSUES AND COLLECTIVE EVIDENCE	43
+        5.1.1 Study TS-P04832	43
+        5.1.2 Study TS-P04833	44
+        5.1.3 Study TS-P04834	45
+        5.1.4 Study TS-P04351	45
+    5.2 CONCLUSIONS AND RECOMMENDATIONS	47
+L12: ## 1. EXECUTIVE SUMMARY
+L13: In this NDA submission, the sponsor included four pivotal trials, three phase-3 and one phase-2, to support rolapitant for use in adult patients in combination with other antiemetic agents for the prevention of chemotherapy induced nausea and vomiting (CINV) associated with initial and repeat courses of emetogenic cancer chemotherapy. For the three phase 3 studies, the primary endpoint was complete response (CR) in the delayed phase (24-120 hours after initial chemotherapy). For the phase 2 study, the primary endpoint was CR in the overall phase (0-120 hours). For all four studies, CR in the acute phase (0-24 hours) was a key secondary endpoint.
+L14: Since all three phase 3 studies show statistically significant findings on the primary endpoint, the data support rolapitant's efficacy as a treatment for CINV in the delayed phase.
+L15: (b) (4)
+L16: (u) (4)
+L17: (b) (4)
+L18: Three major concerns are: (1) the study did not employ an independent data monitoring committee for an unblinded interim analysis and (2) by omitting subjects who were randomized and received treatment, the sponsor's primary analysis did not follow the ITT principle and (3) the statistical significance of study results was sensitive to inclusion of a single patient with a missing value and to the use of statistical method. With the
+L19: (b) (4)
+L20: ## 2. INTRODUCTION
+L21: ## 2.1 OVERVIEW
+L22: Rolapitant is a potent, highly selective and competitive NK1 receptor antagonist that does not have any known activity at other pharmacologic targets. The sponsor's rolapitant clinical development program comprises 20 completed phase 1, 2 and 3 studies. According to the sponsor, among all 20 studies, four are adequate and well controlled.
+L23: The goal of this submission is to seek approval for (rolapitant hydrochloride) indicated for use in adults in combination with other antiemetic agents for the prevention of delayed chemotherapy induced nausea and vomiting (CINV) associated with initial and repeat courses of emetogenic cancer chemotherapy. Of the four studies, three were phase-3 (TS-P04832, TS-P04833, TS-P04843) and one was phase 2 (TS-P04351). Studies TS-P04832 and TS-P04833 enrolled patients receiving highly emetogenic chemotherapy (HEC) and study TS-P04843 enrolled patients receiving moderately emetogenic chemotherapy (MEC). The phase 2 Study TS-P04351 also enrolled a HEC study population.
+L24: All three phase 3 studies were international, multi-center, randomized, parallel-group, double-blind, active controlled trials for the safety and efficacy of rolapitant in subjects receiving HEC or MEC. The primary efficacy objective of the studies was to determine whether administration of rolapitant with granisetron and dexamethasone improved response to CINV in the delayed phase (&gt;24 to 120 hours following chemotherapy) compared with administration of placebo with granisetron and dexamethasone. The primary outcome was based on the complete response (CR), defined as no emetic episodes and no use of rescue medication in the delayed phase. The key secondary endpoints were the CR rates for the acute (0 through ≤24 hours) and overall (0 through ≤120 hours) phases following initiation of cisplatin-based chemotherapy.
+L25: The phase 2 study (TS-P04351) was mainly a dose ranging exploratory type study, also conducted globally in multiple centers, randomized, double-blind, and placebo controlled. The primary efficacy endpoint for this study was the CR rate in the overall phase. Complete response was defined as no emesis and no use of rescue medication. The key secondary endpoints were CR for the acute and delayed phase, but the CR of the delayed was the first to be tested then the CR of the acute phase once the test for the primary endpoint was significant.
+L26: Table 1 displays the sponsor's p-values resulting from the primary and key secondary endpoint analyses for all four studies (See Section 3.2.3 for complete results in tables). As seen from the table, all phase 3 studies demonstrated positive findings for the primary endpoint, i.e., CR in the delayed phase. Study TS-P04832 was positive and the phase 2 HEC study appeared to be positive based on the sponsor reported p-values.
+L27: **Table 1 Summary of sponsor's P-values comparing Rolapitant and Placebo**
+L28: Study	Acute Phase	Delayed Phase*	Overall Phase
+Phase 3	
+TS-P04832 (HEC)	<0.001	
+TS-P04833 (HEC)	0.043	
+TS-P04834 (MEC)	<0.001	
+Phase 2	
+TS-P04351 (HEC)	0.045
+L29: *primary endpoint.
+L30: Source: clinical study reports for all four studies. Refer to Section 3.2.3 for details.
+L31: In order to evaluate the superiority claims made by the applicant, the agency issued an information request letter on 12/03/2014 mainly to request that the applicant apply the Cochran-Mantel-Haenszel test stratified by gender (SAS CMH test) to compare the treatment effects based upon the complete response rates for the delayed, acute, and overall phases for the phase 2 study, as this was the method used in the analysis of the three phase 3 studies. Based upon their response submitted on 12/09/2014, we found that the phase 2 study result for the delayed phase was not robust to analysis method as the CMH had a p-value of 0.056, greater than 0.049 (significance level for phase 2 study). We later found that even using the protocol specified logistic regression model, the p-value would be greater than 0.05 when the pre-specified CEC covariate was removed from the logistic regression model using data set received on 12/09/2014.
+L32: After further evaluation, we found that the quality of this phase 2 trial could be questionable as the protocol clearly stated that no formal data monitoring committee (DMC) was implemented even though the study was designed to have an interim analysis (IA) conducted for efficacy. During this review, we asked the applicant to submit supporting documentation regarding their IA and to submit their SAS program used for the original NDA data analyses.
+L33: By carefully examining their SAS program, we found that three patients (two in the Rolapitant arm and one in the Placebo arm) were not included in the primary analysis. Among these three patients, two had no post-randomization assessments and one had only an acute-phase assessment and was missing the delayed and overall phase assessments. After communicating with the sponsor, we learned that all three of these patients were removed from the ITT patient population according to criteria in the protocol and/or the Data Analysis Plan (DAP). However, we also noted that the DAP (dated 06/18/2008) was finalized about three months after the study had been completed (03/27/2008).
+L34: Because of these findings, the statistical team performed several analyses to evaluate the impact of the three patients on the applicant's superiority claim for the delayed phase. For details of the evaluation on the impact of the three patients, refer to Section 3.2.5 for study TS-P04351.
+L35: ## 2.2 DATA SOURCE
+L36: To assess the clinical efficacy of Rolapitant used in support of the proposed indication, this reviewer reviewed the original electronic NDA submission, dated 05 September 2014 and response documents to Agency information request letter, dated 09 December 2014, located at \\CDSESUB1\evsprod\NDA206500\206500.enx.
+L37: ## 3. STATISTICAL EVALUATION
+L38: ## 3.1 DATA AND ANALYSIS QUALITY
+L39: The statistical reviewer has successfully confirmed the sponsor's analysis results from the analysis datasets submitted in this application. The efficacy data for the phase 3 trials included in this application were carefully examined and the quality was determined to be acceptable.
+L40: In order to explore the data quality for the phase 2 study, this reviewer requested the applicant to submit their analysis programs on 04/03/2015. The SAS programs used for original NDA report were received by the Agency on 04/08/2015. After using the applicant's SAS programs for the phase 2 study, the data quality and analysis results for the delayed phase were determined to be questionable. For detailed comments, refer to Section 3.2.5 for Study TS-P04351.
+L41: ## 3.2 EVALUATION OF EFFICACY
+L42: ## 3.2.1 Description of Studies TS-P04832, TS-P04833, TS-P04834 and TS-P04351
+L43: The applicant submitted three phase 3 studies (two in patients undergoing HEC: TS-P04832 and TS-P04833; one in patients undergoing MEC: TS-P04834) and one phase 2 study (HEC: TS-P04351) to support the rolapitant regimen in the prevention of chemotherapy-induced nausea and vomiting (CINV). All four studies were conducted in multi-centers and were randomized, double-blind, active comparator-controlled, and parallel-group designed. For the four studies, rolapitant regimen was compared with control regimen for the prevention of CINV. In addition, the two HEC phase 3 studies (TS-P04832 and TS-P04833) have the same design and endpoints.
+L44: ## 3.2.1.1 Study Design and Objectives
+L45: ## TS-P04832 and TS-P04833
+L46: Subjects in the HEC studies TS-P04832 and TS-P04833 who met the study eligibility criteria were randomly assigned to one of two treatment groups (rolapitant or placebo) on Day 1. Granisetron (10 µg/kg intravenous [IV]) and dexamethasone (20 mg PO) were administered approximately 30 minutes before initiation of chemotherapy on Day 1, except in subjects receiving taxanes as a part of cisplatin-based chemotherapy. All subjects continued to receive dexamethasone (8 mg PO twice daily [BID]) on Days 2, 3, and 4. The efficacy of rolapitant was assessed through approximately 120 hours following initiation of cisplatin-based chemotherapy and the primary assessment of efficacy was based on the responses recorded in the NVSD for Cycle 1 only.
+L47: For both studies TS-P04832 and TS-P04833, approximately five hundred thirty two (532) patients and five hundred fifty five (555) patients, respectively, were planned for randomization (in a 1:1 ratio) to 1 of 2 treatment groups, with the overall randomization stratified by gender as outlined in Table 3.2.1.1.1
+L48: **Table 3.2.1.1.1 Sponsor's treatment provided for each study group (Day 1)
+– Studies TS-P04832 and TS-P04833**
+L49: Group	Planned Number of Subjects	Treatment	Route	Dose	Time of Administration Before HEC (hr)
+1	265	Rolapitant	PO	200 mg	1-2
+Granisetron	IV	10 µg/kg	0.5
+Dexamethasonea	PO	20 mg	0.5
+2	265	Placebo	PO	Placebo	1-2
+Granisetron	IV	10 µg/kg	0.5
+Dexamethasonea	PO	20 mg	0.5
+L50: IV = intravenous; PO = oral.
+L51: a Dexamethasone dosing was different and pre-specified for subjects receiving taxane.
+L52: Source: Table 4 for both study reports.
+L53: The primary efficacy endpoint for both studies was the complete response (CR) rate in the delayed phase of CINV, from &gt;24 through 120 hours following initiation of cisplatin-based chemotherapy at which The complete response was defined as no emesis and no use of rescue medication.
+L54: The key secondary endpoints were the CR rates for the acute (0 through ≤24 hours) and overall (0 through ≤120 hours) phases of CINV.
+L55: ## TS-P04834
+L56: For the MEC Study TS-P04834, the primary objective was also to determine whether the same rolapitant regimen (i.e., rolapitant with granisetron and dexamethasone) improved CINV in the delayed phase (&gt;24 to 120 hours) of CINV compared with administration of placebo with granisetron and dexamethasone and the primary endpoint was the same as that of Study TS-P04832. This was a global phase 3, multicenter, randomized, parallel-group, double-blind, active controlled study. Again, subjects who met the study eligibility criteria were randomly assigned to one of two treatment groups on Day 1 and randomization was stratified by gender. In each stratum, subjects were randomized in a 1:1 ratio to the study medication arms. Note that this study has a total of thirteen hundred and sixty nine (1369) patients randomized as shown in Table 3.2.1.1.2.
+L57: **Table 3.2.1.1.2 Sponsor's treatment provided for each study group (Day 1)**
+- Study TS-P04834
+L58: Group	Planned Number of Subjects	Treatment	Route	Dose (mg)	Time of Administration Before MEC (hr)
+1	675	Rolapitant	PO	200	1-2
+Granisetrona	PO	2	0.5
+Dexamethasoneb	PO	20	0.5
+2	675	Rolapitant-matched placebo	PO	0	1-2
+Granisetrona	PO	2	0.5
+Dexamethasoneb	PO	20	0.5
+L59: a Granisetron 2 mg PO every day (QD) was administered on Days 2 and 3.
+L60: b Dexamethasone dosing was different and pre-specified for patients receiving taxane
+L61: Source: Table 4 in the study report.
+L62: ## TS-P04351
+L63: Study TS-P04351 was a phase 2, multicenter, randomized, double-blind, placebo controlled, parallel-group, dose range-finding study to evaluate the efficacy and safety of various single doses of SCH 619734 administered to subjects receiving HEC (≥70 mg/m2 cisplatin-based chemotherapy). After qualification at the baseline visit, approximately 450 subjects were randomized to receive placebo or 10, 25, 100, or 200 mg of SCH 619734. An interim analysis was carried out after approximately the first 50% of randomized subjects (n≈225) had completed Cycle 1 to plan the direction of Phase 3 studies. At the end of Cycle 1, eligible subjects were allowed to continue the same treatment regimen for up to five additional cycles. The duration of each cycle was 29 days.
+L64: ## 3.2.1.2 Efficacy Endpoints and Analyses
+L65: As noted by this reviewer from the study reports, the primary data were confined to cycle 1 only.
+L66: ## Studies TS-P04832 and TS-P04833
+L67: ## Primary endpoint
+L68: The primary efficacy endpoint for these HEC studies was the CR rate in the delayed phase from &gt;24 through 120 hours following initiation of cisplatin-based chemotherapy. Complete response was defined as no emesis and no use of rescue medication.
+L69: ## Key Secondary endpoints
+L70: The key secondary endpoints were the CR rates for the acute (0 through ≤24 hours) and overall (0 through ≤120 hours) phases of CINV.
+L71: ## Secondary and tertiary endpoints
+L72: Secondary efficacy endpoints include the following:
+L73: - No emesis (no vomiting, retching, or dry heaves) during the acute, delayed, and overall phases of CINV;
+- No significant nausea (maximum VAS &lt;25 mm) during the overall phase of CINV;
+- Time to first emesis or to use of rescue medication.
+L74: The tertiary efficacy endpoints for this study included the following:
+L75: - No significant nausea during the acute and delayed phases of CINV;
+- No nausea (maximum VAS &lt;5 mm) and complete protection (no emesis, no rescue medication, and maximum nausea VAS &lt;25 mm on a 0- to 100-mm scale) during the acute, delayed, and overall phases of CINV;
+- No impact on daily life (total score &gt;108) as assessed using the FLIE Questionnaire nausea, the severity of postoperative pain experienced by patients and Quality of Life (QoL). QoL evaluations for nausea and emesis were assessed according to the Osoba questionnaire, which was partially implemented in the study to investigate the interference of nausea and vomiting on patients' daily activities. Rescue medication for the treatment of nausea and vomiting after surgery, with the exception of palonosetron and droperidol, was permitted at the discretion of the investigator.
+L76: ## Analysis Populations
+L77: The Modified Intent-to-Treat (MITT) Population consisted of all randomized subjects who received at least one dose of study drug. Subjects were analyzed based upon the treatment group in which they were randomized. The following criteria were used to exclude subjects from the MITT population:
+L78: - Subject was enrolled at a noncompliant site with major good clinical practice (GCP) violations;
+- Subject did not provide informed consent;
+- Subject did not receive at least one dose of study drug (rolapitant or placebo);
+L79: The As-Treated (AT) Population consisted of all randomized subjects who received at least one dose of study drug. Subjects were analyzed in the group in which they actually received treatment in Cycle 1.
+L80: The Per Protocol (PP) Population consisted of all randomized subjects who received at least one dose of study drug, received emetogenic chemotherapy (Hesketh Level 5), and did not have protocol deviations significantly affecting the interpretation of the study results. In addition, if a subject had missing diary data and the determination of CR could not be made from the remaining data, this subject was excluded from the respective phase of the efficacy analysis. Subjects were analyzed based on actual treatment received in Cycle 1.
+L81: The primary efficacy analysis for the primary, key secondary, and secondary endpoints was based on the MITT population; all efficacy endpoints and analyses were based on the Cycle 1 data only. Final database lock and subject-level un-blinding occurred when all subjects either had completed the study or discontinued the trial. All analyses as described in the SAP were carried out after final database lock.
+L82: ## Primary and Secondary Efficacy Analyses
+L83: Continuous data were summarized using n (number of subjects with non-missing observations), mean, median, standard deviation (SD), minimum value, and maximum value. Categorical data were summarized using the frequency count and percentage of subjects in each category.
+L84: The phase of CINV was determined using actual times (Time of event – Time 0). For the purpose of the analyses, Time 0 was defined as the time when the first Hesketh Level 5 chemotherapy was initiated.
+L85: For the primary endpoint, the response rate was tabulated by treatment group. The between group comparison in the response rate was carried out using the Cochran-Mantel-Haenszel \chi^2 test stratified by gender (SAS CMH test). If the delayed response rate of the rolapitant group was significantly higher than that of the control group (p \le 0.05), the study was declared to have met its primary objective. Supportive analyses for this variable were based on the PP and AT populations; the same analytical methods as described for the confirmatory analysis were applied for the supportive analyses.
+L86: The two key secondary endpoints (complete response in acute phase and complete response in overall phase) were evaluated in the same way as for the primary efficacy variable. As the primary endpoint, supportive analyses for the two key secondary endpoints were completed based on the PP and AT populations; the same analysis as described for the confirmatory analysis was applied.
+L87: Other secondary efficacy variables included no emesis during the acute, delayed, and overall phases of CINV, no significant nausea during the overall phase of CINV, and time to first emesis or use of rescue medication. The primary confirmatory analysis for these variables was completed based on the MITT population.
+L88: Analysis for no emesis during the acute, delayed, and overall phases of CINV, and no significant nausea during the overall phase of CINV used the same method as described for the primary efficacy variable. Time to first emesis or use of rescue medication was summarized using Kaplan-Meier methodology. The between group treatment comparison in the time to event was conducted using the log-rank test stratified by gender.
+L89: ## Multiplicity adjustment
+L90: For the primary and key secondary efficacy variables, the analysis followed the hierarchical (stepwise) testing procedure. The between group comparison was carried out for the primary efficacy variable (CR for the delayed phase of CINV), followed by the first key secondary efficacy variable (CR for the acute phase of CINV), and then by the second key secondary efficacy variable (CR for the overall phase of CINV). At each comparison, the unadjusted p-value was compared to the two-sided \alpha = 0.05 significance level. Sequential comparisons prior to the first insignificant test (p &gt; 0.05) were considered statistically significant. Statistical significance of the other 5 secondary efficacy variables (no emesis during the acute, delayed, and overall phases of CINV; no significant nausea during the overall phase of CINV; and time to first emesis or use of rescue medication) could be established only if the primary and the two key secondary variables were deemed to be statistically significant. To control for multiplicity within the secondary endpoints, the Bonferroni-Holm procedure was used.
+L91: ## Sample size
+L92: The sponsor estimated that with 257 subjects per group, an absolute difference of 15% in the delayed phase CR rates between the rolapitant and control groups could be detected at an \alpha = 0.05 level of significance (two-sided) with 93% power, assuming a control group CR rate of 50%. The 50% control response rate estimate was based on the results of a Phase 3 aprepitant trial with similar study design. Using this same sample size, the study had 90% power to detect an absolute difference of (b)(4)% in the key secondary endpoint of CR in the acute phase of CINV assuming a control response rate of (b)(4)%. The sample size assumptions used for CR in the overall phase of CINV (b)(4)% power for this key secondary endpoint. Therefore, a minimum of 530 subjects was planned for randomization to one of two treatment groups (rolapitant group or control group) in a 1:1 ratio to ensure 257 evaluable subjects per group.
+L93: ## Missing Data
+L94: For missing data imputation, the applicant indicated that subjects with missing diary data were considered as treatment failures for the respective binary efficacy variables that were affected. This method applied to missing diary data regardless if it was due to subject discontinuation or a day of the diary was missed.
+L95: ## Study TS-P04834
+L96: ## Primary endpoint
+L97: The primary efficacy endpoint for this MEC study was the complete response rate in the delayed phase of cycle 1 chemotherapy, from &gt;24 through 120 hours following initiation of MEC. Complete response is defined in as no emesis and no rescue medication.
+L98: ## Key Secondary endpoints
+L99: The key secondary endpoints were the CR rates for the acute (0 through \le 24 hours) and overall (0 through \le 120 hours) phases of CINV.
+L100: ## Secondary and tertiary endpoints
+L101: The secondary and tertiary efficacy endpoints are the same as shown above in study TS-P04832 and TS-P04833
+L102: Except for sample size calculation, the statistical methodologies are the same as that of Study TS-P04832 and TS-P04833. For detail information, refer to Study TS-P04832.
+L103: ## Sample size
+L104: For sample size determination, approximately 1350 subjects were to be randomized to one of two treatment groups (rolapitant group or control group) in a 1:1 ratio to ensure 650 evaluable subjects per group. With 650 subjects per group, the study was able to detect an absolute difference of 9% in the delayed phase CR rates between the rolapitant and control groups at an \alpha = 0.05 level of significance (2-sided) with 90% power, assuming a control group complete response rate of 49%. The sample size assumptions were based on the results of two Phase 3 aprepitant studies performed in a similar patient population receiving MEC.
+L105: Using this same sample size, the study had (b)(4)0% power to detect an absolute difference of (b)(4)% in the key secondary endpoint of complete response in the acute phase assuming a control (b)(4)
+L106: ## Missing Data
+L107: For missing data imputation, the applicant indicated that subjects with missing diary data were considered as treatment failures for the respective binary efficacy variables that were affected. This method applied to missing diary data regardless if it was due to subject discontinuation or a day of the diary was missed.
+L108: ## Study TS-P04351
+L109: ## Primary endpoint
+L110: The primary efficacy endpoint of this phase 2 study dose ranging was to assess the overall complete response rate (no emesis and no use of rescue medication 0 through 120 hours following initiation of cisplatin-based chemotherapy). The patient population consisted of subjects schedule for HEC.
+L111: ## Key Secondary Endpoints
+L112: The key secondary endpoints were the complete response rates for the acute (0 through 24 hours) and delayed (&gt;24 through 120 hours) phases of CINV.
+L113: ## Secondary endpoints
+L114: - No emesis (no vomiting, retching, or dry heaves; included subjects who received rescue medication): overall, acute, and delayed phases of CINV.
+- No nausea (maximum VAS &lt;5 mm on a 0- to 100-mm scale): overall, acute, and delayed phases of CINV.
+- No significant nausea (maximum VAS &lt;25 mm on a 0- to 100-mm scale): overall, acute, and delayed phases of CINV.
+- Time to first emesis or to rescue medication use.
+- Total control (no emesis, no rescue medication, and maximum nausea VAS &lt;5 mm on a 0- to 100-mm scale): overall, acute, and delayed phases of CINV.
+- Complete protection (no emesis, no rescue medication, and maximum nausea VAS &lt;25 mm on a 0- to 100-mm scale): overall, acute, and delayed phases of CINV.
+- Impact of CINV on daily life assessed by the FLIE Questionnaire
+L115: ## Analysis population
+L116: The applicant indicated that the primary analysis was based on all randomized subjects who received cisplatin-based chemotherapy and a dose of study medication and who had at least one post-treatment efficacy assessment in Cycle 1 recorded.
+L117: ## Primary and secondary efficacy analyses
+L118: The data for Cycle 1 were the primary data for the evaluation of efficacy. The study data was evaluated in two stages. In Stage one, the data were brought in-house and cleaned when all subjects completed Cycle 1. The database was frozen, and an interim clinical study report for Cycle 1 was planned, but not completed. In Stage two, the efficacy and safety data for subsequent cycles were summarized separately, when available.
+L119: The primary endpoint of overall complete response rate (no emesis and no rescue 0 to 120 hours following initiation of cisplatin-based chemotherapy) was to be evaluated using a logistic regression model with treatment, sex, and use of concomitant emetogenic chemotherapy (CEC). The analysis was to be conducted in a stepwise manner starting with a comparison of the highest dose of SCH 619734 (Rolapitant) to placebo, followed by the next lower dose and so forth in a sequential fashion. Each lower dose comparison against placebo was to be carried out only if the previous comparison was statistically significant (P &lt; 0.049). The P value was adjusted to account for the planned interim analysis.
+L120: The key secondary endpoints of complete response for the acute phase (0 through 24 hours) and delayed phase (&gt;24 through 120 hours) of CINV were to be evaluated using the same logistic regression model. To control for the type I error rate, testing for the key secondary endpoints was to be conducted in a stepwise fashion. For each dose comparison against placebo, the key secondary endpoints were to be evaluated sequentially starting with the highest dose that met the primary endpoint. First the delayed phase of CINV was to be evaluated, and, if the effect was significant (P &lt; 0.049), the acute phase of CINV was to be evaluated. Sequential testing for the next lower dose was to continue in the same order only if the previous comparison was statistically significant (P &lt; 0.049). Data for the primary and key secondary variables in the overall, acute, and delayed phases of CINV were to be summarized by treatment and strata and also by major demographic and baseline prognostic subgroups. All binary response type secondary variables (e.g., no emesis, no nausea) were to be evaluated using the same logistic regression model with treatment, sex, and use of CEC. Data for time to first emesis or to rescue medication use were to be summarized using Kaplan-Meier (K-M) curves, and each active dose comparison against placebo was to be carried out using the log-rank test. The efficacy data (nausea/vomiting) from cycles other than the first cycle were to be summarized by treatment group using descriptive statistics.
+L121: ## Missing Data
+L122: For the overall analysis, missing data were to be handled as follows. If either the acute or delayed phase outcome value was assessed as a failure and the other outcome was missing, the subject's outcome was to be counted as a failure. If either the acute or delayed phase value was assessed as a success and the other outcome was missing or both phase outcome values were missing, the subject's outcome was not to be counted in the phase(s) in which data were missing.
+L123: ## Interim analysis
+L124: The applicant indicated that an interim analysis was carried out after approximately the first 50% of randomized subjects (n\approx 225) had completed Cycle one. The interim analysis was to be carried out at an alpha level of 0.001, and the final analysis was to be carried out at an alpha level of 0.049 to maintain the overall alpha level at 0.05. The results of the interim analysis were to be used to plan the direction of future CINV studies.
+L125: ## Sample size
+L126: As to the sample size calculation, the applicant indicated that this study was expected to randomize approximately 450 subjects to achieve a total of 425 evaluable subjects (85 subjects per group). Subjects were randomized to one of five treatment arms (placebo and four doses of SCH 619734) in a 1:1:1:1:1 ratio. With 85 subjects per group, the study was expected to detect a 21% difference in response rate between the active arm and placebo at an alpha = 0.049 level of significance (two-sided) with 80% power, assuming a placebo response rate of 50%.
+L127: ## 3.2.2 Patient Disposition and Demographic and Baseline Characteristics
+L128: ## 3.2.2.1 Study TS-P04832
+L129: Subject disposition and the reason for discontinuation in Cycle 1 for all randomized subjects is presented in Table 3.2.2.1.1. Based upon Table 3.2.2.1.1, the applicant indicated that the majority of subjects in the rolapitant and control groups received study drug (99.2% and 98.5%, respectively) and chemotherapy (98.5% in both treatment groups), and completed Cycle 1 (94.4% and 90.2%, respectively). The proportion of subjects who discontinued from the study during or after completion of Cycle 1 and who did not enter Cycle 2 was similar between treatment groups (32.0% and 33.8% of rolapitant and control subjects, respectively). The most common reason for discontinuation from Cycle 1 in both rolapitant and control subjects was withdrawal of consent (8.6% and 9.0%, respectively). The overall rate of discontinuations due to AEs during Cycle 1 was lower in the rolapitant group (3.4%) compared with the control group (6.0%). The rate of discontinuation from Cycle 1 because of death was 0.8% and 1.5% in the rolapitant and control groups, respectively.
+L130: **Table 3.2.2.1.1 Sponsor's subject disposition and reason for discontinuation for Cycle 1 for all Randomized Subjects – Study TS-P04832**
+L131: Disposition	Rolapitant n (%)	Control n (%)
+Number of subjects entereda	266	266
+Number of subjects who received study drug	264 (99.2)	262 (98.5)
+Number of subjects who received chemotherapy	262b (98.5)	262 (98.5)
+Number of subjects who completed Cycle 1c	251 (94.4)	240 (90.2)
+Number of subjects who continued to Cycle 2d	181 (68.0)	176 (66.2)
+Number of subjects who discontinued during or after completion of Cycle 1	85 (32.0)	90 (33.8)
+Consent withdrawn	23 (8.6)	24 (9.0)
+Investigator judgment	17 (6.4)	13 (4.9)
+Chemotherapy course completed or change in therapy	11 (4.1)	9 (3.4)
+Adverse event	9 (3.4)	16 (6.0)
+Failure to comply with dosing, evaluations, or other requirements of the study	7 (2.6)	6 (2.3)
+Lack of efficacy	2 (0.8)	4 (1.5)
+Deathe	2 (0.8)	4 (1.5)
+Disease progression	1 (0.4)	0
+Lost to follow-up	1 (0.4)	2 (0.8)
+Otherf	12 (4.5)	12 (4.5)
+L132: a Number of subjects randomized.
+L133: b Subjects 204-2024 and 506-2007 did not receive chemotherapy due to a TEAE and withdrawn consent [CID1], respectively.
+L134: c Completed cycle = entered Cycle 2 or had Visit 3/3A for Cycle 1; d Continued to Cycle 2 = entered Cycle 2 or had Visit 1 (Day 1) for Cycle 2.
+L135: e Death occurred in some subjects following study completion or discontinuation; three in the control group (207-2001, 291-2038, 413-2008), and 1 subject in the rolapitant group (410-2010) discontinued and subsequently experienced an AE with an outcome of death within 30 days following the last dose. See Section 12.3.3.1 for a discussion of AEs resulting in death.
+L136: f Sponsor decision/study closure/study ended (n = 21); incorrect IMP dispensed (n = 1); study drug not available at site (n = 1); IEC approval letter pending (n = 1).
+L137: Source: Table 14 in the study report
+L138: Table 3.2.2.1.2 shown below presents demographic and baseline characteristics for the MITT population. Based upon Table 3.2.2.1.2, the applicant indicated that overall, this was an adequate and well-controlled global study that enrolled a broad cancer patient population that included males and females across multiple age groups and geographic regions. The demographics were generally well balanced between the treatment groups, as were the baseline characteristics for CINV risk factors such as alcohol consumption (self-reported), gender, and age. Mean age in the MITT population was 57.3 years and ranged from 20 to 90 years; most subjects were &lt;65 years of age (74.5%), male (57.8%), white (67.9%), and did not consume alcohol (80.7%). The MITT population included subjects from Europe (50.8%), North America (16.5%), Asia/South Africa (22.1%) and Central/South America (10.6%).
+L139: Table 3.2.2.1.2 Sponsor's demographic and baseline characteristics for MITT population
+- Study TS-P04832
+L140: Demographic Statistic	Rolapitant (N = 264)	Control (N = 262)	All (N = 526)
+Age (years)
+N	264	262	526
+Mean (SD)	57.0 (10.08)	57.7 (11.15)	57.3 (10.62)
+Median	58	58	58
+Min, Max	27, 86	20, 90	20, 90
+Age, n (%)
+N	264	262	526
+<65	199 (75.4)	193 (73.7)	392 (74.5)
+≥65 to <75	60 (22.7)	56 (21.4)	116 (22.1)
+≥75	5 (1.9)	13 (5.0)	18 (3.4)
+Gender, n (%)
+N	264	262	526
+Male	154 (58.3)	150 (57.3)	304 (57.8)
+Female	110 (41.7)	112 (42.7)	222 (42.2)
+Ethnicity, n (%)
+N	264	262	526
+Hispanic or Latino	33 (12.5)	34 (13.0)	67 (12.7)
+Not Hispanic or Latino	231 (87.5)	228 (87.0)	459 (87.3)
+Race, n (%)
+N	264	262	526
+American Indian or Alaska Native	2 (0.8)	0	2 (0.4)
+Asian	61 (23.1)	56 (21.4)	117 (22.2)
+Black or African American	2 (0.8)	3 (1.1)	5 (1.0)
+Native Hawaiian or Pacific Islander	0	0	0
+White	178 (67.4)	179 (68.3)	357 (67.9)
+Other	21 (8.0)	24 (9.2)	45 (8.6)
+Weight (kg)
+N	264	262	526
+Mean (SD)	68.9 (15.50)	69.9 (18.78)	69.4 (17.20)
+Median	67	67	67
+Min, Max	37, 139	37, 138	37, 139
+Body Surface Area (m2)
+N	264	262	526
+Mean (SD)	1.77 (0.224)	1.78 (0.259)	1.77 (0.242)
+Median	1.8	1.8	1.8
+Min, Max	1.2, 2.5	1.3, 2.7	1.2, 2.7
+Alcohol Consumption (drinks/week), n (%)
+N	262	261	523
+0	225 (85.9)	197 (75.5)	422 (80.7)
+>0 to ≤5	26 (9.9)	35 (13.4)	61 (11.7)
+>5 to ≤10	5 (1.9)	15 (5.7)	20 (3.8)
+>10	6 (2.3)	14 (5.4)	20 (3.8)
+Region, n (%)
+N	264	262	526
+North America	42 (15.9)	45 (17.2)	87 (16.5)
+Central/South America	28 (10.6)	28 (10.7)	56 (10.6)
+Europe	133 (50.4)	134 (51.1)	267 (50.8)
+Asia/South Africa	61 (23.1)	55 (21.0)	116 (22.1)
+L141: Abbreviations: MITT = Modified Intent-to Treat; SD = standard deviation
+Source: Table 18 in the study report
+L142: ## 3.2.2.2 Study TS-P04833
+L143: Subject disposition and the reason for discontinuation in Cycle 1 for all randomized subjects is presented in Table 3.2.2.2.1
+L144: **Table 3.2.2.2.1 Sponsor's subject disposition and reason for discontinuation for Cycle 1 for All Randomized Subjects - Study TS-P04833**
+L145: Disposition	Rolapitant n (%)	Control n (%)
+Number of subjects entereda 278	277
+Number of subjects who received study drug	272 (97.8)	274 (98.9)
+Number of subjects who received chemotherapy	272 (97.8)	273b (98.6)
+Number of subjects who completed Cycle 1c	259 (93.2)	259 (93.5)
+Number of subjects who continued in Cycle 2d	216 (77.7)	208 (75.1)
+Number of subjects discontinued during or after the completion of Cycle 1	62 (22.3)	69 (24.9)
+Adverse Event	12 (4.3)	14 (5.1)
+Chemotherapy course completed or change in therapy	8 (2.9)	4 (1.4)
+Consent withdrawn	13 (4.7)	22 (7.9)
+Disease progression	1 (0.4)	2 (0.7)
+Failure to comply with dosing, evaluations, or other requirements of the study	12 (4.3)	11 (4.0)
+Investigator judgment	5 (1.8)	5 (1.8)
+Lack of efficacy	6 (2.2)	5 (1.8)
+Lost to follow-up	0	3 (1.1)
+Death	2 (0.7)	1 (0.4)
+Other	3 (1.1)	2 (0.7)
+L146: a Entered Cycle 1 (Study) = being randomized for the Study.
+L147: b Subject 180-3043 withdrew from the study due to worsening arterial hypertension on the date chemotherapy was to have been initiated.
+L148: c Entered Cycle 2 or had Visit 3/3A for Cycle 1.
+L149: d Entered Cycle 2 = had
+L150: Source: Table 14 in Study TS-P04833
+L151: Based upon Table 3.2.2.2.1, the applicant indicated that the majority of subjects that entered the study (i.e., were randomized) in both the rolapitant and control groups received study drug (97.8% and 98.9%, respectively) and chemotherapy (97.8% and 98.6%, respectively), and completed Cycle 1 (93.2% and 93.5%, respectively). The proportion of subjects who discontinued from the study during Cycle 1 or after completion of Cycle 1 who did not enter Cycle 2 was similar between treatment groups (22.3% and 24.9% of rolapitant and control subjects, respectively). The most common reason for discontinuation from Cycle 1 in both rolapitant and control subjects was withdrawal of consent (4.7% and 7.9%, respectively). The overall rate of discontinuations due to AEs during Cycle 1 was similar between the treatment groups (4.3% and 5.1%, respectively). The rate of discontinuation from Cycle 1 due to death was 0.7% and 0.4% of subjects in the rolapitant and control groups, respectively.
+L152: Table 3.2.2.2.2 shown below presents demographic and baseline characteristics for the MITT population.
+L153: Based upon Table 3.2.2.2.2, the applicant indicated that overall, this was an adequate and well controlled global study that enrolled a broad cancer subject population that included males and females across multiple age groups and geographic regions. The demographics were generally well-balanced between the treatment groups, as were the baseline characteristics for such CINV risk factors as alcohol consumption (self-reported), gender, and
+L154: age. Mean age in the MITT Population was 58.5 years and ranged from 18 to 83; most subjects were &lt;65 years of age (73.2%), male (67.8%), white (80.5%), and did not consume alcohol (self-reported) (78.9%). The MITT Population included subjects from Europe (62.1%), North America (NA) (United States of America) (6.6%), Asia/South Africa (16.5%) and Central/South America (14.7%).
+L155: **Table 3.2.2.2.2 Sponsor's demographic and baseline characteristics (MITT Population)
+-Study TS-P04833**
+L156: Demographic Statistic	Rolapitant (N=271)	Control (N=273)	All (N=544)
+Age (Years)	
+N 271	273	544
+Mean (SD)	58.5 (10.05)	58.5 (9.25)	58.5 (9.65)
+Median	59	59	59
+Min, Max	21, 80	18, 83	18, 83
+Age, n (%)	
+N 271	273	544
+<65	198 (73.1)	200 (73.3)	398 (73.2)
+≥65-<75	62 (22.9)	66 (24.2)	128 (23.5)
+≥75	11 (4.1)	7 (2.6)	18 (3.3)
+Gender, n (%)	
+N 271	273	544
+Male	183 (67.5)	186 (68.1)	369 (67.8)
+Female	88 (32.5)	87 (31.9)	175 (32.2)
+Ethnicity, n (%)	
+N 271	273	544
+Hispanic or Latino	36 (13.3)	38 (13.9)	74 (13.6)
+Not Hispanic or Latino	235 (86.7)	235 (86.1)	470 (86.4)
+Race, n (%)	
+N 271	273	544
+American Indian or Alaska Native	2 (0.7)	8 (2.9)	10 (1.8)
+Asian	34 (12.5)	41 (15.0)	75 (13.8)
+Black or African American	2 (0.7)	3 (1.1)	5 (0.9)
+Native Hawaiian or Pacific Islander	0	0	0
+White	226 (83.4)	212 (77.7)	438 (80.5)
+Other	7 (2.6)	9 (3.3)	16 (2.9)
+Weight (kg)	
+N 271	273	544
+Mean (SD)	70.4 (15.90)	70.8 (14.65)	70.6 (15.27)
+Median	69	70	70
+Min, Max	38, 128	37, 112	37, 128
+Body Surface Area (m2)	
+N 271	273	544
+Mean (SD)	1.80 (0.227)	1.81 (0.211)	1.80 (0.219)
+Median	1.8	1.8	1.8
+Min, Max	1.3, 2.5	1.3, 2.3	1.3, 2.5
+Alcohol Consumption (Drinks/Week), n (%)	
+N 268	272	540
+0	209 (78.0)	217 (79.8)	426 (78.9)
+>0 to ≤5	33 (12.3)	34 (12.5)	67 (12.4)
+>5 to ≤10	7 (2.6)	8 (2.9)	15 (2.8)
+>10	19 (7.1)	13 (4.8)	32 (5.9)
+Region, n (%)	
+N 271	273	544
+North Americaa	17 (6.3)	19 (7.0)	36 (6.6)
+Central/South America	37 (13.7)	43 (15.8)	80 (14.7)
+Europe	173 (63.8)	165 (60.4)	338 (62.1)
+Asia/South Africa	44 (16.2)	46 (16.8)	90 (16.5)
+L157: a: Subjects from North America are from USA only
+L158: Source: Table 18 of Study TS-P04833.
+L159: ## 3.2.2.3 Study TS-P04834
+L160: Subject disposition and the reason for discontinuation in Cycle 1 for all randomized subjects are presented in Table 3.2.2.3.1.
+L161: **Table 3.2.2.3.1 Sponsor's subject disposition and reason for discontinuation for Cycle 1 for All Randomized Subjects - Study TS-P04834**
+L162: Disposition	Rolapitant
+n (%)	Control
+n (%)
+Number of subjects entereda	684	685
+Number of subjects received study drug	670 (98.0)	674 (98.4)
+Number of subjects received chemotherapy	671 (98.1)	673 (98.2)
+Number of subjects completed cycleb	636 (93.0)	640 (93.4)
+Number of subjects continuing into next cycle	556 (81.3)	550 (80.3)
+Number of subjects discontinued during cycle or after the completion of cycle	128 (18.7)	135 (19.7)
+Adverse Event	12 (1.8)	15 (2.2)
+Chemotherapy course completed or change in therapy	10 (1.5)	8 (1.2)
+Consent withdrawn	48 (7.0)	60 (8.8)
+Disease progression	0	2 (0.3)
+Failure to comply with dosing, evaluations, or other requirements of the study	25 (3.7)	20 (2.9)
+Investigator judgment	3 (0.4)	1 (0.1)
+Lack of efficacy	11 (1.6)	21 (3.1)
+Lost to follow-up	4 (0.6)	1 (0.1)
+Deathc	7 (1.0)	2 (0.3)
+Other	8 (1.2)	5 (0.7)
+L163: a Entered Cycle 1 (Study) = being randomized for the Study.
+L164: b Completed Cycle = entered into the next cycle or having Visit 3/3A for current Cycle
+L165: c See Section 12.3.3.1 of the study report for a discussion of AEs resulting in Death. Death occurred in some subjects following study completion
+L166: Source: Table 12 in the report of Study TS-P04834.
+L167: Based upon Table 3.2.2.3.1, the applicant's indicated that the majority of subjects that entered the study in both the rolapitant and control groups received study drug (98.0% and 98.4%, respectively) and chemotherapy (98.1% and 98.2%, respectively), and completed Cycle 1 (93.0% and 93.4%, respectively). The proportion of subjects who discontinued from the study during Cycle 1 or after completion of Cycle 1 who did not enter Cycle 2 was similar between treatment groups (18.7% and 19.7% of rolapitant and control subjects, respectively). The most common reason for discontinuation from Cycle 1 in both rolapitant and control subjects were withdrawal of consent (7.0% and 8.8%, respectively). The overall rate of discontinuations due to AEs during Cycle 1 was similar between the treatment groups (1.8% and 2.2%, respectively). The rate of discontinuations from Cycle 1 due to death was 1.0% and 0.3% in the rolapitant and control groups, respectively.
+L168: In addition, Table 3.2.2.3.2 shown below presents demographic and baseline characteristics for the MITT population.
+L169: Based upon Table 3.2.2.3.2, the applicant indicated that overall, this study enrolled a broad cancer patient population that included males and females across multiple age groups and regions. The demographics were generally well-balanced between the treatment groups, as were the baseline characteristics for CINV risk factors such as alcohol consumption (self-
+L170: reported), gender, and age. Mean age in the MITT Population was 56.7 years and ranged from 22 to 88; most subjects were &lt;65 years of age (72.4%), female (80.1%), White (77.0%), and did not consume alcohol (self-reported) (80.6%). The MITT Population included subjects from Europe (45.9%), the United States (33.4%), Asia/South Africa (16.0%), and Central/South America (4.7%).
+L171: **Table 3.2.2.3.2 Sponsor's demographics and baseline characteristics for MITT population - Study TS-P04834**
+L172: Demographic Statistic	Rolapitant (N=666)	Control (N=666)	All (N=1332)
+Age (Years)	
+N	666	666	1332
+Mean (SD)	56.7 (11.65)	56.6 (12.01)	56.7 (11.83)
+Median	58	56	57
+Min, Max	22, 86	22, 88	22, 88
+Age, n (%)	
+N	666	666	1332
+<65	495 (74.3)	470 (70.6)	965 (72.4)
+≥65-<75	131 (19.7)	152 (22.8)	283 (21.2)
+≥75	40 (6.0)	44 (6.6)	84 (6.3)
+Gender, n (%)	
+N	666	666	1332
+Male	135 (20.3)	130 (19.5)	265 (19.9)
+Female	531 (79.7)	536 (80.5)	1067 (80.1)
+Ethnicity, n (%)	
+N	661	663	1324
+Hispanic or Latino	77 (11.6)	70 (10.6)	147 (11.1)
+Not Hispanic or Latino	584 (88.4)	593 (89.4)	1177 (88.9)
+Race, n (%)	
+N	662	663	1325
+American Indian or Alaska Native	7 (1.1)	6 (0.9)	13 (1.0)
+Asian	92 (13.9)	84 (12.7)	176 (13.3)
+Black or African America	24 (3.6)	29 (4.4)	53 (4.0)
+Native Hawaiian or Pacific Islander	1 (0.2)	2 (0.3)	3 (0.2)
+White	508 (76.7)	512 (77.2)	1020 (77.0)
+Multi-racial	0	0	0
+Other	30 (4.5)	30 (4.5)	60 (4.5)
+Weight (kg)	
+N	666	666	1332
+Mean (SD)	72.5 (16.93)	73.6 (17.59)	73.0 (17.27)
+Median	70	70	70
+Min, Max	36, 149	38, 154	36, 154
+Body Surface Area (m2)	
+N	666	666	1332
+Mean (SD)	1.80 (0.228)	1.82 (0.235)	1.81 (0.232)
+Median	1.8	1.8	1.8
+Min, Max	1.2, 2.6	1.3, 2.7	1.2, 2.7
+Alcohol Consumption (Drinks/Week), n (%)	
+N	665	666	1331
+0	540 (81.2)	533 (80.0)	1073 (80.6)
+>0 to ≤5	96 (14.4)	92 (13.8)	188 (14.1)
+>5 to ≤10	15 (2.3)	17 (2.6)	32 (2.4)
+>10	14 (2.1)	24 (3.6)	38 (2.9)
+Region, n (%)	
+N	666	666	1332
+North Americaa	216 (32.4)	229 (34.4)	445 (33.4)
+Central/South America	31 (4.7)	32 (4.8)	63 (4.7)
+Europe	312 (46.8)	299 (44.9)	611 (45.9)
+Asia/South Africa	107 (16.1)	106 (15.9)	213 (16.0)
+L173: a Subjects from North America are from USA only.
+L174: Source: Table 16 in the report of Study TS-P04834
+L175: ## 3.2.2.4 Study TS-P04351
+L176: Subject disposition and the reason for discontinuation in Cycle 1 for all randomized subjects are presented in Table 3.2.2.4.1.
+L177: **Table 3.2.2.4.1 Sponsor's disposition of subjects for Cycle 1 - Study TS-P04351**
+L178: Disposition of Subjects	No. (%) of Subjects
+Placebo	SCH 619734 10 mg	SCH 619734 25 mg	SCH 619734 100 mg	SCH 619734 200 mg
+Received randomized treatment assignment	91 (100)	91 (100)	91 (100)	91 (100)	90 (100)
+Completed Cycle 1 treatment phase	84 (92)	86 (95)	79 (87)	84 (92)	83 (92)
+Discontinued Cycle 1 treatment phase	7 (8)	5 (5)	12 (13)	7 (8)	7 (8)
+Adverse event	3 (3)	2 (2)	5 (5)	2 (2)	5 (6)
+Treatment failure	2 (2)	0	1 (1)	0	0
+Disease progression	0	1 (1)	0	0	0
+Lost to follow-up	0	0	1 (1)	1 (1)	0
+Subject did not wish to continue for unrelated reasons	1 (1)	2 (2)	5 (5)	4 (4)	1 (1)
+Did not meet protocol eligibilitya	1 (1)	0	0	0	1 (1)
+Discontinued Cycle 1 follow-up phaseb	0	1 (1)	0	0	1 (1)
+Adverse event	0	0	0	0	1 (1)
+Subject did not wish to continue for unrelated reasons	0	1 (1)	0	0	0
+L179: a: Subjects randomized, but never treated.
+L180: b: Subjects completed Cycle 1, but never entered subsequent cycles.
+L181: Source: Table 5 presented in the report of Study TS-P04351.
+L182: Based upon Table 3.2.2.4.1, the applicant indicated that a total of 533 subjects were screened, and 454 subjects were randomized and received one dose of study medication in Cycle 1. Of these, 91 subjects each were randomized to receive placebo or SCH 619734 10, 25, or 100 mg; 90 subjects were randomized to receive SCH 619734 200 mg. A total of 416 (91.6%) subjects completed the protocol-specified, double-blind, Cycle 1 treatment phase. Thirty-eight (8.4%) subjects discontinued from the Cycle 1 treatment phase; two additional subjects discontinued from the Cycle 1 follow-up phase. The primary reason for discontinuation during the Cycle 1 treatment phase was adverse events. More subjects discontinued during the Cycle 1 treatment phase in the SCH 619734 25-mg dose group (12/91, 13%) compared with the other treatment groups (5%–8%). More subjects discontinued during the Cycle 1 treatment phase because of adverse events in the 25-mg dose group (5/91, 5%) and in the 200-mg dose group (5/90, 6%) compared with the other treatment groups (2%–3%).
+L183: In addition, Table 3.2.2.4.2 shown below presents demographic and baseline characteristics for the MITT population.
+L184: Based upon Table 3.2.2.4.2, the applicant indicated that of the 454 randomized subjects in Cycle 1, 244 (54%) were male, 256 (56%) were white, and 251 (55%) were Hispanic or Latino. The median age was 55 years (range, 18 to 86 years). A total of 389 (86%) subjects were receiving concomitant emetogenic chemotherapy (CEC) at Baseline.
+L185: In addition, the applicant commented that demographic and other baseline characteristics for all cycles were the same as those for Cycle 1. For the total of 75 investigational sites, subjects could be categorized according to the following geographic regions: South America, 226 (50%); Asia, 104 (23%); Europe, 67 (15%), North America, 37 (8%); South Africa 15 (3%); Australia 5 (1%). There were no investigational sites in the United States.
+L186: Table 3.2.2.4.2 Sponsor's summary demographic and other baseline characteristics for Cycle 1 using Intent-to-Treat population- Study TS-P04351
+L187: Placebo (n=91)	SCH 619734 10 mg (n=91)	SCH 619734 25 mg (n=91)	SCH 619734 100 mg (n=91)	SCH 619734 200 mg (n=90)	Total (n=454)
+Sex (n, % subjects)	
+Female	42 (46)	42 (46)	42 (46)	42 (46)	42 (47)	210 (46)
+Male	49 (54)	49 (54)	49 (54)	49 (54)	48 (53)	244 (54)
+Race (n, % subjects)	
+White	54 (59)	48 (53)	50 (55)	52 (57)	52 (58)	256 (56)
+Non-white	37 (41)	43 (47)	41 (45)	39 (43)	38 (42)	198 (44)
+Multiracial	35 (38)	33 (36)	35 (38)	32 (35)	32 (36)	167 (37)
+Ethnicity (n, % subjects)	
+Hispanic or Latino	51 (56)	52 (57)	51 (56)	47 (52)	50 (56)	251 (55)
+Not Hispanic or Latino	40 (44)	39 (43)	40 (44)	44 (48)	40 (44)	203 (45)
+Age (yr)	
+Mean (SD)	53.0 (13.4)	54.9 (12.4)	52.4 (11.4)	55.6 (11.2)	52.3 (12.6)	53.7 (12.3)
+Median	54.0	55.0	53.0	57.0	56.0	55.0
+Range	18–77	22–86	26–76	19–79	20–75	18–86
+Age (n, % subjects)	
+18–<50	36 (40)	26 (29)	37 (41)	22 (24)	30 (33)	151 (33)
+50–<65	33 (36)	43 (47)	41 (45)	47 (52)	47 (52)	211 (46)
+≥65	22 (24)	22 (24)	13 (14)	22 (24)	13 (14)	92 (20)
+Weight (kg)	
+Mean (SD)	67.4 (13.9)	65.9 (16.5)	70.9 (15.5)	70.5 (15.1)	67.8 (13.7)	68.5 (15.0)
+Median	66.0	62.5	69.0	68.2	65.6	66.3
+Range	39.0–116.0	40.0–114.3	44.5–127.5	46.0–107.0	40.0–106.0	39.0–127.5
+BSA (m2)	
+Mean (SD)	1.71 (0.19)	1.70 (0.22)	1.77 (0.22)	1.76 (0.21)	1.74 (0.21)	1.74 (0.21)
+Median	1.70	1.66	1.74	1.75	1.71	1.72
+Range	1.25–2.30	1.25–2.28	1.40–2.34	1.37–2.25	1.34–2.35	1.25–2.35
+Height (cm)	
+Mean (SD)	163.5 (9.0)	163.9 (9.9)	164.4 (10.0)	163.7 (11.4)	165.8 (11.2)	164.2 (10.3)
+Median	163.0	163.0	163.0	164.0	165.0	164.0
+Range	146.0–185.0	143.0–182.0	144.0–190.0	108.0–182.0	136.0–191.0	108.0–191.0
+CEC (n, % subjects)	
+No	12 (13)	15 (16)	14 (15)	14 (15)	10 (11)	65 (14)
+Yes	79 (87)	76 (84)	77 (85)	77 (85)	80 (89)	389 (86)
+KPSa (n, % subjects)	
+60	2 (2)	0	0	1 (1)	1 (1)	4 (1)
+70	4 (4)	7 (8)	2 (2)	4 (4)	2 (2)	19 (4)
+80	20 (22)	18 (20)	19 (21)	15 (16)	15 (17)	87 (19)
+90	31 (34)	33 (36)	37 (41)	36 (40)	36 (40)	173 (38)
+100	34 (37)	33 (36)	33 (36)	35 (38)	36 (40)	171 (38)
+L188: BSA = body surface area; CEC = concomitant emetogenic chemotherapy; KPS = Karnofsky Performance Status.
+L189: a: KPS: 60 = requires occasional assistance; 70 = cares for self, no normal activity; 80 = normal activity with effort; 90 = normal activity; 100 = normal, no complaints.
+L190: Source: Table 7 presented in the report of Study TS-P04351.
+L191: ## 3.2.3 Sponsor's Efficacy Results and Conclusions
+L192: ## 3.2.3.1 Study TS-P04832
+L193: The hierarchical multiplicity adjustment method proposed by the applicant was applied to compare the efficacy between rolapitant regimen and control regimen assessed by the primary, key secondary endpoints. In addition, statistical significance of the other 5 secondary efficacy variables (no emesis during the acute, delayed, and overall phases of CINV; no significant nausea during the overall phase of CINV; and time to first emesis or use of rescue medication) could be established only if the primary and the two key secondary variables were deemed to be statistically significant. To control for multiplicity within the secondary endpoints, the Bonferroni-Holm procedure was used. Finally, the primary confirmatory analysis for the primary, key secondary and secondary endpoints was based on the MITT population.
+L194: Efficacy comparison results for the primary, key secondary and secondary endpoints using the MITT, population are provided in Table 3.2.3.1.1.
+L195: **Table 3.2.3.1.1 Sponsor's comparison of efficacy results for MITT Population - Study TS-P04832**
+L196: Efficacy Variable	CINV Phase	Rolapitant (N = 264) Rate (%)	Control (N = 262) Rate (%)	Unadjusted P-Value	Adjusted P-Value	Statistical Significance	Method of Determination
+Primary
+Complete Responsea	Delayed	72.7	58.4	<0.001	<0.001	Yes	1st on stepwise
+Key Secondary
+Complete Response	Acute	(b) (4)	Yes	2nd on stepwise
+Complete Response	Overall	Yes	3rd on stepwise
+Other Secondary
+No Emesisb	Acute	(b) (4)	Yes	Bonferroni-Holm
+No Emesis	Delayed	78.0	61.8	<0.001	0.005	Yes	Bonferroni-Holm
+No Emesis	Overall	(b) (4)	Yes	Bonferroni-Holm
+No Significant Nauseac	Overall	Yes	Bonferroni-Holm
+Median time (hr) to 1st emesis or use of rescue medicationd	Overall	Yes	Bonferroni-Holm
+L197: Abbreviations: CINV = chemotherapy-induced nausea and vomiting; MITT = Modified Intent-to Treat; NE = Not estimable; VAS = visual analog
+L198: a No emesis and no rescue medication.
+L199: b No vomiting, retching, or dry heaves (includes subjects who received rescue medication).
+L200: c Maximum VAS &lt;25 mm on the scale of 0 to 100 mm for the NVSD Question 2.
+L201: d Event rates (%) for each treatment group were provided for all efficacy variables except for "median time (hr) to" variable where median time was presented instead.
+L202: Source: Table 3.1.1.5.1 is copied from Table 40 of the study report
+L203: The primary efficacy endpoint was the CR rate (no emetic episodes and no use of rescue medication) in the delayed phase of CINV (&gt;24 through 120 hours following initiation of HEC). Based upon Table 3.2.3.1.1, the rolapitant group achieved a statistically significantly higher CR rate in the delayed phase compared to the control group (72.7% vs 58.4%, respectively; p &lt; 0.001) using the MITT primary analysis population.
+L204: In addition, CR during the acute phase of chemotherapy was statistically significant with higher response rates in the rolapitant group compared with the active control group (b) (4). Similarly, in the overall phase of chemotherapy, the CR rate in the rolapitant group was significantly higher than the control group (b) (4).
+L205: Finally, the applicant stated that using the MITT primary analysis population, all secondary endpoints were statistically superior for rolapitant vs control. Secondary endpoints of no emesis during the acute (b) (4) delayed (rolapitant (b) (4) 78.0%, control 61.8%; p &lt; 0.001), and overall phases were each statistically superior for rolapitant vs control. Rolapitant was also statistically superior to control with respect to no significant nausea (b) (4) in the overall phase, and time to first emesis or use of rescue medication (b) (4). These results provided by the study support the use of rolapitant for the prevention of CINV in patients receiving cisplatin-based HEC.
+L206: ## 3.2.3.2 Study TS-P04833
+L207: The applicant indicated that a comparison of efficacy results for the primary, key secondary, and secondary endpoints using the MITT population is provided in Table 3.2.3.2.1.
+L208: **Table 3.2.3.2.1 Sponsor's comparison of efficacy results for MITT population
+– Study TS-P04833**
+L209: Efficacy Variable	CINV Phase	Rolapitant (N=271) Rate (%)	Control (N=273) Rate (%)	Unadjusted P-Value	Adjusted P-Value	Statistical Significance	Method of Determination
+Primary
+Complete Responsea	Delayed	70.1	61.9	0.043	0.043	Yes	1st on stepwise
+Key Secondary
+Complete Response	Acute	(b) (4)	No	2nd on stepwise
+Complete Response	Overall	No	3rd on stepwise
+Other Secondary
+No Emesisb Acute	(b) (4)	No	Bonferroni-Holm
+No Emesis	Delayed	73.1	65.2	0.046	0.233	No	Bonferroni-Holm
+No Emesis	Overall	(b) (4)	No	Bonferroni-Holm
+No Significant Nauseac Overall	No	Bonferroni-Holm
+Median Time (hr) to 1st emesis or use of rescue medicationd	Overall NE	No	Bonferroni-Holm
+L210: Abbreviations: CINV = chemotherapy-induced nausea and vomiting; MITT = Modified Intent-to Treat; NE = Not estimable; VAS = visual analog
+L211: a No emesis and no use of rescue medication.
+L212: b No vomiting, retching, or dry heaves (includes subjects who receive rescue medications).
+L213: c Maximum VAS &lt;25 mm on the scale of 0 to 100 mm for the Nausea and Vomiting Subject Diary Question 2.
+L214: d Event rates (%) for each treatment group were provided for all efficacy variables except for "median time (hr) to" variable where median time was presented instead.
+L215: Source: Table3.1.1.5.1 is copied from Table 40 of the study report
+L216: Based upon Table 3.2.3.2.1, the applicant indicated that for the primary endpoint, the rolapitant group achieved a statistically significantly higher complete response rate in the delayed phase as compared to the control group (70.1% vs 61.9%, respectively; p = 0.043). However, for the two key secondary endpoints (i.e., complete response in the acute phase and complete response in the overall phase), the complete response rates of rolapitant failed to demonstrate significant higher than that of the control group.
+L217: The applicant further indicated that because statistical significance was not achieved for complete response in the acute phase, formal statistical significance of secondary endpoints cannot be established although secondary endpoints of no emesis in the delayed phase and time to first emesis or use of rescue medication favored the rolapitant group with (b) (4)
+L218: Finally, the applicant declared that results for the PP population which included only those subjects with the highest compliance with the protocol were generally similar to those in the MITT Population and further supported MITT results.
+L219: ## 3.2.3.3 Study TS-P04834
+L220: To control for multiplicity, statistical testing for primary, key secondary and secondary endpoints was performed according to the hierarchy as specified in Section 9.7.1.4 of Study TS-P04834 report, which is copied in the section 3.2.1.2 “Efficacy endpoints and Analyses” of this review. The results of the efficacy analyses based on the MITT Population are presented in Table 3.2.3.3.1.
+L221: **Table 3.2.3.3.1 Sponsor's comparison of efficacy results for MITT population – Study TSP04834**
+L222: Efficacy Variable	CINV Phase	Rolapitant (N=666) Rate (%)	Control (N=666) Rate (%)	Unadjusted P-Value	Adjusted P-Value	Statistical Significance	Method of Determination
+Primary
+Complete Responsea	Delayed	71.3	61.6	<0.001	<0.001	Yes	1st on stepwise
+Key Secondary
+Complete Response	Acute	(b) (4)	No	2nd on stepwise
+Complete Response	Overall	No	3rd on stepwise
+Other Secondary
+No Emesisb	Acute	(b) (4)	No	Bonferroni-Holm
+No Emesis	Delayed	80.5	69.8	<0.001	0.143	No	Bonferroni-Holm
+No Emesis	Overall	(b) (4)	No	Bonferroni-Holm
+No Significant Nauseac	Overall	No	Bonferroni-Holm
+Median Time (hr) to 1st emesis or use of rescue medicationd	Overall	No	Bonferroni-Holm
+Tertiary
+No Significant Nausea	Acute	(b) (4)	N/A	Not Done
+No Significant Nausea	Delayed	72.7	69.4	0.194	N/C	N/A	Not Done
+No Nauseae	Acute	(b) (4)	N/A	Not Done
+No Nausea	Delayed	48.5	44.9	0.201	N/C	N/A	Not Done
+No Nausea	Overall	(b) (4)	N/A	Not Done
+Complete Protectionf	Acute	N/A	Not Done
+Complete Protection	Delayed	64.3	56.9	0.006	N/C	N/A	Not Done
+Complete Protection	Overall	(b) (4)	N/A	Not Done
+L223: a No emesis and no use of rescue medication.
+L224: b No vomiting, retching, or dry heaves.
+L225: c Maximum VAS &lt;25 mm on the scale of 0 to 100 mm for the NVSD Question 2.
+L226: d Event rates (%) for each treatment group were provided for all efficacy variables except for "median time (hr) to" variable where median time was presented instead.
+L227: e Maximum VAS &lt;5 mm on the scale of 0 to 100 mm for the NVSD Question 2.
+L228: f No emesis, no rescue medication, and max nausea VAS &lt;25 mm on the scale of 0 to 100 mm for the NVSD Question 2.
+L229: g Functional Living Index-Emesis (FLIE) total score &gt;108. Denominator was based on the number of subjects with valid questionnaire.
+L230: N/C=Not computed; N/A=Not applicable; NE=Not estimable
+L231: Source: Table 23 in the report of Study TS-P04834
+L232: Based upon Table 3.2.3.3.1, the applicant indicated that the complete response rate for the delayed phase in the rolapitant group was significantly higher than in the control group (p&lt;0.001); 71.3% of subjects who received rolapitant achieved CR in the delayed phase versus 61.6% of subjects who received control. In addition, results for the delayed phase in the PP and AT populations were generally similar to those in the MITT Population (p&lt;0.001 in both the PP and AT populations).
+L233: (b) (4)
+L234: Finally, the applicant declared that results for the PP population which included only those subjects with the highest compliance with the protocol were generally similar to those in the MITT Population.
+L235: ## 3.2.3.4 Study TS-P04351
+L236: As noted by this reviewer, for this study, the primary efficacy endpoint was the overall complete response rate (no emesis and no use of rescue medication 0 through 120 hours following initiation of cisplatin-based chemotherapy). The key secondary endpoints were the complete response rates for the acute (0 through 24 hours) and delayed (&gt;24 through 120 hours) phases of CINV.
+L237: The applicant indicated that the SCH 619734 200-mg (Rolapitant) dose group had significantly greater complete response rates than the placebo group for the overall, acute, and delayed phases.
+L238: or the delayed phase, the response was 63.6% vs 48.9% (OR = 1.86; P = 0.045). However, complete response rates for the other SCH 619734 dose groups (10 mg, 25 mg, and 100 mg) did not achieve statistical significance when compared with placebo.
+L239: By the stepwise multiplicity adjustment method proposed by the applicant for this study, since no significant results were found for lower dose levels when compared with placebo using complete response rates for the overall, acute, and delayed phases, the efficacy comparison procedure was stopped at 100 mg. The effects of SCH 61974 with dose levels 100mg, 25 mg, and 10 mg were declared no better than placebo assessed by complete response rates in the overall, acute, and delayed phases.
+L240: The complete response rates by treatment group are presented by Table 3.2.3.4.1.
+L241: **Table 3.2.3.4.1 Sponsor's summary of complete response by treatment group for Cycle 1**
+L242: Time Intervala	Placebo (E)	SCH 619734 10 mg (A)	SCH 619734 25 mg (B)	SCH 619734 100 mg (C)	SCH 619734 200 mg (D)
+Response Ratesb
+n	%	n	%	n	%	n	%	n	%
+0–120 hrc	
+0–24 hrd	
+>24–120 hrd	90	48.9	91	50.5	88	54.5	91	58.2	88	63.6
+L243: a: Overall (0-120 hr), acute (0-24 hr), and delayed (&gt;24-120 hr) phases.
+L244: b: Response rates are raw percentages.
+L245: c: Primary efficacy endpoint.
+L246: d: Key secondary efficacy endpoint.
+L247: ## 3.2.4 Sponsor's Conclusion
+L248: Based on the applicant's results across the CINV studies, they concluded that rolapitant led to a consistent treatment effect in the prevention of emesis and use of rescue medication in all phases of chemotherapy and the effect was greater than that observed in the control group. Multiple other secondary and tertiary endpoint comparisons favored rolapitant in the individual studies and contribute additional support for the benefit of rolapitant during the delayed, acute, and overall at risk period (0 to 120 hours) for subjects receiving emetogenic chemotherapy.
+L249: ## 3.2.5 Statistical Reviewer's Findings and Comments
+L250: ## 3.2.5.1 Study TS-P04832
+L251: In order to evaluate the applicant claim on the efficacy of rolapitant regimen superior to that of control regimen assessed by the proportion of complete response in the delayed phase, this reviewer has performed the following two analyses based upon the complete response in the delayed phase using the MITT population 1) efficacy comparison by investigator site and 2) efficacy comparison by region. Following the efficacy analyses, this reviewer makes comments on the efficacy strength of the single study
+L252: ## 1) Efficacy comparison by investigator-site
+L253: In order to explore whether the superiority of rolapitant regimen to control regimen assessed by the complete response in the delayed phase was dominated by certain investigator-sites, this reviewer compares the efficacy of rolapitant regimen versus control regimen by investigator-site based upon the complete response in the delayed phase using the MITT population.
+L254: Since a small site has no capability to dominate the superiority of aprepitant regimen to control regimen, the numbers of patients for sites with no less than ten patients are explored and presented in Table 3.2.5.1.
+L255: **Table 3.2.5.1 Reviewers results of complete response in the delayed phase by site for the MITT population - Study TS-P04832**
+L256: SITE NUMBER	ROLAPITAT (A)
+% (n/N)	CONTROL (C)
+% (n/N)	DIF.
+R - C	SITE NUMBER	ROLAPITANT (A)
+% (n/N)	CONTROL (C)
+% (n/N)	DIF.
+R - C
+Site 136	100.0 (6/6)	100.0 (4/4)	0.0%	Site 304	80.0 (4/5)	40.0 (2/5)	40.0%
+Site 138	88.9 (8/9)	100.0 (7/7)	-11.9%	Site 409	62.5 (10/16)	13.3 (2/15)	49.2%
+Site 175	33.3 (3/9)	44.4 (4/9)	-11.1%	Site 410	25.0 (1/4)	66.7 (4/6)	-41.7%
+Site 178	66.7 (4/6)	45.5 (5/11)	21.2%	Site 412	75.0 (9/12)	37.5 (3/8)	37.5%
+Site 190	100.0 (4/4)	100.0 (6/6)	0.0%	Site 413	50.0 (4/8)	50.0 (5/10)	0.0%
+Site 196	100.0 (6/6)	87.5 (7/8)	12.5%	Site 414	66.7 (4/6)	80.0 (4/5)	-13.3%
+Site 204	85.7 (6/7)	100.0 (9/9)	-14.3%	Site 417	75.0 (6/8)	50.0 (1/2)	25.0%
+Site 228	62.5 (5/8)	100.0 (2/2)	-37.5%	Site 506	14.3 (1/7)	33.3 (2/6)	-19.0%
+Site 291	72.7 (16/22)	40.0 (8/20)	32.7%	
+Site 298	92.9 (13/14)	77.8 (7/9)	15.1%	Total	72.7 (192/264)	58.4 (153/262)	14.3 %
+L257: Based upon the results from Table 3.2.5.1, it is noted that the proportion differences assessed by the complete response in the delayed phase between rolapitant regimen and control regimen are evenly distributed in the range of -41.7% to 49.2%. It appears that no site is identified to have abnormally large effect to dominate the superiority of rolapitant regimen to control regimen.
+L258: ## 2) Treatment difference analysis by region
+L259: In order to explore whether the therapeutic gains (defined as the complete response rate of rolapitant regimen minus that of control regimen) for rolapitant regimen versus control regimen were affected by region classified by the applicant, this reviewer compares the proportions on the complete response in the delayed phase by region using the MITT population.
+L260: The complete responses in the delayed phase by country using the MITT population are presented in Table 3.2.5.2.
+L261: **Table 3.2.5.2 Reviewer's results of complete response rate in the delayed phase by region for the MITT population- Study TS-P04832**
+L262: REGION	ROLAPITANT (A)
+% (n/N)	CONTROL (C)
+% (n/N)	THERAPEUTIC GAIN†
+% (A - C)
+Asia/South Africa	62.3 (38/61)	45.5 (25/55)	16.8%
+Central/south America	64.3 (18/28)	35.7 (10/28)	28.6%
+Europe	83.5 (111/133)	72.4 (97/134)	11.1%
+North America	59.5 (25/42)	46.7 (21/45)	12.8%
+USA	70.6 (24/34)	48.6 (18/37)	22.0%
+Canada	12.5 (1/8)	37.5 (3/8)	-25.0%
+Overall	72.7 (192/264)	58.4 (153/263)	14.3%
+L263: †: defined as proportion of complete response of rolapitant regimen minus that of control regimen.
+L264: Based upon the results from Table 3.2.5.2, the therapeutic gains by region assessed by complete response rates in the delayed phase for rolapitant regimen versus control regimen are greater than 11.0% and less than 29.0%. It seems that rolapitant showed effects on all regions and no region had abnormally large effects. Accordingly, the overall effect (14.3% Therapeutic gain) seems to be a meaningful region effect to represent individual region.
+L265: In addition, it is noted that the proportion of patients enrolled from USA included in North America region was 13.4% (71/526) in the study. The therapeutic gain of USA is 22.0%, which is numerically higher than the overall therapeutic gain (14.3%).
+L266: ## Reviewer's Comments on the Efficacy of Rolapitant
+L267: ## i) Comments on the Primary Endpoint
+L268: - The complete response rate for the delayed phase in the rolapitant group performed by the applicant showed significantly higher than that of control using the applicant's MITT population (p &lt; 0.001). The therapeutic gain of rolapitant versus placebo was 14.3%.
+L269: - From this reviewer's efficacy comparison by site, the response rate differences between rolapitant and control were evenly distributed across sites. No site is deemed to have abnormally large rate difference to dominate the superiority of rolapitant versus control.
+- The efficacy comparison by region performed by this reviewer showed rolapitant had positive effects on all regions and rolapitant had no abnormally large effects on certain regions. Accordingly, the overall effect (14.3% Therapeutic gain) seems to be a meaningful region effect to represent individual region.
+ii) Comments on the Key Secondary and Other Secondary Endpoints
+L270: (b) (4)
+L271: Accordingly, based upon the analysis results for the primary, key secondary, and other secondary endpoints performed by applicant along with the efficacy comparisons by site and region performed by this reviewer, data from this study showed positive results to support rolapitant for the proposed indication.
+L272: ## 3.2.5.2 Study TS-P04833
+L273: In order to evaluate the applicant claim on the efficacy of rolapitant regimen superior to that of control regimen assessed by the proportion of complete response in the delayed phase, this reviewer has performed the following two analyses based upon the complete response in the delayed phase using the MITT population 1) efficacy comparison by investigator site and 2) efficacy comparison by region. Following the efficacy analyses, this reviewer makes comments on the efficacy strength of the single study.
+L274: ## 1) Efficacy comparison by investigator-site
+L275: In order to evaluate the applicant claim on the efficacy of rolapitant regimen superior to that of control regimen assessed by the proportion of complete response in the delayed phase, in this section, this reviewer has performed the following two analyses based upon the complete response in the delayed phase using the MITT population 1) efficacy comparison by investigator site and 2) efficacy comparison by region. Following the efficacy analyses, this reviewer makes comments on the efficacy strength of rolapitant.
+L276: Since a small site has no capability to dominate the superiority of aprepitant regimen to control regimen, the numbers of patients for sites with no less than ten patients are explored and presented in Table 3.2.5.3.
+L277: **Table 3.2.5.3 Reviewer's complete response results in the delayed phase by site for the MITT population - Study TS-P04833**
+L278: SITE NUMBER	ROLAPITAT (A)
+% (n/N)	CONTROL (C)
+% (n/N)	DIF.
+R - C	SITE NUMBER	ROLAPITANT (A)
+% (n/N)	CONTROL (C)
+% (n/N)	DIF.
+R - C
+Site 103	100.0 (8/8)	100.0 (13/13)	0.0%	Site 294	100.0 (4/4)	83.3 (5/6)	18.7%
+Site 135	40.0 (2/5)	20.0 (1/5)	20.0%	Site 297	100.0 (2/2)	50.0 (4/8)	50.0%
+Site 157	92.9 (13/14)	63.6 (7/11)	29.3%	Site 298	61.5 (8/13)	55.6 (5/9)	5.9%
+Site 180	71.9 (23/32)	66.7 (20/30)	5.2%	Site 299	0.0 (0/5)	40.0 (2/5)	-40.0%
+Site 220	57.1 (4/7)	100.0 (5/5)	-42.9%	Site 304	62.5 (10/16)	54.5 (6/11)	8.0%
+Site 227	40.0 (4/10)	20.0 (1/5)	20.0%	Site 380	75.0 (6/8)	60.0 (3/5)	15.0%
+Site 228	66.7 (6/9)	33.3 (1/3)	33.4%	Site 418	100.0 (6/6)	88.9 (8/9)	11.1%
+Site 250	83.3 (5/6)	100.0 (4/4)	-16.7%	Site 419	60.0 (9/15)	64.7 (11/17)	-4.7%
+Site 293	75.0 (6/8)	62.5 (5/8)	12.5%	Total	70.1 (192/271)	61.9 (169/273)	8.2 %
+L279: Based upon the results from Table 3.2.5.3, it is noted that the proportion differences assessed by the complete response in the delayed phase between rolapitant regimen and control regimen are evenly distributed in the range of -42.9% to 50.0%. It appears that no site is identified to have abnormally large effect to dominate the superiority of rolapitant regimen to control regimen.
+L280: ## 2) Treatment difference analysis by region
+L281: In order to explore whether the therapeutic gains (defined as the complete response rate of rolapitant regimen minus that of control regimen) for rolapitant regimen versus control regimen were affected by region classified by the applicant, this reviewer compares the proportions on the complete response in the delayed phase by region using the MITT population. The complete responses in the delayed phase by region using the MITT population are presented in Table 3.2.5.4.
+L282: **Table 3.2.5.4 Reviewer's complete response rate in the delayed phase by region for the MITT population - Study TS-P04833**
+L283: REGION	ROLAPITANT (A)
+% (n/N)	CONTROL (C)
+% (n/N)	THERAPEUTIC GAIN†
+% (A - C)
+Asia/South Africa	68.2 (30/44)	69.6 (32/46)	-1.4%
+Central/south America	54.1 (20/37)	34.9 (15/43)	19.2%
+Europe	75.1 (130/173)	69.1 (114/165)	6.0%
+North America (USA)	58.8 (10/17)	42.1 (8/19)	16.7%
+Overall	70.1 (192/271)	61.9 (169/273)	8.2 %
+L284: †: defined as proportion of complete response of rolapitant regimen minus that of control regimen.
+L285: Based upon the results from Table 3.2.5.4, the therapeutic gains by region assessed by complete response rates in the delayed phase for rolapitant regimen versus control regimen are in the range of -1.4% and 19.2%. In addition, it is noted that the therapeutic gain of Asia/South Africa is even less than zero (-1.4%). One may deem that rolapitant may not have effects on this region. Accordingly, the overall effect of 8.2% therapeutic gain seems not large enough to ensure rolapitant has positive effect on all regions.
+L286: In addition, it is noted that the proportion of patients enrolled from USA (North America) was 6.6% (36/544). The therapeutic gain of USA is 16.7%, numerically higher than the overall therapeutic gain (8.2%).
+L287: ## Statistical Reviewer's Comments on the Efficacy of Rolapitant
+L288: ## i) Comments on the Primary Endpoint
+L289: - The complete response rate for the delayed phase in the rolapitant group performed by the applicant showed significantly higher than that of control using the applicant's MITT population (p = 0.043). The therapeutic gain of rolapitant versus control was 8.2%.
+- From this reviewer's efficacy comparison by site, the response rate differences between rolapitant and placebo were evenly distributed across sites. No site is deemed to have abnormally large rate difference to dominate the superiority of rolapitant versus control.
+- However, the efficacy comparison by region performed by this reviewer showed rolapitant had negative therapeutic gain -1.4% on Asia/South. It seems that the overall effect (8.2% Therapeutic gain) was not large enough to ensure rolapitant has positive effect on all regions.
+L290: ## ii) Comments on the Key Secondary and Other Secondary Endpoints
+L291: (b) (4)
+L292: -
+L293: Accordingly, based upon the analysis results for the primary, key secondary, and other secondary endpoints performed by applicant along with the efficacy comparisons by site and region performed by this reviewer, data from this study (b) (4) supports rolapitant for the proposed delayed-phase indication.
+L294: ## 3.2.5.3 Study TS-P04834
+L295: In order to evaluate the applicant claim on the efficacy of rolapitant regimen superior to that of control regimen assessed by the proportion of complete response in the delayed phase, in this section, this reviewer has performed the following two analyses based upon the complete response in the delayed phase using the MITT population 1) efficacy comparison by investigator site and 2) efficacy comparison by region. Following the efficacy analyses, this
+L296: reviewer makes comments on the efficacy strength of rolapitant regimen versus control regimen.
+L297: ## 1) Efficacy comparison by investigator-site
+L298: In order to explore whether the superiority of rolapitant regimen to control regimen assessed by the complete response in the delayed phase was dominated by certain investigator-sites, this reviewer compares the efficacy of rolapitant regimen versus control regimen by investigator-site based upon the complete response in the delayed phase using the MITT population.
+L299: Since a small site has no capability to dominate the superiority of aprepitant regimen to control regimen, the numbers of patients for sites with no less than ten patients are explored and presented in Table 3.2.5.5.
+L300: **Table 3.2.5.5 Reviewer's complete response in the delayed phase by site for the MITT population - Study TS-P04834**
+L301: SITE NUMBER	ROLAPITAT (A)
+% (n/N)	CONTROL (C)
+% (n/N)	DIF.
+R-C	SITE NUMBER	ROLAPITANT (A)
+% (n/N)	CONTROL (C)
+% (n/N)	DIF.
+R-C
+Site 103	90.9 (10/11)	87.5 (7/8)	3.4%	Site 267	100.0 (8/8)	100.0 (3/3)	0.0%
+Site 119	80.0 (4/5)	66.7 (4/6)	13.3%	Site 275	57.1 (4/7)	33.3 (1/3)	26.8%
+Site 122	80.0 (4/5)	100.0 (5/5)	-20.0%	Site 282	50.0 (6/12)	31.3 (5/16)	18.7%
+Site 127	11.1 (1/9)	25.0 (2/8)	-13.9%	Site 285	22.2 (2/9)	50.0 (5/5)	-27.8%
+Site 136	81.8 (9/11)	85.7 (6/7)	-3.9%	Site 288	60.0 (3/5)	100.0 (5/5)	-40.0%
+Site 138	100.0 (9/9)	100.0 (6/6)	0.0%	Site 290	75.0 (3/4)	50.0 (4/4)	25.0%
+Site 143	66.7 (4/6)	0.0 (0/4)	66.7%	Site 291	75.0 (6/8)	63.6 (7/11)	11.4%
+Site 157	91.3 (21/23)	86.4 (19/22)	4.9%	Site 293	100.0 (4/4)	87.5 (7/8)	12.5%
+Site 159	95.5 (21/22)	77.3 (17/22)	18.2%	Site 294	100.0 (12/12)	100.0 (13/13)	0.0%
+Site 166	100.0 (5/5)	66.7 (4/6)	33.3%	Site 298	81.8 (9/11)	58.3 (7/12)	23.5%
+Site 178	80.0 (4/5)	45.5 (5/11)	34.5%	Site 302	41.7 (5/12)	36.8 (7/19)	4.9%
+Site 188	92.9 (13/14)	66.7 (12/18)	26.2%	Site 306	44.4 (4/9)	58.3 (7/12)	-13.9%
+Site 190	88.9 (8/9)	66.7 (2/3)	22.2%	Site 323	40.0 (2/5)	50.0 (3/6)	-10.0%
+Site 198	87.5 (7/8)	71.4 (5/7)	16.1%	Site 330	100.0 (4/4)	71.4 (5/7)	28.6%
+Site 202	57.1 (4/7)	85.7 (6/7)	-28.6%	Site 332	25.0 (2/8)	25.0 (2/8)	0.0%
+Site 217	75.0 (3/4)	90.0 (9/10)	-15.0%	Site 353	85.7 (12/14)	75.0 (6/8)	10.7%
+Site 219	100.0 (4/4)	66.7 (4/6)	33.3%	Site 383	80.0 (8/10)	62.5 (5/8)	17.5%
+Site 226	58.3 (7/12)	87.5 (7/8)	-29.2%	Site 384	66.7 (4/6)	66.7 (4/6)	0.0%
+Site 228	60.0 (6/10)	50.0 (5/10)	10.0%	Site 410	41.7 (5/12)	33.3 (3/9)	8.4%
+Site 231	83.3 (5/6)	75.0 (3/4)	8.3%	Site 412	66.7 (4/6)	57.1 (4/7)	9.6%
+Site 239	100.0 (2/2)	62.5 (5/8)	37.5%	Site 414	83.3 (5/6)	50.0 (2/4)	33.3%
+Site 253	66.7 (8/12)	50.0 (6/12)	10.7%	Site 415	80.0 (4/5)	100.0 (5/5)	-20.0%
+Site 258	69.2(18/26)	50.0 (9/18)	19.2%	Site 429	33.3 (2/6)	40.0 (2/5)	-6.7%
+Site 265	75.0 (3/4)	33.3 (3/9)	41.7%	Total	71.3 (475/666)	61.6 (410/666)	9.7%
+L302: Based upon the results from Table 3.2.5.5, it is noted that the proportion differences assessed by the complete response in the delayed phase between rolapitant regimen and control regimen is evenly distributed in the range of -40.0% to 66.7%. It appears that no site is identified to have abnormally large effect to dominate the superiority of rolapitant regimen to control regimen.
+L303: ## 3) Treatment difference analysis by region
+L304: In order to explore whether the therapeutic gains (defined as the complete response rate of rolapitant regimen minus that of control regimen) for rolapitant regimen versus control regimen were affected by region classified by the applicant, this reviewer compares the proportions on the complete response in the delayed phase by region using the MITT population. The complete response rates in the delayed phase by region using the MITT population are presented in Table 3.2.5.6.
+L305: **Table 3.2.5.6 Reviewer's complete response rates in the delayed phase by region for the MITT population- Study TS-P04834**
+L306: REGION	ROLAPITANT (A)
+% (n/N)	CONTROL (C)
+% (n/N)	THERAPEUTIC GAIN†
+% (A - C)
+Asia/South Africa	61.7 (66/107)	60.4 (64/106)	1.3%
+Central/south America	64.5 (20/31)	43.8 (14/32)	19.7%
+Europe	82.1 (256/312)	74.2 (222/299)	7.9%
+North America (USA)	66.1 (133/216)	48.0 (110/229)	18.1%
+Overall	71.3 (475/666)	61.6 (410/666)	9.7%
+L307: †: defined as proportion of complete response of rolapitant regimen minus that of control regimen.
+L308: Based upon the results from Table 3.2.5.6, the therapeutic gains by region assessed by complete response rates in the delayed phase for rolapitant regimen versus control regimen seem to evenly distribute in the range between 1.3% and 19.7% across all regions. No region is identified to have abnormally large effect when rolapitant regimen compares to control regimen. Accordingly, the overall therapeutic gain (9.7%) seems to be a meaningful mean effect of rolapitant to represent the effect for individual region.
+L309: In addition, it is noted that the proportion of patients enrolled from USA which is North America region in this study was 33.4% (445/1332). The therapeutic gain of USA is 18.1%, which is numerically higher than the overall therapeutic gain (9.7%).
+L310: ## Reviewer's Comments on the Efficacy of Rolapitant
+L311: ## i) Comments on the Primary Endpoint
+L312: - The complete response rate for the delayed phase in the rolapitant group performed by the applicant showed significantly higher than that of control using the applicant's MITT population (p &lt; 0.001). The therapeutic gain of rolapitant versus placebo was 9.7%.
+- From this reviewer's efficacy comparison by site, the response rate differences between rolapitant and control were evenly distributed across sites. No site is deemed to have abnormally large rate difference to dominate the superiority of rolapitant versus control.
+- In addition, the therapeutic gains by region for rolapitant versus control seem to evenly distribute in the range between 1.3% and 19.7% across all regions. One may deem that the overall therapeutic gain (9.7%) is a reasonable mean value of rolapitant versus control on all regions.
+L313: ## ii) Comments on the Key Secondary and Other Secondary Endpoints
+L314: (b) (4)
+L315: Accordingly, based upon the analysis results for the primary, key secondary, and other secondary endpoints performed by applicant along with the efficacy comparisons by site and region performed by this reviewer, data of the study (b) (4) supports rolapitant for the proposed indication, for use in the delayed phase.
+L316: ## 3.2.5.4 Study TS-P04351
+L317: This reviewer notes that instead of using Cochran-Mantel-Haenszel method, the applicant applied logistic regression analysis method to compare the effects of study drug SCH 619734 200 mg (rolapitant) to placebo. (b) (4)
+L318: (b) (4)
+L319: (b) (4) The applicant's response document to the Agency information request (IR) letter was received on 12/09/2014. In addition, the original data submission did not include the SAS programs used for the efficacy comparisons and for the delayed phase and the number of patients in the rolapitant treatment group reported by the original NDA submission was one patient (non-responder) less than that reported by the response documents received on 12/09/2014. In order to explore the data quality for the phase 2 study, this reviewer requested the applicant submit the analysis programs on 04/03/2015. The SAS programs used for original NDA report were received by the Agency on 04/08/2015.
+L320: Based upon the study design of the phase 2 study and the response document to the Agency information request letter along with the received SAS programs, this reviewer gives the following comments regarding the issues of using the phase 2 study (b) (4)
+L321: ## 1) Un-blinded interim analysis
+L322: An un-blinded interim analysis was conducted by sponsor personnel for planning future studies. It is not clear that adequate procedures were in place to ensure that results of the analysis were not revealed to persons connected with the study. This is especially problematic since the study did not use an independent third party or an independent data monitoring committee (IDMC).
+L323: 21 CFR 314.126(b)(5) states in part that sponsors of well-controlled studies should take adequate measures to minimize bias with respect to the analysis of the data. Since interim data were not reviewed by an independent third party, and for other reasons as described in this section, we do not feel that the phase 2 trial meets the usual requirements for being an adequate and well-controlled study.
+L324: ## References:
+L325: - CFR Sec. 314.126 Adequate and well-controlled studies
+- ICHE6 Guidance for Industry, Good Clinical Practice: Consolidated Guidance, Section 5.5
+- Guidance for Clinical Trial Sponsors “Establishment and Operation of Clinical Trial Data Monitoring Committees”, Section 4.2.
+2) Only one patient overturned the significance of the result
+L326: Based upon the Applicant's 12/09/14 response documents and SAS programs in reply to the Agency Information Request dated 4/03/15, the reviewer has the following comments regarding the ability of the Phase 2 study
+L327: In short, we found that the statistical significance of the delayed phase results reported in the NDA submission is sensitive to the removal and/or imputation value for a single subject.
+L328: This reviewer noted that for the delayed phase, the number of non-responder patients in the rolapitant treatment group reported by the original NDA submission received on 09/05/2014 (see Table 3.2.3.4.1) was one patient less than that of rolapitant reported by the response documents (see Table 3.2.5.7) received on 12/09/2014.
+L329: Table 3.2.5.7 below presents the applicant's analysis results reported by the response documents.
+L330: **Table 3.2.5.7 Sponsor's Complete Response Results in the Acute, Delayed and Overall Phases – Phase 2 Study TS-P04351**
+L331: CINV Phase Treatment	N	n (%)	95% CI for %[1]	Between-Group P-Value[2]
+Overall Phase (0-120 hrs)
+Placebo	(b) (4)
+SCH619734 10 mg	
+SCH619734 25 mg	
+SCH619734 100 mg	
+SCH619734 200 mg	
+Acute Phase (0-<24 hrs)
+Placebo	(b) (4)
+SCH619734 10 mg	
+SCH619734 25 mg	
+SCH619734 100 mg	
+SCH619734 200 mg	
+Delayed Phase (24-120 hrs)
+Placebo	90	44 (48.9)	(38.2, 59.7)	
+SCH619734 10 mg	91	46 (50.5)	(39.9, 61.2)	0.814
+SCH619734 25 mg	91	48 (52.7)	(42.0, 63.3)	0.592
+SCH619734 100 mg	91	53 (58.2)	(47.4, 68.5)	0.199
+SCH619734 200 mg	89	56 (62.9)	(52.0, 72.9)	0.056
+L332: [1] Exact 95% confidence interval for the response rate;
+L333: [2] P-value for the between-group comparison is from the Cochran-Mantel-Haenszel test stratified by gender.
+L334: In order to evaluate the analysis results reported by the original NDA submission, first, this reviewer applied the applicant's Logistic regression SAS code received on 04/08/2015 to analyze the complete response for the delayed phase using the dataset (response dataset) received on 12/09/2014. The efficacy analysis result for the delayed phase is presented in Table 3.2.5.8.
+L335: **Table 3.2.5.8 Reviewer's Efficacy comparison assessed by the complete response in the delayed phase using Sponsor's Logistic regression code and response dataset - Study TS-P04351**
+L336: Treatment Group	N	Number (%) of Patients Responding	Rolapitant versus Controla
+% Difference	P-value
+Control Regimen	91	44 (48.4%)	NA	
+Rolapitant Regimen	90	56 (62.2%)	13.8	0.056
+L337: a: Analysis via applicant's Logistic regression SAS codes stratified by gender and CEC.
+L338: Table 3.2.5.8 indicates that using applicant's Logistics regression codes with statement code "where complete response for delayed phase not equal to missing" and the response dataset, the delayed complete response rate for rolapitant regimen is not significantly higher than that of control regimen (62.2% vs. 48.4%; p = 0.056). Comparing Table 3.2.3.4.1 (reported by original NDA report) and Table 3.2.5.8, we note that two more non-responder patients were included in the rolapitant regimen compared to that reported in the original study report and one more non-responder patient included in the control regimen than that reported in the original study report. Based upon the submitted dataset and SAS program, we noted that the two subjects (subjects# 0032000134 and 0055000969) in the rolapitant regimen were reported as non-responders in the response documents and were treated as missing in the original NDA study report while subject 0083000606 in the control regimen was reported as a non-responder in the response documents and was treated as missing in the original NDA study report. Based upon the criteria of the Intent-to-Treat population specified by the phase 2 study, due to no post-randomization assessment, the two subjects (subject 0055000969 in rolapitant and subject 0083000606 in control treated) were excluded from the ITT analysis; subject 0032000134 in the rolapitant group was also excluded from the analysis but the missing classification was based on the imputation rule
+L339: From a regulatory perspective, the definition for modified Intent-to-Treat (mITT) population, consistently recommended for sponsors of confirmatory studies is based on all randomized subjects who received at least one dose of study drug, without the condition of a post-randomization assessment. In addition, for responder analysis, the Agency has recommended missing data be treated as failures in the primary analysis. Accordingly, the three subjects should have been treated as non-responders and the result of efficacy comparison shown by Table 3.2.5.8 is deemed appropriate.
+L340: In addition, in order to explore the impact of one patient difference reported between original study report and response document, this reviewer also applied the applicant's Logistic regression SAS codes with statement code "where complete response for delayed phase not equal to missing" to the original dataset (received on 09/05/2014), but treating subject 0032000134 as failure who had acute post-assessment to match the numbers of responders and non-responders presented by Table 3.2.5.7. The modified dataset by treating subject
+L341: 0032000134 as failure from original dataset is to match the dataset used for the response documents received on 12/09/2014.
+L342: Table 3.2.5.9 presents the results after treating subject 0032000134 as failure. This subject was treated as missing (i.e., excluding from original NDA analysis) in the original NDA analysis.
+L343: **Table 3.2.5.9 Reviewer's Efficacy comparison assessed by the complete response in the delayed phase using applicant's Logistic regression code and response dataset by removing one non-responder from both rolapitant regimen and control regimen- Study TS-P04351**
+L344: Treatment Group	n	Number (%) of Patients Responding	Rolapitant versus Controla
+% Difference	P-value
+Control Regimen	90	44 (48.9%)	
+Rolapitant Regimen	89	56 (62.9%)	14.0	0.053
+L345: a: Analysis via applicant's Logistic regression SAS codes stratified by gender and CEC.
+L346: Table 3.2.5.9 indicates that using response document data (i.e., treating subject 0032000134 as failure) and the applicant's Logistics regression codes with statement code "where complete response for delayed phase not equal to missing", the complete response rate in the delayed phase for rolapitant regimen is still not significantly higher than that of control regimen (62.9% vs. 48.9%; p = 0.053).
+L347: Finally, in order to have a complete picture for the impact of one non-responder patient to the significant result, this reviewer also applied the applicant's Logistic regression SAS codes with statement code "where complete response for delayed phase not equal to missing" to the original dataset submitted through NDA submission to analyze the complete response rate for the delayed phase. Table 3.2.5.10 presents these results.
+L348: **Table 3.2.5.10 Reviewer's Efficacy comparison assessed by complete response in the delayed phase using Sponsor's Logistic regression code and original dataset - Study TS-P04351**
+L349: Treatment Group	n	Number (%) of Patients Responding	Rolapitant versus Controla
+% Difference	P-value
+Control Regimen	90	44 (48.9%)	
+Rolapitant Regimen	88	56 (63.6%)	14.7	0.042*
+L350: a: Analysis via applicant's Logistic regression SAS codes stratified by gender and CEC.
+L351: Table 3.2.5.10 indicates that using applicant's Logistics regression codes with statement code "where complete response for delayed phase not equal to missing" and the original dataset received on 09/05/2014, the complete response rate in the delayed phase for rolapitant regimen is significantly higher than that of control regimen (63.6% vs. 48.9%; p = 0.042), generating similar result reported in the original study report.
+L352: It is noted that only one non-responder patient difference in the rolapitant regimen used between the original study report and the response document overturned the non-significance of the result reported by the response document to the significance reported by the original study report. More critically, the non-responder patient in the rolapitant was used in the applicant's response documents.
+L353: Based upon the above findings, the significant result for the delayed phase reported in the original study report is not reliable. Accordingly, the complete response rate for the delayed phase of the rolapitant regimen should not be deemed as significantly higher than that of the control regimen. Then, following the pre-specified multiplicity adjustment approach for the phase 2 trial (Acute phase tested after Delayed phase), formal testing of the acute phase would have been precluded.
+L354: ## 3) Small number of patients enrolled
+L355: For the phase 2 study, about 90 patients were enrolled in each arm. However, for the two other HEC phase 3 trials, more than 260 patients were enrolled in each arm. In addition, for the phase 3 MEC study, 666 patients were enrolled in each arm, over seven times larger than that of the phase 2 trial. (b) (4)
+L356: Accordingly, for the phase 2 study, based upon the above comments, due to concerns regarding data integrity, the robustness of analysis results, and smaller number of patients enrolled, we do not consider the phase 2 Study TS-P04351 to be a positive adequate and well-controlled trial. (b) (4)
+L357: ## 3.3 EVALUATION OF SAFETY
+L358: The evaluation of safety of rolapitant is not performed in this statistical review. Please refer to the medical review for this evaluation.
+L359: ## 4. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L360: ## 4.1 GENDER, RACE AND AGE
+L361: The goal of the subgroup analysis is to assess the consistency of the treatment effect for the rolapitant regimen versus control regimen across subgroups (identified by gender, age group, and race group) assessed by the primary endpoint (complete response for the delayed phase) using the MITT population. These subgroup efficacy results should be considered exploratory only and not intended to imply confirmatory hypothesis testing.
+L362: For subgroup analysis, this reviewer applies Cochran-Mantel-Haenszel (CMH) test procedure to analyze data since this method was proposed by the applicant for the efficacy comparisons assessed by the primary endpoint. In addition, for Study TS-P04351, due to data integrity problem, we do not consider the phase 2 Study TS-P04351 was an adequate and well-controlled trial. As we do not consider the phase 2 study (TS-P04351) to be adequate and well-controlled trial (see section 3.2.5) no subgroup analyses was performed for this study.
+L363: ## 4.1.1 Study TS-P04832
+L364: ## Gender group (Females versus Males)
+L365: Table 4.1.1.1 presents the results of treatment efficacy comparisons by gender group (Females versus Males).
+L366: **Table 4.1.1.1 (Reviewer's) Efficacy comparison assessed by the complete response in the delayed phase using the MITT population - Study TS-P04832**
+L367: Females	n	Number (%) of Patients Responding	Rolapitant versus Controla
+% Difference	P-value
+Control Regimen	112	60 (53.6%)	
+Rolapitant Regimen	110	76 (69.1%)	15.5	0.018*
+L368: Males	n	Number (%) of Patients Responding	Rolapitant versus Controla
+% Difference	P-value
+Control Regimen	150	93 (62.0%)	
+Rolapitant Regimen	154	116 (75.3%)	13.3	0.012*
+L369: a: Analysis via Cochran Mantel-Haenszel test stratified by gender.
+L370: *: Significant at two-sided significance level of 0.05
+L371: Table 4.1.1.1 shows that for both females and males, the responder rates of subjects in the rolapitant regimen are significantly higher than that of control regimen.
+L372: ## Age group (age &lt; 65 versus age ≥ 65)
+L373: Table 4.1.1.2 presents the results of treatment efficacy comparisons by age group.
+L374: **Table 4.1.1.2 (Reviewer's) Efficacy comparison assessed by the complete response in the delayed phase using the MITT population - Study TS-P04832**
+L375: Age < 65	n	Number (%) of Patients Responding	Rolapitant versus Controla
+% Difference	P-value
+Control Regimen	193	117 (61.0%)	
+Rolapitant Regimen	199	145 (73.0%)	12.0	0.01*
+L376: Age ≥ 65	n	Number (%) of Patients Responding	Rolapitant versus Controla
+% Difference	P-value
+Control Regimen	69	36 (52.0%)	
+Rolapitant Regimen	65	47 (72.0%)	20.0	0.02*
+L377: a: Analysis via Cochran Mantel-Haenszel test stratified by gender.
+L378: *: Significant at two-sided significance level of 0.05
+L379: Table 4.1.1.2 shows that for patients for both age groups, the responder rates of subjects in the rolapitant regimen are significantly higher than that of control regimen.
+L380: ## Race group (White versus Non-White)
+L381: Table 4.1.1.3 presents the results of treatment efficacy comparisons by race group.
+L382: **Table 4.1.1.3 (Reviewer's) Efficacy comparison assessed by the complete response in the delayed phase using the MITT population - Study TS-P04832**
+L383: White	n	Number (%) of Patients Responding	Rolapitant versus Controla
+% Difference	P-value
+Control Regimen	179	117 (65.4%)	
+Rolapitant Regimen	178	138 (77.5%)	12.1	0.011*
+L384: Non-White	n	Number (%) of Patients Responding	Rolapitant versus Controla
+% Difference	P-value
+Control Regimen	83	36 (43.4%)	
+Rolapitant Regimen	86	54 (62.8%)	19.4	0.011*
+L385: Analysis via Cochran Mantel-Haenszel test stratified by gender.
+L386: *: Significant at two-sided significance level of 0.05
+L387: Table 4.1.1.3 shows that for both White and Non-White subgroups, the responder rates of subjects in the rolapitant regimen are significantly higher than that of control regimen.
+L388: ## 4.1.2 Study TSP-04833
+L389: Table 4.1.2.1 presents the results of treatment efficacy comparisons by gender group (Females versus Males).
+L390: **Table 4.1.2.1 (Reviewer's) Efficacy comparison assessed by the complete response in the delayed phase using the MITT population - Study TS-P04833**
+L391: Females	n	Number (%) of Patients Responding	Rolapitant versus Controla
+% Difference	P-value
+Control Regimen	87	44 (50.6%)	
+Rolapitant Regimen	89	65 (73.9%)	23.3	0.0015*
+L392: Males	n	Number (%) of Patients Responding	Rolapitant versus Controla
+% Difference	P-value
+Control Regimen	186	125 (67.2%)	
+Rolapitant Regimen	183	125 (68.3%)	1.1	0.821
+L393: a: Analysis via Cochran Mantel-Haenszel test stratified by gender.
+L394: *: Significant at two-sided significance level of 0.05
+L395: Table 4.1.2.1 shows that for females, the responder rate of subjects in the rolapitant regimen is significantly higher than that of control regimen.
+L396: However, for males, the responder rate for rolapitant is only numerically higher than that of control.
+L397: ## Age group (age &lt; 65 versus age ≥ 65)
+L398: Table 4.1.2.2 presents the results of treatment efficacy comparisons by age group.
+L399: **Table 4.1.2.2 (Reviewer's) Efficacy comparison assessed by the complete response in the delayed phase using the MITT population - Study TS-P04833**
+L400: Age < 65	n	Number (%) of Patients Responding	Rolapitant versus Controla
+% Difference	P-value
+Control Regimen	200	118 (59.0%)	
+Rolapitant Regimen	198	138 (70.0%)	11.0	0.026*
+L401: Age ≥ 65	n	Number (%) of Patients Responding	Rolapitant versus Controla
+% Difference	P-value
+Control Regimen	73	51 (70.0%)	
+Rolapitant Regimen	73	52 (71.0%)	1.0%	0.86
+L402: a: Analysis via Cochran Mantel-Haenszel test stratified by gender.
+L403: *: Significant at two-sided significance level of 0.05
+L404: Table 4.1.2.2 shows that for patients with ages less than 65, the responder rate of subjects in the rolapitant regimen is significantly higher than that of control regimen.
+L405: However, for ages not younger than 65, the responder rate for rolapitant is only numerically higher than that of control.
+L406: ## Race group (White versus Non-White)
+L407: Table 4.1.2.3 presents the results of treatment efficacy comparisons by race group.
+L408: **Table 4.1.2.3 (Reviewer's) Efficacy comparison assessed by the complete response in the delayed phase using the MITT population - Study TS-P04833**
+L409: White	n	Number (%) of Patients Responding	Rolapitant versus Controla
+% Difference	P-value
+Control Regimen	212	135 (63.7%)	
+Rolapitant Regimen	226	159 (70.4%)	6.7	0.138
+L410: Non-White	n	Number (%) of Patients Responding	Rolapitant versus Controla
+% Difference	P-value
+Control Regimen	61	34 (55.7%)	
+Rolapitant Regimen	45	31 (68.9%)	13.2	0.171
+L411: a: Analysis via Cochran Mantel-Haenszel test stratified by gender.
+L412: *: Significant at two-sided significance level of 0.05
+L413: Table 4.1.2.3 shows that for both White and Non-White subgroups, the responder rates of subjects in the rolapitant regimen are not significantly higher than that of the control regimen.
+L414: ## 4.1.3 Study TSP-04834
+L415: Table 4.1.3.1 presents the results of treatment efficacy comparisons by gender group (Females versus Males).
+L416: **Table 4.1.3.1 (Reviewer's) Efficacy comparison assessed by the complete response in the delayed phase using the MITT population - Study TS-P04834**
+L417: Females	N	Number (%) of Patients Responding	Rolapitant versus Controla
+% Difference	P-value
+Control Regimen	536	363 (59.3%)	
+Rolapitant Regimen	531	363 (68.4%)	9.1	0.002*
+L418: Males	N	Number (%) of Patients Responding	Rolapitant versus Controla
+% Difference	P-value
+Control Regimen	130	92 (70.8%)	
+Rolapitant Regimen	135	112 (83.0%)	12.2	0.018*
+L419: a: Analysis via Cochran Mantel-Haenszel test stratified by gender.
+L420: *: Significant at two-sided significance level of 0.05
+L421: Table 4.1.3.1 shows that for both females and males, the responder rates of subjects in the rolapitant regimen are significantly higher than that of control regimen.
+L422: ## Age group (age &lt; 65 versus age ≥ 65)
+L423: Table 4.1.3.2 presents the results of treatment efficacy comparisons by age group.
+L424: **Table 4.1.3.2 (Reviewer's) Efficacy comparison assessed by the complete response in the delayed phase using the MITT population - Study TS-P04834**
+L425: Age < 65
+(Non-Senior)	N	Number (%) of Patients Responding	Rolapitant versus Controla
+% Difference	P-value
+Control Regimen	470	286 (61.0%)	
+Rolapitant Regimen	495	348 (70.0%)	9.0%	0.002*
+L426: Age ≥ 65
+(Senior)	N	Number (%) of Patients Responding	Rolapitant versus Controla
+% Difference	P-value
+Control Regimen	196	124 (63.0%)	
+Rolapitant Regimen	171	127 (74.0%)	11.0%	0.024*
+L427: a: Analysis via Cochran Mantel-Haenszel test stratified by gender.
+L428: *: Significant at two-sided significance level of 0.05
+L429: Table 4.1.3.2 shows that for both age groups (Senior and Non-senior), the responder rates of subjects in the rolapitant regimen are significantly higher than that of the control regimen.
+L430: ## Race group (White versus Non-White)
+L431: Table 4.1.3.3 presents the results of treatment efficacy comparisons by race group.
+L432: **Table 4.1.3.3 (Reviewer's) Efficacy comparison assessed by the complete response in the delayed phase using the MITT population - Study TS-P04834**
+L433: White	n	Number (%) of Patients Responding	Rolapitant versus Controla
+% Difference	P-value
+Control Regimen	512	327 (63.9%)	
+Rolapitant Regimen	508	378 (74.4%)	10.5	0.0003*
+L434: Non-White	n	Number (%) of Patients Responding	Rolapitant versus Controla
+% Difference	P-value
+Control Regimen	154	83 (53.9%)	
+Rolapitant Regimen	158	97 (61.4%)	7.5	0.18
+L435: a: Analysis via Cochran Mantel-Haenszel test stratified by gender.
+L436: *: Significant at two-sided significance level of 0.05
+L437: Table 4.1.3.3 shows that for the White subgroup, the responder rate of subjects in the rolapitant regimen is significantly higher than that of the control regimen.
+L438: However, for Non-White subgroup, the responder rate for rolapitant is only numerically higher than that of control.
+L439: In summary, for all three phase 3 studies, no consistent trend in comparing rolapitant and placebo was observed for any particular subgroup. However, we noted that for patients treated with the control regimen, the response rate of males appeared to be higher than that of the females.
+L440: ## 4.2 Other Special/Subgroup Populations
+L441: Beside the subgroup analysis for regions, which were reported in the main text in Section 3 for the efficacy results, no other special subgroup analysis results are included in this review.
+L442: ## 5. SUMMARY AND CONCLUSIONS
+L443: ## 5.1 STATISTICAL ISSUES AND COLLECTIVE EVIDENCE
+L444: ## 5.1.1 Study TS-P04832
+L445: ## Comments on the Primary Endpoint
+L446: - The complete response rate for the delayed phase in the rolapitant group performed by the applicant was significantly higher than that of the control using the applicant's MITT population (p &lt; 0.001). The therapeutic gain of rolapitant versus placebo was 14.3%.
+- From this reviewer's efficacy comparison by site, the response rate differences between rolapitant and control were evenly distributed across sites. No site is deemed to have abnormally large rate difference to dominate the superiority of rolapitant versus control.
+- The efficacy comparison by region performed by this reviewer showed rolapitant had positive effects on all regions and rolapitant had no abnormally large effects on certain
+L447: regions. Accordingly, the overall effect (14.3% Therapeutic gain) seems to be a meaningful mean effect of rolapitant for individual region.
+L448: ## Comments on the Key Secondary and Other Secondary Endpoints
+L449: (b) (4)
+L450: Accordingly, based upon the analysis results for the primary, key secondary, and other secondary endpoints performed by applicant along with the efficacy comparisons by site and region performed by this reviewer, data from this study showed positive results to support rolapitant for the proposed indication.
+L451: ## 5.1.2 Study TS-P04833
+L452: ## Comments on the Primary Endpoint
+L453: - The complete response rate for the delayed phase in the rolapitant group performed by the applicant was significantly higher than that of control using the applicant's MITT population (p=0.043). The therapeutic gain of rolapitant versus control was 8.2%.
+- From this reviewer's efficacy comparison by site, the response rate differences between rolapitant and placebo were evenly distributed across sites. No site is deemed to have abnormally large rate difference to dominate the superiority of rolapitant versus control.
+- However, the efficacy comparison by region performed by this reviewer showed rolapitant had negative therapeutic gain -1.4% in the Asia/South Africa region. It seems that the overall effect (8.2% therapeutic gain) was not large enough to ensure rolapitant has positive effect on all regions; however the sample size was small for this region.
+L454: ## Comments on the Key Secondary and Other Secondary Endpoints
+L455: (b) (4)
+L456: Accordingly, based upon the analysis results for the primary, key secondary, and other secondary endpoints performed by applicant along with the efficacy comparisons by site and
+L457: region performed by this reviewer, data of the study (b) (4) supports rolapitant for the proposed indication for the delayed phase.
+L458: ## 5.1.3 Study TS-P04834
+L459: ## Comments on the Primary Endpoint
+L460: - The complete response rate for the delayed phase in the rolapitant group performed by the applicant was significantly higher than that of control using the applicant's MITT population (p &lt; 0.001). The therapeutic gain of rolapitant versus placebo was 9.7%.
+- From this reviewer's efficacy comparison by site, the response rate differences between rolapitant and control were evenly distributed across sites. No site is deemed to have abnormally large rate difference to dominate the superiority of rolapitant versus control.
+- The efficacy comparison by region performed by this reviewer showed rolapitant had positive effects in all regions and rolapitant had no abnormally large effects in any one region. The overall therapeutic gain was 9.7% over all regions. It seems to be a meaningful mean effect of rolapitant for individual region.
+L461: ## Comments on the Key Secondary and Other Secondary Endpoints
+L462: Accordingly, based upon the analysis results for the primary, key secondary, and other secondary endpoints performed by applicant along with the efficacy comparisons by site and region performed by this reviewer, data of the study (b) (4) supports rolapitant for the proposed indication used in the delayed phase.
+L463: ## 5.1.4 Study TS-P04351
+L464: Based upon the study design and the statistical analysis results of the original phase 2 study and the response documents along with the received SAS programs, the comments on the efficacy of the study drug SCH 619734 200 mg (rolapitant) are made below.
+L465: ## 1) Unblinded interim analysis
+L466: An unblinded interim analysis for the study was conducted by sponsor personnel for planning future studies. At the time the trial was conducted, the applicant was not expecting the results from the study to serve as a primary or "pivotal trial" evidence. It was clearly designed and
+L467: completed as a “Phase 2” dose ranging trial, during which the sponsor had access to the safety and efficacy data. This is especially problematic since the study did not use an independent third party or an independent data monitoring committee (IDMC).
+L468: ## 2) Only one patient overturned the significance of the result
+L469: In order to explore the impact of the one patient difference reported between the original study report received on 09/05/2014 and the response document received on 12/09/2014, this reviewer also applied the applicant’s Logistic regression SAS codes with statement code “where complete response for delayed phase not equal to missing” to the original dataset (received on 09/05/2014) but treating one subject as a treatment failure. This subject had an acute phase assessment but was missing the delayed phase assessment and had thus been removed from the analysis by the sponsor in the original NDA study report. Noted by this reviewer, this patient who had post-assessment (acute phase) after randomization met the criteria of the primary analysis population proposed by the applicant in the protocol. To preserve the Intent-to-Treat principle, this patient who took drug and had a post-randomization assessment should be analyzed (as failures) in the primary efficacy analysis. The results after treating this missing data as a failure indicated that the complete response rate in the delayed phase for rolapitant regimen is not significantly higher than that of control regimen (62.9% vs. 48.9%; p = 0.053).
+L470: In addition, as stated in the section of 3.2.5, due to no post-randomization assessment after randomization, other two subjects were treated as missing by the Intent-to treat population defined by the applicant. However, from the regulatory perspective, the modified Intent-to-Treat (mITT) population should consist of all randomized subjects who received at least one dose of study drug, without the condition of post-assessment. In addition, for responder analysis, the Agency has consistently recommended missing data be treated as failures. The two rules (mITT and missing imputation method) are especially given for phase 3 confirmatory trials. Accordingly, based upon the regulatory position for the mITT population and the missing data imputation method, the three subjects should have been treated as non-responders in the primary analysis for the delayed phase. The results after treating these three missing data as failures indicated that the complete response rate in the delayed phase for rolapitant regimen is also not significantly higher than that of control regimen (62.2% vs. 48.4%; p = 0.056).
+L471: Based upon the above findings, the significance of the result for the delayed phase reported in the original study report was not reliable. Accordingly, the complete response rate for the delayed phase of the rolapitant regimen is deemed to be not significantly higher than that of the control regimen. Then, following the pre-specified multiplicity adjustment approach for the phase 2 trial (Acute phase tested after Delayed phase), formal testing of the acute phase would have been precluded.
+L472: ## 3) Small number of patients enrolled
+L473: For the phase 2 study, about 90 patients were enrolled in each arm. However, for the two other HEC phase-3 trials, more than 260 patients were enrolled in each arm. In addition, for
+L474: the phase-3 MEC study, 666 patients were enrolled in each arm, over seven times larger than that of the phase 2 trial. (b) (4)
+L475: Accordingly, for the phase 2 study, based upon the above comments, due to concerns regarding the unblinded interim analysis, the robustness of analysis results, and the smaller number of patients enrolled, we do not consider the phase 2 Study TS-P04351 to be a positive adequate and well-controlled trial. (b) (4)
+L476: ## 5.2 Conclusions and Recommendations
+L477: The results of the three phase 3 studies show statistically significant findings for the primary endpoint, complete response and support rolapitant's efficacy as a treatment for CINV in the delayed phase. (b) (4)
+L478: (b) (4)
+L479: Three major concerns are: (1) the study did not employ an independent data monitoring committee for an unblinded interim analysis and (2) the sponsor's analysis misapplied the ITT principle and ignored subjects who were randomized and received treatment and (3) the statistical significance of study results was sensitive to a single patient (treated as missing or non-responder) in the ITT population defined by the sponsor and to the use of statistical method. (b) (4)
+L480: (b) (4) the statistical team concludes that data submitted in the NDA show clear efficacy for the delayed-phase treatment of CINV.
+L481: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L482: /s/
+L483: WEN JEN CHEN
+05/26/2015
+L484: YEH FONG CHEN
+05/26/2015
+L485: MICHAEL E WELCH
+05/26/2015

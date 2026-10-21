@@ -1,0 +1,72 @@
+{
+  "app": "NDA204886",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Flagged number '50' is part of the trial identifier (TIMI 50); false positive."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Flagged numbers 1417 and 1259 are present in the citation quote (1,417 and 1,259); false positive from comma formatting."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged numbers '10' and '2013' are components of the date May 10, 2013; false positives."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged numbers 3, 2, and 50 are parts of identifiers (505(b)(1), TRA 2\u00b0P-TIMI 50); false positives."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "50",
+        "text": "TRA 2\u00b0P-TIMI 50 (Thrombin-Receptor Antagonist in Secondary Prevention of Atherot"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "1417",
+        "text": "Primary endpoint: 1417 (10.7%) placebo vs 1259 (9.5%) vorapaxar; HR 0.88 (95% CI"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "1259",
+        "text": "Primary endpoint: 1417 (10.7%) placebo vs 1259 (9.5%) vorapaxar; HR 0.88 (95% CI"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "10",
+        "text": "Application dated and received May 10, 2013; approved effective on the date of t"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2013",
+        "text": "Application dated and received May 10, 2013; approved effective on the date of t"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Standard review of a 505(b)(1) NDA for a new molecular entity (NME); not an acce"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "Standard review of a 505(b)(1) NDA for a new molecular entity (NME); not an acce"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "50",
+        "text": "Standard review of a 505(b)(1) NDA for a new molecular entity (NME); not an acce"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

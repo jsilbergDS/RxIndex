@@ -1,0 +1,141 @@
+{
+  "app": "NDA202008",
+  "drug": "AMYVID",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "ca5d5c96-6532-5e0b-a817-b0a76fa5b70a"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "3cd63719-b2d6-5290-99b0-16c7cd5dd652"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "4481c116-3e8d-5ca6-8ed5-9960a5a3dc4f"
+    },
+    {
+      "doc_type": "LBL",
+      "doc_id": "0695b9ff-156a-5482-be82-037d7b3c7c52"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Peripheral and Central Nervous System Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "ca5d5c96-6532-5e0b-a817-b0a76fa5b70a",
+      "line": 108,
+      "quote": "The original application was presented to the Peripheral and Central Nervous System Advisory Committee on January 20, 2011."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "ca5d5c96-6532-5e0b-a817-b0a76fa5b70a",
+      "found_lines": [
+        108
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "January 20, 2011",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "ca5d5c96-6532-5e0b-a817-b0a76fa5b70a",
+      "line": 21,
+      "quote": "The original review observations were discussed at a January 20, 2011 meeting of the Peripheral and Central Nervous System Advisory Committee."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "ca5d5c96-6532-5e0b-a817-b0a76fa5b70a",
+      "found_lines": [
+        21
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "During the original review cycle the committee voted 13 to 3 to recommend against approval due to deficiencies in image interpretation / reader training methods, but voted 16 to 0 in support of approval if a reader training program demonstrating accurate, reproducible interpretation were implemented. No AC was convened for the resubmission that led to approval.",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "ca5d5c96-6532-5e0b-a817-b0a76fa5b70a",
+      "line": 21,
+      "quote": "The committee voted (13 to 3) to recommend against approval of Amyvid during the original review cycle due deficiencies related to image interpretation methods (insufficient development of reader training methods that allow reproducible and accurate image interpretation). The committee did vote (16 to 0) in support of the drug in response to the question, \u201cIf there were implementation of a training program that demonstrated accurate diagnosis within the autopsy/standard population and a demonstration of reader consistency in the population of intended application such as exemplified by A05, would the available data support the approval of Amyvid?\u201d"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "ca5d5c96-6532-5e0b-a817-b0a76fa5b70a",
+      "found_lines": [
+        21,
+        108
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee found that Amyvid's proposed binary image interpretation method had not been shown to be reproducible and accurate, and that reader training methods were insufficiently developed; it voted 13-3 against approval on this basis but 16-0 in favor if a sufficient reader training program were developed.",
+      "change": "The approved label mandates that Amyvid images be interpreted only by readers who successfully complete a special training program (in-person or electronic) provided by the manufacturer.",
+      "category": "Image interpretation / mandatory reader training",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "ca5d5c96-6532-5e0b-a817-b0a76fa5b70a",
+        "line": 108,
+        "quote": "The committee voted (13 to 3) to recommend against approval of Amyvid during the original cycle; deficiencies related to image interpretation methods, as noted above. The committee emphasized the acceptability of the data if a sufficient reader training program could be developed.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "ca5d5c96-6532-5e0b-a817-b0a76fa5b70a",
+          "found_lines": [
+            21,
+            108
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "LBL",
+        "doc_id": "0695b9ff-156a-5482-be82-037d7b3c7c52",
+        "line": 62,
+        "quote": "Amyvid images should be interpreted only by readers who successfully complete a special training program",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "0695b9ff-156a-5482-be82-037d7b3c7c52",
+          "found_lines": [
+            62
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The review raised concerns about the proposed binary interpretation method given the lack of data to support its validation, and these image-interpretation issues drove the January 20, 2011 Advisory Committee discussion.",
+      "change": "The approved label carries a Warnings and Precautions section (5.1) on Risk for Image Misinterpretation and other Errors, noting that interpretation errors (especially false negatives) have been observed.",
+      "category": "Safety labeling / Warnings and Precautions",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "3cd63719-b2d6-5290-99b0-16c7cd5dd652",
+        "line": 12,
+        "quote": "The review raised concerns about this proposed interpretation method given the lack of data to support its validation; these issues guided the discussion at the 20 January 2011 Advisory Committee meeting.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "3cd63719-b2d6-5290-99b0-16c7cd5dd652",
+          "found_lines": [
+            12
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "LBL",
+        "doc_id": "0695b9ff-156a-5482-be82-037d7b3c7c52",
+        "line": 90,
+        "quote": "5.1 Risk for Image Misinterpretation and other Errors",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "0695b9ff-156a-5482-be82-037d7b3c7c52",
+          "found_lines": [
+            90
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An advisory committee (Peripheral and Central Nervous System Drugs Advisory Committee) met on January 20, 2011 during Amyvid's original review cycle and voted 13-3 against approval because the binary image-interpretation method and reader training had not been shown to be reproducible and accurate; it voted 16-0 in favor if a sufficient reader training program were developed. Amyvid received a CRL, and the resubmission added a validated reader training program. No AC was convened for the resubmission, which was approved with a label requiring readers to complete a special training program and a Warning (5.1) on the risk of image misinterpretation."
+}

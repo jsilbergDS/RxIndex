@@ -1,0 +1,53 @@
+{
+  "app": "BLA125160",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 294)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"BLA125160\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].endpoint\",\n      \"severity\": \"medium\",\n      \"issue\": \"The '100-point reduction in CDAI' definition of clinical response is not contained in any cit",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "3",
+        "text": "Phase 3 (double-blind, randomized, placebo-controlled)"
+      },
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "100",
+        "text": "Two co-primary endpoints: clinical response (>100-point reduction in CDAI) at We"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "6",
+        "text": "Week 6 clinical response 35% Cimzia vs 27% placebo (p<0.05); clinical response a"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "6",
+        "text": "Week 6 clinical response 35% Cimzia vs 27% placebo (p<0.05); clinical response a"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "26",
+        "text": "Week 6 clinical response 35% Cimzia vs 27% placebo (p<0.05); clinical response a"
+      },
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "3",
+        "text": "Phase 3 (double-blind, randomized, placebo-controlled withdrawal)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "26",
+        "text": "Week 26 clinical response 63% Cimzia vs 36% placebo (p<0.05); clinical remission"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "22",
+        "text": "CIMZIA (certolizumab pegol) received a standard (traditional) review BLA origina"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

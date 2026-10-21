@@ -1,0 +1,60 @@
+{
+  "app": "NDA204042",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False-positive flags: N values 193/191/189 ARE contained verbatim in the citation quote ('Cana 300 mg193', 'Cana 100 mg191', 'Placebo189'), so they are cited.",
+      "dismissed_flag": true
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "False-positive flag: the '26' (primary analysis at Week 26) is supported by the endpoint citation ('change in HbA1c from baseline to Week 26'); not an uncited efficacy number.",
+      "dismissed_flag": true
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flags: '31' and '2013' are part of the PDUFA date (March 31, 2013), which is date content excluded from uncited-number checking.",
+      "dismissed_flag": true
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "26",
+        "text": "52-week, randomized, double-blind, placebo-controlled, 3-arm parallel group, mul"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "193",
+        "text": "Main study arms: Cana 300 mg 193, Cana 100 mg 191, Placebo 189."
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "191",
+        "text": "Main study arms: Cana 300 mg 193, Cana 100 mg 191, Placebo 189."
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "189",
+        "text": "Main study arms: Cana 300 mg 193, Cana 100 mg 191, Placebo 189."
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "31",
+        "text": "Application approved; standard review, PDUFA goal date March 31, 2013, with no p"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2013",
+        "text": "Application approved; standard review, PDUFA goal date March 31, 2013, with no p"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "app": "NDA219469",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Automated flag 'uncited number 12' is a false positive \u2014 12 refers to Week 12, a timepoint not an efficacy figure."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "Automated flag 'uncited number 2' is a false positive \u2014 the 2 comes from the trial name 'OASIS 2', not an efficacy/safety value."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "Automated flags 'uncited numbers 2 and 12' are false positives \u2014 they derive from 'OASIS 2' and 'Week 12', not from efficacy figures."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag 'uncited number 2025' is a false positive \u2014 it is the approval year (date), and the initial U.S. Approval 2025 is supported elsewhere in the card."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "12",
+        "text": "OASIS 1: VMS frequency change from baseline to Week 12 difference vs. placebo -3"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "12",
+        "text": "OASIS 1: VMS frequency change from baseline to Week 12 difference vs. placebo -3"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "2",
+        "text": "OASIS 2: LYNKUET N=200, placebo N=200"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "2",
+        "text": "OASIS 2: VMS frequency change from baseline to Week 12 difference vs. placebo -3"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "12",
+        "text": "OASIS 2: VMS frequency change from baseline to Week 12 difference vs. placebo -3"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "12",
+        "text": "OASIS 2: VMS frequency change from baseline to Week 12 difference vs. placebo -3"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2025",
+        "text": "Standard NDA under section 505(b) received July 26, 2024 and approved in 2025 fo"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

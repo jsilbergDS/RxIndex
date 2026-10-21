@@ -1,0 +1,48 @@
+{
+  "app": "NDA203568",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Automated flag on '34' is a false positive: the value 34 is present verbatim in the citation quote ('Thirty-four patients were randomized to 200 mg once-weekly mipomersen').",
+      "note": "Thirty-four is spelled out in the quote; numeric 34 is supported."
+    },
+    {
+      "field": "pivotal_trials[0].nct",
+      "severity": "low",
+      "issue": "Automated flag on '301012' is a false positive: it is part of the study identifier ISIS 301012-CS5, not an efficacy/safety number requiring citation."
+    },
+    {
+      "field": "receipt_date",
+      "severity": "low",
+      "issue": "Automated flags on '3' and '12' are false positives: they are fragments of the date 3/29/12, which is excluded from citation requirements and is supported by the NDA receipt-date quote."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/nct",
+        "number": "301012",
+        "text": "Not stated in the reviewed documents for ISIS 301012-CS5"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "34",
+        "text": "N=51 (34 mipomersen, 17 placebo)"
+      },
+      {
+        "field": "receipt_date",
+        "number": "3",
+        "text": "March 29, 2012 (received 3/29/12)"
+      },
+      {
+        "field": "receipt_date",
+        "number": "12",
+        "text": "March 29, 2012 (received 3/29/12)"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

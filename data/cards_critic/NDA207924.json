@@ -1,0 +1,38 @@
+{
+  "app": "NDA207924",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting value: line 1 column 1 (char 0)",
+  "_raw": "Analyzing the card for issues.\n\nLet me check key items:\n- Endpoint says \"Week 12\" but result cites \"Week 12 %\" - consistent.\n- The result citation: \"Week 12 %\\t39\\t66\\n27 (18, 35)\\t27\\t49\\n22 (12, 32)\" - the 49 and 22 (12,32) and 27 appear. OLUMIANT 2mg 49% vs placebo 27%, diff 22 (12,32) - supporte",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "3",
+        "text": "Study IV (JADW), a confirmatory phase 3 trial"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "2",
+        "text": "527 patients enrolled; primary ACR20 analysis population 176 placebo and 174 OLU"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "2",
+        "text": "Week 12 ACR20 response: OLUMIANT 2 mg 49% vs placebo 27% (treatment difference 2"
+      },
+      {
+        "field": "advisory_committee/vote",
+        "number": "4",
+        "text": "An Arthritis Advisory Committee was convened on April 23, 2018; it voted 10 Yes,"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "15",
+        "text": "The original NDA for baricitinib was submitted January 15, 2016 and received a C"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

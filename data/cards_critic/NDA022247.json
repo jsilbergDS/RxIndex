@@ -1,0 +1,28 @@
+{
+  "app": "NDA022247",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 313)",
+  "_raw": "Analyzing the card for quality issues.\n\nLet me verify each automated flag and check for other problems.\n\n**Automated flags:**\n\n1. `pivotal_trials[0]/result` \"12\" \u2014 \"Week 12\" is a duration/timepoint; the trial design cites \"12-week\" trial. This is a false positive (timepoint, akin to a date). Low.\n\n2",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "12",
+        "text": "At Week 12, placebo-subtracted treatment effect on hot flush frequency was -2.7 "
+      },
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "3",
+        "text": "Phase 3 (2-year, multicenter, double-blind trial)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "0.625",
+        "text": "Standard-review NDA for a fixed-dose combination of conjugated estrogens and baz"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

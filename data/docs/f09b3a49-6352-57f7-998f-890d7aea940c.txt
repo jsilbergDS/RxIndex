@@ -1,0 +1,1214 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+L2: **202067Orig1s000**
+L3: **STATISTICAL REVIEW(S)**
+L4: FDA Seal/Logo
+L5: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Biostatistics
+L6: ## Statistical Review and Evaluation
+## CLINICAL STUDIES
+L7: **NDA/Serial Number:** NDA202067
+**Drug Name:** Clobazam
+**Indication(s):** Adjunctive therapy for treating subjects with Lennox-Gastaut syndrome (LGS).
+**Applicant:** Lundbeck, Inc.
+**Date of Document:** December 23, 2010
+**Biometrics Division:** Division 1 (HFD-710)
+**Statistical Reviewer:** Ohidul Siddiqui, Ph.D
+**Concurring Reviewers:** Kun Jin, Ph.D; Jim Hung, Ph.D
+**Medical Division:** HFD-120
+**Medical Reviewer:** Philip Sheridan, M.D
+**Project Manager:** Su-Lin Sun
+**Keywords:** *Clinical studies, NDA review, statistical review, endpoint analysis/, multi-center, Rank ANCOVA*
+L8: ## Table of Contents
+L9: 1. EXECUTIVE SUMMARY	3
+1.1. CONCLUSIONS AND RECOMMENDATIONS	3
+1.2. BRIEF OVERVIEW OF REVIEWED CLINICAL STUDIES	3
+1.3. STATISTICAL ISSUES AND FINDINGS	4
+2. INTRODUCTION	5
+2.1 OVERVIEW	5
+2.2 DATA SOURCES	10
+3. STATISTICAL EVALUATION	10
+3.1 DEMOGRAPHIC AND BASELINE DISEASE CHARACTERISTICS	10
+3.2 EFFICACY EVALUATION	11
+4. SUBGROUP ANALYSIS	16
+5. SUMMARY AND CONCLUSIONS	17
+L10: ## 1. EXECUTIVE SUMMARY
+L11: ## 1.1. CONCLUSIONS AND RECOMMENDATIONS
+L12: Clobazam as an adjunctive therapy demonstrated its efficacy for the treatment of seizures associated with LGS in the pivotal study OV-1012 and supportive study OV-1002. In Study OV-1012, median percent reduction in average weekly rate of drop seizures was 23.2% in the placebo group, 46.7% in the low-dose group, 57.9% in the medium-dose group, and 86.5% in the high-dose group. Efficacy of clobazam was also observed regardless of age, gender, race, and region. In conclusion, Study OV-1012 provides a clinical evidence for the efficacy of clobazam in the treatment of seizures associated with LGS.
+L13: ## 1.2. BRIEF OVERVIEW OF REVIEWED CLINICAL STUDIES
+L14: The sponsor submitted efficacy findings of two studies to demonstrate the efficacy evidence of clobazam in the adjunctive treatment of seizures associated with Lennox-Gastaut syndrome (LGS) in subjects \ge 2 years of age. Among the two studies, one study was a Phase 3 pivotal study (OV-1012) and another study was a Phase 2 supportive study (OV-1002). Both studies were multicenter, randomized, double-blind, parallel-group studies designed to assess the efficacy and safety of clobazam as adjunctive therapy to a stable AED regimen in subjects with LGS. Both studies had a 4-week baseline period and a 3-week titration period. Study OV-1012 had a 12-week maintenance period. Study OV-1012 was a placebo controlled study. Study OV-1002 had a 4-week maintenance. Study OV-1002 was a dose-ranging study.
+L15: In the pivotal study (OV-1012), treatment with low (target dose of 0.25 mg/kg of clobazam [up to a maximum daily dose of 10 mg]), medium (target dose of 0.5 mg/kg of clobazam [up to a maximum daily dose of 20 mg]), and high (target dose of 1.0 mg/kg of clobazam [up to a maximum daily dose of 40 mg]) doses of clobazam were studied as adjunctive therapy in the treatment of seizures associated with LGS in subjects \ge 2 years of age. In the supportive study (OV-1002), only the low and high doses were studied as adjunctive therapy.
+L16: The primary efficacy variable was the percent reduction in drop seizures (average per week) from the 4-week baseline period compared to the 12-week (in OV-1012) and 4-week (in OV-1012) maintenance period.
+L17: In both studies, the primary efficacy analysis was based on the modified intent-to-Treat (MITT) population. In Study OV-1012, the primary efficacy endpoint was evaluated by the analysis of covariance (ANCOVA). The analysis was performed on a model with percent reduction in drop seizures as the dependent variable and treatment, pooled center, and baseline drop seizure rate as the independent variables. Superiority of clobazam to placebo (p \le 0.01) was to be considered a statistical evidence in a single multicenter study, consistent with FDA guidance. Statistical comparisons used a step-down procedure starting with the high-dose group versus placebo as the primary comparison. In Study OV-1012, several sensitivity/supportive analyses of the primary endpoint including (i) a rank ANCOVA analysis,
+L18: and (ii) the cumulative distribution of percent reduction in average weekly rate of drop seizures (i.e., continuous responder curve) were conducted. In Study OV-1002, the 1-sided Wilcoxon signed rank test was used as the primary analysis to compare the high-dose to the low-dose group.
+L19: ## Dealings with Dropouts / Missing Data
+L20: For the primary efficacy end point, the weekly seizure rate during the maintenance period was calculated over the number of days with non-missing seizure data in the maintenance period. No explicit imputation of missing data was made, but this approach was implicitly equivalent to using the average seizure rate during the days with non-missing seizure data to impute the seizure rate for days after study discontinuation and days with missing seizure data. As sensitivity analysis of the primary end, the sponsor did analyze the percent reduction in drop seizures from baseline to the first 4 weeks, middle 4 weeks, and last 4 weeks of the maintenance period.
+L21: ## 1.3. STATISTICAL ISSUES AND FINDINGS
+L22: Dealing with missing data in Seizure frequency trials is a statistical challenge. The primary efficacy end point is often defined as the weekly seizure rate during the double blind period / maintenance period, and the rate is calculated over the number of days with non-missing seizure data in the maintenance period. Suppose a subject is dropped out from the trial after 4 days of randomization, his/her rate of seizure frequency per week will be calculated based on the available data for the four days. This approach of dealing with missing data is not different from the last observation carried forward (LOCF) approach. Since the seizure data are count-data and the primary endpoint is the rate of seizure per week, the other approaches (e.g., MMRM approach) are not appropriate to analyze such data. A research on the missing data in presence rate of seizure per week is necessary to carry out.
+L23: ## 2. INTRODUCTION
+L24: ## 2.1 OVERVIEW
+L25: The sponsor submitted efficacy findings of two studies to demonstrate the efficacy evidence of Clobazam (CLB) in the adjunctive treatment of seizures associated with Lennox-Gastaut syndrome (LGS) in subjects \ge 2 years of age. Among the two studies, one study was a Phase 3 pivotal study (OV-1012) and another study was a Phase 2 supportive study (OV-1002). Both studies were multicenter, randomized, double-blind, parallel-group studies designed to assess the efficacy and safety of clobazam as adjunctive therapy to a stable AED regimen in subjects with LGS. Both studies had a 4-week baseline period and a 3-week titration period. Study OV-1012 had a 12-week maintenance period. Study OV-1012 was a placebo controlled study. Study OV-1002 had a 4-week maintenance. Study OV-1002 was a dose-ranging study.
+L26: In the pivotal study (OV-1012), treatment with low (target dose of 0.25 mg/kg of clobazam [up to a maximum daily dose of 10 mg]), medium (target dose of 0.5 mg/kg of clobazam [up to a maximum daily dose of 20 mg]), and high (target dose of 1.0 mg/kg of clobazam [up to a maximum daily dose of 40 mg]) doses of clobazam were studied as adjunctive therapy in the treatment of seizures associated with LGS in subjects \ge 2 years of age. In the supportive study (OV-1002), only the low and high doses were studied as adjunctive therapy. Table 1 and figures 1 and 2 list the synopses and schematics of two studies.
+L27: Table 1. Synopses of two studies
+L28: Study	Objective(s) of the Study	Study Design and Type of Control	Test Product(s); Dosage Regimen; Route of Administration	Number of Subjects Exposed	Diagnosis of Patients	Primary endpoint
+OV-1012	Determine the efficacy of CLB in the reduction of drop SZs at 3 dose levels when compared to BL during 12 weeks maintenance dosing in subjects with LGS	Double blind, randomized, placebo control, parallel-group	Oral placebo Oral CLB: low dose: target dose of: 0.25 mg/kg (maximum of 10 mg/day), medium dose: target dose of 0.5 mg/kg (maximum of 20 mg/day), or high dose: target dose of 1.0 mg/kg (maximum of 40 mg/day) Subjects were dosed twice daily.	Placebo: 59
+CLB dose:
+Low: 58
+Medium: 62
+High: 59	Subjects 2-60 years of age with a diagnosis of LGS	Percent reduction in number of drop SZs (average per week) from the 4-week BL period compared to the 12-week maintenance period
+OV-1002	Determine the efficacy of low-dose and	Double blind, randomized	Oral CLB: low dose: target dose of: 0.25 mg/kg	Low dose: 32
+High dose: 36	Subjects 2-30 years of age with a	Percent reduction in number of
+L29: high-dose CLB in the treatment of SZs that lead to drop attacks in subjects with LGS	dose-ranging	(maximum of 10 mg/day) or high dose: target dose of 1.0 mg/kg (maximum of 40 mg/day)
+Subjects were dosed twice daily.	diagnosis of LGS	drop SZs (average per week) from the 4-week BL period compared to the 4-week maintenance period
+L30: BL: baseline, SZ: Seizure
+L31: Source: Study report
+L32: Figure 1. Schematic for Study OV-1012
+(source: Study report)
+L33: Figure 2. Schematic for Study OV-1002
+(source: Study report)
+L34: Baseline seizure rates were calculated from the 4-week baseline period. The weekly number of drop seizures during baseline was the number of drop seizures reported during baseline divided by the number of days recorded during baseline multiplied by 7. Similarly, the weekly number of drop seizures during maintenance was the number of drop seizures reported during maintenance divided by the number of days during maintenance multiplied by 7. The average percent reduction in seizures per week for subjects who did not complete the 4-week maintenance period was calculated based on the time from the beginning of the maintenance period to the date of withdrawal.
+L35: The primary efficacy variable was the percent reduction in drop seizures (average per week) from the 4-week baseline period compared to the 12-week (in OV-1012) and 4-week ((in OV-1012) maintenance period. A positive value for the percent reduction in drop seizures indicated a reduction in the number of drop seizures.
+L36: The secondary efficacy variables were (i) percent reduction in total (drop and non-drop) seizure types from the baseline period compared to the 4-week maintenance period; (ii) percent of subjects considered treatment responders, defined as those with a \ge 25\% / \ge 50\% / \ge 75\% / 100% reduction in drop seizures from the baseline period compared to the 4-week maintenance period; (iii) percent reduction in non-drop seizure types from the baseline period compared to the 4-week maintenance period; (iv) physician global evaluation; and (v) parent/caregiver global evaluation.
+L37: In both studies, the primary efficacy analysis was based on the modified intent-to-Treat (MITT) population. The MITT population consisted of all randomized subjects who received study drug, had both a baseline and post-baseline measurement, and had at least 1 measurement during the maintenance period.
+L38: In Study OV-1012, the primary efficacy endpoint was evaluated by the analysis of covariance (ANCOVA). The analysis was performed on a model with percent reduction in drop seizures as the dependent variable and treatment, pooled center, and baseline drop seizure rate as the independent variables. Superiority of clobazam to placebo (p \le 0.01) was to be considered a statistical evidence in a single multicenter study, consistent with FDA guidance. Statistical comparisons used a step-down procedure starting with the high-dose group versus placebo as the primary comparison. The cumulative distribution of percent reduction in average weekly rate of drop seizures (i.e., continuous responder curve) was summarized graphically.
+L39: In Study OV-1012, following sensitivity analyses for the percent reduction in the average weekly rate of drop seizures from baseline to the maintenance period were conducted to examine the effects of demographic factors, imputation of missing data, data transformation, and blind breaking.
+L40: A: Accounting for country, with an ANCOVA model including treatment, country, and baseline seizure rate included as effects.
+L41: B: Not accounting for centers or country, with an ANCOVA model including treatment and
+L42: baseline seizure rate included as effects.
+
+C: Using seizure count = 20 if "10-20" box was checked and 30 if "&gt; 20" box was checked with an ANCOVA model including treatment, pooled center, and baseline seizure rate as effects.
+
+D: Using seizure count = 20 if "10-20" box was checked and 50 if "&gt; 20" box was checked with an ANCOVA model including treatment, pooled center, and baseline seizure rate as effects.
+
+E: Analyzing logarithm of (baseline seizure rate + 1) minus logarithm of (maintenance rate + 1) with seizure count = 10 if "10-20" box was checked and 20 if "&gt; 20" box was checked with an ANCOVA model including treatment, pooled center, and baseline seizure rate as effects.
+
+F: Analyzing logarithm of (baseline seizure rate + 1) minus logarithm of (maintenance rate + 1) with seizure count = 20 if "10-20" box was checked and 30 if "&gt; 20" box was checked with an ANCOVA model including treatment, pooled center, and baseline seizure rate as effects.
+
+G: Analyzing logarithm of (baseline seizure rate + 1) minus logarithm of (maintenance rate + 1) ith seizure count = 20 if "10-20" box was checked and 50 if "&gt; 20" box was checked with an ANCOVA model including treatment, pooled center, and baseline seizure rate as effects.
+
+H: Adjusting for weight, age, and gender with an ANCOVA model including treatment, pooled center, weight category at randomization, age, gender, and baseline seizure rate as effects.
+
+I: Imputing baseline seizure rate for remainder of maintenance period if subject discontinued due to adverse event, with an ANCOVA model including treatment, pooled center, and baseline seizure rate included as effects.
+
+J: Excluding observations obtained after blind break, with an ANCOVA model including treatment, pooled center, and baseline seizure rate included as effects (The sponsor instructed Site 700 to record the blind as broken for all 7 subjects [OV-1012]) when documentation with study drug identification was inadvertently sent to the site by the warehouse. This sensitivity analysis excludes these 7 subjects).
+
+K: Using rank of percent reduction as the response variable with an ANCOVA model including treatment, pooled center, and baseline seizure rate as effects.
+
+L: Using primary variable and ANCOVA with all randomized subjects who received at least 1 dose of study drug, had baseline data, and had at least 1 daily measurement of drop seizures during the titration or maintenance period (analysis added after breaking the blind).
+L43: In Study OV-1002, the 1-sided Wilcoxon signed rank test was used as the primary analysis to compare the high-dose to the low-dose group.
+L44: ## Dealings with Dropouts / Missing Data
+L45: For the primary efficacy end point, the weekly seizure rate during the maintenance period was calculated over the number of days with non-missing seizure data in the maintenance period. No explicit imputation of missing data was made, but this approach was implicitly equivalent to using the average seizure rate during the days with non-missing seizure data to impute the seizure rate for days after study discontinuation and days with missing seizure data. As sensitivity analysis of the primary end, the sponsor did analyze the percent reduction in drop seizures from baseline to the first 4 weeks, middle 4 weeks, and last 4 weeks of the maintenance period.
+L46: ## Disposition of Subjects
+L47: Table 2 lists the patient disposition of the two studies. In Study OV-1012, a total of 238 subjects were randomized in the study: 59 subjects to the placebo group, 58 subjects to the low-dose (target dose of clobazam 0.25 mg/kg/day) group, 62 subjects to the medium-dose (target dose of clobazam 0.5 mg/kg/day) group, and 59 subjects to the high-dose (target dose of clobazam 1.0 mg/kg/day) group. Overall, 74.4% of subjects completed the study. The most common reasons for discontinuation were lack of efficacy in the placebo group and AE in the clobazam groups.
+L48: In Study OV-1002, a total of 68 subjects were randomized to the study: 32 subjects were randomized to the low dose (target dose of clobazam 0.25 mg/kg/day) group and 36 subjects were randomized to the high dose (target dose of clobazam 1.0 mg/kg/day) group. Overall, 85.3% subjects completed the study. In the low dose group, 12.5% subjects discontinued the study prematurely and 16.7% subjects in the high dose group discontinued. The main reason for discontinuation was AEs.
+L49: Table 2. Patient Disposition
+L50: Study OV-1012	Dose Level	Total
+Status	Placebo	Low (0.25 mg/kg)	Medium (0.5 mg/kg)	High (1.0 mg/kg)
+Randomized, N	59	58	62	59	238
+Completed, n (%)	41 (69.5)	50 (86.2)	45 (72.6)	41 (69.5)	177 (74.4)
+Discontinued, n (%)	18 (30.5)	8 (13.8)	17 (27.4)	18 (30.5)	61 (25.6)
+Discontinued due to AE, n (%)	2 (3.4)	4 (6.9)	8 (12.9)	12 (20.3)	26 (10.9)
+Discontinued due to Lack of efficacy	10 (16.9)	1 (91.7)	4 (6.5)	0	15 (6.3)
+Study OV-1002
+Status	Clobazam	Clobazam	Total
+Low Dose (0.25 mg/kg/day)	High Dose (1.0 mg/kg/day)
+Randomized, N	32	36	68
+Completed, n (%)	28 (87.5)	30 (83.3)	58 (85.3)
+Discontinued, n (%)	4 (12.5)	6 (16.7)	10 (14.7)
+Discontinued due to AE, n (%)	3 (9.4)	6 (16.6)	9 (13.2)
+L51: Source: study reports
+L52: ## 2.2 DATA SOURCES
+L53: The study reports and SAS data sets are available at Cdsesub1\evsprod\NDA202067\0000\m5
+L54: ## 3. STATISTICAL EVALUATION
+L55: ## 3.1 DEMOGRAPHIC AND BASELINE DISEASE CHARACTERISTICS
+L56: Table 3 lists the demographic characteristics of the randomized subjects. The demographics for all subjects were comparable across the treatment groups in the two studies. The majority of subjects in Studies OV-1002 and OV-1012 were male (57.6-64.4% across treatment groups) and White/Caucasian (56.5-94.4% across treatment groups). Mean age was 9 years in Study OV-1002 (range: 2-26 years); mean age ranged from 11 to 14 years across treatment groups in Study OV-1012 (range: 2-54 years). Study OV-1002 was conducted in the US, whereas Study OV-1012 was conducted in the US and countries either where clobazam was not already approved or not readily available (i.e., Australia, Belarus, India, and Lithuania). The majority of subjects in Study OV-1012 participated at sites in the US (69.3%) and India (23.1%).
+L57: Table 3: Baseline Demographic Characteristics of Subjects
+L58: Parameter	Study OV-1002	Study OV-1012
+Clobazam Dose Level	Clobazam Dose Level
+Low
+N = 32	High
+N = 36	Placebo
+N = 59	Low
+N = 58	Medium
+N = 62	High
+N = 59
+Age (years)	
+Mean (SD)	9.2 (5.37)	8.5 (5.14)	13.0 (9.17)	10.9 (7.24)	14.1 (10.42)	11.7 (8.48)
+Range	2, 26	2, 23	3, 54	2, 34	3, 49	2, 39
+Gender, n (%)	
+Female	13 (40.6)	13 (36.1)	21 (35.6)	22 (37.9)	26 (41.9)	25 (42.4)
+Male	19 (59.4)	23 (63.9)	38 (64.4)	36 (62.1)	36 (58.1)	34 (57.6)
+Race, n (%)	
+White or Caucasian	25 (78.1)	34 (94.4)	42 (71.2)	33 (56.9)	35 (56.5)	37 (62.7)
+Black or Afr. American	6 (18.8)	2 (5.6)	3 (5.1)	8 (13.8)	9 (14.5)	5 (8.5)
+Asian	1 (3.1)	0	13 (22.0)	0	16 (25.8)	16 (27.1)
+Other	0	0	1 (1.7)	1 (1.7)	2 (3.2)	1 (1.7)
+Native Hawaiian	0	0	0	0	0	0
+Region, n (%)	
+India	0	0	10 (16.9)	16 (27.6)	14 (22.6)	15 (25.4)
+Rest of world	0	0	7 (11.9)	2 (3.4)	6 (9.7)	3 (5.1)
+United States	32 (100.0)	36 (100.0)	42 (71.2)	40 (69.0)	42 (67.7)	41 (69.5)
+L59: Source: study reports
+L60: SD = standard deviation
+L61: The mean years since LGS onset ranged from 4.6 to 9.6 years across treatment groups in the 2 studies. In Study OV-1012, etiology of LGS was primarily symptomatic or cryptogenic. In Study OV-1002, etiology was primarily symptomatic or idiopathic. No notable differences among treatment groups in the 2 studies were observed for either of these etiologies of LGS. No notable differences among treatment groups in the 2 studies were observed for seizure types.
+L62: ## 3.2 EFFICACY EVALUATION
+L63: ## Sponsor's reported Analyses results
+L64: Table 4 lists the primary efficacy results of the primary endpoint Percent Reduction in Average Weekly Rate of Drop Seizures from Baseline to the Maintenance Period of Double-blind Phase on the MITT Population. Superiority of clobazam relative to placebo with a p-value \le 0.01 was considered a statistical evidence in the pivotal study (OV-1012). The study provided a statistical and clinical evidence for the efficacy of clobazam in the adjunctive treatment of drop seizures. The average weekly rate of drop seizures was statistically significantly reduced at all dose levels of clobazam compared with placebo (p value \le 0.01 for the medium- and high-dose levels of clobazam, and p value =0.012 for the low-dose level of clobazam). Results from Study OV-1002 supported those from Study OV-1012.
+L65: Table 4: Percent Reduction in Average Weekly Rate of Drop Seizures from Baseline to the Maintenance Period of Double-blind Phase – MITT Population
+L66: Variable Statistic	Study OV-1002	Study OV-1012
+Clobazam Dose Level	Clobazam Dose Level
+Low
+N = 29	High
+N = 32	Placebo N =
+57	Low
+N = 53	Medium N =
+58	High
+N = 49
+Baseline drop seizure rate
+Mean (SD)
+Median
+Range	142.0 (190.2)
+66
+5, 661	209.1 (229.2)
+97
+8, 924	97.8 (170.7)
+35.5
+2, 920	99.6 (206.0)
+29.2
+2, 1077	60.5 (122.5)
+22.5
+2, 798	105.2 (163.3)
+46.4
+2, 856
+Percent reduction during the maintenance period1
+Mean (SD)
+Median
+Range	10.1 (122.3)
+29
+-531, 100	85.2 (17.1)
+93
+48, 100	12.5 (72.7)
+23.2
+-374, 100	41.6 (46.8)
+46.7
+-119, 100	47.8 (62.0)
+57.9
+-262, 100	69.5 (39.7)
+86.5
+-39, 100
+p-value: comparison to placebo2	0.0120	0.0015	< 0.0001
+p-value: comparison between high and low dose3	< 0.0001
+L67: Source: Study Reports
+L68: 1 Duration of the maintenance period was 4 weeks in Study OV-1002 and 12 weeks in Study OV-1012.
+L69: 2 In Study OV-1012, 2-sided pairwise comparison comparing each active dose level to placebo using an ANCOVA model with treatment, pooled center, and baseline seizure rate included as effects in the model.
+L70: 3 In Study OV-1002, p-value for treatment difference (high versus low dose) from 1-sided Wilcoxon rank-sum test.
+L71: Figure 3. Continuous Responder Curves Based on Percent Reduction From Baseline in Drop Seizures in Study OV-1012 – MITT Population
+L72: Source: Study report.
+L73: In Study OV-1012, the percent of subjects with \ge 25\%, \ge 50\%, \ge 75\%, and 100\% reduction from baseline to the maintenance period in the average weekly rate of drop seizures was higher in each of the clobazam groups compared to the placebo group. At least a 50\% reduction in weekly drop seizure rate was observed in 43.4% of the low-dose group, 58.6% of the medium-dose group, and 77.6% of the high-dose group compared with 31.6% of the placebo group. A 100\% reduction in weekly drop seizure rate was observed in 7.5% of the low-dose group, 12.1% of the medium-dose group, and 24.5% of the high-dose group compared with 3.5% of the placebo group. The continuous responder curves (i.e., cumulative distribution of frequency) based on percent reduction from baseline in drop seizures are shown in Figure 3 is also supported the efficacy of all doses of clobazam. In the supportive study (OV-1002), results in the low-dose and high-dose groups were similar to those in the pivotal study OV-1012.
+L74: In Study OV-1012, several sensitivity analyses including a rank ANCOVA analysis of the primary endpoint were conducted to examine the efficacy of the study drug (Table 5). The medium-dose and high-dose groups of clobazam were statistically significantly superior to the placebo group for all sensitivity analyses. The low-dose group of clobazam was statistically significantly superior (p\text{-value} \le 0.05) to the placebo group for all sensitivity analyses except those on logarithm-transformed reductions in drop seizures.
+L75: Table 5: Sensitivity Analyses of Reduction in Average Weekly Rate of Drop Seizures in Study OV-1012 (Baseline to Maintenance Period) – MITT and ITT Populations
+L76: Sensitivity Analysis	Dose Level1 MITT Sample Sizes2
+Placebo
+N = 57	Low1
+N = 53	Medium1
+N = 58	High1
+N = 49
+A: LS mean percent reduction in seizure rate p-value: comparison to placebo3	10.6	39.1
+0.0119	45.7
+0.0016	66.9
+< 0.0001
+B: LS mean percent reduction in seizure rate p-value: comparison to placebo4	12.4	41.5
+0.0088	48.1
+0.0011	69.3
+< 0.0001
+C: LS mean percent reduction in seizure rate p-value: comparison to placebo5	11.1	39.6
+0.0219	47.6
+0.0039	67.8
+< 0.0001
+D: LS mean percent reduction in seizure rate p-value: comparison to placebo5	10.6	39.9
+0.0202	47.3
+0.0042	67.6
+< 0.0001
+E: LS mean change in log seizure rate p-value: comparison to placebo5	0.43	0.81
+0.0741	1.09
+0.0021	1.77
+< 0.0001
+F: LS mean change in log seizure rate p-value: comparison to placebo5	0.44	0.80
+0.1006	1.11
+0.0030	1.83
+< 0.0001
+G: LS mean change in log seizure rate p-value: comparison to placebo5	0.44	0.81
+0.1106	1.13
+0.0032	1.85
+< 0.0001
+H: LS mean percent reduction in seizure rate p-value: comparison to placebo6	13.4	41.6
+0.0159	50.6
+0.0017	69.0
+< 0.0001
+I: LS mean percent reduction in seizure rate p-value: comparison to placebo5	11.0	40.1
+0.0114	45.0
+0.0036	62.5
+< 0.0001
+J: LS mean percent reduction in seizure rate p-value: comparison to placebo5	10.5	40.9
+0.0100	49.4
+0.0014	68.8
+< 0.0001
+K: p-value: comparison to placebo5	0.0274
+0.0004	< 0.0001
+L: ITT sample sizes LS mean percent reduction in seizure rate p-value: comparison to placebo5	N = 58
+8.6	N = 58
+30.9
+0.0029	N = 61
+37.9
+0.0001	N = 59
+44.0
+< 0.0001
+L77: Source: Study Reports
+L78: LS = least squares
+L79: Note: The MITT population (analyses A through K) is all randomized subjects who had baseline data, at least 1 dose of study drug, and at least 1 daily seizure measurement during the maintenance period. The ITT population (analysis L) is all randomized subjects who had baseline data, at least 1 dose of study drug, and at least 1 daily seizure measurement during the titration or maintenance period. For subjects missing some of the daily measurements, the available data were used.
+L80: 1 Low-, Medium-, and High-dose levels correspond to target doses of 0.25 mg/kg of clobazam (up to a maximum daily dose of 10 mg), 0.5 mg/kg of clobazam (up to a maximum daily dose of 20 mg), and 1.0 mg/kg (up to a maximum daily dose of 40 mg), respectively.
+L81: 2 Sample sizes represent the MITT population for analyses A through K. Sample sizes for the ITT population are shown for analysis L.
+L82: 3 2-sided pairwise comparison comparing each active dose level to placebo using an ANCOVA model with treatment, country, and baseline seizure rate included as effects in the model.
+L83: 4 2-sided pairwise comparison comparing each active dose level to placebo using an ANCOVA model with treatment and baseline seizure rate included as effects in the model.
+L84: 5 2-sided pairwise comparison comparing each active dose level to placebo using an ANCOVA model with treatment, pooled center, and baseline seizure rate included as effects in the model.
+L85: 6 2-sided pairwise comparison comparing each active dose level to placebo using an ANCOVA model with treatment, pooled center, weight category at randomization, age, gender, and baseline seizure rate included as effects in the model.
+L86: Table 6 lists the percent reduction in average weekly rate of total (Drop and Non-drop) seizures from baseline to the maintenance Period of Double-blind Phase. All clobazam dose groups were statistically significantly superior to the placebo group for percent reduction in average weekly rate of total seizures from baseline to the maintenance period, with the greatest improvement versus placebo observed in the high-dose group. In Study OV-1002, treatment with both low- and high-dose clobazam resulted in statistically significant percent reductions in the average weekly rate of total seizures.
+L87: Table 6: Percent Reduction in Average Weekly Rate of Total (Drop and Non-drop) Seizures from Baseline to the Maintenance Period of Double-blind Phase–MITT Population
+L88: Variable Statistic	Study OV-1002	Study OV-1012
+Clobazam Dose Level	Placebo N = 57	Clobazam Dose Level
+Low N = 29	High N = 32	Low N = 53	Medium N = 58	High N = 49
+Baseline drop seizure rate	
+Mean (SD)	153.3 (185.6)	216.6 (229.4)	117.1 (176.9)	131.1 (224.2)	111.5 (224.7)	128.7 (164.5)
+Median	88.1	105.2	46.8	45.5	36.6	80.6
+Range	9, 665	8.5, 927	4, 920	4, 1125	3, 1465	2, 864
+Percent reduction during the maintenance period1	
+Mean (SD)	19.1 (64.3)	85.2 (17.1)	10.1 (55.2)	36.8 (48.1)	42.2 (89.6)	66.2 (40.0)
+Median	27.1	86.2	11.3	43.1	62.1	82.8
+Range	-129, 100	29, 100	-189, 100	-155, 100	-523, 100	-49, 100
+p-value: comparison to placebo2	0.0414	0.0044	< 0.0001
+p-value: comparison between high and low dose3	< 0.0001
+L89: Source: Study Reports
+L90: 1 Duration of the maintenance period was 4 weeks in Study OV-1002 and 12 weeks in Study OV-1012.
+L91: 2 In Study OV-1012, 2-sided pairwise comparison comparing each active dose level to placebo using an ANCOVA model with treatment, pooled center, and baseline seizure rate included as effects in the model.
+L92: 3 In Study OV-1002, p-value for treatment difference (high versus low dose) from 1-sided Wilcoxon rank-sum test.
+L93: In Study OV-1012, clobazam doses were not statistically superior (p-value = 0.092, 0.250, and 0.721 for high, medium, and low doses, respectively) to placebo in the ANCOVA analysis of Percent Reduction in Average Weekly Rate of Non-drop Seizures. However, the high-dose group showed statistically significantly superior results compared to placebo for improvement in non-drop seizures based on the Wilcoxon rank-sum test (p-value = 0.005) and rank ANCOVA analysis (p-value = 0.007). The medium- and low-dose clobazam dose groups were also numerically better than placebo for non-drop seizures. A dose-response relationship was observed. In both Studies OV-1012 and OV-1002, the high-dose group was numerically superior to the low-dose group for the median percent reduction in average weekly rate of non-drop seizures (76.5% and 18%, respectively, in Study OV-1012 and 62% and 2%, respectively, in Study OV-1002).
+L94: In Study OV-1012, based on the physician global evaluation, the percent of subjects who were assessed by the physician as much improved or very much improved (46.2% of the low-dose group, 64.9% of the medium-dose group, 63.3% of the high-dose group, and 23.6% of the placebo group) and minimally improved, much improved, or very much improved (71.2% of
+L95: the low-dose group, 80.7% of the medium-dose group, 79.6% of the high-dose group, and 47.3% of the placebo group) from baseline at the end of maintenance was statistically significantly higher in each of the clobazam groups compared to the placebo group. Results were similar in supportive Study OV-1002
+L96: Evidence of the efficacy of clobazam was also supported by the results of secondary efficacy analyses in the randomized, double-blind studies, including responder analyses and physician global assessment of improvement.
+L97: ## Dealings with Dropouts or Missing Data
+L98: To evaluate the impact of missing data in Study OV-1012, ANCOVA analyses on the primary efficacy endpoint - percent reduction in average weekly rate of drop seizures were conducted considering (i) baseline compared to first, (ii) baseline compared middle, and (iii) baseline compared last 4 weeks of the maintenance period of MITT Population. The weekly seizure rate during the maintenance period was calculated over the number of days with non-missing seizure data in the maintenance period. The high-dose group of clobazam was statistically significantly superior to the placebo group for percent reduction in average weekly rate of drop seizures from baseline to the first 4 weeks (Weeks 4-7), middle 4 weeks (Weeks 8-11), and last 4 weeks (Weeks 12-15) of the maintenance period (Table 7). The medium-dose group of clobazam was statistically significantly superior to the placebo group for percent reduction in average weekly rate of drop seizures from baseline to the first 4 weeks and last 4 weeks of the maintenance period. The low-dose group of clobazam was statistically significantly superior to the placebo group for percent reduction in average weekly rate of drop seizures from baseline to the first 4 weeks of the maintenance period. These findings support that the missing data has no major impact on the findings based on the primary analysis in the pivotal study OV-1012.
+L99: Table 7. Percent Reduction in Average Weekly Rate of Drop Seizures (Baseline Compared to First, Middle, and Last 4 Weeks of Maintenance Period) – MITT Population
+L100: Interval of Maintenance Period	Dose Level
+Placebo
+N = 57	Low
+N=53	Medium
+N=58	High
+N=49
+First 4 weeks (Weeks 4-7)	
+Baseline median seizure rate	N = 57
+35.5	N = 53
+29.2	N = 58
+22.5	N = 49
+46.4
+Maintenance median seizure rate	25.6	14.2	3.5	4.6
+Median percent reduction in seizure rate	30.7	44.4	72.7	92.1
+p-value: comparison to placebo	0.002	<0.001	<0.001
+Middle 4 weeks (Weeks 8-11)	
+Baseline median seizure rate	N = 47
+25.8	N = 52
+28.9	N = 53
+23.5	N = 44
+45.4
+Maintenance median seizure rate	15.5	15.9	9.9	4.5
+Median percent reduction in seizure rate	38.8	48.9	57.1	88.1
+p-value: comparison to placebo	0.104	0.220	0.002
+Last 4 weeks (Weeks 12-15)	
+Baseline median seizure rate	N = 44
+31.9	N = 51
+29.2	N = 46
+22.6	N = 42
+42.6
+Maintenance median seizure rate	25.3	17.2	7.3	4.1
+Median percent reduction in seizure rate	35.6	46.8	69.2	89.0
+p-value: comparison to placebo	0.146	0.016	0.002
+L101: The MITT population is all randomized subjects who had baseline data, at least 1 dose of study drug, and at least 1 daily seizure measurement during the maintenance period; for subjects missing some of the daily measurements, the available data were used.
+L102: Two-sided pairwise comparison comparing each active dose level to placebo using an ANCOVA model with treatment, pooled center, and baseline seizure rate included as effects in the model.
+L103: ## 3.3. FDA Reviewer's Data Analyses and Comment
+L104: This reviewer re-analyzed the efficacy data of the pivotal (Study OV-1012) and supportive (Study OV-1002) studies according to the protocol specified statistical analysis plans and found that the statistical findings are consistent with the sponsor's reported efficacy findings. In the pivotal study OV-1012, the missing data had no impact on the efficacy conclusions of the study.
+L105: ## 4. SUBGROUP ANALYSIS
+L106: ## Subgroup Analyses in the pivotal study OV-1012
+L107: Table 8 lists the percent reduction in average weekly rate of drop seizures in Study OV-1012 by age, gender, race and region. Within each age category, all dose groups of clobazam had numerically greater median percent reductions in average weekly rate of drop seizures from baseline to the maintenance period compared with placebo, with the exception of the low-dose group in subjects \ge 12 - &lt; 17 years of age. This exception is likely due to the small sample Sizes. In each gender group, all dose groups of clobazam had numerically greater median percent reductions in average weekly rate of drop seizures from baseline to the maintenance period compared with placebo. Regardless of race category, all clobazam dose groups had numerically greater median percent reductions in average weekly rate of drop seizures from baseline to the maintenance period compared with placebo. That is, Subgroup analyses of the percent reduction in the average weekly rate of drop seizures in the pivotal study demonstrated efficacy regardless of age, gender, race, and region.
+L108: Table 8: Percent Reduction in Average Weekly Rate of Drop Seizures in Maintenance period of Study OV-1012 by age, gender, race and region-MITT Population
+L109: Age Category	Dose Level
+Placebo	Low	Medium	High
+\ge 2 yrs to < 12 yrs	N = 36	N = 36	N = 32	N = 34
+Median percent reduction in seizure rate	24.72	48.15	59.37	80.20
+\ge 12 to < 17 years	N = 8	N = 8	N = 11	N = 7
+Median percent reduction in seizure rate	49.60	25.88	70.54	98.79
+\ge 17 years	N = 13	N = 9	N = 15	N = 8
+Median percent reduction in seizure rate	11.30	42.68	40.59	98.19
+Gender	
+Female	N = 21	N = 20	N = 26	N = 20
+Median percent reduction in seizure rate	20.43	32.96	56.25	86.88
+Male	N = 36	N = 33	N = 32	N = 29
+Median percent reduction in seizure rate	27.39	48.37	59.37	86.52
+Race	
+White or Caucasian	N = 41	N = 29	N = 32	N = 30
+Median percent reduction in seizure rate	20.43	42.88	50.29	86.88
+L110: Asian	N = 12	N = 15	N = 16	N = 14
+Median percent reduction in seizure rate	22.08	42.75	78.46	86.91
+Other	N = 4	N = 9	N = 10	N = 5
+Median percent reduction in seizure rate	40.96	71.72	46.14	73.83
+Region	
+US only (35 sites)	N = 41	N = 37	N = 39	N = 33
+Median percent reduction in seizure rate	20.4	48.7	51.2	87.3
+India only (13 sites)	N = 9	N = 15	N = 14	N = 13
+Median percent reduction in seizure rate	53.41	42.75	87.98	86.52
+Excluding the US and India (5 sites)	N = 7	N = 1	N = 5	N = 3
+Median percent reduction in seizure rate	23.23	5.71	33.33	-3.08
+L111: Source: ISE report
+L112: ## 5. SUMMARY AND CONCLUSIONS
+L113: Clobazam as an adjunctive therapy demonstrated its efficacy for the treatment of seizures associated with LGS in Studies OV-1012 and OV-1002. In Study OV-1012, median percent reduction in average weekly rate of drop seizures was 23.2% in the placebo group, 46.7% in the low-dose group, 57.9% in the medium-dose group, and 86.5% in the high-dose group. Efficacy of clobazam was also observed regardless of age, gender, race, and region.
+L114: The medium-dose and high-dose levels of clobazam met the criterion for a statistical significance (p \le 0.01) versus placebo for reduction from baseline to maintenance in average weekly rate of drop seizures. The low-dose group was statistically significantly superior at p \le 0.012 to the placebo group. Sensitivity analyses also supported the efficacy results of the primary endpoint. The medium-dose and high-dose groups of clobazam were statistically significantly superior to the placebo group for all sensitivity analyses, and met the criterion for a statistical significance (p \le 0.01). Results of secondary endpoints were consistent with the results of the primary endpoint. The percent of subjects in the various treatment responder categories (\ge 25\%, \ge 50\%, \ge 75\%, and 100% reduction from baseline to the maintenance period in the average weekly rate of drop seizures) increased with increasing clobazam dose. The cumulative distribution of frequency curves based on percent reduction from baseline in drop seizures also supported the efficacy of all doses of clobazam. Dose-dependent results were also observed for total (drop and non-drop) and non-drop seizures. The efficacy of clobazam was also supported by the results of Study OV-1002. In conclusion, Study OV-1012 provides statistical and clinical evidence for the efficacy of clobazam in the treatment of seizures associated with LGS.
+L115: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L116: /s/
+L117: OHIDUL I SIDDIQUI
+L118: 08/29/2011
+L119: KUN JIN
+L120: 08/29/2011
+L121: I incur with this review.
+L122: HSIEN MING J J HUNG
+L123: 09/06/2011
+L124: FDA seal/logo for Center for Drug Evaluation and Research
+L125: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Science
+Office of Biostatistics
+L126: ## Statistical Review and Evaluation
+L127: ## CARCINOGENICITY STUDIES
+L128: IND/NDA Number:	NDA 20-2067
+Drug Name:	RU 4723
+Applicant:	[REDACTED] (b) (4)
+Documents Reviewed:	Test Facility: [REDACTED] (b) (4)
+Electronic data submitted on February 08, 2011.
+Review Priority:	Standard
+Biometrics Division:	Division of Biometrics -6
+Statistical Reviewer:	Min Min, Ph.D.
+Concurring Reviewer:	Karl Lin, Ph.D.
+Medical Division:	Division of Neurology Products
+Reviewing Pharmacologist:	J Edward Fisher, Ph.D.
+Project Manager:	Su-Lin Sun, PharmD.
+Keywords:	Carcinogenicity, Dose response
+L129: ## Table of Contents
+L130: 1	Background	3
+2	Rat Study	3
+2.1	2.1. Sponsor's analyses	4
+2.1.1	Survival analysis	4
+2.1.2	Tumor data analysis	7
+2.2	Reviewer's analyses	7
+2.2.1	Survival analysis	7
+2.2.2	Tumor data analysis	7
+3	Mouse Study	10
+3.1	Sponsor's analyses	10
+3.1.1	Survival analysis	10
+3.1.2	Tumor data analysis	11
+3.2	Reviewer's analyses	13
+3.2.1	Survival analysis	13
+3.2.2	Tumor data analysis	13
+4	Evaluation of validity of the design of the mouse study	14
+5	Summary	16
+6	Appendix	18
+7	References	34
+L131: ## 1. Background
+L132: In this submission the sponsor included reports of two animal carcinogenicity studies, one in rats and one in mice. The purpose of these studies was to evaluate RU 4723 for carcinogenesis when administered continuously via the diet, a period of 80 weeks for mice and 104 weeks for rats. Results of this review have been discussed with the reviewing pharmacologist Dr. Fisher.
+L133: ## 2. Rat Study
+L134: Two separate experiments were conducted, one in males and one in females. In each of these two experiments there were three treated groups and one control group. Five hundred and fifty specified pathogen-free rats of the CD strain, evenly divided by sex, were obtained from
+L135: (b) (4)
+L136: During a five-day acclimatisation period, any rats that failed to gain weight satisfactorily, or were outside the required weight range, were discarded. Subsequently, 480 rats were weighed and non-selectively allocated among four groups to provide 60 males and 60 females in each. By exchange of animals, the mean bodyweights of all sub-groups were then adjusted until they differed by not more than \pm 1 g; the rats were then ear marked for identification. The groups were non-selectively allocated to four treatment regimens as follows:
+L137: Group	Dosage
+(mg/kg/day)	Cage numbers	Animal
+identity numbers
+♂	♀	♂	♀
+1	0	1-12	49-60	1-60	241-300
+2	4	13-24	61-72	61-120	301-360
+3	20	25-36	73-84	121-180	361-420
+4	100	37-48	85-96	181-240	421-480
+L138: APPEARS
+THIS WAY ON
+ORIGINAL
+L139: All rats were examined daily for evidence of ill-health or reactions to treatment, and any signs fully documented. Particular attention was paid to superficial or palpable swellings, with recording of their location, size, consistency, time of first appearance and subsequent history. Animals that died were submitted to detailed necropsy. Animals found in extremis and those surviving to the end of Week 104 were lulled by carbon dioxide inhalation. Whether killed in this manner or found dead in its cage, each rat was thoroughly examined both visually and by palpation; any evidence of adhesion, deformation, invasion or other interaction between presumptive tumours and neighbouring structures were carefully recorded.
+L140: All tissues showing macroscopic change that might indicate the cause of death, and any showing changes suggestive of neoplasia, were preserved in buffered neutral 4% formaldehyde. From every animal, the following organs, where available, were also routinely preserved for histological examination;
+L141: ## HISTOLOGICAL EXAMINATION.
+L142: *Adrenal glands	*Mesenteric lymph nodes
+Brain	*Ovaries
+Caecum	Pancreas
+Cervical lymph nodes	*Pituitary gland
+Duodenum	Prostate
+Eye	Stomach (antrum and pylori fundus)
+Heart	*Spleen
+Ileum	Testes
+Kidneys	Thymus (if present)
+*Liver	*Thyroid glands
+*Lungs	Urinary bladder
+Mammary glands (caudal)	Uterus.
+L143: Those tissues bearing an asterisk in the above were examined for every animal in each group for evidence of neoplastic change. The following tissues from each rat were preserved against possible future need for histological examination:
+L144: Aorta	Oesophagus
+Bone	Salivary gland
+Colon	Sciatic nerve
+Eye and optic nerve	Skeletal muscle
+Epididymis	Skin
+Mammary gland (cranial)	Tongue
+Trachea.
+L145: A bone marrow smear was taken, dried in air and fixed in methanol. Eyes were preserved in Davidson's fixative.
+L146: ## 2.1. 2.1. Sponsor's analyses
+L147: ## 2.1.1. Survival analysis
+L148: Kaplan-Meier estimates of group survival rates were calculated by sex. In sponsor's report, there is no details about statistical methods and only has "Statistical Methods in Medical Research" by Armitage, 1971 as a reference. The trend test and pair-wise comparisons were conducted at the 0.05 significance level. The table on page 3 and the figures on page 6 present the sponsor's summary of survival analysis results.
+L149: **Sponsor's findings:** Neither the distribution of deaths among the groups nor the probable causes of death displayed any relationship with treatment. Between Weeks 56 and 72, the mortality rates in control males and in females receiving the highest dosage were slightly higher than in the comparable groups, but subsequently survival in the outlying groups recovered, almost attaining parity with that in the other groups.
+L150: ## Mortality distribution*
+L151: Group	1	2	3	4
+Compound	Control	---	RU 4723	---
+Dosage (mg/kg/day)	0	4	20	100
+L152: Weeks	Group and sex
+1 ♂	2 ♂	3 ♂	4 ♂	1 ♀	2 ♀	3 ♀	4 ♀
+1-24	0/60	1/60	0/60	1/60	0/60	0/60	0/60	1/60
+25-48	2/60	2/59	2/60	2/59	0/60	2/60	1/60	1/59
+49-72	17/58	9/57	11/58	9/57	5/60	3/58	3/59	10/58
+73-104	29/41	41/48	40/47	39/48	28/55	33/55	29/56	29/48
+Total Weeks 1-104	48/60	53/60	53/60	51/60	33/60	38/60	33/60	41/60
+As % of control	(100)	110	110	106	(100)	115	100	124
+†	0	2	4	2	0	0	0	1
+L153: * Incidences expressed as \frac{\text{No. of animals dying in specified period}}{\text{No. of animals alive at beginning of period}}
+
+† Deaths occurring as a result of ventilation failure during Week 74.
+L154: FIGURE 3
+L155: Percentage survival versus period of treatment - male rats
+L156: FIGURE
+L157: Percentage survival versus period of treatment - female rats
+L158: ## 2.1.2. Tumor data analysis
+L159: In sponsor's report, there are no details about statistical methods and only has "Statistical Methods in Medical Research" by Armitage, 1971 as a reference. In all tests of significance a value of P&lt;0.05 was considered to indicate a possible treatment-related effect.
+L160: In males, an increased incidence of thyroid follicular cell adenomas was associated with treatment, and attained statistical significance (P &lt; 0.05) at the highest dosage. The incidences of other tumor types were clearly unaffected by treatment. The group-distributions of malignant tumors, and of rats bearing more than one tumor of any type, were similarly undisturbed. It was concluded that only in the case of thyroid follicular cell adenomas (and only in male animals) was there any evidence of treatment-related alteration to the tumor profile.
+L161: ## 2.2. Reviewer's analyses
+L162: To verify sponsor's analyses and to perform the additional analysis suggested by the reviewing pharmacologist, this reviewer independently performed survival and tumor data analyses. Data used in this reviewer's analyses were provided by the sponsor electronically.
+L163: ## 2.2.1. Survival analysis
+L164: The survival distributions of animals in all four treatment groups (three treated groups and the control group) were estimated by the Kaplan-Meier product limit method. The dose response relationship and homogeneity of survival distributions were tested using the Cox test (Cox, 1972). The inter-current mortality data are given in Tables 1A1 and 1B in the appendix for males and females, respectively. The Kaplan-Meier curves for survival rate are given in Figures 1A1 and 1B in the appendix for males and females, respectively. Results for the tests for dose response relationship and homogeneity of survivals, are given in Tables 2A1 and 2B in the appendix for males and females, respectively.
+L165: **Reviewer's findings:** The test results showed no statistically significant dose-response relationship and statistically significant difference in mortality in either sex when compared with the control group. There were some differences between reviewer's and sponsor's survival rates and the differences may be caused by the different dates of starting the terminal killing.
+L166: ## 2.2.2. Tumor data analysis
+L167: The tumor data were analyzed for dose response relationships and pair-wise comparisons of the control group with each of the treated groups were performed using the Poly-k method described in the paper of Bailar and Portier (1988), and Bieler and Williams (1993). One critical point for Poly-k test is the choice of the appropriate value of k. For long term 104 week standard rat and mouse studies, a value of k=3 is suggested in the literature. For short term study of 26 weeks no such suggestion is available, in the mouse tumor data analysis we chose k=3 here. For the calculation of p-values the exact permutation method was used. The tumor rates and the p-values of the tested tumor types are listed in Tables 3A and 3B in the appendix for males and females, respectively.
+L168: As suggested by the reviewing pharmacologist Dr. Fisher, this reviewer did the analysis of the combinations of all organ/tumors as the following:
+L169: Combining Tumors for Statistical Analysis †
+Tissue	Tumor types a	Rat	Mouse
+All sites	Hemangiomas + hemangiosarcomas	♂	♀	♂	♀
+All sites	Mesotheliomas	♂	♀	♂	♀
+All sites	Leukemias	♂	♂	♀
+All sites	Lymphomas	♂	♀	♂	♀
+All bone b	Chondromas + osteosarcomas + osteomas	♂	♀	♂	♀
+Common sites	Lipomas + liposarcomas	♂	♀	♂	♀
+Adrenals	Cortical adenomas + carcinomas	♂	
+Adrenals	Benign + malignant pheochromocytomas	♀	
+Alimentary tract (upper) c	Adenomas + carcinomas c	♂	
+Alimentary tract (lower) d	Adenomas + carcinomas d	♂	
+Alimentary tract (all) e	Adenomas + carcinomas e	♂	
+Duodenum	Leiomyomas + leiomyosarcomas	♀	
+Harderian gland	Adenomas + adenocarcinomas	♂	
+Injection site	Fibromas + fibrosarcomas	♂	
+Injection site	Fibromas + fibrosarcomas + sarcomas + rhabdomyosarcomas	♂	
+Kidney	Tubular cell adenomas + carcinomas	♂	♂	
+Liver	Hepatocellular adenomas + carcinomas	♂	♂	
+Lung	Bronchio-alveolar adenomas + carcinomas	♂	
+Mammary	Adenomas + carcinomas	♀	
+Mammary	Fibroadenomas + fibrocarcinomas	♀	
+Mammary gland	Adenomas + adenocarcinomas + adenoacanthomas	♀	
+Oral cavity + tongue	Squamous cell papillomas + carcinomas	♂	♀	♂	♀
+Pancreas	Islet cell adenomas + mixed acinar/islet cell adenomas	♂	
+Pancreas	Mixed acinar/islet cell adenomas + acinar cell adenomas	♂	
+Pituitary	Anterior lobe adenomas + carcinomas	♂	♀	♂	♀
+Skin and subcutis	Basal cell adenomas + carcinomas	♂	
+Skin and subcutis	Squamous cell papillomas + carcinomas + keratoacanthomas	♂	♀	♂	
+Skin and subcutis	Sarcomas (not specified) + fibrosarcomas + liposarcomas + rhabdomyosarcomas	♀
+Testis	Interstitial cell adenomas + mesotheliomas + rete testis adenomas + sex cord stromal tumors	♂	♂	
+Thoracic cavity	Hibernomas (benign + malignant)	♂	♀	
+Thymus	Thymomas (benign + malignant)	♂
+L170: Thyroid	C-cell adenomas + carcinomas	♂	♀	♂	♀
+Thyroid	Follicular cell adenomas + carcinomas	♂	♀	♂	♀
+Uterus	Stromal polyps + sarcomas	♀	
+Uterus	Stromal polyps + endometrial stromal sarcomas	♀
+Uterus	Adenomas + adenocarcinomas	♀	
+Uterus	Schwannomas (benign + malignant)	♀
+Uterus	Leiomyomas + leiomyosarcomas	♀
+Uterus + vagina	Uterus stromal neoplasms + vaginal stromal neoplasms	♀	♀
+L171: † Tumor combinations by sex (not combined across sexes or across species)
+L172: a Include separate analyses for individual tumor types
+L173: b For example bone, cranium, femur, etc.
+L174: c Stomach, duodenum, jejunum
+L175: d Colon, cecum
+L176: e Stomach, duodenum, jejunum, colon, cecum
+L177: **Multiple testing adjustment:** Adjustment for the multiple dose response relationship testing was done using the criteria developed by Lin and Rahman (1998). The criteria recommend the use of a significance level \alpha=0.025 for rare tumors and \alpha=0.005 for common tumors for a submission with two species, and a significance level \alpha=0.05 for rare tumors and \alpha=0.01 for common tumors for a submission with only one species study in order to keep the false-positive rate at the nominal level of approximately 10%. A rare tumor is defined as one in which the spontaneous tumor rate is less than 1%. The adjustment for multiple pair-wise comparisons was done using the criteria developed by Haseman (1983) that recommends the use of a significance level \alpha=0.05 for rare tumors and \alpha=0.01 for common tumors, in order to keep the false-positive rate at the nominal level of approximately 10%.
+L178: It should be noted that the recommended test levels by Lin and Rahman for the adjustment of multiple testing were originally based on the result of a simulation and an empirical study using the Peto method for dose response relationship analysis. However, some later simulation results by Rahman and Lin (2008) indicate that the criteria apply equally well to the analysis using the poly-3 test.
+L179: **Reviewer's findings:** Following tumor types showed p-values less than or equal to 0.05 either tests for dose response relationship and/or pair-wise comparisons between control and each of individual treated groups.
+L180: ## Tumor Types with P-Values \le 0.05 for Dose Response Relationship or Pair-wise Comparisons
+L181: Organ Name	Tumor Name	Cont
+N=60	Low
+N=60	Med
+N=60	High
+N=60	P_Value
+Dos Resp	P_Value
+C vs. L	P_Value
+C vs. M	P_Value
+C vs. H
+Male	THYROID	ADENOMA, FOLLICULAR	3	2	5	15	0.000	0.803	0.355	0.002
+L182: Based on the criteria of adjustment for multiple testing of trends proposed by Lin and Rahman, the positive dose-response relationship in the incidence of follicular adenoma in thyroid gland in males was considered to
+L183: be statistically significant because the p-value was less than 0.005. Also based on the criteria of Haseman, the pair-wise comparison of follicular adenoma in thyroid gland between the high dose group and the control was considered to be statistically significant in males for increased tumor incidence because the p-value was less than 0.01.
+L184: ## 3. Mouse Study
+L185: In this study, RU 4723 was administered continuously, via the diet, to groups of 60 male and 60 female CD-1 mice, at dosages of 0, 4, 20 and 100 mg/kg/day over a period of 80 weeks. During the first six weeks an additional 43 male mice, receiving RU 4723 at a dosage of 100 mg/kg/day were introduced into Group 4 to supplement losses resulting from severe fighting. To the animal number of each animal dying during this period was appended the suffix 'A', and its replacement acquired the same number with the suffix 'B'. Subsequent, replacements of the same animal number were appended the next serial letter as suffix. Nine weeks after commencement of the study an additional group comprising 42 male mice, receiving 100 mg/kg/day, was incorporated into the study as follows:
+L186: Group	Dosage
+(mg/kg/day)	Cage numbers	Animal
+identity numbers
+5	100	121-131	481-522
+L187: It was hoped that younger mice would be less aggressive when first caged together, and these animals were between 25 and 29 days old at the time treatment commenced.
+L188: Group	Dosage
+(mg/kg/day)	Cage numbers	Animal
+identity numbers
+♂	♀	♂	♀
+1	0	1-15	61-75	1-60	241-300
+2	4	16-30	76-90	61-120	301-360
+3	20	31-45	91-105	121-180	361-420
+4	100	46-60	106-120	181-240	421-480
+L189: The same list of tissues as in rat study were taken from every animal in each group, were examined for evidence of neoplastic change.
+L190: ## 3.1. Sponsor's analyses
+L191: ## 3.1.1. Survival analysis
+L192: Survival data from the mouse study were analyzed by the sponsor using the same statistical methodologies that were used to analyze the survival data from the rat study. All statistical analysis was performed for males and females separately.
+L193: **Sponsor's findings:** A total of 454 (272 male and 182 female) mice died or were killed in extremis. Fighting among males receiving the highest dosage of RU 4723 (Group 4) accounted for a high proportion of the mortality in this group during the first 16 weeks of treatment. It was noted that 50 of the deaths attributable
+L194: to fighting occurred within only four cages (Nos.46, 47, 57 and 59); it is, however, unlikely that fighting or that death resulting from fighting wounds was associated with the spatial distribution of these four cages. After the aggressive behavior in affected individuals had regressed, mortality in this group of mice continued to be significantly higher than that of control males; however, the additional group of males receiving this dosage (Group 5) was not affected by high mortality. Overall mortality in females receiving 100 mg/kg/day was also significantly elevated, largely resulting from an increased number of decedents between Weeks 49 and 64. Mortality among groups of either sex receiving RU 4723 at the lowest (4 mg/kg/day) or intermediate- (20 mg/kg/day) dosage was not affected by treatment. The following mortality distribution table is copied from sponsor's report:
+L195: ## Mortality distribution*
+L196: Group	:	1	2	3	4
+Compound	:	Control	----	RU 4723	----
+Dosage (mg/kg/day)	:	0	4	20	100
+L197: Treatment period (weeks)	Group and sex
+1 ♂	2 ♂	3 ♂	4 ♂	5 ♂	1 ♀	2 ♀	3 ♀	4 ♀
+1-16	1/60	0/60	2/60	66/103c	0/42	1/60	0/60	1/60	4/60
+17-32	2/59	1/60	1/58	13/37c	4/41	1/59	2/56†	0/59	1/56
+33-48	3/57	1/59	3/57	7/24b	5/37	5/58	2/54	0/59	7/55
+49-64	13/54	14/58	11/54	10/17a	8/32	6/53	5/52	11/59	17/48b
+65-80	28/41	28/44	33/43	7/7	11/24	26/47	31/47	35/48	23/31
+1-80	47/60	44/60	50/60	103/103c	28/42	39/60	40/56†	47/60	52/60a
+L198: † Excluding 4 animals which drowned during Week 26.
+a Significantly different from controls, P &lt; 0.05.
+b Significantly different from controls, P &lt; 0.01.
+c Significantly different from controls, P &lt; 0.001.
+* Expressed as \frac{\text{number of mice dying during the period}}{\text{number of mice alive at onset of the period}}
+L199: ## 3.1.2. Tumor data analysis
+L200: Tumor data from the mouse study were also analyzed by the sponsor using the same statistical methodologies that were used to analyze the tumor data from the rat study.
+L201: ## Sponsor's findings:
+L202: The following table is copied from sponsor's table which summarizes the tumor incidence is copied from
+L203: sponsor's report:
+L204: TABLE 14
+L205: ## Group distribution of different tumour types
+L206: Group	1	2	3	4	5
+Compound	Control	------	RU 4723	------	
+Dosage (mg/kg/day)	0	4	20	100	100
+L207: Organ and neoplasm	Group and sex
+1 ♂	2 ♂	3 ♂	4 ♂	5 ♂	1 ♀	2 ♀	3 ♀	4 ♀
+Mammary gland	
+Benign epithelial adenoma	0	0	0	0	0	0	1	0	0
+Undifferentiated adenocarcinoma (M)	0	0	0	0	0	0	0	1	0
+Lungs	
+Pulmonary adenoma	2	5	2	0	2	1	2	1	2
+Pulmonary adenocarcinoma (M)	1	0	0	0	1	1	1	1	0
+Liver	
+Benign hepatoma	1	3	3	1	5a	0	0	0	0
+Pituitary gland	
+Adenoma	0	0	0	0	0	0	0	1	0
+Adrenal gland	
+Benign phaeochromocytoma	0	0	0	0	0	0	1	0	0
+Stomach	
+Squamous carcinoma (M)	0	0	0	0	0	1	0	0	0
+L208: M Malignant tumour.
+L209: a Probability of distribution arising by chance, P &gt; 0.05 (Fisher's exact test, two-tailed)
+L210: Organ and neoplasm	Group and sex
+1 ♂	2 ♂	3 ♂	4 ♂	5 ♂	1 ♀	2 ♀	3 ♀	4 ♀
+Ovary	
+Ovarian cyst adenoma	-	-	-	-	-	0	0	1	0
+Skin and subcutis	
+Sarcoma (M)	0	1	0	0	0	0	0	0	0
+Osteosarcoma (M)	0	0	0	0	0	1	0	0	0
+Uterus	
+Leiomyoma	-	-	-	-	-	1	0	0	0
+Liver	
+Haemangioma	1	1	1	0	0	0	0	0	0
+Ovary	
+Haemangioma	-	-	-	-	-	1	0	1	0
+Lymph nodes	
+Haemangioma	0	0	0	0	0	0	0	1	0
+Pleomorphic cell sarcoma (M)	0	0	0	0	0	0	1	0	0
+Lymphoma (M)	2	2	0	0	0	7	4	4	1
+Number of animals examined:	60	60	59	58	42	59	60	60	60
+Number of cadavers lost†:	0	0	1	2	0	1	0	0	0
+Number of animals commencing treatment:	60	60	60	60*	42	60	60	60	60
+L211: M Malignant tumour.
+L212: † Cadavers lost due to autolysis and/or cannibalism.
+L213: Among female mice which had received RU 4723 at the highest dosage, there were fewer tumor-bearing individuals than among the controls (P &lt; 0.05). This relates to the lower frequency of all tumors except
+L214: pulmonary adenoma in Group 4. Mortality was significantly advanced in both sexes of Group 4, with the result that the number of mouse-weeks at risk was too low for the full expression of the normal tumor frequency to occur, especially lymphoma. The incidence of malignant lymphoma in controls was 7/59 (11.9%), which was slightly, but not significantly, higher than the cumulative incidence of this tumor in control female mice of the same strain in nine recent carcinogenesis studies in this laboratory (43/485; 8.9%, range 3.8 - 22.5%). Hepatomas occurred more frequently in males of Group 5 than in control males, but the distribution did not depart significantly from chance. The other tumors identified were of types commonly found in this strain of mouse, and they also were distributed in random fashion across the groups. Tumor multiplicity was unaffected by treatment. It was concluded that RU 4723 at dosages up to 100 mg/kg/day was without effect upon the normal tumor distribution. The incidence of lymphoma in the highest female dosage group, both in animals dying during the course of the study and in those killed at termination, was less than expected from the contemporaneous controls. However, statistical significance was not attached to this difference.
+L215: ## 3.2. Reviewer's analyses
+L216: To verify sponsor's analyses and to perform the additional analysis suggested by the reviewing pharmacologist, this reviewer independently performed survival and tumor data analyses. Since there is an additional subgroup comprising 42 male mice receiving 100mg/kg/day incorporated into the study nine weeks after its commencement, the reviewing statistician did analysis for two high dose group (one with 60 male mice after adding 43 animals at around six weeks to replace the male mice died of cage fighting and the other one with 42 male mice at around nine weeks) separately. Data used in this reviewer's analyses were provided by the sponsor electronically.
+L217: ## 3.2.1. Survival analysis
+L218: The intercurrent mortality data are given in Tables 4A1, 4A2 and 4B in the appendix for two high dose group males and females, respectively. The Kaplan-Meier curves for death rate are given in Figures 2A1, 2A2 and 2B in the appendix for two high dose group males and females, respectively. Results for the tests for dose response relationship and homogeneity of survivals, are given in Tables 5A1, 5A2 and 5B in the appendix for two high dose group males and females, respectively.
+L219: **Reviewer's findings:** The tests showed statistically significant dose response relationship and statistically significant pair-wise differences between high dose group and the control group in survivals in females and in males using high dose group 1. There were few differences between reviewer's and sponsor's survival rates and the differences may be caused by the different dates of starting the terminal killing.
+L220: ## 3.2.2. Tumor data analysis
+L221: The tumor rates and the p-values of the tumor types tested for dose response relationship and pair-wise comparisons of the control group and treated groups are given in Table 6A1, 6A2 and 6B in the appendix for two high dose group males and females, respectively.
+L222: **Reviewer's findings:** Following tumor types showed p-values less than or equal to 0.05 either tests for dose response relationship or pair-wise comparisons between control and each of individual treated groups.
+L223: ## **Tumor Types with P-Values \le 0.05 for Dose Response Relationship or Pair-wise Comparisons**
+L224: Sex	Organ Name	Tumor Name	Cont	Low	Med	High	P_Value
+Dos Resp	P_Value
+\bar{C} vs. L	P_Value
+\bar{C} vs. M	P_Value
+\bar{C} vs. H
+0mg
+N=60	4mg
+N=60	200mg
+N=60	100mg
+N=42
+Male	liver	adenoma, hepatocellu	1	3	3	5	0.020	0.337	0.317	0.041
+L225: Based on the criteria of adjustment for multiple testing of trends by Lin and Rahman, the incidence of none of the above or any other tested tumor types in either sex was considered to have a statistically significant positive dose response relationship. Also based on the criteria of Haseman, none of the pair-wise comparisons of treated groups with the control was considered to be statistically significant in either sex for increased tumor incidence in the treated group.
+L226: ## **4. Evaluation of validity of the design of the mouse study**
+L227: As has been noted, the tumor data analyses from mouse study showed no statistically significant dose-response relationship in any tested single tumor type. Before drawing any conclusion regarding the carcinogenic or non-carcinogenic potential of the drug in mice, it is important to look into the following two issues, pointed out in the paper by Haseman (1984).
+L228: (i) Were enough animals exposed, for a sustained amount of time, to the risk of late developing tumors?
+(ii) Were dose levels high enough to pose a reasonable tumor challenge to the animals?
+L229: There is no consensus among experts regarding the number of animals and length of time at risk, although most carcinogenicity studies are designed to run for two years with fifty animals per treatment group. The following are some rules of thumb regarding these two issues as suggested by experts in this field:
+L230: Haseman (1985) did an investigation on the first issue. He gathered data from 21 studies using Fischer 344 rats and B6C3F1 mice conducted at the National Toxicology Program (NTP). It was found that, on the average, approximately 50% of the animals in the high dose group survived the two-year study period. Also, in a personal communication with Dr. Karl Lin of Division of Biometrics-6, Haseman suggested that, as a rule of thumb, a 50% survival of 50 initial animals or 20 to 30 animals still alive in the high dose group, between weeks 80-90, would be considered as a sufficient number and adequate exposure. In addition Chu, Cueto and Ward (1981), suggested that "to be considered adequate, an experiment that has not shown a chemical to be carcinogenic should have groups of animals with greater than 50% survival at one-year."
+L231: It appears, from these three sources that the proportions of survival at 52 weeks, 80-90 weeks, and two years are of interest in determining the adequacy of exposure and number of animals at risk.
+L232: Regarding the question of adequate dose levels, it is generally accepted based on the toxicity endpoints approach that the high dose should be close to the maximum tolerated dose (MTD). In the paper of Chu, Cueto and Ward (1981), the following criteria are mentioned for dose adequacy. A high dose is considered as close to MTD if any of the criteria is met.
+L233: (i) "A dose is considered adequate if there is a detectable loss in weight gain of up to 10% in a dosed group relative to the controls."
+(ii) "The administered dose is also considered an MTD if dosed animals exhibit clinical signs or severe
+L234: histopathologic toxic effects attributed to the chemical.”
+L235: (ii) “In addition, doses are considered adequate if the dosed animals show a slight increased mortality compared to the controls.”
+L236: We will now investigate the validity of the rat and mouse carcinogenicity study, in the light of the above guidelines.
+L237: ## 4.1. Mouse Study
+L238: The following is the summary of survival data of mice in the high dose groups:
+L239: ## Percentage of survival in the high dose group at the end of Weeks 52 and 79
+L240: Percentage of survival
+End of 52 weeks	End of 79 weeks
+Male (S1)	25.0%	0%
+Male (S2)	78.6%	45.2%
+Female	76.7%	13.0%
+L241: Based on the survival criterion Haseman proposed, it could be concluded that there were not enough mice in male supplement group 1 that were exposed to the high dose for a sufficient amount of time.
+L242: The following table shows the percent difference in mean body weight gain from the concurrent combined control, defined as
+L243: \text{Percent difference} = \frac{(\text{Final BW} - \text{Baseline BW})_{\text{Treated}} - (\text{Final BW} - \text{Baseline BW})_{\text{Control}}}{(\text{Final BW} - \text{Baseline BW})_{\text{Control}}} \times 100
+L244: ## Percent Difference in Mean body Weight Gain
+## from Control
+L245: Male	Female
+4 mg	20 mg	100 mg	4 mg	20 mg	100 mg
+0	0	S1: -23
+S2: 23	0	-25	-8.3
+L246: S1 means supplemental group 1 (43 male mice) plus original; S2 means supplemental group 2 (42 male mice)
+L247: Therefore, relative to the control, there was a 23% loss in body weight gain in high dose supplemental group 1 male mice and a 8.3% loss in body weight gain in female mice.
+L248: The mortality rates at the end of the experiment were as follows:
+L249: ## Mortality Rates at the End of the Experiment
+L250: Cont.	4 mg	20 mg	100 mg
+Male	76.7%	71.7%	83.3%	100% (S1) 54.8%(S2)
+Female	65.0%	70.0%	76.7%	86.7%
+L251: This shows that the mortality rate of in the high dose group in supplemental group 1 males is 33.3% higher than the control, while in female it is about 22.7% higher in high dose group compared to the control.
+L252: The high dose supplemental group 2 males showed 23% increment in body weight gain, but also show 33.3% higher mortality than the control in high dose supplemental group 2 males.
+L253: Based on the body weight and mortality data it could be concluded that there were enough animals exposed to the high dose for a sufficient amount of time for the female experiment but not for male experiment. It could also be concluded that the high dose of the female experiment was close to MTD based on weight gain loss criterion. However, it is difficult to draw a conclusion regarding the adequacy of the high dose used in the male experiment. For a final determination of the adequacy of the doses used, other clinical signs and histopathological toxic effects must be considered.
+L254: ## 5. Summary
+L255: In this submission the sponsor included reports of two animal carcinogenicity studies, one in rats and one in mice. The purpose of these studies was to evaluate RU 4723 for carcinogenesis when administered continuously via the diet, a period of 80 weeks for mice and 104 weeks for rats.
+L256: **Rat Study:** Two separate experiments were conducted, one in males and one in females. In each of these two experiments there were three treated groups and one control group. Five hundred and fifty specified pathogen-free rats of the CD strain, evenly divided by sex, were obtained from [REDACTED](b) (4). During a five-day acclimatisation period, any rats that failed to gain weight satisfactorily, or were outside the required weight range, were discarded. Subsequently, 480 rats were weighed and non-selectively allocated among four groups to provide 60 males and 60 females in each. The test results showed no statistically significant dose-response relationship and statistically significant difference in mortality in either sex when compared with the control group. Tests showed statistically significant positive dose response relationship in the incidence of follicular adenoma in thyroid gland and the statistically significant difference in pair-wise comparisons of follicular adenoma in thyroid gland between the high dose group and the control in males.
+L257: **Mouse Study:** In this study, RU 4723 was administered continuously, via the diet, to groups of 60 male and 60 female CD-1 mice, at dosages of 0, 4, 20 and 100 mg/kg/day over a period of 80 weeks. During the first six weeks an additional 43 male mice, receiving RU 4723 at a dosage of 100 mg/kg/day were introduced into Group 4 to supplement losses resulting from severe fighting. To the animal number of each animal dying during this period was appended the suffix 'A', and its replacement acquired the same number with the suffix 'B'. Subsequent, replacements of the same animal number were appended the next serial letter as suffix. Nine weeks after commencement of the study an additional group comprising 42 male mice, receiving 100 mg/kg/day, was incorporated into the study. The tests showed statistically significant dose response relationship
+L258: across treatment groups and statistically significant pair-wise differences between high dose group and the control group in survivals in females and males using high dose group1. Tests showed no statistically significant positive dose response relationship and the statistically significant difference in pair-wise comparisons when compared to the control group in males. Based on the body weight and mortality data it could be concluded that there were enough animals exposed to the high dose for a sufficient amount of time for the female experiment but not for male experiment. It could also be concluded that the high dose of the female experiment was close to MTD based on weight gain loss criterion. However, it is difficult to draw a conclusion regarding the adequacy of the high dose used in the male experiment. For a final determination of the adequacy of the doses used, other clinical signs and histopathological toxic effects must be considered.
+L259: Min Min, Ph.D.
+Mathematical Statistician
+L260: Concur: Karl Lin, Ph.D.
+Team Leader, Biometrics-6
+L261: cc:
+Archival NDA 20-2067
+Dr. Fisher
+Dr. Tiwari
+Dr. Nevius
+L262: Dr. Machado
+Dr. Lin
+Dr. Min
+L263: ## 6. Appendix
+L264: **Table 1A: Intercurrent Mortality Rate
+Male Rats**
+L265: Week	CONTROL	LOW	MEDIUM	HIGH
+NO.OF
+DEATH	PERCENT	NO.OF
+DEATH	PERCENT	NO.OF
+DEATH	PERCENT	NO.OF
+DEATH	PERCENT
+0-52	3	5.0%	4	6.7%	2	3.3%	3	5.0%
+53-78	22	41.7%	17	35.0%	20	26.7%	21	40.0%
+79-92	14	65.0%	23	73.3%	16	63.3%	18	70.0%
+92-104	9	80.0%	9	88.3%	15	88.3%	8	83.3%
+Term. Sac.	12	100.0%	7	100.0%	7	100.0%	10	100.0%
+L266: **Table 1B: Intercurrent Mortality Rate
+Female Rats**
+L267: Week	CONTROL	LOW	MEDIUM	HIGH
+NO.OF
+DEATH	PERCENT	NO.OF
+DEATH	PERCENT	NO.OF
+DEATH	PERCENT	NO.OF
+DEATH	PERCENT
+0-52	1	1.7%	2	3.3%	1	1.7%	3	5.0%
+53-78	10	18.3%	8	16.7%	5	10.0%	10	21.7%
+79-91	10	35.0%	8	30.0%	9	25.0%	9	36.7%
+92-103	12	55.0%	18	60.0%	18	55.0%	17	65.0%
+Term. Sac.	27	100.0%	24	100.0%	27	100.0%	21	100.0%
+L268: **Table 2A: Intercurrent Mortality Comparison
+Male Rats**
+L269: Test	P-Value
+(across four
+groups)	P-Value
+(control vs
+low)	P-Value
+(control vs
+medium)	P-Value
+(control vs
+high)
+Dose Response	0.9493	0.4422	0.5331	0.7718
+Homogeneity	0.8354	0.3931	0.4913	0.6618
+L270: **Table 2B: Intercurrent Mortality Comparison
+Female Rats**
+L271: Test	P-Value
+(across four
+groups)	P-Value
+(control vs
+low)	P-Value
+(control vs
+medium)	P-Value
+(control vs
+high)
+Dose Response	0.3314	0.7847	0.9457	0.3625
+Homogeneity	0.3879	0.5376	0.9261	0.1511
+L272: Table 3A: Tumor Rates and P-Values for Dose Response Relationship and Pair-wise Comparisons
+Male Rats
+L273: Organ Name	Tumor Name	0 mg	4 mg	20 mg	100 mg	P_Value
+Dos Resp	P_Value
+C vs. L	P_Value
+C vs. M	P_Value
+C vs. H
+Cont
+N=60	Low
+N=60	Med
+N=60	High
+N=60
+LIVER	ADENOMA+CARCINOMA	1	0	1	0	0.752	1.000	0.754	1.000
+SKIN+SUBCUTIS	SQUAMOUS_PAPILLOMA+C	8	14	11	9	0.704	0.117	0.275	0.500
+adrenal glands	adenoma, cortical	2	1	2	0	0.883	0.875	0.693	1.000
+jejunum	adenoma	0	0	0	1	0.254	.	.	0.500
+kidneys	carcinoma, clear cel	0	1	0	0	0.745	0.493	.	.
+lipoma	0	0	0	1	0.248	.	.	0.493
+liver	adenoma, hepatocellu	0	0	1	0	0.500	.	0.500	.
+carcinoma, hepatocel	1	0	0	0	1.000	1.000	1.000	1.000
+lung	adenoma, alveolar/br	1	0	0	1	0.444	1.000	1.000	0.754
+male mammary gl	adenocarcinoma	2	0	0	0	1.000	1.000	1.000	1.000
+fibroadenoma	4	5	1	3	0.672	0.500	0.973	0.786
+pancreas	adenoma, islet cell	2	3	1	2	0.564	0.486	0.875	0.682
+parathyroid	adenoma	1	0	2	0	0.686	1.000	0.500	1.000
+pituitary	adenoma	19	18	25	20	0.393	0.635	0.262	0.457
+prostate	fibrosarcoma	0	0	0	1	0.248	.	.	0.493
+skin	adenocarcinoma, seba	0	1	0	0	0.745	0.493	.	.
+adenoma, apocrine gl	0	1	0	0	0.745	0.493	.	.
+adenoma, sebaceous	0	0	1	0	0.500	.	0.500	.
+carcinoma, squamous	1	0	0	1	0.436	1.000	1.000	0.746
+skin	papilloma, squamous	0	1	2	2	0.142	0.493	0.239	0.246
+stomach, nongla	carcinoma, squamous	0	1	0	0	0.745	0.493	.	.
+subcutis	fibroma	5	7	5	3	0.857	0.357	0.596	0.851
+fibrosarcoma	2	0	0	0	1.000	1.000	1.000	1.000
+leiomyoma	0	0	1	0	0.496	.	0.493	.
+lipoma	1	2	4	2	0.437	0.489	0.178	0.500
+systemic	histiocytic sarcoma	0	0	1	1	0.189	.	0.493	0.500
+lymphoma	2	2	0	2	0.453	0.671	1.000	0.682
+L274: Table 3A (Continued): Tumor Rates and P-Values for Dose Response Relationship and Pair-wise Comparisons
+Male Rats
+L275: Organ Name	Tumor Name	0 mg	4 mg	20 mg	100 mg	P_Value	P_Value	P_Value	P_Value
+Cont
+N=60	Low
+N=60	Med
+N=60	High
+N=60	Dos Resp	C vs. L	C vs. M	C vs. H
+testes	interstitial cell tu	1	0	0	1	0.444	1.000	1.000	0.754
+thyroid	adenoma, C-cell	3	4	3	0	0.977	0.467	0.650	1.000
+adenoma, follicular	3	2	5	15	0.000	0.803	0.355	0.002
+L276: Table 3B: Tumor Rates and P-Values for Dose Response Relationship and Pair-wise Comparisons
+Female Rats
+L277: Organ Name	Tumor Name	0 mg	4 mg	20 mg	100 mg	P_Value
+Dos Resp	P_Value
+C vs. L	P_Value
+C vs. M	P_Value
+C vs. H
+Cont
+N=60	Low
+N=60	Med
+N=60	High
+N=60
+ALL_SITES	HEMANGIOMA+HEMANGIOS	0	2	1	0	0.721	0.242	0.505	.
+SKIN	PAPILLOMA+CARCINOMA	0	0	3	0	0.569	.	0.125	.
+UTERUS	ADENOMA+ADENOCARCINO	1	2	2	2	0.323	0.500	0.508	0.466
+adrenal glands	adenoma, cortical	1	1	1	0	0.818	0.747	0.753	1.000
+bone	osteosarcoma	0	0	0	1	0.238	.	.	0.484
+cervix	fibroma	0	0	0	2	0.054	.	.	0.226
+fibrosarcoma	0	0	0	1	0.238	.	.	0.484
+leiomyoma	0	0	0	1	0.234	.	.	0.478
+female mammary	adenocarcinoma	8	5	13	5	0.734	0.876	0.176	0.838
+adenoma	0	0	0	1	0.234	.	.	0.478
+fibroadenoma	48	47	49	46	0.199	0.358	0.168	0.200
+kidneys	carcinoma, clear cel	0	1	0	0	0.746	0.500	.	.
+liver	carcinoma, hepatocel	0	0	1	0	0.495	.	0.505	.
+hemangiosarcoma	0	1	1	0	0.612	0.495	0.505	.
+lung	adenoma, alveolar/br	1	0	1	1	0.369	1.000	0.753	0.725
+lymph node(s)	hemangioma	0	1	0	0	0.745	0.495	.	.
+mesentery	fibrosarcoma	1	0	0	0	1.000	1.000	1.000	1.000
+ovaries	granulosa cell tumor	0	0	1	1	0.176	.	0.505	0.478
+pancreas	adenoma, islet cell	3	0	0	0	1.000	1.000	1.000	1.000
+pituitary	adenoma	30	32	36	24	0.944	0.513	0.189	0.899
+skin	carcinoma, anaplasti	0	0	0	1	0.238	.	.	0.484
+carcinoma, basal cel	1	0	0	0	1.000	1.000	1.000	1.000
+carcinoma, squamous	0	0	1	0	0.495	.	0.505	.
+fibroma	2	0	0	0	1.000	1.000	1.000	1.000
+papilloma, squamous	0	0	2	0	0.481	.	0.253	.
+stomach, glandu	adenoma	1	0	0	0	1.000	1.000	1.000	1.000
+L278: Table 3B (Continued): Tumor Rates and P-Values for Dose Response Relationship and Pair-wise Comparisons
+Female Rats
+L279: Organ Name	Tumor Name	0 mg	4 mg	20 mg	100 mg	P_Value
+Dos Resp	P_Value
+C vs. L	P_Value
+C vs. M	P_Value
+C vs. H
+Cont
+N=60	Low
+N=60	Med
+N=60	High
+N=60
+subcutis	fibroma	1	1	3	2	0.259	0.747	0.332	0.466
+lipoma	1	1	3	2	0.261	0.747	0.317	0.466
+systemic	histiocytic sarcoma	1	0	0	1	0.420	1.000	1.000	0.736
+leukemia, myeloid	0	0	0	1	0.234	.	.	0.478
+lymphoma	0	0	2	0	0.481	.	0.253	.
+thyroid	adenoma, C-cell	9	5	7	8	0.354	0.914	0.794	0.669
+adenoma, follicular	1	2	2	3	0.168	0.492	0.508	0.284
+carcinoma, squamous	0	0	1	0	0.495	.	0.505	.
+urinary bladder	papilloma	0	0	1	0	0.495	.	0.505	.
+uterus	adenocarcinoma	0	2	0	0	0.807	0.247	.	.
+adenoma	1	0	2	2	0.151	1.000	0.508	0.466
+adenoma, endometrial	0	0	1	0	0.495	.	0.505	.
+endometrial stromal	3	1	2	5	0.069	0.936	0.819	0.321
+leiomyofibroma	0	2	0	1	0.414	0.247	.	0.478
+L280: Table 4A1: Intercurrent Mortality Rate
+Male Mice (Group1)
+L281: Week	CONTROL	LOW	MEDIUM	HIGH
+NO.OF
+DEATH	PERCENT	NO.OF
+DEATH	PERCENT	NO.OF
+DEATH	PERCENT	NO.OF
+DEATH	PERCENT
+0-52	9	15.0%	2	3.3%	8	13.3%	45	75.0%
+53-79	37	76.7%	41	71.7%	42	83.3%	15	100.0%
+Term. Sac.	14	100.0%	17	100.0%	10	100.0%	.	.
+L282: Table 4A2: Intercurrent Mortality Rate
+Male Mice (Group2)
+L283: Week	CONTROL	LOW	MEDIUM	HIGH
+NO.OF
+DEATH	PERCENT	NO.OF
+DEATH	PERCENT	NO.OF
+DEATH	PERCENT	NO.OF
+DEATH	PERCENT
+0-52	9	15.0%	2	3.3%	8	13.3%	9	21.4%
+53-79	37	76.7%	41	71.7%	42	83.3%	14	54.8%
+Term. Sac.	14	100.0%	17	100.0%	10	100.0%	19	100.0%
+L284: Table 4B: Intercurrent Mortality Rate
+Female Mice
+L285: Week	CONTROL	LOW	MEDIUM	HIGH
+NO.OF
+DEATH	PERCENT	NO.OF
+DEATH	PERCENT	NO.OF
+DEATH	PERCENT	NO.OF
+DEATH	PERCENT
+0-52	6	10.0%	10	16.7%	1	1.7%	14	23.3%
+53-79	33	65.0%	32	70.0%	45	76.7%	38	86.7%
+Term. Sac.	21	100.0%	18	100.0%	14	100.0%	8	100.0%
+L286: **Table 5A1: Intercurrent Mortality Comparison
+Male Mice (Group1)**
+L287: Test	P-Value
+(across four
+groups)	P-Value
+(control vs
+low)	P-Value
+(control vs
+medium)	P-Value
+(control vs
+high)
+Dose Response	<.0001	0.6711	0.7486	<.0001
+Homogeneity	<.0001	0.5261	0.8499	<.0001
+L288: **Table 5A2: Intercurrent Mortality Comparison
+Male Mice (Group2)**
+L289: Test	P-Value
+(across four
+groups)	P-Value
+(control vs
+low)	P-Value
+(control vs
+medium)	P-Value
+(control vs
+high)
+Dose Response	0.2031	0.6711	0.7486	0.2552
+Homogeneity	0.3265	0.5261	0.8499	0.1508
+L290: **Table 5B: Intercurrent Mortality Comparison
+Female Mice**
+L291: Test	P-Value
+(across four
+groups)	P-Value
+(control vs
+low)	P-Value
+(control vs
+medium)	P-Value
+(control vs
+high)
+Dose Response	0.0004	0.6629	0.3641	0.0019
+Homogeneity	0.0002	0.7338	0.2196	0.0003
+L292: Table 6A1: Tumor Rates and P-Values for Dose Response Relationship and Pair-wise Comparisons
+Male Mice (Group1)
+L293: Organ Name	Tumor Name	0 mg	4 mg	20 mg	100 mg	P_Value
+Dos Resp	P_Value
+C vs. L	P_Value
+C vs. M	P_Value
+C vs. H
+Cont
+N=60	Low
+N=60	Med
+N=60	High
+N=60
+LUNG	ADENOMA+CARCINOMA	3	5	2	0	0.901	0.399	0.821	1.000
+abdomen	fibrosarcoma	0	1	0	0	0.705	0.525	.	.
+liver	adenoma, hepatocellu	1	3	3	1	0.212	0.337	0.317	0.377
+hemangioma	1	1	1	0	0.688	0.772	0.760	1.000
+lung	adenoma, bronchiolar	2	5	2	0	0.843	0.248	0.693	1.000
+carcinoma, bronchiol	1	0	0	0	1.000	1.000	1.000	1.000
+systemic	histiocytic sarcoma	1	0	0	0	1.000	1.000	1.000	1.000
+lymphoma	1	2	0	0	0.888	0.528	1.000	1.000
+L294: Table 6A2: Tumor Rates and P-Values for Dose Response Relationship and Pair-wise Comparisons
+Male Mice (Group2)
+L295: Organ Name	Tumor Name	0 mg	4 mg	20 mg	89 mg	P_Value
+Dos Resp	P_Value
+C vs. L	P_Value
+C vs. M	P_Value
+C vs. H
+Cont
+N=60	Low
+N=60	Med
+N=60	High
+N=42
+LUNG	ADENOMA+CARCINOMA	3	5	2	3	0.388	0.399	0.821	0.475
+abdomen	fibrosarcoma	0	1	0	0	0.740	0.525	.	.
+liver	adenoma, hepatocellu	1	3	3	5	0.020	0.337	0.317	0.041
+hemangioma	1	1	1	0	0.786	0.772	0.760	1.000
+lung	adenoma, bronchiolar	2	5	2	2	0.535	0.248	0.693	0.544
+carcinoma, bronchiol	1	0	0	1	0.339	1.000	1.000	0.662
+systemic	histiocytic sarcoma	1	0	0	0	1.000	1.000	1.000	1.000
+lymphoma	1	2	0	0	0.922	0.528	1.000	1.000
+L296: Table 6B: Tumor Rates and P-Values for Dose Response Relationship and Pair-wise Comparisons
+Female Mice
+L297: Organ Name	Tumor Name	0 mg	4 mg	20 mg	100 mg	P_Value
+Dos Resp	P_Value
+C vs. L	P_Value
+C vs. M	P_Value
+C vs. H
+Cont
+N=60	Low
+N=60	Med
+N=60	High
+N=60
+ALL_SITES	HAEMANGIOMA	1	0	2	0	0.625	1.000	0.500	1.000
+adrenal glands	pheochromocytoma	0	1	0	0	0.727	0.482	.	.
+lung	adenoma, bronchiolar	1	2	1	2	0.242	0.482	0.753	0.381
+carcinoma, bronchiol	1	1	1	0	0.794	0.735	0.753	1.000
+lymph node(s)	hemangioma	0	0	1	0	0.472	.	0.500	.
+mammary gland	fibroadenoma	0	1	0	0	0.728	0.488	.	.
+ovaries	hemangioma	1	0	1	0	0.723	1.000	0.753	1.000
+papillary cystadenom	0	0	1	0	0.472	.	0.500	.
+pituitary	adenoma	0	0	1	0	0.472	.	0.500	.
+stomach	carcinoma, squamous	1	0	0	0	1.000	1.000	1.000	1.000
+subcutis	adenocarcinoma, not	0	0	1	0	0.472	.	0.500	.
+osteosarcoma	1	0	0	0	1.000	1.000	1.000	1.000
+sarcoma, undifferent	0	1	0	0	0.728	0.488	.	.
+systemic	histiocytic sarcoma	3	1	3	0	0.884	0.933	0.673	1.000
+lymphoma	4	3	1	1	0.845	0.764	0.971	0.938
+uterus	endometrial stromal	0	2	2	1	0.336	0.230	0.247	0.421
+leiomyoma	1	0	0	0	1.000	1.000	1.000	1.000
+L298: Figure 1A: Kaplan-Meier Survival Functions for Male Rats
+Male Rats
+L299: X-Axis: Weeks, Y-Axis: Survival rates
+L300: Figure 1B: Kaplan-Meier Survival Functions for Female Rats
+Female Rats
+L301: X-Axis: Weeks, Y-Axis: Survival rates
+L302: Figure 2A1: Kaplan-Meier Survival Functions for Male Mice
+Male Mice (Group1)
+L303: X-Axis: Weeks, Y-Axis: Survival rates
+L304: Figure 2A2: Kaplan-Meier Survival Functions for Male Mice
+L305: Male Mice (Group2)
+L306: ## Kaplan-Meier Curve
+L307: Male Mouse Supplement Group2
+L308: X-Axis: Weeks, Y-Axis: Survival rates
+L309: Figure 2B: Kaplan-Meier Survival Functions for Female Mice
+Female Mice
+L310: X-Axis: Weeks, Y-Axis: Survival rates
+L311: ## 7. References:
+L312: - Bailer AJ, Portier CJ (1988). "Effects of treatment-induced mortality and tumor-induced mortality on tests for carcinogenicity in small samples." *Biometrics*, 44, 417-431.
+- Bieler, G. S. and Williams, R. L. (1993). "Ratio estimates, the delta method, and quantal response tests for increased carcinogenicity". *Biometrics* 49, 793-801.
+- Cox D. R. (1972) "Regression models and life tables", *Journal of the Royal Statistical Society*, B, 34, 187-220.
+- Gehan (1965) "A generalized Wilcoxon test for comparing arbitrarily singly censored samples", *Biometrika*, 52, 203-223.
+- Haseman, J (1983), "A re-examination of false-positive rates for carcinogenesis studies", *Fundamental and Applied Toxicology*, 3: 334-339.
+- Lin, K.K. and Rahman, M.A. (1998), "Overall false positive rates in tests for linear trend in tumor incidence in animal carcinogenicity studies of new drugs", *Journal of Biopharmaceutical Statistics*, 8(1), 1-15.
+- Rahman, M.A. and Lin, K.K. (2008), "A comparison of False Positive Rates of Peto and Poly-3 Methods for Long-Term Carcinogenicity Data Analysis Using Multiple Comparison Adjustment Method Suggested by Lin and Rahman", *Journal of Biopharmaceutical Statistics*, 18:5, 849-858.
+- Peto, R., M.C. Pike, N.E. Day, R.G. Gray, P.N. Lee, S. Parish, J. Peto, Richards, and J.Wahrendorf (1980), "Guidelines for sample sensitive significance test for carcinogenic effects in long-term animal experiments", *Long term and short term screening assays for carcinogens: A critical appraisal*, International agency for research against cancer monographs, *Annex to supplement, World Health Organization, Geneva*, 311-426.
+- Tarone RE (1975), "Test for trend in life table analysis", *Biometrika*, 62: 679-82.
+- U.S. Department of Health and Human Services, "Guidance for Industry: Statistical Aspects of the Design, Analysis, and Interpretation of Chronic Rodent Carcinogenicity Studies of Pharmaceuticals", Center for Drug Evaluation and Research, Food and Drug Administration, Silver Spring, Maryland, 2001.
+L313: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L314: /s/
+L315: MIN MIN
+10/12/2011
+L316: KARL K LIN
+10/14/2011
+Concur with review
+L317: ## PHARMACOLOGY/TOXICOLOGY FILING CHECKLIST FOR
+## NDA/BLA or Supplement
+L318: NDA/BLA Number: N202067 Applicant: Lundbeck
+L319: Stamp Date: 12/23/10
+L320: Drug Name: clobazam
+L321: NDA/BLA Type: 505(b)(1)
+L322: On initial overview of the NDA/BLA application for filing:
+L323: Content Parameter	Yes	No	Comment
+1	Is the pharmacology/toxicology section organized in accord with current regulations and guidelines for format and content in a manner to allow substantive review to begin?	x	
+2	Is the pharmacology/toxicology section indexed and paginated in a manner allowing substantive review to begin?	x	
+3	Is the pharmacology/toxicology section legible so that substantive review can begin?	x	
+4	Are all required (*) and requested IND studies (in accord with 505 b1 and b2 including referenced literature) completed and submitted (carcinogenicity, mutagenicity, teratogenicity, effects on fertility, juvenile studies, acute and repeat dose adult animal studies, animal ADME studies, safety pharmacology, etc)?	x	
+5	If the formulation to be marketed is different from the formulation used in the toxicology studies, have studies by the appropriate route been conducted with appropriate formulations? (For other than the oral route, some studies may be by routes different from the clinical route intentionally and by desire of the FDA).	x	
+6	Does the route of administration used in the animal studies appear to be the same as the intended human exposure route? If not, has the applicant submitted a rationale to justify the alternative route?	x	
+7	Has the applicant submitted a statement(s) that all of the pivotal pharm/tox studies have been performed in accordance with the GLP regulations (21 CFR 58) or an explanation for any significant deviations?	x	Several pivotal studies, including carcinogenicity and reproductive toxicology studies were conducted prior to GLP. Deviations were noted to the extent possible, and new tumor datasets were created for statistical review.
+L324: File name: 5_Pharmacology_Toxicology Filing Checklist for NDA_BLA or Supplement
+L325: Reference ID: 092896811
+L326: ## PHARMACOLOGY/TOXICOLOGY FILING CHECKLIST FOR
+## NDA/BLA or Supplement
+L327: Content Parameter	Yes	No	Comment
+8	Has the applicant submitted all special studies/data requested by the Division during pre-submission discussions?	x	
+9	Are the proposed labeling sections relative to pharmacology/toxicology appropriate (including human dose multiples expressed in either mg/m2 or comparative serum/plasma levels) and in accordance with 201.57?	x	
+10	Have any impurity – etc. issues been addressed? (New toxicity studies may not be needed.)	x	
+11	Has the applicant addressed any abuse potential issues in the submission?	x	
+12	If this NDA/BLA is to support a Rx to OTC switch, have all relevant studies been submitted?	x
+L328: IS THE PHARMACOLOGY/TOXICOLOGY SECTION OF THE APPLICATION
+FILEABLE? yes
+L329: If the NDA/BLA is not fileable from the pharmacology/toxicology perspective, state the reasons and provide comments to be sent to the Applicant.
+L330: Please identify and list any potential review issues to be forwarded to the Applicant for the 74-day letter.
+L331: Ed Fisher1/25/11
+Reviewing PharmacologistDate
+L332: Team Leader/SupervisorDate
+L333: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L334: /s/
+L335: J EDWARD FISHER
+L336: 01/26/2011
+L337: LOIS M FREED
+L338: 01/26/2011
+L339: Figure 1 is a schematic diagram for Study OV-1012, illustrating the study timeline and treatment arms.
+The study is divided into three main phases: Baseline, Titration, and Maintenance*.
+Baseline: 4 weeks (Day -28 to Day 0).
+Titration: 3 weeks (Day 0 to Week 3).
+Maintenance*: 12 weeks (Week 3 to Week 15).
+Subjects were randomized to one of four arms during the Maintenance* phase:
+High Dose
+Medium Dose
+Low Dose
+Placebo
+Following the Maintenance* phase, subjects were randomized to one of two subsequent phases:
+Open-Label Extension Study (0.5 mg/kg/day start)
+OR Taper Period (2 or 3 weeks)
+L340: Figure 2 is a schematic diagram for Study OV-1002, illustrating the study timeline and treatment arms.
+The study is divided into four main phases: Baseline, Titration, Maintenance*, and Open-label.
+Baseline: 4 weeks (Week -4 to Day 0).
+Titration: 3 weeks (Day 0 to Week 3).
+Maintenance*: 4 weeks (Week 3 to Week 7).
+Open-label: Extension and Taper phases (Week 7 to Week 10).
+Subjects were randomized to one of two arms during the Maintenance* phase:
+High Dose
+Low Dose
+Following the Maintenance* phase, both High Dose and Low Dose arms proceeded to the Open-label phase, which consisted of an Extension period followed by a Taper period.
+L341: Figure 3: Continuous Responder Curves Based on Percent Reduction From Baseline in Drop Seizures in Study OV-1012 – MITT Population. The graph plots Percent Improvement from Baseline (Y-axis, ranging from -100 to 100) against Percent of Patients (X-axis, ranging from 0 to 100). Four curves are shown: High Dose (solid red line), Medium Dose (dashed blue line), Low Dose (dotted green line), and Placebo (dash-dot purple line). The curves show the cumulative percentage of patients achieving a certain level of improvement. The High Dose curve shows the highest percentage of patients achieving improvement, followed by Medium Dose, Low Dose, and Placebo. A horizontal line at 0% improvement is labeled 'No Change'. An arrow pointing up from the 0% line is labeled 'Improvement', and an arrow pointing down from the 0% line is labeled 'Worsening'.
+L342: Graph showing Percentage survival versus period of treatment (weeks) for male rats. The Y-axis represents Percentage survival (0 to 100) and the X-axis represents Period of treatment (weeks) (0 to 104).
+Legend:
+Group 1: Control
+Group 2: RU 4723: 4 mg/kg/day
+Group 3: RU 4723: 20 mg/kg/day
+Group 4: RU 4723: 100 mg/kg/day
+The survival curves for all groups remain high (above 90%) until approximately 56 weeks, after which they decline. Group 4 (100 mg/kg/day) shows the steepest decline in survival after 56 weeks, reaching approximately 50% survival by 104 weeks. Group 2 (4 mg/kg/day) shows the least decline, remaining above 80% survival at 104 weeks.
+L343: Graph showing Percentage survival versus period of treatment (weeks) for female rats. The Y-axis represents Percentage survival (0 to 100) and the X-axis represents Period of treatment (weeks) (0 to 104).
+Legend:
+Group 1: Control
+Group 2: RU 4723: 4 mg/kg/day
+Group 3: RU 4723: 20 mg/kg/day
+Group 4: RU 4723: 100 mg/kg/day
+The survival curves for all groups remain high (above 90%) until approximately 56 weeks, after which they decline. Group 4 (100 mg/kg/day) shows the steepest decline in survival after 56 weeks, reaching approximately 50% survival by 104 weeks. Group 2 (4 mg/kg/day) shows the least decline, remaining above 80% survival at 104 weeks.
+L344: Kaplan-Meier Curve
+Male Rat
+Survival Distribution Function
+TIME IN WEEKS TO DEATH OR SACRIFICE
+STRATA:
+dosegp=0
+dosegp=20
+dosegp=4
+dosegp=100
+Censored dosegp=0
+Censored dosegp=20
+Censored dosegp=4
+Censored dosegp=100
+L345: Kaplan-Meier Curve
+Female Rat
+Survival Distribution Function
+TIME IN WEEKS TO DEATH OR SACRIFICE
+STRATA:
+dosegp=0
+dosegp=20
+dosegp=4
+dosegp=100
+Censored dosegp=0
+Censored dosegp=20
+Censored dosegp=4
+Censored dosegp=100
+L346: Kaplan-Meier Curve
+Male Mouse Supplement Group1
+Survival Distribution Function
+TIME IN WEEKS TO DEATH OR SACRIFICE
+STRATA:
+dosegp=0
+dosegp=20
+dosegp=4
+dosegp=100
+Censored dosegp=0
+Censored dosegp=20
+Censored dosegp=4
+Censored dosegp=100
+L347: Survival Distribution Function
+TIME IN WEEKS TO DEATH OR SACRIFICE
+STRATA:
+dosegp=0
+dosegp=20
+dosegp=4
+dosegp=89
+Censored dosegp=0
+Censored dosegp=20
+Censored dosegp=4
+Censored dosegp=89
+L348: Kaplan-Meier Curve
+Female Mouse
+Survival Distribution Function
+TIME IN WEEKS TO DEATH OR SACRIFICE
+STRATA:
+dosegp=0
+dosegp=20
+dosegp=4
+dosegp=100
+Censored dosegp=0
+Censored dosegp=20
+Censored dosegp=4
+Censored dosegp=100

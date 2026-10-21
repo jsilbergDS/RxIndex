@@ -1,0 +1,122 @@
+{
+  "app": "NDA022106",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "post_marketing[0].requirement",
+      "severity": "high",
+      "issue": "The final report due date 'October 12, 2012' is not supported by the citation quote, which contains no date."
+    },
+    {
+      "field": "post_marketing[1].requirement",
+      "severity": "high",
+      "issue": "The final report due date 'October 12, 2012' is not supported by the citation quote, which contains no date."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "medium",
+      "issue": "The '505(b)(1)' application-type claim is not supported by any citation quote in the summary (uncited '505' and '1')."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Summary characterizes the evidence as 'four Phase 3 trials (three non-inferiority comparative studies and one noncomparative)'; only DORI-05 is explicitly cited as non-inferiority comparative vs levofloxacin and DORI-07/08 vs meropenem, while DORI-06 is correctly noted noncomparative \u2014 count is internally consistent but phrasing of 'three non-inferiority comparative' is not directly cited."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: uncited number '3' is the Phase number, which is supported by the citation."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False-positive flags: '07' and '08' are study-ID fragments (DORI-07/DORI-08), not efficacy numbers."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive flags: '07' and '08' are study-ID fragments, not uncited data."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: uncited number '3' is the Phase number, which is supported by the citation."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "False-positive flag: '06' is a study-ID fragment (DORI-06), not uncited data."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "3",
+        "text": "DORI-07 and DORI-08 (two Phase 3 cIAI studies)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "07",
+        "text": "946 adults randomized across DORI-07 and DORI-08"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "08",
+        "text": "946 adults randomized across DORI-07 and DORI-08"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "07",
+        "text": "DORI-07 ME clinical cure: doripenem 140/165 (85.9%) vs meropenem 133/156 (85.3%)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "08",
+        "text": "DORI-07 ME clinical cure: doripenem 140/165 (85.9%) vs meropenem 133/156 (85.3%)"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "3",
+        "text": "DORI-05 and DORI-06 (two Phase 3 cUTI studies)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "06",
+        "text": "DORI-05 ME microbiological eradication: doripenem 230/280 (82.1%) vs levofloxaci"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "12",
+        "text": "Deferred pediatric studies under PREA for treatment of cUTI in pediatric patient"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "2012",
+        "text": "Deferred pediatric studies under PREA for treatment of cUTI in pediatric patient"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "12",
+        "text": "Deferred pediatric studies under PREA for treatment of cIAI in pediatric patient"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "2012",
+        "text": "Deferred pediatric studies under PREA for treatment of cIAI in pediatric patient"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "DORIBAX (doripenem for injection) is a synthetic carbapenem beta-lactam approved"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "DORIBAX (doripenem for injection) is a synthetic carbapenem beta-lactam approved"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

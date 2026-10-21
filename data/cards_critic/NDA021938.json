@@ -1,0 +1,52 @@
+{
+  "app": "NDA021938",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "target_moa",
+      "severity": "low",
+      "issue": "Text says 'oral' but no citation supports the oral route of administration."
+    },
+    {
+      "field": "target_moa",
+      "severity": "low",
+      "issue": "Text lists receptors 'VEGFR, PDGFR' but the cited quote names the ligands 'VEGF, PDGF'; slight relabeling though substantively consistent with an RTK inhibitor."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False-positive flag: '207' is supported by the citation which spells it out as 'Two-hundred seven patients'."
+    },
+    {
+      "field": "receipt_date",
+      "severity": "low",
+      "issue": "False-positive flag: '08' is part of the date 08/11/2005 (Stamp Date August 11, 2005), which is supported and date-excluded."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: '3' is part of 'Phase 3', supported by citations."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "207",
+        "text": "ITT population 312 (207 sunitinib, 105 placebo)"
+      },
+      {
+        "field": "receipt_date",
+        "number": "08",
+        "text": "08/11/2005 (Stamp Date)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "NDA 21-938 for GIST received Priority review as an NME and was granted regular ("
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

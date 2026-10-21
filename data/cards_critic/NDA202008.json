@@ -1,0 +1,63 @@
+{
+  "app": "NDA202008",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 372)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"NDA202008\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"advisory_committee.vote\",\n      \"severity\": \"high\",\n      \"issue\": \"The '16 to 0' vote that the data would support approval with an adequate training program is not c",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "advisory_committee/vote",
+        "number": "16",
+        "text": "At the January 20, 2011 Peripheral and Central Nervous System Drugs Advisory Com"
+      },
+      {
+        "field": "advisory_committee/vote",
+        "number": "0",
+        "text": "At the January 20, 2011 Peripheral and Central Nervous System Drugs Advisory Com"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "7",
+        "text": "Not a first-cycle approval: the original NDA (submitted September 17, 2010) rece"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "6",
+        "text": "Not a first-cycle approval: the original NDA (submitted September 17, 2010) rece"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2012",
+        "text": "Not a first-cycle approval: the original NDA (submitted September 17, 2010) rece"
+      },
+      {
+        "field": "receipt_date",
+        "number": "17",
+        "text": "October 7, 2011 (resubmission / complete response to the March 17, 2011 action l"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "18",
+        "text": "Amyvid (florbetapir F 18) was submitted as a 505(b) NDA and reviewed under prior"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "Amyvid (florbetapir F 18) was submitted as a 505(b) NDA and reviewed under prior"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "7",
+        "text": "Amyvid (florbetapir F 18) was submitted as a 505(b) NDA and reviewed under prior"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2012",
+        "text": "Amyvid (florbetapir F 18) was submitted as a 505(b) NDA and reviewed under prior"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

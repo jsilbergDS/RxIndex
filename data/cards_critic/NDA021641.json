@@ -1,0 +1,112 @@
+{
+  "app": "NDA021641",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "_flags.uncited_numbers (dates 2004/2005/2006/16)",
+      "severity": "low",
+      "issue": "False positives: these are dates (7/2/2004, 8/4/2005, 5/16/2006) which are excluded per rules and are supported by the cited Approvable Letter quotes."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name (232)",
+      "severity": "low",
+      "issue": "False positive: '232' is a protocol/study ID (excluded) and appears in the cited heading quote."
+    },
+    {
+      "field": "pivotal_trials[0].result / pivotal_trials[1].n (1, 2)",
+      "severity": "low",
+      "issue": "False positives: '1' and '2' are mg dose labels (excluded), supported by the N and result citations."
+    },
+    {
+      "field": "pivotal_trials[1].result (0.35)",
+      "severity": "low",
+      "issue": "False positive: placebo value -0.35 is present in the citation as '-.35'."
+    },
+    {
+      "field": "pivotal_trials[2].result (0.5, 0.88)",
+      "severity": "low",
+      "issue": "False positives: '0.5' is a dose label and '0.88' appears as '-.88' in the citation."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "232",
+        "text": "TEMPO (Protocol 232)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "1",
+        "text": "Mean UPDRS change was 0.06 for rasagiline 1 mg and 0.72 for 2 mg vs 3.91 for pla"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "2",
+        "text": "Mean UPDRS change was 0.06 for rasagiline 1 mg and 0.72 for 2 mg vs 3.91 for pla"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "1",
+        "text": "687 randomized (rasagiline 1 mg: 231; entacapone: 227; placebo: 229)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.35",
+        "text": "Change in daily \"Off\" time: -1.17 h for rasagiline 1 mg (p=.0001) and -1.19 h fo"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "0.5",
+        "text": "Change in daily \"Off\" time: -1.85 h for rasagiline 1 mg (p=.0001) and -1.38 h fo"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "0.88",
+        "text": "Change in daily \"Off\" time: -1.85 h for rasagiline 1 mg (p=.0001) and -1.38 h fo"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2004",
+        "text": "Not approved first cycle; the NDA went through three review cycles with two prio"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2005",
+        "text": "Not approved first cycle; the NDA went through three review cycles with two prio"
+      },
+      {
+        "field": "crl_history/basis",
+        "number": "2004",
+        "text": "Instead of Complete Response Letters, two Approvable Letters were issued (7/2/20"
+      },
+      {
+        "field": "crl_history/basis",
+        "number": "2005",
+        "text": "Instead of Complete Response Letters, two Approvable Letters were issued (7/2/20"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2004",
+        "text": "Standard NDA (505(b)) submitted September 5, 2003 and granted a Standard priorit"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2005",
+        "text": "Standard NDA (505(b)) submitted September 5, 2003 and granted a Standard priorit"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "16",
+        "text": "Standard NDA (505(b)) submitted September 5, 2003 and granted a Standard priorit"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2006",
+        "text": "Standard NDA (505(b)) submitted September 5, 2003 and granted a Standard priorit"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

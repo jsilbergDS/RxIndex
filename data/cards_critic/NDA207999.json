@@ -1,0 +1,28 @@
+{
+  "app": "NDA207999",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting value: line 1 column 1 (char 0)",
+  "_raw": "<think>\nLet me analyze this card carefully.\n\nKey issue I need to check: trial_name says \"Trial 747-301\" but the design/n/endpoint/result citations reference \"Trial 1\" and doc c0ae5be2. The phase citation references \"Protocol 747-301\". The trial_name citation references \"747-301\". These seem consiste",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "3",
+        "text": "Trial 747-301, the pivotal Phase 3 trial"
+      },
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "12",
+        "text": "Primary composite endpoint at Month 12: ALP less than 1.67-times the ULN, total "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "12",
+        "text": "Primary composite responder rate at Month 12: 48% [95% CI 36, 60] OCALIVA 10 mg,"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

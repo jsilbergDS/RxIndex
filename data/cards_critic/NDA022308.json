@@ -1,0 +1,47 @@
+{
+  "app": "NDA022308",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "high",
+      "issue": "The n text labels these counts as 'culture-positive (mITT)' but the citation (Visit 2/Visit 3 clinical resolution table) does not state these are the mITT/culture-positive population; the mITT descriptor is unsupported by the quote."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "medium",
+      "issue": "The n text labels N=198/N=191 as 'culture-positive (mITT)' but the citations describe these only as the Besivance/vehicle treated groups achieving clinical resolution; the mITT/culture-positive characterization is not in the quotes."
+    },
+    {
+      "field": "pivotal_trials[2].n",
+      "severity": "medium",
+      "issue": "The n text labels N=251/N=274 as 'culture-positive (mITT)' but the cited table does not describe the population as mITT/culture-positive."
+    },
+    {
+      "field": "pivotal_trials[2].population",
+      "severity": "low",
+      "issue": "Automated flag: the number '1' (at least 1 year of age) is not in this trial's own citation, but it is supported by the referenced Study 433 criteria; effectively a false positive but the detail is inherited rather than directly cited here."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "medium",
+      "issue": "Summary calls it a 'new molecular entity' NME and 'approved May 2009'; the NME claim is supported by a citation but the 'approved May 2009' date relies only on a timestamp quote ('5/28/2009') which does not state an approval date, making the May 2009 approval assertion weakly/uncited."
+    },
+    {
+      "field": "approval_program.priority_review.basis.text",
+      "severity": "low",
+      "issue": "Minor: 'present:false' with basis describing Standard designation is internally consistent, but the field labeling priority_review basis for a non-priority drug is slightly confusing (cosmetic)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[2]/population",
+        "number": "1",
+        "text": "Patients with acute bacterial conjunctivitis; same inclusion and exclusion crite"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

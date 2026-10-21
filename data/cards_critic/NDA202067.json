@@ -1,0 +1,67 @@
+{
+  "app": "NDA202067",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[1]",
+      "severity": "medium",
+      "issue": "OV-1002 is explicitly described in its own citations and phase field as a 'Phase 2 supportive study', yet it is placed in the pivotal_trials array, mislabeling a supportive study as pivotal."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "Design text adds 'parallel-group' and 'comparing placebo and three target maintenance doses', but the design citation does not contain these details (the three-dose detail appears only in the population citation)."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Text characterizes SJS/TEN as 'serious postmarketing reactions', but the cited quote only lists them under adverse reactions/skin disorders and does not label them as postmarketing."
+    },
+    {
+      "field": "modality",
+      "severity": "low",
+      "issue": "Value 'small molecule' is not verbatim in the citation, which states 'benzodiazepine class' and a chemical name; the classification is an inference rather than a directly supported statement."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Uncited-number flags for '23' and '2010' are false positives; these are the receipt date and are excluded from the uncited-data rule."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Uncited-number flag for '2010' is a false positive; it is the submission date and is excluded from the uncited-data rule."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "Uncited-number flag for '2' is a false positive; it is the parenthetical study label 'Study 2', which is supported by the design citation ('Study 2 (N=68)')."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "OV-1002 (Study 2)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "23",
+        "text": "The application dated/received December 23, 2010 was reviewed and approved effec"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2010",
+        "text": "The application dated/received December 23, 2010 was reviewed and approved effec"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2010",
+        "text": "ONFI (clobazam) NDA 202067 was submitted by Lundbeck on December 23, 2010 for ad"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

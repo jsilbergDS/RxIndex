@@ -1,0 +1,33 @@
+{
+  "app": "NDA213464",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 355)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"NDA213464\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].design\",\n      \"severity\": \"high\",\n      \"issue\": \"Design claims a 'historical placebo comparator' but the citations describe a 2:1 randomized compa",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "12",
+        "text": "Randomized double-blind trial; subjects randomized 2:1 to receive 60 days or 30 "
+      },
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "8",
+        "text": "Pediatric patients aged 0 to <18 years with asymptomatic Chagas disease (positiv"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "NDA 213464 (a 505(b)(2) application) for nifurtimox was submitted December 6, 20"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "NDA 213464 (a 505(b)(2) application) for nifurtimox was submitted December 6, 20"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

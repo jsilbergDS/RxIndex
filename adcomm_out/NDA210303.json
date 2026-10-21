@@ -1,0 +1,168 @@
+{
+  "app": "NDA210303",
+  "drug": "ZEMDRI",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_0c2a4a6c-22e5-5b62-994f-92e291b1de5f"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_fb5f14de-ec88-5cd5-a313-3c8ef9863d5d"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_6a70184a-4b0f-55c1-b76e-a47ff5715e16"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Antimicrobial Drugs Advisory Committee (AMDAC)",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "fda_6a70184a-4b0f-55c1-b76e-a47ff5715e16",
+      "line": 26,
+      "quote": "Meeting of the Antimicrobial Drugs Advisory Committee was convened to discuss whether the applicant provided substantial evidence of the safety and effectiveness of plazomicin for the treatment of cUTI and/or BSIs in patients with limited or no treatment options."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_6a70184a4b0f",
+      "found_lines": [
+        26
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "May 2, 2018 (RiskR and MedR report May 2, 2018; the SumR states May 03, 2018 \u2014 a one-day discrepancy across review documents)",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "fda_6a70184a-4b0f-55c1-b76e-a47ff5715e16",
+      "line": 26,
+      "quote": "05/02/2018: Meeting of the Antimicrobial Drugs Advisory Committee was convened"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_6a70184a4b0f",
+      "found_lines": [
+        26
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 15-0 that substantial evidence of safety and effectiveness was provided for the cUTI indication, and voted 11-4 against the bloodstream infection (BSI) indication.",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "fda_6a70184a-4b0f-55c1-b76e-a47ff5715e16",
+      "line": 26,
+      "quote": "The AC voted in favor of the cUTI indication and voted against the indication for BSIs."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_6a70184a4b0f",
+      "found_lines": [
+        26
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee voted 11-4 against the bloodstream infection (BSI) indication, finding the applicant had not provided substantial evidence of safety and effectiveness of plazomicin for treatment of BSIs.",
+      "change": "The approval was limited to complicated urinary tract infection (cUTI); only the cUTI trial results were included in the label, and the BSI indication was not granted.",
+      "category": "Indication / scope narrowing",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "fda_6a70184a-4b0f-55c1-b76e-a47ff5715e16",
+        "line": 26,
+        "quote": "The AC voted in favor of the cUTI indication and voted against the indication for BSIs.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_6a70184a4b0f",
+          "found_lines": [
+            26
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_0c2a4a6c-22e5-5b62-994f-92e291b1de5f",
+        "line": 180,
+        "quote": "Only the results of the cUTI trials are included in the Adverse Reactions and Clinical Studies section of the label.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_0c2a4a6c22e5",
+          "found_lines": [
+            180
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Many committee members were concerned that the issues around plazomicin trough measurements for prevention of nephrotoxicity had not been fully resolved and needed to be explicitly explained in labeling.",
+      "change": "Labeling includes recommendations for therapeutic drug monitoring (TDM) to keep trough concentrations below 3 mcg/mL in patients with reduced creatinine clearance.",
+      "category": "Safety / labeling (therapeutic drug monitoring)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "fda_fb5f14de-ec88-5cd5-a313-3c8ef9863d5d",
+        "line": 614,
+        "quote": "there was concern by many members that the issues regarding plazomicin trough measurements for the prevention of nephrotoxicity had not been fully explored/resolved and would need to be explicitly explained in labelling.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_fb5f14deec88",
+          "found_lines": [
+            614
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_0c2a4a6c-22e5-5b62-994f-92e291b1de5f",
+        "line": 178,
+        "quote": "labeling will include recommendations for TDM in patients with creatinine clearance",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_0c2a4a6c22e5",
+          "found_lines": [
+            41,
+            178
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee recommended consideration of a postmarketing requirement to address the trough (nephrotoxicity) monitoring issue.",
+      "change": "A postmarketing commitment was established to develop an FDA cleared/approved in-vitro diagnostic device for therapeutic drug monitoring of plazomicin.",
+      "category": "Postmarketing (PMR/PMC)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "fda_fb5f14de-ec88-5cd5-a313-3c8ef9863d5d",
+        "line": 614,
+        "quote": "There were also recommendations to consider a PMR in order to address the trough issue.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_fb5f14deec88",
+          "found_lines": [
+            614
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_0c2a4a6c-22e5-5b62-994f-92e291b1de5f",
+        "line": 189,
+        "quote": "Establish an FDA cleared or approved in-vitro diagnostic device for therapeutic drug monitoring of plazomicin",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_0c2a4a6c22e5",
+          "found_lines": [
+            189
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Antimicrobial Drugs Advisory Committee (AMDAC) met on May 2, 2018 and voted 15-0 that plazomicin (ZEMDRI) had substantial evidence of safety and effectiveness for complicated urinary tract infection (cUTI) but voted 11-4 against the bloodstream infection (BSI) indication; the approval was accordingly limited to cUTI, with only cUTI trial results in the label. Committee concerns about unresolved trough/nephrotoxicity monitoring were reflected in labeling recommendations for therapeutic drug monitoring and a postmarketing commitment to develop an in-vitro diagnostic device for TDM. The verbatim AdComm transcript is not in paperclip; these findings are drawn from the FDA review documents' accounts of the meeting."
+}

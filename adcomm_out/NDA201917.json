@@ -1,0 +1,167 @@
+{
+  "app": "NDA201917",
+  "drug": "INCIVEK",
+  "docs_read": [
+    {
+      "doc_type": "CrossR",
+      "doc_id": "18236e3c-cc36-523e-a527-56d3305fa5a6"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "4b87e63e-3692-54eb-a665-2ddf3bcd18b2"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "a4c825d1-68ed-5dbf-bc32-53d6af166f41"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Antiviral Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "4b87e63e-3692-54eb-a665-2ddf3bcd18b2",
+      "line": 52,
+      "quote": "The telaprevir NDA was presented to the Antiviral Drugs Advisory Committee on April 28, 2011."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "4b87e63e-3692-54eb-a665-2ddf3bcd18b2",
+      "found_lines": [
+        52
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "April 28, 2011",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "18236e3c-cc36-523e-a527-56d3305fa5a6",
+      "line": 162,
+      "quote": "An Advisory Committee meeting was convened on April 28, 2011 to discuss the merits of this NDA and the risk/benefit assessment for telaprevir in combination with Peg-IFN/ribavirin as treatment for chronic HCV infection."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "18236e3c-cc36-523e-a527-56d3305fa5a6",
+      "found_lines": [
+        162
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted unanimously to recommend approval: 18 Yes, 0 No, 0 Abstain.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "4b87e63e-3692-54eb-a665-2ddf3bcd18b2",
+      "line": 52,
+      "quote": "On the question of whether telaprevir should be approved the Committee voted Yes 18; No 0; and Abstain 0."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "4b87e63e-3692-54eb-a665-2ddf3bcd18b2",
+      "found_lines": [
+        52
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee was concerned that Blacks/African Americans and patients with cirrhosis were under-represented in the trials, leaving the optimal regimen/duration in these subgroups uncertain, and recommended additional study.",
+      "change": "Postmarketing requirements/commitments include clinical trials to further evaluate response in patients with cirrhosis and in Black/African American patients.",
+      "category": "Postmarketing requirement / Population subgroup",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "4b87e63e-3692-54eb-a665-2ddf3bcd18b2",
+        "line": 53,
+        "quote": "The Committee recommended additional studies in Black/African American patients and patients with cirrhosis at baseline.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "4b87e63e-3692-54eb-a665-2ddf3bcd18b2",
+          "found_lines": [
+            53
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "4b87e63e-3692-54eb-a665-2ddf3bcd18b2",
+        "line": 55,
+        "quote": "clinical trials to further evaluate response in patients with cirrhosis and Blacks/African American patients",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "4b87e63e-3692-54eb-a665-2ddf3bcd18b2",
+          "found_lines": [
+            55
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee raised the serious-skin-reaction risk and suggested, among other mitigations, potentially maintaining a registry of patients who develop rash to identify predictors of serious skin reactions.",
+      "change": "Postmarketing requirements/commitments include additional work to evaluate genomic factors that might be risk factors for skin adverse events.",
+      "category": "Postmarketing requirement / Safety (skin reactions)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "18236e3c-cc36-523e-a527-56d3305fa5a6",
+        "line": 165,
+        "quote": "even potentially having a registry of patients who develop rash to try to identify predictors of serious skin reactions",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "18236e3c-cc36-523e-a527-56d3305fa5a6",
+          "found_lines": [
+            165
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "4b87e63e-3692-54eb-a665-2ddf3bcd18b2",
+        "line": 55,
+        "quote": "additional work to further evaluate for genomic factors that might be identified as risk factors for skin adverse events",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "4b87e63e-3692-54eb-a665-2ddf3bcd18b2",
+          "found_lines": [
+            55
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee found the evidence less strong for response-guided therapy (RGT) in prior relapsers and did not reach consensus on its adequacy, but was permissive of the approach.",
+      "change": "The approval adopted a response-guided therapy approach not only for treatment-naive patients but also for patients who had relapsed after prior Peg-IFN/ribavirin therapy.",
+      "category": "Labeling / Dosing regimen",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "18236e3c-cc36-523e-a527-56d3305fa5a6",
+        "line": 172,
+        "quote": "Although the Committee did not reach consensus on the adequacy of data to support approval of RGT in prior relapsers, they appeared to be permissive of this approach.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "18236e3c-cc36-523e-a527-56d3305fa5a6",
+          "found_lines": [
+            172
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "18236e3c-cc36-523e-a527-56d3305fa5a6",
+        "line": 204,
+        "quote": "I also recommend approval of a response-guided therapy approach to the treatment of patients who have not received previous treatment and for those who have relapsed after prior treatment with a Peg-IFN/ribavirin regimen.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "18236e3c-cc36-523e-a527-56d3305fa5a6",
+          "found_lines": [
+            204
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The telaprevir (INCIVEK) NDA was reviewed by the Antiviral Drugs Advisory Committee on April 28, 2011, which voted unanimously (18 Yes, 0 No, 0 Abstain) that the benefits outweighed the risks of rash and anemia and supported approval. The committee's concerns about under-representation of cirrhotic and Black/African American patients, and about serious skin reactions, map onto postmarketing requirements/commitments for subgroup trials and for evaluating genomic risk factors for skin adverse events. The committee was permissive of response-guided therapy in prior relapsers despite weaker data, consistent with the approval adopting RGT for both naive and prior-relapser patients; no formal REMS was required, with a Medication Guide used instead."
+}

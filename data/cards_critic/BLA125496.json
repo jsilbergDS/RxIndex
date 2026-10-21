@@ -1,0 +1,42 @@
+{
+  "app": "BLA125496",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: the '1' is the internal 'Study 1' label, not an efficacy/safety datum."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: '8' is from statute section '351(a)' and is supported by the citation quote."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: '2' refers to 'phase 2', which is supported elsewhere in the card and citations."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "CNTO328MCD2001 (Study 1)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "8",
+        "text": "SYLVANT (siltuximab) received full approval as a BLA under section 351(a) for HI"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "SYLVANT (siltuximab) received full approval as a BLA under section 351(a) for HI"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

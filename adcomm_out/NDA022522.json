@@ -1,0 +1,139 @@
+{
+  "app": "NDA022522",
+  "drug": "DALIRESP",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "8c510700-318b-5257-85a9-016066f0ec32"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "1247973f-cb73-552e-ba57-1effeddbe980"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "4efa984b-914d-5e29-a9aa-e157e13e8778"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "a91f11c5-26dd-5b77-8bc6-617f3f6df60f"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Pulmonary-Allergy Drugs Advisory Committee (PADAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "8c510700-318b-5257-85a9-016066f0ec32",
+      "line": 97,
+      "quote": "A Pulmonary-Allergy Drugs Advisory Committee (PADAC) meeting was held on April 7, 2010, during review of the original NDA."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "8c510700-318b-5257-85a9-016066f0ec32",
+      "found_lines": [
+        97
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "April 7, 2010 (during the first review cycle)",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "1247973f-cb73-552e-ba57-1effeddbe980",
+      "line": 214,
+      "quote": "A pulmonary allergy drug advisory committee (PADAC) meeting was convened during the first review cycle on April 7, 2010, to discuss the efficacy and safety data provided to support the approval of roflumilast for the treatment of COPD in the United States."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "1247973f-cb73-552e-ba57-1effeddbe980",
+      "found_lines": [
+        214
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted favorably on efficacy (9 yes, 6 no) and on the safety profile (9 yes, 6 no), but voted against approvability (5 yes, 10 no). The product was nonetheless approved in a later review cycle with a narrowed indication, a Medication Guide-only REMS, and an add-on postmarketing commitment.",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "8c510700-318b-5257-85a9-016066f0ec32",
+      "line": 97,
+      "quote": "The committee voted favorably regarding whether there was substantial evidence of efficacy (9 yes, 6 no), and the safety profile of roflumilast (9 yes, 6 no). Regarding the approvability question, which is essentially the sum of demonstration of efficacy and safety, the results were against approval (5 yes, 10 no)."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "8c510700-318b-5257-85a9-016066f0ec32",
+      "found_lines": [
+        97
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Committee members indicated they would be more favorable on efficacy and approvability if the indication were the more restrictive, exacerbation-specific indication rather than the broad original COPD indication.",
+      "change": "The indication was narrowed from the broad COPD claim to reducing the risk of COPD exacerbations in patients with severe COPD associated with chronic bronchitis and a history of exacerbations.",
+      "category": "Population / indication narrowing",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "1247973f-cb73-552e-ba57-1effeddbe980",
+        "line": 222,
+        "quote": "Comments made by the committee members included that they would be more favorable on efficacy and approvability with the proposed more restrictive indication",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "1247973f-cb73-552e-ba57-1effeddbe980",
+          "found_lines": [
+            222
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "4efa984b-914d-5e29-a9aa-e157e13e8778",
+        "line": 18,
+        "quote": "restricting the indication from the broad claim originally made to treatment to reduce risk of COPD exacerbations in patients with severe COPD associated with chronic bronchitis and a history of exacerbation) and a medication guide alerting patients to potential risks. This decision is also in keeping with the advice from a majority of the advisory committee members.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "4efa984b-914d-5e29-a9aa-e157e13e8778",
+          "found_lines": [
+            18
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Given roflumilast's safety profile (notably increased psychiatric adverse events including suicidality, and weight loss), committee members felt a risk mitigation strategy should be developed for the product.",
+      "change": "Approval included a Medication Guide (alerting patients to potential risks), implemented as a Medication Guide-only REMS.",
+      "category": "Safety / Risk mitigation (Medication Guide)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "8c510700-318b-5257-85a9-016066f0ec32",
+        "line": 97,
+        "quote": "Some Committee members felt that a risk mitigation strategy should be developed for this product and such a plan could have swayed their view on approvability.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "8c510700-318b-5257-85a9-016066f0ec32",
+          "found_lines": [
+            97
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "4efa984b-914d-5e29-a9aa-e157e13e8778",
+        "line": 18,
+        "quote": "and a medication guide alerting patients to potential risks. This decision is also in keeping with the advice from a majority of the advisory committee members.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "4efa984b-914d-5e29-a9aa-e157e13e8778",
+          "found_lines": [
+            18
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "A Pulmonary-Allergy Drugs Advisory Committee (PADAC) met on April 7, 2010 during the first review cycle and, voting against the broad original COPD indication, favored efficacy (9-6) and safety (9-6) but voted against approvability (5-10). Members said they would be more favorable with a more restrictive indication and that a risk mitigation strategy should be developed. Roflumilast (Daliresp) was ultimately approved in a later cycle with the indication narrowed to severe COPD with chronic bronchitis and a history of exacerbations and with a Medication Guide-only REMS; the Office Director's memo states these decisions were in keeping with the advice of a majority of the advisory committee members."
+}

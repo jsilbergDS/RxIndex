@@ -1,0 +1,72 @@
+{
+  "app": "NDA208341",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "approval_program.breakthrough_therapy.basis",
+      "severity": "high",
+      "issue": "Text claims a prior 2014 Breakthrough designation for 'GT 1, 3, 4, 5, 6' was rescinded April 1, 2015, but the only citation covers the May 15, 2015 grant for GT 3,4,5,6 TN \u2014 the 2014 designation, GT 1, and rescission date are unsupported."
+    },
+    {
+      "field": "approval_program.breakthrough_therapy.basis",
+      "severity": "medium",
+      "issue": "The number '2014' (prior designation year) has no citation quote containing it."
+    },
+    {
+      "field": "approval_program.breakthrough_therapy.basis",
+      "severity": "medium",
+      "issue": "The genotype '1' in the rescinded-designation claim has no supporting citation quote."
+    },
+    {
+      "field": "pivotal_trials",
+      "severity": "high",
+      "issue": "Only three trials (ASTRAL-1, -3, -4) are listed, but the endpoint citation ('pivotal clinical trials, ASTRAL-1-4') and the summary ('four Phase 3 ASTRAL trials') both indicate four pivotal trials \u2014 ASTRAL-2 is missing."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "medium",
+      "issue": "Summary states 'four Phase 3 ASTRAL trials' yet the card only describes three pivotal trials, an internal inconsistency."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "Flagged uncited number '24' is a treatment duration (24 weeks) not an efficacy figure; false positive."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged uncited number '2016' is part of a date (June 28, 2016) and should be excluded; false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "24",
+        "text": "SVR12 95% (264/277) with SOF/VEL 12 weeks vs 80% (221/275) with SOF+RBV 24 weeks"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2016",
+        "text": "Application received October 28, 2015 and approved June 28, 2016 (PDUFA goal dat"
+      },
+      {
+        "field": "approval_program/breakthrough_therapy/basis",
+        "number": "2014",
+        "text": "Breakthrough Therapy Designation granted May 15, 2015 for treatment of HCV genot"
+      },
+      {
+        "field": "approval_program/breakthrough_therapy/basis",
+        "number": "1",
+        "text": "Breakthrough Therapy Designation granted May 15, 2015 for treatment of HCV genot"
+      },
+      {
+        "field": "approval_program/breakthrough_therapy/basis",
+        "number": "1",
+        "text": "Breakthrough Therapy Designation granted May 15, 2015 for treatment of HCV genot"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

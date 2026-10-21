@@ -1,0 +1,97 @@
+{
+  "app": "BLA761079",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "Automated flag on '2' (Part 2) is a false positive; it is a trial-part label, not an efficacy number.",
+      "note_type": "dismissed_flag"
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "Flags on '8', '20', '40' are false positives; these are the Week-8 timepoint and the 20/40 mg doses, both excluded/cited.",
+      "note_type": "dismissed_flag"
+    },
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "Flag on '40' is a false positive; it is the 40 mg dose contained in the cited design quote.",
+      "note_type": "dismissed_flag"
+    },
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "low",
+      "issue": "Flag on '3' is a false positive; 'Phase 3' is supported by the cited 'second Phase 3 trial' text and the study-design description.",
+      "note_type": "dismissed_flag"
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flags on 28/2018 are dates and are excluded; per rules first_cycle_approval=true is a valid inferential default with no prior CRL in the review.",
+      "note_type": "dismissed_flag"
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "3",
+        "text": "Phase 3"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "40",
+        "text": "8-week, placebo-controlled, randomized withdrawal design in enriched treatment r"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "86",
+        "text": "86 patients randomized in Part 2 (20 mg: N=29 vs placebo N=14; 40 mg: N=29 vs pl"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "2",
+        "text": "86 patients randomized in Part 2 (20 mg: N=29 vs placebo N=14; 40 mg: N=29 vs pl"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "8",
+        "text": "Both active arms maintained blood Phe significantly better than placebo (p<0.000"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "20",
+        "text": "Both active arms maintained blood Phe significantly better than placebo (p<0.000"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "40",
+        "text": "Both active arms maintained blood Phe significantly better than placebo (p<0.000"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "28",
+        "text": "Approved effective on the date of the approval letter following completion of FD"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2018",
+        "text": "Approved effective on the date of the approval letter following completion of FD"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "28",
+        "text": "Approved effective on the date of the approval letter following completion of FD"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2018",
+        "text": "Approved effective on the date of the approval letter following completion of FD"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

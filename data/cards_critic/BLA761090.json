@@ -1,0 +1,33 @@
+{
+  "app": "BLA761090",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 245)",
+  "_raw": "Analyzing the card for quality issues.\n\nLet me verify the key claims and automated flags.\n\n**Automated flags review:**\n- `uncited_numbers` for \"300\" and \"150\" in result: these are doses, which should be excluded per rules \u2014 false positives.\n- \"03\" in summary is part of trial ID \"DX-2930-03\" \u2014 a stud",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "300",
+        "text": "LS mean monthly HAE attack rate 0.26 (95% CI 0.14, 0.46) for lanadelumab 300 mg "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "150",
+        "text": "LS mean monthly HAE attack rate 0.26 (95% CI 0.14, 0.46) for lanadelumab 300 mg "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "300",
+        "text": "LS mean monthly HAE attack rate 0.26 (95% CI 0.14, 0.46) for lanadelumab 300 mg "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "03",
+        "text": "Lanadelumab (DX-2930) was developed under IND 116,647 and received orphan design"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

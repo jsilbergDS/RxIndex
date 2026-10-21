@@ -1,0 +1,58 @@
+{
+  "app": "NDA209803",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 288)",
+  "_raw": "Analyzing the card for quality problems.\n\nLet me check the automated flags and each field carefully.\n\n**Uncited numbers analysis:**\n- \"26\" (Week 26): This is a duration/timepoint, arguably date-like but not excluded; however \"26 weeks\" appears in citations (design/population quotes say \"26-week\"). S",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "26",
+        "text": "Change from baseline in HbA1c at Week 26."
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "15",
+        "text": "461 patients randomized (placebo N=153, STEGLATRO 5 mg N=155, 15 mg N=151 for Hb"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "26",
+        "text": "At Week 26, HbA1c change from baseline (LS mean) was -0.2 (placebo), -0.7 (5 mg)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "5",
+        "text": "At Week 26, HbA1c change from baseline (LS mean) was -0.2 (placebo), -0.7 (5 mg)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "15",
+        "text": "At Week 26, HbA1c change from baseline (LS mean) was -0.2 (placebo), -0.7 (5 mg)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "5",
+        "text": "At Week 26, HbA1c change from baseline (LS mean) was -0.2 (placebo), -0.7 (5 mg)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "15",
+        "text": "At Week 26, HbA1c change from baseline (LS mean) was -0.2 (placebo), -0.7 (5 mg)"
+      },
+      {
+        "field": "key_safety",
+        "number": "15",
+        "text": "Most common adverse reaction (incidence \u22655%) was female genital mycotic infectio"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "STEGLATRO (ertugliflozin), an SGLT2 inhibitor, was submitted as a 505(b) NDA rec"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

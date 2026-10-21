@@ -1,0 +1,112 @@
+{
+  "app": "NDA205437",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "high",
+      "issue": "Claims 'despite prior or current DMARD therapy' but the citation only states 'patients 18 years of age and older with active PsA'; the DMARD requirement is unsupported."
+    },
+    {
+      "field": "pivotal_trials[1].population",
+      "severity": "high",
+      "issue": "Claims 'despite prior or current DMARD therapy' but the citation only states active PsA in patients 18+; the DMARD requirement is unsupported."
+    },
+    {
+      "field": "pivotal_trials[2].population",
+      "severity": "high",
+      "issue": "Claims 'despite prior or current DMARD therapy' unsupported by any citation (only the psoriatic skin lesion and active PsA are cited)."
+    },
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "low",
+      "issue": "The phase citation quote describes study design but does not contain 'Phase 3'; value is supported instead by the trial_name citation ('Phase 3 studies'). False-positive flag for number '3'."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Flagged number '16' (Week 16) is not in the result citation but is supported by the endpoint citation; false positive."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Flagged number '30' refers to the dose '30 mg BID' and should be excluded; false positive."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged numbers '20' and '2013' are part of a date (March 20, 2013); false positives."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged number '3' ('three Phase 3 trials') is supported by the pivotal trial list and trial citations; false positive."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Flagged number '1' in 'PsA-1' is a trial label, not efficacy/safety data; false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study PsA-1 (CC-10004-PSA-002)"
+      },
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "3",
+        "text": "Phase 3"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "16",
+        "text": "ACR20 at Week 16: apremilast 30 mg BID 38% vs placebo 19%"
+      },
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "3",
+        "text": "Phase 3"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "16",
+        "text": "ACR20 at Week 16: apremilast 30 mg BID 32% vs placebo 19%"
+      },
+      {
+        "field": "pivotal_trials[2]/phase",
+        "number": "3",
+        "text": "Phase 3"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "16",
+        "text": "ACR20 at Week 16: apremilast 30 mg BID 41% vs placebo 18%"
+      },
+      {
+        "field": "key_safety",
+        "number": "30",
+        "text": "Most common adverse reactions (\u22655%) are diarrhea, nausea, and headache. In the p"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "20",
+        "text": "The application dated March 20, 2013 was reviewed and approved effective on the "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2013",
+        "text": "The application dated March 20, 2013 was reviewed and approved effective on the "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Standard full approval of apremilast (Otezla), the first small molecule drug app"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

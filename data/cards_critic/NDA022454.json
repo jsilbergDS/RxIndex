@@ -1,0 +1,28 @@
+{
+  "app": "NDA022454",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 10 column 5 (char 316)",
+  "_raw": "Analyzing the card for quality problems.\n\n```json\n{\n  \"app\": \"NDA022454\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[1].result\",\n      \"severity\": \"medium\",\n      \"issue\": \"The positive percent agreement range '92-97%' is uncited; the lowest cited value is 93 (Reade",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "92",
+        "text": "Positive percent agreement across readers 92-97% (Reader A 93 [88, 97]); negativ"
+      },
+      {
+        "field": "advisory_committee/vote",
+        "number": "2009",
+        "text": "Advisory committee held August 11, 2009 voted 11 to 2 to support a favorable ris"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2011",
+        "text": "DaTscan received a priority review and was reviewed over three cycles; after two"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

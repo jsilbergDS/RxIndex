@@ -1,0 +1,22 @@
+{
+  "app": "NDA203567",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval/detail",
+      "severity": "low",
+      "issue": "False-positive automated flag: the uncited number '20' comes from the date 'December 20, 2013' and should be excluded as a date; not a genuine problem."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "20",
+        "text": "The original NDA received a Complete Response on May 13, 2013 due to CMC deficie"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

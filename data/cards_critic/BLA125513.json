@@ -1,0 +1,83 @@
+{
+  "app": "BLA125513",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "post_marketing[0].requirement",
+      "severity": "low",
+      "issue": "uncited_numbers flag for '2949'/'1' is a false positive: these are PMR/PMC requirement identifiers, not efficacy/safety data.",
+      "field_note": "false-positive flag"
+    },
+    {
+      "field": "post_marketing[1].requirement",
+      "severity": "low",
+      "issue": "uncited_numbers flag for '2949'/'2' is a false positive: PMR requirement identifier, not efficacy/safety data."
+    },
+    {
+      "field": "post_marketing[2].requirement",
+      "severity": "low",
+      "issue": "uncited_numbers flag for '2949'/'3' is a false positive: PMC requirement identifier, not efficacy/safety data."
+    },
+    {
+      "field": "post_marketing[3].requirement",
+      "severity": "low",
+      "issue": "uncited_numbers flag for '2949' is a false positive: PMC requirement identifier, not efficacy/safety data."
+    },
+    {
+      "field": "post_marketing[4].requirement",
+      "severity": "low",
+      "issue": "uncited_numbers flag for '2949'/'5' is a false positive: PMC requirement identifier, not efficacy/safety data."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "2949",
+        "text": "PMR 2949-1: Conduct a prospective, long-term observational study in STRENSIQ-tre"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "1",
+        "text": "PMR 2949-1: Conduct a prospective, long-term observational study in STRENSIQ-tre"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "2949",
+        "text": "PMR 2949-2: Develop an assay to directly compare the complement activating capac"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "2",
+        "text": "PMR 2949-2: Develop an assay to directly compare the complement activating capac"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "2949",
+        "text": "PMC 2949-3: Develop a validated cross-reactive immunologic material (CRIM) assay"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "3",
+        "text": "PMC 2949-3: Develop a validated cross-reactive immunologic material (CRIM) assay"
+      },
+      {
+        "field": "post_marketing[3]/requirement",
+        "number": "2949",
+        "text": "PMC 2949-4: Evaluate the STRENSIQ manufacturing process and develop a control st"
+      },
+      {
+        "field": "post_marketing[4]/requirement",
+        "number": "2949",
+        "text": "PMC 2949-5: Re-evaluate the endotoxin limits after data from thirty batches is a"
+      },
+      {
+        "field": "post_marketing[4]/requirement",
+        "number": "5",
+        "text": "PMC 2949-5: Re-evaluate the endotoxin limits after data from thirty batches is a"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

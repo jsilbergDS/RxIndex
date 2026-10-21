@@ -1,0 +1,28 @@
+{
+  "app": "NDA206966",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 289)",
+  "_raw": "Analyzing the card systematically.\n\nLet me verify key claims and automated flags.\n\n**Automated flags:**\n1. `pivotal_trials[1]/design` \"001\" \u2014 this is part of \"Ha03-001\" reference in \"identical in design to Ha03-001\". False positive (study ID fragment).\n2. `pivotal_trials[1]/result` \"45\" \u2014 the citati",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "001",
+        "text": "Randomized, double-blind, multicenter, vehicle-controlled trial (identical in de"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "45",
+        "text": "Trial 002 primary endpoint (Day 14): 45/55 (82%) abametapir vs 25/53 (47%) vehic"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "6",
+        "text": "Xeglyze (abametapir), a new molecular entity, received a standard review under a"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "app": "NDA204384",
+  "drug": "SIRTURO",
+  "docs_read": [
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_2027a504-9458-5357-8318-42f768f8dbde"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_d2a119de-08c7-5511-ab1b-9bc37908257a"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_925b7701-0298-57ef-8d30-3093d637e64d"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_e001642a-6767-5619-914a-1fd51398fe8a"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Anti-Infective Drugs Advisory Committee (AIDAC / ADAC)",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_2027a504-9458-5357-8318-42f768f8dbde",
+      "line": 65,
+      "quote": "The application for Sirturo (bedaquiline) was presented to the Anti-Infective Drugs Advisory Committee (AIDAC) on November 28, 2012."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_2027a5049458",
+      "found_lines": [
+        65
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "November 28, 2012 (the ODMemo and RiskR both state November 28, 2012; the CrossR states November 29, 2012)",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "fda_925b7701-0298-57ef-8d30-3093d637e64d",
+      "line": 69,
+      "quote": "The Anti-infective Drugs Advisory Committee (ADAC) convened on November 28, 2012 to consider this application for accelerated approval."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_925b77010298",
+      "found_lines": [
+        69
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 18 Yes / 0 No that efficacy had been shown based on the surrogate endpoint (time to sputum culture conversion at 24 weeks), and 11 Yes / 7 No that safety had been shown. The committee viewed the data as adequate for accelerated approval but not for full/traditional approval.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_2027a504-9458-5357-8318-42f768f8dbde",
+      "line": 65,
+      "quote": "The committee voted 18 Yes; 0 No, on the question on whether the efficacy of bedaquiline had been shown based upon the surrogate endpoint of time to sputum culture conversion at 24 weeks. The committee discussed that the data were adequate for accelerated approval but not for a full approval."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_2027a5049458",
+      "found_lines": [
+        65
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Committee members cited the mortality imbalance (more deaths in the bedaquiline arm than placebo in Study C208 stage 2) and recommended this information be made available to providers and patients.",
+      "change": "Product labeling includes a Boxed Warning, a Warnings and Precautions statement, a description of the deaths in Adverse Reactions, and a Medication Guide, covering the mortality imbalance.",
+      "category": "Safety / Boxed warning (mortality)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_2027a504-9458-5357-8318-42f768f8dbde",
+        "line": 59,
+        "quote": "As noted the Committee recommended that the information regarding the imbalance in mortality in C208 stage 2 be provided so that healthcare providers and patients could consider this information.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_2027a5049458",
+          "found_lines": [
+            59
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_2027a504-9458-5357-8318-42f768f8dbde",
+        "line": 59,
+        "quote": "The product labeling includes a Boxed Warning, a statement in Warnings and Precautions, and a summary description of the deaths in the Adverse Reactions section of the product labeling.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_2027a5049458",
+          "found_lines": [
+            59
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee discussed that the effect on QT and caution regarding use with other QT-prolonging medications should be included in the product labeling.",
+      "change": "Label provides QT prolongation information in the Boxed Warning, Warnings and Precautions, other sections, and the Medication Guide.",
+      "category": "Safety / QT prolongation labeling",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_2027a504-9458-5357-8318-42f768f8dbde",
+        "line": 66,
+        "quote": "The Committee also went on to discuss that information on the mortality imbalance, the effect on QT and caution regarding use with other QT prolonging medications and adverse hepatic effects should be included in the product labeling.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_2027a5049458",
+          "found_lines": [
+            66
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_2027a504-9458-5357-8318-42f768f8dbde",
+        "line": 39,
+        "quote": "The label provides information on QT prolongation in the Boxed Warning, the Warnings and Precautions section, other sections of the product labeling, and the Medication Guide.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_2027a5049458",
+          "found_lines": [
+            39
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee discussed that information on adverse hepatic effects should be included in the product labeling.",
+      "change": "The Division of Risk Management recommended maximizing labeling to communicate the potential risks of QT prolongation, hepatotoxicity, and potential increased mortality.",
+      "category": "Safety / Hepatotoxicity labeling",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_2027a504-9458-5357-8318-42f768f8dbde",
+        "line": 66,
+        "quote": "The Committee also went on to discuss that information on the mortality imbalance, the effect on QT and caution regarding use with other QT prolonging medications and adverse hepatic effects should be included in the product labeling.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_2027a5049458",
+          "found_lines": [
+            66
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "fda_925b7701-0298-57ef-8d30-3093d637e64d",
+        "line": 76,
+        "quote": "DRISK recommends maximizing labeling to communicate the potential risks QT prolongation, hepatotoxicity and potential risk of increased mortality.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_925b77010298",
+          "found_lines": [
+            76
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The imbalance in deaths and other concerns raised during the ADAC meeting prompted the Agency to re-evaluate whether a REMS was needed.",
+      "change": "After re-evaluation, DRISK did not recommend a REMS, concluding the risks could be managed through labeling.",
+      "category": "Risk management / REMS",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "fda_925b7701-0298-57ef-8d30-3093d637e64d",
+        "line": 76,
+        "quote": "Because of the imbalance in deaths and the concerns raised during the ADAC meeting, DAIP and DRISK re-evaluated the possible need for a REMS.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_925b77010298",
+          "found_lines": [
+            76
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "fda_925b7701-0298-57ef-8d30-3093d637e64d",
+        "line": 78,
+        "quote": "DRISK does not recommend a REMS for bedaquiline. At this time the risks associated with bedaquiline can be managed through labeling.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_925b77010298",
+          "found_lines": [
+            78
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee found the surrogate endpoint (sputum culture conversion) and the overall data adequate for accelerated approval but not for full/traditional approval.",
+      "change": "FDA granted the application under the accelerated approval regulations (21 CFR 314.500-560), with a required confirmatory trial, rather than traditional approval.",
+      "category": "Approval pathway / Accelerated approval",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_d2a119de-08c7-5511-ab1b-9bc37908257a",
+        "line": 428,
+        "quote": "The committee did not agree that the use of the endpoint of sputum culture conversion for the primary efficacy analysis is adequate to support traditional approval (as opposed to accelerated approval).",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_d2a119de08c7",
+          "found_lines": [
+            428
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_2027a504-9458-5357-8318-42f768f8dbde",
+        "line": 71,
+        "quote": "This approval is under the Agency's accelerated approval regulations (21CFR 314.500-560)",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_2027a5049458",
+          "found_lines": [
+            71
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "Sirturo (bedaquiline) was discussed at the Anti-Infective Drugs Advisory Committee on November 28, 2012 (the CrossR lists November 29), which voted 18-0 that efficacy was shown by the sputum-culture-conversion surrogate and 11-7 that safety was shown, judging the data adequate for accelerated but not traditional approval. The committee's central concern was a mortality imbalance favoring placebo in C208 stage 2, along with QT prolongation and hepatotoxicity; it recommended these be communicated in labeling. FDA granted accelerated approval with a required confirmatory trial, added a Boxed Warning and other labeling on mortality and QT, and after re-evaluating in light of the committee's concerns, concluded a REMS was not needed and that the risks could be managed through labeling."
+}

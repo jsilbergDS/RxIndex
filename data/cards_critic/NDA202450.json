@@ -1,0 +1,38 @@
+{
+  "app": "NDA202450",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 354)",
+  "_raw": "Let me analyze each section carefully.\n\n**Pivotal trials results:**\n- [0] result: \"0.124 L (95% CI 0.08, 0.16), p<0.001\" \u2014 citation has \"0.124 (0.021) (0.08, 0.16) <0.001\". Supported.\n- [1] M34 result: \"105 mL vs placebo, statistically significant\" \u2014 citation supports 105 mL. The \"400\" is a dose (ex",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "400",
+        "text": "Aclidinium 400 mcg BID trough FEV1 effect size 105 mL vs placebo, statistically "
+      },
+      {
+        "field": "pivotal_trials[2]/design",
+        "number": "12",
+        "text": "Randomized, double-blind, placebo-controlled, parallel-group; 12 weeks"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "400",
+        "text": "Aclidinium 400 mcg BID trough FEV1 effect size 72 mL vs placebo, statistically s"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "23",
+        "text": "The application dated June 23, 2011 was reviewed and approved effective on the d"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2011",
+        "text": "The application dated June 23, 2011 was reviewed and approved effective on the d"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

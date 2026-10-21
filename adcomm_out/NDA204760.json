@@ -1,0 +1,140 @@
+{
+  "app": "NDA204760",
+  "drug": "MOVANTIK",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_cc161bac-7666-5f0b-b76f-017b929095eb"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_14d428f2-b7c5-5133-82e6-d50ccc3564a3"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_63fc2782-8fce-586c-8da1-279e85cf53c0"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_a0aa778d-df01-571a-92b2-21463965509e"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Anesthetic and Analgesic Drug Products Advisory Committee (AADPAC) \u2014 convened as a general-matters meeting (not a product-specific meeting for this NDA) on the cardiovascular safety of the peripherally-acting mu-opioid receptor antagonist (PAMORA) class, which included Movantik (naloxegol)",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_14d428f2-b7c5-5133-82e6-d50ccc3564a3",
+      "line": 446,
+      "quote": "a general matters meeting of the Anesthetic and Analgesic Drug Products Advisory Committee was convened on June 11-12, 2014 to discuss the potential cardiovascular risk associated with products in the class of peripherally-acting opioid receptor antagonists and the necessity, timing, design and size of cardiovascular outcomes trials to support approval of products in the class for the proposed indication of opioid-induced constipation in patients taking opioids for chronic pain."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_14d428f2b7c5",
+      "found_lines": [
+        38,
+        446
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "June 11\u201312, 2014",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_cc161bac-7666-5f0b-b76f-017b929095eb",
+      "line": 114,
+      "quote": "The Anesthesia and Analgesia Drug Products Advisory committee (AADAC) met on June 11-12, 2014, to discuss the cardiovascular safety for five peripherally acting mu-opioid receptor antagonists in various stages of development for the treatment of OIC in patients with chronic non-cancer pain, including Movantik (naloxegol)"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_cc161bac7666",
+      "found_lines": [
+        114
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "On the general-matters vote, the majority of committee members (17 of 24) voted against requiring pre-approval cardiovascular outcome trials for this drug class, but there was general consensus that a modest-size 12-month controlled trial would be a useful addition to the class safety database.",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_cc161bac-7666-5f0b-b76f-017b929095eb",
+      "line": 115,
+      "quote": "The majority of committee members (17 of 24) voted against the need for pre-approval cardiovascular outcome trials for members of this drug class intended to treat OIC in patients with non-cancer pain."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_cc161bac7666",
+      "found_lines": [
+        115
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee discussed whether a pre-approval cardiovascular outcomes trial should be required for the PAMORA class (driven by a weak but non-ignorable CV signal from the Entereg 12-month trial); the majority voted against requiring a pre-approval CV outcome trial.",
+      "change": "Movantik was approved without a required pre-approval cardiovascular outcomes trial; the review team, citing the AC comments, deemed the existing safety database acceptable for approval.",
+      "category": "Safety / Approval without pre-approval CV trial",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_cc161bac-7666-5f0b-b76f-017b929095eb",
+        "line": 115,
+        "quote": "The majority of committee members (17 of 24) voted against the need for pre-approval cardiovascular outcome trials for members of this drug class intended to treat OIC in patients with non-cancer pain.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_cc161bac7666",
+          "found_lines": [
+            115
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_cc161bac-7666-5f0b-b76f-017b929095eb",
+        "line": 109,
+        "quote": "As a result of the clinical and consultant reviews, and AC comments, this safety database is acceptable for approval of Movantik.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_cc161bac7666",
+          "found_lines": [
+            109
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee reached general consensus that a modest-size 12-month controlled trial would be a useful addition to the class safety database to further evaluate cardiovascular risk.",
+      "change": "FDA imposed a postmarketing requirement (PMR 2779-1): a post-marketing observational epidemiologic study comparing Movantik to other OIC treatments with a primary MACE outcome.",
+      "category": "Safety / Postmarketing requirement (PMR)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_cc161bac-7666-5f0b-b76f-017b929095eb",
+        "line": 115,
+        "quote": "There was general consensus that a 12-month controlled trial of modest size would be a useful addition to the safety database of new members of this class of",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_cc161bac7666",
+          "found_lines": [
+            115
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_cc161bac-7666-5f0b-b76f-017b929095eb",
+        "line": 116,
+        "quote": "Thus, the FDA is requiring a postmarketing observational study to further evaluate the potential risk of cardiovascular adverse events in patients taking Movantik.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_cc161bac7666",
+          "found_lines": [
+            116
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "A general-matters Anesthetic and Analgesic Drug Products Advisory Committee (AADPAC) meeting was held June 11-12, 2014 to assess cardiovascular safety across the PAMORA class (including Movantik), not a product-specific meeting for this NDA. The majority (17 of 24) voted against requiring a pre-approval cardiovascular outcomes trial, so Movantik was approved without one and its existing safety database was deemed acceptable in part on the strength of the AC comments. Consistent with the committee's consensus that a longer-term controlled study would usefully add to the class safety database, FDA required a postmarketing observational study (PMR 2779-1) to further evaluate MACE risk."
+}

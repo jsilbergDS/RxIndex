@@ -1,0 +1,33 @@
+{
+  "app": "NDA208054",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 1 column 2 (char 1)",
+  "_raw": "Let me analyze this card carefully.\n\n**Automated flags review:**\n- `uncited_numbers` for result \"7\" and \"10\": The result quote says \"seven of ten patients\" \u2014 the number is spelled out, so \"7 of 10\" IS supported. False positive.\n- `first_cycle_approval` \"28\" and \"2015\": Dates are excluded per rules; ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "7",
+        "text": "Study met its primary PPV endpoint; at the subject level 7 of 10 (71%) patients "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "10",
+        "text": "Study met its primary PPV endpoint; at the subject level 7 of 10 (71%) patients "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "28",
+        "text": "Application submitted September 28, 2015 and approved effective on the date of t"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2015",
+        "text": "Application submitted September 28, 2015 and approved effective on the date of t"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

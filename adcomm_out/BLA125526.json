@@ -1,0 +1,107 @@
+{
+  "app": "BLA125526",
+  "drug": "NUCALA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fc254c0d-8a32-5f82-a7bd-90a028ffa4cb"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "e564d863-f748-5060-a2e9-fa300c0de488"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "a9a26238-386f-5b82-b04f-0a48bdf23599"
+    },
+    {
+      "doc_type": "LBL",
+      "doc_id": "ee0a34ce-28e6-520a-a049-1f52b23f4df4"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Pulmonary-Allergy Drugs Advisory Committee (PADAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fc254c0d-8a32-5f82-a7bd-90a028ffa4cb",
+      "line": 144,
+      "quote": "A meeting of the Pulmonary-Allergy Drugs Advisory Committee (PADAC) was held on June 11, 2015, to discuss this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fc254c0d-8a32-5f82-a7bd-90a028ffa4cb",
+      "found_lines": [
+        144
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "June 11, 2015 (the ODMemo at L92 states June 10, 2015; SumR and CrossR state June 11, 2015)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fc254c0d-8a32-5f82-a7bd-90a028ffa4cb",
+      "line": 144,
+      "quote": "A meeting of the Pulmonary-Allergy Drugs Advisory Committee (PADAC) was held on June 11, 2015, to discuss this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fc254c0d-8a32-5f82-a7bd-90a028ffa4cb",
+      "found_lines": [
+        144
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted to approve mepolizumab for adults (14 yes, 0 no) but voted against approval in adolescents 12 to 17 years (4 yes, 10 no), primarily because of the limited number of adolescent subjects in the development program.",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "e564d863-f748-5060-a2e9-fa300c0de488",
+      "line": 149,
+      "quote": "The committee voted unanimously (14 yes, 0 no) to approve mepolizumab for adults and voted against approval (4 yes, 10 no) in adolescents 12 to 17 years primarily because of the limited number of adolescent subjects in the development program."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "e564d863-f748-5060-a2e9-fa300c0de488",
+      "found_lines": [
+        149
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "At the advisory committee meeting, questions were raised about GSK's use of poorly documented historical blood eosinophil values (>=300 cells/uL in the past 12 months) to select the target population; in response GSK acknowledged the limitation of its database and that historical eosinophil counts were collected by subject queries.",
+      "change": "The indication statement was revised to remove GSK's proposed specific blood eosinophil cutoffs and the term 'eosinophilic asthma'; the approved label indicates NUCALA for severe asthma aged 12 years and older 'with an eosinophilic phenotype' rather than by defined eosinophil thresholds.",
+      "category": "Indication / wording (patient-selection criteria)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "e564d863-f748-5060-a2e9-fa300c0de488",
+        "line": 188,
+        "quote": "In fact, in response to a question at the Advisory Committee meeting regarding how this information was captured in the development program, GSK acknowledged the limitation of the database and indicated that information regarding historical eosinophil counts was collected by subject queries.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "e564d863-f748-5060-a2e9-fa300c0de488",
+          "found_lines": [
+            188
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "LBL",
+        "doc_id": "ee0a34ce-28e6-520a-a049-1f52b23f4df4",
+        "line": 48,
+        "quote": "NUCALA\u00ae is indicated for the add-on maintenance treatment of patients with severe asthma aged 12 years and older, and with an eosinophilic phenotype.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "ee0a34ce-28e6-520a-a049-1f52b23f4df4",
+          "found_lines": [
+            48
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Pulmonary-Allergy Drugs Advisory Committee (PADAC) met on June 11, 2015 and voted 14-0 to support approval of mepolizumab (NUCALA) in adults but voted 4-10 against approval in adolescents 12-17 years because the development program enrolled only 28 adolescents; FDA nevertheless approved for ages 12 and older, agreeing with the Division Director that there was no compelling evidence adolescents would respond differently. The committee and its discussion also questioned GSK's reliance on poorly documented historical blood eosinophil counts to define the population, and the final indication was revised away from GSK's proposed specific eosinophil cutoffs and the term 'eosinophilic asthma' to 'severe asthma ... with an eosinophilic phenotype.' No safety-driven boxed warning or REMS resulted from the committee."
+}

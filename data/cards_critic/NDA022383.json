@@ -1,0 +1,43 @@
+{
+  "app": "NDA022383",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 10 column 5 (char 362)",
+  "_raw": "Analyzing the card for quality issues.\n\nLet me check the key elements:\n\n1. **first_cycle_approval = false** with a CRL cited \u2014 this is consistent with crl_history.prior_crl=true. The review DOES mention a prior CRL (Oct 16, 2009), so value=false is correct and supported. Not an issue.\n\n2. **priority",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "4",
+        "text": "Study B2354 (Trial 4 in label)"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "5",
+        "text": "Study B2355 (Trial 5 in label)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "12",
+        "text": "Trough FEV1 at Week 12: indacaterol 75 mcg 1.49 L vs placebo 1.35 L; treatment d"
+      },
+      {
+        "field": "key_safety",
+        "number": "75",
+        "text": "Most common adverse reactions (>2% and more common than placebo) are cough, orop"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "8",
+        "text": "Standard 505(b)(1) NDA for indacaterol maleate (Arcapta Neohaler) 75 mcg for COP"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2011",
+        "text": "Standard 505(b)(1) NDA for indacaterol maleate (Arcapta Neohaler) 75 mcg for COP"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

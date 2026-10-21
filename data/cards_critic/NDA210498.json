@@ -1,0 +1,62 @@
+{
+  "app": "NDA210498",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "key_safety.text",
+      "severity": "low",
+      "issue": "Text adds 'left ventricular dysfunction' alongside cardiomyopathy, but the cited quote only lists 'cardiomyopathy'; minor over-specification not in citations."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "False-positive flag: the uncited '1' values come from the randomization ratio '1:1:1', which is supported by the three-arm structure and the 192/194/191 N breakdown."
+    },
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "low",
+      "issue": "False-positive flag: the uncited '450' is part of the arm label 'Combo 450', a dose-derived identifier already cited in the design field."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive flag: the uncited '450' is the 'Combo 450' arm label (dose identifier), not an efficacy statistic; the efficacy numbers (14.9, 7.3, HR 0.54, CI 0.41-0.71, p<0.0001) are all cited."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "1",
+        "text": "Open-label, randomized, multicenter, two-part study; Part 1 randomized 1:1:1 to "
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "1",
+        "text": "Open-label, randomized, multicenter, two-part study; Part 1 randomized 1:1:1 to "
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "1",
+        "text": "Open-label, randomized, multicenter, two-part study; Part 1 randomized 1:1:1 to "
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "1",
+        "text": "Open-label, randomized, multicenter, two-part study; Part 1 randomized 1:1:1 to "
+      },
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "450",
+        "text": "Primary endpoint was progression-free survival (PFS) by RECIST v1.1 per blinded "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "450",
+        "text": "Median PFS 14.9 months for Combo 450 vs 7.3 months for vemurafenib (HR 0.54, 95%"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

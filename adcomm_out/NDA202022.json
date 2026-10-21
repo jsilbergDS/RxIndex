@@ -1,0 +1,83 @@
+{
+  "app": "NDA202022",
+  "drug": "EDURANT",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_82f129c7-f9d5-563f-b506-2dda3e7b90ae"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_b33ff85c-febe-53ea-a37d-cef162fc5208"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_5be2a9f3-5085-5e17-bc24-bbe338ea1710"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "None convened; the application would have gone to the Antiviral Products Advisory Committee but was not presented",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_5be2a9f3-5085-5e17-bc24-bbe338ea1710",
+      "line": 80,
+      "quote": "The Division and Office Directors agreed that this NDA would not be presented at the Antiviral Products Advisory Committee."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_5be2a9f35085",
+      "found_lines": [
+        80
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "No meeting held",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_b33ff85c-febe-53ea-a37d-cef162fc5208",
+      "line": 139,
+      "quote": "Not applicable. See Background section 2 for rationale for not convening an advisory committee meeting."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_b33ff85cfebe",
+      "found_lines": [
+        139
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "No advisory committee recommendation; a waiver of the AC meeting was granted",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_5be2a9f3-5085-5e17-bc24-bbe338ea1710",
+      "line": 80,
+      "quote": "The applicant submitted a justification for waiver of an Advisory Committee meeting. The Division and Office Directors agreed that this NDA would not be presented at the Antiviral Products Advisory Committee."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_5be2a9f35085",
+      "found_lines": [
+        80
+      ]
+    }
+  },
+  "linkages": [],
+  "no_adcom_quote": {
+    "doc_type": "SumR",
+    "doc_id": "fda_82f129c7-f9d5-563f-b506-2dda3e7b90ae",
+    "line": 8,
+    "quote": "For similar reasons, this application was not presented before the Antiviral Products Advisory Committee."
+  },
+  "summary": "No advisory committee meeting was convened for the EDURANT (rilpivirine) NDA202022. The applicant submitted a justification for waiver, and the Division and Office Directors agreed the NDA would not be presented to the Antiviral Products Advisory Committee because rilpivirine was the fifth NNRTI in its class with a non-controversial risk/benefit profile and no significant scientific questions requiring outside expertise. Because no committee met, there are no AC-driven linkages to the approval.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "fda_82f129c7f9d5",
+    "found_lines": [
+      8
+    ]
+  }
+}

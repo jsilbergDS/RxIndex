@@ -1,0 +1,83 @@
+{
+  "app": "BLA125141",
+  "drug": "MYOZYME",
+  "docs_read": [
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_95f26c0f-073f-5f10-b134-82fee9857704"
+    },
+    {
+      "doc_type": "AdminCorres",
+      "doc_id": "fda_dbafae1c-e341-520d-823b-36c468cf2e41"
+    },
+    {
+      "doc_type": "Approval",
+      "doc_id": "fda_f65eeb31-0936-5858-bd84-f38a00cedbad"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "None convened",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_95f26c0f-073f-5f10-b134-82fee9857704",
+      "line": 233,
+      "quote": "This application was not presented to an Advisory Committee. The application was discussed at a CDEF Regulatory Briefing on March 3, 2006."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_95f26c0f073f",
+      "found_lines": [
+        233
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "No meeting held",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_95f26c0f-073f-5f10-b134-82fee9857704",
+      "line": 673,
+      "quote": "No Advisory Committee Meeting was convened to discuss this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_95f26c0f073f",
+      "found_lines": [
+        673
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "No advisory committee vote or recommendation; application reviewed internally and approved",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_95f26c0f-073f-5f10-b134-82fee9857704",
+      "line": 92,
+      "quote": "No Advisory Committee meeting was convened to discuss this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_95f26c0f073f",
+      "found_lines": [
+        92
+      ]
+    }
+  },
+  "linkages": [],
+  "no_adcom_quote": {
+    "doc_type": "MedR",
+    "doc_id": "fda_95f26c0f-073f-5f10-b134-82fee9857704",
+    "line": 233,
+    "quote": "This application was not presented to an Advisory Committee. The application was discussed at a CDEF Regulatory Briefing on March 3, 2006."
+  },
+  "summary": "No FDA advisory committee meeting was convened for the Myozyme (alglucosidase alfa) BLA 125141; the Medical Review states this in three places (L92, L233, L673) and the administrative correspondence records that a determination was made not to go to an Advisory Committee. Instead the application was discussed at an internal CDER Regulatory Briefing on March 3, 2006, and the review team's label/indication discussions were informed by that briefing and by a prior Endocrinologic and Metabolic Drugs Advisory Committee discussion of Inborn Errors of Metabolism trials (Jan 13-15, 2003). Because no AdComm was held for this application, there are no committee-to-change linkages.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "fda_95f26c0f073f",
+    "found_lines": [
+      233
+    ]
+  }
+}

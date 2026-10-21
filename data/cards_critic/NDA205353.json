@@ -1,0 +1,73 @@
+{
+  "app": "NDA205353",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Extra data: line 43 column 1 (char 2084)",
+  "_raw": "Analyzing the card for quality problems.\n\n```json\n{\n  \"app\": \"NDA205353\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].result\",\n      \"severity\": \"high\",\n      \"issue\": \"The subgroup result cites median PFS 10.6 vs 5.8 and HR 0.52 (0.36, 0.76) but the number 193 is",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "2181",
+        "text": "PMR 2181-1: Conduct a randomized Phase 2 trial of panobinostat with subcutaneous"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "1",
+        "text": "PMR 2181-1: Conduct a randomized Phase 2 trial of panobinostat with subcutaneous"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "2181",
+        "text": "PMR 2181-2: Conduct a multicenter, randomized, placebo-controlled Phase 3 trial "
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "2",
+        "text": "PMR 2181-2: Conduct a multicenter, randomized, placebo-controlled Phase 3 trial "
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "2181",
+        "text": "PMR 2181-2: Conduct a multicenter, randomized, placebo-controlled Phase 3 trial "
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "1",
+        "text": "PMR 2181-2: Conduct a multicenter, randomized, placebo-controlled Phase 3 trial "
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "2181",
+        "text": "Required further adequate and well-controlled trials to verify and describe clin"
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "1",
+        "text": "Required further adequate and well-controlled trials to verify and describe clin"
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "2",
+        "text": "Required further adequate and well-controlled trials to verify and describe clin"
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "2181",
+        "text": "Required further adequate and well-controlled trials to verify and describe clin"
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "2",
+        "text": "Required further adequate and well-controlled trials to verify and describe clin"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "FARYDAK received accelerated approval based on progression-free survival for a m"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

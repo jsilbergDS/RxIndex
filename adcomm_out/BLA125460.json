@@ -1,0 +1,108 @@
+{
+  "app": "BLA125460",
+  "drug": "VIMIZIM",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_e796a9ef-3e99-5d8c-8e3c-c84d1f0305df"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_ce45b331-4643-5035-850f-8216b1129bb2"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_f341ba42-09b4-53c8-a20f-8d0e35b0187b"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_f811a03a-ea60-5f1e-9df2-d81c8f7f1b2e"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_e796a9ef-3e99-5d8c-8e3c-c84d1f0305df",
+      "line": 64,
+      "quote": "On November 19, 2013, the Division sought advice from the Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC) regarding the appropriateness of the 6MWT to assess treatment benefit in this patient population."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_e796a9ef3e99",
+      "found_lines": [
+        64
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "November 19, 2013",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "fda_f811a03a-ea60-5f1e-9df2-d81c8f7f1b2e",
+      "line": 50,
+      "quote": "A meeting of the Endocrinologic and Metabolic Drugs Advisory Committee was convened on November 19, 2013 to discuss the efficacy and safety of elosulfase."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_f811a03aea60",
+      "found_lines": [
+        50
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The majority voted for approval in all MPS IVA patients: 18 members voted for approval in all patients, 2 for approval in a subgroup, and 1 against approval.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_ce45b331-4643-5035-850f-8216b1129bb2",
+      "line": 94,
+      "quote": "Eighteen EMDAC members voted for approval of Vimizim in all patients with MPS IVA; two voted for approval for a subgroup of MPS IVA patients; and one voted against approval."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_ce45b3314643",
+      "found_lines": [
+        94
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "AC members were concerned about the long-term durability of the treatment effect of elosulfase alfa, and noted the pivotal 6MWT result may not fully capture clinically meaningful benefit over time.",
+      "change": "Approval was granted with required postmarketing studies to demonstrate long-term clinical benefit (durability) and safety of the drug.",
+      "category": "Postmarketing requirement / durability of effect",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "fda_f341ba42-09b4-53c8-a20f-8d0e35b0187b",
+        "line": 898,
+        "quote": "AC members were concerned about the long term durability of effect with elosulfase alfa treatment.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_f341ba4209b4",
+          "found_lines": [
+            898,
+            902
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MedR",
+        "doc_id": "fda_f341ba42-09b4-53c8-a20f-8d0e35b0187b",
+        "line": 247,
+        "quote": "This reviewer recommends approval of BLA 125460 with the requirement for postmarketing studies to demonstrate long-term clinical benefit and safety with use of the drug product.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_f341ba4209b4",
+          "found_lines": [
+            247
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC) meeting was held on November 19, 2013, convened chiefly to confirm whether the 6-minute walk test (6MWT) was an adequate, clinically meaningful efficacy endpoint for MPS IVA. The committee largely validated the application: the majority found the 6MWT adequate and voted for approval (18 for approval in all patients, 2 for a subgroup, 1 against), and the majority saw no major safety concerns. The committee did not drive major changes to the approval; its concern about the long-term durability of effect aligns with (but is not explicitly tied in the reviews to) the review team's requirement for postmarketing studies of long-term benefit and safety."
+}

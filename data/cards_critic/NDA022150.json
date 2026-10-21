@@ -1,0 +1,38 @@
+{
+  "app": "NDA022150",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 279)",
+  "_raw": "Analyzing the card against the checks.\n\nThe automated flags are all false positives: \"VAS-3\", \"FAST-3\", \"02/25\", \"FAST-2\", \"FAST-3\" and \"June 23\" are label/date/study-ID fragments, not efficacy numbers.\n\nThe card is internally consistent: crl_history.prior_crl=true matches first_cycle_approval.value",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "3",
+        "text": "Median time to onset of symptom relief (composite VAS-3) was 2.0 hours with icat"
+      },
+      {
+        "field": "receipt_date",
+        "number": "02",
+        "text": "02/25/2011 (Received Date of the Standard-Resubmission / Complete Response revie"
+      },
+      {
+        "field": "crl_history/basis",
+        "number": "2",
+        "text": "The submitted clinical data did not provide substantial evidence that icatibant "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Icatibant is a new molecular entity (the first bradykinin B2 receptor antagonist"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "23",
+        "text": "Icatibant is a new molecular entity (the first bradykinin B2 receptor antagonist"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

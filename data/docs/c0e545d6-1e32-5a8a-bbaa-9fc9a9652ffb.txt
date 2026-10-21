@@ -1,0 +1,999 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+L2: **204819Orig1s000**
+L3: **STATISTICAL REVIEW(S)**
+L4: FDA seal/logo
+L5: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L6: ## STATISTICAL REVIEW AND EVALUATIONCLINICAL STUDIES
+L7: **NDA/BLA #:** NDA 204-819
+**Supplement #:**
+**Drug Name:** Riociguat
+**Indication(s):** Improve symptoms in PAH and CTEPH
+**Applicant:** Bayer
+**Date(s):** 2/8/2013
+L8: **Review Priority:** Priority
+L9: **Biometrics Division:** DBI
+**Statistical Reviewer:** John Lawrence, Ph D
+**Concurring Reviewers:** Jim Hung, Ph D
+L10: **Medical Division:** Cardiorenal
+**Clinical Team:** Preston Dunnmon, M D
+**Project Manager:** Ed Fromme
+L11: **Keywords:**
+mixed models, longitudinal data analysis
+L12: ## Table of Contents
+L13: EXECUTIVE SUMMARY	5
+INTRODUCTION	6
+1.1 OVERVIEW	6
+1.2 DATA SOURCES	6
+STATISTICAL EVALUATION	6
+1.3 DATA AND ANALYSIS QUALITY	6
+1.4 EVALUATION OF EFFICACY	7
+1.4.1 Study Design and Endpoints	7
+1.4.2 Statistical Methodologies	7
+1.4.3 Patient Disposition, Demographic and Baseline Characteristics	8
+1.4.4 Results and Conclusions	11
+1.5 EVALUATION OF SAFETY	18
+1.6 BENEFIT-RISK ASSESSMENT (OPTIONAL)	18
+FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	18
+1.7 GENDER, RACE, AGE, AND GEOGRAPHIC REGION	18
+1.8 OTHER SPECIAL/SUBGROUP POPULATIONS	19
+SUMMARY AND CONCLUSIONS	19
+1.9 STATISTICAL ISSUES	19
+1.10 COLLECTIVE EVIDENCE	19
+1.11 CONCLUSIONS AND RECOMMENDATIONS	19
+1.12 LABELING RECOMMENDATIONS (AS APPLICABLE)	20
+L14: ## LIST OF TABLES
+L15: Table 1 Patient disposition for trial 12934 (Table 8-2 of Study Report)	8
+Table 2 Patient demographic characteristics for trial 12934 (Table 8-5 of Study Report)	9
+Table 3 Patient demographic characteristics for trial 12934 (Table and 8-8 of Study Report)	10
+Table 4 Patient disposition for trial 11348 (Table 8-2 of Study Report)	10
+Table 5 Patient demographic characteristics for trial 11348 (Table 8-5 of Study Report)	10
+Table 6 Patient demographic characteristics for trial 11348 (Table and 8-8 of Study Report)	11
+Table 7 Results for primary endpoint in Trial 12934 (Table and 9-2 of Study Report and confirmed by FDA)	12
+Table 8 Secondary endpoints for study 12934 (Table 9-6 of Study Report)	14
+Table 9 Results for primary endpoint in Trial 11348 (Table and 9-2 of Study Report and confirmed by FDA)	15
+Table 10 Secondary endpoints for study 11348 (Table 9-6 of Study Report)	17
+Table 11 Results for 6MWD in trial 12934 (Table 14.2.5/1 of Study Report)	18
+Table 12 Results for 6MWD in trial 11348 (Table 14.2.5/1 of Study Report)	19
+L16: ## LIST OF FIGURES
+L17: Figure 1 Cumulative distribution of change in 6MWD for three treatment groups in trial 12934 (FDA)	13
+Figure 2 Scatterplot of change in PVR and change in 6MWD for subjects in study 12934 (FDA)	14
+Figure 3 Cumulative distribution of change in 6MWD for three treatment groups in trial 11348 (FDA)	16
+Figure 4 Scatterplot of change in PVR and change in 6MWD for subjects in study 11348 (FDA)	17
+L18: ## EXECUTIVE SUMMARY
+L19: This submission contains two phase 3 trials to support two separate but related indications. Trial 12934 (PATENT-1) was a randomized, double-blind, placebo-controlled, multi-center, multinational study to evaluate the efficacy and safety of oral riociguat (1 mg, 1.5 mg, 2 mg, or 2.5 mg tid) in patients with symptomatic pulmonary arterial hypertension (PAH). Trial 11348 (CHEST-1) was a randomized, double-blind, placebo-controlled, multicenter, multinational study to evaluate the efficacy and safety of oral riociguat (1 mg, 1.5 mg, 2 mg, or 2.5 mg tid) in patients with chronic thromboembolic pulmonary hypertension (CTEPH).
+L20: Both studies met their primary objective of showing an improvement compared to placebo in 6-minute walk distance, a symptomatic benefit. No statistical issues were identified with these trials.
+L21: ## INTRODUCTION
+L22: ## 1.1 Overview
+L23: **Table: List of all studies included in analysis**
+L24: Phase and Design	Treatment Period	Follow-up Period	# of Subjects per Arm	Study Population
+Study 12934	Phase 3	12 weeks	12 weeks	Riociguat 1.0-2.5 mg group: 254
+Placebo group: 126
+Riociguat 1.0-1.5 mg group: 63	Symptomatic PAH (Group 1)
+Study 11348	Phase 3	16 weeks	16 weeks	Riociguat 1.0-2.5 mg group: 173
+Placebo group: 88	CTEPH
+L25: Both studies used a primary endpoint of change from baseline in 6-minute walk distance.
+L26: ## 1.2 Data Sources
+L27: Electronic datasets and Study Reports:
+L28: file:///cdsesub1\evsprod\NDA204819\204819.enx
+L29: file:///cdsesub1\evsprod\NDA204819\0000\m5\datasets
+L30: ## STATISTICAL EVALUATION
+L31: ## 1.3 Data and Analysis Quality
+L32: The data quality and analysis quality were both excellent.
+L33: PAH trials are in general, prone to have substantial missing data. Handling those missing observations is difficult and the best way to deal with it is to try to avoid it. These two trials had
+L34: relatively few subjects with missing data. In addition, the sponsor conducted many sensitivity analyses to examine the effect of different assumptions on the missing data. These sensitivity analyses consistently showed a moderately large effect on the primary endpoint.
+L35: ## 1.4 Evaluation of Efficacy
+L36: ## 1.4.1 Study Design and Endpoints
+L37: Trial 12934 (PATENT-1) was a randomized, double-blind, placebo-controlled, multi-center, multinational study to evaluate the efficacy and safety of oral riociguat (1 mg, 1.5 mg, 2 mg, or 2.5 mg tid) in patients with symptomatic pulmonary arterial hypertension (PAH). The primary endpoint was change in 6 minute walk distance (6MWD)
+L38: Trial 11348 (CHEST-1) was a randomized, double-blind, placebo-controlled, multicenter, multinational study to evaluate the efficacy and safety of oral riociguat (1 mg, 1.5 mg, 2 mg, or 2.5 mg tid) in patients with chronic thromboembolic pulmonary hypertension (CTEPH). The primary endpoint was change in 6MWD.
+L39: ## 1.4.2 Statistical Methodologies
+L40: In trial 12934, the primary efficacy analysis was the analysis of the change in 6MWD from baseline to week 12 (last observation until week 12) in subjects valid for ITT, with imputation of missing values for subjects who withdrew or died before 12 weeks. The riociguat 1.0-2.5 mg and placebo groups were compared using analysis of covariance (ANCOVA), with baseline 6MWD as a covariate and treatment group, stratification group (therapy-naïve / add-on), and region as main effects. The primary statistical method would be the stratified Wilcoxon test if the Shapiro-Wilk test for normality of residuals was statistically significant. Least squares (LS) mean and 95% confidence intervals (CIs) of the treatment difference were calculated based on the ANCOVA. Superiority of the riociguat 1.0-2.5 mg group over the placebo group was to be declared if the two-sided p-value was less than or equal to 0.05.
+L41: In trial 11348, The primary efficacy analysis was the analysis of the change in 6MWD from baseline to week 16 (last observation until week 16) in subjects valid for ITT, with imputation of missing values for subjects who withdrew or died before 16 weeks. The riociguat 1.0-2.5 mg and placebo groups were compared using analysis of covariance (ANCOVA), with baseline 6MWD as a covariate and treatment group and region as main effects. The primary statistical method would be the stratified Wilcoxon test if the Shapiro-Wilk test for normality of residuals was statistically significant. Least squares (LS) mean and 95% confidence intervals (CIs) of the treatment difference were calculated based on the ANCOVA. Superiority of the
+L42: riociguat 1.0-2.5 mg group over the placebo group was to be declared if the two-sided p-value was less than 0.05.
+L43: ## 1.4.3 Patient Disposition, Demographic and Baseline Characteristics
+L44: ## 1.4.3.1 Trial 12934
+L45: The patient disposition is shown in Table 1. Close to 90% of the subjects in all 3 groups completed treatment.
+L46: Riociguat
+1.0-2.5 mg
+N=254 (100%)	Placebo
+N=127 (100%)	Riociguat
+1.0-1.5 mg
+N=64 (100%)
+Completed treatment	237 (93.3%)	111 (87.4%)	57 (89.1%)
+Prematurely discontinued	17 (6.7%)	16 (12.6%)	7 (10.9%)
+Adverse event	8 (3.1%)	7 (5.5%)	1 (1.6%)
+Death	0 –	2 (1.6%)	1 (1.6%)
+Lack of efficacy	0 –	1 (0.8%)	0 –
+Lost to follow-up	1 (0.4%)	0 –	0 –
+Non-compliance with study drug	1 (0.4%)	0 –	0 –
+Protocol violation	1 (0.4%)	3a (2.4%)	3a (4.7%)
+Withdrawal by subject	6 (2.4%)	3 (2.4%)	2 (3.1%)
+L47: Table 1 Patient disposition for trial 12934 (Table 8-2 of Study Report)
+L48: The patient demographic characteristics are shown in Table 2 and Table 3. The demographics were comparable between the three groups. The riociguat 1.0-2.5 arm had more subjects with baseline 6MWD less than 380 m compared to the placebo group. However, the mean PVR in the riociguat group was lower than the mean in the placebo group. The latter is not a statistically significant difference, but low PVR is associated with less severe disease; i.e. it suggests that the subjects randomized to riociguat 1.0-2.5 may not have had much more severe symptoms at baseline than the placebo group.
+L49: Characteristic	Riociguat
+1.0–2.5 mg
+N=254 (100%)	Placebo
+N=126 (100%)	Riociguat
+1.0–1.5 mg
+N=63 (100%)
+Sex	
+Male	51 (20.1%)	28 (22.2%)	14 (22.2%)
+Female	203 (79.9%)	98 (77.8%)	49 (77.8%)
+Race / Ethnicity	
+White	161 (63.4%)	78 (61.9%)	33 (52.4%)
+Black or African American	4 (1.6%)	1 (0.8%)	1 (1.6%)
+Asian	79 (31.1%)	38 (30.2%)	22 (34.9%)
+Multiple races	1 (0.4%)	1 (0.8%)	0 –
+Hispanic or latino	9 (3.5%)	8 (6.3%)	7 (11.1%)
+Age (years)	
+N	254	126	63
+Mean (SD)	51.1 (16.6)	50.7 (16.5)	48.8 (16.1)
+Median (Min-Max)	52.5 (18-80)	51.0 (18-79)	49.0 (18-77)
+Age group	
+Age <65 years	188 (74.0%)	94 (74.6%)	49 (77.8%)
+Age ≥65 years	66 (26.0%)	32 (25.4%)	14 (22.2%)
+L50: Table 2 Patient demographic characteristics for trial 12934 (Table 8-5 of Study Report)
+L51: Characteristic	Riociguat
+1.0–2.5 mg
+N=254 (100%)	Placebo
+N=126 (100%)	Riociguat
+1.0–1.5 mg
+N=63 (100%)
+WHO functional class	
+I	5 (2.0%)	4 (3.2%)	5 (7.9%)
+II	108 (42.5%)	60 (47.6%)	19 (30.2%)
+III	140 (55.1%)	58 (46.0%)	39 (61.9%)
+IV	1 (0.4%)	3 (2.4%)	0 –
+Missing	0 –	1 (0.8%)	0 –
+6MWD category	
+<320 m	67 (26.4%)	27 (21.4%)	14 (22.2%)
+≥320 m	187 (73.6%)	99 (78.6%)	49 (77.8%)
+6MWD category	
+<380 m	139 (54.7%)	53 (42.1%)	30 (47.6%)
+≥380 m	115 (45.3%)	73 (57.9%)	33 (52.4%)
+PVR (dyn*s*cm-5)	
+N	232	107	58
+Mean (SD)	791.0 (452.6)	834.1 (476.7)	847.8 (548.2)
+Median (Min-Max)	685.2
+(241.5-2613.3)	740.0
+(286.1-2545.5)	729.7
+(258.1-3617.4)
+PAPmean (mmHg)	
+N	235	109	58
+Mean (SD)	47.1 (14.8)	48.9 (15.2)	52.1 (16.2)
+Median (Min-Max)	45.7
+(23.0-96.0)	48.0
+(24.3-94.0)	51.2
+(26.7-107.0)
+L52: Table 3 Patient demographic characteristics for trial 12934 (Table and 8-8 of Study Report)
+L53: ## 1.4.3.2 Trial 11348
+L54: The patient disposition is shown in Table 4. More than 90% of the subjects in both groups completed treatment.
+L55: Riociguat
+1.0–2.5 mg
+N=174 (100%)	Placebo
+N=88 (100%)
+Completed treatment	160 (92.0%)	83 (94.3%)
+Prematurely discontinued	14 (8.0%)	5 (5.7%)
+Adverse event	4 (2.3%)	2 (2.3%)
+Death	2 (1.1%)	2 (2.3%)
+Lack of efficacy	2 (1.1%)	1 (1.1%)
+Non-compliance with study drug	1 (0.6%)	0 –
+Protocol violation	3a (1.7%)	0 –
+Withdrawal by subject	2 (1.1%)	0 –
+L56: Table 4 Patient disposition for trial 11348 (Table 8-2 of Study Report)
+L57: The patient demographic characteristics are shown in Table 5 and Table 6. The demographics were comparable between the two groups.
+L58: Characteristic	Riociguat
+1.0–2.5 mg
+N=173 (100%)	Placebo
+N=88 (100%)
+Sex	
+Male	55 (31.8%)	34 (38.6%)
+Female	118 (68.2%)	54 (61.4%)
+Race / Ethnicity	
+White	120 (69.4%)	65 (73.9%)
+Black or African American	7 (4.0%)	1 (1.1%)
+Asian	37 (21.4%)	20 (22.7%)
+Multiple races	1 (0.6%)	0 –
+Hispanic or Latino	8 (4.6%)	2 (2.3%)
+Age (years)	
+N	173	88
+Mean (SD)	59.3 (13.9)	59.2 (12.7)
+Median (Min-Max)	62.0 (19-80)	61.0 (26-77)
+Age group	
+Age <65 years	99 (57.2%)	52 (59.1%)
+Age ≥65 years	74 (42.8%)	36 (40.9%)
+L59: Table 5 Patient demographic characteristics for trial 11348 (Table 8-5 of Study Report)
+L60: Characteristic	Riociguat
+1.0–2.5 mg
+N=173 (100%)	Placebo
+N=88 (100%)
+WHO functional class	
+I	3 (1.7%)	0 –
+II	55 (31.8%)	25 (28.4%)
+III	107 (61.8%)	60 (68.2%)
+IV	8 (4.6%)	2 (2.3%)
+Missing	0 –	1 (1.1%)
+6MWD category	
+<320 m	60 (34.7%)	25 (28.4%)
+≥320 m	113 (65.3%)	63 (71.6%)
+6MWD category	
+<380 m	109 (63.0%)	50 (56.8%)
+≥380 m	64 (37.0%)	38 (43.2%)
+PVR (dyn*s*cm-5)	
+N	151	82
+Mean (SD)	790.7 (431.6)	779.3 (400.9)
+Median (Min-Max)	711.1
+(195.2-3942.0)	691.4
+(258.1-2046.8)
+L61: Table 6 Patient demographic characteristics for trial 11348 (Table and 8-8 of Study Report)
+L62: ## 1.4.4 Results and Conclusions
+L63: ## 1.4.4.1 Trial 12934
+L64: The results for the primary endpoint are shown in Table 7. Note that the Shapiro-Wilk test for normality of the ANCOVA residuals was significant (p=0.0001). Therefore, the stratified Wilcoxon p-value was formally used for determining statistical significance, as pre-specified in the statistical analysis plan. The cumulative distribution functions for change in 6MWD are shown in Figure 1 (those subjects with worst case imputations were not included in estimating the cumulative distribution functions in this figure). The LS mean difference shown in the table is not a good estimate of the treatment effect for the same reason that the ANCOVA is not a good test (errors not normally distributed). A better estimate would be the Hodges-Lehmann estimate associated with the stratified Wilcoxon test†, which I calculated as 29 m with a 95% CI of (18 m, 40 m).
+L65: † Randles, Ronald H., and Douglas A. Wolfe. *Introduction to the theory of nonparametric statistics*, by Randles, Ronald H.; Wolfe, Douglas A. New York: Wiley, c1979. Wiley series in probability and mathematical statistics 1 (1979).
+L66: A Bayesian estimate of the treatment effect for a uniform prior would be the mean of the posterior distribution, which is normal with mean 35.78 and standard deviation 8.02. This Bayesian estimate also uses the assumption that the estimator is normally distributed.
+L67: Statistic	Riociguat
+1.0–2.5 mg
+N=254	Placebo
+N=126	Riociguat
+1.0–1.5 mg
+N=63
+Baseline	
+Mean (SD)	361.4 (67.7)	367.8 (74.6)	363.2 (66.6)
+Median (Min-Max)	374.5 (160-468)	391.0 (150-450)	385.0 (158-448)
+Change from baseline to last visit	
+Mean (SD)	29.6 (65.8)	-5.6 (85.5)	31.1 (79.3)
+Median (Min-Max)	30.0 (-430-279)	8.5 (-400-204)	32.0 (-415-190)
+Treatment comparison	Riociguat 1.0-2.5 mg – placebo
+LS mean difference	35.78
+95% CI	20.06 to 51.51
+p-value (ANCOVA)	<0.0001
+p-value (stratified Wilcoxon test)	<0.0001
+L68: ANCOVA model with baseline value, treatment group, region, and stratification group as fixed effects, stratified Wilcoxon test by region and stratification group
+Last visit = Last observed value (not including follow-up) for subjects who completed the study or withdrew, except imputed worst value in case of death or clinical worsening without a termination visit or a measurement at that termination visit. Worst value imputation for 6MWD at last visit was performed for 2 subjects in the riociguat 1.0-2.5 mg group and 6 subjects in the placebo group.
+L69: Table 7 Results for primary endpoint in Trial 12934 (Table and 9-2 of Study Report and confirmed by FDA)
+L70: Figure 1 Cumulative distribution of change in 6MWD for three treatment groups in trial 12934 (FDA).
+L71: The secondary endpoints are listed in Table 8. These were tested in sequential order in the order listed in the table. The scatterplot of PVR and 6MWD measurements for those subjects with observed values of both variables is shown in Figure 2. There is a weak relationship between the two variables.
+L72: Variable	Treatment effect ANCOVA p-value	Shapiro-Wilk test p-value	Stratified Wilcoxon test p-value	Statistically significant	Statistically significant in hierarchical testing
+6MWD (primary)	<0.0001	0.0001	<0.0001	Yes	Yes
+PVR	<0.0001	0.0001	<0.0001	Yes	Yes
+NT-proBNP	0.0157	0.0001	<0.0001	Yes	Yes
+WHO functional class	—	—	0.0033	Yes	Yes
+Time to clinical worsening	0.0285a	—	0.0046b	Yes	Yes
+Borg CR 10 scalec	—	—	0.0022	Yes	Yes
+EQ-5D questionnaire	0.0197	0.0001	0.0663	No	No
+LPH questionnaire	0.0009	0.0001	0.0019	Yes	No
+L73: P-values used to determine statistical significance are given in bold.
+L74: a Mantel-Haenszel estimate p-value for incidence of clinical worsening
+L75: b Stratified log-rank test p-value for time to clinical worsening.
+L76: Table 8 Secondary endpoints for study 12934 (Table 9-6 of Study Report)
+L77: Figure 2 Scatterplot of change in PVR and change in 6MWD for subjects in study 12934 (FDA).
+L78: ## 1.4.4.2 Trial 11348
+L79: The results for the primary endpoint are shown in Table 9. Note that the Shapiro-Wilk test for normality of the ANCOVA residuals was significant (p=0.0001). Therefore, the stratified Wilcoxon p-value was formally used for determining statistical significance, as pre-specified in the statistical analysis plan. The cumulative distribution functions for change in 6MWD are shown in Figure 3 (those subjects with worst case imputations were not included in estimating the cumulative distribution functions in this figure). The LS mean difference shown in the table is not a good estimate of the treatment effect for the same reason that the ANCOVA is not a good test (errors not normally distributed). As in the other trial, a better estimate would be the Hodges-Lehmann estimate associated with the stratified Wilcoxon test, which I calculated as 39 m with a 95% CI of (25 m, 54 m).
+L80: A Bayesian estimate of the treatment effect for a uniform prior would be the mean of the posterior distribution, which is normal with mean 45.69 and standard deviation 10.69. This Bayesian estimate also uses the assumption that the estimator is normally distributed.
+L81: Statistic	Riociguat
+1.0-2.5 mg
+N=173	Placebo
+N=88
+Baseline	
+Mean (SD)	342.3 (81.9)	356.0 (74.7)
+Median (Min-Max)	360.0 (150-557)	372.0 (152-474)
+Change from baseline to last visit	
+Mean (SD)	38.9 (79.3)	-5.5 (84.3)
+Median (Min-Max)	42.0 (-376-335)	5.0 (-389-226)
+Treatment comparison	Riociguat 1.0-2.5 mg – placebo
+LS mean difference	45.69
+95% CI	24.74 to 66.63
+p-value (ANCOVA)	<0.0001
+p-value (stratified Wilcoxon test)	<0.0001
+L82: ANCOVA model with baseline value, treatment group, and region as fixed effects, stratified Wilcoxon test by region
+L83: Last visit = Last observed value (not including follow-up) for subjects who completed the study or withdrew, except imputed worst value in case of death or clinical worsening without a termination visit or a measurement at that termination visit. Worst value imputation for 6MWD at last visit was performed for 4 subjects in the riociguat 1.0-2.5 mg group and 4 subjects in the placebo group.
+L84: Table 9 Results for primary endpoint in Trial 11348 (Table and 9-2 of Study Report and confirmed by FDA)
+L85: ## Cumulative Distribution of change
+L86: Figure 3 Cumulative distribution of change in 6MWD for three treatment groups in trial 11348 (FDA).
+L87: The secondary endpoints are listed in Table 10. These were tested in sequential order in the order listed in the table. The scatterplot of PVR and 6MWD measurements for those subjects with observed values of both variables is shown in Figure 4. There is a weak relationship between the two variables (R^2=0.073).
+L88: Variable	Treatment effect ANCOVA p-value	Shapiro-Wilk test p-value	Stratified Wilcoxon test p-value	Statistically significant	Statistically significant in hierarchical testing
+6MWD (primary)	<0.0001	0.0001	<0.0001	Yes	Yes
+PVR	<0.0001	0.0001	<0.0001	Yes	Yes
+NT-proBNP	0.0293	0.0001	<0.0001	Yes	Yes
+WHO functional class	–	–	0.0026	Yes	Yes
+Time to clinical worsening	0.2180a	–	0.1724b	No	No
+Borg CR 10 scalec	–	–	0.0035	Yes	No
+EQ-5D questionnaire	0.0002	0.0001	<0.0001	Yes	No
+LPH questionnaire	0.0165	0.0001	0.1220	No	No
+L89: P-values used to determine statistical significance are given in bold.
+L90: a Mantel-Haenszel estimate p-value for incidence of clinical worsening
+L91: b Stratified log-rank test p-value for time to clinical worsening.
+L92: c Subjects enrolled before amendment 3 used the Modified Borg Dyspnoea Scale.
+L93: Table 10 Secondary endpoints for study 11348 (Table 9-6 of Study Report)
+L94: Figure 4 Scatterplot of change in PVR and change in 6MWD for subjects in study 11348 (FDA).
+L95: ## 1.5 Evaluation of Safety
+L96: See clinical review.
+L97: ## 1.6 Benefit-Risk Assessment (Optional)
+L98: See clinical review.
+L99: ## FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L100: ## 1.7 Gender, Race, Age, and Geographic Region
+L101: The results for the primary endpoint (6MWD) for subgroups are shown in Table 11 and Table 12. In trial 12934, the treatment effect appeared to be larger in the older age subgroup compared to the younger age. However, in trial 11348, the treatment effect appeared to be about the same in both age subgroups. The biggest treatment effect across regions was observed in Europe and China in both trials.
+L102: PAIRWISE COMPARISON: BAY 63-2521 Individual Titration - Placebo
+SUBGROUP	DIFF. OF MEANS	95% LOWER CIL FOR DIFF.	95% UPPER CIL FOR DIFF.
+Female	36.90	20.20	53.60
+Male	31.38	-9.34	72.10
+Age < 65	27.27	8.14	46.41
+Age >= 65	54.77	30.18	79.37
+White	37.99	17.88	58.10
+Black or African American	32.89	-70.29	136.07
+Asian	38.78	10.93	66.63
+Race not reported	-4.73	-58.13	48.67
+North America	4.07	-49.32	57.46
+South America	-4.04	-39.36	31.28
+Europe	46.10	21.47	70.73
+China	46.13	5.48	86.79
+Asia/Pacific	40.67	8.29	73.05
+L103: Table 11 Results for 6MWD in trial 12934 (Table 14.2.5/1 of Study Report)
+L104: PAIRWISE COMPARISON: BAY 63-2521 Individual Titration - Placebo
+SUBGROUP	DIFF. OF MEANS	95% LOWER CIL FOR DIFF.	95% UPPER CIL FOR DIFF.
+Female	54.21	27.73	80.70
+Male	39.80	8.60	71.00
+Age < 65	43.93	14.52	73.34
+Age >= 65	48.63	18.85	78.41
+White	44.34	20.41	68.27
+Black or African American	63.83	-162.89	290.56
+Asian	55.42	3.61	107.24
+Race not reported	5.79	-64.87	76.44
+North America	18.63	-29.83	67.10
+South America	18.54	-37.89	74.96
+Europe	46.63	19.59	73.67
+China	101.85	38.94	164.76
+Asia/Pacific	14.80	-77.48	107.08
+L105: Table 12 Results for 6MWD in trial 11348 (Table 14.2.5/1 of Study Report)
+L106: ## 1.8 Other Special/Subgroup Populations
+L107: NA.
+L108: ## SUMMARY AND CONCLUSIONS
+L109: ## 1.9 Statistical Issues
+L110: No significant statistical issues were identified that would affect approval.
+L111: ## 1.10 Collective Evidence
+L112: It might not make sense to pool the evidence together since the two trials are for separate indications.
+L113: ## 1.11 Conclusions and Recommendations
+L114: The two studies showed a symptomatic benefit in improving 6MWD. There are no approved drugs for CTEPH, but the magnitude of the effect in the PAH trial was similar to the magnitude of the treatment effect for other approved drugs (approximately 30 m improvement compared to placebo).
+L115: ## 1.12 Labeling Recommendations (as applicable)
+L116: Since the assumptions for ANCOVA were not met, the statistical analysis plan stated that formal testing would be done using the stratified Wilcoxon test. For the same reason that the test based on ANCOVA is not valid, the treatment effect should also not be estimated by ANCOVA. I recommend the label does not show the LS mean estimated by ANCOVA; instead, it should show the median change from baseline in both groups or the Hodges-Lehmann estimate of the difference in medians.
+L117: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L118: /s/
+L119: JOHN P LAWRENCE
+07/01/2013
+L120: HSIEN MING J HUNG
+07/01/2013
+L121: FDA seal/logo for Center for Drug Evaluation and Research
+L122: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Science
+Office of Biostatistics
+L123: ## Statistical Review and Evaluation
+L124: ## CARCINOGENICITY STUDIES
+L125: **IND/NDA Number:** NDA 204-819
+
+**Drug Name:** Riocignat
+
+**Indication(s):** 105 Week Rat and Mouse Carcinogenicity Studies
+
+**Applicant:** **Sponsor:** Bayer Pharma AG
+42096 Wuppertal, Germany
+
+**Documents Reviewed:** Electronic submission submitted on February 12, 2013
+Electronic data submitted on February 12, 2013
+
+**Review Priority:** Standard
+
+**Biometrics Division:** Division of Biometrics -6
+
+**Statistical Reviewer:** Mohammad Atiar Rahman, Ph.D.
+
+**Concurring Reviewer:** Karl Lin, Ph.D.
+
+**Medical Division:** Division of Cardiovascular and Renal Products
+
+**Reviewing Pharmacologist:** Elizabeth A Hausner, D.V.M.
+
+**Project Manager:** Ed Fromm, Pharm. D.
+
+**Keywords:** Carcinogenicity, Dose response
+L126: ## Table of Contents
+L127: 1	Background	3
+2	Rat Study	3
+2.1	Sponsor's analyses	3
+2.1.1	Survival analysis	3
+Sponsor's findings	3
+2.1.2	Tumor data analysis	4
+Adjustment for multiple testing	4
+Sponsor's findings	4
+2.2	Reviewer's analyses	4
+2.2.1	Survival analysis	4
+Reviewer's findings	4
+2.2.2	Tumor data analysis	5
+Multiple testing adjustment	5
+Reviewer's findings	5
+3	Mouse Study	6
+3.1	Sponsor's analyses	6
+3.1.1	Survival analysis	6
+Sponsor's findings	6
+3.1.2	Tumor data analysis	6
+Sponsor's findings	7
+3.2	Reviewer's analyses	7
+3.2.1	Survival analysis	7
+Reviewer's findings	7
+3.2.2	Tumor data analysis	7
+Reviewer's findings	7
+4	Evaluation of the validity of design of rat and mouse studies	8
+4.1	Rat Study	9
+4.2	Mouse Study	10
+5	Summary	11
+6	Appendix	13
+7	References	27
+L128: ## 1. Background
+L129: In this submission the sponsor included reports of two animal carcinogenicity studies, one in rats and one in mice. These studies were intended to assess the carcinogenic potential of riocignat when administered orally daily through dietary admixture at appropriate drug levels for 105 weeks. Results of this review have been discussed with the reviewing pharmacologist Dr. Hausner.
+L130: In this review the phrase "dose response relationship" refers to the linear component of the effect of treatment, and not necessarily to a strictly increasing or decreasing mortality or tumor incidence rate as dose increases.
+L131: ## 2. Rat Study
+L132: Two separate experiments were conducted, one in male and one in female rats. In each of these two experiments there were three treated groups and one control group. Two hundred Hsd Cpb:WU Wister rats of each sex were assigned randomly to the treated and control groups in equal size of 50 rats per group. The dose levels for treated groups were 5, 10, or 20 mg/kg/day. In this review these dose groups would be referred to as the low, medium, and high dose groups, respectively. The rats in the control group remained untreated.
+L133: During the administration period all rats were observed twice daily morbidity and mortality (once on weekends and public holidays). A detailed clinical examination was performed once before the start of treatment and once weekly thereafter. The rats were palpated regularly for the appearance of masses during the clinical observations.
+L134: Body weights of all rats were measured once before the beginning of the study and weekly thereafter up to the scheduled necropsy.
+L135: ## 2.1. Sponsor's analyses
+L136: ## 2.1.1. Survival analysis
+L137: The sponsor performed some descriptive analysis by calculating the number, percentage, and cumulative percentage of number of deaths at quarterly intervals from the start of the study until week 105.
+L138: **Reviewer's comment:** The sponsor mentioned that they analyzed the mortality data. However, this reviewer could not find out the actual statistical procedures they used in the submitted report.
+L139: **Sponsor's findings:** Sponsor's analysis showed that during the first year of treatment intercurrent mortality was low. The numbers of intercurrent deaths at the end of Week 105 were 19, 21, 31, 31 for male rats, and 22, 15, 15, 14 for female rats in the control, low, medium and high dose groups, respectively. Sponsor's analysis showed that the survival rates of males receiving 5 mg/kg and females up to 20 mg/kg were similar to those in the control groups throughout the period of the study. At 10 and 20 mg/kg the number of males surviving till the end of study was reduced, however, dose-dependency was missing. The sponsor concluded that the survival was not affected by the treatment with the test substance up to 5 mg/kg in males and up to 20 mg/kg in females.
+L140: ## 2.1.2. Tumor data analysis
+L141: The sponsor analyzed the tumor incidence data using the methods outlined in the paper of Peto et al. (1980) for positive dose response relationships and the Fisher exact test for pairwise comparisons of the treated groups with the control. For Peto analysis the sponsor first classified the tumor types as fatal and incidental, and analyzed them using the death rate and prevalence methods, respectively. For the evaluation of incidental tumors, the experimental period was divided into partitions using the ad hoc run procedure described in Peto et al.
+L142: The sponsor carried out the statistical evaluation of all neoplastic findings in a first step using the asymptotic test. However, tumors displaying p-values &lt; 0.05 in asymptotic tests or tumors of special interest were re-evaluated using the survival adjusted exact stratified test
+L143: **Adjustment for multiple testing:** In order to control the false positive error, the sponsor tested the common and the rare tumors at 0.005 and 0.025 significance levels, respectively (Haseman, 1983) for positive dose response relationship, and 0.01 - 0.05 for pairwise comparisons. Tumors are considered as common with a background rate of &gt; 1% and as rare with a background incidence of &lt; 1%.
+L144: **Reviewer's comment:** The use of 0.005 and 0.025 significance levels for common and rare tumor types, respectively for the test of positive dose response relationships was actually suggested by Lin and Rahman (1998), while the use of 0.01 and 0.05 significance levels for common and rare tumor types, respectively for pairwise comparisons of the treated groups with the control was suggested by Haseman (1983).
+L145: **Sponsor's findings:** The sponsor's analyses did not show statistically significant dose response relationship among the treatment groups in any of the observed tumor type. Pairwise comparisons also did not show increased incidence in any of the observed tumors.
+L146: ## 2.2. Reviewer's analyses
+L147: To verify the sponsor's analyses and to perform additional analyses suggested by the reviewing pharmacologist, this reviewer independently performed survival and tumor data analyses. Data used in this reviewer's analyses were provided by the sponsor electronically.
+L148: ## 2.2.1. Survival analysis
+L149: The survival distributions of rats in all five treatment groups were estimated using the Kaplan-Meier product limit method. For control, low, medium, and high dose groups, the dose response relationship was tested using the likelihood ratio test and the homogeneity of survival distributions was tested using the log-rank test. The Kaplan-Meier curves for survival rates are given in Figures 1A and 1B in the appendix for male and female rats, respectively. The intercurrent mortality data are given in Tables 1A and 1B in the appendix for male and female rats, respectively. Results of the tests for dose response relationship and homogeneity of survivals, are given in Tables 2A and 2B in the appendix for male and female rats, respectively.
+L150: **Reviewer's findings:** This reviewer's analysis showed 19 (38%), 22 (44%), 31 (62%), and 31 (62%) number (percent) of deaths in male rats and 24 (48%), 15 (30%), 15 (30%), and 14 (28%) number (percent) of deaths in female rats in control, low, medium, and high dose groups, respectively. The tests showed statistically significant dose response relationship in mortality across control and treated groups in male rats. The pairwise comparisons showed statistically significant increased mortality in the male rat high dose group and decreased
+L151: mortality in the female rat high dose group compared to their respective control.
+L152: ## 2.2.2. Tumor data analysis
+L153: The tumor data were analyzed for dose response relationships and pairwise comparisons of control group with each of the treated groups. Both the dose response relationship tests and pairwise comparisons were performed using the Poly-k method described in the paper of Bailer and Portier (1988) and Bieler and Williams (1993). In this method an animal that lives the full study period (w_{max}) or dies before the terminal sacrifice but develops the tumor type being tested gets a score of s_h = 1. An animal that dies at week w_h without a tumor before the end of
+L154: the study gets a score of s_h = \left(\frac{w_h}{w_{max}}\right)^k &lt; 1. The adjusted group size is defined as \Sigma s_h. As an interpretation, an
+L155: animal with score s_h = 1 can be considered as a whole animal while an animal with score s_h &lt; 1 can be considered as a partial animal. The adjusted group size \Sigma s_h is equal to N (the original group size) if all animals live up to the end of the study or if each animal that dies before the terminal sacrifice develops at least one tumor, otherwise the adjusted group size is less than N. These adjusted group sizes are then used for the dose response relationship (or the pairwise) tests using the Cochran-Armitage test. One critical point for Poly-k test is the choice of the appropriate value of k, which depends on the tumor incidence pattern with the increased dose. For long term 104 week standard rat and mouse studies, a value of k=3 is suggested in the literature. Hence, this reviewer used k=3 for the analysis of this data. For the calculation of p-values the exact permutation method was used. The tumor rates and the p-values of the tested tumor types are listed in Tables 3A and 3B in the appendix for male and female rats, respectively.
+L156: **Multiple testing adjustment:** For the adjustment of multiple testing of dose response relationship, the FDA guidance for the carcinogenicity study design and data analysis suggests the use of test levels \alpha=0.005 for common tumors and \alpha=0.025 for rare tumors for a submission with two species, and a significance level \alpha=0.01 for common tumors and \alpha=0.05 for rare tumors for a submission with one species in order to keep the false-positive rate at the nominal level of approximately 10%. A rare tumor is defined as one in which the published spontaneous tumor rate is less than 1%. For multiple pairwise comparisons of treated group with control the FDA guidance suggested the use of test levels \alpha=0.01 for common tumors and \alpha=0.05 for rare tumors, in order to keep the false-positive rate at the nominal level of approximately 10% for both submissions with two or one species.
+L157: It should be noted that the FDA guidance for multiple testing for dose response relationship is based on a publication by Lin and Rahman (1998). In this work the authors investigated the use of this rule for Peto analysis. However, in a later work Lin and Rahman (2008) showed that this rule for multiple testing for dose response relationship is also suitable for Poly-K tests.
+L158: **Reviewer's findings:** Following tumor types showed p-values less than or equal to 0.05 either for dose response relationship or pairwise comparisons of treated groups and control.
+L159: ## **Tumor Types with P-Values \le 0.05 for Dose Response Relationship or Pairwise Comparisons of Treated Groups and Control in Rats**
+L160: Sex	Organ Name	Tumor Name	Cont	Low	Med	High	Dose Resp	P Value
+C vs. L	C vs. M	C vs. H
+Male	ADRENAL GLANDS	Tumor medullary benign,	15	22	17	22	0.0540	0.1116	0.4112	0.0387
+L161: Based on the criteria of adjustment for multiple testing discussed above, none of the observed tumors was considered to have statistically significant dose response relationship in either sex. The pairwise comparison also did not show statistically significant increased incidence in any observed tumor type in any treated group in either sex compared to their respective control.
+L162: ## 3. Mouse Study
+L163: Two separate experiments were conducted, one in male and one in female mice. In each of these two experiments there were three treated groups and one control group. Two hundred SPF-bred CD-1(ICR)BR mice of each sex were assigned randomly to the treated and control groups in equal size of 50 mice per group. The dose levels for treated groups were 50, 100 or 200 ppm, which are equivalent to 6.21, 12.38 and 24.91 mg/kg/day in male mice, and 7.64, 15.66 and 32.47 mg/kg/day in female mice. In this review these dose groups were referred to as the low, medium, and high dose groups, respectively. Animals in the control group remained untreated.
+L164: During the administration period all mice were inspected twice a day for morbidity and mortality (once on weekends and public holidays). Detailed clinical examinations were performed once before the start of treatment and once weekly thereafter. The mice were palpated regularly for the appearance of masses during the clinical observations.
+L165: The individual body weights for mice were determined just prior to the first administration, once a week during the first 13 weeks and once every 4 weeks thereafter.
+L166: ## 3.1. Sponsor's analyses
+L167: ## 3.1.1. Survival analysis
+L168: The sponsor used similar methodologies to analyze the mouse survival data as they used to analyze the rat survival data.
+L169: **Sponsor's findings:** The sponsor analysis showed 22, 24, 23 and 36 deaths of male mice, and 34, 27, 31 and 32 deaths of female mice at the end of Week 105 in the control, low, medium and high dose groups, respectively. The male mice high dose group showed treatment related increased mortality. In female mice the mortality in the high dose group was comparable to that observed in the control group.
+L170: ## 3.1.2. Tumor data analysis
+L171: The sponsor used similar methodologies to analyze the mouse tumor data as they used to analyze the rat tumor data.
+L172: **Adjustment for multiple testing:** The sponsor used similar procedure to adjust the multiple testing in the mouse tumor data analysis as they used to adjust the multiple testing in the rat data analysis.
+L173: **Sponsor's findings:** The sponsor's analyses showed a carcinogenic effect on the large bowel (cecum/colon) in male and female mice beginning at 100 ppm. the histopathological evaluation of the gastrointestinal tract revealed in the large bowel an adenocarcinoma in two females at 100 ppm and one male at 200 ppm. The sponsor commented that the tumors were localized in the cecum (females) or in the colon infiltrating the cecum (male). Adenoma of the colon was diagnosed in one male at 200 ppm. No statistically significant result of dose response relationship or pairwise comparisons was mentioned in the sponsor's report.
+L174: ## 3.2. Reviewer's analyses
+L175: Similar to the rat study, to verify sponsor's analyses and to perform additional analyses suggested by the reviewing pharmacologist, this reviewer independently performed survival and tumor data analyses of mouse data. Data used in this reviewer's analyses were provided by the sponsor electronically.
+L176: For the analysis of both the survival data and the tumor data this reviewer used similar methodologies as he used for the analyses of the rat survival and tumor data.
+L177: ## 3.2.1. Survival analysis
+L178: The Kaplan-Meier curves for survival rates of all treatment groups are given in Figures 2A and 2B in the appendix for male and female mice, respectively. The intercurrent mortality data of all treatment groups are given in Tables 4A and 4B in the appendix for male and female mice, respectively. Results of the tests for dose response relationship and homogeneity of survivals for control, low, medium, and high dose groups are given in Tables 5A and 5B in the appendix for male and female mice, respectively.
+L179: **Reviewer's findings:** This reviewer's analysis showed 22 (44%), 24 (48%), 23 (46%), and 36 (72%) number (percent) of deaths in male mice, and 34 (68%), 27 (54%), 31 (62%), and 32 (64%) number (percent) of deaths in female mice in control, low, medium, and high dose groups, respectively. The tests showed statistically significant dose response relationship in mortality across the treatment groups in male mice. The pairwise comparison show statistically significant increased mortality in male mice high dose group compared to their control.
+L180: ## 3.2.2. Tumor data analysis
+L181: The tumor rates and the p-values of the tested tumor types are given in Tables 6A and Table 6B in the appendix, for male and female mice respectively.
+L182: **Reviewer's findings:** Following tumor type showed p-values less than or equal to 0.05 either for dose response relationship or pairwise comparisons of treated groups and control.
+L183: ## **Tumor Types with P-Values \le 0.05 for Dose Response Relationship or Pairwise Comparisons of Treated Groups and Control in Mice**
+L184: Sex	Organ Name	Tumor Name	Cont	Low	Med	High	Dose Resp	P Value
+N=50	N=50	N=50	N=50	C vs L	C vs M	C vs H
+Male	LUNGS	Carcinoma bronchiolo-alveolar	4	6	11	4	0.4210	0.4014	0.0466	0.4244
+Female	ADRENAL GLANDS	Tumor medullary benign	0	0	1	3	0.0145*	.	0.5385	0.1186
+L185: Based on the criteria of adjustment for multiple testing discussed in the rat data analysis section, the incidence of adrenal glands benign medullary tumor was considered to have statistically significant dose response relationship in female mice. The pairwise comparisons did not show statistically significant increased incidence in any observed tumor type in any treated group compared to their respective control in either sex.
+L186: ## **4. Evaluation of the validity of design of rat and mouse studies**
+L187: As has been noted, except for the incidence of adrenal glands benign medullary tumor in female mice, no other tumor types showed statistically significant dose response relationship or increased incidence compared to their respective control. However, before drawing any conclusion regarding the carcinogenic or non-carcinogenic potential of the study drug in rats and mice, it is important to look into the following two issues, as have been pointed out in the paper by Haseman (1984).
+L188: - Were enough animals exposed, for a sustained amount of time, to the risk of late developing tumors?
+- Were dose levels high enough to pose a reasonable tumor challenge to the animals?
+L189: There is no consensus among experts regarding the number of animals and length of time at risk, although most carcinogenicity studies are designed to run for two years with about fifty to sixty animals per treatment group. The following are some rules of thumb regarding these two issues as suggested by experts in this field.
+L190: Haseman (1985) has done an investigation on the first issue. He gathered data from 21 studies using Fischer 344 rats and B6C3F1 mice conducted at the National Toxicology Program (NTP). It was found that, on the average, approximately 50% of the animals in the high dose group survived the two-year study period. Also, in a personal communication with Dr. Karl Lin of Division of Biometrics-6, Haseman suggested that, as a rule of thumb, a 50% survival of 50 initial animals or 20 to 30 animals still alive in the high dose group, between weeks 80-90, would be considered as a sufficient number and adequate exposure. In addition Chu, Cueto and Ward (1981), suggested that "to be considered adequate, an experiment that has not shown a chemical to be carcinogenic should have groups of animals with greater than 50% survival at one-year."
+L191: It appears, from these three sources that the proportions of survival at 52 weeks, 80-90 weeks, and two years are of interest in determining the adequacy of exposure and number of animals at risk.
+L192: Regarding the question of adequate dose levels, it is generally accepted that the high dose should be close to the maximum tolerated dose (MTD). In the paper of Chu, Cueto and Ward (1981), the following criteria are mentioned for dose adequacy. A high dose is considered as close to MTD if any of the criteria is met.
+L193: - "A dose is considered adequate if there is a detectable loss in weight gain of up to 10% in a dosed group relative to the controls."
+L194: (ii) "The administered dose is also considered an MTD if dosed animals exhibit clinical signs or severe histopathologic toxic effects attributed to the chemical."
+L195: (ii) "In addition, doses are considered adequate if the dosed animals show a slight increased mortality compared to the controls."
+L196: We will now investigate the validity of the riocignat rat and mouse carcinogenicity study, in the light of the above guidelines.
+L197: ## 4.1. Rat Study
+L198: The following is the summary of survival data of rats in the high dose groups:
+L199: ## Percentage of Survival in the High Dose Group at the End of Weeks 52, 78, and 91 in Rats
+L200: Percentage of survival
+End of 52 weeks	End of 78 weeks	End of 91 weeks
+Male	96%	76%	62%
+Female	98%	94%	88%
+L201: Based on the survival criterion Haseman proposed, it may be concluded that enough rats were exposed to the high dose for a sufficient amount of time in both sexes.
+L202: The following table shows the percent difference in mean body weight gain in rats from the concurrent control, defined as
+L203: \text{Percent difference} = \frac{(\text{Final BW} - \text{Baseline BW})_{\text{Treated}} - (\text{Final BW} - \text{Baseline BW})_{\text{Control}}}{(\text{Final BW} - \text{Baseline BW})_{\text{Control}}} \times 100
+L204: ## Percent Difference in Mean body Weight Gain from Controls in Rats
+L205: Male	Female
+Low	Medium	High	Low	Medium	High
+-4.62	-9.85	-4.31	-4.62	-6.15	-8.21
+L206: Source: "Body weights - summary main study animals" of Sponsor's report (Part of Table 8)
+L207: Therefore, relative to the control the male rats in high dose group had about 5% and the female rats had about 8% decrements in their body weight gains.
+L208: The mortality rates at the end of the experiment were as follows:
+L209: ## Mortality Rates at the End of the Experiment in Rats
+L210: Control	Low	Medium	High
+Male	38%	44%	62%	62%
+Female	48%	30%	30%	28%
+L211: This shows that the mortality rates in the male rats high dose group is 24% higher than their control, while that in female rats is 20% lower than their control.
+L212: Thus, from the mortality and the body weight gain data it can be concluded that the used high dose level might have reached the MTD in both sexes. For a final determination of the adequacy of the doses used, other clinical signs and histopathological toxic effects must be considered.
+L213: ## 4.2. Mouse Study
+L214: The following is the summary of survival data of mice in the high dose groups:
+L215: ## Percentage of Survival in the High Dose Group at the End of Weeks 52, 78, and 91 in Mice
+L216: Percentage of survival
+End of 52 weeks	End of 78 weeks	End of 91 weeks
+Male	74%	58%	42%
+Female	88%	60%	50%
+L217: Based on the survival criterion Haseman proposed, it may be concluded that not enough mice were exposed to the high dose for a sufficient amount of time in either sex.
+L218: The following table shows the percent difference in mean body weight gain in mice from the concurrent control,
+L219: ## Percent Difference in Mean body Weight Gain from Controls
+L220: Male	Female
+Low	Medium	High	Low	Medium	High
+6.72	6.72	15.13	16.36	17.27	30.91
+L221: Source: Source: "Body weights – summary main study animals" of Sponsor's report (Part of Table 8)
+L222: Therefore, relative to control the high dose male mice had less than 15% and the female mice had less than 30% increment in their body weight gain.
+L223: The mortality rates at the end of the experiment were as follows:
+L224: ## Mortality Rates End of the Experiment
+L225: Control	Low	Medium	High
+Male	44%	48%	48%	72%
+Female	68%	54%	62%	64%
+L226: This shows that the mortality rate was 28% higher than the control in the male mice high dose group, while 4%
+L227: lower in the female mice high dose group compared to their respective control.
+L228: Thus, from the body weight gain and mortality data it can be concluded that the used high dose level might have reached or exceeded the MTD in males, while it might not have reached the MDT in female mice. For a final determination of the adequacy of the doses used, other clinical signs and histopathological toxic effects must be considered.
+L229: ## 5. Summary
+L230: In this submission the sponsor included reports of two animal carcinogenicity studies, one in rats and one in mice. These studies were intended to assess the carcinogenic potential of riocignat when administered orally daily through dietary admixture at appropriate drug levels for 105 weeks.
+L231: In this review the phrase "dose response relationship" refers to the linear component of the effect of treatment, and not necessarily to a strictly increasing or decreasing mortality or tumor incidence rate as dose increases.
+L232: **Rat study:** Two separate experiments were conducted, one in male and one in female rats. In each of these two experiments there were three treated groups and one control group. Two hundred Hsd Cpb:WU Wister rats of each sex were assigned randomly to the treated and control groups in equal size of 50 rats per group. The dose levels for treated groups were 5, 10, or 20 mg/kg/day. The rats in the control group remained untreated.
+L233: During the administration period all rats were observed twice daily for mortality and morbidity. A detailed clinical examination was performed once before the start of treatment and once weekly thereafter. The rats were palpated regularly for the appearance of masses during the clinical observations.
+L234: Body weights of all rats were measured once before the beginning of the study and weekly thereafter up to the scheduled necropsy.
+L235: The tests showed statistically significant dose response relationship in mortality across control and treated groups in male rats. The pairwise comparisons showed statistically significant increased mortality in the male rat high dose group and decreased mortality in the female rat high dose group compared to their respective control.
+L236: The tests did not show statistically significant dose response relationship in any observed tumor in either sex. The pairwise comparison also did not show statistically significant increased incidence in any observed tumor type in any treated group compared to their respective control.
+L237: The mortality and body weight gain data indicate that the used high dose level might have reached the MTD in both sexes of rats. For a final determination of the adequacy of the doses used, other clinical signs and histopathological toxic effects must be considered.
+L238: **Mouse Study:** Two separate experiments were conducted, one in male and one in female mice. In each of these two experiments there were three treated groups and one control group. Two hundred SPF-bred CD-1(ICR)BR mice of each sex were assigned randomly to the treated and control groups in equal size of 50 mice per group. The dose levels for treated groups were 50, 100 or 200 ppm, which is equivalent to 6.21, 12.38 and 24.91 mg/kg/day in male mice, and 7.64, 15.66 and 32.47 mg/kg/day in female mice. The mice in the control group remained untreated.
+L239: During the administration period all mice were inspected twice a day for morbidity and mortality. Detailed clinical examinations were performed once before the start of treatment and once weekly thereafter. The mice were palpated regularly for the appearance of masses during the clinical observations.
+L240: The individual body weights for mice were determined just prior to the first administration, once a week during the first 13 weeks and once every 4 weeks thereafter.
+L241: The tests showed statistically significant dose response relationship in mortality across the treatment groups in male mice. The pairwise comparison show statistically significant increased mortality in male mice high dose group compared to their control.
+L242: The tests showed statistically significant dose response relationship in the incidence of adrenal glands benign medullary tumor in female mice. The pairwise comparisons did not show statistically significant increased incidence in any observed tumor type in any treated group compared to their respective control in either sex.
+L243: The mortality and body weight gain data indicate that the used high dose level might have reached or exceeded the MTD in males, while it might not have reached the MDT in female mice. For a final determination of the adequacy of the doses used, other clinical signs and histopathological toxic effects must be considered.
+L244: Mohammad Atiar Rahman, Ph.D.
+Mathematical Statistician
+L245: Concur: Karl Lin, Ph.D.
+Team Leader, Biometrics-6
+L246: cc:
+Archival NDA 204-819
+Dr. Hausner
+Dr. Ed Fromm
+L247: Dr. Machado
+Dr. Lin
+Dr. Rahman
+MS. Patrician
+L248: ## 6. Appendix
+L249: **Table 1A: Intercurrent Mortality Rate
+Male Rats**
+L250: Week	0 mg/kg/day	5 mg/kg/day	10 mg/kg/day	20 mg/kg/day
+No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %
+0 - 52	.	.	.	.	2	4.00	3	6.00
+53 - 78	8	16.00	7	14.00	4	12.00	9	24.00
+79 - 91	5	26.00	9	32.00	11	34.00	7	38.00
+92 - 104	6	38.00	5	42.00	14	62.00	12	62.00
+Ter. Sac.	31	62.00	29	58.00	19	38.00	19	38.00
+Total	N=50	N=50	N=50	N=50
+L251: * Cum. %: Cumulative percentage except for Ter. Sac.
+L252: **Table 1B: Intercurrent Mortality Rate
+Female Rats**
+L253: Week	0 mg/kg/day	5 mg/kg/day	10 mg/kg/day	20 mg/kg/day
+No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %
+0 - 52	5	10.00	.	.	4	8.00	1	2.00
+53 - 78	1	12.00	4	8.00	4	16.00	2	6.00
+79 - 91	8	28.00	3	14.00	1	18.00	3	12.00
+92 - 104	8	44.00	8	30.00	6	30.00	8	28.00
+Ter. Sac.	28	56.00	35	70.00	35	70.00	36	72.00
+Total	N=50	N=50	N=50	N=50
+L254: * Cum. %: Cumulative percentage except for Ter. Sac.
+L255: **Table 2A: Intercurrent Mortality Comparison
+Male Rats**
+L256: Test	Statistic	P Value*
+Dose-Response	Likelihood Ratio	0.0442
+Homogeneity	Log-Rank	0.0557
+L257: **Table 2B: Intercurrent Mortality Comparison
+Female Rats**
+L258: Test	Statistic	P Value
+Dose-Response	Likelihood Ratio	0.3343
+Homogeneity	Log-Rank	0.1057
+L259: Table 3A: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Male Rats
+L260: Organ Name	Tumor Name	0mg	5mg	10mg	20mg	P_Value	P_Value
+C vs. L	P_Value
+C vs. M	P_Value
+C vs. H
+Cont
+N=50	Low
+N=50	Med
+N=50	High
+N=50	Dose
+Resp
+ADRENAL GLANDS	Adenoma cortical	1	0	0	1	0.4707	1.0000	1.0000	0.7198
+Tumor medullary benign,	15	22	17	22	0.0540	0.1116	0.4112	0.0387
+Tumor medullary malignant,	3	4	2	3	0.5254	0.5000	0.8045	0.5838
+BODY CAVITIES	Mesothelioma malignant	1	1	0	1	0.5534	0.7531	1.0000	0.7123
+BONE	Odontoma, ameloblastic	0	0	1	0	0.4808	.	0.4938	.
+Osteosarcoma	0	0	0	1	0.2308	.	.	0.4675
+BRAIN	Tumor granular cell benign,	0	0	3	0	0.4122	.	0.1112	.
+DUODENUM	Adenocarcinoma	0	0	0	1	0.2308	.	.	0.4675
+FEMUR	Hemangiosarcoma	0	0	0	1	0.2258	.	.	0.4605
+HEART	Schwannoma endocardial benign	0	0	1	0	0.4774	.	0.4875	.
+Schwannoma endocardial malignant	0	0	1	0	0.4774	.	0.4875	.
+ILEUM	Adenoma, single	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+KIDNEYS	Renal lipoma	0	0	0	1	0.2258	.	.	0.4605
+Renal liposarcoma	0	1	0	0	0.7355	0.4938	.	.
+Renal mesenchymal tumor malignant	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+Renal mesenchymal tumor malignant	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+LIVER	Adenoma hepatocellular	0	1	0	0	0.7355	0.4938	.	.
+Cholangiocarcinoma,	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+Cholangioma benign	0	0	0	1	0.2258	.	.	0.4605
+Hemangioma, single	0	0	0	1	0.2258	.	.	0.4605
+LUNGS	Alveolar/bronchiolar adenoma, sin	0	0	0	1	0.2308	.	.	0.4675
+LYMPH NODES	Hemangioma, single	0	0	1	0	0.4774	.	0.4875	.
+MESENT. LYMPH N	Hemangioma, single	0	3	3	1	0.3978	0.1204	0.1112	0.4605
+NOSE	Carcinoma squamous cell	1	0	1	0	0.7939	1.0000	0.7405	1.0000
+Fibroma, myxoid	0	0	1	0	0.4774	.	0.4875	.
+PANCREAS	Adenoma exocrine	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+Adenoma islet cell	0	0	2	0	0.4638	.	0.2345	.
+Carcinoma islet cell	0	1	1	0	0.5946	0.4938	0.4875	.
+PARATHYROID GLA	Adenoma, single	0	2	0	1	0.4072	0.2530	.	0.4605
+PITUITARY GLAND	Adenoma pars distalis, multiple	7	7	11	6	0.4503	0.5953	0.1948	0.6145
+Adenoma pars intermedia	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+PREPUTIAL GLAND	Adenoma, single, unilateral	0	0	1	1	0.1642	.	0.4875	0.4605
+Carcinoma sebaceous cell, unilate	0	0	1	0	0.4774	.	0.4875	.
+Carcinoma squamous cell, unilater	0	0	0	1	0.2258	.	.	0.4605
+L261: **Table 3A: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Male Rats**
+L262: Organ Name	Tumor Name	0mg	5mg	10mg	20mg	P_Value	P_Value
+C vs. L	P_Value
+C vs. M	P_Value
+C vs. H
+Cont
+N=50	Low
+N=50	Med
+N=50	High
+N=50	Dose
+Resp
+PREPUTIAL GLAND	Papilloma squamous cell, unilateral	0	1	0	0	0.7355	0.4938	.	.
+SALIVARY GLANDS	Adenocarcinoma	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+SKELETAL MUSCLE	Rhabdomyosarcoma	0	1	0	0	0.7372	0.5000	.	.
+Tumor granular cell benign	0	0	0	1	0.2258	.	.	0.4605
+SKIN	Carcinoma squamous cell	1	1	0	0	0.9322	0.7531	1.0000	1.0000
+Fibroma benign	2	0	0	0	1.0000	1.0000	1.0000	1.0000
+Keratoacanthoma, single	0	1	0	0	0.7372	0.5000	.	.
+Lipoma benign	2	0	1	0	0.9260	1.0000	0.8654	1.0000
+Tumor basosquamous benign	0	0	1	0	0.4774	.	0.4875	.
+SPLEEN	Hemangioma, single	0	0	0	1	0.2258	.	.	0.4605
+Hemangiosarcoma, single	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+SYSTEMIC NEOPLA	Histiocytic Sarcoma	0	0	1	1	0.1642	.	0.4875	0.4605
+Lymphoma malignant, pleomorphic	0	1	0	0	0.7355	0.4938	.	.
+Myeloid Leukemia,emia, not other	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+TESTES	Tumor Leydig cell benign	0	2	4	3	0.0716	0.2407	0.0520	0.0976
+THYMUS	Thymoma benign	0	1	0	0	0.7355	0.4938	.	.
+Thymoma malignant	0	1	0	1	0.2873	0.4938	.	0.4675
+THYROID GLAND	Adenoma C-cell	2	3	2	1	0.7502	0.4881	0.6731	0.8484
+Adenoma follicular cell	2	2	0	0	0.9772	0.6828	1.0000	1.0000
+Carcinoma C-cell	0	1	0	0	0.7355	0.4938	.	.
+ZYMBAL GLANDS	Adenoma, cystic with keratinizati	0	0	1	0	0.4774	.	0.4875	.
+Carcinoma sebaceous cell, with ke	0	1	0	0	0.7372	0.5000	.	.
+Carcinoma squamous cell, with foc	0	1	0	0	0.7372	0.5000	.	.
+L263: **Table 3B: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons Female Rats**
+L264: Organ Name	Tumor Name	0mg	5mg	10mg	20mg	P_Value	P_Value	P_Value	P_Value
+Cont
+N=50	Low
+N=50	Med
+N=50	High
+N=50	Dose
+Resp	C vs. L	C vs. M	C vs. H
+ADRENAL GLANDS	Adenoma cortical	1	0	2	1	0.4479	1.0000	0.5185	0.7815
+Tumor medullary benign,	1	3	4	2	0.4514	0.3449	0.2032	0.5446
+Tumor medullary malignant,	0	0	0	1	0.2632	.	.	0.5294
+BODY CAVITIES	Mesothelioma benign, ovary, unila	0	0	0	1	0.2632	.	.	0.5294
+BRAIN	Oligodendrogloma, well-different	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+CLITORAL GLANDS	Adenocarcinoma, well-differentiat	0	1	0	0	0.7661	0.5238	.	.
+Adenoma	0	1	0	0	0.7661	0.5238	.	.
+Carcinoma adenosquamous,	0	0	0	1	0.2632	.	.	0.5294
+Carcinoma squamous cell	1	0	1	2	0.2249	1.0000	0.7651	0.5446
+DUODENUM	Leiomyoma benign	0	0	0	1	0.2632	.	.	0.5294
+FEMUR	Osteoma	0	0	1	0	0.5088	.	0.5122	.
+HARDERIAN GLAND	Adenoma, single	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+HEART	Schwannoma endocardial malignant	0	1	0	0	0.7661	0.5238	.	.
+ILEUM	Leiomyoma, single	0	0	0	1	0.2632	.	.	0.5294
+KIDNEYS	Adenoma basophilic	0	0	0	1	0.2632	.	.	0.5294
+LIVER	Adenoma hepatocellular	0	0	0	1	0.2632	.	.	0.5294
+Cholangioma benign	0	0	1	1	0.1981	.	0.5122	0.5294
+MAMMARY GLAND	Adenocarcinoma	2	0	0	0	1.0000	1.0000	1.0000	1.0000
+Adenoma, single	3	3	2	1	0.9067	0.7066	0.8352	0.9549
+Fibroadenoma, single	10	8	7	6	0.9153	0.8575	0.9031	0.9500
+MESENT. LYMPH N	Hemangioma, single	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+NOSE	Carcinoma squamous cell	0	1	0	1	0.3344	0.5238	.	0.5294
+OVARIES	Adenoma tubulostromal	0	0	1	1	0.1981	.	0.5122	0.5294
+Luteoma benign	0	0	0	1	0.2632	.	.	0.5294
+Thecoma benign,	1	0	0	1	0.5174	1.0000	1.0000	0.7815
+Thecoma malignant,	0	0	0	1	0.2632	.	.	0.5294
+Tumor granulosa cell benign	0	0	2	1	0.2170	.	0.2593	0.5294
+Tumor granulosa cell malignant	0	0	0	1	0.2632	.	.	0.5294
+Tumor sex cord stromal mixed beni	0	0	1	0	0.5088	.	0.5122	.
+PANCREAS	Adenoma islet cell	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+Carcinoma islet cell	0	0	1	0	0.5088	.	0.5122	.
+PITUITARY GLAND	Adenoma pars distalis	19	14	10	15	0.8600	0.9510	0.9914	0.9244
+Carcinoma pars distalis	0	1	0	0	0.7661	0.5238	.	.
+L265: Table 3B: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Female Rats
+L266: Organ Name	Tumor Name	0mg	5mg	10mg	20mg	P_Value	P_Value
+C vs. L	P_Value
+C vs. M	P_Value
+C vs. H
+Cont
+N=50	Low
+N=50	Med
+N=50	High
+N=50	Dose
+Resp
+SKELETAL MUSCLE	Rhabdomyosarcoma	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+SKIN	Carcinoma basal cell, near clitor	0	1	0	0	0.7674	0.5294	.	.
+Carcinoma squamous cell	0	0	0	1	0.2632	.	.	0.5294
+Fibroma benign	0	0	1	0	0.5116	.	0.5181	.
+Schwannoma malignant	0	0	0	1	0.2632	.	.	0.5294
+SPLEEN	Fibrosarcoma	0	0	1	0	0.5088	.	0.5122	.
+SYSTEMIC NEOPLA	Lymphoma malignant, lymphocytic	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+THYMUS	Osteosarcoma	0	0	1	0	0.5116	.	0.5181	.
+Thymoma benign	0	4	3	0	0.7841	0.0704	0.1343	.
+Thymoma malignant, with fibrosis	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+Yolk sac carcinoma	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+THYROID GLAND	Adenoma C-cell	1	1	2	3	0.1597	0.7762	0.5185	0.3539
+TONGUE	Tumor granular cell benign	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+UTERUS/HORNS, C	Adenocarcinoma	2	2	2	2	0.5739	0.7353	0.7105	0.7353
+Adenoma, single	0	0	1	2	0.0681	.	0.5122	0.2773
+Contact metastasis, carcinoma, si	0	0	0	1	0.2632	.	.	0.5294
+Endometrial glandular polyp	1	0	2	0	0.7533	1.0000	0.5185	1.0000
+Endometrial stromal polyp, necrot	15	18	9	14	0.8208	0.4565	0.9609	0.7744
+Fibrosarcoma, arising in polyp	1	0	0	2	0.2170	1.0000	1.0000	0.5446
+Leiomyoma benign	0	0	0	1	0.2632	.	.	0.5294
+Leiomyosarcoma	1	2	0	0	0.9460	0.5446	1.0000	1.0000
+Mixed Muellerian tumor malignant	0	0	1	0	0.5088	.	0.5122	.
+Tumor granular cell benign, one h	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+VAGINA	Carcinoma squamous cell	0	1	0	1	0.3335	0.5294	.	0.5294
+Fibroma	0	1	0	0	0.7661	0.5238	.	.
+Histiocytoma	0	0	1	0	0.5088	.	0.5122	.
+Tumor granular cell benign	0	0	1	1	0.1981	.	0.5122	0.5294
+L267: Table 4A: Intercurrent Mortality Rate in Male Mice
+L268: Week	0 mg/kg/day	6 mg/kg/day	12 mg/kg/day	50 mg/kg/day
+No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %
+0 - 52	3	6.00	1	2.00	.	.	13	26.00
+53 - 78	10	26.00	3	8.00	12	24.00	8	42.00
+79 - 91	1	28.00	10	28.00	6	36.00	8	58.00
+92 - 104	8	44.00	10	48.00	5	46.00	7	72.00
+Ter. Sac.	28	56.00	26	52.00	27	54.00	14	28.00
+Total	N=50	N=50	N=50	N=50
+L269: * Cum. %: Cumulative percentage except for Ter. Sac.
+L270: Table 4B: Intercurrent Mortality Rate Female Mice
+L271: Week	0 mg/kg/day	6 mg/kg/day	12 mg/kg/day	50 mg/kg/day
+No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %
+0 - 52	3	6.00	2	4.00	2	4.00	6	12.00
+53 - 78	18	42.00	9	22.00	11	26.00	14	40.00
+79 - 91	8	58.00	10	42.00	5	36.00	5	50.00
+92 - 104	5	68.00	6	54.00	13	62.00	7	64.00
+Ter. Sac.	16	32.00	23	46.00	19	38.00	18	36.00
+Total	N=50	N=50	N=50	N=50
+L272: * Cum. %: Cumulative percentage except for Ter. Sac.
+L273: Table 5A: Intercurrent Mortality Comparison Male Mice
+L274: Test	Statistic	P Value
+Dose-Response	Likelihood Ratio	0.0024
+Homogeneity	Log-Rank	0.0005
+L275: Table 5B: Intercurrent Mortality Comparison Female Mice
+L276: Test	Statistic	P Value
+Dose-Response	Likelihood Ratio	0.6580
+Homogeneity	Log-Rank	0.3308
+L277: Table 6A: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Male Mice
+L278: Organ Name	Tumor Name	0mg	6mg	12mg	50mg	P_Value	P_Value
+C vs. L	P_Value
+C vs. M	P_Value
+C vs. H
+Cont
+N=50	Low
+N=50	Med
+N=50	High
+N=50	Dose
+Resp
+ADRENAL GLANDS	Adenoma cortical	2	0	1	1	0.5004	1.0000	0.8800	0.7975
+Adenoma subcapsular cell, mixed	0	0	0	1	0.1831	.	.	0.4062
+Tumor medullary benign	0	0	1	0	0.4507	.	0.5000	.
+BONE	Osteosarcoma, well-differentiated	0	1	0	0	0.7343	0.5190	.	.
+BRAIN	Meningioma, fibrous	0	1	0	0	0.7343	0.5190	.	.
+COLON	Adenocarcinoma, well-differentiated	0	0	0	1	0.1831	.	.	0.4062
+Adenoma, single	0	0	0	1	0.1831	.	.	0.4062
+GALLBLADDER	Adenoma, papillary	0	0	1	0	0.4507	.	0.5000	.
+HARDERIAN GLAND	Adenoma, single	3	4	8	3	0.3843	0.5284	0.0959	0.4556
+JEJUNUM	Adenocarcinoma, well-differentiated	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+KIDNEYS	Adenoma renal tubule	2	2	0	0	0.9749	0.7207	1.0000	1.0000
+Carcinoma renal tubule	1	0	1	0	0.7779	1.0000	0.7533	1.0000
+LIVER	Adenoma hepatocellular	0	2	1	2	0.1151	0.2661	0.5000	0.1687
+Carcinoma hepatocellular	2	2	2	0	0.8839	0.7117	0.6926	1.0000
+Hemangiosarcoma, multiple	1	2	0	2	0.1948	0.5190	1.0000	0.3497
+LUNGS	Adenoma bronchiolo-alveolar	7	6	7	1	0.9644	0.7605	0.6363	0.9890
+Carcinoma bronchiolo-alveolar	4	6	11	4	0.4210	0.4014	0.0466	0.4244
+NASAL CAV./NASO	Adenocarcinoma, well-differentiated	0	1	0	0	0.7343	0.5190	.	.
+PANCREAS	Islet cell adenoma, single	0	1	0	0	0.7324	0.5128	.	.
+PITUITARY GLAND	Adenoma pars distalis	0	1	1	0	0.5543	0.5190	0.5000	.
+PROSTATE	Adenocarcinoma, well-differentiated	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+Adenoma, single	0	1	0	0	0.7324	0.5128	.	.
+SKIN	Fibrosarcoma	1	1	0	0	0.9308	0.7718	1.0000	1.0000
+Malignant neuroendocrine cell tumor	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+Sebaceous cell carcinoma	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+Squamous cell papilloma, single	0	0	1	0	0.4507	.	0.5000	.
+SPLEEN	Hemangioma, single	0	1	0	0	0.7324	0.5128	.	.
+Hemangiosarcoma, multiple	1	1	0	1	0.4166	0.7718	1.0000	0.6513
+STOMACH	Carcinoma squamous cell	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+Malignant neuroendocrine cell tumor	0	1	0	0	0.7324	0.5128	.	.
+SYSTEMIC TUMORS	Histiocytic sarcoma	0	0	2	0	0.4046	.	0.2532	.
+Lymphoma, lymphoblastic	9	11	4	2	0.9758	0.4984	0.9673	0.9825
+Myeloid leukemia, not otherwise specified	2	1	1	1	0.5599	0.8888	0.8751	0.7908
+L279: Table 6A: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons
+Male Mice
+L280: Organ Name	Tumor Name	0mg	6mg	12mg	50mg	P_Value	P_Value	P_Value	P_Value
+Cont	Low	Med	High	Dose
+N=50	N=50	N=50	N=50	Resp	C vs. L	C vs. M	C vs. H
+TESTES	Tumor Leydig cell benign	0	4	1	2	0.2178	0.0641	0.5000	0.1612
+THYMUS	Thymoma benign	0	0	0	1	0.1831	.	.	0.4062
+THYROID GLAND	Follicular cell carcinoma, solid	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+L281: Table 6B: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons Female Mice
+L282: Organ Name	Tumor Name	0mg	6mg	12mg	50mg	P_Value
+Dose
+Resp	P_Value
+Cont
+N=50	Low
+N=50	Med
+N=50	High
+N=50	P_Value
+C vs. L	P_Value
+C vs. M	P_Value
+C vs. H
+ADRENAL GLANDS	Adenoma cortical	0	1	0	0	0.7710	0.5455	.	.
+Tumor medullary benign	0	0	1	3	0.0145*	.	0.5385	0.1186
+Tumor medullary malignant	0	0	1	0	0.4962	.	0.5385	.
+BONE	Osteosarcoma, well-differentiated	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+CECUM	Adenocarcinoma, well-differentiated	0	0	2	0	0.4768	.	0.2861	.
+HARDERIAN GLAND	Adenoma, single	2	0	3	2	0.3263	1.0000	0.5719	0.6813
+HEART	Hemangiosarcoma, single, pericard	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+LIVER	Carcinoma hepatocellular	0	0	0	1	0.2290	.	.	0.5000
+Hemangiosarcoma, multiple	0	0	1	2	0.0582	.	0.5455	0.2623
+LUNGS	Adenoma bronchiolo-alveolar	4	3	4	3	0.5878	0.8434	0.7127	0.7876
+Carcinoma bronchiolo-alveolar	5	3	3	2	0.8229	0.9050	0.9050	0.9431
+MAMMARY GLAND	Adenocarcinoma, poorly-differentiated	1	1	1	0	0.8529	0.7972	0.7909	1.0000
+NOSE	Osteosarcoma, well-differentiated	0	0	1	0	0.5000	.	0.5455	.
+OVARIES	Cystadenoma	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+Hemangioma, single	0	0	0	1	0.2290	.	.	0.5000
+Luteoma benign	2	2	1	2	0.4550	0.7592	0.9071	0.6940
+Tumor granulosa cell benign	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+Tumor sex cord stromal mixed benign	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+PITUITARY GLAND	Adenoma pars distalis	1	1	2	0	0.8010	0.7972	0.5585	1.0000
+SKIN	Fibrosarcoma	0	0	1	0	0.4962	.	0.5385	.
+Squamous cell carcinoma, well-differentiated	0	0	1	0	0.5000	.	0.5455	.
+SPLEEN	Hemangiosarcoma, single	1	1	0	0	0.9489	0.7972	1.0000	1.0000
+STERNUM	Fibrosarcoma	0	0	1	0	0.5000	.	0.5455	.
+SYSTEMIC TUMORS	Histiocytic sarcoma	1	3	3	3	0.2441	0.3656	0.3769	0.3062
+Lymphoma, NOS	15	19	10	9	0.9091	0.5537	0.9607	0.9358
+Myeloid leukemia,emia, neutrophil	1	1	1	0	0.8551	0.7972	0.7972	1.0000
+THYMUS	Thymoma benign	1	0	0	0	1.0000	1.0000	1.0000	1.0000
+UTERUS	Adenocarcinoma, adenosquamous,ar	1	0	1	3	0.0622	1.0000	0.7909	0.3187
+Adenoma, single	0	1	0	0	0.7710	0.5455	.	.
+Carcinoma not otherwise specified	0	0	1	0	0.5000	.	0.5455	.
+Fibroma	0	0	1	0	0.4962	.	0.5385	.
+Glandular polyp	3	1	0	2	0.4264	0.9589	1.0000	0.8230
+Leiomyoma, single	2	1	0	3	0.1302	0.9113	1.0000	0.5000
+Leiomyosarcoma	0	0	0	1	0.2290	.	.	0.5000
+L283: Table 6B: Tumor Rates and P-Values for Dose Response Relationship and Pairwise Comparisons Female Mice
+L284: Organ Name	Tumor Name	0mg	6mg	12mg	50mg	P_Value	P_Value	P_Value	P_Value
+Cont	Low	Med	High	Dose	C vs. L	C vs. M	C vs. H
+N=50	N=50	N=50	N=50	Resp	
+UTERUS	Sarcoma, endometrial stromal	1	1	0	1	0.5192	0.7972	1.0000	0.7623
+Stromal polyp, single	9	7	10	9	0.3602	0.8704	0.6705	0.6092
+VAGINA	Leiomyoma, single	0	0	0	1	0.2290	.	.	0.5000
+Stromal polyp	0	0	2	0	0.4768	.	0.2861	.
+L285: Figure 1A: Kaplan-Meier Survival Functions for Male Rats
+L286: Figure 1B: Kaplan-Meier Survival Functions for Female Rats
+L287: Figure 2A: Kaplan-Meier Survival Functions for Male Mice
+L288: Figure 2B: Kaplan-Meier Survival Functions for Female Mice
+L289: ## 7. References
+L290: - Peto, R., M.C. Pike, N.E. Day, R.G. Gray, P.N. Lee, S. Parish, J. Peto, Richards, and J.Wahrendorf, "Guidelines for sample sensitive significance test for carcinogenic effects in long-term animal experiments", Long term and short term screening assays for carcinogens: A critical appraisal, International agency for research against cancer monographs, *Annex to supplement, World Health Organization, Geneva*, 311-426, 1980.
+- Bailer AJ, Portier CJ (1988). "Effects of treatment-induced mortality and tumor-induced mortality on tests for carcinogenicity in small samples." *Biometrics*, 44, 417-431.
+- Bieler, G. S. and Williams, R. L. (1993). "Ratio estimates, the delta method, and quantal response tests for increased carcinogenicity". *Biometrics* 49, 793-801.
+- Tarone RE, "Test for trend in life table analysis", *Biometrika* 1975, 62: 679-82
+- Lin K.K. and Rahman M.A., "Overall false positive rates in tests for linear trend in tumor incidence in animal carcinogenicity studies of new drugs", *Journal of Biopharmaceutical Statistics*, 8(1), 1-15, 1998.
+- Haseman, J, "A re-examination of false-positive rates for carcinogenesis studies", *Fundamental and Applied Toxicology*, 3: 334-339, 1983.
+- Guidance for Industry. Statistical Aspects of the Design, Analysis, and Interpretation of Chronic Rodent Carcinogenicity Studies of Pharmaceuticals (Draft Guidance). U.S. Department of Health and Human Services, Food and Drug Administration, Center for Drug Evaluation and Research (CDER), May 2001.
+L291: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L292: /s/
+L293: MOHAMMAD A RAHMAN
+L294: 04/22/2013
+L295: KARL K LIN
+L296: 04/24/2013
+L297: Concur with review
+L298: Cumulative Distribution of change
+This figure is a cumulative distribution function (CDF) plot showing the distribution of change in 6MWD (6-Minute Walk Distance) from baseline for three treatment groups in trial 12934 (FDA).
+X-axis: Change in 6MWD from baseline (m), ranging from approximately -100 to 250.
+Y-axis: Cumulative Distribution, ranging from 0.0 to 1.0.
+The legend identifies the three groups:
+Riociguat 1.0-2.5 (Red line)
+Riociguat 1.0-1.5 (Green line)
+Placebo (Blue line)
+The Placebo group shows the highest median change (around 100 m), followed by Riociguat 1.0-1.5 (around 75 m), and Riociguat 1.0-2.5 (around 50 m). All groups show a similar distribution shape, indicating that the treatment effect is primarily observed in the positive change direction (improvement).
+L299: Scatterplot showing Change in 6MWD (m) on the Y-axis versus Change in PVR (dyn*s*cm^-5) on the X-axis. The data points are widely scattered, and a regression line is drawn with a coefficient of determination R^2 = 0.0350, indicating a weak negative correlation.
+L300: Figure 3 is a cumulative distribution plot showing the distribution of change in 6MWD (6-Minute Walk Distance) from baseline for two treatment groups: Riociguat 1.0-2.5 (red line) and Placebo (blue line). The X-axis represents the Change in 6MWD from baseline (m), ranging from -200 to 300. The Y-axis represents the Cumulative Distribution, ranging from 0.0 to 1.0.
+Both distributions are highly skewed towards positive change (improvement). The Placebo group shows a slightly higher cumulative distribution at lower positive values (e.g., around 0.5 cumulative distribution at 50 m change) compared to the Riociguat 1.0-2.5 group, suggesting a slightly better performance of the Placebo group in terms of the distribution of change.
+L301: Scatterplot showing the relationship between Change in PVR (dyn*s*cm^-5) on the x-axis and Change in 6MWD (m) on the y-axis for subjects in study 11348. The x-axis ranges from -1500 to 1000, and the y-axis ranges from -100 to 300. The data points are widely scattered, showing no clear linear correlation.
+L302: Kaplan-Meier Curve
+Male Rats
+This figure displays the Kaplan-Meier Survival Functions for Male Rats across four dose groups (dosegp=0, 5, 10, and 20). The Y-axis represents the Survival Distribution Function (ranging from 0.00 to 1.00), and the X-axis represents the Day of death or sacrifice (ranging from 0 to 120).
+The legend indicates the following strata and censoring:
+STRATA	Line Color	Symbol	Group
+dosegp=0	Black	Open circle	Censored dosegp=0
+Censored dosegp=5	Red	Open circle	Censored dosegp=5
+dosegp=20	Blue	Open circle	Censored dosegp=20
+dosegp=10	Green	Open circle	Censored dosegp=10
+The survival curves show that the dosegp=0 group maintains the highest survival probability throughout the study period, followed by dosegp=10, dosegp=5, and dosegp=20, which shows the lowest survival probability.
+L303: Kaplan—Meier Curve
+Female Rats
+Y-axis: Survival Distribution Function (0.00 to 1.00)
+X-axis: Day of death or sacrifice (0 to 120)
+STRATA:
+Black line: dosegp=0
+Red line: dosegp=5
+Green line: dosegp=10
+Blue line: dosegp=20
+Day of death or sacrifice:
+Black circles: Censored dosegp=0
+Red circles: Censored dosegp=5
+Green circles: Censored dosegp=10
+Blue circles: Censored dosegp=20
+L304: Kaplan-Meier Curve
+Male Mouse
+Y-axis: Survival Distribution Function (0.00 to 1.00)
+X-axis: Day of death or sacrifice (0 to 120)
+STRATA:
+dosegp=0
+Censored dosegp=0
+dosegp=6
+Censored dosegp=6
+dosegp=12
+Censored dosegp=12
+dosegp=50
+Censored dosegp=50
+L305: Kaplan-Meier Curve
+Female Mouse
+Y-axis: Survival Distribution Function (0.00 to 1.00)
+X-axis: Day of death or sacrifice (0 to 120)
+STRATA:
+dosegp=0
+Censored dosegp=6
+dosegp=50
+Legend:
+dosegp=0
+Censored dosegp=0
+dosegp=6
+Censored dosegp=6
+dosegp=12
+Censored dosegp=12
+dosegp=50
+Censored dosegp=50

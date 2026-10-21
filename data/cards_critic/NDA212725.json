@@ -1,0 +1,18 @@
+{
+  "app": "NDA212725",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 335)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n \"app\": \"NDA212725\",\n \"release_ready\": false,\n \"issues\": [\n  {\n   \"field\": \"approval_program.summary\",\n   \"severity\": \"low\",\n   \"issue\": \"Flagged uncited number '51' is supported by the pivotal_trials n citation ('pooled subgroup of 51 patients'); fa",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "51",
+        "text": "Entrectinib was submitted December 18, 2018 and reviewed under Priority review. "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

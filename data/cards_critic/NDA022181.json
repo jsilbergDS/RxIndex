@@ -1,0 +1,28 @@
+{
+  "app": "NDA022181",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 307)",
+  "_raw": "Looking at the card carefully for each check category.\n\n{\n \"app\": \"NDA022181\",\n \"release_ready\": false,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[0].phase\",\n   \"severity\": \"low\",\n   \"issue\": \"Phase '3' is not supported by its citation (quote only lists study names, no phase), but this is an infer",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "3",
+        "text": "Phase 3 efficacy study"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "13",
+        "text": "Application received May 25, 2007 and approved December 13, 2007 on the first re"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "13",
+        "text": "Kuvan (sapropterin dihydrochloride) received orphan drug designation in January "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

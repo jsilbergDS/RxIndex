@@ -1,0 +1,21 @@
+{
+  "app": "NDA213227",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "low",
+      "issue": "Design described as single-arm, non-comparative diagnostic imaging study labeled 'Phase 3' per citation; verbatim-supported so acceptable, noted for consistency."
+    },
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "low",
+      "issue": "Field adds the word 'adult' which is not in the cited quote (quote says only '42 patients'), though 'adult' is supported by the indication elsewhere."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

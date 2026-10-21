@@ -1,0 +1,33 @@
+{
+  "app": "BLA761128",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 340)",
+  "_raw": "Let me analyze this card carefully.\n\nChecking the automated flags:\n- \"12\" in population: \"12 months\" is a date/duration reference, and the citation says \"previous twelve months\" \u2014 the number 12 is spelled out in citation. False positive.\n- \"761128\" occurrences: these are the BLA application number (",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "12",
+        "text": "Patients aged 16 to 63 years with sickle cell disease (Hgb SS, SC, S/Beta0 Thala"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "761128",
+        "text": "BLA 761128 was approved (Recommendation on Regulatory Action: Approval); no prio"
+      },
+      {
+        "field": "approval_program/priority_review/basis",
+        "number": "761128",
+        "text": "BLA 761128 was reviewed as a Priority review application."
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "761128",
+        "text": "Crizanlizumab-tmca received Orphan Drug Designation (July 22, 2008) and Breakthr"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

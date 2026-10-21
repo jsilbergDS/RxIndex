@@ -1,0 +1,167 @@
+{
+  "app": "NDA204781",
+  "drug": "DOTAREM",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_32e2e795-223d-517a-8776-d64f1a8099de"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_fe78747a-ff0b-5776-a5d4-f14c69efc026"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_2d1df296-ee04-5514-b60c-ff2db8884cd9"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_cceb95e9-c18a-5270-9cd3-7257beb7c92e"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Medical Imaging Drugs Advisory Committee (MIDAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_32e2e795-223d-517a-8776-d64f1a8099de",
+      "line": 11,
+      "quote": "This unique pediatric proposal prompted a discussion at a Medical Imaging Drugs Advisory Committee (MIDAC) on February 14, 2013."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_32e2e795223d",
+      "found_lines": [
+        11
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "February 14, 2013",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_32e2e795-223d-517a-8776-d64f1a8099de",
+      "line": 69,
+      "quote": "Dotarem was the subject of a meeting of the Medical Imaging Advisory Committee (MIDAC) held on February 14, 2013."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_32e2e795223d",
+      "found_lines": [
+        69
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "MIDAC voted unanimously that Dotarem demonstrated efficacy for all patient groups and that the risk/benefit was favorable for adults and pediatric patients aged 2 years and older; in a 6-10-1 vote (yes-no-abstention) the committee voted against approval for pediatric patients younger than 2 years, citing lack of clinical/pharmacokinetic data and lack of juvenile animal toxicology data.",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_32e2e795-223d-517a-8776-d64f1a8099de",
+      "line": 69,
+      "quote": "The committee voted unanimously that Dotarem demonstrated efficacy for all patient groups and that the risk to benefit assessment is favorable for adults and pediatric patients aged two years of age and older. In a 6-10-1 vote (yes-no-abstention), the committee voted against approval of Dotarem for pediatric patients aged younger than two years of age due to lack of clinical and pharmacokinetic data in this age group as well as lack of juvenile animal toxicology data."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_32e2e795223d",
+      "found_lines": [
+        69
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "MIDAC did not regard the supplied data as sufficient to support approval of Dotarem in patients younger than 2 years of age (6-10-1 vote against approval in this age group).",
+      "change": "The approved indication was confined to patients aged 2 years or more; approval for use in patients younger than 2 years was not recommended.",
+      "category": "Population / age restriction",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_32e2e795-223d-517a-8776-d64f1a8099de",
+        "line": 69,
+        "quote": "In a 6-10-1 vote (yes-no-abstention), the committee voted against approval of Dotarem for pediatric patients aged younger than two years of age due to lack of clinical and pharmacokinetic data in this age group as well as lack of juvenile animal toxicology data.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_32e2e795223d",
+          "found_lines": [
+            69
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_32e2e795-223d-517a-8776-d64f1a8099de",
+        "line": 12,
+        "quote": "Subsequent discussions within the review team culminated in a recommendation for approval of Dotarem to include an indication statement that confined use of the drug to patients aged two years or more.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_32e2e795223d",
+          "found_lines": [
+            12
+          ]
+        }
+      }
+    },
+    {
+      "concern": "MIDAC specifically cited the lack of a non-clinical toxicology study in juvenile animals as a data deficit for the younger-than-2-years population.",
+      "change": "A post-marketing requirement for a juvenile animal model study was imposed.",
+      "category": "Nonclinical data / PMR",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_32e2e795-223d-517a-8776-d64f1a8099de",
+        "line": 12,
+        "quote": "Specifically cited data deficits were for a non-clinical toxicology study in juvenile animals and the lack of clinical pharmacology data from patients aged less than two years.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_32e2e795223d",
+          "found_lines": [
+            12
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_32e2e795-223d-517a-8776-d64f1a8099de",
+        "line": 12,
+        "quote": "Post-marketing requirements will address the need for data from a juvenile animal model study and a clinical pharmacology study of patients aged less than two years.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_32e2e795223d",
+          "found_lines": [
+            12
+          ]
+        }
+      }
+    },
+    {
+      "concern": "MIDAC supported the clinical pharmacology team's concern over the lack of clinical pharmacology data in pediatric patients / infants.",
+      "change": "A post-marketing requirement for a clinical pharmacology (pharmacokinetic) study in patients younger than 2 years was imposed.",
+      "category": "Clinical pharmacology data / PMR",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_32e2e795-223d-517a-8776-d64f1a8099de",
+        "line": 42,
+        "quote": "The clinical pharmacology team's request for clinical pharmacology data in infants was supported by the MIDAC and this request is culminating in a post-marketing requirement.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_32e2e795223d",
+          "found_lines": [
+            42
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_32e2e795-223d-517a-8776-d64f1a8099de",
+        "line": 66,
+        "quote": "-a study conducted among patients less than two years of age; patients undergoing MRI will have blood analyzed for pharmacokinetics; safety outcomes will also be assessed",
+        "quote_verify": {
+          "status": "MISSING"
+        }
+      }
+    }
+  ],
+  "summary": "A Medical Imaging Drugs Advisory Committee (MIDAC) meeting was held on February 14, 2013 for Dotarem (gadoterate meglumine), prompted by the sponsor's unusual request to approve the GBCA for infants. The committee unanimously found efficacy and a favorable risk/benefit for adults and children aged 2 years and older, but voted 6-10-1 against approval for patients younger than 2 years, citing missing clinical/pharmacokinetic data and the absence of a juvenile animal toxicology study. The approval was consequently confined to patients aged 2 years or more, with post-marketing requirements for a juvenile animal study and a pediatric pharmacokinetic study to address the cited data gaps."
+}

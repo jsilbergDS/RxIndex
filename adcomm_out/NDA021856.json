@@ -1,0 +1,143 @@
+{
+  "app": "NDA021856",
+  "drug": "ULORIC",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "b6a0a640-1644-59f0-8f9e-516c477741b0"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "8bfc4cb4-f103-5d67-a6d1-88d9993639fa"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "90a573dc-0199-58e3-9c87-745eb027e534"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "b387b5ae-0b57-5dfd-8c19-0705172ef409"
+    },
+    {
+      "doc_type": "Lbl",
+      "doc_id": "10bd08a5-d49c-583f-a547-5a7b23e3dd39"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Arthritis Advisory Committee",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "8bfc4cb4-f103-5d67-a6d1-88d9993639fa",
+      "line": 130,
+      "quote": "The Arthritis Advisory Committee met on November 24, 2008 to discuss the safety and efficacy of febuxostat."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "8bfc4cb4-f103-5d67-a6d1-88d9993639fa",
+      "found_lines": [
+        130
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "November 24, 2008",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "b387b5ae-0b57-5dfd-8c19-0705172ef409",
+      "line": 70,
+      "quote": "The FDA Arthritis Advisory Committee met on November 24, 2008 to discuss this application for the proposed treatment of hyperuricemia in patients with gout."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "b387b5ae-0b57-5dfd-8c19-0705172ef409",
+      "found_lines": [
+        70
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 12-0 with 1 abstention to recommend approval of febuxostat, with agreement that further post-approval studies should be conducted to assess cardiovascular safety.",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "b387b5ae-0b57-5dfd-8c19-0705172ef409",
+      "line": 70,
+      "quote": "The committee voted 12-0, with 1 abstention to recommend approval of febuxostat for the treatment of chronic gout. The committee members also agreed that further studies should be conducted post-approval to further assess the safety of febuxostat."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "b387b5ae-0b57-5dfd-8c19-0705172ef409",
+      "found_lines": [
+        70
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee was concerned about a possible increased cardiovascular risk with febuxostat and, given the paucity of data, agreed that additional information should be collected after approval through a study designed to yield an adequate number of cardiovascular events.",
+      "change": "FDA required, as a postmarketing requirement (PMR) under FDAAA 505(o), a randomized controlled trial to determine whether Uloric is associated with a moderate increase in the risk of serious adverse cardiovascular outcomes compared to allopurinol.",
+      "category": "Safety / Postmarketing requirement (cardiovascular outcome study)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "b6a0a640-1644-59f0-8f9e-516c477741b0",
+        "line": 76,
+        "quote": "While the general consensus was that the benefits of the product outweigh the risks (indeed, they voted 12 to 0 in favor of approval, with one abstention), the committee members also recommended that this issue be further evaluated after approval and a study designed and conducted that would assure an adequate number of events upon which to draw firm conclusions.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "b6a0a640-1644-59f0-8f9e-516c477741b0",
+          "found_lines": [
+            76
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "b6a0a640-1644-59f0-8f9e-516c477741b0",
+        "line": 94,
+        "quote": "A randomized, controlled trial of adequate size and duration to determine whether the use of Uloric is associated with a moderate increase in the risk of serious adverse cardiovascular outcomes as compared to allopurinol.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "b6a0a640-1644-59f0-8f9e-516c477741b0",
+          "found_lines": [
+            94
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee was concerned about the possibility of increased cardiovascular risk with febuxostat.",
+      "change": "The approved label included a Cardiovascular Events warning (Warnings and Precautions 5.2) noting a higher rate of cardiovascular thromboembolic events with Uloric than allopurinol and advising monitoring for MI and stroke.",
+      "category": "Safety / Label warning (cardiovascular events)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "8bfc4cb4-f103-5d67-a6d1-88d9993639fa",
+        "line": 130,
+        "quote": "The committee was concerned about the possibility of increased cardiovascular risk with febuxostat.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "8bfc4cb4-f103-5d67-a6d1-88d9993639fa",
+          "found_lines": [
+            130
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "10bd08a5-d49c-583f-a547-5a7b23e3dd39",
+        "line": 1,
+        "quote": "Cardiovascular Events: A higher rate of cardiovascular thromboembolic events was observed in patients treated with ULORIC than allopurinol in clinical trials. Monitor for signs and symptoms of MI and stroke.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "10bd08a5-d49c-583f-a547-5a7b23e3dd39",
+          "found_lines": [
+            1
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The FDA Arthritis Advisory Committee met on November 24, 2008 to discuss febuxostat (Uloric) and, while concerned about a possible cardiovascular risk signal, voted 12-0 with 1 abstention to recommend approval, agreeing that the cardiovascular question should be resolved after approval. The committee's concern directly shaped the approval: FDA required a postmarketing randomized controlled cardiovascular outcome trial versus allopurinol (PMR under FDAAA), as the Division Director explicitly concurred. The label also carries a Cardiovascular Events warning reflecting the same cardiovascular uncertainty that drove the committee meeting."
+}

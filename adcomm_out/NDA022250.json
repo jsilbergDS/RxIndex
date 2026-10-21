@@ -1,0 +1,207 @@
+{
+  "app": "NDA022250",
+  "drug": "AMPYRA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "6eff3d1e-423d-5d27-b944-fca5ae30f0a9"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "254433d0-0abb-5045-9e37-6ac1bad12a64"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "34217c65-76f6-5476-bb03-cac5fe9dde49"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "52b9d4da-8c13-51e1-b537-2e446c9d52ae"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "efbfceef-34d4-5efb-8d8b-b28df28e8522"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Peripheral and Central Nervous Systems (PCNS) Advisory Committee",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "6eff3d1e-423d-5d27-b944-fca5ae30f0a9",
+      "line": 163,
+      "quote": "The NDA was presented to the Peripheral and Central Nervous Systems (PCNS) Advisory Committee at a meeting on October 14, 2009."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "6eff3d1e-423d-5d27-b944-fca5ae30f0a9",
+      "found_lines": [
+        163
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "October 14, 2009",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "6eff3d1e-423d-5d27-b944-fca5ae30f0a9",
+      "line": 163,
+      "quote": "at a meeting on October 14, 2009."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "6eff3d1e-423d-5d27-b944-fca5ae30f0a9",
+      "found_lines": [
+        163
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 12-1 that the data provide substantial evidence of effectiveness for fampridine to improve walking in MS; voted 12-1 that lower doses (<10 mg BID) should be evaluated but 11-2 that such studies should not be required prior to approval; and voted 10-2 (1 abstain) that there are conditions under which fampridine could be considered safe.",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "6eff3d1e-423d-5d27-b944-fca5ae30f0a9",
+      "line": 163,
+      "quote": "The Committee voted 12-1 that the data provide substantial evidence of effectiveness for fampridine as a treatment to improve walking in patients with MS."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "6eff3d1e-423d-5d27-b944-fca5ae30f0a9",
+      "found_lines": [
+        163
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The AC unanimously recommended contraindicating fampridine in patients with moderate or severe renal impairment (and caution in mild), because the drug is renally cleared and has a narrow therapeutic window for seizures.",
+      "change": "Labeling contraindicates fampridine in moderate and severe renal insufficiency and requires measurement of creatinine clearance in all patients before starting treatment.",
+      "category": "Safety / Contraindication + required testing",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "254433d0-0abb-5045-9e37-6ac1bad12a64",
+        "line": 55,
+        "quote": "The Advisory Committee panel unanimously recommended a contraindication of fampridine in patients with moderate or severe renal impairment, and \u201cuse with caution\u201d in patients with mild renal impairment.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "254433d0-0abb-5045-9e37-6ac1bad12a64",
+          "found_lines": [
+            55
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MedR",
+        "doc_id": "52b9d4da-8c13-51e1-b537-2e446c9d52ae",
+        "line": 645,
+        "quote": "Fampridine SR should be contraindicated in moderate and severe renal insufficiency and all patients should undergo measurement of creatinine clearance prior to starting treatment.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "52b9d4da-8c13-51e1-b537-2e446c9d52ae",
+          "found_lines": [
+            645
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The AC flagged that mild renal impairment could raise plasma levels into a range associated with increased seizure risk, and that 'use with caution' was not actionable without a way to adjust dose in renal impairment.",
+      "change": "As a post-marketing commitment, Acorda agreed to develop a 7.5 mg dosage strength to allow dose adjustment in patients with renal impairment.",
+      "category": "Dose / Post-marketing commitment",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "254433d0-0abb-5045-9e37-6ac1bad12a64",
+        "line": 55,
+        "quote": "As it is not clear what \u201cuse with caution\u201d means in this setting (there are usually no premonitory signs for seizures), labeling should instead describe that in patients with mild renal impairment, fampridine may reach plasma levels that have been associated with an increased risk of seizures.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "254433d0-0abb-5045-9e37-6ac1bad12a64",
+          "found_lines": [
+            55
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "254433d0-0abb-5045-9e37-6ac1bad12a64",
+        "line": 55,
+        "quote": "Acorda agreed, as a post-marketing commitment, to develop a 7.5 mg dosage strength, that will allow adjusting the dose in patients with renal impairment.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "254433d0-0abb-5045-9e37-6ac1bad12a64",
+          "found_lines": [
+            55
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The AC agreed there was no need for pre-screening EEG before starting fampridine because there is no clinical evidence that EEG predicts seizure risk.",
+      "change": "In accordance with the AC vote, labeling does not require EEG testing prior to use; instead fampridine is not to be used in patients with a history of seizure.",
+      "category": "Safety / Labeling (screening requirement)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "52b9d4da-8c13-51e1-b537-2e446c9d52ae",
+        "line": 422,
+        "quote": "Also, the committee agreed there was no need for pre-screening EEG before initiation of fampridine as no clinical evidence support the use of EEG to predict seizure risk.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "52b9d4da-8c13-51e1-b537-2e446c9d52ae",
+          "found_lines": [
+            422
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MedR",
+        "doc_id": "52b9d4da-8c13-51e1-b537-2e446c9d52ae",
+        "line": 645,
+        "quote": "In accordance with the Advisory Committee vote, the labeling should not require EEG testing prior to use, but Fampridine SR should not be used in patients with a history of seizure.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "52b9d4da-8c13-51e1-b537-2e446c9d52ae",
+          "found_lines": [
+            645
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The AC majority agreed that doses lower than 10 mg BID should be evaluated to see whether seizure risk and other adverse events could be decreased while maintaining efficacy, improving the benefit-risk ratio.",
+      "change": "The review recommends that Acorda study fampridine SR doses below 10 mg BID (as a post-approval study, since the AC voted this should not be required prior to approval).",
+      "category": "Dose / Post-marketing study",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "254433d0-0abb-5045-9e37-6ac1bad12a64",
+        "line": 140,
+        "quote": "The majority of the committee agreed that doses lower than 10 mg twice daily should be evaluated to see if seizure risk and other adverse events are decreased while still maintaining efficacy, thus improving the benefit to risk ratio.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "254433d0-0abb-5045-9e37-6ac1bad12a64",
+          "found_lines": [
+            140
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MedR",
+        "doc_id": "52b9d4da-8c13-51e1-b537-2e446c9d52ae",
+        "line": 646,
+        "quote": "Acorda should study Fampridine SR doses &lt;10mg bid.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "52b9d4da-8c13-51e1-b537-2e446c9d52ae",
+          "found_lines": [
+            646
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Peripheral and Central Nervous Systems (PCNS) Advisory Committee met October 14, 2009 and voted 12-1 that fampridine (Ampyra) showed substantial evidence of effectiveness for improving walking in MS, supporting approval at the proposed 10 mg BID dose. The committee's safety recommendations shaped the label: a contraindication in moderate/severe renal insufficiency with required creatinine-clearance testing, no required EEG screening (but no use in patients with seizure history), a post-marketing commitment to develop a 7.5 mg strength for renal dose adjustment, and a recommendation to study doses below 10 mg BID post-approval. The verbatim AC transcript is not in paperclip; these facts come from the FDA review documents' account of the meeting."
+}

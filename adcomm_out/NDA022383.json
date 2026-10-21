@@ -1,0 +1,139 @@
+{
+  "app": "NDA022383",
+  "drug": "ARCAPTA NEOHALER",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "3e970272-d4f8-5028-b5d8-b29fbf465fa5"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "636d2893-3242-5878-a32e-6443c691f293"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "d1a71805-ab4b-5385-9c36-eb63629c021e"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "a50dd264-1c57-5e4d-ba1f-9d235a22dbe4"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Pulmonary-Allergy Drugs Advisory Committee (PADAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "3e970272-d4f8-5028-b5d8-b29fbf465fa5",
+      "line": 207,
+      "quote": "A Pulmonary-Allergy Drugs Advisory Committee (PADAC) meeting was held on March 8, 2011, for this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "3e970272-d4f8-5028-b5d8-b29fbf465fa5",
+      "found_lines": [
+        207
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "March 8, 2011",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "3e970272-d4f8-5028-b5d8-b29fbf465fa5",
+      "line": 207,
+      "quote": "A Pulmonary-Allergy Drugs Advisory Committee (PADAC) meeting was held on March 8, 2011, for this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "3e970272-d4f8-5028-b5d8-b29fbf465fa5",
+      "found_lines": [
+        207
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee recommended approval of the 75 mcg dose (13 yes, 4 no) and recommended against approval of the 150 mcg dose (5 yes, 12 no); it was split on whether the SGRQ data supported efficacy (10 yes, 7 no).",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "3e970272-d4f8-5028-b5d8-b29fbf465fa5",
+      "line": 208,
+      "quote": "The Committee by majority voting concluded that efficacy for 75 mcg dose was demonstrated, that the 75 mcg was safe for use in COPD patients, and recommended approval of the 75 mcg dose (votes were 13 yes and 4 no). Regarding the 150 mcg dose, the Committee concluded that added benefit of the 150 mcg dose was not demonstrated, and balancing the overall efficacy and safety data, recommended against approval of the 150 mcg dose (votes were 5 yes and 12 no)."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "3e970272-d4f8-5028-b5d8-b29fbf465fa5",
+      "found_lines": [
+        208
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee concluded that added benefit of the proposed higher 150 mcg dose was not demonstrated and, balancing efficacy and safety, recommended against its approval (5 yes, 12 no).",
+      "change": "Only the 75 mcg dose was approved; the 150 mcg dose was dropped and the label reflects 75 mcg as the only recommended dose.",
+      "category": "Dose / strength not approved",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "3e970272-d4f8-5028-b5d8-b29fbf465fa5",
+        "line": 208,
+        "quote": "Regarding the 150 mcg dose, the Committee concluded that added benefit of the 150 mcg dose was not demonstrated, and balancing the overall efficacy and safety data, recommended against approval of the 150 mcg dose (votes were 5 yes and 12 no).",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "3e970272-d4f8-5028-b5d8-b29fbf465fa5",
+          "found_lines": [
+            208
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "3e970272-d4f8-5028-b5d8-b29fbf465fa5",
+        "line": 229,
+        "quote": "Novartis and the Division finally agreed that 75 mcg would be the only recommended dose.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "3e970272-d4f8-5028-b5d8-b29fbf465fa5",
+          "found_lines": [
+            229
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The safety of long-acting beta-agonists (LABAs) in asthma \u2014 including asthma-related deaths \u2014 was the topic of discussion at the July 13, 2005 and December 10, 2008 Pulmonary-Allergy Drugs Advisory Committee meetings.",
+      "change": "As a class action following those meetings, LABA product labels were revised to include a Boxed Warning and a Medication Guide; the Arcapta Neohaler label likewise carries asthma-related safety warnings including a Boxed Warning.",
+      "category": "Safety / Boxed warning",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "636d2893-3242-5878-a32e-6443c691f293",
+        "line": 151,
+        "quote": "the safety of LABAs was the topic of discussion at a July 13, 2005, Pulmonary Allergy Drugs Advisory Committee Meeting (PADAC). Based on this meeting and a follow up PADAC meeting on December 10, 2008, the existing product labels have been revised and now include a Boxed Warning and a Medication Guide for all marketed LABA products.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "636d2893-3242-5878-a32e-6443c691f293",
+          "found_lines": [
+            151
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "3e970272-d4f8-5028-b5d8-b29fbf465fa5",
+        "line": 229,
+        "quote": "Asthma-related safety warnings are described in the label, including in a Boxed Warning.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "3e970272-d4f8-5028-b5d8-b29fbf465fa5",
+          "found_lines": [
+            229
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "A Pulmonary-Allergy Drugs Advisory Committee (PADAC) meeting was held on March 8, 2011 for NDA 22-383 (Arcapta Neohaler/indacaterol). The committee recommended approval of the 75 mcg once-daily dose (13-4) but recommended against the proposed higher 150 mcg dose (5-12), finding its added benefit not demonstrated; FDA approved only the 75 mcg dose and the label reflects 75 mcg as the sole recommended dose. Consistent with class-wide LABA safety concerns discussed at earlier (2005 and 2008) PADAC meetings, the Arcapta label carries a Boxed Warning and Medication Guide for asthma-related risk."
+}

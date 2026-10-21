@@ -1,0 +1,164 @@
+{
+  "app": "NDA212306",
+  "drug": "XPOVIO",
+  "docs_read": [
+    {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "41188fd2-96d1-5f23-8398-0b1f1ad0ec4f"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "d687b097-836d-5f92-8c44-6fdf619bea1c"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Oncologic Drugs Advisory Committee (ODAC)",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "d687b097-836d-5f92-8c44-6fdf619bea1c",
+      "line": 20,
+      "quote": "02/26/2019: Oncologic Drugs Advisory Committee Meeting was convened to discuss whether the approval of selinexor be delayed until results of the randomized Phase 3 trial Boston are available."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "d687b097-836d-5f92-8c44-6fdf619bea1c",
+      "found_lines": [
+        20
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "February 26, 2019",
+    "quote": {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "41188fd2-96d1-5f23-8398-0b1f1ad0ec4f",
+      "line": 1255,
+      "quote": "The Application was presented to the Oncologic Drug Advisory Committee (ODAC) on February 26, 2019."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "41188fd2-96d1-5f23-8398-0b1f1ad0ec4f",
+      "found_lines": [
+        1255
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "ODAC voted 8 Yes / 5 No in favor of delaying approval of selinexor until results of the randomized Phase 3 BOSTON trial (KCP-330-023) are available.",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "d687b097-836d-5f92-8c44-6fdf619bea1c",
+      "line": 20,
+      "quote": "The AC voted 8 in favor/ 5 against delaying approval of selinexor."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "d687b097-836d-5f92-8c44-6fdf619bea1c",
+      "found_lines": [
+        20
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "ODAC questioned whether the single-arm STORM (KCP-330-012) data were conclusive to adequately assess selinexor's safety and efficacy in the proposed population and whether the benefit outweighed the risks, voting to delay approval until the randomized Phase 3 BOSTON trial results were available.",
+      "change": "After the ODAC meeting the Applicant submitted a major amendment with additional randomized BOSTON data, and the review team recommended accelerated approval in a more refractory (penta-refractory) patient population than the Applicant had initially proposed.",
+      "category": "Efficacy evidence / Indication narrowing",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "41188fd2-96d1-5f23-8398-0b1f1ad0ec4f",
+        "line": 1255,
+        "quote": "FDA requested discussion of whether the KCP-330-012 (STORM) data are conclusive to allow for an adequate assessment of the safety and efficacy in the proposed patient population, and whether selinexor provides a benefit that outweighs the risks.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "41188fd2-96d1-5f23-8398-0b1f1ad0ec4f",
+          "found_lines": [
+            1255
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "41188fd2-96d1-5f23-8398-0b1f1ad0ec4f",
+        "line": 92,
+        "quote": "Based on this additional information, the review team recommended accelerated approval for selinexor in a more refractory patient population than that initially proposed by the Applicant.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "41188fd2-96d1-5f23-8398-0b1f1ad0ec4f",
+          "found_lines": [
+            92,
+            95
+          ]
+        }
+      }
+    },
+    {
+      "concern": "ODAC voted in favor of delaying consideration of approval until results of the randomized Phase 3 BOSTON trial were available, reflecting concern that the single-arm STORM trial could not isolate selinexor's treatment effect.",
+      "change": "A postmarketing requirement (PMR-1) was imposed requiring completion and submission of the ongoing randomized, controlled Phase 3 BOSTON trial (KCP-330-023) comparing SVd to Vd.",
+      "category": "Confirmatory evidence / Postmarketing requirement",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "41188fd2-96d1-5f23-8398-0b1f1ad0ec4f",
+        "line": 1264,
+        "quote": "randomized phase 3 trial, KCP-330-023 (BOSTON), are available?\u201d The final vote was 8 votes Yes, 5 votes No.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "41188fd2-96d1-5f23-8398-0b1f1ad0ec4f",
+          "found_lines": [
+            1264
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "41188fd2-96d1-5f23-8398-0b1f1ad0ec4f",
+        "line": 1286,
+        "quote": "PMR-1: Complete and submit a final report with full datasets from the ongoing multicenter, randomized, controlled, phase 3 clinical trial (KCP-330-023) comparing selinexor in combination with bortezomib and dexamethasone (SVd) to bortezomib and dexamethasone (Vd) in patients with relapsed or refractory multiple myeloma who have received one to three prior lines of therapy.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "41188fd2-96d1-5f23-8398-0b1f1ad0ec4f",
+          "found_lines": [
+            1286
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Among the specific issues presented to ODAC was dose selection: the proposed 80 mg starting dose was not well tolerated (91.1% required a dose modification, 26.8% discontinued), and exposure-response analyses suggested lower doses of selinexor may be better tolerated.",
+      "change": "A postmarketing requirement (PMR-2) was imposed requiring a randomized Phase 2 trial characterizing the safety and efficacy of at least two selinexor doses lower than 80 mg on Days 1 and 3 to inform the optimal dose.",
+      "category": "Dose optimization / Postmarketing requirement",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "41188fd2-96d1-5f23-8398-0b1f1ad0ec4f",
+        "line": 1259,
+        "quote": "Exposure-response analyses indicate a relationship between higher exposures and adverse events, suggesting that lower doses of selinexor may be better tolerated.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "41188fd2-96d1-5f23-8398-0b1f1ad0ec4f",
+          "found_lines": [
+            1259
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "41188fd2-96d1-5f23-8398-0b1f1ad0ec4f",
+        "line": 1290,
+        "quote": "PMR-2: Conduct a randomized phase 2 clinical trial of selinexor in combination with dexamethasone to characterize the safety and efficacy of at least two different doses of selinexor, which are lower than the dosing regimen of 80 mg on Days 1 and 3 of each week",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "41188fd2-96d1-5f23-8398-0b1f1ad0ec4f",
+          "found_lines": [
+            1290
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "XPOVIO (selinexor) was presented to the Oncologic Drugs Advisory Committee (ODAC) on February 26, 2019, which voted 8 Yes / 5 No in favor of delaying approval until results of the randomized Phase 3 BOSTON trial were available, driven by concerns that the single-arm STORM trial could not adequately establish benefit-risk and by toxicity and dose-selection concerns. Following the meeting, the applicant submitted a major amendment with additional randomized BOSTON data, and FDA granted accelerated approval for a narrower, more heavily pretreated (penta-refractory) population than originally proposed, with postmarketing requirements to complete the BOSTON confirmatory trial (PMR-1) and evaluate lower doses (PMR-2)."
+}

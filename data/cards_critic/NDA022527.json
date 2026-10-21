@@ -1,0 +1,23 @@
+{
+  "app": "NDA022527",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 287)",
+  "_raw": "Let me analyze this card carefully.\n\n```json\n{\n  \"app\": \"NDA022527\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].phase\",\n      \"severity\": \"low\",\n      \"issue\": \"Automated flag for uncited number '3' in 'Phase 3' is a false positive: the citation says 'Phase III',",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "3",
+        "text": "Phase 3 pivotal efficacy and safety trial"
+      },
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "3",
+        "text": "Phase 3 pivotal efficacy and safety trial"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

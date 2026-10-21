@@ -1,0 +1,97 @@
+{
+  "app": "NDA210238",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "receipt_date",
+      "severity": "high",
+      "issue": "Receipt date is stated as September 21, 2017 (the marketing application supporting-document letter date), but the actual NDA received date used for review-clock purposes is October 30, 2017 (filing date); however the citation does show 'Received Date(s) September 21, 2017' so this is the submission receipt\u2014still, the card conflates submission receipt with filing; verify intended semantics.",
+      "field_note": "borderline"
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Flagged number '60' (DOPTELET 60 mg) is a dose and should be excluded; false-positive uncited-number flag.",
+      "field_note": "dismiss"
+    },
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "Flagged number '1' is part of 'ADAPT-1' identifier reference, not an efficacy/safety number; false-positive flag.",
+      "field_note": "dismiss"
+    },
+    {
+      "field": "pivotal_trials[1].endpoint",
+      "severity": "low",
+      "issue": "Flagged number '7' (7 days) is supported by ADAPT-1's identical endpoint citation which is explicitly stated as identical; false-positive flag.",
+      "field_note": "dismiss"
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "Flagged number '4' is part of 'DOPTELET 60 mg' / ADAPT-2 wording context and not an unsupported efficacy figure; the 69%/35%/34%/<0.0001 values are all in the cited table; false-positive flag.",
+      "field_note": "dismiss"
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged number '3' refers to 'supporting document 1' / 'Phase 3'; Phase 3 is supported by cited trial-design quotes; false-positive flag.",
+      "field_note": "dismiss"
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "high",
+      "issue": "The claim '69% responders vs 35% placebo (difference 34%)' misreads the table: 35% is the ADAPT-2 placebo responder value, but the difference-of-proportion column pairs are ambiguous; ADAPT-1 difference is 43% and ADAPT-2 difference is 34%, so the ADAPT-2 placebo 35% and difference 34% are internally consistent, but the shared single p-value row does not confirm p<0.0001 applies specifically to ADAPT-2\u2014the card's own note admits the p-value is shared, so asserting 'p<0.0001' for ADAPT-2 overstates what the quote supports.",
+      "field_note": "keep"
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "medium",
+      "issue": "The result reports only the Low Baseline Platelet Count Cohort and labels it as the trial result, but does not present the overall/primary population result; potentially incomplete/misleading representation of the pivotal endpoint outcome.",
+      "field_note": "keep"
+    },
+    {
+      "field": "n",
+      "severity": "low",
+      "issue": "Citation quotes contain the OCR misspelling 'DOPELET' while card text uses 'DOPTELET'; cosmetic source-quote discrepancy.",
+      "field_note": "keep"
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "medium",
+      "issue": "Summary states approval was based on 'two identically designed Phase 3 placebo-controlled trials' and describes them as regular/full approval, which is consistent; however it also asserts filing October 30, 2017 as the basis narrative mixing submission and filing dates\u2014minor internal date conflation with receipt_date field.",
+      "field_note": "keep"
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "60",
+        "text": "Low baseline platelet cohort: 66% responders on DOPTELET 60 mg vs 23% placebo (d"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "1",
+        "text": "International, multicenter, randomized, double-blind, placebo-controlled, parall"
+      },
+      {
+        "field": "pivotal_trials[1]/endpoint",
+        "number": "7",
+        "text": "Proportion of patients who did not require a platelet transfusion or any rescue "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "4",
+        "text": "Low baseline platelet cohort: 69% responders on DOPTELET 60 mg vs 35% placebo (d"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "NDA 210238 was submitted under a supporting document 1 letter dated September 21"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

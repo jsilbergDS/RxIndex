@@ -1,0 +1,57 @@
+{
+  "app": "BLA125476",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "uncited_numbers/pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False positive: the flagged '8' corresponds to 'difference 8%' which belongs to CD Trial I (trial[1]) and is supported by its citation; UC Trial I's own numbers (47/26/22, p<0.001) are all cited."
+    },
+    {
+      "field": "uncited_numbers/key_safety",
+      "severity": "low",
+      "issue": "False positives: the flagged '3' and '1' come from the threshold phrase '>=3% and >=1% higher than placebo', not efficacy/safety data; actual AE rates are all cited."
+    },
+    {
+      "field": "uncited_numbers/post_marketing[4].requirement",
+      "severity": "low",
+      "issue": "False positive: '505' is the statutory citation 505(o), not an efficacy/safety number."
+    },
+    {
+      "field": "uncited_numbers/approval_program.summary",
+      "severity": "low",
+      "issue": "False positive: '505' refers to statute section, not an efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "8",
+        "text": "UC Trial I clinical response at Week 6: 47% ENTYVIO vs 26% placebo (p<0.001; dif"
+      },
+      {
+        "field": "key_safety",
+        "number": "3",
+        "text": "Most common adverse reactions (>=3% and >=1% higher than placebo) included nasop"
+      },
+      {
+        "field": "key_safety",
+        "number": "1",
+        "text": "Most common adverse reactions (>=3% and >=1% higher than placebo) included nasop"
+      },
+      {
+        "field": "post_marketing[4]/requirement",
+        "number": "505",
+        "text": "Under 505(o): a postmarketing, prospective, observational cohort study of vedoli"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "Standard BLA (351(a)) received June 20, 2013 and approved on this cycle; the reg"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

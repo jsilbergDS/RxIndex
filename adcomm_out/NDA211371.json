@@ -1,0 +1,131 @@
+{
+  "app": "NDA211371",
+  "drug": "ZULRESSO",
+  "docs_read": [
+    {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "5bbbf4da-462f-5361-ae9c-65c6bbef0ee3"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "4b79b0a3-67cb-5735-b3b5-ffcf81dbb85a"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Joint meeting of the Psychopharmacologic Drugs Advisory Committee (PDAC) and the Drug Safety and Risk Management (DSaRM) Advisory Committee",
+    "quote": {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "5bbbf4da-462f-5361-ae9c-65c6bbef0ee3",
+      "line": 1064,
+      "quote": "The Agency convened a joint meeting of the Psychopharmacologic Drugs Advisory Committee and the Drug Safety and Risk Management Advisory Committee on November 2, 2018."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "5bbbf4da-462f-5361-ae9c-65c6bbef0ee3",
+      "found_lines": [
+        1064
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "November 2, 2018",
+    "quote": {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "5bbbf4da-462f-5361-ae9c-65c6bbef0ee3",
+      "line": 1064,
+      "quote": "The Agency convened a joint meeting of the Psychopharmacologic Drugs Advisory Committee and the Drug Safety and Risk Management Advisory Committee on November 2, 2018."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "5bbbf4da-462f-5361-ae9c-65c6bbef0ee3",
+      "found_lines": [
+        1064
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The Committees voted 18-0 that substantial evidence supported effectiveness, 16-2 that the safety profile (including loss-of-consciousness events) was adequately characterized, and 17-1 that the benefits outweigh the risks when used in a certified facility under the proposed REMS.",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "4b79b0a3-67cb-5735-b3b5-ffcf81dbb85a",
+      "line": 32,
+      "quote": "These members agreed that the excessive sedation and loss-of-consciousness events can be addressed through a REMS, and the AC voted 17/1 in favor of the benefits outweighing the risks with a REMS in place."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "4b79b0a3-67cb-5735-b3b5-ffcf81dbb85a",
+      "found_lines": [
+        32
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Committee members were concerned about the excessive sedation and loss-of-consciousness (LOC) events observed during the brexanolone infusion, and agreed these risks could be managed through a risk management program.",
+      "change": "FDA required a REMS with Elements To Assure Safe Use (ETASU): pharmacy and healthcare setting certification, dispensing/administration only in a certified healthcare setting, safe-use conditions, patient monitoring, and enrollment in a registry.",
+      "category": "Safety / REMS with ETASU",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "4b79b0a3-67cb-5735-b3b5-ffcf81dbb85a",
+        "line": 32,
+        "quote": "These members agreed that the excessive sedation and loss-of-consciousness events can be addressed through a REMS, and the AC voted 17/1 in favor of the benefits outweighing the risks with a REMS in place.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "4b79b0a3-67cb-5735-b3b5-ffcf81dbb85a",
+          "found_lines": [
+            32
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "4b79b0a3-67cb-5735-b3b5-ffcf81dbb85a",
+        "line": 104,
+        "quote": "Based on review of the application by DPP and DRISK, along with feedback from the ROC and the joint meeting of the PDAC and DSaRM Advisory Committee, DRISK recommends that to ensure the benefits outweigh the risk of serious harm the REMS must include the following ETASU: (B) pharmacy and healthcare setting certification, (C) dispensing of Zulresso only in a certified healthcare setting, (D) patient subject to safe-use conditions, (E) patient subject to certain monitoring, and (F) patient enrollment in a registry.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "4b79b0a3-67cb-5735-b3b5-ffcf81dbb85a",
+          "found_lines": [
+            104
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members recommended using a sedation scale at predetermined intervals during the infusion to monitor for excessive sedation / loss of consciousness.",
+      "change": "The REMS will require checks for excessive sedation at regular intervals during administration.",
+      "category": "Safety / Sedation monitoring in REMS",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "5bbbf4da-462f-5361-ae9c-65c6bbef0ee3",
+        "line": 1080,
+        "quote": "Use a sedation scale at predetermined intervals during the infusion.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "5bbbf4da-462f-5361-ae9c-65c6bbef0ee3",
+          "found_lines": [
+            1080
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "5bbbf4da-462f-5361-ae9c-65c6bbef0ee3",
+        "line": 1080,
+        "quote": "The REMS will require checks for excessive sedation at regular intervals.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "5bbbf4da-462f-5361-ae9c-65c6bbef0ee3",
+          "found_lines": [
+            1080
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "FDA convened a joint meeting of the Psychopharmacologic Drugs Advisory Committee and the Drug Safety and Risk Management Advisory Committee on November 2, 2018 for brexanolone (ZULRESSO). The Committees voted 18-0 that efficacy was demonstrated and 17-1 that benefits outweigh risks when the drug is administered in a certified setting under the proposed REMS, agreeing that the excessive sedation and loss-of-consciousness risks could be mitigated through a REMS. The AdComm feedback fed directly into the REMS with ETASU (certification, administration only in certified healthcare settings, monitoring, and a patient registry), and committee members' recommendation for a sedation scale at predetermined intervals is reflected in the REMS requirement for checks for excessive sedation at regular intervals."
+}

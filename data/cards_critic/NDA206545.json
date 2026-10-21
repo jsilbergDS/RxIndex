@@ -1,0 +1,28 @@
+{
+  "app": "NDA206545",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Extra data: line 33 column 1 (char 1875)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"NDA206545\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].result\",\n      \"severity\": \"high\",\n      \"issue\": \"Result states median PFS 'not reached' for idelalisib arm, but the cited quotes only give NR from",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study 312-0116 (Study 1)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "6",
+        "text": "Approved on first cycle; the application received December 6, 2013 was approved "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2013",
+        "text": "Approved on first cycle; the application received December 6, 2013 was approved "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

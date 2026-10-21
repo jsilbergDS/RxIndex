@@ -1,0 +1,237 @@
+{
+  "app": "NDA203214",
+  "drug": "XELJANZ",
+  "docs_read": [
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fab7b599-d8c8-5b14-947f-48976be37695"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "9b788033-c1c8-5735-8ad2-9d0e7bbc974f"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "75996bfd-1432-537f-b5c1-e84c7c720bbe"
+    },
+    {
+      "doc_type": "Lbl",
+      "doc_id": "ad6d21f3-5dc6-542d-bbb0-4149edb5e5db"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Arthritis Advisory Committee",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fab7b599-d8c8-5b14-947f-48976be37695",
+      "line": 341,
+      "quote": "This NDA was discussed at the May 9, 2012 Arthritis Advisory Committee meeting."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fab7b599-d8c8-5b14-947f-48976be37695",
+      "found_lines": [
+        341
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "May 9, 2012",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fab7b599-d8c8-5b14-947f-48976be37695",
+      "line": 341,
+      "quote": "This NDA was discussed at the May 9, 2012 Arthritis Advisory Committee meeting."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fab7b599-d8c8-5b14-947f-48976be37695",
+      "found_lines": [
+        341
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 8 Yes to 2 No that the efficacy and safety data provide substantial evidence to support approval of tofacitinib for moderately to severely active RA in patients with inadequate response to one or more DMARDs. A separate vote on radiographic efficacy failed 2 Yes to 8 No, and the safety-adequacy vote was 7 Yes, 2 No, 1 Abstain.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "9b788033-c1c8-5735-8ad2-9d0e7bbc974f",
+      "line": 86,
+      "quote": "the panel voted yes=8 and no=2."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "9b788033-c1c8-5735-8ad2-9d0e7bbc974f",
+      "found_lines": [
+        86
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee did not find the radiographic/structural-damage data adequate: it voted 2 Yes to 8 No that the data provided substantial evidence of efficacy for radiographic outcomes, citing missing data and imputation methods.",
+      "change": "The approved indication is limited to signs and symptoms of moderately to severely active RA; no structural-damage (radiographic) claim was granted in the label.",
+      "category": "Efficacy / Indication scope (structural-damage claim excluded)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fab7b599-d8c8-5b14-947f-48976be37695",
+        "line": 354,
+        "quote": "The majority of the committee did not agree that the data provided substantial evidence for the efficacy of tofacitinib for radiographic outcomes.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fab7b599-d8c8-5b14-947f-48976be37695",
+          "found_lines": [
+            354
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "ad6d21f3-5dc6-542d-bbb0-4149edb5e5db",
+        "line": 21,
+        "quote": "XELJANZ, an inhibitor of Janus kinases (JAKs), is indicated for the treatment of adult patients with moderately to severely active rheumatoid arthritis who have had an inadequate response or intolerance to methotrexate.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "ad6d21f3-5dc6-542d-bbb0-4149edb5e5db",
+          "found_lines": [
+            21
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee raised concern about the 10 mg twice-daily dose (over-immunosuppression and malignancy) and judged the safety data more favorable for the 5 mg dose.",
+      "change": "FDA approved only the 5 mg twice-daily dose as the recommended dose.",
+      "category": "Dose / dose restriction",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fab7b599-d8c8-5b14-947f-48976be37695",
+        "line": 349,
+        "quote": "the committee agreed that the safety data are more favorable for the 5 mg dose.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fab7b599-d8c8-5b14-947f-48976be37695",
+          "found_lines": [
+            349
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "ad6d21f3-5dc6-542d-bbb0-4149edb5e5db",
+        "line": 28,
+        "quote": "The recommended dose of XELJANZ is 5 mg twice daily.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "ad6d21f3-5dc6-542d-bbb0-4149edb5e5db",
+          "found_lines": [
+            28,
+            73
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee recommended stringent post-marketing studies (large registries and systematic pharmacovigilance) to elucidate long-term safety data given limited long-term safety information.",
+      "change": "A postmarketing required (PMR) study was made a condition of approval to further explore cardiovascular, malignancy, and infectious risks.",
+      "category": "Safety / Postmarketing requirement (PMR)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fab7b599-d8c8-5b14-947f-48976be37695",
+        "line": 368,
+        "quote": "The committee agreed that stringent post-marketing studies, such as large registries and systematic patient-centered pharmacovigilance, are warranted in order to elucidate long-term safety data.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fab7b599-d8c8-5b14-947f-48976be37695",
+          "found_lines": [
+            368
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "9b788033-c1c8-5735-8ad2-9d0e7bbc974f",
+        "line": 84,
+        "quote": "DPARP plans on making a post marketing required study a condition of approval.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "9b788033-c1c8-5735-8ad2-9d0e7bbc974f",
+          "found_lines": [
+            84
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee agreed there are concerns with malignancy, lymphoma, infections, abnormal hematologic parameters, lipid changes, and cardiovascular disease.",
+      "change": "A Risk Evaluation and Mitigation Strategy (REMS) was required, including a communication plan and medication guide covering the risks of serious infection and malignancy.",
+      "category": "Safety / REMS",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fab7b599-d8c8-5b14-947f-48976be37695",
+        "line": 347,
+        "quote": "The committee agreed that there are concerns with this drug for the following safety issues: malignancy, lymphoma, infections, abnormal hematologic parameters, lipid parameter changes, and cardiovascular disease.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fab7b599-d8c8-5b14-947f-48976be37695",
+          "found_lines": [
+            347
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fab7b599-d8c8-5b14-947f-48976be37695",
+        "line": 424,
+        "quote": "A Risk Evaluation and Mitigation Strategy (REMS) is warranted that should include a communication plan and medication guide.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fab7b599-d8c8-5b14-947f-48976be37695",
+          "found_lines": [
+            424
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee concluded the data suggest tofacitinib might increase patients' risk over time, especially for malignancy and infections.",
+      "change": "The label carries a boxed warning for serious infections and malignancy.",
+      "category": "Safety / Boxed warning",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fab7b599-d8c8-5b14-947f-48976be37695",
+        "line": 347,
+        "quote": "the data suggests that tofacitinib might increase their risk over time, especially for malignancy and infections.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fab7b599-d8c8-5b14-947f-48976be37695",
+          "found_lines": [
+            347
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "ad6d21f3-5dc6-542d-bbb0-4149edb5e5db",
+        "line": 12,
+        "quote": "WARNING: SERIOUS INFECTIONS AND MALIGNANCY",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "ad6d21f3-5dc6-542d-bbb0-4149edb5e5db",
+          "found_lines": [
+            12,
+            57
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Arthritis Advisory Committee met on May 9, 2012 and voted 8-2 that the efficacy and safety data supported approval of tofacitinib (Xeljanz) for moderately to severely active RA after inadequate DMARD response, but voted 2-8 against the radiographic/structural-damage efficacy claim and expressed strong safety concerns (malignancy, infections, lipid changes, the 10 mg dose, and limited long-term data). Consistent with these views, FDA approved only the 5 mg twice-daily dose with an indication limited to signs and symptoms (no structural-damage claim), a boxed warning for serious infections and malignancy, a REMS, and a postmarketing required safety study. The review documents report the AC discussion and the resulting approval decisions but do not explicitly state that each change was made because of the AC, so the linkages are classified as inferred."
+}

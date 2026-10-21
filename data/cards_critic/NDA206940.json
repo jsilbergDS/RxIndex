@@ -1,0 +1,23 @@
+{
+  "app": "NDA206940",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 10 column 3 (char 284)",
+  "_raw": "{\n \"app\": \"NDA206940\",\n \"release_ready\": false,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[0].trial_name\",\n   \"severity\": \"low\",\n   \"issue\": \"False-positive flag: the '1' in 'Study 1' is supported by the design citation referencing 'Studies 1 and 2'; not a genuine problem.\",\n   \n  },\n  {\n   \"field",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study IBS-3001 (Study 1)"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Study IBS-3002 (Study 2)"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

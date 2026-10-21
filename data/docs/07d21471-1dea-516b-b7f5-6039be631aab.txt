@@ -1,0 +1,951 @@
+L1: CENTER FOR DRUG EVALUATION ANDRESEARCH
+L2: APPLICATION NUMBER:
+L3: 125547Orig1s000
+L4: STATISTICAL REVIEW(S)
+L5: Seal of the Center for Drug Evaluation and Research, FDA. The seal features a caduceus (a staff with two snakes and wings) in the center, surrounded by the text 'Center for Drug Evaluation and Research' and 'FDA' at the bottom.
+L6: U.S. Department of Health and Human ServicesFood and Drug AdministrationCenter for Drug Evaluation and ResearchOffice of Translational SciencesOffice of Biostatistics
+L7: STATISTICAL REVIEW AND EVALUATIONCLINICAL STUDIES
+L8: NDA/BLA Number: BLA 125,547Drug Name: Necitumumab (Portrazza™)Indication(s):Applicant: Eli Lilly and CompanyDate(s): Submission Date: 02 December 2014PDUFA Due Date: 02 December 2015Review Priority: StandardBiometrics Division: Division of Biometrics 5 (HFD-711)Statistical Reviewer: Lijun Zhang, Ph.D.Concurring Reviewers: Shenghui Tang, Ph.D., Team LeaderRajeshwari Sridhara, Ph.D., Division DirectorMedical Division: Division of Oncology Products 2 (HFD-150)Clinical Team: Lee Pai-Scherf, M.D.Gideon Blumenthal, M.D., Team LeaderProject Manager: Missiratch BiableKeywords: Overall Survival, Logrank Test, Randomization, Progression-Free Survival
+L9: Table of Contents
+L10: LIST OF TABLES .....3LIST OF FIGURES .....31. EXECUTIVE SUMMARY .....42. INTRODUCTION .....4    2.1 OVERVIEW.....4    2.2 DATA SOURCES .....83. STATISTICAL EVALUATION.....8    3.1 DATA AND ANALYSIS QUALITY .....8    3.2 EVALUATION OF EFFICACY .....8    3.3 EVALUATION OF SAFETY .....25    3.4 BENEFIT-RISK ASSESSMENT.....254. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS.....25    4.1 GENDER, RACE, AGE, AND GEOGRAPHIC REGION .....25    4.2 OTHER SPECIAL/SUBGROUP POPULATIONS.....265. SUMMARY AND CONCLUSIONS.....27    5.1 STATISTICAL ISSUES .....27    5.2 COLLECTIVE EVIDENCES.....27    5.3 CONCLUSIONS AND RECOMMENDATIONS .....27    5.4 LABELING RECOMMENDATIONS.....27SIGNATURES/DISTRIBUTION LIST .....28
+L11: LIST OF TABLES
+L12: Table 1: Overview of the Pivotal Study SQUIRE.....5Table 2. Summary of Study Protocol and SAP Amendments .....5Table 3. Summary of Efficacy Results of Study INSPIRE .....7Table 4. Censoring Rules for PFS – Primary Analysis .....13Table 6. Summary of Demographics and Baseline Disease Characteristics .....15Table 7. Discordance of Stratification Data, between eCRF and IVRS .....16Table 8. Post-Study Systemic Anti-Cancer Therapy.....16Table 9. Primary Analysis of Overall Survival, in the ITT Population.....17Table 10. Sensitivity Analyses of OS.....18Table 11. Results of PFS Analysis, in the ITT Population.....19Table 12. Differences in PFS by Deciles.....20Table 13. Summary of PFS Censoring Reasons.....21Table 14. Median (in weeks) of Time to Tumor Assessment and Log-rank Test .....21Table 15. Sensitivity Analyses of PFS .....22Table 16. Response Rate, in the ITT population.....22Table 17. Completion Rates for LCSS and EQ-5D at Each Assessment Time Point....23Table 18. Summary of Efficacy Outcomes by % Positive (&gt;0 vs. 0) .....24Table 19. OS Subgroup Analyses by Gender, Race, Age, and Region.....26Table 20. Additional OS Subgroup Analyses.....26
+L13: LIST OF FIGURES
+L14: Figure 1 INSPIRE: Kaplan-Meier Curves of Overall Survival, in the ITT Population .8Figure 2. SQUIRE Study Design .....9Figure 3. Kaplan-Meier Curves of Overall Survival, in the ITT Population.....18Figure 4. Kaplan-Meier Curves of Progression-Free Survival, in the ITT Population .20
+L15: 1. EXECUTIVE SUMMARY
+L16: Necitumumab (portrazza™) is a recombinant human monoclonal antibody of the immunoglobulin (Ig) G1 class, which targets the epidermal growth factor receptor-1 (EGFR). In this Biologic License Application (BLA), the applicant seeks an initial approval of necitumumab for use in the first-line treatment of patients with locally advanced or metastatic squamous non-small cell lung cancer (NSCLC), in combination with gemcitabine and cisplatin.
+L17: The efficacy for the proposed indication was based on the results of study SQUIRE (I4X-IE-JFCC), a multinational, randomized, multicenter, open-label study in patients with histologically or cytologically confirmed Stage IV squamous NSCLC in the first-line metastatic setting. Eligible patients were randomized 1:1 to receive either necitumumab with gemcitabine and cisplatin (GC+N, n=545) or gemcitabine and cisplatin (GC, n=548). The primary efficacy endpoint was overall survival (OS). The study has met its primary objective. SQUIRE showed a statistically significant improvement in OS with a difference of 1.6 months in median survival favoring the GC+N arm (HR=0.84; 95% CI: 0.74, 0.96; two-sided log-rank p=0.012).
+L18: This submission also includes data from the study INSPIRE (I4X-IE-JFBB) for the purpose of safety evaluation. INSPIRE evaluated the use of necitumumab in patients with advanced non-squamous NSCLC who had not received prior chemotherapy for metastatic disease. Eligible patients were randomized 1:1 to receive either necitumumab with pemetrexed and cisplatin (PC+N) or pemetrexed and cisplatin (PC). Study INSPIRE was closed prematurely at the request of the data monitoring committee (DMC) due to an imbalance on the number of deaths attributed to potential thromboembolic events (TE) and fatal TE SAEs observed in the PC+N arm compared to the PC arm. At the time of the study closure, 633 patients out of 947 planned were enrolled. Based on available data, there was no statistically significant difference in OS [HR=1.01 (95% CI 0.84; 1.21)], PFS [HR=0.96 (95% CI 0.80; 1.16)] or ORR [32% vs. 31%].
+L19: The application was discussed at the Oncologic Drug Advisory Committee meeting on July 9th, 2015. The committee discussed whether the efficacy and safety results of SQUIRE in squamous cell NSCLC support a positive benefit: risk assessment of necitumumab in combination with gemcitabine/cisplatin in the proposed population. A favorable conclusion was reached.
+L20: The judgment on the clinical meaningfulness of the treatment effect in OS observed in the squamous NSCLC study SQUIRE population in light of the toxicities and lack of a statistically, significant benefit in the non-squamous NSCLC study INSPIRE is deferred to the clinical review team.
+L21: 2. INTRODUCTION
+L22: 2.1 Overview
+L23: Necitumumab is a recombinant human IgG1 monoclonal antibody that binds to the extracellular domain of the human EGFR and blocks interaction between EGFR and its ligands. The efficacy claim of the current BLA submission is based on a Phase 3 pivotal study (SQUIRE) (Table 1), entitled “A randomized, multicenter, open-label, phase 3 study of gemcitabine-cisplatin chemotherapy plus necitumumab versus gemcitabine-cisplatin chemotherapy in the first-line treatment of patients with stage IV squamous non-small cell lung cancer”. The primary efficacy
+L24: endpoint was overall survival. The secondary endpoints included PFS, ORR, time to treatment failure, and health related quality of life.
+L25: Table 1: Overview of the Pivotal Study SQUIRE
+L26: Study designTreatment periodFollow-Up periodTreatment arms(number of randomized subjects)Enrollment period
+
+Geographic region: n
+
+
+
+randomized, open-labelPatients enrolled in the trial received study treatment for a maximum of 6 cycles, or until radiographic disease progression, unacceptable toxicities, protocol noncompliance, or patients' withdrawal. In the necitumumab arm, following 6 cycles, patients without disease progression continued to receive necitumumab alone until radiographic disease progression, unacceptable toxicities, protocol noncompliance, or patients' withdrawal.Follow-up for survival every 2 months post treatment discontinuation as long as the patient remained alive, or until the end of the studygemcitabine-cisplatin plus necitumumab (n=545)gemcitabine-cisplatin (n=548)Jan 2010 – Feb 2012184 sitesEast Asia (19 sites)NA, Europe, and Australia (151 sites)SA, South Africa, and India (14 sites)
+L27: The original protocol of Study SQUIRE was finalized on 23 July 2009 and was subsequently amended six times. The original statistical analysis plan (SAP) was dated 4 August 2009 and was amended three times thereafter. Major changes to the study protocol and statistical analysis plan are summarized in Table 2. Section 3.2 provides details on the efficacy evaluation based on data from Study SQUIRE.
+L28: Table 2. Summary of Study Protocol and SAP Amendments
+L29: ProtocolSAP
+
+
+
+
+Version 2 (20 April 2010)
+
+References to “Stage IIIB or Stage IV” NSCLC were changed to “Stage IV”.
+Guidelines for the radiographic evaluation of disease were revised to reflect current medical practice in this disease setting.
+
+
+Version 2 (03 May 2010)
+
+Added the statistical rules for multiple testing of secondary endpoints to be considered for labeling when there is a statistically significant result for the primary analysis of OS
+Modified the geographic region to be consistent with the protocol for the analysis of data by subgroups
+References to “Stage IIIB or Stage IV” NSCLC were changed throughout to “Stage IV”
+Changed biomarker analysis according to changes in the protocol version 2.
+L30: Version 3 (09 June 2011)
+
+The power of the study increased from 85% to 90%, thereby reducing the Type II-error (risk of failure provided effective treatment) from 15% to 10%. To achieve this, the sample size increased from 947 to 1080. The protocol-defined HR and the level of significance remained the same.
+Important safety information regarding thromboembolic events from the INSPIRE study (CP11-0805 / I4X-IE-JFCB) was added to the study protocol.
+
+
+Version 3 (28 March 2013) major statistical changes
+
+Updated secondary and exploratory objectives to account for protocol revision (protocol version 5.0)
+Added language regarding translational research data analyses
+Added the definition for all screened population
+Added a table for protocol violations
+Added the definition for treatment-emergent AEs
+Added sections on the following analyses: follow-up time for OS, and time to deterioration in ECOG PS
+Added details for the definitions of LCSS and EQ-5D and the corresponding statistical analysis
+Updated definitions for baseline, study days, etc
+Added a table for grouping of countries that randomized patients
+Removed the section on duration of response
+Added various subgroup analyses
+Added a section for covariate adjusted analyses
+
+
+
+
+Version 4 (11 October 2011)
+
+Only made administrative changes.
+
+Version 5 (28 March 2013)
+
+The assessment of immunogenicity results using redeveloped validated immunogenicity assays was described.
+Biomarker analyses were defined as exploratory objectives. Changes made reflect prioritization of biomarker analyses based on current scientific data. The current list includes biomarkers that are considered potentially predictive in this study setting.
+
+Version 6 (14 May 2013)
+
+Corrected a typographical error in the study synopsis
+
+
+Amendment 3 (18 June 2013)
+
+Added the definition of global composite index in section for LCSS
+Added leukocytes, BMI, hemoglobin, and platelets as additional prognostic factors in the section for subgroup analysis
+Added a separate section on analysis for patients who develop rash during first cycle of treatment
+Removed the mix-effect model with repeated measures (MMRM) analysis from LCSS and EQ-5D analyses
+L31: Summary of Safety Supportive Study INSPIRE
+L32: Data from study INSPIRE (I4X-IE-JFCB) of necitumumab in patients with advanced non-squamous NSCLC was submitted to provide safety information. Study INSPIRE compared the combination of necitumumab and pemetrexed-cisplatin chemotherapy with pemetrexed-cisplatin chemotherapy as the first-line treatment. The primary efficacy endpoint was OS. The overall design of the INSPIRE study is similar to that of SQUIRE, with the major differences being the patient population (nonsquamous vs. squamous NSCLC) and the control chemotherapy (pemetrexed and cisplatin vs. gemcitabine and cisplatin). In January 2011, the DMC recommended that enrollment into the study be stopped and necitumumab treatment be discontinued in patients who had not completed 2 cycles of treatment. The recommendation was based on the observation of increasing and persistent evidence of an excess of TE events and
+L33: fatal TE SAEs on the investigational arm in study INSPIRE, which accounted for an excess of deaths from all causes on this arm. The DMC concluded that the investigational treatment was disadvantageous to patients. Due to the early closure of study enrollment, although the original sample size planned for this study was 947, the final sample size was 633 patients based upon the actual number of patients who were enrolled prior to the halting of further enrollment. The study statistical analysis plan was revised and the death number needed for the final OS analysis was changed from 723 to 474, which reduced the power from 85% to 67.6% to detect a hazard ratio of 0.80. The final analysis of overall survival was performed when 482 death events have been observed. Results of the primary endpoint, OS, and the secondary endpoints, PFS and ORR, are summarized in Table 3. Data from the 633 patients did not show any statistically significant differences in OS, PFS, or ORR. The median OS was 11.3 months in the PC+N arm and 11.5 months in the PC arm [HR=1.01; 95% CI: 0.84, 1.21; logrank p-value=0.96]. The Kaplan-Meier curves for OS are shown in Figure 1. The median PFS was 5.6 months in each arm [HR=0.96; 95% CI (0.80, 1.16), logrank p-value=0.66]. ORR was similar, 32% in the PC+N arm and 31% in the PC arm.
+L34: Table 3. Summary of Efficacy Results of Study INSPIRE
+L35: PC+N(n=315)PC(n=318)
+
+
+
+Overall Survival
+
+Number of deaths (%)236 (75%)246 (77%)
+
+Median, months (95% CI)11.3 (9.5, 13.4)11.5 (10.1, 13.1)
+
+Stratified HRa (95% CI)1.01 (0.84, 1.21)
+
+Stratified Log-rank P-valuea0.96
+
+Progression-Free Survival
+
+Number of PFS events (%)231 (73%)239 (75%)
+
+Median, months (95% CI)5.6 (5.1, 6.0)5.6 (4.8, 5.7)
+
+Stratified HRa (95% CI)0.96 (0.80, 1.16)
+
+Stratified Log-rank P-valuea0.66
+
+Objective Response Rate
+
+Objective Response, n (%)98 (31%)102 (32%)
+
+95% CI for ORR(26%, 36%)(27%, 37%)
+
+P-valueb0.79
+L36: a Stratified log-rank test as well as the hazard ratio from a stratified proportional hazard model are stratified by the randomization strata: smoking history (never smoker vs. light ex-smoker vs. smoker), ECOG PS (0-1 vs. 2), disease histology (adeno/large cell carcinoma vs. other), and geographic region (North America, Europe, and Australia/New Zealand vs. Central/South America, South Africa, and India).
+L37: b Derived from two-sided test Cochran-Mantel-Haenszel test adjusting for the randomization strata.
+L38: [Source: Study CSR Tables JFCB.7.1, 7.5, and 7.6]
+L39: N at risk
+0
+6
+12
+18
+24
+30
+36
+
+
+
+
+PC+N
+315
+209
+138
+81
+35
+5
+
+
+
+PC
+318
+226
+146
+88
+47
+5
+
+
+
+Kaplan-Meier survival plot showing Survival Probability (Y-axis, 0.0 to 1.0) versus Months since Randomization (X-axis, 0 to 36). Two curves are shown: PC+N (black line) and PC (red line). The PC+N curve is generally higher than the PC curve, indicating better survival. Tick marks on the curves indicate censored data points.
+L40: Figure 1 INSPIRE: Kaplan-Meier Curves of Overall Survival, in the ITT Population
+L41: [Source: Study CSR Figure JFCB.7.1]
+L42: 2.2 Data Sources
+L43: Electronic submission including protocols, statistical analysis plan, study reports, and analysis datasets for this BLA submission (clinical cutoff date: 17 June 2013) can be accessed via this EDR link: \\CDSESUB1/evsprod/BLA125547/0001 .
+L44: 3. STATISTICAL EVALUATION
+L45: 3.1 Data and Analysis Quality
+L46: The data and analysis quality of the submission was acceptable for the reviewer to perform the statistical review.
+L47: 3.2 Evaluation of Efficacy
+L48: This efficacy evaluation focuses on study SQUIRE for the proposed indication in squamous NSCLC patient population.
+L49: 3.2.1 Study Design and Endpoints
+L50: 3.2.1.1 Overall Study Design
+L51: Study SQUIRE was a multinational, multicenter, randomized, open-label, Phase 3 study to evaluate the efficacy and safety of necitumumab plus gemcitabine-cisplatin compared to gemcitabine-cisplatin chemotherapy in patients with histologically or cytologically confirmed Stage IV squamous NSCLC in the first-line metastatic setting.
+L52: The primary efficacy endpoint was OS and no interim analysis for OS was planned. Patients were randomized in a 1:1 ratio through an interactive voice-response system (IVRS) or Interactive Web Response System (IWRS) to receive GC or GC+N using a stratified permuted block randomization schedule. Randomization was stratified by the following two factors.
+L53: • ECOG PS (0-1 vs. 2)
+• Geographic region (North America, Europe, and Australia vs. South America, South Africa, and India vs. Eastern Asia)
+L54: The trial design is presented in Figure 2.
+L55: The diagram illustrates the SQUIRE Study Design. On the left, a vertical box contains the letters 'R', 'A', 'N', 'D', 'O', 'M', 'I', 'Z', 'E' stacked vertically. Arrows point from this box to two treatment arms on the right.Arm A:
+• IMC-11FS 800 mg (absolute dose) on Days 1 and 8 of every 3-week cycle
+• Gemcitabine 1250 mg/m2 on Days 1 and 8 of every 3-week cycle
+• Cisplatin 75 mg/m2 on Day 1 of every 3-week cycle
+Gemcitabine and cisplatin continue for a maximum of six cycles. IMC-11FS continues until PD, toxicity requiring cessation, protocol noncompliance, or withdrawal of consent.Arm B:
+• Gemcitabine 1250 mg/m2 on Days 1 and 8 of every 3-week cycle
+• Cisplatin 75 mg/m2 on Day 1 of every 3-week cycle
+Gemcitabine and cisplatin continue for a maximum of six cycles.Diagram of SQUIRE Study Design showing randomization into two arms, Arm A and Arm B, with specific treatment regimens.
+L56: Figure 2. SQUIRE Study Design
+L57: [Source: SAP Figure 7.1]
+L58: 3.2.1.2 Schedule of Assessments
+L59: Based on Response Evaluation Criteria In Solid Tumors (RECIST) version 1.0, radiographic assessment of disease status was planned every 6 weeks following the first dose of study therapy, until documentation of progressive disease (PD). After treatment discontinuation, follow-up information regarding anticancer treatment and survival was collected every 2 months. Follow-up continued as long as the patient was alive, or until the end of the study.
+L60: 3.2.1.3 Efficacy Endpoints
+L61: Primary endpoints:
+L62: • OS
+L63: Secondary endpoints:
+L64: • PFS as determined by investigator assessment
+• Objective response rate per RECIST
+• Time to treatment failure (TTF)
+L65: • Health status assessment
+L66: Overall survival was defined as the time from randomization to death from any cause.
+L67: PFS was defined as the time from randomization to investigator-assessed disease progression or death from any cause, whichever occurred first.
+L68: Objective response rate per RECIST was defined as the percentage of patients who achieved either a confirmed complete response or partial response by investigators according to RECIST 1.0 as their best confirmed response, relative to patients randomized.
+L69: Time to treatment failure (TTF) was defined as the time from randomization to the first observation of progressive disease, death due to any cause, early discontinuation of treatment (all reasons from eCRF- except “completed treatment” for the GC arm), or initiation of new anti-cancer therapies.
+L70: Follow-up time for overall survival was defined from the date of randomization and using the inverse of the censoring rules for OS, i.e. considering all censoring times for OS as event times and censoring patients at the date of death.
+L71: Health status assessment (patient reported outcome) was performed using lung cancer symptom scale (LCSS, patient scale) measures and EuroQOL Five Dimensions questionnaire (EQ-5D).
+L72: LCSS is a self-reported disease- and site-specific instrument consisting of nine items: six questions on lung cancer symptoms plus three global items (symptom distress, difficulties with daily activities, and quality of life). For each item, the response is a score from 0-100, the measurement in millimeters of the patient’s mark (visual analog scale [VAS]). Higher scores represent greater intensity of the symptom, the distress, etc.
+L73: From the 9 items of the patient scale, for each assessment the following 12 variables were of interest:
+L74: • The average symptom burden index (ASBI) is defined for each patient at each LCSS assessment as the mean over all six symptom-specific items 1-6. For a given assessment, if any of the 6 symptom-specific questions have not been completed, the ASBI will be treated as missing.
+• The global three-item composite index is defined as the mean of the three global items 7-9. If any of the 3 questions have not been completed, the global three-item index will be considered missing.
+• The LCSS total score is defined as the mean over all nine items. For a given assessment, if any of the nine items have not been completed, the total score will be treated as missing.
+• Each of the 9 individual item scores.
+L75: For each of the 12 variables, change-from-baseline scores for every post-baseline assessment (measured as post-baseline score minus baseline score) were calculated. For these analyses, a clinically meaningful difference was defined as a \geq 15 mm change from baseline. Therefore, an improved score was defined as a \geq 15 mm decrease from baseline and a worsened score was defined as a \geq 15 mm increase from baseline. For each variable, the proportion of patients with
+L76: responses of “sustained improvement”, “deteriorated” and “stable” were to be compared between arms using Fisher’s exact test.
+L77: In addition, for each patient, time to first deterioration (TTD) was defined for each of the 12 variables as the time from the date of randomization to the date of the first post-baseline worsened score for that variable; if a worsened score was not observed, then TTD was to be censored at the date of the last LCSS assessment for that variable provided by the patient. Patients without any post-baseline assessments were to be censored at the date of randomization.
+L78: EQ-5D is a standardized instrument for use as a measure of self-reported health status. The instrument is not specific to lung cancer. EQ-5D included a 3-level assessment (no problem, some problem, and extreme problem) of each of 5 dimensions (mobility, self-care, usual activities, pain/discomfort, and anxiety/depression), plus a VAS rating of the patient’s overall health state (100=best imaginable health state; 0=worst imaginable health state).
+L79: Reviewer’s Comments
+L80: • As this is an open-label study, the results of patient reported outcome (PRO) endpoints and time to treatment failure could be biased and not interpretable.• Per the statistical analysis plan, there were no alpha (type-I error rate) adjustments for the multiple tests for the PRO endpoints.
+L81: 3.2.1.4 Sample Size Determination
+L82: At least 844 OS events (deaths) were needed to detect a HR of 0.80 (corresponding to an increase from 11 to 13.75 months in median OS) with 90% power using a log-rank test at a two-sided 5% level of significance. Assuming 5% patient drop-out rate, a total of 1080 patients were to be randomized upon the assumption of a 27-month accrual period, a follow-up of 19 months after the last patient was enrolled, and 1:1 randomization ratio.
+L83: 3.2.1.5 Interim Analyses
+L84: There was no interim efficacy analysis planned for OS. Interim analyses of safety were performed under the auspices of an IDMC, according to the specifics set forth in a separate IDMC charter.
+L85: 3.2.2 Statistical Methodologies
+L86: 3.2.2.1 Efficacy Analysis Population
+L87: The primary efficacy analysis population was the ITT population, defined as all patients randomized into the study. Patients were to be classified according to assigned treatment group, regardless of the actual treatment received.
+L88: 3.2.2.2 Efficacy Analysis Methods
+L89: The primary endpoint OS was summarized using Kaplan-Meier survival curves, and compared between the two treatment arms using a log-rank test stratified by randomization stratification factors, i.e., ECOG PS and geographic region, as collected by the IVRS/TWRS. The hazard ratio with a two-sided 95% confidence interval was derived from a stratified Cox proportional hazards model with the same stratification factors used in the stratified log-rank test.
+L90: Secondary endpoints included PFS, ORR, TTF, and Health Status Assessment. In the event that there was a statistically significant result for the primary analysis of OS, the secondary endpoints PFS and ORR would be tested for the consideration to be included in the label. The study statistical analysis plan has specified using Hochberg's method to adjust for multiplicity testing for PFS and ORR.
+L91: Progression-free survival was compared using a stratified log-rank test, and the estimation of PFS curves for the two treatment groups was generated using the Kaplan-Meier method. Censoring rules for the primary PFS analysis are summarized in Table 4.
+L92: ORR per RECIST1.0 was compared between the two treatment arms for all randomized patients using the Cochran-Mantel-Haenszel test with the same stratification factors as used in the primary analysis of OS.
+L93: LCSS and EQ-5D assessments were intended per protocol to be collected once at baseline (within 14 days of randomization), once during each cycle of study chemotherapy, and once every 6 weeks thereafter until disease progression. Compliance rates for each patient reported outcome instrument were to be calculated for each of these planned periods of assessment. Compliance for each of these assessment periods was defined as the number of patients assessed at that period, divided by the number of patients eligible to provide assessment at that period. A patient was eligible to provide an assessment if the patient was known to be alive without disease progression for that period.
+L94: In the analyses of LCSS, for each of the 12 variables defined in Section 3.2.1.3, all patients with a baseline value and at least one post-baseline value of the variable were included in the following analyses:
+L95: • Treatment hazard ratio for TTD was estimated using Cox proportional hazards models.• The proportion of patients with responses of "sustained improvement", "deteriorated" and "stable" were compared between arms using Fisher's exact test.• The mean value of patients' best and worst change-from-baseline scores were summarized and compared between treatment arms using analysis of covariance (with baseline score as the covariate)
+L96: Descriptive analyses were to be performed for patients' data as collected by EQ-5D. Best and worst change-from-baseline mean scores for index score and Visual Analogue Scale (VAS) were to be compared between treatment arms following the same methods as those for the LCSS.
+L97: Table 4. Censoring Rules for PFS – Primary Analysis
+L98: SituationDate of event or censoringOutcome
+
+
+
+No baseline radiological tumor assessment availableDate of randomizationCensored
+
+No post baseline radiological tumor assessment available and no death reported within 2 scan intervals following randomizationDate of randomizationCensored
+
+No post baseline radiological tumor assessment available but death reported within 2 scan intervals following randomizationDate of deathEvent
+
+No tumor progression (per RECIST 1.0) and no death reported within 2 scan intervals following last radiological tumor assessmentDate of last adequate radiological tumor assessmentCensored
+
+No tumor progression (per RECIST 1.0) but death reported within 2 scan intervals following last radiological tumor assessmentDate of deathEvent
+
+Tumor progression (per RECIST 1.0) documented within 2 scan intervals following previous radiological tumor assessmentEarliest of the target, non-target and new tumor assessment datesEvent
+
+Tumor progression (per RECIST 1.0) documented after 2 scan intervals following previous radiological tumor assessmentDate of previous adequate radiological assessmentCensored
+
+New anticancer treatment started and no tumor progressionDate of previous adequate radiological assessment prior to start of new therapyCensored
+
+No tumor progression (per RECIST 1.0) and patient lost to follow-up or withdrawal of consentDate of last adequate radiological assessmentCensored
+L99: [Source: SAP Table 8.2]
+L100: 3.2.3. Patient Disposition, Demographic and Baseline Characteristics
+L101: 3.2.3.1 Patients Disposition
+L102: From 07 January 2010 until 22 February 2012, a total of 1093 patients from 184 clinical sites in 26 countries were randomized to receive either gemcitabine-cisplatin plus necitumumab or gemcitabine-cisplatin chemotherapy in a 1:1 randomization ratio. Fourteen patients (7 in each arm) did not receive study treatment. As of the 17 June 2013 data cut-off date, 9 patients (1.7%) in the GC+N arm and none in the GC arm were still receiving the study treatment; 7 patients in the GC+N arm (1.3%) and 9 patients in the GC arm (1.6%) were off study treatment but still on study (that is, undergoing radiographic follow-up of disease progression and/or safety follow-up), as shown in Table 5. Disease progression as per RECIST was the primary reason for treatment discontinuation in the GC+N arm and treatment completion was the primary reason for treatment discontinuation in the GC arm, which are attributable to the study design (that is, patients in the GC+N arm were permitted to receive 6 cycles of chemotherapy plus necitumumab
+L103: followed by single-agent necitumumab until withdrawal criteria were met, while patients in the GC arm were permitted to receive a maximum of 6 cycles of treatment and then followed for disease progression).
+L104: Table 5. Summary of Patient Disposition
+L105: GC+N(N=545)GC(N=548)Total(N=1093)
+
+n (%)n (%)n (%)
+
+
+
+Never Treated7 (1)7 (1)14 (1)
+
+On Treatment9 (2)09 (&lt;1)
+
+Discontinued From Treatment529 (97)541 (99)1070 (98)
+
+    Due to Radiographical PD314 (58)104 (19)418 (38)
+
+    Due to Symptomatic Deterioration18 (3)23 (4)41 (4)
+
+    Due to Death35 (6)30 (6)65 (6)
+
+    Due to Withdrawal of Consent44 (8)33 (6)77 (7)
+
+    Due to AE74 (14)80 (15)154 (14)
+
+    Due to Completion of Therapy0235 (43)235 (22)
+
+    Due to Loss to FU5 (1)05 (&lt;1)
+
+    Due to Other Reasons39 (7)36 (7)75 (7)
+L106: [Source: CSR Table JFCC.10.1.]
+L107: 3.2.3.2 Demographic and Baseline Characteristics
+L108: The demographic and baseline characteristics are presented in Table 6. The median age was 62 years old (range 32–86 years). Eighty-three percent of the randomized patients were males. Eligible patients had ECOG performance status (PS) 0-2 (60% of the patients were ECOG PS 1 and 31% were ECOG PS 0). The study was conducted in 26 countries, with 87% patients from North America, Europe or Australia, 6% from South America, South Africa or India, and 8% from Eastern Asia. Among all randomized patients, 88% were white, 8% were Asian, and 1% were black or African American. Ninety-one percent of patients were current smokers. Approximately 55% of patients had metastases in &gt;2 organ systems.
+L109: Table 6. Summary of Demographics and Baseline Disease Characteristics
+L110: GC+N(N=545)GC(N=548)
+
+
+
+Age (years)
+
+  Median6262
+
+  Range32, 8432, 86
+
+Age category, n (%)
+
+  &lt;65332 (61)340 (62)
+
+  ≥65213 (39)208 (38)
+
+  65- &lt;70105 (19)111 (20)
+
+  ≥70108 (20)97 (18)
+
+Sex, n (%)
+
+  Male450 (83)458 (84)
+
+  Female95 (17)90 (16)
+
+Race, n (%)
+
+  White457 (84)456 (83)
+
+  Asian43 (8)42 (8)
+
+  Black or African American5 (1)6 (1)
+
+  Others40 (7)44 (8)
+
+Region (CRF), n (%)
+
+  North America, Europe, Australia472 (87)475 (87)
+
+  South America, South Africa, India30 (6%)32 (6%)
+
+  Eastern Asia43 (8%)41 (8%)
+
+Disease stage at study entry, n (%)
+
+  IIb without malignant pleural effusion1 (&lt;1)1 (&lt;1)
+
+  IV543 (&gt;99)546 (&gt;99)
+
+  Missing1 (&lt;1)1 (&lt;1)
+
+Disease histology, n (%)
+
+  Squamous543 (&gt;99)546 (&gt;99)
+
+  Other histology1 (&lt;1)1 (&lt;1)
+
+Metastasis Stage at Screening, n (%)
+
+  M087 (16)69 (13)
+
+  M1432 (79)445 (81)
+
+  MX18 (3)27 (5)
+
+  Unknown8 (1)7 (1)
+
+Baseline ECOG PS, n (%)
+
+  0164 (30)180 (33)
+
+  1332 (61)320 (58)
+
+  249 (9)47 (9)
+
+Smoking History, n (%)
+
+  Ex-light smoker18 (3)26 (5)
+
+  Non-smoker26 (5)27 (5)
+
+  Smoker500 (92)495 (90)
+
+  Missing1 (&lt;1)0
+
+Number of Metastatic Organ System a, n (%)
+
+  151 (9)50 (9)
+
+  2193 (35)193 (35)
+
+  &gt;2301 (55)304 (56)
+L111: a One patient in the GC arm had unknown metastatic organ system involvement status
+[Source CSR Tables JFCC.11.1 and 11.2]
+L112: Reviewer's comments
+L113: ▪ The demographics and baseline disease characteristics were balanced between the two treatment arms.
+▪ The primary OS analysis was stratified by the stratification data collected on IVRS. This reviewer noted that there existed some discrepancies between eCRF-based and IVRS-based stratification data, as summarized in Table 7. A sensitivity analysis of PFS per eCRF-based stratification data was performed and the results were consistent with the primary PFS findings (see Section 3.2.4.1).
+L114: Table 7. Discordance of Stratification Data, between eCRF and IVRS
+L115: GC+N(n=545)GC(n=548)
+
+
+
+ECOG PS, n (%)
+
+Discordance6 (1.1%)7 (1.3%)
+
+Concordance539 (98.9%)541 (98.7%)
+
+Region, n (%)
+
+Discordance24 (4.4%)23 (4.2%)
+
+Concordance521 (95.6%)525 (95.8%)
+
+ECOG PS or Region, n (%)
+
+Discordance30 (5.5%)30 (5.5%)
+
+Concordance515 (94.5%)518 (94.5%)
+L116: 3.2.3.3 Post-Study Treatment Anti-Cancer Therapy
+L117: Approximately half of patients on both treatment arms received post-study systemic anticancer therapy (47% in the GC+N arm and 45% in the GC arm), as listed in Table 8.
+L118: Table 8. Post-Study Systemic Anti-Cancer Therapy
+L119: GC+N(n=545)GC(n=548)
+
+
+
+Any therapy258 (47%)245 (45%)
+
+Carboplatin/Paclitaxel15 (3%)14 (3%)
+
+Cisplatin/Docetaxel1 (&lt;1%)4 (&lt;1%)
+
+Cisplatin/Gemcitabine9 (2%)14 (3%)
+
+Gemcitabine/Vinorelbine2 (&lt;1%)0
+
+Paclitaxel/Cisplatin2 (&lt;1%)0
+
+Cisplatin/Vinorelbine4 (&lt;1%)1 (&lt;1%)
+
+Docetaxel167 (31%)127 (23%)
+
+Erlotinib57 (11%)75 (14%)
+
+Gemcitabine16 (3%)12 (2%)
+
+Pemetrexed4 (&lt;1%)1 (&lt;1%)
+
+Vinorelbine40 (7%)33 (6%)
+
+Other76 (14%)86 (16%)
+L120: [Source CSR Table JFCC.11.6]
+L121: 3.2.3.5 Protocol deviations
+L122: Five patients (1%) in each arm had major protocol deviations during the study. Five (2 in the GC+N arm and 3 in GC arm) of these patients did not have confirmed squamous NSCLC at study entry. Two patients in each arm did not have stage IV disease at study entry. One patient (GC arm) had ECOG PS greater than 2 and one patient (GC+N arm) had prohibited concurrent therapy.
+L123: Reviewer's comment
+L124: A sensitivity analysis of OS has been performed by excluding patients with major protocol deviations. Results were similar to the primary findings (see Section 3.2.4.1).
+L125: 3.2.4 Results and Conclusions
+L126: 3.2.4.1 Primary Efficacy Endpoints
+L127: Overall survival was the primary efficacy endpoint of this study. The pre-specified final OS analysis was conducted when 860 death events occurred at the study cut-off date of 17 June 2013. There was a statistically significant improvement in OS for patients in the GC+N arm compared to patients in the GC arm, with a 1.6-month difference in median OS and a HR of 0.84 (95% CI: 0.74, 0.96; two-sided log rank p-value =0.012). The results are summarized in Table 9 and the Kaplan-Meier curves are shown in Figure 3.
+L128: The median follow-up time was 25.2 months (95% CI: 23.7, 27.1) in the GC+N arm and 24.8 months (95% CI: 22.8, 28.3) in the GC arm. A total of 31 patients (16 in the GC+N arm and 15 in the GC arm) were lost to follow-up and 43 patients (23 in the GC+N arm and 20 in the GC arm) withdrew consent for follow-up for the primary OS analysis.
+L129: Table 9. Primary Analysis of Overall Survival, in the ITT Population
+L130: GC+N(N=545)GC(N=548)Number of deaths, n (%)418 (77)442 (81)Median (95% CI), in months11.5 (10.4, 12.6)9.9 (8.9, 11.1)Hazard ratio (95% CI) a0.84 (0.74, 0.96)P-value b0.012
+L131: a Hazard ratio was obtained from a Cox proportional hazards model stratified by ECOG PS and region information collected by IVRS.
+L132: b P-value was calculated from a log-rank test stratified by ECOG PS and region information collected by IVRS.
+L133: [Source: CSR Table JFCC.11.4]
+L134: No. At Risk
+0
+6
+12
+18
+24
+30
+36
+42
+
+
+
+
+GC+N
+545
+407
+243
+130
+61
+20
+3
+
+
+
+GC
+548
+379
+219
+115
+49
+19
+3
+
+
+
+Kaplan-Meier Curves of Overall Survival, in the ITT Population. The graph shows survival probability over 42 months for two groups: GC+N (black line) and GC (red line). The GC+N group shows a higher survival probability than the GC group throughout the study period. Tick marks on the curves indicate censored data points.
+L135: Figure 3. Kaplan-Meier Curves of Overall Survival, in the ITT Population
+L136: [Source: CSR Figure JFCC.11.1]
+L137: Reviewer's comments
+L138: Except for patients who were lost to follow up or have withdrawn consent from study, the follow-up data for other patients are up-to-date, with the last date known as alive within 2 months before the study data cut-off date.
+L139: Sensitivity Analyses
+L140: The applicant performed multiple sensitivity analyses for OS to evaluate the impact of stratification factor, analysis population, and etc. Some of the analyses are listed in Table 10.
+L141: Table 10. Sensitivity Analyses of OS
+L142: Sensitivity AnalysisMedian OS (months)Hazard Ratio (95% CI)
+
+GC+NGC
+
+
+
+1. ITT population, un-stratified analysis11.59.90.85 (0.74, 0.97)
+
+2. ITT population, per CRF stratification factor11.59.90.83 (0.73, 0.95)
+
+3. Per-protocol population (n=1072), stratified by IVRS data11.59.90.85 (0.74, 0.97)
+
+4. Per-protocol population, unstratified analysis11.59.90.86 (0.75, 0.98)
+
+5. Exactly 844 events (cutoff 20 May 2013)11.59.90.83 (0.73, 0.95)
+L143: [Source: CSR Table JFCC. 11.5]
+L144: This reviewer performed four additional sensitivity analyses on overall survival, with the first 3 analyses assessing the impact of patients lost to follow-up or withdrawing consent.
+L145: FDA Sensitivity Analysis 1: Patients who were lost to follow-up or withdrew consent were considered as events at 2 months after the date of last known alive. In this analysis, a total of 74 patients (39 in the GC+N arm and 35 in the GC arm) fell into this category and were treated as
+L146: events. The results were consistent to the primary findings, with a 1.5-month difference in median OS (10.7 vs. 9.2 months) and a stratified HR of 0.86 (95% CI: 0.75, 0.97).
+L147: FDA Sensitivity Analysis 2: Patients who were lost to follow-up or withdrew consent were censored at the study cutoff date (17 June 2013). Based on this, the median OS was 12.1 months in the GC+N arm and 10.5 in the GC arm. The stratified hazard ratio was 0.84 (95% CI: 0.74, 0.96).
+L148: FDA Sensitivity Analysis 3: Among the 74 patients who either were lost to follow-up or withdrew consent, 19 patients (12 in the GC+N arm and 7 in the GC arm) had developed disease progression before the date of last known alive. In this sensitivity analysis, these 19 patients who have had disease progression were considered as deaths at 2 months after the date of last known alive. With that, the median OS was 11.3 months in the GC+N arm and 9.8 months in the GC arm. The stratified hazard ratio was 0.85 (95% CI: 0.75, 0.97).
+L149: FDA Sensitivity Analysis 4: Patients who had major protocol deviations (5 patients in each arm) were excluded. The median OS was 11.4 months in the GC+ arm and 9.9 months in the GC arm. The stratified hazard ratio was 0.85 (95% CI: 0.74, 0.97).
+L150: Reviewer's Comment
+L151: Results from multiple sensitivity analyses of OS are consistent to the primary findings.
+L152: 3.2.4.2 Key secondary Endpoints
+L153: Key secondary efficacy endpoints included progression-free survival and objective response rate. Type I error rate was controlled by the Hochberg procedure among the two endpoints.
+L154: Progression-Free Survival
+L155: At the time of the OS analysis, progression-free survival per investigator assessment was statistically significantly different between the GC+N arm and the GC arm, with a hazard ratio of 0.85 (95% CI: 0.74, 0.98) and a two-sided log-rank p-value of 0.02. Median PFS was 5.7 months in the GC+N arm and 5.5 months in the GC arm. The results are summarized in Table 11 and the Kaplan-Meier curves are shown in Figure 4.
+L156: Table 11. Results of PFS Analysis, in the ITT Population
+L157: GC+N(N=545)GC(N=548)
+
+
+
+Number of PFS events, n (%)431 (79)417 (76)
+
+Disease progression357 (66)332 (61)
+
+Deaths without progression74 (14)85 (16)
+
+Median (95% CI), in months5.7 (5.6, 6.0)5.5 (4.8, 5.6)
+
+Hazard ratio (95% CI)a0.85 (0.74, 0.98)
+
+P-valueb0.02
+L158: a Hazard ratio was obtained from a Cox proportional hazards model stratified by ECOG PS and region information collected by IVRS.
+L159: b P-value was calculated from a log-rank test stratified by ECOG PS and region information collected by IVRS.
+L160: [Source: CSR Table JFCC.11.7]
+L161: No. At Risk
+0
+6
+12
+18
+24
+30
+36
+
+
+
+
+GC+N
+845
+197
+46
+23
+9
+1
+
+
+
+GC
+848
+154
+38
+15
+4
+1
+
+
+
+Kaplan-Meier Curves of Progression-Free Survival, in the ITT Population. The graph shows two curves: GC+N (black) and GC (red). The y-axis is 'Progression-Free Survival Probability' from 0.0 to 1.0. The x-axis is 'Months since Randomization' from 0 to 36. Below the graph is a 'No. At Risk' table.
+L162: Figure 4. Kaplan-Meier Curves of Progression-Free Survival, in the ITT Population
+L163: [Source: CSR Figure JFCC.11.3]
+L164: Reviewer's Comments
+L165: ▪ PFS results per investigator assessment could be biased in an open-label study.
+▪ The Applicant stated that the small improvement at the PFS median was a distorted estimate due to the step-like pattern of PFS curves. This reviewer also checked the difference in PFS between the two arms at other percentiles, as summarized in Table 12. The differences at other percentiles around the median were approximately 1 month. It should be noted that the assessment interval was planned as every 6 weeks, which is longer than the maximum observed difference between the curves. Though the results of PFS were statistically significant based on the pre-specified analysis, the magnitude of improvement in PFS was not substantial and the statistical method for comparing the treatment arms is not optimal likely due to internal censoring of PFS as illustrated in Figure 4.
+L166: Table 12. Differences in PFS by Deciles
+L167: GC+NGCDifference
+
+
+
+10th percentile, in months1.51.40.1
+
+20th percentile, in months2.92.50.4
+
+30th percentile, in months4.23.40.8
+
+40th percentile, in months5.54.41.1
+
+50th percentile, in months5.75.50.2
+
+60th percentile, in months6.95.71.2
+
+70th percentile, in months8.06.91.1
+
+80th percentile, in months9.78.31.4
+
+90th percentile, in months13.613.40.2
+L168: ▪ The censoring reasons for PFS are summarized in Table 13. Among patients with follow-up ended, the major censoring reasons included “Death or PD after 2 or more missed visits” and “start of a new anti-cancer therapy”. More patients in the GC arm were censored due to receiving a new anti-cancer therapy compared to the GC+N arm. A sensitivity analysis which does not censor patients for new anti-cancer therapy was performed (see results in Table 15).
+L169: Table 13. Summary of PFS Censoring Reasons
+L170: GC+NGC
+
+
+
+Number of censoring, n114131
+
+Censored, follow-up ongoing
+
+    No documented PD and no death, n (%)17 (15)13 (10)
+
+Censored, follow-up ended
+
+    No baseline tumor assessment, n (%)1 (&lt;1)1 (&lt;1)
+
+    Start of a new anti-cancer therapy, n (%)36 (32)50 (38)
+
+    Death or PD after 2 or more missed visits, n (%)33 (29)36 (27)
+
+    Lost to FU, n (%)4 (4)6 (5)
+
+    Withdrawal of consent, n (%)23 (20)25 (19)
+L171: Time to Radiographic Assessment
+L172: To evaluate whether the assessment time influenced PFS outcome, an exploratory analysis comparing time to tumor assessment between the two treatment arms was performed. Time from randomization to each assessment (including unscheduled visits) was calculated. When a patient missed a scheduled visit, his/her next visit time was used to calculate the time to current assessment. Log-rank test was used to test if cumulative percentages (survival curves) were equal. Medians and test results are presented in Table 14. No significant difference was detected on time to disease assessment between the two arms except for the 4th assessment. As shown in Table 13, at the 4th assessment, patients in the GC arm had the assessment later than patients in the GC+N arm, which would cause a better PFS for the GC arm. This potential bias may make the comparison results for GC+N vs. GC more conservative.
+L173: Table 14. Median (in weeks) of Time to Tumor Assessment and Log-rank Test
+L174: Time from randomization to theMedian (n), in weeksLog-rank Test
+
+GC+N(N=545)GC(N=548)P-value
+
+
+
+1st assessment6.1 (491)6.1 (489)0.52
+
+2nd assessment12.3 (420)12.1 (403)0.54
+
+3rd assessment18.3 (362)18.3 (324)0.68
+
+4th assessment24.3 (284)24.4 (224)0.03
+
+5th assessment30.3 (182)30.3 (128)0.19
+
+6th assessment36.3 (136)36.4 (82)0.16
+
+7th assessment42.4 (91)42.6 (54)0.13
+L175: Sensitivity Analyses of PFS
+L176: The applicant has conducted sensitivity analyses on PFS, as summarized in Table 15. Results from the sensitivity analyses are consistent to the primary PFS findings.
+L177: Table 15. Sensitivity Analyses of PFS
+L178: Sensitivity AnalysisGC+NGCHazard Ratio(95% CI)
+
+Median OS (months)
+
+
+
+1. ITT population, un-stratified analysis5.75.50.85 (0.75, 0.98)
+
+2. ITT population, per CRF stratification factor5.75.50.85 (0.74, 0.97)
+
+3. Per-protocol population (n=1072), stratified by IVRS data5.75.50.86 (0.75, 0.98)
+
+4. Per-protocol population, unstratified analysis5.75.50.86 (0.75, 0.98)
+
+5. Per-protocol population, stratified by CRF data5.75.50.85 (0.75, 0.98)
+
+6. Excluding patients with major protocol deviation (n=1083)5.75.50.85 (0.75, 0.98)
+
+7. Ignore new anti-cancer therapy15.75.50.86 (0.75, 0.98)
+
+8. Ignore missing tumor assessments, using the date of first missed visit as event date25.65.30.85 (0.75, 0.97)
+
+9. Lost FU patients: date of next scheduled visit as event35.75.50.85 (0.74, 0.97)
+
+10. Lost of FU patients in GC+N arm only: date of next scheduled visit as event5.75.50.86 (0.75, 0.99)
+L179: 1 10 more PFS events in each arm
+L180: 2 More events: 33 in arm GC+N and 36 in arm GC
+L181: 3 More events: 4 in arm GC+N and 6 in arm GC
+L182: [Source: CSR Table JFCC.11.8]
+L183: Objective Response Rate per RECIST
+L184: As per investigator assessment, the objective response rate was 31% and 28% in the GC+N arm and the GC arm, respectively. There was no statistically significant difference in ORR between the two treatment arms. The median response duration was 5.6 months in the GC+N arm and 4.8 months in the GC arm. See Table 16 for detailed information.
+L185: Table 16. Response Rate, in the ITT population
+L186: GC+N (n=545)GC (n=548)
+
+
+
+Best Overall Response, n (%)
+
+CR03 (0.5%)
+
+PR170 (31.2%)155 (28.3%)
+
+SD276 (50.6%)264 (48.2%)
+
+PD41 (7.5%)55 (10.0%)
+
+NE4 (0.7%)12 (2.2%)
+
+NA54 (9.9%)59 (10.8%)
+
+ORR, n (%)170 (31.2%)158 (28.8%)
+
+(95% CI)(27.4, 35.2)(25.2, 32.8)
+
+P-valuea0.40
+
+Duration of response
+
+Median (95% CI), in months5.6 (5.1, 6.6)4.8 (4.2, 5.5)
+L187: NE: not evaluable; NA: no assessment
+L188: a p-value from CMH test adjusting for ECOG PS and region as collected by IVRS
+L189: [Source: CSR JFCC.11.9]
+L190: Other Secondary Endpoints
+L191: Other secondary endpoints include time to treatment failure and health status outcomes. The study protocol did not pre-specify any multiplicity adjustment method to control the overall alpha for these endpoints.
+L192: Time to Treatment Failure
+L193: Time to treatment failure (TTF) was compared between the GC+N arm and the GC arm, and the observed hazard ratio was 0.84 (95% CI: 0.75, 0.95). The median TTF was 4.3 months in the GC+N arm and 3.6 months in the GC arm.
+L194: Reviewer's Comment
+L195: As this is an open-label study, results of time to treatment failure endpoint could be biased.
+L196: Health Status Evaluation
+L197: Patients' health status assessments were performed using LCSS and EQ-5D. As shown in Table 17, in the GC+N arm, the compliance rates for LCSS and EQ-5D among patients who were alive without disease progression at each assessment up to week 36 were greater than 70%, while in the GC arm, the compliance rate was 70% up to week 24 and then dropped to 30~40%.
+L198: Table 17. Completion Rates for LCSS and EQ-5D at Each Assessment Time Point
+L199: LCSSEQ-5D
+
+GC+NGCGC+NGC
+
+(N=545)(N=548)(N=545)(N=548)
+
+Complete/Exp (%)Complete /Exp (%)Complete /Exp (%)Complete /Exp (%)
+
+
+
+Baseline523/545 (96%)524/548 (96%)527/545 (97%)530/548 (97%)
+
+Cycle 1/week 3474/538 (88%)475/541 (88%)478/538 (89%)478/541 (88%)
+
+Cycle 2/week 6459/511 (90%)466/516 (90%)460/511 (90%)469/516 (91%)
+
+Cycle 3/week 9420/468 (90%)405/460 (88%)426/468 (91%)405/460 (88%)
+
+Cycle 4/week 12385/441 (87%)367/417 (88%)386/441 (88%)367/417 (88%)
+
+Cycle 5/week 15341/404 (84%)318/379 (84%)344/404 (85%)317/379 (84%)
+
+Cycle 6/week 18311/375 (83%)258/338 (76%)314/375 (84%)258/338 (76%)
+
+Cycle 8/week 24241/343 (70%)203/300 (68%)241/343 (70%)205/300 (68%)
+
+Cycle 10/week 30184/254 (72%)76/206 (37%)186/254 (73%)76/276 (37%)
+
+Cycle 12/week 36118/163 (72%)58/122 (48%)118/163 (72%)59/122 (48%)
+
+Cycle 14/week 4272/110 (66%)40/77 (52%)72/110 (66%)39/77 (51%)
+L200: Note: The denominator, number of patients expected, included patients who were alive without disease progression at that assessment.
+L201: [Source: The Applicant's response to FDA information request Tables 3.1 and 3.2]
+L202: The analyses of the LCSS and EQ-5D have not shown a consistent or compelling difference between the two treatment arms. Please note that no differences in PRO outcomes in this open-label study do not mean that the addition of necitumumab to gemcitabine and cisplatin had no
+L203: decrement in patient’s health-related quality of life since the Applicant did not plan to test specific hypotheses related to the PRO outcomes.
+L204: Exploratory Evaluation of the Relationship between EGFR Protein Expression (by IHC) and Efficacy
+L205: The main objective of this exploratory evaluation was to compare OS between the two arms in high EGFR protein expression (IHC H-score \geq 200) subgroup. A secondary objective was to evaluate whether IHC H-score cutoff of 200 is a predictive biomarker.
+L206: A total of 982 patients (90% of the ITT population) with a valid assay result were included in this exploratory analysis. Of whom, the large majority of patients (95%) had EGFR expression; only 5% had no EGFR protein expression detectable (i.e., H-score=0). The analyses showed that there was an improvement on OS in the subgroup of H-score \geq 200 in the GC+N arm compared to the GC arm (HR: 0.75; 95% CI: 0.60, 0.94). It was also observed that no treatment-by-IHC H-score interaction existed for both OS and PFS using a cut-point of 200 (H-score \geq 200 vs. H-score &lt; 200). Thus, H-score with a cut-off of 200 was not predictive of efficacy outcomes in this study.
+L207: Patients whose tumors lacked detectable EGFR expression by IHC (H-score=0; 24 in the GC + N arm; 23 in the GC arm), did not appear to benefit in terms of OS or PFS from the addition of necitumumab to gemcitabine and cisplatin compared to gemcitabine and cisplatin. Results of the key efficacy endpoints by percent of EGFR expression by IHC (0% vs. &gt; 0\% positive) are summarized in Table 18.
+L208: Table 18. Summary of Efficacy Outcomes by % Positive (&gt;0 vs. 0)
+L209: Percent Positive &gt;0Percent Positive =0
+
+GC+NN=462GCN=473GC+NN=24GCN=23
+
+
+
+OS
+
+Median (months)11.739.996.4717.35
+
+HR (95% CI)0.81 (0.70, 0.93)1.86 (0.94, 3.65)
+
+Interaction p-value (nominal)0.02
+
+PFS
+
+Median (months)5.725.494.245.59
+
+HR (95% CI)0.83 (0.72, 0.97)1.19 (0.61, 2.30)
+
+Interaction p-value (nominal)0.31
+L210: [Source: CSR Table JFCC.11.13.]
+L211: Reviewer’s Comment
+L212: As discussed between the Applicant and the FDA at the November 19, 2014 Type C meeting, the findings with regards to no detectable EGFR protein are exploratory in nature. It has been noted that the sample size of patients with 0% EGFR expression by IHC is small and the confidence intervals around the observed HR for the subgroup with no expression and the confidence intervals around the observed HR for patients with any expression overlap for the subgroup analyses of PFS. No evidence is provided to support the biologic plausibility of this
+L213: finding (i.e., patients whose tumors do not express EGFR are harmed by necitumumab treatment) and no supportive evidence from other appropriate cut-offs for IHC positivity was provided. At the meeting, the FDA recommended that the Applicant conduct a confirmatory trial to verify this finding using a validated assay.
+L214: 3.2.5 Conclusions for Efficacy
+L215: The pivotal Phase 3 study SQUIRE has met its primary objective by demonstrating a statistically significant benefit of necitumumab addition to chemotherapy (gemcitabine and cisplatin) on OS with a hazard ratio of 0.84 (95% CI: 0.74, 0.96; two-sided log-rank p-value =0.012), as a first-line treatment for stage IV squamous NSCLC. The median OS was 9.9 months in the GC arm and 11.5 months in the GC+N arm. Results from sensitivity analyses for OS were consistent with the results of the primary analysis.
+L216: 3.3 Evaluation of Safety
+L217: Please refer to the clinical evaluations of this application for safety results and conclusions for safety.
+L218: 3.4 Benefit-Risk Assessment
+L219: Please refer to clinical evaluations of this application for a benefit-risk evaluation.
+L220: 4. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L221: 4.1 Gender, Race, Age, and Geographic Region
+L222: Table 19 summarizes OS results by gender, race, age, and region.
+L223: Table 19. OS Subgroup Analyses by Gender, Race, Age, and Region
+L224: Total NGC+N(n=545)GC(n=548)HR (95% CI)a
+
+#events/nMedian(Months)#events/nMedian(Months)
+
+
+
+Overall1093418/54511.5442/5489.90.85 (0.74, 0.97)
+
+Gender
+
+  Male908341/45011.1370/4589.70.84 (0.73, 0.98)
+
+  Female18577/9513.072/9011.40.88 (0.64, 1.21)
+
+Race
+
+  White913355/45711.4369/4569.70.86 (0.75, 1.00)
+
+  Non-White18063/8812.673/9211.80.78 (0.55, 1.09)
+
+Region
+
+  U.S.3614/209.314/1610.60.65 (0.30, 1.41)
+
+  Non-U.S.1057404/52511.5428/5329.80.85 (0.75, 0.98)
+
+Region (CRF)
+
+  NAm, Eur, Aus947365/47211.5388/4759.90.85 (0.74, 0.98)
+
+  SAm, South Africa, India6221/3010.525/328.10.82 (0.46, 1.46)
+
+  East Asia8432/4312.029/4112.20.81 (0.49, 1.34)
+
+Age
+
+  &lt;65672258/33211.5277/34010.10.88 (0.74, 1.04)
+
+  ≥65421160/21311.3165/2089.50.80 (0.64, 1.00)
+
+  65- &lt;7021679/10512.894/1119.10.63 (0.47, 0.85)
+
+  &lt;70888337/43711.7331/4519.70.81 (0.70, 0.94)
+
+  ≥7020581/10810.071/979.71.03 (0.75, 1.42)
+L225: a Hazard ratios were estimated from unstratified Cox proportional hazards models. A hazard ratio &lt; 1 indicates a lower risk of disease progression with GC+N compared to GC.
+L226: 4.2 Other Special/Subgroup Populations
+L227: Exploratory analyses of OS by baseline ECOG PS level, smoking status, and number of metastatic organ systems are presented in Table 20.
+L228: Table 20. Additional OS Subgroup Analyses
+L229: Total NGC+N(n=545)GC(n=548)HR (95% CI)a
+
+#events/nMedian(months)#events/nMedian(months)
+
+
+
+ECOG PS (CRF)
+
+  0-1996377/49611.7400/50010.40.85 (0.74, 0.98)
+
+  29641/499.542/476.90.79 (0.51, 1.21)
+
+Smoking History
+
+  Smoker995383/50011.5398/4959.80.85 (0.74, 0.98)
+
+  Never/Light Ex9734/4412.644/5310.60.82 (0.52, 1.28)
+
+Number of metastatic organ systems
+
+  110136/5112.638/5010.10.85 (0.54, 1.35)
+
+  2386149/19313.6154/19313.00.97 (0.77, 1.21)
+
+  &gt;2605233/30110.6250/3048.00.77 (0.64, 0.92)
+L230: a Hazard ratios were estimated from unstratified Cox proportional hazards models. A hazard ratio &lt; 1 indicates a lower risk of death with GC+N compared to GC.
+L231: Reviewer's Comments
+L232: ▪ All the subgroup analyses presented in this section are considered exploratory or hypothesis generating and no formal inference may be drawn.▪ No apparent outliers were observed in the subgroup analyses. In the subgroup with patients \geq 70 years (n=205), the point estimate of HR is 1.03 but with a wide 95% CI including 1.
+L233: 5. SUMMARY AND CONCLUSIONS
+L234: 5.1 Statistical Issues
+L235: There are no major statistical issues with this pivotal study. The study met its primary endpoint of OS and the results appear consistent across sensitivity analyses and no apparent outliers were observed in subgroup analyses, except that a small group of patients whose tumors lacked detectable EGFR expression by IHC (H-score=0; 24 in the GC + N arm; 23 in the GC arm), did not appear to benefit in terms of OS or PFS from the addition of necitumumab to gemcitabine and cisplatin compared to gemcitabine and cisplatin (OS HR=1.86; PFS HR=1.19). The subgroup findings are exploratory in nature. It has been noted that the sample size of patients with 0% EGFR expression by IHC is small and this finding could be by chance. A confirmatory trial is needed to verify this finding using a validated assay.
+L236: 5.2 Collective Evidences
+L237: The pivotal study, SQUIRE for squamous NSCLC, met its primary efficacy objective statistically. The addition of necitumumab to gemcitabine and cisplatin demonstrated a 1.6 month improvement in median OS [HR=0.84 (95% CI 0.74, 0.96); two-sided log-rank p=0.012].
+L238: The supportive study INSPIRE in non-squamous NSCLC did not show any statistically significant benefit in terms of OS, PFS, and ORR comparing the addition of necitumumab to pemetrexed and cisplatin versus the pemetrexed and cisplatin control arm.
+L239: 5.3 Conclusions and Recommendations
+L240: The applicant submitted results from a multicenter, phase 3, randomized, open-label clinical study (Study SQUIRE) comparing necitumumab plus gemcitabine and cisplatin to gemcitabine and cisplatin in the treatment of patients with stage IV squamous NSCLC in the first-line metastatic setting. The necitumumab plus gemcitabine and cisplatin combination arm showed a statistically significant improvement over the gemcitabine and cisplatin arm in OS. The judgment on the clinical meaningfulness of the treatment effect in survival observed in the squamous NSCLC study SQUIRE population in light of the toxicities and lack of a statistically significant benefit in the non-squamous NSCLC study INSPIRE is deferred to the clinical review team.
+L241: 5.4 Labeling Recommendations
+L242: We recommend that the label include OS results for the ITT population in Study SQUIRE. The exploratory EGFR IHC negative subgroup findings should not be included in the label.
+L243: SIGNATURES/DISTRIBUTION LIST
+L244: Primary Statistical Reviewer: Lijun Zhang, Ph.D.
+L245: Date: July 29th, 2015
+L246: Concurring Reviewer(s)
+L247: Statistical Team Leader: Shenghui Tang, Ph.D.
+L248: Biometrics Division Director: Rajeshwari Sridhara, Ph.D.
+L249: cc:
+L250: Project Manager: Missiratch Biable
+L251: Medical Officer: Lee Pai-Scherf, M.D.
+L252: Medical Team Leader: Gideon Blumenthal, M.D.
+L253: Primary Statistical Reviewer: Lijun Zhang, Ph.D.
+L254: Statistical Team Leader: Shenghui Tang, Ph.D.
+L255: Biometrics Division Director: Rajeshwari Sridhara, Ph.D.
+L256: Lillian Patrician
+L257: -----This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.-----
+L258: /s/-----
+L259: LIJUN ZHANG07/29/2015
+L260: SHENGHUI TANG07/29/2015
+L261: RAJESHWARI SRIDHARA07/30/2015
+L262: STATISTICS FILING CHECKLIST FOR A NEW NDA/BLA
+L263: BLA Number: 125547
+L264: Applicant: Eli Lilly and Company
+L265: Stamp Date: 12/02/2014
+L266: Drug Name: Necitumumab
+L267: NDA/BLA Type: NME
+L268: On initial overview of the NDA/BLA application for RTF:
+L269: Content ParameterYesNoNAComments
+
+
+
+1Index is sufficient to locate necessary reports, tables, data, etc.X
+
+2ISS, ISE, and complete study reports are available (including original protocols, subsequent amendments, etc.)XSCE replaced ISE.
+
+3Safety and efficacy were investigated for gender, racial, and geriatric subgroups investigated (if applicable).X
+
+4Data sets in EDR are accessible and do they conform to applicable guidances (e.g., existence of define.pdf file for data sets).X
+L270: IS THE STATISTICAL SECTION OF THE APPLICATION FILEABLE? Yes
+L271: If the NDA/BLA is not fileable from the statistical perspective, state the reasons and provide comments to be sent to the Applicant.
+L272: Please identify and list any potential review issues to be forwarded to the Applicant for the 74-day letter.
+L273: Content Parameter (possible review concerns for 74-day letter)YesNoNAComment
+
+
+
+Designs utilized are appropriate for the indications requested.X
+
+Endpoints and methods of analysis are specified in the protocols/statistical analysis plans.X
+
+Interim analyses (if present) were pre-specified in the protocol and appropriate adjustments in significance level made. DSMB meeting minutes and data are available.XNo efficacy interim analysis planned
+
+Appropriate references for novel statistical methodology (if present) are included.X
+
+Safety data organized to permit analyses across clinical trials in the NDA/BLA.X
+
+Investigation of effect of dropouts on statistical analyses as described by applicant appears adequate.X
+L274: -----This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.-----
+L275: /s/-----
+L276: LIJUN ZHANG01/26/2015
+L277: SHENGHUI TANG01/26/2015

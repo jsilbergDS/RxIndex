@@ -1,0 +1,52 @@
+{
+  "app": "NDA210557",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "high",
+      "issue": "The FSFI-D mean difference for BMT-301 is stated as 0.30 but the citation table columns show 0.30 and 0.42 for the two trials; the result mislabels which trial's value applies (BMT-301 mean difference should be verified vs comparator column) \u2014 additionally the citation's second column value 0.42 belongs to BMT-302, creating cross-trial value ambiguity.",
+      "issue_note": "Median change quote shows repeating '0.6 0 0.6 0' so per-arm attribution is not verbatim-clear."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "medium",
+      "issue": "The reported '+0.6 (BMT) vs 0 (PBO)' median change adds a '+' sign and arm labels not explicit in the quote 'Median change 0.6 0 0.6 0', which is ambiguous about which columns are BMT-301 vs BMT-302.",
+      "issue_note": ""
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "medium",
+      "issue": "BMT-302 result cites the same two-trial combined table quotes; per-arm attribution of median change 0.6/-1 is not verbatim-clear from the stitched quote columns.",
+      "issue_note": ""
+    },
+    {
+      "field": "first_cycle_approval.detail.text",
+      "severity": "low",
+      "issue": "Uncited numbers '23' and '2018' flagged are components of the receipt date March 23, 2018, which is a date and supported by the receipt_date citation; these are false positives.",
+      "issue_note": ""
+    },
+    {
+      "field": "approval_program.priority_review.present",
+      "severity": "low",
+      "issue": "Correctly marked false; review header states 'Priority or Standard: Standard' with PDUFA extension, consistent with non-priority review.",
+      "issue_note": "no problem"
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "23",
+        "text": "Standard review NDA received March 23, 2018 and approved June 21, 2019 with no p"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2018",
+        "text": "Standard review NDA received March 23, 2018 and approved June 21, 2019 with no p"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

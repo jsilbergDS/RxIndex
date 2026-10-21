@@ -1,0 +1,38 @@
+{
+  "app": "NDA214787",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 10 column 5 (char 273)",
+  "_raw": "Analyzing the card for quality issues.\n\nKey finding: The primary endpoint result. The card states \"hazard ratio 1.29 (95% CI 1.12 to 1.49)\" \u2014 the citation supports this. But note the recovery rate ratio interpretation is fine. Let me check the mortality: \"29-day mortality 11% RDV vs 15% placebo (HR ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "2",
+        "text": "Hospitalized patients with mild, moderate, or severe COVID-19 with confirmed SAR"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "7",
+        "text": "Approved effective on the date of the approval letter following review of the ND"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2020",
+        "text": "Approved effective on the date of the approval letter following review of the ND"
+      },
+      {
+        "field": "approval_program/fast_track/basis",
+        "number": "19",
+        "text": "Fast Track designation was granted in March 2020 for IND 147753 (COVID-19)."
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "7",
+        "text": "Remdesivir was developed under IND 147753 for COVID-19 (opened February 2020), r"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

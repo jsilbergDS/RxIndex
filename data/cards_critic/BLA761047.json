@@ -1,0 +1,22 @@
+{
+  "app": "BLA761047",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG false positive: the flagged '2017' is part of the approval date 'November 16, 2017' (a date), which should be excluded; not a genuine uncited efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "2017",
+        "text": "MEPSEVII (vestronidase alfa-vjbk) received Orphan Drug designation (Feb 16, 2012"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

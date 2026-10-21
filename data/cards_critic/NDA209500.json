@@ -1,0 +1,38 @@
+{
+  "app": "NDA209500",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 15 column 5 (char 849)",
+  "_raw": "Analyzing the card systematically.\n\n```json\n{\n  \"app\": \"NDA209500\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].result\",\n      \"severity\": \"high\",\n      \"issue\": \"Result says '42 mg was statistically superior' but the citation quote shows the 42 mg row (-5.8, -10.",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "3",
+        "text": "Phase 3 randomized, double-blind, placebo-controlled trial with active comparato"
+      },
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "3",
+        "text": "Phase 3 randomized, double-blind, placebo-controlled trial"
+      },
+      {
+        "field": "advisory_committee/vote",
+        "number": "31",
+        "text": "An Advisory Committee Meeting was originally scheduled for July 31, 2019 but was"
+      },
+      {
+        "field": "post_marketing[5]/requirement",
+        "number": "007",
+        "text": "3760-6: Conduct a standard in vitro assay to determine transporter substrate/inh"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2017",
+        "text": "Lumateperone was submitted via the 505(b)(1) pathway for schizophrenia in adults"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

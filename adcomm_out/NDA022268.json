@@ -1,0 +1,171 @@
+{
+  "app": "NDA022268",
+  "drug": "COARTEM",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_c1288fc9-6ac9-5d37-9570-82703133ba10"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_989ac8b4-d32e-51d7-a2d6-b365e1842a40"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_58547108-bfeb-5bfd-babd-a5b80a581820"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_d4157684-188c-5af0-aae8-6a974ee555c0"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Anti-Infective Drugs Advisory Committee (AIDAC)",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_58547108-bfeb-5bfd-babd-a5b80a581820",
+      "line": 28,
+      "quote": "NDA 22-268 was presented to the Anti-Infective Drugs Advisory Committee on December 3, 2008."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_58547108bfeb",
+      "found_lines": [
+        28
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "December 3, 2008",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_989ac8b4-d32e-51d7-a2d6-b365e1842a40",
+      "line": 361,
+      "quote": "A meeting of the Anti-Infectives Advisory Committee to discuss NDA 22-268 was held on December 3, 2008."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_989ac8b4d32e",
+      "found_lines": [
+        361
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted Yes 18 / No 0 that the 6-dose regimen was effective for uncomplicated P. falciparum malaria, and Yes 17 / No 1 that it was safe for that indication. On the separate question of efficacy/safety in co-infection with P. falciparum and P. vivax (mixed infection) the committee was closely split: Yes 9 / No 8 (one abstention per the CrossR minutes).",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_58547108-bfeb-5bfd-babd-a5b80a581820",
+      "line": 28,
+      "quote": "The Committee voted Yes 18, No 0 on the question of whether the six-dose regimen of Coartem"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_58547108bfeb",
+      "found_lines": [
+        28
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee was closely divided on whether the data supported efficacy and safety of Coartem for treating mixed infection (co-infection with P. falciparum and P. vivax), splitting almost evenly on that question.",
+      "change": "The mixed-infection indication was NOT granted; instead, efficacy information on the 43 mixed-infection patients was added to the Clinical Studies section of the labeling only.",
+      "category": "Indication / scope narrowing",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_989ac8b4-d32e-51d7-a2d6-b365e1842a40",
+        "line": 428,
+        "quote": "Vote : Yes= 9 No = 8 Abstain = 1",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_989ac8b4d32e",
+          "found_lines": [
+            428
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_989ac8b4-d32e-51d7-a2d6-b365e1842a40",
+        "line": 306,
+        "quote": "would be added to the Clinical Studies section of the labeling, but the applicant would not be granted an indication for mixed infection.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_989ac8b4d32e",
+          "found_lines": [
+            306
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members raised concern about the limited number of non-immune travelers (the intended U.S. patient population) enrolled in the clinical studies.",
+      "change": "The approval letter includes a Post-Marketing Requirement (PMR) to gather additional data in non-immune travelers.",
+      "category": "Population / postmarketing requirement",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_989ac8b4-d32e-51d7-a2d6-b365e1842a40",
+        "line": 417,
+        "quote": "some members expressed concerns about the limited number of non-immune traveler, the intended patient population in the U.S., who were enrolled in the clinical studies.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_989ac8b4d32e",
+          "found_lines": [
+            417
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_58547108-bfeb-5bfd-babd-a5b80a581820",
+        "line": 29,
+        "quote": "Consistent with the recommendations of Advisory Committee, the approval letter includes a PMR to gather additional data in non-immune travelers.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_58547108bfeb",
+          "found_lines": [
+            29
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members considered and recommended a set of post-marketing studies (e.g., PK/PD in special populations, repeated use, drug-interaction studies).",
+      "change": "Novartis agreed to conduct a number of PMRs/PMC, including collaborating with CDC on an observational study of U.S. patients treated for malaria with Coartem.",
+      "category": "Postmarketing studies (PMR/PMC)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_989ac8b4-d32e-51d7-a2d6-b365e1842a40",
+        "line": 436,
+        "quote": "Committee members considered the following post-marketing studies:",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_989ac8b4d32e",
+          "found_lines": [
+            436
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_c1288fc9-6ac9-5d37-9570-82703133ba10",
+        "line": 371,
+        "quote": "as recommended by the Anti Infective Advisory Committee members and the review team, Novartis will conduct a number of PMRs/PMC, including collaborate with CDC to conduct an observational study of patients in the US treated for malaria with Coartem.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_c1288fc96ac9",
+          "found_lines": [
+            371
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Anti-Infective Drugs Advisory Committee met December 3, 2008 and strongly supported Coartem's 6-dose regimen for uncomplicated P. falciparum malaria (efficacy 18-0, safety 17-1), but split almost evenly (9-8) on the proposed mixed-infection (P. falciparum + P. vivax) indication. As a result, FDA declined the mixed-infection indication and instead added mixed-infection efficacy data to the Clinical Studies labeling section only. Reflecting committee concern about the small number of non-immune travelers (the U.S. target population) and its postmarketing-study recommendations, the approval letter carries a PMR for non-immune travelers and additional PMRs/PMC, including a CDC collaboration on a U.S. observational study."
+}

@@ -1,0 +1,72 @@
+{
+  "app": "NDA206038",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Automated flag for number '1' is a false positive; 'Trial 1' is a label (supported by quote referencing 'Trials 1 and 2'), not an efficacy/safety datum."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Automated flags for '5' and '2014' are date components (excluded category) and are supported by the receipt_date citation; false positives."
+    },
+    {
+      "field": "approval_program.priority_review.basis",
+      "severity": "low",
+      "issue": "Automated flag for '5' is a date component (July 05) and is supported by the quote; false positive."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flags for '5' and '2014' are date components supported by receipt_date/priority_review citations; false positives."
+    },
+    {
+      "field": "advisory_committee.vote",
+      "severity": "low",
+      "issue": "Field labeled 'vote' but no numeric vote tally is quoted (only the committee's general favorable opinion); the quote references Table 10 for actual votes which is not included."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study 809-103 (Trial 1)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "5",
+        "text": "Application received November 5, 2014 and approved July 2, 2015 within the first"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2014",
+        "text": "Application received November 5, 2014 and approved July 2, 2015 within the first"
+      },
+      {
+        "field": "approval_program/priority_review/basis",
+        "number": "5",
+        "text": "The review classification for this application is Priority; user fee goal date J"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "5",
+        "text": "Orkambi was submitted as a 505(b)(1) NDA, received November 5, 2014, granted Pri"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2014",
+        "text": "Orkambi was submitted as a 505(b)(1) NDA, received November 5, 2014, granted Pri"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "5",
+        "text": "Orkambi was submitted as a 505(b)(1) NDA, received November 5, 2014, granted Pri"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

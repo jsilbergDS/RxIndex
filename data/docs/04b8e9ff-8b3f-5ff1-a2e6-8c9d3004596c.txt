@@ -1,0 +1,1000 @@
+L1: CENTER FOR DRUG EVALUATION ANDRESEARCH
+L2: APPLICATION NUMBER:
+L3: 202207Orig1s000
+L4: STATISTICAL REVIEW(S)
+L5: Seal of the Center for Drug Evaluation and Research, FDA. The seal features a caduceus (a staff with two snakes and wings) in the center, flanked by two scales of justice. The text 'Center for Drug Evaluation and Research' and 'FDA' are visible around the border.
+L6: U.S. Department of Health and Human ServicesFood and Drug AdministrationCenter for Drug Evaluation and ResearchOffice of Translational SciencesOffice of Biostatistics
+L7: STATISTICAL REVIEW AND EVALUATION
+L8: CLINICAL STUDIES
+L9: NDA/BLA NDA 202-207Serial Number: Supplement 00Drug Name: Lymphoseek (technetium Tc 99m tilmanocept) Injection for subcutaneous or intradermal administrationIndication(s): Lymphoseek® is a radioactive diagnostic agent used in the (b) (4) localization of lymph nodes in patients with breast cancer or melanoma. (b) (4)Applicant: Navidea Biopharmaceuticals(Formerly Neoprobe Corporation)Date(s): NDA Submission: August 10, 2011PDUFA Date: September 10, 2012(PDUFA date was extended 3 months due to a major CMC submission)Review Priority: StandardBiometrics Division:Statistical Reviewer: Satish Misra, Ph. D.Concurring Reviewers: Jyoti Zalkikar, Ph. D., Team LeaderThomas E. Gwise, Ph. D., Deputy DirectorDivision of Biostatistics VMedical Division: Division of Medical Imaging Products (DMIP)Clinical Team: Clinical: Brenda Ye, M. D.Clinical TL: Alex Gorovets, M. D.Medical Division Director: Dwaine Rieves, M. D.Project Manager: Alberta Davis-WarrenKeywords: : Localization Rates, Concordance, Confidence Interval, Binomial, Exact Test, Estimates, Blue Dye
+L10: Table of Contents
+L11: U.S. DEPARTMENT OF HEALTH AND HUMAN SERVICES.....
+1
+
+
+FOOD AND DRUG ADMINISTRATION.....
+1
+
+
+STATISTICAL REVIEW AND EVALUATION.....
+1
+
+
+LIST OF TABLES.....
+3
+
+
+1. EXECUTIVE SUMMARY .....
+4
+
+
+2. INTRODUCTION.....
+7
+
+
+    2.1    OVERVIEW .....
+7
+
+
+        2.1.1    Indication.....
+8
+
+
+        2.1.2    Identified Studies in the review.....
+8
+
+
+        2.1.3    Analysis Populations .....
+9
+
+
+    2.2    DATA SOURCES.....
+10
+
+
+3. STATISTICAL EVALUATION .....
+11
+
+
+    3.1    DATA AND ANALYSIS QUALITY .....
+11
+
+
+    3.2    EVALUATION OF EFFICACY .....
+11
+
+
+        3.2.1    Study Design and Endpoints.....
+11
+
+
+        3.2.2    Statistical Methodologies (Protocol Defined) .....
+13
+
+
+        3.2.3    Patient Disposition, Demographic and Baseline Characteristics .....
+14
+
+
+        3.2.4    Results and Conclusions (Sponsor) .....
+18
+
+
+        3.2.5    Issues Identified with the Sponsor’s Analysis .....
+21
+
+
+        3.2.6    FDA Defined Dataset for the Primary Analyses.....
+21
+
+
+        3.2.7    FDA Defined Primary Analyses - Lymph Node Localization Rates – BD vs. LS.....
+22
+
+
+        3.2.8    Secondary Endpoint - Pathology Results from Excised Lymph Nodes – FDA Analysis .....
+23
+
+
+    3.3    EVALUATION OF SAFETY .....
+25
+
+
+4. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS.....
+26
+
+
+    4.1    GENDER, RACE, AGE, AND GEOGRAPHIC REGION .....
+26
+
+
+    4.2    OTHER SPECIAL/SUBGROUP POPULATIONS .....
+26
+
+
+        4.2.1    Same Day versus next Day surgery (at least 15 hours apart) – FDA Analysis .....
+26
+
+
+        4.2.2    Preoperative Gamma Detection-Based Imaging in Lymphoseek Clinical Trials (FDA Analysis) .....
+27
+
+
+        4.2.3    Lymph Nodes Identification Rates due to Multiple Nodes per Patient (Clustering).....
+29
+
+
+5. SUMMARY AND CONCLUSIONS.....
+31
+
+
+    5.1    STATISTICAL ISSUES AND COLLECTIVE EVIDENCE .....
+31
+
+
+    5.2    CONCLUSIONS AND RECOMMENDATIONS.....
+33
+
+
+SIGNATURES/DISTRIBUTION LIST.....
+34
+L12: LIST OF TABLES
+L13: Table 1: Count and Proportion of Concordant Nodes .....
+5
+
+
+Table 2: Resected Lymph Nodes and Content of Lymphoseek (LS) and/or Blue Dye (BD) .....
+6
+
+
+Table 3: Overview of Clinical Studies .....
+9
+
+
+Table 4: Efficacy Variable Measurements .....
+12
+
+
+Table 5: ECOG Performance Status .....
+15
+
+
+Table 6: Demographics and Baseline Characteristics – Continuous Variables .....
+16
+
+
+Table 7: Demographics and Baseline Characteristics – Categorical Variables .....
+16
+
+
+Table 8: Patient Disposition .....
+17
+
+
+Table 9: Count and Proportion of Concordant Nodes .....
+18
+
+
+Table 10: Count and Proportion of Concordant Patients .....
+19
+
+
+Table 11: Count and Proportion of Reverse Concordant Nodes .....
+19
+
+
+Table 12: Count and Proportion of Reverse Concordant Patients .....
+20
+
+
+Table 13: Sensitivities and False Negative Rates for Technetium Tc 99m Lymphoseek Injection and Vital Blue Dye .....
+20
+
+
+Table 14: Available Data (Nodal &amp; Patient Level) .....
+22
+
+
+Table 15: Resected Lymph Nodes and Content of Lymphoseek (LS) and/or Blue Dye (BD) .....
+22
+
+
+Table 16: Agreement Rates for Technetium Tc 99m Lymphoseek Injection and Vital Blue Dye with Pathology Positive Nodes .....
+23
+
+
+Table 17: Number and Proportion of Pathology-Positive Nodes by Tc 99m Lymphoseek and Vital Blue Dye Detection Categories .....
+24
+
+
+Table 18: Analysis by Gender .....
+26
+
+
+Table 19: Analysis by Age .....
+26
+
+
+Table 20: Lymphoseek Detection by Surgery Day at Lymph Node level .....
+27
+
+
+Table 21: Lymphoseek Detection by Surgery Day at Patient level .....
+27
+
+
+Table 22: Patient Level rates (# patients with at least one LS+/total no of patients in safety population) as compared to Lymphoscintigraphy Hot spot identified..
+28
+
+
+Table 23: Lymph Nodes clustering due to multiple nodes within a patient .....
+29
+
+
+Table 24: Lymph Nodes Identification Rates due to Multiple Nodes per Patient (Clustering) .....
+30
+
+
+Table 25: Count and Proportion of Concordant Nodes .....
+32
+
+
+Table 26: Resected Lymph Nodes and Content of Lymphoseek (LS) and/or Blue Dye (BD) .....
+32
+L14: 1. EXECUTIVE SUMMARY
+L15: The data and analyses provided by the sponsor and additional statistical analyses conducted by the stat team provide adequate evidence to support the effectiveness claims that the sponsor has made regarding the proposed diagnostic indication for Lymphoseek (technetium Tc 99m tilmanocept) Injection for subsubcutaneous or intradermal administration to assist in the localization of lymph nodes draining a primary tumor in patients with breast cancer or melanoma.
+L16: Lymphoseek is a diagnostic radiopharmaceutical used with a hand held gamma counter to detect radioactivity concentrated within lymph nodes draining a primary breast tumor or melanoma. The active ingredient in Lymphoseek is technetium 99m tilmanocept which forms when sodium pertechnetate Tc 99m solution is added to the Tilmanocept Powder vial. Technetium Tc 99m binds to the diethylenetriaminepentaacetic acid (DTPA) parts of the tilmanocept molecule. The Lymphoseek (Kit for the Preparation of Technetium Tc 99m Tilmanocept) Injection includes a Tilmanocept Powder vial that contains the non-radioactive ingredients necessary to produce Technetium Tc 99m tilmanocept Injection. The kit also contains a Diluent vial.
+L17: The proposed indication for Lymphoseek, a radioactive diagnostic agent, is to assist in the localization of lymph nodes draining a primary tumor in patients with breast cancer or melanoma used in the (b) (4) localization of lymph nodes in patients with breast cancer or melanoma when used with a hand-held gamma counter.
+L18: Tc 99m Lymphoseek safety and efficacy were assessed in two Phase 3 studies (NEO3-05 and NEO3-09). Both studies were prospective, non-randomized, open-label, multicenter, single arm, within-patient, comparison studies of Tc 99m Lymphoseek (LS) and Blue Dye (BD) as lymphoid tissue targeting agents in patients with primary melanoma or breast cancer. The dose was 50 µg Tc 99m Lymphoseek by injection, in close proximity to the primary tumor, followed by injection of BD. The route of injection methods included intradermal, subareolar, or peritumoral. The regimen was single dose, with follow-up at 30 days post-injection.
+L19: In Study NEO3-05, of 179 patients who received Lymphoseek, 94 (52.5%) had known or suspected breast cancer and 85 (47.5%) had known or suspected melanoma. The median age was 59 years (range 20 to 90 years) and most (72%) were women.
+L20: In Study NEO3-09, of 153 patients who received Lymphoseek, 77 (50.3%) had known or suspected breast cancer and 76 (49.7%) had known or suspected melanoma. The median age was 61 years (range 26 to 88 years) and most (68%) were women.
+L21: Prior to the nodal mapping procedure, the patients had no nodal or metastatic disease by standard tumor staging criteria. The protocol defined Primary efficacy endpoint was nodal concordance of LS considering the BD as the “truth” comparator at the nodes level, where both BD and LS were employed in the same patients &amp; same lymph nodes.
+L22: \text{Nodal concordance} = \text{PC1} = (\# \text{ of BD+ and also LS+ nodes}) / \# \text{ of BD+ nodes,}
+L23: Protocol defined test of the hypotheses (\text{PC1} \leq 0.90 vs. \text{PC1} &gt; 0.90) with a one-sided significance level of \alpha=0.05 using one-sided exact binomial test.
+L24: The results of this analysis are given below in Table 1:
+L25: Table 1: Count and Proportion of Concordant Nodes
+L26: NEO3-05NEO3-09
+
+
+
+# (%) of Concordant Nodesa239/256(93.36%)229/229(100%)
+
+95% Confidence Interval for %(89.58,96.08)(98.40, 100)
+
+1-Sided p-Valueb for One-Sample Test of H0: PC1 \leq .900.0401&lt;0.0001
+
+Melanomac118/121(0.9752)116/116(1.0000)
+
+Breast Cancerd121/135(0.8963)113/113(1.0000)
+L27: Total ITT Nodesa=256 in the study NEO3-05; Total ITT Nodesa=229 in the study NEO3-09
+L28: Total number of lymph nodes = 485 in 291 patients
+L29: a Concordant Nodes – Nodes that were determined in vivo to be “blue” (due to presence of vital blue dye) were also “hot” (due to presence of Tc 99m Lymphoseek).
+L30: b \alpha=0.05 for NEO3-05 (per protocol); \alpha=0.025 for NEO3-09 (per protocol);
+L31: c Concordant Nodes from Melanoma Patients.
+L32: d Concordant Nodes from Breast Cancer Patients.
+L33: The sponsor concluded that:
+L34: • The two adequate and well-controlled Phase 3 studies (NEO3-05 &amp; NEO3-09) achieved the prospectively defined primary efficacy endpoint, demonstrating a statistically significant concordance rate with the FDA-approved intraoperative lymphatic mapping agent and standard of care, vital blue dye.
+• The detection concordance was similar in melanoma patients and breast cancer patients across the two studies.
+• Tc 99m Lymphoseek demonstrated a higher sensitivity for detecting pathology-positive lymph nodes, corresponding to a decreased false negative rate when compared with vital blue dye on a per node basis.
+• When vital blue dye is used independently as the imaging agent there is an increased risk of missing the detection of lymph nodes, some of which are tumor-bearing.
+L35: In order to evaluate a potentially more meaningful comparison between the BD and LS performances than would be provided by concordance rates based on a subset, FDA used a direct comparison of LS versus BD lymph node localization statistics.
+L36: Lymphoseek was injected into patients &gt; 0.5 hours prior to the scheduled surgery and blue dye was injected shortly prior to initiation of the surgery. Intraoperative lymphatic mapping was performed using a handheld gamma detection probe followed by excision of lymph nodes identified by Lymphoseek, blue dye or the surgeon’s visual and palpation examination.
+L37: FDA derived efficacy analyses were based upon comparisons of the number and proportion of resected lymph nodes that contained a lymph node tracer (Lymphoseek and/or blue dye) or neither tracer. Lymph nodes were resected from 138 Study NEO3-05 patients and 150 Study NEO3-09 patients who received Lymphoseek at the dose of 0.5 mCi in 50 mcg administered 0.5 hours – 15 hours prior to surgery. Table 2 shows the distribution of resected lymph nodes by the presence or absence of a tracer. Most of the resected lymph nodes were identified by either Lymphoseek (LS) or blue dye (BD) or both.
+L38: Table 2: Resected Lymph Nodes and Content of Lymphoseek (LS) and/or Blue Dye (BD)
+L39: StudyTumorNodes nBD Present n (%); 95% CILS Present n (%); 95% CIOnly BD Present, n (%); 95% CIOnly LS Present, n (%); 95% CINeither BD nor LS Present, n (%); 95% CI
+
+
+
+NEO3-05M15599 (64%)(56 – 71%)145 (94%)(89 – 97%)1 (1%)(0 – 4%)47 (30%)(23 – 38%)9 (6%)(3 – 11%)
+
+B154108 (70%)(62 – 77%)146 (95%)(90 – 98%)7 (5%)(2 – 9%)45 (29%)(22 – 37%)1 (1%)(0 – 4%)
+
+NEO3-09M196115 (59%)(51 – 66%)196 (100%)(98 – 100%)0(0 – 2%)81 (41%)(34 – 49%)0(0 – 2%)
+
+B180112 (62%)(55 – 69%)180 (100%)(98 – 100%)0(0 – 2%)68 (38%)(31 – 45%)0(0 – 2%)
+L40: M = melanoma; B = breast cancer; The percents may not add to 100% due to rounding.
+L41: 95% Confidence Intervals are based on Exact Binomial and represent the spread in the individual estimates.
+L42: During the course of review, the foremost issue was related to two doses and two days of surgery. Dose 1 for both the studies was both the studies (NEO3-05 and NEU3-09) was 0.5 mCi in 50 mcg administered 0.5 hours – 15 hours prior to the scheduled surgery, and the surgery performed within 15 hours after the injection (same day surgery). Dose 2 for the study NEO3-05 was 1.0 mCi in 50 mcg and for the study NEO3-09 was 2.0 mCi in 50 mcg, and the surgery performed after 15 hours post injection (next day surgery). Statistical analysis showed that the lymph node detection rate for Tc 99m LS Injection for higher dose (74MBq) was significantly lower than the lymph node detection rate for Tc 99m LS Injection for lower dose (18.5 MBq). Plus the sample size for the higher dose was small (69 lymph nodes in 40 patients for 74MBq dose level as compared to 685 lymph nodes in 288 patients for 18.5 MBq dose level). (b) (4)
+L43: (b) (4)
+L44: 2. INTRODUCTION
+L45: Intraoperative lymphatic mapping (ILM) is a procedure whereby a surgeon tracks lymphatic drainage (anatomic nexuses) from a tumor or tumor bed using a visually tracked colorimetric agent (such as a vital blue dye [VBD]) and/or a gamma-emitting radiolabeled agent (used in conjunction with a gamma camera and/or an intraoperative gamma detection probe), that may be injected prior to or at the time of surgery, in or near the area to be mapped. The examination of anatomic nexuses using the ILM procedure aids the physician in defining potential avenues of tumor dissemination. Such nexuses may lead to lymph nodes where these nodes may be selectively removed in lieu of full lymphatic dissection, which is known to result in extensive morbidity in many patients. This procedure is coupled to the pathology assessment of the lymphatic tissue after removal in order to complete the diagnostic process.
+L46: At present, two types of agents are widely employed for mapping lymphatic structures:
+L47: 1. Colorimetric agents, e.g., Blue Dye (BD), including but not limited to Lymphazurin™ (isosulfan blue), methylene blue, and Patent Blue V. BDs depend solely on their inherent color in order to provide visualization of the lymphatic structures, effectively requiring line-of-sight as the method of feedback to the surgeon. This requires the surgeon to hunt, via dissection of the tissue between the injection site and any flow-to point, in order to acquire the line-of-sight, potentially imposing unnecessary tissue damage and surgery, and possibly increasing surgical times.2. Radiodiagnostic/ Radiopharmaceuticals, e.g., Tc 99m-labeled sulfur colloid (TeSC). Technetium Tc 99m Sulfur Colloid Injection for diagnostic is approved as a radiodiagnostic agent for imaging for several indications including breast cancer.
+L48: In this submission the sponsor seeks an approval for Technetium Tc 99m Lymphoseek® Injection for diagnostic as a radiopharmaceutical agent for breast cancer and/or melanoma. Tc 99m Lymphoseek is intended to be injected in close proximity to a primary tumor and used with an intraoperative gamma detector to localize lymph nodes in the lymphatic pathway draining the tumor site.
+L49: 2.1 Overview
+L50: A brief regulatory history is given below:
+L51: Initial Discussions on Study Design and Endpoints (EOP1 May 2007)
+L52: • Navidea's initial proposal for Phase 3 clinical studies: primary efficacy endpoint being (b) (4)• FDA disagreed: (b) (4)-Suggested Navidea compare the diagnostic performance (sensitivity and specificity) of Lymphoseek to the current standard of care in the oncology community, preferably to axillary dissection
+L53: Discussions on Study Design and Endpoints (EOP2 Oct 2007)
+L54: • Navidea presented literature evidence that the blue dye is the standard of care and proposed to use blue dye as the comparator• FDA agreed that the blue dye (Lymphazurin) is a reasonable comparator• Navidea further proposed primary efficacy endpoint to be the 'concordance' with blue dye
+L55: • FDA did not agree with the proposed primary efficacy endpoint because the proposed ‘concordance’ is difficult to interpret
+L56: Further Discussions on (b) (4) at EOP2
+L57: Secondarily, Tc 99m Lymphoseek was evaluated in contrast to BD with regard to disease found in the lymph nodes relative to each detection modality. And thirdly, BD’s requisite performance was to elucidate, in vivo, at least the same lymph nodes as Tc 99m Lymphoseek. In this analysis, Tc 99m Lymphoseek was set as the “truth” comparator; reverse concordance was the metric of assessing BD performance.
+L58: The NDA was submitted on 08/10/2011 as an original submission.
+L59: 2.1.1 Indication
+L60: The originally proposed indication was: (b) (4)
+L61: This label was substantially revised by FDA based on statistical evaluation of the submission.
+L62: 2.1.2 Identified Studies in the review
+L63: Tc 99m Lymphoseek has been evaluated in two Phase 3 studies (NEO3-05 and NEO3-09). Both studies were prospective, non-randomized, open-label, multicenter, single arm, within-patient, comparison studies of Tc 99m Lymphoseek (LS) and Blue Dye (BD) as lymphoid tissue targeting agents in patients with primary melanoma or breast cancer. The dose was 50 µg Tc 99m Lymphoseek by injection, in close proximity to the primary tumor, followed by injection of BD and ILM. The route of injection methods included intradermal, subareolar, or peritumoral. The regimen was single dose, with follow-up at 30 days post-injection. An overview of clinical studies is given in the following Table 3:
+L64: Table 3: Overview of Clinical Studies
+L65: PhaseStudyStudy Design/Cancer TypePrimary Objective
+
+
+
+1NEO3-ARandomized, four-arm, open-labelPrimary Breast CancerPK and Safety
+
+NEO3-BRandomized, four-arm, open-labelCutaneous MelanomaPK and Safety
+
+NEO3-CRandomized, four-arm, single-blindedPrimary Breast CancerPK and Safety
+
+2NEO3-01Single arm, open-labelBreast Cancer and MelanomaPD and Safety
+
+3NEO3-05Single arm, open-labelBreast Cancer and MelanomaEfficacy and Safety
+
+NEO3-09Single arm, open-labelBreast Cancer and MelanomaEfficacy and Safety
+
+NEO3-06aSingle arm, open-labelHead and Neck Squamous Cell carcinomaEfficacy and Safety
+L66: NEO3-06a Ongoing study; the database from this study was frozen for assessment of safety parameters only for inclusion in this marketing application.
+L67: Abbreviations: PD – pharmacodynamics; PK - pharmacokinetics
+L68: 2.1.3 Analysis Populations
+L69: Intent to treat (ITT) Patient Population
+L70: The ITT patient population is that population of patients (and their nodes) utilized for the primary endpoint analyses of Tc 99m Lymphoseek concordance with the FDA-approved BD comparator. This population includes any patient, regardless of malignancy diagnosis, who signed informed consent, was injected with both BD and Tc 99m Lymphoseek, underwent surgery and had at least one lymph node stained intraoperatively (in vivo) by BD, and for whom tissue type (lymphoid vs. non-lymphoid) and pathology status (presence vs. absence of tumor cells) had been confirmed. Sponsor’s defined ITT population treated BD as a “truth” standard.
+L71: Reverse Intent-to-Treat (RITT) Population
+L72: For purposes of this analysis, the RITT patient population is that population of patients (and their nodes) utilized for the secondary endpoint analysis of VBD concordance with Tc 99m Lymphoseek (treating Tc 99m Lymphoseek as the “truth” standard). This population includes any patient, regardless of malignancy diagnosis, who signed informed consent, was injected with both VBD and Tc 99m Lymphoseek, and underwent surgery and had at least one lymph node detected intraoperatively (in vivo) by Tc 99m Lymphoseek, and for whom tissue type (lymphoid vs. non-lymphoid) and pathology status (presence vs. absence of tumor cells) had been confirmed.
+L73: Per Protocol (PP) Patient Population
+L74: The PP population consists of those ITT patients who lacked major protocol violations. Major protocol violations were defined as protocol violations that could have a direct effect on the efficacy endpoints. All
+L75: major protocol violations were determined before database lock. These include, but are not limited to, the following documented violations:
+L76: 1. Lymphoseek dose too low2. Grossly incorrect injection location(s) and/or technique;3. Surgery not performed within the pre-specified time window ;4. Probe not used correctly or not functioning;5. Patient had a prior procedure affecting the lymph node drainage from the primary tumor site;6. Breast cancer patient had bilateral surgery with Tc 99m Lymphoseek used on both sides or had multiple tumors within their breast;7. Melanoma patient had preoperative chemotherapy, immunotherapy, or radiation therapy;8. Breast cancer patient had preoperative radiation therapy to the affected breast or axilla.
+L77: Safety Patient Population
+L78: The safety patient population is that population of patients that signed informed consent and received any LS injection - For NEO3-05, 195 patients were screened and 179 (91.8%) patients were injected with LS. For NEO3-09, 165 patients screened, 153 (92.7%) patients were injected with LS.
+L79: 2.2 Data Sources
+L80: The NDA was submitted in eCTD format and contained SAS export files, applicable programming codes, needed SAS output and related information. The data files were complex and needed additional efforts to derive the useful analyses datasets.
+L81: The NDA in eCTD and SAS export files of these data are located at:
+L82: \\\\cdsesub5\\EVSPROD\\NDA202207\\0000
+L83: 3. STATISTICAL EVALUATION
+L84: There were two phase 3 studies (NEO3-05 and NEO3-09) with similar design, same primary and secondary endpoints and analyses.
+L85: 3.1 Data and Analysis Quality
+L86: On August 10, 2011 then Neoprobe Corporation (now Navidea Biopharmaceuticals) submitted electronically a new drug application for their product Lymphoseek to the Division of Medical Imaging Products. During the filing review, this reviewer identified that the certain efficacy data (including the derived efficacy datasets for two clinical studies) were not included in this electronic submission. On September 30, 2011 Statistics sent an information request to Navidea Biopharmaceuticals requesting they explain the location of these datasets in the Lymphoseek application during their applicant Orientation meeting being held on October 4, 2011. The applicant provided a response to the information request, however it did not address Statistical concerns. Further discussion of the datasets at the orientation meeting prompted an additional meeting held on October 5, 2011. Internally prior to the October 5, 2011 meeting, DMIP received assistance from representatives in the Office of Business Informatics (OBI). OBI confirmed that the applicant did not submit the datasets in their new drug application. Per discussion with the FDA review team on October 5, 2011, the company submitted an additional supplement to the NDA, which included datasets, listing and additional navigation from the NEO3-05 and NEO3-09 clinical study reports (CSRs), and the ISS and ISE to these datasets and their corresponding SAS programs.
+L87: The additional supplement to NDA included primary analysis dataset from tabulation that yielded the reproducible results for the sponsor's defined primary endpoint of concordance with Blue Dye (BD) where both BD and Tc 99m Lymphoseek were employed in the same patients with BD as the "truth" comparator. Concordance was the primary metric (measuring or quantifying) of assessing Tc 99m Lymphoseek performance.
+L88: During the analyses of the data, this reviewer discovered that the efficacy analyses presented in the NDA were based on a subset of the entire available data and the ignored (by the sponsor) information significantly contributed to the overall efficacy evaluation of the product.
+L89: There were also certain labeling, dosing and medical claims that needed to be verified and the needed datasets to be derived. These further analyses based on additional custom tailoring of the data did not support all the labeling, dosing and indication claims of the sponsor. As a result of the statistical analyses, the indication, dosing and labeling were considerably revised by the team.
+L90: 3.2 Evaluation of Efficacy
+L91: 3.2.1 Study Design and Endpoints
+L92: Tc 99m Lymphoseek has been evaluated in two Phase 3 studies (NEO3-05 and NEO3-09) with similar designs. Both studies were prospective, open-label, non-randomized, single arm, multicenter, within-patient, comparison studies of Tc 99m Lymphoseek (LS) and vital blue dye (BD) as lymphoid tissue targeting agents in patients with primary melanoma or breast cancer. Study procedures are summarized below:
+L93: • Subjects receive injection of Lymphoseek, undergo surgery (intraoperative lymphatic mapping) either the same day or next day
+L94: • All subjects also receive the comparator tracer – blue dye injection, 15 min before surgery
+• Dual agent mapping – a node can be blue, ‘hot’, blue and ‘hot’, neither blue nor ‘hot’ but identified by surgeon through palpation during surgery
+• Lymphoseek doses Studied in the phase 3 Studies for both studies for the same day surgery were 0.5 mCi, 50 µg and for the next day surgery for NEO3-05 the dose was 1 mCi, 50 µg and for the study NEO3-05 the dose was 2 mCi, 50 µg
+• All studies also used a concurrent blue dye tracing technique to localize lymph nodes. All patients received both tracers (BD and LS) for the LN mapping procedure. Surgeons used their eyes, hands, Hand-held gamma counter (HHGC) &amp; both tracers to identify LNs. This resulted in the paired nature of outcome data.
+• During surgery, surgeons look for blue stained lymph nodes (blue nodes), and use a handheld gamma probe to detect radioactive spots (‘hot’ nodes). This is described in Table 4.
+L95: Table 4: Efficacy Variable Measurements
+L96: VariableVariable TypeValuesMeasurement Time of Variable
+
+
+
+Tc 99m Lymphoseek StatusBinaryHot, Not HotAt Node Excision
+
+Vital Blue Dye StatusBinaryBlue, Not BlueAt Node Excision
+
+Pathology Node StatusBinaryLymph Node, Palpable MassDuring Pathology Evaluation
+
+Pathology Tumor StatusBinaryPositive, NegativeDuring Pathology Evaluation
+L97: For both studies, the following endpoints were assessed:
+L98: Protocol Defined Primary Endpoint
+L99: • The ‘concordance’ rate between Tc 99m Lymphoseek and blue dye in the in vivo detection of the excised lymph node(s) as confirmed by histopathology
+• ‘Concordance’ rate (at the node level)
+L100: P_{C1} = \frac{\# \text{ of nodes that were VBD-stained and were also Tc 99m Lymphoseek hot}}{\# \text{ of VBD-stained nodes}}
+L101: • Essentially the sensitivity of Lymphoseek using blue dye as the standard of truth
+L102: The nodal concordance rate was calculated for the sponsor’s defined ITT (considered a subset analysis by FDA) by tumor type and by study
+L103: Protocol Defined Secondary Endpoints
+L104: Throughout the milestone meetings, the FDA review team expressed concerns on using this ‘concordance’ as the primary efficacy endpoint. One situation the FDA review team asked the sponsor to consider was that Lymphoseek could potentially identify more lymph nodes that the comparator blue dye. Therefore in secondary efficacy analyses, Navidea also conducted analysis on the ‘reverse concordance’, which is taking all the Lymphoseek identified lymph nodes, and look to see how many of them were also identified by the blue dye. ‘Reverse concordance’ rate (at the node level) was defined as:
+L105: PC3 = \frac{\# \text{ of Tc 99m Lymphoseek hot nodes that were VBD-stained}}{\# \text{ of Tc 99m Lymphoseek hot nodes}}
+L106: The remaining secondary efficacy variables were:
+L107: • per patient concordance rate was calculated as:
+L108: PC2 = (\# \text{ of patients for whom all VBD-stained nodes were also Tc 99m Lymphoseek hot}) / (\# \text{ of patients with at least one in vivo VBD-stained node})
+L109: The concordance rate per patient was calculated by tumor type and overall, and by study and overall, for both the ITT and PP populations, where both the numerator and denominator above were limited to the appropriate population.
+L110: • per patient reverse concordance rate was calculated as:
+L111: PC4 = (\# \text{ of patients for whom all Tc 99m Lymphoseek hot nodes are VBD-stained}) / (\# \text{ of RITT patients})
+L112: The reverse concordance rates were calculated for the reverse ITT (RITT) population by tumor type and overall, and by study and overall.
+L113: The following proportions and rates relative to pathology. Proportions were calculated on the total number of safety nodes. Rates were calculated for lymph nodes that were pathology-positive for metastasis:
+L114: • proportion of safety nodes that were pathology-positive and were both stained blue and Tc 99m Lymphoseek hot in vivo
+• proportion of safety nodes that were pathology-positive and were stained blue but not Tc 99m Lymphoseek hot in vivo
+• proportion of safety nodes that were pathology-positive and were not stained blue but were Tc 99m Lymphoseek hot in vivo
+• proportion of safety nodes that were pathology-positive and were not stained blue nor were Tc 99m Lymphoseek hot in vivo
+• sensitivity of VBD, by node, relative to pathology; FNR of VBD, by node, relative to pathology
+• sensitivity of Tc 99m Lymphoseek, by node, relative to pathology; FNR of Tc 99m Lymphoseek, by node, relative to pathology.
+L115: Secondary variables related to pathology were calculated by study and overall for both the safety and safety PP populations.
+L116: The statistical analyses for the sponsor defined primary endpoint and important secondary endpoints and the FDA defined analyses are presented in this report.
+L117: 3.2.2 Statistical Methodologies (Protocol Defined)
+L118: Statistical analysis of the primary efficacy endpoint (i.e., PC1, concordance based on per node data) consisted of calculating a point estimate and 95% exact binomial confidence interval. The hypotheses (PC1 \leq 0.90 vs. PC1 &gt; 0.90) were tested using a one-sided significance level of \alpha=0.05, such that the lower bound of
+L119: the 95% confidence interval needed to be greater than 0.90 in order to reject the null hypothesis and for the observed result to be positive finding.
+L120: A formal statistical test of the per patient concordance endpoint (PC2) was not performed. The number and proportion of concordant patients, PC2, was calculated by tumor type for each efficacy study. A 95% exact binomial confidence interval was computed on the patient concordance for each efficacy study using the per patient derivation. The analysis of the reverse concordance (PC3) was assessed after passing the primary endpoint of Tc 99m Lymphoseek concordance with BD, which was used as a serial gatekeeper to maintain an overall alpha level of 0.05 for the two concordance measures. The statistical test of superiority (PC1 vs. PC3) was conducted using McNemar's test with a two-sided significance level of \alpha=0.05.
+L121: Statistical tests of hypotheses were not performed for the other secondary efficacy endpoints relative to pathology. Instead, point estimates and 95% exact binomial confidence intervals were calculated.
+L122: 3.2.3 Patient Disposition, Demographic and Baseline Characteristics
+L123: Inclusion/Exclusion Criteria
+L124: Both studies shared the same inclusion/exclusion criteria. Patients:
+L125: • had to provide written informed consent with HIPAA authorization before participating in the study• had to be a candidate for surgical intervention with lymphatic mapping being part of the surgical plan• had to be \geq 18 years of age• had to have an ECOG performance status of Grade 0 to 2• had to be clinically node negative (N0) at time of study entry• had to have negative pregnancy test within 72 hours prior to administration of Tc 99m Lymphoseek, been surgically sterilized, or postmenopausal for at least 1 year if of child bearing potential• had to have a diagnosis of either primary melanoma or primary breast cancer, pure ductal carcinoma in situ (DCIS), or non-invasive carcinoma if lymph node biopsy was part of the surgical plan• could not be pregnant or lactating• could not have clinical or radiological evidence of metastatic cancer, including palpably abnormal or enlarged lymph nodes• could not have a known hypersensitivity to VBD (e.g., Lymphazurin)• could not have participated in another investigational drug study within 30 days of the scheduled surgery
+L126: Patients with melanoma were excluded if they:
+L127: • had a tumor with a Breslow depth less than 0.75 mm• received preoperative chemotherapy, immunotherapy or radiation therapy• had been diagnosed with a prior invasive melanoma that would occur on the same body region or potentially draining to the same nodal basin; or with truncal or extremity primary melanoma and had previously had breast cancer potentially draining to the same axillary nodal basin• had undergone node basin surgery of any type or radiation to the nodal basin(s) potentially draining the primary melanoma• had undergone a wide excision for their primary melanoma (&gt;1 cm in dimension) or complex reconstruction (rotation, free flap, or skin graft of any type)
+L128: Patients with breast cancer were excluded if they:
+L129: • had bilateral primary breast cancers or multiple tumors within the same breast
+L130: • had prior surgical procedures such as breast implants, reduction mammoplasty, or axillary surgery
+• were scheduled for bilateral mastectomy for any reason (Note: NEO3-09 allowed patients to be enrolled who were scheduled for bilateral mastectomy if the contraindicated breast was being removed only for cosmetic reasons and ILM was not to be performed on that side.)
+• had received preoperative radiation therapy to the affected breast or axilla.
+L131: Disease Characteristics and Prior Treatment
+L132: Patients were required to have primary, non-metastatic disease, either melanoma or breast cancer and be candidates for surgical intervention with lymphatic mapping being part of the surgical plan. Per the individual study enrollment criteria, patients were to have an Eastern Cooperative Oncology Group (ECOG) score of 0 to 2. A majority of the patients (93.1%) had an ECOG status of 0 (Table 5).
+L133: Table 5: ECOG Performance Status
+L134: Safety Population (N=332)
+
+NEO3-05NEO3-09Combined
+
+ECOG StatusaMelanoma (N=85)Breast Cancer (N=94)Overall (N=179)Melanoma (N=76)Breast Cancer (N=77)Overall (N=153)Overall (N=332)
+
+
+
+081 (95.3%)87 (92.6%)168 (93.9%)72 (94.7%)69 (89.6%)141 (92.2%)309 (93.1%)
+
+14 (4.7%)7 (7.4%)11 (6.1%)3 (3.9%)8 (10.4%)11 (7.2%)22 (6.6%)
+
+20 (0.0%)0 (0.0%)0 (0.0%)1 (1.3%)0 (0.0%)1 (0.7%)1 (0.3%)
+
+30 (0.0%)0 (0.0%)0 (0.0%)0 (0.0%)0 (0.0%)0 (0.0%)0 (0.0%)
+
+40 (0.0%)0 (0.0%)0 (0.0%)0 (0.0%)0 (0.0%)0 (0.0%)0 (0.0%)
+L135: a ECOG definitions: 0—fully active, able to carry on all pre-disease performance without restriction; 1— restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work; 2—ambulatory and capable of all self-care but unable to carry out any work activities, up and about more than 50% of waking hours; 3—capable of only limited self-care, confined to bed or chair more than 50% of waking hours; 4—completely disabled, cannot carry on any selfcare, totally confined to bed or chair.
+L136: Prior chemotherapy or therapy that compromised the integrity of the lymphatic system were not permitted for melanoma patients, and prior radiotherapy or breast surgery were not permitted for breast cancer patients.
+L137: Patient Demographics
+L138: Demographic and baseline characteristics for the combined analysis are summarized in Table 6 and Table 7.
+L139: Patients in the combined population had a mean (standard deviation, SD) age of 58.9 (13.34) years. There were more females (69.9%) overall than males (30.1%). Patients were predominantly white (93.7%) and of non-Hispanic ethnicity (92.8%). Demographic and baseline characteristics and tumor types in the individual studies were similar to the combined analysis.
+L140: Table 6: Demographics and Baseline Characteristics – Continuous Variables
+L141: Safety Population (N=332)
+
+Demographics VariableTumor TypeMeanSDNMinMaxMedian
+
+
+
+Age of Patient (years)Melanoma59.414.93161209060.0
+
+Breast Cancer58.411.67171298459.0
+
+Overall58.913.34332209059.0
+
+Height of Patient (inches)Melanoma68.074.28015854.081.269.00
+
+Breast Cancer64.103.13216943.072.064.00
+
+Overall66.024.22132743.081.265.50
+
+Weight of Patient (pounds)Melanoma193.7546.44415996.9372.6190.00
+
+Breast Cancer164.1542.13117170.0325.0154.00
+
+Overall178.4146.61033070.0372.6173.74
+L142: Abbreviations: Min, minimum; max, maximum; N, number of patients; SD, standard deviation.
+L143: Table 7: Demographics and Baseline Characteristics – Categorical Variables
+Safety Population (N=332)
+L144: Demographics VariableCategoryMelanoma (N=161)Breast Cancer (N=171)Overall (N=332)
+
+
+
+GenderMale100 (62.1%)(0.00%)100 (30.1%)
+
+Female61 (37.9%)171 (100.0%)232 (69.9%)
+
+RaceWhite159 (98.8%)152 (88.9%)311 (93.7%)
+
+Black2 (1.2%)6 (3.5%)8 (2.4%)
+
+Asian0 (0.0%)11 (6.4%)11 (3.3%)
+
+American Indian or Alaska Native0 (0.0%)0 (0.0%)0 (0.0%)
+
+Native Hawaiian or Other Pacific Islander0 (0.0%)2 (1.2%)2 (0.6%)
+
+EthnicityHispanic1 (0.6%)11 (6.4%)12 (3.6%)
+
+Non-Hispanic156 (96.9%)152 (88.9%)308 (92.8%)
+
+Not Reported4 (2.5%)8 (4.7%)12 (3.6%)
+L145: Patient Disposition -- Patient disposition is summarized in Table 8.
+L146: Table 8: Patient Disposition
+All Screened Patients (N=360)
+L147: Tumor Type
+
+MelanomaBreast CancerOverall
+
+
+
+Screen Failures a,b6311
+
+Enrolled175174349
+
+Completed154 (88.0%)167 (96.0%)321 (92.0%)
+
+Withdrawn21 (12.0%)7 (4.0%)28 (8.0%)
+
+Reason for WithdrawalAdverse Event0 (0.0%)0 (0.0%)0 (0.0%)
+
+Protocol Violation4 (2.3%)3 (1.7%)7 (2.0%)
+
+Lost To Follow-Up2 (1.1%)1 (0.6%)3 (0.9%)
+
+Withdrawal of Consent8 (4.6%)2 (1.1%)10 (2.9%)
+
+Death0 (0.0%)0 (0.0%)0 (0.0%)
+
+Other7 (4.0%)1 (0.6%)8 (2.3%)
+L148: a Two patients in NEO3-05 had no cancer diagnosis reported on their case report forms at time of screen failure. Patient counts and percentages for each tumor type may not sum to the overall counts displayed.
+L149: b Seven patients in NEO3-05 listed screen failure as a reason for withdrawal. These patients were moved into the screen failure count and are not included in the count of withdrawn patients.
+L150: The denominator for all percentages in this table is the number of enrolled patients in their respective column.
+L151: A combined total of 349 patients were enrolled in the two studies, and 321 (92.0%) of patients completed the two studies. The most common reasons for withdrawal included withdrawal of consent (10 patients), “other” (eight patients), and protocol violations (seven patients). Six of the “other” withdrawn patients were withdrawn due to Sponsor’s request before deadline (not injected), one did not receive Tc 99m Lymphoseek due to unavailability of the study drug at the time of injection, and one did not preoperatively map (by lymphoscintigraphy) any radioactivity with Tc 99m Lymphoseek following injection and was injected with another agent.
+L152: The summary of baseline demography and disease characteristics is given below:
+L153: • Breast Cancer – 100% female ; Melanoma (62% male, 38% female).
+• 70% female &amp; 30% male overall.
+• Average weight at the baseline 194 lbs for melanoma versus 164lbs for breast cancer.
+• Average height at the baseline 68” for melanoma versus 64” for breast cancer.
+• Average age at the baseline 59 years for melanoma versus 58 years for breast cancer.
+• 99% Whites in Melanoma and 89% Whites in Breast Cancer.
+• From the enrolled population - 12% withdrew from Melanoma group versus 4% in breast cancer.
+• ECOG Performance Status = 0 (fully active, able to carry on all pre-disease performance without restriction) –95% in Melanoma and 91% in breast cancer..
+• The frequency of lymphoscintigraphy use is generally less for breast cancer relative to melanoma. It is commonly accepted that breast cancers drain more predictably than melanomas, physicians do not rely as heavily on nuclear imaging techniques to map the drainage pattern of an injected radiotracer
+L154: in breast cancer surgery, and as such, the frequency of lymphoscintigraphy use is generally less for this tumor type relative to melanoma.
+L155: At the baseline, there are differences in demography, and disease characteristics, etc.. These differences are not statistically significant within each disease and various demographic categories (age, sex, etc.).
+L156: Of the 195 screened patients in the study NEO3-05, 179 (91.8%) were injected with Tc 99m Lymphoseek and comprised the safety population. Of the 165 screened patients in the study NEO3-09, 153 (92.7%) were injected with Tc 99m Lymphoseek and comprised the safety population.
+L157: 3.2.4 Results and Conclusions (Sponsor)
+L158: The primary efficacy endpoint, nodal concordance of Tc 99m Lymphoseek to BD
+L159: The counts and proportions of concordant nodes are summarized in Tables 9 and 10. Concordance rates were higher in the NEO3-09 study (100%) than in the NEO3-05 study. In the NEO3-05 study, the concordance rate for melanoma (97.52%) was higher than for breast cancer (89.63%). In each study the concordance of detection of nodes intraoperatively by Tc 99m Lymphoseek relative to BD was significantly &gt; 0.90 (p=0.0401 for NEO3-05, and p&lt;0.0001 for NEO3-09).
+L160: Table 9: Count and Proportion of Concordant Nodes
+L161: NEO3-05NEO3-09
+
+
+
+# (%) of Concordant Nodesa239/256(93.36%)229/229(100%)
+
+95% Confidence Interval for %(89.58, 96.08)(98.40, 100)
+
+1-Sided p-Valueb for One-Sample Test of H0: PC1 \leq .900.0401&lt;0.0001
+
+Melanomac118/121(0.9752)116/116(1.0000)
+
+Breast Cancerd121/135(0.8963)113/113(1.0000)
+L162: Total ITT Nodesa=256 in the study NEO3-05; Total ITT Nodesa=229 in the study NEO3-09
+L163: Total number of lymph nodes = 485 in 291 patients
+L164: a Concordant Nodes – Nodes that were determined in vivo to be “blue” (due to presence of vital blue dye) were also “hot” (due to presence of Tc 99m Lymphoseek).
+L165: b \alpha=0.05 for NEO3-05 (per protocol); \alpha=0.025 for NEO3-09 (per protocol);
+L166: c Concordant Nodes from Melanoma Patients.
+L167: d Concordant Nodes from Breast Cancer Patients.
+L168: Table 10: Count and Proportion of Concordant Patients
+L169: NEO3-05 (N=158)NEO3-09 (N=133)
+
+
+
+Number (Proportion) of Concordant Patientsa146 (0.9241)133 (1.0000)
+
+95% Confidence Interval for Proportion(0.8711, 0.9601)(0.9726, 1.0000)
+
+Melanomab (N=140)72 (0.9600)65 (1.0000)
+
+Breast Cancerc (N=151)74 (0.8916)68 (1.0000)
+L170: aConcordant Patients – Patients for whom all nodes that were determined in vivo to be “blue” (due to presence of vital blue dye) were also determined to be
+L171: “hot” (due to presence of Tc 99m Lymphoseek).
+L172: bConcordant Melanoma Patients.
+L173: cConcordant Breast Cancer Patients.
+L174: Secondary Efficacy Endpoint(s) - Reverse Concordance Rate Using the RITT Population
+L175: The secondary efficacy endpoints, reverse concordance of BD to Tc 99m Lymphoseek per patient concordance of Tc 99m Lymphoseek to BD, superiority testing, proportions and sensitivity and false negative rates relative to pathology are given below:
+L176: • In the formula calculating ‘concordance’, blue dye appeared as if it were the reference standard
+• But in fact blue dye is only a comparator
+• Possibility that Lymphoseek identifies more lymph nodes than the blue dye
+• Reverse ‘concordance’ = (# of nodes that were both ‘blue’ and ‘hot’) / (# of ‘hot’ nodes)
+• Essentially ‘sensitivity’ of blue dye based on Lymphoseek
+L177: The nodal concordance rate in the RITT population is summarized in Tables 11 and 12.
+L178: Table 11: Count and Proportion of Reverse Concordant Nodes
+L179: NEO3-05(Total RITT Nodes=343)NEO3-09(Total RITT Nodes=378)
+
+
+
+Number (Proportion) of Concordant Nodesb239 (0.6968)229 (0.6058)
+
+95% Confidence Interval for Proportion(0.6451, 0.7450)(0.5546, 0.6554)
+
+1-Sided p-Valueb for One-Sample Test of H0: P_{CI} \leq P_{C3}c&lt;0.0001&lt;0.0001
+
+Melanomad (Total RITT Nodes=370)118 (0.6821)116 (0.5888)
+
+Breast Cancerc (Total RITT Nodes=351)121 (0.7118)113 (0.6243)
+L180: aThe population used for the superiority analysis (P_{CI} \leq P_{C3}) consists of all patients that are in the RITT and/or ITT population.
+L181: bReverse Concordant Nodes - Nodes that were determined in vivo to be “hot” (due to presence of Tc 99m Lymphoseek) that were also “blue” (due to the presence of vital blue dye).
+L182: a PC1 refers to the concordance rate of Tc 99m Lymphoseek relative to vital blue dye and PC3 refers to the reverse concordance rate of vital blue dye relative to Tc 99m Lymphoseek.
+L183: a Reverse Concordant Nodes from Melanoma Patients
+L184: c Reverse Concordant Nodes from Breast Cancer Patients
+L185: Table 12: Count and Proportion of Reverse Concordant Patients
+L186: NEO3-05 (N=167)NEO3-09 (N=152)
+
+
+
+Number (Proportion) of Reverse Concordant Patientsa95 (0.5689)76 (0.5000)
+
+95% Confidence Interval for Proportion(0.4901, 0.6451)(0.4179, 0.5821)
+
+Melanomab (N=155)41 (0.5125)37 (0.4933)
+
+Breast Cancerc (N=164)54 (0.6207)39 (0.5065)
+L187: a Reverse Concordant Patients - Patients for whom all nodes were determined in vivo to be “hot” (due to presence of Tc 99m Lymphoseek) that were also
+L188: “blue” (due to the presence of vital blue dye).
+L189: b Reverse Concordant Melanoma Patients
+L190: c Reverse Concordant Breast Cancer Patients
+L191: Secondary Analysis - Pathology Results from Excised Lymph Nodes
+L192: The number and proportion of pathology-positive nodes are summarized by Tc 99m Lymphoseek and VBD detection categories in Table 13.
+L193: Table 13: Sensitivities and False Negative Rates for Technetium Tc 99m Lymphoseek Injection and Vital Blue Dye
+L194: Study NEO3-05Pathology-Positive Nodes = 38Study NEO3-09Pathology-Positive Nodes = 40
+
+LymphoseekVital Blue DyeLymphoseekVital Blue Dye
+
+
+
+Sensitivity (Agreement with Path+)
+
+Proportion/Rate0.947 (36/38)0.816 (31/38)1.000 (40/40)0.750 (30/40)
+
+95% confidence interval(0.823, 0.994)(0.657, 0.923)(0.912, 1.000)(0.588, 0.873)
+
+False Negative Rate
+
+Proportion/Rate0.053 (2/38)0.184 (7/38)0.000 (0/40)0.250 (10/40)
+
+95% confidence interval(0.006, 0.178)(0.077, 0.343)(0.000, 0.088)(0.127, 0.412)
+L195: The sponsor concluded that:
+L196: • The two adequate and well-controlled Phase 3 studies (NEO3-05 &amp; NEO3-09) achieved the prospectively defined primary efficacy endpoint, demonstrating a statistically significant concordance rate with the FDA-approved intraoperative lymphatic mapping agent and standard of care, vital blue dye.
+• The detection concordance was similar in melanoma patients and breast cancer patients across the two studies.
+L197: • Tc 99m Lymphoseek demonstrated a higher sensitivity for detecting pathology-positive lymph nodes, corresponding to a decreased false negative rate when compared with vital blue dye on a per node basis.
+• When vital blue dye is used independently as the imaging agent there is an increased risk of missing the detection of lymph nodes, some of which are tumor-bearing.
+L198: 3.2.5 Issues Identified with the Sponsor's Analysis
+L199: The following issues were identified with the sponsor's primary endpoint and analyses:
+L200: • Issues with primary measure of efficacy- concordance in lymph node detection is not sufficient to demonstrate the clinical utility of Lymphoseek (b) (4)
+• A threshold of 90% concordance not justified.
+• Evaluation of performance (sensitivity &amp; specificity) is limited – the trial was not designed to evaluate sensitivity and specificity.
+• The sponsor's analysis used alpha of 0.05, whereas, by convention FDA expects alpha of 0.025 to be used for one-sided tests. Observing the 95% CI for study NEO3-5 shows that the test would not be statistically significant at the 0.025 level.
+• Nodes within a patient are assumed independent, but this assumption may be unrealistic. The variance estimators could be biased which would render inference questionable.
+• This study is flawed because the comparator is also the truth standard. Complete diagnostic information (Se and Sp) cannot be obtained from this study. It is impossible to evaluate false negatives under both modalities.
+• Focus of the sponsor's analysis is only BD+. The data related to BD- and BD indeterminate available but not analyzed. The sponsor's ITT population is a subset analysis
+L201: 3.2.6 FDA Defined Dataset for the Primary Analyses
+L202: The FDA review team concluded that the sponsor's 'concordance' is not a properly defined primary endpoint. The reviewer considered the histopathology (whether a piece of submitted surgical specimen is lymphoid tissue or not regardless of its cancer status) of the identified lymph nodes an appropriate primary endpoint (b) (4)
+L203: The FDA review team conducted an independent analysis at the node level using histopathology as the standard of truth. Note this is different from the sponsor's analysis, in which histopathology status refers to whether a lymph node contains cancer. In the independent FDA analysis, histopathology refers to whether a lymph node contains cancer. In the independent FDA analysis, histopathology refers to whether a surgical specimen is lymphoid tissue. This analysis aims for the question of 'how good is Lymphoseek in identifying lymph nodes draining an injection site'.
+L204: FDA used all the available data and included both BD + (detected by Blue Dye) and BD- (not detected by Blue Dye) in the analysis datasets. This is "Intent to Diagnose (ITD) patient population". For the study NEO3-05, there were 195 screened patients and 179 (91.8%) were injected with LS. For the study NEO3-09, there were 165 screened patients and 153 (92.7%) were injected with LS. Therefore the available data is all patients who were injected with both BD + LS, and underwent surgery. The available data is given in the following Table 14:
+L205: Table 14: Available Data (Nodal &amp; Patient Level)
+L206: StudiesN – Nodes (Patients)
+
+NEO3-05NEO3-09Combined
+
+
+
+All LS Nodes(# Patient - Signed InformedConsent and Received any LS)463(179)449(153)912(332)
+
+Any LS or BD Nodes(# Patients)*379(176)379(152)758(328)
+
+Both BD &amp; LS Not Available(# Patients)**84(45)70(45)154(90)
+
+Sponsor’s BD+ Subset (#Patients)256(158)229(133)485(291)
+L207: * All patients (Nodes) who had either BD or LS or both measurements available. – there were 4 patients in the Signed Informed Consent population who received any LS but did not have any BD measurements recorded. LS was not available for one patient (ktb) who had 3 nodes in study 05 one patient (trb) in study 09.
+L208: ** Patient level info not disjoint – some patients had some LS or BD Nodes as well as not available Nodes.
+L209: 3.2.7 FDA Defined Primary Analyses - Lymph Node Localization Rates – BD vs. LS
+L210: In order to evaluate a potentially more meaningful comparison between the BD and LS performances than would be provided by concordance rates based on a subset, stat review team conducted an independent analysis with a direct comparison of LS versus BD lymph node localization statistics. Efficacy analyses were based upon comparisons of the number and proportion of resected lymph nodes that contained a lymph node tracer (Lymphoseek and/or blue dye) or neither tracer. Evaluable lymph nodes were resected from 138 Study NEO3-05 patients and 150 Study NEO3-09 patients who received Lymphoseek at the dose of 0.5 mCi in 50 meg administered 0.5 hours – 15 hours prior to surgery. Table 15 shows the distribution of resected lymph nodes by the presence or absence of a tracer. Most of the resected lymph nodes were identified by either Lymphoseek (LS) or blue dye (BD) or both.
+L211: Table 15: Resected Lymph Nodes and Content of Lymphoseek (LS) and/or Blue Dye (BD)
+L212: StudyTumorNodesnBD Presentn (%);95% CILS Presentn (%);95% CIOnly BDPresent,n (%);95% CIOnly LSPresent,n (%);95% CINeither BDnor LSPresent, n (%);95% CI
+
+
+
+NEO3-05M15599 (64%)(56 – 71%)145 (94%)(89 – 97%)1 (1%)(0 – 4%)47 (30%)(23 – 38%)9 (6%)(3 – 11%)
+
+B154108 (70%)(62 – 77%)146 (95%)(90 – 98%)7 (5%)(2 – 9%)45 (29%)(22 – 37%)1 (1%)(0 – 4%)
+
+NEO3-09M196115 (59%)(51 – 66%)196 (100%)(98 – 100%)0(0 – 2%)81 (41%)(34 – 49%)0(0 – 2%)
+
+B180112 (62%)(55 – 69%)180 (100%)(98 – 100%)0(0 – 2%)68 (38%)(31 – 45%)0(0 – 2%)
+L213: M = melanoma; B = breast cancer; The percents may not add to 100% due to rounding.
+L214: 95% Confidence Intervals are based on Exact Binomial and represent the spread in the individual estimates.
+L215: 3.2.8 Secondary Endpoint - Pathology Results from Excised Lymph Nodes – FDA Analysis
+L216: Pathology Results from Excised Lymph Nodes was an important secondary efficacy variable and had labeling implications. Rates were calculated for lymph nodes that were pathology-positive for metastasis. The number and proportion of pathology-positive nodes are summarized by Tc 99m for Lymphoseek and VBD detection categories in Table 16 (nodes level) and Table 17 (patient level).
+L217: Table 16: Agreement Rates for Technetium Tc 99m Lymphoseek Injection and Vital Blue Dye with Pathology Positive Nodes
+L218: Tumor Type
+
+StudiesMelanomaBreast CancerCombined95% Exact CI
+
+
+
+NEO3-05(n=41)*Lymphoseek18/38 (47.4%)20/38 (52.6%)38/41 (92.7%)(80.1, 98.5)
+
+Vital Blue Dye16/33 (48.5%)17/33 (51.5%)33/41 (80.5%)(65.1, 91.2)
+
+NEO3-09(n=40)*Lymphoseek28/40 (70.0%)12/40 (30.0%)40/40 (100%)(91.2, 100.0)
+
+Vital Blue Dye20/30 (66.7%)10/30 (33.3%)30/40 (75.0%)(58.8, 87.3)
+
+Combined(n=78)*Lymphoseek46/78 (59.0%)32/78 (41.0%)
+
+95% Exact CI(47.3, 70.0)(30.0, 52.8)
+
+Vital Blue Dye36/63 (57.1%)27/63 (42.9%)
+
+95% Exact CI(44.1, 69.5)(30.5, 56.0)
+L219: * Pathology Positive Nodes
+L220: Table 17: Number and Proportion of Pathology-Positive Nodes by Tc 99m Lymphoseek and Vital Blue Dye Detection Categories
+L221: Safety Population (N=332)
+
+Total Number of Safety Nodesa = 758
+
+Detection Category for Pathology-Positive NodesNEO3-05NEO3-09Total
+
+(Safety Nodes = 379b)(Safety Nodes = 379)(Safety Nodes = 758)
+
+(Safety Patients = 179)(Safety Patients = 153)(Safety Patients = 332)
+
+NodesNumber Nodes (%)Number Patients (%)Number Nodes (%)Number Patients (%)Number Nodes (%)Number Patients (%)
+
+
+
+Vital Blue Dye + / Tc 99m Lymphoseek +32 (8.4%)2830 (7.9%)2762 (8.2%)55
+
+# Melanoma (VBD+ &amp; LS+)1613201736 (4.7%)30
+
+Vital Blue Dye + / Tc 99m Lymphoseek -1 (0.3%)10 (0%)01 (0.1%)1
+
+# Melanoma (VBD+ &amp; LS-)000000
+
+Vital Blue Dye - / Tc 99m Lymphoseek +6 (1.6%)510 (2.6%)1016 (2.1%)15
+
+# Melanoma (VBD- &amp; LS+)22881010
+
+Vital Blue Dye - / Tc 99m Lymphoseek -2 (0.5%)10 (0%)12 (0.3%)2
+
+# Melanoma (VBD- &amp; LS-)000000
+
+Total Pathology Positive Nodes41 (10.8%)31 (17.3%)40 (10.6%)33 (21.6%)81 (10.7%)64 (19.3%)
+
+# Melanoma (All Path+)18 (43.9%)15 (48.4%)28 (70.0%)20 (60.6%)46 (56.8%)35 (54.7%)
+
+# Breast Cancer (All Path+)231712123529
+L222: The entries at the patient level are overlapping due to multiple nodes within a patient.
+L223: a Nodes from patients injected with any fraction of Tc 99m Lymphoseek
+L224: b There were 380 safety nodes in the original NEO3-05 analyses, including one record (LN01 for patient 12-051215) that was determined not to be a lymph node. This record was excluded in the ISE analyses; it was neither an ITT nor a RITT node, and it had a missing pathology assessment. The exclusion of this record only slightly affects the proportions presented in ISE pathology tables relative to the original NEO3-05 analyses.
+L225: c 95% Confidence Interval for Proportion
+L226: Comments:
+L227: • Agreement Rates (Sensitivity in sponsor's submission) of Lymphoseek as compared to Vital Blue Dye in a subset of Pathology Positive Nodes are not significantly different (overlapping confidence intervals) either by study or by tumor type.• There appears to be a selection bias as number of pathology positive melanoma nodes in study NEO3-09 is substantially higher than the number of pathology positive breast cancer nodes. This is also the case at patient level as given in Table 17.• Sponsor's statement "In both studies, pathology results from excised lymph nodes demonstrated that Technetium Tc 99m Lymphoseek Injection is associated with a significantly higher sensitivity for detecting pathologically positive lymph nodes, corresponding to a decreased false negative rate relative to pathology when compared with vital blue dye on a per node basis" is not validated in this reviewer analyses.• Sponsor's False Negative Rate is 1-Agreement Rate and the conclusions for the False Negative Rate are the same as for the Agreement Rate (Table 13) .
+L228: 3.3 Evaluation of Safety
+L229: There were no deaths reported in the trial. For detailed safety review, the reader is referred to clinical review report.
+L230: 4. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L231: 4.1 Gender, Race, Age, and Geographic Region
+L232: There were 99% Whites in Melanoma and 89% Whites in Breast Cancer. Therefore a comparison by race was not performed.
+L233: For breast cancer, there were 100% female and for melanoma there were 62% male and 38% female. The concordance rates for Gender all the combined data is given below:
+L234: Table 18: Analysis by Gender
+L235: Gender# of PatientsConcordance Rate Lymph Nodes95% Exact CIFemale (Breast Cancer &amp; Melanoma)231325/341 = 95.3%(92.5, 97.3%)Male (Melanoma only)97143/144 = 99.3%(96.2, 100%)
+L236: The concordance rates of two age groups for all the combined data is given below:
+L237: Table 19: Analysis by Age
+L238: Age# of PatientsConcordance Rate Lymph Nodes95% Exact CI&lt;= 65224323/335 = 96.4%(93.8, 98.1%)&gt; 65104145/150 = 96.7%(92.4, 98.9%)
+L239: No significant differences were noted by Gender, Race, Age, or Geographic Region either by studies or overall.
+L240: 4.2 Other Special/Subgroup Populations
+L241: Assessment in the special population subgroups identified by the review team were as follows and analyzed by this reviewer.
+L242: • Same Day versus next Day surgery (at least 15 hours apart)• Preoperative Gamma Detection-Based Imaging in Lymphoseek Clinical Trials
+L243: These two issues were considered very important by the review team as they had labeling consequences. These are analyzed below.
+L244: 4.2.1 Same Day versus next Day surgery (at least 15 hours apart) – FDA Analysis
+L245: There were two dose levels studied in this trial - 18.5 MBq (surgery performed up to 15 hours post injection or the same day surgery) and 74MBq (surgery performed after 15 hours post injection or the next day surgery). (b) (4)
+L246: The lymph node detection rate for Tc 99m LS Injection for higher dose (74MBq) is significantly lower than the lymph node detection rate for Tc 99m LS Injection for lower dose (18.5 MBq). Plus the sample size for the higher dose is small (69 lymph nodes in 40 patients for 74MBq dose level as compared to 685 lymph nodes in 288 patients for 18.5 MBq dose level). The details are given in Tables 20 and 21.
+L247: Table 20: Lymphoseek Detection by Surgery Day at Lymph Node level
+L248: LS DetectedTotalRates (%)95% CIDifference in Rates95% CI on difference
+
+NoYes
+
+
+
+Same Day1866768597.4(95.9, 98.4)19.2(14.0, 24.2)
+
+Next Day15546978.3(66.7, 87.3)
+
+Total33721754
+L249: The significant difference was observed in the favor of same day surgery at lymph node level (p &lt; 0.0001 on difference).
+L250: Table 21: Lymphoseek Detection by Surgery Day at Patient level
+L251: lymph nodeTotalRates (%)95% CIDifference in Rates95% CI on difference
+
+All -At least one +
+
+
+
+Same Day528328898.3%(96.0, 99.4)8.3(2.9, 13.7)
+
+Next Day4364090%(76.3, 97.2)
+
+Total9319328
+L252: A significant difference was observed at patient level as 95% CI does not include 0 (p &lt; 0.01 on difference). A patient had both LS + and LS - nodes. If a patient has all LS negative nodes, then the patient was classified as LS not detected. The sampling unit is lymph node.
+L253: (b) (4)
+L254: 4.2.2 Preoperative Gamma Detection-Based Imaging in Lymphoseek Clinical Trials (FDA Analysis)
+L255: (b) (4)
+L256: The use of preoperative procedure may provide potentially key diagnostic information by exploiting the localization of the ILM agent. The lymphoscintigraphy is performed between injection of Tc 99m Lymphoseek and surgery. The preoperative patient evaluation, including the decision to perform lymphoscintigraphic imaging, was at the discretion of the study site investigators or according to their institution's standards, again, which most typically require the acquisition of these images as standard
+L257: medical practice. Per protocol, if lymphoscintigraphy were performed between injection of Tc 99m Lymphoseek and surgery, then all findings were to be documented and recorded on the patient’s case report form. All lymphoscintigraphy scans in these two trials were collected within four hours of Tc 99m Lymphoseek administration.
+L258: Hot spots were defined as non-injection site areas of high radioactivity on preoperative scan. It may provide important preoperative data in cases where such complimentary images were less efficient, one of the drainage paths may have been missed as a matter of choice by the surgeon.
+L259: In order to understand this patient level preoperative identification rate of hot spots, this reviewer analyzed the patient level Lymphoseek hotspots as # of patients with at least one Tc 99m Lymphoseek hot lymph node (and similarly for Blue Dye stained). The results regarding preoperative Gamma detection-based imaging in Lymphoseek clinical trials are summarized in the Table 22 below at patient Level rates defined as # patients with at least one LS+/total no of patients in safety population) as compared to Lymphoscintigraphy Hot spot identified. The results are given for both LS hotspots and pre-operative hotspots below:
+L260: Table 22: Patient Level rates (# patients with at least one LS+/total no of patients in safety population) as compared to Lymphoscintigraphy Hot spot identified.
+L261: StudiesTumor Type
+
+MelanomaBreast CancerOverall
+
+
+
+NEO3-05Safety Population (n)8594179
+
+Lymphoseek +80 (94.1%)87 (92.6%)167 (93.3%)
+
+NEO3-09Safety Population (n)7677153
+
+Lymphoseek +76 (100%)77 (100%)153 (100%)
+
+CombinedSafety Population (n)161171332
+
+Lymphoseek +156 (96.9%)164 (95.9%)320 (96.4%)
+
+NEO3-05Lymphoscintigraphy Population (n)8582167
+
+Hot spot identified83 (97.6%)67 (81.7%)150 (89.8%)
+
+NEO3-09Lymphoscintigraphy Population (n)7658134
+
+Hot spot identified76 (100%)58 (100%)134 (100%)
+
+CombinedLymphoscintigraphy Population (n)161140301
+
+Hot spot identified159 (98.8%)125 (89.3%)284 (94.4%)
+L262: Comments:
+L263: • There is a substantial overlapping. It appears that all hotspots identified by pre-operative imaging at patient level have also been identified by Lymphoseek at patient level. The sponsor needs to provide more details and data to assess added value of pre-operative imaging. It appears that the attending surgeons will do this anyway and can take suitable decisions based on the information. But statistically, this is a hypothesis generating post-hoc observation and needs to be assessed in a well defined clinical study.
+• This analysis was not protocol defined – it is retrospective analysis - preoperative scans were not required by the protocol and thus not performed for every study patient.
+• Protocol defined analyses for diagnostic efficacy were at lymph node level. Here patient level information is utilized and has no relationship with any protocol defined parameters or analyses.
+• Selection bias: preoperative imaging was performed per the preference of the administrating nuclear medicine physician and/or the principal investigator/surgeon.
+L264: • Hot spots were defined as non-injection site areas of high radioactivity on preoperative scan. May provide important preoperative data in cases where such complimentary images were less efficient, one of the drainage paths may have been missed as a matter of choice by the surgeon.
+• It is not clear from this submission and summary tables if the identified hot spots (Table 22) are different from identified Lymphoseek hotspots. If they are different, preoperative scans may provide complimentary information; otherwise the sponsor has failed to provide this complimentary assessment.
+• The use of preoperative procedure may be useful only for Melanoma - because (according to sponsor and literature cited) it is commonly accepted that breast cancers drain more predictably than melanomas, physicians do not rely as heavily on nuclear imaging techniques to map the drainage pattern of an injected radiotracer in breast cancer surgery, and as such, the frequency of lymphoscintigraphy use is generally less for this tumor type relative to melanoma.
+L265: (b) (4)
+L266: 4.2.3 Lymph Nodes Identification Rates due to Multiple Nodes per Patient (Clustering)
+L267: An evaluation of the effect on identification rates of multiple nodes per patient was made. A distribution of the lymph nodes clustering due to multiple nodes within a patient is given in Table 23. This distribution has been further be condensed in three categories as follows;
+L268: 1. Number of nodes in a patient = 1
+2. Number of nodes in a patient = 2
+3. Number of nodes in a patient \geq 3
+L269: A detailed analysis in these categories by study and tumor type in given Table 24.
+L270: Table 23: Lymph Nodes clustering due to multiple nodes within a patient
+L271: StudyTumor# Nodes in a patient using histopathology as the standard of truthTotal N (patients)
+
+123456811
+
+
+
+NEO3-05MelanomaN patients (%)16(25.0)22(34.4)15(23.4)9(14.1)2(3.1)64
+
+BreastN patients (%)24(32.4)28(37.8)18(24.4)4(5.4)74
+
+NEO3-09MelanomaN patients (%)15(20.3)26(35.1)19(25.7)9(12.2)2(2.7)1(1.4)1(1.4)74
+
+BreastN patients (%)21(27.6)30(39.5)13(17.1)6(7.9)2(2.6)3(3.9)1(1.3)76
+L272: Table 24: Lymph Nodes Identification Rates due to Multiple Nodes per Patient (Clustering)
+L273: StudyTumor# Nodes in a patientTotal # NodesBD Present n (%);95% CI (%)LS Present n (%);95% CI (%)
+
+
+
+NEO3-05Melanoma11914 (74%)(49 , 91)18 (95%)(74 , 100)
+
+24527 (60%)(44 , 74)43 (96%)(85 , 99)
+
+≥39158 (64%)(53 , 74)88 (97%)(91 , 99)
+
+Breast Cancer12624 (92%)(75 , 99)25 (96%)(80 , 100)
+
+25745 (79%)(66 , 89)57 (100%)(94 , 100)
+
+≥37139 (55%)(43 , 67)68 (96%)(88 , 99)
+
+NEO3-09Melanoma11512 (80%)(52 , 96)15 (100%)(78 , 100)
+
+25240 (77%)(63 , 87)52 (100%)(93 , 100)
+
+≥312963 ((49%)(40 , 58)129 (100%)(97 , 100)
+
+Breast Cancer12117 (81%)(58 , 95)21 (100%)(84 , 100)
+
+26042 (70%)(57 , 81)60 (100%)(94 , 100)
+
+≥39953 (54%)(43 , 64)99 (100%)(96 , 100)
+L274: 95% Confidence Intervals are based on Exact Binomial and represent the spread in the individual estimates.
+L275: An assumption is made that the lymph node detections within a patient are independent. The lymph node identification rates in patients with 1 node or 2 nodes or \geq 3 nodes are similar, especially for the Lymphoseek group.
+L276: 5. SUMMARY AND CONCLUSIONS
+L277: 5.1 Statistical Issues and Collective Evidence
+L278: Tc 99m Lymphoseek has been evaluated in two Phase 3 studies (NEO3-05 and NEO3-09). Both studies were prospective, non-randomized, open-label, multicenter, single arm, within-patient, comparison studies of Tc 99m Lymphoseek (LS) and Blue Dye (BD) as lymphoid tissue targeting agents in patients with primary melanoma or breast cancer. The route of injection methods included intradermal, subareolar, or peritumoral. The regimen was single dose, with follow-up at 30 days post-injection. Emphasis was estimating various rates/parameters and little emphasis was on hypothesis testing.
+L279: On August 10, 2011 then Neoprobe Corporation (now Navidea Biopharmaceuticals) submitted electronically a new drug application for their product Lymphoseek to the Division of Medical Imaging Products. During the filing review, this reviewer identified that the certain efficacy data (including the derived efficacy datasets for two clinical studies) were not included in this electronic submission. After several Statistical Information Requests sent to the sponsor and subsequent face-to-face meetings with the sponsor, the company submitted an additional supplement to the NDA, which included datasets suitable for statistical analyses, listing and additional navigation from the NEO3-05 and NEO3-09 clinical study reports (CSRs), and the ISS and ISE to these datasets and their corresponding SAS programs.
+L280: During the course of statistical analyses, this reviewer discovered that the sponsor's primary efficacy endpoint of the 'concordance' rate between Tc 99m Lymphoseek and blue dye in the in vivo detection of the excised lymph node(s) as confirmed by histopathology was a subset analysis of the available data. This reviewer employed robust methods to analyze all the available information. This was presented at the mid-cycle and the review team recommended to use the entire dataset and base the labeling on FDA review.
+L281: During the course of review, it was also pointed out that several issues related to the labeling and package insert need a closer look and additional statistical analyses. This required derivation of the suitable data for the analyses purposes. (b) (4). Dose 1 for both the studies was both the studies (NEO3-05 and NEU3-09) was 0.5 mCi in 50 mcg administered 0.5 hours – 15 hours prior to the scheduled surgery and blue dye was injected shortly prior to initiation of the surgery, and the surgery performed within 15 hours after the injection (same day surgery). Dose 2 for the study NEO3-05 was 1.0 mCi in 50 mcg and for the study NEO3-09 was 2.0 mCi in 50 mcg, and the surgery performed after 15 hours post injection (next day surgery). Statistical analysis showed that the lymph node detection rate for Tc 99m LS Injection for higher dose (74MBq) was significantly lower than the lymph node detection rate for Tc 99m LS Injection for lower dose (18.5 MBq). Plus the sample size for the higher dose was small (69 lymph nodes in 40 patients for 74MBq dose level as compared to 685 lymph nodes in 288 patients for 18.5 MBq dose level). (b) (4)
+L282: (b) (4)
+L283: The results of the sponsor’s protocol defined primary efficacy endpoint of the concordance rates for two studies are given in Table 25.
+L284: Table 25: Count and Proportion of Concordant Nodes
+L285: NEO3-05NEO3-09
+
+
+
+# (%) of Concordant Nodes239/256(93.36%)229/229(100%)
+
+95% Confidence Interval for %(89.58,96.08)(98.40, 100)
+
+Melanoma118/121(97.52%)116/116(100%)
+
+Breast Cancer121/135(89.63%)113/113(100%)
+L286: The FDA review team conducted an independent analysis on the data, with histopathology as the standard of truth. Based on the FDA’s independent analysis, Lymphoseek was able to identify more lymph nodes than the comparator agent (Lymphazurin, aka blue dye). The efficacy findings were acceptable for both melanoma and breast cancer patients based on the FDA analysis are given in Table 26.
+L287: Table 26: Resected Lymph Nodes and Content of Lymphoseek (LS) and/or Blue Dye (BD)
+L288: StudyTumorNodes nBD Present n (%); 95% CILS Present n (%); 95% CIOnly BD Present, n (%); 95% CIOnly LS Present, n (%); 95% CINeither BD nor LS Present, n (%); 95% CI
+
+
+
+NEO3-05M15599 (64%)(56 – 71%)145 (94%)(89 – 97%)1 (1%)(0 – 4%)47 (30%)(23 – 38%)9 (6%)(3 – 11%)
+
+B154108 (70%)(62 – 77%)146 (95%)(90 – 98%)7 (5%)(2 – 9%)45 (29%)(22 – 37%)1 (1%)(0 – 4%)
+
+NEO3-09M196115 (59%)(51 – 66%)196 (100%)(98 – 100%)0(0 – 2%)81 (41%)(34 – 49%)0(0 – 2%)
+
+B180112 (62%)(55 – 69%)180 (100%)(98 – 100%)0(0 – 2%)68 (38%)(31 – 45%)0(0 – 2%)
+L289: M = melanoma; B = breast cancer; The percents may not add to 100% due to rounding.
+L290: 95% Confidence Intervals are based on Exact Binomial and represent the spread in the individual estimates.
+L291: 5.2 Conclusions and Recommendations
+L292: The sponsor's protocol defined primary efficacy endpoint was based on the concordance rate. During the product development, through multiple milestone industry meetings, the FDA review team expressed concerns regarding the use of 'concordance' as the primary efficacy endpoint, as the sponsor's definition of 'concordance' is essentially the sensitivity of Lymphoseek using blue dye as the standard of truth (a subset analysis).
+L293: Although the sponsor's inference is flawed (see section 3.2.5), the data supplied support the conclusion that the Lymphoseek is effective in detecting lymph nodes, as described in the indication as modified by FDA.
+L294: This reviewer conducted an independent analysis on the data, with histopathology as the standard of truth. Based on the FDA's independent analysis, Lymphoseek was able to identify more lymph nodes than the comparator agent (Lymphazurin, aka blue dye). This reviewer concludes that FDA statistical analyses provide adequate evidence to support the FDA proposed indication for Lymphoseek (b) (4) dose level of 18.5 MBq (surgery performed up to 15 hours post injection or the same day surgery). (b) (4)
+L295: SIGNATURES/DISTRIBUTION LIST
+L296: Signatures:
+L297: Primary Statistical Reviewer: Satish Misra, Ph. D.Date: July 20 , 2012
+L298: Statistical Team Leader: Jyoti Zalkikar, Ph. D.,
+L299: Deputy Division Director: Thomas E. Gwise, Ph. D.Division of Biostatistics V
+L300: Distribution List:
+L301: Project Manager:Alberta Davis-WarrenMedical Officer:Brenda Ye, M. D.Medical Team Leader:Alex Gorovets, M. D.Medical Imaging Division DirectorDwaine Rieves, M. D.Primary Statistical Reviewer:Satish Misra, Ph. DStatistical Team Leader:Jyoti Zalkikar, Ph. D.Biometrics Deputy Division Director:Thomas E. Gwise, Ph. D. DBVBiometrics Division Director:Rajeshwari Sridhara, Ph. D., DBVOffice of BiostatisticsLillian Patrician
+L302: File: C:\CDER\2012 IND NDA\NDA 202-207 Stat Review Lymohoseek Breast cancer and Melanoma.doc
+L303: -----This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.-----
+L304: /s/-----
+L305: SATISH C MISRA07/25/2012
+L306: JYOTI ZALKIKAR07/25/2012I concur with the primary reviewer.
+L307: THOMAS E GWISE07/25/2012
+L308: STATISTICS FILING CHECKLIST FOR A NEW NDA/BLA
+L309: NDA Number: NDA 202-207 Applicant: Neoprobe Corp
+L310: Stamp Date: August 10, 2011
+L311: Drug Name: Lymphoseek NDA/BLA Type: NDA
+L312: On initial overview of the NDA/BLA application for RTF:
+L313: Content ParameterYesNoNAComments1Index is sufficient to locate necessary reports, tables, data, etc.X2ISS, ISE, and complete study reports are available (including original protocols, subsequent amendments, etc.)X3Safety and efficacy were investigated for gender, racial, and geriatric subgroups investigated (if applicable).X4Data sets in EDR are accessible and do they conform to applicable guidances (e.g., existence of define.pdf file for data sets).Xdefine.xml files for data sets
+L314: IS THE STATISTICAL SECTION OF THE APPLICATION FILEABLE? Yes
+L315: Remarks:
+L316: On August 10, 2011 Neoprobe Corporation submitted electronically a new drug application for their product Lymphoseek to the Division of Medical Imaging Products. On September 30, 2011 Statistics sent an information request to Neoprobe Corporation requesting they explain the location of certain datasets in the Lymphoseek application during their applicant Orientation meeting being held on October 4, 2011.
+L317: The applicant provided a response to the information request, however it did not address Statistical concerns. Further discussion of the datasets at the orientation meeting prompted an additional meeting to be held the next day on October 5, 2011. Internally prior to the October 5, 2011 meeting, DMIP received assistance from representatives in the Office of Business Informatics (OBI). OBI confirmed that the applicant did not submit the datasets in their new drug application. We sent the following comments to the applicant on October 5, 2011:
+L318: FDA IT experts reviewed the validation report and have found no errors. The real issue was location of the efficacy data, if submitted. From working with the FDA statistical reviewer, the company indicated this data should be in a dataset named "results.xpt".. That dataset simply did not exist in the submission either in the GS Review tool, in the individual define.xml files, or from looking at the file/folder structure directly on the server.
+L319: The sponsor were requested to verify where the location the missing efficacy datasets. The applicant finally realized they have not submitted the requested information in their new drug application.
+L320: OBI explained to Neoprobe that the data sets need to be submitted in SAS transport files. Dr. Satish Misra explained to the sponsor that we needed ISE, NEO3-05 and NEO3-09 datasets prior to the end of the business day, Friday, October 7, 2011. Neoprobe agreed to provide this
+L321: File name: 5_Statistics Filing Checklist for a New NDA_BLA110207
+L322: STATISTICS FILING CHECKLIST FOR A NEW NDA/BLA
+L323: information. Also, as agreed upon with the Division, Neoprobe will provide NEO3-05 and NEO3-09 clinical study reports (CSRs) and the ISS and ISE to these datasets and their corresponding SAS programs at a later time since it will take the company a couple of more weeks to compile this information.
+L324: The datasets were submitted on Friday, October 7, 2011 and the remaining filing issues were resolved.
+L325: *****
+L326: If the NDA/BLA is not fileable from the statistical perspective, state the reasons and provide comments to be sent to the Applicant.
+L327: Please identify and list any potential review issues to be forwarded to the Applicant for the 74-day letter.
+L328: Content Parameter (possible review concerns for 74-day letter)YesNoNAComment
+
+
+
+Designs utilized are appropriate for the indications requested.X
+
+Endpoints and methods of analysis are specified in the protocols/statistical analysis plans.X
+
+Interim analyses (if present) were pre-specified in the protocol and appropriate adjustments in significance level made. DSMB meeting minutes and data are available.X
+
+Appropriate references for novel statistical methodology (if present) are included.X
+
+Safety data organized to permit analyses across clinical trials in the NDA/BLA.X
+
+Investigation of effect of dropouts on statistical analyses as described by applicant appears adequate.X
+L329: Satish C. Misra, Ph. D. October 7, 2011
+    Reviewing Statistician Date
+L330: Anthony Mucci, Ph. D. October 7, 2011
+    Supervisor/Team Leader Date
+L331: -----This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.-----
+L332: /s/-----
+L333: SATISH C MISRA
+L334: 10/13/2011
+L335: ANTHONY G MUCCI
+L336: 10/14/2011

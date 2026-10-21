@@ -1,0 +1,33 @@
+{
+  "app": "BLA761097",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited_numbers for N=75 and N=33 is a false positive: both values are supported by the trial's n-field citations (line 47 '75 patients with metastatic CSCC' and line 48 '33 patients with locally advanced CSCC (N=33)') from the same source document.",
+      "false_positive": true
+    },
+    {
+      "field": "pivotal_trials",
+      "severity": "low",
+      "issue": "Efficacy population is described as pooled results of Study 1423 and Study 1540 (line 47), but only Study 1540 is listed as a pivotal trial, creating a mild mismatch between the trials described and the data source cited."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "75",
+        "text": "Pooled metastatic CSCC (N=75): confirmed centrally-reviewed ORR 47% (95% CI: 35,"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "33",
+        "text": "Pooled metastatic CSCC (N=75): confirmed centrally-reviewed ORR 47% (95% CI: 35,"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

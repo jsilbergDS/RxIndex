@@ -1,0 +1,107 @@
+{
+  "app": "NDA022055",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "high",
+      "issue": "Result claims the trial was 'reviewed as a superiority trial, failed to demonstrate superiority,' which contradicts the design/population fields stating TOC100224 was a non-inferiority study treated as supportive; the superiority-vs-non-inferiority framing is internally inconsistent."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "high",
+      "issue": "Stating the study 'failed' misrepresents the citation: the quote says it failed to show SUPERIORITY and still met non-inferiority (difference 4.7%, CI -0.4 to 9.7), so labeling it a failed trial overstates the negative conclusion."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "medium",
+      "issue": "The total '213' is not present in any citation quote (only the component counts 140 and 73 and the ITTC 210 are cited); it is an uncited derived number."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "medium",
+      "issue": "The total '519' is not present in any citation quote (only component counts 346 and 173 are cited); it is an uncited derived number."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "False-positive automated flags: 94.8, 345, 90.1, 155, and 172 are all contained in the cited OCR string 'ITTC327/34594.8155/17290.14.7(-0.4, 9.7)' and are adequately supported."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flags: the numbers 12 and 2006 are part of the receipt date (June 12, 2006), which is a date and excluded from uncited-number scrutiny."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: '275833' is a compound/drug code (SB-275833), not an efficacy/safety number, and appears throughout cited quotes."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Comparator (cephalexin 6.6%, 54/819) and placebo values are included; they are cited and explicitly labeled 'for context,' so acceptable but worth noting they are not the subject drug's rates."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "275833",
+        "text": "Study TOC103469 (SB-275833/Study 103469)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "213",
+        "text": "213 randomized subjects (140 SB-275833, 73 placebo); the ITTC analysis populatio"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "275833",
+        "text": "Study TOC100224 (SB-275833/Study 100224)"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "519",
+        "text": "519 randomized subjects (346 SB-275833, 173 sodium fusidate)."
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "94.8",
+        "text": "At end of therapy, clinical success in the ITTC population was 94.8% with retapa"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "345",
+        "text": "At end of therapy, clinical success in the ITTC population was 94.8% with retapa"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "90.1",
+        "text": "At end of therapy, clinical success in the ITTC population was 94.8% with retapa"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "155",
+        "text": "At end of therapy, clinical success in the ITTC population was 94.8% with retapa"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "172",
+        "text": "At end of therapy, clinical success in the ITTC population was 94.8% with retapa"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "12",
+        "text": "The NDA dated June 12, 2006 was reviewed and approved effective on the date of t"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2006",
+        "text": "The NDA dated June 12, 2006 was reviewed and approved effective on the date of t"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

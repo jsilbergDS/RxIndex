@@ -1,0 +1,63 @@
+{
+  "app": "NDA022254",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting value: line 1 column 1 (char 0)",
+  "_raw": "<think>\nLet me analyze this card carefully.\n\nThe automated flags for uncited_numbers are mostly false positives because the result citations contain the stitched table format \"DoseNP-value vs Pbo200 mg/day107-14.8%0.14400 mg/day107-27.9%0.003600 mg/day105-21.5%0.026\". The numbers 0.14, 400, 0.003, 6",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.14",
+        "text": "Median percent reduction in seizure frequency vs placebo: 200 mg/day -14.8% (p=0"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "400",
+        "text": "Median percent reduction in seizure frequency vs placebo: 200 mg/day -14.8% (p=0"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.003",
+        "text": "Median percent reduction in seizure frequency vs placebo: 200 mg/day -14.8% (p=0"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "600",
+        "text": "Median percent reduction in seizure frequency vs placebo: 200 mg/day -14.8% (p=0"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.011",
+        "text": "Median percent reduction in seizure frequency vs placebo: 400 mg/day -21.2% (p=0"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "600",
+        "text": "Median percent reduction in seizure frequency vs placebo: 400 mg/day -21.2% (p=0"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "0.05",
+        "text": "Median percent reduction in seizure frequency vs placebo: 200 mg/day -13.6% (p=0"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "400",
+        "text": "Median percent reduction in seizure frequency vs placebo: 200 mg/day -13.6% (p=0"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "505",
+        "text": "A nonclinical study in rats under 505(o)(3) to examine effects of Vimpat on brai"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "3",
+        "text": "A nonclinical study in rats under 505(o)(3) to examine effects of Vimpat on brai"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

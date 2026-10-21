@@ -1,0 +1,135 @@
+{
+  "app": "NDA206494",
+  "drug": "AVYCAZ",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_b5257307-b1e8-5a40-829f-777bcf7ed0a9"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_40bf64a9-f221-5589-aa75-11b4a5824a82"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_b8211cc7-30ab-59b8-81a4-faaed7893d23"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Anti-Infective Drugs Advisory Committee (AIDAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_b5257307-b1e8-5a40-829f-777bcf7ed0a9",
+      "line": 178,
+      "quote": "This NDA was discussed by the Anti-Infective Drugs Advisory Committee on December 05, 2014"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_b5257307b1e8",
+      "found_lines": [
+        178
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "December 5, 2014",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_40bf64a9-f221-5589-aa75-11b4a5824a82",
+      "line": 243,
+      "quote": "The Anti-Infective Drugs Advisory Committee met on December 5, 2014 to discuss this NDA for CAZ-AVI for the proposed indications of cIAI, cUTI including pyelonephritis, and aerobic Gram-negative infections in patients with limited treatment options."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_40bf64a9f221",
+      "found_lines": [
+        243
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted in favor of approval for the cIAI indication (11 yes, 1 no) and the cUTI/pyelonephritis indication (9 yes, 3 no), but voted against the broad aerobic gram-negative (HABP/VABP and bacteremia) indication both when limited treatments are available (0 yes, 12 no) and when no treatments are available (1 yes, 11 no). The approval of AVYCAZ for cIAI and cUTI, with non-approval of the gram-negative indication, was consistent with the AIDAC advice.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_b8211cc7-30ab-59b8-81a4-faaed7893d23",
+      "line": 43,
+      "quote": "This approval action is also consistent with the advice of the AIDAC."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_b8211cc730ab",
+      "found_lines": [
+        43
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee rejected the proposed broad indication for aerobic gram-negative infections (including HABP/VABP and bacteremia), for which no clinical data had been submitted, and agreed that further clinical trials were needed.",
+      "change": "FDA did not approve the aerobic gram-negative (HABP/VABP/bacteremia) indication; AVYCAZ was approved only for cIAI and cUTI, including pyelonephritis.",
+      "category": "Indication / scope narrowing",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_40bf64a9-f221-5589-aa75-11b4a5824a82",
+        "line": 251,
+        "quote": "Twelve members voted no, with no member voting yes and none abstaining. The members agreed that further clinical trials are needed.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_40bf64a9f221",
+          "found_lines": [
+            251
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_40bf64a9-f221-5589-aa75-11b4a5824a82",
+        "line": 289,
+        "quote": "For the indication of treatment of aerobic gram-negative infections (including hospital-acquired bacterial pneumonia/ventilator-associated bacterial pneumonia and bacteremia), no clinical data were submitted. I agree with the clinical reviewer and with the Advisory Committee and recommend non-approval for this indication.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_40bf64a9f221",
+          "found_lines": [
+            289
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members were concerned about the mortality imbalance and decreased efficacy observed in patients with baseline moderate renal impairment in the Phase 3 trials, and recommended approaches including describing this in labeling, restricting use in these patients, and therapeutic dose monitoring.",
+      "change": "The labeling Warnings and Precautions section describes the decreased efficacy in cIAI patients with moderate renal impairment, with a recommendation to monitor creatinine at least daily and adjust the ceftazidime-avibactam dose accordingly.",
+      "category": "Safety / Warnings and Precautions labeling",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_40bf64a9-f221-5589-aa75-11b4a5824a82",
+        "line": 247,
+        "quote": "Some members were concerned regarding the mortality imbalance and the decreased efficacy in patients with baseline moderate renal impairment that were noted in the Phase 3 clinical trials, and recommended several possible approaches that ranged from including this information in labeling, restricting use in patients with moderate renal impairment, recommending therapeutic dose monitoring, REMS to restrict use to patients with resistant pathogens.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_40bf64a9f221",
+          "found_lines": [
+            247
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_40bf64a9-f221-5589-aa75-11b4a5824a82",
+        "line": 282,
+        "quote": "The decreased efficacy noted in the Phase 3 trial in cIAI patients with moderate renal impairment will be addressed in the Warnings and Precautions section with a recommendation to monitor Cr at least daily in these patients and to adjust ceftazidime-avibactam dosage accordingly.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_40bf64a9f221",
+          "found_lines": [
+            282
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Anti-Infective Drugs Advisory Committee (AIDAC) met on December 5, 2014 and voted in favor of approving ceftazidime-avibactam (AVYCAZ) for complicated intra-abdominal infections (11-1) and complicated urinary tract infections including pyelonephritis (9-3), but voted against the proposed broad aerobic gram-negative/HABP-VABP indication (0-12 and 1-11). FDA's approval tracked these votes: AVYCAZ was approved only for cIAI and cUTI in patients with limited or no alternative treatment, with the gram-negative indication not approved, consistent with the committee's advice. Committee concern about mortality and decreased efficacy in patients with moderate renal impairment is reflected in the Warnings and Precautions labeling and revised renal dosing adjustments."
+}

@@ -1,0 +1,167 @@
+{
+  "app": "NDA022526",
+  "drug": "ADDYI",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_da5eb026-3aca-5a7b-8331-8dedcd01e67d"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_a7f37dbf-8b32-5e64-9c4f-a953eeeb7078"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_0c6df6de-d92a-510a-b3b5-e220e06089b7"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Joint meeting of the Bone, Reproductive and Urologic Drugs Advisory Committee (BRUDAC) and the Drug Safety and Risk Management (DSaRM) Advisory Committee (the AdComm relevant to the 2015 approval; an earlier 2010 meeting of the Reproductive Health Drugs Advisory Committee voted against approval)",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "fda_0c6df6de-d92a-510a-b3b5-e220e06089b7",
+      "line": 16,
+      "quote": "advice from the joint the Bone, Reproductive and Urologic Drugs Advisory Committee (BRUDAC) and Drug Safety and Risk Management (DSaRM) Advisory Committee (AC) meeting held on June 4, 2015."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_0c6df6ded92a",
+      "found_lines": [
+        16
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "June 4, 2015 (the approval-cycle meeting); a first-cycle meeting was held June 18, 2010",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_da5eb026-3aca-5a7b-8331-8dedcd01e67d",
+      "line": 131,
+      "quote": "The FDA convened two public advisory committee meetings to discuss flibanserin, one during the first review cycle in 2010 and another during the current review cycle on June 4, 2015."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_da5eb0263aca",
+      "found_lines": [
+        131
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "At the June 4, 2015 meeting the joint committee voted 18 to 6 in favor of approval, with all members voting in favor indicating that risk mitigation strategies beyond labeling were needed. (The 2010 committee had voted 11 to 0 against approval.)",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_a7f37dbf-8b32-5e64-9c4f-a953eeeb7078",
+      "line": 42,
+      "quote": "The Committee voted 18 to 6 in favor of flibanserin approval. All members voting in favor indicated that risk mitigation strategies beyond labeling were needed to ensure that the benefits of flibanserin outweighed its risks in premenopausal women with HSDD."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_a7f37dbf8b32",
+      "found_lines": [
+        42
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Committee members who supported approval said labeling alone was not enough to manage the risks of severe hypotension and syncope from the flibanserin-alcohol interaction, and there was strong panel support for a REMS with elements to assure safe use (ETASU) including prescriber and pharmacy certification.",
+      "change": "FDA found the applicant's proposed REMS (a Medication Guide plus Communication Plan) inadequate; after the meeting the applicant amended its REMS to add prescriber certification and pharmacy certification, and Addyi was approved with a REMS with ETASU.",
+      "category": "Safety / REMS with ETASU",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_da5eb026-3aca-5a7b-8331-8dedcd01e67d",
+        "line": 135,
+        "quote": "There was strong support among the panel members for a risk evaluation and mitigation strategy (REMS) that includes elements to assure safe use (ETASU), with prescriber and pharmacy certification to ensure that healthcare providers and patients are well-informed about the risks.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_da5eb0263aca",
+          "found_lines": [
+            135
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "fda_0c6df6de-d92a-510a-b3b5-e220e06089b7",
+        "line": 180,
+        "quote": "However, after the Advisory Committee meeting and discussions with the Agency, Sprout amended their REMS proposal on June 29, 2015, which included a MG, prescriber certification and pharmacy certification.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_0c6df6ded92a",
+          "found_lines": [
+            180
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Some committee members recommended that alcohol use should be contraindicated in patients taking flibanserin because of the alcohol interaction (while others raised the feasibility of indefinite abstention).",
+      "change": "The approved label carries a Boxed Warning and contraindicates use of flibanserin with alcohol.",
+      "category": "Safety / Boxed warning / Contraindication",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_da5eb026-3aca-5a7b-8331-8dedcd01e67d",
+        "line": 137,
+        "quote": "Some committee members recommended that alcohol use should be contraindicated in patients using flibanserin, although the feasibility of indefinitely abstaining from alcohol was also raised.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_da5eb0263aca",
+          "found_lines": [
+            137
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_da5eb026-3aca-5a7b-8331-8dedcd01e67d",
+        "line": 146,
+        "quote": "The Boxed Warning, Contraindications, and Warning and Precautions Sections state that the use of flibanserin is contraindicated in these settings.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_da5eb0263aca",
+          "found_lines": [
+            146
+          ]
+        }
+      }
+    },
+    {
+      "concern": "At the 2010 meeting, a majority of the committee (9 of 11) did not agree with the applicant relying on post-hoc analyses of the FSFI sexual desire measure, a pre-specified secondary endpoint, instead of the pre-specified eDiary co-primary desire endpoint.",
+      "change": "In the subsequent (third) phase 3 trial, the FSFI desire domain was pre-specified as the sexual desire co-primary endpoint rather than used as a secondary endpoint.",
+      "category": "Efficacy / Endpoint pre-specification",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_a7f37dbf-8b32-5e64-9c4f-a953eeeb7078",
+        "line": 60,
+        "quote": "The Committee was asked to comment on the appropriateness of relying on post-hoc analyses of the FSFI-SD, a pre-specified secondary endpoint, instead of the eDiary assessment of sexual desire, one of two co-primary efficacy endpoints specified in the protocols for the two phase 3 controlled trials submitted. A majority (9 of 11) of the members did not agree with this approach.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a7f37dbf8b32",
+          "found_lines": [
+            60
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_da5eb026-3aca-5a7b-8331-8dedcd01e67d",
+        "line": 82,
+        "quote": "The desire domain of the Female Sexual Function Index (FSFI) was used as a secondary endpoint in the first two trials and as the sexual desire co-primary endpoint in the third trial.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_da5eb0263aca",
+          "found_lines": [
+            82
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "FDA convened two advisory committee meetings for flibanserin (Addyi): a 2010 Reproductive Health Drugs Advisory Committee that voted 11-0 against approval over marginal efficacy and safety, and a June 4, 2015 joint meeting of BRUDAC and DSaRM that voted 18-6 in favor but only with risk mitigation beyond labeling. The 2015 panel's strong support for a REMS with elements to assure safe use led FDA to reject the applicant's proposed Medication Guide/Communication Plan REMS and approve Addyi with a REMS requiring prescriber and pharmacy certification. The committee's concerns also map to the label's Boxed Warning/contraindication on alcohol and, from the 2010 meeting, to the sponsor pre-specifying the FSFI desire domain as a co-primary endpoint in the third phase 3 trial."
+}

@@ -1,0 +1,57 @@
+{
+  "app": "BLA125409",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive flags: the AE rates 66.8/46.3 (diarrhea), 52.8/49.6 (neutropenia), and 13.8/7.6 (febrile neutropenia) are all present in the concatenated citation quotes (e.g. 'Diarrhea66.87.946.35.0', 'Neutropenia52.848.949.645.8', 'Febrile neutropenia*13.813.07.67.3')."
+    },
+    {
+      "field": "first_cycle_approval/detail",
+      "severity": "low",
+      "issue": "False-positive flag: '2012' is part of the date 'June 8, 2012' and is excluded as a date; the value is also an inferential field with no prior CRL, consistent with crl_history.prior_crl=false."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "66.8",
+        "text": "Most common adverse reactions (>30%) were diarrhea, alopecia, neutropenia, nause"
+      },
+      {
+        "field": "key_safety",
+        "number": "46.3",
+        "text": "Most common adverse reactions (>30%) were diarrhea, alopecia, neutropenia, nause"
+      },
+      {
+        "field": "key_safety",
+        "number": "52.8",
+        "text": "Most common adverse reactions (>30%) were diarrhea, alopecia, neutropenia, nause"
+      },
+      {
+        "field": "key_safety",
+        "number": "49.6",
+        "text": "Most common adverse reactions (>30%) were diarrhea, alopecia, neutropenia, nause"
+      },
+      {
+        "field": "key_safety",
+        "number": "13.8",
+        "text": "Most common adverse reactions (>30%) were diarrhea, alopecia, neutropenia, nause"
+      },
+      {
+        "field": "key_safety",
+        "number": "7.6",
+        "text": "Most common adverse reactions (>30%) were diarrhea, alopecia, neutropenia, nause"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2012",
+        "text": "Original BLA received December 8, 2011; approved effective June 8, 2012, with no"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

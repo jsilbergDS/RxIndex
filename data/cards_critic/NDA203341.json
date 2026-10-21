@@ -1,0 +1,42 @@
+{
+  "app": "NDA203341",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Automated flag on number '10' is a false positive: it is the '>=10%' AE-reporting threshold label, not an uncited efficacy/safety statistic."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag on number '200' is a false positive: it is the study identifier 'Trial 200' (excluded category)."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag on number '3' is a false positive: it is part of the trial descriptor 'Trial 3000', an identifier, not an efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "10",
+        "text": "Most common adverse reactions (>=10%) included diarrhea (82%), nausea (46%), thr"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "200",
+        "text": "Bosutinib received regular (full) approval based on single-arm Trial 200 using m"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Bosutinib received regular (full) approval based on single-arm Trial 200 using m"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "app": "NDA212306",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Flagged uncited number '83' is a false positive; N=83 is supported by the citation 'BCLPD-Refractory mITT Population (N = 83)'."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged numbers '505' and '1' are false positives; '505(b)(1)' is the application type, supported elsewhere in the card (receipt_date citation)."
+    },
+    {
+      "field": "approval_program.accelerated_approval.confirmatory_requirement",
+      "severity": "low",
+      "issue": "Flagged numbers '3', '330', '023' are false positives; phase 3 and study ID KCP-330-023 are trial/study identifiers, not efficacy/safety data."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged numbers '330' and '023' are false positives; part of study ID KCP-330-023."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "83",
+        "text": "In the BCLPD-refractory subgroup (N=83), ORR was 25.3% (95% CI: 16.4%, 36%) with"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "505",
+        "text": "This original 505(b)(1) NDA was reviewed and granted accelerated approval in the"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "1",
+        "text": "This original 505(b)(1) NDA was reviewed and granted accelerated approval in the"
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "3",
+        "text": "The ongoing phase 3 BOSTON trial (KCP-330-023) of selinexor + bortezomib + dexam"
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "330",
+        "text": "The ongoing phase 3 BOSTON trial (KCP-330-023) of selinexor + bortezomib + dexam"
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "023",
+        "text": "The ongoing phase 3 BOSTON trial (KCP-330-023) of selinexor + bortezomib + dexam"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "330",
+        "text": "XPOVIO (selinexor), a first-in-class oral XPO1 inhibitor with orphan designation"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "023",
+        "text": "XPOVIO (selinexor), a first-in-class oral XPO1 inhibitor with orphan designation"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

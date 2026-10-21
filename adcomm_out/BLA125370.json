@@ -1,0 +1,175 @@
+{
+  "app": "BLA125370",
+  "drug": "BENLYSTA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_93e980e4-264b-5535-8fdf-747af01ac4e0"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_19c2ff24-3313-551c-bb3d-9a9fb6bc1af8"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_26b7e849-820a-5b77-90ce-536051404afd"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_3656ef3c-7deb-5548-9144-13041f1a5952"
+    },
+    {
+      "doc_type": "Lbl",
+      "doc_id": "fda_522c1c66-8dec-55f9-a745-c6c23e0f8780"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Arthritis Advisory Committee (AAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_93e980e4-264b-5535-8fdf-747af01ac4e0",
+      "line": 100,
+      "quote": "A meeting of the Arthritis Advisory Committee (AAC) meeting was held on November 16, 2010, to discuss this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_93e980e4264b",
+      "found_lines": [
+        100
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "November 16, 2010",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_19c2ff24-3313-551c-bb3d-9a9fb6bc1af8",
+      "line": 334,
+      "quote": "A meeting of the Arthritis Advisory Committee was convened on November 16, 2010 to discuss this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_19c2ff243313",
+      "found_lines": [
+        334
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The Committee voted favorably: substantial evidence of efficacy 10 yes / 5 no; acceptable safety profile 14 yes / 1 no; and in favor of approval 13 yes / 2 no.",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_93e980e4-264b-5535-8fdf-747af01ac4e0",
+      "line": 100,
+      "quote": "On voting questions, the committee voted favorably regarding whether there was substantial evidence of efficacy (10 yes, 5 no), and the safety profile of belimumab (14 yes, 1 no). Regarding the approvability question, which is essentially the sum of demonstration of efficacy and safety, the results were in favor of approval (13 yes, 2 no)."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_93e980e4264b",
+      "found_lines": [
+        100
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The Committee raised concerns about belimumab's limited efficacy on serious organ manifestations of lupus (e.g., kidney/CNS disease) and recommended the label be clear about these limitations of efficacy.",
+      "change": "The approved label includes a Limitations of Use statement that efficacy has not been evaluated in patients with severe active lupus nephritis or severe active central nervous system lupus, and that use in these situations is not recommended.",
+      "category": "Labeling / Limitations of Use",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_19c2ff24-3313-551c-bb3d-9a9fb6bc1af8",
+        "line": 334,
+        "quote": "The Committee also recommended labeling revisions to address limitations of treatment on serious organ manifestations and additional postmarketing studies in patients of African heritage and lupus nephritis.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_19c2ff243313",
+          "found_lines": [
+            334
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "fda_522c1c66-8dec-55f9-a745-c6c23e0f8780",
+        "line": 11,
+        "quote": "Limitations of Use: The efficacy of BENLYSTA has not been evaluated in patients with severe active lupus nephritis or severe active central nervous system lupus (1). BENLYSTA has not been studied in combination with other biologics or intravenous cyclophosphamide (1). Use of BENLYSTA is not recommended in these situations.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_522c1c668dec",
+          "found_lines": [
+            11
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The Committee questioned the apparent lack of efficacy (or reversal of treatment effect) in patients of Black/African heritage, given the negative results in the two controlled trials.",
+      "change": "A postmarketing study to further explore belimumab's efficacy and safety in black patients with SLE was required as a result of the Advisory Committee discussions.",
+      "category": "Postmarketing study / Subpopulation efficacy",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_19c2ff24-3313-551c-bb3d-9a9fb6bc1af8",
+        "line": 392,
+        "quote": "Also discussed at the Advisory Committee meeting, the effect of belimumab on patients of Black race needs to be further evaluated, given the negative results in Trials 1056 and 1057 and the importance of this subpopulation of US SLE patients.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_19c2ff243313",
+          "found_lines": [
+            392
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MedR",
+        "doc_id": "fda_3656ef3c-7deb-5548-9144-13041f1a5952",
+        "line": 36,
+        "quote": "As a result of the discussions held at the belimumab Arthritis Advisory Committee meeting in November 2010, the Applicant should also be required to conduct a pilot study to assess belimumab's efficacy and safety when administered with concomitant immunosuppressant therapy as a treatment for lupus nephritis as well as another study to further explore its efficacy and safety in black patients with SLE.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_3656ef3c7deb",
+          "found_lines": [
+            36
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The Committee noted the lack of data on belimumab's effect on serious organ manifestations such as lupus nephritis and recommended this be further evaluated.",
+      "change": "A postmarketing pilot study in lupus nephritis (belimumab with concomitant immunosuppressant therapy) was required/agreed to following the Advisory Committee discussion.",
+      "category": "Postmarketing study / Lupus nephritis",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_19c2ff24-3313-551c-bb3d-9a9fb6bc1af8",
+        "line": 389,
+        "quote": "As mentioned by the Arthritis Advisory Committee, the efficacy of belimumab on this important manifestation should be further evaluated, and the applicant has agreed to conduct a pilot study.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_19c2ff243313",
+          "found_lines": [
+            389
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MedR",
+        "doc_id": "fda_3656ef3c-7deb-5548-9144-13041f1a5952",
+        "line": 36,
+        "quote": "As a result of the discussions held at the belimumab Arthritis Advisory Committee meeting in November 2010, the Applicant should also be required to conduct a pilot study to assess belimumab's efficacy and safety when administered with concomitant immunosuppressant therapy as a treatment for lupus nephritis as well as another study to further explore its efficacy and safety in black patients with SLE.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_3656ef3c7deb",
+          "found_lines": [
+            36
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Arthritis Advisory Committee (AAC) met on November 16, 2010 and voted favorably on belimumab's efficacy (10-5), safety (14-1), and approvability (13-2), while raising concerns about limited efficacy on serious organ manifestations (lupus nephritis, CNS) and apparent lack of efficacy in Black/African-heritage patients. The review documents explicitly tie these AC concerns to labeling (a Limitations of Use statement on severe lupus nephritis and CNS lupus) and to required postmarketing studies in lupus nephritis and in black SLE patients. The verbatim transcript is not in paperclip; the account here is drawn from the review documents' descriptions of the meeting."
+}

@@ -1,0 +1,128 @@
+{
+  "app": "NDA021908",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Flagged uncited numbers '0211' and '48' are part of the drug name 'RU-0211' and dose '48 mcg' (dose), not efficacy/safety numbers; false positives.",
+      "note_false_positive": true
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "Flagged uncited numbers '0211' and '48' are part of 'RU-0211' and the dose '48 mcg'; false positives.",
+      "note_false_positive": true
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged numbers '31', '2005', '2006' are dates and should be excluded; false positives.",
+      "note_false_positive": true
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged numbers '31' and '2006' are part of the approval date; false positives.",
+      "note_false_positive": true
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "medium",
+      "issue": "The per-arm split (Placebo N=122, RU-0211 N=120) is supported, but the citation 'line 353' quote shows arm counts without labeling which is placebo vs active; acceptable but the text asserts arm assignment not explicit in the quote.",
+      "note_false_positive": false
+    },
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "medium",
+      "issue": "Text says 'Frequency rate of SBMs' but citation says 'frequency of spontaneous bowel movements'; the word 'rate' is added beyond the quote (minor overclaim).",
+      "note_false_positive": false
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "high",
+      "issue": "Result text states placebo Week 1 median '3.00' but the cited placebo-row quote for SC0131 does not clearly identify which of the listed values (1.50/3.00/3.00/2.00...) is the Week 1 SBM median, so the specific 3.00 vs 5.00 Week 1 comparison is not unambiguously supported by the citation.",
+      "note_false_positive": false
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "high",
+      "issue": "Result text states placebo Week 1 median '3.50' but the cited SC0232 placebo row (1.50/3.50/3.00/3.00...) does not unambiguously label which value is the Week 1 median, so the stated Week 1 comparison is not clearly supported.",
+      "note_false_positive": false
+    },
+    {
+      "field": "target_moa",
+      "severity": "low",
+      "issue": "Text writes 'ClC-2' while the citation writes 'CIC-2' (OCR variant); cosmetic inconsistency but value is supported.",
+      "note_false_positive": false
+    },
+    {
+      "field": "advisory_committee",
+      "severity": "low",
+      "issue": "advisory_committee.convened is null; not clearly a required field and review may not state it, but worth noting as incomplete.",
+      "note_false_positive": false
+    },
+    {
+      "field": "key_safety",
+      "severity": "medium",
+      "issue": "Serious adverse event rate is attributed to 'RU-0211' generally (2.9%) but the citation specifically states the '2.9% in the RU-0211 48 mcg group', so the generalization slightly broadens the quote; otherwise supported.",
+      "note_false_positive": false
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "0211",
+        "text": "242 subjects (Placebo N=122, RU-0211 48 mcg N=120)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "48",
+        "text": "242 subjects (Placebo N=122, RU-0211 48 mcg N=120)"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "0211",
+        "text": "237 subjects (Placebo N=118, RU-0211 48 mcg N=119)"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "48",
+        "text": "237 subjects (Placebo N=118, RU-0211 48 mcg N=119)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "31",
+        "text": "The NDA dated and received March 31, 2005 was reviewed and approved effective on"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2005",
+        "text": "The NDA dated and received March 31, 2005 was reviewed and approved effective on"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "31",
+        "text": "The NDA dated and received March 31, 2005 was reviewed and approved effective on"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2006",
+        "text": "The NDA dated and received March 31, 2005 was reviewed and approved effective on"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "31",
+        "text": "Lubiprostone, a new molecular entity, received a standard review and was approve"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2006",
+        "text": "Lubiprostone, a new molecular entity, received a standard review and was approve"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

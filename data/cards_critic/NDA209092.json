@@ -1,0 +1,23 @@
+{
+  "app": "NDA209092",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 287)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"NDA209092\",\n  \"release_ready\": true,\n  \"issues\": [\n    {\n      \"field\": \"key_safety\",\n      \"severity\": \"low\",\n      \"issue\": \"Automated flag for uncited number '4' is a false positive; the '4' comes from 'Grade 4' and 'HER2', not an uncite",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "4",
+        "text": "Most common adverse reactions (incidence \u226520%) are neutropenia, nausea, fatigue,"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "KISQALI (ribociclib) received breakthrough therapy designation (August 2, 2016) "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

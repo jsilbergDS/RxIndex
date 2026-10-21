@@ -1,0 +1,47 @@
+{
+  "app": "NDA208743",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Flagged uncited number '05' is a false positive; it is a component of the study identifier BA058-05-003, not an efficacy/safety statistic."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Flagged uncited number '003' is a false positive; it is a study-ID reference (Study 003), not an efficacy/safety statistic."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged uncited numbers '30' and '2016' are false positives; they form the receipt date March 30, 2016, which is excluded from citation requirements."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "05",
+        "text": "Study BA058-05-003 (Study 003)"
+      },
+      {
+        "field": "key_safety",
+        "number": "003",
+        "text": "Most common adverse reactions (incidence >=2%): hypercalciuria, dizziness, nause"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "30",
+        "text": "Approved after review of the March 30, 2016 NDA; no prior Complete Response Lett"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2016",
+        "text": "Approved after review of the March 30, 2016 NDA; no prior Complete Response Lett"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,3088 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+L2: **210598Orig1s000**
+L3: **STATISTICAL REVIEW(S)**
+L4: FDA U.S. Food &amp; Drug Administration logo
+L5: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L6: ## STATISTICAL REVIEW AND EVALUATION
+L7: ## CLINICAL STUDIES
+L8: **NDA/BLA #:** NDA 210598
+
+**Drug Name:** Yupelri (revelenacin) inhalation solution (NME)
+
+**Indication(s):** (b) (4) maintenance treatment of (b) (4) patients with chronic obstructive pulmonary disease (COPD), (b) (4)
+
+**Applicant:** Theravance Biopharma Ireland Limited
+
+**Date(s):** PDUFA Due Date: November 10, 2018
+
+**Review Priority:** Standard
+
+**Biometrics Division:** Division of Biometrics II
+
+**Statistical Reviewer:** Dong-Hyun Ahn, Ph.D.
+
+**Concurring Reviewers:** Yongman Kim, Ph.D.
+Gregory Levin, Ph.D.
+
+**Medical Division:** Division of Pulmonary, Allergy and Rheumatology Products
+
+**Clinical Team:** Khalid Puthawala, M.D.
+Robert Lim, M.D.
+
+**Project Manager:** Phuong Nina Ton, Pharm.D.
+
+**Keywords:** clinical studies, estimands, missing data, sensitivity analyses
+L9: ## Table of Contents
+L10: 1	EXECUTIVE SUMMARY	5
+2	INTRODUCTION	6
+2.1	OVERVIEW	6
+2.1.1	Background	6
+2.1.2	History of Drug Development & Regulatory Interaction	7
+2.1.3	Specific Studies Reviewed	8
+2.2	DATA SOURCES	10
+3	STATISTICAL EVALUATION	10
+3.1	DATA AND ANALYSIS QUALITY	10
+3.2	EVALUATION OF EFFICACY	10
+3.2.1	Study Design and Endpoints	10
+3.2.2	Statistical Methodologies	13
+3.2.3	Patient Disposition, Demographic and Baseline Characteristics	16
+3.2.4	Results and Conclusions	21
+3.3	EVALUATION OF SAFETY	29
+3.3.1	Safety Analysis Population(s) and Endpoint(s)	29
+3.3.2	Data Quality	30
+3.3.3	Statistical Methods	30
+3.3.4	Results and Conclusions	30
+4	FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	33
+4.1	GENDER, RACE, AGE	33
+4.2	OTHER SPECIAL/SUBGROUP POPULATIONS	39
+5	SUMMARY AND CONCLUSIONS	42
+5.1	STATISTICAL ISSUES	42
+5.2	COLLECTIVE EVIDENCE	47
+5.3	CONCLUSIONS AND RECOMMENDATIONS	47
+5.4	LABELING RECOMMENDATIONS	48
+APPENDICES	49
+L11: ## LIST OF TABLES
+L12: Table 1: Summary of Phase 3 Efficacy Studies to be Assessed in the Statistical Review	9
+Table 2: Subject Disposition for Studies 0126 and 0127	17
+Table 3: Subject Disposition for Study 0128 (All Randomized and Analyzed Subjects)	20
+Table 4: LS Mean Change from Baseline Trough FEV_1 (mL) on Day 85 for Phase 3 Efficacy Studies 0126 and 0127 (ITT population)	22
+Table 5: LS Mean Change from Baseline Trough FEV_1 (mL) on Day 85 for Pooled (0126/0127) Phase 3 Efficacy Studies (ITT population)	23
+Table 6: Sensitivity Analysis: Impact of Missing Data for Study 0126 - Change from Baseline Trough FEV_1 (mL) on Day 85	25
+Table 7: Sensitivity Analysis: Impact of Missing Data for Study 0127 - Change from Baseline Trough FEV_1 (mL) on Day 85	26
+Table 8: LS Mean Differences (95% Confidence Interval) for Key Secondary Endpoints - Phase 3 Efficacy Studies 0126, 0127 (ITT population)	27
+Table 9: LS Mean Change from Baseline Trough FEV_1 (mL) on Day 29, 92, 183, 274 and 365 for Exploratory Efficacy Study 0128 (ITT Population)	28
+Table 10: Treatment-emergent Adverse Events Reported for Pooled (0126/0127) Phase 3 Efficacy Studies (Safety Analysis Set)	31
+Table 11: Treatment-emergent Adverse Events Reported for Study 0128 (Safety Analysis Set)	32
+Table 12: Adjudication Summary of Treatment-emergent Cardiovascular Adverse Events by Cardiovascular Category for Study 0128 (Safety Analysis Set)	33
+Table 13: Model-Based Relative Risk of Adjudicated Cardiovascular Event for Study 0128 (Safety Analysis Set)	33
+Table 14: Subgroup Analysis: Age, Gender and Race for Studies 0126, 0127 and Pooled - Change from Baseline in Trough FEV_1 (mL) on Day 85	34
+Table 15: Sensitivity Analysis Targeting the De Facto Estimand for Studies 0126 and 0127 (Jump to Reference Approach) - Change from Baseline Trough FEV_1 (mL) on Day 85	43
+Table 16: An Example of Applicant's Primary Analysis Data (ADFEV_IT) Format (Subject "0126-38812-10824")	44
+Table 17: Sensitivity Analysis: Impact of Misconduct Sites ("38765" and "38740") for Study 0127 - Change from Baseline Trough FEV_1 (mL) on Day 85	45
+Table 18: Subject Demographics and Baseline Characteristics for Study 0126 (ITT Population)	50
+Table 19: Subject Demographics and Baseline Characteristics for Study 0127 (ITT Population)	52
+Table 20: Subject Demographics and Baseline Characteristics for Study 0128 (Safety Analysis Set)	54
+Table 21: Two-Dimensional Tipping Point Analysis for Studies 0126 and 0127	55
+L13: ## LIST OF FIGURES
+L14: Figure 1: Studies 0126 and 0127 Design Schematic	11
+Figure 2: Study 0128 Design Schematic	12
+Figure 3: Statistical Testing Hierarchy	15
+Figure 4: Proportion of Subjects Remaining over Time in Study 0126	18
+Figure 5: Proportion of Subjects Remaining over Time in Study 0127	19
+Figure 6: Proportion of Subjects Remaining over Time in Study 0128	21
+Figure 7: LS Mean Change from Baseline for Study 0117: Trough FEV_1 Days 1-29 (mL)	24
+Figure 8: LS Mean Change from Baseline for Study 0128: Trough FEV_1 Days 1-365 (mL)	29
+Figure 9: Subgroup Analysis: Studies 0126, 0127 and Pooled - Change from Baseline in Trough FEV_1 (mL) on Day 85	37
+Figure 10: Other Subgroup Analysis: Studies 0126, 0127 and Pooled - Change from Baseline in Trough FEV_1 (mL) on Day 85	40
+Figure 11: Proportion of Subjects Adhering to Study Treatment in Study 0128	46
+L15: ## 1 EXECUTIVE SUMMARY
+L16: This review considers a new drug application from Theravance Biopharma Ireland Limited for marketing approval of revefenacin 175 mcg once daily (QD), administered via oral inhalation using a standard jet nebulizer, for the treatment of (b) (4) subjects with moderate to very severe chronic obstructive pulmonary disease (COPD). I reviewed the two phase 3, 12-week, multicenter, randomized, double-blind, parallel-group, placebo-controlled clinical trials to evaluate the efficacy of revefenacin on pulmonary function, the use of rescue medication and clinical outcome assessments. These two studies were replicate trials with the identical design but with different subjects from different study sites. The first study, Study 0126, randomized 619 subjects in a 1:1:1 ratio to revefenacin 88 mcg QD, revefenacin 175 mcg QD or placebo. The second study, Study 0127, randomized 644 subjects in a 1:1:1 ratio to revefenacin 88 mcg QD, revefenacin 175 mcg QD or placebo. Due to suspected misconduct at two study sites, 34 subjects were excluded from all analyses in Study 0127. Both studies permitted subjects up to 40% of the study population with concomitant long-acting beta-agonists (LABA) with or without inhaled corticosteroids (ICS). Both studies defined the primary endpoint as the change from baseline trough FEV_1 on Day 85. Additional endpoints included overall treatment effect (OTE) of trough FEV_1, peak FEV_1 within the first two hours after the first dose, number of rescue albuterol uses, percentage of albuterol rescue-free days and St. Georges Respiratory Questionnaire (SGRQ) proportion of responders (decrease of \ge 4 points) on Day 85.
+L17: Both trials provided consistent statistical evidence of clinically meaningful improvements of revefenacin over placebo. Because there was evidence of a dose-response relationship in efficacy between revefenacin 88 mcg QD and revefenacin 175 mcg QD, the applicant proposed approval of the 175 mcg dose in patients with moderate to severe COPD. In Studies 0126 and 0127, treatment with revefenacin 175 mcg QD provided statistically significantly greater mean changes of 146.3 mL (95% confidence interval (CI): 103.7, 188.8) and 147.0 mL (95% CI: 97.0, 197.1), respectively, for the primary endpoint, compared to placebo. Analyses of multiple secondary endpoints were also supportive of an effective treatment. For example, in both studies, revefenacin 175 mcg QD provided statistically significant differences in the change from baseline in trough FEV_1 OTE compared to placebo (Study 0126: 155.6 mL, 95% CI: (146.8, 164.5); Study 0127: 127.0 mL, 95% CI: (118.2, 135.8)) and the change from baseline in peak FEV_1 within the first two hours after the first dose compared to placebo (Study 0126: 132.7 mL, 95% CI: (107.0, 158.5); Study 0127: 128.6 mL, 95% CI: (102.3, 155.0)). The proportion of responders on the SGRQ Total Score was shown statistically higher for revefenacin 175 mcg QD compared with placebo in only one study (Study 0126: Odds Ratio: 2.11, 95% CI: (1.14, 3.92); Study 0127: Odds Ratio: 1.31, 95% CI: (0.72, 2.38)). The treatment effects for the primary endpoint were consistent across subgroups of interest.
+L18: There was an important statistical issue that needed to be addressed. The primary estimand was not clearly defined in the phase 3 efficacy trials (Studies 0126 and 0127). FDA initially recommended considering the de facto estimand, i.e., the difference in mean trough FEV_1 at 12 weeks, regardless of adherence to the assigned treatment. However, the applicant did not collect
+L19: data after patients discontinued treatment and instead targeted an “on-treatment” estimand. To estimate the de facto estimand, I carried out a sensitivity analysis using the Jump to Reference (J2R) approach to the missing data. The sensitivity analysis estimating the de facto estimand was consistent with the primary analysis estimating the “on-treatment” estimand in terms of statistical significance. In addition, tipping point sensitivity analyses indicated that these results were persuasive despite missing data.
+L20: I also reviewed an additional phase 3, 52-week, multicenter, randomized, active-controlled, parallel-group clinical trial to evaluate the long-term safety and exploratory efficacy of refevenacin. This study randomized 1055 subjects in a 1:1:1 ratio to refevenacin 88 mcg QD, refevenacin 175 mcg QD or tiotropium 18 mcg QD. This long-term safety trial, Study 0128, supported the effectiveness of refevenacin 175 mcg with similar improvements from baseline in trough FEV_1 as the approved active control tiotropium over the entire treatment period of 52 weeks.
+L21: The detailed safety evaluation was conducted by the medical reviewer, Dr. Khalid Puthawala. I performed additional analyses to investigate the risk of adverse events further. The incidence of treatment-emergent adverse events (TEAEs) was largely similar across treatment arms for pooled Studies 0126 and 0127. While the frequency and percentage of subjects with TEAEs were similar in the refevenacin arms compared to tiotropium in Study 0128, the incidence of nasopharyngitis was higher for the refevenacin arms.
+L22: In conclusion, I think the NDA package provided substantial evidence of efficacy, and therefore I recommend approval of refevenacin 175 mcg daily to treat COPD patients from a statistical perspective.
+L23: ## 2 INTRODUCTION
+L24: ## 2.1 Overview
+L25: ## 2.1.1 Background
+L26: Chronic obstructive pulmonary disease (COPD) is a common and progressive disease that is characterized by persistent respiratory symptoms and airflow limitation that is due to airway and/or alveolar abnormalities. The chronic airflow limitation is associated with an increase in cholinergic tone that contributes to reduced airway caliber, which results in airway obstruction and increased mucus formation.
+L27: Bronchodilators are medications that open up the breathing passages by relaxing the bronchial smooth muscle and are commonly used to treat COPD. Long-acting muscarinic antagonists (LAMAs) are a type of bronchodilator and are recommended as first-line therapies for subjects with persistent COPD symptoms by the Global Initiative for Chronic Obstructive Lung Disease (GOLD) treatment guidelines. LAMAs belong to the anticholinergics, agents that block the
+L28: bronchoconstrictor effects of acetylcholine on M3 muscarinic receptors expressed in airway smooth muscle. LAMAs that are approved by FDA for COPD treatment include tiotropium (approved in 2004), aclidinium (approved in 2012) and umeclidinium (approved in 2014). Revefenacin is a LAMA developed as an inhalation solution for administration via standard jet nebulizer to treat patients with either cognitive or physical decline who cannot coordinate or generate sufficient inspiratory force for breath-actuated handheld devices.
+L29: The review examines revefenacin for [REDACTED] (b) (4) maintenance treatment of [REDACTED] (b) (4) patients with COPD. Revefenacin is administered via oral inhalation using a standard jet nebulizer connected to an air compressor. Two doses of revefenacin, 88 mcg once daily and 175 mcg once daily, were evaluated in the phase 3 clinical development studies, but only the 175 mcg dose is proposed for approval.
+L30: ## 2.1.2 History of Drug Development &amp; Regulatory Interaction
+L31: The clinical development program for revefenacin was introduced to the Division of Pulmonary, Allergy, and Rheumatology Products under IND 119840 in 2013. The applicant had conducted three clinical studies to explore dose range and response: one in healthy subjects and two in subjects with COPD. In the healthy-subject study, single doses ranging from 10 to 500 mcg of revefenacin were administered as dry powder (Study AC5108696). The first study in subjects with COPD (Study 0059) evaluated single doses of drug administered as an inhalation solution via a standard aqueous jet nebulizer at doses of 350 and 700 mcg. The second study in subjects with COPD (Study 0091) was a 7-day, multiple-dose study of doses ranging from 22 to 700 mcg, also administered using the nebulized inhalation solution. Based on the results of the preliminary dose ranging study 0091, the 88-350 mcg doses appeared to be on the plateau of the dose response curve for revefenacin. FDA noted that doses greater than 175 mcg appear to offer no additional benefit. This advice helped the applicant to study revefenacin doses of 88 and 175 mcg in the phase 3 program. The applicant submitted the results of three phase 3 clinical studies to support the regulatory approval of revefenacin for treatment of moderate to severe COPD patients.
+L32: I next summarize important meetings and correspondence with the applicant relevant to this review.
+L33: In a Pre-IND meeting held on December 6, 2013, regarding doses to be studied in the phase 3 program, FDA recommended the applicant to study a lower dose(s) to better capture the lower end of the dose response curve, and noted that doses greater than 175 mcg appear to offer no additional benefit. Also, FDA stated that the utility of the 350 mcg dose is questionable.
+L34: An end-of-phase-2 (EOP2) meeting regarding revefenacin was held on December 8, 2014. FDA generally agreed with the two proposed phase 3 trial designs (Studies 0126 and 0127), but disagreed with the method of handling missing data for the primary endpoint. The applicant proposed to exclude data after patients have failed to adhere to study drug. The division recommended primary analyses for all endpoints should incorporate data collected from all randomized patients, regardless of whether they discontinue initially assigned randomized
+L35: treatment. Also, FDA requested sensitivity analyses including “tipping point” analysis with multiple imputation which includes the possibility that patients randomized to revefenacin with missing data have worse outcomes than patients on placebo with missing data.
+L36: After review of the phase 3 study protocols and SAPs, FDA further commented to the applicant on July 12, 2016, regarding the missing data handling. The applicant proposed to exclude data after patients have used rescue medications or concomitant LABA from the efficacy analyses. In addition, the applicant differentiated “evaluable” and “non-evaluable” outcomes and proposed to exclude non-evaluable outcomes from the efficacy analyses. The division expressed concern about the applicant’s estimand because it represents a hypothetical rather than real-world quantity and recommended the evaluation of the de-facto estimand, i.e., a comparison of outcomes regardless of adherence or use of ancillary therapies or whether they meet the SAP definitions of “evaluable” or “non-evaluable”. The applicant responded that they would propose not to exclude patients from the ITT analysis based on the use of rescue or lack of use of study drug or concomitant LABA. With respect to retrieved data from subjects who discontinue, the applicant responded that it was logistically infeasible to collect such data due to subjects’ advancing age and failing health.
+L37: FDA commented to the applicant on September 2, 2016, regarding an open-label phase 3 trial (Study 0128) (b) (4) FDA expressed concern about the proposed primary endpoint which was peak FVC on Day 15. The division commented the proposed endpoint might be challenging to interpret and recommended use of FEV_1 instead. Furthermore, FDA recommended to include additional important endpoints, such as exacerbation rate, patient-reported measures of symptoms and long-term safety outcomes.
+L38: FDA sent an information request to the applicant on March 2, 2018, asking for an evaluation of the primary and key secondary efficacy endpoints including “non-evaluable” data points, as the applicant had considered these outcomes as missing data. The applicant responded with results based on all available data regardless of whether the data met the appropriate windowing as specified in the SAP. FDA sent an additional information request to the applicant on May 14, 2018, for tipping point analysis that allows assumptions about the missing outcomes on both treatment and placebo arms to vary in a tipping point grid. The applicant acknowledged our comments by providing two-dimensional tipping point analyses.
+L39: ## 2.1.3 Specific Studies Reviewed
+L40: This review focuses on two placebo-controlled phase 3 clinical trials, Studies 0126 and 0127, designed to evaluate the efficacy of revefenacin for treatment of moderate to severe COPD. The two studies were 12-week, randomized, double-blind, parallel-group, placebo-controlled clinical trials. The studied doses were 88 mcg and 175 mcg.
+L41: I also discuss results from an additional phase 3 study of revefenacin. Study 0128 was a 52-week, randomized, double-blind, parallel-group, active-controlled clinical trial in which tiotropium, a LAMA, was the active treatment for comparison. A brief overview of the reviewing studies is shown in Table 1.
+L42: Table 1: Summary of Phase 3 Efficacy Studies to be Assessed in the Statistical Review
+L43: Study ID	Design	Treatment/
+Sample Size	Population	Endpoint
+0126	MC, R, DB, PC,
+PG (12 weeks)
+60 US centers	Placebo/ N = 209	Moderate to
+very severe
+COPD subjects	Primary: Day
+85 Trough
+FEV1
+Revefenacin 88 mcg,
+QD, IH / N = 212	Up to 40%
+received
+concomitant
+LABA or
+LABA/ICS	Key Secondary:
+Trough FEV1
+OTE; Day 1
+Peak FEV1;
+Day 1-85
+Rescue
+medication use
+Revefenacin 175 mcg,
+QD, IH / N = 198
+0127	MC, R, DB, PC,
+PG (12 weeks)
+59 US centers	Placebo/ N = 209	Moderate to
+very severe
+COPD subjects	Primary: Day
+85 Trough
+FEV1
+Revefenacin 88 mcg
+QD, IH / N = 205	Up to 35%
+received
+concomitant
+LABA or
+LABA/ICS	Key Secondary:
+Trough FEV1
+OTE; Day 1
+Peak FEV1;
+Day 1-85
+Rescue
+medication use
+Revefenacin 175 mcg,
+QD, IH / N = 197
+0128	MC, R, DB*,
+AC/OL, PC, PG
+(52 weeks)
+103 US centers	Tiotropium 18 mcg,
+QD, IH/ N = 357	Moderate to
+very severe
+COPD subjects	Primary Safety:
+TEAEs, CEC
+adjudicated
+cardiovascular
+events,
+Exacerbations
+Revefenacin 88 mcg,
+QD, IH / N = 368	Concomitant
+LABA or
+LABA/ICS	Primary
+Efficacy
+(exploratory):
+Trough FEV1 at
+Days 29, 92,
+183, 274, and
+365
+Revefenacin 175 mcg,
+QD, IH / N = 335
+L44: Abbreviations: MC=multi-center; R=randomized; DB=double-blind; PG=parallel-group; AC=active-controlled; OL=open-label, PC=placebo-controlled; QD=once daily; IH=inhaled; LABA=long-acting beta-agonist; ICS=inhaled corticosteroid; FEV1=forced expiratory volume in one second; OTE=overall treatment effect; TEAEs= treatment-emergent adverse events; CEC=Clinical Events Committee
+L45: * The study 0128 was double-blind with respect to the revefenacin dose arms, and open-label with respect to the tiotropium control arm
+L46: Source: Reviewer
+L47: ## 2.2 Data Sources
+L48: Data were submitted by the applicant to the CDER electronic data room in SAS transport format. Protocols, correspondence, data listings, and study reports were accessed under the network path \\cdsesub1\evsprod\NDA210598\210598.enx.
+L49: ## 3 STATISTICAL EVALUATION
+L50: ## 3.1 Data and Analysis Quality
+L51: The applicant reported site misconduct issues prior to unblinding data and NDA submission. The Agency requested submission of all data including data from the sites. The submitted datasets were of acceptable quality and were adequately documented. I could reproduce the results of all key primary and secondary analyses.
+L52: ## 3.2 Evaluation of Efficacy
+L53: ## 3.2.1 Study Design and Endpoints
+L54: ## 3.2.1.1 Studies 0126 and 0127
+L55: Studies 0126 and 0127 as replicate trials were designed to evaluate the 12-week efficacy of the once-daily bronchodilator refevenacin for subjects with moderate to severe COPD. Subjects were randomized in a 1:1:1 ratio to receive 1 of 2 doses of refevenacin (88 mcg, 175 mcg) or matching placebo administered QD for 12 weeks. A proportion of subjects randomized to the study were on a background of LABA-containing therapy, to represent the concomitant therapies that subjects may be using in clinical practice. The study consisted of 2 screening visits for several bronchodilator reversibility tests (ipratropium, albuterol, and open-label placebo). Subjects were eligible for enrollment regardless of the improvement in their forced expiratory volume in one second (FEV1) following ipratropium and/or albuterol administration at screening. However, subjects who were responsive to placebo were excluded from the study during screening period. Randomization was stratified by ipratropium reversibility status at screening and concomitant LABA use. The sample size of 480 was to provide at least 90% power to detect a difference between each of the refevenacin arms and placebo of at least 95 mL in change from baseline in
+L56: through \text{FEV}_1 assuming a standard deviation of 230 mL and a two-sided 3.75% multiplicity-adjusted significance level. To allow for an approximate 22% withdrawal rate post randomization, approximately 206 subjects were randomized per treatment group (N = 618). The study treatment period consisted of 6 treatment visits (Day 1, 15, 29, 57, 84, and 85). All subjects were assessed for serial \text{FEV}_1 measurements at 45 and 15 minutes pre-dose and 5, 15, 30 minutes and 1, 1.5, 2 hours post-dose on Day 1, 15, 29, 57 and 84. Spirometry measurements at 23.25 and 23.75 hours post-dose of the Day 84 which were measured at Day 85 were provided for the primary endpoint. A subset of subjects (n=105) were planned to participate in a 24-hour spirometry substudy. The 24-hour spirometry profiles contain \text{FEV}_1 measurements at 45 and 15 minutes pre-dose of the Day 84 and at 5, 15, and 30 minutes, and 1, 2, 4, 6, 8, 10, 12, 15, 21, 22, 23.25, and 23.75 hours post-dose of the Day 84. There was a telephone follow-up 7\pm 2 days after the Day 85 visit. Subjects who discontinued study drug early because of an adverse reaction were encouraged to continue their participation in the follow-up safety assessments (The subjects were contacted around their expected Day 85 visit to collect vital status). When possible, the tests and evaluations listed for the termination visit were to be carried out. The study scheme for the two studies is presented in Figure 1.
+L57: **Figure 1: Studies 0126 and 0127 Design Schematic**
+L58: n = Planned number of subjects
+L59: Source: Excerpted from the Clinical Study Report for Study 0126 and Study 0127 (page 32 and page 30)
+L60: The primary endpoint was change from baseline in trough \text{FEV}_1 on Day 85, where trough \text{FEV}_1 was defined as the mean of values obtained 23.25 and 23.75 hours after the final dose of study treatment administered on Day 84. The secondary efficacy endpoints include trough \text{FEV}_1
+L61: overall treatment effect which is an weighted average effect over the treatment period (refer to section 3.2.2.1 for detail), Day 1 peak FEV_1 within the first 2 hours, Days 1-85 average rescue medication (albuterol) use per day, Days 1-85 proportion of rescue-free days and Day 85 proportion of subjects achieving a clinically relevant improvement (decrease of \ge 4 points) in the St. Georges Respiratory Questionnaire (SGRQ) total score.
+L62: ## 3.2.1.2 Study 0128
+L63: Study 0128 was a randomized, active-controlled, parallel-group study in subjects with moderate to very severe COPD. Subjects were randomized in a 1:1:1 ratio to 1 of 3 treatment arms (revefenacin 88 mcg, revefenacin 175 mcg, and tiotropium 18 mcg) administered QD for 52 weeks. Subjects who were currently using LABA with or without ICS containing products were permitted to continue the use of these concomitant medications throughout the study. The study consisted of two screening visits; 1) Visit 1A for informed consent and 2) Visit 1B for ipratropium reversibility. Subjects were eligible for enrollment regardless of the improvement in their FEV_1 following ipratropium administration at screening. Randomization was stratified by ipratropium reversibility status. To allow for an approximate 65% study completion rate, and based on ICH regulatory requirements (N = 350 per group) for long-term safety for chronic use in this indication, approximately N = 227 subjects per group were planned to complete the 12-month treatment phase. The study scheme for the study is presented in Figure 2.
+L64: Long-term safety and tolerability endpoints included frequency and severity of adverse events (AEs), including COPD exacerbations and independently adjudicated cardiovascular events, vital signs, clinical laboratory evaluations and 12-lead ECG changes from baseline. Exploratory efficacy endpoints consisted of a change from baseline in trough FEV_1 pre-dose and at 1, 3, 6, 9 and 12 months.
+L65: Figure 2: Study 0128 Design Schematic
+L66: n = Planned number of subjects
+L67: Source: Excerpted from the Clinical Study Report for Study 0128 (page 29)
+L68: ## 3.2.2 Statistical Methodologies
+L69: ## 3.2.2.1 Studies 0126 and 0127
+L70: In studies 0126 and 0127, the primary statistical comparisons of interest were revesfenacin 88 mcg QD vs. placebo and revesfenacin 175 mcg QD vs. placebo.
+L71: ## Analysis Set
+L72: The Intent-to-treat (ITT) analysis set was used for efficacy analyses. The ITT analysis set included all subjects who were randomized into the study, received at least one dose of study drug, and, had at least one recorded post-baseline FEV_1 assessment, not necessarily trough FEV_1. Treatment assignment was based on the treatment randomized.
+L73: ## Primary/Secondary Analysis Model
+L74: The mixed-effects model for repeated measures (MMRM) was applied to evaluate the efficacy of revesfenacin therapy relative to the placebo comparator with respect to the primary endpoint of interest, change from baseline in trough FEV_1 measured on Day 85. The model incorporated all change from baseline trough measurements (Day 15, 29, 57, 84 and 85) as the dependent variable. The covariates included in the model were baseline FEV_1, visits, smoking status, reversibility to ipratropium and/or albuterol, concomitant LABA or LABA/ICS, sex, age, the interaction of the FEV_1 baseline and visits, and interaction of visits and the treatment randomized. Kenward and Roger (KR) approximation was set for denominator degrees of
+L75: freedom and a random effect for the subject that was nested within study site was included in the model. For modeling within-subject variation, an unstructured covariance matrix was specified to not presume any particular correlation structure for repeated \text{FEV}_1 measurements within a subject. MMRM analysis assumed a missing at random (MAR) mechanism for the missing data due to dropout.
+L76: The overall treatment effect (OTE) of trough \text{FEV}_1 change from baseline was analyzed using an MMRM and a t-test. OTE is a weighted mean of all the trough \text{FEV}_1 measures (Day 15, 29, 57, 84 and 85) where weight was estimated using the inverse variance method. For detail, refer to the applicant's SAP of Study 0126, 0127. Once inverse variance estimates and inverse variance weights were calculated, the predicted \text{FEV}_1 change from baseline was computed for each subject at a specific visit. Then weighted predicted \text{FEV}_1s were compared between refevenacin arms and placebo by MMRM. The OTE, summation of predicted \text{FEV}_1 over the visits within a subject, were averaged out by treatment arm and t-test was used to evaluate the difference in the OTE.
+L77: The Day 1 peak \text{FEV}_1 was analyzed using MMRM, by incorporating all change from baseline peak \text{FEV}_1 measurements (Days 1, 15, 29, 57 and 84) as the dependent variable. The covariates were used in the analysis as defined by the primary analysis.
+L78: The number of rescue medication use (puffs per day) was evaluated using MMRM by incorporating monthly rescue medication use totals (Months 1, 2, and 3) as the dependent variable. The visit variable was replaced with a month variable. The other covariates were used in the analysis as defined in the primary analysis.
+L79: The proportion of rescue medication-free days was evaluated using MMRM. Monthly rescue-free percentages (Months 1, 2 and 3) were incorporated as the dependent variable, and the visit variable was replaced with a month variable. The other covariates were used in the analysis as defined in the primary analysis.
+L80: The Day 85 SGRQ responders whose score decreased 4 points or more from the baseline score were counted. The odds ratios comparing treatment arms were evaluated using logistic MMRM incorporating all the proportions of responders (Days 15, 29, and 85) as the dependent variable. For modeling within-subject variation, an autoregressive (1) covariance matrix was used. The covariates were used in the analysis as defined in the primary analysis.
+L81: ## Multiple Testing
+L82: For each pre-specified efficacy endpoint, a hypothesis was generated to test whether there was no mean difference in the endpoint between placebo and a given dose level of refevenacin. Since there were two study doses (88 mcg and 175 mcg) with six endpoints, two hypothesis tests were generated for each endpoint which leads to the total 12 hypotheses of interest. Thus, the multiple endpoints and multiple dose-control comparisons in this study would likely increase a chance of a false positive conclusion on any planned endpoint analysis. To avoid the possibility of elevated false positive rates (study-wise type I error rates), a truncated Hochberg procedure was conducted. The procedure specified the order (hierarchy) of endpoints based on clinical
+L83: importance, and grouped the two hypotheses within the endpoint into a family. As all hypotheses were not equally important, the less important hypotheses were to be tested only if the prior hypotheses in the hierarchy were rejected (Figure 3). For instance, if refevenacin therapy was statistically significantly efficacious over the placebo comparator for both doses under the truncated Hochberg decision rule for the primary endpoint (Endpoint 1), the next hypothesis tests would be carried on (Endpoint 2). If significant efficacy was evident in only one of the hypotheses (HP1) for Endpoint 1, then only HP2 was to be tested. The decision rules applied in Endpoint 6 were different from those employed in the other endpoint. Specifically, hypothesis tests LP6 and HP6 were carried out if at least one test in Endpoint 5 was significant. If none of the hypothesis tests were significant for an endpoint, all endpoints beyond the failed endpoint would be considered to have failed within the framework of the hierarchical testing. The truncated Hochberg decision rule is presented in the Appendix A.1.
+L84: **Figure 3: Statistical Testing Hierarchy**
+L85: Endpoint 1: Day 85 Trough FEV_1, Endpoint 2: OTE, Endpoint 3: Day 1 Peak FEV_1, Endpoint 4: Number of rescue medication use, Endpoint 5: Proportion of rescue medication-free days, Endpoint 6: Day 85 SGRQ responders
+L86: LP1: Test of low dose (88 mcg) refevenacin versus placebo on endpoint 1
+L87: LP2: Test of high dose (175 mcg) refevenacin versus placebo on endpoint 1
+L88: Source: Excerpted from the Statistical Analysis Plan for Study 0126, 0127 (pages 80).
+L89: ## Missing data handling
+L90: To explore the impact of missing data, the applicant utilized tipping point multiple imputation methodology to assess the assumption of MAR in the primary analysis. The tipping point analysis imposed progressively increasing shift parameters to MAR-based imputed observations in the active treatment arm, not to the placebo arm, to assess how severe departures from MAR must be to overturn conclusions from the primary analysis.
+L91: ## 3.2.2.2 Study 0128
+L92: In study 0128, no comparisons between refevenacin therapies and tiotropium 18 mcg were planned for efficacy endpoints. The planned comparison was a change from baseline within each
+L93: treatment arm. The efficacy analyses were exploratory. The comparison between revefenacin therapies and tiotropium was planned for safety endpoints.
+L94: ## Analysis Set
+L95: The Safety analysis set included all subjects who were randomized into the study, and, received at least one dose of study drug. Treatment assignment was based on actual treatment. The Safety analysis set was used for safety analyses.
+L96: The ITT analysis set included all randomized subjects who received at least one dose of study drug and had at least one recorded post-baseline FEV_1 assessment. The ITT analysis set was used for general and exploratory efficacy analyses.
+L97: ## Primary Analysis Model
+L98: The MMRM was applied to evaluate the effectiveness of revefenacin and tiotropium with respect to the trough FEV_1 change from baseline in each treatment visit. The analysis model incorporated all change from baseline trough measurements (Day 28, 92, 183, 274 and 365) as the dependent variable. Treatment assignment was based on the treatment randomized. Kenward and Roger (KR) approximation was set for denominator degrees of freedom and a random effect for the subject that was nested within study site was included in the model. For modeling within-subject variation, an unstructured covariance matrix was specified to presume no particular correlation structure for repeated FEV_1 measurements within a subject. The covariates were used in the model as defined in the primary analysis in Studies 0126 and 0127. In study 0128, the reversibility status contained two level class variable summarizing ipratropium reversibility. No between-treatment group comparisons were planned.
+L99: ## 3.2.3 Patient Disposition, Demographic and Baseline Characteristics
+L100: ## 3.2.3.1 Study 0126 and 0127
+L101: Study 0126 was conducted at 60 study sites in the U.S. Of the 619 randomized subjects, 477 (77.1%) completed the study treatment period and follow-up period. The study completion rate was highest in the revefenacin 175 mcg arm (80.8%) and lowest in the placebo arm (72.2%). The most frequent reasons for discontinuation was adverse event and withdrawal by subject. A total of 619 subjects were included in the ITT analysis set. Study 0127 was conducted at 59 study sites in the U.S. Of the 645 randomized subjects, 34 subjects were excluded from all analyses due to suspected misconduct at two study sites (0127-38765, 0127-38740). The applicant reported site misconduct issues prior to unblinding data and NDA submission. The Agency recommended submission of all data including the sites and sensitivity analyses including data from the sites. Sensitivity analyses were consistent with the primary analysis (see CSR Appendix 16.2.2). Among the total of 611 subjects after exclusion due to site misconduct, one subject who was randomized to placebo was not dosed and was excluded in any efficacy analyses. A total of
+L102: 610 subjects were included in the ITT analysis set. Similar to Study 0126, the study completion rate was highest in the revesfenacin 175 mcg arm (82.2%) and the lowest in the placebo arm (75.1%). Subject disposition for both studies is summarized by treatment group in Table 2. The many potential reasons for stopping treatment, combined with the fact that the applicant did not continue to collect information on patients who discontinued therapy early for the remainder of the 12-week treatment period, led to substantial missing data in efficacy and safety analyses.
+L103: **Table 2: Subject Disposition for Studies 0126 and 0127**
+L104: Study 0126	Placebo	Rev 88 mcg	Rev 175 mcg	Total
+(N = 209)
+n (%)	(N = 212)
+n (%)	(N = 198)
+n (%)	(N = 619)
+n (%)
+Subjects	151 (72.2)	168 (79.2)	158 (79.8)	477 (77.1)
+Completing Study	
+Subjects NOT Completing Study	58 (27.8)	44 (20.8)	40 (20.2)	142 (22.9)
+Adverse event	33 (15.8)	22 (10.4)	23 (11.6)	78 (12.6)
+Lost to Follow-up	4 (1.9)	5 (2.4)	5 (2.5)	14 (2.3)
+Physician Decision	1 (0.5)	2 (0.9)	0	3 (0.5)
+Protocol Deviation	0 (0)	0	1 (0.5)	1 (0.2)
+Withdrawal by subjects	20 (9.6)	14 (6.6)	10 (5.1)	44 (7.1)
+Other	0	1 (0.5)	1 (0.5)	2 (0.3)
+Study 0127	Placebo	Rev 88 mcg	Rev 175 mcg	Total
+(N = 209*)
+n (%)	(N = 205)
+n (%)	(N = 197)
+n (%)	(N = 611)
+n (%)
+Subjects	157 (75.1)	163 (79.5)	162 (82.2)	482 (78.9)
+Completing Study	
+Subjects NOT Completing Study	51 (24.4)	42 (20.5)	35 (17.8)	128 (20.9)
+Adverse event	26 (12.4)	28 (13.7)	20 (10.2)	74 (12.1)
+Lost to Follow-up	3 (1.4)	1 (0.5)	4 (2.0)	8 (1.3)
+Physician Decision	2 (1.0)	0	1 (0.5)	3 (0.5)
+Protocol Deviation	2 (1.0)	3 (1.5)	0	5 (0.8)
+Withdrawal by subjects	18 (8.6)	10 (4.9)	10 (5.1)	38 (6.2)
+Other	0	0	0	0
+L105: N = Number of subjects randomized
+L106: *There is one subject that is not dosed within placebo randomized arm
+L107: Source: Excerpted from the Clinical Study Report for Study 0126 (page 79), 0127 (page 78)
+L108: Patterns for dropouts over the study period are described in Figures 4 and 5 for Studies 0126 and 0127, respectively.
+L109: Figure 4: Proportion of Subjects Remaining over Time in Study 0126
+L110: TRT01P – Randomized Treatment
+Source: Reviewer
+L111: Figure 5: Proportion of Subjects Remaining over Time in Study 0127
+L112: TRT01P – Randomized Treatment
+Source: Reviewer
+L113: The demographic and baseline disease characteristics were generally balanced and comparable between the treatment arms in Study 0126 (Appendix Table 18). Overall, the average subject was 64 years old, and half of them were less than 65 years old. 52.2% of the population was male, and most subjects were white (91.1%). About 48.6% of subjects were current smokers, and 37% of subjects were current LABA or ICS/LABA users. Most subjects (99.8%) were in the moderate to very severe GOLD airflow limitation category (FEV_1 &lt; 80\% predicted) and 19.3% of subjects had at least one exacerbation in the past 12 months. A total of 31.5% of subjects was classified as GOLD category D, a population suffering from COPD who were symptomatic with significant airflow limitation. Mean baseline trough FEV_1 measured on Day 1 was 1.34 L. The demographic and baseline disease characteristics in Study 0127 (Appendix Table 19) were generally similar to
+L114: Study 0126, as the two studies were replicate. Overall, the average subject was 63 years old, and 56.1% of them were less than 65 years old. Half of the population was male, and a majority of subjects were white (89.3%). About 46.9% of subjects were current smokers, and 36.7% of subjects were current LABA or ICS/LABA users. Most subjects (99.8%) were in the moderate to very severe GOLD airflow limitation category (FEV_1 &lt; 80\% predicted) and 27.7% of subjects had at least one exacerbation in past 12 months. A total of 36.4% of subjects was classified as GOLD category D and mean baseline trough FEV_1 measured on Day 1 was 1.30 L.
+L115: ## 3.2.3.2 Study 0128
+L116: Study 0128 was conducted at 103 study sites in the U.S. 20 subjects were excluded at site 0128-38765 due to good clinical practice (GCP) misconduct at the site. Of the 1055 subjects who were randomized and treated with study drug, 672 (63.4%) completed the study treatment period and follow-up period. The study completion rate was highest in the tiotropium arm (73.4%) and lowest in the refevenacin 175 mcg arm (57.0%) (Figure 6). The protocol categorized primary reasons for discontinuing study as follows: adverse event, lost to follow-up, physician decision, protocol deviations, withdrawal by subject and other. The most frequent reason for discontinuation was withdrawal by subject. However, I found around 20% of those subjects appeared to drop out of the refevenacin arms mainly due to the lack of efficacy. More subjects dropped out in the later stages of the trial, as expected in the long-term safety study. The subject disposition for Study 0128 is displayed in Table 3. The subject demographics and baseline characteristics for Study 0128 can be found in Appendix Table 20.
+L117: **Table 3: Subject Disposition for Study 0128 (All Randomized and Analyzed Subjects)**
+L118: Study 0128	Tiotropium
+(N = 356)
+n (%)	Rev 88 mcg
+(N = 364)
+n (%)	Rev 175 mcg
+(N = 335)
+n (%)	Total
+(N = 1055)
+n (%)
+Subjects	262 (73.4)	219 (59.5)	191 (57.0)	672 (63.4)
+Completing Study	
+Subjects NOT
+Completing Study	94 (26.3)	145 (39.4)	144 (43.0)	383 (36.1)
+Adverse event	33 (9.2)	47 (12.8)	42 (12.5)	122 (11.5)
+Lost to Follow-up	15 (4.2)	21 (5.7)	17 (5.1)	53 (5.0)
+Physician Decision	1 (0.3)	3 (0.8)	3 (0.9)	7 (0.7)
+Protocol Deviation	1(0.3)	2 (0.5)	0	3 (0.3)
+Withdrawal by
+subjects	43 (12.0)	70 (19.0)	80 (23.9)	193 (18.2)
+Withdrawal by
+subjects due to
+lack of efficacy*	7/43 (16%)	14/ 70 (20%)	16/80 (20%)	37/193 (19%)
+Other	1 (0.3)	2 (0.5)	2 (0.6)	5 (0.5)
+L119: Source: Excerpted from the Clinical Study Report for Study 0128 (page 72); * Reviewer
+L120: Figure 6: Proportion of Subjects Remaining over Time in Study 0128
+L121: TRT01P – Randomized Treatment
+Source: Reviewer
+L122: ## 3.2.4 Results and Conclusions
+L123: ## 3.2.4.1 Study 0126, 0127
+L124: ## Primary Efficacy Endpoint
+L125: The analysis of the primary endpoint showed statistically significantly greater mean change from baseline trough FEV_1 measurement on Day 85 for both the 88 mcg (79.2 mL; 95% CI: 37.3, 121.1 and 160.5 mL; 95% CI: 110.5, 210.5) and 175 mcg (146.3 mL; 95% CI: 103.7, 188.8 and
+L126: 147.0 mL; 95% CI: 97.0, 197.1) refevenacin dosing regimens as compared to placebo for both phase 3 efficacy Studies 0126 and 0127 (Table 4). When a truncated Hochberg gatekeeping procedure was applied, by observing adjusted p-values &lt; 0.05, hypothesis tests in each study at both doses succeeded and were able to carry on to the next endpoint (trough FEV1 OTE).
+L127: It is also important to note that one subject was excluded from the primary efficacy analysis for Study 0126 due to missing trough FEV1 baseline measurement. Furthermore, four subjects were excluded since they had not had their ICS/LABA administered prior to the trough FEV1 baseline measurement which resulted in an inaccurate baseline assessment. Additionally, there were 33 subjects who had missed all trough FEV1 measurements (Day 15, 29, 57, 84 and 85). These missing data caused a primary analysis population reduced to N = 581 out of 619 subjects from ITT population. For Study 0127, two subjects were excluded due to missing trough FEV1 baseline measurements. There were 20 subjects who had missing FEV1 baseline due to their ICS/LABA not being administered prior to the measurement. With 31 subjects excluded due to missing trough FEV1 measurements in the entire treatment period, the primary analysis population was N = 557.
+L128: There was a trend of dose-response for change from baseline through FEV1 response on Day 85, with a trend toward significantly greater response on refevenacin 175 mcg than 88 mcg in Study 0126 (results not shown). However, such trend did not exist in Study 0127. Because of the lack of a consistent dose-response and because these are replicate studies with the same design, I combined the two studies to get a more precise dose-response evaluation. In a pooled analysis of Studies 0126 and 0127, both doses showed a statistically significantly greater difference in change from baseline trough FEV1 compared with placebo (Table 5). There was a trend for additional benefit in FEV1 for the 175 mcg dose compared with the 88 mcg dose, although the benefit was not statistically significant (p-value = 0.088).
+L129: **Table 4: LS Mean Change from Baseline Trough FEV1 (mL) on Day 85 for Phase 3 Efficacy Studies 0126 and 0127 (ITT population)**
+L130: Study 0126	Study 0127
+Placebo
+N = 209	Rev
+88 mcg
+N = 212	Rev
+175 mcg
+N = 198	Placebo
+N = 208	Rev
+88 mcg
+N = 205	Rev
+175 mcg
+N = 197
+Mean	-7.5	66.0	145.7	-56.0	106.6	106.4
+LS Mean
+(SE)	-19.4
+(16.1)	59.8
+(15.1)	126.8
+(15.4)	-44.9
+(18.8)	115.6
+(18.6)	102.9
+(18.5)
+LS Mean
+Difference (SE)
+from Placebo	--	79.2
+(21.3)	146.3
+(21.6)	--	160.5
+(25.5)	147.0
+(25.5)
+95% CI for LS	--	(37.3,	(103.7,	--	(110.5,	(97.0,
+L131: Mean Difference
+vs. Placebo	121.1)	188.8)	210.5)	197.1)
+Adjusted p-value
+vs. Placebo	0.0003	< 0.0001	< 0.0001	< 0.0001
+L132: LS – Least Square, SE – Standard Error
+L133: Source: Reviewer
+L134: **Table 5: LS Mean Change from Baseline Trough FEV1 (mL) on Day 85 for Pooled (0126/0127) Phase 3 Efficacy Studies (ITT population)**
+L135: Pooled Studies 0126 and 0127
+Placebo	Rev
+88 mcg	Rev
+175 mcg
+N = 417	N = 417	N = 395
+LS Mean (SE)	-33.2
+(12.5)	86.7
+(12.0)	115.0
+(12.1)
+LS Mean
+Difference (SE)
+from Placebo	--	119.8
+(16.7)	148.1
+(16.8)
+95% CI for LS
+Mean Difference
+vs. Placebo	--	(87.1,
+152.6)	(115.2,
+181.1)
+Nominal p-value
+vs. Placebo	< 0.0001	< 0.0001
+LS Mean
+Difference (SE)
+From 88 mcg	--	--	28.3
+(16.6)
+95% CI for LS
+Mean Difference
+vs. 88 mcg	--	--	(-4.2, 60.8)
+Nominal p-value
+vs. 88 mcg	0.088
+L136: LS – Least Square, SE – Standard Error
+L137: Source: Reviewer
+L138: The issue with lack of dose-response relationship in Study 0127 was brought up at the mid-cycle meeting. Subsequently, Study 0117, a phase 2b trial, was investigated to refer to earlier evaluations of the dose-response profile. Study 0117 was a double-blind, placebo-controlled, multiple-dose, parallel-group study that compared four doses (44, 88, 175, 350 mcg) and
+L139: matched placebo. Trough \text{FEV}_1 was measured on Day 1, 15, 16, 28 and 29. The primary endpoint was Day 29 change from baseline trough \text{FEV}_1. I note that this study was not powered to detect a significant difference in the primary endpoint among doses. The primary analysis result characterized the numerical dose-response relationship between 88 mcg and 175 mcg, although the relationship reversed on Day 29 (Figure 7). This result, along with Study 0126 and the analysis of the pooled phase 3 studies (Studies 0126 and 0127) was supportive of the dose-response profile of retefenacin and the proposed final dose of 175 mcg.
+L140: **Figure 7: LS Mean Change from Baseline for Study 0117: Trough \text{FEV}_1 Days 1-29 (mL)**
+L141: RANDTRTC = Randomized Treatment
+L142: Source: Reviewer
+L143: To assess the MAR assumption of the primary analysis model (MMRM), the applicant conducted a tipping point analysis to identify the assumption under which there was no longer statistical significance (the tipping point) and to check whether that tipping point was plausible (Tables 6 and 7). The resulting tipping points were -237 mL in the retefenacin 88 mcg arm and -613 mL in the retefenacin 175 mcg arm in Study 0126. This means that the missing trough \text{FEV}_1 changes for the dropouts in the retefenacin 88 mcg arm would have to show a decrease of 237 mL on average as compared to the mean change of 66.0 mL for the retefenacin 88 mcg completers for the study's conclusion to change. Similarly, the missing trough \text{FEV}_1 changes for the dropouts in the retefenacin 175 mcg arm would have to show a decrease of 613 mL on average as compared to the mean change of 135.7 mL for the retefenacin 175 mcg completers for the study's conclusion to change. The resulting tipping points from Study 0127 were also not likely (-582 mL for the 88 mcg arm and -594 mL for the 175 mcg arm) compared to the mean
+L144: changes of 106.6 mL and 106.4 mL for the completers in the revefenacin arms. These hypothetical situations are highly unlikely, and therefore, the primary analysis results in the efficacy study are robust to departures from the MAR assumption.
+L145: **Table 6: Sensitivity Analysis: Impact of Missing Data for Study 0126 - Change from Baseline Trough FEV1 (mL) on Day 85**
+L146: Placebo	Rev
+88 mcg	Rev
+175 mcg
+N = 209	N = 212	N = 198
+Mean change of completers	-7.5 mL	66.0 mL	145.7 mL
+Shift parameters (mL) for tipping point imputation	
+-240	0.0538	
+-239	0.0527	
+-238	0.0515	
+-237	0.0504	
+-236	0.0494	
+-235	0.0483	
+
+-615	0.0519
+-614	0.0510
+-613	0.0502
+-612	0.0494
+-611	0.0486
+-610	0.0478
+L147: N = number of subjects in ITT population
+L148: Cell contents are p-values for the comparison with placebo
+L149: Shift parameters in bold fonts indicate tipping points.
+L150: Source: Excerpted from the Clinical Study Report for Study 0126 (page 95)
+L151: **Table 7: Sensitivity Analysis: Impact of Missing Data for Study 0127 - Change from Baseline Trough FEV1 (mL) on Day 85**
+L152: Placebo	Rev
+88 mcg	Rev
+175 mcg
+N = 208	N = 205	N = 197
+Mean change of completers	-56.0 mL	106.6 mL	106.4 mL
+Shift parameters (mL) for tipping point imputation	
+-583	0.0518	
+-582	0.0508	
+-581	0.0499	
+-595	0.0511
+-594	0.0505
+-593	0.0498
+L153: N = number of subjects in ITT population
+L154: Cell contents are p-values for the comparison with placebo
+L155: Shift parameters in bold fonts indicate tipping points.
+L156: Source: Excerpted from the Clinical Study Report for Study 0127 (page 95)
+L157: To allow broader assumptions for the missing data in both the revefenacin and placebo arms, the applicant also carried out two-way tipping point analysis in response to an FDA information request. The analysis provided extensive exploration of whether the result from the primary analysis was robust to plausible departures from the MAR assumption and was consistent with the original tipping point analysis (Appendix Table 21).
+L158: ## Key Secondary Efficacy Endpoints
+L159: A summary of analysis results for key secondary efficacy endpoints is presented in Table 8. In Study 0126, there was a statistically significantly greater difference from placebo in change from baseline trough FEV1 overall treatment effect (measured over Days 15-85) for revefenacin 88 mcg (103.8 mL; 95% CI: 95.1, 112.5) and 175 mcg (155.6 mL; 95% CI: 146.8, 164.5). The change from baseline to peak FEV1 within the first two hours post-dose on Day 1 was significantly higher for revefenacin 88 mcg (126.3 mL; 95% CI: 101.1, 151.6) and 175 mcg (132.7 mL; 95% CI: 107.0, 158.5). The rest of the key secondary endpoints, the number of rescue medication uses, the proportion of rescue medication-free 24-hour periods and Day 85 SGRQ responder proportion failed to achieve statistical significance according to the pre-specified statistical testing hierarchy. There was a similar trend in Study 0127. There was a statistically significantly greater difference from placebo in change from baseline trough FEV1 overall treatment effect (measured over Days 15-85) for revefenacin 88 mcg (123.7 mL; 95% CI: 115.0, 132.4) and 175 mcg (155.6 mL; 95% CI: 118.2, 135.8). The change from baseline to peak FEV1 within the first two hours on Day 1 was significantly higher for the revefenacin 88 mcg (130.4 mL; 95% CI:104.3, 156.5) and revefenacin 175 mcg (128.6 mL; 95% CI: 102.3, 155.0)
+L160: compared to placebo. The rest of the key secondary endpoints in the hierarchy, the number of rescue medication uses, the proportion of rescue medication-free 24-hour periods and Day 85 SGRQ responder proportion failed to achieve statistical significance.
+L161: **Table 8: LS Mean Differences (95% Confidence Interval) for Key Secondary Endpoints - Phase 3 Efficacy Studies 0126, 0127 (ITT population)**
+L162: Secondary Endpoints	Study 0126	Study 0127
+Rev 88 mcg vs. Placebo	Rev 175 mcg vs. Placebo	Rev 88 mcg vs. Placebo	Rev 175 mcg vs. Placebo
+Change from Baseline in trough FEV1
+Overall Treatment Effect (mL)	103.8
+(95.1, 112.5)
+p = 0.0003	155.6
+(146.8, 164.5)
+p < 0.0001	123.7
+(115.0, 132.4)
+p < 0.0001	127.0
+(118.2, 135.8)
+p < 0.0001
+Day 1 Change from Baseline in Peak FEV1
+(0-2 Hrs) (mL)	126.3
+(101.1, 151.6)
+p = 0.0003	132.7
+(107.0, 158.5)
+p < 0.0001	130.4
+(104.3, 156.5)
+p < 0.0001	128.6
+(102.3, 155.0)
+p < 0.0001
+Day 1 – 85 Rescue Medication Use (Puffs per Day)	-0.5
+(-1.1, 0.2)
+p = 0.2251	-0.5
+(-1.1, -0.01)
+p = 0.2251	-0.5
+(-1.1, 0.2)
+p = 0.0911	-0.2
+(-0.7, 0.4)
+p = 0.7346
+Day 1 – 85 Rescue Free 24-Hour Periods (%)	3.1
+(-4.2, 10.5)
+p = 0.8045	-1.6
+(-9.2, 5.9)
+p = 0.8904	7.6
+(0.4, 14.7)
+p = 0.1542	6.0
+(-1.2, 13.3)
+p = 0.7346
+*Day 85 SGRQ Responder (Decrease of ≥ 4 pts)	2.1
+(1.1, 3.8)
+p = 0.8045	2.1
+(1.1, 3.9)
+p = 0.8045	1.4
+(0.8, 2.5)
+p = 0.7346	1.3
+(0.7, 2.4)
+p = 0.7346
+L163: *Estimated values are adjusted odds ratios
+p-values are multiplicity adjusted
+L164: Source: Reviewer
+L165: At the beginning of the study, FDA recommended to the applicant to target the de facto estimand, i.e., the difference in mean trough FEV1 at 12 weeks, regardless of adherence to the assigned treatment. However, they did not collect retrieved data from early dropouts nor include “non-evaluable” data points in the efficacy analyses. I asked them to re-analyze primary and secondary efficacy studies including the “non-evaluable” data which were excluded due to inaccurate trough FEV1 baseline measurements. The post-hoc analyses show that there are no changes in inferences or material changes in estimates relative to the analyses presented in the NDA (results not shown).
+L166: ## 3.2.4.2 Study 0128
+L167: ## Primary Efficacy Endpoint (exploratory)
+L168: The analysis of the efficacy endpoint showed mean changes from baseline in trough FEV_1 at Days 29, 92, 183, 274 and 365 that were statistically significantly greater than zero within each treatment arm: tiotropium 18 mcg, refevenacin 88 mcg, and refevenacin 175 mcg (Table 9). The mean changes were numerically greater for the refevenacin 175 mcg compared to the refevenacin 88 mcg; however, the differences were not statistically significant (results not shown). As shown in Figure 8, the FEV_1 profile reflected a dose-response trend; the refevenacin 175 mcg arm consistently demonstrated a higher FEV_1 profile than the refevenacin 88 mcg arm. Mean changes over time were roughly similar between refevenacin 175 mcg and tiotropium, although the trial was not designed to establish similarity (there was no planned non-inferiority margin and hypothesis test). According to the applicant, the increased observed trough FEV_1 profile on Day 365 in the tiotropium arm is due to a disproportionate number of poor performers who dropped out of the tiotropium arm during the last three months of treatment in that group.
+L169: **Table 9: LS Mean Change from Baseline Trough FEV_1 (mL) on Day 29, 92, 183, 274 and 365 for Exploratory Efficacy Study 0128 (ITT Population)**
+L170: Visits	Tiotropium	Rev 88 mcg	Rev 175 mcg
+Day 29	112.0
+(91.2, 132.7)	82.1
+(60.9, 103.2)	117.6
+(95.3, 139.9)
+Day 92	95.4
+(73.2, 117.6)	83.6
+(60.8, 106.4)	97.4
+(73.0, 121.9)
+Day 183	86.4
+(61.1, 111.7)	71.5
+(44.6, 98.4)	102.0
+(73.5, 130.4)
+Day 274	75.9
+(48.8, 103.0)	65.4
+(36.5, 94.4)	75.9
+(48.8, 103.0)
+Day 365	85.0
+(57.8, 112.2)	45.3
+(16.4, 74.3)	59.7
+(29.0, 90.5)
+L171: Values are LS mean changes (mL) and its 95% confidence intervals
+Source: Reviewer
+L172: Figure 8: LS Mean Change from Baseline for Study 0128: Trough FEV1 Days 1-365 (mL)
+L173: TRT01P = Randomized Treatment
+L174: Source: Reviewer
+L175: ## 3.3 Evaluation of Safety
+L176: Khalid Puthawala, the medical reviewer, conducted the safety evaluation, and the reader is referred to Dr. Puthawala's review for detailed information on the safety profile. I performed additional analyses to explore the safety profile. The review of safety profile includes all the phase 3 studies (0126, 0127 and 0128).
+L177: ## 3.3.1 Safety Analysis Population(s) and Endpoint(s)
+L178: The safety analysis set included all subjects who were randomized into the study and received at least one dose of study drug. Treatment assignment was based on actual treatment. The safety analysis set was the primary analysis set for safety analyses.
+L179: The applicant considered the general safety endpoints such as treatment-emergent adverse events (TEAEs), vital signs, ECG parameters, physical exam results, and clinical laboratory results. TEAEs were defined as any AE that began on or after the date of the first dose of study drug up to the date of the last dose of study drug plus the number of days in the follow-up period.
+L180: Adverse events were coded to the preferred terms of the Medical Dictionary for Regulatory Activities (MedDRA), Version 18.1.
+L181: Another endpoint of interest in the long-term safety study (Study 0128) of revefenacin was independently adjudicated cardiovascular events. The adjudicated treatment-emergent cardiovascular events of interest included death (all-cause, cardiovascular/non-cardiovascular), myocardial infarction/ unstable angina, stroke/TIA, heart failure and cardiac arrhythmia (atrial and ventricular).
+L182: ## 3.3.2 Data Quality
+L183: The submitted datasets were of acceptable quality and were adequately documented. I could reproduce the results of relevant safety analyses.
+L184: ## 3.3.3 Statistical Methods
+L185: The applicant summarized the frequency and percentage of subjects reporting each of TEAEs based on pooled data from the two phase 3 efficacy trials (Studies 0126 and 0127) and the long-term safety trial (Study 0128).
+L186: To account for differences in duration of treatment exposure between treatment arms with the TEAEs, I calculated incidence rates (IR) for each TEAE within the treatment groups, the rate difference between revefenacin and placebo/tiotropium arms and a 95% confidence interval of the rate difference. The denominator for incidence rate calculations consists of total treatment exposure for patients without an event or exposure up to the time of the event for patients with an event. The incidence rates of TEAEs were based on pooled efficacy trials (Studies 0126 and 0127) and the long-term safety trial (Study 0128).
+L187: For independently adjudicated cardiovascular events in Study 0128, I summarized the frequency and percentage of the events. Additionally, I performed Poisson regression with robust standard error estimates to evaluate the relative risk of the specified cardiovascular events (at least one cardiovascular adverse event) between the revefenacin arms and tiotropium arm.
+L188: ## 3.3.4 Results and Conclusions
+L189: My safety evaluation of the pooled placebo-controlled studies (Studies 0126 and 0127) indicated that the incidence rates of TEAEs were largely similar across the treatment groups (Table 10). However, there were some apparent differences in safety profiles between revefenecin and
+L190: tiotropium from Study 0128 (Table 11). There was some evidence suggesting that the incidence of nasopharyngitis and bronchitis may be higher for refevenacin 88 mcg compared to the tiotropium. Also, the incidence of dyspnoea, nasopharyngitis, and fatigue appeared higher for refevenacin 175 mcg compared to tiotropium. Subjects with more than one TEAE of the same category were counted only once.
+L191: **Table 10: Treatment-emergent Adverse Events Reported for Pooled (0126/0127) Phase 3 Efficacy Studies (Safety Analysis Set)**
+L192: Placebo	Rev 88 mcg	Rev 175 mcg	Difference in IRs	Difference in IRs
+(N = 417)	(N = 417)	(N = 395)	(95% CI)
+Rev 88 mcg
+vs
+Placebo	(95% CI)
+Rev 175 mcg
+vs
+Placebo
+12-Week Trials
+TEAEs
+COPD	48 [59]	42 [50]	42 [52]	-9 (-32, 13)	-8 (-31, 15)
+Cough	17 [21]	17 [20]	17 [21]	-1 (-15, 13)	0 (-14, 14)
+Headache	11 [14]	21 [25]	16 [20]	11 (-2, 25)	6 (-6, 19)
+Dyspnoea	23 [29]	13 [15]	12 [15]	-13 (-28, 1)	-14 (-28, 0)
+Upper respiratory tract infection	9 [11]	20 [24]	11 [13]	13 (0, 25)	2 (-8, 13)
+Nasopharyngitis	9 [11]	14 [17]	15 [18]	6 (-6, 17)	7 (-4, 19)
+Sinusitis	10 [12]	5 [6]	9 [11]	-6 (-16, 3)	-1 (-12, 9)
+Acute Sinusitis	2 [3]	4 [4]	3 [4]	1 (-4, 7)	1 (-5, 7)
+Oropharyngeal Pain	6 [7]	9 [11]	6 [7]	3 (-6, 12)	0 (-8, 8)
+Urinary tract infection	7 [9]	9 [11]	4 [5]	2 (-7, 11)	-4 (-12, 4)
+Diarrhoea	5 [6]	8 [9]	4 [5]	3 (-5, 12)	-1 (-8, 6)
+Hypertension	5 [6]	8 [9]	7 [8]	3 (-5, 12)	2 (-6, 11)
+Muscle Spasms	2 [2]	7 [8]	3 [4]	6 (-1, 13)	1 (-4, 6)
+Vomiting	4 [5]	2 [2]	3 [4]	-3 (-8, 3)	-1 (-8, 5)
+Dizziness	2 [2]	6 [7]	6 [7]	5 (-2, 11)	5 (-2, 12)
+Back pain	3 [4]	6 [6]	9 [11]	2 (-5, 9)	7 (-1, 16)
+Nasal Congestion	2 [2]	5 [6]	2 [2]	4 (-3, 10)	0 (-5, 5)
+Bronchitis	2 [3]	1 [1]	6 [8]	-2 (-6, 3)	5 (-2, 12)
+L193: Cell contents are number of events [Incidence Rate, per 100 patient-years]
+L194: Exposure is defined as total treatment exposure for patients without an event or exposure up to time of event for patients with an event]
+L195: Source: Reviewer
+L196: Table 11: Treatment-emergent Adverse Events Reported for Study 0128 (Safety Analysis Set)
+L197: Tiotropium
+(N = 356)	Rev 88
+mcg
+(N = 364)	Rev 175
+mcg
+(N = 335)	Difference in
+IRs
+(95% CI)
+Rev 88 mcg
+vs
+Tiotropium	Difference in
+IRs
+(95% CI)
+Rev 175 mcg
+vs
+Tiotropium
+52-Week Trials
+TEAEs
+Arthralgia	11 [37]	9 [34]	6 [26]	-3 (-34, 29)	-11 (-42, 18)
+COPD	100 [396]	107 [490]	73 [348]	94 (-27, 215)	-48 (-159, 63)
+Cough	20 [69]	18 [70]	25 [112]	1 (-43, 45)	43 (-10, 97)
+Chest pain	9 [30]	5 [19]	5 [21]	-11 (-37, 15)	-9 (-36, 18)
+Headache	20 [68]	15 [58]	13 [57]	-10 (-52, 32)	-12 (-55, 31)
+Dyspnoea	13 [44]	31 [122]	13 [56]	79 (29, 128)	12 (-26, 51)
+Dry mouth	10 [34]	3 [11]	3 [135]	-23 (-47, 2)	-21 (-47, 4)
+Gastroesophageal	8 [27]	8 [30]	8 [34]	4 (-25, 32)	7 (-23, 37)
+Reflux Disease	
+Upper Respiratory Tract Infection	24 [83]	24 [94]	20 [88]	11 (-39, 61)	5 (-46, 55)
+Nasopharyngitis	17 [58]	28 [111]	26 [118]	54 (5, 103)	60 (7, 113)
+Sinusitis	9 [30]	15 [58]	8 [34]	27 (-8, 62)	4 (-27, 35)
+Acute Sinusitis	7 [23]	5 [19]	7 [30]	-4 (-28, 20)	6 (-22, 35)
+Oropharyngeal Pain	4 [13]	4 [15]	4 [17]	2 (-18, 22)	4 (-17, 25)
+Pain	14 [47]	16 [61]	5 [21]	14 (-25, 53)	-26 (-57, 5)
+Pneumonia	
+Urinary Tract Infection	15 [51]	20 [78]	11 [48]	27 (-16, 69)	-3 (-41, 35)
+Diarrhoea	9 [30]	14 [54]	13 [56]	24 (-11, 58)	26 (-10, 62)
+Hypertension	16 [55]	18 [69]	8 [34]	15 (-27, 56)	-20 (-56, 16)
+Muscle Spasms	10 [34]	5 [19]	2 [8]	-15 (-42, 12)	-25 (-49, -1)
+Vomiting	10 [34]	6 [23]	3 [13]	-11 (-39, 17)	-21 (-46, 4)
+Dizziness	6 [20]	6 [23]	4 [17]	3 (-21, 27)	-3 (-26, 20)
+Back pain	10 [34]	10 [39]	7 [30]	5 (-27, 37)	-4 (-34, 27)
+Nasal Congestion	11 [37]	2 [8]	4 [17]	-30 (-54, -5)	-20 (-48, 7)
+Bronchitis	9 [30]	17 [66]	17 [74]	36 (-1, 73)	44 (4, 84)
+Pain in extremity	5 [17]	9 [34]	5 [21]	18 (-9, 44)	5 (-19, 28)
+Fatigue	4 [13]	11 [42]	3 [13]	29 (1, 57)	-1 (-20, 19)
+Anxiety	6 [20]	8 [31]	6 [26]	11 (-16, 37)	6 (-20, 32)
+L198: Cell contents are number of events [Incidence Rate, per 1000 patient-years, total treatment exposure for patients without an event or exposure up to time of event for patients with an event]
+L199: Source: Reviewer
+L200: Our findings indicate that there are no notable differences in frequencies of adjudicated cardiovascular adverse events between the treatment groups (Table 12). There were slightly higher estimated incidence proportions on the revefenecin arms than tiotropium, but there is no
+L201: evidence of a difference in the risk of at least one adjudicated cardiovascular event between the arms (Table 13). Given the few events observed, the confidence intervals are very wide, and the upper bounds of these CIs are only able to rule out roughly 3- to 4-fold increases in risk or greater on revesfenecin compared to tiotropium.
+L202: **Table 12: Adjudication Summary of Treatment-emergent Cardiovascular Adverse Events by Cardiovascular Category for Study 0128 (Safety Analysis Set)**
+L203: Preferred Term	Tiotropium 18 mcg (N = 356)
+Frequency (%)	Rev 88 mcg (N = 364)
+Frequency (%)	Rev 175 mcg (N = 335)
+Frequency (%)
+Subjects reporting at least one cardiovascular event	7 (2.0)	9 (2.5)	10 (3.0)
+All-Cause Death	1 (0.3)	1 (0.3)	1 (0.3)
+Cardiovascular	1	1	1
+Non-cardiovascular	0	0	0
+Undetermined	0	0	0
+MI/Unstable Angina	4 (1.1)	5 (1.4)	5 (1.5)
+Stroke	0	0	1 (0.3)
+Heart Failure	0	2 (0.5)	0
+Arrhythmia	2 (0.6)	1 (0.3)	3 (0.9)
+L204: Source: Reviewer
+L205: **Table 13: Model-Based Relative Risk of Adjudicated Cardiovascular Event for Study 0128 (Safety Analysis Set)**
+L206: Adjudicated Cardiovascular Event	Rev 88 mcg (N = 364)
+vs Tio (N = 356)	Rev 175 mcg (N = 335)
+Vs Tio (N = 356)	Rev Pooled (N = 699)
+vs Tio (N = 356)
+At Least One	1.26 (0.47, 3.34)	1.52 (0.59, 3.94)	1.38 (0.59, 3.26)
+L207: Cell contents are relative risks (95% CI). Analysis is based on Poisson model with the count of adjudicated cardiovascular events during the study as response and with baseline LABA use as a factor
+Source: Reviewer
+L208: ## 4 FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L209: ## 4.1 Gender, Race, Age
+L210: This section contains exploratory subgroup analysis. The MMRM model with treatment, visit, smoke status, reversibility, concomitant ICS/LABA use, age, gender and treatment interacting with the visit as fixed effects, and the covariate baseline FEV_1 and its interaction with the visit was used to investigate treatment effects within age, gender and racial subgroups. The subgroup analyses were done in each phase 3 efficacy study separately and in the pooled efficacy studies. The results were generally consistent with the results from the primary analyses where the refevenacin arms showed higher estimated increases in trough FEV_1 over placebo. Some subgroups, such as non-white subjects, were small, leading to wide confidence intervals around estimated effects. The subgroup analysis results for the refevenacin 175 mcg tended to show numerically larger estimated effects than for refevenacin 88 mcg in Study 0126 and in the pooled studies. However, there was no such trend in Study 0127 (Table 14 and Figure 9).
+L211: **Table 14: Subgroup Analysis: Age, Gender and Race for Studies 0126, 0127 and Pooled - Change from Baseline in Trough FEV_1 (mL) on Day 85**
+L212: Study 0126	Placebo	Rev 88 mcg	Rev 175 mcg
+Age: <65 years, N	N=104	N=112	N=96
+LS Mean (SE)	6.0 (21.9)	53.8 (21.2)	137.6 (21.7)
+LS Mean Difference vs. Placebo (95% CI)	47.8 (-10.6, 106.2)	83.8 (24.7, 142.9)
+Age: >= 65 years, N	N=105	N=100	N=102
+LS Mean (SE)	-47.8 (23.5)	66.8 (21.3)	116.7 (21.5)
+LS Mean Difference vs. Placebo (95% CI)	114.6 (54.0, 174.9)	164.5(103.6, 225.4)
+p-value	0.12	0.45
+Gender: Male, N	N=109	N=115	N=93
+LS Mean (SE)	-11.5 (22.3)	68.5 (20.3)	167.2 (22.5)
+LS Mean Difference vs. Placebo (95% CI)	80.0 (23.0, 137.0)	178.7 (117.6, 239.9)
+Gender: Female, N	N=100	N=97	N=105
+LS Mean (SE)	-27.0 (22.9)	51.2 (23.1)	91.9 (21.1)
+LS Mean Difference vs. Placebo (95% CI)	78.2 (16.7, 139.7)	118.9 (60.1, 177.6)
+p-value	0.99	0.17
+Race: White, N	N=191	N=194	N=179
+LS Mean (SE)	-20.5 (16.9)	69.5 (15.7)	132.4 (16.0)
+LS Mean Difference vs. Placebo (95% CI)	90.0 (46.1, 133.9)	152.9 (108.4, 197.4)
+L213: Race: Others, N	N=18	N=18	N=19
+LS Mean (SE)	-11.4 (47.6)	-50.2 (52.6)	61.9 (53.4)
+LS Mean Difference
+vs. Placebo (95% CI)	-38.8 (-176.9, 99.4)	73.2 (-67.0, 213.4)
+p-value	0.08	0.29
+L214: Study 0127	Placebo	Rev 88 mcg	Rev 175 mcg
+Age: <65 years, N	N=115	N=121	N=106
+LS Mean (SE)	-52.7 (25.4)	125.1 (23.9)	103.5 (25.4)
+LS Mean Difference
+vs. Placebo (95% CI)	177.8 (110.9, 244.9)	156.2 (87.3, 225.3)
+Age: >= 65 years, N	N=93	N=84	N=91
+LS Mean (SE)	-35.9 (27.6)	101.3 (29.2)	100.00 (26.8)
+LS Mean Difference
+vs. Placebo (95% CI)	137.2 (61.3, 213.2)	135.9 (62.9, 209.0)
+p-value	0.43	0.69
+Gender: Male, N	N=97	N=103	N=102
+LS Mean (SE)	-37.6 (27.5)	137.8 (26.0)	114.1 (24.9)
+LS Mean Difference
+vs. Placebo (95% CI)	175.4 (103.0, 247.7)	151.7 (80.6, 222.7)
+Gender: Female, N	N=111	N=102	N=95
+LS Mean (SE)	-51.9 (25.9)	93.4 (26.5)	87.1 (27.6)
+LS Mean Difference
+vs. Placebo (95% CI)	145.3 (75.7, 214.8)	139.0 (67.8, 210.2)
+p-value	0.56	0.80
+Race: White, N	N=188	N=186	N=171
+LS Mean (SE)	-50.0 (19.8)	114.8 (19.5)	108.4 (19.7)
+LS Mean Difference
+vs. Placebo (95% CI)	164.8 (112.2, 217.5)	158.4 (105.4, 211.4)
+Race: Others, N	N=20	N=19	N=26
+LS Mean (SE)	-2.1 (58.7)	118.2 (60.1)	58.1 (53.0)
+LS Mean Difference
+vs. Placebo (95% CI)	120.3 (-43.7, 284.3)	60.2 (-94.2, 214.6)
+p-value	0.61	0.24
+Pooled	Placebo	Rev 88 mcg	Rev 175 mcg
+Age: <65 years, N	N=219	N=233	N=202
+LS Mean (SE)	-25.40 (16.8)	90.8 (16.1)	120.4 (16.8)
+L215: LS Mean Difference
+vs. Placebo (95% CI)	116.2 (71.6, 160.8)	145.8 (100.1, 191.5)
+Age: >= 65 years, N	N=198	N=184	N=193
+LS Mean (SE)	-42.0 (18.2)	83.0 (17.8)	109.5 (17.2)
+LS Mean Difference
+vs. Placebo (95% CI)	125.1 (76.8, 173.3)	151.5 (103.9, 199.1)
+p-value	0.79	0.87
+Gender: Male, N	N=206	N=218	N=195
+LS Mean (SE)	-24.3 (17.7)	99.6 (16.4)	138.3 (16.9)
+LS Mean Difference
+vs. Placebo (95% CI)	122.8 (82.7, 163.0)	163.6 (122.5, 204.8)
+Gender: Female, N	N=211	N=199	N=200
+LS Mean (SE)	-41.5 (17.4)	73.2 (17.6)	90.9 (17.2)
+LS Mean Difference
+vs. Placebo (95% CI)	114.5 (73.6, 155.4)	133.3 (92.9, 173.7)
+p-value	0.79	0.37
+Race: White, N	N=379	N=380	N=350
+LS Mean (SE)	-36.1 (13.1)	91.2 (12.5)	121.5 (12.7)
+LS Mean Difference
+vs. Placebo (95% CI)	127.2 (92.9, 161.6)	157.5 (122.8, 192.2)
+Race: Others, N	N=38	N=37	N=45
+LS Mean (SE)	-6.3 (37.8)	37.3 (40.1)	60.1 (37.6)
+LS Mean Difference
+vs. Placebo (95% CI)	43.6 (-63.8, 151.0)	66.4 (-37.8, 170.6)
+p-value	0.15	0.10
+L216: N = Number of subjects; SE = Standard Error; CI = Confidence Interval
+L217: p-value indicates an interaction between the treatment effect and the subgroup variable for each dose
+L218: Source: Reviewer
+L219: **Figure 9: Subgroup Analysis: Studies 0126, 0127 and Pooled - Change from Baseline in Trough FEV1 (mL) on Day 85**
+L220: Bars represent 95% confidence intervals for the LS mean difference between revefenacin therapy and placebo in each subgroup.
+L221: Source: Reviewer
+L222: ## LS Mean Difference from Placebo by Subgroups: Trough FEV1 on Day 85 (mL) - Study 0127
+L223: Bars represent 95% confidence intervals for the LS mean difference between revefenacin therapy and placebo in each subgroup.
+L224: Source: Reviewer
+L225: ## LS Mean Difference from Placebo by Subgroups: Trough FEV1 on Day 85 (mL) - Studies Pooled
+L226: Bars represent 95% confidence intervals for the LS mean difference between retefenacin therapy and placebo in each subgroup.
+L227: Source: Reviewer
+L228: ## 4.2 Other Special/Subgroup Populations
+L229: This section includes efficacy analysis by other subgroups; smoking status, ICS use, reversibility to Ipratropium and/or Albuterol, percent predicted FEV1 and LABA/ICS use. All estimates were favorable, and most subgroups showed significantly greater mean changes from baseline in trough FEV1 on Day 85 for the retefenacin arms compared to placebo (Figure 10). Similar to the primary and previous subgroup analyses, the higher dose (retefenacin 175 mcg) did not provide
+L230: consistently greater efficacy than the lower dose (revefenacin 88 mcg) across the efficacy studies, but there were trends for greater efficacy with 175 mcg in Study 0126 and pooled studies.
+L231: **Figure 10: Other Subgroup Analysis: Studies 0126, 0127 and Pooled - Change from Baseline in Trough FEV1 (mL) on Day 85**
+L232: I=Ipratropium, A=Albuterol, P=Placebo, R=Revefenacin
+L233: Bars represent 95% confidence intervals for the LS mean difference between revefenacin therapy and placebo in each subgroup. (n indicates the size of the subgroup).
+L234: Source: Reviewer
+L235: ## LS Mean Difference from Placebo by Subgroups: Trough FEV1 on Day 85 (mL) - Study 0127
+L236: I=Ipratropium, A=Albuterol, P=Placebo, R=Revefenacin
+L237: Bars represent 95% confidence intervals for the LS mean difference between revefenacin therapy and placebo in each subgroup (n indicates the size of the subgroup).
+L238: Source: Reviewer
+L239: ## LS Mean Difference from Placebo by Subgroups: Trough FEV1 on Day 85 (mL) - Pooled Studies
+L240: I=Ipratropium, A=Albuterol, P=Placebo, R=Revefenacin
+L241: Bars represent 95% confidence intervals for the LS mean difference between revefenacin therapy and placebo in each subgroup (n indicates the size of the subgroup).
+L242: Source: Reviewer
+L243: ## 5 SUMMARY AND CONCLUSIONS
+L244: ## 5.1 Statistical Issues
+L245: During the review, I identified the following issues:
+L246: ## Estimands and effect of missing data
+L247: In the phase 3 efficacy studies (0126 and 0127), the primary estimand was not defined. FDA initially recommended considering the de facto estimand, i.e., the difference in mean trough FEV1 at 12 weeks, regardless of adherence to the assigned treatment. Since the applicant did not collect any lung function measures other than the terminal visit assessments from the subjects after they discontinued treatment, the applicant appeared to target an “on-treatment” estimand, such as the drug’s effect if all subjects remained on treatment (de jure estimand). Furthermore, the applicant included only “evaluable” outcomes in its analyses, an approach which is problematic if the interest is in the de facto estimand. To better estimate the de facto or treatment policy estimand, I carried out a sensitivity analysis using the Jump to Reference (J2R) approach to the missing data. This approach assumes subjects who drop out from both refevenacin arm and placebo arm would have had outcomes similar to those that were observed among completers in the placebo group. As a LAMA is known to be a symptom-relieving treatment rather than a disease-modifying treatment (so patients who discontinue refevenacin therapy would not be presumed to maintain any early treatment effect after stopping therapy), this underlying assumption in the J2R approach is considered plausible. Missing data from dropouts were imputed with trough FEV1 measurements from placebo completers (bootstrap sample with replacement was used to preserve correlation structure of the placebo completer trough FEV1 repeated measures). The rest of missing data such as intermittent missing or non-evaluable outcomes were imputed using the standard multiple imputations (MI) assuming an MAR assumption. The result (Table 15) continues to show a highly significant refevenacin effect on the primary endpoint over placebo, although the effect size estimates shrink relative to the primary analysis. For the efficacy estimate to reflect the expected average effect of assignment to refevenacin in a real world clinical practice setting, this alternative analysis targeting the treatment policy estimand should be considered.
+L248: **Table 15: Sensitivity Analysis Targeting the De Facto Estimand for Studies 0126 and 0127 (Jump to Reference Approach) - Change from Baseline Trough FEV1 (mL) on Day 85**
+L249: Study 0126	Study 0127
+Placebo
+N = 209	Rev
+88 mcg
+N = 212	Rev
+175 mcg
+N = 198	Placebo
+N = 208	Rev
+88 mcg
+N = 205	Rev
+175 mcg
+N = 197
+LS Mean	--	47.03	83.85	--	136.19	128.47
+Difference (SE)
+from Placebo	(14.13)	(14.41)	(23.38)	(23.58)
+95% CI for LS
+Mean Difference
+vs. Placebo	--	(19.3,
+74.7)	(55.6,
+112.1)	--	(90.37,
+182.01)	(82.26,
+174.69)
+L250: ## **p-value**
+## **vs. Placebo**
+L251: 0.0009
+L252: &lt; 0.0001
+L253: &lt;0.0001
+L254: &lt;0.0001
+L255: LS – Least Square, SE – Standard Error
+Source: Reviewer
+L256: The applicant also conducted tipping point analysis to explore the impact of missing data on the primary analysis using MMRM with an MAR assumption. Due to large dropout rates (22.9% and 20.9% for Study 0126 and Study 0127, respectively), I gave special attention to the tipping point analysis the applicant conducted. First, I noticed that the applicant's tipping point analyses assesses not only impact of missing data assumptions, but also impact of intercurrent events due to treatment discontinuation and non-evaluable outcomes. Secondly, I noticed that the primary analysis dataset contains a long-format type of the longitudinal measurements and some subjects had partial missing trough FEV1 baseline values, i.e., their baseline values are missing in visits where their Day 85 trough FEV1 change is missing. An example of such a subject is shown in Table 16. Subject (b) (6) has missing baseline trough FEV1 on Days 57, 84, 85 even though she or he had an evaluable baseline trough FEV1 (2,047 mL). In the applicant's analysis, the missing baseline FEV1 values were imputed in the multiple imputation steps, and the imputed values vary across the visits and differ from the existing baseline value within the subject. To fix this problem, I replaced missing baseline values with existing baseline values and reducted the tipping point analysis.
+L257: **Table 16: An Example of Applicant's Primary Analysis Data (ADFEV_IT) Format**
+(Subject (b) (6))
+L258: ID	Randomized Treatment	Visits	Baseline Trough FEV1 (mL)	Trough FEV1 Change (mL)
+(b) (6)	REV 88 mcg	Day 15	2047	286
+REV 88 mcg	Day 29	2047	87
+REV 88 mcg	Day 57	NA	NA
+REV 88 mcg	Day 84	NA	NA
+REV 88 mcg	Day 85	NA	NA
+L259: Source: Reviewer
+L260: My tipping point analysis calculated tipping point values of -158 mL for the refevenacin 88 mcg arm and -453 mL for the refevenacin 175 mcg arm (Study 0126), and -459 mL for the refevenacin 88 arm and -688 mL for the refevenacin 175 mcg arm (Study 0127). The result suggests that the missing data in the refevenacin 88 mcg arm dropouts in Study 0126 would have to show a decrease of 158 mL on average or lower (as compared to the LS mean increase by 59.8 mL) for the study's conclusion to change. In Study 0127, the missing data in the refevenacin 88 mcg arm dropouts would have to show a decrease of 453 mL on average or lower (as compared to the LS mean increase by 126.8 mL) for the study's conclusion to change. Similarly, the refevenacin 175 mcg arm dropouts' missing data in Study 0127 would have to have a decrease of 459 mL on average or lower (as compared to the LS mean increase of 115.6 mL) for the study's conclusion to change. In Study 0127, the refevenacin 175 mcg arm dropouts' missing data would have to have a decrease of 688 mL on average or lower for the study's conclusion to change.
+L261: These hypothetical situations are highly unlikely, and therefore, the primary analysis results in the efficacy study are robust to departures from the MAR assumption.
+L262: ## Misconduct at two clinical sites
+L263: Prior to the NDA submission, the applicant informed the Agency that suspected misconduct occurred at Site 38765 and 38740, where a total of 34 subjects were enrolled in Study 0127. The applicant stated that those subjects would be provided in the datasets but would not be included in any analyses. Given that the original plan was to carry out analyses in patients randomized at all sites, I performed sensitivity analyses that include those 34 subjects from sites suspected of study misconduct (Table 17) and found no change to the primary efficacy results. Thus, I do not believe that the potential misconduct affects the key study conclusions.
+L264: **Table 17: Sensitivity Analysis: Impact of Misconduct Sites (“38765” and “38740”) for Study 0127 - Change from Baseline Trough FEV1 (mL) on Day 85**
+L265: Sites “38765” and “38740”
+Included	Sites “38765” and “38740”
+Excluded
+Placebo
+N = 221	Rev
+88 mcg
+N = 215	Rev
+175 mcg
+N = 208	Placebo
+N = 208	Rev
+88 mcg
+N = 205	Rev
+175 mcg
+N = 197
+LS Mean
+(SE)	-42.3
+(18.0)	110.8
+(17.9)	97.0
+(17.9)	-44.9
+(18.8)	115.6
+(18.6)	102.9
+(18.5)
+LS Mean
+Difference (SE)
+from Placebo	--	153.1
+(24.3)	139.3
+(24.3)	--	160.5
+(25.5)	147.0
+(25.5)
+p-value
+vs. Placebo	< 0.0001	< 0.0001	< 0.0001	< 0.0001
+L266: Source: Reviewer
+L267: ## Safety evaluation
+L268: Finally, the applicant evaluated adverse events by comparing frequencies and proportions between arms. This approach is subject to potential bias because of the differing exposure times on the treatment arms. For example, it is apparent that dropout rates were higher for the revesfenacin arms compared to the tiotropium arm in Study 0128 (Table 3). Furthermore, mean duration of treatment exposure was lower for the revesfenacin arms (268 days and 260 days respectively) compared to the tiotropium arm (312 days). The proportions of patients remaining on study drug over time is visualized using a Kaplan-Meier curve (Figure 11).
+L269: Figure 11: Proportion of Subjects Adhering to Study Treatment in Study 0128
+L270: TRT01P: Randomized Treatment
+Source: Reviewer
+L271: Given the imbalance in treatment exposure time, the applicant's descriptive statistics (frequency and percentage of the adverse event) can be biased, as patients on revefenecin would be expected to have a lower raw cumulative incidence probability of a particular adverse event simply due to the lesser follow-up time, even if the true underlying rates were similar between revefenecin and tiotropium. For this reason, I focused on incidence rates, which account for the extent of exposure time, and utilized the difference in incidence rates of the TEAEs to compare treatment arms. My analyses suggested some meaningful insights, such as the potentially higher incidence of nasopharyngitis in the revefenacin arms compared to tiotropium.
+L272: ## 5.2 Collective Evidence
+L273: The collective evidence of this application supports the effectiveness of refevenacin 175 mcg, taken every day, for the treatment of airflow obstruction in patients with moderate to severe COPD. In Studies 0126 and 0127, treatment with refevenacin 175 mcg QD provided statistically significant mean differences over placebo of 146.3 mL (95% CI: 103.7, 188.8) and 147.0 mL (95% CI: 97.0, 197.1), respectively, for the primary endpoint, the change from baseline Day 85 trough FEV_1. Similarly, in both studies, refevenacin 175 mcg QD provided statistically significant differences in the key secondary endpoints, the change from baseline in trough FEV_1 overall treatment effect compared to placebo (Study 0126: 155.6 mL, 95% CI: (146.8, 164.5), Study 0127: 127.0 mL, 95% CI: (118.2, 135.8)) and the change from baseline in peak FEV_1 within the first two hours after the first dose on Day 1 compared to placebo (Study 0126: 132.7 mL, 95% CI: (107.0, 158.5), Study 0127: 128.6 mL, 95% CI: (102.3, 155.0)). The proportion of subjects who were responders, defined as a decrease of 4 or more points based on the St. George's Respiratory Questionnaire (SGRQ) Total Score at Day 85, was nominally statistically significant in Study 0126 for both refevenacin arms compared with placebo.
+L274: The long-term safety study (Study 0128) also provided some additional support for the effectiveness of refevenacin therapy, with similar improvements from baseline in trough FEV_1 for the 175 mcg dose relative to tiotropium, over the entire treatment period of 52 weeks. The overall changes from baseline in trough FEV_1 were, in general, numerically greater for the refevenacin 175 mcg group relative to the refevenacin 88 mcg group.
+L275: The detailed safety evaluation was conducted by the medical reviewer, Dr. Khalid Puthawala. I performed additional analyses to investigate the risk of adverse events further. The incidence of treatment-emergent adverse events was largely similar across treatment arms for Studies 0126 and 0127. While the frequency and percentage of subjects with TEAEs were similar in the refevenacin arms compared to tiotropium in Study 0128, the incidence of nasopharyngitis was higher for the refevenacin arms.
+L276: ## 5.3 Conclusions and Recommendations
+L277: The collective evidence from the two phase 3, randomized, double-blind, placebo-controlled studies supports the effectiveness of refevenacin 175 mcg for once-daily maintenance bronchodilator treatment of airflow obstruction in patients with moderate to severe COPD. The primary endpoint and first two key secondary endpoints are highly convincing of an effective product for the treatment of COPD. The exploratory efficacy evaluation conducted in study 0128 further support a treatment effect of refevenacin on COPD patients. There are no apparent safety issues that would outweigh the benefits. I recommend approval for this indication.
+L278: ## 5.4 Labeling Recommendations
+L279: Based on this review, I have the following recommendations on the applicant's proposed labeling:
+L280: (b) (4)
+L281: 1.
+L282: (b) (4)
+L283: 2.
+L284: 3.
+L285: ## APPENDICES
+L286: ## A.1 Truncated Hochberg Decision Rule
+L287: Consider a general problem of testing m null hypotheses denoted by H_1, \dots, H_m. Let p_1, \dots, p_m denote the associated raw p-values. Further, let p_{(1)} &lt; \dots &lt; p_{(m)} denote the ordered p-values and H_{(1)}, \dots, H_{(m)} denote the hypotheses corresponding to the ordered p-values. Finally, let \alpha denote the overall Type I error rate.
+L288: The regular Hochberg procedure is based on the following testing algorithm:
+L289: - Step 1: If p_{(m)} &gt; \alpha, accept H_{(m)} and go to Step 2, otherwise reject all null hypotheses and stop.
+- Step i = 2, \dots, m-1: If p_{(m-i+1)} &gt; \alpha/i, accept H_{(m-i+1)} and go to Step i+1, otherwise reject all remaining null hypotheses and stop.
+- Step m: If p_{(1)} &gt; \alpha/m, accept H_{(1)}, otherwise reject H_{(1)}.
+L290: The truncated Hochberg procedure is defined as a convex combination of the Bonferroni procedure and regular Hochberg procedure based on a pre-specified truncation parameter 0 \le \gamma \le 1 (Dmitrienko, Tamhane and Wiens, 2008). The truncated Hochberg procedure is based on the following testing algorithm:
+L291: - Step 1: If p_{(m)} &gt; (\gamma + (1-\gamma)/m) \alpha, accept H_{(m)} and go to Step 2, otherwise reject all null hypotheses and stop.
+- Step i = 2, \dots, m-1: If p_{(m-i+1)} &gt; (\gamma/i + (1-\gamma)/m) \alpha, accept H_{(m-i+1)} and go to Step i+1, otherwise reject all remaining null hypotheses and stop.
+- Step m: If p_{(1)} &gt; \alpha/m, accept H_{(1)}, otherwise reject H_{(1)}.
+L292: With \gamma = 0, the truncated Hochberg procedure simplifies to the Bonferroni procedure and, with \gamma = 1, the truncated Hochberg procedure simplifies to the regular Hochberg procedure.
+L293: Source: Excerpted from the Statistical Analysis Plan for Study 0126, 0127 (Appendix 16).
+L294: ## A.2 Additional Tables and Figures
+L295: **Table 18: Subject Demographics and Baseline Characteristics for Study 0126 (ITT Population)**
+L296: Placebo
+(N = 209)
+n (%)	Rev 88 mcg
+(N = 212)
+n (%)	Rev 175 mcg
+(N = 198)
+n (%)	Total
+(N = 619)
+n (%)
+Age (Years)	
+Mean (SD)	64.3 (9.12)	63.7 (8.90)	64.2 (8.60)	64.1 (8.87)
+< 65 years	104 (49.8)	112 (52.8)	96 (48.5)	312 (50.4)
+≥ 65 years	105 (50.2)	100 (47.2)	102 (51.5)	307 (49.6)
+Sex	
+Male	109 (52.2)	115 (54.2)	93 (47.0)	317 (51.2)
+Female	100 (47.8)	97 (45.8)	105 (53.0)	302 (48.8)
+Race	
+White	191 (91.4)	194 (91.5)	179 (90.4)	564 (91.1)
+African American	17 (8.1)	16 (7.5)	16 (8.1)	49 (7.9)
+Asian	0	1 (0.5)	2 (1.0)	3 (0.5)
+Multiple Race	1 (0.5)	1 (0.5)	1 (0.5)	3 (0.5)
+Smoking Status	
+Current Smoker	103 (49.3)	102 (48.1)	96 (48.5)	301 (48.6)
+Former Smoker	106 (50.7)	110 (51.9)	102 (51.5)	318 (51.4)
+Current LABA or ICS/LABA Use	
+Yes	72 (34.)	70 (33.0)	79 (39.9)	229 (37.0)
+No	137 (65.6)	142 (67.0)	119 (60.1)	390 (63.0)
+Screening GOLD Airflow Limitation Category	
+GOLD Airflow Category 1
+(≥80%)	1 (0.50)	0	0	1 (0.2)
+GOLD Airflow Category 2
+(≥50%, <80%)	137 (65.6)	141 (66.5)	132 (66.7)	410 (66.2)
+GOLD Airflow Category 3
+(≥30%, <50%)	62 (29.7)	67 (31.6)	51 (25.8)	180 (29.1)
+GOLD Airflow Category 4
+(<30%)	9 (4.3)	4 (1.9)	15 (7.6)	28 (4.5)
+L297: ## **Subjects with Exacerbations
+## in Past 12 Months, n (%)**
+L298: 0 Exacerbations	175 (83.7)	165 (77.8)	160 (80.8)	500 (80.8)
+1 Exacerbation	27 (12.9)	38 (17.9)	32 (16.2)	97 (15.7)
+\ge2 Exacerbations	7 (3.3)	9 (4.2)	6 (3.0)	22 (3.6)
+L299: ## **Screening GOLD
+## Category**
+L300: GOLD Airflow Category A	16 (7.7)	14 (6.6)	23 (11.6)	53 (8.6)
+GOLD Airflow Category B	122 (58.4)	126 (59.4)	108 (54.5)	356 (57.5)
+GOLD Airflow Category C	5 (2.4)	3 (1.4)	3 (1.5)	11 (1.8)
+GOLD Airflow Category D	65 (31.1)	68 (32.1)	62 (31.3)	195 (31.5)
+Missing	1 (0.5)	1 (0.5)	2 (1.0)	4 (0.6)
+L301: ## **Reversibility Category**
+L302: Not reversible to either
+Ipratropium or Albuterol	79 (37.8)	75 (35.4)	73 (36.9)	227 (36.7)
+Reversible to Ipratropium
+and not Albuterol	73 (34.9)	63 (29.7)	53 (26.8)	189 (30.5)
+Reversible to Ipratropium
+and not Albuterol	16 (7.7)	26 (12.3)	25 (12.6)	67 (10.8)
+Reversible to both
+Ipratropium and Albuterol	41 (19.6)	48 (22.6)	47 (23.7)	136 (22.0)
+L303: ## **Baseline FEV1 (L)**
+L304: Mean (SD)	1.36 (0.517)	1.39 (0.538)	1.26 (0.427)	1.34 (0.500)
+L305: ## **Baseline SGRQ**
+L306: n	
+209	210	194	-
+Mean (SD)	49.73 (17.62)	49.43 (17.14)	46.89 (19.09)	-
+L307: Source: Excerpted from the Clinical Study Report for Study 0126 (pages 81-84).
+L308: **Table 19: Subject Demographics and Baseline Characteristics for Study 0127 (ITT Population)**
+L309: Placebo
+(N = 208)
+n (%)	Rev 88 mcg
+(N = 205)
+n (%)	Rev 175 mcg
+(N = 197)
+n (%)	Total
+(N = 611)
+n (%)
+Age (Years)	
+Mean (SD)	63.5 (8.91)	63.1 (8.81)	64.2 (8.60)	63.4 (8.95)
+< 65 years	115 (55.3)	121 (59.0)	96 (48.5)	342 (56.1)
+≥ 65 years	93 (44.7)	84 (41.0)	102 (51.5)	268 (43.9)
+Sex	
+Male	97 (46.6)	103 (50.2)	102 (51.8)	302 (49.5)
+Female	111 (53.4)	102 (49.8)	95 (48.2)	308 (50.5)
+Race	
+White	188 (90.4)	186 (90.7)	171 (86.8)	545 (89.3)
+African American	20 (9.6)	17 (8.3)	21 (10.7)	58 (9.5)
+Asian	0	1 (0.5)	2 (1.0)	3 (0.5)
+American Indian	0	0	1 (0.5)	1 (0.2)
+Multiple Race	0	1 (0.5)	2 (1.0)	3 (0.5)
+Smoking Status	
+Current Smoker	95 (45.7)	97 (47.3)	94 (47.7)	286 (46.9)
+Former Smoker	113 (54.3)	108 (52.7)	103 (52.3)	324 (53.1)
+Current LABA or ICS/LABA Use	
+Yes	73 (35.1)	77 (37.6)	74 (37.6)	224 (36.7)
+No	135 (64.9)	128 (62.4)	123 (62.4)	386 (63.3)
+Subjects with Exacerbations in Past 12 Months, n (%)	
+0 Exacerbations	148 (71.2)	145 (70.7)	148 (75.1)	441 (72.3)
+1 Exacerbation	33 (15.9)	44 (21.5)	34 (17.3)	111 (18.2)
+≥2 Exacerbations	27 (13.0)	16 (7.8)	15 (7.6)	58 (9.5)
+Screening GOLD Category	
+GOLD Airflow Category A	15 (7.2)	12 (5.9)	12 (6.1)	39 (6.4)
+GOLD Airflow Category B	113 (54.3)	113 (55.1)	106 (53.8)	332 (54.4)
+GOLD Airflow Category C	3 (1.4)	4 (2.0)	9 (4.6)	16 (2.6)
+GOLD Airflow Category D	76 (36.5)	76 (37.1)	70 (35.5)	222 (36.4)
+L310: Missing	1 (0.5)	0	0	1 (0.2)
+Reversibility Category
+Not reversible to either Ipratropium or Albuterol	86 (41.3)	92 (44.9)	79 (40.1)	257 (42.1)
+Reversible to Ipratropium and not Albuterol	59 (28.4)	49 (23.9)	54 (27.4)	162 (26.6)
+Reversible to Ipratropium and not Albuterol	22 (10.6)	18 (8.8)	25 (12.7)	65 (10.7)
+Reversible to both Ipratropium and Albuterol	41 (19.7)	46 (22.4)	39 (19.8)	126 (20.7)
+Baseline FEV1 (L)
+208
+n
+Mean (SD)	204
+n
+Mean (SD)	197
+n
+Mean (SD)	609
+n
+Mean (SD)
+1.36 (0.517)	1.34 (0.511)	1.29 (0.463)	1.30 (0.487)
+Baseline SGRQ
+207
+n
+Mean (SD)	205
+n
+Mean (SD)	196
+n
+Mean (SD)	-
+49.35 (16.96)	50.64 (17.96)	48.68 (17.26)	-
+L311: Source: Excerpted from the Clinical Study Report for Study 0127 (pages 80-83).
+L312: Table 20: Subject Demographics and Baseline Characteristics for Study 0128 (Safety Analysis Set)
+L313: Tiotropium
+(N = 356)
+n (%)	Rev 88 mcg
+(N = 364)
+n (%)	Rev 175 mcg
+(N = 335)
+n (%)	Total
+(N = 1055)
+n (%)
+Age (Years)	
+Mean (SD)	64.9 (8.91)	64.1 (9.36)	64.4 (8.61)	64.4 (8.97)
+< 65 years	163 (45.8)	183 (50.3)	167 (49.9)	513 (48.6)
+≥ 65 years	193 (54.2)	181 (49.7)	168 (50.1)	542 (51.4)
+Sex	
+Male	214 (60.1)	206 (56.6)	196 (58.5)	616 (58.4)
+Female	142 (39.9)	158 (43.4)	139 (41.5)	439 (41.6)
+Race	
+White	331 (93.0)	337 (92.6)	309 (92.2)	977 (92.6)
+African American	24 (6.7)	24 (6.6)	21 (6.3)	69 (6.5)
+Asian	1 (0.3)	1 (0.3)	2 (0.6)	4 (0.4)
+Multiple Race	0	1 (0.3)	2 (0.6)	3 (0.3)
+Smoking Status	
+Current Smoker	167 (46.9)	171 (47.0)	151 (45.1)	489 (46.4)
+Former Smoker	189 (53.1)	193 (53.0)	184 (54.9)	566 (53.6)
+Current LABA or ICS/LABA Use	
+Yes	180 (50.6)	182 (50.0)	166 (49.6)	560 (53.1)
+No	176 (49.4)	182 (50.0)	169 (50.4)	495 (46.9)
+Screening GOLD Airflow Limitation Category	
+GOLD Airflow Category 1
+(≥80%)	0	0	0	0
+GOLD Airflow Category 2
+(≥50%, <80%)	210 (59.0)	222 (61.0)	201 (60.0)	633 (60.0)
+GOLD Airflow Category 3
+(≥30%, <50%)	124 (34.8)	122 (33.5)	109 (32.5)	355 (33.6)
+GOLD Airflow Category 4
+(<30%)	22 (6.2)	20 (5.5)	25 (7.5)	67 (6.4)
+Screening GOLD Category	
+GOLD Airflow Category A	23 (6.5)	31 (8.5)	22 (6.6)	76 (7.2)
+L314: GOLD Airflow Category B	185 (52.0)	191 (52.5)	176 (52.6)	552 (52.3)
+GOLD Airflow Category C	5 (1.4)	7 (1.9)	7 (2.1)	19 (1.8)
+GOLD Airflow Category D	139 (39.0)	135 (37.1)	126 (37.6)	400 (37.9)
+Missing	4 (1.1)	0	4 (1.2)	8 (0.8)
+Reversibility to Ipratropium
+Reversible to Ipratropium	177 (49.7)	187 (51.4)	169 (50.4)	533 (50.5)
+Not Reversible to Ipratropium	179 (50.3)	177 (48.6)	166 (49.6)	522 (49.5)
+Baseline FEV1 (L)
+1.31 (0.493)	1.35 (0.515)	1.34 (0.487)	1.33 (0.499)
+Mean (SD)	
+Baseline SGRQ
+n
+Mean (SD)	346
+65.60 (18.47)	350
+63.46 (19.22)	315
+64.48 (20.14)	-
+-
+Subjects with Exacerbations in Past 12 Months, n (%)
+0 Exacerbations	275 (77.2)	277 (76.1)	255 (76.1)	807 (76.5)
+1 Exacerbation	53 (14.9)	60 (16.5)	52 (15.5)	165 (15.6)
+≥2 Exacerbations	28 (7.9)	27 (7.4)	28 (8.4)	83 (7.9)
+L315: Source: Excerpted from the Clinical Study Report for Study 0128 (pages 74-77).
+L316: **Table 21: Two-Dimensional Tipping Point Analysis for Studies 0126 and 0127**
+L317: 0126	Shift Parameters in Missing Trough FEV1 (mL) Changes - Revefenacin 88 mcg
+-1000	-900	-800	-700	-600	-500	-400	-300	-200	-100	0
+Shift Parameters in Missing Trough FEV1 (mL) Changes - placebo	-1000	0.001	0.0001	0	0	0	0	0	0	0	0	0
+-900	0.0043	0.0007	0	0	0	0	0	0	0	0	0
+-800	0.0168	0.0033	0.0004	0	0	0	0	0	0	0	0
+-700	0.0607	0.0153	0.0026	0.0003	0	0	0	0	0	0	0
+-600	0.19	0.0627	0.014	0.002	0.0002	0	0	0	0	0	0
+-500	0.4865	0.2151	0.0666	0.0132	0.0015	0	0	0	0	0	0
+-400	0.9722	0.5735	0.2512	0.0735	0.0129	0.0013	0	0	0	0	0
+-300	0.5055	0.8708	0.6888	0.3042	0.0858	0.0137	0.0012	0	0	0	0
+-200	0.1629	0.3544	0.6926	0.8392	0.3832	0.1076	0.0164	0.0013	0	0	0
+-100	0.0324	0.0871	0.2216	0.506	0.9733	0.4998	0.1463	0.0227	0.0018	0	0
+0	0.004	0.0125	0.0397	0.1212	0.3328	0.759	0.6639	0.2139	0.0367	0.0034	0.0002
+L318: Shift Parameters in Missing Trough FEV1 (mL) Changes - Revefenacin 175 mcg
+Shift Parameters in Missing Trough FEV1 (mL) Changes - placebo	Shift Parameters in Missing Trough FEV1 (mL) Changes - Revefenacin 175 mcg
+0126	-1000	-900	-800	-700	-600	-500	-400	-300	-200	-100	0
+-1000	0	0	0	0	0	0	0	0	0	0	0
+-900	0	0	0	0	0	0	0	0	0	0	0
+-800	0	0	0	0	0	0	0	0	0	0	0
+-700	0	0	0	0	0	0	0	0	0	0	0
+-600	0	0	0	0	0	0	0	0	0	0	0
+-500	0.0008	0	0	0	0	0	0	0	0	0	0
+-400	0.0063	0.0009	0	0	0	0	0	0	0	0	0
+-300	0.0408	0.0086	0.0011	0	0	0	0	0	0	0	0
+-200	0.1918	0.0628	0.0132	0.0016	0	0	0	0	0	0	0
+-100	0.5984	0.2967	0.1043	0.0229	0.0027	0.0002	0	0	0	0	0
+0	0.7853	0.8439	0.4666	0.1843	0.0456	0.0061	0.0004	0	0	0	0
+L319: Shift Parameters in Missing Trough FEV1 (mL) Changes - Revefenacin 88 mcg
+Shift Parameters in Missing Trough FEV1 (mL) Changes - placebo	Shift Parameters in Missing Trough FEV1 (mL) Changes - Revefenacin 88 mcg
+0127	-1000	-900	-800	-700	-600	-500	-400	-300	-200	-100	0
+-1000	0	0	0	0	0	0	0	0	0	0	0
+-900	0	0	0	0	0	0	0	0	0	0	0
+-800	0.0007	0	0	0	0	0	0	0	0	0	0
+-700	0.0027	0.0003	0	0	0	0	0	0	0	0	0
+-600	0.0101	0.0015	0.0001	0	0	0	0	0	0	0	0
+-500	0.0359	0.0069	0.0008	0	0	0	0	0	0	0	0
+-400	0.1124	0.0292	0.0046	0.0004	0	0	0	0	0	0	0
+-300	0.2967	0.1048	0.0235	0.0029	0.0002	0	0	0	0	0	0
+-200	0.6363	0.304	0.0992	0.0192	0.0019	0	0	0	0	0	0
+-100	0.9085	0.6821	0.3173	0.0964	0.0163	0.0013	0	0	0	0	0
+0	0.4782	0.8257	0.7395	0.3391	0.0979	0.0151	0.0011	0	0	0	0
+L320: Shift Parameters in Missing Trough FEV1 (mL) Changes - Revefenacin 175 mcg
+Shift Parameters in Missing Trough FEV1 (mL) Changes - placebo	Shift Parameters in Missing Trough FEV1 (mL) Changes - Revefenacin 175 mcg
+0127	-1000	-900	-800	-700	-600	-500	-400	-300	-200	-100	0
+-1000	0	0	0	0	0	0	0	0	0	0	0
+-900	0	0	0	0	0	0	0	0	0	0	0
+-800	0	0	0	0	0	0	0	0	0	0	0
+-700	0	0	0	0	0	0	0	0	0	0	0
+-600	0	0	0	0	0	0	0	0	0	0	0
+-500	0.0044	0.0008	0	0	0	0	0	0	0	0	0
+-400	0.0181	0.004	0.0006	0	0	0	0	0	0	0	0
+-300	0.0658	0.019	0.0039	0.0005	0	0	0	0	0	0	0
+-200	0.1991	0.0759	0.0211	0.004	0.0005	0	0	0	0	0	0
+-100	0.4805	0.2401	0.0918	0.0252	0.0046	0.0006	0	0	0	0	0
+0	0.9096	0.5782	0.298	0.1169	0.0327	0.0061	0.0008	0	0	0	0
+L321: Cell contents are p-values. The yellow highlighted area and below the area represent the tipping-point boundary.
+Source: Applicant's Response to Information Request (May 24th, 2018)
+L322: This is a representation of an electronic record that was signed electronically. Following this are manifestations of any and all electronic signatures for this electronic record.
+L323: /s/
+L324: DONG-HYUN N AHN
+07/13/2018
+L325: YONGMAN KIM
+07/13/2018
+I concur.
+L326: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Science
+Office of Biostatistics
+L327: FDA Seal for Drug Evaluation and Research
+L328: ## Statistical Review and Evaluation
+L329: ## CARCINOGENICITY STUDY
+L330: IND/NDA Number:	NDA 210598
+Drug Name:	Revefenacin, TD-4208
+Indication(s):	Treatment of COPD.
+Studies	Two Year Inhalation Carcinogenicity Study of a Nebulized Aerosol Formulation in the Albino Rat and Mouse.
+Applicant:	Sponsor: Theravance Biopharma R&D, Inc.
+c/o Theravance Biopharma US, Inc.
+901 Gateway Boulevard
+South San Francisco, CA 94080 USA
+Test facility:	(b) (4)
+Documents Reviewed:	Electronic submission, dated: November 17, 2017 via SN0001
+Electronic data submitted on November 17, 2017 via SN0001.
+Review Priority:	Standard
+Biometrics Division:	Division of Biometrics -VI
+Statistical Reviewer:	Malick Mbodj, Ph.D.
+Secondary Reviewer:	Hepei Chen
+Concurring Reviewer:	Karl Lin, Ph.D.
+Medical Division:	Division of Pulmonary, Allergy, and Rheumatology Products
+Reviewing Pharmacologist:	Eleni Salicru, PhD
+Project Manager:	Phuong (Nina) Ton, Pharm.D.
+Keywords:	Carcinogenicity, Dose response
+L331: ## **Table of Contents**
+L332: 1. Background	3
+2. Rat Study	3
+2.1. Sponsor's analyses	4
+2.1.1. Survival analysis	4
+Sponsor's findings	4
+2.1.2. Tumor data analysis	4
+Adjustment for the multiplicity:	5
+Sponsor's findings	5
+2.2. Reviewer's analyses	5
+2.2.1. Survival analysis	5
+Reviewer's findings:	5
+2.2.2. Tumor data analysis	6
+Multiple testing adjustments:	6
+Reviewer's findings:	6
+3. Mouse Study	7
+3.1. Sponsor's analyses	8
+3.1.1. Survival analysis	8
+Sponsor's findings	8
+3.1.2. Tumor data analysis	8
+Sponsor's findings	8
+3.2. Reviewer's analyses	9
+3.2.1. Survival analysis	9
+Reviewer's findings	9
+3.2.2. Tumor data analysis	9
+Multiple testing adjustment:	9
+Reviewer's findings:	9
+4. Summary	10
+Rat Study:	10
+Mouse Study:	11
+5. Appendix	12
+6. References:	32
+L333: ## 1. Background
+L334: In this submission, the sponsor included reports of two animal carcinogenicity studies, one in regular rats and one in regular mice. These studies were intended to assess the carcinogenic potential of a nebulized aerosol formulation of revefenacin (TD-4208), when given by daily inhalation administration for 104 consecutive weeks to rats and to mice. Results of this review have been discussed with the reviewing pharmacologist Dr. Salicru.
+L335: In this review, the phrase "dose response relationship" (trend) refers to the linear component of the effect of treatment, and not necessarily to a strictly increasing or decreasing mortality or tumor incidence rate as dose increases.
+L336: ## 2. Rat Study
+L337: In this study two separate experiments were conducted, one in male rats and one in female rats. In each of these two experiments there were three treated groups and one reference control group. Two hundred and forty Sprague-Dawley rats of each sex were assigned to three treated groups and one reference control group by a stratified randomization scheme designed to achieve similar group mean body weights in equal size of 60 animals, as indicated in Table 1. The target dose levels for treated groups were 30, 100, and 300 µg/kg/day for both male and female rats. In this review, these dose groups were referred to as the low, medium, and high dose group, respectively. The reference control group was exposed to Reference Item only [10 mM citrate buffered saline solution, pH 5.0 \pm 0.1], administered by daily inhalation for about 104 weeks in the same manner as the treated groups.
+L338: **Table 1: Experimental Design in Rat Study**
+L339: Group Name	Group N0.	Dose Level (µg/kg/day)	Number of Animal
+Male	Female	Males	Females
+Reference control	1	0	0	60	60
+Low	2	30	30	60	60
+Medium	3	100	100	60	60
+High	4	300	300	60	60
+L340: During the administration period, all animals were checked for morbidity, mortality, injury, twice daily, once in the morning and once in the afternoon. Animals were not removed from cage during observation, unless necessary for identification or confirmation of possible findings. The animals were removed from the cage, and detailed observations were conducted for each animal weekly, beginning during Week 1. The presence of palpable masses was observed during the detailed examination; the site, size and appearance of these masses were recorded when first detected and, following this initial description, the presence or disappearance of these masses were monitored. The observations included, but were not limited to, evaluation of the skin, fur, eyes, ears, nose, oral cavity, thorax, abdomen, external genitalia, limbs and feet, respiratory and circulatory effects, autonomic effects such as salivation, and nervous system effects including tremors, convulsions, reactivity to handling, and unusual behavior, and the palpation of masses. Any animal showing signs of severe debility or intoxication, and if determined to be moribund or suffering excessively will be euthanized. All animals were subjected to a complete necropsy examination, which included evaluation of the carcass and musculoskeletal system; all external surfaces and orifices; cranial cavity and external surfaces of the brain; and thoracic, abdominal, and pelvic cavities with their associated organs and tissues. Histopathological examinations were performed on all animals found dead, killed moribund, or sacrificed at the end of the experiment, all suspected tumors were diagnosed, and the incidences of benign and malignant tumors of different cell types in the various treatment groups were tabulated. Body weights of individual animals were recorded weekly, for the first
+L341: 14 weeks, starting during the last week of the prestudy period, and then monthly thereafter, as well as on the day of necropsy. Terminal body weights were not collected from animals found dead or euthanized moribund
+L342: ## 2.1. Sponsor's analyses
+L343: ## 2.1.1. Survival analysis
+L344: The Kaplan-Meier's curves were presented graphically for male and female rats separately. An overall test for survival was used to compare the homogeneity of survival rates across the groups using a log-rank test at the 0.05 significance level. If the survival rates were significantly different (p &lt; 0.05), then a follow up analysis was done where the significance of a dose-related trend in mortality across all groups was evaluated using Tarone's method. Using the Multtest procedure (SAS/STAT), Tarone's test will be implemented as a Peto two-sided test, with all uncensored deaths coded as 2 and all censored deaths coded as 0. The corresponding arithmetic dose level scores was used to perform this overall trend test. Furthermore, the reference control group was compared to each of the other three groups using a Peto two-sided test.
+L345: Any animal with accidental injury that causes its death or its unscheduled sacrifice was censored in the estimation. In addition, all animals still alive at the end of the experimental period were censored at the following day. Results of all pair-wise comparisons are reported at the 0.05 and 0.01 significance levels. All endpoints were analyzed using two-tailed tests.
+L346: ## Sponsor's findings:
+L347: Sponsor's analysis showed the numbers of rats surviving to their terminal necropsy were 26 (43%), 33 (55%), 29 (48%), and 28 (47%) in the reference control group, low, medium, and high dose groups, in male rats, respectively, and 21 (35%), 29 (48%), 31 (52%) and 24 (40%) in reference control, low, medium, and high dose groups, in female rats, respectively. The sponsor's report showed no significance at the 5% level using a log-rank test, for both male and female datasets, with p-value = 0.7020 and p-value = 0.3616 respectively. Therefore, no post-hoc testing was done for these datasets, i.e. neither the trend test nor the pairwise comparisons were performed.
+L348: ## 2.1.2. Tumor data analysis
+L349: The statistical evaluation of tumor data was done separately for each sex and limited to subcutis and hemolymphoreticular tissue using all study animals, to all non-secondary neoplastic lesions found in study plan -required tissues/sites, and to the combination of hemangiosarcoma findings across whole body.
+L350: Tumor incidence data were analyzed within each sex, via Peto's method, without continuity correction, incorporating the context (incidental or fatal, or mortality-independent) in which tumors were observed. Neoplastic lesions designated as palpable and found under study plan-required glands were statistically analyzed in a "mortality independent" context according to Peto's onset rate using all study animals. Whereas, non-palpable neoplastic findings classified as fatal and incidental were statistically analyzed in a "mortality dependent" context according to Peto's prevalence and death rate methods.
+L351: The incidence of each tumor type was analyzed with a one-sided trend test using the positive dose response relationship in tumor occurrence across reference control and treated groups. In addition, one-
+L352: sided pairwise comparisons of reference control and treated groups were conducted. The analysis of tumors was based on the following fixed time intervals: Weeks 1-52, 53-78, 79-92, 93-104, and terminal sacrifice for male and female rats. The actual dose levels were used as the scores.
+L353: For the calculation of p-values, if there were less than 10 tumor bearing animals across all treatment groups for a given tumor type, the exact tests based on the discrete permutation distribution were used and asymptotic tests were used for tumor types with higher incidences.
+L354: ## Adjustment for the multiplicity:
+L355: For multiplicity adjustment, the sponsor used significance levels of 0.005 and 0.025 for common (historical incidence of more than 1%) and rare tumors, respectively in dose response relationship (trend) tests and significance levels of 0.01 and 0.05 for common and rare tumors, respectively in pairwise comparisons. Site-specific background historical control database was used to determine whether the tumors should be designated as rare or common.
+L356: ## Sponsor's findings:
+L357: Following the multiple testing adjustment method described above, the sponsor's analysis showed no tumor types with a statistically significant dose response relationship in tumor incidences with increased TD-4208 dose. The pairwise comparisons showed statistically significant increases at 5% level in the low dose group for the incidences of c-cell adenoma in the thyroid gland, when compared to the reference control group in female rats (p-value =0.0344), however based on the recommendations of Lin and Rahman, this tumor incidence rate was not considered to be significant because this tumor type was classified as common (p-value &gt; 0.01).
+L358: ## 2.2 Reviewer's analyses
+L359: To verify sponsor's analysis and to perform additional analyses suggested by the reviewing pharmacologist, this reviewer independently performed the survival and tumor data analyses. Data used in this reviewer's analyses were provided by the sponsor electronically on November 17, 2017 via SN0001.
+L360: ## 2.2.1 Survival analysis
+L361: In the reviewer's analysis, intercurrent mortality data were analyzed using the Kaplan-Meier product limit method. The Kaplan-Meier's curves were presented graphically for male and female rats separately. The dose response relationship and homogeneity of survival distributions were tested for the treatment groups using the Likelihood Ratio test and the Log-Rank test. The intercurrent mortality data are given in Tables 1A and 1B in the appendix for male and female rats, respectively. The Kaplan-Meier curves for survival rate are given in Figures 1A and 1B in the appendix for male and female rats, respectively. Results of the tests for dose response relationship and homogeneity of survivals, are given in Tables 2A and 2B in the appendix for male and female rats, respectively.
+L362: ## Reviewer's findings:
+L363: This reviewer's analysis showed the numbers of rats surviving to their terminal necropsy were 26 (43%), 33 (55%), 29 (48%), and 28 (47%) in the reference control group, low, medium, and high dose groups, in male rats, respectively, and 21 (35%), 29 (48%), 31 (52%) and 24 (40%) in reference control, low, medium, and high dose groups, in female rats, respectively. This reviewer's analysis showed no statistically significant increase or decrease in mortality across the reference control group and the three
+L364: treated groups in either sex of rats. The pairwise comparisons showed no statistically significant increase or decrease in mortality between each of the treated groups and the reference control group in either sex of rats.
+L365: ## 2.2.2. Tumor data analysis
+L366: In the reviewer's analysis, the tumor data were analyzed for dose response relationship across reference control group and the treated groups, as well as the pairwise comparisons of reference control group with each of the treated groups using the Poly-k method described in the paper of Bailar and Portier (1988) and Bieler and Williams (1993). In this method, an animal that lives the full study period (w_{max}) or dies before the terminal sacrifice with development of the tumor type being tested gets a score of s_h = 1. An animal that dies at Week w_h without development of the given tumor type before the end of the study gets a
+L367: score of s_h = \left(\frac{w_h}{w_{max}}\right)^k &lt; 1. The adjusted group size is defined as \Sigma s_h. As an interpretation, an animal with
+L368: score s_h = 1 can be considered as a whole animal, while an animal with score s_h &lt; 1 can be considered as a partial animal. The adjusted group size \Sigma s_h is equal to N (the original group size) if all animals live up to the end of the study or if each animal develops the given tumor being tested, otherwise the adjusted group size is less than N. These adjusted group sizes are then used for the dose response relationship (or the pairwise comparison) tests using the Cochran-Armitage test. One critical point for Poly-k test is the choice of the appropriate value of k. For long term 104-week standard rat and mouse studies, a value of k=3 is suggested in the literature [Gebregziabher and Hoel (2009), Moon et al. (2003), Portier, et al. (1986)]. Hence, this reviewer used k=3 for the analysis of the data. Based on the intent to treat (ITT) principle W_{max} was considered as 105 for both male and female rats.
+L369: For the calculation of p-values, if there were less than 10 tumor bearing animals across all treatment groups for a given tumor type, the exact tests based on the discrete permutation distribution were used, with dose levels (0, 30, 100, and 300 for both male and female rats) as scores, and asymptotic tests were used for tumor types with higher incidences. The tumor rates and the p-values of the tested tumor types are listed in Tables 3A and 3B in the appendix for male rats and female rats, respectively.
+L370: ## Multiple testing adjustments:
+L371: Following the FDA more recently revised draft guidance for the carcinogenicity study design and data analysis, for the two-year rat study this reviewer used significance levels of 0.005 and 0.025 for common and rare tumors, respectively in dose response relationship (trend) tests and significance levels of 0.01 and 0.05 for common and rare tumors, respectively in pairwise comparisons.
+L372: A tumor is defined as a rare tumor if the published spontaneous rate or the spontaneous rate of the reference control of the tumor is less than 1%, and a common tumor is defined as one with tumor rate greater than or equal to 1%.
+L373: ## Reviewer's findings:
+L374: The tumor types with p-values less than 0.05 for dose response relationship and/or pairwise comparisons of reference control and treated groups are reported in Table 2.
+L375: Table 2: Tumor Types with P-Values \le 0.05 for Dose Response Relationship or the pairwise Comparisons Treated Groups and Reference control Group in Rats
+L376: Sex	Organ Name	Tumor Name	0 \mu\text{g}/\text{kg}
+Veh. Cont.
+(N=60)
+P - Trend	30 \mu\text{g}/\text{kg}
+Low
+(N=60)
+P - RC vs. L	100 \mu\text{g}/\text{kg}
+Med
+(N=60)
+P - RC vs. M	300 \mu\text{g}/\text{kg}
+High
+(N=60)
+P - RC vs. H
+Female	Gland Thyroid	C-Cell
+Adenoma/Carcinoma	4/60 (44)
+0.5852	13/60 (47)
+0.0212@	8/60 (48)
+0.2224	7/60 (45)
+0.2739
+L377: &amp; X/ZZ (YY): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L378: @: not statistically significant at 0.01 for common tumors in pairwise comparisons.
+L379: Following the multiple testing adjustment method described above, this reviewer's analyses showed no tumor types with a statistically significant dose response relationship in tumor incidences with increased TD-4208 dose in either sex of rats. The pairwise comparisons also showed no tumor types with a statistically significant increase in tumor incidences in TD-4208 treated groups, when compared to the reference control group in either sex of rats.
+L380: ## 3. Mouse Study
+L381: Two separate experiments were conducted, one in male mice and one in female mice. Two hundred sixty CD-1 mice of each sex were assigned randomly to one of the four groups which included three treated groups and one reference control group in equal size of 65 animals, as indicated in Table 3. The target dose levels for treated groups were 30, 100, and 300 \mu\text{g}/\text{kg}/\text{day} for both male and female mice. In this review, these dose groups would be referred to as the low, medium, and high dose group, respectively. The reference control group was exposed to reference item only [10 mM citrate buffered saline solution, pH 5.0 \pm 0.1], administered by daily inhalation for about 104 weeks (730 days for male, 728 days for female) in the same manner as the treated groups.
+L382: Table 3: Experimental Design in Mouse Study
+L383: Group Name	Group N0.	Dose Level (\mu\text{g}/\text{kg}/\text{day})	Number of Animal
+Male	Female	Males	Females
+Reference control	1	0	0	65	65
+Low	2	30	30	65	65
+Medium	3	100	100	65	65
+High	4	300	300	65	65
+L384: All animals were dosed for up to 728 consecutive days (females) or 730 consecutive days (males)
+L385: During the administration period, all animals were checked for morbidity, mortality, injury, twice daily, once in the morning and once in the afternoon. Animals were not removed from cage during observation, unless necessary for identification or confirmation of possible findings. The animals were removed from the cage, and detailed observations were conducted for each animal weekly, beginning during Week 1. The presence of palpable masses was observed during the detailed examination; the site, size and appearance of these masses were recorded when first detected and, following this initial description, the presence or disappearance of these masses were monitored. Any animal showing signs of severe debility or intoxication, and if determined to be moribund or suffering excessively will be euthanized. All animals were subjected to a complete necropsy examination, which included evaluation of the carcass and musculoskeletal system; all external surfaces and orifices; cranial cavity and external surfaces of the brain; and thoracic, abdominal, and pelvic cavities with their associated organs and tissues.
+L386: Histopathological examinations were performed on all animals found dead, killed moribund, or sacrificed at the end of the experiment, all suspected tumors were diagnosed, and the incidences of benign and malignant tumors of different cell types in the various treatment groups were tabulated. Body weights of individual animals were recorded weekly, for the first 14 weeks, starting during the last week of the prestudy period, and then monthly thereafter, as well as on the day of necropsy. Terminal body weights were not collected from animals found dead or euthanized moribund
+L387: ## 3.1. Sponsor's analyses
+L388: ## 3.1.1 Survival analysis
+L389: The sponsor used similar methodologies to analyze the mouse survival data as those used to analyze the rat survival data.
+L390: ## Sponsor's findings:
+L391: Sponsor's analysis showed the numbers of mice surviving to their terminal necropsy were 32 (49%), 40 (62%), 34 (52%), and 25 (38%), in reference control, low, medium, and high dose groups in male mice, respectively, and 33 (51%), 37 (57%), 18 (28%), and 34 (52%), in female mice, respectively. The sponsor's report showed statistically significance at the 5% level using a log-rank test, for both male and female datasets, with p-value = 0.0070 and p-value = 0.0088 respectively. Therefore, the overall dose-related trend and the pairwise group comparisons between the reference item group (Group 1) and each of the test item treated groups (Groups 2, 3, and 4) were evaluated via a two-sided Peto's test at the 5% significance level.
+L392: The sponsor's analysis showed a statistically significant increase in mortality across the reference control group and the three treated groups in male mice with p-value = 0.0253. The pairwise comparison showed a statistically significant increased mortality in low dose group and in medium dose group when compared to the reference control group in male mice with p-value = 0.0071 and p-value = 0.0205 respectively.
+L393: ## 3.1.2 Tumor data analysis
+L394: The sponsor used similar methodologies to analyze the mouse tumor data as those used to analyze the rat tumor data.
+L395: The analysis of tumors was based on the following fixed time intervals: Weeks 1-52, 53-78, 79-92, 93-104 and terminal sacrifice for both male and female mice (Day 730 for male and Day 728 for female). The actual dose levels were used as the scores.
+L396: ## Multiple testing adjustment:
+L397: The sponsor used similar test levels of significance as those used for rat study to adjust for multiple testing.
+L398: ## Sponsor's findings:
+L399: Following the multiple testing adjustment method described above, sponsor's analyses showed no tumor types with a statistically significant dose response relationship in tumor incidences with increased TD-
+L400: 4208 dose. The pairwise comparisons also showed no tumor types with a statistically significant increase in tumor incidences in TD-4208 treated groups, when compared to the reference control in either male or female mice.
+L401: ## 3.2 Reviewer's analyses
+L402: Similar to the rat study, this reviewer independently performed the survival and tumor data analyses of the mouse study. For the analysis of the survival data and the tumor data of the mouse study, this reviewer used similar methodologies that were used for the analyses of the survival and tumor data of the rat study. Data used in this reviewer's analyses were provided by the sponsor electronically.
+L403: ## 3.2.1 Survival analysis
+L404: The intercurrent mortality data are given in Tables 4A and 4B in the appendix for male and female mice, respectively. The Kaplan-Meier curves for death rate are given in Figures 2A and 2B in the appendix for male and female mice, respectively. Results for test of dose response relationship and homogeneity of survivals among treatment groups are given in Tables 5A and 5B in the appendix for male and female mice, respectively.
+L405: ## Reviewer's findings:
+L406: This reviewer's analysis showed the numbers of mice surviving to their terminal necropsy were 32 (49%), 40 (62%), 34 (52%), and 25 (38%), in reference control, low, medium, and high dose groups in male mice, respectively, and 33 (51%), 37 (57%), 18 (28%), and 34 (52%), in female mice, respectively. This reviewer's analysis showed a statistically significant dose response relationship in the mortality of male mice with p-value = 0.0304. The pairwise comparison showed a statistically significant decreased mortality in low dose group when compared to the reference control group in male mice with p-value = 0.0067. The pairwise comparison also showed a statistically significant increased mortality in medium dose group when compared to the reference control group in female mice with p-value = 0.0229.
+L407: ## 3.2.2 Tumor data analysis
+L408: The tumor rates and the p-values of the tumor types tested for dose response relationship and the pairwise comparisons of reference control and treated groups are given in Table 6A and 6B in the appendix for male and female mice, respectively.
+L409: ## Multiple testing adjustment:
+L410: For mouse study, this reviewer used similar test levels of significance as those used for rat study to adjust for multiple testing. This reviewer used the number of animals bearing tumors in the reference control group to determine the common or rare tumor status.
+L411: ## Reviewer's findings:
+L412: The tumor types with p-values less than 0.05 for dose response relationship and/or pairwise comparisons of reference control and treated groups are reported in Table 4.
+L413: Table 4: Tumor Types with P-Values \le 0.05 for Dose Response Relationship or the pairwise Comparisons
+Treated Groups and Reference control Group in Mice
+L414: Sex	Organ Name	Tumor Name	0 \mu\text{g}/\text{kg}
+Veh. Cont.
+(N=65)
+P - Trend	30 \mu\text{g}/\text{kg}
+Low
+(N=60)
+P - RC vs. L	100 \mu\text{g}/\text{kg}
+Med
+(N=65)
+P - RC vs. M	300 \mu\text{g}/\text{kg}
+High
+(N=65)
+P - RC vs. H
+Male	Lung	bronchioloalveolar carcinoma	4/65 (45)
+0.6769	10/65 (47)
+0.0855	12/65 (48)
+0.0358@	5/65 (44)
+0.4855
+Female	Lung	bronchioloalveolar carcinoma	2/65 (47)
+0.0212@	2/65 (49)
+0.7071	3/65 (38)
+0.3991	7/65 (49)
+0.0896
+L415: &amp; X/ZZ (YY): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L416: @: not statistically significant at 0.005 for common in dose response relationship (trend) tests nor at 0.01 for common tumors in pairwise comparisons.
+L417: Following the multiple testing adjustment method described above, this reviewer's analyses showed no tumor types with a statistically significant dose response relationship in tumor incidences with increased TD-4208 dose in either sex of mice. The pairwise comparisons also showed no tumor types with a statistically significant increase in tumor incidences in TD-4208 treated groups, when compared to the reference control group in either sex of mice.
+L418: ## 4. Summary
+L419: In this submission, the sponsor included reports of two animal carcinogenicity studies, one in regular rats and one in regular mice. These studies were intended to assess the carcinogenic potential of revefenacin, (TD-4208) in rats and mice when administered orally by gavage at appropriate drug levels for about 104 weeks.
+L420: ## Rat Study:
+L421: In this study two separate experiments were conducted, one in male rats and one in female rats. In each of these two experiments there were three treated groups and one reference control group. Two hundred and forty Sprague-Dawley rats of each sex were assigned to three treated groups and one reference control group by a stratified randomization scheme designed to achieve similar group mean body weights in equal size of 60 animals, as indicated in Table 1. The target dose levels for treated groups were 30, 100, and 300 \mu\text{g}/\text{kg}/\text{day} for both male and female rats. In this review, these dose groups were referred to as the low, medium, and high dose group, respectively. The reference control group was exposed to Reference Item only [10 mM citrate buffered saline solution, pH 5.0 \pm 0.1], administered by daily inhalation for about 104 weeks in the same manner as the treated groups.
+L422: This reviewer's analysis showed the numbers of rats surviving to their terminal necropsy were 26 (43%), 33 (55%), 29 (48%), and 28 (47%) in the reference control group, low, medium, and high dose groups, in male rats, respectively, and 21 (35%), 29 (48%), 31 (52%) and 24 (40%) in reference control, low, medium, and high dose groups, in female rats, respectively. This reviewer's analysis showed no statistically significant increase or decrease in mortality across the reference control group and the three treated groups in either sex of rats. The pairwise comparisons showed no statistically significant increase or decrease in mortality between each of the treated groups and the reference control group in either sex of rats.
+L423: For tumor data, following the multiple testing adjustment method described above, this reviewer's analyses showed no tumor types with a statistically significant dose response relationship in tumor incidences with increased TD-4208 dose in either sex of rats. The pairwise comparisons also showed no tumor types with a
+L424: statistically significant increase in tumor incidences in TD-4208 treated groups, when compared to the reference control group in either sex of rats.
+L425: ## **Mouse Study:**
+L426: Two separate experiments were conducted, one in male mice and one in female mice. Two hundred sixty CD-1 mice of each sex were assigned randomly to one of the four groups which included three treated groups and one reference control group in equal size of 65 animals. The dose levels for treated groups were 30, 100, and 300 µg/kg/day for both male and female mice. In this review, these dose groups would be referred to as the low, medium, and high dose group, respectively. The reference control group was exposed to reference item only [10 mM citrate buffered saline solution, pH 5.0 \pm 0.1], administered by daily inhalation for about 104 weeks (730 days for male, 728 days for female) in the same manner as the treated groups.
+L427: This reviewer's analysis showed the numbers of mice surviving to their terminal necropsy were 32 (49%), 40 (62%), 34 (52%), and 25 (38%), in reference control, low, medium, and high dose groups in male mice, respectively, and 33 (51%), 37 (57%), 18 (28%), and 34 (52%), in female mice, respectively. This reviewer's analysis showed a statistically significant dose response relationship in the mortality of male mice with p-value = 0.0304. The pairwise comparison showed a statistically significant decreased mortality in low dose group when compared to the reference control group in male mice with p-value = 0.0067. The pairwise comparison also showed a statistically significant increased mortality in medium dose group when compared to the reference control group in female mice with p-value = 0.0229.
+L428: For tumor data, following the multiple testing adjustment method described above, this reviewer's analyses showed no tumor types with a statistically significant dose response relationship in tumor incidences with increased TD-4208 dose in either sex of mice. The pairwise comparisons also showed no tumor types with a statistically significant increase in tumor incidences in TD-4208 treated groups, when compared to the reference control group in either sex of mice.
+L429: Malick Mbodj, Ph.D.
+Mathematical Statistician
+L430: Concur: Karl Lin, Ph.D. Team Leader, DBVI
+Hepei Chen, secondary reviewer
+L431: cc:
+L432: Archival NDA 210598-Revefenacin, (TD-4208)
+L433: Dr. Tsong Ms. Patrician
+L434: Dr. Lin Dr. Ton
+L435: Dr. Salicru
+L436: ## 5. Appendix
+L437: Table1A: Intercurrent Mortality Rate
+Male Rats
+L438: Week	0 µg/kg/day	30 µg/kg/day	100 µg/kg/day	300 µg/kg/day
+No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %
+0 - 52	3	5.00	4	6.67	5	8.33	4	6.67
+53 - 78	9	20.00	8	20.00	9	23.33	7	18.33
+79 - 92	11	38.33	4	26.67	4	30.00	11	36.67
+93 - 104	11	56.67	11	45.00	13	51.67	10	53.33
+Ter. Sac.	26	43.33	33	55.00	29	48.33	28	46.67
+Total	60	100.00	60	100.00	60	100.00	60	100.00
+L439: Table1B: Intercurrent Mortality Rate
+Female Rats
+L440: Week	0 µg/kg/day	30 µg/kg/day	100 µg/kg/day	300 µg/kg/day
+No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %
+0 - 52	4	6.67	1	1.67	3	5.00	2	3.33
+53 - 78	8	20.00	9	16.67	5	13.33	8	16.67
+79 - 92	9	35.00	11	35.00	10	30.00	17	45.00
+93 - 104	18	65.00	10	51.67	11	48.33	9	60.00
+Ter. Sac.	21	35.00	29	48.33	31	51.67	24	40.00
+Total	60	100.00	60	100.00	60	100.00	60	100.00
+L441: Table 2A: Intercurrent Mortality Comparison for
+Male Rats
+L442: Test Statistics	P-value for
+Ref. Cont.,
+Low, Med,
+high	P-value for
+Ref. Cont.
+vs Low	P-value for
+Ref. Cont.
+vs Med	P-value for
+Ref. Cont.
+vs High
+Dose-Response
+(Likelihood Ratio)	0.8323	0.2619	0.6062	0.7446
+Homogeneity
+(Log-Rank)	0.7070	0.2589	0.6015	0.7426
+L443: Table 2B: Intercurrent Mortality Comparison for
+Female Rats
+L444: Test Statistics	P-value for
+Ref. Cont.,
+Low, Med,
+high	P-value for
+Ref. Cont.
+vs Low	P-value for
+Ref. Cont.
+vs Med	P-value for
+Ref. Cont.
+vs High
+Dose-Response
+(Likelihood Ratio)	0.7127	0.2549	0.1250	0.8517
+Homogeneity
+(Log-Rank)	0.3629	0.2496	0.1211	0.8498
+L445: Table3A: Tumor Rates and P-Values for Dose Response Relationship and the pairwise comparisons
+L446: ## Male Rats Poly-3 test
+L447: Organ Name	Tumor Name	0 mg
+Ref. Cont.(N=60)
+P - Trend	30 mg
+Low (N=60)
+P - C vs. L	100 mg
+Med (N=60)
+P - C vs. M	300 mg
+High (N=60)
+P - C vs. H
+Brain	Astrocytoma, Malignant	2/60 (45)
+0.1288	0/60 (46)
+1.0000	1/60 (45)
+0.8792	3/60 (45)
+0.5000
+Granular Cell Tumor, Malignant	1/60 (45)
+0.4969	1/60 (46)
+0.7582	2/60 (45)
+0.5000	1/60 (45)
+0.7528
+Meningioma, Malignant	0/60 (44)
+0.1872	0/60 (46)
+NC	1/60 (45)
+0.5056	1/60 (45)
+0.5056
+Epididymis	Mesothelioma, Malignant	0/60 (44)
+0.0615	0/60 (46)
+NC	0/60 (45)
+NC	2/60 (45)
+0.2528
+Gland, Adrenal	Cortical Adenoma	0/60 (44)
+0.6285	1/60 (46)
+0.5111	1/60 (45)
+0.5056	0/60 (45)
+NC
+Pheochromocytoma, Benign	5/60 (44)
+0.4438	2/60 (46)
+0.9514	3/60 (45)
+0.8741	4/60 (45)
+0.7691
+Pheochromocytoma, Malignant	1/60 (44)
+0.9406	2/60 (47)
+0.5250	0/60 (45)
+1.0000	0/60 (45)
+1.0000
+Pheochromocytoma,
+Malignant/Benign	6/60 (45)
+0.6601	4/60 (47)
+0.8594	3/60 (45)
+0.9214	4/60 (45)
+0.8426
+Gland, Harderian	Adenoma	0/60 (44)
+0.1091	1/60 (46)
+0.5111	0/60 (45)
+NC	2/60 (45)
+0.2528
+Gland, Parathyroid	Adenoma	1/56 (42)
+0.4234	0/55 (42)
+1.0000	3/53 (39)
+0.2801	1/58 (43)
+0.7588
+Fibroma	0/56 (42)
+0.7455	1/55 (42)
+0.5000	0/53 (38)
+NC	0/58 (43)
+NC
+Gland, Pituitary	Pars Distalis Adenoma	29/60 (51)
+0.5799	24/60 (49)
+0.8389	28/60 (51)
+0.6549	26/60 (50)
+0.7549
+Pars Distalis Carcinoma	0/60 (44)
+0.2500	0/60 (46)
+NC	0/60 (45)
+NC	1/60 (45)
+0.5056
+Pars Distallis Adenoma/Carcinoma	29/60 (51)
+0.4879	24/60 (49)
+0.8389	28/60 (51)
+0.6549	27/60 (50)
+0.6877
+Pars Intermedia Adenoma	0/60 (44)
+0.2500	0/60 (46)
+NC	0/60 (45)
+NC	1/60 (45)
+0.5056
+Gland, Prostate	Adenocarcinoma	1/60 (45)
+0.4365	0/60 (46)
+1.0000	0/60 (45)
+1.0000	1/60 (45)
+0.7528
+Adenoma	0/60 (44)
+0.5000	0/60 (46)
+NC	1/60 (45)
+0.5056	0/60 (45)
+NC
+Adenoma/Adenocarcinoma	1/60 (45)
+0.3885	0/60 (46)
+1.0000	1/60 (45)
+0.7528	1/60 (45)
+0.7528
+Gland, Seminal Vesicle	Adenoma	0/60 (44)
+0.7556	1/60 (46)
+0.5111	0/60 (45)
+NC	0/60 (45)
+NC
+Gland, Thyroid	C-Cell Adenoma	8/60 (46)
+0.9666	9/60 (48)
+0.5390	7/60 (47)
+0.7284	3/60 (45)
+0.9728
+L448: ## Male Rats Poly-3 test
+L449: Organ Name	Tumor Name	0 mg
+Ref. Cont.(N=60)
+P - Trend	30 mg
+Low (N=60)
+P - C vs. L	100 mg
+Med (N=60)
+P - C vs. M	300 mg
+High (N=60)
+P - C vs. H
+Gland, Thyroid	C-Cell Carcinoma	2/60 (45)
+0.5927	0/60 (46)
+1.0000	0/60 (45)
+1.0000	1/60 (45)
+0.8792
+C-Cell Adenoma/Carcinoma	10/60 (47)
+0.9594	9/60 (48)
+0.7134	7/60 (47)
+0.8582	4/60 (45)
+0.9757
+Follicular Cell Adenoma	1/60 (44)
+0.8344	1/60 (46)
+0.7638	1/60 (46)
+0.7638	0/60 (45)
+1.0000
+Follicular Cell Carcinoma	1/60 (44)
+1.0000	0/60 (46)
+1.0000	0/60 (45)
+1.0000	0/60 (45)
+1.0000
+Follicular Cell Adenoma/Carcinoma	2/60 (44)
+0.9268	1/60 (46)
+0.8873	1/60 (46)
+0.8873	0/60 (45)
+1.0000
+Heart	Schwannoma, Benign	0/60 (44)
+0.7569	1/60 (47)
+0.5165	0/60 (45)
+NC	0/60 (45)
+NC
+Hemolymphoreticular Tissue	Histiocytic Sarcoma	3/60 (45)
+0.6975	3/60 (47)
+0.6822	0/60 (45)
+1.0000	2/60 (46)
+0.8263
+Multicentric	Mesothelioma, Malignant	0/60 (44)
+0.0615	0/60 (46)
+NC	0/60 (45)
+NC	2/60 (45)
+0.2528
+Leukemia, Granulocytic	0/60 (44)
+0.5028	0/60 (46)
+NC	1/60 (46)
+0.5111	0/60 (45)
+NC
+Leukemia, Large Granular Lymphocytic	0/60 (44)
+0.7569	1/60 (47)
+0.5165	0/60 (45)
+NC	0/60 (45)
+NC
+Lymphoma, Malignant	4/60 (46)
+0.5064	2/60 (48)
+0.9077	1/60 (46)
+0.9721	3/60 (46)
+0.7828
+Amphophilic Vacuolar Tubular Adenoma	1/60 (45)
+0.5190	1/60 (46)
+0.7582	1/60 (45)
+0.7528	1/60 (46)
+0.7582
+Kidney	Amphophilic Vacuolar Tubular Carcinoma	1/60 (45)
+0.8292	1/60 (46)
+0.7582	1/60 (45)
+0.7528	0/60 (45)
+1.0000
+Amphophilic Vacuolar Tubular Adenoma/Carcinoma	1/60 (45)
+0.5190	1/60 (46)
+0.7582	1/60 (45)
+0.7528	1/60 (46)
+0.7582
+Cholangiocarcinoma	0/60 (44)
+0.7556	1/60 (46)
+0.5111	0/60 (45)
+NC	0/60 (45)
+NC
+Liver	Cholangioma	1/60 (44)
+1.0000	0/60 (46)
+1.0000	0/60 (45)
+1.0000	0/60 (45)
+1.0000
+cholangiocarcinoma/cholangioma	1/60 (44)
+0.9413	1/60 (46)
+0.7638	0/60 (45)
+1.0000	0/60 (45)
+1.0000
+Hepatocellular Adenoma	1/60 (44)
+0.2608	1/60 (46)
+0.7638	1/60 (45)
+0.7584	2/60 (45)
+0.5085
+Hepatocellular Carcinoma	0/60 (44)
+0.5028	0/60 (46)
+NC	1/60 (46)
+0.5111	0/60 (45)
+NC
+Hepatocellular Adenoma/Adenocarcinoma	1/60 (44)
+0.2674	1/60 (46)
+0.7638	2/60 (46)
+0.5169	2/60 (45)
+0.5085
+Lung	Bronchioloalveolar Adenoma	0/60 (44)
+0.5028	0/60 (46)
+NC	1/60 (46)
+0.5111	0/60 (45)
+NC
+L450: ## Male Rats Poly-3 test
+L451: Organ Name	Tumor Name	0 mg
+Ref. Cont.(N=60)
+P - Trend	30 mg
+Low (N=60)
+P - C vs. L	100 mg
+Med (N=60)
+P - C vs. M	300 mg
+High (N=60)
+P - C vs. H
+Lymph Node,
+Mesenteric	Hemangiosarcoma	2/60 (45)
+0.4932	2/60 (46)
+0.7000	1/59 (45)
+0.8792	2/60 (45)
+0.6918
+Pancreas	Islet Cell Adenoma	4/60 (45)
+0.3286	4/60 (47)
+0.6673	4/60 (45)
+0.6432	5/60 (45)
+0.5000
+Islet Cell Carcinoma	1/60 (44)
+0.9195	3/60 (46)
+0.3253	1/60 (46)
+0.7638	0/60 (45)
+1.0000
+Islet Cell Adenoma/Carcinoma	5/60 (45)
+0.6025	7/60 (47)
+0.4106	5/60 (46)
+0.6445	5/60 (45)
+0.6305
+Skin	Basal Cell Tumor, Benign	0/60 (44)
+0.2987	1/60 (46)
+0.5111	1/60 (45)
+0.5056	1/60 (45)
+0.5056
+Basal Cell Tumor, Malignant	1/60 (44)
+0.9419	1/60 (47)
+0.7690	0/60 (45)
+1.0000	0/60 (45)
+1.0000
+Basal Cell Tumor,
+Benign/Malignant	1/60 (44)
+0.6109	2/60 (47)
+0.5250	1/60 (45)
+0.7584	1/60 (45)
+0.7584
+Keratoacanthoma	2/60 (44)
+0.7767	3/60 (47)
+0.5316	6/60 (46)
+0.1481	1/60 (45)
+0.8834
+Papilloma	1/60 (44)
+0.6371	2/60 (46)
+0.5169	0/60 (45)
+1.0000	1/60 (46)
+0.7638
+Sebaceous Cell Adenoma	0/60 (44)
+0.6285	1/60 (46)
+0.5111	1/60 (45)
+0.5056	0/60 (45)
+NC
+Squamous Cell Carcinoma	1/60 (44)
+0.6282	2/60 (47)
+0.5250	0/60 (45)
+1.0000	1/60 (45)
+0.7584
+Squamous Cell Carcinoma /
+Keratoacanthoma/Papilloma	2/60 (44)
+0.6913	7/60 (47)
+0.0953	6/60 (46)
+0.1481	3/60 (45)
+0.5213
+Small Intestine,
+Ileum	Hemangioma	1/60 (45)
+1.0000	0/60 (46)
+1.0000	0/59 (45)
+1.0000	0/60 (45)
+1.0000
+Small Intestine,
+Jejunum	Adenocarcinoma	0/60 (44)
+0.5028	0/59 (45)
+NC	1/60 (46)
+0.5111	0/59 (44)
+NC
+Spinal Cord,
+Thoracic	Astrocytoma, Malignant	0/60 (44)
+0.5028	0/60 (46)
+NC	1/60 (46)
+0.5111	0/60 (45)
+NC
+Spleen	Hemangiosarcoma	0/60 (44)
+0.2932	1/60 (46)
+0.5111	1/60 (45)
+0.5056	1/59 (44)
+0.5000
+Liposarcoma	0/60 (44)
+0.7556	1/60 (47)
+0.5165	0/60 (45)
+NC	0/59 (44)
+NC
+Sarcoma	0/60 (44)
+0.2458	0/60 (46)
+NC	0/60 (45)
+NC	1/59 (44)
+0.5000
+Subcutis	Fibroma	5/18 (16)
+0.5898	6/11 (10)
+0.1504	2/15 (11)
+0.8879	4/13 (11)
+0.5512
+Fibrosarcoma	2/18 (15)
+0.2184	2/11 (10)
+0.5324	2/15 (12)
+0.6111	3/13 (11)
+0.3457
+L452: ## Male Rats Poly-3 test
+L453: Organ Name	Tumor Name	0 mg
+Ref. Cont.(N=60)
+P - Trend	30 mg
+Low (N=60)
+P - C vs. L	100 mg
+Med (N=60)
+P - C vs. M	300 mg
+High (N=60)
+P - C vs. H
+fibrosarcoma/fibroma	7/18 (16)
+0.2973	8/11 (11)
+0.1368	4/15 (12)
+0.8283	7/13 (11)
+0.2671
+Subcutis	Hemangiosarcoma	0/18 (15)
+0.4783	0/11 (9)
+NC	2/15 (12)
+0.1880	0/13 (11)
+NC
+Lipoma	3/18 (15)
+0.3334	2/11 (10)
+0.6866	4/15 (12)
+0.3638	3/13 (11)
+0.5087
+Sarcoma	1/18 (15)
+0.8986	1/11 (9)
+0.6196	0/15 (11)
+1.0000	0/13 (11)
+1.0000
+Schwannoma, Malignant	1/18 (15)
+0.4251	0/11 (9)
+1.0000	0/15 (11)
+1.0000	1/13 (11)
+0.6769
+Testis	Hemangioma	1/60 (45)
+0.9392	1/60 (46)
+0.7582	0/60 (45)
+1.0000	0/60 (45)
+1.0000
+Interstitial (Leydig) Cell Adenoma	0/60 (44)
+0.3241	1/60 (46)
+0.5111	2/60 (45)
+0.2528	1/60 (45)
+0.5056
+Thymus	Thymoma, Benign	0/59 (44)
+0.7528	1/59 (46)
+0.5111	0/60 (45)
+NC	0/57 (43)
+NC
+Whole Body	Hemangioma/Hemangiosarcoma	3/60 (45)
+0.4993	3/60 (46)
+0.6721	4/60 (46)
+0.5124	3/60 (45)
+0.6617
+L454: &amp; X/ZZ (YY): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L455: NC = Not calculable
+L456: Table 3B: Tumor Rates and P-Values for Dose Response Relationship and the pairwise comparisons
+L457: ## Female Rats Poly-3 test
+L458: Organ Name	Tumor Name	0 mg
+Ref. Cont. (N=60)
+P - Trend	30 mg
+Low (N=60)
+P - C vs. L	100 mg
+Med (N=60)
+P - C vs. M	300 mg
+High (N=60)
+P - C vs. H
+Brain	Astrocytoma, Benign	0/60 (44)
+0.5028	0/59 (45)
+NC	1/60 (47)
+0.5165	0/60 (43)
+NC
+Astrocytoma, Malignant	1/60 (45)
+0.3813	0/59 (45)
+1.0000	1/60 (47)
+0.7635	1/60 (43)
+0.7414
+Astrocytoma, Benign/Malignant	1/60 (45)
+0.3535	0/59 (45)
+1.0000	2/60 (47)
+0.5165	1/60 (43)
+0.7414
+Carina	Meningioma, Malignant	0/60 (44)
+0.7556	1/59 (46)
+0.5111	0/60 (47)
+NC	0/60 (43)
+NC
+Mixed Glioma, Malignant	0/60 (44)
+0.2444	0/59 (45)
+NC	0/60 (47)
+NC	1/60 (44)
+0.5000
+Cervix	Hemangiosarcoma	0/60 (44)
+0.5028	0/60 (46)
+NC	1/60 (48)
+0.5217	0/60 (43)
+NC
+Granular Cell Tumor, Benign	1/60 (44)
+0.7514	0/60 (46)
+1.0000	1/60 (47)
+0.7690	0/60 (43)
+1.0000
+Gland, Adrenal	Squamous Cell Carcinoma	0/60 (44)
+0.2431	0/60 (46)
+NC	0/60 (47)
+NC	1/60 (44)
+0.5000
+Cortical Adenoma	0/60 (44)
+0.2975	3/60 (46)
+0.1292	1/60 (47)
+0.5165	2/60 (44)
+0.2471
+Gland, Harderian	Cortical Carcinoma	0/60 (44)
+0.2882	1/60 (46)
+0.5111	1/60 (47)
+0.5165	1/60 (43)
+0.4943
+Cortical Adenoma/Carcinoma	0/60 (44)
+0.2219	4/60 (47)
+0.0667	2/60 (47)
+0.2640	3/60 (44)
+0.1207
+Pheochromocytoma, Benign	1/60 (44)
+0.3572	0/60 (46)
+1.0000	2/60 (47)
+0.5250	1/60 (43)
+0.7471
+Gland, Mammary	Adenocarcinoma	0/60 (44)
+0.5000	0/60 (46)
+NC	1/60 (47)
+0.5165	0/60 (43)
+NC
+Adenoma	0/60 (44)
+0.2389	0/60 (46)
+NC	0/60 (47)
+NC	1/60 (43)
+0.4943
+Adenoma/Adenocarcinoma	0/60 (44)
+0.1815	0/60 (46)
+NC	1/60 (47)
+0.5165	1/60 (43)
+0.4943
+Gland, Mammary	Adenocarcinoma	26/60 (48)
+0.9576	32/60 (53)
+0.3340	24/60 (49)
+0.7624	20/60 (48)
+0.9238
+Adenoma	1/60 (44)
+0.3396	2/60 (47)
+0.5250	1/60 (47)
+0.7690	2/60 (44)
+0.5000
+Adenoma/Adenocarcinoma	27/60 (48)
+0.9647	34/60 (53)
+0.2719	25/60 (49)
+0.7641	21/60 (48)
+0.9237
+Adenosquamous Carcinoma	0/60 (44)
+0.5000	0/60 (46)
+NC	1/60 (47)
+0.5165	0/60 (43)
+NC
+Carcinosarcoma	2/60 (44)
+0.9249	1/60 (46)
+0.8873	1/60 (47)
+0.8910	0/60 (43)
+1.0000
+L459: ## Female Rats Poly-3 test
+L460: Organ Name	Tumor Name	0 mg
+Ref. Cont. (N=60)
+P - Trend	30 mg
+Low (N=60)
+P - C vs. L	100 mg
+Med (N=60)
+P - C vs. M	300 mg
+High (N=60)
+P - C vs. H
+Fibroadenoma	37/60 (50)
+0.9937	44/60 (54)
+0.2476	36/60 (52)
+0.7741	28/60 (49)
+0.9764
+Gland, Parathyroid	Adenoma	0/57 (41)
+0.5029	0/58 (44)
+NC	1/57 (45)
+0.5233	0/57 (41)
+NC
+Gland, Pituitary	Ganglioneuroma	0/60 (44)
+0.7556	1/59 (46)
+0.5111	0/60 (47)
+NC	0/60 (43)
+NC
+Pars Distalis Adenoma	32/60 (51)
+0.4635	40/59 (54)
+0.1493	38/60 (53)
+0.2225	35/60 (51)
+0.3385
+Pars Distalis Carcinoma	8/60 (46)
+0.9387	6/59 (47)
+0.8193	4/60 (48)
+0.9490	3/60 (45)
+0.9728
+Pars Distallis
+Adenoma/Carcinoma	40/60 (53)
+0.8296	46/59 (56)
+0.2682	42/60 (54)
+0.4786	38/60 (53)
+0.7454
+Gland, Salivary,
+Mandibular	Schwannoma, Malignant	0/59 (43)
+0.7584	1/60 (46)
+0.5169	0/60 (47)
+NC	0/58 (42)
+NC
+Gland, Thyroid	C-Cell Adenoma	4/60 (44)
+0.4847	11/60 (47)
+0.0585	8/60 (48)
+0.2224	7/60 (45)
+0.2739
+C-Cell Carcinoma	0/60 (44)
+0.8156	2/60 (46)
+0.2584	0/60 (47)
+NC	0/60 (43)
+NC
+C-Cell Adenoma/Carcinoma	4/60 (44)
+0.5852	13/60 (47)
+0.0212	8/60 (48)
+0.2224	7/60 (45)
+0.2739
+Follicular Cell Adenoma	0/60 (44)
+0.1815	0/60 (46)
+NC	1/60 (47)
+0.5165	1/60 (43)
+0.4943
+Heart	Schwannoma, Malignant	1/60 (44)
+1.0000	0/60 (46)
+1.0000	0/60 (47)
+1.0000	0/60 (43)
+1.0000
+Hemolymphoreticular
+Tissue	Histiocytic Sarcoma	2/60 (45)
+0.1982	1/60 (47)
+0.8870	1/60 (47)
+0.8870	3/60 (45)
+0.5000
+Leukemia, Granulocytic	0/60 (44)
+0.2431	0/60 (46)
+NC	0/60 (47)
+NC	1/60 (44)
+0.5000
+Leukemia, Large Granular
+Lymphocytic	0/60 (44)
+0.7556	1/60 (46)
+0.5111	0/60 (47)
+NC	0/60 (43)
+NC
+Lymphoma, Malignant	1/60 (45)
+0.1031	1/60 (47)
+0.7635	1/60 (48)
+0.7686	3/60 (44)
+0.2997
+Kidney	Amphophilic Vacuolar Tubular
+Adenoma	3/60 (46)
+0.1909	0/60 (46)
+1.0000	0/60 (47)
+1.0000	3/60 (45)
+0.6510
+Amphophilic Vacuolar Tubular
+Carcinoma	3/60 (46)
+0.2782	1/60 (47)
+0.9441	0/60 (47)
+1.0000	3/60 (45)
+0.6510
+Amphophilic Vacuolar Tubular
+Adenoma/Carcinoma	3/60 (46)
+0.2782	1/60 (47)
+0.9441	0/60 (47)
+1.0000	3/60 (45)
+0.6510
+Liposarcoma	1/60 (44)
+1.0000	0/60 (46)
+1.0000	0/60 (47)
+1.0000	0/60 (43)
+1.0000
+L461: ## Female Rats Poly-3 test
+L462: Organ Name	Tumor Name	0 mg
+Ref. Cont. (N=60)
+P - Trend	30 mg
+Low (N=60)
+P - C vs. L	100 mg
+Med (N=60)
+P - C vs. M	300 mg
+High (N=60)
+P - C vs. H
+Larynx	Hemangiosarcoma	0/60 (44)
+0.5028	0/60 (46)
+NC	1/60 (48)
+0.5217	0/60 (43)
+NC
+Liver	Hepatocellular Adenoma	6/60 (44)
+0.9524	2/60 (46)
+0.9750	3/60 (47)
+0.9356	1/60 (44)
+0.9940
+Lung	Bronchioloalveolar Adenoma	0/60 (44)
+0.7556	1/60 (46)
+0.5111	0/60 (47)
+NC	0/60 (43)
+NC
+Ovary	Granulosa Cell Tumor, Benign	0/60 (44)
+0.7331	2/60 (46)
+0.2584	2/60 (47)
+0.2640	0/60 (43)
+NC
+Hemangiosarcoma	0/60 (44)
+0.2431	0/60 (46)
+NC	0/60 (47)
+NC	1/60 (44)
+0.5000
+Sex Cord Stromal Tumor, Benign	1/60 (44)
+1.0000	0/60 (46)
+1.0000	0/60 (47)
+1.0000	0/60 (43)
+1.0000
+Sex Cord Stromal Tumor, Malignant	0/60 (44)
+0.5000	0/60 (46)
+NC	1/60 (47)
+0.5165	0/60 (43)
+NC
+Sex Cord Stromal Tumor, Malignant/Benign	1/60 (44)
+0.7514	0/60 (46)
+1.0000	1/60 (47)
+0.7690	0/60 (43)
+1.0000
+Tubulostromal Carcinoma	1/60 (44)
+1.0000	0/60 (46)
+1.0000	0/60 (47)
+1.0000	0/60 (43)
+1.0000
+Pancreas	Hemangioma	0/60 (44)
+0.5000	0/60 (46)
+NC	1/60 (47)
+0.5165	0/60 (43)
+NC
+Islet Cell Adenoma	5/60 (44)
+0.9738	5/60 (47)
+0.6720	2/60 (47)
+0.9543	1/60 (43)
+0.9860
+Islet Cell Carcinoma	0/60 (44)
+0.5000	0/60 (46)
+NC	1/60 (47)
+0.5165	0/60 (43)
+NC
+Islet Cell Adenoma/Carcinoma	5/60 (44)
+0.9691	5/60 (47)
+0.6720	3/60 (47)
+0.8869	1/60 (43)
+0.9860
+Skin	Basal Cell Tumor, Benign	1/60 (44)
+1.0000	0/60 (46)
+1.0000	0/60 (47)
+1.0000	0/60 (43)
+1.0000
+Basal Cell Tumor, Malignant	0/60 (44)
+0.3093	1/60 (46)
+0.5111	0/60 (47)
+NC	1/60 (44)
+0.5000
+Basal Cell Tumor, Benign/Malignant	1/60 (44)
+0.5259	1/60 (46)
+0.7638	0/60 (47)
+1.0000	1/60 (44)
+0.7529
+Keratoacanthoma	0/60 (44)
+0.7311	2/60 (46)
+0.2584	1/60 (47)
+0.5165	0/60 (43)
+NC
+Papilloma	1/60 (44)
+1.0000	0/60 (46)
+1.0000	0/60 (47)
+1.0000	0/60 (43)
+1.0000
+Squamous Cell Carcinoma	0/60 (44)
+0.1815	0/60 (46)
+NC	1/60 (47)
+0.5165	1/60 (43)
+0.4943
+Keratoacanthoma/ Squamous Cell Carcinoma/ Papilloma	1/60 (44)
+0.5878	2/60 (46)
+0.5169	2/60 (47)
+0.5250	1/60 (43)
+0.7471
+L463: ## Female Rats Poly-3 test
+L464: Organ Name	Tumor Name	0 mg
+Ref. Cont. (N=60)
+P - Trend	30 mg
+Low (N=60)
+P - C vs. L	100 mg
+Med (N=60)
+P - C vs. M	300 mg
+High (N=60)
+P - C vs. H
+Small Intestine,
+Jejunum	Adenoma	1/60 (44)
+1.0000	0/60 (46)
+1.0000	0/59 (47)
+1.0000	0/59 (43)
+1.0000
+Leiomyoma	1/60 (44)
+1.0000	0/60 (46)
+1.0000	0/59 (47)
+1.0000	0/59 (43)
+1.0000
+Spleen	Hemangioma	1/60 (44)
+1.0000	0/60 (46)
+1.0000	0/60 (47)
+1.0000	0/60 (43)
+1.0000
+Urinary Bladder	Transitional Cell Carcinoma	1/60 (44)
+0.7514	0/60 (46)
+1.0000	1/60 (47)
+0.7690	0/60 (43)
+1.0000
+Uterus	Endometrial Adenocarcinoma	0/60 (44)
+0.5000	0/60 (46)
+NC	1/60 (47)
+0.5165	0/60 (43)
+NC
+Endometrial Stromal Polyp	2/60 (44)
+0.5138	5/60 (47)
+0.2454	1/60 (47)
+0.8910	3/60 (44)
+0.5000
+Endometrial Stromal Sarcoma	1/60 (45)
+0.2254	1/60 (46)
+0.7582	0/60 (47)
+1.0000	2/60 (44)
+0.4915
+Endometrial Stromal Sarcoma/
+Endometrial Stromal Polyp	3/60 (45)
+0.3325	6/60 (47)
+0.2649	1/60 (47)
+0.9467	5/60 (44)
+0.3441
+Hemangioma	0/60 (44)
+0.7556	1/60 (46)
+0.5111	0/60 (47)
+NC	0/60 (43)
+NC
+Leiomyosarcoma	0/60 (44)
+0.7569	1/60 (47)
+0.5165	0/60 (47)
+NC	0/60 (43)
+NC
+Schwannoma, Malignant	0/60 (44)
+0.6217	1/60 (47)
+0.5165	1/60 (47)
+0.5165	0/60 (43)
+NC
+Vagina	Granular Cell Tumor, Benign	0/60 (44)
+0.6229	1/58 (45)
+0.5056	1/59 (46)
+0.5111	0/60 (43)
+NC
+Schwannoma, Malignant	0/60 (44)
+0.2458	0/58 (45)
+NC	0/59 (46)
+NC	1/60 (44)
+0.5000
+Whole Body	Hemangioma/Hemangiosarcoma	1/60 (44)
+0.4950	1/60 (46)
+0.7638	2/60 (48)
+0.5330	1/60 (44)
+0.7529
+L465: &amp; X/ZZ (YY): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L466: NC = Not calculable
+L467: Figure 1A: Kaplan-Meier Survival Curves for
+Male Rats
+L468: **Figure 1B: Kaplan-Meier Survival Curves for Female Rats**
+L469: **Table4A: Intercurrent Mortality Rate**
+**Male Mice**
+L470: Week	0 µg/kg/day	30 µg/kg/day	100 µg/kg/day	300 µg/kg/day
+No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %
+0 - 52	7	10.77	5	7.69	6	9.23	3	4.62
+53 - 78	6	20.00	2	10.77	6	18.46	9	18.46
+79 - 92	11	36.92	.	.	7	29.23	9	32.31
+93 - 104	4	43.08	5	18.46	7	40.00	13	52.31
+ACCD	5	7.69	13	20.00	5	7.69	6	9.23
+Ter. Sac.	32	49.23	40	61.54	34	52.31	25	38.46
+Total	65	100.00	65	100.00	65	100.00	65	100.00
+L471: **Table4B: Intercurrent Mortality Rate**
+**Female Mice**
+L472: Week	0 µg/kg/day	30 µg/kg/day	100 µg/kg/day	300 µg/kg/day
+No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %	No. of Death	Cum. %
+0 - 52	4	6.15	6	9.23	7	10.77	3	4.62
+53 - 78	5	13.85	5	16.92	8	23.08	4	10.77
+79 - 92	9	27.69	6	26.15	8	35.38	6	20.00
+93 - 104	7	38.46	7	36.92	12	53.85	8	32.31
+ACCD	7	10.77	4	6.16	12	18.46	10	15.38
+Ter. Sac.	33	50.77	37	56.92	18	27.69	34	52.31
+Total	65	100.00	65	100.00	65	100.00	65	100.00
+L473: **Table 5A:** Intercurrent Mortality Comparison for
+Male Mice
+L474: Test Statistics	P-value for
+Ref. Cont.,
+Low, Med,
+high	P-value for
+Ref. Cont.
+vs Low	P-value for
+Ref. Cont.
+vs Med	P-value for
+Ref. Cont.
+vs High
+Dose-Response
+(Likelihood
+Ratio)	0.0304*	0.0067*	0.6469	0.4129
+Homogeneity
+(Log-Rank)	0.0070*	0.0072*	0.6448	0.4106
+L475: * = statistically significant at the 0.05 significance level.
+L476: **Table 5B:** Intercurrent Mortality Comparison for
+Female Mice
+L477: Test Statistics	P-value for
+Ref. Cont.,
+Low, Med,
+high	P-value for
+Ref. Cont.
+vs Low	P-value for
+Ref. Cont.
+vs Med	P-value for
+Ref. Cont.
+vs High
+Dose-Response
+(Likelihood Ratio)	0.4937	0.7763	0.0229*	0.5037
+Homogeneity
+(Log-Rank)	0.0093*	0.7756	0.0214*	0.5011
+L478: * = statistically significant at the 0.05 significance level.
+L479: Table 6A: Tumor Rates and P-Values for Dose Response Relationship and the Pairwise Comparisons
+L480: ## Male Mice Poly-3 test
+L481: Organ Name	Tumor Name	0 mg	30 mg	100 mg	300 mg
+Ref. Cont. (N=65)
+P - Trend	Low (N=65)
+P - C vs. L	Med (N=65)
+P - C vs. M	High (N=65)
+P - C vs. H
+Body Cavity, Nasal	Osteosarcoma	1/65 (44)
+1.0000	0/65 (46)
+1.0000	0/65 (46)
+1.0000	0/65 (44)
+1.0000
+Bone Marrow	Hemangioma	0/65 (44)
+0.5000	0/65 (46)
+NC	1/65 (46)
+0.5111	0/65 (44)
+NC
+Hemangiosarcoma	0/65 (44)
+0.6258	1/65 (46)
+0.5111	1/65 (46)
+0.5111	0/65 (44)
+NC
+Epididymis	Adenocarcinoma	0/65 (44)
+0.5000	0/65 (46)
+NC	1/65 (46)
+0.5111	0/65 (44)
+NC
+Gallbladder	Adenoma	0/62 (42)
+0.5028	0/65 (46)
+NC	1/64 (45)
+0.5172	0/65 (44)
+NC
+Gland, Adrenal	Cortical Adenoma	4/65 (44)
+0.7186	5/65 (46)
+0.5286	1/65 (46)
+0.9753	3/65 (44)
+0.7832
+Pheochromocytoma, Benign	2/65 (44)
+1.0000	0/65 (46)
+1.0000	0/65 (46)
+1.0000	0/65 (44)
+1.0000
+Subcapsular Adrenal Tumor, Benign	0/65 (44)
+0.6258	1/65 (46)
+0.5111	1/65 (46)
+0.5111	0/65 (44)
+NC
+Subcapsular Adrenal Tumor, Malignant	0/65 (44)
+0.2444	0/65 (46)
+NC	0/65 (46)
+NC	1/65 (44)
+0.5000
+Subcapsular Adrenal Tumor Benign/Malignant	0/65 (44)
+0.2935	1/65 (46)
+0.5111	1/65 (46)
+0.5111	1/65 (44)
+0.5000
+Gland, Harderian	Adenoma	2/65 (44)
+0.6313	1/65 (46)
+0.8873	3/65 (46)
+0.5213	1/64 (43)
+0.8751
+Carcinoma	1/65 (44)
+0.4238	0/65 (46)
+1.0000	0/65 (46)
+1.0000	1/64 (43)
+0.7471
+Adenoma/Carcinoma	3/65 (44)
+0.5216	1/65 (46)
+0.9469	3/65 (46)
+0.6828	2/65 (44)
+0.8198
+Gland, Pituitary	Adenoma	2/65 (44)
+0.8750	0/65 (46)
+1.0000	1/65 (46)
+0.8873	0/61 (43)
+1.0000
+Gland, Prostate	Adenoma	1/64 (43)
+1.0000	0/65 (46)
+1.0000	0/65 (46)
+1.0000	0/65 (44)
+1.0000
+Gland, Seminal Vesicle	Adenoma	0/65 (44)
+0.7556	1/65 (46)
+0.5111	0/65 (46)
+NC	0/65 (44)
+NC
+Gland, Thyroid	Follicular Cell Adenoma	1/65 (44)
+0.5029	1/65 (46)
+0.7638	1/65 (46)
+0.7638	1/64 (43)
+0.7471
+Hemolymphoreticular Tissue	Histiocytic Sarcoma	0/65 (44)
+0.7556	1/65 (46)
+0.5111	0/65 (46)
+NC	0/65 (44)
+NC
+Multicentric	Mesothelioma, Malignant	0/65 (44)
+0.7556	1/65 (46)
+0.5111	0/65 (46)
+NC	0/65 (44)
+NC
+Lymphoma, Malignant	3/65 (44)
+0.6841	3/65 (47)
+0.6927	2/65 (46)
+0.8332	2/65 (44)
+0.8198
+Kidney	Adenoma	1/65 (44)
+0.7514	0/65 (46)
+1.0000	1/65 (46)
+0.7638	0/65 (44)
+1.0000
+Liver	Hemangioma	0/65 (44)
+0.7569	1/65 (47)
+0.5165	0/65 (46)
+NC	0/65 (44)
+NC
+Hemangiosarcoma	0/65 (44)
+0.8156	2/65 (46)
+0.2584	0/65 (46)
+NC	0/65 (44)
+NC
+Hepatoblastoma	1/65 (44)
+1.0000	0/65 (46)
+1.0000	0/65 (46)
+1.0000	0/65 (44)
+1.0000
+Hepatocellular Adenoma	5/65 (44)
+0.9607	5/65 (46)
+0.6588	6/65 (46)
+0.5319	1/65 (44)
+0.9870
+L482: ## Male Mice Poly-3 test
+L483: Organ Name	Tumor Name	0 mg	30 mg	100 mg	300 mg
+Ref. Cont. (N=65)
+P - Trend	Low (N=65)
+P - C vs. L	Med (N=65)
+P - C vs. M	High (N=65)
+P - C vs. H
+Hepatocellular Carcinoma	3/65 (44)
+0.8948	4/65 (46)
+0.5252	3/65 (46)
+0.6828	1/65 (44)
+0.9418
+Liver	Hepatocellular
+Adenoma/Carcinoma	8/65 (45)
+0.9872	9/65 (46)
+0.5202	9/65 (46)
+0.5202	2/65 (44)
+0.9917
+
+Lung	Bronchioloalveolar Adenoma	12/65 (44)
+0.9378	12/65 (46)
+0.6427	10/65 (48)
+0.8334	7/65 (46)
+0.9521
+Bronchioloalveolar Carcinoma	4/65 (45)
+0.6769	10/65 (47)
+0.0855	12/65 (48)
+0.0358	5/65 (44)
+0.4855
+Bronchioloalveolar
+Adenoma/Carcinoma	16/65 (45)
+0.9125	19/65 (47)
+0.3953	17/65 (50)
+0.6463	12/65 (46)
+0.8861
+Mesothelioma, Malignant	0/65 (44)
+0.7556	1/65 (46)
+0.5111	0/65 (46)
+NC	0/65 (44)
+NC
+Skin	Hemangiosarcoma	0/65 (44)
+0.7569	1/65 (47)
+0.5165	0/65 (46)
+NC	0/65 (44)
+NC
+Squamous Cell Carcinoma	1/65 (44)
+0.9419	1/65 (47)
+0.7690	0/65 (46)
+1.0000	0/65 (44)
+1.0000
+
+Small Intestine,
+Jejunum	Adenoma	1/65 (44)
+1.0000	0/65 (46)
+1.0000	0/65 (46)
+1.0000	0/64 (43)
+1.0000
+Spleen	Hemangiosarcoma	0/65 (44)
+0.5000	0/65 (46)
+NC	1/65 (46)
+0.5111	0/65 (44)
+NC
+Testis	Interstitial (Leydig) Cell Ade	1/65 (44)
+0.9406	2/65 (46)
+0.5169	0/65 (46)
+1.0000	0/65 (44)
+1.0000
+Urinary Bladder	Mesenchymal Tumor, Malignant	1/65 (44)
+0.9406	1/64 (45)
+0.7584	0/65 (46)
+1.0000	0/65 (44)
+1.0000
+Papilloma	0/65 (44)
+0.2458	0/64 (45)
+NC	0/65 (46)
+NC	1/65 (44)
+0.5000
+Whole Body	Hemangioma/Hemangiosarcoma	1/65 (44)
+0.6797	6/65 (48)
+0.0700	2/65 (46)
+0.5169	2/65 (44)
+0.5000
+L484: &amp; X/ZZ (YY): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals observed;
+L485: NC = Not calculable
+L486: Table 6B: Tumor Rates and P-Values for Dose Response Relationship and the Pairwise Comparisons
+L487: ## Female Mice Poly-3 test
+L488: Organ Name	Tumor Name	0 mg	30 mg	100 mg	300 mg
+Ref. Cont (N=65)
+P - Trend	Low (N=65)
+P - C vs. L	Med (N=65)
+P - C vs. M	High (N=65)
+P - C vs. H
+Bone Marrow	Hemangiosarcoma	0/65 (47)
+0.1783	0/65 (49)
+NC	1/65 (37)
+0.4405	1/65 (48)
+0.5053
+Esophagus	Papilloma	0/65 (47)
+0.2652	0/65 (49)
+NC	0/65 (37)
+NC	1/65 (48)
+0.5053
+Gland, Adrenal	Cortical Adenoma	0/64 (46)
+0.4722	0/65 (49)
+NC	1/65 (37)
+0.4458	0/65 (48)
+NC
+Pheochromocytoma, Benign	0/64 (46)
+0.7444	1/65 (49)
+0.5158	0/65 (37)
+NC	0/65 (48)
+NC
+Pheochromocytoma, Malignant	0/64 (46)
+0.7444	1/65 (49)
+0.5158	0/65 (37)
+NC	0/65 (48)
+NC
+Pheochromocytoma Benign/Malignant	0/65 (47)
+0.7923	2/65 (49)
+0.2579	0/65 (37)
+NC	0/65 (48)
+NC
+Subcapsular Adrenal Tumor, Benign	1/64 (46)
+0.6993	3/65 (49)
+0.3328	1/65 (37)
+0.6959	1/65 (48)
+0.7632
+Subcapsular Adrenal Tumor, Malignant	0/64 (46)
+0.4722	0/65 (49)
+NC	1/65 (37)
+0.4458	0/65 (48)
+NC
+Subcapsular Adrenal Tumor, benign/malignant	1/65 (47)
+0.6892	3/65 (49)
+0.3244	2/65 (37)
+0.4101	1/65 (48)
+0.7579
+Gland, Harderian	Adenoma	0/65 (47)
+0.7043	1/65 (49)
+0.5104	3/65 (37)
+0.0815	0/65 (48)
+NC
+Gland, Mammary	Adenocarcinoma	0/63 (46)
+0.1109	1/64 (48)
+0.5106	0/63 (36)
+NC	2/62 (45)
+0.2418
+Gland, Pituitary	Adenoma	0/65 (47)
+0.7389	1/65 (49)
+0.5104	0/64 (36)
+NC	0/65 (48)
+NC
+Carcinoma	0/65 (47)
+0.6133	1/65 (49)
+0.5104	1/64 (37)
+0.4405	0/65 (48)
+NC
+Adenoma/Carcinoma	0/65 (47)
+0.7253	2/65 (49)
+0.2579	1/65 (38)
+0.4471	0/65 (48)
+NC
+Gland, Thyroid	Follicular Cell Adenoma	1/65 (47)
+0.4611	0/65 (49)
+1.0000	0/65 (37)
+1.0000	1/65 (48)
+0.7579
+Hemolymphoreticular Tissue	Histiocytic Sarcoma	6/65 (49)
+0.8982	7/65 (50)
+0.5158	3/65 (38)
+0.8448	3/65 (48)
+0.9156
+Lymphoma, Malignant	9/65 (49)
+0.2439	6/65 (51)
+0.8860	9/65 (38)
+0.3649	10/65 (49)
+0.5000
+Liver	Hemangiosarcoma	0/65 (47)
+0.7403	1/65 (49)
+0.5104	0/65 (37)
+NC	0/65 (48)
+NC
+Hepatocellular Adenoma	0/65 (47)
+0.0692	0/65 (49)
+NC	0/65 (37)
+NC	2/65 (48)
+0.2526
+Lung	Bronchioloalveolar Adenoma	7/65 (47)
+0.9260	10/65 (49)
+0.3308	7/65 (38)
+0.4411	4/65 (48)
+0.9073
+Bronchioloalveolar Carcinoma	2/65 (47)
+0.0212	2/65 (49)
+0.7071	3/65 (38)
+0.3991	7/65 (49)
+0.0896
+Bronchioloalveolar Adenoma/Carcinoma	9/65 (48)
+0.4406	12/65 (49)
+0.3306	10/65 (39)
+0.3031	11/65 (49)
+0.4215
+Ovary	Cystadenoma	1/65 (47)
+0.4547	3/65 (49)
+0.3244	0/65 (37)
+1.0000	2/65 (48)
+0.5080
+Granulosa Cell Tumor, Benign	2/65 (47)
+0.6136	0/65 (49)
+1.0000	0/65 (37)
+1.0000	1/65 (48)
+0.8829
+L489: ## Female Mice Poly-3 test
+L490: Organ Name	Tumor Name	0 mg	30 mg	100 mg	300 mg
+Ref. Cont (N=65)
+P - Trend	Low (N=65)
+P - C vs. L	Med (N=65)
+P - C vs. M	High (N=65)
+P - C vs. H
+Granulosa Cell Tumor, Malignant	0/65 (47)
+0.4696	0/65 (49)
+NC	1/65 (37)
+0.4405	0/65 (48)
+NC
+Ovary	Granulosa Cell Tumor, benign/malignant	2/65 (47)
+0.5549	0/65 (49)
+1.0000	1/65 (37)
+0.8298	1/65 (48)
+0.8829
+Hemangioma	0/65 (47)
+0.4366	2/65 (50)
+0.2631	0/65 (37)
+NC	1/65 (48)
+0.5053
+Luteoma	3/65 (47)
+0.9212	5/65 (49)
+0.3810	3/65 (38)
+0.5555	1/65 (48)
+0.9440
+Mixed Sex Cord Stromal Tumor,	1/65 (47)
+0.4611	0/65 (49)
+1.0000	0/65 (37)
+1.0000	1/65 (48)
+0.7579
+Tubulostromal Adenoma	1/65 (47)
+1.0000	0/65 (49)
+1.0000	0/65 (37)
+1.0000	0/65 (48)
+1.0000
+Skin	Basal Cell Tumor, Malignant	0/65 (47)
+0.4725	0/65 (49)
+NC	1/65 (38)
+0.4471	0/65 (48)
+NC
+Papilloma	0/65 (47)
+0.7403	1/65 (49)
+0.5104	0/65 (37)
+NC	0/65 (48)
+NC
+Small Intestine,
+Duodenum	Adenoma	1/65 (47)
+1.0000	0/65 (49)
+1.0000	0/65 (37)
+1.0000	0/65 (48)
+1.0000
+Tongue	Papilloma	0/65 (47)
+0.4696	0/65 (49)
+NC	1/65 (37)
+0.4405	0/65 (48)
+NC
+Adenocarcinoma	4/65 (47)
+0.6442	1/65 (49)
+0.9749	2/65 (37)
+0.8340	2/65 (48)
+0.9029
+Uterus	Endometrial Stromal Polyp	6/65 (47)
+0.7768	6/65 (49)
+0.6500	1/65 (38)
+0.9873	4/65 (48)
+0.8503
+Endometrial Stromal Sarcoma	1/65 (47)
+0.4611	0/65 (49)
+1.0000	0/65 (37)
+1.0000	1/65 (48)
+0.7579
+Endometrial Stromal Polyp/ Sarcoma	7/65 (47)
+0.7089	6/65 (49)
+0.7505	1/65 (38)
+0.9935	5/65 (48)
+0.8326
+Granular Cell Tumor, Benign	0/65 (47)
+0.6133	1/65 (49)
+0.5104	1/65 (37)
+0.4405	0/65 (48)
+NC
+Hemangioma	0/65 (47)
+0.2652	0/65 (49)
+NC	0/65 (37)
+NC	1/65 (48)
+0.5053
+Hemangiosarcoma	1/65 (47)
+0.2584	1/65 (49)
+0.7629	0/65 (37)
+1.0000	2/65 (48)
+0.5080
+Leiomyoma	7/65 (47)
+0.9412	3/65 (49)
+0.9608	0/65 (37)
+1.0000	2/65 (48)
+0.9860
+Leiomyosarcoma	0/65 (47)
+0.5020	0/65 (49)
+NC	2/65 (37)
+0.1910	0/65 (48)
+NC
+Leiomyoma/Leiomyosarcoma	7/65 (47)
+0.9312	3/65 (49)
+0.9608	2/65 (37)
+0.9647	2/65 (48)
+0.9860
+Polyp	1/65 (47)
+1.0000	0/65 (49)
+1.0000	0/65 (37)
+1.0000	0/65 (48)
+1.0000
+Schwannoma, Benign	1/65 (47)
+0.6801	0/65 (49)
+1.0000	2/65 (38)
+0.4199	0/65 (48)
+1.0000
+Schwannoma, Malignant	1/65 (47)
+0.3647	2/65 (49)
+0.5158	2/65 (38)
+0.4199	2/65 (48)
+0.5080
+Whole Body	Schwannoma Benign/Malignant	2/65 (47)
+0.5234	2/65 (49)
+0.7071	4/65 (38)
+0.2427	2/65 (48)
+0.6995
+Hemangioma/Hemangiosarcoma	1/65 (47)
+0.1351	5/65 (51)
+0.1220	1/65 (37)
+0.6899	5/65 (48)
+0.1067
+L491: &amp;amp; X/ZZ (YY): X=number of tumor bearing animals; YY=mortality weighted total number of animals; ZZ=unweighted total number of animals
+L492: observed;
+L493: NC = Not calculable
+L494: **Figure 2A: Kaplan-Meier Survival Curves for
+Male Mice**
+L495: Figure 2B: Kaplan-Meier Survival Curves for Female Mice
+L496: ## 6. References:
+L497: - Bailer AJ, Portier CJ (1988). "Effects of treatment-induced mortality and tumor-induced mortality on tests for carcinogenicity in small samples." *Biometrics*, 44, 417-431.
+- Bieler, G. S. and Williams, R. L. (1993). "Ratio estimates, the delta method, and quantal response tests for increased carcinogenicity". *Biometrics* 49, 793-801.
+- Gebregziabher M, Hoel D (2009) Applications of the poly-k statistical test to life-time cancer bioassay studies. *Hum Ecol Risk Assess* 15(5):858-875.
+- Guidance for Industry. Statistical Aspects of the Design, Analysis, and Interpretation of Chronic Rodent Carcinogenicity Studies of Pharmaceuticals (Draft Guidance). U.S. Department of Health and Human Services, Food and Drug Administration, Center for Drug Evaluation and Research (CDER), May 2001.
+- Moon H, Ahn H, Kodell RL, Lee JJ (2003) Estimation of k for the poly-k test with application to animal carcinogenicity studies. *Statistics in Medicine* 22(16):2619-2636
+- Peto, R., M.C. Pike, N.E. Day, R.G. Gray, P.N. Lee, S. Parish, J. Peto, Richards, and Wahrendorf, "Guidelines for sample sensitive significance test for carcinogenic effects in long-term animal experiments", Long term and short term screening assays for carcinogens: A critical appraisal, International agency for research against cancer monographs, Annex to supplement, World Health Organization, Geneva, 311-426, 1980.
+- Portier C, Hedges J, Hoel D (1986) Age-specific models of mortality and tumor onset for historical control animals in the national toxicology programs carcinogenicity experiments. *Cancer Research* 46:4372-4378
+- Rahman M.A. and Lin K.K, "A comparison of False Positive Rates of Peto and Poly-3 Method For Long Term Carcinogenicity Data Analysis Using Multiple Comparison Adjustment Method Suggested by Lin and Rahman" *Journal of Biopharmaceutical Statistics*, 18: 949-958, 2008.
+- Tarone RE, "Test for trend in life table analysis", *Biometrika* 1975, 62: 679-82
+L498: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L499: /s/
+L500: MALICK MBODJ
+05/21/2018
+L501: HEPEI CHEN
+05/21/2018
+L502: KARL K LIN
+05/21/2018
+Concur with review.
+L503: Visit 1A Visit 1B Ipratropium Visit Visit 2 Albuterol Visit Randomization n=618 Treatment Followup
+Informed Consent
+Washout (up to 45 days)
+No Exacerbations
+Pre and Post Dose Ipratropium Spirometry
+Pre and Post Dose Placebo Spirometry
+Pre and Post Albuterol Spirometry
+88 \mu\text{g}
+175 \mu\text{g}
+Placebo
+Treatment Period
+Visits 3, 4, 5, 6, 7 and 8
+Vital Signs
+ECG
+Physical Exam
+Spirometry
+PROs
+PK samples
+Concomitant Medications
+Adverse Events
+Substudy subjects only:
+PEF
+24 hr serial spirometry (Visit 7 only)
+Follow Up Period
+Visit 9
+Concomitant Medications
+Adverse Events
+L504: Study 0128 Design Schematic:
+The study flow starts with Visit 1A (Informed Consent). Subjects then undergo a Washout (up to 45 days) and must have No Exacerbations. This leads to Visit 1B (Ipratropium Visit), which includes Pre and Post Dose Ipratropium Spirometry and a 24 hour Holter (Substudy only).
+Subjects are then randomized (n=1050) into three groups:
+88 \mug
+175 \mug
+tiotropium
+The Treatment Period (Visits 2, 3, 4, 5, 6 and 7) includes Vital Signs, ECG, * 24 hr Holter (Visits 3 and 5), Physical Exam, Spirometry, and **PROs (Concomitant Medications, Adverse Events).
+The study concludes with the Followup Period (Visit 8), which includes Concomitant Medications, Adverse Events.
+L505: Diagram illustrating the Statistical Testing Hierarchy across six endpoints (Endpoint 1 to Endpoint 6). The hierarchy is structured into two parallel paths: Dose L vs Placebo (LP tests) and Dose H vs Placebo (HP tests). Each endpoint contains two sequential hypothesis tests (LP1, LP2, LP3, LP4, LP5, LP6 and HP1, HP2, HP3, HP4, HP5, HP6). Arrows indicate the sequential nature of the tests within each endpoint. The LP tests and HP tests are linked across endpoints, particularly in Endpoint 5 and 6, where LP5 and HP5 lead to LP6 and HP6 respectively.
+L506: Stepwise plot showing the Proportion of Subjects Remaining in Study (Y-axis, 0.6 to 1.0) versus Time (Days) (X-axis, 0 to 84). The plot compares three treatment arms:
+TRT01P=Placebo (Red line)
+TRT01P=REV 175 mcg (Green line)
+TRT01P=REV 88 mcg (Blue line)
+The Placebo arm shows the highest proportion of subjects remaining over time, followed by the REV 175 mcg arm, and the REV 88 mcg arm shows the lowest proportion remaining.
+L507: Figure 5 is a Kaplan-Meier survival curve illustrating the proportion of subjects remaining in the study over time (Days) for three treatment arms in Study 0127. The X-axis represents Time (Days) from 0 to 84, and the Y-axis represents the Proportion of Subjects Remaining in Study, ranging from 0.6 to 1.0.
+The legend identifies the treatment arms:
+TRT01P=Placebo (Red line)
+TRT01P=REV 175 mcg (Green line)
+TRT01P=REV 88 mcg (Blue line)
+All three arms start at 1.0 proportion of subjects remaining at Day 0. The Placebo arm shows the steepest decline, reaching approximately 0.75 remaining subjects by Day 84. The REV 88 mcg arm shows the slowest decline, remaining above 0.85 until Day 84. The REV 175 mcg arm shows an intermediate decline, remaining above 0.8 until Day 84.
+L508: Figure 6 is a Kaplan-Meier survival curve illustrating the proportion of subjects remaining in the study over time (Days) for three treatment arms in Study 0128.
+The Y-axis represents the Proportion of Subjects Remaining in Study (ranging from 0.5 to 1.0), and the X-axis represents Time (Days) (ranging from 0 to 350).
+The legend identifies the Treatment Arms:
+TRT01P=REV 175 mcg (Red line)
+TRT01P=REV 88 mcg (Green line)
+TRT01P=Tiotropium (Blue line)
+All curves start at 1.0 (100% remaining) at Day 0. The curves show a decreasing trend, indicating subjects dropping out of the study over time. The Tiotropium arm (Blue line) consistently shows the highest proportion of subjects remaining, followed by the REV 88 mcg arm (Green line), and the REV 175 mcg arm (Red line) shows the lowest proportion remaining, especially after Day 100.
+L509: Line graph showing LS Mean Change from Baseline for Study 0117: Trough FEV1 Days 1-29 (mL). The Y-axis represents FEV1 LS Mean Change from Baseline (mL), ranging from -100 to 200. The X-axis represents TIME (Day 1, Day 15, Day 16, Day 28, Day 29). Five lines represent different randomized treatment groups (RANDTRTC): 175 ug (red circles), 350 ug (yellow circles), 44 ug (green circles), 88 ug (blue circles), and PLACEBO (purple circles). The 175 ug and 350 ug groups show the highest positive changes, peaking around Day 15/16. The 88 ug group shows a positive change, peaking around Day 16. The 44 ug group shows a positive change, peaking around Day 16. The PLACEBO group shows a negative change, peaking around Day 15 and Day 28, and ending slightly negative at Day 29. The 175 ug group shows the highest change at Day 29 (around 150 mL), followed by 350 ug (around 120 mL), 88 ug (around 50 mL), 44 ug (around 20 mL), and PLACEBO (around -20 mL).
+L510: Figure 8 is a line graph showing the Least Squares (LS) Mean Change from Baseline for Trough FEV1 (mL) across Study Days 1, 29, 92, 183, 274, and 365 for four treatment groups: TRT01P (REV 175 mcg), REV 88 mcg, REV 175 mcg, and Tiotropium. The Y-axis represents FEV1 LS Mean Change from Baseline (mL), ranging from 0 to 120. The X-axis represents Study Day.
+Legend:
+TRT01P (REV 175 mcg)
+REV 175 mcg
+REV 88 mcg
+Tiotropium
+Approximate LS Mean Change from Baseline (mL) values:
+Study Day	TRT01P (REV 175 mcg)	REV 175 mcg	REV 88 mcg	Tiotropium
+1	0	0	0	0
+29	118	118	85	115
+92	95	95	85	95
+183	95	95	75	85
+274	80	80	65	75
+365	60	60	50	85
+L511: LS Mean Difference from Placebo by Subgroups: Trough FEV1 on Day 85 (mL) - Study 0126
+n[P*], n[R*]
+Overall	
+REV 88 mcg	209, 212
+REV 175 mcg	209, 198
+Age	
+REV 88 mcg, < 65 Years	104, 112
+REV 175 mcg, < 65 Years	104, 96
+REV 88 mcg, ≥ 65 Years	105, 100
+REV 175 mcg, ≥ 65 Years	105, 102
+Gender	
+REV 88 mcg, Male	109, 115
+REV 175 mcg, Male	109, 93
+REV 88 mcg, Female	100, 97
+REV 175 mcg, Female	100, 105
+Race	
+REV 88 mcg, White	191, 194
+REV 175 mcg, White	191, 179
+REV 88 mcg, Others	18, 18
+REV 175 mcg, Others	18, 19
+Horizontal bars represent 95% confidence intervals for the LS mean difference between revefenacin therapy and placebo. The vertical line at 0 indicates no difference. The x-axis is labeled: <--Favors Placebo--> and <--Favors Revefenacin-->.
+L512: n[P*], n[R*]	
+Overall	
+REV 88 mcg	208, 205	
+REV 175 mcg	208, 197	
+Age	
+REV 88 mcg, < 65 Years	115, 121	
+REV 175 mcg, < 65 Years	115, 106	
+REV 88 mcg, \ge 65 Years	93, 84	
+REV 175 mcg, \ge 65 Years	93, 91	
+Gender	
+REV 88 mcg, Male	97, 103	
+REV 175 mcg, Male	97, 102	
+REV 88 mcg, Female	111, 102	
+REV 175 mcg, Female	111, 95	
+Race	
+REV 88 mcg, White	188, 186	
+REV 175 mcg, White	188, 171	
+REV 88 mcg, Others	20, 19	
+REV 175 mcg, Others	20, 26	
+Bars represent 95% confidence intervals for the LS mean difference between revefenacin therapy and placebo in each subgroup.
+Source: Reviewer
+L513: n[P*], n[R*]	
+Overall	
+REV 88 mcg	417, 417	
+REV 175 mcg	417, 395	
+Age	
+REV 88 mcg, < 65 Years	219, 233	
+REV 175 mcg, < 65 Years	219, 202	
+REV 88 mcg, >= 65 Years	198, 184	
+REV 175 mcg, >= 65 Years	198, 193	
+Gender	
+REV 88 mcg, Male	206, 218	
+REV 175 mcg, Male	206, 195	
+REV 88 mcg, Female	211, 199	
+REV 175 mcg, Female	211, 200	
+Race	
+REV 88 mcg, White	379, 380	
+REV 175 mcg, White	379, 350	
+REV 88 mcg, Others	38, 37	
+REV 175 mcg, Others	38, 45	
+Figure Description: Forest plot showing the LS Mean Difference from Placebo (Trough FEV1 on Day 85 (mL)) for retefenacin therapy compared to placebo across various subgroups. The horizontal axis ranges from -300 to 300 mL, with a vertical line at 0 indicating no difference. The left side is labeled <--Favors Placebo--> and the right side is labeled >>Favors Retevenacin-->. Bars represent 95% confidence intervals (CI). The point estimate (square) is shown within the CI. For all subgroups, the point estimate is positive (favoring Retevenacin), and the 95% CI generally does not cross the 0 line, suggesting a statistically significant difference favoring Retevenacin therapy.
+L514: LS Mean Difference from Placebo by Subgroups: Trough FEV1 on Day 85 (mL) - Study 0126
+n[P*, R*]
+Overall	
+REV 88 mcg	209, 212
+REV 175 mcg	209, 198
+Smoking Status	
+REV 88 mcg, Current Smoker	103, 102
+REV 175 mcg, Current Smoker	103, 96
+REV 88 mcg, Former Smoker	106, 110
+REV 175 mcg, Former Smoker	106, 102
+ICS Use	
+REV 88 mcg, ICS Use	86, 85
+REV 175 mcg, ICS Use	86, 89
+REV 88 mcg, No ICS Use	123, 127
+REV 175 mcg, No ICS Use	123, 109
+Reversibility	
+REV 88 mcg, Not Reversible to either I* or A*	79, 75
+REV 175 mcg, Not Reversible to either I or A	79, 73
+REV 88 mcg, Reversible to I and not A	16, 26
+REV 175 mcg, Reversible to I and not A	16, 25
+REV 88 mcg, Reversible to A and not I	41, 48
+REV 175 mcg, Reversible to A and not I	41, 47
+REV 88 mcg, Reversible to both A and I	73, 63
+REV 175 mcg, Reversible to both A and I	73, 53
+Percent Predicted FEV1	
+REV 88 mcg, % Predicted FEV1 (50, 80)	137, 141
+REV 175 mcg, % Predicted FEV1 (50, 80)	137, 132
+REV 88 mcg, % Predicted FEV1 (30, 50)	62, 67
+REV 175 mcg, % Predicted FEV1 (30, 50)	62, 51
+REV 88 mcg, % Predicted FEV1 < 30%	9, 4
+REV 175 mcg, % Predicted FEV1 < 30%	9, 15
+LABA/ICS or LABA	
+REV 88 mcg, LABA	74, 76
+REV 175 mcg, LABA	74, 79
+REV 88 mcg, Non-LABA	135, 136
+REV 175 mcg, Non-LABA	135, 119
+Figure Description: Forest plot showing the LS Mean Difference from Placebo (Trough FEV1 on Day 85 (mL)) for Study 0126 across various subgroups. The horizontal axis ranges from -400 (Favors Placebo) to 400 (Favors Revefenacin). The vertical axis lists the subgroups. Horizontal bars represent 95% confidence intervals (CI). The point estimate (mean difference) is marked by a square. The vertical line at 0 indicates no difference. The legend indicates that the bars represent the 95% confidence intervals for the LS mean difference between revefenacin therapy and placebo in each subgroup. (n indicates the size of the subgroup).
+L515: n[P], n[R]	
+Overall	
+REV 88 mcg	208, 205	
+REV 175 mcg	208, 197	
+Smoking Status	
+REV 88 mcg, Current Smoker	95, 97	
+REV 175 mcg, Current Smoker	95, 94	
+REV 88 mcg, Former Smoker	113, 108	
+REV 175 mcg, Former Smoker	113, 103	
+ICS Use	
+REV 88 mcg, ICS Use	85, 79	
+REV 175 mcg, ICS Use	85, 85	
+REV 88 mcg, No ICS Use	123, 126	
+REV 175 mcg, No ICS Use	123, 112	
+Reversibility	
+REV 88 mcg, Not Reversible to either I* or A*	86, 92	
+REV 175 mcg, Not Reversible to either I or A	86, 79	
+REV 88 mcg, Reversible to I and not A	22, 18	
+REV 175 mcg, Reversible to I and not A	22, 25	
+REV 88 mcg, Reversible to A and not I	41, 46	
+REV 175 mcg, Reversible to A and not I	41, 39	
+REV 88 mcg, Reversible to both A and I	59, 49	
+REV 175 mcg, Reversible to both A and I	59, 54	
+Percent Predicted FEV1	
+REV 88 mcg, % Predicted FEV1 (50, 80)	128, 125	
+REV 175 mcg, % Predicted FEV1 (50, 80)	128, 118	
+REV 88 mcg, % Predicted FEV1 (30, 50)	72, 73	
+REV 175 mcg, % Predicted FEV1 (30, 50)	72, 68	
+REV 88 mcg, % Predicted FEV1 < 30%	7, 7	
+REV 175 mcg, % Predicted FEV1 < 30%	7, 11	
+LABA/ICS or LABA	
+REV 88 mcg, LABA	73, 77	
+REV 175 mcg, LABA	73, 74	
+REV 88 mcg, Non-LABA	135, 128	
+REV 175 mcg, Non-LABA	135, 123	
+Horizontal axis: -400 to 400. Vertical axis: LS Mean Difference from Placebo (mL). Bars represent 95% confidence intervals. A vertical line marks 0 (Favors Placebo on the left, Favors Revefenacin on the right).
+L516: n[P], n[R]	
+Overall	
+REV 88 mcg	417, 417	
+REV 175 mcg	417, 395	
+Smoking Status	
+REV 88 mcg, Current Smoker	198, 199	
+REV 175 mcg, Current Smoker	198, 190	
+REV 88 mcg, Former Smoker	219, 128	
+REV 175 mcg, Former Smoker	219, 205	
+ICS Use	
+REV 88 mcg, ICS Use	171, 164	
+REV 175 mcg, ICS Use	171, 174	
+REV 88 mcg, No ICS Use	246, 253	
+REV 175 mcg, No ICS Use	246, 221	
+Reversibility	
+REV 88 mcg, Not Reversible to either I* or A*	165, 167	
+REV 175 mcg, Not Reversible to either I or A	165, 152	
+REV 88 mcg, Reversible to I and not A	132, 112	
+REV 175 mcg, Reversible to I and not A	132, 107	
+REV 88 mcg, Reversible to A and not I	38, 44	
+REV 175 mcg, Reversible to A and not I	38, 50	
+REV 88 mcg, Reversible to both A and I	82, 94	
+REV 175 mcg, Reversible to both A and I	82, 86	
+Percent Predicted FEV1	
+REV 88 mcg, % Predicted FEV1 (50, 80)	265, 166	
+REV 175 mcg, % Predicted FEV1 (50, 80)	165, 150	
+REV 88 mcg, % Predicted FEV1 (30, 50)	134, 140	
+REV 175 mcg, % Predicted FEV1 (30, 50)	134, 119	
+REV 88 mcg, % Predicted FEV1 < 30%	16, 11	
+REV 175 mcg, % Predicted FEV1 < 30%	16, 26	
+LABA/ICS or LABA	
+REV 88 mcg, LABA	147, 153	
+REV 175 mcg, LABA	147, 153	
+REV 88 mcg, Non-LABA	270, 264	
+REV 175 mcg, Non-LABA	270, 242	
+Figure Description: Forest plot showing the LS Mean Difference from Placebo (Trough FEV1 on Day 85, mL) for Revefenacin (R) versus Placebo (P) across various subgroups. The x-axis ranges from -400 (Favors Placebo) to 400 (Favors Revefenacin). The y-axis lists the subgroups. Horizontal bars represent 95% confidence intervals (CI). The point estimate (mean difference) is marked by a square. The overall trend shows that Revefenacin generally favors higher FEV1 compared to Placebo, particularly in subgroups like Overall, Current Smokers, and those with ICS Use.
+L517: Figure 11 is a Kaplan-Meier survival curve illustrating the proportion of subjects adhering to study treatment over time (Days) for three treatment arms in Study 0128. The Y-axis represents the Proportion of Subjects Adhering to Treatment (ranging from 0.00 to 1.00), and the X-axis represents Time (Days) (ranging from 0 to 300).
+The treatment arms are:
+TRT01P=REV 175 mcg (Red line)
+TRT01P=REV 88 mcg (Green line)
+TRT01P=Tiotropium (Blue line)
+The curves show a decreasing trend in adherence over time. The Tiotropium arm maintains the highest proportion of adhering subjects throughout the study period, followed by the REV 88 mcg arm, and then the REV 175 mcg arm.
+A Log-rank test was performed, yielding a p-value of p < 0.0001, indicating a statistically significant difference in adherence rates among the three treatment arms.
+A table below the main plot shows the Number at risk for each treatment arm at key time points (0, 100, 200, and 300 Days):
+Treatment Arm	0 Days	100 Days	200 Days	300 Days
+TRT01P=REV 175 mcg	327	251	217	199
+TRT01P=REV 88 mcg	360	289	246	227
+TRT01P=Tiotropium	353	318	289	273
+L518: Product-Limit Survival Estimates
++ Censored
+Survival Probability
+Time in week of death or sacrifice
+dosegp
+High-300\mug/kg/day Low-30\mug/kg/day
+Medium-100\mug/kg/day Reference Control-0\mug/kg/day
+L519: Product-Limit Survival Estimates
+Y-axis: Survival Probability (0.0 to 1.0)
+X-axis: Time in week of death or sacrifice (0 to 100)
+Legend:
+dosegp
+High-300\mug/kg/day
+Low-30\mug/kg/day
+Medium-100\mug/kg/day
+Reference Control-0\mug/kg/day
++ Censored
+L520: Product-Limit Survival Estimates
+Y-axis: Survival Probability (0.0 to 1.0). X-axis: Time in week of death or sacrifice (0 to 100).
+Legend:
+dosegp
+High-300\mug/kg/day
+Medium-100\mug/kg/day
+Low-30\mug/kg/day
+Reference Control-0\mug/kg/day
++ Censored
+L521: Product-Limit Survival Estimates
+Y-axis: Survival Probability (0.0 to 1.0). X-axis: Time in week of death or sacrifice (0 to 100).
+Legend:
+dosegp
+High-300\mug/kg/day
+Low-30\mug/kg/day
+Medium-100\mug/kg/day
+Reference Control-0\mug/kg/day
++ Censored

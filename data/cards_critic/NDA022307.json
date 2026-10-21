@@ -1,0 +1,37 @@
+{
+  "app": "NDA022307",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "advisory_committee.convened",
+      "severity": "high",
+      "issue": "convened=false contradicts approval_program.summary which states an advisory committee meeting 'was convened'; and the vote.text itself notes the documents only confirm it was planned, not held."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "medium",
+      "issue": "Summary asserts the advisory committee meeting 'was convened,' but the cited quote only says it 'is planned for February 3, 2009'\u2014a planned meeting is claimed as held (internal inconsistency)."
+    },
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "medium",
+      "issue": "Phase 3 is supported, but the citations describe 'Study TAAL' with 725 centers/30 countries, an identifier/alias that is not tied in-quote to TRITON-TIMI 38, creating a comparator/alias mismatch risk for the labeled trial."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive automated flag: uncited number '38' is part of the trial name 'TRITON-TIMI 38' (a study ID), not an efficacy/safety figure."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "38",
+        "text": "Effient (prasugrel) was submitted as a 505(b)(1) NDA on 26 December 2007 and rev"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

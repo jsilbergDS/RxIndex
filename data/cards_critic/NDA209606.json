@@ -1,0 +1,32 @@
+{
+  "app": "NDA209606",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "target_moa",
+      "severity": "high",
+      "issue": "The claim that enasidenib reduces production of the oncometabolite 2-hydroxyglutarate (2-HG) is not supported by any citation quote; no quote mentions 2-HG or 2-hydroxyglutarate."
+    },
+    {
+      "field": "companion_dx.detail",
+      "severity": "low",
+      "issue": "The parenthetical characterization 'PCR-based test' is not present in the citation quote, which only names the Abbott RealTime IDH2 mutation assay."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive automated flag: the uncited number '3' derives from 'Grade \u22653' / 'vomiting (34%)' and all listed AE percentages are supported by the citations."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "3",
+        "text": "Most common adverse reactions included nausea (50%), diarrhea (43%), vomiting (3"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

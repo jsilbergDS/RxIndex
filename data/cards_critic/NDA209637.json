@@ -1,0 +1,82 @@
+{
+  "app": "NDA209637",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Design states a 'four-arm trial' but the N breakdown lists only three arms (Sema 0.5 mg 128, Sema 1.0 mg 130, Placebo 129), a minor internal inconsistency; the totals do sum to 387."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive flag: uncited number '0.5' is part of the dose '0.5 mg' and should be excluded per rules."
+    },
+    {
+      "field": "first_cycle_approval/detail",
+      "severity": "low",
+      "issue": "False-positive flags: uncited numbers '5', '2016', '5', '2017' are dates (Dec 5 2016 / Dec 5 2017) that should be excluded per rules; receipt/PDUFA dates are supported by receipt_date citation."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "False-positive flags: uncited numbers '209637' (NDA), '2016' (date), '6'/'1'/'6' (SUSTAIN study identifiers) and '5' (five trials, supported by cited quote 'comprised of 5 multi-national efficacy trials') are IDs/dates/cited and should be excluded."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "0.5",
+        "text": "Most common adverse reactions are gastrointestinal: nausea (15.8% at 0.5 mg, 20."
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "5",
+        "text": "Application submitted December 5, 2016 with PDUFA goal date December 5, 2017; ap"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2016",
+        "text": "Application submitted December 5, 2016 with PDUFA goal date December 5, 2017; ap"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "5",
+        "text": "Application submitted December 5, 2016 with PDUFA goal date December 5, 2017; ap"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2017",
+        "text": "Application submitted December 5, 2016 with PDUFA goal date December 5, 2017; ap"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "209637",
+        "text": "Semaglutide (Ozempic) NDA 209637 was submitted December 5, 2016 and reviewed und"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2016",
+        "text": "Semaglutide (Ozempic) NDA 209637 was submitted December 5, 2016 and reviewed und"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "6",
+        "text": "Semaglutide (Ozempic) NDA 209637 was submitted December 5, 2016 and reviewed und"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "Semaglutide (Ozempic) NDA 209637 was submitted December 5, 2016 and reviewed und"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "6",
+        "text": "Semaglutide (Ozempic) NDA 209637 was submitted December 5, 2016 and reviewed und"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

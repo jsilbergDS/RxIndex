@@ -1,0 +1,78 @@
+{
+  "app": "NDA202714",
+  "drug": "KYPROLIS",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "7f416bad-80a5-5db9-8e0b-0305fe301f7c"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "6a1aea20-186b-51bb-9c7d-3514f797af72"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "4ed49b36-2e71-5434-9467-7223ac24b238"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "bfb308b6-964d-54b6-9351-1612029c08f1"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "09ab12ae-7977-5f85-9ddc-73a95122a166"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Oncologic Drugs Advisory Committee (ODAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "7f416bad-80a5-5db9-8e0b-0305fe301f7c",
+      "line": 79,
+      "quote": "This product was discussed at a Oncologic Drugs Advisory Committee meeting on June 20, 2012."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "7f416bad-80a5-5db9-8e0b-0305fe301f7c",
+      "found_lines": [
+        79
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "June 20, 2012",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "09ab12ae-7977-5f85-9ddc-73a95122a166",
+      "line": 38,
+      "quote": "The ODAC convened on June 20, 2012 to consider this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "09ab12ae-7977-5f85-9ddc-73a95122a166",
+      "found_lines": [
+        38
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The Committee voted 11 (yes) to 1 (abstain) that the available clinical data demonstrate a favorable risk-benefit profile for carfilzomib (i.e., in favor of approval).",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "7f416bad-80a5-5db9-8e0b-0305fe301f7c",
+      "line": 79,
+      "quote": "The Committee voted 11 (yes) to 1 (abstain) that the available clinical data demonstrate a favorable risk-benefit profile for carfilzomib."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "7f416bad-80a5-5db9-8e0b-0305fe301f7c",
+      "found_lines": [
+        79
+      ]
+    }
+  },
+  "linkages": [],
+  "summary": "An Oncologic Drugs Advisory Committee (ODAC) met on June 20, 2012 and voted 11 in favor to 1 abstention that the available clinical data demonstrate a favorable risk-benefit profile for carfilzomib, supporting accelerated (Subpart H) approval for relapsed/refractory multiple myeloma. The committee was asked only to vote on overall risk-benefit, and the RiskR notes that risk management was not discussed at the meeting. The review documents report the favorable vote but do not tie any specific concern raised by the committee to a particular change in the approval (the cardiac/pulmonary/hepatic warnings and PMRs are attributed to the FDA review team, not the AC), so no concern-to-change linkages are recorded."
+}

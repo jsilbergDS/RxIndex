@@ -1,0 +1,22 @@
+{
+  "app": "NDA207695",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Automated flag on uncited number '1' is a false positive; it is part of the trial label 'Trial 1/Trial 301', not an efficacy/safety datum."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Trial AN2728-AD-301 (Trial 1/Trial 301)"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

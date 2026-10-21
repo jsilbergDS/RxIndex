@@ -1,0 +1,53 @@
+{
+  "app": "NDA206494",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting value: line 1 column 1 (char 0)",
+  "_raw": "<think>\nLet me analyze the card for issues.\n\nLet me go through the automated flags first.\n\n1. `pivotal_trials[1]/n` number \"204\" - the citation quote says \"Two hundred and four hospitalized adults\" - that's spelled out, so the number 204 isn't literally present. But it's a false positive since the q",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "204",
+        "text": "204 randomized (102 ceftazidime-avibactam plus metronidazole, 102 meropenem); mM"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "85",
+        "text": "204 randomized (102 ceftazidime-avibactam plus metronidazole, 102 meropenem); mM"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "89",
+        "text": "204 randomized (102 ceftazidime-avibactam plus metronidazole, 102 meropenem); mM"
+      },
+      {
+        "field": "indication",
+        "number": "18",
+        "text": "AVYCAZ (ceftazidime-avibactam) is indicated in patients 18 years or older, in co"
+      },
+      {
+        "field": "advisory_committee/vote",
+        "number": "5",
+        "text": "Anti-Infective Drugs Advisory Committee (December 5, 2014): cIAI indication Yes "
+      },
+      {
+        "field": "post_marketing[3]/requirement",
+        "number": "505",
+        "text": "2862-4: Conduct a prospective study over a five-year period after introduction o"
+      },
+      {
+        "field": "post_marketing[4]/requirement",
+        "number": "505",
+        "text": "2862-5: Conduct a trial or submit data from the Phase 3 cIAI trial to evaluate t"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "AVYCAZ was submitted as a 505(b)(2) NDA relying in part on FDA's prior finding o"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

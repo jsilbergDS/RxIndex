@@ -1,0 +1,47 @@
+{
+  "app": "NDA203137",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive flag: '88' (median sensitivity/specificity for Study 007) IS present in the line-54 citation table, so it is adequately cited."
+    },
+    {
+      "field": "modality",
+      "severity": "low",
+      "issue": "False-positive flag: the '18' is part of the isotope designation 'F-18', not an uncited efficacy/safety number."
+    },
+    {
+      "field": "receipt_date",
+      "severity": "low",
+      "issue": "False-positive flag: the '10' is part of the date 10/26/2012, which is excluded from uncited-number checks."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "88",
+        "text": "Primary efficacy objective met: lower bound of 95% CI for sensitivity exceeded 7"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "88",
+        "text": "Primary efficacy objective met: lower bound of 95% CI for sensitivity exceeded 7"
+      },
+      {
+        "field": "modality",
+        "number": "18",
+        "text": "radiopharmaceutical (small-molecule F-18 PET imaging agent)"
+      },
+      {
+        "field": "receipt_date",
+        "number": "10",
+        "text": "10/26/2012"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

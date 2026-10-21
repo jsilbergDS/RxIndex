@@ -1,0 +1,58 @@
+{
+  "app": "NDA208945",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting value: line 1 column 1 (char 0)",
+  "_raw": "<think>\nLet me analyze this card carefully.\n\nKey issues to check:\n\n1. **first_cycle_approval**: value=false, with detail about a CRL. The review DOES mention a prior CRL. So value=false is correct here. But wait, there's a date inconsistency. The CRL cites \"June 22, 2016\" in one quote and \"June 22, ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Trial 1 (Trial 880 / P-110880-01)"
+      },
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "6",
+        "text": "Primary endpoint: clinical response (clinical success) in the ITTC population at"
+      },
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "7",
+        "text": "Primary endpoint: clinical response (clinical success) in the ITTC population at"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "311",
+        "text": "N=311 (ozenoxacin 155, placebo 156; retapamulin 154)"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Trial 2 (Trial 881 / P-110881-01)"
+      },
+      {
+        "field": "pivotal_trials[1]/endpoint",
+        "number": "6",
+        "text": "Primary endpoint: clinical response (clinical success) in the ITTC population at"
+      },
+      {
+        "field": "pivotal_trials[1]/endpoint",
+        "number": "7",
+        "text": "Primary endpoint: clinical response (clinical success) in the ITTC population at"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "412",
+        "text": "N=412 (ozenoxacin 206, placebo 206)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "Standard NDA (505(b)) for ozenoxacin cream 1% (Xepi), a non-fluorinated quinolon"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

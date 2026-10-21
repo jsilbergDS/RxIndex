@@ -1,0 +1,47 @@
+{
+  "app": "BLA761049",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "low",
+      "issue": "Flagged uncited number '1.1' (RECIST 1.1) is a methodology version identifier, not an efficacy/safety figure; false positive, but the RECIST 1.1 qualifier is not present in the endpoint citation quote."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Flagged uncited number '86' is a false positive: the value is supported by the citation quote 'Eighty-six percent (25/29)'."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Flagged numbers '200' (trial name) and '88' (N) are false positives/cosmetic; '88' is supported elsewhere (n and population citations) and '200' is part of the trial name."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "1.1",
+        "text": "Confirmed best overall response rate (ORR) by RECIST 1.1 per independent review "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "86",
+        "text": "Confirmed centrally reviewed ORR 33% (95% CI: 23, 44), including 11% CR and 22% "
+      },
+      {
+        "field": "key_safety",
+        "number": "200",
+        "text": "Most common adverse reactions (\u226520%) in the JAVELIN Merkel 200 trial (N=88): fat"
+      },
+      {
+        "field": "key_safety",
+        "number": "88",
+        "text": "Most common adverse reactions (\u226520%) in the JAVELIN Merkel 200 trial (N=88): fat"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

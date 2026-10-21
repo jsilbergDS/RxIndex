@@ -1,0 +1,152 @@
+{
+  "app": "NDA211280",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flags: 28.3/31.8/15.3/0.001/41.2/40.7/29.6 are all present in the cited '% Responders' OCR string and the f591fccc quotes; the deterministic matcher failed on concatenated OCR digits."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flags: 28.3/0.006/31.4/38.8/21.0/40.8/0.014/44.0/48.7/33.2 are all supported by the '% Responders' table and the f591fccc pain-free and MBS-free quotes."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flags: dizziness rates 9/15/17/3 are contained in the cited table quote 'Dizziness915173'."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flags: '2019' (approval year) is supported by the PDUFA goal date citation and '5' derives from the cited '505(b)' designation."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "28.3",
+        "text": "Pain free at 2 hours: 100 mg 28.3%, 200 mg 31.8% vs placebo 15.3% (both p<0.001)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "31.8",
+        "text": "Pain free at 2 hours: 100 mg 28.3%, 200 mg 31.8% vs placebo 15.3% (both p<0.001)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "15.3",
+        "text": "Pain free at 2 hours: 100 mg 28.3%, 200 mg 31.8% vs placebo 15.3% (both p<0.001)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.001",
+        "text": "Pain free at 2 hours: 100 mg 28.3%, 200 mg 31.8% vs placebo 15.3% (both p<0.001)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "41.2",
+        "text": "Pain free at 2 hours: 100 mg 28.3%, 200 mg 31.8% vs placebo 15.3% (both p<0.001)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "40.7",
+        "text": "Pain free at 2 hours: 100 mg 28.3%, 200 mg 31.8% vs placebo 15.3% (both p<0.001)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "29.6",
+        "text": "Pain free at 2 hours: 100 mg 28.3%, 200 mg 31.8% vs placebo 15.3% (both p<0.001)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.001",
+        "text": "Pain free at 2 hours: 100 mg 28.3%, 200 mg 31.8% vs placebo 15.3% (both p<0.001)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "28.3",
+        "text": "Pain free at 2 hours: 50 mg 28.3% (p=0.006), 100 mg 31.4% (p<0.001), 200 mg 38.8"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.006",
+        "text": "Pain free at 2 hours: 50 mg 28.3% (p=0.006), 100 mg 31.4% (p<0.001), 200 mg 38.8"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "31.4",
+        "text": "Pain free at 2 hours: 50 mg 28.3% (p=0.006), 100 mg 31.4% (p<0.001), 200 mg 38.8"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "38.8",
+        "text": "Pain free at 2 hours: 50 mg 28.3% (p=0.006), 100 mg 31.4% (p<0.001), 200 mg 38.8"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "21.0",
+        "text": "Pain free at 2 hours: 50 mg 28.3% (p=0.006), 100 mg 31.4% (p<0.001), 200 mg 38.8"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "40.8",
+        "text": "Pain free at 2 hours: 50 mg 28.3% (p=0.006), 100 mg 31.4% (p<0.001), 200 mg 38.8"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.014",
+        "text": "Pain free at 2 hours: 50 mg 28.3% (p=0.006), 100 mg 31.4% (p<0.001), 200 mg 38.8"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "44.0",
+        "text": "Pain free at 2 hours: 50 mg 28.3% (p=0.006), 100 mg 31.4% (p<0.001), 200 mg 38.8"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "48.7",
+        "text": "Pain free at 2 hours: 50 mg 28.3% (p=0.006), 100 mg 31.4% (p<0.001), 200 mg 38.8"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "33.2",
+        "text": "Pain free at 2 hours: 50 mg 28.3% (p=0.006), 100 mg 31.4% (p<0.001), 200 mg 38.8"
+      },
+      {
+        "field": "key_safety",
+        "number": "9",
+        "text": "Most common adverse reactions (\u22655% and > placebo) were dizziness, fatigue, pares"
+      },
+      {
+        "field": "key_safety",
+        "number": "15",
+        "text": "Most common adverse reactions (\u22655% and > placebo) were dizziness, fatigue, pares"
+      },
+      {
+        "field": "key_safety",
+        "number": "17",
+        "text": "Most common adverse reactions (\u22655% and > placebo) were dizziness, fatigue, pares"
+      },
+      {
+        "field": "key_safety",
+        "number": "3",
+        "text": "Most common adverse reactions (\u22655% and > placebo) were dizziness, fatigue, pares"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2019",
+        "text": "Standard NDA (505(b)) for a new molecular entity received October 11, 2018 and a"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "5",
+        "text": "Standard NDA (505(b)) for a new molecular entity received October 11, 2018 and a"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

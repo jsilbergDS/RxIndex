@@ -1,0 +1,92 @@
+{
+  "app": "BLA761025",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "approval_program.breakthrough_therapy.basis",
+      "severity": "medium",
+      "issue": "The basis text details the specific indication (patients treated with dabigatran when rapid reversal is required for emergency surgery/bleeding) but the only citation merely states 'Breakthrough Therapy Designation granted' with no indication detail, so the elaboration is unsupported."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "Design text adds 'single cohort case series' which is not in the design citation (it appears only in a different citation on the trial_name field); mildly composite but corroborated elsewhere."
+    },
+    {
+      "field": "pivotal_trials[0].nct",
+      "severity": "low",
+      "issue": "NCT text is null and its attached citation contains no NCT number, so the citation supports nothing; NCT is not a required field."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged uncited numbers 02/19/2015 are dates, which are excluded by policy and verified by the receipt_date citation; false positive."
+    },
+    {
+      "field": "receipt_date",
+      "severity": "low",
+      "issue": "Flagged uncited number 02 is part of the date 02/19/2015, which is fully supported by the citation; false positive."
+    },
+    {
+      "field": "approval_program.accelerated_approval.confirmatory_requirement",
+      "severity": "low",
+      "issue": "Flagged uncited numbers 10/2017 and 10/2018 are dates supported by the PMR citation ('Trial Completion: 10/2017, Final Report Submission: 10/2018'); false positive."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged uncited number 06 is part of the date 06/16/2014, supported by the breakthrough citation; false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "02",
+        "text": "BLA filed 02/19/2015 and approved via accelerated approval; no prior CRL noted"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "19",
+        "text": "BLA filed 02/19/2015 and approved via accelerated approval; no prior CRL noted"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2015",
+        "text": "BLA filed 02/19/2015 and approved via accelerated approval; no prior CRL noted"
+      },
+      {
+        "field": "receipt_date",
+        "number": "02",
+        "text": "02/19/2015"
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "10",
+        "text": "Required postmarketing clinical trial to verify and describe clinical benefit \u2014 "
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "2017",
+        "text": "Required postmarketing clinical trial to verify and describe clinical benefit \u2014 "
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "10",
+        "text": "Required postmarketing clinical trial to verify and describe clinical benefit \u2014 "
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "2018",
+        "text": "Required postmarketing clinical trial to verify and describe clinical benefit \u2014 "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "06",
+        "text": "Praxbind received Breakthrough Therapy Designation (06/16/2014), Orphan Drug des"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

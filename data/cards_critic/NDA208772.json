@@ -1,0 +1,63 @@
+{
+  "app": "NDA208772",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 10 column 5 (char 300)",
+  "_raw": "Analyzing the card for quality issues.\n\nKey findings:\n- **result field DOR inconsistency**: The card claims median DOR 13.8 months (95% CI 9.3-NE), but the citation quote shows for the 90\u2192180 arm the DOR is \"13.8 (9.3-NE)\" \u2014 this matches. Wait, checking the quote: \"13.8\\n(7.4-NE)\\t13.8\\n(9.3-NE)\". T",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "180",
+        "text": "Randomized, non-comparative, open-label, multicenter trial evaluating two brigat"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "180",
+        "text": "In the labeled 90\u2192180 mg arm (N=110): IRC-assessed ORR 53% (95% CI 43-62) with m"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "110",
+        "text": "In the labeled 90\u2192180 mg arm (N=110): IRC-assessed ORR 53% (95% CI 43-62) with m"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "112",
+        "text": "In the labeled 90\u2192180 mg arm (N=110): IRC-assessed ORR 53% (95% CI 43-62) with m"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "180",
+        "text": "In the labeled 90\u2192180 mg arm (N=110): IRC-assessed ORR 53% (95% CI 43-62) with m"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "29",
+        "text": "Application received August 29, 2016 and approved April 28, 2017 under accelerat"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2016",
+        "text": "Application received August 29, 2016 and approved April 28, 2017 under accelerat"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "28",
+        "text": "Application received August 29, 2016 and approved April 28, 2017 under accelerat"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2017",
+        "text": "Application received August 29, 2016 and approved April 28, 2017 under accelerat"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "314.55",
+        "text": "NDA 208772 received a Priority review and was granted accelerated approval under"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

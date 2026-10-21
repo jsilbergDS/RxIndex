@@ -1,0 +1,93 @@
+{
+  "app": "NDA208610",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "The citation quote for Study 302 is actually the sentence describing Study 303 (line 102 begins 'Study RX-3341-303'), but the trial_name text and design/N/result are internally consistent, so this is a minor citation-mapping quirk."
+    },
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "medium",
+      "issue": "Citation quote 'The Applicant has provided adequate evidence to support the ...' (line 22) is flagged as unverified/not found in OCR; the 300/450 mg oral-switch design claim rests partly on an unverified quote."
+    },
+    {
+      "field": "pivotal_trials[1].population",
+      "severity": "medium",
+      "issue": "Citation quote (line 22) is flagged in unverified_citations as not found in the OCR, so the population claim is not verifiably supported."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "The number '3' in 'two adequate and well-controlled Phase 3 noninferiority trials' refers to Phase 3 (study phase), which is a study identifier and a false-positive uncited-number flag, not efficacy/safety data."
+    },
+    {
+      "field": "post_marketing[3].requirement",
+      "severity": "low",
+      "issue": "Uncited number 208610 is an NDA application number (identifier), a false-positive flag; the parenthetical was added for clarity."
+    },
+    {
+      "field": "post_marketing[4].requirement",
+      "severity": "low",
+      "issue": "Uncited number 208610 is an NDA application-number identifier, false-positive flag."
+    },
+    {
+      "field": "post_marketing[5].requirement",
+      "severity": "low",
+      "issue": "Uncited number 208610 is an NDA application-number identifier, false-positive flag."
+    },
+    {
+      "field": "post_marketing[6].requirement",
+      "severity": "low",
+      "issue": "Uncited number 208611 is an NDA application-number identifier, false-positive flag."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "N cited quote appears at line 110 while Study 302's N quote at line 109 is used for trial[0]; values match the review and are consistent, minor note only."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "post_marketing[3]/requirement",
+        "number": "208610",
+        "text": "3220-4: Add the facility responsible for the specified testing (NDA 208610)."
+      },
+      {
+        "field": "post_marketing[4]/requirement",
+        "number": "208610",
+        "text": "3220-5: Establish a validated limit test as part of product release, submitted a"
+      },
+      {
+        "field": "post_marketing[5]/requirement",
+        "number": "208610",
+        "text": "3220-6: Update drug product release specifications so commercial batches include"
+      },
+      {
+        "field": "post_marketing[6]/requirement",
+        "number": "208611",
+        "text": "3220-7: Provide results from the ongoing requalification of the sterility test m"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "BAXDELA received QIDP designation for ABSSSI (September 8, 2012) and fast track "
+      }
+    ],
+    "unverified_citations": [
+      {
+        "field": "pivotal_trials[1]/design",
+        "line": 22,
+        "quote": "The Applicant has provided adequate evidence to support the "
+      },
+      {
+        "field": "pivotal_trials[1]/population",
+        "line": 22,
+        "quote": "The Applicant has provided adequate evidence to support the "
+      }
+    ],
+    "empty_fields": []
+  }
+}

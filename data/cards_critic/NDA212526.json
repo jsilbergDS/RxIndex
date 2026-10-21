@@ -1,0 +1,23 @@
+{
+  "app": "NDA212526",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 291)",
+  "_raw": "Analyzing the card for quality issues.\n\nLet me check key fields:\n\n**result field**: Text claims \"p=0.0013\" \u2014 citation shows \"0.0013\" \u2713. HR 0.65, CI 0.50, 0.85 \u2713. Median PFS values \u2713. ORR 35.7% vs 16.2% \u2713. But note the **endpoint** citation says \"p=0.001\" while result says \"p=0.0013\" \u2014 result uses th",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "companion_dx/detail",
+        "number": "1",
+        "text": "Patient selection based on PIK3CA mutations detected by an FDA-approved test; in"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "PIQRAY (alpelisib) received regular (full) approval via a Priority review 505(b)"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

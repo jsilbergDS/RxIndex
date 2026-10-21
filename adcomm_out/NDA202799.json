@@ -1,0 +1,147 @@
+{
+  "app": "NDA202799",
+  "drug": "OMONTYS PRESERVATIVE FREE",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_44b1453f-2e59-5f2e-b1ac-14e8cc08d258"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_2eeabedf-93c5-5b4b-900f-2f2ec27e5021"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_c843ee3b-bf09-5c08-b91f-45fd6475e9a4"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_7ecff972-9e56-58a5-8d99-0b9e0661eacc"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_d30310f2-73c3-5917-988d-cb7b5869f122"
+    },
+    {
+      "doc_type": "Lbl",
+      "doc_id": "fda_340b9a8f-1faf-56d1-94f0-59d7df559557"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Oncologic Drugs Advisory Committee (ODAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_44b1453f-2e59-5f2e-b1ac-14e8cc08d258",
+      "line": 82,
+      "quote": "This product was discussed at a Oncologic Drugs Advisory Committee meeting on December 7, 2011."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_44b1453f2e59",
+      "found_lines": [
+        82
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "December 7, 2011",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_44b1453f-2e59-5f2e-b1ac-14e8cc08d258",
+      "line": 82,
+      "quote": "This product was discussed at a Oncologic Drugs Advisory Committee meeting on December 7, 2011."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_44b1453f2e59",
+      "found_lines": [
+        82
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The Committee voted 15 yes, 1 no, 1 abstain that the available clinical data demonstrate a favorable risk-benefit profile for peginesatide in patients with anemia associated with chronic renal failure who are on dialysis.",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_44b1453f-2e59-5f2e-b1ac-14e8cc08d258",
+      "line": 82,
+      "quote": "The Committee voted 15 (yes), 1 (no), and 1 (abstain) that the available clinical data demonstrate a favorable risk-benefit profile for peginesatide for use in patients with anemia associated with chronic renal failure who are on dialysis."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_44b1453f2e59",
+      "found_lines": [
+        82
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "At ODAC, members raised concern about potential misuse of peginesatide in the non-dialysis CKD population, where safety appeared inferior to darbepoetin.",
+      "change": "A REMS consisting of a communication plan (Dear Health Professional letter to nephrology/new prescribers) was approved to mitigate cardiovascular/thromboembolic risk and the increased risk of these events in non-dialysis patients, including drug-use data reporting to monitor off-label use in the non-dialysis population.",
+      "category": "Safety / REMS",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "fda_7ecff972-9e56-58a5-8d99-0b9e0661eacc",
+        "line": 363,
+        "quote": "concern that the dialysis population studied may have been too narrow to detect a safety signal and concern for potential mis-use of peginesatide in the non-dialysis population.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_7ecff9729e56",
+          "found_lines": [
+            363
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "fda_d30310f2-73c3-5917-988d-cb7b5869f122",
+        "line": 11,
+        "quote": "The REMS is needed to mitigate the risks of potentially fatal cardiovascular and thromboembolic adverse events, and the increased risk of these events in non-dialysis patients.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_d30310f273c3",
+          "found_lines": [
+            11
+          ]
+        }
+      }
+    },
+    {
+      "concern": "ODAC members questioned how peginesatide, if approved, could be restricted to prevent its use in patients not on dialysis, given the unfavorable safety signal in that population.",
+      "change": "The approved labeling added a Limitation of Use stating OMONTYS is not indicated and is not recommended for the treatment of anemia in CKD patients who are not on dialysis, because of safety concerns in this population.",
+      "category": "Population / indication limitation",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "fda_7ecff972-9e56-58a5-8d99-0b9e0661eacc",
+        "line": 765,
+        "quote": "question how peginesatide, if approved, can be restricted in a way that prevents the use of this drug product in patients not on dialysis.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_7ecff9729e56",
+          "found_lines": [
+            765
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "fda_340b9a8f-1faf-56d1-94f0-59d7df559557",
+        "line": 108,
+        "quote": "OMONTYS is not indicated and is not recommended for the treatment of anemia in patients with CKD who are not on dialysis.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_340b9a8f1faf",
+          "found_lines": [
+            108
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Oncologic Drugs Advisory Committee (ODAC) meeting was held December 7, 2011, where members voted 15-1-1 that the data showed a favorable risk-benefit profile for peginesatide (Omontys) in anemia of CKD patients on dialysis. While endorsing the dialysis indication, members raised concern about the unfavorable safety signal in the non-dialysis population and how off-label use there could be prevented. Following the meeting the FDA addressed these non-dialysis concerns through strengthened labeling (a Limitation of Use excluding non-dialysis CKD patients because of safety concerns) and a REMS communication plan with drug-use monitoring; the review documents describe both the ODAC concerns and these changes but do not explicitly state the ODAC was the cause, so the linkages are marked inferred."
+}

@@ -1,0 +1,37 @@
+{
+  "app": "NDA213756",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False-positive flag: '50' is supported by the citation which spells it 'Fifty pediatric patients... enrolled in Stratum 1.'"
+    },
+    {
+      "field": "post_marketing[2].requirement",
+      "severity": "low",
+      "issue": "False-positive flags: '3806'/'3' are PMR identifier numbers (study-ID-like), and the requirement text itself is fully supported by the citation."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "50",
+        "text": "50 pediatric patients enrolled in Stratum 1"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "3806",
+        "text": "3806-3: Submit final report and datasets from a pharmacokinetic trial in pediatr"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "3",
+        "text": "3806-3: Submit final report and datasets from a pharmacokinetic trial in pediatr"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

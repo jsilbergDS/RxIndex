@@ -1,0 +1,101 @@
+{
+  "app": "NDA208051",
+  "drug": "NERLYNX",
+  "docs_read": [
+    {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "fda_6f1cf059-5a2a-54a1-b6f4-bd263e192ee2"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_ddc36bc5-4ceb-5890-805c-c2e5eb385c48"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Oncologic Drugs Advisory Committee (ODAC)",
+    "quote": {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "fda_6f1cf059-5a2a-54a1-b6f4-bd263e192ee2",
+      "line": 56,
+      "quote": "the Division convened an Oncologic Drug Advisory Committee (ODAC) meeting on May 24, 2017, to advise and offer insight on the overall benefit-risk of neratinib in the proposed population."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_6f1cf0595a2a",
+      "found_lines": [
+        56,
+        984
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "May 24, 2017",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "fda_ddc36bc5-4ceb-5890-805c-c2e5eb385c48",
+      "line": 36,
+      "quote": "The Oncology Drugs Advisory Committee (ODAC) Meeting was convened on May 24, 2017 to discuss the risk-benefit profile of neratinib for extended adjuvant therapy in an early and often curative disease setting."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_ddc36bc54ceb",
+      "found_lines": [
+        36
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 12-4 in favor of a positive benefit-risk assessment supporting approval in the proposed population.",
+    "quote": {
+      "doc_type": "MultidisciplineR",
+      "doc_id": "fda_6f1cf059-5a2a-54a1-b6f4-bd263e192ee2",
+      "line": 56,
+      "quote": "The committee voted 12-4 that the efficacy and safety results of ExteNET supports a positive benefit-risk assessment of neratinib for the proposed population."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_6f1cf0595a2a",
+      "found_lines": [
+        56
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "ODAC members felt the proposed indication was too broad because different patient subsets appeared more responsive than others, and urged that a full description of the study population and exploratory subgroups be included in labeling so providers and patients could make informed treatment decisions.",
+      "change": "A detailed description of the exploratory subgroup analyses was added to the product labeling (the broad indication was retained, but subgroup detail was disclosed as the committee suggested).",
+      "category": "Labeling / Subgroup disclosure",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "fda_6f1cf059-5a2a-54a1-b6f4-bd263e192ee2",
+        "line": 998,
+        "quote": "Committee members commented that the proposed indication may be too broad, with different subsets of patients more responsive to neratinib therapy than others. Many committee members commented that a full description of the study population and subgroups should be provided in labeling so providers and patients could make an informed decision about treatment.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_6f1cf0595a2a",
+          "found_lines": [
+            998
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MultidisciplineR",
+        "doc_id": "fda_6f1cf059-5a2a-54a1-b6f4-bd263e192ee2",
+        "line": 57,
+        "quote": "As suggested by the ODAC, a detailed description of exploratory subgroup analyses is provided in labeling.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_6f1cf0595a2a",
+          "found_lines": [
+            57,
+            986
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Oncologic Drugs Advisory Committee (ODAC) meeting was convened on May 24, 2017 because uncertainty in the magnitude of neratinib's treatment effect (from multiple protocol amendments, early dropouts, and incomplete follow-up) made the benefit-risk profile unclear; the committee voted 12-4 that the benefit-risk profile supported approval in the proposed population. While voting for approval, ODAC members raised the concern that the proposed indication was overly broad given unfavorable subgroup results and recommended that a full description of the study population and subgroups be included in labeling. The FDA acted on this: as explicitly stated in the multidisciplinary review, a detailed description of the exploratory subgroup analyses was added to the labeling, while the broad indication itself was retained."
+}

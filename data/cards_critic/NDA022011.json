@@ -1,0 +1,27 @@
+{
+  "app": "NDA022011",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: the uncited number '3' (Phase 3) and '007' (study name) are identifiers/phase labels, not efficacy/safety numbers, and are supported by the trial citations elsewhere in the card."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "TYZEKA (telbivudine) was a new molecular entity nucleoside analogue approved und"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "007",
+        "text": "TYZEKA (telbivudine) was a new molecular entity nucleoside analogue approved und"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

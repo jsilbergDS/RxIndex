@@ -1,0 +1,135 @@
+{
+  "app": "NDA203202",
+  "drug": "NORTHERA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_70d64005-ef86-532f-a0ef-5ef4a5e4f194"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_d5c9c757-2376-5022-88df-7c0735a71cb3"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_b2211886-5df6-5875-bf68-e632f71de06f"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Cardiovascular and Renal Drugs Advisory Committee (CRDAC)",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_d5c9c757-2376-5022-88df-7c0735a71cb3",
+      "line": 65,
+      "quote": "A resubmission, based on Study 306B, was filed on August 13, 2013 and discussed at the January 14, 2014 FDA Cardiovascular and Renal Drugs Advisory Committee."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_d5c9c7572376",
+      "found_lines": [
+        65
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "January 14, 2014 (the decisive meeting on the resubmission; an earlier meeting on the original NDA was held February 23, 2012)",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_d5c9c757-2376-5022-88df-7c0735a71cb3",
+      "line": 75,
+      "quote": "Advisory Committee Meeting (January 14, 2014):"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_d5c9c7572376",
+      "found_lines": [
+        75
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "At the January 14, 2014 meeting the committee voted 16 to 1 in favor of approval (the earlier February 23, 2012 meeting voted 7 to 4 in favor).",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_d5c9c757-2376-5022-88df-7c0735a71cb3",
+      "line": 85,
+      "quote": "The panel voted overwhelmingly to approve droxidopa (16 yes and 1 no)."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_d5c9c7572376",
+      "found_lines": [
+        85
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee found the positive studies credible but reached a consensus that continued (long-term) benefit of droxidopa had not been established and should be verified.",
+      "change": "The drug was granted accelerated approval under Subpart H, where the demonstrated short-term effect is construed as reasonably likely to predict long-term benefit, obligating verification of continued benefit.",
+      "category": "Regulatory pathway / Accelerated approval (Subpart H)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_70d64005-ef86-532f-a0ef-5ef4a5e4f194",
+        "line": 171,
+        "quote": "continued benefit should be verified, such that accelerated approval was the appropriate regulatory action",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_70d64005ef86",
+          "found_lines": [
+            171
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_70d64005-ef86-532f-a0ef-5ef4a5e4f194",
+        "line": 11,
+        "quote": "Approval under Subpart H will be granted because it is critical to establish that the effect of droxidopa in NOH, a chronic illness, is maintained in at least a subset of the population treated.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_70d64005ef86",
+          "found_lines": [
+            11
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Although the pivotal resubmission study (306B) enrolled only Parkinson's disease patients, the advisory committee advised against restricting the indication to a Parkinson's-disease-only population.",
+      "change": "The approved indication was not narrowed to Parkinson's disease; it covers neurogenic orthostatic hypotension from primary autonomic failure (Parkinson's disease, MSA, pure autonomic failure), dopamine beta hydroxylase deficiency, and non-diabetic autonomic neuropathy.",
+      "category": "Population / indication breadth",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_70d64005-ef86-532f-a0ef-5ef4a5e4f194",
+        "line": 174,
+        "quote": "This is in alignment with the advice we received from the Advisory Committee last month.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_70d64005ef86",
+          "found_lines": [
+            174
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_70d64005-ef86-532f-a0ef-5ef4a5e4f194",
+        "line": 6,
+        "quote": "caused by primary autonomic failure (Parkinson's disease, multiple system atrophy and pure autonomic failure), dopamine beta hydroxylase deficiency, and non-diabetic autonomic neuropathy",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_70d64005ef86",
+          "found_lines": [
+            6
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "Northera (droxidopa) went before FDA's Cardiovascular and Renal Drugs Advisory Committee twice: the original NDA was discussed February 23, 2012 (vote 7-4 for approval, followed by a Complete Response), and the resubmission based on Study 306B was discussed January 14, 2014, where the committee voted 16-1 in favor of approval. The review documents report that the committee found the positive studies credible but reached a consensus that continued long-term benefit should be verified, which the Office Director ties to the decision to grant accelerated approval under Subpart H; the committee also advised against restricting the indication to Parkinson's disease, consistent with the broad approved indication."
+}

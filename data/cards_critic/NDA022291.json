@@ -1,0 +1,61 @@
+{
+  "app": "NDA022291",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "Flagged uncited number '6' refers to 'up to 6 weeks'/42 days dosing which is a duration supported by citations (endpoint quote states 42 days / '6 weeks'); false positive.",
+      "flag_dismissed": true
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Flagged uncited number '59' is false positive; citation explicitly states 'Fifty-nine percent of subjects on eltrombopag attained a platelet count of >=50 Gi/L'.",
+      "flag_dismissed": true
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "Flagged numbers '50' and '75' are dose labels (50 mg, 75 mg arms) describing arm columns, not uncited efficacy data; the count '30' is cited in the table row '29 30 30 29 118'; false positive.",
+      "flag_dismissed": true
+    },
+    {
+      "field": "approval_program.accelerated_approval.surrogate_endpoint",
+      "severity": "low",
+      "issue": "Flagged number '50' refers to the platelet threshold '>=50 Gi/L' which is established throughout the endpoint/result citations; false positive.",
+      "flag_dismissed": true
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "6",
+        "text": "Double-blind, randomized, placebo-controlled parallel-group trial; eltrombopag 5"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "59",
+        "text": "59% of eltrombopag subjects reached platelet count >=50 Gi/L on Day 43 vs 16% pl"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "50",
+        "text": "118 subjects randomized (placebo 29, 30 mg 30, 50 mg 30, 75 mg 29)."
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "75",
+        "text": "118 subjects randomized (placebo 29, 30 mg 30, 50 mg 30, 75 mg 29)."
+      },
+      {
+        "field": "approval_program/accelerated_approval/surrogate_endpoint",
+        "number": "50",
+        "text": "Short-term platelet count response (platelet counts >=50 Gi/L) used as a surroga"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

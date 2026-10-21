@@ -1,0 +1,33 @@
+{
+  "app": "BLA125554",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting value: line 1 column 1 (char 0)",
+  "_raw": "<think>\nLet me analyze this card carefully.\n\nLet me check each flag and look for issues.\n\n**Automated flags:**\n\n1. `uncited_numbers` - `pivotal_trials[0]/result` number \"4\" (complete responses). The result citation says \"four complete responses and 34 partial responses\". The text uses \"4 complete re",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "4",
+        "text": "Overall response rate 32% (95% CI: 23, 41), consisting of 4 complete responses a"
+      },
+      {
+        "field": "key_safety",
+        "number": "20",
+        "text": "Most common adverse reaction (\u226520%) was rash (21% vs 7% chemotherapy); other com"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2838",
+        "text": "Opdivo received accelerated approval under 21 CFR 601 Subpart E based on durable"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "Opdivo received accelerated approval under 21 CFR 601 Subpart E based on durable"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

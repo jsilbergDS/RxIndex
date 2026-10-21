@@ -1,0 +1,53 @@
+{
+  "app": "BLA125276",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 331)",
+  "_raw": "Analyzing the card for quality issues.\n\nLet me check the automated flags and verify consistency.\n\n**Uncited numbers review:**\n- phase \"3\" \u2014 supported by \"pivotal Phase III studies\" citation. False positive.\n- design \"24\" \u2014 the 24-week period is not in the cited quotes (quotes only give arms and rand",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "3",
+        "text": "Phase 3"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "24",
+        "text": "Double-blind, randomized, placebo-controlled, 24-week study; 3 arms (tocilizumab"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "4",
+        "text": "499 patients randomized (ITT ACR20 analysis: placebo N=158, TCZ 4 mg/kg N=161, T"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "8",
+        "text": "499 patients randomized (ITT ACR20 analysis: placebo N=158, TCZ 4 mg/kg N=161, T"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "24",
+        "text": "ACR20 at Week 24: 10% placebo (16/158), 30% TCZ 4 mg/kg (49/161), 50% TCZ 8 mg/k"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "4",
+        "text": "ACR20 at Week 24: 10% placebo (16/158), 30% TCZ 4 mg/kg (49/161), 50% TCZ 8 mg/k"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "8",
+        "text": "ACR20 at Week 24: 10% placebo (16/158), 30% TCZ 4 mg/kg (49/161), 50% TCZ 8 mg/k"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "6",
+        "text": "Standard (traditional) approval of a first-in-class IL-6 receptor inhibitor for "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

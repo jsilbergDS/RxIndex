@@ -1,0 +1,42 @@
+{
+  "app": "NDA022156",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].endpoint",
+      "severity": "low",
+      "issue": "The '15%' in the endpoint text is not contained in the truncated endpoint citation quote (which ends at 'failure to achieve at'); supported by adjacent fields but technically uncited in this field's quote."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flags: the uncited numbers '2' and '2007' are part of the date July 2, 2007 and should be excluded per date rules."
+    },
+    {
+      "field": "approval_program.priority_review",
+      "severity": "low",
+      "issue": "Priority review status is not addressed anywhere in the card; acceptable as present=false absent review mention, but unverified."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/endpoint",
+        "number": "15",
+        "text": "Treatment failure (bailout for efficacy, safety, or failure to achieve at least "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2",
+        "text": "Application dated July 2, 2007 was reviewed and approved effective the date of t"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2007",
+        "text": "Application dated July 2, 2007 was reviewed and approved effective the date of t"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

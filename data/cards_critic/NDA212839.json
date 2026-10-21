@@ -1,0 +1,98 @@
+{
+  "app": "NDA212839",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 314)",
+  "_raw": "I'll analyze each field systematically against citations and flags.\n\n<analysis>\n\n**Pivotal trials \u2014 result numbers:** Both results' percentages and p-values are supported by citations. Study 13 result p<0.0001 supported. Study 17 p-values 0.006/<0.001/<0.001 supported.\n\n**N fields:** Study 13 N=222 ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "222",
+        "text": "N=222 (113 cenobamate 200 mg/day, 109 placebo)"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "100",
+        "text": "Phase 2, randomized, double-blind, placebo-controlled, parallel-group, 4-arm stu"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "200",
+        "text": "Phase 2, randomized, double-blind, placebo-controlled, parallel-group, 4-arm stu"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "400",
+        "text": "Phase 2, randomized, double-blind, placebo-controlled, parallel-group, 4-arm stu"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "100",
+        "text": "437 randomized (100 mg 108, 200 mg 110, 400 mg 111, placebo 108)"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "200",
+        "text": "437 randomized (100 mg 108, 200 mg 110, 400 mg 111, placebo 108)"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "400",
+        "text": "437 randomized (100 mg 108, 200 mg 110, 400 mg 111, placebo 108)"
+      },
+      {
+        "field": "key_safety",
+        "number": "400",
+        "text": "Most common adverse reactions (at least 10% and more frequent than placebo) were"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "21",
+        "text": "The application (received November 21, 2018) was approved November 21, 2019 as r"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2018",
+        "text": "The application (received November 21, 2018) was approved November 21, 2019 as r"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "21",
+        "text": "The application (received November 21, 2018) was approved November 21, 2019 as r"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2019",
+        "text": "The application (received November 21, 2018) was approved November 21, 2019 as r"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "21",
+        "text": "Cenobamate (Xcopri), a new molecular entity, was submitted November 21, 2018 and"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2018",
+        "text": "Cenobamate (Xcopri), a new molecular entity, was submitted November 21, 2018 and"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "21",
+        "text": "Cenobamate (Xcopri), a new molecular entity, was submitted November 21, 2018 and"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2019",
+        "text": "Cenobamate (Xcopri), a new molecular entity, was submitted November 21, 2018 and"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "Cenobamate (Xcopri), a new molecular entity, was submitted November 21, 2018 and"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

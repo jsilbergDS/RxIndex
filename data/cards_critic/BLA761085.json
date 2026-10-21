@@ -1,0 +1,62 @@
+{
+  "app": "BLA761085",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "False-positive flag: uncited number '001' is a trial-ID fragment (EV-001), not an efficacy/safety datum; excludable."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "False-positive flag: uncited number '002' is a trial-ID fragment (EV-002), not an efficacy datum; the 71%/1% values are supported by the citation."
+    },
+    {
+      "field": "crl_history.date",
+      "severity": "low",
+      "issue": "False-positive flag: '2' is part of the date 'August 2, 2018', which is dated-content and excludable."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: '761085' is the BLA application number, not an efficacy/safety datum."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: '351' refers to statute section 351(a), an identifier, not an efficacy/safety datum."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "001",
+        "text": "Identical design to EV-001; randomized 3:1 to single treatment with JEUVEAU 20 U"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "002",
+        "text": "EV-002 responder rate: 71% JEUVEAU vs 1% placebo at Day 30"
+      },
+      {
+        "field": "crl_history/date",
+        "number": "2",
+        "text": "15-MAY-2018 (resubmission responding to it received August 2, 2018)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "761085",
+        "text": "JEUVEAU (BLA 761085) was a Standard review BLA under section 351(a) with no expe"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "351",
+        "text": "JEUVEAU (BLA 761085) was a Standard review BLA under section 351(a) with no expe"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

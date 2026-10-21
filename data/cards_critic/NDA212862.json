@@ -1,0 +1,38 @@
+{
+  "app": "NDA212862",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 372)",
+  "_raw": "Analyzing the card systematically for issues.\n\n```json\n{\n  \"app\": \"NDA212862\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"key_safety\",\n      \"severity\": \"high\",\n      \"issue\": \"Serious findings list omits 'Lactic Acidosis'\u2014wait, it is present; but 'Reproductive Effects' in the cit",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Nix-TB (Study 1)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2018",
+        "text": "Approved August 14, 2019 following the December 14, 2018 submission; no prior CR"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "14",
+        "text": "Pretomanid was approved August 14, 2019 under the Limited Population Pathway for"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2019",
+        "text": "Pretomanid was approved August 14, 2019 under the Limited Population Pathway for"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "506",
+        "text": "Pretomanid was approved August 14, 2019 under the Limited Population Pathway for"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

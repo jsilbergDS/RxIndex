@@ -1,0 +1,48 @@
+{
+  "app": "NDA021775",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 235)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n \"app\": \"NDA021775\",\n \"release_ready\": false,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[0].design\",\n   \"severity\": \"medium\",\n   \"issue\": \"The '55 US centers' claim is uncited; no citation quote contains the number of centers.\",\n  },\n  {\n   \"field\"",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "55",
+        "text": "Randomized, double-blind, placebo-controlled, parallel-group, multicenter study "
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "629",
+        "text": "654 randomized (329 alvimopan, 325 placebo); MITT 629 (317 alvimopan, 312 placeb"
+      },
+      {
+        "field": "key_safety",
+        "number": "0.5",
+        "text": "Most common adverse reactions (incidence >=3% and >=1% placebo) in bowel resecti"
+      },
+      {
+        "field": "key_safety",
+        "number": "12",
+        "text": "Most common adverse reactions (incidence >=3% and >=1% placebo) in bowel resecti"
+      },
+      {
+        "field": "receipt_date",
+        "number": "3",
+        "text": "August 10, 2007 (NDA dated August 9, 2007, constituting a complete response to t"
+      },
+      {
+        "field": "receipt_date",
+        "number": "2006",
+        "text": "August 10, 2007 (NDA dated August 9, 2007, constituting a complete response to t"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "505",
+        "text": "Required under 505(o): a multi-center, double-blind, placebo-controlled, paralle"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

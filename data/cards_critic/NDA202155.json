@@ -1,0 +1,33 @@
+{
+  "app": "NDA202155",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 309)",
+  "_raw": "Reviewing the card for all issue categories.\n\nThe uncited_numbers flags: \"43\" in population is actually supported (\"Forty-three percent... VKA naive\"). The summary numbers (6/22/12, 9/17) are dates, which should be excluded; these are false positives.\n\nChecking first_cycle_approval and crl_history: ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "43",
+        "text": "Patients with nonvalvular atrial fibrillation; mean age 69 years, 43% vitamin K "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "6",
+        "text": "Standard 505(b)(1) NDA approved based on ARISTOTLE; the application first receiv"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "12",
+        "text": "Standard 505(b)(1) NDA approved based on ARISTOTLE; the application first receiv"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "9",
+        "text": "Standard 505(b)(1) NDA approved based on ARISTOTLE; the application first receiv"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

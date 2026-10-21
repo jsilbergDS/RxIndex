@@ -1,0 +1,1652 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+L2: **212295Orig1s000**
+L3: **STATISTICAL REVIEW(S)**
+L4: FDA logo
+L5: U.S. FOOD &amp; DRUG
+ADMINISTRATION
+L6: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L7: ## STATISTICAL REVIEW AND EVALUATION
+L8: ## CLINICAL STUDIES
+L9: NDA #:	NDA 212-295
+Supplement #:	Original
+Drug Name:	Byfavo (Remimazolam) for injection
+Indication(s):	Induction and maintenance of procedural sedation in adults
+Applicant:	Cosmo Technologies Ltd.
+Date(s):	Submission: April 5, 2019
+Primary Review Due: February 13, 2020
+PDUFA: April 20, 2020
+Review Priority:	Standard
+Biometrics Division:	Division of Biometrics II
+Statistical Reviewer:	James Travis, PhD
+Concurring Reviewers:	Team leader: Jinglin Zhong, PhD
+Division director: Mark Rothmann, PhD
+Medical Division:	Division of Anesthesiology, Addiction Medicine, and Pain Medicine
+Clinical Team:	Reviewer: Renee Petit-Scott, MD
+Team Leader: Martha Van Clief, MD
+Project Manager:	Taiye Adedeji
+L10: Keywords: NDA Review, Cochran-Mantel-Haenszel
+L11: ## Table of Contents
+L12: 1 EXECUTIVE SUMMARY	6
+1.1 OVERVIEW	8
+1.2 DATA SOURCES	9
+2 STATISTICAL EVALUATION	9
+2.1 DATA AND ANALYSIS QUALITY	9
+2.2 EVALUATION OF EFFICACY	9
+2.2.1 Study Design and Endpoints	9
+2.2.2 Statistical Methodologies	12
+2.2.3 Patient Disposition, Demographic and Baseline Characteristics	13
+2.2.4 Results and Conclusions	18
+2.3 EVALUATION OF SAFETY	30
+2.3.1 Safety Analysis Population(s) and Endpoint(s)	30
+2.3.2 Data Quality	32
+2.3.3 Statistical Methods	32
+2.3.4 Results and Conclusions	32
+3 FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	35
+3.1 GENDER, RACE, AGE, AND GEOGRAPHIC REGION	35
+3.2 OTHER SPECIAL/SUBGROUP POPULATIONS	39
+4 SUMMARY AND CONCLUSIONS	39
+4.1 STATISTICAL ISSUES	39
+4.2 COLLECTIVE EVIDENCE	39
+4.3 CONCLUSIONS AND RECOMMENDATIONS	40
+4.4 LABELING RECOMMENDATIONS	40
+5 APPENDICES	41
+5.1 SUBGROUP ANALYSIS METHOD	41
+5.2 FIGURES AND TABLES	42
+L13: ## LIST OF TABLES
+L14: Table 1: List of all studies included in analysis	8
+Table 2: Randomization Ratio by Study	10
+Table 3: Modified Observer's Assessment of Alertness and Sedation Scale	11
+Table 4: Patient Disposition (Safety Population) – Study 006	13
+Table 5: Patient Disposition (Safety Population) – Study 008	14
+Table 6: Patient Disposition (Safety Population) – Study 015	14
+Table 7: Patient Demographics (Safety Population) – Study 006	15
+Table 8: Patient Demographics (Safety Population) – Study 008	16
+Table 9: Patient Demographics (Safety Population) – Study 015	17
+Table 10: Summary of ASA Risk Category by Study and Treatment	18
+Table 11: Primary Analysis Results – Study 006	19
+Table 12: Primary Analysis Results – Study 008	19
+Table 13: Efficacy Analysis Results – Study 015	19
+Table 14: Study Drug and Rescue Use for Procedure Completers – Study 006	20
+Table 15: Study Drug and Rescue Use for Procedure Completers – Study 008	20
+Table 16: Study Drug and Rescue Use – Study 015	20
+Table 17: Fentanyl Use by Study (Treated Patients)	21
+Table 18: Study Drug and Rescue Medication Usage at the Time of Procedure Initiation	22
+Table 19: Logistic Regression Success vs Fentanyl Total Dose – Study 006 Remimazolam Only	23
+Table 20: Logistic Regression Success vs Fentanyl Total Dose – Study 008 Remimazolam Only	24
+Table 21: Summary of Procedure Duration by Study and Treatment Arm	25
+Table 22: Number (Percentage) of Procedures Lasting Longer than 20 or 30 minutes by Study and Treatment Arm	25
+Table 23: Logistic Regression Analysis of Treatment Success vs Procedure Duration – Study 006 Remimazolam Only	26
+Table 24: Logistic Regression Analysis of Treatment Success vs Procedure Duration – Study 008 Remimazolam Only	27
+Table 25: Linear Regression Analysis of Fentanyl Total Dose vs Procedure Duration – Study 006 Remimazolam Only	28
+Table 26: Linear Regression Analysis of Fentanyl Total Dose vs Procedure Duration – Study 008 Remimazolam Only	29
+Table 27: Time to Event Analyses – Study 006	30
+Table 28: Time to Event Analyses – Study 008	30
+Table 29: Time to Event Analyses – Study 015	30
+Table 30: Summary of Treatment-Emergent Adverse Events - Incidence (Safety Population) – Study 006	33
+Table 31: Summary of TEAEs – Incidence (Safety Population) – Study 008	33
+Table 32: Incidence of Patients with Treatment-Emergent Adverse Events by Treatment Group (Safety Population) – Study 015	34
+Table 33: Logistic Regression of Related Treatment Emergent Adverse Event likelihood vs Remimazolam and Fentanyl Doses and Procedure Duration - Study 006	34
+L15: Table 34: Logistic Regression of Related Treatment Emergent Adverse Event likelihood vs Remimazolam and Fentanyl Doses and Procedure Duration - Study 008	35
+Table 35: Number (Percent) of Successful Procedures by Demographic Subgroup – Study 006	35
+Table 36: Number (Percent) of Successful Procedures by Demographic Subgroup – Study 008	36
+Table 37: Number (Percent) of Successful Procedures by Demographic Subgroup – Study 015	36
+Table 38: Bayesian Logistic Regression Analyses of the Success Rates by Demographic Subgroup – Study 006	38
+Table 38: Bayesian Logistic Regression Analyses of the Success Rates by Demographic Subgroup – Study 008	39
+Table 40: Bayesian Logistic Regression Analyses of the Success Rates by Demographic Subgroup – Study 015	39
+Table 41: Analysis of Efficacy by Fentanyl Stratum – Study 006	48
+Table 42: Analysis of Efficacy by Fentanyl Stratum – Study 008	48
+Table 43: Analysis of Efficacy by Fentanyl Stratum – Study 015	48
+Table 44: Linear Regression Analysis of Remimazolam Total Dose vs Procedure Duration – Study 006 Remimazolam Only	49
+Table 45: Linear Regression Analysis of Remimazolam Total Dose vs Procedure Duration – Study 006 Remimazolam Only	50
+L16: ## LIST OF FIGURES
+L17: Figure 1: Success Rate vs Total Fentanyl Dose – Study 006 Remimazolam Only	23
+Figure 2: Success Rate vs Total Fentanyl Dose – Study 008 Remimazolam Only	24
+Figure 3: Treatment Success vs Procedure Duration – Study 006 Remimazolam Only	26
+Figure 4: Success vs Procedure Duration – Study 008 Remimazolam Only	27
+Figure 5: Fentanyl Total Dose vs Procedure Duration – Study 006 Remimazolam Only	28
+Figure 6: Fentanyl Total Dose vs Procedure Duration – Study 008 Remimazolam Only	29
+Figure 7: Posterior Means and 95% Credible Intervals of the Success Rates by Demographic Subgroup – Study 006	37
+Figure 8: Posterior Means and 95% Credible Intervals of the Success Rates by Demographic Subgroup – Study 008	37
+Figure 9: Posterior Means and 95% Credible Intervals of the Success Rates by Demographic Subgroup – Study 015	38
+Figure 10: Remimazolam and Rescue Medication Usage in the Remimazolam Treatment Arm by Site – Study 006	42
+Figure 11: Remimazolam and Rescue Medication Usage in the Remimazolam Treatment Arm by Site – Study 008	43
+Figure 12: Fentanyl Usage in the Remimazolam Treatment Arm by Patient vs Time Since First Dose of Remimazolam – Study 006	44
+Figure 13: Fentanyl Usage in the Remimazolam Treatment Arm by Patient vs Time Since First Dose of Remimazolam – Study 008	45
+Figure 14: Fentanyl Usage in the Remimazolam Treatment Arm by Patient vs Time Since Start of Procedure – Study 006	46
+Figure 15: Fentanyl Usage in the Remimazolam Treatment Arm by Patient vs Time Since Start of Procedure – Study 008	47
+Figure 16: Remimazolam Total Dose vs Procedure Duration – Study 006 Remimazolam Only	49
+Figure 17: Remimazolam Total Dose vs Procedure Duration – Study 006 Remimazolam Only	50
+L18: ## 1 EXECUTIVE SUMMARY
+L19: In this review I examined the collective evidence on the efficacy and safety of remimazolam, a novel benzodiazepine, for procedural sedation. The efficacy and safety of Remimazolam was evaluated in three clinical studies. In the first two studies, the goal was to evaluate the efficacy of remimazolam relative to placebo in patients undergoing colonoscopy (CNS7506-006, hereinafter 006) and bronchoscopy (CNS7056-008, hereinafter 008). The third study (CNS7056-015, hereinafter 015) was primarily designed to evaluate safety in higher risk patients undergoing colonoscopy. All three studies included an open-label midazolam treatment arm.
+L20: In all three studies the American Society of Anesthesiologists Physical Status (ASA-PS) score was used to classify the patient's risk level. Studies 006 and 008 enrolled patients ASA-PS classification I-III (Normal healthy patients to patients with severe systemic disease). Study 015 included only patients with ASA-PS classification III and IV (severe systemic disease that is a constant threat to life).
+L21: In studies 006 and 008, efficacy was evaluated using a binary success criterion. Patients were defined to be treatment successes if they met all three of the following criteria:
+L22: - No rescue sedative medication usage;
+- Successful completion of the study procedure;
+- No more than 5 top-up doses within any 15-minute window (remimazolam or placebo).
+- No more than 3 top-up doses within any 12-minute window (midazolam).
+L23: In studies 006 and 008, patients receiving remimazolam responded at significantly higher rates than the placebo patients (remimazolam: 91% &amp; 81% vs placebo: 1.7% &amp; 4.8%). The main reason for failure for remimazolam was too many doses within the 15-minute window for study 006 and rescue sedative medication usage for study 008. In both studies the main reason for failure for placebo patients was use of rescue sedative medication. I omitted the midazolam treatment arm information from my efficacy analyses as it was not a primary study comparison and does not provide useful information as the dosing was not designed to match standard clinical practice and was administered in an open-label fashion.
+L24: There were three issues that the applicant failed to adequately evaluate and discuss. First, fentanyl was used as an analgesic, but fentanyl also has a sedative effect and could potentially serve as a rescue medication. Second, the applicant did not explore the relationship between procedure duration and success rate. Third, the relationship between dose and safety was not explored. I will now discuss and summarize my findings for these issues.
+L25: There was a clear correlation between fentanyl use and treatment success, with patients who used more fentanyl being less likely to successfully respond. This was established using logistic regression analyses in studies 006 and 008 which evaluated the probability of treatment success vs the total fentanyl use. In both studies this analysis found a negative relationship between the total fentanyl dose and the probability of success (Table 19 and Table 20 for studies 006 and 008 respectively).
+L26: In addition, the placebo treatment arm provides valuable information on the efficacy of fentanyl as a sedative. The majority of placebo patients who were able to initiate the procedure (Study 006: 56/60 [93%]; Study 008: 58/60 [97%]) required rescue doses of midazolam to reach a sufficient level of sedation. These two analyses combined demonstrate that while fentanyl may have some sedative effects, at the doses the sedative effects were minimal in the placebo population which received higher doses on average than the remimazolam population. In both studies, the procedure duration was relatively short (mean durations of 12.4 and 12.8 minutes for remimazolam patients for studies 006 and 008 respectively), with all but one procedure lasting less than 30 minutes in Study 006 and 90% of procedures lasting less than 30 minutes for Study 008. In study 008, where there were more procedures with longer duration, there was a clear decrease in the rate of treatment success and an increase in the rate of adverse events as the procedure duration increased. Consequently, based on the available data, I would not recommend the use of remimazolam in procedures of longer duration without further study.
+L27: Finally, remimazolam dose does not appear to be correlated with an increase in related treatment emergent adverse events in either study. I explored this relationship using a logistic regression model which also included fentanyl dose and procedure duration (see Table 33 and Table 34). In both studies fentanyl dose was positively correlated with the adverse event rate (more adverse events as fentanyl dose is increased). Longer procedure duration was correlated with an increase in adverse events in one study (008) but not the other (006).
+L28: In conclusion, remimazolam has been proven to be efficacious compared to placebo for procedural sedation for shorter procedures. The applicant will need to conduct additional studies to support its use in longer procedures.
+L29: ## INTRODUCTION
+L30: ## 1.1 Overview
+L31: The applicant's development program consisted of two adequate and well-controlled studies (CNS7056-006 and CNS7056-008) which were designed to evaluate the efficacy and safety of remimazolam for procedural sedation in two different procedures (colonoscopy and bronchoscopy) and a third study in high risk patients undergoing colonoscopy for which the primary objective was to assess the safety of remimazolam. Risk was determined using the American Society of Anesthesiologists Classification (ASA Class) which classifies patients into six categories1. Patients were considered high risk if they were classified as ASA III or ASA IV. The other two studies allowed enrollment of patients in ASA categories I-III. Efficacy was also assessed in the high-risk population. All three studies are summarized in Table 1 and will be discussed in greater detail in Sections 2.2 and 2.3.
+L32: **Table 1: List of all studies included in analysis**
+L33: Phase and Design	Treatment Period	Follow-up Period	# of Treated Subjects per Arm	Study Population
+CNS7056-006
+NCT02290873	MC, R, DB,
+PG, PC, AC	Procedure duration	Day 4
+(+3/-1 days)	Remimazolam: 296
+Placebo: 60
+Midazolam: 102	Patients undergoing colonoscopy
+CNS7056-008
+NCT02296892	MC, R, DB,
+PG, PC, AC	Procedure duration	Day 4
+(+3/-1 days)	Remimazolam: 303
+Placebo: 59
+Midazolam: 69	Patients undergoing bronchoscopy
+CNS7056-015
+NCT02532647	MC, R, DB,
+PG, PC, AC	Procedure duration	Day 4
+(+3/-1 days)	Remimazolam: 31
+Placebo: 16
+Midazolam: 30	ASA III/IV patients undergoing colonoscopy
+L34: * MC: multi-center, R: randomized, DB: double-blind, PG: parallel group, PC: placebo controlled, AC: active controlled
+L35: Note: Hereinafter the studies will be referenced by the last three digits of the study id number.
+L36: The late phase development program was first discussed with the Agency in an end-of-phase 2 meeting held on October 17, 2013.
+L37: 1 The categories allowed in the study were:
+L38: ASA I: A normal health patient
+L39: ASA II: A patient with mild systemic disease
+L40: ASA III: A patient with severe systemic disease
+L41: ASA IV: A patient with severe systemic disease that is a constant threat to life
+L42: For more details see: https://www.asahq.org/standards-and-guidelines/asa-physical-status-classification-system
+L43: ## 1.2 Data Sources
+L44: The data were provided electronically by the applicant as SAS transport files in the applicable CDISC SDTM and ADaM data formats. The provided datasets can be found at the following location in the CDER electronic document room (EDR):
+L45: \\CDSESUB1\evsprodNDA212295\0000\m5\datasets
+L46: ## 2 STATISTICAL EVALUATION
+L47: ## 2.1 Data and Analysis Quality
+L48: The quality of the submitted data was sufficient to allow for a thorough review. I was able to derive the primary endpoints for each study and my results were consistent with those of the applicant.
+L49: ## 2.2 Evaluation of Efficacy
+L50: The applicant conducted two studies designed to evaluate the efficacy and safety of remimazolam in two different procedural sedation indications (colonoscopy [006] and bronchoscopy [008]) and a third study (015) designed to evaluate the safety of remimazolam in high risk patients undergoing colonoscopy (ASA category III and IV). The overall design and analysis of these three studies is relatively similar and so I will discuss these studies together and note any differences.
+L51: ## 2.2.1 Study Design and Endpoints
+L52: All three conducted studies followed the same general design, with the most notable difference being the procedure that the patients underwent (colonoscopy or bronchoscopy) and the population being studied (lower risk [ASA categories I-III] or high risk [ASA categories III-IV]). In all studies, patients who needed to undergo the related study procedure were screened for their study eligibility. Eligible patients were then scheduled for treatment.
+L53: To be eligible for the study patients had to meet the following inclusion and exclusion criteria:
+L54: ## **Inclusion:**
+L55: - Male and female patients, aged \ge 18, scheduled to undergo a diagnostic or therapeutic colonoscopy (therapeutic procedures may include hemostasis, resection, ablation decompression, foreign body extraction, for example). (Studies 006 and 015 only)
+- Male and female patients, aged \ge 18, scheduled to undergo a diagnostic or therapeutic flexible fiberoptic bronchoscopy in the bronchoscopy suite (therapeutic bronchoscopies may include lavage, biopsies, brushings, and foreign body extraction, for example). (Study 008 only)
+- American Society of Anesthesiologists Score I through III. (Studies 006 and 008 only)
+- ASA grade III/IV. (Study 015 only)
+- Body mass index (BMI) \le 40 \text{ kg/m}^2. (Studies 006 and 008 only)
+- For female patients with child-bearing potential, negative result of pregnancy test (serum or urine) as well as use of birth control during the study period (from the time of consent until all specified observations are completed).
+- Patient voluntarily signs and dates an ICF that is approved by an IRB prior to the conduct of any study procedure.
+L56: - Patient is willing and able to comply with study requirements and return for a Follow-up Visit on Day 4 (+3/-1) after the colonoscopy/bronchoscopy.
+L57: ## **Exclusion:**
+L58: - Patients with a known sensitivity to benzodiazepines, flumazenil, opioids, naloxone, or a medical condition such that these agents are contraindicated.
+- Chronic use of benzodiazepines for any indication (e.g., insomnia, anxiety, spasticity). (not 015)
+- Female patients with a positive pregnancy test at screening or baseline.
+- Lactating female patients.
+- Patients with positive drugs of abuse screen or a positive serum ethanol at baseline.
+- Patient with a history of drug or ethanol abuse within the past 2 years.
+- Patients in receipt of any investigational drug within 30 days or less than seven half-lives (whichever is longer) before the start of the study or scheduled to receive one during the study period.
+- Patients with an inability to communicate well in English with the investigator.
+L59: Patients will undergo standard preparation (fasting for all studies and local standard bowel preparation for patients undergoing colonoscopy) on the day before the procedure. On the day of the procedure patient's inclusion/exclusion criteria were reviewed, medical and medication histories were taken, and other screening assessments were performed (physical examination, including weight, body temperature, clinical laboratory tests and 12-lead ECG). Following successful completion of these procedures, patients were randomized to receive either remimazolam, placebo, or the open-label active-comparator midazolam. The randomization ratio varied by study and is summarized in Table 2.
+L60: **Table 2: Randomization Ratio by Study**
+L61: Study	Randomization Ratio
+(remimazolam: placebo: midazolam)
+006	30:6:10
+008	30:6:10
+015	2:1:2
+L62: Source: Reviewer
+L63: Patients would then undergo the procedural sedation and study procedure. First, patients would be given an initial dose of sedative. For patients in the remimazolam or placebo groups this consisted of a 5 mg dose of remimazolam or matched placebo manually by injection over one minute with watch control. Following the initial dose, top-up doses (2.5 mg of double-blinded study drug) could be administered anytime sedation was thought to be inadequate. If adequate sedation could not be achieved, then rescue sedation (midazolam) could be administered. Patients in the midazolam arm received an initial 1.75 mg injected over 2 minutes with 1.0 mg supplemental doses or (1.0 mg initial dose/0.5 mg supplemental dose for patients 60 years of age and older, debilitated, or chronically ill).
+L64: To be able to proceed with the required procedure, patients had to achieve an adequate level of sedation. Sedation was measured using the Modified Observer's Assessment of Alertness and Sedation Scale (MOAA/S). The MOAA/S scoring categories are described in Table 3. Adequate sedation for initiation was defined as a MOAA/S score of 3 or less and adequate maintenance sedation was defined as MOAA/S scores of 4 or less.
+L65: **Table 3: Modified Observer's Assessment of Alertness and Sedation Scale**
+L66: Response	Score
+Responds readily to name spoken in normal tone	5 (alert)
+Lethargic response to name spoken in normal tone	4
+Responds only after name is called loudly and/or repeatedly	3
+Responds only after mild prodding or shaking	2
+Responds only after painful trapezius squeeze	1
+Does not respond to painful trapezius squeeze	0
+L67: Source: Appendix, applicant's study report.
+L68: Following completion of the procedure the sedation was discontinued and the time to alertness and discharge were recorded. Finally, patients completed safety assessments several safety assessments 3 days after the procedure (+3/-1 days).
+L69: The primary efficacy objective for all three studies was the comparison in the success rate of the sedation for remimazolam in comparison to placebo. Success was defined as the following:
+L70: - Completion of the colonoscopy procedure, AND
+- No requirement for a rescue sedative medication, AND
+- For remimazolam &amp; placebo: No requirement of more than 5 doses of study medication within any 15-minute window.
+- For midazolam: 3 doses within any 12-minute window).
+L71: The sponsor had the following secondary objectives for studies 006 and 008:
+L72: - The time to start of procedure after administration of the first dose of study medication.
+- The time to peak sedation after administration of the first dose of study medication.
+- The time to ready for discharge (defined as ability to walk unassisted) after the last injection of study drug and after the end of bronchoscopy procedure (bronchoscope out).
+- The time to fully alert (time to first of three Modified Observer's Assessment of Alertness/Sedation (MOAA/S) scores of 5 after the last injection of study drug and after the end of bronchoscopy procedure (bronchoscope out).
+- The MOAA/S scores by time point.
+- The recall of the procedure by the Brice questionnaire administered when full alertness is regained and on Day 4.
+- The changes to the patient's cognitive function by the Hopkins Verbal Learning Test - Revised (HVLT-R) administered before study medication administration and after the fully alert criteria have been achieved.
+L73: - The safety of multiple doses (initial dose and additional top-up doses) of remimazolam (including oxygen saturation and no need for mechanical ventilation), following administration of a standard dose of fentanyl.
+- The readiness to discharge score 30, 60- and 90-minutes post injection of the first dose.
+- The Drowsiness visual analogue scale to assess for signs of re-sedation.
+- The requirement for flumazenil during the procedure.
+- The patient's self-evaluation of "back-to-normal" after the procedure.
+- The pain on injection at application of study medication.
+- The population PK in a subgroup of patients (a minimum of 50 patients below 65 years of age, and 15 patients aged 65-74). (Study 006 only).
+- Population PK in elderly patients (\ge 75 years) at selected sites. (Study 008 only).
+L74: For Study 015 the primary objective was to assess the safety of multiple doses (initial dose and additional top-up doses) of remimazolam compared to placebo and midazolam, following administration of a standard dose of fentanyl. The secondary objectives for Study 015 were:
+L75: - To assess the success of the procedure, as measured by the success definition described above.
+- The time to start of procedure after administration of the first dose of study medication.
+- The time to peak sedation after administration of the first dose of study medication.
+- The time to fully alert (time to first of three Modified Observer's Assessment of Alertness/Sedation (MOAA/S) scores of 5 after the last injection of study drug and after the end of bronchoscopy procedure (bronchoscope out)).
+- The MOAA/S scores by time point.
+- The recall of the procedure by the Brice questionnaire administered when full alertness is regained and on Day 4.
+- The Drowsiness visual analogue scale to assess for signs of re-sedation.
+- The requirement for flumazenil during the procedure.
+- The pain on injection at application of study medication.
+- To assess the population pharmacokinetics (PK) in the remimazolam arm.
+- To assess the Investigator's satisfaction with the sedation agent.
+- To assess the effect of study drug / midazolam in combination with fentanyl on the ventilatory drive.
+- To assess the amount of study medication administered to the patient.
+L76: ## 2.2.2 Statistical Methodologies
+L77: The primary efficacy endpoint for all three studies was the analysis of the difference in sedative success rate between remimazolam and placebo, where success was defined as described in Section 2.2.1. The primary hypothesis for this endpoint was:
+L78: H_0: \pi_{\text{Remi}} \le \pi_{\text{PLA}} \text{ vs. } H_1: \pi_{\text{Remi}} &gt; \pi_{\text{PLA}},
+L79: where \pi_{\text{Remi}} and \pi_{\text{PLA}} denote the success rates for remimazolam and placebo, respectively. The applicant estimated the difference using the simple difference between the observed treatment success rate in the two groups, calculated confidence intervals using the Wald method and tested
+L80: the primary hypothesis using the Cochran-Mantel-Haenszel (CMH) test to account for the fentanyl use strata, which were defined in all three studies as:
+L81: - &lt;100 mcg,
+- 100 – 150 mcg,
+- &gt;150 mcg.
+L82: The patient population for the primary analysis was the intent-to-treat (ITT) population which was defined as who were randomized into the study. The modified ITT analysis set will also be used for a number of analyses. This analysis set was defined as all patients who were randomized and received at least one complete dose of study medication. In both cases, patients were analyzed as randomized. The safety population was used for all safety analyses. This population consisted of all randomized patients who received any amount of study drug and they were analyzed as treated.
+L83: The applicant also analyzed the efficacy results separately by fentanyl strata using the same Wald confidence limits approach with the CMH test. The sedative success rates group by the demographic subgroups (age group [&lt;65 years, \ge 65 years], sex, race) and ASA status were again analyzed using the CMH method, but risk ratios and corresponding confidence intervals were presented instead of the success rates themselves.
+L84: I will not present the applicant's results for the secondary endpoints, as the comparisons to the control groups are not informative as the conduct in the placebo and midazolam arms does not match standard clinical practice. Instead, I will present these results without reference to the control arms:
+L85: - Time to start of procedure
+- Time to peak sedation
+- Time to ready for discharge
+- Time to fully alert
+L86: Presented quantiles were obtained from non-parametric Kaplan-Meier survival analyses. Confidence intervals were obtained using the Wald method on Cox proportional hazard analyses.
+L87: I conducted several additional analyses to examine the relationship between various continuous variables and the success rate. For these analyses I used logistic regression models with success as the dependent variable and the variables of interest as the independent variables.
+L88: ## 2.2.3 Patient Disposition, Demographic and Baseline Characteristics
+L89: The patient disposition in the studies is shown in Table 4, Table 5, and Table 6 for studies 006, 008, and 015 respectively. Overall, the study completion rates were very high (at least 98%) in all treatment arms.
+L90: **Table 4: Patient Disposition (Safety Population) – Study 006**
+L91: Remimazolam
+N=296
+n (%)	Placebo
+N=60
+n (%)	Midazolam
+N=102
+n (%)
+L92: Informed Consent Given	296 (100.0)	60 (100.0)	102 (100.0)
+Randomized	296 (100.0)	60 (100.0)	102 (100.0)
+Treated (Fentanyl or IMP)	296 (100.0)	60 (100.0)	102 (100.0)
+Completed Study Treatment Period	296 (100.0)	59 (98.3)	101 (99.0)
+Completed Follow-up Visit	296 (100.0)	59 (98.3)	101 (99.0)
+Early Termination (Withdrawals)	0 (0.0)	1 (1.7)	1 (1.0)
+Reasons for Withdrawals:	
+Withdrawal by Patient	0 (0.0)	1 (1.7)	1 (1.0)
+L93: Source: Table 10, applicant's study report.
+L94: **Table 5: Patient Disposition (Safety Population) – Study 008**
+L95: Remimazolam
+N=303
+n (%)	Placebo
+N=59
+n (%)	Midazolam
+N=69
+n (%)
+Informed Consent Given	303 (100.0)	59 (100.0)	69 (100.0)
+Randomized	303 (100.0)	59 (100.0)	69 (100.0)
+Treated (Fentanyl or IMP)	303 (100.0)	59 (100.0)	69 (100.0)
+Completed Study Treatment Period	303 (100.0)	59 (100.0)	69 (100.0)
+Completed Follow-up Visit	298 (98.3)	59 (100.0)	68 (98.6)
+Early Termination (Withdrawals)	5 (1.7)	0 (0.0)	1 (1.4)
+Reasons for Withdrawals:	
+Lost to follow up	5 (1.7)	0 (0.0)	1 (1.4)
+L96: Source: Table 7, applicant's study report.
+L97: **Table 6: Patient Disposition (Safety Population) – Study 015**
+L98: Remimazolam
+N=31
+n (%)	Placebo
+N=16
+n (%)	Midazolam
+N=30
+n (%)
+Informed Consent Given	31 (100.0)	16 (100.0)	30 (100.0)
+Randomized	31 (100.0)	16 (100.0)	30 (100.0)
+Treated (Fentanyl or IMP)	31 (100.0)	16 (100.0)	30 (100.0)
+Completed Study Treatment Period	31 (100.0)	16 (100.0)	30 (100.0)
+Completed Follow-up Visit	31 (100.0)	16 (100.0)	30 (100.0)
+Early Termination (Withdrawals)	0 (0.0)	0 (0.0)	0 (0.0)
+L99: Source: Table 9, applicant's study report.
+L100: The patient demographics are summarized in Table 7, Table 8, and Table 9 for studies 006, 008, and 015 respectively. There do not appear to be any major imbalances between the populations in any of the studies. Overall, patients in study 006 were younger than patients in the other two
+L101: studies. There was also a greater proportion of Hispanic or Latino patients enrolled in this study. Otherwise, the demographics were similar between the studies.
+L102: **Table 7: Patient Demographics (Safety Population) – Study 006**
+L103: Remimazolam
+N=296
+n (%)	Placebo
+N=60
+n (%)	Midazolam
+N=102
+n (%)
+Age (years)	Mean (SD)	54.4 (10.12)	56.0 (9.51)	55.6 (10.15)
+(Min, Max)	(19.0, 80.0)	(24.0, 92.0)	(20.0, 74.0)
+Age Group	Age < 65	254 (85.8)	53 (88.3)	88 (86.3)
+Age ≥ 65	42 (14.2)	7 (11.7)	14 (13.7)
+Sex	Female	149 (50.3)	35 (58.3)	56 (54.9)
+Male	147 (49.7)	25 (41.7)	46 (45.1)
+Ethnicity	Hispanic or Latino	46 (15.5)	10 (16.7)	17 (16.7)
+Not Hispanic or Latino	250 (84.5)	50 (83.3)	85 (83.3)
+Race	White	220 (74.3)	43 (71.7)	76 (74.5)
+Black or African American	52 (17.6)	14 (23.3)	14 (13.7)
+Asian	18 (6.1)	3 (5.0)	10 (9.8)
+American Indian or Alaska Native	1 (0.3)	0 (0.0)	0 (0.0)
+Other	3 (1.0)	0 (0.0)	1 (1.0)
+Multiple	1 (0.3)	0 (0.0)	1 (1.0)
+Height (cm)	Mean (SD)	170.1 (10.36)	167.8 (10.24)	169.5 (11.15)
+(Min, Max)	(144.0, 193.0)	(147.0, 193.0)	(143.0, 200.0)
+Weight (kg)	Mean (SD)	83.2 (17.39)	84.6 (19.90)	81.9 (16.24)
+(Min, Max)	(40.3, 128.0)	(49.1, 143.7)	(51.8, 126.0)
+BMI (kg/m2)	Mean (SD)	28.9 (4.72)	30.0 (5.31)	28.8 (4.75)
+(Min, Max)	(16.9, 40.0)	(19.0, 39.9)	(17.4, 38.8)
+L104: Source: Table 13, applicant's study report.
+L105: Table 8: Patient Demographics (Safety Population) – Study 008
+L106: Remimazolam
+N=303
+n (%)	Placebo
+N=59
+n (%)	Midazolam
+N=69
+n (%)
+Age (years)	Mean (SD)	62.7 (12.09)	61.0 (12.06)	61.4 (14.08)
+(Min, Max)	(22.0, 95.0)	(30.0, 78.0)	(26.0, 85.0)
+Age Group	Age < 65	154 (50.8)	32 (53.3)	36 (52.9)
+Age ≥ 65	149 (49.2)	28 (46.7)	32 (47.1)
+Sex	Female	164 (54.1)	35 (58.3)	34 (50.0)
+Male	139 (45.9)	25 (41.7)	34 (50.0)
+Ethnicity	Hispanic or Latino	8 (2.6)	0 (0.0)	0 (0.0)
+Not Hispanic or Latino	295 (97.4)	60 (100.0)	68 (100.0)
+Race	White	263 (86.8)	47 (78.3)	48 (70.6)
+Black or African American	33 (10.9)	10 (16.7)	19 (27.9)
+Asian	3 (1.0)	1 (1.7)	1 (1.5)
+American Indian or Alaska Native	1 (0.3)	0 (0.0)	0 (0.0)
+Other	3 (1.0)	2 (3.3)	0 (0.0)
+Height (cm)	Mean (SD)	168.6 (9.50)	167.2 (9.97)	169.9 (9.93)
+(Min, Max)	(142.0, 189.0)	(147.0, 188.0)	(151.0, 191.0)
+Weight (kg)	Mean (SD)	80.9 (20.21)	77.5 (21.05)	83.2 (22.17)
+(Min, Max)	(41.4, 155.0)	(32.4, 127.0)	(42.6, 182.9)
+BMI (kg/m2)	Mean (SD)	28.4 (6.39)	27.8 (7.07)	28.1 (5.79)
+(Min, Max)	(16.1, 45.0)	(13.8, 43.6)	(16.1, 40.9)
+L107: Source: Table 10, applicant's study report.
+L108: **Table 9: Patient Demographics (Safety Population) – Study 015**
+L109: Remimazolam
+N=31
+n (%)	Placebo
+N=16
+n (%)	Midazolam
+N=30
+n (%)
+Age (years)	Mean (SD)	63.1 (8.65)	63.0 (8.37)	61.5 (10.60)
+(Min, Max)	(47.0, 84.0)	(49.0, 79.0)	(42.0, 81.0)
+Age Group	Age < 65	18 (58.1)	9 (56.2)	19 (63.3)
+Age ≥ 65	13 (41.9)	7 (43.8)	11 (36.7)
+Sex	Female	14 (45.2)	4 (25.0)	16 (53.3)
+Male	17 (54.8)	12 (75.0)	14 (46.7)
+Ethnicity	Hispanic or Latino	0 (0.0)	0 (0.0)	0 (0.0)
+Not Hispanic or Latino	31 (100.0)	16 (100.0)	30 (100.0)
+Race	White	25 (80.6)	13 (81.2)	19 (63.3)
+Black or African American	6 (19.4)	3 (18.8)	10 (33.3)
+Asian	0 (0.0)	0 (0.0)	1 (3.3)
+Height (cm)	Mean (SD)	171.1 (10.07)	171.8 (7.72)	168.4 (10.32)
+(Min, Max)	(147.0, 185.0)	(158.0, 183.0)	(152.0, 195.0)
+Weight (kg)	Mean (SD)	91.0 (28.14)	94.0 (26.11)	87.8 (23.91)
+(Min, Max)	(57.9, 170.2)	(58.8, 166.8)	(57.2, 154.5)
+BMI (kg/m2)	Mean (SD)	30.9 (8.28)	30.8 (5.53)	30.8 (6.75)
+(Min, Max)	(22.4, 55.4)	(22.5, 40.1)	(23.0, 53.1)
+L110: Source: Table 12, applicant's study report.
+L111: Table 10 shows the distribution of ASA categories. As described in Section 2.2.1, studies 006 and 008 enrolled only low risk patients (ASA I-III) while study 015 enrolled only higher risk patients (ASA III-IV). The distributions are quite different for all three studies, with patients in study 006 being generally at the lowest risk.
+L112: **Table 10: Summary of ASA Risk Category by Study and Treatment**
+L113: Study	Treatment	ASA Category
+ASA I	ASA II	ASA III	ASA IV
+006
+Colonoscopy	Remimazolam	95/296 (32.1)	179/296 (60.5)	22/296 (7.4)	0
+Placebo	11/60 (18.3)	45/60 (75.0)	4/60 (6.7)	0
+Midazolam	37/102 (36.3)	61/102 (59.8)	4/102 (3.9)	0
+008
+Bronchoscopy	Remimazolam	10/303 (3.3)	185/303 (61.1)	108/303 (35.6)	0
+Placebo	2/60 (3.3)	29/60 (48.3)	29/60 (48.3)	0
+Midazolam	3/68 (4.4)	40/68 (58.8)	25/68 (36.8)	0
+015
+Colonoscopy
+(High Risk)	Remimazolam	0	0	16/31 (51.6)	15/31 (48.4)
+Placebo	0	0	9/16 (56.2)	7/16 (43.8)
+Midazolam	0	0	15/30 (50.0)	15/30 (50.0)
+L114: Source: Reviewer
+L115: ## 2.2.4 Results and Conclusions
+L116: The results of the applicant's primary efficacy analyses are shown in Table 11, Table 12, and Table 13 for studies 006, 008 and 015 respectively. In the first two studies (006 and 008) there is a large, statistically significant difference in the treatment success rate between the remimazolam and placebo arms. For study 015 the main objective was safety and so statistical tests were not performed for the efficacy endpoints, though the success rates were similar to the other two studies. I omitted the midazolam treatment arm information as it was not a primary study comparison and does not provide useful information as the dosing was not designed to match standard clinical practice and was administered in an open-label fashion.
+L117: The reasons for treatment failure are also noted in the same tables. For patients in the placebo arm in all three studies the main reason for treatment failure was use of rescue. This varied between 90-100% between the three studies. In studies 006 and 015 there was also high percentage of placebo patients (study 006: 73% and study 015: 88%) who used more than the allowed number of doses within a 15-minute time interval. The main reason for failure for the patients in the remimazolam arm varied by study between too many doses within any 15-minute interval for study 006 to too much rescue medication in study 008 or a similar rate for both in study 015.
+L118: **Table 11: Primary Analysis Results – Study 006**
+L119: Remimazolam
+N = 298
+n (%)	Placebo
+N = 60
+n (%)	Difference in
+Rates
+(95% CI)	P-Value
+Treatment Success	272 (91.3%)	1 (1.7%)	89.6%
+(85.1, 94.2)	<0.0001
+Failure	26 (8.7%)	59 (98.3%)	
+Reasons for failure	
+Rescue sedative medication taken	10 (3.4%)	57 (95%)	
+Too many doses within the predefined time window	18 (6.0%)	44 (73.3%)	
+Procedure not completed	7 (2.3%)	1 (1.7%)
+L120: Source: Table 15, applicant's study report.
+L121: **Table 12: Primary Analysis Results – Study 008**
+L122: Remimazolam
+N = 310
+n (%)	Placebo
+N = 63
+n (%)	Difference in
+Rates
+(95% CI)	P-Value
+Treatment Success	250 (80.6%)	3 (4.8%)	75.9%
+(69.0, 82.7)	<0.0001
+Failure	60 (19.4%)	60 (95.2%)	
+Reasons for failure	
+Rescue sedative medication taken	49 (15.8%)	57 (90.5%)	
+Too many doses within the predefined time window	14 (4.5%)	10 (15.9%)	
+Procedure not completed	9 (2.9%)	3 (4.8%)
+L123: Source: Table 12 &amp; 13, applicant's study report.
+L124: **Table 13: Efficacy Analysis Results – Study 015**
+L125: Remimazolam
+N = 32
+n (%)	Placebo
+N = 16
+n (%)	Difference in
+Rates
+(95% CI)
+Treatment Success	27 (84.4%)	0 (0.0%)	84.4%
+(71.8, 97.0)
+Failure	5 (15.6%)	16 (100.0%)	
+Reasons for failure	
+Rescue sedative medication taken	3 (9.4%)	16 (100.0%)	
+Too many doses within the predefined time window	3 (9.4%)	14 (87.5%)	
+Procedure not completed	1 (3.1%)	0 (0.0%)
+L126: Source: Table 14, applicant's study report.
+L127: Total amounts of study and rescue medication use are summarized in Table 14, Table 15 and Table 16 for Studies 006, 008, and 015 respectively. In all three studies, study drug and rescue medication usage was higher in the placebo arm and remimazolam arm.
+L128: **Table 14: Study Drug and Rescue Use for Procedure Completers – Study 006**
+L129: Statistics	Remimazolam	Placebo
+Study Drug (mL)*	
+Mean (SD)	4.21 (1.60)	7.07 (0.55)
+Median	4	7
+(Min, Max)	(2, 9)	(6, 11)
+Rescue (mg)	
+Mean (SD)	0.29 (2.08)	6.79 (4.26)
+Median	0	6
+(Min, Max)	(0, 25)	(0, 25)
+L130: Source: Reviewer
+L131: * For Remimazolam 1mL = 2.5 mg
+L132: **Table 15: Study Drug and Rescue Use for Procedure Completers – Study 008**
+L133: Statistics	Remimazolam	Placebo
+Study Drug (mL)*	
+Mean (SD)	4.57 (2.02)	6.03 (0.97)
+Median	4	6
+(Min, Max)	(2, 12)	(0†, 7)
+Rescue (mg)	
+Mean (SD)	1.20 (3.38)	5.78 (3.75)
+Median	0	5
+(Min, Max)	(0, 20)	(0, 17)
+L134: Source: Reviewer
+L135: * For Remimazolam 1mL = 2.5 mg
+L136: † One patient randomized to placebo received midazolam erroneously.
+L137: **Table 16: Study Drug and Rescue Use – Study 015**
+L138: Statistics	Remimazolam	Placebo
+Study Drug (mL)*	
+Mean (SD)	3.61 (1.48)	6.47 (0.99)
+Median	3	7
+(Min, Max)	(2, 7)	(3.5, 7)
+Rescue (mg)	
+Mean (SD)	2.48 (10.2)	7.22 (2.50)
+Median	0	7.5
+(Min, Max)	(0, 55)	(2, 10)
+L139: Source: Reviewer
+L140: * For Remimazolam 1mL = 2.5 mg
+L141: In all three studies patients were dosed with fentanyl immediately before administration of study drug. Additional supplemental doses of fentanyl could also be given if the level of pain control was inadequate. Fentanyl has a sedative effect and so it was important to evaluate whether there were any differences in the overall Fentanyl use, also fentanyl could potentially serve as an additional rescue medication. The overall summaries of fentanyl use for patients who were able to complete the procedure are shown in Table 17. In all three studies, patients in the placebo group received higher doses of fentanyl than patients in the remimazolam group.
+L142: **Table 17: Fentanyl Use by Study (Treated Patients)**
+L143: Statistics	Remimazolam	Placebo
+Study 006†	
+N	296	60
+Mean (SD)	88.9 (21.7)	121.2 (34.4)
+Median	88	125
+(Min, Max)	(50, 200)	(75, 200)
+Study 008	
+N	303	60
+Mean (SD)	81.8 (54.3)	119 (79.1)
+Median	75	100
+(Min, Max)	(25, 450)	(25, 400)
+Study 015	
+N	31	16
+Mean (SD)	59.7 (15.4)	67.2 (21.8)
+Median	50	50
+(Min, Max)	(50, 100)	(50, 100)
+L144: Source: Reviewer
+L145: † One patient was reported as using 76 µg, while the lowest dose increment used in the study was 25 µg.
+L146: Study drug usage at the time of procedure initiation, including rescue midazolam use, is summarized in Table 18. In the placebo group the majority of patients who were able to initiate the procedure (Study 006: 56/60 [93%]; Study 008: 58/60 [97%]) needed rescue midazolam before reaching a sufficient level of sedation for the procedure to start. Placebo patients also received more higher fentanyl doses on average at this time.
+L147: **Table 18: Study Drug and Rescue Medication Usage at the Time of Procedure Initiation**
+L148: Treatment Arm	Treatment	Number of Patients Exposed	Mean Dose
+Study 006
+Placebo	Fentanyl	60	96.7 µg
+Midazolam	56	5.3 mg
+Fentanyl	296	71.5 µg
+Remimazolam	Midazolam	7	7.9 mg
+Remimazolam	295	6.6 mg
+Study 008
+Placebo	Fentanyl	60†	89.2 µg
+Midazolam	58	4.6 mg
+Fentanyl	300	56.4 µg
+Remimazolam	Midazolam	32	8.2 mg
+Remimazolam	300	7.6 mg
+L149: Source: Reviewer
+L150: † Three patients in the placebo population did not receive any fentanyl or any other study medications. The study procedure was not initiated for these patients.
+L151: If fentanyl was used as rescue for sedation, then patients who used more fentanyl would be expected to respond at higher rates. To examine this the sponsor analyzed the success rates by fentanyl stratum (&lt;100 µg, 100-150 µg, and &gt;150 µg). The results of these analyses are shown in the appendices in Table 41 and Table 42 for studies 006 and 008 respectively. The applicant found that success rates were similar for the two main fentanyl strata (&lt;100 µg and 100-150 µg) in study 006 and lower for the patients in the higher fentanyl use strata (100-150 µg) than for the lower fentanyl use strata. Figures showing fentanyl use by site relative to the first dose of study medication and the start of the procedure are shown in the appendices in Figure 12-Figure 15.
+L152: In addition to the applicant's analyses I also conducted an additional logistic regression analysis for both studies to further evaluate the relationship between fentanyl dose and likelihood of procedure success. The results of these analyses are presented in Figure 1 and Figure 2 for studies 006 and 008 respectively, with the corresponding model parameter estimates shown in Table 19 and Table 20 for studies 006 and 008, respectively.
+L153: In both studies there is a clear relationship between total fentanyl dose and study success, with higher fentanyl doses being associated with higher rates of procedure failure.
+L154: Figure 1: Treatment Success Rate vs Total Fentanyl Dose – Study 006 Remimazolam Only
+L155: Source: Reviewer
+L156: Table 19: Logistic Regression of Treatment Success vs Fentanyl Total Dose – Study 006 Remimazolam Only
+L157: Estimate	Standard Error	P value
+Intercept	5.44	0.932	
+Fentanyl Total Dose (\mug)	-0.032	0.009	<0.001
+L158: Source: Reviewer
+L159: Figure 2: Treatment Success Rate vs Total Fentanyl Dose – Study 008 Remimazolam Only
+L160: Source: Reviewer
+L161: Table 20: Logistic Regression of Treatment Success vs Fentanyl Total Dose – Study 008 Remimazolam Only
+L162: Estimate	Standard Error	P value
+Intercept	3.61	0.376	
+Fentanyl Total Dose (\mu\text{g})	-0.022	0.003	<0.001
+L163: Source: Reviewer
+L164: Next, I will discuss the procedure durations including in the study. Since this is a new molecular entity, it is important to evaluate and determine the limitations of the available data on the efficacy of the drug. One such aspect that needs to be explored is the duration of effect. First, I will start with a presentation of the procedure durations that were included in the study. Following this, I will explore the relationship between procedure duration and treatment success.
+L165: As shown in Table 21 and Table 22, the procedures in both studies were relatively short with mean durations of 12.4 and 12.8 minutes for remimazolam patients in studies 006 and 008 respectively. Furthermore, there was only one procedure in Study 006 lasting longer than thirty minutes and only 10% lasting longer than thirty minutes in Study 008. contain detailed summaries of the procedure durations for all three studies. In all three studies the mean and median durations were similar, varying from around 6.5 to 13 minutes. There was however
+L166: greater variability in the procedure durations for the bronchoscopies in study 008 than for the colonoscopies in the other two studies.
+L167: **Table 21: Summary of Procedure Duration by Study and Treatment Arm**
+L168: Treatment Arm	Remimazolam	Placebo
+Study 006	
+N	296	60
+Mean (SD)	12.4 (5.28)	14.2 (6.87)
+Median	12	13
+(Min, Max)	(3, 33)	(5, 38)
+Study 008	
+N	300	60
+Mean (SD)	12.8 (11.59)	11.1 (12.21)
+Median	10	6.5
+(Min, Max)	(1, 68)	(1, 48)
+Study 015	
+N	31	16
+Mean (SD)	10.3 (5.80)	11.6 (4.66)
+Median	8	11.5
+(Min, Max)	(6, 31)	(6, 22)
+L169: Source: Reviewer
+L170: **Table 22: Number (Percentage) of Procedures Lasting Longer than 20 or 30 minutes by Study and Treatment Arm**
+L171: Treatment Arm	Number (%) of Patients with Procedures lasting at least 20 minutes	Number (%) of Patients with Procedures lasting at least 30 minutes
+Study 006	
+Placebo	11/60 (18.3%)	2/60 (3.3%)
+Remimazolam	28/296 (9.5%)	1/296 (0.3%)
+Study 008	
+Placebo	12/60 (20.0%)	5/60 (8.3%)
+Remimazolam	62/300 (20.7%)	30/300 (10.0%)
+Study 015	
+Placebo	1/16 (6.2%)	0/16 (0.0%)
+Remimazolam	3/31 (9.7%)	1/31 (3.2%)
+L172: Source: Reviewer
+L173: To analyze the relationship between procedure duration and success I again used a logistic regression model, this time with success rate as the dependent variable and the procedure duration as the only independent variable. The results for study 006 are shown in Figure 3 with the corresponding model parameter estimates shown in Table 23. There is no apparent relationship between procedure duration and probability of success in this study.
+L174: The corresponding analyses for study 008 are shown in Figure 4 and Table 24. In contrast to study 006, there is a clear decrease in the rate of procedure success as procedure length increases. Study 015 was not analyzed using this method as there were too few patients.
+L175: **Figure 3: Treatment Success vs Procedure Duration – Study 006 Remimazolam Only**
+L176: Source: Reviewer
+L177: Note: The regression line shown in blue corresponds to the logistic regression analysis summarized in Table 23.
+L178: **Table 23: Logistic Regression Analysis of Treatment Success vs Procedure Duration – Study 006 Remimazolam Only**
+L179: Estimate	Standard Error	P value
+Intercept	2.42	0.55	
+Procedure Duration	0.00003	0.04	0.993
+L180: Source: Reviewer
+L181: Figure 4: Success vs Procedure Duration – Study 008 Remimazolam Only
+L182: Source: Reviewer
+L183: Note: The regression line shown in blue corresponds to the logistic regression analysis summarized in Table 24Table 23.
+L184: Table 24: Logistic Regression Analysis of Treatment Success vs Procedure Duration – Study 008 Remimazolam Only
+L185: Estimate	Standard Error	P value
+Intercept	2.17	0.250	
+Procedure Duration	-0.04	0.012	<0.001
+L186: Source: Reviewer
+L187: Finally, I will evaluate the relationship between the fentanyl use and procedure duration to characterize the magnitude of the relationship between these two variables. I will do this by fitting a linear regression model with fentanyl total dose as the dependent variable and procedure duration as the independent variable. These analyses are shown in Figure 5 and Table 25 for study 006 and Figure 6 and Table 26 for study 008. In both studies, there is a statistically significant relationship (p&lt;0.05) between procedure duration and fentanyl dose.
+L188: Figure 5: Fentanyl Total Dose vs Procedure Duration – Study 006 Remimazolam Only
+L189: Source: Reviewer
+L190: Note: The regression line shown in blue corresponds to the logistic regression analysis summarized in Table 25.
+L191: Table 25: Linear Regression Analysis of Fentanyl Total Dose vs Procedure Duration – Study 006 Remimazolam Only
+L192: Estimate	Standard Error	P value
+Intercept	81.4	3.21	
+Procedure Duration (mins)	0.596	0.237	0.0126
+L193: Source: Reviewer
+L194: Figure 6: Fentanyl Total Dose vs Procedure Duration – Study 008 Remimazolam Only
+L195: Source: Reviewer
+L196: Note: The regression line shown in blue corresponds to the logistic regression analysis summarized in Table 26.
+L197: Table 26: Linear Regression Analysis of Fentanyl Total Dose vs Procedure Duration – Study 008 Remimazolam Only
+L198: Estimate	Standard Error	P value
+Intercept	47.0	3.81	
+Procedure Duration	2.69	0.221	<0.001
+L199: Source: Reviewer
+L200: Analyses of time to various events of interest for remimazolam alone are shown in Table 27, Table 28 and Table 29 for studies 006, 008 and 015 respectively. The applicant presented these analyses in comparison to the corresponding times for midazolam and placebo, however, I do not agree either of these comparisons are informative and so I have not presented this information. Midazolam was not dosed in a manner designed to match clinical practice which limits the interpretability of these times. For placebo, the majority (90-100%) of patients received rescue after waiting a sufficiently long time to determine treatment wasn't working. As this period of time is protocol dependent and does not provide any transferable information, I have not included this information in my review.
+L201: **Table 27: Time to Event Analyses – Study 006**
+L202: Estimate (95% CI)	25th Percentile	Median	75th Percentile
+Time to Start of Procedure from 1st dose of study drug	3 (3, 3)	4 (4, 4)	6 (5, 6)
+Time to Ready for Discharge after the end of colonoscopy	32 (29, 35)	44 (42, 46)	52.5 (51, 54)
+Time to Ready for Discharge after the last dose of study or rescue sedative drug	39.5 (35, 42)	51 (49, 54)	60 (58, 61)
+Time to Fully Alert after the end of colonoscopy	3 (3, 4)	6 (5, 7)	10 (9, 11)
+Time to Fully Alert after the last dose of study or rescue sedative drug (mins)	11 (10, 11)	14 (13, 14)	17 (16, 18)
+L203: Source: Tables 14.2.2.1.1.1, 14.2.2.3.1.1, 14.2.2.4.1.1, 14.2.2.5.1.1, 14.2.2.6.1.1
+L204: **Table 28: Time to Event Analyses – Study 008**
+L205: Estimate (95% CI) [mins]	25th Percentile	Median	75th Percentile
+Time to Start of Procedure from 1st dose of study drug	3.0 (3.0, 3.3)	4.1 (4.0, 4.8)	6.6 (6.0, 7.8)
+Time to Ready for Discharge after the end of colonoscopy	45.0 (43.0, 47.0)	60.0 (57.0, 63.0)	78.0 (72.0, 83.0)
+Time to Ready for Discharge after the last dose of study or rescue sedative drug	50.0 (48.0, 52.9)	64.8 (62.0, 68.5)	83.5 (79.0, 88.8)
+Time to Fully Alert after the end of colonoscopy	3.8 (3.0, 4.0)	6.0 (5.2, 7.1)	19.1 (14.0, 22.0)
+Time to Fully Alert after the last dose of study or rescue sedative drug (mins)	7.8 (7.0, 8.5)	11.6 (10.0, 12.8)	24.0 (19.3, 27.7)
+L206: Source: Tables 14.2.2.1.1.1, 14.2.2.3.1.1, 14.2.2.4.1.1, 14.2.2.5.1.1, 14.2.2.6.1.1
+L207: **Table 29: Time to Event Analyses – Study 015**
+L208: Estimate (95% CI) [mins]	25th Percentile	Median	75th Percentile
+Time to Start of Procedure from 1st dose of study drug	4.0 (4.0, 5.0)	5.0 (4.0, 5.0)	8.0 (5.0, 17.0)
+Time to Fully Alert after the end of colonoscopy	2.0 (1.1, 2.2)	3.0 (2.0, 4.0)	4.1 (3.0, 5.0)
+Time to Fully Alert after the last dose of study or rescue sedative drug (mins)	8.6 (6.8, 10.2)	11 (8.8, 12.0)	14.0 (11.1, 16.0)
+L209: Source: Tables 14.2.3.1.1.1, 14.2.3.3.1.1, 14.2.3.4.1.1
+L210: ## 2.3 Evaluation of Safety
+L211: ## 2.3.1 Safety Analysis Population(s) and Endpoint(s)
+L212: In study 006, the applicant defined two different safety populations:
+L213: - Safety population: consists of all randomized patients who received any amount of study drug and will be analyzed as treated. This population is the primary safety population.
+L214: - Safety population (Safety (Nellcor)) which consists of all patients in the safety population who have usable Nellcor data and will be analyzed as treated. The Nellcor device was used to perform continuous monitoring (taken every second) of heart rate, respiratory rate and SpO2.
+L215: For studies 008 and 015, the applicant revised and further subdivided the Nellcor safety population as follows:
+L216: - Secondary safety populations will consist of all patients in the Safety Population who have usable Nellcor data (“usable” is defined as at least 90% of readable Nellcor data per parameter available within the observation time i.e. the time from first dose of study medication until fully alert):The safety (Nellcor, respiratory rate [RR]) population will consist of all patients in the Safety Population who have usable Nellcor data for RR
+- The safety (Nellcor, heart rate [HR]) population will consist of all patients in the Safety Population who have usable Nellcor data for HR
+- The safety (Nellcor, O2) population will consist of all patients in the Safety Population who have usable Nellcor data for O2 saturation
+- The safety (Nellcor, overall) population will consist of all patients in the Safety Population who have usable Nellcor data for any of the above 3 outcome variables
+L217: The applicant defined the following safety variables to be analyzed as safety endpoints:
+L218: - AEs, including adverse events with focus on respiratory and cardiovascular parameters and prolonged sedation (see Appendix A) and AEs potentially related to abuse (see Appendix D)
+- Concomitant medication
+- Clinical laboratory test results
+- Vital signs (supine heart rate, systolic, diastolic and mean BP, respiration rate, temperature)
+- Pulse oximetry measurements
+- Transcutaneous pCO2 measurements (Study 015 only)
+- 12-lead and 3-lead ECG findings
+- Physical examination finding
+- Pain on injection intensity rating on a verbal score
+- Airway interventions (chin lift, jaw thrust, requirement of repositioning and/or manual or mechanical ventilation)
+- Administration of additional fluids or medication or any interventions necessary due to a clinically relevant change in ECG
+- Withdrawals due to the need for endotracheal intubation or the use of catecholamines, (Studies 006 and 015 only)
+- Administration of reversal agent (flumazenil, naloxone)
+L219: I will focus my analyses on the adverse event rates. Adverse events were further classified by relationship to treatment. I will now provide more details on the applicant's classification process:
+L220: - Treatment emergent adverse events (TEAE): Any adverse event that occurred after the first dose of study medication.
+- Related adverse events: The causal relationship between treatment and the adverse event was rated by the applicant's safety assessors and classified using the following coding list:Certain
+- Related
+- Probable/likely
+- Possible
+- Unlikely
+- Unassessable/unclassifiable
+- Conditional/unclassified.
+L221: Adverse events classified as possibly related or higher were classified as “related” in the applicant's analyses.
+L222: ## 2.3.2 Data Quality
+L223: There were no data quality issues that impacted the assessment of the safety data.
+L224: ## 2.3.3 Statistical Methods
+L225: Descriptive statistics will be presented for the overall adverse event rates. I will use a logistic regression model with adverse event incidence as the dependent variable with remimazolam dose, fentanyl dose and procedure duration as the dependent variables.
+L226: ## 2.3.4 Results and Conclusions
+L227: The overall adverse event summaries are shown in Table 30, Table 31, Table 32 for studies 006, 008, and 015 respectively. Overall, the observed adverse events rates for remimazolam were similar to placebo in all three studies are similar in all categories.
+L228: **Table 30: Summary of Treatment-Emergent Adverse Events - Incidence (Safety Population) – Study 006**
+L229: Number of Patients (%)	Remimazolam
+N=296	Placebo
+N=60	Difference
+(95% CI)
+All Adverse Events	228 (77.0%)	48 (80.0%)	-3.0%
+(-15.2%, 9.2%)
+TEAEs	218 (73.6%)	47 (78.3%)	-4.7%
+(-17.3%, 7.9%)
+Serious TEAEs	0 (0.0%)	0 (0.0%)	-
+TEAEs Leading to Death	0 (0.0%)	0 (0.0%)	-
+TEAEs Leading to Discontinuation	0 (0.0%)	0 (0.0%)	-
+Related TEAEs (possibly or higher)	125 (42.2%)	35 (58.3%)	-16.1%
+(-31%, -1.4%)
+L230: Source: Table 38
+L231: **Table 31: Summary of TEAEs – Incidence (Safety Population) – Study 008**
+L232: Number of Patients (%)	Remimazolam
+N=303	Placebo
+N=59	Difference
+(95% CI)
+All Adverse Events	273 (90.1%)	52 (88.1%)	2.0%
+(-8.0%, 11.9%)
+TEAEs	268 (88.4%)	52 (88.1%)	0.3%
+(-9.0%, 9.6%)
+Serious TEAEs	17 (5.6%)	4 (6.8%)	-1.2%
+(-9.1%, 6.8%)
+TEAEs Leading to withdrawal	1 (0.3%)	0 (0.0%)	0.3%
+(-0.6%, 1.3%)
+Related TEAEs (possibly or higher)	103* (34.7%)	15 (25.4%)	8.6%
+(-4.8%, 21.9%)
+L233: Source: Table 22
+L234: *Two patients had adverse events that were recorded as starting prior to treatment that were classified as at least possibly related to treatment. These patients were excluded from my analyses since they started prior to treatment and were therefore not classified as treatment emergent.
+L235: **Table 32: Incidence of Patients with Treatment-Emergent Adverse Events by Treatment Group (Safety Population) – Study 015**
+L236: Number of Patients (%)	Remimazolam
+N=31	Placebo
+N=16	Difference
+(95% CI)
+All Adverse Events	28 (90.3%)	13 (81.3%)	9.1%
+(-17.4%, 35.6%)
+TEAEs	28 (90.3%)	13 (81.3%)	9.1%
+(-17.4%, 35.6%)
+Serious TEAEs	0 (0.0%)	0 (0.0%)	-
+TEAEs Leading to Death	0 (0.0%)	0 (0.0%)	-
+TEAEs Leading to Withdrawal	0 (0.0%)	0 (0.0%)	-
+Related TEAEs (possibly or higher)	3 (9.7%)	2 (12.5%)	-2.8%
+(-24.9%, 19.3%)
+L237: Source: Table 28
+L238: A key question for this application was whether there is any relationship between dose and adverse event rates for remimazolam. To answer this question, I performed additional logistic regression analyses of the causally related (possibly or higher, as determined by the applicant) treatment emergent adverse events vs three factors that could explain differences in adverse events: remimazolam dose; fentanyl dose; and procedure duration. The results of these analyses are shown in Table 33 and Table 34 for study 006 and study 008 respectively. There were too few patients in study 015 to perform this analysis.
+L239: In both studies there was a statistically significant (p&lt;0.05) relationship between fentanyl dose and the probability of experiencing treatment emergent adverse event, with patients experiencing increasing rates of adverse events with increasing fentanyl dose. In study 008 there is also a statistically significant relationship (p&lt;0.05) between procedure duration and probability of treatment related adverse events.
+L240: **Table 33: Logistic Regression of Related Treatment Emergent Adverse Event likelihood vs Remimazolam and Fentanyl Doses and Procedure Duration - Study 006**
+L241: Estimate	Standard Error	P Value
+Intercept	-0.917	0.564	0.104
+Remimazolam Dose (mg)	-0.058	0.034	0.084
+Fentanyl Dose (\mug)	0.014	0.006	0.019
+Procedure Duration (mins)	-0.002	0.024	0.947
+L242: Source: Reviewer
+L243: **Table 34: Logistic Regression of Related Treatment Emergent Adverse Event likelihood vs Remimazolam and Fentanyl Doses and Procedure Duration - Study 008**
+L244: Estimate	Standard Error	P Value
+Intercept	-1.864	0.347	<0.001
+Remimazolam Dose (mg)	-0.036	0.034	0.297
+Fentanyl Dose (\mug)	0.014	0.004	<0.001
+Procedure Duration (mins)	0.035	0.015	0.023
+L245: Source: Reviewer
+L246: ## 3 FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L247: ## 3.1 Gender, Race, Age, and Geographic Region
+L248: Summaries of the success rates by demographic subgroup are shown in Table 35, Table 36 and Table 37 for study 006, study 008 and study 015 respectively. I reanalyzed these data using a Bayesian logistic regression model with a random effect for the demographic subgroup. Details of this model are provided in the APPENDICES. Posterior means and 95% credible intervals obtained from these analyses are shown in Figure 7, Figure 8, and Figure 9 for studies 006, 008 and 015 respectively. More summary statistics are provided in Table 38, Table 39, Table 40. Overall, there do not appear to be any meaningful differences in the success rate between any of the demographic subgroups.
+L249: **Table 35: Number (Percent) of Successful Procedures by Demographic Subgroup – Study 006**
+L250: Remimazolam
+(N=298)	Placebo
+(N=60)
+Sex	
+Male	140/148 (94.6%)	0/25 (0.0%)
+Female	132/150 (88.0%)	1/35 (2.9%)
+Age Group	
+Age < 65 years	230/256 (89.8%)	1/53 (1.9%)
+Age ≥ 65 years	42/42 (100.0%)	0/7 (0.0%)
+Race	
+White	199/222 (89.6%)	1/43 (2.3%)
+Black or African American	50/52 (96.2%)	0/14 (0.0%)
+Asian	17/18 (94.4%)	0/3 (0.0%)
+Other	6/6 (0.0%)	0
+L251: Source: Applicant's Study Report Table 14.2.1.4.1 and Integrated Summary of Efficacy Table 4.4.1
+L252: **Table 36: Number (Percent) of Successful Procedures by Demographic Subgroup – Study 008**
+L253: Remimazolam
+(N=310)
+n/N (%)	Placebo
+(N=63)
+n/N (%)
+Sex	
+Male	115/143 (80.4%)	2/27 (7.4%)
+Female	135/167 (100.0%)	1/36 (2.8%)
+Age Group	
+Age < 65 years	122/158 (77.2%)	0/33 (0.0%)
+Age ≥ 65 years	128/152 (84.2%)	3/30 (10.0%)
+Race	
+White	215/270 (79.6%)	2/50 (4.0%)
+Black or African American	28/33 (84.8%)	1/10(10.0%)
+Asian	3/3 (100.0%)	0/1 (0.0%)
+Other	4/4 (100.0%)	0/2 (0.0%)
+L254: Source: Applicant's Study Report Table 14.2.1.4.1 and Integrated Summary of Efficacy Table 4.4.1
+L255: **Table 37: Number (Percent) of Successful Procedures by Demographic Subgroup – Study 015**
+L256: Remimazolam
+(N=31)
+n/N (%)	Placebo
+(N=16)
+n/N (%)
+Sex	
+Male	16/17 (94.1%)	0/12 (0.0%)
+Female	11/14 (78.6%)	0/4 (0.0%)
+Age Group	
+Age < 65 years	15/18 (83.3%)	0/9 (0.0%)
+Age ≥ 65 years	12/13 (92.3%)	0/7 (0.0%)
+Race	
+White	21/25 (84.0%)	0/13 (0.0%)
+Black or African American	6/6 (100.0%)	0/3 (0.0%)
+L257: Source: Reviewer
+L258: **Figure 7: Posterior Means and 95% Credible Intervals of the Success Rates by Demographic Subgroup – Study 006**
+L259: Source: Reviewer
+L260: **Figure 8: Posterior Means and 95% Credible Intervals of the Success Rates by Demographic Subgroup – Study 008**
+L261: Source: Reviewer
+L262: Figure 9: Posterior Means and 95% Credible Intervals of the Success Rates by Demographic Subgroup – Study 015
+L263: Source: Reviewer
+L264: Table 38: Bayesian Logistic Regression Analyses of the Success Rates by Demographic Subgroup – Study 006
+L265: Posterior Mean	SD	2.5% Percentile	Posterior Median	97.5% Percentile
+Overall	0.898	0.028	0.831	0.902	0.940
+Sex	Female	0.874	0.038	0.785	0.879	0.933
+Male	0.928	0.030	0.852	0.934	0.972
+Age	Age < 65	0.887	0.028	0.823	0.889	0.932
+Age ≥ 65	0.975	0.040	0.876	0.986	1.000
+Race	White	0.890	0.029	0.823	0.894	0.936
+Black or African American	0.928	0.039	0.836	0.935	0.985
+Other	0.925	0.061	0.780	0.937	0.992
+L266: Source: Reviewer
+L267: **Table 39: Bayesian Logistic Regression Analyses of the Success Rates by Demographic Subgroup – Study 008**
+L268: Posterior Mean	SD	2.5% Percentile	Posterior Median	97.5% Percentile
+Overall	0.793	0.037	0.710	0.796	0.856
+Sex	Female	0.795	0.039	0.703	0.799	0.863
+Male	0.804	0.054	0.680	0.816	0.878
+Age	Age < 65	0.791	0.043	0.707	0.797	0.866
+Age ≥ 65	0.782	0.053	0.672	0.787	0.868
+Race	White	0.787	0.037	0.707	0.792	0.848
+Black or African American	0.803	0.083	0.601	0.817	0.928
+Other	0.897	0.082	0.694	0.918	0.992
+L269: Source: Reviewer
+L270: **Table 40: Bayesian Logistic Regression Analyses of the Success Rates by Demographic Subgroup – Study 015**
+L271: Posterior Mean	SD	2.5% Percentile	Posterior Median	97.5% Percentile
+Overall	0.880	0.059	0.746	0.889	0.968
+Sex	Female	0.816	0.103	0.572	0.835	0.964
+Male	0.978	0.039	0.865	0.994	1.000
+Age	Age < 65	0.833	0.097	0.601	0.849	0.971
+Age ≥ 65	0.938	0.064	0.763	0.958	0.999
+Race	White	0.853	0.071	0.692	0.864	0.961
+Black or African American	0.991	0.039	0.901	1.000	1.000
+L272: Source: Reviewer
+L273: ## 3.2 Other Special/Subgroup Populations
+L274: Patients were analyzed by fentanyl use in Figure 5, Figure 7, Figure 6, Table 19 and Table 20.
+L275: ## 4 SUMMARY AND CONCLUSIONS
+L276: ## 4.1 Statistical Issues
+L277: As noted in Section 2.2.4 and detailed in Table 21 and Table 22, the studied procedures were relatively short with mean durations of 12.4 minutes and 14.2 minutes for studies and with only one procedure lasting longer than 30 minutes in Study 006 and only 30 procedures (10%) lasting longer than 30 minutes in Study 008. Furthermore, as seen in Figure 4 and Table 23, there was evidence of a decrease in the procedure success rate as the procedure duration increased in Study 008. To summarize, we currently have no direct data to support the use of remimazolam in procedures of longer duration.
+L278: ## 4.2 Collective Evidence
+L279: The applicant completed two adequate and well-controlled studies designed to evaluate the efficacy and safety of remimazolam as a procedural sedative in two different indications,
+L280: colonoscopy (Study 006) and bronchoscopy (Study 008). The applicant completed a third study designed to evaluate the safety of remimazolam in higher risk (ASA III-IV) patients undergoing colonoscopy (Study 015). In all three studies, efficacy was assessed by comparing the proportion of patients who met the following pre-defined treatment success criteria:
+L281: - Completion of the colonoscopy procedure, AND
+- No requirement for a rescue sedative medication (midazolam), AND
+- For remimazolam &amp; placebo: No requirement of more than 5 doses of study medication within any 15-minute window.
+L282: Studies 006 and 008 both found statistically significantly higher rates of treatment success for remimazolam than placebo, with 91% (272/298) and 81% (250/310) of patients meeting the treatment success definition for remimazolam in Studies 006 and 008, respectively compared to 2% (1/60) and 5% (3/63) meeting the treatment success criteria for placebo. In Study 015, though not powered for efficacy, there were similar observed treatment success rates in both arms (Remimazolam: 84.4% [27/32]; Placebo: 0% [0/16]).
+L283: Overall, remimazolam had a similar safety profile to placebo with midazolam as rescue. Rates of adverse events, treatment emergent adverse events, related treatment emergent adverse events and serious treatment emergent adverse events were similar in all three studies.
+L284: ## 4.3 Conclusions and Recommendations
+L285: It is my conclusion that the applicant has provided sufficient evidence to demonstrate that remimazolam is safe and efficacious for the induction and maintenance of procedural sedation for procedures expected to be completed in 30 minutes or less in adults. As noted in Section 4.1, there is insufficient evidence to demonstrate that remimazolam is effective in procedures expected last longer than this duration.
+L286: ## 4.4 Labeling Recommendations
+L287: I have the following recommendations following my review of the labeling:
+L288: - Restricting the indication to procedures anticipated to have durations less than 30 minutes.
+- More detailed demographic information should be included, specifically race and sex summaries for both studies and ASA physical status summaries.
+- [REDACTED] (b) (4) should be removed. [REDACTED] (b) (4)
+- [REDACTED] (b) (4) should be removed for the same reason.
+- References to [REDACTED] (b) (4) should be removed as this endpoint is not typically included in labeling.
+- More information should be including discussing the correlation between fentanyl use, procedure duration and success rate.
+L289: ## 5 APPENDICES
+L290: ## 5.1 Subgroup Analysis Method
+L291: I reanalyzed the subgroup data using a random effects Bayesian logistic regression model. The purpose of this model is to make use of the data from the other subgroups in the analysis for any particular subgroup. I will now describe the details of the model.
+L292: For each demographic variable we create K distinct partitions. For example, for sex we have K=2 partitions. Then each patient i falls into one of these partitions k. The patient's treatment success status (X_{i,k}) is then modeled using a Bernoulli random variable where the probability of success is given by \pi_{i,k}.
+L293: X_{i,k} \sim \text{Bernoulli}(\pi_{i,k})
+L294: In logistic regression we then model the logit transform of the probability using a linear regression model. The model used in this instance was:
+L295: \text{logit}(\pi_{i,k}) = \log\left(\frac{\pi_{i,k}}{1 - \pi_{i,k}}\right) = \beta_{0,k} + \beta_{1,k} \text{trt}_i + \beta_{2,k} \text{FentDose}_i
+L296: Where, \beta_{0,k} is the intercept parameter for group k, \text{trt}_i is 1 for patients treated with remimazolam and 0 for patients treated with placebo, \beta_{1,k} is the parameter associated with the treatment group for demographic group k, \text{FentDose}_i is the difference from the overall mean fentanyl usage for patient i and \beta_{2,k} is the parameter associated with fentanyl usage for demographic group k.
+L297: The prior distributions for the \beta's are as follows:
+L298: \beta_{0,k} \sim N(\mu_0, \sigma_0^2), \beta_{1,k} \sim N(\mu_1, \sigma_1^2), \beta_{2,k} \sim N(\mu_2, \sigma_2^2)
+L299: The hyperpriors for each of the three variables are:
+L300: \mu_i \sim N(0, 100)
+L301: \sigma_0 \sim \text{Half-Normal}(0, 1)
+L302: \sigma_1, \sigma_2 \sim \text{Half-Normal}(0, 10)
+L303: The priors for \mu_i were selected as they are uninformative. For the intercept variance parameter, \sigma_0, the prior was chosen to induce a higher level of borrowing than for the other variance parameters, \sigma_1, \sigma_2.
+L304: To obtain estimates of the difference in the treatment success rate we took the inverse *logit* transforms to find the difference in the probability of treatment success for each treatment group:
+L305: \pi_{R,k} - \pi_{P,k} = \text{ilogit}(\beta_{0,k} + \beta_{1,k}) - \text{ilogit}(\beta_{0,k})
+L306: Posterior means and 95% credible intervals are presented in Section 3.1.
+L307: ## 5.2 Figures and Tables
+L308: Figure 10: Remimazolam and Rescue Medication Usage in the Remimazolam Treatment Arm by Site – Study 006
+L309: Figure 11: Remimazolam and Rescue Medication Usage in the Remimazolam Treatment Arm by Site – Study 008
+L310: Figure 12: Fentanyl Usage in the Remimazolam Treatment Arm by Patient vs Time Since First Dose of Remimazolam – Study 006
+L311: Figure 13: Fentanyl Usage in the Remimazolam Treatment Arm by Patient vs Time Since First Dose of Remimazolam – Study 008
+L312: Figure 14: Fentanyl Usage in the Remimazolam Treatment Arm by Patient vs Time Since Start of Procedure – Study 006
+L313: Figure 15: Fentanyl Usage in the Remimazolam Treatment Arm by Patient vs Time Since Start of Procedure – Study 008
+L314: **Table 41: Analysis of Efficacy by Fentanyl Stratum – Study 006**
+L315: Fentanyl Stratum	Remimazolam
+n/N (%)	Placebo
+n/N (%)	Difference in
+Rates
+(95% CI)	P-Value
+<100 µg	139/148
+(93.9%)	0/9
+(0.0%)	93.9%
+(90.1, 97.8)	<0.0001
+100-150 µg	133/146
+(91.1%)	1/43
+(2.3%)	88.8%
+(82.3, 95.2)	<0.0001
+>150 µg	0/2
+(0.0%)	0/8
+(0.0%)	NA	NA
+L316: Source: Table 16, applicant's study report and Reviewer.
+L317: **Table 42: Analysis of Efficacy by Fentanyl Stratum – Study 008**
+L318: Fentanyl Stratum	Remimazolam
+n/N (%)	Placebo
+n/N (%)	Difference in
+Rates
+(95% CI)	P-Value
+<100 µg	195/215
+(90.7%)	1/27
+(3.7%)	87.0%
+(78.9, 95.1)	<0.0001
+100-150 µg	49/63
+(77.8%)	2/18
+(11.1%)	66.7%
+(48.9, 84.4)	<0.0001
+>150 µg	6/25
+(24%)	0/15
+(0.0%)	24.0%
+(7.3, 40.7)	0.0421
+L319: Source: Table 14.2.1.3.1, applicant's study report and Reviewer.
+L320: **Table 43: Analysis of Efficacy by Fentanyl Stratum – Study 015**
+L321: Fentanyl Stratum	Remimazolam
+n/N (%)	Placebo
+n/N (%)	Difference in
+Rates
+(95% CI)
+<100 µg	25/29
+(86.2%)	0/12
+(0%)	86.2%
+(73.7, 98.8)
+100-150 µg	2/2
+(100.0%)	0/4
+(0%)	100%
+(100, 100)
+L322: Source: Table 14.2.1.2.1, applicant's study report and Reviewer.
+L323: Figure 16: Remimazolam Total Dose vs Procedure Duration – Study 006 Remimazolam Only
+L324: Source: Reviewer
+L325: Table 44: Linear Regression Analysis of Remimazolam Total Dose vs Procedure Duration – Study 006 Remimazolam Only
+L326: Estimate	Standard Error	P value
+Intercept	7.23	0.556	<0.001
+Procedure Duration (mins)	0.265	0.041	<0.001
+L327: Source: Reviewer
+L328: Figure 17: Remimazolam Total Dose vs Procedure Duration – Study 006 Remimazolam Only
+L329: Table 45: Linear Regression Analysis of Remimazolam Total Dose vs Procedure Duration – Study 006 Remimazolam Only
+L330: Estimate	Standard Error	P value
+Intercept	8.26	0.357	<0.001
+Procedure Duration (mins)	0.249	0.021	<0.001
+L331: Source: Reviewer
+L332: This is a representation of an electronic record that was signed electronically. Following this are manifestations of any and all electronic signatures for this electronic record.
+L333: /s/
+L334: JAMES E TRAVIS
+02/14/2020 01:38:21 PM
+L335: JINGLIN ZHONG
+02/14/2020 01:43:10 PM
+L336: MARK D ROTHMANN
+02/14/2020 02:26:15 PM
+I concur
+L337: FDA Seal/Logo
+L338: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Science
+Office of Biostatistics
+L339: ## Statistical Review and Evaluation
+L340: ## CLINICAL STUDIES
+L341: NDA/Serial Number:	212295/0000
+Supplement Number:	
+Drug Name:	Remimazolam (Injection)
+Indication(s):	Procedural Sedation (b) (4)
+Applicant:	Paion UK Ltd
+Date(s):	Date of Document: 4/5/2019
+Consult received date: 5/23/2019
+Completion date: 9/27/2019
+Review Priority:	S
+Biometrics Division:	Division of Biometrics VI
+Statistical Reviewer:	Ran Bi, Ph.D., Visiting Associate, CSS supporting team/DBVI/OB
+Concurring Reviewers:	Qianyu Dang, Ph.D., Team Leader, CSS supporting team/DBVI/OB
+Yi Tsong, Ph.D., Division Director, DBVI/OB/OTS
+Medical Division:	Controlled Substance Staff
+The CSS Team:	Katherine Bonson, Ph.D., Pharmacologist, OD/CSS
+Project Manager:	Sandra Saltz, OD/CSS
+Keywords:	Crossover design; Human abuse potential study; Self-reported endpoints.
+L342: ## TABLE OF CONTENTS
+L343: TABLE OF CONTENTS	2
+LIST OF TABLES	3
+LIST OF FIGURES	3
+1. EXECUTIVE SUMMARY	4
+2. REVIEW REPORT ON STUDY CNS7056-014	6
+    2.1. OVERVIEW	6
+        2.1.1. Objectives of the Study	6
+        2.1.2. Study Design	6
+        2.1.3. Qualification Phase Eligibility Criteria	9
+        2.1.4. Disposition of Subjects	9
+        2.1.5. Pharmacodynamic Endpoints	10
+    2.2. SPONSOR'S ANALYSES OF THE PHARMACODYNAMIC PARAMETERS	11
+        2.2.1. Statistical Methodologies Used in the Sponsor's Analyses	11
+            2.2.1.1. Analysis Population	11
+            2.2.1.2. Hypothesis Testing	12
+            2.2.1.3. Statistical Methodologies	12
+        2.2.2. Sponsor's Summary and Conclusions	13
+    2.3. DATA LOCATION	14
+    2.4. REVIEWER'S ASSESSMENT	14
+        2.4.1. Primary Analysis	14
+            2.4.1.1. Descriptive Statistics	14
+            2.4.1.2. Statistical Testing	17
+        2.4.2. Secondary Analysis	20
+            2.4.2.1. Descriptive Statistics	20
+            2.4.2.2. Statistical Testing	29
+3. CONCLUSION	35
+L344: ## LIST OF TABLES
+L345: TABLE 1: SUMMARY STATISTICS FOR DRUG LIKING E_{MAX} (N = 39)	15
+TABLE 2: RESULTS FROM THE W-TEST ON RESIDUALS FOR DRUG LIKING E_{MAX} (N = 39)	18
+TABLE 3: RESULTS FROM THE W-TEST ON PAIRED DIFFERENCE FOR DRUG LIKING E_{MAX} (N = 39)	19
+TABLE 4: PRIMARY ANALYSIS RESULTS ON DRUG LIKING E_{MAX} (N = 39)	19
+TABLE 5: SUMMARY STATISTICS FOR OVERALL DRUG LIKING E_{MAX}, TAKE DRUG AGAIN E_{MAX}, GOOD DRUG EFFECTS E_{MAX}, BAD DRUG EFFECTS E_{MAX}, AND ALERTNESS/DROWSINESS E_{MIN} SUBTRACT FROM THE PRE-DOSE RESPONSE (N = 39)	24
+TABLE 6: SUMMARY STATISTICS FOR ALERTNESS/DROWSINESS PRE-DOSE RESPONSE AND E_{MIN} RESPECTIVELY (N = 39)	25
+TABLE 7: RESULTS FROM THE W-TEST ON RESIDUALS FOR OVERALL DRUG LIKING E_{MAX}, TAKE DRUG AGAIN E_{MAX}, GOOD DRUG EFFECTS E_{MAX}, BAD DRUG EFFECTS E_{MAX}, ALERTNESS/DROWSINESS E_{MIN} SUBTRACT FROM THE PRE-DOSE RESPONSE (CHANGE VALUE), AND ALERTNESS/DROWSINESS E_{MIN} (ACTUAL VALUE)	30
+TABLE 8: LEAST SQUARE MEAN ESTIMATION FOR TAKE DRUG AGAIN E_{MAX} (N = 39)	30
+TABLE 9: SECONDARY ANALYSIS RESULTS ON TAKE DRUG AGAIN E_{MAX} (N = 39)	31
+TABLE 10: RESULTS FROM THE W-TEST ON PAIRED DIFFERENCE FOR OVERALL DRUG LIKING E_{MAX}, GOOD DRUG EFFECTS E_{MAX}, BAD DRUG EFFECTS E_{MAX}, ALERTNESS/DROWSINESS E_{MIN} SUBTRACT FROM THE PRE-DOSE RESPONSE (CHANGE VALUE), AND ALERTNESS/DROWSINESS E_{MIN} (ACTUAL VALUE) (N = 39)	31
+TABLE 11: SECONDARY ANALYSIS RESULTS ON OVERALL DRUG LIKING E_{MAX}, GOOD DRUG EFFECTS E_{MAX}, BAD DRUG EFFECTS E_{MAX}, ALERTNESS/DROWSINESS E_{MIN} SUBTRACT FROM THE PRE-DOSE RESPONSE (CHANGE VALUE), AND ALERTNESS/DROWSINESS E_{MIN} (ACTUAL VALUE) (N = 39)	34
+L346: ## LIST OF FIGURES
+L347: FIGURE 1: HEAT MAP BY TREATMENT FOR DRUG LIKING E_{MAX} IN THE QUALIFICATION PHASE (N = 39)	16
+FIGURE 2: HEAT MAP BY TREATMENT FOR DRUG LIKING E_{MAX} IN THE TREATMENT PHASE (N = 39)	17
+FIGURE 3: THE MEAN TIME COURSE PROFILES ON DRUG LIKING VAS BY TREATMENT (N = 39)	18
+FIGURE 4: HEAT MAP BY TREATMENT FOR OVERALL DRUG LIKING E_{MAX} IN THE TREATMENT PHASE (N = 39)	22
+FIGURE 5: HEAT MAP BY TREATMENT FOR TAKE DRUG AGAIN E_{MAX} IN THE TREATMENT PHASE (N = 39)	22
+FIGURE 6: HEAT MAP BY TREATMENT FOR GOOD DRUG EFFECTS E_{MAX} IN THE TREATMENT PHASE (N = 39)	23
+FIGURE 7: HEAT MAP BY TREATMENT FOR BAD DRUG EFFECTS E_{MAX} IN THE TREATMENT PHASE (N = 39)	23
+FIGURE 8: HEAT MAP BY TREATMENT FOR ALERTNESS/DROWSINESS E_{MIN} SUBTRACT FROM THE PRE-DOSE RESPONSE (CHANGE VALUE) IN THE TREATMENT PHASE (N = 39)	24
+FIGURE 9: HEAT MAP BY TREATMENT FOR ALERTNESS/DROWSINESS E_{MIN} (ACTUAL VALUE) IN THE TREATMENT PHASE (N = 39)	24
+FIGURE 10: MEAN RESPONSES AT 240- AND 480-MINS POST DOSE BY TREATMENT FOR OVERALL DRUG LIKING VAS (N = 39)	27
+FIGURE 11: MEAN RESPONSES AT 240- AND 480-MINS POST DOSE BY TREATMENT FOR TAKE DRUG AGAIN VAS (N = 39)	27
+FIGURE 12: THE MEAN TIME COURSE PROFILES ON GOOD DRUG EFFECTS VAS BY TREATMENT (N = 39)	28
+FIGURE 13: THE MEAN TIME COURSE PROFILES ON BAD DRUG EFFECTS VAS BY TREATMENT (N = 39)	28
+FIGURE 14: THE MEAN TIME COURSE PROFILES ON ALERTNESS/DROWSINESS VAS CHANGE FROM THE PRE-DOSE RESPONSE (CHANGE VALUE) BY TREATMENT (N = 39)	29
+FIGURE 15: THE MEAN TIME COURSE PROFILES ON ALERTNESS/DROWSINESS VAS (ACTUAL VALUE) BY TREATMENT (N = 39)	29
+L348: ## 1. Executive Summary
+L349: The applicant, Paion UK Ltd, submitted the results from the human abuse potential study CNS7056-014 for the assessment of abuse potential of Remimazolam.
+L350: Study CNS7056-014 was a single-dose, randomized, double-blind, placebo- and active-controlled crossover study with a single inpatient treatment visit. The primary objective was to evaluate the subjective abuse potential of single intravenous (IV) doses of Remimazolam compared with IV Midazolam and placebo in healthy recreational central nervous system (CNS) depressant users. The treatments in the Treatment Phase were Remimazolam 5 mg, Remimazolam 10 mg, Midazolam 2.5 mg, Midazolam 5 mg, and placebo. 40 subjects were randomized to the Treatment Phase. Of these, 39 subjects completed the study.
+L351: The results from the reviewer's primary analysis demonstrated the validity of the study by showing that each dose of Midazolam had maximum drug liking statistically significantly greater than Placebo by 15 points. Remimazolam 5 mg had statistically significantly smaller mean compared to Midazolam 5 mg, but there was no statistically significant difference in means between Remimazolam 5 mg and Midazolam 2.5 mg. There were no statistically significant differences in medians between Remimazolam 10 mg and both doses of Midazolam.
+L352: Per the CSS Pharmacologist Dr. Katherine Bonson's suggestion, the reviewer performed the secondary analysis for the Completers Population (N = 39) on Overall Drug Liking E_{max}, Take Drug Again E_{max}, Good Drug Effects E_{max}, Bad Drug Effects E_{max}, and Alertness/Drowsiness E_{min}. Note that Overall Drug Liking E_{max} and Alertness/Drowsiness E_{min} were on a bipolar visual analog scale, while Take Drug Again E_{max}, Good Drug Effects E_{max}, and Bad Drug Effects E_{max} were on a unipolar visual analog scale. Also note that pre-dose responses were collected for Alertness/Drowsiness VAS, thus the reviewer used E_{min} subtract from the pre-dose response (change from pre-dose response) as the response in secondary analysis for Alertness/Drowsiness VAS. The change was on a bipolar visual analog scale with 0 represented neither drowsy nor alert compared to pre-dose response, larger value represented getting drowsier while smaller value represented getting more alert. The reviewer also did the secondary analysis on Alertness/Drowsiness E_{min} (actual value) for investigation.
+L353: The secondary analysis results showed that the mean differences between Midazolam 2.5 mg and Placebo, and between Midazolam 5 mg and Placebo were statistically significant for all the endpoints. For Overall Drug Liking E_{max}, Good Drug Effects E_{max}, Bad Drug Effects E_{max}, and Alertness/Drowsiness E_{min} subtract from the pre-dose response (change value), there were no statistically significant differences in means/medians between both doses of Midazolam and each dose of Remimazolam, except for the comparison between Midazolam 5 mg and Remimazolam 5 mg. For Take Drug Again E_{max}, the means of both doses of Remimazolam were statistically significantly less than each dose of Midazolam, except for the comparison between Midazolam 2.5 mg and Remimazolam 10 mg at 0.05 significance level. However, the means/medians of both doses of Remimazolam were still statistically significantly greater than Placebo. For Alertness/Drowsiness E_{min} (actual value), the mean of Remimazolam 5 mg was statistically
+L354: significantly greater than each dose of Midazolam, but statistically significantly less than Placebo; while there were no statistically significant differences in means between Remimazolam 10 mg and each dose of Midazolam.
+L355: In conclusion, the effects including drug liking, overall drug liking, good drug effects, bad drug effects, and alertness/drowsiness (change value) of Remimazolam 5 mg and 10 mg were comparable with those of Midazolam 2.5 mg and 5 mg, respectively. The take drug again effect of each dose of Remimazolam was statistically significantly less than corresponding dose of Midazolam, but greater than Placebo. The alertness/drowsiness E_{\min} (actual value) performed similar to alertness/drowsiness (change value), except that Remimazolam 5 mg was statistically significantly greater than corresponding dose of Midazolam (2.5 mg), but statistically significantly smaller than Placebo.
+L356: ## 2. Review report on Study CNS7056-014
+L357: ## 2.1. Overview
+L358: Study CNS7056-014 was a single-dose, randomized, double-blind, placebo- and active-controlled crossover study with a single inpatient treatment visit to evaluate the subjective abuse potential of single intravenous (IV) doses of Remimazolam compared with IV Midazolam and placebo in healthy recreational central nervous system (CNS) depressant users.
+L359: ## 2.1.1. Objectives of the Study
+L360: ## Primary Objective
+L361: - To evaluate the subjective abuse potential of single IV doses of Remimazolam compared with IV Midazolam and placebo in healthy recreational CNS depressant users.
+L362: ## Secondary Objective
+L363: - To evaluate the safety and tolerability of IV Remimazolam in healthy recreational CNS depressant users.
+- To evaluate the pharmacokinetics (PK) of IV Remimazolam in healthy recreational CNS depressant users.
+L364: ## 2.1.2. Study Design
+L365: This was a single-dose, randomized, double-blind, placebo- and active-controlled crossover study to determine the subjective abuse potential of single IV doses of Remimazolam compared with IV Midazolam and placebo in healthy recreational CNS depressant users.
+L366: This study consisted of 4 phases: Screening, Qualification, Treatment, and Follow-up. Subjects participated in an outpatient medical Screening visit (Visit 1); one 15-day inpatient visit that consisted of an admission day, a 3-day Qualification (Drug Discrimination and Tolerability) Phase, a rest day, and a 10-day 5-period Treatment Phase (Visit 2); and an outpatient safety Follow-up visit (Visit 3). Each subject participated in the study for up to approximately 7 weeks, including Screening through Follow-up.
+L367: ## Screening Period
+L368: Subjects reported to the clinical site for the eligibility screening (see Sponsor's Section 9.3 for inclusion and exclusion criteria) within 28 days prior to drug administration. Within 28 days of the Screening visit, eligible subjects were admitted to the CRU (Day -1) for the Qualification Phase.
+L369: Eligibility screening consisted of the assessments as presented in Sponsor's Table 2, Section 9.5.1.
+L370: ## Qualification Phase
+L371: The Qualification Phase consisted of a Drug Discrimination Test and a Tolerability Assessment. During the Drug Discrimination Test, subjects received the following treatments in a randomized, double blind, crossover manner:
+L372: - Treatment X: IV Midazolam 2.5 mg (administered over 1 minute)
+- Treatment Y: matching placebo (administered over 1 minute)
+L373: Each drug administration was separated by approximately 24 hours (Day 1 and Day 2), to ensure that subjects could discriminate and show positive subjective effects of the active control. Subjects who did not meet Drug Discrimination criteria were discharged from the CRU at approximately 24 hours after the second drug administration. On the third dosing day (Day 3), subjects who met Drug Discrimination criteria participated in a 1-day Tolerability Assessment, the following treatment was administered in an unblinded manner at approximately 24 hours after the second Drug Discrimination dose:
+L374: - Treatment Z: IV Midazolam 5 mg (administered over 1 minute)
+L375: Subjects who did not meet Tolerability Assessment criteria following IV Midazolam 5 mg were discharged at approximately 24 hours post dose. Subjects who met Tolerability criteria remained in the CRU for the Treatment Phase. A washout interval of approximately 48 hours was required between the last drug administration in the Qualification Phase (Day 3) and the first drug administration in the Treatment Phase (Day 5).
+L376: ## Treatment Phase
+L377: Following confirmation of eligibility in the Qualification Phase, eligible subjects were randomized to 1 of 10 treatment sequences according to two 5 \times 5 William squares. Subjects received each of the following 5 treatments on Days 5, 7, 9, 11, and 13, administered IV over 1 minute, in a randomized, double-blind, crossover manner following an overnight fast:
+L378: - Treatment A: Remimazolam 5 mg
+- Treatment B: Remimazolam 10 mg
+- Treatment C: Midazolam 2.5 mg
+- Treatment D: Midazolam 5 mg
+- Treatment E: Placebo (saline injection)
+L379: Each drug administration was separated by approximately 48 hours. Serial pharmacodynamic (PD) evaluations were conducted up to 8 hours post dose. Pharmacokinetic samples were obtained to confirm exposure to Remimazolam over 8 hours post dose. Safety monitoring included recording of AEs and regular assessments of vital signs, 12-lead electrocardiograms (ECGs), and continuous pulse oximetry/telemetry for at least 4 hours after study drug administration. Supplemental oxygen was provided to subjects for at least 2 hours post dose during the Tolerability Assessment (Day 3) and Treatment Phase, and as needed during the Drug Discrimination Test (Day 1 and 2). Subjects were discharged approximately 24 hours after the last drug administration (on Day 14).
+L380: Assessments during the Treatment Phase were performed as presented in the schedule of assessments in Sponsor's Table 3, Section 9.5.1.
+L381: ## Follow-up Phase
+L382: Subjects returned for the safety Follow-Up visit approximately 2 to 4 days following the last drug administration.
+L383: The chart below (Sponsor's Figure 1) summarizes the design of the study.
+L384: Note: Order of treatment is for illustration only; actual randomization scheme is provided in Section 9.4.4.
+h = hour; IV = intravenous
+L385: ## 2.1.3. Qualification Phase Eligibility Criteria
+L386: Subjects must have met each one of the following criteria in order to be eligible for participation in the Tolerability Assessment and Treatment Phase:
+L387: - Maximum effect (E_{max}) in response to IV Midazolam 2.5 mg greater than that of placebo on Drug Liking visual analogue scale (VAS) (difference of at least 15 points) and E_{max} score of at least 65 points for Midazolam in the first 60 minutes post dose, and acceptable overall responses to Midazolam and placebo on the subjective measures, as judged by the investigator or designee.
+- Acceptable placebo response based on Drug Liking VAS (score between 40 and 60 points, inclusive).
+- Subject was able to tolerate IV Midazolam 2.5 mg, as judged by the investigator, including ability to complete all PD assessments administered within 60 minutes post dose.
+- General behavior suggested that the subject could successfully complete the study, as judged by the research site staff.
+L388: Subjects must have met the following criterion in order to be eligible for participation in the Treatment Phase:
+L389: - Subject was able to tolerate IV Midazolam 5 mg, defined as ability to complete the subjective PD assessments administered within 60 minutes post dose (i.e., subject remained conscious or could be roused), oxygen saturation that did not fall below 90% for any period longer than 60 seconds in duration, and as otherwise judged by the investigator based on other safety parameters (e.g., telemetry, AEs, vital signs).
+L390: ## 2.1.4. Disposition of Subjects
+L391: A total of 175 subjects were screened, of whom 92 were screening failures. A total of 83 subjects thus entered the Qualification Phase and received at least one dose of study drug (qualification population). Of these, 34 failed the Drug Discrimination Test, 2 failed the Tolerability Assessment, 5 decided to withdraw, and 2 subjects were withdrawn at the PI's discretion. Consequently, 40 subjects entered the Treatment Phase and received at least 1 dose of study drug, comprising the safety population. Of these, 39 subjects completed all treatment periods in the study: Completer Population (N = 39) and without any major protocol deviations (per protocol population). Subject 042 completed Treatment A only during the Treatment Phase prior to being withdrawn by PI decision due to confrontational behavior and failure to follow study restrictions.
+L392: All 40 randomized subjects received at least one dose of Remimazolam and had sufficient concentration-time data to calculate a valid C_{max} or AUC_{0-inf}. However, the PK population included only 36 subjects because PK samples for 4 subjects were inadvertently analyzed outside the stability window for Remimazolam. PK data were summarized both for the 36 subjects included in the PK population and for all 40 subjects.
+L393: The following table (Sponsor's Table 6) summarizes disposition of subjects.
+L394: **Table 6 Summary of Subject Disposition: All Subjects (N = 175)**
+L395: Overall
+n (%)
+Qualification Population	83 (47.4)
+Safety Population	40 (22.9)
+PK Population	36 (20.6)
+Completer Population	39 (22.3)
+Per Protocol Population	39 (22.3)
+Completed	39 (22.3)
+Withdrew	136 (77.7)
+Reason for Withdrawal	
+Adverse Event	1 (0.6)
+Protocol violation	0 (0.0)
+Lost to follow-up	0 (0.0)
+Withdrawal by subject	5 (2.9)
+Pregnancy	0 (0.0)
+Inclusion criteria not met	86 (49.1)
+Exclusion criteria met	5 (2.9)
+Administrative reason	0 (0.0)
+Suicidal ideation/actively suicidal	0 (0.0)
+Positive UDS/alcohol breath test	0 (0.0)
+Use of unacceptable concomitant medication	0 (0.0)
+Othera	39 (22.3)
+L396: aOther: Drug discrimination Failure, n = 34; Tolerability Failure, n = 2; Physician decision, n = 3
+L397: Source: Table 14.1.1; Listings 16.2.1.1, and 16.2.3
+L398: ## 2.1.5. Pharmacodynamic Endpoints
+L399: ## Primary Endpoint
+L400: The primary PD endpoint is the maximum effect (E_{max}) on the bipolar Drug Liking visual analog scale (VAS).
+L401: ## Secondary Endpoints
+L402: - Balance of effects:Drug Liking VAS (minimum effect [E_{min}] and time-averaged area under the effect curve to 8 hours after study drug administration [TA_AUE])
+- Overall Drug Liking VAS (E_{max} and E_{min})
+- Take Drug Again VAS (E_{max})
+- Positive effects:Good Effects VAS (E_{max} and TA_AUE)
+- Negative effects:Bad Effects VAS (E_{max} and TA_AUE)
+- Sedative effects:Alertness/Drowsiness VAS (E_{min} and TA_AUE)
+- Agitation/Relaxation VAS (E_{min} and TA_AUE)
+L403: - Other drug effects:Any Effects VAS (E_{max} and TA_AUE)
+- Memory/Amnestic effects:Paired Associates Learning (PAL) test – E_{max} and TA_AUE of total error score
+L404: *Reviewer's comments: The sponsor should pre-specify several key secondary endpoints. Note that Take Drug Again VAS in this study was on a unipolar visual analog scale, instead of bipolar.*
+L405: ## 2.2. Sponsor's Analyses of the Pharmacodynamic Parameters
+L406: ## 2.2.1. Statistical Methodologies Used in the Sponsor's Analyses
+L407: ## 2.2.1.1. Analysis Population
+L408: The following analysis populations will be used in this study:
+L409: ## Qualification Population
+L410: The Qualification population consisted of all subjects who received any study drug in the Qualification Phase.
+L411: ## Safety Population
+L412: The Safety Population consisted of all randomized subjects who received any study treatment in the Treatment Phase.
+L413: ## Pharmacokinetic (PK) Population
+L414: The PK Population consisted of all randomized subjects who received at least one dose of Remimazolam and had sufficient concentration-time data to calculate a valid C_{max} or AUC_{0-inf}.
+L415: ## Completer Population
+L416: The Completer Population consisted of all randomized subjects who completed all treatment periods in the Treatment Phase.
+L417: *Reviewer's comments: Based on 2017 FDA Guidance (Assessment of Abuse Potential of Drugs Guidance for Industry – FDA), the definition of the completer population should include the criterion that randomized subjects must have at least one response on the visual analog scale (VAS) for Drug Liking within 2 hours of T_{max} for each treatment in the study. It is OK to not having this since the study was conducted before 2017.*
+L418: ## Per Protocol Population
+L419: The Per Protocol population consisted of all randomized subjects who completed all treatment periods in the Treatment Phase, had no major protocol deviations that would impact PD results or the integrity of data, and had no greater than 12.5% missing data points for the primary endpoint within 60 minutes post dose (i.e., no more than 1 of 8 missing assessments in the first hour).
+L420: All PD analyses were performed using the Completer Population.
+L421: ## 2.2.1.2. Hypothesis Testing
+L422: The treatment comparisons to assess the abuse potential of Remimazolam included the following:
+L423: - IV Remimazolam 5 mg vs. IV Midazolam 2.5 mg
+- IV Remimazolam 10 mg vs. IV Midazolam 5 mg
+- Each dose of IV Remimazolam vs. placebo
+- Each dose of IV Midazolam vs. placebo (study validity)
+L424: *Reviewer's comments: Each dose of Remimazolam should be compared with every dose of Midazolam when studying relative abuse potential.*
+L425: The study was to be considered valid if either dose of Midazolam was statistically different from placebo on the primary endpoint (Drug Liking VAS E_{max}).
+L426: *Reviewer's comments: For the primary analysis, the reviewer suggests using one-sided test for all comparisons: 15 as the margin for the studying validity, to be consistent with the value used in the Qualification Phase; 11 should be used as the margin for comparing between Remimazolam and Placebo, as recommended in Chen &amp; Bonson, 2013. Since this study was conducted before 2017 FDA Guidance (Assessment of Abuse Potential of Drugs Guidance for Industry – FDA) was published, it is OK to use 0 as the test value for the comparison between Midazolam and Placebo.*
+L427: *Reviewer's comments: When considering the secondary analysis, for comparison between test drug and placebo, the test value 11 was studied only for the bipolar Drug Liking VAS. Therefore, a two-sided test with a test value 0 and type I error equal to 0.1 was performed to the comparison between test drug and placebo for key secondary endpoints.*
+L428: ## 2.2.1.3. Statistical Methodologies
+L429: PD parameters were listed for each individual subject and summarized by treatment using descriptive statistics (n, mean, median, SD, and first and third quartile limits) for each assessment for the Completer population.
+L430: *Reviewer's comments: Descriptive statistics such as minimum and maximum should also be calculated.*
+L431: Linear plots of the mean and individual Drug Liking VAS results by scheduled sampling time were provided by treatment for the Completer population. These plots show time in hours.
+L432: The SAS mixed effects linear model procedure (PROC MIXED) was used to construct analysis of variance (ANOVA) models for the completer and per protocol populations. The models included terms for treatment, period, sequence, and first-order carryover effect as fixed effects, and subject
+L433: nested within sequence as a random effect. Baseline (predose) measurement was to be included as a covariate, where available. The carryover effect was dropped from the model, as it was found to be non-significant at the 25% level. Least squares (LS) means, the difference between the means, and corresponding 95% confidence intervals (CIs) were provided for the treatment comparisons. No adjustments were made for multiplicity.
+L434: *Reviewer's comments: Use subject as random effect, instead of subject nested within treatment sequence. However, in this situation, one subject was only assigned one sequence, hence using subject nested within treatment sequence as random effect is equivalent to using subject as random effect.*
+L435: The residuals of the primary endpoint, drug liking E_{\max}, from the mixed-effects model were investigated for normality using the Shapiro-Wilk W test. The Shapiro-Wilk W test produced a p-value \ge 0.05, so the data were considered normally distributed, and the results of the mixed effects model were reported.
+L436: *Reviewer's comments: The assumption of homogeneity of variance should be examined as well. Besides the analysis for primary endpoint, statistical methods for key secondary endpoints should also be described in detail, especially when normality or homogeneity of variance assumption doesn't hold.*
+L437: ## 2.2.2. Sponsor's Summary and Conclusions
+L438: - The study design was validated by the significantly higher drug liking of the positive control (Midazolam) relative to placebo.
+- Remimazolam demonstrated an absolute abuse potential based on a comparison of its subjective effects on recreational drug abusers to those of placebo.
+- The abuse potential of Remimazolam was comparable to that of Midazolam based on the primary measure, drug liking E_{\max}.
+- The Take Drug Again E_{\max} was significantly lower for 5 mg Remimazolam compared to 2.5 mg Midazolam; the difference was no longer statistically different for the comparison of 10 mg Remimazolam vs 5 mg Midazolam, indicating that any difference flattens out when the dose is increased.
+- The duration of drug liking and of other drug effects were generally longer for Midazolam compared to Remimazolam.
+- The TA_AUE of good effects were statistically significantly higher for Midazolam than Remimazolam.
+- The TA_AUE of bad effects were statistically significantly higher for Remimazolam than Midazolam.
+L439: In conclusion, assessments of relative and absolute abuse potential demonstrate that Remimazolam presents a significant abuse potential relative to placebo, with an abuse potential that is comparable to that of midazolam, based on results of the primary measure of abuse potential, drug liking E_{\max}.
+L440: Similarly, the Take Drug Again E_{max}, although significantly lower for 5 mg Remimazolam compared to 2.5 mg Midazolam, was no longer statistically significantly different for the comparison of 10 mg Remimazolam and 5 mg Midazolam. This is consistent with most other secondary measures of abuse potential showing differences between Remimazolam and Midazolam that were not statistically significant. These results indicate that a preference for Midazolam may prevail at lower doses, which may decrease or disappear at higher doses. This may relate to the duration of effect: a comparison of TA_AUEs indicates that Midazolam effects are longer-lasting and greater overall than those of Remimazolam, consistent with the rapid decline in Remimazolam plasma concentrations. This difference seems to decrease with use of a higher dose.
+L441: ## 2.3. Data Location
+L442: The dataset used in the reviewer's analysis is located at
+L443: file:///cdsesub1/evsprod/NDA212295/0000/m5/datasets/cns7056-014/analysis/adam/datasets/adpd.xpt
+file:///cdsesub1/evsprod/NDA212295/0000/m5/datasets/cns7056-014/analysis/adam/datasets/adpdp.xpt
+L444: ## 2.4. Reviewer's Assessment
+L445: In this report, the reviewer used the following notations for treatments in Study CNS7056-014:
+L446: Re5 – Remimazolam 5 mg
+Re10 – Remimazolam 10 mg
+Mi2.5 – Midazolam 2.5 mg
+Mi5 – Midazolam 5 mg
+P – Placebo
+L447: ## 2.4.1. Primary Analysis
+L448: The reviewer's primary analysis was performed using the Completer Population.
+L449: ## 2.4.1.1. Descriptive Statistics
+L450: We first examined the maximum drug liking from each subject in the Qualification Phase, as shown in Figure 1, which indicates a successful selection for qualified subjects based on the eligibility criteria in the Qualification Phase.
+L451: The notations for treatments in Qualification Phase are as below:
+L452: Mi2.5_Q – Midazolam 2.5 mg
+P_Q – Placebo
+Mi5_Q – Midazolam 5 mg
+L453: **Figure 1: Heat Map by Treatment for Drug Liking E_{max} in the Qualification Phase (N = 39)**
+L454: Table 1 summarizes the mean, standard deviation (SD), minimum (Min), the first quartile (Q_1), median (Med), the third quartile (Q_3), and maximum (Max) for the 5 treatments in the Treatment Phase for the primary endpoint Drug Liking E_{max}.
+L455: **Table 1: Summary Statistics for Drug Liking E_{max} (N = 39)**
+L456: TRT	Mean	SD	Min	Q_1	Med	Q_3	Max
+Re5	77.7	14.1	38	69	77	89	100
+Re10	79.8	15.1	51	70	79	91	100
+Mi2.5	78.6	14.0	53	68	77	91	100
+Mi5	81.5	11.7	53	74	81	90	100
+P	53.1	8.1	50	50	50	51	85
+L457: As summarized in Table 1, the means of maximum drug liking for both doses of Remimazolam were similar to those of Midazolam (within range of 77.7 to 81.5), but greater than Placebo. Higher dose had slightly larger mean than lower dose. The means of two doses of Midazolam were 81.0 (SD = 11.4) and 87.6 (SD = 10.8) in the Qualification Phase, which were close to the results (78.6
+L458: with SD = 14.0 and 81.5 with SD = 11.7) in the Treatment Phase. Detailed maximum drug liking from each subject in the Treatment Phase is shown in Figure 2.
+L459: **Figure 2: Heat Map by Treatment for Drug Liking E_{max} in the Treatment Phase (N = 39)**
+L460: In the Treatment Phase, subjects responded well to both Midazolam 2.5 mg and 5 mg. Only 2 out of 39 subjects did not respond (maximum liking &lt; 55) to Midazolam 2.5 mg, 1 subject did not respond to Midazolam 5 mg, and 4 subjects had maximum drug liking to Placebo greater than 60.
+L461: Figure 3 is the mean time course profiles by treatment for Drug Liking VAS. Data were collected at 2, 5, 10, 15, 20, 30, 45, 60, 120, 180, 240, 360, and 480 mins. By carefully examining the data, missing responses exist for treatments Midazolam 2.5 mg and 5 mg. Subject (b) (6) did not have response at time point 2 mins post dose for Midazolam 5 mg, while Subject (b) (6) did not respond at 2 mins post dose for Midazolam 2.5 mg. Therefore, at the time points with missing responses, the mean Drug Liking VAS was averaged by non-missing values.
+L462: The peak mean responses for Midazolam 2.5 mg and 5 mg were 69.9 and 72.8, reached at 2 mins and 20 mins post dose, respectively. The peak mean responses for Remimazolam 5 mg and 10 mg were 67.6 and 71.1, reached at 5 mins and 15 mins post dose, respectively. Thus, Remimazolam and Midazolam reached the peak value around the same time. From Figure 3, one may notice that the mean time course profiles of each dose of Remimazolam were lower and returned to neutral values
+L463: sooner than both doses of Midazolam. However, both doses of Remimazolam still have obvious separation from the mean time course profile of Placebo within first hour after dosing.
+L464: **Figure 3: The Mean Time Course Profiles on Drug Liking VAS by Treatment (N = 39)**
+L465: ## 2.4.1.2. Statistical Testing
+L466: To evaluate the abuse potential of Remimazolam, the reviewer performed statistical analysis for the primary endpoint, Drug Liking E_{\max}, for the following questions, with the tested hypotheses and contrasts defined as follows:
+L467: - Does the positive control (C-Midazolam) produce mean Drug Liking E_{\max} that shows greater abuse potential compared to Placebo (P)?
+L468: H_0: \mu_C - \mu_P \le 15 \text{ vs. } H_a: \mu_C - \mu_P &gt; 15
+L469: This hypothesis is for the study validation. Test value of 15 was chosen to be consistent with the value used in the Qualification Phase. Hypothesis 1 was applied to the following contrasts:
+L470: - Mi2.5 versus P
+- Mi5 versus P
+- Does the test drug (T-Remimazolam) produce mean Drug Liking E_{\max} that shows less abuse potential compared to positive control (C-Midazolam)?
+L471: H_0: \mu_C - \mu_T \le 0 \text{ vs. } H_a: \mu_C - \mu_T &gt; 0
+L472: This hypothesis is for investigation of the abuse potential of the test drug Remimazolam, compared to the positive control Midazolam. Test value of 0 was chosen same as the sponsor did. Hypothesis 2 was applied to the following contrasts:
+L473: - Mi2.5 versus Re5
+- Mi2.5 versus Re10
+- Mi5 versus Re5
+- Mi5 versus Re10
+3. Does the test drug (T-Remimazolam) produce mean Drug Liking E_{\max} that shows similar abuse potential compared to placebo (P)?
+L474: H_0: \mu_T - \mu_P \ge 11 \text{ vs. } H_a: \mu_T - \mu_P &lt; 11
+L475: This hypothesis is to investigate whether the test drug Remimazolam had similar abuse potential compared to Placebo. Test value of 11 was chosen based on *Chen and Bonson (2013)*. Hypothesis 3 was applied to the following contrasts:
+L476: - Re5 versus P
+- Re10 versus P
+L477: If the comparison of a dose of Remimazolam did not have a statistically significantly lower mean than any dose of Midazolam, the comparison between the dose of Remimazolam and Placebo would not be performed.
+L478: The statistical model used in the reviewer's primary analysis was a mixed-effects model which included treatment, period, sequence, and first-order carryover effect as fixed effects, subject as a random effect. With heteroscedasticity adjustment, the residuals from the mixed-effects model, excluding the carryover effect, were investigated for normality using the Shapiro-Wilk W-test. The results are presented in Table 2.
+L479: **Table 2: Results from the W-test on Residuals for Drug Liking E_{\max} (N = 39)**
+L480: Endpoints	N	Skewness	W Statistic	p-value
+Drug Liking E_{\max}	39	-0.15	0.9729	0.0008
+L481: The Shapiro-Wilk W-test on the residuals was statistically significant for Drug Liking E_{\max} with a p-value 0.0008. Therefore, the normality assumption of the mixed-effects model was not satisfied (different from the sponsor's analysis result), the distribution of the paired difference for each contrast was further examined. Table 3 shows skewness, W statistic, and p-value of the Shapiro-Wilk W-test for Drug Liking E_{\max} on each paired difference.
+L482: As summarized in Table 3, the p-values of the W-test were greater or equal to 0.05 for the paired differences between Midazolam 2.5 mg and Placebo, Midazolam 5 mg and Placebo, Midazolam 2.5 mg and Remimazolam 5 mg, and Remimazolam 5 mg and Placebo. The distribution was relatively symmetric (skewness = -0.5 to 0.5) for the paired differences between Midazolam 2.5 mg and Placebo, Midazolam 5 mg and Placebo, Midazolam 2.5 mg and Remimazolam 5 mg, Midazolam 5 mg and Remimazolam 5 mg, Remimazolam 5 mg and Placebo, and Remimazolam 10 mg and Placebo. Thus, for comparisons with paired differences that were not significantly departure from normal (W-test p-value \ge 0.05) or the distribution was relatively symmetric (skewness = -0.5 to 0.5), a paired *t*-test was used. Otherwise, for comparisons (see in red) with paired differences that were significantly departure from normal (W-test p-value &lt; 0.05) and skewed (skewness &lt; -0.5 or &gt; 0.5), the sign test was performed.
+L483: **Table 3: Results from the W-test on Paired Difference for Drug Liking E_{max} (N = 39)**
+L484: Comparison	Skewness	W Statistic	p-value
+Mi2.5 – P	-0.15	0.9505	0.0853
+Mi5 – P	-0.39	0.9550	0.1211
+Mi2.5 – Re5	0.17	0.9839	0.8400
+Mi2.5 – Re10	1.38	0.8991	0.0021
+Mi5 – Re5	-0.20	0.9129	0.0053
+Mi5 – Re10	0.60	0.8895	0.0011
+Re5 – P	-0.45	0.9613	0.1972
+Re10 – P	-0.14	0.9283	0.0158
+L485: Table 4 summarizes the results from the reviewer's primary analysis.
+L486: **Table 4: Primary Analysis Results on Drug Liking E_{max} (N = 39)**
+L487: Pairwise Comparison	Mean Diff /Med Diff	StdErr /IQR	Test Value	p-value	95% CI
+LCL	UCL
+Mi2.5 – P	25.6	2.7	15	0.0002	21.1	Infnty
+Mi5 – P	28.5	2.4	15	< 0.0001	24.4	Infnty
+Mi2.5 – Re5	0.9	1.6	0	0.2801	-1.8	Infnty
+Mi2.5 – Re10†	-1.0	-7, 2	0	0.9449	-4.0	Infnty
+Mi5 – Re5	3.8	1.9	0	0.0230	0.7	Infnty
+Mi5 – Re10†	0.0	-4, 8	0	0.5000	-1.0	Infnty
+L488: † The sign test was performed. The median difference and the interquartile range as well as the distribution free 95% confidence interval of the median difference are listed.
+L489: The reviewer's primary analysis showed that for Drug Liking E_{max},
+L490: - the mean differences between both doses of Midazolam and Placebo were statistically significantly greater than 15 points, confirming the study validity;
+- Remimazolam 5 mg had statistically significantly smaller mean compared to Midazolam 5 mg, but there was no statistically significant difference in means between Remimazolam 5 mg and Midazolam 2.5 mg;
+- there were no statistically significant differences in medians between Remimazolam 10 mg and both doses of Midazolam;
+L491: From Figure 2, one may notice that there exist several subjects who responded similar maximum drug liking across all 5 treatments. Sensitivity analysis excluding those subjects was performed as well, but was omitted here since the results remained the same as using the Completer Population.
+L492: ## 2.4.2. Secondary Analysis
+L493: The sponsor didn't pre-specify any key secondary endpoints. Per the CSS Pharmacologist Dr. Katherine Bonson's suggestion, Overall Drug Liking E_{max}, Take Drug Again E_{max}, Good Drug Effects E_{max}, Bad Drug Effects E_{max}, and Alertness/Drowsiness E_{min} were included in the reviewer's secondary analysis.
+L494: Note that Overall Drug Liking E_{max} and Alertness/Drowsiness E_{min} were on a bipolar visual analog scale, while Take Drug Again E_{max}, Good Drug Effects E_{max}, and Bad Drug Effects E_{max} were on a unipolar visual analog scale. Also note that pre-dose responses were collected for Alertness/Drowsiness VAS, thus the reviewer used E_{min} subtract from the pre-dose response (change from pre-dose response) as the response in secondary analysis for Alertness/Drowsiness VAS. The change was on a bipolar visual analog scale with 0 represented neither drowsy nor alert compared to pre-dose response, larger value represented getting drowsier while smaller value represented getting more alert. The reviewer also did the secondary analysis on Alertness/Drowsiness E_{min} (actual value) for investigation.
+L495: ## 2.4.2.1. Descriptive Statistics
+L496: Figures 4 – 9 are the heat maps by treatment for Overall Drug Liking E_{max}, Take Drug Again E_{max}, Good Drug Effects E_{max}, Bad Drug Effects E_{max}, Alertness/Drowsiness E_{min} subtract from the pre-dose response (change value), and Alertness/Drowsiness E_{min} (actual value) in the Treatment Phase.
+L497: Figure 4: Heat Map by Treatment for Overall Drug Liking E_{max} in the Treatment Phase (N = 39)
+L498: Figure 5: Heat Map by Treatment for Take Drug Again E_{max} in the Treatment Phase (N = 39)
+L499: Figure 6: Heat Map by Treatment for Good Drug Effects E_{max} in the Treatment Phase (N = 39)
+L500: Figure 7: Heat Map by Treatment for Bad Drug Effects E_{max} in the Treatment Phase (N = 39)
+L501: Figure 8: Heat Map by Treatment for Alertness/Drowsiness E_{min} Subtract from the Pre-dose Response (Change Value) in the Treatment Phase (N = 39)
+L502: Figure 9: Heat Map by Treatment for Alertness/Drowsiness E_{min} (Actual Value) in the Treatment Phase (N = 39)
+L503: The reviewer did the secondary analysis for the Completer Population (N = 39). Table 5 summarizes the mean, standard deviation (SD), minimum (Min), the first quartile (Q1), median (Med), the third quartile (Q3), and maximum (Max) for the 5 treatments in the study for the secondary endpoints Overall Drug Liking Emax, Take Drug Again Emax, Good Drug Effects Emax, Bad Drug Effects Emax, and Alertness/Drowsiness Emin subtract from the pre-dose response (change value).
+L504: **Table 5: Summary Statistics for Overall Drug Liking Emax, Take Drug Again Emax, Good Drug Effects Emax, Bad Drug Effects Emax, and Alertness/Drowsiness Emin Subtract from the Pre-dose Response (N = 39)**
+L505: Measure	TRT	Mean	SD	Min	Q1	Med	Q3	Max
+Overall Drug Liking Emax	Re5	61.8	17.2	28	50	57	76	100
+Re10	67.3	18.7	26	50	69	83	100
+Mi2.5	67.3	17.1	41	50	64	81	100
+Mi5	69.3	16.2	40	52	72	80	100
+P	52.8	14.1	0	50	50	50	91
+Take Drug Again Emax	Re5	36.9	35.5	0	0	22	76	100
+Re10	49.2	34.0	0	17	52	80	100
+Mi2.5	56.4	33.2	0	33	57	87	100
+Mi5	58.5	32.4	0	29	64	86	100
+P	17.1	28.2	0	0	0	47	88
+Good Drug Effects Emax	Re5	64.5	24.1	11	42	64	81	100
+Re10	70.9	22.8	2	51	72	91	100
+Mi2.5	65.6	24.7	0	46	67	86	100
+Mi5	72.9	20.6	24	62	72	92	100
+P	6.9	19.0	0	0	0	0	69
+Bad Drug Effects Emax	Re5	15.0	20.7	0	0	5	22	64
+Re10	30.7	34.4	0	1	16	55	100
+Mi2.5	12.9	21.9	0	0	0	16	80
+Mi5	27.9	33.4	0	0	9	54	100
+P	0.2	0.8	0	0	0	0	5
+Alertness/Drowsiness Emin subtract from the pre-dose response (change value)	Re5	28.0	21.1	-16	15	23	42	93
+Re10	36.7	20.5	4	20	36	47	100
+Mi2.5	35.4	19.2	8	16	39	49	94
+Mi5	38.8	18.3	13	22	40	50	89
+P	3.8	17.8	-50	0	0	0	70
+L506: Table 6 provides the corresponding descriptive statistics for Alertness/Drowsiness pre-dose response and E_{min} (actual value) respectively. It can be noticed that all 5 treatments share very similar pre-dose mean responses. The larger the Alertness/Drowsiness mean change value is, the smaller the mean actual value of E_{min} is.
+L507: **Table 6: Summary Statistics for Alertness/Drowsiness pre-dose response and E_{min} respectively (N = 39)**
+L508: Measure	TRT	Mean	SD	Min	Q1	Med	Q3	Max
+Alertness/Drowsiness pre-dose response	Re5	52.3	12.1	18	50	50	50	100
+Re10	53.1	12.4	42	50	50	50	100
+Mi2.5	53.5	14.2	23	50	50	50	100
+Mi5	54.3	13.5	37	50	50	50	100
+P	52.8	16.7	8	50	50	50	100
+Alertness/Drowsiness E_{min} (actual value)	Re5	24.2	15.8	0	9	26	35	66
+Re10	16.4	13.4	0	4	12	31	46
+Mi2.5	18.1	13.9	0	7	15	34	42
+Mi5	15.4	12.4	0	6	11	29	37
+P	49.1	16.3	18	44	50	50	100
+L509: The bar charts for Overall Drug Liking VAS and Take Drug Again VAS as well as the mean time course profiles by treatment for Good Drug Effects VAS, Bad Drug Effects VAS, Alertness/Drowsiness VAS change from the pre-dose response (change value), and Alertness/Drowsiness VAS (actual value) are presented in Figures 10 – 15, respectively.
+L510: By average, the mean Overall Drug Liking responses for both doses of Midazolam were similar to each dose of Remimazolam at both 240- and 480-mins post dose. The responses for the higher dose of Remimazolam were slightly greater than the lower dose, while Midazolam had similar responses for different doses. The responses for Placebo were around 50 at both 240- and 480-mins post dose, which were much lower than both doses of Midazolam and Remimazolam.
+L511: For Take Drug Again VAS, we can observe obvious differences between each dose of Midazolam and every dose of Remimazolam at both 240- and 480-mins post dose. The responses for the higher dose of Remimazolam were slightly greater than the lower dose, while Midazolam had similar responses for different doses. The responses for Placebo were around 15 at both 240- and 480-mins post dose, which were much lower than both doses of Midazolam and Remimazolam.
+L512: Figure 10: Mean Responses at 240- and 480-mins post dose by Treatment for Overall Drug Liking VAS (N = 39)
+L513: Figure 11: Mean Responses at 240- and 480-mins post dose by Treatment for Take Drug Again VAS (N = 39)
+L514: Figure 12: The Mean Time Course Profiles on Good Drug Effects VAS by Treatment (N = 39)
+L515: Figure 13: The Mean Time Course Profiles on Bad Drug Effects VAS by Treatment (N = 39)
+L516: Figure 14: The Mean Time Course Profiles on Alertness/Drowsiness VAS Change from the Pre-dose Response (Change Value) by Treatment (N = 39)
+L517: Figure 15: The Mean Time Course Profiles on Alertness/Drowsiness VAS (Actual Value) by Treatment (N = 39)
+L518: For Good Drug Effects VAS, data were collected at 2, 10, 15, 20, 30, 45, 60, 120, 180, 240, 360, and 480 mins post dose. The peak mean responses for Midazolam 2.5 mg and 5 mg were 50.6 reached at 15 mins post dose, and 58.4 reached at 10 mins post dose, respectively; Remimazolam 5 mg and 10 mg reached the peak mean response of 52.1 and 57.4 at 2 mins post dose, respectively. From Figure 12, we may notice that the mean responses for Good Drug Effects VAS of Remimazolam dropped quickly right after dosing, while Midazolam sustained for approximately 45 mins post dose. Over the 480 mins post dose, both doses of Remimazolam had mean Good Drug Effects scores generally lower than each dose of Midazolam. Higher dose of Midazolam and Remimazolam resulted in higher mean time course profile than the lower dose. We can also observe obvious separation from the mean time course profile between both doses of Remimazolam and Placebo.
+L519: For Bad Drug Effects VAS, all treatments had relatively low mean responses. Data were collected at 2, 10, 15, 20, 30, 45, 60, 120, 180, 240, 360, and 480 mins post dose. Midazolam reached the peak around 15 mins post dose, while Remimazolam dropped from 2 mins post dose. Higher dose of Midazolam and Remimazolam had slightly greater mean responses of Bad Drug Effects than the lower dose at almost all collected time points.
+L520: For Alertness/Drowsiness VAS change from the pre-dose response (change value), data were collected at 0, 2, 10, 15, 20, 30, 45, 60, 120, 180, 240, 360, and 480 mins post dose. Larger value represented getting much drowsier from pre-dose, while smaller value represented getting less drowsy or even more alert. The peak mean responses for Midazolam 2.5 mg and 5 mg were 25.2 reached at 30 mins post dose, and 27.5 reached at 45 mins post dose, respectively; Remimazolam 5 mg and 10 mg reached the peak mean responses of 17.4 and 25.4 at 10 mins post dose, respectively. From Figure 14, we may notice that the mean responses for Alertness/Drowsiness VAS change of Remimazolam dropped quickly after peak, while Midazolam sustained for approximately 2 hours post dose, indicating that subjects would become alert faster when injecting Remimazolam than Midazolam. Over the 480 mins post dose, both doses of Remimazolam had mean Alertness/Drowsiness VAS change scores generally less than each dose of Midazolam. Higher dose of Midazolam and Remimazolam resulted in slightly higher mean time course profile. The separation of mean time course profiles between both doses of Remimazolam and Placebo are evident.
+L521: The Alertness/Drowsiness VAS (actual value) showed inverted pattern of the Alertness/Drowsiness VAS change from the pre-dose response (change value). Smaller value represented much drowsier, while larger value represented less drowsy or more alert. The minimum mean responses for Midazolam 2.5 mg and 5 mg were 28.3 reached at 30 mins post dose, and 26.8 reached at 45 mins post dose, respectively; Remimazolam 5 mg and 10 mg reached the minimum mean responses of 34.9 and 27.6 at 10 mins post dose, respectively.
+L522: ## 2.4.2.2. Statistical Testing
+L523: The statistical model used in the reviewer's secondary analysis was a mixed-effects model which included treatment, period, sequence, and first-order carryover effect as fixed effects, subject as a
+L524: random effect. For the Alertness/Drowsiness VAS, pre-dose responses were collected, thus were also included as a covariate in the model. E_{min} subtract from the pre-dose response (change from pre-dose response) and E_{min} (actual value) were used respectively as the response in the analysis for Alertness/Drowsiness VAS.
+L525: With heteroscedasticity adjustment, the residuals from the mixed-effects model, excluding the carryover effects, are investigated for normality using the Shapiro-Wilk W-test. The results are presented in Table 7.
+L526: **Table 7: Results from the W-test on Residuals for Overall Drug Liking E_{max}, Take Drug Again E_{max}, Good Drug Effects E_{max}, Bad Drug Effects E_{max}, Alertness/Drowsiness E_{min} Subtract from the Pre-dose Response (Change Value), and Alertness/Drowsiness E_{min} (Actual Value) (N = 39)**
+L527: Endpoints	Skewness	W Statistic	p-value
+Overall Drug Liking E_{max}	-2.24	0.8548	< 0.0001
+Take Drug Again E_{max}	-0.34	0.9906	0.2317
+Good Drug Effects E_{max}	0.45	0.9527	< 0.0001
+Bad Drug Effects E_{max}	1.03	0.9050	< 0.0001
+Alertness/Drowsiness E_{min} subtract from the pre-dose response (change value)	-1.23	0.9265	< 0.0001
+Alertness/Drowsiness E_{min} (actual value)	1.23	0.9265	< 0.0001
+L528: The p-values of the W-test in Table 7 indicate that the residuals were approximately normally distributed for Take Drug Again E_{max}. When including first-order carryover effect in the model, the p-value for the carryover effect was greater than 0.25. Hence, the first-order carryover effect was non-significant at the 0.25 level, then the term was dropped from the analysis model. Table 8 shows the least square mean and standard error of each treatment for Take Drug Again E_{max}.
+L529: **Table 8: Least Square Mean Estimation for Take Drug Again E_{max} (N = 39)**
+L530: TRT	LS Mean	StdErr
+Re5	37.6	5.4
+Re10	49.9	4.6
+Mi2.5	57.0	4.8
+Mi5	58.9	5.3
+P	17.8	6.0
+L531: The hypotheses of comparison between Midazolam and Remimazolam used in the secondary analysis were the same as those in the primary analysis, except for Alertness/Drowsiness E_{min} (actual value). For the comparison between Midazolam and Placebo, if we use 15 as test value same
+L532: as in the primary analysis, the secondary analysis is often under powered. Thus, the reviewer used 0 as the test value for this comparison. The lower 95% confidence interval limit for upper-tail test, and the upper 95% confidence interval limit for lower-tail test, may provide some information about the margin. The hypotheses used for Alertness/Drowsiness E_{min} (actual value) would be inferiority instead of superiority.
+L533: For the comparison between Remimazolam and Placebo, note that the test value 11 was studied only for the bipolar Drug Liking VAS. Also note that for a fixed sample size, increasing the type I error will decrease the type II error. Therefore, a two-sided test with a test value 0 and type I error 0.1 was performed, and the 90% confidence interval was also calculated for this comparison.
+L534: Table 9 summarizes the results from the reviewer's secondary analysis for Take Drug Again E_{max}.
+L535: **Table 9: Secondary Analysis Results on Take Drug Again E_{max} (N = 39)**
+L536: Pairwise Comparison	LS Mean Diff	StdErr	Test Value	p-value	95% CI / 90% CI
+LCL	UCL
+Mi2.5 - P	39.2	5.9	0	< 0.0001	29.3	Infity
+Mi5 - P	41.1	6.3	0	< 0.0001	30.6	Infity
+Mi2.5 - Re5	19.3	5.2	0	0.0003	10.6	Infity
+Mi2.5 - Re10	7.0	4.4	0	0.0581	-0.3	Infity
+Mi5 - Re5	21.3	5.7	0	0.0002	11.8	Infity
+Mi5 - Re10	9.0	4.9	0	0.0369	0.7	Infity
+Re5 - P*	19.8	6.4	0	0.0031	9.2	30.5
+L537: * Two-sided test was performed.
+L538: Table 7 also shows that the W-test was statistically significant (p-value &lt; 0.05) for Overall Drug Liking E_{max}, Good Drug Effects E_{max}, Bad Drug Effects E_{max}, Alertness/Drowsiness E_{min} subtract from the pre-dose response (change value), and Alertness/Drowsiness E_{min} (actual value). Therefore, the normality assumption of the mixed-effects model was not satisfied, the distributions of the paired differences for these four endpoints were further examined. Table 10 shows skewness, W statistic, and p-value of the Shapiro-Wilk W-test for Overall Drug Liking E_{max}, Good Drug Effects E_{max}, Bad Drug Effects E_{max}, Alertness/Drowsiness E_{min} subtract from the pre-dose response (change value), and Alertness/Drowsiness E_{min} (actual value) on each paired difference.
+L539: **Table 10: Results from the W-test on Paired Difference for Overall Drug Liking E_{max}, Good Drug Effects E_{max}, Bad Drug Effects E_{max}, Alertness/Drowsiness E_{min} Subtract from the Pre-dose Response (Change Value), and Alertness/Drowsiness E_{min} (Actual Value) (N = 39)**
+L540: Measure	Comparison	Skewness	W Statistic	p-value
+Overall Drug Liking E_{max}	Mi2.5 - P	1.59	0.8722	0.0004
+L541: Mi5 - P	1.53	0.8842	0.0008
+Mi2.5 - Re5	0.86	0.9095	0.0042
+Mi2.5 - Re10	-0.19	0.9706	0.3905
+Mi5 - Re5	0.84	0.9268	0.0142
+Mi5 - Re10	0.96	0.9367	0.0295
+Re5 - P	0.74	0.9104	0.0045
+Re10 - P	1.55	0.8855	0.0009
+Good Drug Effects E_{max}	Mi2.5 - P	-0.54	0.9401	0.0383
+Mi5 - P	-0.86	0.8925	0.0014
+Mi2.5 - Re5	0.36	0.9608	0.1894
+Mi2.5 - Re10	-0.34	0.8788	0.0006
+Mi5 - Re5	0.44	0.9575	0.1468
+Mi5 - Re10	0.46	0.8948	0.0016
+Re5 - P	-0.72	0.9471	0.0658
+Re10 - P	-0.76	0.8957	0.0017
+Bad Drug Effects E_{max}	Mi2.5 - P	1.99	0.6531	< 0.0001
+Mi5 - P	0.91	0.7981	< 0.0001
+Mi2.5 - Re5	-0.14	0.8712	0.0004
+Mi2.5 - Re10	-0.87	0.8964	0.0017
+Mi5 - Re5	1.33	0.8022	< 0.0001
+Mi5 - Re10	0.17	0.9059	0.0033
+Re5 - P	1.39	0.7283	< 0.0001
+Re10 - P	0.81	0.8196	< 0.0001
+Alertness/Drowsiness E_{min}
+subtract from the pre-
+dose response
+(change value)	Mi2.5 - P	1.41	0.8991	0.0021
+Mi5 - P	1.68	0.8723	0.0004
+Mi2.5 - Re5	1.65	0.8738	0.0004
+Mi2.5 - Re10	-0.05	0.9874	0.9346
+Mi5 - Re5	2.22	0.8170	< 0.0001
+Mi5 - Re10	0.32	0.9775	0.6143
+Re5 - P	1.85	0.8452	< 0.0001
+Re10 - P	1.71	0.8683	0.0003
+Alertness/Drowsiness E_{min}
+(actual value)	Mi2.5 - P	-0.76	0.9435	0.0496
+Mi5 - P	-0.92	0.9315	0.0201
+Mi2.5 - Re5	-0.22	0.9651	0.2620
+Mi2.5 - Re10	0.05	0.9794	0.6807
+Mi5 - Re5	-0.78	0.9632	0.2277
+Mi5 - Re10	0.10	0.9750	0.5257
+Re5 - P	-0.80	0.9441	0.0521
+Re10 - P	-1.53	0.8653	0.0003
+L542: As summarized in Table 10, for comparisons with paired differences that were not significantly departure from normal (W-test p-value \ge 0.05) or the distribution was relatively symmetric
+L543: (skewness = -0.5 to 0.5), a paired t-test was used. Otherwise, for comparisons (see in red) with paired differences that were significantly departure from normal (W-test p-value &lt; 0.05) and skewed (skewness &lt; -0.5 or &gt; 0.5), the sign test was performed. Table 11 summarizes the results from the reviewer's secondary analysis for Overall Drug Liking E_{max}, Good Drug Effects E_{max}, Bad Drug Effects E_{max}, Alertness/Drowsiness E_{min} subtract from the pre-dose response (change value), and Alertness/Drowsiness E_{min} (actual value).
+L544: The results from the reviewer's secondary analysis showed that for Overall Drug Liking E_{max}, Take Drug Again E_{max}, Good Drug Effects E_{max}, Bad Drug Effects E_{max}, Alertness/Drowsiness E_{min} subtract from the pre-dose response (change value), and Alertness/Drowsiness E_{min} (actual value),
+L545: - the mean/median of each dose of Midazolam was statistically significantly greater (or smaller for Alertness/Drowsiness E_{min} actual value) than that of Placebo;
+- Remimazolam 5 mg had statistically significantly smaller (or greater for Alertness/Drowsiness E_{min} actual value) mean/median compared to Midazolam 5 mg; there was no statistically significant difference in means/medians between Remimazolam 5 mg and Midazolam 2.5 mg except Take Drug Again E_{max} and Alertness/Drowsiness E_{min} (actual value);
+- there were no statistically significant differences in means/medians between Remimazolam 10 mg and both doses of Midazolam, except the comparison between Remimazolam 10 mg and Midazolam 5 mg for Take Drug Again E_{max} (p-value = 0.0369);
+- the mean of Take Drug Again E_{max} for Remimazolam 5 mg was statistically significantly greater than that of Placebo; the mean of Alertness/Drowsiness E_{min} (actual value) for Remimazolam 5 mg was statistically significantly smaller than that of Placebo.
+L546: Table 11: Secondary Analysis Results on Overall Drug Liking E_{max}, Good Drug Effects E_{max}, Bad Drug Effects E_{max}, Alertness/Drowsiness E_{min} Subtract from the Pre-dose Response (Change Value), and Alertness/Drowsiness E_{min} (Actual Value) (N = 39)
+L547: Measure	Pairwise Comparison	Mean Diff /Med Diff	StdErr /IQR	Test Value	p-value	95% CI / 90% CI
+LCL	UCL
+Overall Drug Liking E_{max}	Mi2.5 – P†	10.0	0, 31	0	< 0.0001	1.0	Infity
+Mi5 – P†	16.0	1, 28	0	< 0.0001	5.0	Infity
+Mi2.5 – Re5†	1.0	-1, 11	0	0.1077	0.0	Infity
+Mi2.5 – Re10	0.0	1.7	0	0.4940	-2.8	Infity
+Mi5 – Re5†	1.0	-5, 21	0	0.0448	0.0	Infity
+Mi5 – Re10†	1.0	-6, 7	0	0.2498	-2.0	Infity
+Good Drug Effects E_{max}	Mi2.5 – P†	64.0	37, 86	0	< 0.0001	52.0	Infity
+Mi5 – P†	69.0	49, 92	0	< 0.0001	62.0	Infity
+Mi2.5 – Re5	1.2	2.5	0	0.3229	-3.1	Infity
+Mi2.5 – Re10	-5.3	3.6	0	0.9247	-11.4	Infity
+Mi5 – Re5	8.5	3.2	0	0.0060	3.1	Infity
+Mi5 – Re10	2.0	3.8	0	0.3020	-4.4	Infity
+Bad Drug Effects E_{max}	Mi2.5 – P†	0.0	0, 14	0	< 0.0001	0.0	Infity
+Mi5 – P†	9.0	0, 54	0	< 0.0001	3.0	Infity
+Mi2.5 – Re5	-2.1	4.0	0	0.6973	-8.8	Infity
+Mi2.5 – Re10†	-8.0	-43, 0	0	0.9998	-13.0	Infity
+Mi5 – Re5†	1.0	0, 21	0	0.0008	0.0	Infity
+Mi5 – Re10	-2.9	7.3	0	0.6509	-15.3	Infity
+Alertness/Drowsiness E_{min} subtract from the pre-dose response (change value)	Mi2.5 – P†	31.0	13, 45	0	< 0.0001	21.0	Infity
+Mi5 – P†	30.0	19, 49	0	< 0.0001	22.0	Infity
+Mi2.5 – Re5†	5.0	-5, 17	0	0.0939	0.0	Infity
+Mi2.5 – Re10	-1.3	2.3	0	0.7091	-5.2	Infity
+Mi5 – Re5†	7.0	-2, 18	0	0.0144	2.0	Infity
+Mi5 – Re10	2.2	2.4	0	0.1879	-1.9	Infity
+Alertness/Drowsiness E_{min} (actual value)	Mi2.5 – P†	-30.0	-43, -16	0	< 0.0001	-Infity	-24.0
+Mi5 – P†	-32.0	-45, -20	0	< 0.0001	-Infity	-26.0
+Mi2.5 – Re5	-6.1	2.4	0	0.0067	-Infity	-2.1
+Mi2.5 – Re10	1.8	2.1	0	0.7969	-Infity	5.3
+Mi5 – Re5	-8.8	2.3	0	0.0002	-Infity	-5.0
+Mi5 – Re10	-0.9	1.9	0	0.3155	-Infity	2.3
+Re5 – P*	-24.8	3.3	0	< 0.0001	-30.4	-19.3
+L548: * Two-sided test was performed.
+L549: † The sign test was performed. The median difference and the interquartile range as well as the distribution free 95% / 90% confidence interval of the median difference are listed.
+L550: ## 3. Conclusion
+L551: The reviewer's primary analysis was conducted on Drug Liking E_{\max}. The means of maximum drug liking of both Midazolam 2.5 mg and 5 mg (78.6 and 81.5) were statistically significantly greater than Placebo (53.1) by margin of 15, thus demonstrated the validity of the study. The differences of maximum drug liking between both doses of Midazolam and each dose of Remimazolam were not statistically significant, except the comparison between Midazolam 5 mg and Remimazolam 5 mg. Therefore, the drug liking effect of Remimazolam 5 mg and 10 mg were comparable to those of Midazolam 2.5 mg and 5 mg, respectively.
+L552: The reviewer's secondary analysis was on Overall Drug Liking E_{\max}, Take Drug Again E_{\max}, Good Drug Effects E_{\max}, Bad Drug Effects E_{\max}, Alertness/Drowsiness E_{\min} subtract from the pre-dose response (change value), and Alertness/Drowsiness E_{\min} (actual value). The secondary analysis for the Completer Population (N = 39) showed that the means/medians of those endpoints for Midazolam 2.5 mg and 5 mg were statistically significantly different from that of Placebo. There were no statistically significant differences in means/medians between both doses of Midazolam and each dose of Remimazolam, except for the comparison between Midazolam 5 mg and Remimazolam 5 mg for all key secondary endpoints, comparison between Midazolam 2.5 mg and Remimazolam 5 mg for Take Drug Again E_{\max} and Alertness/Drowsiness E_{\min} (actual value), and comparison between Midazolam 5 mg and Remimazolam 10 mg for Take Drug Again E_{\max}.
+L553: In conclusion, the abuse potential effects including drug liking, overall drug liking, good drug effects, bad drug effects, and alertness/drowsiness (change value) of Remimazolam 5 mg and 10 mg were comparable with those of Midazolam 2.5 mg and 5 mg, respectively. The take drug again effect of each dose of Remimazolam was statistically significantly less than corresponding dose of Midazolam, but greater than Placebo. The alertness/drowsiness E_{\min} (actual value) performed similar to alertness/drowsiness (change value), except that Remimazolam 5 mg was statistically significantly greater than corresponding dose of Midazolam (2.5 mg), but statistically significantly smaller than Placebo.
+L554: This is a representation of an electronic record that was signed electronically. Following this are manifestations of any and all electronic signatures for this electronic record.
+L555: /s/
+L556: RAN BI
+10/02/2019 03:01:16 PM
+L557: QIANYU DANG
+10/02/2019 03:30:54 PM
+L558: YI TSONG
+10/02/2019 09:32:08 PM
+L559: Figure 1 is a scatter plot showing Treatment Success Rate (Y/N) versus Total Fentanyl Dose (\mug) for Study 006 Remimazolam Only. The X-axis represents Total Fentanyl Dose (\mug) ranging from 50 to 200. The Y-axis shows Success (Y/N) and Success Probability (%). The success probability is represented by a blue curve that decreases as the total fentanyl dose increases. Data points are shown as black dots with vertical error bars, indicating variability in success rate at different dose levels.
+L560: Figure 2 is a scatter plot showing Treatment Success Rate (Y/N) versus Total Fentanyl Dose (\mu\text{g}) for Study 008 Remimazolam Only. The X-axis represents Total Fentanyl Dose (\mu\text{g}), ranging from 0 to 400. The Y-axis represents Success (Y/N), with a secondary Y-axis showing Success Probability (%). The plot displays individual patient outcomes (Y for success, N for failure) and a fitted logistic regression curve (blue line) showing the probability of success decreasing as the total fentanyl dose increases.
+L561: Scatter plot showing Treatment Success (Y/N) versus Procedure Duration (mins) for Study 006 Remimazolam Only. The X-axis ranges from 0 to 40 minutes. The Y-axis shows binary outcomes (Y/N) and a corresponding Success Probability (%) scale (0% to 100%). A horizontal blue line indicates the logistic regression fit, suggesting a high probability of success (around 90%) across the observed procedure durations (0 to 30 minutes).
+L562: Scatter plot showing Success (Y/N) versus Procedure Duration (mins) for Study 008 Remimazolam Only. The Y-axis is labeled 'Success (Y/N)' and the X-axis is labeled 'Procedure Duration (mins)'. The right Y-axis is labeled 'Success Probability (%)'. The plot shows a negative correlation, with a blue regression line indicating a decreasing success probability as procedure duration increases.
+L563: Scatter plot showing Total Fentanyl Dose (µg) on the Y-axis versus Procedure Duration (mins) on the X-axis. The data points show a positive correlation, and a blue regression line with a shaded confidence interval is displayed.
+L564: Scatter plot showing Total Fentanyl Dose (µg) on the Y-axis versus Procedure Duration (mins) on the X-axis. The data points show a positive correlation, and a blue regression line with a shaded confidence interval is overlaid, indicating a positive linear relationship.
+L565: Figure 7 displays four sets of forest plots showing the Posterior Means and 95% Credible Intervals (CIs) of the Difference in Response Rate (%) for Study 006, categorized by demographic subgroup.
+The X-axis represents the Difference in Response Rate (%), ranging from 0 to 100.
+The plots are organized into four sections:
+Overall: The posterior mean is approximately 85%, with a 95% CI spanning roughly 75% to 95%.
+Sex:Male: The posterior mean is approximately 90%, with a 95% CI spanning roughly 80% to 100%.
+Female: The posterior mean is approximately 80%, with a 95% CI spanning roughly 70% to 90%.
+
+Age:Age < 65: The posterior mean is approximately 90%, with a 95% CI spanning roughly 80% to 100%.
+Age ≥ 65: The posterior mean is approximately 80%, with a 95% CI spanning roughly 70% to 90%.
+
+Race:White: The posterior mean is approximately 90%, with a 95% CI spanning roughly 80% to 100%.
+Black or African American: The posterior mean is approximately 85%, with a 95% CI spanning roughly 75% to 95%.
+Other: The posterior mean is approximately 80%, with a 95% CI spanning roughly 70% to 90%.
+L566: Figure 8 displays four sets of forest plots showing the Posterior Means and 95% Credible Intervals (CIs) of the Difference in Response Rate (%) for Study 008, categorized by demographic subgroup.
+The X-axis represents the Difference in Response Rate (%), ranging from 0 to 100.
+The plots are organized into four sections:
+Overall: The posterior mean is approximately 85%, with a 95% CI spanning roughly 75% to 95%.
+Sex:Male: The posterior mean is approximately 90%, with a 95% CI spanning roughly 80% to 100%.
+Female: The posterior mean is approximately 80%, with a 95% CI spanning roughly 70% to 90%.
+
+Age:Age < 65: The posterior mean is approximately 90%, with a 95% CI spanning roughly 80% to 100%.
+Age ≥ 65: The posterior mean is approximately 80%, with a 95% CI spanning roughly 70% to 90%.
+
+Race:White: The posterior mean is approximately 90%, with a 95% CI spanning roughly 80% to 100%.
+Black or African American: The posterior mean is approximately 85%, with a 95% CI spanning roughly 75% to 95%.
+Other: The posterior mean is approximately 80%, with a 95% CI spanning roughly 70% to 90%.
+L567: Figure 9 displays four forest plots showing the Posterior Means and 95% Credible Intervals (CIs) for the Difference in Response Rate (%) across four demographic subgroups: Overall, Sex, Age, and Race. The x-axis ranges from 0 to 100%.
+Overall: The posterior mean is approximately 80%, with a 95% CI ranging from about 65% to 95%.
+Sex:Male: Posterior mean is approximately 90%, with a 95% CI ranging from about 75% to 100%.
+Female: Posterior mean is approximately 70%, with a 95% CI ranging from about 55% to 85%.
+
+Age:Age < 65: Posterior mean is approximately 85%, with a 95% CI ranging from about 70% to 100%.
+Age ≥ 65: Posterior mean is approximately 70%, with a 95% CI ranging from about 55% to 85%.
+
+Race:White: Posterior mean is approximately 85%, with a 95% CI ranging from about 70% to 100%.
+Black or African American: Posterior mean is approximately 90%, with a 95% CI ranging from about 75% to 100%.
+L568: Figure 10 displays 12 scatter plots showing medication usage (Remimazolam and Rescue) over time (Time since start of procedure in minutes) for 12 patients (001 to 012) in the Remimazolam Treatment Arm of Study 006. The Y-axis represents the Patient number (001 to 012), and the X-axis represents Time since start of procedure (mins), ranging from -20 to 30. Remimazolam usage is marked by 'x' and Rescue medication usage is marked by a solid dot.
+The plots show varying patterns of medication administration across the patients. Patients 004, 002, 001, 005, and 010 exhibit frequent Remimazolam administration, often requiring rescue medication (solid dots). Patients 003, 008, 015, 006, 012, and 011 show less frequent Remimazolam administration, with rescue medication usage being rare or absent.
+L569: This figure displays 16 scatter plots showing the usage of Remimazolam (marked with 'x') and Rescue Medication (marked with a solid dot) over time (in minutes since the start of the procedure) for individual patients (Study 008, Remimazolam Treatment Arm). The Y-axis represents Time since start of procedure (mins), ranging from -25 to 50. The X-axis represents the Patient ID (004, 008, 009, 010, 014, 015, 018, 020, 021, 023, 025, 026, 041, 048).
+The plots illustrate the temporal pattern of medication administration for each patient. Remimazolam is administered frequently, often starting around 0 minutes and continuing for several minutes. Rescue medication is administered less frequently, typically following Remimazolam administration or during periods of high Remimazolam usage.
+Legend: Treatment (x: Remimazolam, •: Rescue).
+L570: Scatter plot showing Fentanyl Usage (Y-axis, unlabeled) versus Time since first dose of Remimazolam (X-axis, mins) for patients in the Remimazolam Treatment Arm, categorized by Site (001 to 015).
+The X-axis ranges from 0 to 30 minutes. The Y-axis represents Fentanyl usage, with a vertical bar indicating a high usage level near 0 minutes for Site 002.
+Legend (Site):
+001 (Black dots)
+002 (Orange dots)
+003 (Light Blue dots)
+004 (Dark Green dots)
+005 (Dark Blue dots)
+006 (Orange dots)
+008 (Pink dots)
+010 (Black dots)
+011 (Orange 'x' marks)
+012 (Light Blue 'x' marks)
+015 (Dark Green 'x' marks)
+L571: This figure is a scatter plot illustrating Fentanyl usage in the Remimazolam Treatment Arm, categorized by Patient (Y-axis) and Time since first dose of Remimazolam (X-axis, in minutes). The X-axis ranges from 0 to 40 minutes, marked every 10 units. The Y-axis represents individual patients, with the number of patients increasing significantly as the time progresses.
+The data points are color-coded by Site, as detailed in the legend:
+004 (Black dots)
+008 (Yellow crosses)
+009 (Light Blue dots)
+010 (Teal dots)
+014 (Dark Blue dots)
+015 (Orange dots)
+018 (Pink dots)
+020 (Black dots)
+021 (Yellow crosses)
+023 (Light Blue crosses)
+025 (Teal crosses)
+026 (Dark Blue crosses)
+041 (Yellow crosses)
+048 (Pink crosses)
+The plot shows that Fentanyl usage is highly concentrated near Time 0 (immediately after the first dose of Remimazolam) for most patients, particularly those from Sites 004, 008, 009, 010, 014, 015, 018, and 020. Usage generally decreases or becomes sparse as time progresses beyond 10-15 minutes for many patients. Sites 021, 023, 025, 026, 041, and 048 show usage primarily within the first 10 minutes, with some points extending up to 40 minutes.
+L572: This figure is a scatter plot illustrating Fentanyl usage in the Remimazolam Treatment Arm across different patients and sites, plotted against Time since start of procedure (mins).
+The X-axis represents Time since start of procedure (mins), ranging from approximately -20 to 20. The Y-axis represents Patient, with multiple patients plotted vertically.
+The data points are color-coded by Site, as detailed in the legend:
+001 (Black dots)
+002 (Orange dots)
+003 (Light Blue dots)
+004 (Dark Green dots)
+005 (Teal dots)
+006 (Orange dots)
+008 (Pink dots)
+010 (Black dots)
+011 (Yellow X marks)
+012 (Light Blue X marks)
+015 (Dark Green X marks)
+The plot shows that Fentanyl usage is generally highest (more frequent or higher doses) during the initial phase of the procedure (Time since start of procedure between -10 and 0 minutes), with usage decreasing significantly after 10 minutes. Site 002 (Orange dots) shows the highest frequency of usage, particularly around 0 minutes. Site 001 (Black dots) also shows high usage around 0 minutes. Sites 004, 005, and 015 (Green/Teal X marks) show usage primarily concentrated between -10 and 0 minutes.
+L573: This scatter plot displays Fentanyl usage (Y-axis, labeled "Patient") versus Time since start of procedure (X-axis, labeled "Time since start of procedure (mins)") for patients in the Remimazolam Treatment Arm across various study sites (Study 008).
+The X-axis ranges from -25 to 50 minutes. The Y-axis represents the patient identifier.
+The data points are color-coded and marked by shape according to the Site:
+Site	Marker
+004	•
+008	•
+009	•
+010	•
+014	•
+015	•
+018	•
+020	•
+021	×
+023	×
+025	×
+026	×
+041	×
+048	×
+The plot shows a high density of data points clustered around the time of procedure start (0 minutes), indicating frequent Fentanyl usage during this period across most sites. Usage generally decreases as time progresses, particularly after 25 minutes, although some sites (like 008, 015, 018) show continued usage up to 50 minutes.
+L574: Scatter plot showing Total Remimazolam Dose (mg) on the Y-axis versus Procedure Duration (mins) on the X-axis. The data points show a positive correlation, and a linear regression line with a shaded confidence interval is displayed, indicating that longer procedure duration is associated with higher total remimazolam dose.
+L575: Scatter plot showing Total Remimazolam Dose (mg) on the Y-axis versus Procedure Duration (mins) on the X-axis. The data points show a positive correlation, and a linear regression line with a 95% confidence interval is overlaid.
+L576: Visit 1	Visit 2	Visit 3
+Screening Phase	Screening Visit	
+Qualification Phase
+Drug Discrimination Test	X: Midazolam IV 2.5 mg
+Washout 24 h
+Y: Placebo IV
+Washout 24 h
+Randomized, double-blind crossover
+Discriminates Midazolam and Placebo?
+Yes → Z: Midazolam IV 5 mg
+No → Discharge ~24 h post 2nd dose	
+Tolerability Assessment	Z: Midazolam IV 5 mg
+Washout minimum of 48 h between Qualification and Treatment Phases
+Tolerates midazolam dose?
+Yes → A: Remimazolam IV 5 mg
+No → Discharge ~24 h post-dose	
+Treatment Phase (Treatment Periods 1 to 5)	A: Remimazolam IV 5 mg
+B: Remimazolam IV 10 mg
+C: Midazolam IV 2.5 mg
+D: Midazolam IV 5 mg
+E: Placebo IV
+Washout minimum of 48 h between each Treatment Period	
+Follow-up	Follow-Up
+2 to 4 days after last drug administration
+L577: Heat Map by Treatment for Drug Liking E_max in the Qualification Phase (N = 39). The map displays Drug Liking E_max scores (0 to 100) across 5 treatments (TRT) and 39 subjects (SubID). The treatments are Re5, Re10, Mi2.5, Mi5, and P. The color intensity represents the score, ranging from light pink (low) to dark pink (high).
+L578: Heat Map by Treatment for Drug Liking E_max in the Treatment Phase (N = 39). The map displays maximum drug liking scores (0 to 100) for 39 subjects across five treatments: Midazolam 2.5 mg (Mi2.5), Midazolam 5 mg (Mi5), Placebo (P Treatment), Remimazolam 5 mg (Re5), and Remimazolam 10 mg (Re10). The color scale ranges from light pink (low liking) to dark pink (high liking). Most subjects show high liking scores (70-100) for Mi2.5, Mi5, and Re5/Re10. A few subjects show low liking scores (0-50) for Mi2.5 and Mi5.
+L579: Figure 3: A line graph showing the Mean Drug Liking VAS (Y-axis, 40 to 100) versus Time (mins) (X-axis, 0 to 480) for five treatments: Re5 (red), Re10 (yellow), Mi2.5 (green), Mi5 (blue), and P (Placebo, purple). The graph illustrates the time course profiles of drug liking. All drug treatments (Re5, Re10, Mi2.5, Mi5) show a rapid increase in drug liking VAS within the first 30 minutes, peaking around 30-60 minutes, and then gradually decreasing. The Placebo (P) group maintains a low, stable VAS score throughout the 480 minutes. The drug treatments generally show higher peak VAS scores than Placebo, with Mi2.5 and Mi5 peaking highest (around 70-75 VAS). Re5 and Re10 peak slightly lower (around 65-70 VAS). The separation between drug treatments and Placebo is most pronounced in the first hour.
+L580: Heat Map (b) (6) showing Overall Drug Liking E_{max} in the Treatment Phase (N = 39). The Y-axis represents SubID (Subject ID), and the X-axis represents Treatment (M2.5, M5, P, Re5, Re10). The color scale ranges from 0 (lightest) to 100 (darkest). The map displays individual subject responses across different treatment conditions.
+L581: Heat Map (b) (6) showing Take Drug Again E_{max} in the Treatment Phase (N = 39). The Y-axis represents SubID (Subject ID), and the X-axis represents Treatment (M2.5, M5, P, Re5, Re10). The color scale ranges from 0 (lightest) to 100 (darkest). The map displays individual subject responses across different treatment conditions.
+L582: Figure 6 is a heat map illustrating the distribution of Good Drug Effects E_{max} across different treatments (M2.5, M5, P, Re5, Re10) for 39 subjects (N=39). The color scale ranges from 0 (lightest) to 100 (darkest). The X-axis represents the treatment phase, and the Y-axis represents the Subject ID (labeled (b) (6) on the right). The map shows that treatments M2.5, M5, and P generally exhibit higher values (darker shades) compared to Re5 and Re10, particularly in the middle and lower rows of subjects.
+L583: Figure 7 is a heat map illustrating the distribution of Bad Drug Effects E_{max} across different treatments (M2.5, M5, P, Re5, Re10) for 39 subjects (N=39). The color scale ranges from 0 (lightest) to 100 (darkest). The X-axis represents the treatment phase, and the Y-axis represents the Subject ID (labeled (b) (6) on the right). The map shows that treatments M2.5, M5, and P generally exhibit higher values (darker shades) compared to Re5 and Re10, particularly in the middle and lower rows of subjects.
+L584: Heat Map (b) (6) showing Alertness/Drowsiness E_{min} Change Value (Pre-dose Response subtracted) across 39 subjects (SubID) for various treatments (M2.5, M5, P, Re5, Re10). The color scale ranges from -100 (dark blue) to 100 (dark red), with 0 being white/light gray. The P treatment shows a significant number of subjects (rows) exhibiting a positive change value (red/yellow), indicating increased alertness/drowsiness, particularly in the Re5 and Re10 phases.
+L585: Heat Map (b) (6) showing Alertness/Drowsiness E_{min} (Actual Value) across 39 subjects (SubID) for various treatments (M2.5, M5, P, Re5, Re10). The color scale ranges from 0 (dark blue) to 100 (dark red). The P treatment shows a significant number of subjects (rows) exhibiting a high actual value (red/yellow), indicating high alertness/drowsiness, particularly in the Re5 and Re10 phases.
+L586: Bar chart showing Mean Overall Drug Liking VAS (Y-axis, 0 to 100) across five treatments (Re5, Re10, Mi2.5, Mi5, P) at 240-mins (red) and 480-mins (teal) post dose. The legend indicates Time (mins): 240 (red) and 480 (teal).
+Treatment	240-mins (VAS)	480-mins (VAS)
+Re5	59.2	59.7
+Re10	62.6	63.1
+Mi2.5	65.4	65.8
+Mi5	65.5	66.1
+P	52.7	51.9
+L587: Bar chart showing Mean Take Drug Again VAS (Y-axis, 0 to 100) across five treatments (Re5, Re10, Mi2.5, Mi5, P) at 240-mins (red) and 480-mins (teal) post dose. The legend indicates Time (mins): 240 (red) and 480 (teal).
+Treatment	240-mins (VAS)	480-mins (VAS)
+Re5	35.6	35
+Re10	43.6	46
+Mi2.5	52.4	55.1
+Mi5	56.4	53
+P	13.5	16.9
+L588: Figure 12 is a line graph showing the Mean Time Course Profiles on Good Drug Effects VAS (Y-axis, 0 to 100) versus Time (mins) (X-axis, 0 to 480) for five treatments (N=39). The treatments are Re5 (red circles), Re10 (yellow triangles), Mi2.5 (green squares), Mi5 (blue crosses), and P (purple diamonds). All treatments start around 50-60 VAS at Time 0. The P treatment remains low (around 5-10 VAS) throughout the observation period. The other four treatments show a rapid decline in VAS scores, stabilizing near 0 VAS by 240 minutes.
+L589: Figure 13 is a line graph showing the Mean Time Course Profiles on Bad Drug Effects VAS (Y-axis, 0 to 100) versus Time (mins) (X-axis, 0 to 480) for five treatments (N=39). The treatments are Re5 (red circles), Re10 (yellow triangles), Mi2.5 (green squares), Mi5 (blue crosses), and P (purple diamonds). The P treatment remains consistently low (near 0 VAS). The Re10 treatment shows the highest initial Bad Drug Effects VAS (around 25 VAS at Time 0), which rapidly declines to near 0 VAS by 120 minutes. The other treatments (Re5, Mi2.5, Mi5) start around 5-10 VAS and decline rapidly, stabilizing near 0 VAS by 120 minutes.
+L590: Figure 14 is a line graph showing the Mean Time Course Profiles on Alertness/Drowsiness VAS Change from the Pre-dose Response (Change Value) by Treatment (N = 39). The Y-axis represents Mean BASE-Alertness/Drowsiness Effects VAS (ranging from 0 to 100), and the X-axis represents Time (mins) (ranging from 0 to 480). The legend identifies five treatments: Re5 (Red line), Re10 (Yellow line), Mi2.5 (Green line), Mi5 (Blue line), and P (Purple line).
+The graph illustrates that all treatments show a rapid increase in alertness/drowsiness VAS score immediately after the pre-dose response (around 0-40 minutes), peaking between 20 and 30 minutes. The P treatment shows the highest peak (around 25-30). Following the peak, all treatments exhibit a gradual decline in the VAS score over the subsequent 400 minutes, with the Re5 and Re10 treatments showing the lowest scores (near 0) by 480 minutes, while Mi2.5 and Mi5 maintain slightly higher scores (around 5-10).
+L591: Figure 15 is a line graph showing the Mean Time Course Profiles on Alertness/Drowsiness VAS (Actual Value) by Treatment (N = 39). The Y-axis represents Mean BASE-Alertness/Drowsiness Effects VAS (ranging from 0 to 100), and the X-axis represents Time (mins) (ranging from 0 to 480). The legend identifies five treatments: Re5 (Red line), Re10 (Yellow line), Mi2.5 (Green line), Mi5 (Blue line), and P (Purple line).
+The graph illustrates that all treatments start at a baseline VAS score of approximately 55-60. Immediately after the pre-dose response (around 0-40 minutes), all treatments show a sharp decrease in the VAS score, indicating increased drowsiness/alertness. The P treatment shows the lowest score (around 25-30) by 40 minutes. Following this initial dip, all treatments gradually increase their VAS scores over the subsequent 400 minutes, stabilizing between 50 and 60 by 480 minutes. The P treatment maintains the highest score throughout the observation period.

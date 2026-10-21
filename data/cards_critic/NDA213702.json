@@ -1,0 +1,32 @@
+{
+  "app": "NDA213702",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval/detail",
+      "severity": "low",
+      "issue": "Automated flag on '16' is a false positive; it is part of the date 'December 16, 2019' and should be excluded as a date."
+    },
+    {
+      "field": "first_cycle_approval/detail",
+      "severity": "low",
+      "issue": "Automated flag on '2019' is a false positive; it is part of the date 'December 16, 2019' and should be excluded as a date."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "16",
+        "text": "Priority NDA received December 16, 2019 and granted accelerated approval effecti"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2019",
+        "text": "Priority NDA received December 16, 2019 and granted accelerated approval effecti"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

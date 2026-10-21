@@ -1,0 +1,18 @@
+{
+  "app": "NDA211281",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 326)",
+  "_raw": "Analyzing the card for quality issues.\n\nLet me check key fields:\n\n**n field**: text says \"N=594 (PIZENSY N=291, Placebo N=303)\". 291+303=594. Citations support N=291, N=303, and 594. OK.\n\n**first_cycle_approval**: value=false, and the review DOES mention a refuse-to-file action. Per rules, this is c",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "21",
+        "text": "The first submission for this NDA, dated June 29, 2018, was issued a refuse to f"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

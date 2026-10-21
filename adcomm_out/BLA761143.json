@@ -1,0 +1,136 @@
+{
+  "app": "BLA761143",
+  "drug": "TEPEZZA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "6a9c1cdf-76f0-5028-94cc-d669d6bdfebb"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "72c3d5ba-17f4-5861-9882-22bedb169932"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "0bacacec-7625-5826-b302-b757b9bd8370"
+    },
+    {
+      "doc_type": "OtherR",
+      "doc_id": "37788003-973e-5eae-b90b-4002cfc2dc88"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Dermatologic and Ophthalmic Drugs Advisory Committee (DODAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "6a9c1cdf-76f0-5028-94cc-d669d6bdfebb",
+      "line": 112,
+      "quote": "The Dermatologic and Ophthalmic Drugs Advisory Committee (DODAC) of the Food and Drug Administration, Center for Drug Evaluation and Research met on December 13, 2019, at the FDA White Oak Campus, Building 31 Conference Center, the Great Room (Rm. 1503), 10903 New Hampshire Avenue, Silver Spring, Maryland."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "6a9c1cdf-76f0-5028-94cc-d669d6bdfebb",
+      "found_lines": [
+        112
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "December 13, 2019",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "0bacacec-7625-5826-b302-b757b9bd8370",
+      "line": 20,
+      "quote": "12/13/2019: Dermatologic and Ophthalmic Drugs Advisory Committee Meeting was convened to discuss the efficacy and safety of teprotumumab-trbw. The AC voted 12/0 in favor of approval. A REMS proposal was not discussed."
+    },
+    "quote_verify": {
+      "status": "MISSING"
+    }
+  },
+  "recommendation": {
+    "text": "The committee unanimously voted \"Yes\" (12-0) that the potential benefits of teprotumumab outweigh the potential risks for the intended population.",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "6a9c1cdf-76f0-5028-94cc-d669d6bdfebb",
+      "line": 113,
+      "quote": "The committee unanimously voted \u201cYes\u201d, that the potential benefits of using teprotumumab as recommended outweigh the potential risks associated with the use of the drug product for the intended population."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "6a9c1cdf-76f0-5028-94cc-d669d6bdfebb",
+      "found_lines": [
+        113
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Committee members noted the safety database was limited and suggested the Applicant conduct a clinical trial with a greater number of subjects to identify additional adverse events not captured by the limited data presented.",
+      "change": "FDA required post-marketing studies (PMR 3780-8, an adequate and well-controlled trial across three treatment durations, and PMR 3780-9, completion of the ongoing OPTIC-X retreatment trial) to address the very limited safety data from extended treatment and retreatment.",
+      "category": "Safety / Post-marketing requirement",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "6a9c1cdf-76f0-5028-94cc-d669d6bdfebb",
+        "line": 113,
+        "quote": "Some committee members suggested that the Applicant conduct a clinical trial with a greater number of subjects to identify any additional adverse event that may have not been identified from the limited data presented.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "6a9c1cdf-76f0-5028-94cc-d669d6bdfebb",
+          "found_lines": [
+            113
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "6a9c1cdf-76f0-5028-94cc-d669d6bdfebb",
+        "line": 106,
+        "quote": "The results of this PMR will address the very limited safety data available from patients with extended treatment periods and/or retreatments following relapse of proptosis by evaluating a population of subjects with shorter, standard, or longer treatments periods along with a standard re-treatment for subjects who are inadequately treated or relapse within a year after completing their initial treatment course.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "6a9c1cdf-76f0-5028-94cc-d669d6bdfebb",
+          "found_lines": [
+            106,
+            108
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee recommended that the Applicant work with the Agency to identify post-marketing commitments such as appropriate labeling or use of a registry.",
+      "change": "In addition to the required PMRs, seven Post-marketing Commitments (PMCs) and two Post-marketing Requirements (PMRs) were established for the approval.",
+      "category": "Post-marketing commitments",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "6a9c1cdf-76f0-5028-94cc-d669d6bdfebb",
+        "line": 113,
+        "quote": "The committee also recommended that the Applicant work with the Agency to identify post-marketing commitments such as appropriate labeling or use of a registry.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "6a9c1cdf-76f0-5028-94cc-d669d6bdfebb",
+          "found_lines": [
+            113
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "6a9c1cdf-76f0-5028-94cc-d669d6bdfebb",
+        "line": 149,
+        "quote": "However, in addition to the usual post-marketing collection and reporting of adverse experiences associated with the use of the drug product, there are seven (7) Post-marketing Commitments (PMCs) and two (2) Post-marketing Requirements (PMRs):",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "6a9c1cdf-76f0-5028-94cc-d669d6bdfebb",
+          "found_lines": [
+            149
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Dermatologic and Ophthalmic Drugs Advisory Committee (DODAC) met on December 13, 2019 and voted unanimously (12-0) that teprotumumab's benefits outweigh its risks for thyroid eye disease. Members endorsed approval given the lack of any existing therapy, but flagged the limited safety database and suggested a larger trial and post-marketing commitments. TEPEZZA was approved with two PMRs (including trials evaluating additional treatment durations and retreatment) and seven PMCs addressing the limited safety data; no REMS was required."
+}

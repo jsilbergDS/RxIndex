@@ -1,0 +1,107 @@
+{
+  "app": "NDA206162",
+  "drug": "LYNPARZA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "6872577c-edb6-53b3-9de3-36dd2fd9b9de"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "80a02601-af4e-5202-a674-5286acb63a7a"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "e60b49ab-bac5-5d4e-aec5-36a9ba98fa48"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "74578870-ce9f-5553-a5be-ec0a628091c2"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Oncologic Drugs Advisory Committee (ODAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "6872577c-edb6-53b3-9de3-36dd2fd9b9de",
+      "line": 56,
+      "quote": "The Oncologic Drugs Advisory Committee (ODAC) met June 25, 2014, to discuss NDA 206162."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "6872577c-edb6-53b3-9de3-36dd2fd9b9de",
+      "found_lines": [
+        56
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "June 25, 2014",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "74578870-ce9f-5553-a5be-ec0a628091c2",
+      "line": 522,
+      "quote": "On June 25th, 2014, an Oncologic Drugs Advisory Committee (ODAC) was held to discuss NDA 206162."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "74578870-ce9f-5553-a5be-ec0a628091c2",
+      "found_lines": [
+        522
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "ODAC voted 11-2 (11 No, 2 Yes) that the safety and efficacy results from Study 19 in the gBRCAm population do NOT support accelerated approval of the originally proposed platinum-sensitive maintenance indication.",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "6872577c-edb6-53b3-9de3-36dd2fd9b9de",
+      "line": 59,
+      "quote": "There were 11 No votes as compared to 2 Yes votes."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "6872577c-edb6-53b3-9de3-36dd2fd9b9de",
+      "found_lines": [
+        59
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "ODAC voted 11-2 that the Study 19 results did not support accelerated approval of olaparib in the originally proposed platinum-sensitive maintenance indication, citing lack of an overall survival benefit, unreliability of results from loss of randomization and small sample size, toxicity including MDS/AML risk in patients not otherwise on treatment, and potential to hinder accrual to the confirmatory study.",
+      "change": "The applicant withdrew the maintenance indication and submitted a major amendment proposing an entirely different, narrower indication (monotherapy for gBRCAm advanced ovarian cancer patients treated with three or more prior lines of chemotherapy, based on Study 42), which received accelerated approval.",
+      "category": "Indication narrowing / changed indication",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "74578870-ce9f-5553-a5be-ec0a628091c2",
+        "line": 112,
+        "quote": "Following the 11-2 ODAC vote that the results from Study 19 do not support accelerated approval of olaparib",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "74578870-ce9f-5553-a5be-ec0a628091c2",
+          "found_lines": [
+            112
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MedR",
+        "doc_id": "74578870-ce9f-5553-a5be-ec0a628091c2",
+        "line": 112,
+        "quote": "the applicant submitted a major amendment and revised the indication for patients with gBRCAm-associated ovarian cancer treated with more than three lines of chemotherapy",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "74578870-ce9f-5553-a5be-ec0a628091c2",
+          "found_lines": [
+            112
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Oncologic Drugs Advisory Committee (ODAC) met June 25, 2014 and voted 11-2 that Study 19 did not support accelerated approval of olaparib for the originally proposed platinum-sensitive maintenance indication, citing lack of an OS benefit, loss of randomization/small sample, and MDS/AML toxicity. Following that vote, AstraZeneca submitted a major amendment that abandoned the maintenance indication and instead sought a narrower indication for heavily pre-treated patients (>=3 prior lines of chemotherapy) based on single-arm Study 42 (34% ORR), which FDA granted accelerated approval. The AdComm thus directly reshaped the entire approved indication rather than producing a safety label tweak."
+}

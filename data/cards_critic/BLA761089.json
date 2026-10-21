@@ -1,0 +1,77 @@
+{
+  "app": "BLA761089",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "uncited_numbers flag for '1' is a false positive; it is a study identifier (Study 1), not efficacy/safety data."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "uncited_numbers flag for '2' is a false positive; it is a study identifier (Study 2), not efficacy/safety data."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "uncited_numbers flags for '225' and '675' are false positives; these are doses (225 mg monthly, 675 mg quarterly), which are excluded."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "uncited_numbers flags for '225' and '675' are false positives; these are doses, which are excluded."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "uncited_numbers flags for '225' and '675' are false positives; these are dose labels for the AE rates, and the actual AE rates (43/45/38) are cited."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study 1 (TV48125-CNS-30050 / Study 30050, episodic migraine)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "225",
+        "text": "Change from baseline in monthly migraine days -3.7 (225 mg monthly) and -3.4 (67"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "675",
+        "text": "Change from baseline in monthly migraine days -3.7 (225 mg monthly) and -3.4 (67"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Study 2 (TV48125-CNS-30049 / Study 30049, chronic migraine)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "225",
+        "text": "Change from baseline in monthly headache days of at least moderate severity -4.6"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "675",
+        "text": "Change from baseline in monthly headache days of at least moderate severity -4.6"
+      },
+      {
+        "field": "key_safety",
+        "number": "225",
+        "text": "Most common adverse reactions (>=5% and greater than placebo) were injection sit"
+      },
+      {
+        "field": "key_safety",
+        "number": "675",
+        "text": "Most common adverse reactions (>=5% and greater than placebo) were injection sit"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

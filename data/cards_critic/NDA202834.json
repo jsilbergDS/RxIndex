@@ -1,0 +1,82 @@
+{
+  "app": "NDA202834",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "high",
+      "issue": "The mITT analysis population numbers (placebo 121, 8 mg 133, 12 mg 133) are stated but the randomized citation shows 12 mg as 134; the '12 mg 133' mITT figure is only supported by the result-table header, not a distinct mITT breakdown, and the text conflates randomized vs mITT numbers without full citation support."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "high",
+      "issue": "Internal inconsistency: the 8 mg arm shows -30.5 vs placebo -9.7 (p=0.0008) while the 12 mg arm shows only -17.6 (p=.01), i.e. the lower dose outperformed the higher dose \u2014 this anomalous/likely-mislabeled result is presented without any caveat and should be verified."
+    },
+    {
+      "field": "pivotal_trials[2].n",
+      "severity": "medium",
+      "issue": "Result-table citation for Study 306 shows placebo N=184, but the n field reports placebo 185 (randomized); the mITT/analysis N of 184 is uncited in the n text."
+    },
+    {
+      "field": "key_safety",
+      "severity": "high",
+      "issue": "Dizziness rates are attributed to dose columns as '16% (4 mg), 32% (8 mg), 43% (12 mg)' but the citation header lists columns Placebo/4 mg/8 mg/12 mg with the row '9 16 32 43'; the mapping is plausible but the text labels '4 mg=16%' etc. should be checked \u2014 more importantly '43% (12 mg)' and the column Ns (n=442/172/431/255) differ from the pivotal trial populations, indicating a pooled safety dataset not clearly identified."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "high",
+      "issue": "Citation quote states 'NDA dated December 22, 2012, received December 22, 2012' but the summary text and receipt_date say received 12/22/11; the cited quote contradicts the stated receipt year (the quote appears to contain an OCR/typo error being relied upon)."
+    },
+    {
+      "field": "approval_program.priority_review",
+      "severity": "medium",
+      "issue": "priority_review.present=false is unsupported; the review shows a standard ~10-month review (received 12/22/11, PDUFA/approval 10/22/2012) consistent with standard review, but the designation status is asserted without any citation confirming it was a standard (non-priority) review."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Uncited numbers flagged (202834, 12, 11) are the NDA number and receipt date components \u2014 excluded by rule as study ID/date; dismiss as false positives."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Uncited numbers flagged (202834, 11) are the NDA number and receipt date \u2014 excluded by rule; dismiss as false positives."
+    },
+    {
+      "field": "pivotal_trials[0].nct",
+      "severity": "low",
+      "issue": "NCT is null for all three pivotal trials; acceptable if not stated in the review, noted as potential completeness gap."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "202834",
+        "text": "NDA 202834 was received 12/22/11 and approved 10/22/2012 with no prior Complete "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "12",
+        "text": "NDA 202834 was received 12/22/11 and approved 10/22/2012 with no prior Complete "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "11",
+        "text": "NDA 202834 was received 12/22/11 and approved 10/22/2012 with no prior Complete "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "202834",
+        "text": "NDA 202834 was submitted under section 505(b) and received 12/22/11 for perampan"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "11",
+        "text": "NDA 202834 was submitted under section 505(b) and received 12/22/11 for perampan"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

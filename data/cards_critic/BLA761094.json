@@ -1,0 +1,42 @@
+{
+  "app": "BLA761094",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "Automated flag for number '8' is a false positive; it is the Week 8 time point (a date-like time reference) and is supported by the Week 8 citations."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "Automated flag for number '20' is a false positive; it is the dose (rhNGF 20 \u00b5g/mL), which is excluded from uncited-number checks."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag for number '2' is a false positive; 'two randomized...studies' is supported by the cited quote."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "8",
+        "text": "At Week 8, completely staining free was 65.2% (rhNGF 20 \u00b5g/mL) vs 16.7% (vehicle"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "20",
+        "text": "At Week 8, completely staining free was 65.2% (rhNGF 20 \u00b5g/mL) vs 16.7% (vehicle"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2",
+        "text": "Cenegermin (Oxervate) was granted Fast Track, Breakthrough Therapy, and Orphan-d"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

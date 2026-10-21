@@ -1,0 +1,58 @@
+{
+  "app": "NDA209899",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "first_cycle_approval.value",
+      "severity": "high",
+      "issue": "value=false is correctly set here because the review explicitly states the initial NDA submission received a Refuse to File action on 2/23/2018, which is a genuine prior RTF; this is supported and correct, not an error.",
+      "note": "verification only"
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "high",
+      "issue": "The stated relative reduction of 48% belongs to Study 1's ZEPOSIA-vs-IFN comparison and is supported, but the cited ARR table quote does not label which columns are Study 1 vs Study 2, so the mapping of 0.181/0.350 to Study 1 relies on ordering not stated in the quote (medium risk of comparator/column mismatch)."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "uncited_numbers flag for '1' in 'Study 1' is a false positive; it is a study label, not an efficacy/safety number."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "uncited_numbers flag for '2' in 'Study 2' is a false positive; it is a study label, not an efficacy/safety number."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "uncited_numbers flag for '3' is a false positive; it derives from '505(b)'/'Phase 3' labels, not an uncited efficacy/safety number."
+    },
+    {
+      "field": "approval_program.priority_review.present",
+      "severity": "low",
+      "issue": "priority_review is marked false; no citation supports or contradicts, and the review does not clearly establish a priority designation, so this is acceptable but unverified."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study 1 (RPC01-201B)"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Study 2 (RPC01-301)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Standard NDA under section 505(b), approved March 20, 2020 based on two adequate"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

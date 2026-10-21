@@ -1,0 +1,33 @@
+{
+  "app": "NDA202207",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 269)",
+  "_raw": "{\n \"app\": \"NDA202207\",\n \"release_ready\": false,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[0].result\",\n   \"severity\": \"low\",\n   \"issue\": \"Automated flag for '0.0401' is a false positive; the value appears in the citation quote '...PC1 \\\\leq .900.0401&lt;0.0001'.\",\n  },\n  {\n   \"field\": \"pivotal_tri",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.0401",
+        "text": "Concordant nodes 239/256 (93.36%); 95% CI (89.58, 96.08); 1-sided p=0.0401 for H"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.90",
+        "text": "Concordant nodes 239/256 (93.36%); 95% CI (89.58, 96.08); 1-sided p=0.0401 for H"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.90",
+        "text": "Concordant nodes 229/229 (100%); 95% CI (98.40, 100); 1-sided p<0.0001 for H0: P"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "Lymphoseek was approved as a standard NDA under section 505(b) in a second revie"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

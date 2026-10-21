@@ -1,0 +1,47 @@
+{
+  "app": "NDA207533",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Uncited-number flag for '1' is a false positive; it refers to the label's 'Study 1' designation, supported by the design/n citation."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Uncited-number flags for '5', '2015', '003', and '3' are false positives (approval date, study ID, and 'Phase 3' which is cited in the trial fields)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "ALK9072-003 (referred to as Study 1 in the label)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "5",
+        "text": "ARISTADA was approved October 5, 2015 as a 505(b)(2) NDA relying on the Agency's"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2015",
+        "text": "ARISTADA was approved October 5, 2015 as a 505(b)(2) NDA relying on the Agency's"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "ARISTADA was approved October 5, 2015 as a 505(b)(2) NDA relying on the Agency's"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "003",
+        "text": "ARISTADA was approved October 5, 2015 as a 505(b)(2) NDA relying on the Agency's"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

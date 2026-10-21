@@ -1,0 +1,26 @@
+{
+  "app": "NDA218820",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "approval_program.breakthrough_therapy.basis",
+      "severity": "medium",
+      "issue": "Text claims BTD was met based on 'statistically significant reductions in daily glucocorticoid dose while maintaining androgen control,' but the citation quote is truncated at 'based on statistically significant' and does not contain the specific glucocorticoid-dose/androgen-control detail asserted."
+    },
+    {
+      "field": "approval_program.breakthrough_therapy.basis.citations[0]",
+      "severity": "low",
+      "issue": "Designation quote is attributed to doc 6794be56 line 127, the same doc/line that the pediatric AE table (key_safety) draws from a different doc; the line reference should be verified as it is unlikely a single line holds both the designation sentence and other content."
+    },
+    {
+      "field": "pivotal_trials[1].endpoint",
+      "severity": "low",
+      "issue": "Endpoint text adds 'while glucocorticoid dose stable,' which is not in the endpoint citation (it appears only in the result citation); clause support is indirect."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

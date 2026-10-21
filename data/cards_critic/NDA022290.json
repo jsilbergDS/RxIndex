@@ -1,0 +1,31 @@
+{
+  "app": "NDA022290",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "receipt_date.text",
+      "severity": "high",
+      "issue": "Receipt date states 'March 21, 2008' but first_cycle_approval.detail and the ACM timeline reference 'March 20, 2008 - NDA submission'; the citation says dated March 20, 2008, received March 21, 2008 \u2014 the received date is correct but there is an internal inconsistency with first_cycle_approval which calls March 20 the submission/receipt date."
+    },
+    {
+      "field": "approval_program.orphan_drug.present",
+      "severity": "high",
+      "issue": "Orphan drug marked present=true, but the citation only states the sponsor 'previously obtained Orphan Drug designation for I-123 iobenguane sulfate' (a different/prior substance context used to explain PREA inapplicability); it is not clearly a grant of orphan designation for this AdreView NDA approval."
+    },
+    {
+      "field": "key_safety.text",
+      "severity": "medium",
+      "issue": "The number '251 patients' appears in key_safety text; it is supported by the citation, but the phrase 'most common adverse reactions ... each occurred in <1% of patients' slightly overstates the quote which says the listed reactions collectively 'occurred in <1% of patients' (not necessarily each individually)."
+    },
+    {
+      "field": "pivotal_trials[0].result.text",
+      "severity": "low",
+      "issue": "Result text references 'three blinded readers' and sensitivity/specificity point estimates that are all supported by citations; no uncited numbers, but note the prespecified criterion is correctly described as not met, consistent with the reviewer comment."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

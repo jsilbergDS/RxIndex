@@ -1,0 +1,72 @@
+{
+  "app": "NDA203415",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "post_marketing[1].requirement",
+      "severity": "medium",
+      "issue": "The citation quote starts 'Following the panel's recommendations...' and does not contain the '1918-2' identifier or the 'Convene an expert panel' clause asserted in the requirement text, so part of the text is uncited."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive flags: 50.6/44.4/26.4/24.3/20.5/17.3 are all present in the cited AE-table quotes (e.g. 'Asthenic Conditionsa50.69.044.49.3', 'Back Pain26.45.324.34.0', 'Arthralgia20.52.517.31.8'); flagger missed them due to concatenation without spaces."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False positive: the flagged '3' comes from 'Phase 3 CRPC2 trial', and the phase is supported by the trial's phase citation."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "50.6",
+        "text": "Most common adverse reactions (\u22655%) include asthenia/fatigue (50.6% vs 44.4% pla"
+      },
+      {
+        "field": "key_safety",
+        "number": "44.4",
+        "text": "Most common adverse reactions (\u22655%) include asthenia/fatigue (50.6% vs 44.4% pla"
+      },
+      {
+        "field": "key_safety",
+        "number": "26.4",
+        "text": "Most common adverse reactions (\u22655%) include asthenia/fatigue (50.6% vs 44.4% pla"
+      },
+      {
+        "field": "key_safety",
+        "number": "24.3",
+        "text": "Most common adverse reactions (\u22655%) include asthenia/fatigue (50.6% vs 44.4% pla"
+      },
+      {
+        "field": "key_safety",
+        "number": "20.5",
+        "text": "Most common adverse reactions (\u22655%) include asthenia/fatigue (50.6% vs 44.4% pla"
+      },
+      {
+        "field": "key_safety",
+        "number": "17.3",
+        "text": "Most common adverse reactions (\u22655%) include asthenia/fatigue (50.6% vs 44.4% pla"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "1918",
+        "text": "1918-2: Convene an expert panel and conduct a single-arm safety trial to assess "
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "2",
+        "text": "1918-2: Convene an expert panel and conduct a single-arm safety trial to assess "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "XTANDI (enzalutamide) received regular (full) approval for mCRPC previously trea"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

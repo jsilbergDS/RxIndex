@@ -1,0 +1,175 @@
+{
+  "app": "NDA204671",
+  "drug": "SOVALDI",
+  "docs_read": [
+    {
+      "doc_type": "CrossR",
+      "doc_id": "6a73fd87-1832-5a2d-80db-0aefb566f11d"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "31c2459f-3382-5251-82ba-1a23fb26a8d3"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "85587dde-53cc-5dfb-9bca-df9344b4f7e5"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "59675c8a-0637-5877-a523-e20383b37ecf"
+    },
+    {
+      "doc_type": "AppLtr",
+      "doc_id": "3676db9b-a922-5a50-acf2-a8d3da55c1fd"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Antiviral Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "85587dde-53cc-5dfb-9bca-df9344b4f7e5",
+      "line": 11,
+      "quote": "An Antiviral Drugs Advisory Committee Meeting was convened on October 25, 2013 to discuss NDA 204671."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "85587dde-53cc-5dfb-9bca-df9344b4f7e5",
+      "found_lines": [
+        11
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "October 25, 2013",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "6a73fd87-1832-5a2d-80db-0aefb566f11d",
+      "line": 281,
+      "quote": "An Advisory Committee (AC) meeting was held on October 25, 2013."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "6a73fd87-1832-5a2d-80db-0aefb566f11d",
+      "found_lines": [
+        281
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted unanimously in favor of approval on both voting questions: 15 Yes / 0 No / 0 abstain for sofosbuvir + ribavirin in genotype 2 and 3, and 15 Yes / 0 No / 0 abstain for sofosbuvir + pegylated interferon + ribavirin in treatment-naive genotype 1 and 4.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "31c2459f-3382-5251-82ba-1a23fb26a8d3",
+      "line": 23,
+      "quote": "On the question of whether the data support approval of sofosbuvir in combination with ribavirin for treatment of chronic hepatitis C in adult patients with genotype 2 and 3 infection the committee voted Yes 15; No 0; abstain 0."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "31c2459f-3382-5251-82ba-1a23fb26a8d3",
+      "found_lines": [
+        23
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "On the discussion question about postmarketing studies, the committee recommended additional information on antiviral resistance (alongside studies in additional populations, combinations with other DAAs, and longer-term follow-up).",
+      "change": "FDA imposed a postmarketing requirement for a clinical trial to characterize the emergence of HCV variants with resistance-associated substitutions to sofosbuvir.",
+      "category": "Postmarketing requirement / resistance monitoring",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "31c2459f-3382-5251-82ba-1a23fb26a8d3",
+        "line": 23,
+        "quote": "the committee recommended additional studies in different patient populations, studies in combination with other direct acting antiviral agents, studies evaluating longer term follow-up, and additional information on antiviral resistance.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "31c2459f-3382-5251-82ba-1a23fb26a8d3",
+          "found_lines": [
+            23
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "AppLtr",
+        "doc_id": "3676db9b-a922-5a50-acf2-a8d3da55c1fd",
+        "line": 52,
+        "quote": "only a clinical trial (rather than a nonclinical or observational study) will be sufficient to identify an unexpected serious risk of emergence of hepatitis C viral variants with resistance-associated substitutions to SOVALDI (sofosbuvir)",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "3676db9b-a922-5a50-acf2-a8d3da55c1fd",
+          "found_lines": [
+            52
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Regarding use in the broader pre-transplant / hepatocellular carcinoma population, committee members said more data were needed in patients with higher MELD scores (the trial data involved relatively low MELD scores).",
+      "change": "FDA imposed a postmarketing requirement for a clinical trial to assess risks of prolonged treatment with sofosbuvir in patients with hepatocellular carcinoma awaiting liver transplant.",
+      "category": "Postmarketing requirement / special population (pre-transplant HCC)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "6a73fd87-1832-5a2d-80db-0aefb566f11d",
+        "line": 291,
+        "quote": "Regarding use in a broader pre-transplant population, committee members expressed the opinion that more data were needed in the population with higher MELD scores.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "6a73fd87-1832-5a2d-80db-0aefb566f11d",
+          "found_lines": [
+            291
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "AppLtr",
+        "doc_id": "3676db9b-a922-5a50-acf2-a8d3da55c1fd",
+        "line": 52,
+        "quote": "identify other unexpected serious risks due to prolonged treatment (greater than 24 weeks) with SOVALDI (sofosbuvir) in patients with hepatocellular carcinoma awaiting liver transplant",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "3676db9b-a922-5a50-acf2-a8d3da55c1fd",
+          "found_lines": [
+            52
+          ]
+        }
+      }
+    },
+    {
+      "concern": "On the discussion question about genotype 1 prior PEG/RBV nonresponders, some committee members stated more data are needed in this population (including combinations of additional baseline factors).",
+      "change": "The CDTL favored including the NEUTRINO harder-to-treat subgroup SVR12 rates in labeling to convey that some patients are anticipated to have lower response rates than the overall trial rate.",
+      "category": "Labeling / efficacy communication",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "6a73fd87-1832-5a2d-80db-0aefb566f11d",
+        "line": 289,
+        "quote": "Other committee members stated more data are needed in the prior PEG/RBV nonresponder population, including data combining additional baseline factors such as low platelets",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "6a73fd87-1832-5a2d-80db-0aefb566f11d",
+          "found_lines": [
+            289
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "6a73fd87-1832-5a2d-80db-0aefb566f11d",
+        "line": 202,
+        "quote": "I favor including the NEUTRINO SVR12 rates as presented in Figure 2 to demonstrate that some patients, due to underlying biologic and virologic factors, are anticipated to have lower response rates to SOF+PEG/RBV treatment than the overall trial's response rate.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "6a73fd87-1832-5a2d-80db-0aefb566f11d",
+          "found_lines": [
+            202
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Antiviral Drugs Advisory Committee meeting was held on October 25, 2013 for NDA 204671 (sofosbuvir), and the committee voted unanimously (15-0-0) to support approval for both the sofosbuvir + ribavirin genotype 2/3 regimen and the sofosbuvir + pegylated interferon + ribavirin treatment-naive genotype 1/4 regimen. The committee was supportive and did not drive a boxed warning, REMS, or indication narrowing; its discussion questions surfaced areas needing more data (prior PEG/RBV nonresponders, higher-MELD pre-transplant HCC patients, and antiviral resistance). The review documents describe both these committee concerns and corresponding postmarketing requirements and labeling choices, but do not explicitly state that the committee caused them, so the linkages are labeled inferred."
+}

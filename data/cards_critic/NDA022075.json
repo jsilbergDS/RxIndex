@@ -1,0 +1,67 @@
+{
+  "app": "NDA022075",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: 'Study 4' label number is supported by the NCT citation 'Study 4, NCT00955526'."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: 'Study 3' label number is supported by the NCT citation 'Study 3, NCT00455507'."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive flags: the '20' and '40' numbers refer to the 20 mg/40 mg dose columns, which are excluded doses, not efficacy/safety rates."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "4",
+        "text": "Study 6002-009 (labeled Study 4)"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "3",
+        "text": "Study 6002-0608 (labeled Study 3)"
+      },
+      {
+        "field": "key_safety",
+        "number": "20",
+        "text": "Most common adverse reactions (\u22655% and more frequent than placebo) were dyskines"
+      },
+      {
+        "field": "key_safety",
+        "number": "40",
+        "text": "Most common adverse reactions (\u22655% and more frequent than placebo) were dyskines"
+      },
+      {
+        "field": "key_safety",
+        "number": "20",
+        "text": "Most common adverse reactions (\u22655% and more frequent than placebo) were dyskines"
+      },
+      {
+        "field": "key_safety",
+        "number": "40",
+        "text": "Most common adverse reactions (\u22655% and more frequent than placebo) were dyskines"
+      },
+      {
+        "field": "key_safety",
+        "number": "20",
+        "text": "Most common adverse reactions (\u22655% and more frequent than placebo) were dyskines"
+      },
+      {
+        "field": "key_safety",
+        "number": "40",
+        "text": "Most common adverse reactions (\u22655% and more frequent than placebo) were dyskines"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

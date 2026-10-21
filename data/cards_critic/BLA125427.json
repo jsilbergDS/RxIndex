@@ -1,0 +1,42 @@
+{
+  "app": "BLA125427",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: '1' refers to 'Study 1' label designation, not an efficacy/safety number; dismissible."
+    },
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: '3' in 'Phase 3' is supported by the citation quote 'Phase III'; dismissible."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: '3' in 'Phase 3 EMILIA trial' is supported by the pivotal trial citation 'Phase III'; dismissible."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "EMILIA (Study TDM4370g/BO21977), referred to as Study 1 in the label"
+      },
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "3",
+        "text": "Phase 3"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "This BLA received a priority review and was approved as a traditional (full) app"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

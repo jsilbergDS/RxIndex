@@ -1,0 +1,72 @@
+{
+  "app": "BLA203314",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name.citations[0]",
+      "severity": "low",
+      "issue": "Citation quote '3583*Ext. 364452IDeg 100 OD...Non-inferiority3:1IDeg: 472IGlar: 157...' is OCR table content stitching multiple identifiers/columns and is not clean verbatim prose."
+    },
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "low",
+      "issue": "False-positive flag: 'Phase 3' is supported by the cited 'phase III' description; dismissable."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: the flagged number '2' is the diabetes type label (type 2), not an uncited efficacy/safety statistic; dismissable."
+    },
+    {
+      "field": "pivotal_trials[1].phase",
+      "severity": "low",
+      "issue": "False-positive flag: 'Phase 3' is supported by cited 'phase III'; dismissable."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "False-positive flag: the flagged '100' is part of 'insulin glargine U-100', a product descriptor, not an uncited statistic; the N split 773/257 is cited; dismissable."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: '2954' is the PMR identifier number, not an uncited efficacy/safety value; dismissable."
+    },
+    {
+      "field": "approval_program.priority_review.present",
+      "severity": "low",
+      "issue": "Priority review status is marked false but not affirmatively addressed by any citation; cannot confirm, minor completeness note for a 505(b)(1) diabetes NDA."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "3",
+        "text": "Phase 3 pivotal efficacy and safety trial for IDeg U100 formulation"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Study D (type 2 diabetes pivotal trial, add-on to metformin \u00b1 DPP-4 inhibitor in"
+      },
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "3",
+        "text": "Phase 3 therapeutic confirmatory (pivotal) efficacy and safety trial"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "100",
+        "text": "N=1030 (TRESIBA 773, insulin glargine U-100 257)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2954",
+        "text": "TRESIBA was submitted as a 505(b)(1) NDA received September 29, 2011. Approval w"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

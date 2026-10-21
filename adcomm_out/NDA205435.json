@@ -1,0 +1,171 @@
+{
+  "app": "NDA205435",
+  "drug": "SIVEXTRO",
+  "docs_read": [
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_9a39514b-781f-53d1-bee8-dc3e6db4d32d"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_a2001791-3b5e-5d25-83df-d1f003e1a9e7"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_0dbcc847-96f0-5b53-bf16-57eda304c1a2"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_e697f114-4f7c-53c0-995c-66fc9eabd878"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Anti-Infective Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_9a39514b-781f-53d1-bee8-dc3e6db4d32d",
+      "line": 180,
+      "quote": "The Anti-Infective Drugs Advisory Committee of the Food and Drug Administration, Center for Drug Evaluation and Research, met on March 31, 2014."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_9a39514b781f",
+      "found_lines": [
+        180
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "March 31, 2014",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_9a39514b-781f-53d1-bee8-dc3e6db4d32d",
+      "line": 7,
+      "quote": "An Advisory Committee meeting to discuss the general metis of the application was held on March 31st, 2014."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_9a39514b781f",
+      "found_lines": [
+        7
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The Committee voted 14 Yes, 0 No, 0 Abstain that the applicant provided substantial evidence of the safety and effectiveness of tedizolid phosphate for the treatment of ABSSSI.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_a2001791-3b5e-5d25-83df-d1f003e1a9e7",
+      "line": 27,
+      "quote": "the Committee voted Yes= 14, No= 0, Abstain= 0."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_a20017913b5e",
+      "found_lines": [
+        27
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Committee members noted that efficacy had not been shown in immunocompromised (neutropenic) patients.",
+      "change": "Labeling added a Warnings and Precautions statement recommending alternative therapy for granulocytopenic patients.",
+      "category": "Population / immunocompromised restriction",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_a2001791-3b5e-5d25-83df-d1f003e1a9e7",
+        "line": 27,
+        "quote": "Some of the points discussed by Committee members were that efficacy has not been shown in immunocompromised patients, cross-resistance with linezolid, and that safety data were only available for 6 days of treatment.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a20017913b5e",
+          "found_lines": [
+            27
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_a2001791-3b5e-5d25-83df-d1f003e1a9e7",
+        "line": 27,
+        "quote": "The product labeling includes a statement in Warnings and Precautions that recommends alternative therapy be considered for granulocytopenic patients.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a20017913b5e",
+          "found_lines": [
+            27
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members raised the potential for cross-resistance between tedizolid and linezolid.",
+      "change": "Labeling describes the mechanism of cross-resistance between linezolid and tedizolid in the Microbiology subsection.",
+      "category": "Microbiology / cross-resistance labeling",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_a2001791-3b5e-5d25-83df-d1f003e1a9e7",
+        "line": 27,
+        "quote": "Some of the points discussed by Committee members were that efficacy has not been shown in immunocompromised patients, cross-resistance with linezolid, and that safety data were only available for 6 days of treatment.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a20017913b5e",
+          "found_lines": [
+            27
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_a2001791-3b5e-5d25-83df-d1f003e1a9e7",
+        "line": 27,
+        "quote": "The mechanism of cross-resistance between linezolid and tedizolid is described in the Microbiology subsection in the product labeling.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a20017913b5e",
+          "found_lines": [
+            27
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members noted that safety data were only available for 6 days of treatment, with safety issues beyond 6 days requiring further study and clarification in the label.",
+      "change": "The approved dosing regimen is 6 days as described in Dosage and Administration, and the Adverse Reactions section notes the lack of data for exposures longer than 6 days in the Peripheral and Optic Neuropathy statement.",
+      "category": "Safety / duration of use labeling",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_a2001791-3b5e-5d25-83df-d1f003e1a9e7",
+        "line": 27,
+        "quote": "Some of the points discussed by Committee members were that efficacy has not been shown in immunocompromised patients, cross-resistance with linezolid, and that safety data were only available for 6 days of treatment.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a20017913b5e",
+          "found_lines": [
+            27
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_a2001791-3b5e-5d25-83df-d1f003e1a9e7",
+        "line": 27,
+        "quote": "The approved dosing regimen for Sivextro is a regimen of 6 days duration as described in Dosage and Administration. The product labeling also notes in the statement on Peripheral and Optic Neuropathy in the Adverse Reactions section the lack of data for exposures greater than 6 days in duration.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a20017913b5e",
+          "found_lines": [
+            27
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Anti-Infective Drugs Advisory Committee met on March 31, 2014 and voted unanimously 14-0 that tedizolid phosphate (Sivextro) provided substantial evidence of safety and effectiveness for ABSSSI. Committee members raised concerns about unproven efficacy in immunocompromised/neutropenic patients, cross-resistance with linezolid, and the availability of safety data only for 6 days of treatment. The Office Director's memo explicitly ties these concerns to resulting labeling: a Warnings and Precautions statement recommending alternative therapy for granulocytopenic patients, a Microbiology subsection describing linezolid cross-resistance, and a 6-day dosing regimen plus an Adverse Reactions note on the lack of data beyond 6 days."
+}

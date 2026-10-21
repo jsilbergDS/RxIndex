@@ -1,0 +1,470 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+L2: **203085Orig1s000**
+L3: **STATISTICAL REVIEW(S)**
+L4: FDA Seal for Drug Evaluation and Research
+L5: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L6: ## STATISTICAL REVIEW AND EVALUATIONCLINICAL STUDIES
+L7: **NDA #:** 203085
+**Drug Name:** Stivarga® (Regorafenib)
+**Indication(s):** Metastatic colorectal cancer
+**Applicant:** Bayer HealthCare Pharmaceuticals
+**Date(s):** Submission: 4/27/2012
+PDUFA: 9/27/2012
+**Review Priority:** Priority
+**Biometrics Division:** Division of Biometrics V
+**Statistical Reviewer:** Huanyu (Jade) Chen
+**Concurring Reviewers:** Kun He, Team Leader
+Rajeshwari Sridhara, Division Director
+**Medical Division:** Division of Oncology Products 2
+**Clinical Team:** Shan Pradhan, M.D., Clinical Reviewer for Efficacy
+Kaushik Shastri, M.D., Clinical Reviewer for Safety
+Steve Lemery, M.D., Team Leader
+Patricia Keegen, M.D., Division Director
+**Project Manager:** Monica Hughes
+L8: **Keywords:** stratified log-rank test, interim analysis, K-M curve, Cox regression
+L9: ## Table of Contents
+L10: 1	EXECUTIVE SUMMARY	5
+2	INTRODUCTION	6
+2.1	OVERVIEW	6
+2.2	DATA SOURCES	6
+3	STATISTICAL EVALUATION OF STUDY 14387	7
+3.1	DATA AND ANALYSIS QUALITY	7
+3.2	EVALUATION OF EFFICACY	7
+3.2.1	OBJECTIVE	7
+3.2.2	STUDY DESIGN	7
+3.2.3	EFFICACY MEASURES	9
+3.2.4	SAMPLE SIZE CONSIDERATIONS	10
+3.2.5	INTERIM ANALYSIS	10
+3.2.6	STATISTICAL METHODOLOGIES	11
+3.2.7	APPLICANT'S RESULTS AND FDA STATISTICAL REVIEWER'S FINDINGS/ COMMENTS	11
+3.2.7.1	PATIENT POPULATION AND DISPOSITION	11
+3.2.7.2	BASELINE CHARACTERISTICS	12
+3.2.7.3	PRIMARY EFFICACY ENDPOINT – OS	15
+3.2.7.4	KEY SECONDARY ENDPOINT – PFS	16
+3.2.7.5	KEY SECONDARY ENDPOINT – ORR	18
+3.3	EVALUATION OF SAFETY	18
+3.4	BENEFIT/RISK RATIO	18
+4	FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	19
+4.1	OS SUBGROUP ANALYSIS	19
+5	SUMMARY AND CONCLUSIONS	20
+5.1	STATISTICAL ISSUES	20
+5.2	COLLECTIVE EVIDENCE	20
+5.3	CONCLUSIONS AND RECOMMENDATIONS	20
+5.4	LABELING RECOMMENDATION	21
+L11: ## LIST OF TABLES
+L12: Table 1 Planned Stopping Criteria and Alpha Spending at the Interim and Final Analyses of OS	10
+Table 2. Actual Stopping Criteria and Alpha Spending at the Interim and Final Analyses of OS	10
+Table 3. Patient Population and Disposition (ITT)	12
+Table 4. Baseline Demographics Characteristics (ITT)	12
+Table 5. CRF Stratification Factors and Misclassifications at IVRS	13
+Table 6 Baseline Disease Characteristics (ITT)	14
+Table 7. Prior Anti-Cancer Drugs	15
+Table 8. OS Analyses (ITT)	15
+Table 9. Sensitivity Analyses for OS	15
+Table 10. Number of Death by Planned Region	16
+Table 11. FDA and Applicant's PFS Analyses (ITT)	17
+Table 12. Sensitivity Analysis for PFS	18
+Table 13. ORR Analyses (ITT)	18
+Table 14. OS (Months) Subgroup Analysis	19
+L13: ## LIST OF FIGURES
+L14: Figure 1: Trial Schema	8
+Figure 2. K-M Curves for OS	16
+Figure 3. K-M Curves for PFS	17
+L15: ## 1 EXECUTIVE SUMMARY
+L16: In this New Drug Application (NDA), the applicant is seeking a regular approval of Stivarga® (Regorafenib), a novel oral multi kinase inhibitor targeting cancer cells and the tumor micro-environment, for the treatment of metastatic colorectal cancer (mCRC) in patients who have been previously treated with, [REDACTED] (b) (4) for fluoropyrimidine-based chemotherapy, anti-VEGF therapy, and if KRAS wild type, an anti-EGFR therapy.
+L17: The pivotal study 14387 (CORRECT) was a randomized, double blinded, placebo-controlled multinational phase III trial evaluating the efficacy and safety of regorafenib in combination with best supportive care (BSC) relative to placebo in combination with BSC. The primary endpoint was overall survival (OS). The key secondary endpoints were progression free survival (PFS), objective response rate (ORR), and disease control rate (DCR). A total of 760 patients were randomized in a 2:1 allocation (Regorafenib: 505; placebo: 255) in 16 countries and 114 active centers (18 US centers).
+L18: The data and analyses from the study 14387 demonstrated that the regorafenib and BSC combination (REG/BSC) had statistically significant improvements in the OS when compared with placebo and BSC combination (PBO/BSC). The stratified log-rank test p-value for OS comparison was 0.0102 compared with the allocated alpha of 0.018 at the second interim analysis. The median OS was 6.4 (95% CI: 5.8, 7.3) months for the REG/BSC arm and 5.0 (95% CI: 4.4, 5.8) months for the PBO/BSC arm. The stratified Cox proportional HR was 0.77 with 95% CI (0.64, 0.93).
+L19: Based on the data and analyses from the study 14837, the REG/BSC arm demonstrated a statistically significant improvement in the primary endpoint OS, compared with the PBO/BSC arm. Whether the data and analyses from the current submission demonstrate an overall favorable risk-benefit profile is deferred to the clinical team reviewing this application.
+L20: ## 2 INTRODUCTION
+L21: Stivarga® (Regorafenib) is a novel oral multi kinase inhibitor which targets cancer cells and the tumor micro-environment. In this New Drug Application (NDA), the applicant is seeking to a regular approval for the treatment of metastatic colorectal cancer (mCRC) in patients who have been previously treated with, [REDACTED](b) (4) for fluoropyrimidine-based chemotherapy, anti-VEGF therapy, and if KRAS wild type, an anti-EGFR therapy. The pivotal study 14387 (CORRECT) was a randomized, double blinded, placebo-controlled multinational phase III trial.
+L22: ## 2.1 Overview
+L23: Colorectal cancer (CRC) is one of the most common cancers worldwide. Standard treatments exist for first and second line CRC therapy. However, additional treatments which show a clinical benefit for metastatic CRC patients whose disease has progressed need to be developed in order to fulfill the unmet medical need in this seriously ill patient population.
+L24: According to the applicant's report, regorafenib (REG) is a novel oral multi kinase inhibitor which targets cancer cells and the tumor micro-environment. It inhibits tumor growth, progression and metastases by inhibiting the proliferation of tumor cells, the formation of new tumor vasculature and stromal signaling. The substance was selected based on its kinase inhibition profile which includes angiogenic (vascular endothelial growth factor receptor [VEGFR] 2/3, TIE-2 [angiopoietin receptor]), stromal (platelet derived growth factor receptor [PDGFR]-\beta, fibroblast growth factor receptor [FGFR]) and oncogenic (KIT, RET and BRAF) (receptor tyrosine) kina.
+L25: Regorafenib in combination with best supportive care (BSC) (REG/BSC) compared with placebo in combination with BSC (PBO/BSC) was evaluated in study 14387 for patients with mCRC who have been previously treated with, or are not considered candidates, for fluoropyrimidine-based chemotherapy, anti-VEGF therapy, and if KRAS wild type, an anti-EGFR therapy. This study was a randomized, double blinded, placebo-controlled multinational phase III trial comparing the efficacy and safety of REG/BSC therapy.
+L26: Study 14387 was conducted at 114 centers within 16 countries. A total of 760 patients were randomized in a 2:1 allocation (REG/BSC: 505; PBO/BSC: 255). The randomization was centralized and stratified by prior treatment with vascular endothelial growth factor (VEGF) targeting drugs, time from diagnosis of metastatic disease, and geographical region. The cut-off date for the efficacy analysis was July 21, 2011.
+L27: ## 2.2 Data Sources
+L28: The electronic submission including protocols, statistical analysis plan, study reports, and analysis datasets for the original NDA submission are located on the network with network path:
+\\CDSESUB1\EVSPROD\NDA203085\.
+L29: ## 3 STATISTICAL EVALUATION OF STUDY 14387
+L30: Part of the text, tables and figures presented in this section are adapted from the Applicant's Clinical Study Report (CSR).
+L31: ## 3.1 Data and Analysis Quality
+L32: At the original submission, the applicant did not submit SAS programs and adequate documentations for data definition. The primary efficacy dataset was in the long format, which needed extra data manipulation to conduct efficacy analysis. In addition, some important disease characteristics were not included in the derived demographic dataset. Upon this reviewer's request, the applicant resubmitted the adequate documentations, derived datasets, and analysis programs. This reviewer was able to duplicate the analysis variable derivation and reproduce applicant's summary statistics. No further data resubmission was requested.
+L33: ## 3.2 Evaluation of Efficacy
+L34: ## 3.2.1 Objective
+L35: The primary objective of 14387 was to evaluate whether patients receiving REG/BSC would have clinical benefit of overall survival (OS) more than those receiving the PBO/BSC. The secondary objectives were to compare progression free survival (PFS), objective response rate (ORR), and disease control rate (DCR) between the two treatment groups.
+L36: ## Reviewer's Comments:
+L37: *As stated by the applicant in the IND communication dated on April 24, 2012, the DCR would not be used for the labeling claim. This review focuses on the evaluation of efficacy results on the primary endpoint OS and the key secondary endpoints PFS and ORR.*
+L38: ## 3.2.2 Study Design
+L39: Study 14387 was a randomized, double blinded, placebo-controlled multinational phase III trial evaluating the efficacy and safety of regorafenib (160 mg QD with 3 weeks on and 1 week off) in combination with best supportive care (BSC) relative to placebo in combination with BSC (PBO/BSC) in patients with mCRC who have been previously treated with, or are not considered candidates, for fluoropyrimidine-based chemotherapy, anti-VEGF therapy, and if KRAS wild type, an anti-EGFR therapy. Figure 1 presents the trial schema.
+L40: Figure 1: Trial Schema
+L41: Note: Adapted from Figure 7-1 in CSR
+L42: Approximately 690 patients in approximately 120 centers were planned to be randomized in a 2:1 ratio (REG/BSC: 460; PBO/BSC: 230) in order to observe 582 OS events. The randomization was centralized and stratified by prior treatment with vascular endothelial growth factor (VEGF) targeting drugs (yes/no), time from diagnosis of metastatic disease (\ge 18 months vs. &lt;18 months), or geographical region (region 1: North America, Western Europe, Israel and Australia, versus region 2: Asia, versus region 3: South America, Turkey and Eastern Europe). Asian was planned to randomize no more than 250 patients.
+L43: The main inclusion criteria were:
+L44: - Age \ge 18 years, ECOG performance status 0–1, life expectancy \ge 3 months
+- Patients with metastatic CRC (Stage IV)
+- Histological/cytological documentation of adenocarcinoma of colon or rectum
+- Disease progression during or within 3 months after the last administration of approved standard therapies or intolerance
+L45: Patients would be treated until one of the following occurs:
+L46: - Progressive disease (PD), per RECIST criteria V1.1, or clinical progression
+- Death
+- Unacceptable toxicity
+- Disposition including withdraw consent form or physician decision
+- Substantial non-compliance with the protocol
+L47: ## Reviewer's Comments:
+L48: - *There was discordance on the region's definition by different versions of SAP. Under IND 75642 SN 309 submission for the final SAP, the applicant stated that the official randomization code for region (or any stratification factor) was never modified during the course of this study.*
+- *The applicant did not open clinical sites in either New Zealand or South Africa, and were subsequently deleted from SAP versions 2.0 and 2.1.*
+- *None was assigned to South America or Turkey.*
+- *All patients received prior VEGF therapy.*
+L49: ## 3.2.3 Efficacy Measures
+L50: The primary endpoint was OS, defined as the time from randomization to death. Subjects alive at the time of analysis would be censored at the last date known to be alive. After discontinuation, all the patients would be followed monthly for survival until death. If a subject was lost to follow up and there was no contact after randomization, this subject would be censored at day 1.
+L51: One of the key secondary endpoints was PFS per investigator (INV) assessment. The PFS was defined as the time from date of randomization to first observed disease progression (radiological or clinical) or death due to any cause, if death occurred before progression was documented. Patients were counted as death if patient died within 16+1 weeks. The actual tumor scan date was used for the calculation of PFS. If a tumor assessment was performed over more than one day, the earliest date would be used for the calculation of PFS. Every effort was planned to be made to obtain radiologic imaging. In those cases where patients were unable to obtain radiologic examinations due to deterioration of medical condition, the clinical PD was reported by the investigator. The date of clinical progression was used for the determination of the date of progression.
+L52: Tumors were planned to be measured at baseline and at 8 week intervals according to RECIST, version 1.1 during the active treatment period. Treatment with regorafenib after PD could be continued per investigator's decision. For patients who discontinued study treatment without PD, available tumor assessments would be recorded in the CRF until documented PD. Additionally, the administration of any anti-cancer drugs in follow-up must be recorded in the CRF.
+L53: For patients without progressive disease (PD), PFS was censored:
+L54: - at the date of last actual tumor evaluation
+- at day 1, ifpatients who were alive without any post-baseline tumor assessments or
+- patients who were alive without neither post-baseline radiological tumor evaluation nor no clinical progression
+- on the date of the last evaluable scan before 2 consecutive missed or non-evaluable assessments. This rule was also applied to patients who died later than 16+1 weeks post randomization
+- on the date of the last evaluable tumor assessment, if patient died without PD and occurred within the 16+1 weeks of the last evaluable tumor assessment
+- on the date of the last evaluable tumor assessment for patients who discontinue or withdraw early without documented PD or death event
+- on the date of the last scan performed or tumor assessment prior to the change of anti-cancer therapy In this case, death was considered a PFS event.
+L55: ## Reviewer's Comments:
+L56: *Due to potential subjectivity in clinical assessment, the investigator defined clinical PD event is not included as PD event for purposes of determining PFS. Progression is defined by the objective pathologic or radiological findings. This reviewer considered PFS results excluding all of the clinical PD events as FDA's primary analysis on PFS.*
+L57: The other key secondary endpoint was ORR per investigator (INV) assessment, defined as the percentage of subjects with complete response (CR) or partial response (PR).
+L58: ## 3.2.4 Sample Size Considerations
+L59: The trial was designed to have 90% power to detect a hazard ratio (HR) of 0.75 with a two-sided alpha of 0.05 and 2:1 randomization ratio, assuming a median OS of 4.5 months for the PBO/BSC arm and 6 months for the REG/BSC arm. Assuming an accrual rate of 30 patients per month after an initial 4 months ramp up period with 3% projected drop off rate, it was estimated that 582 OS events were needed for the final OS analysis, which could be expected from a total accrual of 690 patients. This trial was planned to reach its primary endpoint (PFS) in approximately 32 months.
+L60: ## 3.2.5 Interim Analysis
+L61: According to SAP, two interim analyses were planned. The first interim OS analysis for futility was planned at approximately 174 deaths (30%) at 15.5 months. The second OS interim analysis for efficacy and futility was planned at approximately 408 deaths (70%) at 23.5 months. The Lan-DeMets alpha spending function with an O'Brien-Fleming type of boundary was used to adjust alpha for the 2nd efficacy interim and final analyses. The futility boundaries were calculated independently for the interim analyses. Table 2 summarizes the stopping criteria and alpha spending for planned interim and final analyses.
+L62: **Table 1 Planned Stopping Criteria and Alpha Spending at the Interim and Final Analyses of OS**
+L63: Time	# Event	Stopping Boundaries of HR	Nominal Alpha (two-sided)
+Efficacy (\ge Lower)	Futility (\le Upper)
+1st	175 (30%)	1.33	-
+2nd	408 (70%)	0.77	0.91	0.015
+Final	582	0.84	0.045
+L64: ## *Reviewer's Comments:*
+L65: - *The applicant did 2 interim analyses before the final analysis was conducted. Table 2 summarizes alpha allocation based on actual conducted analyses. Based on the actual number of events, the reviewer used alpha spending value 0.018 for the 2nd interim analysis of OS.*
+L66: **Table 2. Actual Stopping Criteria and Alpha Spending at the Interim and Final Analyses of OS**
+L67: Time	# Event	Stopping Boundaries of HR	Nominal Alpha (two-sided)
+Efficacy (\ge Lower)	Futility (\le Upper)
+1st	301 (52%)	1.01	-
+2nd	432 (74%)	0.79	0.90	0.018
+Final	582	0.84	0.044
+L68: - *One December 23, 2011, the DMC recommended the applicant to stop this study based on the 2nd interim analysis results. As of 2nd interim analysis cut off dated on July 21, 2011, the efficacy boundary had been crossed.*
+L69: ## 3.2.6 Statistical Methodologies
+L70: **Intent to Treat (ITT)** population was defined as all randomized patients. The ITT population was the primary analysis population for the efficacy analyses.
+L71: ## Efficacy Analysis Method for OS
+L72: The analysis for OS was performed using a stratified log-rank test, stratified by the same stratification factors as used for randomization: prior treatment with VEGF targeting drugs (yes/no), time from diagnosis of metastatic disease (TFDMD) (\ge 18 months vs. &lt;18 months), and geographical region 1 (North America, Western EU, Israel and Australia) versus region 2 (Asia) versus region 3 (South America, Turkey and Eastern EU). The median OS and survival curves were estimated using the Kaplan-Meier (KM) method. The KM estimates at different time points with corresponding 95% confidence intervals as well as the differences of these estimates were calculated. The hazard ratio (HR) and 95% confidence interval (CI) of REG/BSC over the PBO/BSC were estimated by a stratified Cox regression procedure.
+L73: ## Efficacy Analysis Method for PFS
+L74: The PFS analysis method was identical to OS analysis.
+L75: ## Efficacy Analysis Method for ORR
+L76: The analysis for ORR was performed using a Cochran-Mantel-Haenszel (CMH) test adjusting for the same stratification factors at randomization. ORR estimates and 95% confidence intervals would be estimated for each treatment group. The difference of ORR between the REG/BSC and PBO/BSC arm and the corresponding 95% confidence intervals would also be calculated.
+L77: A hierarchical procedure of testing secondary endpoints in the order of PFS and ORR was proposed.
+L78: ## Reviewer's Comments:
+L79: *Because all patients received prior VEGF therapy, this reviewer excluded prior VEGF therapy from the stratification log-rank test and stratified CMH test.*
+L80: ## 3.2.7 Applicant's Results and FDA Statistical Reviewer's Findings/ Comments
+L81: ## 3.2.7.1 Patient Population and Disposition
+L82: Study 14387 was conducted at 105 centers in 15 countries worldwide. A total of 760 patients were randomized in a 2:1 allocation (REG/BSC: 505; PBO/BSC: 255). Table 3 presents the study population and patient disposition.
+L83: **Table 3. Patient Population and Disposition (ITT)**
+L84: REG/BSC	PBO/BSC
+N	505	255
+Never treated	5 (1%)	2 (<1%)
+Ongoing	52 (10%)	9 (4%)
+Disposition	448 (89%)	244 (96%)
+Adverse event (non-treatment related)	42 (8%)	7 (3%)
+Adverse event (treatment related)	43 (9%)	23 (9%)
+Progressive disease	1 (<1%)	0
+Radiological Progressive disease	315 (62%)	192 (75%)
+Clinical progressive disease	20 (4%)	13 (5%)
+Death	7 (1%)	4 (2%)
+Withdrawal by subject	16 (3%)	5 (2%)
+Physician Decision	2 (<1%)	0
+Protocol Violation	2 (<1%)	0
+L85: ## *Reviewer's Comments:*
+L86: - Five patients (140010006, 200070005, 200090002, 220070006, 280050010) randomized to the REG/BSC arm and 2 patients (200080002, 240040006) randomized to the PBO/BSC arm did not receive their allocated treatment.
+- By the time of cut-off date for the 2nd interim analysis, there were approximately 10% and 4% patients still on study treatment in the REG/BSC arm and the PBO/BSC arm.
+- The majority of the discontinuations were associated with progressive disease (PD). Among them, 507 patients (67%) had PD identified by radiology.
+- Discontinuations were imbalanced between the REG/BSC and PBO/BSC arms. The placebo arm had more PD, and REG/BSC arm had more AE.
+L87: ## 3.2.7.2 Baseline Characteristics
+L88: Table 4 presents the patient baseline demographic characteristics.
+L89: **Table 4. Baseline Demographics Characteristics (ITT)**
+L90: REG/BSC	PBO/BSC
+N	505	255
+Age (yr)	Mean (SD)	60.7 (10.1)	60.1 (10.0)
+Median (min - max)	61 (22-82)	61 (25-85)
+≥ 65	196 (39%)	89 (35%)
+Female	194 (38%)	102 (40%)
+Race	White	392 (78%)	201 (79%)
+Asian	76 (15%)	35 (14%)
+Other	37 (7%)	19 (7%)
+US	47 (9%)	36 (14%)
+L91: ## *Reviewer's Comments:*
+L92: - *Patients were balanced by race and gender.*
+- *There were more patients with age of 65 years or older in the REG/BSC arm.*
+- *There were more U.S. patients enrolled in the PBO/BSC arm.*
+L93: Table 5 summarizes the case report form (CRF) stratification factors and misclassifications at interactive voice response system (IVRS).
+L94: **Table 5. CRF Stratification Factors and Misclassifications at IVRS**
+L95: REG/BSC	PBO/BSC
+N	505	255
+Region 1	420 (83%)	212 (83%)
+2	69 (14%)	35 (14%)
+3	16 (3%)	8 (3%)
+2+3	85 (17%)	43 (17%)
+Time from first diagnosis of metastatic disease to randomization	
+<18 months	91 (18%)	49 (19%)
+≥18 months	414 (82%)	206 (81%)
+Prior anti-VEGF therapy	505 (100%)	255 (100%)
+IVRS Misclassification	18 (4%)	15 (6%)
+L96: Region 1: North America, Western Europe, Israel and Australia, versus; Region 2: Asia; Region 3: South America, Turkey and Eastern Europe
+L97: ## ***Reviewer's Comments:***
+L98: - *Overall, the discordance rate between IVRS and CRFs was 4% (33). As part of the applicant's data collection and monitoring, patients were reclassified based on the source documents. These reclassified strata were used for statistical analyses in the CSR. In the section 3.2.3.6.3, the impact of stratification misclassification is discussed.*
+- *Only 3% of patients enrolled in region 3, this reviewer also conducted sensitivity analyses which used region 1 vs. 2+3 instead of planned region (1 vs. 2 vs. 3) in the stratification log-rank test and stratified CMH test.*
+- *Per SAP, this study plan was designed to enroll no more than 250 (37%) patients in Asia (region 2). Due to quick enrollment in region 1, 14% patients were indeed enrolled in Asia.*
+L99: Table 6 summarizes the important baseline disease characteristics in the ITT population.
+L100: **Table 6 Baseline Disease Characteristics (ITT)**
+L101: REG/BSC	PBO/BSC
+N	505	255
+Stage IV	505 (100%)	255 (100%)
+ECOG PS	0	265 (52%)	146 (57%)
+1	240 (48%)	109 (43%)
+KRAS mutation	Yes	273 (54%)	157 (62%)
+No	205 (41%)	94 (39%)
+BRAF Mutation	Yes	4 (1%)	2 (1%)
+No	41 (8%)	25 (10%)
+Impaired Renal	22 (4%)	10 (4%)
+Histology	Adenocarcinoma	493 (98%)	245 (96%)
+Adenocarcinoma in situ	2 (<1%)	3 (1%)
+Mucinous carcinoma	5 (1%)	4 (2%)
+Primary Site of Disease	Colon	323 (64%)	172 (68%)
+Rectum	151 (30%)	69 (27%)
+Colon and Rectum	30 (6%)	14 (5%)
+Time from most recent PD/relapse to randomization	
+Mean (STD)	6.5 (5.7)	6.2 (6.5)
+Median (min-max)	5.0 (0.1-50.0)	4.6 (0.3-52.1)
+Prior Surgical Therapeutic Procedure	505 (100%)	255 (100%)
+Prior Radiotherapy	135 (27%)	78 (31%)
+Prior treatment lines >3	302 (60%)	157 (62%)
+Prior Systemic anti-cancer Therapy	0-1	0	0
+2	82(16%)	39(15%)
+3	121(24%)	59(23%)
+4	127(25%)	64(25%)
+5	76(15%)	40(16%)
+≥6	99(20%)	53(21%)
+Prior Systemic anti-cancer Therapy on or after diagnosis of metastatic disease	1	16 (3%)	5 (2%)
+2	119 (24%)	58 (23%)
+3	125 (25%)	72 (28%)
+4	113 (22%)	49 (19%)
+5	60 (12%)	32 (13%)
+≥6	72 (14%)	39 (15%)
+L102: ## **Reviewer's Comments:**
+L103: - *In terms of KRAS mutation, there were 8% more patients in the PBO/BSC arm than those in the REG/BSC arm.*
+- *There were more patients with an ECOG PS of 0 in the PBO/BSC arm than those in the REG/BSC arm.*
+L104: Table 7 summarizes the distribution of prior anti-cancer drug.
+L105: **Table 7. Prior Anti-Cancer Drugs**
+L106: REG/BSC	PBO/BSC
+N	505	255
+Fluoropyrimidine	505 (100%)	255 (100%)
+Bevacizumab	505 (100%)	255 (100%)
+Irinotecan	505 (100%)	255 (100%)
+Oxaliplatin	505 (100%)	255 (100%)
+Panitumumab and/or Cetuximab	264/505 (52.3%)	121/255 (47.5%)
+KRAS Wide Type	204/205 (99.5%)	94/94 (100.0%)
+KRAS Unknown	27/27 (100.0%)	4/4 (100.0%)
+KRAS Mutation	33/273 (12.1%)	23/157 (14.6%)
+L107: ## *Reviewer's Comments:*
+L108: - All patients received prior treatment with fluoropyrimidine-, oxaliplatin-, and irinotecan-based chemotherapy, and with bevacizumab.
+- Per protocol, patients with KRAS wide type tumor should have got anti-EGFR antibody therapy (cetuximab and/or panitumumab). All but one patient with K-Ras mutation-negative tumors received panitumumab or cetuximab.
+L109: ## 3.2.7.3 Primary Efficacy Endpoint – OS
+L110: Table 8 presents the efficacy analysis for OS with a total of 432 (57%) death events. The REG/BSC treated patients demonstrated a statistically significant difference in OS compared with the PBO/BSC treated patients based on a stratified log-rank test with a p-value 0.0102. The median OS was 6.4 months (95% CI: 5.8, 7.3) for the REG/BSC arm and 5.0 months (95% CI: 4.4, 5.8) for the PBO/BSC arm. The stratified hazard ratio was 0.77 with 95% CI (0.64, 0.94).
+L111: **Table 8. OS Analyses (ITT)**
+L112: REG/BSC	PBO/BSC
+N	505	255
+Number of deaths, n (%)	275 (55%)	157 (62%)
+Median Overall Survival (months)	6.4	5.0
+95% CI	(5.8, 7.3)	(4.4, 5.8)
+HR (95% CI)b	0.77 (0.64, 0.94)
+Stratified Log-Rank Test P-valuea,b	0.0102
+L113: a Stratified by planned stratification factors: geographic region and time from diagnosis of metastatic disease (TFDM).
+L114: b Crossed the O'Brien-Fleming boundary (p value &lt; 0.018) at second interim analysis.
+L115: Region 1: North America, Western Europe, Israel and Australia, versus; Region 2: Asia; Region 3: South America, Turkey and Eastern Europe
+L116: Table 9 presents all of the sensitivity analyses for OS.
+L117: **Table 9. Sensitivity Analyses for OS**
+L118: Sensitivity Analysis	Stratified	Un-stratified
+HR (95% CI)	P-value	HR (95% CI)	P-value
+IVRS Region + TFDM	0.77 (0.63, 0.94)	0.0090	0.77 (0.63, 0.93)	0.0077
+CRF Region (1 vs 2+3), TFDM	0.77 (0.63, 0.94)	0.0085	0.77 (0.63, 0.93)	0.0077
+CRF TFDM	0.77 (0.63, 0.94)	0.0093
+L119: Region 1: North America, Western Europe, Israel and Australia, versus; Region 2: Asia; Region 3: South America, Turkey and Eastern Europe
+L120: Figure 2 presents the Kaplan-Meier Curves for OS.
+L121: **Figure 2. K-M Curves for OS**
+L122: ## **Reviewer's Comments:**
+L123: - *Sensitivity analyses using stratified OS analysis by IVRS strata (p value=0.009) and unstratified log-rank test (p-value=0.0077) were evaluated. These sensitivity analysis results were similar to the primary OS analysis.*
+- *Only 3% of patients were enrolled in region 3. Table 10 presents the number of death by planned region.*
+L124: **Table 10. Number of Death by Planned Region**
+L125: REG/BSC	PBO/BSC
+N	505	255
+Number of death	275 (55%)	157(62%)
+Region 1	238 (47%)	135 (53%)
+2	29 (6%)	16(7%)
+3	8 (2%)	6 (2%)
+L126: Region 1: North America, Western Europe, Israel and Australia, versus; Region 2: Asia; Region 3: South America, Turkey and Eastern Europe
+L127: - *This reviewer also conducted two sensitivity analyses using different stratification factors (see Table 9). The first sensitivity analysis used combined region (1 vs. 2+3) and time from diagnosis of metastatic disease (p-value=0.0085). The second sensitivity analysis only used time from diagnosis of metastatic disease (p-value=0.0093). Both sensitivity analysis results were similar to the primary OS analysis.*
+L128: ## 3.2.7.4 Key Secondary Endpoint – PFS
+L129: Table 11 presents the FDA and applicant's efficacy analysis for PFS based on the INV assessment. Per FDA's analysis, there were a total of 648 (85%) progressive disease or death events. The REG/BSC demonstrated a statistically significant difference in PFS compared with the PBO/BSC based on a stratified log-rank test with a p-value &lt;0.0001. The median PFS was 2.0 months (95%
+L130: CI: 1.9, 2.3) for the REG/BSC arm and 1.7 months (95% CI: 1.7, 1.8) for the PBO/BSC arm. The stratified hazard ratio was 0.49 with 95% CI (0.42, 0.58).
+L131: **Table 11. FDA and Applicant's PFS Analyses (ITT)**
+L132: FDA	Applicant's
+REG/BSC
+N=505	PBO/BSC
+N=255	REG/BSC
+N=505	PBO/BSC
+N=255
+No. of Events (%)	417 (83%)	231 (91%)	430 (85%)	241 (95%)
+No. of Death, (%)	66 (13%)	34 (13%)	37 (7%)	13 (5%)
+Median PFS (months), 95%CI	2.0 (1.9, 2.3)	1.7 (1.7, 1.8)	1.9 (1.9, 2.1)	1.7 (1.7, 1.7)
+Stratified HR (95% CI) [P value]a	0.49 (0.42, 0.58) [<.0001]	0.49 (0.42, 0.58) [<.0001]
+L133: a Stratified by geographic region, prior treatment with vascular endothelial growth factor targeting drugs, and time from diagnosis of metastatic disease. Region 1: North America, Western Europe, Israel and Australia, versus; Region 2: Asia; Region 3: South America, Turkey and Eastern Europe
+L134: Figure 3 presents the Kaplan-Meier Curves for PFS.
+L135: **Figure 3. K-M Curves for PFS**
+L136: ## **Reviewer's Comments:**
+L137: - Per FDA's PFS analysis, the magnitudes of treatment effect in terms of the difference in PFS medians was 0.3 months, which might not be clinically important.
+- FDA's analysis excluded 78 clinical PDs (REG/BSC: 45(9%) vs. PBO/BSC: 33 (13%)). Sixty of 78 clinical PD events (REG/BSC: 32(6%) vs. PBO/BSC: 28 (11%)) occurred within the first two cycles, which occurred prior to the patient's first planned radiological scan.
+- Table 12 presents the sensitivity analysis of PFS. Sensitivity analyses of PFS using a stratified analysis by IVRS strata (p-value&lt;.0001), un-stratified log-rank test (p-value&lt;.0001), stratified analysis using combined region (1 vs. 2+3) and TFDMD (p-value&lt;.0001), stratified analysis using TFDMD (p-value&lt;.0001), and using different censoring rules (p-value&lt;.0001) were similar to this reviewer's PFS analysis, as well as the applicant's PFS analysis.
+L138: **Table 12. Sensitivity Analysis for PFS**
+L139: Sensitivity Analysis	Stratified	Un-stratified
+HR (95% CI)	P-value	HR (95% CI)	P-value
+IVRS Region & TFDMD	0.48 (0.40, 0.57)	<.0001	0.50 (0.42, 0.59)	<.0001
+CRF Region (1 vs 2+3), TFDMD	0.49 (0.41, 0.58)	<.0001	
+CRF TFDMD	0.49 (0.41, 0.58)	<.0001	0.50 (0.42, 0.59)	<.0001
+Censoring Rule 1	0.50 (0.42, 0.59)	<.0001	0.50 (0.43, 0.59)	<.0001
+Censoring Rule 2	0.50 (0.42, 0.59)	<.0001	0.50 (0.43, 0.59)	<.0001
+L140: Region 1: North America, Western Europe, Israel and Australia, versus; Region 2: Asia; Region 3: South America, Turkey and Eastern Europe
+L141: ## 3.2.7.5 Key Secondary Endpoint – ORR
+L142: Table 13 presents the ORR analyses results. REG/BSC failed to demonstrate improvement in ORR (REG/BSC: 1% vs. PBO/BSC: 0.4%) based on the stratified CMH test (p-value=0.38). The ORR difference between the treatment arms was 0.6% (95%CI: -0.5%, 1.7%).
+L143: **Table 13. ORR Analyses (ITT)**
+L144: REG/BSC	PBO/BSC
+N	505	255
+Overall response, n (%)	5 (1%)	1 (0.4%)
+Complete response, n (%)	0 (0%)	0 (0%)
+Partial response, n (%)	5 (1%)	1 (0.4%)
+95% CI	0.3%, 2.3%	0%, 2.2%
+Difference (REG/BSC-PBO/BSC) (95% CI)	0.6% (-0.5%, 1.7%)
+Stratified CMH test p-value	0.38
+L145: Stratified by geographic region, prior treatment with vascular endothelial growth factor targeting drugs, and time from diagnosis of metastatic disease. Region 1: North America, Western Europe, Israel and Australia, versus; Region 2: Asia; Region 3: South America, Turkey and Eastern Europe
+L146: ## Reviewer's Comments:
+L147: *There is no case of complete response and less than 1% cases with partial response. The ORR results without the CMH based p-value may be included in the label to warn the community that regorafenib does not work on the ORR at all.*
+L148: ## 3.3 Evaluation of Safety
+L149: Please refer the clinical review of this application for safety evaluation.
+L150: ## 3.4 Benefit/Risk Ratio
+L151: REG/BSC arm demonstrated a statistically significant improvement in the primary endpoint OS and marginal improvement in the key secondary endpoint PFS, but failed to demonstrate improvement in ORR. Whether the submission demonstrated an overall favorable risk-benefit profile for REG/BSC arm is deferred to the clinical team reviewing this submission.
+L152: ## 4 FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L153: ## 4.1 OS Subgroup Analysis
+L154: Table 14 summarizes OS subgroup analysis results.
+L155: **Table 14. OS (Months) Subgroup Analysis**
+L156: Subgroup	Number	HR (95% CI)**	Median OS
+Race	White	593	0.76 (0.61, 0.94)	4.9 / 6.2
+Asian	111	0.79 (0.44, 1.45)	7.0 / 6.6
+Male	464	0.77 (0.60, 1.00)	5.4 / 6.7
+Female	296	0.75 (0.55, 1.02)	4.8 / 6.0
+Age	<65	475	0.72 (0.56, 0.91)	4.9 / 6.7
+≥ 65	285	0.86 (0.61, 1.19)	5.6 / 5.9
+Region: North America, Western Europe, Israel and Australia	632	0.77 (0.62, 0.95)	4.9 / 6.0
+Asia	104	0.79 (0.43, 1.46)	7.0 / 6.6
+South America, Turkey and Eastern Europe	24	0.69 (0.20, 2.47)	NA
+Time 1st Diag. of MD to Randomization (month)	< 18	140	0.82 (0.53, 1.25)	4.1 / 4.6
+≥ 18	620	0.76 (0.61, 0.95)	5.4 / 6.7
+Prior Anti-cancer drug group*	375	0.82 (0.63, 1.09)	5.1 / 6.2
+Anti-EGFR antibody	385	0.71 (0.54, 0.94)	4.9 / 6.7
+
+Number of Prior Treatment Lines	≤3	301	0.71 (0.52, 0.97)	4.2 / 6.2
+>3	459	0.80 (0.62, 1.04)	5.6 / 6.5
+No. of Prior Lines on or aft Meta Diagnostics	≤3	395	0.79 (0.60, 1.04)	5.0 / 6.7
+>3	365	0.75 (0.56, 0.99)	5.1 / 6.3
+KRAS Mutation	No	299	0.65 (0.48, 0.89)	4.9 / 7.2
+Yes	430	0.87 (0.67, 1.12)	5.1 / 6.1
+ECOG PS	0	411	0.70 (0.53, 0.93)	7.0 / 8.5
+1	349	0.77 (0.59, 1.02)	3.6 / 4.5
+Primary Site of Disease	Colon	495	0.70 (0.56, 0.89)	4.6 / 6.0
+Rectum	220	0.95 (0.63, 1.44)	7.8 / 8.1
+Both	44	1.1 (0.44, 2.70)	7.2 / 6.8
+US	No	677	0.82 (0.66, 1.01)	5.1 / 6.3
+Yes	83	0.46 (0.25, 0.84)	4.7 / NA
+L157: *; Fluoropyr., Oxaliplat., Irinotec., Bevaciz; **: Unstratified Cox regression;
+L158: ## ***Reviewer's comment:***
+L159: *The HRs of OS in the subgroup analyses are less than 1 except patients with primary site on both colon and rectum. However, these analyses are exploratory due to smaller sample size.*
+L160: ## 5 SUMMARY AND CONCLUSIONS
+L161: In this New Drug Application (NDA), the applicant is seeking a regular approval of Stivarga® (Regorafenib), a novel oral multi kinase inhibitor targeting cancer cells and the tumor micro-environment, for the treatment of metastatic colorectal cancer (mCRC) in patients who have been previously treated with, [REDACTED] (b) (4) for fluoropyrimidine-based chemotherapy, anti-VEGF therapy, and if KRAS wild type, an anti-EGFR therapy. The pivotal study 14387 (CORRECT) was a randomized, double blinded, placebo-controlled multinational phase III trial.
+L162: ## 5.1 Statistical Issues
+L163: The following are some statistical issues in the submission:
+L164: - Due to potential subjectivity in the determination of clinical progression, the investigator defined clinical PD event was not an acceptable PD event for purposes of determining PFS. Progression is defined by the objective pathologic or radiological findings. This reviewer considered PFS results excluding all of the clinical PD events as FDA's primary analysis on PFS. Per FDA's PFS analysis, the magnitudes of treatment effect in terms of the difference in PFS medians was 0.3 months, which might not be clinically important.
+- This study failed to demonstrate ORR benefit.
+L165: ## 5.2 Collective Evidence
+L166: The data and analyses from the study 14387 demonstrated that the regorafenib and BSC combination (REG/BSC) had statistically significant improvements in the OS when compared with placebo and BSC combination (PBO/BSC). The stratified log-rank test p-value for OS comparison was 0.0102 compared with the allocated alpha of 0.018 at the second interim analysis. The median OS was 6.4 (95% CI: 5.8, 7.3) months for the REG/BSC arm and 5.0 (95% CI: 4.4, 5.8) months for the PBO/BSC arm. The stratified Cox proportional HR was 0.77 with 95% CI (0.64, 0.93).
+L167: The REG/BSC also demonstrated a statistically significant, but clinically not a meaningful difference in PFS compared with the PBO/BSC based on a stratified log-rank test with a p-value &lt;0.0001. The median PFS was 2.0 months (95% CI: 1.9, 2.3) for the REG/BSC arm and 1.7 months (95% CI: 1.7, 1.8) for the PBO/BSC arm. The stratified hazard ratio was 0.49 with 95% CI (0.42, 0.58).
+L168: However, REG/BSC failed to demonstrate improvement in ORR (REG/BSC: 1% vs. PBO/BSC: 0.4%) based on the stratified CMH test (p-value=0.38). The ORR difference between the treatment arms was 0.6% (95%CI: -0.5%, 1.7%).
+L169: ## 5.3 Conclusions and Recommendations
+L170: Based on the data and analyses from the study 14837, the REG/BSC arm demonstrated a statistically significant improvement in OS and marginal improvement in PFS, but failed to
+L171: demonstrate improvement in ORR. Whether the data and analyses from the current submission demonstrate an overall favorable risk-benefit profile is deferred to the clinical team reviewing this application.
+L172: ## 5.4 Labeling recommendation
+L173: - In the label, the PFS results should be updated based on this reviewer's calculation which excluded all of the clinical PD events.
+- The analysis of ORR excluding the CMH based p-value may be included in the label to warn the community that regorafenib does not work on the ORR at all.
+L174: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L175: /s/
+L176: HUANYU CHEN
+08/30/2012
+L177: KUN HE
+08/30/2012
+Accepted as a complete review.
+L178: RAJESHWARI SRIDHARA
+08/30/2012
+L179: ## STATISTICS FILING CHECKLIST FOR A NEW NDA/BLA
+L180: NDA Number: 203085
+L181: Applicant: Bayer
+L182: Stamp Date: 04/30/2012
+L183: Drug Name: regorafenib
+L184: NDA/BLA Type: Priority
+L185: On initial overview of the NDA/BLA application for RTF:
+L186: Content Parameter	Yes	No	NA	Comments
+1	Index is sufficient to locate necessary reports, tables, data, etc.	√	
+2	ISS, ISE, and complete study reports are available (including original protocols, subsequent amendments, etc.)	√	
+3	Safety and efficacy were investigated for gender, racial, and geriatric subgroups investigated (if applicable).	√	
+4	Data sets in EDR are accessible and do they conform to applicable guidances (e.g., existence of define.pdf file for data sets).	√
+L187: IS THE STATISTICAL SECTION OF THE APPLICATION FILEABLE? Yes
+L188: If the NDA/BLA is not fileable from the statistical perspective, state the reasons and provide comments to be sent to the Applicant.
+L189: Please identify and list any potential review issues to be forwarded to the Applicant for the 74-day letter.
+L190: Content Parameter (possible review concerns for 74-day letter)	Yes	No	NA	Comment
+Designs utilized are appropriate for the indications requested.	√	
+Endpoints and methods of analysis are specified in the protocols/statistical analysis plans.	√	
+Interim analyses (if present) were pre-specified in the protocol and appropriate adjustments in significance level made. DSMB meeting minutes and data are available.	√	
+Appropriate references for novel statistical methodology (if present) are included.	√	
+Safety data organized to permit analyses across clinical trials in the NDA/BLA.	√	
+Investigation of effect of dropouts on statistical analyses as described by applicant appears adequate.	√
+L191: File name: 5_Statistics Filing Checklist for a New NDA_BLA110207
+L192: ## STATISTICS FILING CHECKLIST FOR A NEW NDA/BLA
+L193: Huanyu (Jade) Chen	5/21/12
+Reviewing Statistician	Date
+Yuan Li Shen	5/21/12
+Supervisor/Team Leader	Date
+L194: File name: 5_Statistics Filing Checklist for a New NDA_BLA110207
+L195: Reference ID: 3133895
+L196: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L197: /s/
+L198: HUANYU CHEN
+05/21/2012
+L199: YUAN L SHEN
+05/21/2012
+L200: Flowchart illustrating the Trial Schema:
+Stratify by:
+Prior treatment with VEGF targeting drugs
+Time from diagnosis of metastatic disease
+Geographical region
+Randomize 2:1 (N = 690)
+Treatment Arms:
+Regorafenib 160 mg po od three weeks on, one week off plus BSC (4 weeks cycle)
+Placebo 160 mg po od three weeks on, one week off plus BSC (4 weeks cycle)
+L201: Kaplan-Meier Curves for Overall Survival (OS). The graph plots Percent of Subjects (Y-axis, 0.0 to 1.0) against Time (Months) (X-axis, 0 to 15). Two curves are shown: 1: Placebo (blue line) and 2: Regorafenib 160 mg (red dashed line). The Placebo curve shows a higher survival rate than the Regorafenib curve. The legend indicates '+ Censored' data points. Patient counts are shown at various time points: 0 months (Placebo 255, Regorafenib 255); 3 months (Placebo 183, Regorafenib 187); 6 months (Placebo 75, Regorafenib 58); 9 months (Placebo 21, Regorafenib 7); 12 months (Placebo 3, Regorafenib 0).
+L202: Kaplan-Meier Curves for Progression-Free Survival (PFS). The graph plots Percent of Subjects (Y-axis, 0.0 to 1.0) against Time (Months) (X-axis, 0 to 12). Two curves are shown: 1: Placebo (solid line) and 2: Regorafenib 160 mg (dashed line). The Placebo curve shows a higher percentage of subjects surviving longer than the Regorafenib curve. The legend indicates '+ Censored' data points. The Placebo arm (N=505) has 255 events, and the Regorafenib arm (N=255) has 32 events.

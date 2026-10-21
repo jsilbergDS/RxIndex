@@ -1,0 +1,23 @@
+{
+  "app": "BLA125141",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 15 column 5 (char 853)",
+  "_raw": "Analyzing the card for quality problems.\n\n```json\n{\n  \"app\": \"BLA125141\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].design\",\n      \"severity\": \"high\",\n      \"issue\": \"Design states '20 mg/kg vs 40 mg/kg every other week' but the citation reads '20 mg/kg vs. 40 m",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "27",
+        "text": "The BLA was submitted July 27, 2005, granted priority review, and recommended fo"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2005",
+        "text": "The BLA was submitted July 27, 2005, granted priority review, and recommended fo"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

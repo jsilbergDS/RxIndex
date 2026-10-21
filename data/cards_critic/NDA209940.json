@@ -1,0 +1,31 @@
+{
+  "app": "NDA209940",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "medium",
+      "issue": "The text adds a definition ('defined as CMV end-organ disease or initiation of anti-CMV pre-emptive therapy based on documented CMV viremia') that is not present in the cited quote, which only states the endpoint through Week 24 (prophylaxis failure)."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "medium",
+      "issue": "The result mislabels the -23.5 (95% CI -32.5, -14.6) difference as 'stratum-adjusted'; the cited quote only says 'Difference (95% CI) -23.5 (-32.5, -14.6)' without stating it is stratum-adjusted."
+    },
+    {
+      "field": "pivotal_trials",
+      "severity": "medium",
+      "issue": "Internal inconsistency: the approval_program.summary citation states efficacy is supported by 'one phase 3 trial (P001)' AND 'one phase 2b dose-ranging trial (P020),' but only one pivotal trial is described in pivotal_trials."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "The lead citation says 'Most common adverse events' whereas the field text says 'adverse reactions'; minor wording mismatch but the AE rates and thresholds are otherwise supported."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

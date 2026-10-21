@@ -1,0 +1,175 @@
+{
+  "app": "BLA125504",
+  "drug": "COSENTYX",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "cb95a4d4-0f43-56a7-bcab-819d6395d71d"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "b07669c2-fee6-5e33-abf7-2d9a2ccec289"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "aaf47e21-4e16-5f92-96b1-eb81212223da"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "85456b48-c623-53db-82c1-15fffadc29f3"
+    },
+    {
+      "doc_type": "AppLtr",
+      "doc_id": "bb3bc869-1033-54b5-90e9-5505029bc238"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Dermatologic and Ophthalmologic Drugs Advisory Committee (DODAC)",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "aaf47e21-4e16-5f92-96b1-eb81212223da",
+      "line": 109,
+      "quote": "A meeting of the Dermatologic and Ophthalmologic Drugs Advisory Committee (DODAC) was held on October 20, 2014 to discuss the overall safety and efficacy of Cosentyx, as well as potential dosing regimens."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "aaf47e21-4e16-5f92-96b1-eb81212223da",
+      "found_lines": [
+        109
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "October 20, 2014",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "b07669c2-fee6-5e33-abf7-2d9a2ccec289",
+      "line": 115,
+      "quote": "A Dermatologic and Ophthalmologic Drugs Advisory Committee meeting was convened on October 20, 2014 to discuss the safety and efficacy results from this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "b07669c2-fee6-5e33-abf7-2d9a2ccec289",
+      "found_lines": [
+        115
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted unanimously (Yes: 7, No: 0, Abstain: 0) that the available data support approval of secukinumab for moderate to severe plaque psoriasis in adult candidates for systemic therapy or phototherapy.",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "b07669c2-fee6-5e33-abf7-2d9a2ccec289",
+      "line": 119,
+      "quote": "**Vote:** Yes: 7 No: 0 Abstain: 0"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "b07669c2-fee6-5e33-abf7-2d9a2ccec289",
+      "found_lines": [
+        119
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The AdComm discussed the appropriate dose; the majority agreed 300 mg should be the recommended dose based on efficacy, while some members felt 150 mg should also be available for patients with exceptionally low body weight at the physician's discretion.",
+      "change": "The approved labeling presents 300 mg as the recommended dose and adds in Dosage and Administration that \"For some patients, a dose of 150 mg may be acceptable,\" with the review team explicitly concurring with the AdComm discussion.",
+      "category": "Dose / labeling of recommended dose",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "b07669c2-fee6-5e33-abf7-2d9a2ccec289",
+        "line": 123,
+        "quote": "The majority of the committee agreed that the recommended dose should be the 300 mg dose based on the efficacy data. Some committee members noted that the 150 mg should also be available for patients that have exceptionally low body weight, but would be at the discretion of the physician to determine the dose.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "b07669c2-fee6-5e33-abf7-2d9a2ccec289",
+          "found_lines": [
+            123
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "b07669c2-fee6-5e33-abf7-2d9a2ccec289",
+        "line": 153,
+        "quote": "The majority of the review team concurred with the Advisory Committee discussion that the 10-15% improvement in treatment effect observed with 300 mg dosing was clinically significant and lacked significant differences in safety outcomes observed with the 150 mg dosing cohort. The recommended labeling will present the 300 mg dose as the \"approved\" dose and acknowledge that, \"For some patients, a dose of 150 mg may be acceptable\".",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "b07669c2-fee6-5e33-abf7-2d9a2ccec289",
+          "found_lines": [
+            153
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The AdComm majority agreed the 450 mg dose should be considered for patients weighing >90 kg and recommended that a post-market study of the 450 mg dose in slow or non-responders be conducted.",
+      "change": "The approval letter imposed PMR 2848-6, a clinical trial evaluating the treatment effect and safety of a higher exposure (e.g., 450 mg) in higher-body-weight subjects and in those who cannot achieve the therapeutic goal at 300 mg.",
+      "category": "Dose / post-marketing requirement (higher dose)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "b07669c2-fee6-5e33-abf7-2d9a2ccec289",
+        "line": 127,
+        "quote": "*may be of benefit for patients who are non-responders to the 300 mg dose, thus a post-market study of the 450 mg dose in slow or non-responders should be conducted.*",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "b07669c2-fee6-5e33-abf7-2d9a2ccec289",
+          "found_lines": [
+            127
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "AppLtr",
+        "doc_id": "bb3bc869-1033-54b5-90e9-5505029bc238",
+        "line": 59,
+        "quote": "2848-6 Conduct a clinical trial to evaluate the treatment effect and safety profile of a higher exposure (e.g., 450 mg) of secukinumab in psoriasis subjects with higher body weight and to explore the option of exposure escalation (e.g., 450 mg) for those who cannot achieve the therapeutic goal at the 300 mg dose.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "bb3bc869-1033-54b5-90e9-5505029bc238",
+          "found_lines": [
+            59
+          ]
+        }
+      }
+    },
+    {
+      "concern": "An AdComm member noted that the sponsor's proposed post-marketing study was designed to evaluate cardiac events and did not appear to address long-term risks such as malignancies or autoimmune diseases, recommending additional large-database studies to evaluate long-term risks.",
+      "change": "The approval letter imposed PMR 2848-2, a long-term prospective observational study with malignancies as the primary outcome, enrolling over 4 years with a minimum 8-year follow-up.",
+      "category": "Safety / long-term malignancy post-marketing requirement",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "cb95a4d4-0f43-56a7-bcab-819d6395d71d",
+        "line": 77,
+        "quote": "One committee member stated that the sponsor's proposed post-marketing study is designed to evaluate cardiac events and does not appear to address risks such as malignancies or autoimmune diseases. The committee member recommended that additional studies with large databases should be conducted in addition to the sponsor's suggested post-marketing plan in order to further evaluate long-term risks.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "cb95a4d4-0f43-56a7-bcab-819d6395d71d",
+          "found_lines": [
+            77
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "AppLtr",
+        "doc_id": "bb3bc869-1033-54b5-90e9-5505029bc238",
+        "line": 42,
+        "quote": "2848-2 A postmarketing prospective, long-term, observational study to assess the long-term safety of secukinumab compared to other therapies used in the treatment of adults with moderate to severe plaque psoriasis who are candidates for systemic therapy or phototherapy in a real world clinical setting. The study's primary outcome is malignancies.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "bb3bc869-1033-54b5-90e9-5505029bc238",
+          "found_lines": [
+            42
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "A Dermatologic and Ophthalmologic Drugs Advisory Committee (DODAC) meeting was held on October 20, 2014 for secukinumab (Cosentyx), where the committee voted unanimously 7-0 that the data support approval for moderate to severe plaque psoriasis. The meeting focused on dosing and long-term safety rather than approvability: the committee's discussion that 300 mg was the preferred dose (with 150 mg acceptable for some patients) is explicitly cited by the review team in the labeling decision, and the committee's recommendations to study a higher 450 mg dose in heavier/non-responding patients and to better characterize long-term malignancy risk align with post-marketing requirements 2848-6 and 2848-2 in the approval letter (basis for these two linkages is inferred, as no review sentence explicitly names the AdComm as the cause of the specific PMR)."
+}

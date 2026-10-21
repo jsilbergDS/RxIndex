@@ -1,0 +1,23 @@
+{
+  "app": "NDA212950",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 365)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"NDA212950\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].trial_name\",\n      \"severity\": \"low\",\n      \"issue\": \"Uncited number '205888' flagged, but it is an alternate protocol/study identifier (AI438047/20",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "205888",
+        "text": "BRIGHTE (AI438047/205888)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "RUKOBIA (fostemsavir), a first-in-class HIV-1 gp120-directed attachment inhibito"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

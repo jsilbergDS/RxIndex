@@ -1,0 +1,231 @@
+{
+  "app": "NDA022527",
+  "drug": "GILENYA",
+  "docs_read": [
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_a2dc5dd1-8a1a-5498-af0e-16733d700421"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_6e374023-be0e-5987-bbd4-23f04d9fdd05"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_5c42db34-3da6-59c0-940c-e539eb4b6ac4"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Peripheral and Central Nervous System Drugs Advisory Committee (PCNS AC)",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_a2dc5dd1-8a1a-5498-af0e-16733d700421",
+      "line": 326,
+      "quote": "The Peripheral and Central Nervous System Drugs Advisory Committee met on June 10, 2010 to discuss fingolimod."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_a2dc5dd18a1a",
+      "found_lines": [
+        326
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "June 10, 2010",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_a2dc5dd1-8a1a-5498-af0e-16733d700421",
+      "line": 326,
+      "quote": "The Peripheral and Central Nervous System Drugs Advisory Committee met on June 10, 2010 to discuss fingolimod."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_a2dc5dd18a1a",
+      "found_lines": [
+        326
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted overwhelmingly in favor of approval: 25-0 that fingolimod reduces clinical exacerbations, 24-1 that it delays accumulation of disability, and 25-0 that the 0.5 mg dose safety data justify approval. The committee also advised that doses below 0.5 mg should be studied after (not before) approval, that all patients receive the first dose in a monitored setting, that routine ophthalmic examination alone is not sufficient, that routine pharmacovigilance is not sufficient for pulmonary toxicity, and that fingolimod should be an option for first-line treatment.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_6e374023-be0e-5987-bbd4-23f04d9fdd05",
+      "line": 59,
+      "quote": "The PCNS AC on June 10, 2010 voted overwhelmingly that fingolimod had been shown to decrease clinical exacerbations and delay accumulation of disability and that the 0.5 mg dose was safe enough to support approval."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_6e374023be0e",
+      "found_lines": [
+        59
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "First-dose effects of fingolimod include bradycardia and heart conduction abnormalities; the committee voted 25-0 that patients should receive the first dose in a monitored setting and recommended a baseline ECG.",
+      "change": "Labeling recommends that all patients be monitored for bradyarrhythmias with first-dose observation.",
+      "category": "Safety / first-dose cardiac monitoring",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_a2dc5dd1-8a1a-5498-af0e-16733d700421",
+        "line": 344,
+        "quote": "The committee members unanimously agreed that patients should be required to receive the first dose in a monitored setting due to the risk of bradycardia and heart conduction abnormalities, and that a baseline ECG should be obtained before starting therapy.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a2dc5dd18a1a",
+          "found_lines": [
+            344
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_6e374023-be0e-5987-bbd4-23f04d9fdd05",
+        "line": 59,
+        "quote": "Labeling for the present will recommend monitoring of all patients for bradyarrhythmias.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_6e374023be0e",
+          "found_lines": [
+            59
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Fingolimod causes macular edema; the committee voted 20-4 (1 abstain) that routine ophthalmic examination is not sufficient, noting neurologists do not regularly perform dilated fundoscopy, and emphasized a baseline ophthalmologic evaluation and a follow-up at 3-4 months.",
+      "change": "The review team adopted the position that all patients should have a baseline ophthalmological evaluation and a follow-up evaluation after 3-4 months of treatment.",
+      "category": "Safety / ophthalmologic monitoring",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_a2dc5dd1-8a1a-5498-af0e-16733d700421",
+        "line": 284,
+        "quote": "Discussion with neurologists at the advisory committee however indicated that neurologists seeing MS patients do not regularly perform dilated fundoscopy, and the need for an ophthalmologic evaluation at baseline and after 3-4 months was emphasized.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a2dc5dd18a1a",
+          "found_lines": [
+            284
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_a2dc5dd1-8a1a-5498-af0e-16733d700421",
+        "line": 385,
+        "quote": "All patients should also have a baseline ophthalmological evaluation, and a follow-up evaluation after 3-4 months of treatment, and as needed in case of new symptoms.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a2dc5dd18a1a",
+          "found_lines": [
+            385
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Fingolimod causes a gradual decline in pulmonary function; the committee voted 17-7 (1 abstain) that routine pharmacovigilance is not sufficient to mitigate the pulmonary toxicity risk.",
+      "change": "After considering the advisory committee recommendations, the review team reached the position that spirometric evaluation of respiratory function and DLCO should be performed during therapy if clinically indicated (routine monitoring not required).",
+      "category": "Safety / pulmonary monitoring",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_a2dc5dd1-8a1a-5498-af0e-16733d700421",
+        "line": 353,
+        "quote": "The majority of the committee agreed that routine pharmacovigilance (spontaneous post-marketing adverse event reporting) is not sufficient to mitigate the risks associated with the pulmonary toxicity of fingolimod.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a2dc5dd18a1a",
+          "found_lines": [
+            353
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_a2dc5dd1-8a1a-5498-af0e-16733d700421",
+        "line": 307,
+        "quote": "After considering the advisory committee recommendations (see below), the review team reached the position that spirometric evaluation of respiratory function and evaluation of DLCO should be performed during therapy with GILENYA if clinically indicated, and that routine monitoring was not justified.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a2dc5dd18a1a",
+          "found_lines": [
+            307
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee voted 20-5 that the sponsor should be required to evaluate doses lower than 0.5 mg once daily, but voted 0-24 that this should not be required prior to approval \u2014 i.e., as a postmarketing commitment.",
+      "change": "A postmarketing commitment to study a 0.25 mg daily dose was included in the approval.",
+      "category": "Postmarketing commitment / dose-finding",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_a2dc5dd1-8a1a-5498-af0e-16733d700421",
+        "line": 338,
+        "quote": "The committee agreed that further studies on a lower dose should not be required prior to approval, but should be required as part of the postmarketing commitments from the sponsor.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a2dc5dd18a1a",
+          "found_lines": [
+            338
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_6e374023-be0e-5987-bbd4-23f04d9fdd05",
+        "line": 62,
+        "quote": "Commitment to study a 0.25 mg daily dose.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_6e374023be0e",
+          "found_lines": [
+            62
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee endorsed a large postmarketing safety study and expressed particular interest in observing patients who had been excluded from the clinical trials, notably diabetics and patients with cardiovascular disease.",
+      "change": "A planned observational postmarketing study was required, specifying that enrolled patients should include diabetics and people with cardiovascular risk factors.",
+      "category": "Postmarketing requirement / safety study in excluded populations",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_6e374023-be0e-5987-bbd4-23f04d9fdd05",
+        "line": 59,
+        "quote": "The committee endorsed the sponsors planned 5000 patient post-marketing safety study, expressing particular interest in observing trial-excluded patients (diabetics and people with CV disease).",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_6e374023be0e",
+          "found_lines": [
+            59
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_6e374023-be0e-5987-bbd4-23f04d9fdd05",
+        "line": 62,
+        "quote": "Patients should include diabetics and people with CV risk factors.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_6e374023be0e",
+          "found_lines": [
+            62
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Peripheral and Central Nervous System Drugs Advisory Committee met on June 10, 2010 and voted overwhelmingly in support of fingolimod's approval for relapsing-remitting MS (25-0 on exacerbation efficacy, 24-1 on disability, 25-0 that the 0.5 mg safety data justify approval). Committee safety concerns shaped the approval: unanimous support for first-dose cardiac monitoring (reflected in bradyarrhythmia monitoring labeling), agreement that routine ophthalmic exams were insufficient (baseline plus 3-4 month eye evaluations), agreement that routine pharmacovigilance was insufficient for pulmonary toxicity (spirometry/DLCO when clinically indicated), and a recommendation to study doses below 0.5 mg and run a large postmarketing safety study in trial-excluded populations (diabetics, CV disease), all incorporated as postmarketing commitments/requirements. The verbatim AdCom transcript is not in paperclip; these facts are drawn from the review documents' account of the meeting."
+}

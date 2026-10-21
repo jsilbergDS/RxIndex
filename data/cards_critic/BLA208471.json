@@ -1,0 +1,102 @@
+{
+  "app": "BLA208471",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "medium",
+      "issue": "Total N=351 is a computed sum not contained in any citation quote (citation shows 116, 117, 118 only)."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "medium",
+      "issue": "Total N=818 is a computed sum not contained in any citation quote (citation shows 273, 545 only)."
+    },
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "low",
+      "issue": "False-positive flag: the '2' is from 'type 2 diabetes,' not an efficacy/safety number."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive flags: the '2' and '1' are from 'lixisenatide 2-step'/'1-step' arm labels, not uncited data."
+    },
+    {
+      "field": "pivotal_trials[1].population",
+      "severity": "low",
+      "issue": "False-positive flag: the '2' is from 'type 2 diabetes,' not an efficacy/safety number."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flags: the flagged numbers (208471, 27, 2015, 25, 2016) are the NDA study ID and dates, which are excluded categories."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Summary states approval was based on 'nine placebo-controlled Phase 3 trials' but only 2 pivotal trials are described in the card; not an inconsistency in itself but the pivotal_trials list is a non-exhaustive subset."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "2",
+        "text": "Adults with type 2 diabetes mellitus, lixisenatide as monotherapy (adjunct to di"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "351",
+        "text": "N=351 (placebo 116 [57+59], lixisenatide 2-step 117, lixisenatide 1-step 118)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "2",
+        "text": "LS mean HbA1c treatment difference vs placebo: lixisenatide 2-step -0.52% (95% C"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "1",
+        "text": "LS mean HbA1c treatment difference vs placebo: lixisenatide 2-step -0.52% (95% C"
+      },
+      {
+        "field": "pivotal_trials[1]/population",
+        "number": "2",
+        "text": "Adults with type 2 diabetes mellitus inadequately controlled on sulfonylurea alo"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "818",
+        "text": "N=818 (placebo 273, lixisenatide 545)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "208471",
+        "text": "Adlyxin (lixisenatide) was reviewed as a standard NDA (208471, received July 27,"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "27",
+        "text": "Adlyxin (lixisenatide) was reviewed as a standard NDA (208471, received July 27,"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2015",
+        "text": "Adlyxin (lixisenatide) was reviewed as a standard NDA (208471, received July 27,"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "25",
+        "text": "Adlyxin (lixisenatide) was reviewed as a standard NDA (208471, received July 27,"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2016",
+        "text": "Adlyxin (lixisenatide) was reviewed as a standard NDA (208471, received July 27,"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

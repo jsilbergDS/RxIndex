@@ -1,0 +1,22 @@
+{
+  "app": "NDA211288",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "low",
+      "issue": "The '(Phase 3)' label is not supported by the citation quote (which only says randomized/active-controlled), but this is a minor cosmetic/uncited-number flag consistent with a Phase 3 registrational trial; low severity."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "3",
+        "text": "Randomized, active-controlled registrational trial (Phase 3)"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

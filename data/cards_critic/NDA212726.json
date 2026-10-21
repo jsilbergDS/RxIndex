@@ -1,0 +1,48 @@
+{
+  "app": "NDA212726",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 320)",
+  "_raw": "Analyzing the card against the review and flags.\n\n```json\n{\n  \"app\": \"NDA212726\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].phase\",\n      \"severity\": \"low\",\n      \"issue\": \"The '2' in 'Phase 1/2 basket program' is uncited (the quote only mentions a dose-finding/",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "2",
+        "text": "Dose-finding and activity-estimating trials (Phase 1/2 basket program)"
+      },
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "2",
+        "text": "Dose-finding and activity-estimating trials (Phase 1/2 basket program)"
+      },
+      {
+        "field": "indication",
+        "number": "12",
+        "text": "ROZLYTREK is indicated for adult patients with metastatic ROS1-positive NSCLC, a"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "18",
+        "text": "Priority NDA received December 18, 2018, review completion August 13, 2019; appr"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2018",
+        "text": "Priority NDA received December 18, 2018, review completion August 13, 2019; appr"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "13",
+        "text": "Priority NDA received December 18, 2018, review completion August 13, 2019; appr"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2019",
+        "text": "Priority NDA received December 18, 2018, review completion August 13, 2019; appr"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

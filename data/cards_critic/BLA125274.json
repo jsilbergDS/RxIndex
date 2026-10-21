@@ -1,0 +1,32 @@
+{
+  "app": "BLA125274",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag of uncited numbers 11, 29, 07 is a false positive \u2014 they are fragments of the date 11/29/07, which should be excluded."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "11",
+        "text": "Dysport (abobotulinumtoxinA) was approved under a BLA submitted 11/29/07 for cer"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "29",
+        "text": "Dysport (abobotulinumtoxinA) was approved under a BLA submitted 11/29/07 for cer"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "07",
+        "text": "Dysport (abobotulinumtoxinA) was approved under a BLA submitted 11/29/07 for cer"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "app": "NDA021999",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Extra data: line 54 column 1 (char 2503)",
+  "_raw": "Analyzing the card for issues.\n\nKey findings:\n- The uncited_numbers flags for result fields (6, 12, 3, 15) are dose labels, not efficacy numbers \u2014 false positives.\n- The \"19\" flags are dates (Dec 19 / Oct 20) \u2014 false positives.\n- Design fields claim \"fixed-dose\" but phase citation says fixed-dose; d",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "6",
+        "text": "All paliperidone doses superior to placebo on PANSS (p<0.001); difference of LS "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "12",
+        "text": "All paliperidone doses superior to placebo on PANSS (p<0.001); difference of LS "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "6",
+        "text": "Both paliperidone doses superior to placebo on PANSS; difference of LS means vs "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "12",
+        "text": "Both paliperidone doses superior to placebo on PANSS; difference of LS means vs "
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "3",
+        "text": "All paliperidone doses superior to placebo on PANSS (p<0.001); difference of LS "
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "15",
+        "text": "All paliperidone doses superior to placebo on PANSS (p<0.001); difference of LS "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "19",
+        "text": "The Agency issued an Approvable Letter on September 29, 2006; the October 20, 20"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "19",
+        "text": "INVEGA (paliperidone) was submitted as a 505(b) NDA received November 30, 2005 f"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "app": "NDA204370",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 294)",
+  "_raw": "Analyzing the card against all checks.\n\n{\n  \"app\": \"NDA204370\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"key_safety\",\n      \"severity\": \"high\",\n      \"issue\": \"Claims akathisia 11% vs placebo in schizophrenia trials, but no citation quote contains the 11% akathisia figure (uncit",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "3",
+        "text": "Phase 3 pivotal schizophrenia study"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "6",
+        "text": "Randomized, double-blind, placebo- and active-controlled, fixed-dose, 6 weeks do"
+      },
+      {
+        "field": "key_safety",
+        "number": "11",
+        "text": "Most common adverse reactions (incidence \u2265 5% and at least twice the rate of pla"
+      },
+      {
+        "field": "crl_history/basis",
+        "number": "6",
+        "text": "Dose-related adverse events (primarily akathisia and other extrapyramidal sympto"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2015",
+        "text": "Cariprazine was reviewed as a new molecular entity for treatment of schizophreni"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

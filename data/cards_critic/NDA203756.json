@@ -1,0 +1,52 @@
+{
+  "app": "NDA203756",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "target_moa",
+      "severity": "high",
+      "issue": "The clause 'developed as a targeted therapy based on the correlation between RET gene mutation and MTC' is not supported by either citation, which only list the inhibited kinases."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged uncited numbers 29/2012 are dates in an inferential field and are false positives; first_cycle_approval=true is correctly defaulted with no prior CRL in the review."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged uncited number '301' is part of the study ID XL184-301 and is a false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "29",
+        "text": "Application received May 29, 2012, reviewed and approved effective on the date o"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2012",
+        "text": "Application received May 29, 2012, reviewed and approved effective on the date o"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "29",
+        "text": "Application received May 29, 2012, reviewed and approved effective on the date o"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2012",
+        "text": "Application received May 29, 2012, reviewed and approved effective on the date o"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "301",
+        "text": "COMETRIQ (cabozantinib) received Fast-track designation (April 8, 2011) and Orph"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

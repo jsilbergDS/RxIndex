@@ -1,0 +1,37 @@
+{
+  "app": "NDA213246",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.accelerated_approval.confirmatory_requirement",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG false positive: the numbers '2' and '3' refer to PMR identifiers (3829-2, 3829-3), not efficacy/safety data, and are supported by the PMR citations."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG false positive: '001' is part of the study identifier 'LIBRETTO-001', not an uncited efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "2",
+        "text": "Continued approval may be contingent upon verification of clinical benefit in co"
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "3",
+        "text": "Continued approval may be contingent upon verification of clinical benefit in co"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "001",
+        "text": "Selpercatinib (Retevmo) received accelerated approval under Subpart H based on O"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

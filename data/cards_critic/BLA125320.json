@@ -1,0 +1,33 @@
+{
+  "app": "BLA125320",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 345)",
+  "_raw": "Analyzing the card against all check categories.\n\n```json\n{\n  \"app\": \"BLA125320\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].result\",\n      \"severity\": \"low\",\n      \"issue\": \"Automated flag for '8.0' and '6.5' is a false positive; the nonvertebral citation quote ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "8.0",
+        "text": "New vertebral fracture incidence at year 3 was 7.2% (placebo) vs 2.3% (Prolia); "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "6.5",
+        "text": "New vertebral fracture incidence at year 3 was 7.2% (placebo) vs 2.3% (Prolia); "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "19",
+        "text": "Prolia (denosumab), the first monoclonal antibody submitted for treatment of pos"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2008",
+        "text": "Prolia (denosumab), the first monoclonal antibody submitted for treatment of pos"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

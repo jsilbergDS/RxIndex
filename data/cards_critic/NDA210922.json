@@ -1,0 +1,32 @@
+{
+  "app": "NDA210922",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval.detail.text",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited_numbers '11' and '2017' are components of the receipt date December 11, 2017 (a date), which is excluded from uncited-number rules; false positive."
+    },
+    {
+      "field": "advisory_committee.vote",
+      "severity": "low",
+      "issue": "The 'vote' field is populated with the rationale for NOT convening an AC (convened=false); it is not an actual advisory committee vote and is cosmetically mislabeled, though content is consistent."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "11",
+        "text": "NDA received December 11, 2017 and approved effective on the date of the approva"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2017",
+        "text": "NDA received December 11, 2017 and approved effective on the date of the approva"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

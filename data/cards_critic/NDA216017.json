@@ -1,0 +1,51 @@
+{
+  "app": "NDA216017",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "The '10' (10% non-inferiority margin) in the result text is not contained in the result field's own citations; it is supported by the endpoint field citation (line 753), so this is a near-false-positive but the margin should be cited in-field.",
+      "flag": true
+    },
+    {
+      "field": "receipt_date",
+      "severity": "low",
+      "issue": "Automated flags for numbers '216017' and '216016' are false positives \u2014 these are NDA application identifiers, not efficacy/safety data.",
+      "flag": true
+    },
+    {
+      "field": "key_safety",
+      "severity": "medium",
+      "issue": "Serious adverse reactions stated as 'occurred in 28 patients (0.6%)' but the cited SAE line reads '28 (0.6)' without a percent sign and the denominator/percentage interpretation is not clearly supported as a percentage in the quote.",
+      "flag": false
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Trial name text writes study IDs as '48,848-007A' etc. while the nct citation uses '48-848-007A' (hyphen vs comma), a minor formatting inconsistency between the two citations.",
+      "flag": false
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "10",
+        "text": "At least 98% (lower bound of 95% CI at least 91%) of image sets in Iomervu and c"
+      },
+      {
+        "field": "receipt_date",
+        "number": "216017",
+        "text": "November 30, 2023 (NDA 216017); December 14, 2023 (NDA 216016)"
+      },
+      {
+        "field": "receipt_date",
+        "number": "216016",
+        "text": "November 30, 2023 (NDA 216017); December 14, 2023 (NDA 216016)"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

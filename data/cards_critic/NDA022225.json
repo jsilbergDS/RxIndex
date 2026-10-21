@@ -1,0 +1,143 @@
+{
+  "app": "NDA022225",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "medium",
+      "issue": "The numbers '1:29', '18:30' appear in the citation but are recovery times (minutes:seconds); these are supported, but the parenthetical label '(rocuronium)' is supported by '(R)'; acceptable \u2014 no uncited number here, dismissable.",
+      "note": "false-positive check only"
+    },
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "Automated flag 'sugammadex 4 mg/kg' number 4 is a dose and should be excluded; false positive.",
+      "note": "dose exclusion"
+    },
+    {
+      "field": "pivotal_trials[1].population",
+      "severity": "low",
+      "issue": "Automated flags '1' and '2' are the post-tetanic contraction count '1-2' which IS present in the cited quote ('one to two post-tertanic contractions'); false positive.",
+      "note": "number is supported by citation"
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "Automated flag number '4' is the dose '4 mg/kg' and should be excluded; false positive.",
+      "note": "dose exclusion"
+    },
+    {
+      "field": "pivotal_trials[2].design",
+      "severity": "low",
+      "issue": "Automated flag number '16' is the dose '16 mg/kg' and should be excluded; false positive.",
+      "note": "dose exclusion"
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Automated flag number '2015' is a date (December 2015 approval) and should be excluded; false positive.",
+      "note": "date exclusion"
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag number '2007' is a date (October 31, 2007) and should be excluded; false positive.",
+      "note": "date exclusion"
+    },
+    {
+      "field": "pivotal_trials[2].design",
+      "severity": "high",
+      "issue": "Design states comparator is 'succinylcholine with no reversal agent', but the design citation only mentions '\"Immediate\" reversal (defined as 3 minutes following rocuronium administration)' and does not support the succinylcholine comparator claim.",
+      "field_note": "unsupported comparator detail"
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "high",
+      "issue": "Design claims 'sugammadex 2 mg/kg vs neostigmine' and 'Randomized study in Europe', but the sole citation only defines 'shallow neuromuscular block ... return of T2' and supports none of the dose, comparator, country, or randomization claims.",
+      "field_note": "unsupported design details"
+    },
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "high",
+      "issue": "Design claims 'United States study ... sugammadex 4 mg/kg vs neostigmine', but the citation only defines 'profound neuromuscular block ... 1-2 post tetanic counts' and does not support the dose, comparator, or country.",
+      "field_note": "unsupported design details"
+    },
+    {
+      "field": "pivotal_trials[3].design",
+      "severity": "high",
+      "issue": "Design claims 'Europe study ... rocuronium/sugammadex 2 mg/kg vs cis-atracurium/neostigmine', but the citation only defines 'shallow neuromuscular block ... return of T2' and supports none of the dose, comparator, or country claims.",
+      "field_note": "unsupported design details"
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "medium",
+      "issue": "Result adds parenthetical label '(rocuronium)' and claims 'faster recovery to T4/T1=0.9' from a comparator time of '18:30'; the '18:30' comparator value is cited but attribution of the numeric comparator to neostigmine is only partially supported.",
+      "field_note": "minor over-attribution"
+    },
+    {
+      "field": "key_safety",
+      "severity": "high",
+      "issue": "Claims nausea 26%, pain 52%, vomiting 12% at '4 mg/kg' but the cited table rows are labeled by N (503/26% in the N=1921 column, 993/52%, 236/12%); the dose attribution '4 mg/kg' is inferred and the figures must be verified against the correct dose column.",
+      "field_note": "dose-column attribution risk"
+    },
+    {
+      "field": "advisory_committee.vote.text",
+      "severity": "medium",
+      "issue": "Text states the committee 'voted 14 Yes / 0 No that the efficacy, safety and overall risk-benefit profile support approval'; citations support 'Yes=14', 'No=0', and the vote question, so this is adequately supported \u2014 dismissable as verified.",
+      "note": "verified"
+    },
+    {
+      "field": "approval_program.priority_review",
+      "severity": "medium",
+      "issue": "priority_review marked present=false, but the card provides no citation confirming standard review; given a protracted NDA this is plausibly standard, but the designation status is not verified against the review's review-classification statement.",
+      "field_note": "unverified designation default"
+    },
+    {
+      "field": "first_cycle_approval.value",
+      "severity": "high",
+      "issue": "value=false is correct here because the review explicitly documents a prior Complete Response letter (September 20, 2013) and Not Approvable letter, consistent with crl_history.prior_crl=true \u2014 internally consistent, dismissable.",
+      "note": "consistent, no action needed"
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "4",
+        "text": "United States study comparing rocuronium or vecuronium reversal with sugammadex "
+      },
+      {
+        "field": "pivotal_trials[1]/population",
+        "number": "1",
+        "text": "Adults requiring reversal of rocuronium- or vecuronium-induced profound neuromus"
+      },
+      {
+        "field": "pivotal_trials[1]/population",
+        "number": "2",
+        "text": "Adults requiring reversal of rocuronium- or vecuronium-induced profound neuromus"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "4",
+        "text": "Sugammadex 4 mg/kg provided faster recovery: 2:52 (rocuronium) vs 50:22 for comp"
+      },
+      {
+        "field": "pivotal_trials[2]/design",
+        "number": "16",
+        "text": "United States and Canada study of immediate reversal: sugammadex 16 mg/kg at 3 m"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2015",
+        "text": "Not approved first cycle: a Not Approvable letter was issued July 31, 2008 and a"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2007",
+        "text": "BRIDION (sugammadex), a new molecular entity gamma-cyclodextrin, was submitted u"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

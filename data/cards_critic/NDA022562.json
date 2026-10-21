@@ -1,0 +1,22 @@
+{
+  "app": "NDA022562",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Automated flag for uncited number '21' is a false positive: the value is directly derivable from the cited '23 total patients minus 2 patients excluded' and corroborated by the cited long-term 'N2120' row."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "21",
+        "text": "N=23 total patients; 21 included in the efficacy analysis (2 excluded for hetero"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

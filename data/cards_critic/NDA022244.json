@@ -1,0 +1,58 @@
+{
+  "app": "NDA022244",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "indication",
+      "severity": "medium",
+      "issue": "Required indication field is null; no source document available to populate it."
+    },
+    {
+      "field": "target_moa",
+      "severity": "medium",
+      "issue": "Required target_moa field is null; no source document available to populate it."
+    },
+    {
+      "field": "modality",
+      "severity": "medium",
+      "issue": "Required modality field is null; no source document available to populate it."
+    },
+    {
+      "field": "key_safety",
+      "severity": "medium",
+      "issue": "Required key_safety field is null; no source document available to populate it."
+    },
+    {
+      "field": "receipt_date",
+      "severity": "medium",
+      "issue": "Required receipt_date field is null; no source document available to populate it."
+    },
+    {
+      "field": "pivotal_trials",
+      "severity": "medium",
+      "issue": "Required pivotal_trials array is empty; no pivotal trial data present."
+    },
+    {
+      "field": "first_cycle_approval.value",
+      "severity": "medium",
+      "issue": "first_cycle_approval.value is null rather than the inferential default (true when no prior CRL/RTF is shown); however it cannot be grounded since no review source exists."
+    },
+    {
+      "field": "_meta",
+      "severity": "high",
+      "issue": "No source documents in the environment pertain to LUSEDRA/NDA022244 (only unrelated CDRH 510(k) device clearances), so the card cannot be grounded or verified and is not release-ready."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": [
+      "indication",
+      "target_moa",
+      "modality",
+      "key_safety",
+      "receipt_date",
+      "pivotal_trials"
+    ]
+  }
+}

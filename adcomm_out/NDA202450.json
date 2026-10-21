@@ -1,0 +1,143 @@
+{
+  "app": "NDA202450",
+  "drug": "TUDORZA PRESSAIR",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "8d79035b-d9e8-52bf-aba6-474627b4b92b"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "c34ade11-6e3a-5380-a4f9-c7f57c55b74c"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "2f8b3ec0-2ab7-567d-b8fb-b2d7dcd311e4"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "dad67781-bdda-5f5e-90d8-691a04130130"
+    },
+    {
+      "doc_type": "AppLtr",
+      "doc_id": "3744d16e-308e-589a-9779-f6f7e6170866"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Pulmonary-Allergy Drugs Advisory Committee (PADAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "8d79035b-d9e8-52bf-aba6-474627b4b92b",
+      "line": 67,
+      "quote": "A meeting of the Pulmonary-Allergy Drugs Advisory Committee (PADAC) was held on February 23, 2012, to discuss this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "8d79035b-d9e8-52bf-aba6-474627b4b92b",
+      "found_lines": [
+        67
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "February 23, 2012",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "2f8b3ec0-2ab7-567d-b8fb-b2d7dcd311e4",
+      "line": 30,
+      "quote": "A meeting of the Pulmonary-Allergy Drugs Advisory Committee (PADAC) was convened February 23, 2012."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "2f8b3ec0-2ab7-567d-b8fb-b2d7dcd311e4",
+      "found_lines": [
+        30
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted in favor of approval 12 yes, 2 no (efficacy 14-0; safety adequately assessed 10 yes, 3 no, 1 abstention).",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "8d79035b-d9e8-52bf-aba6-474627b4b92b",
+      "line": 68,
+      "quote": "which is essentially the sum of the demonstration of efficacy and safety, the results were in favor of approval (12 yes, 2 no)."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "8d79035b-d9e8-52bf-aba6-474627b4b92b",
+      "found_lines": [
+        68
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Committee members (and several \"yes\" voters who voted with reluctance) were concerned that the safety database inadequately characterized cardiovascular risk, particularly because patients at risk for CV disease were excluded; multiple members called for a large phase IV trial focused on cardiovascular adverse events.",
+      "change": "FDA imposed a required postmarketing study (PMR 1903-1): a randomized, controlled trial to evaluate the risk of major adverse cardiac events with aclidinium bromide in COPD patients.",
+      "category": "Safety / Postmarketing requirement (cardiovascular)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "dad67781-bdda-5f5e-90d8-691a04130130",
+        "line": 1224,
+        "quote": "Multiple members expressed the need for a large phase IV trial of simple design to further evaluate safety, with a focus on cardiovascular adverse events.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "dad67781-bdda-5f5e-90d8-691a04130130",
+          "found_lines": [
+            1224
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "AppLtr",
+        "doc_id": "3744d16e-308e-589a-9779-f6f7e6170866",
+        "line": 28,
+        "quote": "1903-1: Conduct a randomized, controlled trial to evaluate the risk of major adverse cardiac events with acldinium bromide in patients with COPD.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "3744d16e-308e-589a-9779-f6f7e6170866",
+          "found_lines": [
+            28
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members gave specific recommendations on the design of the post-marketing trial: a duration of not less than 12 months (24 months or longer preferable), minimizing exclusions, and including an active comparator.",
+      "change": "The Division shaped the pending PMR trial (duration, treatment arms, patient population, statistical analysis) in light of the committee's feedback from the February 23, 2012 PADAC meeting.",
+      "category": "Postmarketing trial design",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "dad67781-bdda-5f5e-90d8-691a04130130",
+        "line": 1226,
+        "quote": "It was recommended that the duration be not less than 12 months, with 24 months or longer being preferable, and that the number of exclusions be kept to a minimum. Multiple members commented that the inclusion of an active comparator would be informative.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "dad67781-bdda-5f5e-90d8-691a04130130",
+          "found_lines": [
+            1226
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MedR",
+        "doc_id": "dad67781-bdda-5f5e-90d8-691a04130130",
+        "line": 59,
+        "quote": "The Division is currently reviewing the Applicant's proposal with a focus on trial duration, choice of treatment arms, the selection of an appropriate patient population, and the approach to statistical analysis, particularly in light of valuable feedback provided at the February 23, 2012, meeting of the Pulmonary-Allergy Drugs Advisory Committee (PADAC), as summarized in Section 9.3.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "dad67781-bdda-5f5e-90d8-691a04130130",
+          "found_lines": [
+            59
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Pulmonary-Allergy Drugs Advisory Committee (PADAC) met February 23, 2012, and voted favorably on efficacy (14-0), safety adequacy (10-3-1 with abstention), and overall approval (12-2), supporting approval of aclidinium bromide 400 mcg BID. The committee's principal reservation was residual uncertainty about cardiovascular safety, with multiple members calling for a large phase IV trial focused on CV events; FDA imposed a required postmarketing cardiovascular-outcomes trial (PMR 1903-1). Committee design recommendations (trial duration, minimal exclusions, active comparator) explicitly informed the Division's development of that PMR trial."
+}

@@ -1,0 +1,37 @@
+{
+  "app": "BLA761083",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "advisory_committee.vote",
+      "severity": "high",
+      "issue": "The citation quote references the 'Oncologic Drug Advisory Committee' for a hemophilia A product, indicating the quote belongs to the wrong drug/review context and does not properly support the general 'not presented to an advisory committee' statement."
+    },
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "low",
+      "issue": "False-positive uncited_number: 'Phase 3' is supported by the citation 'phase III clinical trial'; the '3' flag is cosmetic."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "False-positive uncited_number: 'Phase 3' is supported by the citation 'phase III clinical study'; the '3' flag is cosmetic."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "3",
+        "text": "Phase 3"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "3",
+        "text": "Randomized, multicenter, open-label Phase 3 study comparing prophylactic emicizu"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

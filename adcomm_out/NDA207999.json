@@ -1,0 +1,203 @@
+{
+  "app": "NDA207999",
+  "drug": "OCALIVA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_b0ff4dab-3080-5b3b-9373-a0d4480b0c91"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_7a68e940-b787-554f-87c9-7d1f47e60622"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_3d2737b9-f351-5e90-af7f-279e557fba81"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_bb20e10f-049b-5a52-8935-efb122ef833e"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Gastrointestinal Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_b0ff4dab-3080-5b3b-9373-a0d4480b0c91",
+      "line": 128,
+      "quote": "A Gastrointestinal Drugs Advisory Committee Meeting was held on April 7, 2016, to discuss this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_b0ff4dab3080",
+      "found_lines": [
+        128
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "April 7, 2016",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_3d2737b9-f351-5e90-af7f-279e557fba81",
+      "line": 91,
+      "quote": "A meeting of the Gastrointestinal Drugs Advisory Committee was convened on April 7, 2016."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_3d2737b9f351",
+      "found_lines": [
+        91
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 17 to 0 (17 Yes, 0 No) that there is substantial evidence to support accelerated approval of OCA based on its effect on alkaline phosphatase.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_3d2737b9-f351-5e90-af7f-279e557fba81",
+      "line": 105,
+      "quote": "The committee voted 17 Yes, and 0 No. Committee members cited the absence of a clear safety signal, the \u2018effect\u2019 observed, the rarity of the condition, and the unmet medical need."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_3d2737b9f351",
+      "found_lines": [
+        105
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee found insufficient data to support dosing of OCA in PBC patients with cirrhosis (Child-Pugh B and C) and called for additional postmarketing studies to characterize the dose in these subgroups.",
+      "change": "A postmarketing requirement (PMR 3057-1) was imposed to evaluate the safety, efficacy and PK of OCALIVA in PBC patients with Child-Pugh B and C hepatic impairment.",
+      "category": "PMR / hepatic-impairment dosing",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_b0ff4dab-3080-5b3b-9373-a0d4480b0c91",
+        "line": 134,
+        "quote": "The majority of the committee commented on the insufficient data to support dosing of OCA in PBC patients with cirrhosis (Child-Pugh B and C), and called for additional postmarketing studies to characterize the dose in these subgroups.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_b0ff4dab3080",
+          "found_lines": [
+            134
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_b0ff4dab-3080-5b3b-9373-a0d4480b0c91",
+        "line": 155,
+        "quote": "A randomized, placebo-controlled clinical trial to evaluate the safety, efficacy and steady-state pharmacokinetics of OCALIVA (obeticholic acid) in patients with primary biliary cholangitis (PBC) with Child-Pugh Classes B and C hepatic impairment, including Child-Pugh Class C patients with varying levels of Model for End-Stage Liver Disease (MELD) scores.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_b0ff4dab3080",
+          "found_lines": [
+            155
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee indicated the limited monotherapy data appeared sufficient to support OCA as monotherapy under accelerated approval, but that such patients should be further studied in the confirmatory trial.",
+      "change": "A postmarketing requirement (PMR 3057-2) was imposed to evaluate OCALIVA used as monotherapy in patients intolerant of or non-responsive to UDCA (and the indication was not restricted to UDCA add-on).",
+      "category": "PMR / monotherapy population",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_b0ff4dab-3080-5b3b-9373-a0d4480b0c91",
+        "line": 131,
+        "quote": "Committee members indicated that the limited amount of data in PBC patients treated with OCA alone appear sufficient to support the use of OCA as monotherapy under accelerated approval, but such patients should be further studied in the confirmatory trial.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_b0ff4dab3080",
+          "found_lines": [
+            131
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_b0ff4dab-3080-5b3b-9373-a0d4480b0c91",
+        "line": 157,
+        "quote": "A randomized, placebo-controlled trial to evaluate the safety and efficacy of OCALIVA (obeticholic acid) used as monotherapy in patients with primary biliary cholangitis (PBC) who are intolerant of or non-responsive to ursodeoxycholic acid (UDCA).",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_b0ff4dab3080",
+          "found_lines": [
+            157
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee acknowledged there were no data in advanced-disease patients and insufficient data in moderately advanced disease, and supported further study of OCA across moderately advanced and advanced stages of PBC.",
+      "change": "The confirmatory trial (PMR 3057-3) was required to be revised to enroll patients across the full spectrum of PBC stages (early, moderately advanced and advanced) and be powered to demonstrate benefit in each stage.",
+      "category": "PMR / disease-stage enrollment",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_3d2737b9-f351-5e90-af7f-279e557fba81",
+        "line": 99,
+        "quote": "The committee members acknowledged that there were no data on patients with advanced disease, and the data on patients with moderately advanced disease were insufficient to draw any conclusion regarding efficacy or safety. The committee members supported further study of OCA in patients with moderately advanced and advanced stages of PBC.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_3d2737b9f351",
+          "found_lines": [
+            99
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_b0ff4dab-3080-5b3b-9373-a0d4480b0c91",
+        "line": 159,
+        "quote": "Your ongoing trial (747-302) should be revised to include patients across the spectrum of stages of primary biliary cholangitis (PBC), including patients with early, moderately advanced and advanced PBC by the Rotterdam criteria, and should be adequately powered to demonstrate benefit in each stage.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_b0ff4dab3080",
+          "found_lines": [
+            159
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members commented that the increased incidence of hepatic adverse events was concerning and recommended monitoring hepatic adverse events and HDL cholesterol levels.",
+      "change": "The label lists pruritus, hepatic adverse events, and HDL cholesterol reduction as Warnings and Precautions to alert practitioners.",
+      "category": "Safety / labeling (Warnings and Precautions)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_b0ff4dab-3080-5b3b-9373-a0d4480b0c91",
+        "line": 130,
+        "quote": "Members commented that the increased incidence of hepatic adverse events is concerning, but it may be an acceptable risk given the benefit provided by OCA; they recommended that the confirmatory phase 4 trial(s) should attempt to better characterize hepatic adverse events, as well as monitor HDL cholesterol levels.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_b0ff4dab3080",
+          "found_lines": [
+            130
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_b0ff4dab-3080-5b3b-9373-a0d4480b0c91",
+        "line": 141,
+        "quote": "Pruritus, hepatic adverse events, and HDL cholesterol reduction are listed as warnings and precautions with the goal of alerting the practitioner to these issues in order to integrate them in the overall patient care decisions.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_b0ff4dab3080",
+          "found_lines": [
+            141
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "A Gastrointestinal Drugs Advisory Committee met on April 7, 2016 and voted 17 to 0 that there was substantial evidence to support accelerated approval of OCALIVA (obeticholic acid) for PBC based on its effect on alkaline phosphatase as a surrogate endpoint reasonably likely to predict clinical benefit. The committee's concerns about limited data in cirrhotic/advanced-stage patients and in monotherapy, and its call for further safety characterization, were explicitly tied by the review to the postmarketing requirements (Trials 3057-1, 3057-2, 3057-3) and shaped the confirmatory-trial design and enrollment. The verbatim AdComm transcript is not in paperclip; these facts come from the FDA review documents' accounts of the meeting."
+}

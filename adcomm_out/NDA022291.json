@@ -1,0 +1,107 @@
+{
+  "app": "NDA022291",
+  "drug": "PROMACTA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "de79fea5-5e2d-5041-bb09-751d757f9cf5"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "f334b5a3-8d41-5013-b1e3-3341683a0f73"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "306e8450-aeab-57ef-91de-bab60c1466fe"
+    },
+    {
+      "doc_type": "StatR",
+      "doc_id": "459e0f76-d2dc-57c3-b9c6-2a05865b37c1"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Oncologic Drugs Advisory Committee (ODAC)",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "306e8450-aeab-57ef-91de-bab60c1466fe",
+      "line": 9,
+      "quote": "OSE's concerns regarding the proposed RMP were addressed in the OSE briefing document for the May 30, 2008 Oncologic Drugs Advisory Committee (ODAC) Meeting."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "306e8450-aeab-57ef-91de-bab60c1466fe",
+      "found_lines": [
+        9
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "May 30, 2008",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "f334b5a3-8d41-5013-b1e3-3341683a0f73",
+      "line": 363,
+      "quote": "On May 30, 2008 a meeting of the Oncology Drug Advisory Committee was held in Chicago, Illinois to discuss eltrombopag for the short-term treatment of ITP."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "f334b5a3-8d41-5013-b1e3-3341683a0f73",
+      "found_lines": [
+        363
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted unanimously (Yes=16, No=0, Abstain=0) that the current clinical data demonstrate a favorable risk-benefit profile for short-term treatment of patients with chronic ITP. The committee did not vote on Question 1 (whether marketing should be delayed pending long-term data).",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "f334b5a3-8d41-5013-b1e3-3341683a0f73",
+      "line": 369,
+      "quote": "Voted : Yes=16 No = 0 Abstain = 0"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "f334b5a3-8d41-5013-b1e3-3341683a0f73",
+      "found_lines": [
+        369
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Committee members were concerned that eltrombopag would be used off-label for multiple short-term courses and that there was a lack of adverse-event/safety data for long-term use; they agreed a risk management plan should be put in place to assure safe use.",
+      "change": "FDA determined that a Risk Evaluation and Mitigation Strategy (REMS) \u2014 the Promacta CARES Program (including a Medication Guide, Elements to Assure Safe Use, an Implementation Plan, and a timetable for assessment) \u2014 was necessary for approval.",
+      "category": "Safety / REMS (risk management)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "f334b5a3-8d41-5013-b1e3-3341683a0f73",
+        "line": 370,
+        "quote": "Committee members were concerned that eltrombopag would be used for multiple short terms and were concerned with the lack of adverse event data for long term use.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "f334b5a3-8d41-5013-b1e3-3341683a0f73",
+          "found_lines": [
+            370
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "306e8450-aeab-57ef-91de-bab60c1466fe",
+        "line": 9,
+        "quote": "Based on the ODAC discussion, similar risk concerns to the first and only other thrombopoietin receptor agonist, romiplostim (Nplate), and subsequent FDA internal discussions, it was determined that a Risk Evaluation and Mitigation Strategy (REMS) was necessary to ensure that the benefits of eltrombopag treatment exceed the risks.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "306e8450-aeab-57ef-91de-bab60c1466fe",
+          "found_lines": [
+            9
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Oncologic Drugs Advisory Committee (ODAC) meeting was held May 30, 2008 to consider eltrombopag (Promacta) for short-term treatment of chronic ITP. On the only question put to a vote, the committee unanimously (16-0-0) agreed the clinical data showed a favorable risk-benefit profile for short-term use, but members were concerned about off-label use for repeated short courses and the lack of long-term safety data. Based on the ODAC discussion, FDA determined a REMS (the Promacta CARES Program) was necessary to assure safe use as a condition of approval."
+}

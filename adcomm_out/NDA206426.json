@@ -1,0 +1,91 @@
+{
+  "app": "NDA206426",
+  "drug": "RAPIVAB",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_e3f3ce6b-ca70-5e47-85e9-a4938cf8d623"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_b6a8b839-df5f-59eb-8097-1d2cc7279b9a"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_4bd12846-c312-5914-b64c-d9cd9e46e604"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_95513cf3-4117-5ee3-ba4a-02c8a2d4f759"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_b0f1fdc6-074a-5f82-93cc-1dd86a753bb5"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Antiviral Drugs Advisory Committee (would have been the relevant committee; not convened)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_e3f3ce6b-ca70-5e47-85e9-a4938cf8d623",
+      "line": 84,
+      "quote": "The application was not presented before the Antiviral Drugs Advisory Committee because it was the third drug in the class of neuraminidase inhibitors."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_e3f3ce6bca70",
+      "found_lines": [
+        84
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "No advisory committee meeting was held",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_4bd12846-c312-5914-b64c-d9cd9e46e604",
+      "line": 21,
+      "quote": "NDA 206426 was not presented before the Antiviral Drugs Advisory Committee."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_4bd12846c312",
+      "found_lines": [
+        21
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "No advisory committee was convened, so there was no vote or recommendation",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_b6a8b839-df5f-59eb-8097-1d2cc7279b9a",
+      "line": 166,
+      "quote": "An Advisory Committee was not considered warranted as peramivir is the third drug in its class to be reviewed. Safety and efficacy were considered similar to the currently approved neuraminidase inhibitors."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_b6a8b839df5f",
+      "found_lines": [
+        166
+      ]
+    }
+  },
+  "linkages": [],
+  "no_adcom_quote": {
+    "doc_type": "SumR",
+    "doc_id": "fda_e3f3ce6b-ca70-5e47-85e9-a4938cf8d623",
+    "line": 84,
+    "quote": "The application was not presented before the Antiviral Drugs Advisory Committee because it was the third drug in the class of neuraminidase inhibitors. Further, a preliminary review of the NDA, including labeling did not reveal any significant clinical or safety issues that would benefit from an advisory committee discussion."
+  },
+  "summary": "No advisory committee was convened for RAPIVAB (peramivir, NDA206426). The FDA review documents (Summary Review, Cross-Discipline Team Leader review, Office Director memo, and Medical Review) consistently state that the Antiviral Drugs Advisory Committee was not warranted because peramivir was the third neuraminidase inhibitor in its class and the preliminary review revealed no significant clinical or safety issues requiring AC discussion. Because no committee met, there are no AC-concern-to-change linkages.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "fda_e3f3ce6bca70",
+    "found_lines": [
+      84
+    ]
+  }
+}

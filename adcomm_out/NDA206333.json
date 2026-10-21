@@ -1,0 +1,103 @@
+{
+  "app": "NDA206333",
+  "drug": "KYBELLA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_861f5bdc-afd9-5cae-aa67-ac485858fb18"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_d4fd1425-690a-5ce4-8963-a65ed0757a56"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_989c3d8b-e4d5-5b39-8c8b-1f5e586e984b"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Dermatologic and Ophthalmologic Drugs Advisory Committee (DODAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_861f5bdc-afd9-5cae-aa67-ac485858fb18",
+      "line": 57,
+      "quote": "A Dermatologic and Ophthalmologic Drugs Advisory Committee meeting was convened on March 9, 2015 to discuss the safety and efficacy results for this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_861f5bdcafd9",
+      "found_lines": [
+        57
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "March 9, 2015",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_d4fd1425-690a-5ce4-8963-a65ed0757a56",
+      "line": 83,
+      "quote": "A DODAC Advisory Committee meeting was held to discuss this application on March 9, 2015."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_d4fd1425690a",
+      "found_lines": [
+        83
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 17-0 in favor of approval of deoxycholic acid injection for the submental fat indication.",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_d4fd1425-690a-5ce4-8963-a65ed0757a56",
+      "line": 89,
+      "quote": "The members of the panel voted 17-0 in favor of supporting the approval of the application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_d4fd1425690a",
+      "found_lines": [
+        89
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Committee members raised concern about potential off-label use of the product at application sites beyond the neck/submental area, for which no safety/efficacy data existed.",
+      "change": "Labeling includes a Limitation of Use statement that use outside the submental area has not been established and is not recommended.",
+      "category": "Labeling / Limitation of use (off-label use)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_d4fd1425-690a-5ce4-8963-a65ed0757a56",
+        "line": 90,
+        "quote": "There was some concern during the panel discussion with potential off label use of the product for application sites beyond the neck area, but no data was available to inform this discussion.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_d4fd1425690a",
+          "found_lines": [
+            90
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_d4fd1425-690a-5ce4-8963-a65ed0757a56",
+        "line": 90,
+        "quote": "Labeling will contain a limitation of use statement that \u201cThe safe and effective use of ATX-101 has not been established outside the submental area and is not recommended.\u201d",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_d4fd1425690a",
+          "found_lines": [
+            90
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "A Dermatologic and Ophthalmologic Drugs Advisory Committee (DODAC) meeting was held on March 9, 2015, convened as a public forum because Kybella (deoxycholic acid/ATX-101) was a new chemical entity with a novel indication rather than because of unresolved review issues. The committee voted 17-0 that the data supported approval for improvement in the appearance of moderate to severe submental fat. The only substantive concern raised was potential off-label use beyond the submental area, which the review documents tie to a labeling Limitation of Use statement stating that use outside the submental area is not established and not recommended."
+}

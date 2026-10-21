@@ -1,0 +1,203 @@
+{
+  "app": "BLA125476",
+  "drug": "ENTYVIO",
+  "docs_read": [
+    {
+      "doc_type": "CrossR",
+      "doc_id": "b593ae46-ffd8-5301-ab2b-e5aa5425c6fa"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "98d45e26-2fd7-5cd5-ba64-8e7877935ac5"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "1001645c-48de-5898-85a0-18abb371b0bf"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "f8c44f8f-4128-5f6b-a411-d610ce817aa4"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Joint Meeting of the Gastrointestinal Drugs Advisory Committee (GIDAC) and the Drug Safety and Risk Management (DSaRM) Advisory Committee",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "b593ae46-ffd8-5301-ab2b-e5aa5425c6fa",
+      "line": 513,
+      "quote": "A Joint Meeting of the Gastrointestinal Drugs Advisory Committee and the Drug Safety and Risk Management Advisory Committee was convened to discuss this application on December 9, 2013."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "b593ae46-ffd8-5301-ab2b-e5aa5425c6fa",
+      "found_lines": [
+        513
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "December 9, 2013",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "b593ae46-ffd8-5301-ab2b-e5aa5425c6fa",
+      "line": 513,
+      "quote": "A Joint Meeting of the Gastrointestinal Drugs Advisory Committee and the Drug Safety and Risk Management Advisory Committee was convened to discuss this application on December 9, 2013."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "b593ae46-ffd8-5301-ab2b-e5aa5425c6fa",
+      "found_lines": [
+        513
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The joint committee recommended approval for both indications. All 21 members recommended approval for ulcerative colitis, and 20 of 21 members recommended approval for Crohn's disease. On efficacy, members voted YES=12/NO=9 for CD induction and YES=19/NO=1/ABSTAIN=1 for CD maintenance; the committee voted unanimously (21-0) that the PML risk was adequately characterized to support approval, and recommended postmarket measures to further quantify PML risk.",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "f8c44f8f-4128-5f6b-a411-d610ce817aa4",
+      "line": 61,
+      "quote": "The Joint Advisory Committee recommended approval of vedolizumab for both proposed indications and recommended that postmarket risk assessment measures be employed to further quantify the potential risk of PML."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "f8c44f8f-4128-5f6b-a411-d610ce817aa4",
+      "found_lines": [
+        61
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee was asked whether the indicated population should be restricted to patients who had failed immunomodulators or TNF-alpha antagonists (excluding those who failed steroids only). The majority voted that the benefits outweigh the risks for the broader proposed population and that restricting the indication would be burdensome in clinical practice.",
+      "change": "The indication accepted the broader proposed population (patients who had failed steroids, immunomodulators, or TNF-alpha antagonists) rather than the more restrictive population; the review states this was consistent with the Advisory Committee's recommendations.",
+      "category": "Population / indicated population (not narrowed)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "b593ae46-ffd8-5301-ab2b-e5aa5425c6fa",
+        "line": 534,
+        "quote": "The majority of the members agreed that the benefits outweigh the potential risks of vedolizumab to support the approval for the proposed UC population that have failed steroids or immunosuppressants or \\text{TNF}\\alpha-antagonists, and commented that restrictions would be burdensome in clinical practice.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "b593ae46-ffd8-5301-ab2b-e5aa5425c6fa",
+          "found_lines": [
+            534
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "b593ae46-ffd8-5301-ab2b-e5aa5425c6fa",
+        "line": 599,
+        "quote": "The Applicant's proposed indicated population of patients that had failed steroids, immunomodulators, or TNF\\alpha-antagonists was accepted (rather than the more restrictive indicated population of patients that had failed immunomodulators or TNF\\alpha-antagonists); this is consistent with the recommendations of the Advisory Committee (see Section 9 of this CDTL Review).",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "b593ae46-ffd8-5301-ab2b-e5aa5425c6fa",
+          "found_lines": [
+            599
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee was asked whether concomitant immunosuppressants should be limited to a specific duration (e.g., induction only), as had been required in the US trials. The committee (voting NO=19, YES=1, ABSTAIN=1) agreed they should not be limited to a specific duration.",
+      "change": "The labeling did not restrict concomitant immunomodulators to induction only; the review states acceptance of no duration restriction was consistent with the Advisory Committee's recommendations.",
+      "category": "Labeling / concomitant medication restriction (not imposed)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "b593ae46-ffd8-5301-ab2b-e5aa5425c6fa",
+        "line": 530,
+        "quote": "The committee agreed that concomitant immunosuppressants should not be limited to a specific duration.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "b593ae46-ffd8-5301-ab2b-e5aa5425c6fa",
+          "found_lines": [
+            530
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "b593ae46-ffd8-5301-ab2b-e5aa5425c6fa",
+        "line": 599,
+        "quote": "The Applicant's proposal that concomitant immunomodulators should not be restricted to induction only was accepted; this is consistent with the recommendations of the Advisory Committee (see Section 9 of this CDTL Review).",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "b593ae46-ffd8-5301-ab2b-e5aa5425c6fa",
+          "found_lines": [
+            599
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee commented that it is important to quantify the potential PML risk and to monitor other infections in addition to PML, and that post-market risk mitigation strategies should not be burdensome for practitioners.",
+      "change": "The risk management strategy FDA adopted, in consideration of input from the Advisory Committee members, includes enhanced pharmacovigilance, continuation of an ongoing long-term safety study, and a long-term post-marketing observational study.",
+      "category": "Postmarketing / PMR observational study + pharmacovigilance",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "b593ae46-ffd8-5301-ab2b-e5aa5425c6fa",
+        "line": 543,
+        "quote": "The committee members commented that it is important to quantify PML risk and to monitor other infections in addition to PML. The committee also noted that post-market risk mitigation strategies should not be burdensome for the practitioners.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "b593ae46-ffd8-5301-ab2b-e5aa5425c6fa",
+          "found_lines": [
+            543
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "1001645c-48de-5898-85a0-18abb371b0bf",
+        "line": 159,
+        "quote": "The risk management strategy recommended by OND and OSE, in consideration of input from the GIDAC-DSaRM Advisory Committee members and the ROC, includes physician and patient labeling, enhanced pharmacovigilance, continuation of an ongoing long-term safety study, and a long-term post-marketing observational study.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "1001645c-48de-5898-85a0-18abb371b0bf",
+          "found_lines": [
+            159
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee voted unanimously (21-0) that the applicant had adequately characterized the potential risk of PML to support approval, noting that continued monitoring and observation remain necessary; members emphasized that any risk mitigation beyond labeling should not be overly burdensome.",
+      "change": "FDA determined, based on the discussions including the December 2013 joint GIDAC-DSaRM Advisory Committee meeting, that the benefits of Entyvio outweigh the risks without a REMS.",
+      "category": "Safety / REMS (not required)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "b593ae46-ffd8-5301-ab2b-e5aa5425c6fa",
+        "line": 527,
+        "quote": "The committee agreed that the applicant has adequately characterized the potential risk of PML with vedolizumab with the current data to support approval. Members noted that continued monitoring and observation are still necessary to assess the potential risk of PML and the occurrence of serious infections.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "b593ae46-ffd8-5301-ab2b-e5aa5425c6fa",
+          "found_lines": [
+            527
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "1001645c-48de-5898-85a0-18abb371b0bf",
+        "line": 156,
+        "quote": "Risk mitigation options were discussed at an October 2013 REMS Oversight Committee (ROC) meeting, the December 2013 joint GIDAC-DSaRM Advisory Committee meeting, and a February 2014 ROC meeting. Based on these discussions, FDA determined that the benefits of Entyvio outweigh the risks without a REMS.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "1001645c-48de-5898-85a0-18abb371b0bf",
+          "found_lines": [
+            156
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "A joint meeting of the Gastrointestinal Drugs Advisory Committee (GIDAC) and the Drug Safety and Risk Management (DSaRM) Advisory Committee was held on December 9, 2013, and recommended approval of vedolizumab (Entyvio) for both ulcerative colitis (21-0) and Crohn's disease (20 of 21), with the committee voting unanimously that the PML risk was adequately characterized to support approval. Driven largely by concern over PML, the committee's recommendations shaped the approval: the broader indicated population was retained and concomitant immunomodulators were not restricted to induction (both explicitly tied in the CDTL review to the AC recommendations because members felt restrictions would be burdensome). The committee's call to quantify PML risk without burdensome measures fed into FDA's risk management strategy of enhanced pharmacovigilance plus a long-term post-marketing observational study, and FDA ultimately determined no REMS was needed."
+}

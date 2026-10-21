@@ -1,0 +1,28 @@
+{
+  "app": "BLA125388",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 318)",
+  "_raw": "Analyzing the card for quality issues.\n\nKey observations:\n- `result[0]` for SG035-0003: text says \"ORR 73% (95% CI 65, 83) with median DOR 6.7 months\" \u2014 but the phase/endpoint describes this trial. The surrogate endpoint for accelerated approval was CR (32%). ORR data is supported by citation. OK.\n-",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "58",
+        "text": "N=58"
+      },
+      {
+        "field": "approval_program/accelerated_approval/surrogate_endpoint",
+        "number": "0003",
+        "text": "Overall response/complete remission rate (SG035-0003: 32% complete remission rat"
+      },
+      {
+        "field": "approval_program/accelerated_approval/confirmatory_requirement",
+        "number": "3",
+        "text": "Required confirmatory trials to verify clinical benefit; successful completion o"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

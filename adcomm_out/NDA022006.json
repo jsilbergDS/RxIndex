@@ -1,0 +1,167 @@
+{
+  "app": "NDA022006",
+  "drug": "SABRIL",
+  "docs_read": [
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "558b653f-cd61-5c82-8625-3ed1f1ecf9fa"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "56ff739e-673e-59bd-bdbf-be13a15116ef"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "f8186641-d23f-59e0-8f2c-ec2eddf6e06f"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Peripheral and Central Nervous System Drugs Advisory Committee (PCNS)",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "558b653f-cd61-5c82-8625-3ed1f1ecf9fa",
+      "line": 74,
+      "quote": "Peripheral and Central Nervous System Advisory Committee (PCNS), who met on Jan 7-8, voting 23-0 to recommend approval"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "558b653f-cd61-5c82-8625-3ed1f1ecf9fa",
+      "found_lines": [
+        74
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "January 7-8, 2009 (the Infantile Spasms / NDA 22-006 recommendation was voted on January 8, 2009)",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "56ff739e-673e-59bd-bdbf-be13a15116ef",
+      "line": 693,
+      "quote": "the recommendations made by the Advisory Committee on January 8, 2009"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "56ff739e-673e-59bd-bdbf-be13a15116ef",
+      "found_lines": [
+        693
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted unanimously (23-0) to recommend approval of Sabril (vigabatrin) for infantile spasms, endorsing approval only under restricted conditions with a REMS.",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "56ff739e-673e-59bd-bdbf-be13a15116ef",
+      "line": 139,
+      "quote": "Regarding NDA 22-006, for the use of Sabril in patients with IS, the committee voted unanimously to recommend approval of the application (23-0)"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "56ff739e-673e-59bd-bdbf-be13a15116ef",
+      "found_lines": [
+        139
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee was concerned about Sabril's visual toxicity (progressive, permanent bilateral visual field loss) that monitoring cannot prevent, and concluded the drug should be available only under restricted conditions.",
+      "change": "Sabril was approved only under a REMS with restricted distribution (the SHARE program), as the committee agreed.",
+      "category": "Safety / REMS restricted distribution",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "558b653f-cd61-5c82-8625-3ed1f1ecf9fa",
+        "line": 74,
+        "quote": "despite concern with the drug's visual effects, which even with monitoring, will not be prevented",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "558b653f-cd61-5c82-8625-3ed1f1ecf9fa",
+          "found_lines": [
+            74
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "558b653f-cd61-5c82-8625-3ed1f1ecf9fa",
+        "line": 74,
+        "quote": "It will be approved, as the PCNS agreed, only under the REMS conditions that will be described below",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "558b653f-cd61-5c82-8625-3ed1f1ecf9fa",
+          "found_lines": [
+            74
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee agreed that the sponsor should be required to study, post-approval, whether chronic treatment with vigabatrin provides additional benefit beyond a brief treatment course (i.e., the needed duration of therapy).",
+      "change": "Approval included a post-marketing commitment to conduct a trial in infantile spasms to characterize the minimum duration of therapy needed for sustained suppression of spasms.",
+      "category": "Post-marketing study (PMR/PMC)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "56ff739e-673e-59bd-bdbf-be13a15116ef",
+        "line": 694,
+        "quote": "The committee agreed that the sponsor should be required to adequately study (post-approval) whether chronic treatment with vigabatrin provides an additional benefit beyond a brief treatment course",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "56ff739e-673e-59bd-bdbf-be13a15116ef",
+          "found_lines": [
+            694
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "558b653f-cd61-5c82-8625-3ed1f1ecf9fa",
+        "line": 90,
+        "quote": "There is, in addition, a post-marketing commitment to conduct a trial in IS to characterize the minimum duration of therapy needed for sustained suppression of spasms",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "558b653f-cd61-5c82-8625-3ed1f1ecf9fa",
+          "found_lines": [
+            90
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee concluded there is no reliable way to assess visual function in these very young IS patients, so visual toxicity may not be detected before it is severe and irreversible, and recommended that parents/caregivers must be notified of this fact.",
+      "change": "The approved labeling carries a detailed Boxed Warning about vision loss (emphasizing its nature, the need for vision testing, and restricted distribution), paired with a Medguide in the REMS.",
+      "category": "Safety / Boxed warning / caregiver notification",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "56ff739e-673e-59bd-bdbf-be13a15116ef",
+        "line": 139,
+        "quote": "they recommended that parents/caregivers must be notified of this fact",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "56ff739e-673e-59bd-bdbf-be13a15116ef",
+          "found_lines": [
+            139
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "558b653f-cd61-5c82-8625-3ed1f1ecf9fa",
+        "line": 97,
+        "quote": "Full labeling has a very detailed Boxed Warning about vision loss",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "558b653f-cd61-5c82-8625-3ed1f1ecf9fa",
+          "found_lines": [
+            97
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "A 2-day meeting of the Peripheral and Central Nervous System Drugs Advisory Committee (January 7-8, 2009) reviewed Sabril (vigabatrin); for the infantile spasms application (NDA 22-006) the committee voted unanimously 23-0 on January 8, 2009 to recommend approval despite the drug's irreversible visual-field toxicity. Acting on the committee's advice, FDA approved Sabril only under a REMS with restricted distribution (the SHARE program) and a Boxed Warning for vision loss, and included a post-marketing commitment to study the needed duration of therapy. The committee specifically noted that visual function cannot be reliably assessed in these very young patients, so it emphasized caregiver notification rather than mandatory ophthalmologic monitoring for the IS indication."
+}

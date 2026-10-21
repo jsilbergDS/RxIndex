@@ -1,0 +1,108 @@
+{
+  "app": "NDA205422",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting ',' delimiter: line 19 column 6 (char 976)",
+  "_raw": "<think>\nLet me analyze this card for issues.\n\nKey things to check:\n\n1. **pivotal_trials[0].result** - 1 mg (-3.4, p=0.16) and 2 mg (-3.1, p=0.15). Wait, let me check the citation. The citation says \"Treatment Difference -3.4 -3.1 -6.5\". The columns are 1mg, 2mg, 4mg. So 1mg=-3.4 (p=0.16), 2mg=-3.1 (",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "331",
+        "text": "Study 230 (331-10-230), schizophrenia"
+      },
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "10",
+        "text": "Study 230 (331-10-230), schizophrenia"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "1",
+        "text": "Analyzed per arm: Brex 1 mg N=117, 2 mg N=179, 4 mg N=181, placebo N=180"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "2",
+        "text": "Analyzed per arm: Brex 1 mg N=117, 2 mg N=179, 4 mg N=181, placebo N=180"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "4",
+        "text": "Analyzed per arm: Brex 1 mg N=117, 2 mg N=179, 4 mg N=181, placebo N=180"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "0.25",
+        "text": "Analyzed per arm: Brex 0.25 mg N=87, 2 mg N=180, 4 mg N=178, placebo N=178"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "2",
+        "text": "Analyzed per arm: Brex 0.25 mg N=87, 2 mg N=180, 4 mg N=178, placebo N=178"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "4",
+        "text": "Analyzed per arm: Brex 0.25 mg N=87, 2 mg N=180, 4 mg N=178, placebo N=178"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "6",
+        "text": "Both brexpiprazole 2 mg/day (LS mean difference -8.72, p<0.0001) and 4 mg/day (-"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.38",
+        "text": "Both brexpiprazole 2 mg/day (LS mean difference -8.72, p<0.0001) and 4 mg/day (-"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.0056",
+        "text": "Both brexpiprazole 2 mg/day (LS mean difference -8.72, p<0.0001) and 4 mg/day (-"
+      },
+      {
+        "field": "pivotal_trials[2]/trial_name",
+        "number": "331",
+        "text": "Study 228 (331-10-228), adjunctive treatment of MDD"
+      },
+      {
+        "field": "pivotal_trials[2]/trial_name",
+        "number": "10",
+        "text": "Study 228 (331-10-228), adjunctive treatment of MDD"
+      },
+      {
+        "field": "pivotal_trials[2]/n",
+        "number": "2",
+        "text": "Per arm: Brex 2 mg + ADT N=187, placebo + ADT N=191"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "2",
+        "text": "Brexpiprazole 2 mg + ADT superior to placebo + ADT in MADRS change at Week 14 (L"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "14",
+        "text": "Brexpiprazole 2 mg + ADT superior to placebo + ADT in MADRS change at Week 14 (L"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "11",
+        "text": "Approved effective on the date of the approval letter following review of the ap"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2014",
+        "text": "Approved effective on the date of the approval letter following review of the ap"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "26",
+        "text": "2929-2: Deferred pediatric Phase 3 efficacy study (6-week placebo/active-control"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

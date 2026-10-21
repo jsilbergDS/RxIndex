@@ -1,0 +1,199 @@
+{
+  "app": "NDA209817",
+  "drug": "NUZYRA",
+  "docs_read": [
+    {
+      "doc_type": "MultiR",
+      "doc_id": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "1825c43e-ab90-5741-8320-20ae30ee9020"
+    },
+    {
+      "doc_type": "Approv",
+      "doc_id": "e6f4894a-38bd-5ad5-bab7-30da78fe779f"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Antimicrobial Drugs Advisory Committee (AMDAC)",
+    "quote": {
+      "doc_type": "MultiR",
+      "doc_id": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+      "line": 1454,
+      "quote": "The Antimicrobial Drugs Advisory Committee (AMDAC) of the Food and Drug Administration, Center for Drug Evaluation and Research met on August 8, 2018."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+      "found_lines": [
+        1454
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "August 8, 2018",
+    "quote": {
+      "doc_type": "MultiR",
+      "doc_id": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+      "line": 1454,
+      "quote": "The Antimicrobial Drugs Advisory Committee (AMDAC) of the Food and Drug Administration, Center for Drug Evaluation and Research met on August 8, 2018."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+      "found_lines": [
+        1454
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted favorably on both indications: for ABSSSI, 17 members voted \"yes\" and 1 \"no\"; for CABP, 14 voted \"yes\" and 4 \"no\" that safety and efficacy had been demonstrated.",
+    "quote": {
+      "doc_type": "MultiR",
+      "doc_id": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+      "line": 1457,
+      "quote": "Seventeen (17) members voted \u201cyes\u201d that safety and efficacy had been demonstrated, with one member who voted \u201cno\u201d."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+      "found_lines": [
+        1457
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Because few patients in the ABSSSI trials had bacteremia and cure rates were lower in bacteremic patients, committee members suggested the indication should not include patients with concurrent bacteremia.",
+      "change": "The FDA-approved CABP indication removed the applicant's proposed \"including cases with concurrent bacteremia\" language, indicating the drug for adult CABP patients caused by listed susceptible microorganisms only.",
+      "category": "Indication / population restriction",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MultiR",
+        "doc_id": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+        "line": 1458,
+        "quote": "committee members suggested that the indication should not include patients with concurrent bacteremia",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+          "found_lines": [
+            1458
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MultiR",
+        "doc_id": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+        "line": 1468,
+        "quote": "NUZYRA is indicated for the treatment of adult patients with CABP caused by the following susceptible microorganisms: S. pneumoniae, S. aureus (methicillin-susceptible isolates), H. influenzae, H. parainfluenzae, K. pneumoniae, L. pneumophila, M. pneumoniae, and C. pneumoniae.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+          "found_lines": [
+            1468
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members mentioned that the label should include information about the mortality signal seen in the community-acquired bacterial pneumonia (CABP) trial.",
+      "change": "FDA added a Warnings and Precautions entry describing the mortality imbalance in CABP (2% NUZYRA vs 1% moxifloxacin) with a recommendation to closely monitor higher-risk patients.",
+      "category": "Safety / Labeling warning",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MultiR",
+        "doc_id": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+        "line": 1458,
+        "quote": "the label should include information about the detailed mortality signal from the community acquired bacterial pneumonia (CABP) trial",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+          "found_lines": [
+            1458
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MultiR",
+        "doc_id": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+        "line": 1468,
+        "quote": "Mortality Imbalance in Patients with CABP: In the CABP trial, mortality rate of 2% was observed in NUZYRA-treated patients compared to 1% in moxifloxacin-treated patients.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+          "found_lines": [
+            1468
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Given the mortality safety signal in the CABP trial, committee members recommended postmarketing evaluations to further examine the mortality signal.",
+      "change": "FDA imposed a 505(o) safety postmarketing requirement (PMR-4), an active-controlled trial in adults with CABP, to further evaluate the mortality imbalance.",
+      "category": "Safety / Postmarketing requirement",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MultiR",
+        "doc_id": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+        "line": 1462,
+        "quote": "The committee members recommended postmarketing evaluations to further examine the safety signal of mortality.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+          "found_lines": [
+            1462
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MultiR",
+        "doc_id": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+        "line": 1485,
+        "quote": "The safety signal of the mortality imbalance in the CABP trial will be further evaluated in a prospective",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+          "found_lines": [
+            1485
+          ]
+        }
+      }
+    },
+    {
+      "concern": "One committee member recommended additional pharmacokinetic studies of safety and tolerability in children.",
+      "change": "FDA required a pediatric postmarketing requirement (PMR-1) to conduct a single-dose pharmacokinetic and safety study in children ages 8 to 17.",
+      "category": "Pediatric / Postmarketing requirement",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MultiR",
+        "doc_id": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+        "line": 1458,
+        "quote": "One member recommended additional studies of pharmacokinetics regarding safety and tolerability in children.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+          "found_lines": [
+            1458
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MultiR",
+        "doc_id": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+        "line": 1479,
+        "quote": "PMR-1 Conduct a single dose pharmacokinetic and safety study in children ages 8 to 17 years who are receiving antibacterial drug therapy for an infectious disease",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+          "found_lines": [
+            1479
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Antimicrobial Drugs Advisory Committee (AMDAC) met on August 8, 2018 and voted favorably on both proposed indications for omadacycline (NUZYRA): 17-1 for ABSSSI and 14-4 for CABP, with the discussion dominated by an unexplained mortality imbalance in the CABP trial. Committee concerns about that mortality signal, concurrent bacteremia, and pediatric data map onto the final approval through a CABP mortality Warning in labeling, removal of concurrent-bacteremia language from the indication, and postmarketing requirements including a 505(o) adult CABP safety trial and a pediatric PK study. The AMDAC review is captured in the joint 209816/209817 Multidiscipline Review; the verbatim transcript is not in paperclip and the review documents describe the committee's account without an explicit clause tying each concern to each change."
+}

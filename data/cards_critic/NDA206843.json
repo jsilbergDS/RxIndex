@@ -1,0 +1,62 @@
+{
+  "app": "NDA206843",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "modality",
+      "severity": "low",
+      "issue": "Value 'Small molecule' is only indirectly supported by a citation describing oral tablets; the quote does not explicitly state the molecular modality."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Automated flag on number '206843' is a false positive (application identifier, not an efficacy/safety value)."
+    },
+    {
+      "field": "approval_program.breakthrough_therapy.basis",
+      "severity": "low",
+      "issue": "Automated flag on number '3' is a false positive (genotype/class-order designation, not an efficacy/safety value)."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flags on numbers '3', '13', '2015' are false positives (genotype designation and resubmission date components, not efficacy/safety values)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "206843",
+        "text": "On November 25, 2014 the agency issued a complete response letter for NDA 206843"
+      },
+      {
+        "field": "approval_program/breakthrough_therapy/basis",
+        "number": "3",
+        "text": "Breakthrough Therapy designation was granted to the DCV/asunaprevir (DUAL) combi"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Daclatasvir (an HCV NS5A inhibitor) received Fast Track designation in 2008; the"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "13",
+        "text": "Daclatasvir (an HCV NS5A inhibitor) received Fast Track designation in 2008; the"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2015",
+        "text": "Daclatasvir (an HCV NS5A inhibitor) received Fast Track designation in 2008; the"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Daclatasvir (an HCV NS5A inhibitor) received Fast Track designation in 2008; the"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

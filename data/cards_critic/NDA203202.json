@@ -1,0 +1,47 @@
+{
+  "app": "NDA203202",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.accelerated_approval.surrogate_endpoint",
+      "severity": "low",
+      "issue": "Flagged uncited number '1' is part of the identifier 'OHSA Item 1', not an efficacy figure; false positive."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged numbers 28, 2012, 2013 are components of dates (March 28, 2012; February 8, 2013), which are cited in context and should be excluded; false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/accelerated_approval/surrogate_endpoint",
+        "number": "1",
+        "text": "Short-term (Week 1) improvement in symptoms of NOH (OHSA Item 1 dizziness score)"
+      },
+      {
+        "field": "approval_program/accelerated_approval/surrogate_endpoint",
+        "number": "1",
+        "text": "Short-term (Week 1) improvement in symptoms of NOH (OHSA Item 1 dizziness score)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "28",
+        "text": "Droxidopa (Northera) received accelerated approval under Subpart H (21 CFR 314.5"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2012",
+        "text": "Droxidopa (Northera) received accelerated approval under Subpart H (21 CFR 314.5"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2013",
+        "text": "Droxidopa (Northera) received accelerated approval under Subpart H (21 CFR 314.5"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

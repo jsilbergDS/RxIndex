@@ -1,0 +1,171 @@
+{
+  "app": "NDA022275",
+  "drug": "SAMSCA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_60890a3a-2db1-522b-b297-1f1a49135a3e"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_ac68eb13-8870-5a64-a834-f6c9da74a8aa"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_bcb259e9-06fe-58fb-af3f-00e391bd227e"
+    },
+    {
+      "doc_type": "Lbl",
+      "doc_id": "fda_9bb71107-6cb2-54d9-94ae-946ba6b1df55"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Cardiovascular and Renal Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_60890a3a-2db1-522b-b297-1f1a49135a3e",
+      "line": 189,
+      "quote": "The Cardiovascular and Renal Drugs Advisory Committee met on June 25, 2008 to discuss the hyponatremia indication for this NDA."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_60890a3a2db1",
+      "found_lines": [
+        189
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "June 25, 2008",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_60890a3a-2db1-522b-b297-1f1a49135a3e",
+      "line": 189,
+      "quote": "The Cardiovascular and Renal Drugs Advisory Committee met on June 25, 2008 to discuss the hyponatremia indication for this NDA."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_60890a3a2db1",
+      "found_lines": [
+        189
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 8 in favor and 3 against approving tolvaptan for the chronic treatment of hypervolemic or euvolemic hyponatremia (Question 7).",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_60890a3a-2db1-522b-b297-1f1a49135a3e",
+      "line": 207,
+      "quote": "the vote was 8 in favor of approval and 3"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_60890a3a2db1",
+      "found_lines": [
+        207
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee was concerned about an increased risk of bleeding in patients with cirrhosis.",
+      "change": "The approved label carries a Warning/Precaution (5.2) restricting use in cirrhotic patients to situations where the need to treat outweighs the GI-bleeding risk.",
+      "category": "Safety / Population restriction (cirrhosis bleeding warning)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_60890a3a-2db1-522b-b297-1f1a49135a3e",
+        "line": 165,
+        "quote": "The Advisory Committee was also concerned about bleeding in subjects with cirrhosis (see 9). This reviewer agrees with these assessments, and the concern seems sufficient to support a contraindication or warning for use in patients with cirrhosis.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_60890a3a2db1",
+          "found_lines": [
+            165
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "fda_9bb71107-6cb2-54d9-94ae-946ba6b1df55",
+        "line": 103,
+        "quote": "SAMSCA should be used in cirrhotic patients only when the need to treat outweighs this risk.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_9bb711076cb2",
+          "found_lines": [
+            103
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee deliberated on the appropriate serum sodium threshold for treatment, agreeing (per Dr. Verbalis) that patients below 125 mEq/L should be candidates regardless of symptoms, and those between 125 and 130 mEq/L only if symptomatic.",
+      "change": "The approved indication is written with a specific serum sodium threshold (< 125 mEq/L, or less marked hyponatremia that is symptomatic and has resisted fluid restriction).",
+      "category": "Efficacy / Indication threshold",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_60890a3a-2db1-522b-b297-1f1a49135a3e",
+        "line": 217,
+        "quote": "Based on the deliberations of the Advisory Committee, and in particular the opinions of Dr. Joseph Verbalis, patients with a serum sodium concentrations &lt;125 mEq/L would be candidates for treatment with tolvaptan irrespective of symptom status.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_60890a3a2db1",
+          "found_lines": [
+            217
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "fda_9bb71107-6cb2-54d9-94ae-946ba6b1df55",
+        "line": 12,
+        "quote": "SAMSCA is a selective vasopressin V2-receptor antagonist indicated for the treatment of clinically significant hypervolemic and euvolemic hyponatremia [serum sodium &lt; 125 mEq/L or less marked hyponatremia that is symptomatic and has resisted correction with fluid restriction]",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_9bb711076cb2",
+          "found_lines": [
+            12
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Some committee members suggested that patients should be hospitalized when treatment is initiated.",
+      "change": "The approved label requires that SAMSCA be initiated and re-initiated only in a hospital where serum sodium can be monitored closely.",
+      "category": "Safety / Setting of administration (inpatient initiation)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_60890a3a-2db1-522b-b297-1f1a49135a3e",
+        "line": 205,
+        "quote": "be hospitalized when treatment is initiated.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_60890a3a2db1",
+          "found_lines": [
+            205
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "fda_9bb71107-6cb2-54d9-94ae-946ba6b1df55",
+        "line": 16,
+        "quote": "SAMSCA should be initiated and re-initiated in a hospital (2.1).",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_9bb711076cb2",
+          "found_lines": [
+            16
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Cardiovascular and Renal Drugs Advisory Committee met on June 25, 2008 and voted 8-3 to recommend approval of tolvaptan (SAMSCA) for chronic hypervolemic or euvolemic hyponatremia, accepting an increase in serum sodium as a benefit in itself. The committee's deliberations shaped the final indication's serum sodium threshold (< 125 mEq/L, or symptomatic hyponatremia resistant to fluid restriction) and its concern about GI bleeding in cirrhotic patients was tied by the Summary Review to the cirrhosis use-restriction warning in the label. Committee members' suggestion to hospitalize patients at initiation aligns with the label's requirement that therapy be initiated and re-initiated only in a hospital; approval ultimately followed after a REMS directed at avoiding osmotic demyelination was agreed upon."
+}

@@ -1,0 +1,38 @@
+{
+  "app": "NDA213973",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 306)",
+  "_raw": "Looking at the card carefully:\n\n**Key checks:**\n\n1. **n field N=85/N=44 swap**: The citation says \"Placebo (N=44), Ripretinib (N=85)\" \u2014 matches text N=85 ripretinib, N=44 placebo. OK. The \"2\" in 2:1 \u2014 design citation says \"randomized (2:1)\". Supported elsewhere. Note phase citation says \"2-arm\" and ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "2",
+        "text": "129 patients randomized 2:1 (ripretinib N=85, placebo N=44)"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "5439",
+        "text": "3834-3: Conduct a clinical pharmacokinetic trial to evaluate the effect of repea"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Ripretinib (QINLOCK) received regular (full) approval under 21 CFR 314.50 based "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "13",
+        "text": "Ripretinib (QINLOCK) received regular (full) approval under 21 CFR 314.50 based "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2020",
+        "text": "Ripretinib (QINLOCK) received regular (full) approval under 21 CFR 314.50 based "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

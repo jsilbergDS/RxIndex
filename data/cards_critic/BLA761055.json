@@ -1,0 +1,68 @@
+{
+  "app": "BLA761055",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting value: line 1 column 1 (char 0)",
+  "_raw": "<think>\nLet me analyze this card carefully.\n\nLet me check key issues.\n\n1. Automated flags - uncited_numbers. Most are \"300\" which is a dose (300 mg), should be excluded per rules but the flag caught them. These are doses - false positives. Trial 3 name \"3\" is a study identifier / trial number - fals",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "300",
+        "text": "FAS 671 (300 mg QW 223, 300 mg Q2W 224, placebo 224)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "300",
+        "text": "FAS 671 (300 mg QW 223, 300 mg Q2W 224, placebo 224)"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "300",
+        "text": "FAS 708 (300 mg QW 239, 300 mg Q2W 233, placebo 236)"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "300",
+        "text": "FAS 708 (300 mg QW 239, 300 mg Q2W 233, placebo 236)"
+      },
+      {
+        "field": "pivotal_trials[2]/trial_name",
+        "number": "3",
+        "text": "Combination Trial R668-AD-1224 (Trial 3, dupilumab + TCS)"
+      },
+      {
+        "field": "pivotal_trials[2]/design",
+        "number": "300",
+        "text": "Randomized, double-blind, placebo-controlled adjunctive-therapy trial allowing c"
+      },
+      {
+        "field": "pivotal_trials[2]/design",
+        "number": "300",
+        "text": "Randomized, double-blind, placebo-controlled adjunctive-therapy trial allowing c"
+      },
+      {
+        "field": "pivotal_trials[2]/n",
+        "number": "300",
+        "text": "FAS 740 (300 mg QW+TCS 319, 300 mg Q2W+TCS 106, placebo+TCS 315)"
+      },
+      {
+        "field": "pivotal_trials[2]/n",
+        "number": "300",
+        "text": "FAS 740 (300 mg QW+TCS 319, 300 mg Q2W+TCS 106, placebo+TCS 315)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "29",
+        "text": "Approved on first cycle; BLA received July 29, 2016 and approved with no prior C"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2016",
+        "text": "Approved on first cycle; BLA received July 29, 2016 and approved with no prior C"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

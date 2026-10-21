@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>How a drug card is built and verified</title>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<style>
+  :root{ --ink:#111827; --sub:#4b5563; --line:#e5e7eb;
+         --extract:#1f3a8a; --verify:#0e7c66; --enrich:#7c3aed; --present:#334155; }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;
+       background:#f3f4f6;color:var(--ink)}
+  .slide{max-width:1180px;margin:26px auto;background:#fff;border:1px solid var(--line);border-radius:14px;
+         padding:34px 38px 26px;box-shadow:0 8px 28px rgba(17,24,39,.09)}
+  h1{font-size:24px;line-height:1.2;margin:0 0 6px;font-weight:650;letter-spacing:-.01em}
+  .lede{font-size:14.5px;color:var(--sub);line-height:1.55;margin:0 0 24px;max-width:900px}
+  .flow{display:flex;align-items:stretch;gap:9px}
+  .col{display:flex;flex-direction:column}
+  .arrow{align-self:center;color:#c4ccd8;font-size:24px;flex:0 0 16px;text-align:center}
+  .stage{border:1px solid var(--line);border-radius:11px;padding:14px;height:100%;display:flex;flex-direction:column;background:#fff}
+  .stage .no{font-size:11px;font-weight:700;letter-spacing:.05em}
+  .stage h3{font-size:15px;margin:6px 0 7px;font-weight:620} .stage p{font-size:12.5px;color:var(--sub);line-height:1.5;margin:0}
+  .t-extract{border-top:3px solid var(--extract)} .t-extract .no{color:var(--extract)}
+  .t-verify{border-top:3px solid var(--verify)}   .t-verify .no{color:var(--verify)}
+  .t-enrich{border-top:3px solid var(--enrich)}   .t-enrich .no{color:var(--enrich)}
+  .t-present{border-top:3px solid var(--present)} .t-present .no{color:var(--present)}
+  .out{margin-top:auto;padding-top:10px;font-size:12px;color:var(--ink)} .out b{font-weight:640}
+  .loop{border:1.5px dashed var(--verify);border-radius:10px;padding:8px;background:#f2fbf8;margin:8px 0}
+  .loop-h{font-size:11px;font-weight:700;color:var(--verify);text-align:center;margin:1px 0 8px}
+  .mini{border:1px solid var(--line);border-radius:8px;background:#fff;padding:7px 9px;margin-bottom:6px}
+  .mini h4{margin:0 0 2px;font-size:12px;font-weight:620} .mini p{margin:0;font-size:11px;color:var(--sub);line-height:1.4}
+  .mini.det{border-left:3px solid var(--verify)}
+  .loop-b{text-align:center;font-size:10.5px;color:var(--verify)}
+  .fan-h{font-size:12.5px;color:var(--sub);margin:0 0 8px}
+  .branch{border:1px solid var(--line);border-left:3px solid var(--enrich);border-radius:8px;padding:8px 10px;margin-bottom:7px}
+  .branch .n{font-size:12.5px;font-weight:600} .branch .d{font-size:11px;color:var(--sub);line-height:1.4}
+  .note{margin-top:22px;padding:14px 18px;background:#f9fafb;border:1px solid var(--line);border-radius:10px;font-size:13px;line-height:1.55}
+  .note b{font-weight:640}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+function App(){
+  return (
+    <div className="slide">
+      <h1>How each drug card is built and verified</h1>
+      <p className="lede">One structured card per FDA approval. Every field carries a verbatim quote and its exact location in the FDA review, and each quote and number is checked against the source before the card is published.</p>
+
+      <div className="flow">
+        {/* EXTRACT */}
+        <div className="col" style={{flex:1}}>
+          <div className="stage t-extract">
+            <div className="no">1 · EXTRACT</div>
+            <h3>Read the FDA review</h3>
+            <p>The model works across the drug's full FDA review — Integrated/Medical Review, Statistical Review, Label, Approval Letter — searching and reading the actual pages, and drafts a structured card (indication, mechanism, pivotal trials, safety), quoting the exact source line for each field.</p>
+            <div className="out">→ <b>draft card</b><br/><span style={{color:"#6b7280"}}>a verbatim quote + document + line on every field</span></div>
+          </div>
+        </div>
+        <div className="arrow">→</div>
+
+        {/* VERIFY (loop) */}
+        <div className="col" style={{flex:1.15}}>
+          <div className="stage t-verify">
+            <div className="no">2 · VERIFY & CORRECT</div>
+            <div className="loop">
+              <div className="loop-h">↻ repeat until clean</div>
+              <div className="mini"><h4>Quality review</h4><p>Reviews the card and flags problems.</p></div>
+              <div className="mini det"><h4>Source check</h4><p>Every quote and number matched against the cited document — programmatically, not by the model's say-so.</p></div>
+              <div className="mini"><h4>Correct</h4><p>Re-grounds each flagged field in the documents, or removes it.</p></div>
+              <div className="loop-b">stops when nothing is left to fix</div>
+            </div>
+            <div className="out">→ <b>verified card</b> — no unsupported claims</div>
+          </div>
+        </div>
+        <div className="arrow">→</div>
+
+        {/* ENRICH (fan-out) */}
+        <div className="col" style={{flex:1.15}}>
+          <div className="stage t-enrich">
+            <div className="no">3 · ENRICH</div>
+            <p className="fan-h">The verified card branches out to add the regulatory history — each section cited the same way:</p>
+            <div className="branch"><div className="n">Efficacy supplements</div><div className="d">later indication expansions / new populations</div></div>
+            <div className="branch"><div className="n">Advisory committee</div><div className="d">whether one was held, and the vote</div></div>
+            <div className="branch"><div className="n">Post-marketing requirements</div><div className="d">studies FDA required as a condition of approval</div></div>
+            <div className="branch"><div className="n">Therapeutic area</div><div className="d">disease area classification</div></div>
+          </div>
+        </div>
+        <div className="arrow">→</div>
+
+        {/* PRESENT */}
+        <div className="col" style={{flex:.8}}>
+          <div className="stage t-present">
+            <div className="no">4 · PRESENT</div>
+            <h3>Deliver, traceable</h3>
+            <p>An interactive viewer. Every field links to the underlying FDA document, opened at the cited line.</p>
+            <div className="out">→ <b>a card a reviewer can audit in one click</b></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  );
+}
+ReactDOM.createRoot(document.getElementById("root")).render(<App/>);
+</script>
+</body>
+</html>

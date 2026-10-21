@@ -1,0 +1,47 @@
+{
+  "app": "BLA761163",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "The '2017' breakthrough year in summary text is not covered by summary's own citation list (the breakthrough quote is only in breakthrough_therapy.basis), though it is verifiable elsewhere in the card; minor citation-scoping issue."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Automated flag on number '4' is a false positive: '4' comes from 'Grade 3/4' designation, not an uncited efficacy/safety statistic."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag on number '3' is a false positive: '3' is the count of designations (a summary count), not an uncited efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "4",
+        "text": "Most common adverse reactions (\u226520%) were neutropenia, fatigue, anemia, diarrhea"
+      },
+      {
+        "field": "key_safety",
+        "number": "4",
+        "text": "Most common adverse reactions (\u226520%) were neutropenia, fatigue, anemia, diarrhea"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2017",
+        "text": "MONJUVI received fast track (2014), orphan drug (2014), and breakthrough therapy"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "MONJUVI received fast track (2014), orphan drug (2014), and breakthrough therapy"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

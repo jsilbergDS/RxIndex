@@ -55,7 +55,12 @@ def classify(card, meta):
 def main():
     apps = sys.argv[1:] or [Path(f).stem for f in sorted(glob.glob(str(SRC / "*.json")))]
     for app in apps:
-        d = json.load(open(SRC / f"{app}.json"))
+        p = SRC / f"{app}.json"
+        if not p.exists():
+            print(f"  SKIP {app}: no card file", flush=True); continue
+        d = json.load(open(p))
+        if not isinstance(d.get("card"), dict):   # e.g. build stored invalid JSON as a str (r189 BLA125409)
+            print(f"  SKIP {app}: card is {type(d.get('card')).__name__}, not a dict", flush=True); continue
         ta = classify(d["card"], d.get("_meta", {}))
         d["card"]["therapeutic_area"] = ta
         (SRC / f"{app}.json").write_text(json.dumps(d, indent=2))

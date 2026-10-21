@@ -1,0 +1,143 @@
+{
+  "app": "NDA022562",
+  "drug": "CARBAGLU",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "45218fad-ceeb-5bea-8536-fc4d4c4a21cd"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "0819eef0-cc4d-5225-82cd-2aaa178a3024"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "0cbc0df2-2342-5346-8b23-05db8b6fe816"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "d787f325-d2be-51bb-a8a4-cca431951033"
+    },
+    {
+      "doc_type": "ApprovalLetter",
+      "doc_id": "e0934e6d-25a5-511f-9793-95c5f77abee7"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "45218fad-ceeb-5bea-8536-fc4d4c4a21cd",
+      "line": 31,
+      "quote": "This application was discussed at a January 13, 2010 meeting of the Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC)."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "45218fad-ceeb-5bea-8536-fc4d4c4a21cd",
+      "found_lines": [
+        31
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "January 13, 2010",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "0819eef0-cc4d-5225-82cd-2aaa178a3024",
+      "line": 149,
+      "quote": "An Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC) was convened on January 13, 2010 to discuss the data submitted in support of the efficacy and safety of Carbaglu in the treatment of hyperammonemia due to NAGS deficiency."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "0819eef0-cc4d-5225-82cd-2aaa178a3024",
+      "found_lines": [
+        149
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The EMDAC voted unanimously (12-0) in favor of approval, finding that the clinical data met the legal standard for substantial evidence of efficacy and that the risk/benefit profile supported approval for treatment of hyperammonemia in NAGS deficiency.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "0cbc0df2-2342-5346-8b23-05db8b6fe816",
+      "line": 21,
+      "quote": "Committee members voted 12-0 in favor of approval of the application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "0cbc0df2-2342-5346-8b23-05db8b6fe816",
+      "found_lines": [
+        21
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee was concerned that long-term safety of Carbaglu was not established (safety data were retrospective and limited) and recommended that a patient registry be established to evaluate long-term safety in NAGS deficiency patients.",
+      "change": "FDA required a patient registry as a postmarketing requirement (PMR 1604-2) under section 505(o)(3) to obtain long-term clinical safety information in NAGS deficiency patients, including infants.",
+      "category": "Safety / Postmarketing requirement (registry)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "0819eef0-cc4d-5225-82cd-2aaa178a3024",
+        "line": 154,
+        "quote": "A registry should be established for NAGS deficiency patients receiving treatment with Carbaglu to evaluate long-term safety.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "0819eef0-cc4d-5225-82cd-2aaa178a3024",
+          "found_lines": [
+            154
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "0819eef0-cc4d-5225-82cd-2aaa178a3024",
+        "line": 172,
+        "quote": "I am also in agreement with the advisory committee recommendation that a patient registry be implemented to evaluate the long-term safety of Carbaglu.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "0819eef0-cc4d-5225-82cd-2aaa178a3024",
+          "found_lines": [
+            172
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee recommended that additional nonclinical studies evaluating chronic toxicity and carcinogenicity be performed.",
+      "change": "FDA required a 2-year carcinogenicity study in a single species as a postmarketing requirement (PMR 1604-1).",
+      "category": "Nonclinical / Postmarketing requirement (carcinogenicity)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "0819eef0-cc4d-5225-82cd-2aaa178a3024",
+        "line": 154,
+        "quote": "Additional nonclinical studies evaluating chronic toxicity and carcinogenicity should be performed",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "0819eef0-cc4d-5225-82cd-2aaa178a3024",
+          "found_lines": [
+            154
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ApprovalLetter",
+        "doc_id": "e0934e6d-25a5-511f-9793-95c5f77abee7",
+        "line": 29,
+        "quote": "1604-1. A 2-year carcinogenicity study in a single species.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "e0934e6d-25a5-511f-9793-95c5f77abee7",
+          "found_lines": [
+            29
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC) meeting was held on January 13, 2010, and voted unanimously (12-0) that the data provided substantial evidence of efficacy and supported approval of Carbaglu for hyperammonemia due to NAGS deficiency. Because long-term safety data were limited and retrospective, the committee recommended establishing a patient registry; FDA adopted this as a postmarketing requirement (PMR 1604-2 registry), with the CDTL explicitly concurring with the committee's registry recommendation. The committee also recommended additional nonclinical toxicity/carcinogenicity work, and FDA required a 2-year carcinogenicity study (PMR 1604-1)."
+}

@@ -1,0 +1,67 @@
+{
+  "app": "BLA125511",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Uncited number '124' is a derived total of the cited N=84 (Natpara) and N=40 (placebo); false-positive flag, both components are cited."
+    },
+    {
+      "field": "approval_program.orphan_drug.orphan_indication",
+      "severity": "low",
+      "issue": "Flagged number '84' is part of the identifier 'rhPTH[1-84]', not an efficacy/safety figure; false-positive flag."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged numbers '84' (rhPTH[1-84]), '12'/'2014' (AC date Sept 12, 2014), and '8'/'5' (vote 8-5, cited in advisory_committee) are identifiers/dates/cited vote values; false-positive flags."
+    },
+    {
+      "field": "advisory_committee.vote",
+      "severity": "low",
+      "issue": "Text asserts the vote was on whether data 'supported approval ... for long-term treatment', but the cited quotes give only the date and 'Yes=8, No=5, Abstain=0' without the question wording."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "124",
+        "text": "N=124 analyzed (84 Natpara, 40 placebo)"
+      },
+      {
+        "field": "approval_program/orphan_drug/orphan_indication",
+        "number": "84",
+        "text": "Orphan Drug Designation granted in 2007 for NPSP558 (rhPTH[1-84]) for hypoparath"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "84",
+        "text": "NATPARA (rhPTH[1-84]) received traditional/full approval under a standard review"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "12",
+        "text": "NATPARA (rhPTH[1-84]) received traditional/full approval under a standard review"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2014",
+        "text": "NATPARA (rhPTH[1-84]) received traditional/full approval under a standard review"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "8",
+        "text": "NATPARA (rhPTH[1-84]) received traditional/full approval under a standard review"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "5",
+        "text": "NATPARA (rhPTH[1-84]) received traditional/full approval under a standard review"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

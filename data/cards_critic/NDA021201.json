@@ -1,0 +1,47 @@
+{
+  "app": "NDA021201",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "low",
+      "issue": "Automated flag on number '3' (reticular veins 1 to 3 mm) is a vessel-size descriptor whose '3 mm' bound is not in the population citation but is supported by the indication citation; benign false positive."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Automated flag on '12 weeks' is a false positive: the timepoint is supported by the endpoint citation ('taken at 12 weeks post-treatment'), not an efficacy magnitude."
+    },
+    {
+      "field": "modality",
+      "severity": "low",
+      "issue": "Text adds 'small molecule' and 'detergent surfactant' which are not in the citation quote (quote supports only 'sclerosing agent'); minor over-claim beyond citation."
+    },
+    {
+      "field": "advisory_committee.vote",
+      "severity": "low",
+      "issue": "Field labeled 'vote' but no committee was convened and no vote exists; the text instead explains the non-referral (cosmetic mislabel, content is accurate)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "3",
+        "text": "Patients with uncomplicated spider veins (\u22641 mm) or reticular veins (1 to 3 mm) "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "12",
+        "text": "Digital photograph improvement score at 12 weeks: polidocanol 4.5 \u00b1 0.7 vs place"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "12",
+        "text": "Digital photograph improvement score at 12 weeks: polidocanol 4.5 \u00b1 0.7 vs place"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

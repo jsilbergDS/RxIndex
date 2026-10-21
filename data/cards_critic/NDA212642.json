@@ -1,0 +1,62 @@
+{
+  "app": "NDA212642",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Automated flag 'uncited_numbers' for '123' is a near-false-positive: the result field's own citations (line 130) do not contain '123', though the figure is supported by the n field citation (line 126)."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "False-positive flag: '210' is supported by the citation spelling it out ('Two hundred and ten patients')."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flag: '1' is part of the date 'December 1, 2020', not an efficacy/safety number."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flags: '6', '2019', and '1' are all components of dates (September 6, 2019 / December 1, 2020), not uncited data."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "123",
+        "text": "In 123 evaluable patients, patient-level sensitivity 47% (95% CI 29%, 65%) and s"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "210",
+        "text": "635 enrolled; 210 evaluable"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "1",
+        "text": "Application received September 6, 2019 and approved effective the date of the ap"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "6",
+        "text": "NDA 212642 was submitted under the 505(b)(2) pathway for a new molecular entity,"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2019",
+        "text": "NDA 212642 was submitted under the 505(b)(2) pathway for a new molecular entity,"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "NDA 212642 was submitted under the 505(b)(2) pathway for a new molecular entity,"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

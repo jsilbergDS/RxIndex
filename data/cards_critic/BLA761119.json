@@ -1,0 +1,86 @@
+{
+  "app": "BLA761119",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "uncited_numbers[pivotal_trials[0]/result:300,100]",
+      "severity": "low",
+      "issue": "False positive: the flagged '300' and '100' are dose labels (300 mg, 100 mg), which are excluded per rules; the treatment-effect and mean-change values themselves are supported by the line-86 citations.",
+      "flag": true
+    },
+    {
+      "field": "uncited_numbers[pivotal_trials[1]/endpoint:12]",
+      "severity": "low",
+      "issue": "False positive: '12' is part of the week range 'weeks 1-12' (time window), supported by the endpoint citation; not an uncited efficacy number.",
+      "flag": true
+    },
+    {
+      "field": "uncited_numbers[pivotal_trials[1]/result:300,100]",
+      "severity": "low",
+      "issue": "False positive: '300' and '100' are dose labels; the -8.2/-7.7/-5.6 means and -2.59/-2.03 treatment effects are all present in the line-86 citations.",
+      "flag": true
+    },
+    {
+      "field": "uncited_numbers[approval_program/summary:3]",
+      "severity": "low",
+      "issue": "False positive: '3' comes from 'Phase 3 studies', which is supported by the trial citations; not an efficacy/safety number.",
+      "flag": true
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "300",
+        "text": "Mean change from baseline in monthly migraine days: -4.29 (300 mg) and -3.88 (10"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "100",
+        "text": "Mean change from baseline in monthly migraine days: -4.29 (300 mg) and -3.88 (10"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "300",
+        "text": "Mean change from baseline in monthly migraine days: -4.29 (300 mg) and -3.88 (10"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "100",
+        "text": "Mean change from baseline in monthly migraine days: -4.29 (300 mg) and -3.88 (10"
+      },
+      {
+        "field": "pivotal_trials[1]/endpoint",
+        "number": "12",
+        "text": "Change from baseline in monthly migraine days over weeks 1-12 (primary endpoint "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "300",
+        "text": "Mean change from baseline in monthly migraine days: -8.2 (300 mg) and -7.7 (100 "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "100",
+        "text": "Mean change from baseline in monthly migraine days: -8.2 (300 mg) and -7.7 (100 "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "300",
+        "text": "Mean change from baseline in monthly migraine days: -8.2 (300 mg) and -7.7 (100 "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "100",
+        "text": "Mean change from baseline in monthly migraine days: -8.2 (300 mg) and -7.7 (100 "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "VYEPTI (eptinezumab-jjmr) was approved as a new biologics license application fo"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

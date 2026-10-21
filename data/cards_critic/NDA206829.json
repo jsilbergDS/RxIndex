@@ -1,0 +1,59 @@
+{
+  "app": "NDA206829",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "high",
+      "issue": "Trial name labels the cIAI trial as a single pooled study 'CXA-cIAI-10-08&09', but the design/N/result citations (979 randomized, MITT 806) come from a single trial (line 279/284), while the pooled-table citation (line 724) describes 988 randomized / 790 MITT \u2014 the text conflates a pooled trial with single-trial efficacy numbers.",
+      "field_note": null
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "high",
+      "issue": "The N text cites 979 randomized and MITT 806 (389/417) from line 279/281/284, which are single-trial numbers, yet the trial_name claims this entry is the pooled CXA-cIAI-10-08&09 analysis (988 randomized/790 MITT) \u2014 internally inconsistent N figures.",
+      "field_note": null
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "medium",
+      "issue": "Result states 'meeting non-inferiority' and the 95% CI is -9.2 to 0.7, which crosses zero; non-inferiority depends on the pre-specified margin (not stated in the citations), so the margin/basis for declaring NI is not supported by the quotes provided.",
+      "field_note": null
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "high",
+      "issue": "Trial name claims cUTI efficacy is 'pooled from CXA-cUTI-10-04 and CXA-cUTI-10-05', but the N/result citations (1068 randomized, mMITT 800) are from a single trial (line 293/294/299), not a pooled analysis \u2014 same conflation problem as the cIAI entry.",
+      "field_note": null
+    },
+    {
+      "field": "pivotal_trials[1].endpoint",
+      "severity": "low",
+      "issue": "The endpoint citation quote is tagged to line 293 (the design/population line), which appears to be a mis-referenced line; the primary endpoint definition text does not match the line-293 design quote used elsewhere.",
+      "field_note": null
+    },
+    {
+      "field": "approval_program.priority_review.basis",
+      "severity": "low",
+      "issue": "Basis text adds 'under GAIN/FDASIA' which is not present in the citation quote ('As ceftolozane-tazobactam has QIDP designation, it received a priority review.'); the GAIN/FDASIA attribution exceeds the quote.",
+      "field_note": null
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Summary states priority review was 'under GAIN'; the cited quote does not mention GAIN, so this claim is slightly beyond the citation support.",
+      "field_note": null
+    },
+    {
+      "field": "_meta.first_cycle_approval",
+      "severity": "low",
+      "issue": "False-positive note: first_cycle_approval=true is correctly defaulted (no prior CRL in crl_history and approval letter shows completed review); not an issue.",
+      "field_note": null
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

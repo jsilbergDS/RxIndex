@@ -1,0 +1,172 @@
+{
+  "app": "NDA209816",
+  "drug": "NUZYRA",
+  "docs_read": [
+    {
+      "doc_type": "MultiR",
+      "doc_id": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "1825c43e-ab90-5741-8320-20ae30ee9020"
+    },
+    {
+      "doc_type": "Lbl",
+      "doc_id": "6446a3fe-0406-5215-b4b2-d0eeb35b1138"
+    },
+    {
+      "doc_type": "OtherR",
+      "doc_id": "aa3818e7-20d3-532a-8dd6-7f9b7e08e697"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Antimicrobial Drugs Advisory Committee (AMDAC)",
+    "quote": {
+      "doc_type": "MultiR",
+      "doc_id": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+      "line": 1454,
+      "quote": "The Antimicrobial Drugs Advisory Committee (AMDAC) of the Food and Drug Administration, Center for Drug Evaluation and Research met on August 8, 2018."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+      "found_lines": [
+        1454
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "August 8, 2018",
+    "quote": {
+      "doc_type": "MultiR",
+      "doc_id": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+      "line": 1454,
+      "quote": "The Antimicrobial Drugs Advisory Committee (AMDAC) of the Food and Drug Administration, Center for Drug Evaluation and Research met on August 8, 2018."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+      "found_lines": [
+        1454
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "Two separate votes were taken. For ABSSSI, 17 members voted 'yes' that safety and efficacy had been demonstrated and 1 voted 'no'. For CABP, 14 members voted 'yes' and 4 voted 'no' (the 'no' votes driven by the CABP mortality safety signal).",
+    "quote": {
+      "doc_type": "MultiR",
+      "doc_id": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+      "line": 1457,
+      "quote": "The committee discussed and voted whether the information in the NDAs demonstrated the safety and efficacy of omadacycline for the treatment of acute bacterial skin and skin structure infections. Seventeen (17) members voted \u201cyes\u201d that safety and efficacy had been demonstrated, with one member who voted \u201cno\u201d."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+      "found_lines": [
+        1457,
+        1460
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee said the label should include information about the detailed mortality imbalance observed in the CABP trial (more deaths on omadacycline than moxifloxacin).",
+      "change": "FDA added a 'Mortality Imbalance in Patients with CABP' warning to the Warnings and Precautions section (Section 5.1) of the NUZYRA label.",
+      "category": "Safety / Warning",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MultiR",
+        "doc_id": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+        "line": 1458,
+        "quote": "It was also mentioned that the label should include information about the detailed mortality signal from the community acquired bacterial pneumonia (CABP) trial.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+          "found_lines": [
+            1458
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "6446a3fe-0406-5215-b4b2-d0eeb35b1138",
+        "line": 14,
+        "quote": "In the CABP trial, mortality rate of 2% was observed in NUZYRA-treated patients compared to 1% in moxifloxacin-treated patients. The cause of the mortality imbalance has not been established. Closely monitor clinical response to therapy in CABP patients, particularly in those at higher risk for mortality. (5.1, 6.1)",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "6446a3fe-0406-5215-b4b2-d0eeb35b1138",
+          "found_lines": [
+            14
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee recommended postmarketing evaluations to further examine the safety signal of mortality in CABP, including in subgroups such as bacteremic patients and those with higher PORT scores.",
+      "change": "FDA required a postmarketing requirement (PMR): a second adequate and well-controlled CABP trial to further evaluate the observed mortality imbalance.",
+      "category": "Postmarketing requirement (PMR)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MultiR",
+        "doc_id": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+        "line": 1462,
+        "quote": "The committee members recommended postmarketing evaluations to further examine the safety signal of mortality.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+          "found_lines": [
+            1462
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MultiR",
+        "doc_id": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+        "line": 80,
+        "quote": "The Applicant will conduct a second adequate and well-controlled trial in CABP as a post marketing requirement (PMR) to further evaluate the observed mortality imbalance.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+          "found_lines": [
+            80
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Because few patients with bacteremia were studied and cure rates were lower in bacteremic patients in the IV-to-oral switch ABSSSI trial, committee members suggested the indication should not include patients with concurrent bacteremia.",
+      "change": "FDA's final indication removed the applicant's proposed 'including cases with concurrent bacteremia' language; the approved CABP indication lists only the susceptible microorganisms and does not claim concurrent bacteremia.",
+      "category": "Indication narrowing",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MultiR",
+        "doc_id": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+        "line": 1458,
+        "quote": "committee members suggested that the indication should not include patients with concurrent bacteremia",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+          "found_lines": [
+            1458
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "MultiR",
+        "doc_id": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+        "line": 1468,
+        "quote": "NUZYRA is indicated for the treatment of adult patients with CABP caused by the following susceptible microorganisms: S. pneumoniae, S. aureus (methicillin-susceptible isolates), H. influenzae, H. parainfluenzae, K. pneumoniae, L. pneumophila, M. pneumoniae, and C. pneumoniae.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "e9f3d2ff-fe60-5b57-8633-00e22b37bc9b",
+          "found_lines": [
+            1468
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Antimicrobial Drugs Advisory Committee (AMDAC) met on August 8, 2018 and voted separately on the two indications: ABSSSI (17 yes, 1 no) and CABP (14 yes, 4 no), with the CABP 'no' votes driven by an all-cause mortality imbalance (more deaths on omadacycline than moxifloxacin). The committee recommended that the mortality signal be described in labeling and that postmarketing studies further evaluate it; the approved NUZYRA label added a CABP Mortality Imbalance warning (5.1) and FDA required a postmarketing CABP trial to re-examine the mortality signal. The committee also suggested the indication should not include patients with concurrent bacteremia, and FDA's approved indications dropped the applicant's proposed concurrent-bacteremia claim. These connections are inferred: the review reports both the committee's recommendations and the corresponding changes but does not state a one-to-one causal link."
+}

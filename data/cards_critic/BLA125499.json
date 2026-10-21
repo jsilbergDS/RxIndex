@@ -1,0 +1,102 @@
+{
+  "app": "BLA125499",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive flags for p-values 0.0114 and 0.0007: both appear in the citation quote 'p-value0.01140.0007' (concatenated), so they are supported."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive flags for '125', '2', and '4': these are the dose (125 mcg) and dosing schedule (every 2/every 4 weeks), not efficacy numbers."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False-positive flags for '125', '2', and '4': these describe the dose and dosing interval, not patient counts; the Ns (500/500/512/1512) are in the citation."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag for '1': the '(Study 1)' label is an internal card alias, not an efficacy/safety number."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flags for '16' and '2013': these are part of the receipt date (May 16, 2013), which is excluded from scope, and the quote does not need to contain it."
+    },
+    {
+      "field": "post_marketing[1].requirement",
+      "severity": "low",
+      "issue": "Minor: the '505(o)' statutory authority added in the text is not in the citation quote, but this is a statutory reference rather than an efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study 105MS301 (Study 1)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "125",
+        "text": "N=1512 dosed (placebo 500, peginterferon beta-1a 125 mcg every 4 weeks 500, ever"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "4",
+        "text": "N=1512 dosed (placebo 500, peginterferon beta-1a 125 mcg every 4 weeks 500, ever"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "2",
+        "text": "N=1512 dosed (placebo 500, peginterferon beta-1a 125 mcg every 4 weeks 500, ever"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "125",
+        "text": "Adjusted ARR 0.256 for peginterferon 125 mcg every 2 weeks vs 0.397 for placebo "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "2",
+        "text": "Adjusted ARR 0.256 for peginterferon 125 mcg every 2 weeks vs 0.397 for placebo "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.0007",
+        "text": "Adjusted ARR 0.256 for peginterferon 125 mcg every 2 weeks vs 0.397 for placebo "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "4",
+        "text": "Adjusted ARR 0.256 for peginterferon 125 mcg every 2 weeks vs 0.397 for placebo "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.0114",
+        "text": "Adjusted ARR 0.256 for peginterferon 125 mcg every 2 weeks vs 0.397 for placebo "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "16",
+        "text": "Approved first cycle; BLA received May 16, 2013 and approved effective date of t"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2013",
+        "text": "Approved first cycle; BLA received May 16, 2013 and approved effective date of t"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "505",
+        "text": "2760-2: A prospective, observational, exposure cohort pregnancy registry study c"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

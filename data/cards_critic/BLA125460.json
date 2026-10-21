@@ -1,0 +1,77 @@
+{
+  "app": "BLA125460",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Flagged number '24' (Week 24) is a timepoint descriptor supported by the endpoint citation context; false positive."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "Flagged '2.0' values are doses (mg/kg) and excluded by rule; false positives."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Flagged '2.0' is a dose and excluded by rule; false positive."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged '2014' refers to the approval-letter date and is an inferential/date detail, not an efficacy/safety number; false positive."
+    },
+    {
+      "field": "post_marketing[0].requirement",
+      "severity": "low",
+      "issue": "Flagged '1' is the PMR sequence label, not a data value; false positive."
+    },
+    {
+      "field": "approval_program.orphan_drug.orphan_indication",
+      "severity": "low",
+      "issue": "Flagged '6' is part of the enzyme name 'N-acetylgalactosamine-6-sulfatase', not a data value; false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "2.0",
+        "text": "24-week, multinational (17 countries), multicenter (31 clinical sites), randomiz"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "2.0",
+        "text": "24-week, multinational (17 countries), multicenter (31 clinical sites), randomiz"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "2.0",
+        "text": "For elosulfase alfa 2.0 mg/kg once weekly vs placebo, LS mean difference in Week"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "24",
+        "text": "For elosulfase alfa 2.0 mg/kg once weekly vs placebo, LS mean difference in Week"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2014",
+        "text": "Approved first cycle; the BLA dated and received March 29, 2013 was approved eff"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "1",
+        "text": "PMR 1: Evaluate the long-term safety of Vimizim in adult and pediatric patients "
+      },
+      {
+        "field": "approval_program/orphan_drug/orphan_indication",
+        "number": "6",
+        "text": "Elosulfase alfa (recombinant human N-acetylgalactosamine-6-sulfatase) was grante"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

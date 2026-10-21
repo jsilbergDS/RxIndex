@@ -1,0 +1,33 @@
+{
+  "app": "BLA761063",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 304)",
+  "_raw": "Analyzing the card for quality issues.\n\nLet me verify key data points and check the automated flags.\n\n**Automated flags review:**\n- `uncited_numbers`: All four flags are \"120\" (a dose) and \"6\" (6-month, covered by design citations). Doses are supposed to be excluded; these are false positives. The e",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "120",
+        "text": "Mean change in monthly migraine headache days -4.7 (120 mg) vs -2.8 placebo; dif"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "6",
+        "text": "Randomized, double-blind, placebo-controlled 6-month trial of identical design t"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "120",
+        "text": "Mean change in monthly migraine headache days -4.3 (120 mg) vs -2.3 placebo; dif"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "120",
+        "text": "Mean change in monthly migraine headache days -4.8 (120 mg) vs -2.7 placebo; dif"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

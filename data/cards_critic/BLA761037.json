@@ -1,0 +1,87 @@
+{
+  "app": "BLA761037",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Flagged uncited number '24' (Week 24) is actually supported by this trial's endpoint citation ('ACR20 response at Week 24'); false positive."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "Flagged uncited number '24' (Week 24) is supported by this trial's endpoint citation; false positive."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Flagged number '1' is a study label ('Study 1'), not efficacy/safety data; false positive."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "Flagged number '2' is a study label ('Study 2'), not efficacy/safety data; false positive."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged numbers 11072/10832/24/30/2015 are trial IDs and dates supported by other card citations; false positives."
+    },
+    {
+      "field": "crl_history.basis",
+      "severity": "low",
+      "issue": "Source quote states resubmission 'in March 2016' which conflicts with the correct resubmission date March 22, 2017 used elsewhere; the source quote contains an internal date error (card basis text itself only states the manufacturing-site basis, so no reader-facing harm)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study 1 (EFC11072, referred to as Study 11072)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "24",
+        "text": "ACR20 at Week 24: 58% (150 mg) and 66% (200 mg) vs 33% placebo; OR 2.8 (95% CI 2"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Study 2 (EFC10832, referred to as Study 10832)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "24",
+        "text": "ACR20 at Week 24: 56% (150 mg) and 61% (200 mg) vs 34% placebo; OR 2.7 (95% CI 1"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "11072",
+        "text": "KEVZARA (sarilumab) received a standard (non-expedited) BLA approval on May 22, "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "10832",
+        "text": "KEVZARA (sarilumab) received a standard (non-expedited) BLA approval on May 22, "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "24",
+        "text": "KEVZARA (sarilumab) received a standard (non-expedited) BLA approval on May 22, "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "30",
+        "text": "KEVZARA (sarilumab) received a standard (non-expedited) BLA approval on May 22, "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2015",
+        "text": "KEVZARA (sarilumab) received a standard (non-expedited) BLA approval on May 22, "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

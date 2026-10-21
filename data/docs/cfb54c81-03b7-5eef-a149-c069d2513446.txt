@@ -1,0 +1,667 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+L2: **125516Orig1s000**
+L3: **STATISTICAL REVIEW(S)**
+L4: FDA Seal/Logo
+L5: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L6: ## STATISTICAL REVIEW AND EVALUATIONCLINICAL STUDIES
+L7: **NDA/BLA #:** BLA 125516
+**Drug Name:** Unituxin (Dinutuximab)
+**Indication(s):** High risk Neuroblastoma
+**Applicant:** United Therapeutics Corporation
+**Date(s):** Receipt date : April 11, 2014
+PDUFA goal date: December 6, 2014
+**Review Priority:** Priority
+**Biometrics Division:** V
+**Statistical Reviewer:** Sirisha Mushti
+**Concurring Reviewers:** Kun He, Statistical Team Leader
+Rajeshwari Sridhara, Division Director
+**Medical Division:** Division of Oncology Products 2
+**Clinical Team:** Martha Donoghue, Clinical Reviewer
+Suzanne Demko, Team Leader
+Patricia Keegan, Division Director
+**Project Manager:** Gina Davis
+L8: **Keywords:** Log-rank test, Cox model, EFS
+L9: ## Table of Contents
+L10: 1	EXECUTIVE SUMMARY	4
+2	INTRODUCTION	5
+2.1	OVERVIEW	5
+2.2	DATA SOURCES	7
+3	STATISTICAL EVALUATION	7
+3.1	DATA AND ANALYSIS QUALITY	8
+3.2	EVALUATION OF EFFICACY	8
+3.2.1	Treatment Schedules	9
+3.2.2	Study Design and Endpoints	10
+3.2.3	Patient Disposition, Demographic and Baseline Characteristics	14
+3.2.4	Statistical Methodologies	17
+3.2.5	Results and Conclusions	17
+3.3	EVALUATION OF SAFETY	26
+4	FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	26
+5	SUMMARY AND CONCLUSIONS	30
+5.1	STATISTICAL ISSUES AND COLLECTIVE EVIDENCE	30
+5.2	CONCLUSIONS AND RECOMMENDATIONS	31
+5.3	LABELING RECOMMENDATIONS	32
+L11: ## LIST OF TABLES
+L12: Table 1: List of all studies included in analysis	6
+Table 2: Summary of Interim monitoring boundary values	13
+Table 3: Summary of Lan-DeMets interim monitoring boundary values	14
+Table 4: Disposition of Subjects as of June 30, 2009 data cutoff	15
+Table 5: Baseline demographic and disease characteristics as of June 30, 2009	16
+Table 6: EFS Efficacy Results for the Jan. 13, 2009	18
+Table 7: Applicant's Summary of interim analyses	19
+Table 8: EFS Efficacy Results for the June 30, 2009	20
+Table 9: EFS Efficacy Results for the June 30, 2012	21
+Table 10: OS Efficacy Results for the 13 Jan 2009	22
+Table 11: OS Efficacy Results for the June 30, 2009	24
+Table 12: OS Efficacy Results for the June 30, 2012	25
+Table 13: Subgroup analysis results of EFS for Jan. 13, 2009	26
+Table 14: Subgroup analysis results of OS for Jan. 13, 2009	28
+Table 20: Reviewer's Summary of EFS and OS based on Jan. 13, 2009	31
+L13: ## LIST OF FIGURES
+L14: Figure 1: Kaplan-Meier Curve of EFS for Jan. 13, 2009	18
+Figure 2: Kaplan-Meier Curve of EFS for June 30, 2009	21
+Figure 3: Kaplan-Meier Curve of EFS for June 30, 2012	22
+Figure 4: Kaplan-Meier Curve of OS for 13 Jan 2009	23
+Figure 5: Kaplan-Meier Curve of OS for June 30, 2009	24
+Figure 6: Kaplan-Meier Curve of OS for June 30, 2012	25
+Figure 7: Forest Plot for the subgroup analysis of EFS for Jan. 13, 2009	28
+Figure 8: Forest Plot for the subgroup analysis of OS for Jan. 13, 2009	30
+L15: ## 1 EXECUTIVE SUMMARY
+L16: The applicant submitted Study DIV-NB-301 results seeking a regulatory approval of the Unituxin in combination with granulocyte-macrophage colony stimulating factor (GM-CSF) or aldesleukin (IL-2) and isotretinoin (RA) for the treatment of patients with high risk neuroblastoma (b) (4)
+L17: This was a randomized, open-label, multi-center, active-controlled study comparing Unituxin immunotherapy + RA combination therapy and standard therapy with RA alone where the Unituxin immunotherapy consists of 5 concomitant courses of Unituxin in combination with GM-CSF in courses 1, 3, 5 and with IL-2 in courses 2 and 4.
+L18: Based on the interim analysis results of Study DIV-NB-301, the data and analyses showed that the Unituxin immunotherapy + RA had a numerical improvement in the primary endpoint of event free survival compared to standard therapy with RA alone. The unstratified log-rank test p-value of 0.0115 was close to the pre-specified statistical boundary for the interim analysis and hence a decision was made to halt the randomization by Data Safety Monitoring Committee(DSMC) to the RA alone arm. The median time to event free survival was not reached [95% CI= (3.36 years, NR)] in the Unituxin immunotherapy + RA arm whereas its 1.92 years [95% CI= (1.29, NR)] in the RA alone arm and the hazard ratio estimate was 0.57 with 95% confidence interval of (0.37, 0.89) obtained from unstratified Cox proportional hazards regression.
+L19: The results from the Unituxin immunotherapy + RA arm also showed improvements based on supportive analyses conducted using a subsequent data cutoff dates in comparison to the primary cutoff date of interim analysis and consistent results were shown across different demographic and baseline disease characteristic subgroups.
+L20: The main issue from this study is the concern of terminating the randomization to the RA alone arm by DSMC despite the fact that the observed p-value of 0.0115 (based on the interim analysis) did not cross the pre-specified alpha boundary of 0.0108. Also, the OS analysis was not pre-specified including the hazard ratio to be tested, the power calculation, the median, the number of events required for the analysis and the time of final analysis. Additionally, there were too many strata and several interim analyses conducted at every six months.
+L21: In conclusion, this statistical reviewer confirms the applicant's efficacy results submitted. Whether the results demonstrate an overall favorable benefit to risk ratio in supporting an indication of the Unituxin immunotherapy + RA combination treatment in patients with high risk neuroblastoma following myeloablative therapy and autologous stem cell transplant (ASCT) will be deferred to the clinical review team.
+L22: ## 2 INTRODUCTION
+L23: This following section will provide information on the drug development for this submission, the studies submitted, and those selected for the review.
+L24: ## 2.1 Overview
+L25: ANBL0032 is a Phase-III randomized, open-label, multi-center, active-controlled study designed to evaluate the safety and efficacy of chimeric antibody 14.18(ch14.18) in combination with granulocyte-macrophage colony stimulating factor (GM-CSF) or aldesleukin (IL-2) and isotretinoin (RA) compared with standard therapy with RA alone in patients with high risk neuroblastoma following myeloablative therapy and autologous stem cell transplant. ANBL0032 study was sponsored by the National Cancer Institute (NCI) and conducted under their Investigational New Drug application (IND) 4308 in partnership with the Children's Oncology Group (COG). COG member institutions experienced in the treatment of neuroblastoma participated in this study. Following completion of the treatment phase of the study, the COG transferred ANBL0032 study data to United Therapeutics Corporation (UTC) as part of the UTC/NCI Cooperative Research and Development Agreement (CRADA) for ch14.18.
+L26: ANBL0032 study included multiple interim looks performed every six months starting after 20% of the planned events had occurred. Beginning in November 2005 there were seven consecutive interim looks until November 2008 and the ANBL0032 study was summarized and analyzed from three separate data cuts:
+L27: - primary efficacy data from the randomized subjects in the study through Jan. 13, 2009,
+- supportive efficacy and safety data from the randomized subjects in the study through June 30, 2009 and
+- supportive follow-up data from the randomized subjects in the study through June 30, 2012.
+L28: The randomization was halted after the planned 7th interim analysis on Jan. 13, 2009. This submission includes the data from two studies: 1) Study DIV-NB-301 includes the randomized subjects in the ANBL0032 study for the data cutoffs of Jan. 13, 2009 and June 30, 2009. 2) The supportive follow-up data for the randomized subjects until June 30, 2012 data cutoff and those from the non-randomized subjects (those enrolled into the study after the randomization was halted on Jan. 13, 2009) was included in Study DIV-NB-302. A brief summary of Study DIV-NB-301 and Study DIV-NB-302 are provided in Table 1.
+L29: Subjects were randomized 1:1 to receive either of the following therapies:
+L30: - ch14.18 immunotherapy + RA, referred to as “Immunotherapy + RA” or Regimen B:
+L31: - 6 courses of RA + 5 concomitant courses of ch14.18 in combination with GM-CSF in courses 1, 3, 5 and with IL-2 in courses 2 and 4.
+- Isotretinoin (RA), referred to as “RA alone” or Regimen A:6-courses of RA
+L32: Further details on the treatment schedules are presented in Section-3.2.1. The study was initiated in the year 2000 with the first subject enrolled on October 26, 2001 and the last subject during the randomized period of the study was enrolled on November 03, 2008. This was a multi-center and multi-national study with subjects enrolled across 90 institutions in the United States, Canada, and Australia.
+L33: The primary efficacy endpoint of the study was event free survival (EFS) and secondary endpoints included overall survival (OS). This review provides a summary of EFS and OS for the primary efficacy data and the supportive efficacy analyses data for the data cutoffs of June 30, 2009 and June 30, 2012.
+L34: **Table 1: List of all studies included in analysis**
+L35: Phase and Design	Treatment Period	Follow-up Period	# of Subjects per Arm	Study Population
+DIV-NB-301	Phase 3, Randomized, Open-label, Multi-center, Active controlled	Treatment Arm: Immunotherapy+RA: Six cycles of RA +5 Concomitant courses of ch.14.18 immunotherapy. The total treatment period for the Immunotherapy+RA arm was 163 days from the start of the study treatment.
+RA Alone: Six treatment cycles of 28-day length for each cycle.	Follow-up for survival until death or study withdrawal	Treatment Arm: Immunotherapy+RA : 113
+Control Arm: RA alone:113	patients of 30 years of age or younger with newly diagnosed high-risk neuroblastoma who achieved at least a partial response at the pre-autologous stem-cell transplantation assessment to prior standard multiagent therapy
+DIV-NB-302	Phase 3 Non-randomized, Open-label, Multi-center, Active controlled	Treatment period for Immunotherapy +RA arm and RA alone arm were same as study DIV-NB-301	Follow-up for survival until death or study withdrawal	Treatment Arm: Immunotherapy+RA : 114
+Control Arm: RA alone:114	Same patient population as study DIV-NB-301 and includes patients who were given the treatment after terminating the randomization.
+L36: ## 2.2 Data Sources
+L37: The applicant's data (analysis datasets) from the original submission for all the three different data cuts are located in the following links respectively. The links to the tabulation data are provided wherever available.
+L38: Primary efficacy data with cutoff date of Jan. 13, 2009:
+L39: ADaM: \\cdsesub1\evsprod\BLA125516\0000\m5\datasets\div-nb-301\analysis\legacy
+L40: No SDTM available for this cutoff since UTC acquired only the analysis datasets from NCI.
+L41: Supportive efficacy data with cutoff date of June 30, 2009:
+L42: ADaM: \\cdsesub1\evsprod\BLA125516\0000\m5\datasets\div-nb-301\analysis\adam
+L43: SDTM: \\cdsesub1\evsprod\BLA125516\0000\m5\datasets\div-nb-301\tabulations\sdtm
+L44: Supportive follow-up data with cutoff date of June 30, 2012:
+L45: ADaM: \\cdsesub1\evsprod\BLA125516\0000\m5\datasets\div-nb-302\analysis\legacy
+L46: SDTM: \\cdsesub1\evsprod\BLA125516\0000\m5\datasets\div-nb-302\tabulations\legacy
+L47: The SAS programs that were used to derive the analysis datasets were also included in the ADAM link shown above.
+L48: The clinical study reports, protocol and the statistical analysis plan for this study are located in the following link:
+L49: \\cdsesub1\evsprod\BLA125516\0000\m5\53-clin-stud-rep\535-rep-effic-safety-stud\nbl\5351-stud-rep-contr\div-nb-301
+L50: *Reviewer's comment:*
+L51: *Due to the discrepancy noted in the number of subjects for the June 30, 2012 cutoff data, an IR (dated: July 07, 2014) was sent to the applicant requesting for the clarification. The applicant correcting for the error has submitted the updated datasets, both the tabulation and analysis datasets, located in the following links:*
+L52: ADaM: \\cdsesub1\evsprod\BLA125516\0014\m5\datasets\div-nb-302\analysis\legacy\datasets
+L53: SDTM: \\cdsesub1\evsprod\BLA125516\0014\m5\datasets\div-nb-302\tabulations\legacy
+L54: ## 3 STATISTICAL EVALUATION
+L55: This section presents the detailed review of Study ANBL0032 which includes Study DIV-NB-301 and Study DIV-NB-302. Summary of the protocol amendments, SAP revisions, data
+L56: submitted, statistical methodologies and the efficacy results obtained using the methodologies specified are presented in the following sections.
+L57: ## 3.1 Data and Analysis Quality
+L58: The applicant submitted raw datasets in SDTM (Study Data Tabulation Model) and analysis data sets in ADaM (Analysis Data Model Implementation) formats, the defined files for the variables and the corresponding SAS programs for the primary ADaM data derivation to document the analysis results. The documentation for the derived variables appears to be easy to follow. The reviewer was able to duplicate the analysis results based on the ADaM datasets as well as based on the SDTM datasets.
+L59: ## *Reviewer's comments:*
+L60: - *SAS programs used to derive the primary endpoint analysis were provided by the applicant upon request.*
+- *The reviewer's guide provided by the applicant was not adequately documented to explain the datasets structure and the data used to perform the analysis for each of the cutoff dates. Also, there was a difficulty in retrieving this information from the SAS programs provided since the reference to the data library were not in terms of the cDISC data structure. Hence, an IR was sent requesting to explain the datasets used to reproduce the primary analysis datasets, and in particular the primary and the key secondary endpoint, from the original data source.*
+- *This reviewer had provided adequate documentation of the independent findings through IRs so that the applicant could reproduce the independent findings or resubmit the datasets and the analysis results which were found to be inaccurate.*
+L61: ## 3.2 Evaluation of Efficacy
+L62: ANBL0032 is a Phase-III randomized, open-label, multi-center, active-controlled study designed to evaluate the efficacy and safety of chimeric antibody 14.18(ch14.18) in combination with granulocyte-macrophage colony stimulating factor (GM-CSF) or interleukin-2 (IL-2) and isotretinoin (RA) compared with standard therapy with RA alone in patients with high risk neuroblastoma following myeloablative therapy and ASCT.
+L63: The target population for this study was patients with the following eligibility criteria:
+L64: - 30 years of age or younger who were diagnosed with neuroblastoma and either categorized as high risk at the time of enrollment or non-high risk at the time of enrollment and later categorized as high risk,
+- completed therapy including intensive induction followed by ASCT and radiotherapy,
+L65: - no more than 12 months from the date of starting the first induction chemotherapy after diagnosis to the date of ASCT.
+- at pre-ASCT evaluation patients must meet the International Neuroblastoma Response Criteria (INRC) for CR, VGPR, or PR for primary site, soft tissue metastases and bone metastases. Patients who meet those criteria must also meet the protocol specified criteria for bone marrow response.
+- a determination of mandatory disease staging must be performed (preferably within 2 weeks)
+- who have not received prior anti-GD2 antibody therapy
+- who have Lansky or Karnofsky performance score (KPS) of \ge 50\%, a life expectancy of \ge 2 months and have an adequately functioning organs at the time of registration.
+L66: Exceptions or amendments for few of these eligibility criteria were mentioned in the protocol in detail.
+L67: ## 3.2.1 Treatment Schedules
+L68: Eligible patients were randomized to either of the following treatments during the randomization phase of the study:
+L69: “RA alone” or Regimen A:
+L70: - All patients received 6 cycles of RA therapy beginning Day 56-85 after ASCT and at least 7 days since completion of radiation therapy.
+- Dose: RA was administered orally at 160 \text{ mg}/\text{m}^2/\text{day} (5.33 \text{ mg}/\text{kg}/\text{day}) divided into two equal doses for 14 days, followed by 14 day rest for total of 6 cycles. Patients \le 12 \text{ kg} will be given 5.33 \text{ mg}/\text{kg}/\text{day} divided BID.
+L71: “Immunotherapy + RA” or Regimen B:
+L72: - RA was administered over the last two weeks in Courses 1-6 with the dose levels defined as above and 5 concomitant courses of Ch14.18 in combination with GM-CSF in courses 1, 3, 5 and with IL-2 in courses 2 and 4 as shown in the below schematic representation of the administration of Ch14.18+ GM-CSF or IL-2:
+L73: Course 1	Course 2	Course 3	Course 4	Course 5
+Ch14.18	Ch14.18	Ch14.18	Ch14.18	Ch14.18
+GM-CSF	IL-2	GM-CSF	IL-2	GM-CSF
+RA	RA	RA	RA	RA
+L74: - Dose:Ch14.18 was administered IV over 5.75 to 20 hours at 25 \text{ mg}/\text{m}^2/\text{day} for 4 consecutive days separated by 28 days for all 5 courses
+- GM-CSF was given at 250 \text{ micrograms}/\text{m}^2/\text{day} for 14 days either as IV infusion or SC injection and was initiated 3 days prior to Ch14.18 administration
+L75: - Aldesleukin (IL-2) was administered as a continuous IV infusion for 4 days at 3 MIU/m2/day for first week, 4.5 MIU/m2/day for second week of courses 2 and 4 respectively.
+L76: ## 3.2.2 Study Design and Endpoints
+L77: Eligible patients after screening were randomized in a 1:1 ratio to either the treatment arm (Immunotherapy + RA) or the control arm (RA alone) and randomization was stratified using the pre-ASCT response status (CR, VGPR, or PR) and by pre-ANBL0032 treatment defined below:
+L78: - subject was randomized to receive purged stem cells in study A3973;
+- subject was randomized to receive unpurged stem cells in study A3973;
+- subject was not enrolled on but was treated per A3973 with purged stem cells;
+- subject was not enrolled on but treated per A3973 with unpurged stem cells;
+- subject was treated per the POG 9341/9342 or CCG-3891 protocols;
+- subject was enrolled on or treated per ANBL02P1;
+- subject was enrolled on or treated per ANBL0532;
+- subject was treated per 9640;
+- subject was treated per ANBL00P1;
+- subject was treated per CHP594/DFCI34-DAT;
+- subject was treated per NANT 2001-02;
+- subject was enrolled on or treated per ANBL07P1 or,
+- Other treatment (not previously specified).
+L79: Hence, a combination of the pre-ASCT response status and the pre-ANBL0032 treatment categories described above resulted in 24 strata for randomization. In addition, to the 24 strata there was a small cohort of 25 subjects, referred to as “Stratum 07”, who were non-randomly assigned to receive ch 14.18 immunotherapy + RA (Regimen B). Stratum 07 includes subjects with persistent disease documented by biopsy after ASCT. However, subjects enrolled on Stratum 07 were excluded from the primary analysis of ITT population.
+L80: ## **Primary Efficacy Endpoint**
+L81: **Event free survival:** EFS, defined as the time from study enrollment until the first occurrence of relapse, PD, secondary malignancy, death, or date of last contact (if no event occurred) is the primary efficacy endpoint.
+L82: The determination of progression and response was based on International Neuroblastoma Staging System (INSS) response evaluation criteria and International Neuroblastoma Response Criteria (INRC).
+L83: ## Secondary Efficacy Endpoint
+L84: **Overall Survival:** OS is defined as the interval from randomization to death from any cause.
+L85: ## Analysis Populations
+L86: The following analysis sets were used to perform the EFS and OS analysis:
+L87: The Intent-to-Treat (ITT) population is defined as all eligible subjects who were randomized into the study regardless of whether subjects received any study drug(s), or received a different regimen from the regimen they were randomized to. This does not include the Stratum 07 subjects. The efficacy analysis is performed using this ITT population.
+L88: Stratum 07 population: All the subjects with biopsy proven residual disease following ASCT who were non-randomly assigned to the ch14.18 immunotherapy. In addition to the primary analysis using the ITT population, EFS and OS analyzed using the Stratum 07 population.
+L89: Safety population: All subjects in the study actually receiving study drug, including the Stratum 07 subjects enrolled during the randomized portion of the study. This population is used for safety analysis.
+L90: ## Sample Size Calculation
+L91: For the randomized portion of the study, a total of 386 patients were planned to be randomized to either of the treatment arms in a 1:1 ratio to detect a difference of 15 % (Immunotherapy + RA: 65% vs. RA alone: 50%), in the 3-year EFS rate. 137 EFS events were required to detect a hazard ratio of 0.25 along with achieving an 80% power based on a stratified log-rank test with a 1-sided significance level of 0.025. A maximum planned accrual period of 5 years and a minimum follow-up period of 3 years was assumed with an approximately 10% lost to follow-up.
+L92: ## Protocol amendments related to statistical analysis:
+L93: The original protocol was authored by the COG and approved by the COG and NCI and was finalized on 15 October 2001. Subsequently the protocol has undergone 14 amendments. The amendment that affected the statistical analysis is summarized below:
+L94: ## Amendment-4(12 March 2004):
+L95: - Increased the sample size from 322 subjects to 386 subjects to support a one-sided 0.025 test (previously one-sided 0.05 test).
+L96: - Revised study endpoints to have the primary endpoint include EFS and the secondary endpoint include OS (previously both EFS and OS were co-primary endpoints).
+- The maximum anticipated study duration was updated to up to 8 years (5 for accrual plus 3.0 follow-up) from 6.8 years (3.8 for accrual plus 3.0 follow-up.).
+L97: The following was an additional amendment that affects the derivation of the efficacy endpoint:
+L98: ## Amendment-9B (16 April 2009):
+L99: - Ended randomization into the ANBL0032 study.
+- Allowed for the cross-over of subjects originally randomized to Regimen A to Regimen B (chl4.18 immunotherapy and RA) according to criteria added to Section 6.1 of the protocol.
+- Added the following secondary objectives:1.31 – To further describe and refine the EFS and OS estimates and baseline characteristics for subjects receiving chl4.18 with cytokines and RA following the cessation of the randomized portion of the study.
+- 1.32 – To further describe the safety and toxicity of chl4.18 and cytokines and RA under the new administration guidelines implemented following the cessation of the randomized portion of the study with a focus on number of courses delivered per subject and number of dose reductions or stoppage (chl4.18 and/or IL-2) and number of toxic deaths.
+- Added rationale for halting randomization.
+- Clarified that subjects with residual disease were eligible for study enrollment and that biopsy was not required
+L100: The statistical analysis plan was finalized on February 24, 2014 and there were no further amendments of the SAP.
+L101: ## *Reviewer's Comment:*
+L102: - *Due to amendment # 4, dated on March 12, 2004, the sample size was increased from 322 to 386 and the number of expected events was recalculated to be 137. In the original version of the ANBL0032 study protocol, using the study design parameters of 3-year EFS rates mentioned above and using a significance level of 0.05 for the 1-sided test instead of 0.025, a sample size of 322 randomized patients were required to achieve a 85% power. Expected number of events was 115. Later in Amendment #4 the 1-sided significance level was decreased from 0.05 to 0.025, consequently the sample size was increased.*
+- *The randomization to the RA alone arm was terminated by the DSMC (Reference: DSMC report dated Nov. 3, 2008)*
+L103: ## Interim Analyses
+L104: Multiple interim looks were planned for this study. ANBL0032 study design provided in the original protocol planned for an interim monitoring every six months starting after 20% (20\% \times 115 = 23 events) of the planned events had occurred. Consequently, there were seven consecutive interim looks until November 2008 beginning from November 2005 when 29 EFS events were reported.
+L105: The interim monitoring boundaries were calculated using different methods for different interim looks
+L106: - For the Nov 2005, June 2006, and Nov 2006 the Fleming-Harrington-O'Brien (FHO) upper boundary with 1-sided significance level of 0.05 was applied.
+- For the June 2007, Dec 2007 and June 2008 the FHO upper boundary with \alpha=0.025 (one-sided) was applied. These boundaries were calculated using EAST version-3.
+- For the Nov 2008, the Lan-DeMets (LD) upper boundary calculated using a Rho family spending function \alpha t^2 for a cumulative alpha level of 0.025 was applied.
+L107: This boundary was calculated using Lan-DeMets software developed at the University of Wisconsin, Department of Biostatistics (http://dept.biostat.wisc.edu/Software/landemets/index.html)
+L108: Table 2 below summarizes the stopping boundaries calculated using the significance level, spending functions as discussed above and the proportion of total expected events at each interim look.
+L109: **Table 2: Summary of Interim monitoring boundary values**
+L110: Monitoring Timepoint	Cumulative # of events (Observed)	Cumulative information (Observed)	FHO upper boundary z-value	LD upper boundary z-value (\alpha=0.025)	Nominal \alpha
+\alpha=0.05	\alpha=0.025
+Nov 2005	29	0.212	2.853	-	-	0.0043
+June 2006	39	0.285	2.758	-	-	0.0058
+Nov 2006	49	0.360	2.633	-	-	0.0085
+June 2007	57	0.416	-	2.764	-	0.0057
+Dec 2007	62	0.453	-	2.717	-	0.0066
+June 2008	70	0.511	-	2.70	-	0.0069
+Nov 2008*	83	0.606	-	-	2.55	0.0108
+L111: *Cumulative information observed for Nov 2008 was based on data frozen on Jan. 13, 2009, not 03 November 2008 like the rest of the DSMC report.
+L112: ## Reviewer's comment:
+L113: - The FHO upper boundaries were calculated using EAST Version-3. Due to the unavailability of EAST Version-3, this reviewer verified the boundaries and using EAST version-6.2 and was able to reproduce the boundaries within 1-decimal place of those specified by considering the input parameters provided in Table 2
+
+- For the Nov 2008, the Lan-DeMets (LD) upper boundary calculated using Lan-DeMets software developed at the University of Wisconsin (\alpha=0.025; \alpha^2 spending function) are provided in Table 3. The upper boundaries calculated by the applicant, Column-3 of Table 3, were truncated at the value of "3". This reviewer revised the boundary calculation without truncation using EAST Version-6 and the resulting boundaries are provided in column-4 of Table 3. The corresponding P-values are provided in parentheses for Nov-2008 interim look to show the impact on the difference in the p-values using the truncation at "3" and untruncated method.
+L114: Table 3: Summary of Lan-DeMets interim monitoring boundary values
+L115: Monitoring Timepoint	Cumulative information	Upper boundary z-value
+Truncated at "3" (p-val)	Untruncated (p-val)
+Nov 2005	0.21	3.0000	3.0611
+June 2006	0.28	3.0000	3.0098
+Nov 2006	0.36	2.9102	2.8728
+June 2007	0.42	2.8278	2.8077
+Dec 2007	0.45	2.8001	2.8067
+June 2008	0.51	2.7002	2.696
+Nov 2008*	0.61	2.5508 (0.0108)	2.5404 (0.0111)
+L116: *Cumulative information observed for Nov 2008 was based on data frozen on Jan. 13, 2009, not 03 November 2008 like the rest of the DSMC report.
+L117: ## 3.2.3 Patient Disposition, Demographic and Baseline Characteristics
+L118: For the randomized portion of the study, the first subject was randomized on October 26, 2001 and the last subject during the randomized period of the study was enrolled on November 03, 2008. The summary of the subject disposition for supportive efficacy data with cutoff date of Jun. 30, 2009 are provided in Table 4.
+L119: **Table 4: Disposition of Subjects as of June 30, 2009 data cutoff**
+L120: Subject Disposition, n	Immunotherapy + RA	RA alone
+Enrolled	138	113
+Randomized(ITT)	113	113
+Stratum 07	25	-
+Completed Study	97	82
+Reason for discontinuation of protocol therapy	41	29
+PD	12	18
+Death	1	1
+Withdrawal of consent	14	9
+Toxicity	6	0
+Steroid use	2	0
+Unknown	6	0
+Other	0	1
+Reason for Discontinuation of Study(for primary analyses cutoff)	42	40
+Death	7	7
+Enrollment onto another COG protocol with therapeutic intent	7	8
+Withdrawal of consent	6	5
+No data entered	22	20
+L121: In the primary and supportive analysis with data cutoff date of June 30, 2009, 251 subjects were enrolled into the study prior to Jan. 13, 2009 including 226 randomly assigned to study therapy subjects (113 subjects randomized to treatment arm vs 113 subjects to control arm) and 25 subjects (Stratum 07) non-randomly assigned to Stratum 07. Of the 113 subjects in the RA alone arm, two subjects were excluded from the Safety population because of no eCRF data and hence the safety population consisted of 138 subjects in the treatment arm and 111 subjects in the control arm. There were 12 subjects who discontinued study therapy prematurely (6 subjects) and whose reason for study therapy discontinuation was not reported (6 subjects). Subjects who discontinued study therapy prematurely remained in the study and were followed until study discontinuation criteria were met.
+L122: In the supportive follow-up analysis with data cutoff date of June 30, 2012, 255 subjects were enrolled with 228 randomized subjects (114 in each treatment group) and 27 subjects non-randomly assigned to ch14.18 Immunotherapy + RA. The 4 additional subjects (=255-251) in the ITT population and the 2 subjects (=27-25) in the Stratum 07 who were considered for the June 30, 2012 data cutoff were enrolled in the ANBL0032 study prior to the close of randomization (January 2009); however, data were not available in the eCRF for all of these subjects at the time
+L123: of the primary analysis; these additional subjects were included in the supportive analysis for June 30, 2012 cutoff date as compared to the primary analysis.
+L124: The demographic and baseline characteristics of the subjects are summarized in Table 5. In general, the distribution of the demographic characteristics, including gender, race, age and ethnicity appears to be comparable between treatment arms (shown in the following table). The majority of patients were White (82%). There were more patients who are 18 months or older than patients aged less than 18 months (96.5% vs. 3.5%) and more men than women (60% vs. 40%) in this study. The disease characteristics appear to be comparable between treatment arms.
+L125: **Table 5: Baseline demographic and disease characteristics as of June 30, 2009**
+L126: Variable	Immunotherapy + RA
+n=113	RA alone
+n=113
+Gender	Female	42 (37.2%)	49 (43.4%)
+Males	71 (62.8%)	64 (56.6%)
+Race	Asian	2 (1.77%)	4 (3.54%)
+Black or African American	8 (7.08%)	8 (7.08%)
+Multiple	1 (0.88%)	2 (1.77%)
+Native Hawaiian or Other Pacific Islander	0 (0%)	2 (1.77%)
+Other	1 (0.88%)	0 (0%)
+Unknown	6 (5.31%)	7 (6.19%)
+White	95 (84.07%)	90 (79.65%)
+Age(years)	Mean(SD)	4.3(2.5)	4.0(2.1)
+Median	3.8	3.5
+Min, Max	0.9,15.3	0.9,13.3
+Age Group	< 18 mons.	4 (3.5%)	4 (3.5%)
+>=18 mons.	109 (96.5%)	109 (96.5%)
+Ethnicity	Hispanic or Latino	11 (9.7%)	11 (9.7%)
+Not Hispanic or Latino	100 (88.5%)	96 (85%)
+Unknown	2 (1.77%)	6 (5.31%)
+INSS Stage	Inss Stage-4	89 (78.8%)	92 (81.4%)
+Other than Stage-4	24 (21.2%)	21 (18.6%)
+Unknown	2 (1.77%)	6 (5.31%)
+MYCN	Amplified	36 (31.9%)	45 (39.8%)
+Non-amplified	52 (46%)	51 (45.1%)
+Unknown	25 (22.1%)	17 (15%)
+Ploidy	Diploid	35 (31%)	46 (40.7%)
+L127: Hyperdiploid	49 (43.4%)	48 (42.5%)
+Unknown	29 (25.7%)	19 (16.8%)
+Tumor Histology	Favorable	4 (3.5%)	5 (4.4%)
+Unfavorable	68 (60.2%)	81 (71.7%)
+Unknown	41 (36.3%)	27 (23.9%)
+Pre ASCT Response	CR	40 (35.4%)	38 (33.6%)
+VGPR	47 (41.6%)	49 (43.4%)
+PR	26 (23.0%)	26 (23.0%)
+L128: ## 3.2.4 Statistical Methodologies
+L129: The primary endpoint for the study was EFS defined as time from study enrollment to the occurrence of an event which was defined as relapse, PD, secondary malignancy, or death, and the key secondary endpoint was OS. The primary analysis of EFS was a stratified log-rank test in the ITT population. The analysis of OS was also a stratified log-rank test in the ITT population.
+L130: All efficacy analysis was performed using the ITT population and each study endpoint was analyzed at three different cutoff dates as described in Section-2.1. For the primary and the supportive efficacy analysis with cutoff dates of Jan. 13, 2009 and June 30, 2009, the applicant's summary of EFS and OS included the two-year survival estimates for each treatment arm, number of censored patients and the unstratified log-rank test p-value for testing the difference between the survival distributions. An unstratified log-rank test was used to perform the analysis since there were a large number of strata (24 strata) and there were no subjects associated to some of these strata. For the supportive analysis with data cutoff date of June 30, 2012, three-year survival estimates for each treatment arm, number of censored patients and the unstratified log-rank test p-value were reported. In addition to the applicant's summary, this reviewer included in the review the medians, the proportion of subjects with events, hazard ratios and corresponding 95% CIs (as calculated using a Cox proportional hazards regression model). The Kaplan-Meier curve was also plotted. No sensitivity analyses were performed by the applicant.
+L131: No multiplicity adjustment was made in the primary and secondary analyses.
+L132: ## 3.2.5 Results and Conclusions
+L133: In this section, the efficacy results from the primary and supportive analyses with subsequent data cutoff dates of June 30, 2009 and June 30, 2012, are presented in a tabular format for the primary and secondary endpoints. For notation convenience, the unadjusted hazard ratios calculated in this analysis are represented as simply hazard ratios.
+L134: ## Primary efficacy results of EFS (Jan. 13, 2009 cutoff):
+L135: The interim results for Jan. 13, 2009 data cutoff demonstrated a numerical improvement in event free survival result with hazard ratio 0.57 [95% CI= (0.37, 0.89); p=0.0115 based on unstratified log-rank test] in favor of Immunotherapy+RA arm. The median EFS time was not reached in the treatment arm; however, for the control arm the median EFS time was 1.92 years.
+L136: The 2-year survival rates (95% CI) in the Immunotherapy+RA arm was 66.29% (56.25%, 76.33%) and in the RA alone arm was 46.44% (35.82%, 57.06%) indicating a higher 2-year survival rates in treatment arm compared to the control arm. The primary EFS analysis results are summarized in the Table 6.
+L137: **Table 6: EFS Efficacy Results for the Jan. 13, 2009**
+L138: Immunotherapy + RA
+n=113	RA alone
+n=113
+No of events	33 (29.2%)	50 (44.25%)
+Median(years) (95% CI)	NR(3.36,NR)	1.92 (1.29,NR)
+HR(95% CI)	0.57 (0.37,0.89)
+p-val
+(Unstratified logrank test)	0.0115
+L139: The Kaplan-Meier plot is given in Figure 1.
+L140: **Figure 1: Kaplan-Meier Curve of EFS for Jan. 13, 2009**
+L141: The final efficacy analysis was originally planned to be conducted after approximately the 137th EFS event had occurred, unless a decision had been made to stop the trial based on an interim analysis. Multiple interim efficacy analyses were planned to be performed at every six months starting after 20% of the EFS events had occurred. Table 7 below provides the interim analyses with respect to the observed number of events, the observed proportion of total expected information, the observed upper boundary z-values and p-values. The upper monitoring boundary z-values and nominal alpha were calculated using
+L142: - Fleming-Harrington-O'Brien method using a cumulative alpha of 0.05 for first, second and third interim analyses
+- As per FDA's recommendation, the significance level of 0.025 was used to calculate the interim boundaries for fourth, fifth and sixth interim analyses
+- As per DSMC's recommendation, a more conservative monitoring boundary calculated using Lan-DeMets at a significance level of 0.025 was used for the seventh interim analyses.
+L143: Based on the 7th interim analysis with a data cutoff date on Jan. 13, 2009, results of the primary endpoint (EFS), p-value = 0.0115, was close to the pre-specified alpha boundary of 0.0108 and hence a decision was made by the DMC to stop the randomized-phase of the study after this interim analysis. The interim results for Jan. 13, 2009 data cutoff showed a numerical improvement in event free survival result in chl4.18 immunotherapy + RA over RA alone arm.
+L144: **Table 7: Applicant's Summary of interim analyses**
+L145: Monitoring Timepoint	Cumulative # of events (Observed)	Cumulative information (Observed)	Upper boundary z-value (Observed)	p-value (Observed)	FHO upper boundary z-value	LD upper boundary z-value (\alpha=0.025)	Nominal \alpha
+\alpha=0.05	\alpha=0.025
+Nov 2005	29	0.212	1.963	0.0495	2.853	-	-	0.0043
+June 2006	39	0.285	1.905	0.0567	2.758	-	-	0.0058
+Nov 2006	49	0.360	2.257	0.0240	2.633	-	-	0.0085
+June 2007	57	0.416	2.450	0.0143	-	2.764	-	0.0057
+Dec 2007	62	0.453	2.120	0.0340	-	2.717	-	0.0066
+June 2008	70	0.511	2.550	0.0108	-	2.70	-	0.0069
+Nov 2008*	83	0.606	2.528	0.0115	-	-	2.55	0.0108
+L146: Thus, using the Lan-DeMets monitoring boundary of 0.0108, at seventh interim analysis using the data frozen on Jan. 13, 2009, there was a numerical improvement in EFS for the treatment arm (p-value=0.0115) and the randomization to the RA alone arm was halted thereafter. This decision was documented in Amendment#9 of the protocol. Consequently, all subjects were switched to, continued on, or enrolled into Regimen B (chl4.18 immunotherapy + RA), with Regimen A (RA alone) closed to accrual; subsequently, the study was continued to be non-
+L147: randomized. There were 4 subjects who were in the RA alone arm and crossed over to the Immunotherapy+RA arm and these subjects were censored at the point of crossover for all efficacy analyses.
+L148: The raw dataset used for the Jan. 13, 2009 data analysis was not available to the applicant for analysis because it was corrupted; therefore, the closest dataset 'soft lock' of June 30, 2009 that was not corrupted was used by the applicant to confirm the analyses results of Jan. 13, 2009 data cut off that was published in the *New England Journal of Medicine*; Yu, A. L., et al. (2010). "Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma." *N Engl J Med* 363(14): 1324-34. Thus, supportive analyses of EFS were performed and the analyses results are summarized below. Improvement in EFS in the Immunotherapy + RA group as compared to the RA alone group was confirmed in the June 30, 2009 data cut (p = 0.0330). For the June 30, 2012 data cut p-value was 0.099.
+L149: *Reviewer's comment:*
+L150: *The reason for data corruption for Jan. 13, 2009 cutoff date was not provided by the applicant.*
+L151: ## Supportive efficacy results of EFS for the June 30, 2009 data cutoff date:
+L152: Based on the June 30, 2009 data cutoff, the 2-year survival rates (95% CI) in the Immunotherapy+RA arm was 65.61% (56.06%,75.16%) and in the RA alone arm was 48.08% (37.97%,58.19%) indicating a higher 2-year survival rates in treatment arm compared to the control arm. The median follow-up time after study enrollment was 2.72 years in treatment group and 2 years in the control group.
+L153: **Table 8: EFS Efficacy Results for the June 30, 2009**
+L154: Immunotherapy+RA
+n=113	RA alone
+n=113
+No of events	40 (35.4%)	54 (47.79%)
+Median(years) (95% CI)	NR(3.36,NR)	1.95(1.29,NR)
+HR (95% CI)	0.64 (0.43,0.97)
+Nominal p-val
+(Unstratified logrank test)	0.033
+L155: The Kaplan-Meier plot is given in Figure 2.
+L156: Figure 2: Kaplan-Meier Curve of EFS for June 30, 2009
+L157: ## **Supportive efficacy results of EFS for the June 30, 2012 data cutoff date:**
+L158: Based on the June 30, 2012 data cutoff, the 3-year survival rates (95% CI) in the Immunotherapy+RA arm was 62.82% (53.9%, 71.74%) and in the RA alone arm was 50.89% (41.58%, 60.2%) indicating a higher 3- year survival rates in treatment arm compared to the control arm. The summary of the EFS results for the supportive analysis is given in Table 9.
+L159: **Table 9: EFS Efficacy Results for the June 30, 2012**
+L160: Immuo+RA
+n=114	RA alone
+n=114
+No of events	49 (42.98%)	58 (50.88%)
+Median(years) (95% CI)	NR(3.37,NR)	3.22(1.67,NR)
+HR(95% CI)	0.73 (0.5,1.06)
+Nominal p-val
+(Unstratified logrank test)	0.099
+L161: The Kaplan-Meier plot was given in Figure 3.
+L162: Figure 3: Kaplan-Meier Curve of EFS for June 30, 2012
+L163: ## Secondary Endpoint OS Analysis (Jan. 13, 2009 data cutoff):
+L164: Table 10 summarizes the analysis for OS for Jan. 13, 2009 data cutoff. There was an improvement in OS with chl4.18 Immunotherapy+RA as compared to RA alone for the primary ITT analysis with hazard ratio 0.52 [95% CI= (0.0.30,0.92); p=0.0223 based on unstratified log-rank test]. The median survival time was not reached in the treatment arm; however, for the control arm the median OS time was 3.88 years. The Immunotherapy+RA arm had higher 2-year survival rate of 86.2% (78.8%,93.6%) vs. 74.5% (65.2%,83.9%) and also there were lower deaths (19 vs 33) compared to the RA alone arm.
+L165: Table 10: OS Efficacy Results for the 13 Jan 2009
+L166: Immunotherapy+RA
+n=113	RA alone
+n=113
+No of events	19 (16.81%)	33 (29.2%)
+Median(years)(95% CI)	NR(NR,NR)	3.88(3.43,NR)
+L167: HR (95% CI)	0.52 (0.30,0.92)
+Nominal p-val
+(Unstratified logrank test)	0.0223
+L168: Figure 4 displays the Kaplan-Meier curve for OS for the primary ITT analysis (Jan. 13, 2009)
+L169: **Figure 4: Kaplan-Meier Curve of OS for 13 Jan 2009**
+L170: ## *Reviewer's Comments:*
+L171: *Since there was no pre-specified analysis plan for OS, the allocated alpha for this OS analysis could not be determined; thus, the p-value was not interpretable.*
+L172: ## **Supportive efficacy results of OS for the June 30, 2009 data cutoff date:**
+L173: Based on this supportive analysis, the 2-year survival rates (95% CI) in the Immunotherapy+RA arm was 85.38% (78.19%, 92.57%) and in the RA alone arm was 75.3% (66.4%, 84.2%) indicating a higher 2-year survival rates in treatment arm compared to the control arm. The summary of the EFS results for the supportive analysis is given in Table 11.
+L174: Table 11: OS Efficacy Results for the June 30, 2009
+L175: Immunotherapy+RA
+n=113	RA alone
+n=113
+No of events	22 (19.47%)	36 (31.86%)
+Median(years)(95% CI)	NR(NR,NR)	3.88(3.43,NR)
+HR(95% CI)	0.58 (0.37,0.91)
+Nominal p-val
+(Unstratified logrank test)	0.0213
+L176: The Kaplan-Meier plot for the supportive OS analysis for the data cutoff date of June 30, 2009 is given in Figure 5.
+L177: Figure 5: Kaplan-Meier Curve of OS for June 30, 2009
+L178: ## Supportive efficacy results of OS for the June 30, 2012 data cutoff date:
+L179: The 3-year survival rates (95% CI) in the Immunotherapy+RA arm was 79.52% (72.05%, 86.99%) and in the RA alone arm was 67.25% (58.45%, 76.05%) indicating a higher 2- year survival rates in treatment arm compared to the control arm. The summary of the EFS results for the supportive analysis is summarized in the below table.
+L180: Table 12: OS Efficacy Results for the June 30, 2012
+L181: Immunotherapy+RA
+n=114	RA alone
+n=114
+No of events	31 (27.19%)	48 (42.11%)
+Median(years) (95% CI)	NR(7.49,NR)	NR(3.88,NR)
+HR(95% CI)	0.58 (0.37,0.91)
+Nominal p-val
+(Unstratified log-rank test)	0.0165
+L182: Reviewer's comment:
+L183: The median for the RA alone arm was not reached for the supportive analysis with the data cutoff date of June 30, 2012; however, the estimated median was 3.88 years for the supportive data with an earlier data cutoff date of June 30, 2009. This is due to the additional subject (subjid=785522) included in the supportive analysis for the data cutoff date of June 30, 2012 and this subject was censored at 3.52 years on the date of last contact.
+L184: The Kaplan-Meier curve for OS for the supportive analysis is presented in Figure 6.
+L185: Figure 6: Kaplan-Meier Curve of OS for June 30, 2012
+L186: ## 3.3 Evaluation of Safety
+L187: The safety assessment was deferred to the clinical judgment.
+L188: ## 4 FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L189: Subgroup analysis results based on the following factors were examined for the primary and secondary efficacy endpoints:
+L190: - Gender
+- Race
+- Region (US vs. Non-US)
+- Age group (&lt; 18 months or \ge 18 months)
+- Age Category(Adolescent vs. Child vs. Infant/Toddler vs. Unknown)
+- Tumor Histology (Favorable vs. Unfavorable vs. unknown)
+- DNA Ploidy (Diploid vs. Hyper Diploid vs. Unknown)
+- MYCN amplification (Amplified vs. Non-Amplified vs. Unknown)
+- Post-ASCT response(CR vs. PR vs. VGPR)
+- INSS Stage(Stage-4 vs. Others)
+L191: All subgroup efficacy analyses were performed for the primary analysis data of EFS and OS if there was sufficient sample size in the subgroup. The hazard ratio estimates based on EFS and the corresponding 95% confidence intervals for each subgroup were summarized in Table 13. This table displays the categories with zero frequencies; however, these are not plotted in the forest plot shown in Figure 7.
+L192: **Table 13: Subgroup analysis results of EFS for Jan. 13, 2009**
+L193: Subgroup	Subgroup level	Count	Sample size
+#events/n	Hazard Ratio
+(95% CI)
+Immunotherapy
++RA	RA Alone
+Age group	<18months	8	4/4	2/4	-
+\ge 18months	218	76/109	61/109	0.60(0.38,0.93)
+Age Category	Adolescent(12-18)	5	4/4	0/1	-
+Child	150	52/79	36/71	0.58(0.35,0.96)
+Infant/Toddler	63	23/28	23/35	0.52(0.18,1.47)
+Unknown	8	1/2	4/6	2.83(0.17,47.15)
+Histology	Favorable	9	4/4	4/5	-
+L194: Unfavorable	149	51/68	43/81	0.42(0.24,0.75)
+Unknown	68	25/41	16/27	1.00(0.46,2.16)
+INSS Stage	Stage-4	181	59/89	46/92	0.57(0.36,0.90)
+Other than Stage-4	45	21/24	17/21	0.67(0.15,2.99)
+MYCN Amplification	Amplified	81	23/36	25/45	0.86(0.43,1.74)
+Non-Amplified	103	42/52	29/51	0.30(0.14,0.63)
+Unknown	42	15/25	9/17	0.88(0.35,2.23)
+Post-ASCT Response	CR	78	32/40	22/38	0.41(0.17,0.96)
+PR	52	17/26	10/26	0.44(0.19,0.99)
+VGPR	96	31/47	31/49	0.85(0.43,1.67)
+Ploidy	Diploid	81	25/35	19/46	0.41(0.20,0.84)
+Hyper Diploid	97	35/49	32/48	0.74(0.36,1.51)
+Unknown	48	20/29	12/19	0.79(0.29,2.11)
+Race	Asian	6	1/2	2/4	0.54(0.04,6.64)
+Black/African American	16	6/8	3/8	0.28(0.05,1.45)
+Multiple	3	1/1	1/2	-
+Native Hawaiian or other Pacific Islander	2	0/0	1/2	-
+Other	1	1/1	0/0	-
+Unknown	13	2/6	5/7	2.54(0.46,14.02)
+White	185	69/95	51/90	0.57(0.35,0.94)
+Region	Non-US	28	10/12	7/16	0.26(0.06,1.23)
+USA	198	70/101	56/97	0.63(0.39,1.00)
+Sex	Female	91	30/42	27/49	0.49(0.24,1.00)
+Male	135	50/71	36/64	0.62(0.35,1.10)
+Overall	226	80/113	63/113	0.57(0.37,0.89)
+L195: Forest plots of the hazard ratio estimates based on EFS and the corresponding 95% confidence intervals for each subgroup summarized in Table 13 are presented below:
+L196: *Reviewer's comment:*
+L197: - *The subgroup with smaller sample size should be interpreted with caution since they result in a wider confidence interval.*
+L198: Figure 7: Forest Plot for the subgroup analysis of EFS for Jan. 13, 2009
+L199: The OS subgroup analyses are summarized below:
+L200: Table 14: Subgroup analysis results of OS for Jan. 13, 2009
+L201: Subgroup	Subgroup Level	Count	Sample size
+#events/n	Hazard Ratio (95% CI)
+Immunotherapy
++RA	RA
+Age group	<18months	8	4/4	2/4	-
+>=18months	218	90/109	78/109	0.56(0.31,0.99)
+Age Category	Adolescent(12-18)	5	4/4	0/1	-
+Child	150	65/79	51/71	0.57(0.29,1.13)
+L202: Infant/Toddler	63	23/28	23/35	0.52(0.18,1.47)
+Unknown	8	2/2	6/6	-
+Histology	Favorable	9	4/4	5/5	-
+Unfavorable	149	60/68	56/81	0.31(0.14,0.70)
+Unknown	68	30/41	19/27	0.95(0.38,2.36)
+
+INSS Stage	Stage-4	181	71/89	63/92	0.60(0.33,1.08)
+Other than Stage-4	45	23/24	17/21	0.21(0.02,1.86)
+MYCN Amplification	Amplified	81	27/36	30/45	0.80(0.35,1.83)
+Non-Amplified	103	46/52	39/51	0.35(0.13,0.94)
+Unknown	42	21/25	11/17	0.36(0.10,1.31)
+Post-ASCT Response	CR	78	36/40	27/38	0.30(0.10,0.96)
+PR	52	19/26	15/26	0.55(0.21,1.45)
+VGPR	96	39/47	38/49	0.70(0.28,1.74)
+Ploidy	Diploid	81	27/35	25/46	0.56(0.25,1.27)
+Hyper Diploid	97	40/49	42/48	1.14(0.40,3.25)
+Unknown	48	27/29	13/19	0.19(0.04,0.95)
+Race	Asian	6	1/2	2/4	-
+Black/African American	16	7/8	5/8	0.17(0.02,1.71)
+Multiple	3	1/1	1/2	-
+Native Hawaiian or other Pacific Islander	2	0/0	1/2	-
+Other	1	1/1	0/0	-
+Unknown	13	4/6	5/7	1.35(0.19,9.73)
+White	185	80/95	66/90	0.57(0.30,1.10)
+Region	Non-US	28	10/12	9/16	0.36(0.07,1.73)
+USA	198	84/101	71/97	0.57(0.31,1.05)
+Sex	Female	91	36/42	33/49	0.34(0.13,0.87)
+Male	135	58/71	47/64	0.70(0.34,1.45)
+Overall	226	94/113	80/113	0.52(0.30,0.92)
+L203: Figure 8 presents the forest plot for the OS subgroup analysis based on the primary analysis cutoff date of Jan. 13, 2009.
+L204: **Figure 8: Forest Plot for the subgroup analysis of OS for Jan. 13, 2009**
+L205: ## 5 SUMMARY AND CONCLUSIONS
+L206: ## 5.1 Statistical Issues and Collective Evidence
+L207: In summary, based Study DIV-NB-301, the interim analysis results based on Jan. 13, 2009 data cutoff showed that the ch14.18 immunotherapy + RA had a numerical improvement in the EFS compared to standard therapy with RA alone. The median time to event free survival was not reached [95% CI= (3.36 years, NR)] in the ch14.18 immunotherapy + RA arm whereas its 1.92 years [95% CI= (1.29, NR)] in the RA alone arm and the hazard ratio estimate was 0.57 with
+L208: 95% confidence interval (0.37, 0.89) obtained from unstratified Cox proportional hazards regression. The unstratified log-rank test p-value was 0.0115 which was not significant but was close to the pre-specified alpha boundary of 0.0108.
+L209: The results based on overall survival were HR=0.52 95% CI= (0.30, 0.92). A summary of these primary efficacy results is shown in Table 15.
+L210: **Table 15: Reviewer's Summary of EFS and OS based on Jan. 13, 2009**
+L211: Endpoint	Immunotherapy + RA
+n=113	RA alone
+n=113
+PFS	Number (%) of events
+Progressive disease or death	33 (29.2%)	50 (44.25%)
+Time to event free survival (yrs.)
+Median (95% CI)a	NR(3.36,NR)	1.92 (1.29,NR)
+Unadjusted Hazard ratio (95% CI)c	0.57 (0.37,0.89)	
+p-valueb	0.0115	
+OS	Number (%) of events
+Deaths	19 (16.81%)	33 (29.2%)
+Time to overall survival (yrs.)
+Median (95% CI)a	NR(NR,NR)	3.88(3.43,NR)
+Unadjusted Hazard ratio (95% CI)c	0.52 (0.30,0.92)	
+p-valueb,d	0.0223
+L212: CI=confidence interval;
+L213: a Median is based on Kaplan-Meier survival estimates.
+L214: b Unstratified log rank test.
+L215: c Estimated using the unstratified Cox proportional hazard model.
+L216: d OS analysis was not pre-specified and hence the p-value is not interpretable.
+L217: The results for the ch14.18 immunotherapy + RA arm were similar based on supportive analyses conducted using a subsequent data cutoff dates of June 30, 2009 and June 30, 2012 in comparison to the primary cutoff date of interim analysis(Jan. 13, 2009). Consistent efficacy results were shown across different demographic and baseline disease characteristic subgroups.
+L218: The main issue in this study is the concern of terminating the randomization by DSMC despite the fact that the observed p-value did not cross the pre-specified alpha boundary of 0.0108. The study design was not powered for the OS endpoint and hence the p-values reported for OS analysis was not interpretable. Additionally, there were too many strata with no patients assigned to the ch14.18 immunotherapy + RA arm for few strata and several interim analyses conducted at every six months resulted in alpha allocation to multiple looks.
+L219: ## 5.2 Conclusions and Recommendations
+L220: In conclusion, this statistical reviewer confirms the applicant's efficacy results submitted. Whether the results demonstrate an overall favorable benefit to risk ratio in supporting an indication of the Unituxin + GM-CSF or IL-2 + RA combination treatment in patients with high risk neuroblastoma (b) (4) will be deferred to the clinical review team.
+L221: ## 5.3 Labeling Recommendations
+L222: This statistical review supported the inclusion of results based on the primary analysis(Jan. 13, 2009 cutoff) for the event free survival and overall survival for the indication of high-risk neuroblastoma based on the ch 14.18 immunotherapy + RA combination treatment. However, due to the issue of no suitable allocated alpha for the interim analysis of OS, p-value for OS analysis should not be included in the label. The discussions for the labelling are still ongoing any further recommendations will be included in the labelling insert package.
+L223: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L224: /s/
+L225: SIRISHA L MUSHTI
+L226: 09/13/2014
+L227: KUN HE
+L228: 09/13/2014
+L229: Accepted as a complete review
+L230: RAJESHWARI SRIDHARA
+L231: 09/13/2014
+L232: Kaplan-Meier Curve of EFS for Jan. 13, 2009. The plot shows the percentage of subjects remaining event-free over 7 years since randomization. The Immunotherapy + RA arm (blue line) shows a higher survival rate than the RA alone arm (red dashed line). The X-axis is 'Years since randomization' (0 to 7). The Y-axis is 'Percent of Subjects' (0.0 to 1.0). The legend indicates: Treatment Arm: 1: Immuno+RA (blue line), 2: RA alone (red dashed line). The number of subjects at risk is shown below the X-axis for both arms at each time point.
+L233: Kaplan-Meier Curve of EFS for June 30, 2009. The Y-axis represents the Percent of Subjects (0.0 to 1.0), and the X-axis represents Years since randomization (0 to 7). The curve shows the progression of events (events/censored) over time for two treatment groups.
+Legend:
+Treatment Group: 1: Immunotherapy + RA (Blue line)
+Treatment Group: 2: RA alone (Red dashed line)
+Events/Censored Data Points:
+Year	Immunotherapy + RA (n=113)	RA alone (n=113)
+0	113	113
+1	73	64
+2	51	38
+3	35	28
+4	19	13
+5	9	8
+6	5	6
+7	0	0
+L234: Kaplan-Meier Curve of EFS for June 30, 2012.
+The Y-axis represents the Percent of Subjects (0.0 to 1.0). The X-axis represents Years since randomization (0 to 8).
+The legend indicates:
++ Censored
+Treatment Group: 1: Immunotherapy + RA (Blue line) and 2: RA alone (Red dashed line).
+The curve shows that the Immunotherapy + RA group maintained a higher percentage of subjects alive compared to the RA alone group over the 8 years of follow-up.
+Estimated number of subjects at risk (n) at various time points:
+Years since randomization	Immunotherapy + RA (n)	RA alone (n)
+0	114	114
+1	89	75
+2	75	56
+3	68	53
+4	53	42
+5	39	33
+6	27	20
+7	11	11
+8	8	8
+L235: Kaplan-Meier Curve of OS for 13 Jan 2009.
+The Y-axis represents the Percent of Subjects (0.0 to 1.0). The X-axis represents Years since randomization (0 to 7).
+The legend indicates two treatment arms and censored data:
+Treatment Arm 1: Immuno+RA (Blue line)
+Treatment Arm 2: RA alone (Red dashed line)
++ Censored (Data points with error bars)
+Observed data points (Subjects at risk) are shown below the X-axis:
+Year	Immuno+RA (N)	RA alone (N)
+0	113	113
+1	77	79
+2	59	51
+3	37	26
+4	20	12
+5	10	9
+6	3	1
+7	0	0
+L236: Years since randomization	Immunotherapy + RA (n)	RA alone (n)
+0	113	113
+1	82	82
+2	64	57
+3	44	35
+4	25	15
+5	12	9
+6	5	6
+7	0	0
+Kaplan-Meier Curve of OS for June 30, 2009. The plot shows the percentage of subjects surviving over time (Years since randomization, 0 to 7). The Immunotherapy + RA group (blue solid line) shows a higher survival rate than the RA alone group (red dashed line). The legend indicates 'Censored' data points. The table below the plot shows the number of subjects at risk (n) at various time points for both groups.
+L237: Kaplan-Meier Curve of OS for June 30, 2012.
+The graph plots the Percent of Subjects (Y-axis, ranging from 0.0 to 1.0) against Years since randomization (X-axis, ranging from 0 to 8). The curve shows the survival probability over time for two treatment groups.
+Legend:
++ Censored (indicated by markers on the curve)
+Treatment Group: 1: Immunotherapy + RA (Blue line with markers) and 2: RA alone (Red dashed line with markers).
+The curve for Immunotherapy + RA (Group 1) shows a higher survival probability compared to RA alone (Group 2) throughout the observed period (up to 8 years). The estimated median survival for Group 1 is NR (Not Reached), while for Group 2 it is 3.88 years.
+Observed data points (Subjects at risk) are listed below the X-axis:
+Year	Group 1 (Immunotherapy + RA)	Group 2 (RA alone)
+0	114	114
+1	104	101
+2	93	83
+3	86	71
+4	68	53
+5	51	36
+6	35	22
+7	18	13
+8	9	9
+L238: Forest Plot for the subgroup analysis of EFS for Jan. 13, 2009. The plot displays Hazard Ratio (HR) and 95% Confidence Interval (CI) for various subgroups comparing Immunotherapy + RA (#ev/N) vs RA alone.
+Subgroup	Hazard Ratio and 95% CI	Immunotherapy + RA (#ev/N):RA alor	HR(95%CI)
+AGE18MO >=18months	76/109:61/109	0.60(0.38,0.93)
+AGECATD Child	52/79:36/71	0.58(0.35,0.96)
+AGECATD Infant/Toddler	23/28:23/35	0.52(0.18,1.47)
+HISTLOGY Unfavorable	51/68:43/81	0.42(0.24,0.75)
+HISTLOGY Unknown	25/41:16/27	1.00(0.46,2.16)
+INSS4 INSSSTAGE-4	59/89:46/92	0.57(0.36,0.90)
+INSS4 NonINSSSTAGE-4	21/24:17/21	0.67(0.15,2.99)
+MYCN Amplified	23/36:25/45	0.86(0.43,1.74)
+MYCN Non-amplified	42/52:29/51	0.30(0.14,0.63)
+MYCN Unknown	15/25:9/17	0.88(0.35,2.23)
+PASCTRSP CR	32/40:22/38	0.41(0.17,0.96)
+PASCTRSP PR	17/26:10/26	0.44(0.19,0.99)
+PASCTRSP VGPR	31/47:31/49	0.85(0.43,1.67)
+POIDY Diploid	25/35:19/46	0.41(0.20,0.84)
+POIDY Hyperdiploid	35/49:32/48	0.74(0.36,1.51)
+POIDY Unknown	20/29:12/19	0.79(0.29,2.11)
+RACE BLACKORAFRICANAME	6/8:3/8	0.28(0.05,1.45)
+RACE WHITE	69/95:51/90	0.57(0.35,0.94)
+REGION Non-US	10/12:7/16	0.26(0.06,1.23)
+REGION USA	70/101:56/97	0.63(0.39,1.00)
+SEX F	30/42:27/49	0.49(0.24,1.00)
+SEX M	50/71:36/64	0.62(0.35,1.10)
+overall	80/113:63/113	0.57(0.37,0.89)
+L239: Subgroup	Hazard Ratio and 95% CL	Immunotherapy + RA(#ev/N):RA alor	HR(95%CI)
+AGE18MO >=18months	90/109:78/109	0.56(0.31,0.99)
+AGECATD Child	65/79:51/71	0.57(0.29,1.13)
+AGECATD Infant/Toddler	23/28:23/35	0.52(0.18,1.47)
+HISTLOGY Unfavorable	60/68:56/81	0.31(0.14,0.70)
+HISTLOGY Unknown	30/41:19/27	0.95(0.38,2.36)
+INSS4 INSSSTAGE-4	71/89:63/92	0.60(0.33,1.08)
+INSS4 NonINSSSTAGE-4	23/24:17/21	0.21(0.02,1.86)
+MYCN Amplified	27/36:30/45	0.80(0.35,1.83)
+MYCN Non-amplified	46/52:39/51	0.35(0.13,0.94)
+MYCN Unknown	21/25:11/17	0.36(0.10,1.31)
+PASCTRSP CR	36/40:27/38	0.30(0.10,0.96)
+PASCTRSP PR	19/26:15/26	0.55(0.21,1.45)
+PASCTRSP VGPR	39/47:38/49	0.70(0.28,1.74)
+POIDY Diploid	27/35:25/46	0.56(0.25,1.27)
+POIDY Hyperdiploid	40/49:42/48	1.14(0.40,3.25)
+POIDY Unknown	27/29:13/19	0.19(0.04,0.95)
+RACE BLACKORAFRICANAME	7/8:5/8	0.17(0.02,1.71)
+RACE WHITE	80/95:66/90	0.57(0.30,1.10)
+REGION Non-US	10/12:9/16	0.36(0.07,1.73)
+REGION USA	84/101:71/97	0.57(0.31,1.05)
+SEX F	36/42:33/49	0.34(0.13,0.87)
+SEX M	58/71:47/64	0.70(0.34,1.45)
+overall	94/113:80/113	0.52(0.30,0.92)

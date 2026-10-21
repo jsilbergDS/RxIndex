@@ -1,0 +1,23 @@
+{
+  "app": "NDA218033",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 305)",
+  "_raw": "Analyzing the card for quality issues.\n\nLet me verify the key_safety numbers against citations. The text says \"hair color changes (76%)\" \u2713, \"fatigue (55%)\" \u2713, \"viral infection (55%)\" \u2713, \"vomiting (50%)\" \u2713, \"headache (45%)\" \u2713, \"hemorrhage (42%, including one Grade 5)\" \u2713. But \"rash (77%, Grade 3/4 12%",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "20",
+        "text": "Most common adverse reactions (\u226520%) in FIREFLY-1 included rash (77%, Grade 3/4 "
+      },
+      {
+        "field": "key_safety",
+        "number": "3",
+        "text": "Most common adverse reactions (\u226520%) in FIREFLY-1 included rash (77%, Grade 3/4 "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "app": "NDA210598",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].nct",
+      "severity": "high",
+      "issue": "Study 127 carries the same NCT (NCT02459080) as Study 126; replicate trials should have distinct NCT numbers, so at least one NCT is wrong/mislabeled."
+    },
+    {
+      "field": "pivotal_trials[0].nct",
+      "severity": "medium",
+      "issue": "The NCT citation quote 'NCT02459080' comes from the same doc/line as '0126: 619' and '0127: 611' without disambiguation, so which NCT maps to Study 126 vs 127 is unverified."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "medium",
+      "issue": "Study 127 assigns 160.5 mL to REV 88 mcg and 147.0 mL to REV 175 mcg (lower dose showing larger effect); this ordering is taken from the composite table without a study-specific label, so the dose-to-value mapping is not clearly verifiable."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "The 'Overall Treatment Effect (mL)' citation (line 162) contains different values (103.8/155.6/etc.) than the reported LS mean differences and is not actually used to support any stated number, making it a stray/mismatched citation."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Uncited-number flag for '126' is a false positive; it is the study identifier, which is supported by the citation '0126: 619'."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Uncited-number flags for '126', '175', '88' are false positives; they are the study identifier and dose designations, not efficacy numbers."
+    },
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "Uncited-number flags for '12', '88', '175' are false positives; the 12-week/88 mcg/175 mcg values are supported via cross-referenced Study 126 citations."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "Uncited-number flag for '127' is a false positive; it is the study identifier, supported by the citation '0127: 611'."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "Uncited-number flags for '175' and '88' are false positives; they are dose designations, not efficacy numbers."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Uncited-number flags for '3', '12', '126', '127' are false positives; phase 3, 12-week duration, and study IDs are supported by trial-level citations."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "126",
+        "text": "Study 126: placebo N=209, REV 88 mcg N=212, REV 175 mcg N=198 (619 enrolled)."
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "126",
+        "text": "Study 126: LS mean difference from placebo in change from baseline trough FEV1 w"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "175",
+        "text": "Study 126: LS mean difference from placebo in change from baseline trough FEV1 w"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "88",
+        "text": "Study 126: LS mean difference from placebo in change from baseline trough FEV1 w"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "88",
+        "text": "Study 126: LS mean difference from placebo in change from baseline trough FEV1 w"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "175",
+        "text": "Study 126: LS mean difference from placebo in change from baseline trough FEV1 w"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "12",
+        "text": "Replicate 12-week, randomized, double-blind, placebo-controlled, parallel group "
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "88",
+        "text": "Replicate 12-week, randomized, double-blind, placebo-controlled, parallel group "
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "175",
+        "text": "Replicate 12-week, randomized, double-blind, placebo-controlled, parallel group "
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "127",
+        "text": "Study 127: placebo N=208, REV 88 mcg N=205, REV 175 mcg N=197 (611 enrolled)."
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "175",
+        "text": "Study 127: LS mean difference from placebo in change from baseline trough FEV1 w"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "88",
+        "text": "Study 127: LS mean difference from placebo in change from baseline trough FEV1 w"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Revefenacin was submitted as a 505(b)(1) NME NDA by Theravance Biopharma and rec"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "12",
+        "text": "Revefenacin was submitted as a 505(b)(1) NME NDA by Theravance Biopharma and rec"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "126",
+        "text": "Revefenacin was submitted as a 505(b)(1) NME NDA by Theravance Biopharma and rec"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "127",
+        "text": "Revefenacin was submitted as a 505(b)(1) NME NDA by Theravance Biopharma and rec"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

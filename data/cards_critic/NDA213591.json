@@ -1,0 +1,62 @@
+{
+  "app": "NDA213591",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG false positive: the '4' is the cohort designation (Cohort 4), not an efficacy/safety number requiring citation."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG false positive: the '4' is the cohort label (Cohort 4), not an uncited data value; N=69 and N=28 are both supported by the citation."
+    },
+    {
+      "field": "companion_dx.detail",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG false positive: '14' is spurious (from 'CDx'); no uncited efficacy/safety number present."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG false positive: '213591' is the NDA application number (identifier), excluded from citation requirement."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG false positive: '1' derives from the trial name 'GEOMETRY mono-1', an identifier, not an uncited data value."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "4",
+        "text": "Adult patients with metastatic NSCLC whose tumors have a MET exon 14 skipping mu"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "4",
+        "text": "97 patients with MET exon 14 skipping NSCLC (Cohort 4 N=69; Cohort 5b N=28)"
+      },
+      {
+        "field": "companion_dx/detail",
+        "number": "14",
+        "text": "FoundationOne CDx (Foundation Medicine) was reviewed contemporaneously as the co"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "213591",
+        "text": "NDA 213591 received a Priority review and was granted accelerated approval under"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "NDA 213591 received a Priority review and was granted accelerated approval under"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

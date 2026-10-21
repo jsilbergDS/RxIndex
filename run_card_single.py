@@ -218,6 +218,32 @@ def number_coverage(card):
     walk(card)
     return tot, cov, samples
 
+# --- prompt caching: system + tools are stable across the agentic loop; the
+# conversation prefix grows and is re-sent every turn, so cache it too. ---
+SYSTEM_CACHED = [{"type": "text", "text": PROMPT, "cache_control": {"type": "ephemeral"}}]
+TOOLS_CACHED = [dict(t) for t in TOOLS]
+TOOLS_CACHED[-1] = {**TOOLS_CACHED[-1], "cache_control": {"type": "ephemeral"}}
+
+
+def _cache_last(messages):
+    """Put a single rotating cache breakpoint on the last block of the last message."""
+    for m in messages:
+        c = m.get("content")
+        if isinstance(c, list):
+            for b in c:
+                if isinstance(b, dict):
+                    b.pop("cache_control", None)
+    last = messages[-1]; c = last["content"]
+    if isinstance(c, str):
+        last["content"] = [{"type": "text", "text": c, "cache_control": {"type": "ephemeral"}}]
+    elif isinstance(c, list) and c and isinstance(c[-1], dict):
+        c[-1]["cache_control"] = {"type": "ephemeral"}
+
+
+def _cost(tin, cw, cr, tout):
+    return (tin * PRICE_IN + cw * PRICE_IN * 1.25 + cr * PRICE_IN * 0.10 + tout * PRICE_OUT) / 1e6
+
+
 def run_one(app):
     meta = load_meta(app)
     drug = meta.get("drug", "?")
@@ -227,13 +253,17 @@ def run_one(app):
             f"Sponsor: {meta.get('sponsor','?')}\n\nBuild the fully-cited card. "
             f"Call list_drug_docs first, ground every field, then save_card once.")
     messages = [{"role": "user", "content": user}]
-    tin = tout = 0; saved = None
+    tin = tout = cr = cw = 0; saved = None
     for turn in range(MAX_TURNS):
+        _cache_last(messages)
         try:
-            resp = client.messages.create(model=MODEL, max_tokens=16000, system=PROMPT, tools=TOOLS, messages=messages)
+            resp = client.messages.create(model=MODEL, max_tokens=16000, system=SYSTEM_CACHED, tools=TOOLS_CACHED, messages=messages)
         except Exception as e:
-            return {"app": app, "error": str(e), "success": False, "cost_usd": tin/1e6*PRICE_IN + tout/1e6*PRICE_OUT}
-        tin += resp.usage.input_tokens; tout += resp.usage.output_tokens
+            return {"app": app, "error": str(e), "success": False, "cost_usd": round(_cost(tin, cw, cr, tout), 4)}
+        u = resp.usage
+        tin += u.input_tokens; tout += u.output_tokens
+        cr += getattr(u, "cache_read_input_tokens", 0) or 0
+        cw += getattr(u, "cache_creation_input_tokens", 0) or 0
         messages.append({"role": "assistant", "content": [b.model_dump() for b in resp.content]})
         if resp.stop_reason != "tool_use": break
         results = []
@@ -252,9 +282,10 @@ def run_one(app):
             results.append({"type": "tool_result", "tool_use_id": b.id, "content": o})
         messages.append({"role": "user", "content": results})
         if saved: break
-    cost = tin/1e6*PRICE_IN + tout/1e6*PRICE_OUT
+    cost = _cost(tin, cw, cr, tout)
     r = {"app": app, "drug": drug, "success": saved is not None, "cost_usd": round(cost, 4),
-         "turns": turn+1, "tokens_in": tin, "tokens_out": tout}
+         "turns": turn+1, "tokens_in": tin, "tokens_out": tout,
+         "cache_read": cr, "cache_write": cw}
     if saved:
         vt, vp, vm, vs = verify_citations(saved)
         nt, nc, ns = number_coverage(saved)

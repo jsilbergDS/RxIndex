@@ -1,0 +1,27 @@
+{
+  "app": "NDA022288",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "advisory_committee.vote.citations[0]",
+      "severity": "low",
+      "issue": "First citation (line 89) only establishes the meeting date/location/chair and does not support the 'unanimously concluded adequate safety and efficacy' claim; the second citation (line 90) does support it, so the claim is covered."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited_number '1.5' is a false positive \u2014 it refers to the drug concentration (bepotastine 1.5%), a dose which is excluded from uncited-number checks."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "1.5",
+        "text": "Bepotastine 1.5% achieved statistically significant reduction in ocular itching "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

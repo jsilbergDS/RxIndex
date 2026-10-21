@@ -1,0 +1,28 @@
+{
+  "app": "NDA203188",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 372)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"NDA203188\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[1].trial_name\",\n      \"severity\": \"medium\",\n      \"issue\": \"Trial name 'Study 103 (Part B)' is cited by a quote ('Description\\tStudy 102\\nN=83\\tStudy 1",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/priority_review/basis",
+        "number": "2012",
+        "text": "Application was given Priority Review (received October 18, 2011; PDUFA goal dat"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "Ivacaftor (Kalydeco), a new molecular entity classified as a CFTR potentiator, r"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "Ivacaftor (Kalydeco), a new molecular entity classified as a CFTR potentiator, r"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

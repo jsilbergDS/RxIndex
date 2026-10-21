@@ -1,0 +1,663 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+L2: **125477Orig1s000**
+L3: **STATISTICAL REVIEW(S)**
+L4: FDA Seal for Drug Evaluation and Research
+L5: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L6: ## STATISTICAL REVIEW AND EVALUATIONCLINICAL STUDIES
+L7: **NDA/BLA #:** BLA 125,477
+
+**Drug Name:** Cyramza® (Ramucirumab)
+
+**Indication(s):** Metastatic gastric or gastroesophageal junction adenocarcinoma following disease progression on first-line platinum- or fluoropyrimidine-containing combination therapy
+
+**Applicant:** Eli Lilly and Company
+
+**Date(s):** Receipt: 8/23/2013
+PDUFA: 4/23/2014
+
+**Review Priority:** Priority
+
+**Biometrics Division:** Division of Biometrics V
+
+**Statistical Reviewer:** Hui Zhang
+
+**Concurring Reviewers:** Kun He, Team Leader
+Rajeshwari Sridhara, Division Director
+
+**Medical Division:** Division of Oncology Products 2
+
+**Clinical Team:** Sandra Casak, Reviewer
+Steven Lemery, Team Leader
+Patricia Keegan, Division Director
+
+**Project Manager:** Sharon Sickafuse
+
+**Keywords:** Log-rank test, hazard ratio, K-M curve
+L8: ## Table of Contents
+L9: 1	EXECUTIVE SUMMARY	5
+2	INTRODUCTION	6
+2.1	OVERVIEW	6
+2.1.1	Class and Indication	6
+2.1.2	History of Drug Development	6
+2.1.3	Study Reviewed	9
+2.2	DATA SOURCES	10
+3	STATISTICAL EVALUATION	10
+3.1	DATA AND ANALYSIS QUALITY	10
+3.2	EVALUATION OF EFFICACY	10
+3.2.1	Objective	10
+3.2.2	Study Design and Endpoints	10
+3.2.3	Statistical Methodologies	13
+3.2.4	Patient Disposition, Demographic and Baseline Characteristics	14
+3.2.5	Results and Conclusions	20
+3.3	EVALUATION OF SAFETY	24
+3.4	BENEFIT-RISK ASSESSMENT	24
+4	FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	24
+4.1	GENDER, RACE, AGE, AND GEOGRAPHIC REGION	24
+4.2	OTHER SPECIAL/SUBGROUP POPULATIONS	25
+5	SUMMARY AND CONCLUSIONS	27
+5.1	STATISTICAL ISSUES	27
+5.2	COLLECTIVE EVIDENCE	28
+5.3	CONCLUSIONS AND RECOMMENDATIONS	29
+5.4	LABELING RECOMMENDATIONS	29
+L10: ## LIST OF TABLES
+L11: Table 1: History of Trial REGARD Protocol Amendment	8
+Table 2: Overview of Trial REGARD	9
+Table 3: Accrual Rate Assumption	13
+Table 4: Subject Disposition (ITT Population)	14
+Table 5: Baseline Demographics (ITT Population)	15
+Table 6: Stratification Factors at Randomization (ITT Population)	16
+Table 7: Baseline Disease Characteristics (ITT Population)	17
+Table 8: Summary of Major Protocol Violations and Deviations (ITT Population)	19
+Table 9: Discrepancies between IVRS/IWRS Randomization Stratification Factors and eCRF Stratification Factors (ITT Population)	19
+Table 10: Overall Survival Results (ITT Population)	20
+Table 11: Sensitivity Analyses of Overall Survival (ITT Population)	21
+Table 12: Progression-Free Survival Results (ITT Population)	22
+Table 13: ORR Results (ITT Population)	23
+Table 14: Overall Survival (Months) Subgroup Analyses by Demographics (ITT Population)	24
+L12: ## LIST OF FIGURES
+L13: Figure 1: Trial REGARD Design	11
+Figure 2: Kaplan-Meier Survival Curves for Overall Survival (ITT Population)	21
+Figure 3: Kaplan-Meier Survival Curves for Progression Free Survival (ITT Population)	22
+Figure 4: Forest Plot of Subgroup Analyses of OS by Baseline Characteristics	26
+Figure 5: Forest Plot of Subgroup Analyses of OS by Stratification Factors	27
+L14: ## 1 EXECUTIVE SUMMARY
+L15: In this original Biologics License Application (BLA), the applicant is seeking an approval of ramucirumab in patients with metastatic gastric or gastroesophageal junction adenocarcinoma following disease progression on first-line platinum- or fluoropyrimidine-containing combination therapy.
+L16: The trial I4T-IE-JVBD (IMCL CP12-0715; REGARD) to support the application was a randomized, double-blinded, placebo-controlled multinational phase 3 study evaluating the efficacy and safety of ramucirumab plus Best Supportive Care (BSC) relative to placebo plus BSC in patients with metastatic gastric or gastroesophageal junction adenocarcinoma following disease progression on first-line platinum- or fluoropyrimidine-containing combination therapy. The primary endpoint was overall survival (OS). The secondary endpoints included progression free survival (PFS), objective response rate (ORR), and duration of response (DoR). A total of 355 patients were randomized in a 2:1 allocation (ramucirumab + BSC: 238; placebo + BSC: 117).
+L17: The data and analyses from the trial REGARD demonstrated that ramucirumab + BSC had a statistically significant improvement in the OS when compared with placebo + BSC. The stratified log-rank test p-value for OS comparison was 0.0473. The median OS was 5.2 (95% CI: 4.4, 5.7) months for ramucirumab + BSC and 3.8 (95% CI: 2.8, 4.7) months for placebo + BSC. The stratified Cox proportional hazard ratio (HR) was 0.776 with 95% CI (0.603, 0.998). Ramucirumab + BSC also demonstrated an improvement in PFS (stratified HR = 0.483, 95% CI: 0.376, 0.620) based on the stratified log-rank test p-value &lt; 0.0001.
+L18: Subgroup analyses of OS for female patients from the trial REGARD showed that ramucirumab + BSC was numerically inferior over placebo + BSC (stratified HR = 1.431, 95% CI: 0.852, 2.405). However, the observed HR was based on small sample size, and the results should be interpreted with caution. (See Sections 4.1 and 4.2 for more details.)
+L19: Whether the data and analyses from the current submission demonstrated an overall favorable benefit vs. risk profile is deferred to the clinical team reviewing this application.
+L20: ## 2 INTRODUCTION
+L21: Cyramza® (ramucirumab) is a human receptor-targeted monoclonal antibody that specifically binds VEGF Receptor 2. This original Biologics License Application (BLA) submission provided the clinical efficacy and safety data that intend to support the use of ramucirumab for the treatment of metastatic gastric or gastroesophageal junction adenocarcinoma following disease progression on first-line platinum- or fluoropyrimidine-containing combination therapy. This submission was primarily supported by results from a randomized, double-blinded, placebo-controlled phase 3 trial REGARD (IMCL CP12-0715) under Investigational New Drug (IND) 11,856.
+L22: ## 2.1 Overview
+L23: ## 2.1.1 Class and Indication
+L24: Gastric cancer, also called stomach cancer, remains a major health problem worldwide. Gastric cancer is the fourth most common cancer in the world and is a major cause of cancer-related death (International Agency for Research on Cancer [IARC] 2008). It is estimated that in 2013 in the United States, about 21,600 new cases of gastric cancer will be diagnosed with an estimated 10,990 deaths (National Cancer Institute 2013). Most patients diagnosed with gastric cancer will be over 70 years old. In the European Union (EU), incidence and mortality for gastric cancer were estimated at 80,626 and 57,654, respectively, for 2012 (IARC 2012).
+L25: Ramucirumab (IMC-1121B) is a human receptor-targeted monoclonal antibody that specifically binds VEGF Receptor 2. The binding of ramucirumab to VEGF Receptor 2 prevents interaction with activating ligands. As a result, ramucirumab inhibits activation of VEGF Receptor 2 and of intracellular downstream signaling moieties, including p44/p42 mitogen-activated protein kinases, neutralizing ligand-induced mitogenesis of human endothelial cells.
+L26: In the current BLA submission, the indication proposed by the Applicant is for treatment of patients with metastatic gastric or gastroesophageal junction adenocarcinoma following disease progression on first-line platinum- or fluoropyrimidine-containing combination therapy. This indication was supported by a single trial, I4T-IE-JVBD (IMCL CP12-0715; REGARD), under Investigational New Drug (IND) 11,856.
+L27: ## 2.1.2 History of Drug Development
+L28: Trial REGARD was titled “A phase 3, randomized, double-blinded study of IMC-1121B and Best Supportive Care versus placebo and BSC in the treatment of metastatic gastric or gastroesophageal junction adenocarcinoma following disease progression on first-line platinum- or fluoropyrimidine-containing combination therapy”. The original protocol was issued on March 5, 2008. The protocol (Version 3.1, dated December 23, 2008) was initially submitted to
+L29: IND 11,856 on June 10, 2009 and was last amended on October 31, 2011 (Version 7.0). The protocol was amended 8 times. No patients were enrolled under protocol amendments 1.0 through 3.0, inclusive. Patients were enrolled under protocol Versions 3.1 through 6.0. The Statistical Analysis Plan (SAP) (Version 7) was finalized on September 11, 2012.
+L30: Table 1 shows the protocol amendments regarding statistical issues that were more relevant to this BLA statistical review.
+L31: APPEARS THIS WAY ON ORIGINAL
+L32: **Table 1: History of Trial REGARD Protocol Amendment**
+L33: Protocol Amendment	Major Amendments	Rational
+Version 2.0
+(July 22, 2008)	Add location of primary tumor (gastric vs. GEJ) to the list of stratification factors
+Decrease sample size and number of events from 651 patients with 531 OS events to 615 patients with 459 OS events.
+The assumed hazard ratio was changed from 0.752 (median OS: 6.65 months in ramucirumab arm vs. 5 months in placebo arm) to 0.714 (median OS: 7 months in ramucirumab arm vs. 5 months in placebo arm).
+
+Version 3.0
+(November 24, 2008)	Change the secondary endpoint of 16-week PFS to 12-week PFS
+Radiological assessment of tumor response was performed every three treatment cycles (i.e., every 6 weeks) versus every four cycles (i.e., every 8 weeks).
+
+Version 4.0
+(July 1, 2009)	Amend geographic region strata
+
+Version 5.0
+(February 8, 2010)	Clarify that secondary endpoints will be analyzed at the same time as OS and at the same level of significance.
+
+Version 6.0
+(November 23, 2010)	Decrease sample size from 615 patients with 459 OS events to 315 patients with 256 OS events
+Remove interim efficacy analysis, only conduct two interim futility analysis at 25% and 50% of the total expected OS events
+In the sample size calculation, the assumed hazard ratio was changed from 0.714 (median OS: 7 months in ramucirumab arm vs. 5 months in placebo arm) to 0.690 (median OS: 7.25 months in ramucirumab arm vs. 5 months in placebo arm); the power was reduced from 90% to 80%.
+
+Version 7.0
+(October 31, 2011)
+A total of 280 patients had been randomized into the trial.	Increase sample size from 315 patients with 256 OS events to 348 patients with 268 OS events
+Reduce two interim futility analyses to one (at 35% of the expected number of events), change the futility analysis from binding to non-binding
+Interim futility analysis was changed from binding to non-binding.
+L34: Reviewer's comments:
+L35: *The sample size was amended 3 times without statistical review by the Agency.*
+L36: ## 2.1.3 Study Reviewed
+L37: The current BLA submission is based primarily on the phase 3 study REGARD. This reviewer will focus on the trial REGARD outlined in Table 2 for a full statistical review and evaluation.
+L38: **Table 2: Overview of Trial REGARD**
+L39: Study Design	Treatment Period	Follow-up Period	Treatment Arms (Number of Subjects)	Enrollment Period
+Phase 3, randomized (2:1), double-blinded, placebo-controlled study of ramucirumab in the treatment of patients with metastatic gastric or gastroesophageal junction adenocarcinoma following disease progression on first-line platinum- or fluoropyrimidine-containing combination therapy	Subjects received administrations of study drug (IV over approximately 60 minutes) every 2 weeks until there was evidence of progressive disease (PD), unacceptable toxicity, withdrawal of consent, or until other withdrawal criteria were met.	Patients underwent radiographic assessment of disease status approximately every 6 weeks following the first dose of study therapy. Patients were evaluated for response according to RECIST (Version 1.0)	Ramucirumab + BSC (n=238)
+Placebo + BSC (n=117)	First randomization date: October 6, 2009
+Last randomization date: January 26, 2012
+Patients were from 119 investigative sites in 29 countries
+L40: The trial REGARD was a randomized, double-blinded, placebo-controlled multinational phase 3 study evaluating the efficacy and safety of ramucirumab plus Best Supportive Care (BSC) relative to placebo plus BSC in patients with metastatic gastric or gastroesophageal junction adenocarcinoma following disease progression on first-line platinum- or fluoropyrimidine-containing combination therapy. The BSC may have included but were not limited to antiemetic agents, opiate and non-opiate analgesic agents, appetite stimulants, and granulocyte-colony stimulating factors and erythroid growth factors. Other agents useful in controlling disease-related symptoms (for example, laxatives and antidepressants) were permitted except those prohibited per the protocol. This trial was conducted at 119 investigative sites within 29 countries. Patients were randomized into the trial between October 6, 2009 and January 26, 2012. The cut-off date for the efficacy analysis was July 25, 2012.
+L41: A total of 355 patients were randomized in a 2:1 allocation (ramucirumab + BSC: 238; placebo + BSC: 117). The primary endpoint was overall survival (OS). The secondary endpoints were progression free survival (PFS) using Response Evaluation Criteria in Solid Tumors (RECIST)
+L42: 1.0, objective response rate (ORR), and duration of response (DoR). No interim efficacy analysis was planned for this trial.
+L43: Throughout this review, subjects who were randomized to receive ramucirumab plus BSC are referred as “ramucirumab arm” in the text and as “ramucirumab” in the tables/figures, whereas subjects who were randomized to receive placebo plus BSC are referred as “placebo arm” in the text and as “placebo” in the tables/figures.
+L44: ## 2.2 Data Sources
+L45: The electronic submission including protocols, statistical analysis plan, study reports, analysis datasets, and SAS programs for this submission are located on the network with network path: \\cdsesub1\bla\eCTD_Submissions\STN125477\0001.
+L46: ## 3 STATISTICAL EVALUATION
+L47: Part of the text, tables, and figures presented in this review were adapted from clinical study report (CSR).
+L48: ## 3.1 Data and Analysis Quality
+L49: The data and analysis quality of the submission was acceptable for the reviewer to be able to perform the statistical review.
+L50: ## 3.2 Evaluation of Efficacy
+L51: ## 3.2.1 Objective
+L52: The primary efficacy objective of the trial REGARD was to compare the OS when treated with ramucirumab versus placebo. The secondary efficacy objectives included comparisons for PFS, ORR, and DoR.
+L53: ## 3.2.2 Study Design and Endpoints
+L54: ## 3.2.2.1 Overall Study Design
+L55: The trial REGARD was a multinational, multicenter, randomized, double-blinded, placebo-controlled phase 3 study comparing the efficacy and safety of ramucirumab + BSC to placebo + BSC in patients with metastatic gastric or gastroesophageal junction adenocarcinoma following disease progression on first-line platinum- or fluoropyrimidine-containing combination therapy.
+L56: Treatment was administered in 2 weeks cycle until disease progression, the development of unacceptable toxicity, noncompliance, withdrawal of consent by the patient, or death. Intravenous (IV) infusions of ramucirumab (8mg/kg) or placebo were administered on Days 1 of each cycle. The trial design is shown in Figure 1.
+L57: **Figure 1: Trial REGARD Design**
+L58: (Source: Applicant Orientation Presentation)
+L59: Tumor assessments were to be performed every 6 weeks (\pm 3 days) following the first dose of study therapy, even in the event of treatment delays. Tumor response in all cases was assessed according to the RECIST Version 1.0. Following discontinuation of study therapy, all patients were to be followed every 2 months (as long as the patient was alive) until the required 268 OS events were reported.
+L60: Approximately 348 patients were planned to be randomized via Interactive Voice Response System (IVRS) or Interactive Web Response System (IWRS) system in a 2:1 ratio. Randomization were stratified by weight loss (\ge 10\% over the prior 3 months vs. &lt; 10\%), geographic region (North America, Europe, Australia, and New Zealand vs. South and Central America, India, Egypt, South Africa, Lebanon, Jordan, and Saudi Arabia vs. Asia), and location of the primary tumor (gastric [including tumors of the gastric cardia that extend into the GEJ] vs. GEJ [including tumors of the distal esophagus that extend into the GEJ, and tumors involving the GEJ when precise identification of the organ of origin is not possible]).
+L61: The main inclusion criteria were:
+L62: - Histologically or cytologically confirmed gastric carcinoma, including gastric adenocarcinoma or GEJ adenocarcinoma (patients with adenocarcinoma of the distal esophagus were eligible if the primary tumor involves the GEJ).
+- Metastatic disease or locally recurrent, unresectable disease not amenable to curative resection.
+L63: - Measurable disease and/or evaluable disease.
+- Disease progression during or within 4 months after the last dose of first-line therapy for metastatic disease (that is, combination chemotherapy regimens that include platinum or fluoropyrimidine components), or during or within 6 months after the last dose of adjuvant therapy.
+- Age \ge 18 years, life expectancy of \ge 12 weeks, and Eastern Cooperative Oncology Group performance status (ECOG PS) score of 0-1.
+- Adequate recovery from toxicities/effects of prior therapy.
+- Adequate hematologic, hepatic, coagulation, and renal function, specifically:Total bilirubin \le 1.5 mg/dL (25.65 \mumol/L), and aspartate transaminase and alanine transaminase \le 3.0 x the upper limit of normal (ULN) (or 5.0 x the ULN in the setting of liver metastases);
+- Serum creatinine \le 1.5 x the ULN, or creatinine clearance (measured via 24-hour urine collection) \ge 40 mL/minute;
+- Urinary protein \le 1+ on dipstick or routine urinalysis (if urine dipstick or routine analysis was \ge 2+, a 24-hour urine collection for protein was required to demonstrate &lt; 1000 mg of protein in 24 hours to allow participation in the trial);
+- Absolute neutrophil count \ge 1000/\muL, hemoglobin \ge 9 g/dL (5.58 mmol/L), and platelets \ge 100,000/\muL; and
+- International Normalized Ratio (INR) \le 1.5 and a partial thromboplastin time \le 5 seconds above the ULN (unless receiving anticoagulation therapy). Patients on full-dose anticoagulation were required to be on a stable dose (minimum duration 14 days) of oral anticoagulant or low molecular weight heparin. If receiving warfarin, the patient was required to have an INR \le 3.0 and no active bleeding or pathological condition present with a high risk of bleeding (for example, tumor involving major vessels or known varices).
+L64: ## 3.2.2.2 Efficacy Endpoints
+L65: **OS** was defined as the time from the date of randomization to the date of death from any cause. Patients who are alive at the time of trial completion were censored at the time they were last known to be alive.
+L66: **PFS** was defined as the time from the date of randomization until the date of disease progression or death due to any cause, whichever was first.
+L67: **ORR** was defined as the proportion of patients achieving a best overall response of complete or partial response (CR + PR). Patients who did not have a tumor response assessment for any reason were considered non-responders and were included in the denominator when calculating the response rate.
+L68: **Duration of Response** was defined as the time from first reported CR/PR to the first date of progressive disease or death.
+L69: To control the type I error at 0.05 (2-sided), a gate-keeping strategy was utilized for the analyses of the primary endpoint OS and the secondary endpoint PFS. Analysis of PFS was to be conducted only if the results of primary OS analysis were significant.
+L70: ## *Reviewer's Comments:*
+L71: *To control type I error rate, PFS was tested in a hierarchical order after OS analysis. However, type I error rate was not adjusted for other secondary endpoints. Therefore, the results of other secondary endpoints will be considered exploratory.*
+L72: ## 3.2.3 Statistical Methodologies
+L73: ## 3.2.3.1 Sample Size Consideration
+L74: The trial was designed to have 80% power to detect a hazard ratio (HR) of 0.69 with a one-sided alpha of 0.025 and 2:1 randomization ratio, assuming a median OS of 5 months for the placebo arm and 7.25 months for the ramucirumab arm. One interim futility analysis at 35% of total number of OS events was planned, and the non-binding futility boundary was to be determined using beta-spending function Gamma (-1). Assuming 30 months accrual period with accrual rate showed in Table 3, a follow-up of 11 months, and a drop out rate of 10%, it was estimated that 268 death events were needed for the OS analysis, which could be expected from a total accrual of 348 patients.
+L75: **Table 3: Accrual Rate Assumption**
+L76: Accrual period (month)	0-4	5-10	11-13	14-20	21+
+Accrual rate (patients/month)	1	3	5	16	21
+L77: ## 3.2.3.2 Interim Analyses
+L78: An interim futility analysis of OS at 94 deaths (35%) was planned. The final OS analysis was planned to be performed at approximately 268 deaths. The non-binding futility boundary was determined by the Gamma (-1) beta-spending function. There is no intent to claim efficacy at the interim analysis, but a nuisance alpha-spending function Gamma (-30) was introduced in sample size calculation, which has virtually no impact on estimation results.
+L79: ## 3.2.3.3 Efficacy Analysis
+L80: **Intent-to-Treat (ITT)** population was defined as all randomized patients. Patients were included in all ITT analyses according to the treatment to which they were randomized. This population was the primary population for evaluating efficacy results.
+L81: ## Efficacy Analysis Method for OS
+L82: The analysis for OS was performed using a stratified log-rank test, stratified by the same stratification factors as used for randomization per IVRS/IWRS. The median OS with corresponding 95% CIs and survival curves were estimated using the Kaplan-Meier (K-M) method. The stratified Cox regression of HR of the ramucirumab over the placebo was planned.
+L83: ## Efficacy Analysis Method for PFS
+L84: The PFS analysis method was identical to that of OS analysis.
+L85: ## Efficacy Analysis Method for ORR
+L86: The analysis for ORR was performed using a 2-sided exact Cochran-Mantel-Haenszel (CMH) test adjusting for the same stratification factors at randomization. ORR estimates and 95% CIs were to be estimated for each treatment group.
+L87: ## Efficacy Analysis Method for Duration of Response
+L88: The Duration of Response analysis method was identical to OS analysis.
+L89: ## 3.2.4 Patient Disposition, Demographic and Baseline Characteristics
+L90: ## 3.2.4.1 Patient Disposition
+L91: Table 4 presents patient disposition.
+L92: **Table 4: Subject Disposition (ITT Population)**
+L93: Disposition	Ramucirumab	Placebo
+N=238
+n (%)	N=117
+n (%)
+Receiving Treatmenta	14 (5.9)	1 (0.9)
+Never Treated	2 (0.8)	2 (1.7)
+Discontinued from Treatment	222 (93.3)	114 (97.4)
+Progressive disease	126 (52.9)	73 (62.4)
+Symptomatic deterioration	41 (17.2)	16 (13.7)
+Death	20 (8.4)	13 (11.1)
+Withdrawal of consentb	7 (2.9)	3 (2.6)
+Adverse event	25 (10.5)	7 (6.0)
+Other reasons	3 (1.3)	3 (2.6)
+L94: a As data cut-off date 7/25/2012.
+L95: b Includes patients who withdrew from treatment but permitted subsequent follow-up as well as those who withdrew from treatment and subsequent follow-up.
+L96: [Adapted from Clinical Study Report Table JVBD.10.1]
+L97: ## *Reviewer's Comments:*
+L98: *Discontinuations were slightly imbalanced between the ramucirumab arm and the placebo arm. The placebo arm had more progressive disease and death, and the ramucirumab arm had more symptomatic deterioration and AE.*
+L99: ## 3.2.4.2 Demographic and Baseline Characteristics
+L100: Table 5 presents the baseline demographics.
+L101: **Table 5: Baseline Demographics (ITT Population)**
+L102: Characteristic	Ramucirumab
+N=238	Placebo
+N=117
+Sex, n (%)	
+n	238	117
+Male	169 (71.0)	79 (67.5)
+Female	69 (29.0)	38 (32.5)
+Age (years)	
+n	238	117
+Mean (SD)	60.0 (10.8)	60.0 (12.3)
+Median	60.0	60.0
+(range)	30.0 – 86.0	24.0 – 87.0
+Age Group, n (%)	
+n	238	117
+< 65	156 (65.5)	71 (60.7)
+≥ 65	82 (34.5)	46 (39.3)
+Race	
+n	238	117
+White	181 (76.1)	91 (77.8)
+Asian	39 (16.4)	17 (14.5)
+Black	4 (1.7)	2 (1.7)
+Other	14 (5.9)	7 (6.0)
+Ethnicity, n (%)	
+n	238	117
+Hispanic or Latino	41 (17.2)	19 (16.2)
+Not Hispanic or Latino	197 (82.8)	98 (83.8)
+Height (cm)	
+n	235	115
+Mean (SD)	167.3 (9.0)	167.5 (9.4)
+L103: Median
+(range)	167.0
+143.0 – 189.0	168.0
+145.0 – 191.0
+Weight (kg)	
+n	238	117
+Mean (SD)	65.0 (14.6)	65.7 (17.0)
+Median
+(range)	63.1
+36.0 – 113.0	64.0
+31.0 – 118.0
+ECOG PS, n (%)	
+n	238	117
+0	67 (28.2)	31 (26.5)
+1	171 (71.8)	85 (72.6)
+2	0	1 (0.9)a
+L104: Note: Data cut-off date 7/25/2012
+L105: a Patient randomized in violation of Inclusion Criterion.
+L106: ECOG PS = Eastern Cooperative Oncology Group Performance Status
+[Adapted from Clinical Study Report Table JVBD.11.1]
+L107: Table 6 summarizes the IVRS/IWRS stratification factors.
+L108: **Table 6: Stratification Factors at Randomization (ITT Population)**
+L109: Ramucirumab
+N=238	Placebo
+N=117
+Weight Loss Over The Prior 3 Months	
+≥ 10%	41 (17.2)	20 (17.1)
+< 10%	197 (82.8)	97 (82.9)
+Location of Primary Tumor	
+GEJ	60 (25.2)	30 (25.6)
+Gastric	178 (74.8)	87 (74.4)
+Geographic Region	
+Region 1 (NA) – North America,
+Europe, Australia, New Zealand	165 (69.3)	80 (68.4)
+Region 2 (LA) – South and Central
+America, India, South Africa, Jordan,
+Egypt, Saudi Arabia, Lebanon	55 (23.1)	29 (24.8)
+Region 3 (AS) – Asia	18 (7.6)	8 (6.8)
+L110: Note: Data cut-off date 7/25/2012
+L111: GEJ = Gastroesophageal junction
+L112: [Source: Clinical Study Report Table JVBD.11.2]
+L113: Table 7 summarizes the important baseline disease characteristics in the ITT population.
+L114: Table 7: Baseline Disease Characteristics (ITT Population)
+L115: Characteristic	Ramucirumab
+N=238	Placebo
+N=117
+Pre-Treatment Disease Characteristics	
+Measurable Disease, n (%)	
+Yes	238
+218 (91.6)	117
+106 (90.6)
+No	20 (8.4)	11 (9.4)
+Histology, n(%)	
+Intestinal	238
+52 (21.8)	117
+35 (29.9)
+Diffuse	96 (40.3)	44 (37.6)
+Undetermined/Not available	90 (37.8)	38 (32.5)
+Primary Tumor Present, n (%)	
+Yes	238
+174 (73.1)	117
+86 (73.5)
+No	64 (26.9)	31 (26.5)
+Site of Origin of Tumor	
+Distal esophagus involving
+gastroesophageal junction	237
+14 (5.9)	116
+11 (9.5)
+Gastric (antrum)	62 (26.2)	33 (28.5)
+Gastric (body)	71 (30.0)	36 (31.0)
+Gastric (cardia)	33 (13.9)	13 (11.2)
+Gastric (cardia) involving
+gastroesophageal junction	11 (4.6)	4 (3.5)
+Gastric (fundus)	15 (6.3)	6 (5.2)
+Gastroesophageal junction (including
+tumors with extension into the
+distal esophagus or gastric cardia)	31 (13.1)	13 (11.2)
+Site of Metastasis, n (%)	
+Peritoneal	64 (26.9)	45 (38.5)
+Liver	104 (43.7)	56 (47.9)
+Lung	56 (23.5)	28 (23.9)
+Lymph nodes	154 (64.7)	74 (63.2)
+Pleural	19 (8.0)	10 (8.5)
+Skin	4 (1.7)	2 (1.7)
+Soft tissue	19 (8.0)	17 (14.5)
+Other	70 (29.4)	29 (24.8)
+Number of Metastasis Sites	
+0	238
+4 (1.7)	117
+2 (1.7)
+1	72 (30.3)	24 (20.5)
+2	87 (36.6)	45 (38.5)
+L116: \ge 3	75 (31.5)	46 (39.3)
+Progression-Free Interval on Prior Therapy, n (%)	238	117
+< 6 months	154 (64.7)	83 (70.9)
+\ge 6 months	81 (34.0)	34 (29.1)
+Missing	3 (1.3)	0
+Type of Cancer	238	117
+Gastroesophageal junction	59 (24.8)	32 (27.4)
+Metastatic gastric	179 (75.2)	85 (72.7)
+Initial M Stage	238	116
+M0	73 (30.7)	42 (36.2)
+M1	135 (56.7)	54 (46.6)
+Mx	21 (8.8)	14 (12.1)
+Unknown	9 (3.8)	6 (5.2)
+Previous Anticancer Treatment	
+Prior Chemotherapy, n (%)	238	117
+First line therapy	199 (83.6)	103 (88.0)
+Adjuvant therapy only (no first-line therapy)	37 (15.5)	14 (12.0)
+Neoadjuvant therapy only	2 (0.8)	0 (0.0)
+Duration of Disease (Months from First Diagnosis of Cancer to Randomization)	
+n	238	117
+Mean (SD)	12.1 (12.0)	11.7 (9.5)
+Median	8.6	8.9
+(range)	(0.6, 81.9)	(0.6, 53.6)
+L117: Note: Data cut-off date 7/25/2012
+L118: [Adapted from Clinical Study Report Table JVBD.11.3]
+L119: ## Reviewer's comments:
+L120: - Baseline demographics appear to be balanced between the two treatment arms.
+- Most baseline disease characteristics appear to be well-balanced between the two arms except baseline number of metastatic sites, progression-free interval on prior therapy, and initial M stage.More patients in the ramucirumab arm have one metastatic site compared to those in the placebo arm (30.3% vs. 20.5%), and fewer patients in the ramucirumab arm have more than three metastatic sites compared to those in the placebo arm (31.5% vs. 39.3%).
+L121: b. The number of patients having 6+ months of progression-free interval on prior therapy appears to be slightly higher in the ramucirumab arm than that in the placebo arm (34.0% vs. 29.1%).
+
+c. There is also a discrepancy in patients diagnosed with metastatic disease (M1) (56.7% in the Ramucirumab arm vs. 46.6% in the placebo arm). The number of patients with M0 disease in the ramucirumab arm is lower than that in the placebo arm (30.7% vs. 36.2%).
+
+3. Multiple sensitivity analyses for OS adjusting for imbalanced baseline demographics (baseline number of metastatic sites, initial M stage, and progression-free interval on prior therapy) were performed by this reviewer to evaluate the robustness of the primary OS analysis (see Section 3.2.5.1 for more details).
+L122: ## 3.2.4.3 Protocol Deviations
+L123: A total of 22 (6.2%) patients had at least one major protocol violation, with 13 patients in ramucirumab arm and 9 patients in placebo arm. Of these 22 patients, two received wrong treatment. The most common major protocol violation was violation of entry criteria (10 in ramucirumab arm, 8 in placebo arm).
+L124: **Table 8: Summary of Major Protocol Violations and Deviations (ITT Population)**
+L125: Number of Subjects	Ramucirumab	Placebo
+N=238
+n (%)	N=117
+n (%)
+With Any Violation	13 (5.5)	9 (7.7)
+Received wrong treatment	1 (0.4)	1 (0.9)
+Compliance with protocol/study procedures	3 (1.3)	0
+Violation of entry criteria	10 (4.2)	8 (6.8)
+L126: [Source: Clinical Study Report Table JVBD.10.3]
+L127: ## Reviewer's comments:
+L128: *The major protocol violations were comparable between the two treatment arms.*
+L129: ## 3.2.4.4 Stratification Discrepancies
+L130: Stratification assignment was performed using an IVRS/IWRS. It was noted that there were 27 patients (7.6%) with inconsistent stratification factor data from IVRS/IWRS and stratification factor data from the electronic case report forms (eCRF) (Table 9). No significant imbalance was observed between the two treatment arms.
+L131: **Table 9: Discrepancies between IVRS/IWRS Randomization Stratification Factors and eCRF Stratification Factors (ITT Population)**
+L132: Ramucirumab
+N=238
+n (%)	Placebo
+N=117
+n (%)
+Total Number of Subjects with Discrepancies	17 (7.1)	10 (8.5)
+For Each Stratification Factor	
+Weight loss over the prior 3 months	12 (5.0)	7 (6.0)
+Location of primary tumor	5 (2.1)	4 (3.4)
+Geographic region	—	—
+L133: ## *Reviewer's comments:*
+L134: *Per the SAP, the IVRS/IWRS-driven stratification data was used in the primary efficacy analysis of OS. This reviewer performed a sensitivity analysis based on stratification data from eCRFs. The improvement seen in primary OS analysis is maintained when eCRF-based stratification values were used. (See Section 3.2.5.1 for more details.)*
+L135: ## 3.2.5 Results and Conclusions
+L136: ## 3.2.5.1 Primary Efficacy Endpoint – Overall Survival
+L137: Table 10 presents the applicant's efficacy analysis for OS. There were a total of 278 death events. The ramucirumab demonstrated a statistically significant difference in OS compared with the placebo based on the stratified log-rank test with a p-value 0.0473. The median OS was 5.2 months (95% CI: 4.4, 5.7) for the ramucirumab arm and 3.8 months (95% CI: 2.8, 4.7) for the placebo arm. The stratified Cox HR was 0.776 with 95% CI (0.603, 0.998).
+L138: **Table 10: Overall Survival Results (ITT Population)**
+L139: Ramucirumab
+(N=238)	Placebo
+(N=117)
+Subjects randomized	238	117
+Death	179 (75.2%)	99 (84.6%)
+Censored	59 (24.8%)	18 (15.4%)
+Overall survival (months)a	5.2	3.8
+Median (95% CI)	(4.4, 5.7)	(2.8, 4.7)
+p-valueb	0.0473
+Hazard ratio (95% CI)c	0.776 (0.603, 0.998)
+L140: a Survival time is calculated as months from date of randomization to date of death from any cause. Subjects who did not die at the study of completion, or are lost to follow-up are censored on the last date subject was known to be alive.
+L141: b p-value is from a log-rank test stratified by weight loss over the prior 3 months, location of primary tumor, and geographical regions.
+L142: c Hazard ratio is from a Cox proportional hazards model adjusted for weight loss over the prior 3 months, location of primary tumor, and geographical regions. Hazard ratio &lt; 1 favors ramucirumab.
+L143: [Adapted from Clinical Study Report Table JVBD.11.4]
+L144: Figure 2 presents the Kaplan-Meier (K-M) curves for OS.
+L145: **Figure 2: Kaplan-Meier Survival Curves for Overall Survival (ITT Population)**
+L146: [Adapted from Clinical Study Report Figure JVBD.11.1]
+L147: Table 11 shows the sensitivity analyses results for OS.
+L148: **Table 11: Sensitivity Analyses of Overall Survival (ITT Population)**
+L149: Sensitivity Analysis Description	HR (95% CI)a	p-value
+1. Unstratified analysis	0.767 (0.600, 0.981)	0.0347b
+2. Stratified analysis based on eCRF randomization stratification factors	0.769 (0.597, 0.992)	0.0419c
+3. Stratified analysis based on per protocol populationd	0.755 (0.584, 0.977)	0.0320c
+4. Stratified analysis adjusted for baseline number of metastatic sitese	0.795 (0.618, 1.023)	0.0747f
+5. Stratified analysis adjusted for baseline initial M stageg	0.753 (0.584, 0.970)	0.0281f
+6. Stratified analysis adjusted for baseline number of metastatic sites and baseline initial M stage	0.770 (0.597, 0.994)	0.0446f
+7. Stratified analysis adjusted for baseline progression-free interval on prior therapyh	0.793 (0.616, 1.022)	0.0736f
+8. Stratified analysis adjusted for baseline number of metastatic sites, baseline initial M stage and baseline progression-free interval on prior therapy	0.788 (0.610, 1.018)	0.0685f
+L150: a Hazard ratio is from a Cox proportional hazards model. Hazard ratio &lt; 1 favors ramucirumab.
+
+b p-value is from an unstratified log-rank test.
+
+c p-value is from a log-rank test stratified by weight loss over the prior 3 months, location of primary tumor, and geographical regions based on eCRF.
+
+d Per protocol population consists of the randomized and treated patients who did not have a major protocol violation.
+
+e Number of metastatic sites is categorized as 0-2 or \ge 3.
+
+f p-value is from a Cox proportional hazards model stratified by weight loss over the prior 3 months, location of primary tumor, and geographical regions.
+
+g Initial M stage is categorized as M0, M1, or Unknown (Mx or missing).
+
+h Progression-free interval on prior therapy is categorized as &lt; 6 months or \ge 6 months.
+L151: ## Reviewer's comments:
+L152: - *Sensitivity analyses 1-3 were performed by the Applicant, and sensitivity analyses 4-8 were conducted by this reviewer. The treatment effect was present in all the OS sensitivity analyses. The hazard ratios ranged from 0.753 to 0.795. The treatment effect was significant in these OS sensitivity analyses except in analyses 4, 7 and 8.*
+- *These sensitivity analyses are exploratory.*
+L153: ## 3.2.5.2 Secondary Efficacy Endpoint – Progression Free Survival
+L154: Table 12 presents the applicant's efficacy analysis for PFS.
+L155: **Table 12: Progression-Free Survival Results (ITT Population)**
+L156: Ramucirumab
+(N=238)	Placebo
+(N=117)
+Subjects randomized	238	117
+PD or Death	199 (83.6%)	108 (92.3%)
+Censored	39 (16.4%)	9 (7.7%)
+PFS (months)a	2.1	1.3
+Median (95% CI)	(1.5, 2.7)	(1.3, 1.4)
+p valueb	<0.0001
+Hazard ratio (95% CI)c	0.483 (0.376, 0.620)
+L157: a PFS is calculated as months from the date of randomization until the date of PD or death due to any cause, whichever was first.
+L158: b p-value is from a log-rank test stratified by weight loss over the prior 3 months, location of primary tumor, and geographical regions.
+L159: c Hazard ratio is from a Cox proportional hazards model adjusted for weight loss over the prior 3 months, location of primary tumor, and geographical regions. Hazard ratio &lt; 1 favors ramucirumab.
+L160: [Adapted from Clinical Study Report Table JVBD.11.7]
+L161: **Figure 3: Kaplan-Meier Survival Curves for Progression Free Survival (ITT Population)**
+L162: ## Reviewer's comments:
+L163: - Ramucirumab demonstrated superior PFS over placebo in the randomized ITT population.
+- The results from sensitivity analysis of PFS using unstratified Cox regression model (HR=0.506, p\text{-value} &lt; 0.0001) are consistent with the results from the primary analysis of PFS.
+- Sensitivity analyses of PFS with different censoring rules were conducted by the Applicant. These sensitivity analyses included Analysis 1: include symptomatic deterioration as progression (HR=0.510, p\text{-value} &lt; 0.0001); Analysis 2: remove censoring for new anticancer therapy (HR=0.496, p\text{-value} &lt; 0.0001); Analysis 3: treat progression or death after 2+ missing assessments as progression at the first missing assessment (HR=0.487, p\text{-value} &lt; 0.0001); Analysis 4: treat lost to follow-up as progression at the next scheduled visit after last tumor assessment (HR=0.483, p\text{-value} &lt; 0.0001); and Analysis 5: treat lost to follow-up as progression for ramucirumab arm at the next scheduled visit after last tumor assessment (HR=0.483, p\text{-value} &lt; 0.0001). The results from these sensitivity analyses are consistent with the results from the primary analysis of PFS.
+L164: ## 3.2.5.3 Secondary Endpoint – Overall Response Rate
+L165: Table 13 presents the ORR analyses.
+L166: **Table 13: ORR Results (ITT Population)**
+L167: Ramucirumab
+(N=238)	Placebo
+(N=117)
+Overall Response	8 (3.4)	3 (2.6)
+Complete Response (CR)	1 (0.4)	0
+Partial Response (PR)	7 (2.9)	3 (2.6)
+CMH Exact Test P-value	0.7556
+L168: *Reviewer's comments:*
+L169: *Per discussion before, this analysis is exploratory.*
+L170: ## 3.2.5.4 Secondary Endpoint – Duration of Response
+L171: Per the SAP, DoR was not analyzed since the number of patients with CR/PR response was very small (8 in the ramucirumab arm and 3 in the placebo arm).
+L172: ## 3.3 Evaluation of Safety
+L173: Please refer to the clinical review of this application for details of the safety evaluation.
+L174: ## 3.4 Benefit-Risk Assessment
+L175: The ramucirumab arm demonstrated a statistically significant improvement in the primary endpoint OS and secondary endpoint PFS compared with the placebo arm. Whether the submission demonstrated an overall favorable benefit vs. risk profile for ramucirumab is deferred to the clinical team reviewing this submission.
+L176: ## 4 FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L177: ## 4.1 Gender, Race, Age, and Geographic Region
+L178: Table 14 summarizes OS subgroup analysis results by age, gender, race, and geographic region.
+L179: **Table 14: Overall Survival (Months) Subgroup Analyses by Demographics (ITT Population)**
+L180: Event/Censor
+(TRT: PLB)	HR (95% CI)
+Age	
+<65	118/38 : 59/12	0.846 (0.611, 1.171)a
+≥ 65	61/21 : 40/6	0.722 (0.471, 1.106)a
+L181: Event/Censor
+(TRT: PLB)	HR (95% CI)
+Sex	
+Male	129/40 : 70/9	0.676 (0.499, 0.916)a
+Female	50/19 : 29/9	1.431 (0.852, 2.405)a
+Race	
+White	140/41 : 77/14	0.784 (0.590, 1.042)a
+Asian	23/16 : 15/2	0.636 (0.306, 1.321)a
+Other	16/2 : 7/2	1.426 (0.448, 4.539)a
+Region	
+Region 1 (NA)	135/30 : 68/12	0.941 (0.702, 1.260)b
+Region 2 (LA)	33/22 : 24/5	0.457 (0.266, 0.786)b
+Region 3 (AS)	11/7 : 7/1	0.625 (0.240, 1.631)b
+L182: a HRs were estimated using Cox regression model stratified by weight loss over the prior 3 months, location of primary tumor, and geographical regions.
+L183: b HRs were estimated using unstratified Cox regression model.
+L184: TRT: ramucirumab
+L185: PLB: placebo.
+L186: ## Reviewer's comment:
+L187: - The HRs of OS in the subgroup analyses were less than 1 except in the subgroup of females. However, these analyses were exploratory due to small sample size.
+- The HR of OS in the subgroup analysis of Region 1 (North America/Europe/Australia/New Zealand) is very close to 1 in the trial REGARD.
+L188: ## 4.2 Other Special/Subgroup Populations
+L189: Figure 4 summarizes OS subgroup analysis results per important baseline disease characteristics.
+L190: ## Reviewer's comment:
+L191: The HRs of OS in the subgroup analyses were less than 1 except in subgroups "Race Other", "ECOG PS 0", and "Histology Type Intestinal". However, these analyses were exploratory due to small sample size.
+L192: Figure 4: Forest Plot of Subgroup Analyses of OS by Baseline Characteristics
+L193: Note: Hazard ratio is from a Cox proportional hazards model adjusted for weight loss over the prior 3 months, location of primary tumor, and geographical regions. Hazard ratio &lt; 1 favors ramucirumab.
+L194: Figure 5: Forest Plot of Subgroup Analyses of OS by Stratification Factors
+L195: ## 5 SUMMARY AND CONCLUSIONS
+L196: In this original Biologics License Application (BLA), the applicant is seeking an approval of ramucirumab in patients with metastatic gastric or gastroesophageal junction adenocarcinoma following disease progression on first-line platinum- or fluoropyrimidine-containing combination therapy based on the pivotal randomized, double-blinded, placebo-controlled phase 3 study REGARD.
+L197: ## 5.1 Statistical Issues
+L198: - The primary efficacy analysis of OS in the trial REGARD shows a favorable effect of ramucirumab in prolonging overall survival compared to placebo (median OS in ramucirumab: 5.2 months; median OS in placebo: 3.8 months; HR = 0.776, 95% CI: 0.603, 0.998; p-value: 0.047). The result of OS may not be robust.
+- The results of exploratory subgroup analyses showed that ramucirumab is numerically inferior over placebo in females (HR = 1.431, 95% CI: 0.852, 2.405).
+L199: ## 5.2 Collective Evidence
+L200: The data and analyses from the trial REGARD demonstrated that ramucirumab had a statistically significant improvement in the primary endpoint OS and the secondary endpoint PFS when compared with placebo.
+L201: The stratified log-rank test p-value for OS comparison was 0.0473. The median OS was 5.2 (95% CI: 4.4, 5.7) months for ramucirumab and 3.8 (95% CI: 2.8, 4.7) months for placebo. The stratified Cox proportional hazard ratio was 0.776 (95% CI: 0.603, 0.998).
+L202: Ramucirumab also demonstrated an improvement in PFS (HR = 0.483; 95% CI: 0.376, 0.620) based on the stratified log-rank test p-value &lt;0.0001. The median PFS was 2.1 (95% CI: 1.5, 2.7) months for ramucirumab and 1.3 (95% CI: 1.3, 1.4) months for placebo.
+L203: There is another trial CP12-0922 (RAINBOW) for testing efficacy of ramucirumab. The study RAINBOW is a randomized, multicenter, double-blinded, placebo-controlled phase 3 study of weekly paclitaxel with or without ramucirumab (IMC-1121B) drug product in patients with metastatic gastric adenocarcinoma, refractory to or progressive after first-line therapy with platinum and fluoropyrimidine”. A total of 665 patients were randomized from December 23, 2010 to September 23, 2012 in a 1:1 allocation (ramucirumab + paclitaxel: 330; placebo + paclitaxel: 335). The Applicant submitted top-line results of study RAINBOW on October 30, 2013 with derived efficacy analysis dataset ADTTOS located on the network with network path: \\cdsesub1\\bla\\eCTD_Submissions\\STN125477\\0008.
+L204: Top-line summary results from the study RAINBOW support the primary efficacy findings of OS and PFS observed in the study REGARD. In study RAINBOW, ramucirumab + paclitaxel demonstrated an improvement in patients with metastatic gastric adenocarcinoma, refractory to or progressive after first-line therapy with platinum and fluoropyrimidine.
+L205: ## Reviewer's comment:
+L206: *The top-line summary results of trial RAINBOW were not verified since only derived dataset was submitted. Subgroup analysis of females from trial RAINBOW shows that ramucirumab + paclitaxel is superior over placebo + paclitaxel in female patients with metastatic gastric adenocarcinoma, refractory to or progressive after first-line therapy with platinum and fluoropyrimidine.*
+L207: ## 5.3 Conclusions and Recommendations
+L208: The trial REGARD shows that ramucirumab demonstrated a statistically significant improvement in the primary endpoint OS and the secondary endpoint PFS. Whether the results based on this trial demonstrated an overall favorable benefit vs. risk profile for ramucirumab is deferred to the clinical team reviewing this submission.
+L209: ## 5.4 Labeling Recommendations
+L210: - The results of the primary OS analysis will be included in the label.
+- The results of the primary PFS analysis will be included in the label.
+L211: APPEARS THIS WAY ON ORIGINAL
+L212: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L213: /s/
+L214: HUI ZHANG
+L215: 01/23/2014
+L216: KUN HE
+L217: 01/23/2014
+L218: Accepted as a complete review
+L219: RAJESHWARI SRIDHARA
+L220: 01/23/2014
+L221: ## STATISTICS FILING CHECKLIST FOR A NEW NDA/BLA
+L222: BLA Number: 125477
+L223: Applicant: Eli Lilly and Co.
+L224: Stamp Date: 8/23/2013
+L225: Drug Name: Ramucirumab
+L226: NDA/BLA Type: Original BLA
+L227: On initial overview of the NDA/BLA application for RTF:
+L228: Content Parameter	Yes	No	NA	Comments
+1	Index is sufficient to locate necessary reports, tables, data, etc.	X	
+2	ISS, ISE, and complete study reports are available (including original protocols, subsequent amendments, etc.)	X	
+3	Safety and efficacy were investigated for gender, racial, and geriatric subgroups investigated (if applicable).	X	
+4	Data sets in EDR are accessible and do they conform to applicable guidances (e.g., existence of define.pdf file for data sets).	X
+L229: ## IS THE STATISTICAL SECTION OF THE APPLICATION FILEABLE? YES
+L230: If the NDA/BLA is not fileable from the statistical perspective, state the reasons and provide comments to be sent to the Applicant.
+L231: Please identify and list any potential review issues to be forwarded to the Applicant for the 74-day letter.
+L232: Content Parameter (possible review concerns for 74-day letter)	Yes	No	NA	Comment
+Designs utilized are appropriate for the indications requested.	X	
+Endpoints and methods of analysis are specified in the protocols/statistical analysis plans.	X	
+Interim analyses (if present) were pre-specified in the protocol and appropriate adjustments in significance level made. DSMB meeting minutes and data are available.	X	
+Appropriate references for novel statistical methodology (if present) are included.	X	
+Safety data organized to permit analyses across clinical trials in the NDA/BLA.	X	
+Investigation of effect of dropouts on statistical analyses as described by applicant appears adequate.	X
+L233: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L234: /s/
+L235: HUI ZHANG
+10/07/2013
+L236: KUN HE
+10/07/2013
+L237: Flowchart illustrating the Trial REGARD Design.
+The trial starts with SCREEN and RANDOMIZE (N = 355). Randomization is in a 2:1 ratio.
+Arm 1 (n = 238): Ramucirumab 8 mg/kg q2wk + BSC.
+Arm 2 (n = 117): Placebo q2wk + BSC.
+Both arms proceed to Treatment until disease progression or intolerable toxicity, followed by Tumor assessment, survival, and safety follow-up.
+Stratification factors:
+Region
+Weight loss over prior 3 months (\ge 10\% vs. < 10\%)
+Location of primary tumor (gastric vs. GEJ)
+Evaluations:
+Radiographic evaluation – Every 6 weeks
+ECOG PS, safety, labs – Every 2 weeks
+L238: 0	3	6	9	12	15	18	21	24	27	30
+Placebo	117	66	34	20	7	4	2	1	1	1	0
+Ramucirumab	238	154	92	49	17	7	3	2	2	0	0
+Kaplan-Meier Survival Curves for Overall Survival (ITT Population). The graph shows the Probability of Overall Survival (%) on the Y-axis (0 to 100) versus Time since randomization (months) on the X-axis (0 to 30). The Placebo group (blue dashed line) shows a higher survival probability than the Ramucirumab group (black solid line) over time. The table below the graph provides the number of patients at risk (n) for both groups at various time points (0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 months).
+L239: Kaplan-Meier plot showing Probability of Progression-Free Survival (PFS) over Time since randomization (months) for Placebo (dashed blue line) and Ramucirumab (solid black line). Ramucirumab shows superior PFS. Patient counts are provided below the x-axis: Placebo (117) and Ramucirumab (238).
+L240: HR (95% CI)
+Overall OS (N=238/117)	0.78 (0.60, 1.00)
+Age	
+<65 (N=156/71)	0.85 (0.61, 1.17)
+>=65 (N=82/46)	0.72 (0.47, 1.11)
+Gender	
+Female (N=69/38)	1.43 (0.85, 2.41)
+Male (N=169/79)	0.68 (0.50, 0.92)
+Race	
+White (N=181/91)	0.78 (0.59, 1.04)
+Asian (N=39/17)	0.64 (0.31, 1.32)
+Other (N=18/9)	1.43 (0.45, 4.54)
+Ethnicity	
+Hispanic or Latin (N=41/19)	0.56 (0.30, 1.07)
+Not Hispanic or Latin (N=197/98)	0.81 (0.62, 1.07)
+ECOG PS	
+0 (N=67/31)	1.08 (0.64, 1.81)
+>=1 (N=171/86)	0.68 (0.51, 0.92)
+Measurable Tumor	
+Yes (N=218/106)	0.81 (0.62, 1.05)
+No (N=20/11)	0.43 (0.14, 1.31)
+Prior Therapy	
+First Line (N=199/103)	0.79 (0.61, 1.04)
+Adjuvant/Neoadjuvant (N=39/14)	0.78 (0.37, 1.65)
+First-Line Type	
+Doublets (N=99/63)	0.76 (0.52, 1.11)
+Triplets (N=92/36)	0.79 (0.51, 1.22)
+Histology Type	
+Diffuse (N=96/44)	0.56 (0.37, 0.86)
+Intestinal (N=52/35)	1.01 (0.58, 1.75)
+Unknown (N=90/38)	0.91 (0.58, 1.42)
+Number of Metastatic Sites	
+0-2 (N=163/71)	0.75 (0.54, 1.04)
+>=3 (N=75/46)	0.80 (0.52, 1.23)
+Peritoneal	
+Yes (N=64/45)	0.87 (0.56, 1.37)
+No (N=174/72)	0.80 (0.58, 1.10)
+Progression-Free Interval (1st-line)	
+<6 months (N=132/74)	0.88 (0.63, 1.22)
+>=6 months (N=65/28)	0.66 (0.39, 1.12)
+Forest Plot X-axis labels: Favors Ramucirumab (0.2 to 0.8) and Favors Placebo (0.8 to 1.5).
+L241: HR (95% CI)
+Overall OS (N=238/117)	0.78 (0.60, 1.00)
+Weight Loss	
+<10% (N=197/97)	0.74 (0.56, 0.97)
+>=10% (N=41/20)	0.81 (0.45, 1.47)
+Location of Primary Tumor	
+Gastric (N=178/87)	0.78 (0.58, 1.04)
+GEJ (N=60/30)	0.69 (0.43, 1.08)
+Geographic Region	
+Region 1: NA (N=165/80)	0.94 (0.70, 1.26)
+Region 2: LA (N=55/29)	0.46 (0.27, 0.79)
+Region 3: AS (N=18/8)	0.62 (0.24, 1.63)
+Note: Hazard ratio is from an unstratified Cox proportional hazards model. Hazard ratio < 1 favors ramucirumab.

@@ -1,0 +1,78 @@
+{
+  "app": "NDA210303",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 285)",
+  "_raw": "Analyzing the card for genuine issues, dismissing false-positive automated flags.\n\n{\n \"app\": \"NDA210303\",\n \"release_ready\": false,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[0].design\",\n   \"severity\": \"low\",\n   \"issue\": \"Design says 'at least 4-5 days of IV treatment' but the citation says 'at lea",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "4",
+        "text": "Randomized, double-blind, noninferiority trial comparing IV plazomicin to IV mer"
+      },
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "18",
+        "text": "Adults >=18 years with complicated urinary tract infection, including acute pyel"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "25",
+        "text": "Application received October 25, 2017 with a PDUFA goal date of 6/25/2018; appro"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2017",
+        "text": "Application received October 25, 2017 with a PDUFA goal date of 6/25/2018; appro"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "6",
+        "text": "Application received October 25, 2017 with a PDUFA goal date of 6/25/2018; appro"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "25",
+        "text": "Application received October 25, 2017 with a PDUFA goal date of 6/25/2018; appro"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2018",
+        "text": "Application received October 25, 2017 with a PDUFA goal date of 6/25/2018; appro"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "25",
+        "text": "Application received October 25, 2017 with a PDUFA goal date of 6/25/2018; appro"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2018",
+        "text": "Application received October 25, 2017 with a PDUFA goal date of 6/25/2018; appro"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "505",
+        "text": "3393-3: Conduct US surveillance studies for five years from the date of marketin"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "25",
+        "text": "Plazomicin received QIDP designation (December 12, 2014), Fast Track designation"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "15",
+        "text": "Plazomicin received QIDP designation (December 12, 2014), Fast Track designation"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "0",
+        "text": "Plazomicin received QIDP designation (December 12, 2014), Fast Track designation"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

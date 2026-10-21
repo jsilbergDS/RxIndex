@@ -1,0 +1,132 @@
+{
+  "app": "NDA204760",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "medium",
+      "issue": "Text mixes '700 patients randomized' (per the Study 05 citation, 700 completed confirmation and were randomized) with 'each arm N=232' (total 696 from the labeling table), conflating randomized total with the labeled analysis-set arm counts without reconciliation."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "First citation states 700 patients 'completed the 2 week OIC confirmation period and were randomized,' but the field text asserts '700 patients randomized' which slightly overstates/simplifies the quote."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive automated flags: numbers '12.5', '25', and '1' are dose labels and a truncated CI fragment, already supported/non-efficacy; dismiss."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "False-positive automated flags: '05' and '2' are study identifiers supported by citations; dismiss."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "False-positive automated flags: '12.5' and '25' are dose labels, supported; dismiss."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive automated flags: '16' and '2013' are date components (excluded category) and supported by receipt_date citation; dismiss."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive automated flags: '2014', '2013', '16', '204760', '04', '05', '3' are dates, NDA number, study IDs, and phase number, all supported elsewhere; dismiss."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Summary citation describes naloxegol as 'PEGylated derivative of naloxol' whereas the label (modality/target_moa citations) correctly states 'naloxone'; the summary text itself avoids the term but the cited quote contains an OCR/source error worth noting."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "12.5",
+        "text": "Responders: placebo 63 (29%), 12.5 mg 87 (41%; difference 11.4%, 95% CI 2.4%, 20"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "25",
+        "text": "Responders: placebo 63 (29%), 12.5 mg 87 (41%; difference 11.4%, 95% CI 2.4%, 20"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "1",
+        "text": "Responders: placebo 63 (29%), 12.5 mg 87 (41%; difference 11.4%, 95% CI 2.4%, 20"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "05",
+        "text": "Study 05 (labeled Study 2)"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Study 05 (labeled Study 2)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "12.5",
+        "text": "Responders: placebo 68 (29%), 12.5 mg 81 (35%; difference 5.6%, 95% CI -2.9%, 14"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "25",
+        "text": "Responders: placebo 68 (29%), 12.5 mg 81 (35%; difference 5.6%, 95% CI -2.9%, 14"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "16",
+        "text": "Application dated and received September 16, 2013; approved effective on the dat"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2013",
+        "text": "Application dated and received September 16, 2013; approved effective on the dat"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2014",
+        "text": "Naloxegol (Movantik), a new molecular entity, was approved September 2014 under "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "204760",
+        "text": "Naloxegol (Movantik), a new molecular entity, was approved September 2014 under "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "16",
+        "text": "Naloxegol (Movantik), a new molecular entity, was approved September 2014 under "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2013",
+        "text": "Naloxegol (Movantik), a new molecular entity, was approved September 2014 under "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Naloxegol (Movantik), a new molecular entity, was approved September 2014 under "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "04",
+        "text": "Naloxegol (Movantik), a new molecular entity, was approved September 2014 under "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "05",
+        "text": "Naloxegol (Movantik), a new molecular entity, was approved September 2014 under "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "app": "NDA203684",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "first_cycle_approval.detail.text",
+      "severity": "medium",
+      "issue": "Text states CRL dates 'October 19, 2012 and November 27/30, 2013'; the Oct 19 2012 and Nov 30 2013 dates are date fragments flagged by automation but are supported by citations (Oct 19 2012 cited, Nov 30 2013 cited in crl_history.basis), though 'November 27, 2013' and 'November 30, 2013' are internally inconsistent across the card.",
+      "field_note": "see below"
+    },
+    {
+      "field": "first_cycle_approval.detail.text",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited_numbers for '19','2012','30' are date components and are excludable false positives."
+    },
+    {
+      "field": "approval_program.summary.text",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited_numbers for '21','2011' are date components (December 21, 2011) and are excludable false positives; the receipt date is cited elsewhere."
+    },
+    {
+      "field": "crl_history.date.text",
+      "severity": "medium",
+      "issue": "Summarizes two CRLs as 'October 19, 2012 and November 27, 2013', but the card elsewhere (crl_history.basis) and the supporting quote reference a 'November 30, 2013' complete response action, an internal date inconsistency."
+    },
+    {
+      "field": "key_safety.text",
+      "severity": "low",
+      "issue": "States headache 0.9% and nausea 0.6% and overall 4.9% of 6179 \u2014 all supported by the Table 1 citation; no uncited safety numbers, noted as clean."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "19",
+        "text": "Not approved first cycle. The original December 21, 2011 NDA received Complete R"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2012",
+        "text": "Not approved first cycle. The original December 21, 2011 NDA received Complete R"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "30",
+        "text": "Not approved first cycle. The original December 21, 2011 NDA received Complete R"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "21",
+        "text": "Lumason was approved as a new molecular entity ultrasound contrast agent via a 5"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2011",
+        "text": "Lumason was approved as a new molecular entity ultrasound contrast agent via a 5"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

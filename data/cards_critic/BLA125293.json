@@ -1,0 +1,67 @@
+{
+  "app": "BLA125293",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False positive: '405' is a study identifier (C0405/Study 405), which is excluded from uncited-number checks."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False positive: '405' is a study identifier, not an efficacy/safety number."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "False positive: '406' is a study identifier (C0406/Study 406), excluded from uncited-number checks."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "False positive: '406' is a study identifier, not an efficacy/safety number."
+    },
+    {
+      "field": "receipt_date",
+      "severity": "low",
+      "issue": "False positive: '15' and '2010' are parts of the resubmission date (March 15, 2010), which is date data and excluded; the resubmission date itself is supported by the first_cycle/crl citations."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "405",
+        "text": "C0405 (Study 405)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "405",
+        "text": "Study 405: 8 mg/2 wks N=43; placebo N=20"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "406",
+        "text": "C0406 (Study 406)"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "406",
+        "text": "Study 406: 8 mg/2 wks N=42; placebo N=23"
+      },
+      {
+        "field": "receipt_date",
+        "number": "15",
+        "text": "October 31, 2008 (original BLA submission); resubmission received March 15, 2010"
+      },
+      {
+        "field": "receipt_date",
+        "number": "2010",
+        "text": "October 31, 2008 (original BLA submission); resubmission received March 15, 2010"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

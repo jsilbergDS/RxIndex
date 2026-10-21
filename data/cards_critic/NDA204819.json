@@ -1,0 +1,88 @@
+{
+  "app": "NDA204819",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].population",
+      "severity": "high",
+      "issue": "Claims patients were 'treatment-naive or pre-treated with an ERA or prostacyclin analogue', which is not supported by either citation quote."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "high",
+      "issue": "Citation (line 53) is in unverified_citations \u2014 the quote was not found in the OCR and appears fabricated/stitched."
+    },
+    {
+      "field": "key_safety",
+      "severity": "medium",
+      "issue": "The '\u22653% more than placebo' threshold qualifier is not contained in any citation quote (uncited number '3')."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Uncited number '3' refers to 'Phase 3', which is supported elsewhere; cosmetic false positive."
+    },
+    {
+      "field": "indication",
+      "severity": "low",
+      "issue": "Flagged uncited number '2' is an enumeration marker '(2)', not an efficacy/safety figure; false positive."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged numbers (2, 8, 10, 08, 2013) are date components (Feb 8 2013 / 10/08/2013) that should be excluded; false positives, and first_cycle_approval=true is a valid default with no prior CRL in the review."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "indication",
+        "number": "2",
+        "text": "Adempas is a sGC stimulator indicated in adults for (1) persistent/recurrent CTE"
+      },
+      {
+        "field": "key_safety",
+        "number": "3",
+        "text": "Most common adverse reactions (\u22653% more than placebo, pooled n=490 vs 214): head"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "8",
+        "text": "The NDA dated/received February 8, 2013 was approved effective 10/08/2013; there"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2013",
+        "text": "The NDA dated/received February 8, 2013 was approved effective 10/08/2013; there"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "10",
+        "text": "The NDA dated/received February 8, 2013 was approved effective 10/08/2013; there"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "08",
+        "text": "The NDA dated/received February 8, 2013 was approved effective 10/08/2013; there"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2013",
+        "text": "The NDA dated/received February 8, 2013 was approved effective 10/08/2013; there"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Riociguat is a first-in-class new molecular entity reviewed under priority revie"
+      }
+    ],
+    "unverified_citations": [
+      {
+        "field": "approval_program/summary",
+        "line": 53,
+        "quote": "Riociguat is a first-in-class NME that is not currently mark"
+      }
+    ],
+    "empty_fields": []
+  }
+}

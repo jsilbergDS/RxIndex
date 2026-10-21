@@ -1,0 +1,28 @@
+{
+  "app": "NDA210951",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 280)",
+  "_raw": "{\n \"app\": \"NDA210951\",\n \"release_ready\": true,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[0].n\",\n   \"severity\": \"low\",\n   \"issue\": \"False positive: the '2' and '1' from ratio '2:1' are supported by the citation quote which states 'randomized (2:1)' and matches N=806/N=401.\",\n  },\n  {\n   \"field\": \"",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "2",
+        "text": "1207 patients randomized 2:1 to apalutamide (N=806) or placebo (N=401)."
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "1",
+        "text": "1207 patients randomized 2:1 to apalutamide (N=806) or placebo (N=401)."
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "ERLEADA (apalutamide) received Priority review and Fast Track designation (grant"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

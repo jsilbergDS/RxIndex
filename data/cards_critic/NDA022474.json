@@ -1,0 +1,34 @@
+{
+  "app": "NDA022474",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].phase",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: 'Phase 3' is supported by the trial_name citation stating 'two Phase 3 studies ... HRA2914-513'.",
+      "note": "dismissed flag"
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "False-positive uncited-number flag: '104' is a substring artifact of '1,104', which is supported by the citation 'Treated (ITT) 1104 1117 2221'.",
+      "note": "dismissed flag"
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "3",
+        "text": "Phase 3"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "104",
+        "text": "Total 2,221 (ulipristal 1,104; levonorgestrel 1,117); 844 women in the ella grou"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

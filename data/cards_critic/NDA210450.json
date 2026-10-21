@@ -1,0 +1,23 @@
+{
+  "app": "NDA210450",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Extra data: line 42 column 1 (char 2000)",
+  "_raw": "Analyzing the card systematically for issues.\n\n```json\n{\n  \"app\": \"NDA210450\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].nct\",\n      \"severity\": \"high\",\n      \"issue\": \"The n citation shows Study EM-1 placebo N=373, but the safety citation and other numbers are ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "671",
+        "text": "Study EM-2 (M12-671)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "210450",
+        "text": "Orilissa (elagolix), a new molecular entity, received full (traditional) approva"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "app": "NDA022425",
+  "drug": "MULTAQ",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_cb680cb6-a6ff-517d-8754-56a3373338aa"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_ecc7397d-11d1-59fe-91eb-21a2bffe1a95"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_4a3ef5cc-03ef-5e8a-8b93-e33e83ad3490"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_47262da2-6b50-50b8-87e2-9faff8d8dd05"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Cardiovascular and Renal Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "fda_47262da2-6b50-50b8-87e2-9faff8d8dd05",
+      "line": 10,
+      "quote": "The sponsor's submission is in response to informal requests and comments provided by the review division prior to and following the Cardiovascular and Renal Drugs Advisory Committee meeting held March 18, 2009."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_47262da26b50",
+      "found_lines": [
+        10
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "March 18, 2009",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "fda_47262da2-6b50-50b8-87e2-9faff8d8dd05",
+      "line": 15,
+      "quote": "The Sponsor subsequently submitted a REMS on January 22, 2009 and presented their proposal to the Advisory Committee Meeting on March 18, 2009."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_47262da26b50",
+      "found_lines": [
+        15
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 10 to 3 in favor of approval of dronedarone, with a recommendation that patients with advanced (NYHA Class III or IV) heart failure or those recently hospitalized with heart failure be excluded.",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_cb680cb6-a6ff-517d-8754-56a3373338aa",
+      "line": 20,
+      "quote": "The Advisory Committee favored (10 to 3) approval of dronedarone, and I concur. They recommended that patients with advanced (NYHA Class III or IV) heart failure or those recently hospitalized with heart failure be excluded, and I concur in that, too."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_cb680cb6a6ff",
+      "found_lines": [
+        20
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee recommended that patients with advanced (NYHA Class III or IV) heart failure, or those recently hospitalized with heart failure, be excluded from treatment with dronedarone.",
+      "change": "The restriction against use in advanced/recently decompensated heart failure patients was placed in a boxed warning and made the focus of the sponsor's REMS (with a communications plan and medication guide).",
+      "category": "Safety / Boxed warning + REMS / Population restriction",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_cb680cb6-a6ff-517d-8754-56a3373338aa",
+        "line": 20,
+        "quote": "They recommended that patients with advanced (NYHA Class III or IV) heart failure or those recently hospitalized with heart failure be excluded, and I concur in that, too.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_cb680cb6a6ff",
+          "found_lines": [
+            20
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_cb680cb6-a6ff-517d-8754-56a3373338aa",
+        "line": 20,
+        "quote": "The restriction needs to be in a boxed warning, and the focus of the sponsor's REMS. The primary component of the REMS should be a communications plan to ensure that prescribers know whom to avoid treating.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_cb680cb6a6ff",
+          "found_lines": [
+            20
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee concluded that the nominally significant favorable effect on the secondary endpoint of cardiovascular death was not persuasive.",
+      "change": "No mortality / cardiovascular-death benefit claim was granted; the division concluded the cardiovascular-death results did not support a claim.",
+      "category": "Efficacy / Labeling claim denied",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_cb680cb6-a6ff-517d-8754-56a3373338aa",
+        "line": 18,
+        "quote": "The third was cardiovascular death, and the nominally significant favorable effect might have supported a claim. The Advisory Committee concluded it is not persuasive, and I concur, but it is at least reassuring.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_cb680cb6a6ff",
+          "found_lines": [
+            18
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_4a3ef5cc-03ef-5e8a-8b93-e33e83ad3490",
+        "line": 30,
+        "quote": "These results did not support a claim, in our view, but they provide considerable reassurance in light of ANDROMEDA.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_4a3ef5cc03ef",
+          "found_lines": [
+            30
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Cardiovascular and Renal Drugs Advisory Committee met on March 18, 2009 for dronedarone (Multaq, NDA 22-425) and voted 10 to 3 in favor of approval. The committee's recommendation to exclude patients with advanced (NYHA Class III/IV) or recently hospitalized heart failure was implemented as a boxed warning and became the focus of the sponsor's REMS (communications plan plus medication guide), and the sponsor revised its label as a result of the meeting. The committee also found the cardiovascular-death secondary-endpoint result not persuasive, consistent with the division's decision not to grant a mortality claim."
+}

@@ -1,0 +1,47 @@
+{
+  "app": "NDA202992",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Uncited number flag for '1' in 'Study 1' is a cosmetic label, not an efficacy/safety figure; false positive."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "Uncited number '2' refers to 'approximately 2 years' duration, which is supported by the population citation ('duration of approximately 2'); effectively a false positive."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Uncited numbers '8' and '11' derive from the dates 8/12/11 and are date fragments that should be excluded; false positives."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study EFC6049/TEMSO (Study 1)"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "2",
+        "text": "Multicenter, multinational, randomized, placebo-controlled, double-blind, parall"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "8",
+        "text": "This NDA was submitted 8/12/11 with a PDUFA goal date of September 12, 2012 and "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "11",
+        "text": "This NDA was submitted 8/12/11 with a PDUFA goal date of September 12, 2012 and "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

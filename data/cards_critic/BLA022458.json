@@ -1,0 +1,52 @@
+{
+  "app": "BLA022458",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "high",
+      "issue": "Text says patients 'requiring splenomegaly' which misstates the eligibility criterion; the citation says enrollees were 'required to have' splenomegaly and thrombocytopenia, and 'Type 1' is used but the quote only says 'Gaucher disease-related splenomegaly'."
+    },
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "low",
+      "issue": "Flagged uncited number '1' is a false positive \u2014 it is part of 'Type 1', a disease-type label, not an efficacy/safety number."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Flagged uncited number '31' is a false positive \u2014 the citation quote 'Thirty-one patients...were evaluable for efficacy' supports it (written out as a word)."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "medium",
+      "issue": "Design text asserts the two doses are '30 Units/kg vs 60 Units/kg every other week'; the randomization dose quote is present but the specific '30 Units/kg or 60 Units/kg' numbers depend on the second citation \u2014 acceptable, but the design frames it as a head-to-head comparison when the endpoint quote shows both groups were assessed against baseline, not against each other."
+    },
+    {
+      "field": "key_safety",
+      "severity": "high",
+      "issue": "Text states anaphylaxis 'occurred in 9% (3/32) of treatment-na\u00efve patients' which is accurate, but the broader 'Infusion reactions...44%-46%' and the specific per-event percentages (22%/18%, 19%/4%, 19%/11%, 13%/11%) are supported; however the narrative implies infusion reactions and anaphylaxis are distinct categories not clearly stated \u2014 minor, otherwise citations cover the numbers."
+    },
+    {
+      "field": "advisory_committee.vote.text",
+      "severity": "low",
+      "issue": "Field is labeled 'vote' but contains an explanation that no AC was held; cosmetic mislabel, consistent with convened=false."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/population",
+        "number": "1",
+        "text": "Treatment-na\u00efve patients with Type 1 Gaucher disease requiring splenomegaly (>8 "
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "31",
+        "text": "32 treatment-na\u00efve patients randomized; 31 evaluable for efficacy (15 at 30 Unit"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

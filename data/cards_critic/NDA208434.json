@@ -1,0 +1,38 @@
+{
+  "app": "NDA208434",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 364)",
+  "_raw": "{\n \"app\": \"NDA208434\",\n \"release_ready\": false,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[1].result\",\n   \"severity\": \"high\",\n   \"issue\": \"Median duration of response 11.2 months (95% CI 9.6, NE) for NP28673 is not supported by its citation quote, which only contains NP28761's DoR of 7.5 (4.9, NE)",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "1",
+        "text": "Phase 1/2 (two-part: dose-finding portion followed by activity-estimating portio"
+      },
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "1",
+        "text": "Phase 1/2 (two-part: dose-finding portion followed by activity-estimating portio"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "11.2",
+        "text": "ORR by IRC 44% (95% CI 36; 53), 61 responders; median duration of response 11.2 "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "9.6",
+        "text": "ORR by IRC 44% (95% CI 36; 53), 61 responders; median duration of response 11.2 "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "11",
+        "text": "Alectinib received accelerated approval on December 11, 2015 based on durable tu"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

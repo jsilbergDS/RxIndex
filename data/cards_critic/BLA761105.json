@@ -1,0 +1,38 @@
+{
+  "app": "BLA761105",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "high",
+      "issue": "The result values (sPGA 88% vs 8%, PASI 90 75% vs 5%) are labeled as co-primary endpoint results but the supporting citation (line 61) explicitly states these figures were 'at Week 12,' while the endpoint field and table citation define the co-primary endpoints as assessed at Week 16, creating a timepoint mismatch."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "high",
+      "issue": "The result values (sPGA 84% vs 5%, PASI 90 75% vs 2%) are drawn from a citation stating 'at Week 12,' inconsistent with the Week 16 co-primary endpoint definition; the timepoint labeling is internally contradictory."
+    },
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "low",
+      "issue": "The 'Phase 3' text is supported by the line 383 citation, but the first citation (line 384, 'Week 0 through Week 40') does not mention phase and is irrelevant to the field value."
+    },
+    {
+      "field": "approval_program.summary",
+      "number": "761105",
+      "severity": "low",
+      "issue": "Automated flag for uncited number '761105' is a false positive \u2014 the BLA number is verified by the priority_review citation and the summary's own line 12 citation contains application number context; cosmetic only."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "761105",
+        "text": "SKYRIZI (risankizumab) BLA 761105 received a Standard review (received 4/23/2018"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

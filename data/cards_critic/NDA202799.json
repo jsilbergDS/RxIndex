@@ -1,0 +1,83 @@
+{
+  "app": "NDA202799",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 271)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"NDA202799\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].n\",\n      \"severity\": \"high\",\n      \"issue\": \"N=803 total randomized is not in the citation quote (only N=532 and N=271 appear); the sum is uncited ",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "4",
+        "text": "Randomized, active-controlled, open-label, multicenter non-inferiority study; pa"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "803",
+        "text": "N=803 randomized (Peginesatide N=532; Epoetin N=271)"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "4",
+        "text": "Randomized, active-controlled, open-label, multicenter non-inferiority study; pa"
+      },
+      {
+        "field": "pivotal_trials[1]/endpoint",
+        "number": "29",
+        "text": "Mean change in hemoglobin from baseline to the evaluation period (weeks 29-36), "
+      },
+      {
+        "field": "pivotal_trials[1]/endpoint",
+        "number": "36",
+        "text": "Mean change in hemoglobin from baseline to the evaluation period (weeks 29-36), "
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "823",
+        "text": "N=823 randomized (Peginesatide N=549; Epoetin N=274)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "5",
+        "text": "Application received 5/27/11 and approved effective on the date of the approval "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "27",
+        "text": "Application received 5/27/11 and approved effective on the date of the approval "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "11",
+        "text": "Application received 5/27/11 and approved effective on the date of the approval "
+      },
+      {
+        "field": "receipt_date",
+        "number": "11",
+        "text": "5/27/11"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "5",
+        "text": "Standard NDA for a new molecular entity (synthetic ESA) received 5/27/11 and app"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "27",
+        "text": "Standard NDA for a new molecular entity (synthetic ESA) received 5/27/11 and app"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "11",
+        "text": "Standard NDA for a new molecular entity (synthetic ESA) received 5/27/11 and app"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Standard NDA for a new molecular entity (synthetic ESA) received 5/27/11 and app"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

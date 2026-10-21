@@ -1,0 +1,653 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+**22-088**
+L2: **STATISTICAL REVIEW(S)**
+L3: FDA Seal/Logo
+L4: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Pharmacoepidemiology and Statistical Science
+Office of Biostatistics
+L5: ## STATISTICAL REVIEW AND EVALUATIONCLINICAL STUDIES
+L6: **NDA/Serial Number:** 22-088
+**Drug Name:** Temsirolimus
+**Indication(s):** Treatment of Advanced Renal Cell Carcinoma
+**Applicant:** Wyeth
+**Date(s):** Submission Date: October 5, 2006
+PDUFA Date: July 15, 2007
+**Review Priority:** Priority
+**Biometrics Division:** Division of Biometric V (HFD-711)
+**Statistical Reviewer:** Shan Sun-Mitchell, Ph.D
+**Concurring Reviewers:** Team Leader: Rajeshwari Sridhara, Ph.D
+Division Director: Aloka Chakravarty, Ph.D
+**Medical Division:** Division of Oncology Drug Product (HFD-150)
+**Clinical Team:** Reviewers: Virginia E. Kwitkowski, MS, CRNP
+Tatiana Prowell, MD
+Team Leader: Amna Ibrahim, MD
+**Project Manager:** Carl Huntley
+L7: **Keywords:** Overall Survival, Median PFS and Confidence Limits
+L8: ## Table of Contents
+L9: U.S. DEPARTMENT OF HEALTH AND HUMAN SERVICES	1
+FOOD AND DRUG ADMINISTRATION	1
+STATISTICAL REVIEW AND EVALUATION	1
+1. EXECUTIVE SUMMARY	3
+1.1 CONCLUSIONS AND RECOMMENDATIONS	3
+1.2 BRIEF OVERVIEW OF CLINICAL STUDIES	3
+1.3 STATISTICAL ISSUES AND FINDINGS	4
+2. INTRODUCTION	4
+2.1 OVERVIEW	4
+2.2 DATA SOURCES	5
+3. STATISTICAL EVALUATION	6
+3.1 EVALUATION OF EFFICACY	5
+3.1.1 Study Design	6
+3.1.2 Study Objectives	6
+3.1.3 Efficacy Endpoints	6
+3.1.4 Sample Size Consideration	7
+3.1.5 Efficacy Analysis Methods	7
+3.1.5.1 Definitions of Analysis Populations	7
+3.1.5.2 Analysis Methods	8
+3.1.6 Sponsor's Results and Statistical Reviewer's Comments	8
+3.1.6.1 Data Sets	8
+3.1.6.2 Disposition of Patients	9
+3.1.6.3 Demographic and Baseline Characteristics	12
+3.1.6.4 Primary Endpoint	14
+3.1.6.5 Secondary Endpoints	15
+3.2 EVALUATION OF SAFETY	21
+3.3 HELATH OUTCOME ASSESSMENTS IN CCI-779 304 STUDY	21
+3.3.1 Results of TWIST (PFS-TOX) Analysis	21
+3.3.2 Results of Q-TWiST Analysis Assuming utwist = 1 and utwist = 0.689	22
+4. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	
+4.1 GENDER, RACE AND AGE	24
+4.2 OTHER SPECIAL/SUBGROUP POPULATIONS	26
+5. SUMMARY AND CONCLUSIONS	27
+5.1 STATISTICAL ISSUES AND COLLECTIVE EVIDENCE	27
+5.2 CONCLUSIONS AND RECOMMENDATIONS	27
+SIGNATURES/DISTRIBUTION LIST (OPTIONAL)	29
+L10: ## 1. EXECUTIVE SUMMARY
+L11: ## 1.1 Conclusions and Recommendations
+L12: This NDA includes a final study report of a single, randomized, comparator-controlled, three-arm registration phase 3 trial, 3066K1-304-WW, in first line-patients with renal cell carcinoma (RCC); the primary endpoint of the study was Overall Survival (OS). Results of the three-arm study demonstrated a median OS of 10.9 months with temsirolimus 25 mg versus 7.3 months with interferon alpha (IFN). Hazard ratios were 0.73 (95% CI, 0.58-0.92) comparing the temsirolimus 25 mg and IFN arms and 0.96 (95% CI, 0.76-1.20) comparing the combination (temsirolimus 15 mg with IFN) and IFN arms, representing 27% and 4% reduction in risk of death, respectively. The confidence interval for the comparison of temsirolimus 25 mg and IFN did not include 1 (95% CI, 0.58-0.92), and the difference in survival curves between the temsirolimus 25 mg and IFN arms was significant (log-rank p-value=0.0078). The interim analysis of OS crossed the predefined O'Brien-Fleming boundary for superior efficacy of 0.0159 for the comparison of the temsirolimus and IFN arms at 446 events. Overall, the data and results of this NDA submission support the claim of efficacy of temsirolimus in the treatment of advanced renal cell carcinoma.
+L13: ## 1.2 Brief Overview of Clinical Studies
+L14: In this NDA submission, efficacy and safety data are collected for one phase 3 registration trial (3066K1-304-WW), a single phase 1 study (124-US) and a single phase 2 study (200-US).
+L15: The registration study was to determine the efficacy and safety of for TORISEL™ (temsirolimus) Injection in patients with advanced renal cell carcinoma. TORISEL is an inhibitor of the mammalian target of rapamycin (mTOR), an enzyme that regulates cell growth and proliferation. It exerts its effect on cell proliferation by inhibiting mTOR-dependent protein translation induced by growth factor stimulation of cells. The compound prevents progression from G1 to S phase of the cell cycle through inhibition of mTOR, which is a novel mechanism of action for an anticancer drug.
+L16: The clinical development program for TORISEL Injection included 19 clinical studies that were conducted in a broad demographic population from 23 countries. Sixteen phase 1 and 2 studies were conducted in the US, Europe, and Japan; 14 of these studies were completed and 2 were ongoing as of the data cutoff date for this application (30 May 2006).
+L17: The studies conducted specifically in RCC were a single phase 1 study (124-US), a single phase 2 study (200-US) and a single registration phase 3 study, 3066K1-304-WW.
+L18: ## 1.3 Statistical Issues and Findings
+L19: This NDA is submitted for the marketing approval of TORISEL™ (temsirolimus) Injection in patients with advanced renal cell carcinoma. The registration study 3066K1-304-WW is a randomized, comparator-controlled, three-arm phase 3 trial. Six hundred and twenty six patients were enrolled in the study.
+L20: The primary objective of the study was to compare the overall survival of patients treated with temsirolimus alone or temsirolimus in combination with IFN with the overall survival of patients treated with IFN alone.
+L21: The secondary objectives were to compare patients treated with temsirolimus alone or temsirolimus in combination with IFN with patients treated with IFN alone with respect to additional efficacy endpoints and health outcomes measurements. In addition, biomarkers were evaluated based on screening tumor expression of proteins involved in the AKT-mTOR pathway (ie, AKT phosphorylation, PTEN expression) and the vascular endothelial growth factor (VEGF) pathway (HIF1-\alpha and HIF2-\alpha).
+L22: Results of the three-arm study (study 3066K1-304-WW) demonstrated a median OS of 10.9 months with temsirolimus 25 mg versus 7.3 months with interferon alpha (IFN). Hazard ratios were 0.73 (95% CI, 0.58-0.92) comparing the temsirolimus 25 mg and IFN arms and 0.96 (95% CI, 0.76-1.20) comparing the combination (temsirolimus 15 mg with IFN) and IFN arms, representing 27% and 4% reduction in risk of death, respectively. The hazard ratio confidence interval for the comparison of temsirolimus 25 mg and IFN did not include 1 (95% CI, 0.58-0.92), and the difference in survival curves between the temsirolimus 25 mg and IFN arms was significant (log-rank p-value=0.0078).
+L23: ## 2. INTRODUCTION
+L24: ## 2.1 Overview
+L25: TORISEL is an inhibitor of the mammalian target of rapamycin (mTOR), an enzyme that regulates cell growth and proliferation. It exerts its effect on cell proliferation by inhibiting mTOR-dependent protein translation induced by growth factor stimulation of cells. The compound prevents progression from G1 to S phase of the cell cycle through inhibition of mTOR, which is a novel mechanism of action for an anticancer drug.
+L26: Sponsor's clinical development program for TORISEL Injection included 19 clinical studies that were conducted in a broad demographic population from 23 countries. Sixteen phase 1 and 2 studies were conducted in the US, Europe, and Japan; 14 of these studies were completed and 2 were ongoing as of the data cutoff date for this application (30 May 2006). The studies conducted specifically in RCC were a single phase 1 study (124-US), a single phase 2 study (200-US) and a single registration phase 3 study, 304-WW.
+L27: ## 2.2 DATA SOURCE
+L28: Data used for this review were from the electronic submission received on October 2006 and April 17 2007, respectively. The network path was "\CDSESUB1\evsprod\NDA022088\0000" and "\CDSESUB1\evsprod\NDA022088\0019" in the EDR.
+L29: ## 3. STATISTICAL EVALUATION
+L30: ## 3.1 Evaluation of Efficacy
+L31: This section provides the brief description of the registration study 3066K1-304-WW. Study 3066K1-304-WW is a phase 3, randomized, open-label, multicenter, outpatient study comparing IFN alone, temsirolimus alone, and temsirolimus in combination with IFN in patients with previously untreated advanced RCC who had 3 of 6 protocol-specified prognostic factors. Patients were enrolled at 148 investigational sites in 23 countries. Patients with histologically or cytologically confirmed, advanced (stage IV or recurrent disease) RCC who had not received prior systemic therapy for their disease were eligible for the study.
+L32: ## 3.1.1 Study Design
+L33: Study 3066K1-304-WW is a phase 3, randomized, open-label, multicenter, outpatient study comparing IFN alone, temsirolimus alone, and temsirolimus in combination with IFN in patients with previously untreated advanced RCC who had 3 of 6 protocol-specified prognostic factors. Patients were randomized in a 1:1:1 proportion to one of the following three treatment arms:
+L34: - Temsirolimus 25 mg IV weekly (n=209)
+- IFN Interfero alfa 3 MU DC 3x weekly for the first week, 9MU SC 3x weekly for the second week and 18 MU SC 3x weekly thereafter (n=207)
+- IFN 3 MU TIWx1 week, then 6 MU TIW + Temsirolimus 15 mg IV weekly (n=210)
+L35: Patients were randomized and stratified by prior nephrectomy status within each geographic region. The randomization strata used in the study are listed below.
+L36: - Region 1 (US)/prior nephrectomy (yes)
+- Region 1 (US)/prior nephrectomy (no)
+- Region 2 (Western Europe, Canada, and Australia)/prior nephrectomy (yes)
+- Region 2 (Western Europe, Canada, and Australia)/prior nephrectomy (no)
+- Region 3 (Other including Asia Pacific, Eastern Europe, Africa, and South America)/prior nephrectomy (yes)
+- Region 3 (Other including Asia Pacific, Eastern Europe, Africa, and South America)/prior nephrectomy (no)
+L37: ## 3.1.2 Study Objectives
+L38: The primary objective of the study was to compare the overall survival of patients treated with temsirolimus alone or temsirolimus in combination with IFN with the overall survival of patients treated with IFN alone (control arm).
+L39: The secondary objectives were to compare patients treated with temsirolimus alone or temsirolimus in combination with IFN with patients treated with IFN alone with respect to additional efficacy endpoints and health outcomes measurements. In addition, biomarkers were evaluated based on screening tumor expression of proteins involved in the AKT-mTOR pathway (AKT phosphorylation, PTEN expression) and the vascular endothelial growth factor (VEGF) pathway (HIF1-\alpha and HIF2-\alpha).
+L40: ## 3.1.3 Efficacy Endpoints
+L41: The **primary efficacy endpoint** was **overall survival (OS)**. Overall survival was defined as the time between date of randomization and date of death, censored at the last date known alive.
+L42: **Secondary endpoints included:**
+L43: - **Progression-free survival (PFS):** Measured from the date of randomization to the date of disease progression (including symptomatic deterioration) or death, whichever occurred first, censored at the last tumor evaluation date. Progression was determined by each investigator and by independent radiology review.
+- **Objective response rate (ORR):** Objective response rate was defined as the percentage of patients who had a confirmed complete or partial response (CR or PR) as their best response to treatment. Response was assessed by each investigator and by independent radiology review.
+- **Duration of Objective Response:** For patients with CR or PR, duration of response was measured from the first date on which CR or PR criteria were met (before confirmation of response) to the date of disease progression.
+- **Clinical Benefit Rate:** The clinical benefit rate was the percentage of patients who had a confirmed CR or PR or had SD lasting at least 24 weeks as their best response to treatment.
+- **Time to Treatment failure (TTF):** Time to treatment failure (TTF) was measured from the date of randomization to the date of progression or death due to any cause, withdrawal from treatment due to an AE, withdrawal of voluntary consent, or loss to follow-up, whichever occurred first, censored at the date of the conclusion of treatment phase.
+L44: ## 3.1.4 Sample Size Considerations
+L45: To detect a hazard ratio of 1.40 (comparing the IFN arm to either temsirolimus-containing arm) (40% improvement in the median overall survival time from 4.9 months for IFN alone to 6.86 months for the temsirolimus-containing arms with 80% power using a 2-sided log-rank test at the 2.5% significance level, adjusting for 2 comparisons), the primary efficacy analysis was initially planned to be conducted after 494 deaths. Thus, the sample size was determined to be 600 patients (200 per treatment arm), according to study protocol.
+L46: According to the protocol, there were two planned interim analyses; one after approximately 164 deaths and the other after approximately 430 deaths. The final analysis was to be performed after approximately 504 deaths.
+L47: ## 3.1.5 Efficacy Analysis Methods
+L48: ## 3.1.5.1 Definitions of Analysis Populations
+L49: The primary and secondary efficacy analyses were carried out on the intent-to-treat (ITT) population of all 626 randomized patients. In addition, the primary efficacy endpoint of overall survival (OS) was also analyzed using the evaluable (EVAL) population of 569 randomized patients who remained in the treatment phase of the study for at least 8 weeks (unless discontinued due to disease progression or death) and had no major protocol violations that could have confounded the effects of treatment. The reasons that the remaining 57 patients were not evaluable are summarized in the following table. The most frequent reason for non-evaluability in all treatment arms was that patients received treatment for fewer than 8 weeks and did not discontinue treatment because of early death or progressive disease.
+L50: Table 3.1 Reasons for Non-Evaluability (Sponsor's table)
+Reason	IFN
+(n=207)	TEMSR 25 mg
+(n=209)	TEMSR 15 mg/IFN
+(n=210)	Total
+(n=626)
+Total Evaluable	185 (100)	196 (100)	188 (100)	569 (100)
+Total Non-evaluable	22 (100)	13 (100)	22 (100)	57 (100)
+Never started treatment	7 (31.8)	1 (7.7)	2 (9.1)	10 (17.5)
+On treatment <8 wks w/o early PD/death	11 (50.0)	6 (46.2)	12 (54.5)	29 (50.9)
+Prior systemic therapy	0 (0.0)	1 (7.7)	1 (4.5)	2 (3.5)
+Significant concomitant disease	4 (18.2)	3 (23.1)	4 (18.2)	11 (19.3)
+Unconfirmed primary disease at baseline	0 (0.0)	2 (15.4)	3 (13.6)	5 (8.8)
+L51: ## Reviewer's Comments:
+L52: 1. Patients who met more than 1 criterion for non-evaluability are counted according to their primary reason for nonevaluability
+L53: 2. Early PD or death means that PD or death occurred within 10 weeks from randomization date
+L54: - **Intent-to-treat population (ITT):** All subjects who are randomized.
+- **Evaluable Population:** All subjects who meet the following criteria:Randomized
+- Remain in the treatment phase of the study for at least 8 weeks, unless early discontinuation due to disease progression or death
+- No major protocol violation. Major violation includes failure to satisfy major entry criteria or taking prohibited medications during the treatment phase of the study that can seriously confound the effects of the study treatment.
+L55: ## 3.1.5.2 Analysis Methods
+L56: According to the study protocol, two null hypotheses will be tested. The first null hypothesis for primary efficacy comparison will be that overall survival between TEMRS 25mg and IFN alpha therapy groups is the same. The first alternative hypothesis will be that overall survival is not the same. The second null hypothesis for primary efficacy comparison will be that overall survival between TERMS 15mg + IFN alpha and IFN alpha alone therapy groups is the same. The second alternative hypothesis will be that overall survival is not the same. If the 2 tests are completely correlated, then the probability of success is 0.8.
+L57: The primary analysis for primary efficacy endpoint (overall survival) will be carried out by using a stratified log-rank test at the 2.5% significance level; two sided for each primary comparison (overall 5% significance level for 2 comparisons; Bonferroni adjustment).
+L58: Per sponsor, the distributions of primary efficacy endpoint OS times were estimated using the Kaplan-Meier method and compared using the log-rank test, stratifying over prior nephrectomy and geographic region. Stratified Cox proportional hazard models were used to estimate the relative hazard of death for patients in each temsirolimus-containing arm (temsirolimus alone or combination arm) versus the IFN arm. The corresponding 95% confidence intervals were calculated. Secondary efficacy endpoints PFS, ORR, and clinical benefit rate were analyzed using investigator and independent tumor assessments. Time-to-event endpoints (PFS, ORR, clinical benefit rate, and TTF) were analyzed using the same methods as OS.
+L59: ## 3.1.6 Sponsor's Results and Statistical Reviewer's Comments
+L60: This section summarizes the sponsor's major results for the registration study and provides the statistical reviewer's comments.
+L61: ## 3.1.6.1 Data Sets
+L62: Six hundred and twenty six patients were randomized in a 1:1:1 ratio to receive IFN subcutaneously 3 times weekly, temsirolimus 25 mg IV once weekly, or the combination of temsirolimus 15 mg IV once weekly with IFN subcutaneously 3 times weekly. Patients in the
+L63: IFN arm received a maximum IFN dose of up to 18 MU 3 times weekly, and patients in the combination arm received a maximum IFN dose of up to 6 MU 3 times weekly. The study began enrollment in June 2003 and was closed to enrollment in April 2005 after 626 patients had been randomized. The trial period was from June 2003 through May 2006. Follow-up visits were conducted approximately every 2 months after the patient had discontinued treatment until death.
+L64: ## 3.1.6.2 Disposition of Patients
+L65: A total of 626 patients were randomly assigned to the 3 treatment arms in the study (the intent to treat [ITT] population). Patients were stratified for prior nephrectomy status within 3 geographic regions. Overall, there were 207 patients in the IFN arm, 209 patients in the temsirolimus arm, and 210 patients in the combination arm. Of the 626 patients in the ITT population, 616 entered the treatment phase of the study and received at least 1 dose of test (200 patients in the IFN arm, 208 patients in the temsirolimus arm, and 208 patients in the combination arm); These patients were evaluable for safety and constituted the safety population.
+L66: As of 30 May 2006 (the database cutoff date for this report), 30 patients (4.8%) remained on treatment (6 [2.9%] in the IFN arm, 9 [4.3%] in the temsirolimus arm, and 15 [7.1%] in the combination arm). Most of the remaining patients had died (453, 72.4%): 152 (73.4%) in the IFN arm, 147 (70.3%) in the temsirolimus arm, and 154 (73.3%) in the combination arm. As of 30 May 2006, 124 patients (19.8%) remained in follow up, 9 patients (1.4%) had withdrawn consent, and 9 (1.6%) had been lost to follow up.
+L67: Table 3.2 summarized the study flowchart and patient disposition as of May 30 2006. Tables 3.3 and 3.4 provide the summary of patient population by treatment group and patient disposition in ITT population.
+L68: A total of 569 patients remained in the treatment phase of the study for at least 8 weeks (unless discontinued due to disease progression or death) and had no major protocol violations that could have confounded the effects of treatments. These patients were considered to be evaluable for efficacy and constituted the efficacy evaluable (EVAL) population. Of the 569 evaluable patients, 185 were in the IFN arm, 196 were in the temsirolimus arm, and 188 were in the combination arm. Thus, all patient populations used for analysis of efficacy and safety were well balanced across the 3 treatment arms.
+L69: Appears This Way
+On Original
+L70: Table 3.2 Study Flowchart and Patient Disposition as of 30 May 2006 (Sponsor's Table)
+L71: Table 3.3 Summary of Patient Population by Treatment Group: Number of Patients (Sponsor's table)
+L72: Population	IFN	TEMSR 25 mg	TEMSR 15 mg/IFN	Total
+Intent-to-treat (total randomized)	207	209	210	626
+Evaluable for safety	200	208	208	616
+Evaluable for efficacy	185	196	188	569
+L73: **Table 3.4 Patient Disposition in ITT Population**
+(Sponsor's table)
+L74: Patient Disposition (n, %)	IFN
+(n=207)	TEMSR 25 mg
+(n=209)	TEMSR 15 mg/IFN
+(n=210)	Total
+(n=626)
+Alive	45 (21.7)	58 (27.8)	51 (24.3)	154 (24.6)
+On treatment	6 (2.9)	9 (4.3)	15 (7.1)	30 (4.8)
+In follow-up	39 (18.8)	49 (23.4)	36 (17.1)	124 (19.8)
+Died	152 (73.4)	147 (70.3)	154 (73.3)	453 (72.4)
+Lost to follow-up	10 (4.8)	4 (1.9)	5 (2.4)	19 (3.0)
+L75: ## **Reviewer's Comments:**
+L76: - This reviewer verified Table 3.4 which shows patients' disposition in ITT population.
+- Patient evaluable for efficacy received treatment for at least 8 weeks (except in the case of death or progression by investigator assessment) and had no major protocol violations.
+- Lost to follow up includes 9 patients who withdrew consent (3 in IFN arm, 3 in temsirolimus arm, and 3 in combination arm) and 2 patients in the IFN arm who discontinued for other reasons (SAE before first dose of IFN and disease progression). Of the latter 2 patients, the first was lost to follow up and the other was in long term follow up. This information will be corrected in the final study database.
+L77: Almost all patients received treatment as intended during the study. Ten patients (1.6%) did not receive treatment: 7 in the IFN arm, 1 in the temsirolimus arm, and 2 in the combination arm (see Table 3.5). Out of the 7 patients in the IFN arm, 3 discontinued because of patient request before the first dose, 2 had AEs before the first dose (1 SAE of spinal cord compression and 1 case of anemia), 1 died before the first dose, and 1 had symptomatic deterioration before the first dose. The patient in the temsirolimus arm who was never treated had symptomatic deterioration before the first dose. One of the 2 patients in the combination arm who was never treated died before the first dose; the other patient had failed screening but was randomized due to a site error. All of the 200 treated patients in the IFN arm received IFN only; all of the 208 patients treated in the temsirolimus arm received temsirolimus only. Of the 208 patients treated in the combination arm, 200 received both temsirolimus and IFN and 8 patients received IFN only (during the run-in and were discontinued before receiving temsirolimus). Thus all treated patients received the intended study medication.
+L78: **Table 3.5 Randomized versus Actual Treatments Received in ITT Population
+(Sponsor's Table)**
+L79: Actual Treatment (n, %)	IFN
+(n=207)	TEMSR 25 mg
+(n=209)	TEMSR 15 mg/IFN
+(n=210)	Total
+(n=626)
+IFN only	200 (96.6)	0 (0.0)	8 (3.8)	208 (33.2)
+TEMSR only	0 (0.0)	208 (99.5)	1 (0.5)	209 (33.4)
+TEMSR and IFN	0 (0.0)	0 (0.0)	199 (94.8)	199 (31.8)
+Untreated	7 (3.4)	1 (0.5)	2 (1.0)	10 (1.6)
+L80: Per sponsor, as of 30 May 2006, 1 patient in the TEMSR 15 mg/IFN treatment group (027001) was listed in the database as having received only temsirolimus. However, the patient had received 2 doses of IFN during study week 1, as per protocol. This information was provided in a response to a query that was outstanding as of the data cutoff date of 30 May 2006.
+L81: ## 3.1.6.3 Demographic and Baseline Characteristics
+L82: Table 3.6 shows the demographic and baseline characteristics for the ITT population. Per sponsor, p-value was obtained by comparing with IFN alone using chi-square test for categorical variables and Kruskall-Wallis test for continuous variables.
+L83: From table 3.6, median age was 59 years (range, 23-86 years); 70.3% of patients were under 65 years old and 29.7% of patients were 65 or older. Most patients were male (69.0%) and Caucasian (91.1%). Most patients (82.6%) had Karnofsky scores of 60 to 70%, and 66.9% of patients had received a prior nephrectomy
+L84: Appears This Way
+On Original
+L85: **Table 3.6 Demographic and Baseline Characteristic in ITT Population**
+(Sponsor's table)
+L86: Characteristic (%)	IFN (n=207)	TEMSR
+25 mg (n=209)	TEMSR
+15 mg/IFN (n=210)	Total (n=626)	TEMSR
+25 mg
+p-value	15 mg/IFN
+p-value
+Age, years	0.3977	0.7081
+n	207	209	210	626	
+Mean	59.2	58.7	59.3	59.1	
+SD	10.4	10.0	9.8	10.1	
+Median	60.0	58.0	59.0	59.0	
+Min, Max	23.0, 86.0	32.0, 81.0	32.0, 82.0	23.0, 86.0	
+<65 years	142 (68.6)	145 (69.4)	153 (72.9)	440 (70.3)	0.8636	0.3393
+>=65 years	65 (31.4)	64 (30.6)	57 (27.1)	186 (29.7)	
+Sex (n, %)	0.2712	0.5842
+Female	59 (28.5)	70 (33.5)	65 (31.0)	194 (31.0)	
+Male	148 (71.5)	139 (66.5)	145 (69.0)	432 (69.0)	
+Race (n, %)	0.6044	0.9119
+White	191 (92.3)	186 (89.0)	193 (91.9)	570 (91.1)	
+Asian	4 (1.9)	6 (2.9)	3 (1.4)	13 (2.1)	
+Black	8 (3.9)	9 (4.3)	8 (3.8)	25 (4.0)	
+Other	4 (1.9)	8 (3.8)	6 (2.9)	18 (2.9)	
+Weight, kg	0.6037	0.7507
+n	204	207	208	619	
+Mean	76.0	76.5	75.1	75.9	
+SD	16.9	15.3	13.9	15.4	
+Median	74.0	76.0	74.0	75.0	
+Min, Max	35.0, 159.7	38.5, 135.1	42.0, 121.5	35.0, 159.7	
+Unknown	3	2	2	7	
+Height, cm	0.4791	0.1849
+n	204	207	206	617	
+Mean	170.9	170.0	169.6	170.2	
+SD	9.3	9.7	9.0	9.4	
+Median	171.0	171.0	170.0	170.2	
+Min, Max	142.2, 194.0	137.2, 195.0	149.9, 194.0	137.2, 195.0	
+Unknown	3	2	4	9	
+Karnofsky score (n, %)	0.4364	0.5827
+<60	1 (0.5)	0 (0.0)	0 (0.0)	1 (0.2)	
+60-70	171 (83.0)	168 (80.4)	177 (84.3)	516 (82.6)	
+>70	34 (16.5)	41 (19.6)	33 (15.7)	108 (17.3)	
+Unknown	1	0	0	1	
+Region (n, %)	0.9967	0.9795
+Region 1	61 (29.5)	61 (29.2)	62 (29.5)	184 (29.4)	
+Region 2	43 (20.8)	44 (21.1)	42 (20.0)	129 (20.6)	
+Region 3	103 (49.8)	104 (49.8)	106 (50.5)	313 (50.0)	
+Prior nephrectomy (n, %)	0.8893	0.9988
+No	68 (32.9)	70 (33.5)	69 (32.9)	207 (33.1)	
+Yes	139 (67.1)	139 (66.5)	141 (67.1)	419 (66.9)
+L87: ## Reviewer Comments:
+L88: 1) This reviewer verified above table which shows patients' baseline characteristics in the registration study 3066K1-304-WW
+L89: ## 3.1.6.4 Primary Endpoint
+L90: The primary endpoint for study 3066K1-304-WW was overall survival (OS). Overall survival (OS) was measured from the date of randomization to the date of death or censored at the patient's last contact date. All deaths occurring through 15 Mar 2006 are included in this analysis; patients with a survival or death date after this date were censored on 15 Mar 2006. This date ensures that by 30 May 2006 (database cutoff for this report) every patient should have had a follow-up visit (conducted approximately every 8 weeks) conducted later than 15 Mar 2006 (the cutoff date for the survival analysis).
+L91: The following tables show the sponsor's efficacy results in study 3066K1-304-WW.
+L92: **Table 3.7 Overall Survival in ITT Population**
+(Sponsor's table)
+L93: IFN
+(n=207)	TEMSR 25 mg
+(n=209)	TEMSR 15 mg/IFN
+(n=210)
+No. deaths (n, %)	149 (72.0)	143 (68.4)	154 (73.3)
+Median OS in months (95% CI)	7.3 (6.1, 8.8)	10.9 (8.6, 12.7)	8.4 (6.6, 10.3)
+% Change in Median OS from IFN	49%	15%
+Hazard ratio (95% CI)	0.73 (0.58, 0.92)	0.96 (0.76, 1.20)
+p-value	0.0078	0.6965
+L94: The median OS was 7.3 months in the IFN arm, 10.9 months in the temsirolimus arm, and 8.4 months in the combination arm. Hazard ratios were 0.73 (95% CI, 0.58-0.92) comparing the temsirolimus and IFN arms and 0.96 (95% CI, 0.76-1.20) comparing the combination and IFN arms, representing 27% and 4% reduction in risk of death, respectively. The confidence interval for the comparison of temsirolimus versus IFN did not include 1 (95% CI, 0.58-0.92), and the difference in survival curves between the temsirolimus and IFN arms was significant (log-rank p-value=0.0078). The interim analysis of OS crossed the predefined O'Brien-Fleming boundary for superior efficacy of 0.0159 for the comparison of the temsirolimus and IFN arms at 446 events.
+L95: ## Reviewer's comments:
+L96: [1] This reviewer verified the results of the analyses provided by sponsor in table 3.7 and agrees with the results.
+L97: [2] Per sponsor, all patients alive after 15 Mar 2006 are censored on that date rather than on the date of the follow up visit between 15 March 2006 and 30 May 2006, which could have introduced bias resulting from the patients' follow-up visit schedule.
+L98: ## 3.1.6.5 Secondary Endpoints
+L99: ## 1. Progression Free Survival
+L100: The results of PFS analysis for the ITT population are summarized in the following table.
+L101: **Table 3.8(a) Progression Free Survival in ITT Populations**
+(Sponsor's analyses results)
+L102: IFN
+(n=207)	TEMSR
+25 mg
+(n=209)	TEMSR
+15 mg/IFN
+(n=210)
+Investigator's assessment
+No. patients with post-baseline tumor assessment (n, %)	162 (78.3)	197 (94.3)	173 (82.4)
+Median PFS in months (95% CI)	1.9 (1.9, 2.2)	3.8 (3.6, 5.2)	3.7 (2.9, 4.4)
+% Change in median PFS from IFN Hazard ratio
+(95% CI)	100% 0.69
+(0.57, 0.85)	95% 0.75
+(0.61, 0.92)
+P-value	0.0005	0.0066
+No. patients with PD or who died (n,%)	187 (90.3)	190 (90.9)	190 (90.5)
+No. censored patients (n, %)	20 (9.7)	19 (9.1)	20 (9.5)
+Independent assessment
+No. patients with post-baseline tumor assessment (n,%)	153 (73.9)	192 (91.9)	168 (80.0)
+Median PFS in months (95% CI)	3.1 (2.2, 3.8)	5.5 (3.9, 7.0)	4.9 (3.9, 5.9)
+% Change in median PFS from IFN Hazard ratio
+(95% CI)	77% 0.66
+(0.53, 0.81)	58% 0.73
+(0.59, 0.90)
+P-value	0.0001	0.0040
+No. patients with PD or who died (n,%)	173 (83.6)	176 (84.2)	175 (83.3)
+No. censored patients (n, %)	34 (16.4)	33 (15.8)	35 (16.7)
+L103: Based on the independent assessment of PFS, the median PFS was 3.1 months in the IFN arm, 5.5 months in the temsirolimus arm, and 4.9 months in the combination arm. Hazard ratios showed a 34% and 27% reduction in risk of progression or death for patients in the temsirolimus and combination arms, respectively, compared with patients in the IFN arm. The difference in PFS curves between either the temsirolimus arm or the combination arm and the IFN arm was statistically significant (logrank p-values 0.0001 and 0.0040, respectively).
+L104: Based on the investigator's assessment of PFS, the median PFS was 1.9 months in the IFN arm, 3.8 months in the temsirolimus arm, and 3.7 months in the combination arm. The temsirolimus arm showed a 100% increase in median PFS over the IFN arm, and the combination arm a 95% increase over the IFN arm. Hazard ratios showed a 31% and 25% reduction in risk of progression or death for patients in the temsirolimus and combination arms, respectively, compared with patients in the IFN arm. The difference in PFS curves between either the temsirolimus arm or the
+L105: combination arm and the IFN arm was statistically significant (log-rank p-values 0.0005 and 0.0066, respectively).
+L106: ## **Reviewer's comments:**
+L107: [1] Some data were noted to be missing from the raw datasets (efficacy and safety related variables), therefore sponsor's analyses could not be confirmed by the reviewers. The sponsor discovered that this had occurred because of the requirement that the sponsor to reduce some larger datasets into multiple smaller datasets for electronic submission. The raw datasets that were involved were 'Tumor' and 'LabTest'. The sponsor submitted new tumor and lab test datasets for analysis once this was discovered.
+L108: During the FDA review of the raw datasets, it appeared that that RECIST criteria for response assessment were not adhered to as planned in the protocol. Amendment 1 of the protocol did allow for enrollment of patients with bone-only metastases and specified that their tumors would be measured by MRI. This amendment was not an amendment to the Special Protocol Assessment and was not agreed to by the FDA. It was discovered that bone lesions were not measured by MRI in all bone-only patients (CT and other forms of imaging were used to measure these lesions). RECIST criteria state "lesions considered to be truly non-measurable include the following: bone lesions..." and the protocol stated that RECIST criteria would be utilized (with the exception of the enrollment of patients with bone-only disease).
+L109: In addition, it was discovered that patients who met the RECIST criteria for measurable soft-tissue disease in fact had bone metastases measured and recorded as target lesions. These protocol violations were called to the attention of the sponsor. The review team requested that the sponsor re-analyze the tumor datasets and remove all target bone lesions. This would require the exclusion of the 6 patients with bone-only disease (since their tumors were not measured with MRI as planned) and the exclusion of bone target lesions in all other patients. The datasets were not entirely clear with regard to which lesions were of bone versus soft tissue, so the review team requested that the sponsor review the images of questionable database entries and provide clarification.
+L110: **Table 3.8(b) Progression Free Survival in ITT Populations
+(FDA's analyses using adjudicated data set for independent assessment)**
+L111: IFN
+(n=207)	TEMSR
+25 mg
+(n=209)	TEMSR
+15 mg/IFN
+(n=210)
+Independent assessment	
+No. patients with post-baseline tumor assessment (n,%)	153 (73.9)	192 (91.9)	168 (80.0)
+Median PFS in months (95% CI)	3.1 (2.2, 3.8)	5.5 (3.9, 7.0)	4.7 (3.9, 5.8)
+% Change in median PFS from IFN Hazard ratio
+(95% CI)	77% 0.66
+(0.53, 0.81)	58% 0.73
+(0.59, 0.90)
+P-value	0.0001	0.0040
+No. patients with PD or who died (n,%)	173 (83.6)	176 (84.2)	175 (83.3)
+No. censored patients (n, %)	34 (16.4)	33 (15.8)	35 (16.7)
+L112: The new data set was submitted to FDA on April 17, 2007. The following results on progression free survival were obtained using the new data sets. There was one change on the combination arm: the median PFS changed from 4.9 to 4.7 and hazard ratio confidence interval changed from (3.9, 5.9) to (3.9, 5.8), according to adjudicated data (see table 3.8 (b)).
+L113: ## 2. Objective Response Rate
+L114: The objective response rate (ORR) was the percentage of patients who had a confirmed complete or partial response (CR or PR) as their best response to treatment. The best overall responses to treatment in the ITT population are summarized in table 3.9.
+L115: Based on the independent assessment, there were no patients with CR in any of the treatment arms. PR was observed in 10 patients (4.8%) in the IFN arm, 18 patients (8.6%) in the temsirolimus arm, and 17 patients (8.1%) in the combination arm. The most frequent best response, was again observed more often in the temsirolimus arm (131 patients, 62.7%) than in the IFN arm (80 patients, 38.6%) or in the combination arm (113 patients, 53.8%). Most of the remaining patients had progressive disease (PD) or no post baseline evaluation.
+L116: Based on the investigator's assessment, there were 3 patients with CR, all of whom were in the IFN arm. PR was reported for 13 patients (6.3%) in the IFN arm, 18 patients (8.6%) in the temsirolimus arm, and 24 patients (11.4%) in the combination arm. SD for at least 8 weeks (\pm2 weeks), the most frequent best response, was reported more often in the temsirolimus arm (121 patients, 57.9%) than in the IFN arm (65 patients, 31.4%) or in the combination arm (94 patients, 44.8%). Most of the remaining patients had progressive disease (PD) or no post baseline evaluation.
+L117: **Table 3.9 Best Overall Response in ITT Population**
+(Sponsor's table)
+L118: IFN
+(n=207)	TEMSR 25 mg
+(n=209)	TEMSR 15 mg/IFN
+(n=210)
+Investigator assessment (n, %)	
+Complete response (CR)	3 (1.4)	0 (0)	0 (0)
+Partial response (PR)	13 (6.3)	18 (8.6)	24 (11.4)
+Stable disease (SD)	65 (31.4)	121 (57.9)	94 (44.8)
+Progressive disease (PD) Indeterminate	78 (37.7) 3 (1.4)	57 (27.3) 1 (0.5)	53 (25.2) 2 (1.0)
+No post-baseline tumor assessment	45 (21.7)	12 (5.7)	37 (17.6)
+Independent assessment (n, %)	
+Partial response (PR)	10 (4.8)	18 (8.6)	17 (8.1)
+Stable disease (SD)	80 (38.6)	131 (62.7)	113 (53.8)
+Progressive disease (PD) Indeterminate	60 (29.0) 3 (1.4)	42 (20.1) 1 (0.5)	35 (16.7) 3 (1.4)
+No post-baseline tumor assessment	54 (26.1)	17 (8.1)	42 (20.0)
+L119: The ORR in the ITT population is summarized table 3.10.
+L120: **Table 3.10 Objective Response Rate in ITT Population**
+L121: IFN
+(n=207)	TEMSR 25 mg
+(n=209)	TEMSR 15 mg/IFN
+(n=210)
+Investigator's assessment	
+No. patients with CR or PR (n, %)	16 (7.7)	18 (8.6)	24 (11.4)
+95% CI for rate	(4.1, 11.4)	(4.8, 12.4)	(7.1, 15.7)
+P-value	0.7460	0.2143
+Independent assessment	
+No. patients with CR or PR (n, %)	10 (4.8)	18 (8.6)	17 (8.1)
+95% CI for rate	(1.9, 7.8)	(4.8, 12.4)	(4.4, 11.8)
+P-value	0.1232	0.1822
+L122: There was no statistically significant difference in ORR between either the temsirolimus or combination arm and the IFN arm (p-values 0.1232 and 0.1822), based on the independent assessment.
+L123: Based on the investigator assessment of response, the ORR was 7.7% (95% CI, 4.1-11.4) for the IFN arm, 8.6% (95% CI, 4.8-12.4) for the temsirolimus arm, and 11.4% (95% CI, 7.1-15.7) for the combination arm.
+L124: ## Reviewer's commend:
+L125: [1] Using adjudicated data set, the results of the Best Overall Response and Objective Response Rate remain unchanged.
+L126: [2] After failure of demonstration of improvement of ORR, further testing of secondary endpoints is considered exploratory. There was no specific plan for adjusting type I error for all the secondary endpoint evaluated.
+L127: ## 3. Duration of Objective Response
+L128: For patients with CR or PR, duration of response was measured from the first date on which CR or PR criteria were met (that is, before confirmation of response) to the date of disease progression. The duration of response in the ITT population is summarized in table 3.11
+L129: Based on the independent assessment of response, the median duration of response was 7.4 months (95% CI, 3.9-11.1) in the IFN arm (10 patients with PR), 11.1 months (95% CI, 9.1-13.8) in the temsirolimus arm (18 patients with PR), and 9.1 months (95% CI, 5.2-13.6) in the combination arm (17 patients with PR).
+L130: Based on the investigator's assessment of response, the median duration of response was 5.1 months (95% CI, 4.0-22.8) in the IFN arm (3 patients with CR and 13 with PR), 7.9 months (95% CI, 5.6-11.1) in the temsirolimus arm (18 patients with PR), and 8.4 months (95% CI, 5.8-14.1) in the combination arm (24 patients with PR). There was no statistically significant difference in duration of response between either temsirolimus-containing arm and the IFN arm.
+L131: **Table 3.11 Duration of Objective Response in ITT Populations
+(Sponsor's results)**
+L132: IFN
+(n=207)	TEMSR 25mg
+(n=209)	TEMRS 15mg/IFN
+(n=210)
+Investigator assessment	
+No. patients with response (n, %)	16(7.7)	18(8.6)	24(11.4)
+Median duration in months (95% CI)	5.1(4.0, 22.8)	7.9(5.6, 11.1)	8.4(5.8, 14.1)
+Independent assessment	
+No. patients with response (n, %)	10(4.8)	18(8.6)	17(8.1)
+Median duration in months (95% CI)	7.4(3.9, 11.1)	11.1(9.1, 13.8)	9.1(5.2, 13.6)
+L133: ## 4. Clinical Benefit Rate
+L134: The clinical benefit rate was the percentage of patients who had a confirmed CR or PR or had SD lasting at least 24 weeks as their best response to treatment. The clinical benefit rate in the ITT population is summarized in table 3.12.
+L135: **Table 3.12 Clinical Benefit Rate in ITT Population**
+L136: IFN
+(n=207)	TEMSR 25 mg
+(n=209)	TEMSR 15 mg/IFN
+(n=210)
+Investigator assessment	
+No. patients with CR, PR, or SD>=24 weeks (n, %)	37(17.9)	69 (33.0)	63 (30.0)
+95% CI for rate	(12.7, 23.1)	(26.6, 39.4)	(23.8, 36.2)
+P-value	
+Independent assessment	
+No. patients with CR, PR, or SD>=24 weeks (n, %)	32 (15.5)	67 (32.1)	59 (28.1)
+95% CI for rate	(10.5, 20.4)	(25.7, 38.4)	(22.0, 34.2)
+P-value	<0.0001	0.0020
+L137: Based on the independent assessment of response, the clinical benefit rate was 15.5% (95% CI, 10.5-20.4) for the IFN arm, 32.1% (95% CI, 25.7-38.4) for the temsirolimus arm, and 28.1% (95% CI, 22.0-34.2) for the combination arm. The clinical benefit rates were significantly higher in either the temsirolimus or combination arms than in the IFN arm.
+L138: Based on the investigator's assessment of response, the clinical benefit rate was 17.9% (95% CI, 12.7-23.1) for the IFN arm, 33.0% (95% CI, 26.6-39.4) for the temsirolimus arm, and 30.0% (95% CI, 23.8-36.2) for the combination arm.
+L139: ## **Reviewer's comment:**
+L140: [1] Clinical benefit rate endpoint is not considered in regulatory decision making. The stable disease is accounted for in the evaluation of PFS. Also, the p-values are not interpretable after failure to show benefit in ORR.
+L141: ## 5. Time to Treatment Failure
+L142: Time to treatment failure (TTF) was measured from the date of randomization to the date of progression or death due to any cause, withdrawal from treatment due to an AE, withdrawal of voluntary consent, or loss to follow-up, whichever occurred first, censored at the date of the conclusion of treatment phase. TTF in the ITT population is summarized in table 3.13.
+L143: **Table 3.13 Time to Treatment Failure in ITT Population**
+L144: IFN	TEM SR 25mg	TEM SR 15 mg/IFN
+(n=207)	(n=209)	(n=210)
+No. patients with treatment failure (n, %)	199 (96.1)	197 (94.3)	197 (93.8)
+Median TTF in months (95% CI)	1.9 (1.7, 1.9)	3.8 (3.5, 3.9)	2.5 (1.9, 3.6)
+Hazard ratio (95% CI)	0.61 (0.50, 0.74)	0.73 (0.60, 0.89)
+P-value	<0.0001	0.0018
+L145: This summary is based on the investigator's assessment of disease progression. The median TTF was 1.9 months (95% CI, 1.7-1.9) in the IFN arm, 3.8 months (95% CI, 3.5-3.9) in the temsirolimus arm, and 2.5 months (95% CI, 1.9-3.6) in the combination arm. TTF was significant longer in either of the temsirolimus-containing arms than in the IFN arm (logrank p-values \le0.0018) and led to 39% and 27% reductions in the risk of treatment failure in the temsirolimus and combination arms, respectively, compared with the IFN arm. The median TTF was similar to the median PFS for the IFN and temsirolimus arms, but was shorter for the combination arm. An increase in the factors besides progression or death that contribute to TTF (discontinuation due to AEs) could contribute to this difference.
+L146: ## **Reviewer's Comments:**
+L147: [1] This reviewer verified the results provided by sponsor in tables 3.8—3.13 and concur with sponsor's outcomes.
+L148: [2] Time to treatment failure endpoint is not considered in regulatory decision making for efficacy determination, since this includes toxicity.
+L149: [3] After failure of demonstration of improvement of ORR, further testing of secondary endpoints is considered exploratory. There was no specific plan for adjusting type I error for all the secondary endpoint evaluated.
+L150: ## 3.2 Evaluation of Safety
+L151: Please refer to FDA clinical reviews provided by Dr. Tatiana Prowell for safety evaluation.
+L152: ## 3.3 Health Outcome Assessments in CCI-779 304 STUDY
+L153: This section provides the results for Quality-adjusted Time Without Symptoms of disease or Toxicity of treatment (Q-TWiST). All the analyses were based on intent to treat (ITT) population. All randomized patients were included in the analysis (N=626).
+L154: Per sponsor, the Q-TWiST method partitions a patient's survival time from randomization experience into various health states: time with severe or life threatening toxicity related to treatment (TOX), time with neither symptoms nor toxic side effects (TWiST), and time after a relapse or progression (REL). For all patients included in the Q-TWiST analysis, the clinical trial data is used to determine the exiting time for each health state.
+L155: Kaplan-Meier estimates of time to event for each health state were computed for each of the three endpoints: toxicity, progression-free survival and overall survival.
+L156: Toxicity (TOX) is defined to be the time from randomization to the last day that toxicity is reported prior to relapse. As a result of underlying assumptions for Q-TWiST, all toxicity times are deemed an event.
+L157: For the primary analysis, progression-free survival (PFS) is defined to be the time from randomization until the first event (progression or death). If a patient is alive and progression free at analysis, the patient is censored for progression-free survival.
+L158: Overall survival (OS) is defined to be the time from randomization to death. Patients alive at analysis are censored at their last reported date of survival.
+L159: ## 3.3.1 Results of TWiST(PFS-TOX) Analysis
+L160: Progression-free survival using the independent data was used for the primary TWiST analysis. Progression-free survival refers to the time from randomization to the onset of disease progression or death. Patients that are alive and progression free at analysis are censored at their last tumor assessment date. For the primary analysis, the progression free date determined by the independent reviewer was used which did not include clinical symptomatic progression.
+L161: TWiST (PFS-TOX) comparisons were made between the experimental treatments versus the control (IFN). Assuming a 2-sided significance level of 5%, a significant difference in TWiST was found when comparing patients randomized to IFN versus TEMSR 25mg (p value=0.0005).
+L162: No significant difference in TWiST was found when comparing patients randomized to IFN versus TEMSR 15mg/IFN (p value=0.1288). Patients treated with TEMSR 25mg have a greater time without symptoms and toxicity of approximately 1.81 months (0.15 QALYs) when compared to patients treated with IFN. No adjustments were made for multiple comparisons. Details can be found in table 3.14.
+L163: **Table 3.14 Two Sample TWiST Comparisons between Treatment Arms (Independent Assessment)**
+L164: IFN
+(N=207)	TEMSR 25 mg
+(N=209)	TEMSR 15mg/IFN
+(N=210)
+Mean difference	1.8066	0.7501
+T Statistics	3.49108	1.51871
+p-value	0.0004811	0.1288349
+L165: Per this analysis, TEMSR 25mg is associated with an increase in time without symptoms or toxicity (TWiST) of an estimated 1.8 months (6.50-4.70, 38%) as compared to IFN.
+L166: ## 3.3.2 Results of Q-TWiST Analysis Assuming utwist=1 and utwist=0.689
+L167: In this section, two analyses were conducted pertaining to the utility weight for Q_TWiST. In the first analysis, utwist=1 is assumed (conventional Q-TWiST assumption). In the second analysis, utwist=0.689 as derived from the EuroQOL (EQ-5D) data.
+L168: ## (1) Analyses of Q-TWiST using utwist=1.
+L169: Q-TWiST comparisons were made between the experimental treatments versus the control (IFN) assuming utwist=1. Assuming a 2-sided significance level of 5%, a significant difference in Q-TWiST was found between patients randomized to IFN in comparison to TEMSR 25mg (p-value=0.0005). No significant difference in Q-TWiST was found when comparing patients randomized to IFN versus TEMSR 15mg/IFN (p value=0.2461). Patients randomized to TEMSR 25mg have a greater quality-adjusted time without symptoms and toxicity of approximately 1.86565 months when compared to those patients randomized to IFN. Details of the analysis can be found in table 3.15. No adjustments were made for multiple comparisons.
+L170: **Table 3.15 Two Sample Q-TWiST Comparisons between Treatment Arms vs. Control (IFN) with utwist=1 (Independent Assessment)**
+L171: IFN
+(N=207)	TEMSR 25 mg
+(N=209)	TEMSR 15mg/IFN
+(N=210)
+Mean difference	1.86565	0.62258
+T Statistics	3.48767	1.15998
+p-value	0.0004872	0.2460562
+L172: TEMSR 25mg is associated with an increase in quality adjusted time without symptoms or toxicity (Q-TWiST) of an estimated 1.9 months (9.01-7.15, 26%) as compared to IFN assuming the utility score for TWiST is 1. Sensitivity analyses using the investigator data draw the same conclusions.
+L173: ## (2) Analyses of Q-TWiST using u_{twist}=0.698
+L174: Similar analyses were conducted with u_{twist}=0.689 and derived from the EuroQOL (EQ-5D). Q-TWiST comparisons were made between the experimental treatments versus the control (IFN). Assuming a 2-sided significance level of 5%, a significant difference in Q-TWiST was found when comparing patients randomized to IFN versus TEMSR 25mg (p value=0.0015). No significant difference in Q-TWiST was found when comparing patients randomized to IFN versus TEMSR 15mg/IFN (p value=0.3469). Patients treated with TEMSR 25mg have a greater quality-adjusted time without symptoms and toxicity of approximately 1.3038 months when compared to patients treated with IFN. Results are similar and draw the same conclusions when compared to the analyses where u_{twist}=1. Details of the analysis can be found in table 3.16. No adjustments were made for multiple comparisons.
+L175: **Table 3.16 Two Sample Q-TWiST Comparisons between Treatment Arms Versus Control (IFN) with u_{twist}=0.689 (Independent Assessment)**
+L176: IFN
+(N=207)	TEMSR 25 mg
+(N=209)	TEMSR 15mg/IFN
+(N=210)
+Mean difference	1.30380	0.38928
+T Statistics	3.18394	0.94061
+p-value	0.0014529	0.3469029
+L177: TEMSR 25mg is associated with an increase in quality adjusted time without symptoms or toxicity (Q-TWiST) of an estimated 1.3 months (6.99-5.69, 23%) as compared to IFN assuming the utility score for TWiST is 0.689.
+L178: ## **Reviewer's comments:**
+L179: - Sponsor claimed that the sensitivity analyses for Q-TWiST (PFS-TOX) were done using the investigator data and draws the same conclusions. However, sponsor did not provide the results in this report.
+- After failure of demonstration of improvement of ORR, further testing of secondary endpoints is considered exploratory. There was no specific plan for adjusting type I error
+L180: for all the secondary endpoint evaluated. P-values in tables 3.14-3.16 are not interpretable.
+L181: 3. These analyses in general are based on assumptions and choice for Utwist which are not verifiable. It is also to be noted that this study was an open-label study. These analyses and results can at best be considered as only supportive.
+L182: ## 4. FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L183: ## 4.1 Gender, Race and Age
+L184: Subpopulation analyses of OS by stratification variables and demographic factors were performed for the phase 3 advanced RCC study. The results of subgroup analyses of OS and PFS by gender, sex, and race were consistent with the results in the intent-to-treat (ITT) population. OS in a subset of patients 65 years of age or older treated with temsirolimus 25 mg was shorter than that observed in patients under 65 years of age. The clinical relevance of this subgroup analysis is unclear. No specific dose adjustment is recommended based on age or sex.
+L185: ## 1. Subgroup analysis for gender
+L186: The following subgroup analyses were performed to assess the overall survival for male patients in the ITT population.
+L187: **Table 4.1 Overall Survival of Male Patients in ITT Population**
+L188: IFN
+(n=207)	TEMSR 25mg
+n=209	TEMSR 15mg/IFN
+n=210
+n(%)	148 (71.5)	139 (66.5)	145 (69.0)
+Medina OS in month
+(95% CI)	6.9
+(5.5, 8.3)	11.7
+(8.5, 14.2)	8.8
+(6.2, 11.5)
+Hazard ratio
+(95% CI)	0.70
+(0.53, 0.93)	0.86
+(0.66, 1.13)
+L189: **Table 4.2 Overall Survival of Female Patients in ITT Population**
+L190: IFN
+(n=207)	TEMSR 25mg
+n=209	TEMSR 15mg/IFN
+n=210
+n(%)	59 (28.5)	70 (33.5)	65 (31.0)
+Medina OS in month
+(95% CI)	8.9
+(5.6, 11.2)	9.8
+(7.5, 12.0)	8.2
+(4.7, 10.5)
+Hazard ratio
+(95% CI)	0.90
+(0.60, 1.36)	1.11
+(0.74, 1.67)
+L191: The ITT population included 432 men (69%) and 194 women (31%). There was a favorable treatment effect of temsirolimus on OS compared with IFN in men. Hazard ratios comparing the
+L192: temsirolimus and IFN arms were 0.70 (95% CI, 0.53-0.93) and 0.90 (95% CI, 0.60-1.36) for male and female patients, respectively. There were no consistent trends in the treatment effect of the combination compared with IFN in men and women. Hazard ratios comparing the combination and IFN arms were 0.86 (95% CI, 0.66-1.13) and 1.11 (95% CI, 0.74-1.67) for male and female patients, respectively.
+L193: Based on interaction analyses, there was no evidence for a difference between the relative efficacies of temsirolimus or the combination and IFN with respect to OS in men and women (p-values 0.3153 and 0.3236 for temsirolimus and the combination, respectively).
+L194: ## 2. Subgroup Analysis for Age
+L195: The following table provided the results of subgroup analyses. The analyses were performed to assess the overall survival for patients &lt;65 years in the ITT population.
+L196: **Table 4.5 Overall Survival of Patients &lt; 65 Years in ITT Population**
+L197: IFN
+(n=207)	TEMSR 25mg
+n=209	TEMSR 15mg/IFN
+n=210
+n(%)	142 (68.6)	145(69.4)	153 (72.9)
+Medina OS in month
+(95% CI)	6.9
+(5.0, 8.8)	12.0
+(9.9, 14.5)	8.4
+(6.3, 10.7)
+Hazard ratio
+(95% CI)	0.62
+(0.47, 0.82)	0.84
+(0.64, 1.09)
+L198: The following table provided the results of subgroup analyses. The analyses were performed to assess the overall survival for patients &gt;=65 years in the ITT population.
+L199: **Table 4.6 Overall Survival of Patients &gt;=65 Years in ITT Population**
+L200: IFN
+(n=207)	TEMSR 25mg
+n=209	TEMSR 15mg/IFN
+n=210
+n(%)	65 (31.4)	64(30.6)	57 (27.1)
+Medina OS in month
+(95% CI)	8.3
+(5.7, 11.3)	8.6
+(6.4, 11.5)	8.7
+(4.5, 12.0)
+Hazard ratio
+(95% CI)	1.08
+(0.71, 1.63)	1.12
+(0.73, 1.73)
+L201: Of the 626 patients in the ITT population, 440 (70%) were less than 65 years old and 186 (30%) at least 65 years old. Hazard ratios comparing the temsirolimus and IFN arms were 0.62 (95% CI, 0.47-0.82) and 1.08 (95% CI, 0.71-1.63) for younger and older patients, respectively. Hazard ratios comparing the combination and IFN arms were 0.84 (95% CI, 0.64-1.09) and 1.12 (95% CI, 0.73-1.73) for younger and older patients, respectively.
+L202: The results of testing the interaction of temsirolimus and age with respect to OS may be indicative of differences between the relative efficacies of temsirolimus and IFN with respect to
+L203: OS in older and younger patients (p=0.0223). However, given that numerous subgroup analyses were performed, it is not unexpected to find analyses with nominally significant p-values. There was no evidence for a difference between the relative efficacies of the combination and IFN with respect to OS in older and younger patients (p=0.2487).
+L204: ## 3. Subgroup Analysis for Race
+L205: Analysis by race was not informative because most patients (91%) were white.
+L206: ## 4.2 Other Special/Subgroup Populations
+L207: Table 4.7 provides the analyses results of overall survival by randomization variables: prior nephrectomy and region. Of the 626 patients in the ITT population, 419 (67%) had prior nephrectomy and 207 (33%) did not. Compared with the IFN arm, there were favorable treatment effects of temsirolimus alone on OS in patients with or without prior nephrectomy, and of the combination in the prior nephrectomy group. Hazard ratios comparing the temsirolimus and IFN arms were 0.84 (95% CI, 0.63-1.11) and 0.61 (95% CI, 0.41-0.91) for patients with or without prior nephrectomy, respectively. A test for interaction between treatment and nephrectomy status showed no evidence for a difference between the relative efficacies of temsirolimus and IFN with respect to OS in patients with or without prior nephrectomy (p-value 0.2037) or between the relative efficacies of the combination and IFN with respect to OS in patients with or without prior nephrectomy (p-value=0.3297).
+L208: **Table 4.7 Overall Survival by Randomization Variables in ITT Population**
+L209: Variable	IFN
+(n=207)	TEMSR 25 mg
+(n=209)	TEMSR 15mg/IFN
+(n=210)
+n (%)	Median OS
+in months
+(95% CI)	n (%)	Median OS
+in months
+(95% CI)	Hazard ratio
+(95% CI)	n (%)	Median OS
+in months
+ratio
+(95%CI)	Hazard
+(95% CI)
+Prior nephrectomy	
+No	68 (32.9)	6.2
+(3.8, 8.8)	70 (33.5)	11.5
+(8.5, 14.5)	0.61
+(0.41, 0.91)	69 (32.9)	5.7
+(3.4, 8.8)	1.09
+(0.75,1.59)
+Yes	139 (67.1)	7.8
+(6.2, 10.6)	139 (66.5)	10.4
+(8.2, 13.0)	0.84
+(0.63, 1.11)	141 (67.1)	10.2
+(7.3, 12.2)	0.86
+(0.65,1.14)
+Region	
+Region 1	61 (29.5)	7.0
+(4.4, 10.4)	61 (29.2)	10.4
+(6.9, 13.0)	0.79
+(0.52, 1.21)	62 (29.5)	6.2
+(4.3, 12.2)	0.94
+(0.61,1.44)
+Region 2	43 (20.8)	6.3
+(5.0, 8.8)	44 (21.1)	8.6
+(6.4, 11.5)	0.81
+(0.49, 1.32)	42 (20.0)	5.1
+(2.9, 9.0)	1.34
+(0.83,2.15)
+Region 3	103 (49.8)	7.8
+(5.6, 11.0)	104 (49.8)	12.9
+(8.9, 14.5)	0.70
+(0.51, 0.98)	106 (50.5)	10.3
+(7.5, 13.5)	0.84
+(0.61,1.15)
+L210: Across the regions, the highest number of patients was enrolled in Asia Pacific, Eastern Europe,
+L211: Africa, and South America (Region 3; n=313), followed by the US (Region 1; n=184) and Western Europe, Canada, and Australia (Region 2; n=129). There was a consistent favorable treatment effect of temsirolimus on OS compared with IFN, regardless of region. Hazard ratios comparing the temsirolimus and IFN arms ranged from 0.70 (95% CI, 0.51-0.98) to 0.81 (95% CI, 0.49-1.32). There were no consistent trends in the treatment effect of the combination compared with IFN in the 3 regions. Hazard ratios comparing the combination and IFN arms ranged from 0.84 (95% CI, 0.61-1.15) to 1.34 (95% CI, 0.83-2.15). Based on interaction analyses, there was no evidence for a difference among the relative efficacies of temsirolimus and IFN with respect to OS in patients in each of the 3 geographic regions in the study (p-value 0.8241). There was also no evidence for a difference among the relative efficacies of the combination and IFN with respect to OS in patients in each of the 3 geographic regions (p-value 0.2313).
+L212: Overall, the results of subgroup analyses of OS by stratification variables were consistent with the results in the ITT population.
+L213: ## 5. SUMMARY AND CONCLUSIONS
+L214: ## 5.1 Statistical Issues and Collective Evidence
+L215: There was no overall alpha adjustment for all the analyses of secondary endpoints. Sponsor performed multiple analyses on secondary endpoints, including PFS, Objective Response Rate, Duration of Objective Response, Clinical Benefit Rate, Time to Treatment Failure and Quality-adjusted Time Without Symptoms of disease or Toxicity of treatment (Q-TWiST). Since sponsor failed to demonstrate an improvement of ORR, further testing of any secondary endpoints is considered exploratory.
+L216: ## 5.2 Conclusions and Recommendations
+L217: Efficacy results for the ITT population of all randomized patients are summarized below.
+L218: ## 1. Comparison of single-agent temsirolimus with IFN-\alpha:
+L219: - Single-agent temsirolimus (25 mg IV weekly) led to a statistically significant improvement in OS (HR=0.73; p-value=0.0078) compared with IFN-\alpha in previously untreated patients with advanced RCC. The median OS was longer in the temsirolimus arm (10.9 months) than in the IFN-\alpha arm (7.3 months).
+- Single-agent temsirolimus led to an improvement in PFS compared with IFN-\alpha using either the investigator or independent assessment (HR=0.69, p-value=0.0005 per investigator assessment; HR=0.66, p-value=0.0001 per independent assessment). Based on the investigator assessment, the median PFS increased in the temsirolimus arm (3.8 months) compared with the IFN-\alpha arm (1.9 months). Based on the independent
+L220: assessment, the median PFS increased in the temsirolimus arm (5.5 months) compared with the IFN-\alpha arm (3.1 months).
+L221: ## 2. Comparison of the combination of temsirolimus plus IFN-\alpha with IFN-\alpha alone:
+L222: - The combination of temsirolimus (15 mg IV weekly) plus IFN-\alpha (6 MU 3 times weekly) led to a 15% improvement in OS compared with IFN-\alpha alone. This difference was not statistically significant.
+- The combination of temsirolimus plus IFN-\alpha led to an improvement in PFS compared with IFN-\alpha alone using either the investigator or independent assessment (HR=0.75, p-value=0.0066 per investigator assessment; HR=0.73, p-value=0.004 per independent assessment). Based on the investigator assessment, the median PFS increased by 95% in the combination arm (3.7 months) compared with the IFN-\alpha arm (1.9 months).
+L223: Overall, based on the results of overall survival, the registration study demonstrated that temsirolimus monotherapy is an efficacious treatment in patients with advanced RCC. The difference in survival curves between the temsirolimus 25 mg and IFN-\alpha arms was significant (log-rank p-value=0.0078). However, the combination of temsirolimus with IFN-\alpha did not demonstrate efficacy over IFN-\alpha alone.
+L224: Appears This Way
+On Original
+L225: Appears This Way
+On Original
+L226: ## SIGNATURES/DISTRIBUTION LIST (Optional)
+L227: Primary Statistical Reviewer: Shan Sun-Mitchell, Ph.D
+L228: Date: 5/25/2007
+L229: Concurring Reviewer(s):
+L230: Statistical Team Leader and Acting Division Director: Rajeshwari Sridhara, Ph.D
+L231: cc:
+L232: HFD-150/Carl Huntley, Project Manager
+L233: HFD-150/Virginia E. Kwitkowski, MS, CRNP
+L234: HFD-150/Tatiana Prowell, MD
+L235: HFD-150/Amna Ibrahim, MD
+L236: HFD-150/Robert Justice, MD
+L237: HFD-150/Shan Sun-Mitchell, Ph.D
+L238: HFD-700/Rajeshwari Sridhara, Ph.D
+L239: HFD-700/Aloka Chakravarty
+L240: HFD-700/Dr. O'Neill
+L241: HFD-700/Ms. Patrician
+L242: c:\NDA\statreview.doc
+L243: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L244: /s/
+L245: Shan Sun
+5/25/2007 01:37:29 PM
+BIOMETRICS
+L246: Rajeshwari Sridhara
+5/25/2007 02:08:37 PM
+BIOMETRICS
+concurring also for Dr. Chakravarty, Division Director
+L247: Randomized (n=626)
+Assigned to IFN Arm (n=207)	Assigned to TEMSR Arm (n=209)	Assigned to TEMSR/IFN Arm (n=210)
+Received Treatment (n=200)
+[7 did not start treatment]	Received Treatment (n=208)
+[1 did not start treatment]	Received Treatment (n=208)
+[2 did not start treatment]
+Discontinued Treatment* (n=194)
+[6 remained on treatment]	Discontinued Treatment* (n=199)
+[9 remained on treatment]	Discontinued Treatment* (n=193)
+[15 remained on treatment]
+Entered Long-Term Follow Up (n=182)
+[10 died on treatment;
+1 withdrew consent; 1 lost to F/U]	Entered Long-Term Follow Up (n=193)
+[6 died on treatment]	Entered Long-Term Follow Up (n=176)
+[17 died on treatment]
+In Long-Term Follow Up* (n=40)
+[30 May 2006 total:152 deaths;
+3 withdrew consent; 6 lost to F/U]	In Long-Term Follow Up* (n=49)
+[30 May 2006 total:147 deaths;
+3 withdrew consent; 1 lost to F/U]	In Long-Term Follow Up* (n=36)
+[30 May 2006 total:154 deaths;
+3 withdrew consent; 2 lost to F/U]

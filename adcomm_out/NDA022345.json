@@ -1,0 +1,141 @@
+{
+  "app": "NDA022345",
+  "drug": "POTIGA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "d071f4f4-148b-5f06-a194-e631f8342312"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "eb1c88af-d2f2-5273-8983-edc093159508"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "52543056-81b0-5d07-bdb9-b2a21313d248"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "c31f34ae-4481-516d-afe5-ce14d27dffc6"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Peripheral and Central Nervous System Drugs Advisory Committee (standing committee supplemented with experts in epilepsy and urology)",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "c31f34ae-4481-516d-afe5-ce14d27dffc6",
+      "line": 20,
+      "quote": "On August 11, 2010, a Peripheral and Central Nervous System Drugs Advisory Committee meeting was held to discuss the benefit-risk profile of Potiga."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "c31f34ae-4481-516d-afe5-ce14d27dffc6",
+      "found_lines": [
+        20,
+        102
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "August 11, 2010",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "eb1c88af-d2f2-5273-8983-edc093159508",
+      "line": 136,
+      "quote": "the application was referred to a meeting of the Peripheral and Central Nervous Systems Advisory Committee on August 11, 2010."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "eb1c88af-d2f2-5273-8983-edc093159508",
+      "found_lines": [
+        136
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted unanimously that ezogabine had substantial evidence of effectiveness as adjunctive treatment for adults with partial seizures, and voted 11 yes / 0 no / 2 abstentions that the risk of urinary retention could be mitigated by appropriate patient monitoring (patient education and routine clinical vigilance). It found no other safety issues that would preclude approval, and recommended phase-4 urodynamic studies plus no treatment of children under age 12 until those studies are performed.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "eb1c88af-d2f2-5273-8983-edc093159508",
+      "line": 137,
+      "quote": "The committee voted unanimously that the applicant had provided substantial evidence of effectiveness for ezogabine as adjunctive treatment for adults with partial seizures."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "eb1c88af-d2f2-5273-8983-edc093159508",
+      "found_lines": [
+        137
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee was convened primarily over Potiga's capacity to cause urinary retention, and voted that this risk could be mitigated by appropriate patient monitoring.",
+      "change": "FDA required a REMS for Potiga (Medication Guide and communication plan / Dear Health Care Practitioner letters describing the urinary-retention risk).",
+      "category": "Safety / REMS",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "eb1c88af-d2f2-5273-8983-edc093159508",
+        "line": 136,
+        "quote": "Primarily because of Potiga's capacity to cause urinary retention, the application was referred to a meeting of the Peripheral and Central Nervous Systems Advisory Committee on August 11, 2010.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "eb1c88af-d2f2-5273-8983-edc093159508",
+          "found_lines": [
+            136
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "c31f34ae-4481-516d-afe5-ce14d27dffc6",
+        "line": 20,
+        "quote": "the Agency sent the sponsor a Pre-Approval REMS Notification letter, dated August 16, 2010, as a result of the discussions and recommendations at the advisory committee meeting.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "c31f34ae-4481-516d-afe5-ce14d27dffc6",
+          "found_lines": [
+            20,
+            102
+          ]
+        }
+      }
+    },
+    {
+      "concern": "At the advisory committee meeting there was concern about the lack of understanding of the mechanism underlying the urinary adverse events, and committee members suggested post-marketing urodynamic studies.",
+      "change": "The clinical review team recommended a post-marketing requirement for a urodynamic study (plus a prospective cohort study of patients starting ezogabine vs. other AEDs).",
+      "category": "Safety / Post-marketing requirement",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "eb1c88af-d2f2-5273-8983-edc093159508",
+        "line": 91,
+        "quote": "At the advisory committee meeting, there was some concern regarding the apparent lack of understanding of the mechanism(s) underlying the urinary adverse events, and some committee members suggested post-marketing urodynamic studies to provide mechanistic insight.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "eb1c88af-d2f2-5273-8983-edc093159508",
+          "found_lines": [
+            91
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "eb1c88af-d2f2-5273-8983-edc093159508",
+        "line": 141,
+        "quote": "The clinical review team recommends post-marketing requirements for a urodynamic study and for a prospective cohort study of patients starting on ezogabine as compared to those starting on other AEDs.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "eb1c88af-d2f2-5273-8983-edc093159508",
+          "found_lines": [
+            141
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An advisory committee was convened: the Peripheral and Central Nervous System Drugs Advisory Committee met August 11, 2010 (supplemented with epilepsy and urology experts), primarily because of Potiga's capacity to cause urinary retention. It voted unanimously that ezogabine was effective and voted 11-0-2 that the urinary-retention risk could be managed by patient monitoring; the review documents state that as a result of the committee's discussions and recommendations FDA required a REMS (Medication Guide and communication plan). The committee also suggested phase-4 urodynamic studies, reflected in a post-marketing requirement for a urodynamic study. The verbatim transcript is not in paperclip; these facts come from the review documents' account."
+}

@@ -1,0 +1,112 @@
+{
+  "app": "NDA203971",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False positive: 614 and 307 are present verbatim in the citation 'Subjects randomized614307'."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False positive: 14.0/11.2 and 14.9/11.3 are present in citations 'Median survival (months)a14.011.2' and '...a14.911.3'."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False positive: all AE rates (36,25,19,13) and hematologic abnormality rates (93,72,35,31,18) appear in the cited AE/lab tables."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False positive: the '06' is part of the trial name 'BC1-06', not an efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "614",
+        "text": "N=921 at the updated analysis (Ra-223 614, placebo 307); 809 randomized at the p"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "307",
+        "text": "N=921 at the updated analysis (Ra-223 614, placebo 307); 809 randomized at the p"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "14.0",
+        "text": "Interim analysis: median OS 14.0 vs 11.2 months (HR 0.695, 95% CI 0.552, 0.875; "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "11.2",
+        "text": "Interim analysis: median OS 14.0 vs 11.2 months (HR 0.695, 95% CI 0.552, 0.875; "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "14.9",
+        "text": "Interim analysis: median OS 14.0 vs 11.2 months (HR 0.695, 95% CI 0.552, 0.875; "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "11.3",
+        "text": "Interim analysis: median OS 14.0 vs 11.2 months (HR 0.695, 95% CI 0.552, 0.875; "
+      },
+      {
+        "field": "key_safety",
+        "number": "36",
+        "text": "Most common adverse reactions (>=10%) were nausea (36%), diarrhea (25%), vomitin"
+      },
+      {
+        "field": "key_safety",
+        "number": "25",
+        "text": "Most common adverse reactions (>=10%) were nausea (36%), diarrhea (25%), vomitin"
+      },
+      {
+        "field": "key_safety",
+        "number": "19",
+        "text": "Most common adverse reactions (>=10%) were nausea (36%), diarrhea (25%), vomitin"
+      },
+      {
+        "field": "key_safety",
+        "number": "13",
+        "text": "Most common adverse reactions (>=10%) were nausea (36%), diarrhea (25%), vomitin"
+      },
+      {
+        "field": "key_safety",
+        "number": "93",
+        "text": "Most common adverse reactions (>=10%) were nausea (36%), diarrhea (25%), vomitin"
+      },
+      {
+        "field": "key_safety",
+        "number": "72",
+        "text": "Most common adverse reactions (>=10%) were nausea (36%), diarrhea (25%), vomitin"
+      },
+      {
+        "field": "key_safety",
+        "number": "35",
+        "text": "Most common adverse reactions (>=10%) were nausea (36%), diarrhea (25%), vomitin"
+      },
+      {
+        "field": "key_safety",
+        "number": "31",
+        "text": "Most common adverse reactions (>=10%) were nausea (36%), diarrhea (25%), vomitin"
+      },
+      {
+        "field": "key_safety",
+        "number": "18",
+        "text": "Most common adverse reactions (>=10%) were nausea (36%), diarrhea (25%), vomitin"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "06",
+        "text": "Xofigo received a traditional (full) approval under a priority review based on t"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "app": "NDA209229",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "advisory_committee/vote",
+      "severity": "low",
+      "issue": "Automated flag on '11' is a false positive; the citation quote states 'Eleven out of 12 members voted YES', which supports 11 of 12."
+    },
+    {
+      "field": "first_cycle_approval/detail",
+      "severity": "low",
+      "issue": "Automated flags on '26'/'2017' are false positives; these are the receipt date (Sep 26, 2017) which is a date and supported by receipt_date citation."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "Automated flags on '26'/'2017'/'11' are false positives; '26/2017' is the receipt date and '11' (of 12 AC vote) is supported by the AC citation quote."
+    },
+    {
+      "field": "pivotal_trials[1]/result",
+      "severity": "low",
+      "issue": "Automated flag on '7' (Days 1-7) is a false positive; it refers to the study period/day range, not an efficacy statistic, and is supported by the endpoint citation 'SOWS-Gossop scores from Days 1 to 7'."
+    },
+    {
+      "field": "pivotal_trials[0]/design",
+      "severity": "low",
+      "issue": "The '5 days' treatment duration in design text is not present in either cited quote (design citation states parallel-group study; dose citation states '0.8 mg QID' with no duration)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "7",
+        "text": "SOWS-Gossop Days 1-7 log-scale LS mean difference significant vs placebo for bot"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "7",
+        "text": "SOWS-Gossop Days 1-7 log-scale LS mean difference significant vs placebo for bot"
+      },
+      {
+        "field": "advisory_committee/vote",
+        "number": "11",
+        "text": "Psychopharmacologic Drugs Advisory Committee met March 27, 2018; 11 of 12 member"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "26",
+        "text": "Application received September 26, 2017 and approved effective on the date of th"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2017",
+        "text": "Application received September 26, 2017 and approved effective on the date of th"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "26",
+        "text": "US World Meds submitted NDA 209229 for lofexidine (LUCEMYRA), received September"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2017",
+        "text": "US World Meds submitted NDA 209229 for lofexidine (LUCEMYRA), received September"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "11",
+        "text": "US World Meds submitted NDA 209229 for lofexidine (LUCEMYRA), received September"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

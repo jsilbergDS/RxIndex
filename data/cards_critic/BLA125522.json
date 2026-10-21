@@ -1,0 +1,87 @@
+{
+  "app": "BLA125522",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Flagged numbers 140 and 420 are dosing values (mg), which are excluded from uncited-number checks; false positive."
+    },
+    {
+      "field": "pivotal_trials[1].phase",
+      "severity": "low",
+      "issue": "Flagged number 3 ('Phase 3') is supported by citation lines 126/61 and is a phase label, not an efficacy number; false positive."
+    },
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "Flagged number 12 ('12-week') is supported by the trial-duration citation (line 61); false positive."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "Flagged numbers 140 and 420 are dosing values (mg); false positive."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged number 2015 is a date (approval year); dates are excluded; false positive."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged numbers 27 and 2015 are part of the approval date (27 August 2015); dates are excluded; false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "140",
+        "text": "Evolocumab 140 mg Q2W reduced LDL-C by -54% vs 0% placebo (p<0.0001); 420 mg QM "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "420",
+        "text": "Evolocumab 140 mg Q2W reduced LDL-C by -54% vs 0% placebo (p<0.0001); 420 mg QM "
+      },
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "3",
+        "text": "Phase 3"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "12",
+        "text": "12-week, randomized, double-blind, placebo-controlled trial in HeFH patients on "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "140",
+        "text": "Evolocumab 140 mg Q2W reduced LDL-C by -61% vs -2% placebo (p<0.0001), differenc"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "420",
+        "text": "Evolocumab 140 mg Q2W reduced LDL-C by -61% vs -2% placebo (p<0.0001), differenc"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2015",
+        "text": "BLA 125522 was received 27 August 2014 and approved effective August 27, 2015 (P"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "27",
+        "text": "Standard-review BLA (not Priority) approved first cycle on 27 August 2015 based "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2015",
+        "text": "Standard-review BLA (not Priority) approved first cycle on 27 August 2015 based "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "app": "NDA211155",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited number '07' is a false positive; it is part of the study identifier IPI-145-07 (excluded category)."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited number '06' is a false positive; it is part of the study identifier IPI-145-06 (excluded category)."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG uncited number '3' is a false positive; it derives from 'phase 3' which is supported elsewhere and is not an efficacy/safety statistic."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "07",
+        "text": "Study IPI-145-07 (DUO)"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "06",
+        "text": "Study IPI-145-06 (DYNAMO)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "COPIKTRA (duvelisib) received regular approval for relapsed/refractory CLL or SL"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

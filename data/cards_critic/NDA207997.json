@@ -1,0 +1,41 @@
+{
+  "app": "NDA207997",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "high",
+      "issue": "Population states 'Adults <60 years' but design shows maintenance up to 12 cycles and citation says patients were adults <60; however text says 'median age 47 years' which is supported \u2014 no issue there, but the '<60 years' upper bound conflicts with population range 18-60 in citation which is consistent; retained only as the population claim matches. (dismiss)"
+    },
+    {
+      "field": "pivotal_trials[0].nct.text",
+      "severity": "low",
+      "issue": "NCT field text is the literal string 'null' rather than an actual null/empty value or a real NCT number; the citation provided does not contain any NCT identifier."
+    },
+    {
+      "field": "companion_dx.detail.citations[0]",
+      "severity": "medium",
+      "issue": "The card text drops the word 'retrospectively' from the citation ('verified retrospectively'), overstating the companion diagnostic as prospective selection when the trial used retrospective verification."
+    },
+    {
+      "field": "approval_program.orphan_drug.orphan_indication.text",
+      "severity": "medium",
+      "issue": "Orphan designation citation only supports mastocytosis (4/2010); the added claim 'the application has orphan drug designation' generalizes beyond the mastocytosis-specific grant and the second quote only shows an exemption, not a new grant."
+    },
+    {
+      "field": "approval_program.summary.text",
+      "severity": "medium",
+      "issue": "Summary asserts RYDAPT 'qualified for rolling review' and 'response results in advanced SM' support approval, but the cited quotes only mention rolling review grant and 'full approval'; the SM response-results basis is not supported by any cited efficacy numbers."
+    },
+    {
+      "field": "key_safety.text",
+      "severity": "low",
+      "issue": "Advanced SM common ARs are truncated to 'nausea, vomiting, and diarrhea' while the citation lists many more (edema, musculoskeletal pain, abdominal pain, fatigue, URI, constipation, pyrexia, headache, dyspnea); partial listing understates the safety profile."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "app": "NDA202324",
+  "drug": "INLYTA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_fd37fd1f-412c-5657-85fa-c24003431de7"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_689dde9d-8a74-5fe6-bdd2-a0bfbde180bf"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_5bdf5529-45c5-5d49-9fb7-2a499c0bac92"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_362b1446-3f31-5343-a0e2-ffcfc51b0b9f"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_aa14e2e8-f956-5b49-9326-221210c443d6"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Oncologic Drugs Advisory Committee (ODAC)",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_689dde9d-8a74-5fe6-bdd2-a0bfbde180bf",
+      "line": 205,
+      "quote": "This NDA was presented to and discussed by the FDA Oncology Drugs Advisory Committee on December 7, 2011."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_689dde9d8a74",
+      "found_lines": [
+        205
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "December 7, 2011",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "fda_aa14e2e8-f956-5b49-9326-221210c443d6",
+      "line": 10,
+      "quote": "The Oncologic Drugs Advisory Committee (ODAC) convened December 7, 2011 to consider the application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_aa14e2e8f956",
+      "found_lines": [
+        10
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "Unanimous 13-0 vote (YES: 13, NO: 0, ABSTAIN: 0) that axitinib has a favorable risk:benefit profile in second-line advanced RCC; the application should be approved.",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_362b1446-3f31-5343-a0e2-ffcfc51b0b9f",
+      "line": 648,
+      "quote": "The committee voted unanimously 13-0 that axitinib has a favorable risk: benefit profile in the second-line setting for patients with advanced RCC."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_362b14463f31",
+      "found_lines": [
+        648
+      ]
+    }
+  },
+  "linkages": [],
+  "summary": "The Oncologic Drugs Advisory Committee (ODAC) convened on December 7, 2011 and voted unanimously 13-0 that axitinib (Inlyta) had a favorable benefit:risk profile in second-line advanced RCC, with no abstentions. The committee noted the toxicity profile was different from but manageable compared to other marketed products, and risk management was not discussed at the meeting. The review documents record no advisory-committee concern that drove any change to the approval (no Boxed Warning, REMS, PMRs, or clinical PMCs), so no concern-to-change linkages were extracted."
+}

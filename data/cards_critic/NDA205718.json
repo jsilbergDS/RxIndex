@@ -1,0 +1,68 @@
+{
+  "app": "NDA205718",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "Automated flags for numbers 100/200/300 are false positives; they are netupitant dose values, not uncited efficacy/safety data.",
+      "field_note": "dose exclusion"
+    },
+    {
+      "field": "pivotal_trials[1].endpoint",
+      "severity": "low",
+      "issue": "Automated flag for number '0' is a false positive; it is part of the '0-120 hours' time window, cited in the quote."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "Automated flag for number '300' is a false positive; it is the netupitant 300 mg dose."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Automated flags for '27' and '2013' are false positives; they are components of the receipt date (September 27, 2013)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "100",
+        "text": "Randomized, double-blind, parallel group, dose-ranging (1:1:1:1) multicenter stu"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "200",
+        "text": "Randomized, double-blind, parallel group, dose-ranging (1:1:1:1) multicenter stu"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "300",
+        "text": "Randomized, double-blind, parallel group, dose-ranging (1:1:1:1) multicenter stu"
+      },
+      {
+        "field": "pivotal_trials[1]/endpoint",
+        "number": "0",
+        "text": "Protocol-specified primary endpoint was complete response (no emetic episodes, n"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "300",
+        "text": "CR in overall phase (0-120 hours): netupitant 300 mg 89.6% vs palonosetron alone"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "27",
+        "text": "Application dated and received September 27, 2013; approved effective on the dat"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2013",
+        "text": "Application dated and received September 27, 2013; approved effective on the dat"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "app": "NDA206545",
+  "drug": "ZYDELIG",
+  "docs_read": [
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_10217b3c-e468-5e77-befd-ae7c44a57d46"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_67985cc9-dbd6-52db-b023-ba30c286aa49"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_d348b824-d542-5d74-8b9c-19fd52f17ff7"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_df99bec9-b71d-585e-b211-52b6988842d1"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "None \u2014 no advisory committee convened",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_d348b824-d542-5d74-8b9c-19fd52f17ff7",
+      "line": 443,
+      "quote": "This application was not taken to an Oncologic Drugs Advisory Committee."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_d348b824d542",
+      "found_lines": [
+        443
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "None \u2014 no advisory committee convened",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_10217b3c-e468-5e77-befd-ae7c44a57d46",
+      "line": 106,
+      "quote": "The application for Zydelig was not referred to an FDA advisory committee because the application did not raise significant public health questions on the role of the drug in the diagnosis, cure, mitigation, treatment, or prevention of a disease."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_10217b3ce468",
+      "found_lines": [
+        106
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "None \u2014 no advisory committee vote (application not referred to an AC)",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_67985cc9-dbd6-52db-b023-ba30c286aa49",
+      "line": 55,
+      "quote": "The application for Zydelig was not referred to an FDA advisory committee because the application did not raise significant public health questions."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_67985cc9dbd6",
+      "found_lines": [
+        55
+      ]
+    }
+  },
+  "linkages": [],
+  "no_adcom_quote": {
+    "doc_type": "CrossR",
+    "doc_id": "fda_10217b3c-e468-5e77-befd-ae7c44a57d46",
+    "line": 106,
+    "quote": "The application for Zydelig was not referred to an FDA advisory committee because the application did not raise significant public health questions on the role of the drug in the diagnosis, cure, mitigation, treatment, or prevention of a disease."
+  },
+  "summary": "No FDA advisory committee was convened for the Zydelig (idelalisib) NDA 206545. The Cross-Discipline Team Leader review and the Office Director memo both state the application was not referred to an advisory committee because it did not raise significant public health questions, and the Medical Review confirms it was not taken to the Oncologic Drugs Advisory Committee. Consequently there is no AdComm vote or AdComm-driven change to the approval; safety measures such as the boxed warning and REMS communication plan arose from FDA's own review, not from an advisory committee.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "fda_10217b3ce468",
+    "found_lines": [
+      106
+    ]
+  }
+}

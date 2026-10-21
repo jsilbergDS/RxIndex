@@ -1,0 +1,88 @@
+{
+  "app": "NDA022393",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Flagged denominator '96' is not in the result field's own citations but is supported by the n field citation (N=96); false-positive flag.",
+      "severity_note": "false positive"
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "Flagged denominator '71' is not in the result field's own citations but is supported by the n field citation (N=71); false-positive flag."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Flagged number '1' is the study label 'Study 1', not an efficacy/safety value; false-positive flag."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "Flagged number '2' is the study label 'Study 2', not an efficacy/safety value; false-positive flag."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged numbers '12' and '2009' are part of a date (January 12, 2009); false-positive flags that should be excluded."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "GPI-04-0001 (Study 1), the pivotal single-arm phase II study"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "96",
+        "text": "ORR 34% (CR + PR; 33/96), 95% CI [25, 45]; CR 6% (6/96); PR 28% (27/96); median "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "96",
+        "text": "ORR 34% (CR + PR; 33/96), 95% CI [25, 45]; CR 6% (6/96); PR 28% (27/96); median "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "96",
+        "text": "ORR 34% (CR + PR; 33/96), 95% CI [25, 45]; CR 6% (6/96); PR 28% (27/96); median "
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "NCI 1312 (Study 2), the supportive single-arm phase II study"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "71",
+        "text": "ORR 35% (CR + PR; 25/71), 95% CI [25, 49]; CR 6% (4/71); PR 30% (21/71); median "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "71",
+        "text": "ORR 35% (CR + PR; 25/71), 95% CI [25, 49]; CR 6% (4/71); PR 30% (21/71); median "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "71",
+        "text": "ORR 35% (CR + PR; 25/71), 95% CI [25, 49]; CR 6% (4/71); PR 30% (21/71); median "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "12",
+        "text": "Application received January 12, 2009 and approved; no prior Complete Response L"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2009",
+        "text": "Application received January 12, 2009 and approved; no prior Complete Response L"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

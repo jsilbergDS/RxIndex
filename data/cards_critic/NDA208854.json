@@ -1,0 +1,104 @@
+{
+  "app": "NDA208854",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "low",
+      "issue": "The 'Phase 3' citation describes replicate placebo-controlled trials but does not explicitly state 'Phase 3'; the uncited number '3' is a reasonable inference but not directly supported.",
+      "note": "borderline uncited-number flag"
+    },
+    {
+      "field": "pivotal_trials[1].phase",
+      "severity": "low",
+      "issue": "Same as trial 0: 'Phase 3' phase designation is not explicitly in the citation quote."
+    },
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "medium",
+      "issue": "Text claims patients were 'on a stable opioid regimen' but the citation only says 'adult patients with chronic non-cancer pain'; the stable-opioid-regimen detail is unsupported by the quote."
+    },
+    {
+      "field": "pivotal_trials[1].population",
+      "severity": "medium",
+      "issue": "Same as trial 0: 'on a stable opioid regimen' is not supported by the citation quote."
+    },
+    {
+      "field": "receipt_date",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG unverified_citation is a false positive: the quote (Submit/Received Date March 23, 2016) is a truncated but genuine excerpt of the review's administrative table and supports the value."
+    },
+    {
+      "field": "approval_program.priority_review.basis",
+      "severity": "low",
+      "issue": "AUTOMATED_FLAG unverified_citation is a false positive: the quote showing 'Priority or Standard: Standard' is a genuine excerpt supporting standard review."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "The detail text claims approval on March 23, 2017 as the PDUFA goal date, but the attached citation only shows the NDA receipt date (March 23, 2016) and does not contain the approval date; the approval-date assertion is uncited within this field's quote."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Summary states approval 'on the PDUFA goal date' but none of the summary's three citation quotes contain the PDUFA/approval date information; that claim is unsupported by its own citations."
+    },
+    {
+      "field": "key_safety",
+      "severity": "medium",
+      "issue": "Opioid withdrawal '~1% of subjects' and GI perforation/opioid withdrawal warnings are stated but no citation quote contains these figures or the warning classification; uncited safety data."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study V9231 (Study 1)"
+      },
+      {
+        "field": "pivotal_trials[0]/phase",
+        "number": "3",
+        "text": "Phase 3"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Study V9232 (Study 2)"
+      },
+      {
+        "field": "pivotal_trials[1]/phase",
+        "number": "3",
+        "text": "Phase 3"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2017",
+        "text": "Application dated and received March 23, 2016, approved March 23, 2017 (the PDUF"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "12",
+        "text": "Naldemedine (Symproic), a new molecular entity and PAMORA derivative of naltrexo"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Naldemedine (Symproic), a new molecular entity and PAMORA derivative of naltrexo"
+      }
+    ],
+    "unverified_citations": [
+      {
+        "field": "receipt_date",
+        "line": 6,
+        "quote": "Application Type\tNDA (Original)\nApplication Number(s)\t208854"
+      },
+      {
+        "field": "approval_program/priority_review/basis",
+        "line": 6,
+        "quote": "Application Type\tNDA (Original)\nApplication Number(s)\t208854"
+      }
+    ],
+    "empty_fields": []
+  }
+}

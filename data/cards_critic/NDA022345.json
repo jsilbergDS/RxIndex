@@ -1,0 +1,87 @@
+{
+  "app": "NDA022345",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "uncited_numbers '200' (x2) are from the dose '1,200 mg/day' and should be excluded as doses \u2014 false positive."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "uncited number '2' comes from the label study naming 'Studies 1, 2, and 3' and is cosmetic, not an efficacy/safety value \u2014 false positive."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "uncited numbers '1' and '4' come from 'Class 1' and date '4/15/11' and are not efficacy/safety values \u2014 false positives."
+    },
+    {
+      "field": "receipt_date",
+      "severity": "low",
+      "issue": "uncited numbers '10'/'09' are components of the date 10/30/09, which is cited and excluded by rule \u2014 false positive."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "uncited numbers '505', '09', '1' derive from statute '505(b)', date, and 'Class 1', none of which are efficacy/safety values \u2014 false positives."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "2",
+        "text": "Three multicenter, randomized, double-blind, placebo-controlled studies (referre"
+      },
+      {
+        "field": "key_safety",
+        "number": "200",
+        "text": "Most common adverse reactions (vs placebo) were dose-related CNS/psychiatric eff"
+      },
+      {
+        "field": "key_safety",
+        "number": "200",
+        "text": "Most common adverse reactions (vs placebo) were dose-related CNS/psychiatric eff"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "1",
+        "text": "Not a first-cycle approval; FDA issued a Complete Response letter on 11/30/10, a"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "4",
+        "text": "Not a first-cycle approval; FDA issued a Complete Response letter on 11/30/10, a"
+      },
+      {
+        "field": "receipt_date",
+        "number": "10",
+        "text": "10/30/09 (original NDA received October 30, 2009)"
+      },
+      {
+        "field": "receipt_date",
+        "number": "09",
+        "text": "10/30/09 (original NDA received October 30, 2009)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "Standard NDA 505(b) review. The original NDA (received 10/30/09) received a Comp"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "09",
+        "text": "Standard NDA 505(b) review. The original NDA (received 10/30/09) received a Comp"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "Standard NDA 505(b) review. The original NDA (received 10/30/09) received a Comp"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

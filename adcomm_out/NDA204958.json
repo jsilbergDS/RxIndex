@@ -1,0 +1,103 @@
+{
+  "app": "NDA204958",
+  "drug": "KENGREAL",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_b4e1bc44-2a39-5429-932a-5533caa0f131"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_ff5ebbab-3ab7-5e42-9603-e5277e34e5e2"
+    },
+    {
+      "doc_type": "Lbl",
+      "doc_id": "fda_16f35e56-6979-5a8e-bfd2-be97e2eb36d1"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Cardiovascular and Renal Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_ff5ebbab-3ab7-5e42-9603-e5277e34e5e2",
+      "line": 25,
+      "quote": "The Cardiovascular and Renal Drugs Advisory Committee met on April 15, 2015 voting 9-2 that cangrelor should be approved"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_ff5ebbab3ab7",
+      "found_lines": [
+        25
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "April 15, 2015 (the application's second AC discussion)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_b4e1bc44-2a39-5429-932a-5533caa0f131",
+      "line": 71,
+      "quote": "This application was discussed for a second time by the Cardiovascular and Renal Advisory Committee on April 15 2015"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_b4e1bc442a39",
+      "found_lines": [
+        71
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "Committee voted 9-2 with one abstention in favor of approval",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_b4e1bc44-2a39-5429-932a-5533caa0f131",
+      "line": 71,
+      "quote": "The Committee voted 9-2 with one abstention for approval"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_b4e1bc442a39",
+      "found_lines": [
+        71
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The Advisory Committee (and some reviewers) raised concerns that components of the PHOENIX primary composite endpoint \u2014 intra-procedural stent thrombosis (IPST) and small peri-procedural MIs detected only by modest biomarker elevations \u2014 may not represent clinically meaningful benefits.",
+      "change": "FDA (Deputy Office Director) decided to include in Section 14 (Clinical Studies) of the KENGREAL label a supplementary/sensitivity analysis excluding IPST and small MIs (Death/SCAI-MI/IDR/ARC-ST, OR 0.69), over the CDTL's recommendation to leave it out.",
+      "category": "Labeling / Clinical studies (primary endpoint presentation)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_ff5ebbab-3ab7-5e42-9603-e5277e34e5e2",
+        "line": 39,
+        "quote": "Rather it is a response to significant concerns expressed by the Advisory Committee as well as some reviewers about components of the primary endpoint",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_ff5ebbab3ab7",
+          "found_lines": [
+            39
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_ff5ebbab-3ab7-5e42-9603-e5277e34e5e2",
+        "line": 39,
+        "quote": "Dr. Grant urged that this analysis, although it supported the primary analysis, not be included in Section 14 (Clinical Studies) of labeling.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_ff5ebbab3ab7",
+          "found_lines": [
+            39
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Cardiovascular and Renal Drugs Advisory Committee met on April 15, 2015 (the second AC discussion of this NDA) and voted 9-2 with one abstention in favor of approving cangrelor (KENGREAL). AC members who opposed approval questioned the single-trial evidence and the clinical meaningfulness of primary-endpoint components (IPST and small biomarker-only MIs); the review team judged these concerns non-determinative. In direct response to the AC's concern about the primary endpoint, the Deputy Office Director overrode the CDTL and included a supplementary sensitivity analysis excluding IPST and small MIs in Section 14 of the approved label, which appears there as Table 3."
+}

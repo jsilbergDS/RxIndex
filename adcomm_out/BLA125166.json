@@ -1,0 +1,93 @@
+{
+  "app": "BLA125166",
+  "drug": "SOLIRIS",
+  "docs_read": [
+    {
+      "doc_type": "MedR",
+      "doc_id": "fee4b8bb-eaae-594d-b200-33398ad31e11"
+    },
+    {
+      "doc_type": "AdminCorres",
+      "doc_id": "fc6d1e56-cc97-5b90-b2a0-a895b6475d2c"
+    },
+    {
+      "doc_type": "ClinPharmR",
+      "doc_id": "17642fb4-0e6d-5db1-84e0-007953d00784"
+    },
+    {
+      "doc_type": "StatR",
+      "doc_id": "7a46dd7d-3987-5201-ac88-5b0a8744d12d"
+    },
+    {
+      "doc_type": "APPROV",
+      "doc_id": "b20544bc-48e5-56cb-9ae8-9d252f3a1b9e"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "None convened",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fee4b8bb-eaae-594d-b200-33398ad31e11",
+      "line": 23,
+      "quote": "Advisory Committee:None"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fee4b8bb-eaae-594d-b200-33398ad31e11",
+      "found_lines": [
+        23,
+        24
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "None (no meeting held)",
+    "quote": {
+      "doc_type": "AdminCorres",
+      "doc_id": "fc6d1e56-cc97-5b90-b2a0-a895b6475d2c",
+      "line": 878,
+      "quote": "Date: TBD"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fc6d1e56-cc97-5b90-b2a0-a895b6475d2c",
+      "found_lines": [
+        878
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "No advisory committee recommendation; the review division determined an AC discussion was not needed",
+    "quote": {
+      "doc_type": "AdminCorres",
+      "doc_id": "fc6d1e56-cc97-5b90-b2a0-a895b6475d2c",
+      "line": 774,
+      "quote": "No, from a Clin Pharm standpoint"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fc6d1e56-cc97-5b90-b2a0-a895b6475d2c",
+      "found_lines": [
+        772,
+        774
+      ]
+    }
+  },
+  "linkages": [],
+  "no_adcom_quote": {
+    "doc_type": "MedR",
+    "doc_id": "fee4b8bb-eaae-594d-b200-33398ad31e11",
+    "line": 34,
+    "quote": "The submitted safety and efficacy data did not present unique challenges in data review or interpretation and the findings were regarded as sufficiently persuasive to preclude the need for a discussion at an Advisory Committee."
+  },
+  "summary": "No advisory committee meeting was convened for the original BLA125166 (Soliris/eculizumab for PNH) approval. The Medical Review lists 'Advisory Committee: None' and states that the safety and efficacy data were sufficiently persuasive to preclude the need for an AC discussion; the Administrative Correspondence likewise records the AC date as TBD and documents the division's determination that no AC was needed. Because no committee met, there are no AC-driven linkages to any changes in the approval.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "fee4b8bb-eaae-594d-b200-33398ad31e11",
+    "found_lines": [
+      34
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "app": "NDA202292",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 333)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"NDA202292\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].trial_name\",\n      \"severity\": \"medium\",\n      \"issue\": \"The alternate study ID 'NP-303-01' is not supported by the citation, which only shows 'Stud",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "01",
+        "text": "ADVENT (Study NP303-101 / NP-303-01)"
+      },
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "2",
+        "text": "Randomized, double-blind, placebo-controlled (four weeks) and placebo-free (twen"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "125",
+        "text": "A significantly larger proportion of patients in the crofelemer 125 mg bid group"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "31",
+        "text": "Approved December 31, 2012 following priority review; no prior Complete Response"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2012",
+        "text": "Approved December 31, 2012 following priority review; no prior Complete Response"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "101",
+        "text": "Fulyzaq (crofelemer), an oral botanical drug substance, received a priority NDA "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

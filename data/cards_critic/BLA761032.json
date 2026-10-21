@@ -1,0 +1,142 @@
+{
+  "app": "BLA761032",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "_meta.uncited_numbers",
+      "severity": "low",
+      "issue": "All uncited_numbers flags are false positives: they are study/trial identifiers (02, 03, 04, AMAGINE-2), doses (210 mg, 140 mg), the Week 12 timepoint, receipt date components (16, 2015), the BLA number (761032), and AdComm date components (19, 2016) \u2014 all excluded categories; efficacy/safety percentages are all cited."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "02",
+        "text": "AMAGINE-1 (Study 20120102 / Trial 02)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "210",
+        "text": "N=222 brodalumab 210 mg, N=219 brodalumab 140 mg, N=220 placebo"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "140",
+        "text": "N=222 brodalumab 210 mg, N=219 brodalumab 140 mg, N=220 placebo"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "02",
+        "text": "Trial 02 Week 12 brodalumab 210 mg vs placebo: PASI 75 83% vs 3%; sPGA 0 or 1 76"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "12",
+        "text": "Trial 02 Week 12 brodalumab 210 mg vs placebo: PASI 75 83% vs 3%; sPGA 0 or 1 76"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "210",
+        "text": "Trial 02 Week 12 brodalumab 210 mg vs placebo: PASI 75 83% vs 3%; sPGA 0 or 1 76"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "03",
+        "text": "Study 20120103 / Trial 03 (AMAGINE-2)"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Study 20120103 / Trial 03 (AMAGINE-2)"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "210",
+        "text": "N=612 brodalumab 210 mg, N=610 brodalumab 140 mg, N=309 placebo, N=300 ustekinum"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "140",
+        "text": "N=612 brodalumab 210 mg, N=610 brodalumab 140 mg, N=309 placebo, N=300 ustekinum"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "03",
+        "text": "Trial 03 Week 12 brodalumab 210 mg vs placebo vs ustekinumab: PASI 75 86% vs 8% "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "12",
+        "text": "Trial 03 Week 12 brodalumab 210 mg vs placebo vs ustekinumab: PASI 75 86% vs 8% "
+      },
+      {
+        "field": "pivotal_trials[2]/trial_name",
+        "number": "04",
+        "text": "Study 20120104 / Trial 04 (AMAGINE-3)"
+      },
+      {
+        "field": "pivotal_trials[2]/n",
+        "number": "210",
+        "text": "N=624 brodalumab 210 mg, N=629 brodalumab 140 mg, N=315 placebo, N=313 ustekinum"
+      },
+      {
+        "field": "pivotal_trials[2]/n",
+        "number": "140",
+        "text": "N=624 brodalumab 210 mg, N=629 brodalumab 140 mg, N=315 placebo, N=313 ustekinum"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "04",
+        "text": "Trial 04 Week 12 brodalumab 210 mg vs placebo vs ustekinumab: PASI 75 85% vs 6% "
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "12",
+        "text": "Trial 04 Week 12 brodalumab 210 mg vs placebo vs ustekinumab: PASI 75 85% vs 6% "
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "210",
+        "text": "Trial 04 Week 12 brodalumab 210 mg vs placebo vs ustekinumab: PASI 75 85% vs 6% "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "16",
+        "text": "The application (received November 16, 2015) was approved on this review cycle f"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2015",
+        "text": "The application (received November 16, 2015) was approved on this review cycle f"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "761032",
+        "text": "BLA 761032 for Siliq (brodalumab) was received November 16, 2015 and reviewed un"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "16",
+        "text": "BLA 761032 for Siliq (brodalumab) was received November 16, 2015 and reviewed un"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2015",
+        "text": "BLA 761032 for Siliq (brodalumab) was received November 16, 2015 and reviewed un"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "19",
+        "text": "BLA 761032 for Siliq (brodalumab) was received November 16, 2015 and reviewed un"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2016",
+        "text": "BLA 761032 for Siliq (brodalumab) was received November 16, 2015 and reviewed un"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

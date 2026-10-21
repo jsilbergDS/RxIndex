@@ -1,0 +1,344 @@
+L0: ## **CENTER FOR DRUG EVALUATION AND
+## RESEARCH**
+L1: *APPLICATION NUMBER:*
+L2: **208082Orig1s000**
+L3: **STATISTICAL REVIEW(S)**
+L4: FDA Seal for Drug Evaluation and Research
+L5: U.S. Department of Health and Human Services
+Food and Drug Administration
+Center for Drug Evaluation and Research
+Office of Translational Sciences
+Office of Biostatistics
+L6: ## STATISTICAL REVIEW AND EVALUATIONCLINICAL STUDIES
+L7: **NDA Number:** 208,082
+
+**Drug Name:** Austedo (deutetrabenazine) (b) (4) Tablet
+
+**Indication:** Treatment of Chorea Associated with Huntington's Disease
+
+**Applicant:** Teva Pharmaceuticals, Inc.
+
+**Dates:**
+Receipt Date: May 29, 2015
+PDUFA Goal Date: May 29, 2016
+
+**Review Priority:** Standard
+
+**Biometrics Division:** Division of Biometrics I
+
+**Statistical Reviewer:** Xiangmin Zhang, Ph.D.
+
+**Concurring Reviewers:** Kun Jin, Ph.D., Team Leader
+Hsien Ming Hung, Ph.D., Director
+
+**Medical Division:** Division of Neurology Products
+
+**Clinical Team:** Kenneth Bergmann, M.D., Clinical Reviewer
+Gerald Podskalny, D.O., Team Leader
+Eric Bastings, M.D., Deputy Director
+William Dunn, M.D., Director
+
+**Project Manager:** Stacy Metz, Pharm.D.
+
+**Keywords:** analysis of covariance, clinical studies, mixed models, NDA review
+L8: ## TABLE OF CONTENTS
+L9: TABLE OF CONTENTS	2
+LIST OF TABLES	3
+LIST OF FIGURES	4
+1 EXECUTIVE SUMMARY	5
+2 INTRODUCTION	5
+2.1 OVERVIEW	5
+2.2 DATA SOURCES	5
+3 STATISTICAL EVALUATION	6
+3.1 DATA AND ANALYSIS QUALITY	6
+3.2 EVALUATION OF EFFICACY	6
+3.2.1 Study Design and Endpoints	6
+3.2.2 Statistical Methodologies	7
+3.2.3 Patient Disposition, Demographic and Baseline Characteristics	8
+3.2.4 Results and Conclusions	10
+3.3 EVALUATION OF SAFETY	14
+4 FINDINGS IN SPECIAL/SUBGROUP POPULATIONS	14
+4.1 GENDER, RACE, AGE, AND GEOGRAPHIC REGION	14
+4.2 OTHER SPECIAL/SUBGROUP POPULATIONS	17
+5 SUMMARY AND CONCLUSIONS	17
+5.1 STATISTICAL ISSUES	17
+5.2 COLLECTIVE EVIDENCE	17
+5.3 CONCLUSIONS AND RECOMMENDATIONS	17
+L10: ## LIST OF TABLES
+L11: Table 1. Summary of the efficacy study reviewed	5
+Table 2. Dose levels and tablet numbers by dose for SD-809 treatment	6
+Table 3. Study SD-809-C-15 patient demographic and baseline characteristics, ITT population	9
+Table 4. Study SD-809-C-15 analyses of efficacy endpoints, mITT population	13
+Table 5. Study SD-809-C-15 analysis of primary endpoint by gender, mITT population	14
+Table 6. Study SD-809-C-15 analyses of secondary endpoints by gender, mITT population	15
+Table 7. Study SD-809-C-15 analysis of primary endpoint by age, mITT population	16
+Table 8. Study SD-809-C-15 analyses of secondary endpoints by age, mITT population	16
+L12: ## LIST OF FIGURES
+L13: Figure 1. Study SD-809-C-15 patient disposition	8
+Figure 2. Study SD-809-C-15 mean (\pm standard error) of total maximal chorea score by week and treatment	10
+Figure 3. Study SD-809-C-15 mean (\pm standard error) of change from Baseline in total maximal chorea score by week and treatment	11
+Figure 4. Distribution of Patient Global Impression of Change at Week 12	12
+Figure 5. Distribution of Clinical Global Impression of Change at Week 12	12
+L14: ## 1 EXECUTIVE SUMMARY
+L15: This review describes the statistical findings of Austedo as a treatment of chorea associated with Huntington's disease. The review confirmed that Study SD-809-C-15 in the 505(b)(2) new drug application provided efficacy evidence that Austedo is efficacious as a treatment of chorea associated with Huntington's disease: Austedo (b) (4) tablet is statistically better than placebo in terms of change from Baseline to maintenance in total maximal chorea score.
+L16: ## 2 INTRODUCTION
+L17: ## 2.1 Overview
+L18: On May 29, 2015, Teva Pharmaceuticals, Inc. (the sponsor) submitted a 505(b)(2) new drug application (NDA) for Austedo (deutetrabenazine or SD-809 under the sponsor's clinical development program) as a treatment of chorea associated with Huntington's disease (HD). The NDA submission lists FDA approved drug Xenazine® (NDA 021,894) as the 505(b)(2) reference. The phase 3 study in the NDA application to support the efficacy claim of SD-809 is summarized in Table 1. The phase 3 study is reviewed in more details in section 3 of this review.
+L19: **Table 1. Summary of the efficacy study reviewed**
+L20: Study Number	Design	Subject Population	Subject Characteristics	Treatment	Subjects Exposed to SD-809	Study Status
+Phase 3 Study -- Randomized, Double-Blind, Placebo-Controlled, Efficacy and Safety (SD-809 Tablets)
+SD-809-C-15 (First-HD)	Randomized, double-blind, placebo-controlled, parallel-group study to evaluate the efficacy, safety, and tolerability of SD-809	Adult subjects with manifest HD and chorea	Age range 23-74 years
+56% male	SD-809 or placebo 6 to 48 mg/day, administered BID, titrated based on chorea control and tolerability	45 subjects	Complete
+L21: Source: Table 1 on page 11 of sponsor's clinical overview
+L22: ## 2.2 Data Sources
+L23: The electronic submission of this NDA is located at
+L24: \\cdsesub1\evsprod\NDA208082\
+L25: The study report is located at
+L26: \\cdsesub1\evsprod\NDA208082\0003\m5\53-clin-stud-rep\535-rep-effic-safety-stud\chorea\5351-stud-rep-contr\
+L27: The datasets are located at
+L28: \\cdsesub1\evsprod\NDA208082\0003\m5\datasets\
+L29: ## 3 STATISTICAL EVALUATION
+L30: ## 3.1 Data and Analysis Quality
+L31: The data quality and analysis quality are adequate. The reviewer was able to perform independent review using sponsor's submitted datasets and confirm sponsors' analysis results.
+L32: ## 3.2 Evaluation of Efficacy
+L33: ## 3.2.1 Study Design and Endpoints
+L34: Study SD-809-C-15 was a double-blind, placebo-controlled, randomized, 2-arm, parallel-group, phase 3, multi-national, multi-center study to evaluate the efficacy, safety and tolerability of SD-809 as a treatment of chorea associated with Huntington's disease. A total of 90 patients were planned to be randomized in a 1:1 ratio to placebo and SD-809. Patients were screened in 34 study centers in the United States and Canada.
+L35: The study consisted of a screening period of up to 4 weeks, an 8-week titration period, a 4-week maintenance period, and a 1-week washout. The overall treatment period was 12 weeks.
+L36: **Table 2. Dose levels and tablet numbers by dose for SD-809 treatment**
+L37: Dose Level	Total Daily Dose	Morning Dose	Evening Dose
+1	6 mg	6 mg	Placebo
+Tablets	1 x 6 mg	1 x Placebo tablet
+2	12 mg	6 mg	6 mg
+Tablets	1 x 6 mg	1 x 6 mg
+3	18 mg	9 mg	9 mg
+Tablets	1 x 9 mg	1 x 9 mg
+4	24 mg	12 mg	12 mg
+Tablets	1 x 12 mg	1 x 12 mg
+5	30 mg	15 mg	15 mg
+Tablets	1 x 9 mg and 1 x 6 mg	1 x 9 mg and 1 x 6 mg
+6	36 mg	18 mg	18 mg
+Tablets	2 x 9 mg	2 x 9 mg
+7	42 mg	21 mg	21 mg
+Tablets	1 x 12 mg and 1 x 9 mg	1 x 12 mg and 1 x 9 mg
+8	48 mg	24 mg	24 mg
+Tablets	2 x 12 mg	2 x 12 mg
+L38: Note: SD-809(b) Dose strengths include 6, 9, and 12 mg tablets.
+L39: Source: Table 2 on page 32 of protocol amendment 2
+L40: The treatment regimen is summarized in Table 2. For each patient assigned the SD-809 treatment, his/her study mediation started from 6 mg per day and followed the dose level in which adequate chorea control had been achieved and the patient was tolerating the treatment regimen or until which the maximum permitted dose was reached. If the patient was receiving a strong CYP2D6 inhibitor, such as bupropion, fluoxetine, and paroxetine, the maximal total daily dose was 36 mg.
+L41: The primary efficacy endpoint was change from Baseline to maintenance in total maximal chorea (TMC) score. The TMC score is the sum of seven items under the Unified Huntington's Disease Scale (1999 version). Each of the seven items measures the maximal chorea of a body part and ranges from 0 to 4, with 0 representing absent chorea and 4 representing marked/prolonged chorea. The range of the TMC score is 0 to 28. The Baseline TMC score was defined as the mean of the TMC scores at the Screening and at Day 0 visit and the maintenance TMC score was defined as the mean of the TMC scores at Week 9 and at Week 12. For the calculation of TMC score at each visit, when less than 20% of the items for the TMC score were missing, the most recent previous non-missing values of the missing items were used for imputation; otherwise, the TMC score of that visit was considered missing. When a patient missed a TMC score at the Screening or Day 0 visit, the Baseline TMC score was the available TMC score. When a patient missed a TMC score at either Week 9 or Week 12, the maintenance TMC score was the available TMC score. When a patient missed both TMC scores at Week 9 and at Week 12, the maintenance TMC score was the last available post-baseline TMC score.
+L42: The secondary efficacy endpoints were
+L43: - The proportion of patients who were a treatment success at the end of therapy, based on the Patient Global Impression of Change (PGIC). A treatment success was defined as Much Improved or Very Much Improved on the PGIC at the Week 12 visit.
+- The proportion of patients who were a treatment success at the end of therapy, based on the Clinical Global Impression of Change (CGIC). A treatment success was defined as Much Improved or Very Much Improved on the CGIC at the Week 12 visit.
+- Change from Baseline (Day 0) to Week 12 in the Short From 36 Health Survey (SF-36) Physical Functioning score
+- Change from Baseline (Day 0) to Week 12 in the Berg Balance Test (BBT) score.
+L44: ## 3.2.2 Statistical Methodologies
+L45: The primary analysis was performed on the modified intent-to-treat (mITT) population using an analysis of covariance (ANCOVA) model with treatment as a factor and Baseline TMC as the covariate. The mITT population was defined as all randomized patients who received treatment and had at least one post-baseline assessment of the TMC score.
+L46: The secondary endpoints of PGIC and CGIC were analyzed on the mITT population using Pearson's chi-square test. The secondary endpoints of SF-36 Physical Functioning score and BBT score were analyzed on the mITT population using ANCOVA models with treatment as a factor and endpoint specific baseline as the covariate.
+L47: In order to handle the multiplicity of secondary endpoints, the secondary endpoints were to be tested sequentially in the following order: PGIC, CGIC, SF-36 Physical Functioning score, and BBT score. Each test was conducted at the two-sided significance level \alpha = 0.05.
+L48: ## 3.2.3 Patient Disposition, Demographic and Baseline Characteristics
+L49: Figure 1. Study SD-809-C-15 patient disposition
+L50: Source: Figure 1 on page 56 of sponsor's clinical study report
+L51: The patient disposition is presented in Figure 1. A total of 123 patients were screened, of which 90 (73.2%) randomized. Among the 90 randomized patients, 45 (50.0%) were randomized to the placebo group and 45 (50.0%) to the SD-809 group. A total of 87 patients completed the study: 43 in the placebo group and 44 in the SD-809 group. One patient in the placebo group and one patient in the SD-809 group dropped out due to adverse event. One patient in the placebo group dropped out due to physician decision.
+L52: **Table 3. Study SD-809-C-15 patient demographic and baseline characteristics, ITT population**
+L53: Parameter	SD-809
+(N=45)	Placebo
+(N=45)	Total
+(N=90)
+Mean (SD) Agea, years	55.4 (10.32)	52.1 (13.36)	53.7 (11.98)
+Minimum, Maximum	23, 74	30, 73	23, 74
+Gender, n (%)	
+Male	22 (48.9)	28 (62.2)	50 (55.6)
+Female	23 (51.1)	17 (37.8)	40 (44.4)
+Race, n (%)	
+Black	0	5 (11.1)	5 (5.6)
+White	45 (100)	38 (84.4)	83 (92.2)
+Multiple	0	2 (4.4)	2 (2.2)
+Ethnicity, n (%)	
+Hispanic or Latino	0	0	0
+Not Hispanic or Latino	45 (100)	45 (100)	90 (100)
+Mean (SD) Weight at Screening, kg	74.13 (13.618)	74.11 (15.129)	74.12 (14.312)
+Minimum, Maximum	47.2, 99.5	44.9, 100.4	44.9, 100.4
+Mean (SD) BMI at Screening, kg/m2	25.44 (4.282)	25.96 (4.584)	25.70 (4.418)
+Minimum, Maximum	17.1, 35.3	15.8, 35.4	15.8, 35.4
+Mean (SD) CAG Repeat Length	43.4 (2.69)	44.3 (4.41)	43.9 (3.66)
+Minimum, Maximum	40, 53	36, 59	36, 59
+CYP2D6 Genotype, n (%)	
+Poor Metabolizer	3 (7.1)	2 (4.5)	5 (5.8)
+Not Poor Metabolizerb	39 (92.9)	42 (95.5)	81 (94.2)
+Missing	3	1	4
+Mean (SD) Total Maximal Chorea Score at Baselinec	12.07 (2.727)	13.24 (3.488)	12.66 (3.169)
+Minimum, Maximum	8.0, 19.5	8.5, 21.5	8.0, 21.5
+Using Antidepressant at Baseline, n (%)	28 (62.2)	24 (53.3)	52 (57.7)
+L54: Source: Tables 14.1.3.1 and 14.3.19.3 and Listings 16.2.4.9.1 and 16.2.4.11
+L55: Abbreviations: BMI, body mass index; CAG, cytosine adenine guanine; CYP2D6, cytochrome P450 2D6; SD, standard deviation.
+L56: a Age = (Date of informed consent - Date of birth)/365.25 rounded down to the nearest integer.
+L57: b Includes subjects who are intermediate, extensive, and ultra-rapid CYP2D6 metabolizers.
+L58: c The Total Maximal Chorea score is determined from Item 12 of the Unified Huntington's Disease Rating Scale.
+L59: Source: Tables 8 on page 60 of sponsor's clinical study report
+L60: The patient demographic characteristics of the intent-to-treat (ITT) population, defined as all patients randomized and treated, are summarized in **Table 3**. The ITT population of Study SD-809-C15 happened to be the same as the mITT population. The treatment groups did not appear similar in terms of age, gender, race, or mean TMC score at Baseline. The ITT population was mainly White patients and had an average age of approximately 54 years. There were noticeably more males than females in the placebo group but more females than males in the SD-809 group. A chi-squared test performed independently by the reviewer did not imply that the gender and treatment group assignment are dependent.
+L61: ## 3.2.4 Results and Conclusions
+L62: Figure 2. Study SD-809-C-15 mean (\pm standard error) of total maximal chorea score by week and treatment
+L63: Source: Table 14.2.8.2 and Listing 16.2.6.1.1.
+L64: Abbreviations: SEM, standard error of the mean; TMC, Total Maximal Chorea score.
+L65: Notes: TMC is determined from Item 12 of the Unified Huntington's Disease Rating Scale. The Baseline value (defined as the mean of the values from the Screening and Day 0 visits) is graphed for Week 0. Maintenance endpoint is the mean of values of the Week 9 and Week 12 visits. Higher scores indicate more chorea. TMC score \ge 8 was an inclusion criterion.
+L66: Source: Figure 3 on page 75 of sponsor's clinical study report
+L67: Figure 2 illustrates the means of TMC score by week and treatment for the ITT population (or equivalently, the mITT population). The means of TMC score at Baseline did not appear similar for the two treatment groups. There appeared some placebo effect because the means of TMC score of the placebo group decreased from Baseline during the treatment period. After the washout period, the mean TMC scores at Week 13 of both treatment groups appeared to return to the Baseline levels.
+L68: Figure 3. Study SD-809-C-15 mean (\pm standard error) of change from Baseline in total maximal chorea score by week and treatment
+L69: Source: reviewer
+L70: Figure 3 illustrates the means of change from Baseline in TMC score by week and treatment for the ITT population (or equivalently, the mITT population). The figure shows that the SD-809 treatment group had consistent improvements of TMC score over the treatment period until Week 12. Although the placebo treatment group also had improvements of TMC score over the treatment period, the improvements in the SD-809 group was on average greater than the ones in the placebo group after Week 4 until the washout period.
+L71: Figure 4. Distribution of Patient Global Impression of Change at Week 12
+L72: -3: Very Much Worse; -2: Much Worse; -1: Minimally Worse; 0: Not Change;
+1: Minimally Improved; 2: Much Improved; 3: Very Much Improved.
+L73: Source: reviewer
+L74: Figure 5. Distribution of Clinical Global Impression of Change at Week 12
+L75: -3: Very Much Worse; -2: Much Worse; -1: Minimally Worse; 0: Not Change;
+1: Minimally Improved; 2: Much Improved; 3: Very Much Improved.
+L76: Source: reviewer
+L77: Figure 4 and Figure 5 illustrate the distributions of PGIC and CGIC by treatment at Week 12, without imputation for the two patients in the placebo group that did not have the Week 12 PGIC or CGIC. Both figures show that, compared to patients in the placebo group, more patients in the SD-809 group were in the categories of Much Improved or Very Much Improved at Week 12.
+L78: **Table 4. Study SD-809-C-15 analyses of efficacy endpoints, mITT population**
+L79: Endpoint	SD-809 (N=45)	Placebo (N=45)	Difference (95% CI) (SD-809 – Placebo)	p-value
+Primary Endpoint
+Total Maximal Chorea Scorea, LS Mean (SD)	-4.42 (2.953)	-1.93 (2.666)	-2.49 (-3.69, -1.29)	<0.0001
+Key Secondary Endpoints
+PGIC Treatment Successb, n (%)	23 (51.1)	9 (20.0)	31.1c (12.4, 49.8)	0.0020
+CGIC Treatment Successb, n (%)	19 (42.2)	6 (13.3)	28.9c (11.4, 46.4)	0.0022
+SF-36 Physical Functioningd, LS Mean (SD)	0.74 (9.773)	-3.61 (9.669)	4.34 (0.41, 8.27)	0.0308
+Berg Balance Testd, LS Mean (SD)	2.2 (3.47)	1.3 (4.04)	1.0 (-0.3, 2.3)	0.1415
+Additional Prespecified Endpoints
+Change in UHDRS Total Motor Scorea	-7.35 (6.344)	-3.36 (5.469)	-3.99 (-6.52, -1.46)	0.0023
+Percentage Change in Total Maximal Chorea Scorea	-36.97 (25.704)	-16.17 (19.646)	-20.80 (-30.47, -11.13)	<0.0001
+Change in Total Maximal Chorea Score Based on Video Ratinga	-2.3 (2.55)	-0.4 (2.54)	-1.9 (-3.0, -0.9)	0.0005
+L80: Abbreviations: CGIC, Clinical Global Impression of Change; CI, confidence interval; LS, least squares; PGIC, Patient Global Impression of Change; SD, standard deviation; UHDRS, Unified Huntington's Disease Rating Scale.
+L81: a Change from Baseline to maintenance therapy. Baseline was defined as the mean of values from Screening and Day 0.
+L82: Maintenance therapy was defined as the mean of values from the Week 9 and Week 12 visits.
+L83: b Treatment success at Week 12 defined as “much improved” or “very much improved”.
+L84: c Difference in percentages of treatment success.
+L85: d Change from Baseline to Week 12.
+L86: Source: efficacy table on page 7 of sponsor's clinical study report
+L87: The analysis results of the primary endpoint are presented in **Table 4**. SD-809 was statistically significantly better than placebo (p-value &lt; 0.0001) in terms of change from Baseline to maintenance in TMC score, with a least square SD-809-placebo difference of -2.49 points (95% CI = (-3.69, -1.29)). The analysis using a mixed effect model repeated measures (MMRM) confirmed that SD-809 was statistically better than placebo. The low dropout rates (2.2% and 4.4% for the SD-809 group and placebo group, respectively) and the MMRM results implied that the primary analysis results were reasonably robust.
+L88: The analysis results of the secondary endpoints are also presented in **Table 4**. Following the pre-specified step-wise testing procedure, SD-809 were statistically significantly better than placebo
+L89: in terms of PGIC, CGIC, and SF-36 Physical Functioning score (p-values = 0.0020, 0.0022, and 0.0308, respectively). The analyses of the secondary endpoints of PGIC, CGIC and BBT used the last available observations when the Week 12 measurement was not available. More specifically, the last available observations were carried forward for two patients in the placebo group because those patients did not have Week 12 measurements. The analysis of SF-36 physical functioning score did not use any imputation for missing Week 12 measurements. The reviewer independently performed ANCOVA analyses on PGIC, CGIC and BBT without using imputation and on SF-36 physical functioning score carrying the last available observations for patients missing Week 12 measurements. The alternate approaches for dealing with missing data did not indicate different statistical conclusions for these secondary endpoints.
+L90: ## 3.3 Evaluation of Safety
+L91: Please refer to Dr. Kenneth Bergmann's clinical review for a detailed evaluation of safety.
+L92: ## 4 FINDINGS IN SPECIAL/SUBGROUP POPULATIONS
+L93: Overall, there is no compelling evidence from the subgroup analyses in Section 4.1 that a specific gender, race, age, or geographic region subgroup benefits differently from SD-809.
+L94: ## 4.1 Gender, Race, Age, and Geographic Region
+L95: ## Gender
+L96: **Table 5. Study SD-809-C-15 analysis of primary endpoint by gender, mITT population**
+L97: Gender	Change from Baseline to maintenance in TMC score	Placebo	SD-809
+Female	N	17	23
+Means (SD)a	-2.65 (2.685)	-4.91 (2.453)
+Male	N	28	22
+Means (SD)a	-1.59 (2.621)	-3.80 (3.362)
+mITT: modified intent-to-treat; N: number of mITT patients; SD: standard deviation; TMC: total maximal chorea.
+a Obtained from all observations in the gender specific mITT population at maintenance, with the last observation carried forward method for missing data.
+L98: Source: reviewer
+L99: **Table 6. Study SD-809-C-15 analyses of secondary endpoints by gender, mITT population**
+L100: Gender	CGIC or PGIC at Week 12	Placebo	SD-809
+Female	N	17	23
+PGIC Treatment Success n (%)a	4 (23.5)	14 (60.9)
+CGIC Treatment Success n (%)a	4 (23.5)	9 (39.1)
+Male	N	28	22
+PGIC Treatment Success n (%)a	5 (17.9)	9 (40.9)
+CGIC Treatment Success n (%)a	2 (7.1)	10 (45.5)
+CGIC: Clinical Global Impression of Change; mITT: modified intent-to-treat; N: number of mITT patients; PGIC: Patient Global Impression of Change.
+a Obtained based on all observations in the gender specific mITT population at Week 12, with the last observation carried forward method for missing data.
+L101: Source: reviewer
+L102: For both gender groups, SD-809 appeared superior to placebo in terms of mean change from Baseline to maintenance in TMC score, PGIC success number and percentage at Week 12, and CGIC success number and percentage at Week 12.
+L103: ## **Race**
+L104: As shown in Table 3, the majority (83 out of 90 patients) of the mITT population was White. There were only five and two patients in the Black population and multiple race population, respectively. The numbers are so small that the analysis of Black patients and multiple race patients would not provide conclusive results on these populations. Therefore, the reviewer did not perform subgroup analysis by race.
+L105: ## Age
+L106: **Table 7. Study SD-809-C-15 analysis of primary endpoint by age, mITT population**
+L107: Age	Change from Baseline to maintenance in TMC score	Placebo	SD-809
+< 65 years	N	35	38
+Means (SD)a	-2.17 (2.810)	-4.22 (2.844)
+≥ 65 years	N	10	7
+Means (SD)a	-1.35 (2.082)	-5.14 (3.637)
+mITT: modified intent-to-treat; N: number of mITT patients; SD: standard deviation; TMC: total maximal chorea.
+a Obtained from all observations in the age group specific mITT population at maintenance, with the last observation carried forward method for missing data.
+L108: Source: reviewer
+L109: **Table 8. Study SD-809-C-15 analyses of secondary endpoints by age, mITT population**
+L110: Age	CGIC or PGIC at Week 12	Placebo	SD-809
+< 65 years	N	35	38
+PGIC Treatment Success n (%)a	7 (20.0)	20 (52.6)
+CGIC Treatment Success n (%)a	6 (17.1)	16 (42.1)
+≥ 65 years	N	10	7
+PGIC Treatment Success n (%)a	2 (20.0)	3 (42.9)
+CGIC Treatment Success n (%)a	0 ( 0.0)	3 (42.9)
+CGIC: Clinical Global Impression of Change; mITT: modified intent-to-treat; N: number of mITT patients; PGIC: Patient Global Impression of Change.
+a Obtained based on all observations in the age group specific mITT population at Week 12, with the last observation carried forward method for missing data.
+L111: Source: reviewer
+L112: For both age groups, SD-809 appeared superior to placebo in terms of mean change from Baseline to maintenance in TMC score, PGIC success number and percentage at Week 12, and CGIC success number and percentage at Week 12.
+L113: ## Geographic Region
+L114: Study SD-809 was conducted mainly in the United States. A total of 7 out of the 90 patients in the mITT population were from the three Canadian study centers. Therefore, the reviewer did not conduct subgroup analysis by region.
+L115: ## 4.2 Other Special/Subgroup Populations
+L116: No other subgroups were analyzed.
+L117: ## 5 SUMMARY AND CONCLUSIONS
+L118: ## 5.1 Statistical Issues
+L119: No statistical issues were identified.
+L120: ## 5.2 Collective Evidence
+L121: Study SD-809-C-15 provided efficacy evidence that Austedo is efficacious as a treatment of chorea associated with Huntington's disease: Austedo [REDACTED] (b) (4) tablet is statistically better than placebo in terms of change from Baseline to maintenance in total maximal chorea score.
+L122: ## 5.3 Conclusions and Recommendations
+L123: Based on the statistical evidences from Study SD-809-C-15, the reviewer concluded that Austedo [REDACTED] (b) (4) tablet is superior to placebo in treating chorea associated with Huntington's disease.
+L124: This is a representation of an electronic record that was signed electronically and this page is the manifestation of the electronic signature.
+L125: /s/
+L126: XIANGMIN ZHANG
+L127: 02/18/2016
+L128: KUN JIN
+L129: 02/19/2016
+L130: I concur with the review.
+L131: HSIEN MING J HUNG
+L132: 02/19/2016
+L133: Flowchart illustrating the patient disposition for Study SD-809-C-15.
+Subjects Screened/Enrolled: N=123
+Excluded/Declined: N=33
+Subjects Randomized: N=90
+Randomization split into two groups: SD-809 (N=45) and Placebo (N=45).
+SD-809 Group outcomes:Completed: n=44
+Withdrew: n=1
+Adverse Event: n=1
+
+Placebo Group outcomes:Completed: n=43
+Withdrew: n=2
+Adverse Event: n=1
+Physician Decision: n=1
+L134: Line graph showing the Mean (SEM) Total Maximal Chorea Score (Y-axis, 5 to 15) versus Study Week (X-axis, 0 to 13, labeled as Maintenance Endpoint). Two treatment groups are compared: SD-809 (solid line with dots) and Placebo (dashed line with circles). Error bars represent \pm standard error.
+The graph illustrates the following trends:
+Baseline (Week 0): SD-809 score is approximately 12.2, and Placebo score is approximately 13.2.
+Treatment Period (Weeks 2 to 9): Both groups show a decrease in chorea score. SD-809 scores drop significantly, reaching approximately 7.5 at Week 9. Placebo scores decrease slightly, reaching approximately 10.8 at Week 9.
+Washout (Week 12): A vertical arrow indicates the Washout period. Both groups show a sharp increase in chorea score. SD-809 score rises to approximately 8.2, and Placebo score rises to approximately 11.2.
+Maintenance Endpoint (Week 13): Both groups show a further increase in chorea score. SD-809 score rises to approximately 12.8, and Placebo score rises to approximately 13.0.
+The sample sizes (n) for each time point are listed below the graph:
+Time Point	SD-809, n	Placebo, n
+0	45	45
+2	45	45
+4	44	45
+6	44	44
+9	45	42
+12	45	43
+13	44	43
+Maintenance Endpoint	45	45
+L135: Line graph showing the Mean of Change of Total Maximal Chorea Score (Y-axis, ranging from 0 to -5) versus Week (X-axis, ranging from 0 to 13, labeled Maintenance). The graph compares SD-809 ER (solid blue line) and Placebo (dashed black line) treatments. Both groups show improvement (decrease in chorea score) over the treatment period (Weeks 0 to 12). The SD-809 ER group consistently shows a greater mean change (better improvement) than the Placebo group after Week 4. A Washout period is indicated around Week 12/13. The graph includes error bars representing \pm standard error.
+Legend: Placebo (dashed line), SD-809 ER (solid line).
+Sample sizes (N) at each time point:
+Week	0	2	4	6	9	12	13	Maintenance
+SD-809 ER	45	45	44	44	45	45	44	45
+Placebo	45	45	45	44	42	43	43	45
+L136: Bar chart showing the distribution of Patient Global Impression of Change (PGIC) at Week 12 for Placebo (light gray) and SD-809 (dark gray).
+PGIC Score	Placebo (%)	SD-809 (%)
+-3	0%	0%
+-2	7%	0%
+-1	11.6%	2.2%
+0	30.2%	20%
+1	30.2%	26.7%
+2	18.6%	22.2%
+3	2.3%	28.9%
+L137: Bar chart showing the distribution of Clinical Global Impression of Change (CGIC) at Week 12 for Placebo (light gray) and SD-809 (dark gray).
+CGIC Score	Placebo (%)	SD-809 (%)
+-3	2.3%	0%
+-2	2.3%	0%
+-1	14%	8.9%
+0	46.5%	26.7%
+1	20.9%	22.2%
+2	11.6%	26.7%
+3	2.3%	15.6%

@@ -1,0 +1,172 @@
+{
+  "app": "NDA020427",
+  "drug": "SABRIL",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_08d3865a-6c5b-5512-987c-8f69a4ce3cb6"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_96af8c15-ab65-5f12-8f7e-992541472dfc"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_115114f6-0351-591d-a437-88e7e724f1d0"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_f3f35650-fec4-5073-bf40-49f801ad7588"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Peripheral and Central Nervous System Drugs Advisory Committee (PCNS), supplemented by experts in epilepsy, ophthalmology, pediatrics, and risk assessment",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_96af8c15-ab65-5f12-8f7e-992541472dfc",
+      "line": 75,
+      "quote": "the Peripheral and Central Nervous System Advisory Committee (PCNS), who met on Jan 7-8, voting 23-0 to recommend approval"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_96af8c15ab65",
+      "found_lines": [
+        75
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "January 7-8, 2009; the complex partial seizures (CPS / NDA 20-427) questions were discussed and voted on January 7, 2009",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_08d3865a-6c5b-5512-987c-8f69a4ce3cb6",
+      "line": 122,
+      "quote": "the division convened an Advisory Committee on 1/7/09 and 1/8/09 with experts in adult and pediatric epilepsy and ophthalmology."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_08d3865a6c5b",
+      "found_lines": [
+        11,
+        122
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "For NDA 20-427 (CPS), the committee voted unanimously 24-0 that the application should be approved for use in refractory patients, under restricted/REMS conditions.",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_115114f6-0351-591d-a437-88e7e724f1d0",
+      "line": 137,
+      "quote": "Regarding NDA 20-427, for the use of Sabril in the treatment of patients with CPS, the committee voted unanimously (24-0) that the application should be approved for use in refractory patients."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_115114f60351",
+      "found_lines": [
+        137
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee concluded that continued treatment can cause clinically meaningful, irreversible vision loss that monitoring may not prevent, and that the drug should be available only under restricted conditions with continued access contingent on periodic visual testing.",
+      "change": "Approval only under a REMS (risk evaluation and mitigation strategy) requiring mandatory periodic ophthalmologic monitoring, with continued access linked to that monitoring.",
+      "category": "Safety / REMS and mandatory vision monitoring",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "fda_115114f6-0351-591d-a437-88e7e724f1d0",
+        "line": 137,
+        "quote": "They also concluded that Sabril should be available only under restricted conditions, with required visual testing performed periodically throughout treatment, and that continued access to the drug should be made contingent upon performance of visual testing",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_115114f60351",
+          "found_lines": [
+            137
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_08d3865a-6c5b-5512-987c-8f69a4ce3cb6",
+        "line": 151,
+        "quote": "There is concurrence by the division and the advisory committee that REMS will be required.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_08d3865a6c5b",
+          "found_lines": [
+            151
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee concluded that continued vigabatrin treatment can result in clinically meaningful visual loss and that discontinuation has not been shown to prevent its progression.",
+      "change": "Visual function toxicity included as a Boxed Warning in the label.",
+      "category": "Safety / Boxed warning",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "fda_115114f6-0351-591d-a437-88e7e724f1d0",
+        "line": 137,
+        "quote": "they concluded that continued treatment can result in clinically meaningful visual loss, that discontinuation of treatment has not been shown to prevent progression of the visual loss",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_115114f60351",
+          "found_lines": [
+            137
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_08d3865a-6c5b-5512-987c-8f69a4ce3cb6",
+        "line": 152,
+        "quote": "Visual function toxicity will be included as a Boxed Warning.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_08d3865a6c5b",
+          "found_lines": [
+            152
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee felt that Sabril's use for CPS should be reserved for refractory patients who had had an adequate trial of several AEDs, not first-line use.",
+      "change": "Indication narrowed to adjunctive therapy for adult patients with refractory CPS who inadequately responded to several alternatives; explicitly not a first-line agent.",
+      "category": "Population / indication narrowing (refractory, non-first-line)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "MedR",
+        "doc_id": "fda_115114f6-0351-591d-a437-88e7e724f1d0",
+        "line": 137,
+        "quote": "the committee voted unanimously (24-0) that the application should be approved for use in refractory patients. They clearly felt that its use should be reserved for those patients who had had an adequate trial of several AEDs",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_115114f60351",
+          "found_lines": [
+            137
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_08d3865a-6c5b-5512-987c-8f69a4ce3cb6",
+        "line": 50,
+        "quote": "SABRIL is not indicated as a first line agent for complex partial seizures.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_08d3865a6c5b",
+          "found_lines": [
+            50
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "For NDA 20-427 (Sabril/vigabatrin for complex partial seizures in adults), the Peripheral and Central Nervous System Drugs Advisory Committee met January 7-8, 2009 and voted unanimously (24-0) to recommend approval for refractory patients, over the CDTL's own non-approval recommendation. The committee's central concern was irreversible visual field loss; it recommended the drug be available only under restricted conditions with continued access contingent on periodic ophthalmologic monitoring, which the review documents tie directly to the required REMS. The approval also carried a Boxed Warning for visual toxicity and an indication narrowed to refractory, non-first-line use, consistent with the committee's recommendations."
+}

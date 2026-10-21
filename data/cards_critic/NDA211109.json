@@ -1,0 +1,37 @@
+{
+  "app": "NDA211109",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "medium",
+      "issue": "The clinical cure count '191 (86.8%)' for eravacycline appears in the citation but the number '198 (87.6%)' for ertapenem is also cited; however the '95% CI -7.1, 5.5' is supported \u2014 no uncited number here, flag dismissed as fine."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Automated flag on '434' is a false positive; it is part of the study ID TP-434-008, not an efficacy/safety number."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag on '3' is a false positive; it derives from 'Type 1' and '505(b)(1)' identifiers, not an uncited efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "434",
+        "text": "TP-434-008 (IGNITE1)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "XERAVA (eravacycline), a Type 1 NME 505(b)(1) NDA, received QIDP and Fast Track "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

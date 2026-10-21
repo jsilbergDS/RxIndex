@@ -1,0 +1,67 @@
+{
+  "app": "NDA203505",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Automated flags for numbers '12' (Week 12) and '60' (60 mg dose) are false positives: 'Week 12' is a timepoint matching the design citation and '60' is a dose, both excludable; the efficacy values -1.39, -0.89, and p=0.0012 are all supported by the citation."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "Automated flags for '12' (Week 12) and '60' (60 mg dose) are false positives; the efficacy values -1.55, -1.29, and p<0.0001 are all supported by the citation."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Automated flags for '26', '2012', '2013' are date components (approval/submission dates) and are excludable false positives; first_cycle_approval=true is correctly inferred from absence of a prior CRL (crl_history.prior_crl=false)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "12",
+        "text": "LS mean change in dyspareunia severity at Week 12: -1.39 for OSPHENA 60 mg vs -0"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "60",
+        "text": "LS mean change in dyspareunia severity at Week 12: -1.39 for OSPHENA 60 mg vs -0"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "12",
+        "text": "LS mean change in dyspareunia severity at Week 12: -1.55 for OSPHENA 60 mg vs -1"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "60",
+        "text": "LS mean change in dyspareunia severity at Week 12: -1.55 for OSPHENA 60 mg vs -1"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "26",
+        "text": "NDA submitted April 26, 2012 and approved February 26, 2013; no prior CRL for th"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2012",
+        "text": "NDA submitted April 26, 2012 and approved February 26, 2013; no prior CRL for th"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "26",
+        "text": "NDA submitted April 26, 2012 and approved February 26, 2013; no prior CRL for th"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2013",
+        "text": "NDA submitted April 26, 2012 and approved February 26, 2013; no prior CRL for th"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

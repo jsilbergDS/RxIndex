@@ -1,0 +1,23 @@
+{
+  "app": "BLA125509",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 287)",
+  "_raw": "Analyzing the card for quality issues.\n\nKey checks:\n- **first_cycle_approval uncited numbers**: \"March 18, 2016\" appears in text but the citation only shows the March 20, 2015 receipt date. The approval date March 18, 2016 is not in any citation quote (though the PDUFA goal date 3/18/2016 appears el",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "18",
+        "text": "BLA received March 20, 2015 and approved March 18, 2016; no prior Complete Respo"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2016",
+        "text": "BLA received March 20, 2015 and approved March 18, 2016; no prior Complete Respo"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

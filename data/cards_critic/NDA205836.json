@@ -1,0 +1,117 @@
+{
+  "app": "NDA205836",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "medium",
+      "issue": "N field lists only PBO=98/20mg=100/50mg=101 (no 5 mg arm), but the result field reports a 5 mg/day dose (p=0.885), so the arms are internally inconsistent and the 5 mg N is missing."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "The cited % reduction for the 5 mg arm '-0.9 (-13.9, 106)' contains an apparent OCR error in the CI upper bound (106), though it is not surfaced in the result text."
+    },
+    {
+      "field": "key_safety",
+      "severity": "medium",
+      "issue": "AE rate 'nausea/vomiting symptoms (5% vs 3%)' is supported, but the value is labeled as occurring 'at doses >=50 mg/day'; the >=50 mg/day qualifier is not present in any citation and appears asserted beyond the quotes."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "Automated flag on '12' (12-week) is a false positive; '12 weeks' is supported by the n-field citation ('Treatment period= 12 weeks')."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Automated flags on 100/50/20 are false positives; these are doses (excluded) whose p-values and CIs are supported by the cited table."
+    },
+    {
+      "field": "pivotal_trials[2].result",
+      "severity": "low",
+      "issue": "Automated flags on 100/200/50 are false positives; these are dose labels whose associated efficacy figures (22.8, 23.2, responder rates 38.9/37.8/21.6) are supported by citations."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "Automated flag on '2' (Study 2 label) is a false positive; it is a study-numbering identifier, not an efficacy/safety number."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated flag on '3' (three trials) is a false positive; supported by citation 'three adequate and well-controlled studies (studies 1252, 1253, and 1358)'."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Automated flag on '50' is a false positive in the sense of being a dose threshold, but see the medium issue: the >=50 mg/day qualifier itself is uncited."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "12",
+        "text": "Multi-center, multinational double blind, parallel group, placebo controlled, ra"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "100",
+        "text": "Only the 100 mg/day dose reached nominal significance (percent reduction over pl"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "50",
+        "text": "Only the 100 mg/day dose reached nominal significance (percent reduction over pl"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "20",
+        "text": "Only the 100 mg/day dose reached nominal significance (percent reduction over pl"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Study N01253 (Study 2)"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "12",
+        "text": "Multi-center, multinational double blind, parallel group, placebo controlled, ra"
+      },
+      {
+        "field": "pivotal_trials[2]/design",
+        "number": "12",
+        "text": "Multi-center, multinational double blind, parallel group, placebo controlled, ra"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "100",
+        "text": "Both doses statistically significant: 100 mg/day percent reduction over placebo "
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "200",
+        "text": "Both doses statistically significant: 100 mg/day percent reduction over placebo "
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "50",
+        "text": "Both doses statistically significant: 100 mg/day percent reduction over placebo "
+      },
+      {
+        "field": "key_safety",
+        "number": "50",
+        "text": "Most common adverse reactions (\u22655% and \u22652% more than placebo) at doses \u226550 mg/da"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Standard NDA reviewed as a traditional (non-accelerated) approval; not referred "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

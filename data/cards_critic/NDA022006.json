@@ -1,0 +1,62 @@
+{
+  "app": "NDA022006",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "_flags.uncited_numbers",
+      "severity": "low",
+      "issue": "All flagged uncited numbers (22, 006, 1, 7, 09, 8) are fragments of application ID 'NDA 22-006' and dates (1/7/09, 1/8/09), which are excluded categories \u2014 false positives."
+    },
+    {
+      "field": "first_cycle_approval.value",
+      "severity": "low",
+      "issue": "value=false is based on an April 5, 2007 Refusal-to-File letter, not a Complete Response Letter; crl_history.prior_crl is correctly false, so this is a defensible (RTF-based) inference rather than an error, but the distinction between RTF and CRL is worth noting."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "22",
+        "text": "This NDA 22-006 for infantile spasms was a resubmission following FDA's April 5,"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "006",
+        "text": "This NDA 22-006 for infantile spasms was a resubmission following FDA's April 5,"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "NDA 22-006 for infantile spasms (oral solution) was granted Priority Review and "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "7",
+        "text": "NDA 22-006 for infantile spasms (oral solution) was granted Priority Review and "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "09",
+        "text": "NDA 22-006 for infantile spasms (oral solution) was granted Priority Review and "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "NDA 22-006 for infantile spasms (oral solution) was granted Priority Review and "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "8",
+        "text": "NDA 22-006 for infantile spasms (oral solution) was granted Priority Review and "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "09",
+        "text": "NDA 22-006 for infantile spasms (oral solution) was granted Priority Review and "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

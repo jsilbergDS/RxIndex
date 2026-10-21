@@ -1,0 +1,27 @@
+{
+  "app": "NDA213006",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Automated uncited_numbers flag for '3003' is a false positive; it is a study identifier and is properly excluded."
+    },
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "low",
+      "issue": "Population citation labels the comparator 'Tolterodine SR 4mg' while design/N fields say 'tolterodine ER 4 mg'; minor labeling inconsistency (SR vs ER)."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "3003",
+        "text": "GEMTESA (vibegron) was submitted as a 505(b)(1) NDA for a new molecular entity a"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "app": "NDA210854",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Text adds '(CAPSTONE-1)' but neither citation quote contains 'CAPSTONE-1'; the flagged number '1' derives from this uncited alias."
+    },
+    {
+      "field": "post_marketing[3].requirement",
+      "severity": "low",
+      "issue": "Text labels 3503-4 as a '505(o) required study' but its citations only say FDA 'determined that you are required to conduct the following study' without the explicit '505(o)' wording (the '505(o)' text appears in 3503-5's citation); minor, and the flagged '505' is a regulatory citation not an efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Trial 1601T0831 (CAPSTONE-1)"
+      },
+      {
+        "field": "post_marketing[3]/requirement",
+        "number": "505",
+        "text": "3503-4: Evaluate the impact of specified PA and PB2 amino acid substitutions on "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

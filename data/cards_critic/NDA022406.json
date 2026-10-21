@@ -1,0 +1,18 @@
+{
+  "app": "NDA022406",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Extra data: line 23 column 1 (char 1053)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"NDA022406\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"key_safety\",\n      \"severity\": \"low\",\n      \"issue\": \"Automated flag 'uncited number 3' is a false positive; the '3' is part of 'RECORD 1-3' (study identifier referen",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "3",
+        "text": "The major risk is bleeding. In the RECORD studies, major bleeding was higher wit"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "app": "NDA021991",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "modality",
+      "severity": "low",
+      "issue": "Citation ('Capsules: 100 mg') does not directly establish 'Small molecule'; the value is correct (vorinostat is a small-molecule HDAC inhibitor) but the quote only shows the capsule dosage form.",
+      "_note": "minor citation weakness, value itself is correct"
+    },
+    {
+      "field": "uncited_numbers (first_cycle_approval/detail, approval_program/summary)",
+      "severity": "low",
+      "issue": "False positives: all flagged numbers (7, 6, 2006) are components of dates (April 7, 2006 / October 6, 2006), which are excluded from uncited-number flagging."
+    },
+    {
+      "field": "uncited_numbers (pivotal_trials[0]/trial_name, approval_program/summary)",
+      "severity": "low",
+      "issue": "False positive: '001' is a study/protocol identifier (Protocol 001), which is excluded from uncited-number flagging."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "001",
+        "text": "Protocol 001 (pivotal trial)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "7",
+        "text": "Application received April 7, 2006; approved effective on the date of the approv"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2006",
+        "text": "Application received April 7, 2006; approved effective on the date of the approv"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "6",
+        "text": "Application received April 7, 2006; approved effective on the date of the approv"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2006",
+        "text": "Application received April 7, 2006; approved effective on the date of the approv"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "6",
+        "text": "Zolinza (vorinostat), an HDAC inhibitor for CTCL, was granted Fast Track Designa"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2006",
+        "text": "Zolinza (vorinostat), an HDAC inhibitor for CTCL, was granted Fast Track Designa"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "001",
+        "text": "Zolinza (vorinostat), an HDAC inhibitor for CTCL, was granted Fast Track Designa"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

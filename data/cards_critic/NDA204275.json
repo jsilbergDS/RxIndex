@@ -1,0 +1,137 @@
+{
+  "app": "NDA204275",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: '24' in '24-week' is a trial-design duration supported by citation (line 190/178), not an uncited efficacy number."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive flags: '100' and '25' are the dose strength FF/VI 100/25, not uncited efficacy numbers; efficacy values 0.115 L and 0.173 L are cited (lines 382, 385)."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "False-positive flag: '52' in '52-week' is a design duration supported by citation, not an uncited efficacy number."
+    },
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "False-positive flag: '52' is the trial duration, not an efficacy number."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "low",
+      "issue": "False-positive flags: '25/50/100/200' are dose strengths; the actual N values (409, 408, 403, 402) are cited at line 508."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "False-positive flags: '100'/'200' are dose strengths and '0.001' is the cited nominal p-value; rate 0.70, ratio 0.66, 34% and CI (19,46) all cited at line 508."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flags: '505' and '1' are the regulatory pathway designator 505(b)(1), not efficacy numbers."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "24",
+        "text": "HZC112206 (24-week lung function trial)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "100",
+        "text": "Both co-primary endpoints met vs placebo (p<0.001 for all FF/VI to placebo compa"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "25",
+        "text": "Both co-primary endpoints met vs placebo (p<0.001 for all FF/VI to placebo compa"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "52",
+        "text": "HZC102871 (52-week exacerbation trial)"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "52",
+        "text": "52-week, randomized, double-blind, parallel-group, multicenter trial randomizing"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "25",
+        "text": "VI 25 n=409, FF/VI 50/25 n=408, FF/VI 100/25 n=403, FF/VI 200/25 n=402"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "50",
+        "text": "VI 25 n=409, FF/VI 50/25 n=408, FF/VI 100/25 n=403, FF/VI 200/25 n=402"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "25",
+        "text": "VI 25 n=409, FF/VI 50/25 n=408, FF/VI 100/25 n=403, FF/VI 200/25 n=402"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "100",
+        "text": "VI 25 n=409, FF/VI 50/25 n=408, FF/VI 100/25 n=403, FF/VI 200/25 n=402"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "25",
+        "text": "VI 25 n=409, FF/VI 50/25 n=408, FF/VI 100/25 n=403, FF/VI 200/25 n=402"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "200",
+        "text": "VI 25 n=409, FF/VI 50/25 n=408, FF/VI 100/25 n=403, FF/VI 200/25 n=402"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "25",
+        "text": "VI 25 n=409, FF/VI 50/25 n=408, FF/VI 100/25 n=403, FF/VI 200/25 n=402"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "100",
+        "text": "FF/VI 100/25 LS mean annual rate 0.70 vs VI 25 (rate ratio 0.66; 34% reduction, "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "200",
+        "text": "FF/VI 100/25 LS mean annual rate 0.70 vs VI 25 (rate ratio 0.66; 34% reduction, "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.001",
+        "text": "FF/VI 100/25 LS mean annual rate 0.70 vs VI 25 (rate ratio 0.66; 34% reduction, "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "100",
+        "text": "FF/VI 100/25 LS mean annual rate 0.70 vs VI 25 (rate ratio 0.66; 34% reduction, "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "505",
+        "text": "Standard-review 505(b)(1) NDA for a fixed-dose ICS/LABA combination (fluticasone"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1",
+        "text": "Standard-review 505(b)(1) NDA for a fixed-dose ICS/LABA combination (fluticasone"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "app": "NDA022023",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "medium",
+      "issue": "Nausea is presented as a single 12.7% rate but the citation 'Nausea 12.7 11.8' shows aprepitant vs standard; the 11.8% comparator is omitted, making the asymmetric presentation (comparator shown for asthenia/hiccups but not nausea/constipation) misleading."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Constipation cited quote is 'Constipation 10.3 12.2' \u2014 the AE rate is actually HIGHER in the standard group (12.2% vs 10.3%), so listing constipation as an aprepitant adverse experience is weakly supported."
+    },
+    {
+      "field": "pivotal_trials[0]/trial_name",
+      "severity": "low",
+      "issue": "False positive: uncited numbers '1' and '2' are study labels (Study 1/Study 2), which are study identifiers excluded by rule."
+    },
+    {
+      "field": "pivotal_trials[0]/n",
+      "severity": "low",
+      "issue": "False positive: uncited numbers '1'/'2' are study labels, not efficacy data."
+    },
+    {
+      "field": "pivotal_trials[0]/result",
+      "severity": "low",
+      "issue": "False positive: uncited numbers '1'/'2' are study labels (Study 1/Study 2), not efficacy figures."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False positive: '115' in '115 mg IV EMEND' is a dose, excluded by rule."
+    },
+    {
+      "field": "approval_program.priority_review.present",
+      "severity": "low",
+      "issue": "Verify intent: summary labels this 'Standard-review' and cites 'Priority Designation S' (S=Standard), so present=false is correct and internally consistent \u2014 noted only to confirm the 'S' was not misread as priority."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Efficacy relied on the oral aprepitant pivotal studies (Study 1 and Study 2 in h"
+      },
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "2",
+        "text": "Efficacy relied on the oral aprepitant pivotal studies (Study 1 and Study 2 in h"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "1",
+        "text": "Study 1: N=260 aprepitant vs N=261 standard; Study 2: N=261 aprepitant vs N=263 "
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "2",
+        "text": "Study 1: N=260 aprepitant vs N=261 standard; Study 2: N=261 aprepitant vs N=263 "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "1",
+        "text": "Overall complete response (primary endpoint): Study 1, 73% aprepitant vs 52% sta"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "2",
+        "text": "Overall complete response (primary endpoint): Study 1, 73% aprepitant vs 52% sta"
+      },
+      {
+        "field": "key_safety",
+        "number": "115",
+        "text": "In the bioequivalence study of 115 mg IV EMEND, the most common adverse experien"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

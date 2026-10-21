@@ -1,0 +1,199 @@
+{
+  "app": "NDA022474",
+  "drug": "ELLA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "f3514732-5fe6-5abc-82af-fc1e43947db7"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "7eac6bc7-d1e9-57b1-b1b0-93c364e9ee44"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "14ef8d88-0747-594d-ae48-dd245446f056"
+    },
+    {
+      "doc_type": "Lbl",
+      "doc_id": "6b11055c-5015-5e4a-a07c-ff6cd4ba851b"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Advisory Committee for Reproductive Health Drugs (ACRHD), also referred to as the Reproductive Health Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "7eac6bc7-d1e9-57b1-b1b0-93c364e9ee44",
+      "line": 283,
+      "quote": "A meeting of the Advisory Committee for Reproductive Health Drugs (ACRHD) was held to discuss this NME product on June 17, 2010. The questions posed to the ACRHD and the votes are listed below."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "7eac6bc7-d1e9-57b1-b1b0-93c364e9ee44",
+      "found_lines": [
+        283
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "June 17, 2010",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "14ef8d88-0747-594d-ae48-dd245446f056",
+      "line": 9,
+      "quote": "This application was presented before the Reproductive Health Drugs Advisory Committee on June 17, 2010."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "14ef8d88-0747-594d-ae48-dd245446f056",
+      "found_lines": [
+        9
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted unanimously (11-0) that the applicant had provided sufficient information to conclude that ulipristal reduces the likelihood of pregnancy within 120 hours after unprotected intercourse and that its safety profile is acceptable; the committee recommended marketing approval.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "14ef8d88-0747-594d-ae48-dd245446f056",
+      "line": 9,
+      "quote": "Committee members voted unanimously (11-0) that the applicant had provided sufficient information to conclude 1)"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "14ef8d88-0747-594d-ae48-dd245446f056",
+      "found_lines": [
+        9
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Committee members were divided on whether labeling should carry a recommendation about reduced efficacy in women with BMI > 30 kg/m2; some wanted patients/providers informed, others worried such language would discourage heavier women from using the product.",
+      "change": "FDA kept balanced BMI efficacy information in labeling for both ulipristal and the LNG arm, and declined to add any recommendation discouraging use of any emergency contraceptive by heavier women.",
+      "category": "Labeling / subpopulation efficacy (BMI)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "7eac6bc7-d1e9-57b1-b1b0-93c364e9ee44",
+        "line": 291,
+        "quote": "Some Committee members concluded that patients and providers should be informed that efficacy may be lower in women with BMI &gt; 30 kg/m2, but other members were concerned that providing information in labeling about relative contraceptive efficacy might discourage heavier women from using this product.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "7eac6bc7-d1e9-57b1-b1b0-93c364e9ee44",
+          "found_lines": [
+            291
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "7eac6bc7-d1e9-57b1-b1b0-93c364e9ee44",
+        "line": 293,
+        "quote": "The labeling will provide balanced information relative to the impact of higher BMI on efficacy as observed with ulipristal in both studies and with the LNG arm in Study 513. No recommendation discouraging use of any emergency contraception product by heavier women will be made.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "7eac6bc7-d1e9-57b1-b1b0-93c364e9ee44",
+          "found_lines": [
+            293
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee advised that product labeling should NOT require mandatory pregnancy testing prior to prescribing ulipristal, reasoning that pregnancy testing would be done in practice when needed.",
+      "change": "The approved label does not mandate pregnancy testing; instead the Existing Pregnancy warning states pregnancy should be excluded and pregnancy testing performed only if pregnancy cannot be excluded on the basis of history and/or physical examination.",
+      "category": "Labeling / Warnings and Precautions",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "14ef8d88-0747-594d-ae48-dd245446f056",
+        "line": 11,
+        "quote": "Committee members advised that product labeling 1) not require mandatory pregnancy testing prior to prescribing ulipristal acetate since pregnancy testing would likely be done in practice",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "14ef8d88-0747-594d-ae48-dd245446f056",
+          "found_lines": [
+            11
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "6b11055c-5015-5e4a-a07c-ff6cd4ba851b",
+        "line": 44,
+        "quote": "Pregnancy should be excluded before prescribing **ella**. If pregnancy cannot be excluded on the basis of history and/or physical examination, pregnancy testing should be performed.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "6b11055c-5015-5e4a-a07c-ff6cd4ba851b",
+          "found_lines": [
+            44
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee recommended against use of the product by lactating women because data were not yet available on possible exposure of ulipristal to infants fed breast milk.",
+      "change": "The approved label states, in the Nursing Mothers section and Highlights, that use of ella by breastfeeding women is not recommended.",
+      "category": "Labeling / population restriction (lactation)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "14ef8d88-0747-594d-ae48-dd245446f056",
+        "line": 11,
+        "quote": "recommend against use of the product by lactating women since data were not yet available regarding the possible exposure to ulipristal acetate to infants fed breast milk",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "14ef8d88-0747-594d-ae48-dd245446f056",
+          "found_lines": [
+            11
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "6b11055c-5015-5e4a-a07c-ff6cd4ba851b",
+        "line": 84,
+        "quote": "Because many drugs are excreted in human milk, risk to the breast-fed child cannot be excluded. Use of ella by breastfeeding women is not recommended.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "6b11055c-5015-5e4a-a07c-ff6cd4ba851b",
+          "found_lines": [
+            84
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members commented that additional information regarding risk in pregnancy was needed and recommended that this be addressed in the post-approval period.",
+      "change": "FDA required, as a postmarketing requirement, a pregnancy outcomes study to evaluate potential maternal complications and fetal and neonatal adverse outcomes following exposure to ulipristal during pregnancy.",
+      "category": "Postmarketing requirement (PMR)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "f3514732-5fe6-5abc-82af-fc1e43947db7",
+        "line": 272,
+        "quote": "Committee members commented that additional information regarding information on risk in pregnancy is needed and recommended that this be addressed in the post-approval period.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "f3514732-5fe6-5abc-82af-fc1e43947db7",
+          "found_lines": [
+            272
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "f3514732-5fe6-5abc-82af-fc1e43947db7",
+        "line": 32,
+        "quote": "a pregnancy outcomes study to evaluate potential maternal complications and fetal and neonatal adverse outcomes in the event of exposure to ulipristal during pregnancy",
+        "quote_verify": {
+          "status": "MISSING"
+        }
+      }
+    }
+  ],
+  "summary": "The Advisory Committee for Reproductive Health Drugs met on June 17, 2010 and voted unanimously (11-0) that ella (ulipristal acetate) had sufficient efficacy and safety data to support approval for emergency contraception up to 120 hours after unprotected intercourse. The committee's non-binding advice shaped several labeling decisions: it opposed mandatory pregnancy testing (label requires excluding pregnancy, with testing only if it cannot be excluded by history/exam), recommended against use by lactating women (label states use is not recommended while breastfeeding), and favored balanced BMI efficacy information without discouraging heavier women. The committee also flagged the need for more pregnancy-risk data, which FDA addressed through postmarketing requirement studies."
+}

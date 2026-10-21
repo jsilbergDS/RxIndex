@@ -1,0 +1,28 @@
+{
+  "app": "NDA203858",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 317)",
+  "_raw": "Analyzing the card against the citations and flags.\n\n{\n \"app\": \"NDA203858\",\n \"release_ready\": true,\n \"issues\": [\n  {\n   \"field\": \"advisory_committee.vote\",\n   \"severity\": \"low\",\n   \"issue\": \"False-positive flags: '13' and '2' in the vote are supported by the citation quote 'Thirteen members voted in",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "advisory_committee/vote",
+        "number": "13",
+        "text": "Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC), 17 October 2012: "
+      },
+      {
+        "field": "advisory_committee/vote",
+        "number": "2",
+        "text": "Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC), 17 October 2012: "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "13",
+        "text": "Lomitapide (Juxtapid), a first-in-class small-molecule MTP inhibitor, received o"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

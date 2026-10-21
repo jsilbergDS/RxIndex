@@ -48,6 +48,8 @@ TOOLS = B.TOOLS[:3] + [{
     "input_schema": {"type": "object", "properties": {
         "card": {"type": "object"}, "changes": {"type": "array"}}, "required": ["card", "changes"]},
 }]
+# Cache the (stable) tool block so tool defs aren't re-billed every turn — mirrors build.
+TOOLS[-1] = {**TOOLS[-1], "cache_control": {"type": "ephemeral"}}
 
 def repair_one(app):
     d = json.load(open(SRC / f"{app}.json"))
@@ -67,10 +69,17 @@ def repair_one(app):
             + "\n\n=== AUTOMATED_FLAGS ===\n" + json.dumps(crit.get("automated_flags", {}), indent=1)
             + f"\n\nDrug: {drug}  Application: {app}. Fix the flagged fields, ground every change in the docs, then call save_repaired_card once.")
     messages = [{"role": "user", "content": user}]
-    tin = tout = 0; saved = None; nudges = 0
+    tin = tout = cr = cw = 0; saved = None; nudges = 0
     for turn in range(60):
-        resp = B.client.messages.create(model=MODEL, max_tokens=16000, tools=TOOLS, messages=messages)
-        tin += resp.usage.input_tokens; tout += resp.usage.output_tokens
+        B._cache_last(messages)   # rotating cache breakpoint so prior turns' OCR reads back at 0.1x
+        # Streamed + 64K cap: writing the full corrected card for large cards took >120s
+        # (client timeout) and hit the old 16K cap (diag_repair_NDA203214.log).
+        with B.client.messages.stream(model=MODEL, max_tokens=64000, tools=TOOLS, messages=messages) as stream:
+            resp = stream.get_final_message()
+        u = resp.usage
+        tin += u.input_tokens; tout += u.output_tokens
+        cr += getattr(u, "cache_read_input_tokens", 0) or 0
+        cw += getattr(u, "cache_creation_input_tokens", 0) or 0
         messages.append({"role": "assistant", "content": [b.model_dump() for b in resp.content]})
         if resp.stop_reason != "tool_use":
             has_tooluse = any(getattr(b, "type", None) == "tool_use" for b in resp.content)
@@ -93,10 +102,13 @@ def repair_one(app):
             results.append({"type": "tool_result", "tool_use_id": b.id, "content": o})
         messages.append({"role": "user", "content": results})
         if saved: break
-    cost = tin/1e6*PRICE_IN + tout/1e6*PRICE_OUT
+    cost = B._cost(tin, cw, cr, tout)   # cache-aware (cache reads at 0.1x), mirrors build
+    print(f"  [{drug}] repair tokens: in={tin} cache_read={cr} cache_write={cw} out={tout}  ${cost:.3f}", flush=True)
     if not (saved and saved.get("card")):
         return {"app": app, "error": "no save_repaired_card", "cost": round(cost, 3)}
     newcard = saved["card"]
+    if not isinstance(newcard, dict):   # agent returned card as a string/other — reject, keep pre-repair card
+        return {"app": app, "rejected": True, "reason": f"repair returned non-dict card ({type(newcard).__name__})", "cost": round(cost, 3)}
     # GUARD: normalize + validate doc_ids; reject the repair rather than ship a corrupt card.
     _normalize_ids(newcard)
     bad = _bad_doc_ids(newcard)

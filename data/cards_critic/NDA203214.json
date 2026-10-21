@@ -1,0 +1,137 @@
+{
+  "app": "NDA203214",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[*].result",
+      "severity": "low",
+      "issue": "False-positive uncited-number flags: all ACR20 percentages are present within the OCR-concatenated citation strings (e.g., 'Placebo2482'\u219224, '4126140.003'\u219241, '482811'\u219248); the deterministic matcher cannot tokenize the packed numbers but values are supported."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive flag: the number '0' is part of the phrase '0-3 months', not an uncited efficacy/safety statistic."
+    },
+    {
+      "field": "advisory_committee.vote",
+      "severity": "low",
+      "issue": "False-positive flags: '9' and '2012' are the date (May 9, 2012), not uncited vote counts; the actual vote tallies (8/2, 10/0, 7/2/1, 2/8) are all in the citation."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive flags: '21' and '2011' are the receipt date (October 21, 2011), which is date-excluded; value=true is correctly inferred from absence of a prior CRL."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "24",
+        "text": "ACR20 at Month 3 (Study V): placebo 24%, tofacitinib 5 mg BID 41%, tofacitinib 1"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "41",
+        "text": "ACR20 at Month 3 (Study V): placebo 24%, tofacitinib 5 mg BID 41%, tofacitinib 1"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "48",
+        "text": "ACR20 at Month 3 (Study V): placebo 24%, tofacitinib 5 mg BID 41%, tofacitinib 1"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "26",
+        "text": "ACR20 at Month 3 (Study I): placebo 26%, tofacitinib 5 mg BID 59%, tofacitinib 1"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "59",
+        "text": "ACR20 at Month 3 (Study I): placebo 26%, tofacitinib 5 mg BID 59%, tofacitinib 1"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "65",
+        "text": "ACR20 at Month 3 (Study I): placebo 26%, tofacitinib 5 mg BID 59%, tofacitinib 1"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "31",
+        "text": "ACR20 at Month 6 (Study II): placebo 31%, tofacitinib 5 mg BID 52%, tofacitinib "
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "52",
+        "text": "ACR20 at Month 6 (Study II): placebo 31%, tofacitinib 5 mg BID 52%, tofacitinib "
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "57",
+        "text": "ACR20 at Month 6 (Study II): placebo 31%, tofacitinib 5 mg BID 52%, tofacitinib "
+      },
+      {
+        "field": "pivotal_trials[3]/result",
+        "number": "28",
+        "text": "ACR20 at Month 6 (Study III): placebo 28%, tofacitinib 5 mg BID 50%, tofacitinib"
+      },
+      {
+        "field": "pivotal_trials[3]/result",
+        "number": "50",
+        "text": "ACR20 at Month 6 (Study III): placebo 28%, tofacitinib 5 mg BID 50%, tofacitinib"
+      },
+      {
+        "field": "pivotal_trials[3]/result",
+        "number": "51",
+        "text": "ACR20 at Month 6 (Study III): placebo 28%, tofacitinib 5 mg BID 50%, tofacitinib"
+      },
+      {
+        "field": "pivotal_trials[3]/result",
+        "number": "46",
+        "text": "ACR20 at Month 6 (Study III): placebo 28%, tofacitinib 5 mg BID 50%, tofacitinib"
+      },
+      {
+        "field": "pivotal_trials[4]/result",
+        "number": "24",
+        "text": "ACR20 at Month 6 (Study IV): placebo 24%, tofacitinib 5 mg BID 50%, tofacitinib "
+      },
+      {
+        "field": "pivotal_trials[4]/result",
+        "number": "50",
+        "text": "ACR20 at Month 6 (Study IV): placebo 24%, tofacitinib 5 mg BID 50%, tofacitinib "
+      },
+      {
+        "field": "pivotal_trials[4]/result",
+        "number": "60",
+        "text": "ACR20 at Month 6 (Study IV): placebo 24%, tofacitinib 5 mg BID 50%, tofacitinib "
+      },
+      {
+        "field": "key_safety",
+        "number": "0",
+        "text": "Most common adverse reactions (0-3 months, \u22652%) were upper respiratory tract inf"
+      },
+      {
+        "field": "advisory_committee/vote",
+        "number": "9",
+        "text": "Arthritis Advisory Committee (May 9, 2012): overall efficacy and safety data pro"
+      },
+      {
+        "field": "advisory_committee/vote",
+        "number": "2012",
+        "text": "Arthritis Advisory Committee (May 9, 2012): overall efficacy and safety data pro"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "21",
+        "text": "Approved effective on the date of the approval letter following review of the ap"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2011",
+        "text": "Approved effective on the date of the approval letter following review of the ap"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

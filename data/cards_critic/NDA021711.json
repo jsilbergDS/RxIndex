@@ -1,0 +1,52 @@
+{
+  "app": "NDA021711",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "modality.text",
+      "severity": "high",
+      "issue": "Describes the GBCA as a 'radiopharmaceutical' \u2014 gadofosveset is a non-radioactive gadolinium chelate, not a radiopharmaceutical; this is an obvious error unsupported by the citation."
+    },
+    {
+      "field": "population.text",
+      "severity": "medium",
+      "issue": "Characterizes population as 'evaluated for aortoiliac occlusive disease' and demographics, but the demographic citation says nothing about aortoiliac-specific selection; the 'evaluated for aortoiliac occlusive disease' framing is drawn from a different context (minor over-specification)."
+    },
+    {
+      "field": "approval_program.summary.text",
+      "severity": "low",
+      "issue": "Years '2004' and '2005' appear uncited within the summary citations (flagged by automation) though they are supported elsewhere in crl_history; these are dates and the claim is otherwise accurate \u2014 low-severity note."
+    },
+    {
+      "field": "pivotal_trials[0].design.text",
+      "severity": "low",
+      "issue": "Automated flag of the number '3' is a false positive \u2014 it refers to 'Phase 3', which is supported by the phase citation."
+    },
+    {
+      "field": "approval_program.summary.text",
+      "severity": "medium",
+      "issue": "States the drug was 'approved as the first FDA-approved agent for MRA' and 'approved under section 505(b)' \u2014 the 505(b) pathway letter and NME status are cited, but 'approved under section 505(b)' conflates the (b)(1) application pathway; minor, but the summary also calls it an NME/approval while the underlying card centers on a resubmission/re-read, which is internally consistent \u2014 verify labeling."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/design",
+        "number": "3",
+        "text": "Two multi-center, open-label, single-arm (blinded-read) Phase 3 trials; patients"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2004",
+        "text": "New molecular entity GBCA approved under section 505(b) following a complicated "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2005",
+        "text": "New molecular entity GBCA approved under section 505(b) following a complicated "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

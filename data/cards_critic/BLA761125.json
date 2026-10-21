@@ -1,0 +1,48 @@
+{
+  "app": "BLA761125",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 346)",
+  "_raw": "Analyzing the card for issues.\n\nKey checks:\n- HAWK result: brolucizumab 6mg 6.6 vs aflibercept 6.8, diff -0.2 (95% CI -2.1, 1.8). The citation shows \"6.6 (0.71)6.8 (0.71)\" and \"-0.2 (1.00)\" with CI \"(-2.1, 1.8)\". Supported.\n- HARRIER result: 6.9 vs 7.6, diff -0.7 (95% CI -2.4, 1.0). Supported by cit",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "4",
+        "text": "Change in BCVA from Baseline to Week 48 (non-inferiority to aflibercept, 4-lette"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "3",
+        "text": "1082 randomized (brolucizumab 3 mg 360; brolucizumab 6 mg 361; aflibercept 2 mg "
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "6",
+        "text": "1082 randomized (brolucizumab 3 mg 360; brolucizumab 6 mg 361; aflibercept 2 mg "
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "2",
+        "text": "1082 randomized (brolucizumab 3 mg 360; brolucizumab 6 mg 361; aflibercept 2 mg "
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "48",
+        "text": "At Week 48, LS mean change in BCVA: brolucizumab 6 mg 6.6 letters vs aflibercept"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "48",
+        "text": "At Week 48, LS mean change in BCVA: brolucizumab 6 mg 6.9 letters vs aflibercept"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "761125",
+        "text": "BEOVU (brolucizumab-dbl) BLA 761125 was submitted February 7, 2019 with a PDUFA "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

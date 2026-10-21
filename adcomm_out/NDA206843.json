@@ -1,0 +1,92 @@
+{
+  "app": "NDA206843",
+  "drug": "DAKLINZA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_6fa53523-f37b-57d7-b381-05addec5361a"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_0b183787-88c2-5f9a-b5ff-973333278397"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_22f37165-6a9f-54f3-b4c2-e8c70c793bb5"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_a2e9332a-73f5-5555-833f-12e263245343"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_32dc8ad4-eba0-5452-af6a-a4fe4eb3630b"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "No advisory committee meeting was held for the approval. During the first cycle review (DCV with asunaprevir), a meeting of the Antiviral/Antimicrobial Drugs Advisory Committee was planned but was cancelled.",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_6fa53523-f37b-57d7-b381-05addec5361a",
+      "line": 78,
+      "quote": "The application was not presented before the Antimicrobial Drugs Advisory Committee because it was the third drug in the class of NS5A inhibitors. Further, a preliminary review of the NDA, including labeling did not reveal any significant clinical or safety issues that would benefit from an advisory committee discussion."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_6fa53523f37b",
+      "found_lines": [
+        16,
+        78
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "No meeting occurred. A meeting had been planned for November 17, 2014 during the first review cycle, then cancelled.",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_a2e9332a-73f5-5555-833f-12e263245343",
+      "line": 522,
+      "quote": "senior management decided to pursue expert opinion through internal FDA consultation as well as through an Advisory Committee Meeting late in the review cycle (planned for November 17, 2014)"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_a2e9332a73f5",
+      "found_lines": [
+        522
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "No vote or recommendation was made because the planned advisory committee meeting was cancelled when the companion asunaprevir NDA was withdrawn.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_22f37165-6a9f-54f3-b4c2-e8c70c793bb5",
+      "line": 67,
+      "quote": "During the first cycle review of the DCV and ASV NDAs, an Advisory Committee was planned to discuss benefit risk and the hepatic safety concerns. This was cancelled when the ASV NDA was withdrawn."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_22f371656a9f",
+      "found_lines": [
+        67
+      ]
+    }
+  },
+  "linkages": [],
+  "no_adcom_quote": {
+    "doc_type": "CrossR",
+    "doc_id": "fda_0b183787-88c2-5f9a-b5ff-973333278397",
+    "line": 125,
+    "quote": "An advisory committee meeting was not held for this application. No controversial safety or efficacy issues were identified that warranted an advisory committee discussion. The issues identified at the preNDA meeting and subsequent meetings were similar issues already addressed in previous HCV NDAs and did not require an advisory committee meeting."
+  },
+  "summary": "No FDA advisory committee meeting was convened for the approval of DAKLINZA (daclatasvir) for genotype 3 chronic HCV in combination with sofosbuvir. During the first review cycle, daclatasvir (DCV) was co-reviewed with asunaprevir (ASV, NDA206844), and an Antiviral/Antimicrobial Drugs Advisory Committee meeting was planned for November 17, 2014 to address hepatotoxicity and pyrexia/eosinophilia safety signals and overall benefit-risk; that meeting was cancelled when the ASV NDA was withdrawn on October 6, 2014, leading to a complete response for DCV. At the later resubmission/approval, the review team concluded there were no controversial safety or efficacy issues warranting an advisory committee discussion (DCV being the third NS5A inhibitor in its class), so no meeting was held and the approval was not shaped by any committee vote or linkage.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "fda_0b18378788c2",
+    "found_lines": [
+      125
+    ]
+  }
+}

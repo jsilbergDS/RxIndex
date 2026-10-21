@@ -1,0 +1,47 @@
+{
+  "app": "NDA202714",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "approval_program.fast_track.basis",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flag: '6' is part of the date 'January 6, 2011' and is excluded by rule."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flags: '171', '003', '009' are fragments of study IDs (PX-171-003, PX-171-009), which are excluded by rule."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/fast_track/basis",
+        "number": "6",
+        "text": "Fast Track Designation granted January 6, 2011."
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "171",
+        "text": "KYPROLIS received accelerated approval under 21 CFR 314.500 based on overall res"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "003",
+        "text": "KYPROLIS received accelerated approval under 21 CFR 314.500 based on overall res"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "171",
+        "text": "KYPROLIS received accelerated approval under 21 CFR 314.500 based on overall res"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "009",
+        "text": "KYPROLIS received accelerated approval under 21 CFR 314.500 based on overall res"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "app": "NDA203441",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "False-positive flag: '0.05' is part of the dose 'teduglutide 0.05 mg/kg/day', not an efficacy/safety N; doses are excluded from uncited-number checks."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "0.05",
+        "text": "N=86 (43 placebo, 43 teduglutide 0.05 mg/kg/day)"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "app": "BLA761107",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "medium",
+      "issue": "The AE-rate percentages (infections 56%, hypertension 41%, etc.) are drawn from the safety population of N=34 while the trial population elsewhere is N=27; the safety N=34 is not stated in the field, creating a potential inconsistency a reader could misread as N=27 rates."
+    },
+    {
+      "field": "post_marketing[0].requirement",
+      "severity": "medium",
+      "issue": "Final report date '06/2023' is not contained in the citation quote (uncited)."
+    },
+    {
+      "field": "post_marketing[1].requirement",
+      "severity": "medium",
+      "issue": "Final report date '08/2021' is not contained in the citation quote (uncited)."
+    },
+    {
+      "field": "post_marketing[2].requirement",
+      "severity": "medium",
+      "issue": "Final report date '12/2021' is not contained in the citation quote (uncited)."
+    },
+    {
+      "field": "post_marketing[3].requirement",
+      "severity": "medium",
+      "issue": "Final report date '12/2020' is not contained in the citation quote (uncited)."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Flagged uncited numbers '20' (from '\u226520%') and '2' (from 'fatal 2 (6%)') are false positives: threshold '\u226520%' is supported by the AE-table structure and '2 (6%)' is verbatim in the serious-AE citation."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged uncited numbers (20, 2018, 19) are dates present in the receipt_date/review-completion citation elsewhere; false positive, not a real problem."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged '0501' and '04' are parts of trial identifier NI-0501-04 and are supported by trial citations; false positive."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "20",
+        "text": "Most common adverse reactions (\u226520%): infections (56%), hypertension (41%), infu"
+      },
+      {
+        "field": "key_safety",
+        "number": "2",
+        "text": "Most common adverse reactions (\u226520%): infections (56%), hypertension (41%), infu"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "20",
+        "text": "BLA received March 20, 2018 with review completion November 19, 2018 and approva"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2018",
+        "text": "BLA received March 20, 2018 with review completion November 19, 2018 and approva"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "19",
+        "text": "BLA received March 20, 2018 with review completion November 19, 2018 and approva"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2018",
+        "text": "BLA received March 20, 2018 with review completion November 19, 2018 and approva"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "06",
+        "text": "PMC 3520-1: Submit the complete final clinical study report from Study NI-0501-0"
+      },
+      {
+        "field": "post_marketing[0]/requirement",
+        "number": "2023",
+        "text": "PMC 3520-1: Submit the complete final clinical study report from Study NI-0501-0"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "08",
+        "text": "PMC 3520-2: Submit the complete final study report from Study NI-0501-06, a pilo"
+      },
+      {
+        "field": "post_marketing[1]/requirement",
+        "number": "2021",
+        "text": "PMC 3520-2: Submit the complete final study report from Study NI-0501-06, a pilo"
+      },
+      {
+        "field": "post_marketing[2]/requirement",
+        "number": "2021",
+        "text": "PMC 3520-3: Re-evaluate emapalumab drug substance lot release and stability spec"
+      },
+      {
+        "field": "post_marketing[3]/requirement",
+        "number": "2020",
+        "text": "PMC 3520-4: Re-evaluate emapalumab drug product lot release and stability specif"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "0501",
+        "text": "Emapalumab received Breakthrough Therapy designation (March 11, 2016) and Orphan"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "04",
+        "text": "Emapalumab received Breakthrough Therapy designation (March 11, 2016) and Orphan"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

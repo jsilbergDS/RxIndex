@@ -1,0 +1,41 @@
+{
+  "app": "BLA761121",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "high",
+      "issue": "Result states 'CR rate ... 40% (95% CI 25, 57)' but the citation table shows 16 (40) with CI (25, 57) for CR; the difference '22% (95% CI 3, 41)' is supported, however the field omits the objective response numbers\u2014this is acceptable, but the CR 40% vs BR 18% and difference values match the quote, so no numeric error (dismiss as verified)."
+    },
+    {
+      "field": "population.text",
+      "severity": "medium",
+      "issue": "States 'median 2 prior therapies' and '80% refractory to last therapy' which are supported, but the population is drawn from the 80-patient randomized cohort while the indication is for patients after at least two prior therapies (a 45-patient DLBCL subgroup); minor population/indication mismatch not clearly reconciled."
+    },
+    {
+      "field": "indication.text",
+      "severity": "high",
+      "issue": "Indication says 'after at least two prior therapies' but the pivotal trial population citation describes patients with 'at least one prior regimen' and includes 29% with only one prior therapy, creating an inconsistency between the labeled indication and the trial population described."
+    },
+    {
+      "field": "approval_program.confirmatory_requirement.citations[0]",
+      "severity": "medium",
+      "issue": "The quote references 'submission dated June 4, 2019' whereas receipt_date lists 11/21/2018 and 12/19/2018; the date is within the quote so not an uncited number, but flag as potential source/date inconsistency for reviewer."
+    },
+    {
+      "field": "advisory_committee.vote.text",
+      "severity": "low",
+      "issue": "Field text omits 'or other external consultants' present in the citation quote; minor paraphrase but not misleading."
+    },
+    {
+      "field": "_meta.receipt_date",
+      "severity": "low",
+      "issue": "Two receipt dates (11/21/2018, 12/19/2018) are listed verbatim from the source; acceptable but reviewer should confirm which is the operative filing date."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

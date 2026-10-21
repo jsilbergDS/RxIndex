@@ -1,0 +1,37 @@
+{
+  "app": "NDA201292",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "companion_dx.detail",
+      "severity": "low",
+      "issue": "False positive flag: 'exon 19' and 'exon 21' are part of the mutation/diagnostic name (supported by the indication citation), not uncited efficacy/safety numbers."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False positive flag: '1200.32' is a study identifier, which is excluded from uncited-number checks."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "companion_dx/detail",
+        "number": "19",
+        "text": "therascreen EGFR RGQ PCR Kit detecting EGFR exon 19 deletions and exon 21 (L858R"
+      },
+      {
+        "field": "companion_dx/detail",
+        "number": "21",
+        "text": "therascreen EGFR RGQ PCR Kit detecting EGFR exon 19 deletions and exon 21 (L858R"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "1200.32",
+        "text": "Gilotrif (afatinib) received a standard full (non-accelerated) approval under pr"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -54,6 +54,9 @@ for fp in sorted(glob.glob(str(SRC / "*.json"))):
     app = d["app_key"]
     c = d.get("card", {})
     m = d.get("_meta", {})
+    if not isinstance(c, dict):     # malformed card (e.g. saved as a string) — skip, don't abort the whole run
+        print(f"  SKIP {app}: card is {type(c).__name__}, not a dict", flush=True)
+        continue
     ap = c.get("approval_program", {}) or {}
 
     def present(k):

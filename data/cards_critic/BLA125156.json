@@ -1,0 +1,73 @@
+{
+  "app": "BLA125156",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting value: line 1 column 1 (char 0)",
+  "_raw": "<think>\nLet me analyze the card carefully.\n\nKey areas to check:\n\n**Pivotal Trials:**\n\nTrial 1 (MARINA, FVF2598g):\n- result text: \"95% LUCENTIS 0.5 mg vs 62% sham (difference 32%, 95% CI 26%, 39%); gain of >=15 letters 34% vs 5% (difference 29%); mean change +7.2 vs -10.5 letters; p<0.01\"\n- Citations",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study FVF2598g (Study 1; MARINA)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "15",
+        "text": "At Month 12, loss of <15 letters: 95% LUCENTIS 0.5 mg vs 62% sham (difference 32"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.5",
+        "text": "At Month 12, loss of <15 letters: 95% LUCENTIS 0.5 mg vs 62% sham (difference 32"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "15",
+        "text": "At Month 12, loss of <15 letters: 95% LUCENTIS 0.5 mg vs 62% sham (difference 32"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Study FVF2587g (Study 2; ANCHOR)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "12",
+        "text": "At Month 12, loss of <15 letters: 96% LUCENTIS 0.5 mg vs 64% verteporfin PDT (di"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "15",
+        "text": "At Month 12, loss of <15 letters: 96% LUCENTIS 0.5 mg vs 64% verteporfin PDT (di"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.5",
+        "text": "At Month 12, loss of <15 letters: 96% LUCENTIS 0.5 mg vs 64% verteporfin PDT (di"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "15",
+        "text": "At Month 12, loss of <15 letters: 96% LUCENTIS 0.5 mg vs 64% verteporfin PDT (di"
+      },
+      {
+        "field": "pivotal_trials[2]/n",
+        "number": "184",
+        "text": "184 randomized (63 sham, 60 ranibizumab 0.3mg, 61 ranibizumab 0.5mg)"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "12",
+        "text": "At Month 12, mean change in BCVA: -0.2 letters LUCENTIS 0.5 mg vs -16.3 letters "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "125156",
+        "text": "BLA 125156 for Lucentis (ranibizumab injection), a VEGF inhibitor, was a priorit"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

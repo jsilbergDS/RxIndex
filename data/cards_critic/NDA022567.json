@@ -1,0 +1,33 @@
+{
+  "app": "NDA022567",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 286)",
+  "_raw": "Analyzing the card against all check categories.\n\n{\n \"app\": \"NDA022567\",\n \"release_ready\": true,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[0].n\",\n   \"severity\": \"low\",\n   \"issue\": \"Flagged number 463 is the sum of cited components (placebo 231 + vilazodone 232 = 463), both of which appear verbati",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study CLDA-07-DP-02 (Study 1)"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "463",
+        "text": "N=463 (placebo 231, vilazodone 232)"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Study GNSC-04-DP-02 (Study 2)"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "397",
+        "text": "N=397 (placebo 199, vilazodone 198)"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

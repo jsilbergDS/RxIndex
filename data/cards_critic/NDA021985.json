@@ -1,0 +1,88 @@
+{
+  "app": "NDA021985",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "low",
+      "issue": "Text labels SBP as a 'secondary endpoint' but the citation only states SBP results were 'similar,' not that it was a formal secondary endpoint.",
+      "field_note": "minor overclaim"
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Hypotension is listed as a serious risk but none of the citation quotes mention hypotension."
+    },
+    {
+      "field": "first_cycle_approval/detail",
+      "severity": "low",
+      "issue": "Automated uncited_numbers flags (13, 2006, 5, 2007) are dates and are false positives per date-exclusion rule."
+    },
+    {
+      "field": "receipt_date",
+      "severity": "low",
+      "issue": "Automated uncited_numbers flags (02, 06) are date components and are false positives per date-exclusion rule."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "Automated uncited_numbers flags (13, 2006, 5, 2007) are dates and are false positives per date-exclusion rule."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "13",
+        "text": "Application received February 13, 2006 and approved March 5, 2007 following revi"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2006",
+        "text": "Application received February 13, 2006 and approved March 5, 2007 following revi"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "5",
+        "text": "Application received February 13, 2006 and approved March 5, 2007 following revi"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2007",
+        "text": "Application received February 13, 2006 and approved March 5, 2007 following revi"
+      },
+      {
+        "field": "receipt_date",
+        "number": "02",
+        "text": "02/13/06 (received February 13, 2006)"
+      },
+      {
+        "field": "receipt_date",
+        "number": "06",
+        "text": "02/13/06 (received February 13, 2006)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "13",
+        "text": "Tekturna (aliskiren), an oral direct renin inhibitor and the first renin inhibit"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2006",
+        "text": "Tekturna (aliskiren), an oral direct renin inhibitor and the first renin inhibit"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "5",
+        "text": "Tekturna (aliskiren), an oral direct renin inhibitor and the first renin inhibit"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2007",
+        "text": "Tekturna (aliskiren), an oral direct renin inhibitor and the first renin inhibit"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

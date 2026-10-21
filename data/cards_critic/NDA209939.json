@@ -1,0 +1,52 @@
+{
+  "app": "NDA209939",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "modality.text",
+      "severity": "medium",
+      "issue": "Text claims 'Small molecule' but the citation only states 'new molecular entity, not yet marketed'; the small-molecule characterization is unsupported by its quote."
+    },
+    {
+      "field": "approval_program.summary.text",
+      "severity": "low",
+      "issue": "Summary states Fast Track (2011) and Orphan Drug (2011) designation years, but the summary's own citations do not contain 2011; the years are supported only in the fast_track/orphan_drug fields, not here."
+    },
+    {
+      "field": "key_safety.text",
+      "severity": "low",
+      "issue": "Flagged number '2' refers to the '\u22652% over placebo' selection threshold descriptor, not an efficacy/safety result; false-positive flag."
+    },
+    {
+      "field": "approval_program.summary.text",
+      "severity": "low",
+      "issue": "Flagged number '3' refers to 'Phase 3', a phase descriptor rather than an uncited efficacy/safety result; false-positive flag."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "2",
+        "text": "Most common adverse reactions (\u226510%, \u22652% over placebo): nausea (27% vs 23%), dia"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2011",
+        "text": "PREVYMIS (letermovir), a first-in-class small-molecule CMV DNA terminase complex"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2011",
+        "text": "PREVYMIS (letermovir), a first-in-class small-molecule CMV DNA terminase complex"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "PREVYMIS (letermovir), a first-in-class small-molecule CMV DNA terminase complex"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

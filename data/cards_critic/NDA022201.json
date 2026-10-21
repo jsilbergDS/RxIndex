@@ -1,0 +1,77 @@
+{
+  "app": "NDA022201",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Automated uncited-number flags for 240/160/80/7.5 are dose-regimen identifiers, not efficacy/safety stats; false positives excluded by rule."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "Flags for 0.5 (testosterone threshold ng/mL) and 28/364 (study days) are thresholds/dates, not efficacy stats; false positives."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "Flags for 240/80 are dose-arm identifiers, not AE rates; false positives."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "240",
+        "text": "610 patients in the active-controlled analysis (degarelix 240/160 mg N=202, dega"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "160",
+        "text": "610 patients in the active-controlled analysis (degarelix 240/160 mg N=202, dega"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "240",
+        "text": "610 patients in the active-controlled analysis (degarelix 240/160 mg N=202, dega"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "80",
+        "text": "610 patients in the active-controlled analysis (degarelix 240/160 mg N=202, dega"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "7.5",
+        "text": "610 patients in the active-controlled analysis (degarelix 240/160 mg N=202, dega"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.5",
+        "text": "Probability of medical castration (testosterone \u2264 0.5 ng/mL, Day 28\u2013364) was 98."
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "28",
+        "text": "Probability of medical castration (testosterone \u2264 0.5 ng/mL, Day 28\u2013364) was 98."
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "364",
+        "text": "Probability of medical castration (testosterone \u2264 0.5 ng/mL, Day 28\u2013364) was 98."
+      },
+      {
+        "field": "key_safety",
+        "number": "240",
+        "text": "Most common adverse reactions (\u226510%) were injection site reactions, hot flashes,"
+      },
+      {
+        "field": "key_safety",
+        "number": "80",
+        "text": "Most common adverse reactions (\u226510%) were injection site reactions, hot flashes,"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "app": "NDA211371",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting value: line 1 column 1 (char 0)",
+  "_raw": "<think>\nLet me analyze this card.\n\nKey checks:\n\n1. Completeness \u2014 indication, pivotal_trials, target_moa, modality, key_safety, receipt_date, first_cycle_approval present. All there.\n\n2. Citation support checks.\n\npivotal_trials[0].n: \"N=138 (placebo 43, brexanolone total 79)\". The quote: \"202B\\t3\\t0",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "547",
+        "text": "Study 547-PPD-202B"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "60",
+        "text": "At Hour 60, placebo-subtracted difference in HAM-D change for 90 \u00b5g/kg/h was -3."
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "60",
+        "text": "At Hour 60, placebo-subtracted difference in HAM-D change for 90 \u00b5g/kg/h was -3."
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "547",
+        "text": "Study 547-PPD-202C"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "60",
+        "text": "Randomized, double-blind, placebo-controlled study of brexanolone 90 \u00b5g/kg/h vs "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "60",
+        "text": "At Hour 60, placebo-subtracted difference in HAM-D change was -2.5 (95% CI -4.5,"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

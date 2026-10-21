@@ -1,0 +1,145 @@
+{
+  "app": "NDA206316",
+  "drug": "SAVAYSA",
+  "docs_read": [
+    {
+      "doc_type": "CrossR",
+      "doc_id": "85104baa-1bd5-569c-b809-8f8471bae2d1"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "6c657e53-885a-5f56-875c-64c14b5157bb"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "a224042e-17d6-5933-8bb8-fc5828a73ffa"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "ecc8b4b0-ef33-5d18-93d7-ae1706cfbe64"
+    },
+    {
+      "doc_type": "Label",
+      "doc_id": "8246d6c7-81e9-5d26-8edd-1aa101ec169f"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Cardiovascular and Renal Drugs Advisory Committee (CRDAC)",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "85104baa-1bd5-569c-b809-8f8471bae2d1",
+      "line": 170,
+      "quote": "The atrial fibrillation indication was presented and discussed at a meeting of the Cardiovascular and Renal Drugs Advisory Committee (CRDAC) meeting on Oct 30, 2014"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "85104baa-1bd5-569c-b809-8f8471bae2d1",
+      "found_lines": [
+        170
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "October 30, 2014",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "85104baa-1bd5-569c-b809-8f8471bae2d1",
+      "line": 512,
+      "quote": "A meeting of the CRDAC was held on October 30, 2014 regarding edoxaban."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "85104baa-1bd5-569c-b809-8f8471bae2d1",
+      "found_lines": [
+        512
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 9 in favor and 1 against approval of edoxaban for the atrial fibrillation indication. Of those voting to approve, most (5) favored the 60 mg dose for patients with normal or mildly impaired renal function, while only 2 supported a dose higher than 60 mg for normal renal function.",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "85104baa-1bd5-569c-b809-8f8471bae2d1",
+      "line": 515,
+      "quote": "The vote regarding approval was 9 in favor, and 1 against."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "85104baa-1bd5-569c-b809-8f8471bae2d1",
+      "found_lines": [
+        515
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The advisory committee focused on the interaction between edoxaban efficacy and renal function\u2014specifically the reduced efficacy (increased ischemic stroke) of the 60 mg dose in nonvalvular atrial fibrillation patients with normal renal function (high CrCL).",
+      "change": "The approved labeling added a Limitations of Use and Boxed Warning stating SAVAYSA should not be used in patients with CrCL > 95 mL/min, directing such patients to another anticoagulant.",
+      "category": "Efficacy / Boxed warning / Population restriction",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "85104baa-1bd5-569c-b809-8f8471bae2d1",
+        "line": 512,
+        "quote": "A meeting of the CRDAC was held on October 30, 2014 regarding edoxaban. The focus of the meeting was the interaction of efficacy and renal function.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "85104baa-1bd5-569c-b809-8f8471bae2d1",
+          "found_lines": [
+            512
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "a224042e-17d6-5933-8bb8-fc5828a73ffa",
+        "line": 24,
+        "quote": "Subsequent to discussions between DCRP and the Sponsor, including a meeting of the Cardiovascular and Renal Drugs Advisory Committee (AC), the final agreed upon AF indication includes a 'Limitations of Use' in select patients based on creatinine clearance (CrCL) level, which draws upon DCRP's subgroup analysis showing a relationship between efficacy and renal function.4 Edoxaban labeling includes related language that aligns with these findings in the Boxed Warning, Indications and Usage, Dosage and Administration, Warnings and Precautions and Clinical Studies sections of labeling.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "a224042e-17d6-5933-8bb8-fc5828a73ffa",
+          "found_lines": [
+            24
+          ]
+        }
+      }
+    },
+    {
+      "concern": "There was debate over whether to approve a dose higher than the 60 mg studied in ENGAGE AF for patients with normal renal function to overcome reduced efficacy; the advisory committee did not support approving such a higher-than-studied dose (only 2 members in favor).",
+      "change": "No dose higher than 60 mg was approved; instead the maximum recommended dose remained 60 mg and patients with CrCL > 95 mL/min were restricted from use (directed to another anticoagulant).",
+      "category": "Dose selection",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "6c657e53-885a-5f56-875c-64c14b5157bb",
+        "line": 109,
+        "quote": "the advisory committee, except for 2 members, did not support such a step.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "6c657e53-885a-5f56-875c-64c14b5157bb",
+          "found_lines": [
+            109
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Label",
+        "doc_id": "8246d6c7-81e9-5d26-8edd-1aa101ec169f",
+        "line": 10,
+        "quote": "SAVAYSA should not be used in patients with CrCL &gt; 95 mL/min. In the ENGAGE AF-TIMI 48 study, nonvalvular atrial fibrillation patients with CrCL &gt; 95 mL/min had an increased rate of ischemic stroke with SAVAYSA 60 mg once daily compared to patients treated with warfarin. In these patients another anticoagulant should be used (5.1).",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "8246d6c7-81e9-5d26-8edd-1aa101ec169f",
+          "found_lines": [
+            10,
+            49,
+            93
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "A Cardiovascular and Renal Drugs Advisory Committee (CRDAC) meeting was held on October 30, 2014 for the SAVAYSA (edoxaban) atrial fibrillation indication, centered on the interaction between efficacy and renal function. The committee voted 9-1 in favor of approval, but did not support approving a higher-than-studied dose for patients with normal renal function (only 2 of 10 members favored a dose above 60 mg). Following the AC, the approved labeling added a Limitations of Use and Boxed Warning restricting use in patients with CrCL > 95 mL/min, who were directed to use another anticoagulant."
+}

@@ -1,0 +1,137 @@
+{
+  "app": "NDA022526",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "advisory_committee.vote",
+      "severity": "low",
+      "issue": "The '24 voting members' and '18 voted' numbers are supported by the citation, but the vote text asserts the AC 'met June 4, 2015' \u2014 the date is fine; however the breakdown of 18-vs-6 is cited. The flagged '6' appears verbatim in the citation ('Six of these members voted against'), so this is a false positive flag."
+    },
+    {
+      "field": "advisory_committee.vote",
+      "severity": "low",
+      "issue": "uncited_numbers flag for '6' is a false positive \u2014 the citation states 'Six of these members voted against approval,' which supports it."
+    },
+    {
+      "field": "pivotal_trials[0].endpoint",
+      "severity": "low",
+      "issue": "uncited_number '24' (Week 24) is a false positive \u2014 trial duration of 24 weeks is supported by the design citation '24 weeks.'"
+    },
+    {
+      "field": "pivotal_trials[1].endpoint",
+      "severity": "low",
+      "issue": "uncited_number '24' is a false positive \u2014 24-week duration supported by design citation."
+    },
+    {
+      "field": "pivotal_trials[2].endpoint",
+      "severity": "low",
+      "issue": "uncited_number '24' is a false positive \u2014 '24-week' appears in the design citation."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "uncited_number '1' is a false positive \u2014 the 'Study 1' label is an editorial trial ordinal, not an efficacy/safety number."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "uncited_number '2' is a false positive \u2014 ordinal study label, not a data number."
+    },
+    {
+      "field": "pivotal_trials[2].trial_name",
+      "severity": "low",
+      "issue": "uncited_number '3' is a false positive \u2014 ordinal study label (Study 3 is cited at line 183 as 'the third trial')."
+    },
+    {
+      "field": "post_marketing[6].requirement",
+      "severity": "low",
+      "issue": "uncited_numbers '2939' and '7' are false positives \u2014 PMR identifiers, not efficacy/safety data (the stem '2939' is a study ID)."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "uncited_numbers '3' (third review cycle) and '2015' (AC date) are false positives \u2014 supported by cited 'third review cycle' text and the advisory committee June 4, 2015 date."
+    },
+    {
+      "field": "pivotal_trials[1].n",
+      "severity": "medium",
+      "issue": "n text labels '365 ADDYI vs 372 placebo' as the full analysis set for Study 2, but the n=365/n=372 citation column is unlabeled and (by the median-diff/CI column mapping) actually corresponds to Study 1, not Study 2; the ADDYI-vs-placebo attribution to Study 2 is not clearly supported."
+    },
+    {
+      "field": "pivotal_trials[2].design",
+      "severity": "low",
+      "issue": "Design states '24 weeks' citing the generic three-trial sentence rather than a Study-511.147-specific row; acceptable but weaker than the other trials' direct design citations."
+    },
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "The AE citation column order ('Dizziness 2.2% 11.4%') lists placebo first then ADDYI; the card correctly maps 11.4% to ADDYI vs 2.2% placebo, so this is consistent \u2014 noting only that the column labels must be verified against source."
+    },
+    {
+      "field": "receipt_date",
+      "severity": "low",
+      "issue": "receipt_date gives Feb 18, 2015 (resubmission) as primary with original NDA Oct 27, 2009 parenthetically \u2014 both dates are cited; acceptable."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "Study 511.71 (Study 1)"
+      },
+      {
+        "field": "pivotal_trials[0]/endpoint",
+        "number": "24",
+        "text": "Two co-primary endpoints: change from baseline to Week 24 in monthly satisfying "
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "Study 511.75 (Study 2)"
+      },
+      {
+        "field": "pivotal_trials[1]/endpoint",
+        "number": "24",
+        "text": "Co-primary endpoints: change from baseline to Week 24 in monthly SSEs and in eDi"
+      },
+      {
+        "field": "pivotal_trials[2]/trial_name",
+        "number": "3",
+        "text": "Study 511.147 (Study 3)"
+      },
+      {
+        "field": "pivotal_trials[2]/endpoint",
+        "number": "24",
+        "text": "Co-primary endpoints: change from baseline to Week 24 in monthly SSEs and in FSF"
+      },
+      {
+        "field": "advisory_committee/vote",
+        "number": "6",
+        "text": "Joint Bone, Reproductive and Urologic Drugs AC and Drug Safety and Risk Manageme"
+      },
+      {
+        "field": "post_marketing[6]/requirement",
+        "number": "2939",
+        "text": "2939-7 Alcohol Interaction Trial in the Target Female Population (ages 18 to 44)"
+      },
+      {
+        "field": "post_marketing[6]/requirement",
+        "number": "7",
+        "text": "2939-7 Alcohol Interaction Trial in the Target Female Population (ages 18 to 44)"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Flibanserin, a new molecular entity, was approved under section 505(b) in its th"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2015",
+        "text": "Flibanserin, a new molecular entity, was approved under section 505(b) in its th"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "app": "NDA202192",
+  "drug": "JAKAFI",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_00a01f30-120e-5836-9ec4-16ea0e41dbe5"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_9a34fbe2-c799-56a2-94a5-1c955654f386"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Oncology Drugs Advisory Committee (not convened)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_00a01f30-120e-5836-9ec4-16ea0e41dbe5",
+      "line": 59,
+      "quote": "An Oncology Drugs Advisory Committee meeting is not planned for this submission, because the benefits of ruxolitinib in spleen volume reduction and symptom control are evident in the results of two adequate and well-controlled trials, while adverse reactions appear to be manageable."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_00a01f30120e",
+      "found_lines": [
+        59
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "None (no meeting held)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_00a01f30-120e-5836-9ec4-16ea0e41dbe5",
+      "line": 58,
+      "quote": "## 9. Advisory Committee Meeting"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_00a01f30120e",
+      "found_lines": [
+        58
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "No advisory committee meeting was planned or held; therefore no committee recommendation or vote was made.",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_9a34fbe2-c799-56a2-94a5-1c955654f386",
+      "line": 1404,
+      "quote": "No advisory committee meeting is planned."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_9a34fbe2c799",
+      "found_lines": [
+        1404
+      ]
+    }
+  },
+  "linkages": [],
+  "no_adcom_quote": {
+    "doc_type": "SumR",
+    "doc_id": "fda_00a01f30-120e-5836-9ec4-16ea0e41dbe5",
+    "line": 59,
+    "quote": "An Oncology Drugs Advisory Committee meeting is not planned for this submission, because the benefits of ruxolitinib in spleen volume reduction and symptom control are evident in the results of two adequate and well-controlled trials, while adverse reactions appear to be manageable."
+  },
+  "summary": "No advisory committee was convened for the Jakafi (ruxolitinib) NDA 202192 approval. The FDA Summary Review and medical review both state that an Oncology Drugs Advisory Committee meeting was not planned, because the benefits in spleen volume reduction and symptom control were evident from two adequate and well-controlled trials and the adverse reactions appeared manageable. With no committee meeting, there were no AdComm-driven changes to the approval.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "fda_00a01f30120e",
+    "found_lines": [
+      59
+    ]
+  }
+}

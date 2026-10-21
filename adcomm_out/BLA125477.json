@@ -1,0 +1,92 @@
+{
+  "app": "BLA125477",
+  "drug": "CYRAMZA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_a01b7ce7-5506-5f10-ac90-88b09527bdb8"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_c07039bf-6bdb-5e97-b603-9d4a67df9b67"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_908e7e46-322c-52a0-b84d-4a707ddcec7c"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_8cdc915a-2c8a-5515-a0ca-46807fd17221"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_183527fe-3e41-564e-a617-198e5cf1ef1b"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Oncologic Drugs Advisory Committee (ODAC) \u2014 considered but no meeting convened",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_c07039bf-6bdb-5e97-b603-9d4a67df9b67",
+      "line": 341,
+      "quote": "Although FDA planned for an advisory committee meeting upon submission of the application (based solely on the results of Trial JVBD), the review team determined that an ODAC meeting was not necessary following the submission of data from Trial JVBE that confirmed the OS results observed in Trial JVBD."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_c07039bf6bdb",
+      "found_lines": [
+        341,
+        752
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "No advisory committee meeting was held",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_908e7e46-322c-52a0-b84d-4a707ddcec7c",
+      "line": 46,
+      "quote": "This new molecular entity was not referred to the Oncologic Drugs Advisory Committee because the application did not raise significant public health questions on the role of ramucirumab for the treatment of patients with relapsed or refractory metastatic gastric adenocarcinoma, and outside expertise was not necessary since there were no controversial issues that would benefit from advisory committee discussion."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_908e7e46322c",
+      "found_lines": [
+        46
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "No advisory committee vote or recommendation \u2014 meeting not convened",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_8cdc915a-2c8a-5515-a0ca-46807fd17221",
+      "line": 1008,
+      "quote": "This application was not referred to ODAC because outside expertise was not necessary as there were no controversial issues that would benefit from advisory committee discussion."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_8cdc915a2c8a",
+      "found_lines": [
+        1008
+      ]
+    }
+  },
+  "linkages": [],
+  "no_adcom_quote": {
+    "doc_type": "ODMemo",
+    "doc_id": "fda_908e7e46-322c-52a0-b84d-4a707ddcec7c",
+    "line": 46,
+    "quote": "This new molecular entity was not referred to the Oncologic Drugs Advisory Committee because the application did not raise significant public health questions on the role of ramucirumab for the treatment of patients with relapsed or refractory metastatic gastric adenocarcinoma, and outside expertise was not necessary since there were no controversial issues that would benefit from advisory committee discussion."
+  },
+  "summary": "No advisory committee meeting was convened for BLA125477 (ramucirumab/CYRAMZA). FDA initially planned an Oncologic Drugs Advisory Committee (ODAC) meeting based on Trial JVBD alone, but the review team determined a meeting was unnecessary after Trial JVBE (RAINBOW) confirmed the overall survival results and because the application raised no controversial safety or efficacy issues requiring outside expertise. Because no meeting was held, there are no AdComm-driven linkages to the approval.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "fda_908e7e46322c",
+    "found_lines": [
+      46
+    ]
+  }
+}

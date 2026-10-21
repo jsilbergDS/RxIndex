@@ -1,0 +1,57 @@
+{
+  "app": "BLA761156",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flagged number '2020' is part of the PDUFA goal date (August 28, 2020); dates are excluded, so this is a false-positive flag."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged numbers '28', '2019', '2020' are date components (received August 28, 2019; approved August 2020) and are false positives."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flagged number '4054' is a study identifier (Study 4054) and '3' derives from 'Phase 3'; both are false-positive uncited-number flags."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2020",
+        "text": "Approved on first cycle; BLA received August 28, 2019, PDUFA goal date August 28"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "28",
+        "text": "Sogroya (somapacitan-beco) received traditional (full) approval via a standard-r"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2019",
+        "text": "Sogroya (somapacitan-beco) received traditional (full) approval via a standard-r"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2020",
+        "text": "Sogroya (somapacitan-beco) received traditional (full) approval via a standard-r"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Sogroya (somapacitan-beco) received traditional (full) approval via a standard-r"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "4054",
+        "text": "Sogroya (somapacitan-beco) received traditional (full) approval via a standard-r"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

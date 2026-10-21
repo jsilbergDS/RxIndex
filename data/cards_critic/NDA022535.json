@@ -1,0 +1,78 @@
+{
+  "app": "NDA022535",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 603)",
+  "_raw": "Analyzing the card for issues.\n\n{\n \"app\": \"NDA022535\",\n \"release_ready\": false,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[0].result\",\n   \"severity\": \"high\",\n   \"issue\": \"Result mixes two different outcome measures: the -3.7/-6.6/2.9 values are %predicted FVC decline, but the -235 mL/-428 mL/193 m",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "52",
+        "text": "Study 016 (ASCEND), a 52-week Phase 3 trial, submitted with the NDA resubmission"
+      },
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "3",
+        "text": "Study 016 (ASCEND), a 52-week Phase 3 trial, submitted with the NDA resubmission"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "72",
+        "text": "Study 004 (Study 2 in the label), a 72-week Phase 3 trial submitted with the ini"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "3",
+        "text": "Study 004 (Study 2 in the label), a 72-week Phase 3 trial submitted with the ini"
+      },
+      {
+        "field": "pivotal_trials[1]/n",
+        "number": "435",
+        "text": "N=435 (pirfenidone 2403 mg/day n=174, pirfenidone 1197 mg/day n=87, placebo n=17"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "72",
+        "text": "Mean change in %predicted FVC to week 72 was -8.0 (pirfenidone 2403 mg/day) vs -"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "2403",
+        "text": "Mean change in %predicted FVC to week 72 was -8.0 (pirfenidone 2403 mg/day) vs -"
+      },
+      {
+        "field": "pivotal_trials[2]/trial_name",
+        "number": "72",
+        "text": "Study 006 (Study 3 in the label), a 72-week Phase 3 trial submitted with the ini"
+      },
+      {
+        "field": "pivotal_trials[2]/n",
+        "number": "344",
+        "text": "N=344 (pirfenidone 2403 mg/day n=171, placebo n=173)"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "72",
+        "text": "Mean change in %predicted FVC to week 72 was -9.0 (pirfenidone 2403 mg/day) vs -"
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "2403",
+        "text": "Mean change in %predicted FVC to week 72 was -9.0 (pirfenidone 2403 mg/day) vs -"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "4",
+        "text": "Pirfenidone, a new molecular entity (pyridone), was granted orphan drug, fast tr"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2010",
+        "text": "Pirfenidone, a new molecular entity (pyridone), was granted orphan drug, fast tr"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

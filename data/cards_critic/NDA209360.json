@@ -1,0 +1,87 @@
+{
+  "app": "NDA209360",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].phase",
+      "severity": "medium",
+      "issue": "Text asserts 'Phase 3' but the citation only states the trial is an adequate and well-controlled investigation; the Phase 3 designation is not supported by any quote."
+    },
+    {
+      "field": "pivotal_trials[0].population",
+      "severity": "low",
+      "issue": "MAP range '55 to 70 mmHg' is supported, but the text folds catechol-resistant into the parenthetical; acceptable \u2014 the 'catechol resistant hypotension' phrasing is cited (line 87)."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "medium",
+      "issue": "Detail states the approval was 'effective on the date of the December 21, 2017 approval letter,' but the cited quote only says 'effective on the date of this letter' and contains no date; the December 21, 2017 date is uncited."
+    },
+    {
+      "field": "approval_program.priority_review.basis",
+      "severity": "low",
+      "issue": "Cited quote is truncated mid-sentence ('we are taking steps so th') but still verbatim-supports the priority review grant; acceptable but low-quality quote."
+    },
+    {
+      "field": "modality",
+      "severity": "low",
+      "issue": "Flag on '8' (8-amino-acid) is a near-false-positive: the cited chemical name lists exactly 8 residues, so the claim is derivable though the number itself is not quoted."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Flags on '29/21/2017' are date-related false positives from the date exclusion; the receipt date 6/29/2017 is cited (receipt_date), only the approval date remains uncited."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Flags on '6/29/2017' are false positives; the submission date is cited via receipt_date."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "modality",
+        "number": "8",
+        "text": "Peptide (synthetic human angiotensin II, an 8-amino-acid peptide hormone)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "29",
+        "text": "The NDA received June 29, 2017 was approved effective on the date of the Decembe"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2017",
+        "text": "The NDA received June 29, 2017 was approved effective on the date of the Decembe"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "21",
+        "text": "The NDA received June 29, 2017 was approved effective on the date of the Decembe"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2017",
+        "text": "The NDA received June 29, 2017 was approved effective on the date of the Decembe"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "6",
+        "text": "The NDA was submitted 6/29/2017 as a new molecular entity and granted Priority R"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "29",
+        "text": "The NDA was submitted 6/29/2017 as a new molecular entity and granted Priority R"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2017",
+        "text": "The NDA was submitted 6/29/2017 as a new molecular entity and granted Priority R"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

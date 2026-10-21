@@ -1,0 +1,33 @@
+{
+  "app": "NDA208051",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 469)",
+  "_raw": "Analyzing the card systematically against citations and flags.\n\n```json\n{\n  \"app\": \"NDA208051\",\n  \"release_ready\": false,\n  \"issues\": [\n    {\n      \"field\": \"pivotal_trials[0].result\",\n      \"severity\": \"medium\",\n      \"issue\": \"The '24 months' iDFS timepoint (94.2% vs 91.9%) is not supported; the c",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "3004",
+        "text": "ExteNET (Study 3004 / 3144A2-3004-WW)"
+      },
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "3004",
+        "text": "ExteNET (Study 3004 / 3144A2-3004-WW)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "24",
+        "text": "Primary analysis: 67 (4.7%) iDFS events on neratinib vs 106 (7.5%) on placebo; s"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "NERLYNX (neratinib) was a new molecular entity reviewed as a Standard NDA; appro"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

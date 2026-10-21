@@ -1,0 +1,179 @@
+{
+  "app": "NDA022225",
+  "drug": "BRIDION",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "5f3fbe31-df4f-555f-a7b2-614f0329388d"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "33403025-2eff-571c-b28e-94bbd336e6a8"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "854cb514-8b9c-53ae-94a8-75500fa5dd96"
+    },
+    {
+      "doc_type": "OtherR",
+      "doc_id": "28394683-a77d-5a49-9487-6a2abbea5982"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Anesthetic and Analgesic Drug Products Advisory Committee (AADPAC). (An earlier first-cycle meeting of the predecessor Anesthetic and Life Support Drugs Advisory Committee (ALSDAC) was held March 11, 2008.)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "5f3fbe31-df4f-555f-a7b2-614f0329388d",
+      "line": 103,
+      "quote": "This application was presented to the Anesthetic and Analgesic Drug Products Advisory Committee (AADPAC) on November 6, 2015."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "5f3fbe31-df4f-555f-a7b2-614f0329388d",
+      "found_lines": [
+        103
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "November 6, 2015 (approval-cycle AADPAC meeting). The first-cycle ALSDAC meeting was March 11, 2008.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "33403025-2eff-571c-b28e-94bbd336e6a8",
+      "line": 21,
+      "quote": "A meeting of the Anesthetic and Analgesic Drug Products Advisory Committee was held on November 6, 2015."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "33403025-2eff-571c-b28e-94bbd336e6a8",
+      "found_lines": [
+        21
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 14 yes / 0 no / 0 abstain that the efficacy, safety, and overall risk-benefit profile of sugammadex support approval. Supporting votes: 13 yes / 1 no that sufficient information characterized the risk of hypersensitivity/anaphylaxis, and 14 yes / 0 no that sufficient information characterized the risk of cardiac dysrhythmias.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "33403025-2eff-571c-b28e-94bbd336e6a8",
+      "line": 21,
+      "quote": "Voting to the question regarding whether the efficacy, safety and overall risk-benefit profile of sugammadex support the approval of this application resulted in 14 yes votes, with 0 no or abstain votes."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "33403025-2eff-571c-b28e-94bbd336e6a8",
+      "found_lines": [
+        21
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee recommended that better characterization of the patients who appeared to be non-responders (or had a delayed/absent response to sugammadex) would be important; such patients risk prolonged paralysis.",
+      "change": "FDA imposed a postmarketing requirement for the Applicant to conduct a study to determine what patient characteristics may predict a prolonged recovery, so that sugammadex administration can be avoided in those patients.",
+      "category": "Postmarketing requirement / non-responder characterization",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "OtherR",
+        "doc_id": "28394683-a77d-5a49-9487-6a2abbea5982",
+        "line": 57,
+        "quote": "However, they noted that it would be important to obtain information in patient populations that did not respond to the administration of sugammadex as expected.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "28394683-a77d-5a49-9487-6a2abbea5982",
+          "found_lines": [
+            57
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "OtherR",
+        "doc_id": "28394683-a77d-5a49-9487-6a2abbea5982",
+        "line": 57,
+        "quote": "Therefore, a postmarketing requirement will be imposed on the Applicant to conduct a study to determine what patient characteristics may predict a prolonged recovery, in which case sugammadex administration should be avoided.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "28394683-a77d-5a49-9487-6a2abbea5982",
+          "found_lines": [
+            57,
+            103,
+            143
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee noted it would be important to obtain safety information in patient populations not well-represented in the development program, specifically patients with significant comorbid conditions / less compensatory reserve for recovering from the hemodynamic effects of a sugammadex-related arrhythmia (ASA classification 3 and 4).",
+      "change": "FDA imposed a postmarketing requirement for the Applicant to conduct a clinical trial to support a risk-benefit determination for sugammadex in patients with less compensatory reserve, such as ASA classification 3 and 4 patients.",
+      "category": "Postmarketing requirement / population restriction (ASA 3-4 comorbidities)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "OtherR",
+        "doc_id": "28394683-a77d-5a49-9487-6a2abbea5982",
+        "line": 103,
+        "quote": "However, they noted it would be important to obtain safety information in certain patient populations that were not included to a significant extent in the program.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "28394683-a77d-5a49-9487-6a2abbea5982",
+          "found_lines": [
+            103,
+            143
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "OtherR",
+        "doc_id": "28394683-a77d-5a49-9487-6a2abbea5982",
+        "line": 103,
+        "quote": "Therefore, a postmarketing requirement will be imposed on the Applicant to conduct a clinical trial is to generate data to be able to make a risk-benefit determination regarding sugammadex administration in patients who have less compensatory reserve for recovering from the hemodynamic effects of a sugammadex-related arrhythmia than those studied in the development program, such as patients categorized as being in ASA classification 3 and 4.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "28394683-a77d-5a49-9487-6a2abbea5982",
+          "found_lines": [
+            57,
+            103,
+            143
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee noted it would be important to obtain safety/dosing information in morbidly obese patients, a population not well-represented in the development program, given the dose-dependent risk of hypersensitivity.",
+      "change": "FDA imposed a postmarketing requirement for the Applicant to conduct a clinical trial to generate data to support dosing recommendations in morbidly obese patients.",
+      "category": "Postmarketing requirement / morbidly obese dosing",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "OtherR",
+        "doc_id": "28394683-a77d-5a49-9487-6a2abbea5982",
+        "line": 143,
+        "quote": "However, they noted it would be important to obtain safety information in certain patient populations that were not included to a significant extent in the program.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "28394683-a77d-5a49-9487-6a2abbea5982",
+          "found_lines": [
+            103,
+            143
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "OtherR",
+        "doc_id": "28394683-a77d-5a49-9487-6a2abbea5982",
+        "line": 143,
+        "quote": "Therefore, a postmarketing requirement will be imposed on the Applicant to conduct a clinical trial to generate data to support dosing recommendations in morbidly obese patients.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "28394683-a77d-5a49-9487-6a2abbea5982",
+          "found_lines": [
+            57,
+            103,
+            143
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "Bridion (sugammadex) was presented to the Anesthetic and Analgesic Drug Products Advisory Committee (AADPAC) on November 6, 2015, during a later review cycle after repeated non-approval actions over hypersensitivity/anaphylaxis and cardiac dysrhythmia safety concerns. The committee voted 14-0 that the overall risk-benefit profile supported approval (13-1 on characterizing hypersensitivity risk, 14-0 on cardiac dysrhythmia risk), and the drug was approved. The committee required no additional data before approval, but recommended further study of underrepresented populations and non-responders; FDA translated these recommendations into three postmarketing requirements covering non-responder/prolonged-recovery characterization, ASA class 3-4 comorbid patients, and dosing in morbidly obese patients."
+}

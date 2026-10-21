@@ -1,0 +1,203 @@
+{
+  "app": "NDA207988",
+  "drug": "ZURAMPIC",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "b51c0f27-3e01-506c-8b98-7281c22d55b5"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "1c74a9af-169a-54a5-9490-ad4f53e325b1"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "e7e3fb6d-7897-59b6-8d54-8ee8a7e68ea2"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "957a5bc1-077a-5e99-aed1-465fc8b482e7"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Arthritis Advisory Committee (AAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "b51c0f27-3e01-506c-8b98-7281c22d55b5",
+      "line": 94,
+      "quote": "A meeting of the Arthritis Advisory Committee (AAC) was held on October 23, 2015, to discuss this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "b51c0f27-3e01-506c-8b98-7281c22d55b5",
+      "found_lines": [
+        94
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "October 23, 2015",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "1c74a9af-169a-54a5-9490-ad4f53e325b1",
+      "line": 229,
+      "quote": "An Arthritis Advisory Committee meeting was convened on October 23, 2015 to discuss this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "1c74a9af-169a-54a5-9490-ad4f53e325b1",
+      "found_lines": [
+        229
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 10-4 in favor of recommending approval, 14-0 that there was substantial evidence of clinically meaningful benefit, and 7-6 (with one abstention) that the safety profile was adequate to support approval.",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "957a5bc1-077a-5e99-aed1-465fc8b482e7",
+      "line": 32,
+      "quote": "The committee voted 10-4 in favor of recommending approval, 14-0 that there was substantial evidence of clinically meaningful benefit, but 7-6 (with one abstention) that the safety profile supported approval."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "957a5bc1-077a-5e99-aed1-465fc8b482e7",
+      "found_lines": [
+        32
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee was concerned about renal safety and agreed that more specific guidelines on the frequency of renal function monitoring needed to be communicated to prescribers in the product labeling.",
+      "change": "The product labeling was revised to add specific recommendations for patient creatinine monitoring and caution in patients with renal insufficiency, which the Sponsor addressed.",
+      "category": "Safety / Labeling - renal function monitoring",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "1c74a9af-169a-54a5-9490-ad4f53e325b1",
+        "line": 233,
+        "quote": "Members of the committee agreed that more specific guidelines regarding the frequency of renal function (serum creatinine and CrCl) monitoring need to be communicated to health providers in the product labeling.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "1c74a9af-169a-54a5-9490-ad4f53e325b1",
+          "found_lines": [
+            233
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "957a5bc1-077a-5e99-aed1-465fc8b482e7",
+        "line": 103,
+        "quote": "the Advisory Committee echoed concerns regarding labeling and recommended that it include specific recommendations for patient creatinine level monitoring and advising caution when using this product in patients with renal insufficiency, which has been addressed by the Sponsor.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "957a5bc1-077a-5e99-aed1-465fc8b482e7",
+          "found_lines": [
+            103
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee expressed concerns about the renal safety of lesinurad in patients with moderate to severe renal insufficiency.",
+      "change": "The applicant agreed to include a Boxed Warning regarding renal adverse events in the physician labeling.",
+      "category": "Safety / Boxed warning",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "b51c0f27-3e01-506c-8b98-7281c22d55b5",
+        "line": 94,
+        "quote": "The committee expressed concerns about the safety of lesinurad in patients with moderate to severe renal insufficiency",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "b51c0f27-3e01-506c-8b98-7281c22d55b5",
+          "found_lines": [
+            94
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "1c74a9af-169a-54a5-9490-ad4f53e325b1",
+        "line": 261,
+        "quote": "The applicant has agreed to include a Boxed Warning regarding renal adverse events.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "1c74a9af-169a-54a5-9490-ad4f53e325b1",
+          "found_lines": [
+            261
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee stated there were too few events to draw conclusions about the cardiovascular safety profile of lesinurad.",
+      "change": "The applicant agreed to include a Warning about cardiovascular adverse events in the labeling.",
+      "category": "Safety / Warning - cardiovascular",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "1c74a9af-169a-54a5-9490-ad4f53e325b1",
+        "line": 233,
+        "quote": "The committee stated that there were too few events to make conclusions on the cardiovascular safety profile of lesinurad.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "1c74a9af-169a-54a5-9490-ad4f53e325b1",
+          "found_lines": [
+            233
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "1c74a9af-169a-54a5-9490-ad4f53e325b1",
+        "line": 261,
+        "quote": "The applicant has agreed to include a Warning about cardiovascular adverse events.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "1c74a9af-169a-54a5-9490-ad4f53e325b1",
+          "found_lines": [
+            261
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members recommended that long-term post-approval studies of renal and cardiovascular safety be carried out in the broader population of gout patients, and dissenting members cited the need for additional safety data.",
+      "change": "A Post Marketing Requirement for renal safety, which would also include an assessment of cardiovascular safety, was recommended.",
+      "category": "Safety / Postmarketing requirement (PMR)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "1c74a9af-169a-54a5-9490-ad4f53e325b1",
+        "line": 251,
+        "quote": "long term side effect profiles (including renal and cardiovascular safety) should be carried out post-approval in the broader population of gout patients.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "1c74a9af-169a-54a5-9490-ad4f53e325b1",
+          "found_lines": [
+            251
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "RiskR",
+        "doc_id": "957a5bc1-077a-5e99-aed1-465fc8b482e7",
+        "line": 32,
+        "quote": "A Post Marketing Requirement for renal safety, which would also include an assessment of CV safety, was recommended.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "957a5bc1-077a-5e99-aed1-465fc8b482e7",
+          "found_lines": [
+            32
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Arthritis Advisory Committee met on October 23, 2015 and voted 14-0 that lesinurad 200 mg provided a clinically meaningful benefit, but only 7-6 (one abstention) that its safety profile was adequate, and 10-4 to recommend approval. The committee's central concerns were renal (and, secondarily, cardiovascular) safety, especially in patients with renal insufficiency, and the narrow therapeutic index relative to the toxic 400 mg dose. These concerns are reflected in the approved product's Boxed Warning for renal adverse events, a cardiovascular Warning, strengthened renal-function monitoring language in labeling, and a postmarketing requirement for renal (and CV) safety."
+}

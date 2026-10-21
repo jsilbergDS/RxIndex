@@ -1,0 +1,19 @@
+# Fly.io image for the RxIndex Cards app — STATIC read-only viewer.
+# Chat is OFF (CHAT_ENABLED unset), so no ANTHROPIC key is needed and paperclip is
+# never called at runtime; citations open from the bundled data/docs/ OCR.
+FROM python:3.11-slim
+
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt "gunicorn>=21.2"
+
+COPY app.py .
+COPY data/ ./data/
+COPY adcomm_out/ ./adcomm_out/
+
+ENV PORT=8080
+EXPOSE 8080
+
+# gunicorn serves the module-level Flask `app`. APP_PASSWORD (Fly secret) optionally gates it;
+# CHAT_ENABLED unset keeps chat disabled. 2 workers x 4 threads is plenty for a gated viewer.
+CMD ["gunicorn", "-b", "0.0.0.0:8080", "-w", "2", "--threads", "4", "--timeout", "120", "app:app"]

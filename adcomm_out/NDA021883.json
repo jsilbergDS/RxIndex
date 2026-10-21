@@ -1,0 +1,111 @@
+{
+  "app": "NDA021883",
+  "drug": "DALVANCE",
+  "docs_read": [
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_5a120c39"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_1d1e547e"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_6915f094"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_caa0fb84"
+    },
+    {
+      "doc_type": "Lbl",
+      "doc_id": "fda_9bb97a37"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Anti-Infective Drugs Advisory Committee (AIDAC)",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_5a120c39",
+      "line": 86,
+      "quote": "A meeting of the Anti-Infective Drugs Advisory Committee (AIDAC) was held on March 31, 2014 to discuss NDA 21-883"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "5a120c39",
+      "found_lines": [
+        86
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "March 31, 2014",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_1d1e547e",
+      "line": 82,
+      "quote": "This NDA was discussed by the Anti-Infective Drugs Advisory Committee on March 31, 2014."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "1d1e547e",
+      "found_lines": [
+        82
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 12 Yes and 0 No (no abstentions) that the applicant provided substantial evidence of the safety and effectiveness of dalbavancin for ABSSSI; members supported approval with labeling comments regarding potential liver toxicity.",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_5a120c39",
+      "line": 88,
+      "quote": "The committee vote on this question was Yes = 12 and No = 0 with no abstentions."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "5a120c39",
+      "found_lines": [
+        88
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Committee members raised the potential for liver toxicity (hepatic effects/ALT elevations) observed in the clinical trials, particularly in patients with underlying liver disease, and recommended that this be addressed in labeling.",
+      "change": "The approved label includes a Hepatic Effects warning (Section 5.3) describing the ALT elevations seen with DALVANCE, and notes in Warnings and Precautions that most affected patients had underlying conditions that could affect liver enzymes (e.g., chronic viral hepatitis, history of alcohol abuse).",
+      "category": "Safety / Labeling (Warnings and Precautions)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_5a120c39",
+        "line": 88,
+        "quote": "The committee comments supported approval with comments for labeling regarding potential for liver toxicity, particularly in patients with underlying liver disease.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "5a120c39",
+          "found_lines": [
+            88
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "fda_9bb97a37",
+        "line": 77,
+        "quote": "In Phase 2 and 3 clinical trials, more DALVANCE- than comparator-treated subjects with normal baseline transaminase levels had post-baseline alanine aminotransferase (ALT) elevation greater than 3 times the upper limit of normal (ULN).",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "9bb97a37",
+          "found_lines": [
+            77
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Anti-Infective Drugs Advisory Committee (AIDAC) meeting was held on March 31, 2014 for NDA 21-883 (dalbavancin/DALVANCE), where the committee voted 12 Yes to 0 No that the applicant had provided substantial evidence of safety and effectiveness for ABSSSI. The committee supported approval but recommended labeling regarding the potential for liver toxicity, particularly in patients with underlying liver disease; the approved label contains a Hepatic Effects warning (Section 5.3) describing the trial ALT elevations. The review documents describe the committee's hepatic-labeling recommendation and the Hepatic Effects warning appears in the final label, but no review document explicitly states the label language was added because of the committee, so the linkage is marked inferred (the Warnings and Precautions hepatic section was already in the proposed labeling before the meeting)."
+}

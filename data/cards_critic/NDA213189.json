@@ -1,0 +1,38 @@
+{
+  "app": "NDA213189",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 3 (char 302)",
+  "_raw": "{\n \"app\": \"NDA213189\",\n \"release_ready\": true,\n \"issues\": [\n  {\n   \"field\": \"pivotal_trials[0].result\",\n   \"severity\": \"low\",\n   \"issue\": \"Automated flag on number '57' (Day 57) is a false positive; '57' appears in the citation quote ('at Day 57') and is a study timepoint, not an efficacy metric.\",\n",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "57",
+        "text": "Complete clearance at Day 57: 44.0% (77/175) tirbanibulin vs 4.5% (8/176) vehicl"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "57",
+        "text": "Complete clearance at Day 57: 54.5% (97/178) tirbanibulin vs 12.7% (22/173) vehi"
+      },
+      {
+        "field": "key_safety",
+        "number": "003",
+        "text": "Adverse reactions were local skin reactions. Application site pain occurred in 6"
+      },
+      {
+        "field": "key_safety",
+        "number": "004",
+        "text": "Adverse reactions were local skin reactions. Application site pain occurred in 6"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Standard review NDA for a new molecular entity, received December 30, 2019 and a"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

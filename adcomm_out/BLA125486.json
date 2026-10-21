@@ -1,0 +1,83 @@
+{
+  "app": "BLA125486",
+  "drug": "GAZYVA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_9e1f1677-49e3-5196-b77e-6ee21143b873"
+    },
+    {
+      "doc_type": "CDTL",
+      "doc_id": "fda_ed9c6bc7-c47b-5c71-a24c-ebb98996279e"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_dc7d5024-618d-50f4-a2c5-f45678aa4fe9"
+    }
+  ],
+  "adcom_held": false,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "None convened (ODAC would have been the relevant committee)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_9e1f1677-49e3-5196-b77e-6ee21143b873",
+      "line": 77,
+      "quote": "This application was not taken to an Oncologic Drugs Advisory Committee meeting because there were no issues with the trial design, conduct, primary endpoint or data analysis."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_9e1f167749e3",
+      "found_lines": [
+        77
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "No meeting held",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_9e1f1677-49e3-5196-b77e-6ee21143b873",
+      "line": 77,
+      "quote": "This application was not taken to an Oncologic Drugs Advisory Committee meeting because there were no issues with the trial design, conduct, primary endpoint or data analysis."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_9e1f167749e3",
+      "found_lines": [
+        77
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "No advisory committee recommendation; no committee was convened",
+    "quote": {
+      "doc_type": "CDTL",
+      "doc_id": "fda_ed9c6bc7-c47b-5c71-a24c-ebb98996279e",
+      "line": 267,
+      "quote": "No advisory committee was held for this application because the Division has experience with the product type, the trial design, and clinical endpoints used in the pivotal trial."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_ed9c6bc7c47b",
+      "found_lines": [
+        267
+      ]
+    }
+  },
+  "linkages": [],
+  "no_adcom_quote": {
+    "doc_type": "SumR",
+    "doc_id": "fda_9e1f1677-49e3-5196-b77e-6ee21143b873",
+    "line": 77,
+    "quote": "This application was not taken to an Oncologic Drugs Advisory Committee meeting because there were no issues with the trial design, conduct, primary endpoint or data analysis. In addition the trial results demonstrated a positive risk benefit and no safety issues arose during the review of the application requiring an expert committee meeting."
+  },
+  "summary": "No advisory committee (ODAC) meeting was convened for the GAZYVA (obinutuzumab) BLA. The Summary Review, Cross-Discipline Team Leader review, and Office/Division Director memo all independently state that no committee was held because the Division had experience with the product type, trial design, and clinical endpoints, and the application raised no controversial efficacy or safety issues. With no committee held, there are no AdComm-driven linkages to changes in the approval.",
+  "no_adcom_quote_verify": {
+    "status": "PASS",
+    "doc_id_used": "fda_9e1f167749e3",
+    "found_lines": [
+      77
+    ]
+  }
+}

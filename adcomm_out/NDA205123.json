@@ -1,0 +1,175 @@
+{
+  "app": "NDA205123",
+  "drug": "OLYSIO",
+  "docs_read": [
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_e4cc3f3c-8528-51dd-b8ab-77c49c93364a"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_a036c333-abdc-59a1-8ce3-095289477976"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_d2e0a5cc-147f-59ba-b6bb-01cc1f859e89"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_1f24b52a-b1d6-5656-8530-2b0a7e4db239"
+    },
+    {
+      "doc_type": "OtherR",
+      "doc_id": "fda_a7c606e9-674c-59ae-a8cd-65662c88c953"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Antiviral Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_e4cc3f3c-8528-51dd-b8ab-77c49c93364a",
+      "line": 21,
+      "quote": "NDA 205123 was presented before the Antiviral Drugs Advisory Committee."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_e4cc3f3c8528",
+      "found_lines": [
+        21
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "October 24, 2013",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "fda_a036c333-abdc-59a1-8ce3-095289477976",
+      "line": 174,
+      "quote": "The Advisory Committee (AC) meeting was held on October 24, 2013. The following questions were discussed at the AC meeting:"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_a036c333abdc",
+      "found_lines": [
+        174
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 19 Yes / 0 No / 0 Abstain in favor of approval of simeprevir in combination with pegylated interferon and ribavirin for HCV genotype 1 infection.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_e4cc3f3c-8528-51dd-b8ab-77c49c93364a",
+      "line": 21,
+      "quote": "On the question of whether the available data support the approval of simeprevir for treatment of HCV genotype 1 infection in combination with pegylated interferon and ribavirin the committee voted 19 Yes; 0 No; 0 Abstain."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_e4cc3f3c8528",
+      "found_lines": [
+        21
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee discussed whether a separate warning for rash (distinct from photosensitivity) should be added to the prescribing information; a broad range of opinions were expressed, with some members favoring two distinct warnings.",
+      "change": "After the AC discussion, DAVP proposed adding a separate Warnings and Precautions statement for rash to the simeprevir label, in addition to the photosensitivity warning.",
+      "category": "Safety / Labeling (Warnings and Precautions)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_a036c333-abdc-59a1-8ce3-095289477976",
+        "line": 180,
+        "quote": "Some committee members thought it might be confusing to have two separate warnings for photosensitivity and rash; while others thought it would be better to have two distinct warnings.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a036c333abdc",
+          "found_lines": [
+            180
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_a036c333-abdc-59a1-8ce3-095289477976",
+        "line": 232,
+        "quote": "After discussion with the Advisory Committee, DAVP will propose a separate Warning for rash in the prescribing information for simeprevir, as follows:",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a036c333abdc",
+          "found_lines": [
+            232
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee was asked whether photosensitivity reactions and a recommendation for sun-protection measures should be included in the Warnings and Precautions section; the committee agreed they should be.",
+      "change": "The applicant had not proposed including photosensitivity in the label; DAVP added a Warnings and Precautions statement on photosensitivity, including avoidance of sun exposure and use of sun protective measures.",
+      "category": "Safety / Labeling (Warnings and Precautions)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_a036c333-abdc-59a1-8ce3-095289477976",
+        "line": 177,
+        "quote": "The committee agreed that photosensitivity reactions and sun-protection measures should be included in the Warnings and Precautions section of simeprevir prescribing information.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a036c333abdc",
+          "found_lines": [
+            177
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_a036c333-abdc-59a1-8ce3-095289477976",
+        "line": 227,
+        "quote": "The Applicant had not proposed including Photosensitivity and/or Rash in this section. In light of the association of photosensitivity and rash with simeprevir in the clinical trials, DAVP proposed the following language:",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a036c333abdc",
+          "found_lines": [
+            227
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee was asked about managing reduced efficacy in patients with the baseline NS3 Q80K polymorphism; the committee generally agreed with DAVP's plan to recommend screening genotype 1a patients for Q80K and considering alternative treatment options.",
+      "change": "The simeprevir labeling strongly recommends screening HCV genotype 1a patients for the NS3 Q80K polymorphism at baseline and considering alternative therapy for those with the polymorphism.",
+      "category": "Efficacy / Labeling (resistance screening)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_a036c333-abdc-59a1-8ce3-095289477976",
+        "line": 185,
+        "quote": "In general, the committee agreed with DAVP's plan to recommend screening for the Q80K polymorphism.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a036c333abdc",
+          "found_lines": [
+            185
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_a036c333-abdc-59a1-8ce3-095289477976",
+        "line": 211,
+        "quote": "Screening patients with HCV genotype 1a infection for the presence of virus with the NS3 Q80K polymorphism at baseline is strongly recommended.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_a036c333abdc",
+          "found_lines": [
+            211
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Antiviral Drugs Advisory Committee meeting was held on October 24, 2013 for NDA 205123 (simeprevir/Olysio), where the committee voted 19 Yes / 0 No / 0 Abstain that the data support approval in combination with pegylated interferon and ribavirin for HCV genotype 1. The committee's advice on cutaneous safety is explicitly tied in the Cross-Discipline Team Leader review to DAVP's decision to add a separate Warnings and Precautions statement for rash, and the committee also endorsed including a photosensitivity warning and screening genotype 1a patients for the Q80K polymorphism, both of which appear in the final labeling. The verbatim AdComm transcript is not in paperclip; these facts come from the FDA review documents' account of the meeting."
+}

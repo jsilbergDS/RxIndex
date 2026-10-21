@@ -1,0 +1,32 @@
+{
+  "app": "BLA125166",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "medium",
+      "issue": "The second co-primary endpoint is stated as 'number of PRBC units transfused' but the result reports 'transfusion avoidance (22 of 43, 51.2%)', which is a different metric than the endpoint defined."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "low",
+      "issue": "Internal count tension: '88 randomized' conflicts with the phase citation stating '87 valid patients were randomized', though both numbers trace to source quotes."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive automated flag: uncited number '001' is part of the study identifier 'C04-001', not an efficacy/safety number; dismissible."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "approval_program/summary",
+        "number": "001",
+        "text": "Soliris received Orphan Drug designation for PNH (8/20/03) and was granted prior"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

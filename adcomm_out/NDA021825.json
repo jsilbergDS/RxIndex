@@ -1,0 +1,143 @@
+{
+  "app": "NDA021825",
+  "drug": "FERRIPROX",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "f4192f2f-9534-5528-b3b2-7bd5e715abb2"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "e8f8e6c9-00f7-50f7-bb40-2642f54f97d1"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "6be9534f-c91d-52e9-b0c7-b3c4b012a53e"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "90fb960e-b9c1-52b9-a8e9-f952379cc6a0"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "29cede48-b13c-51ce-8207-dfc19cffa960"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Oncologic Drugs Advisory Committee (ODAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "f4192f2f-9534-5528-b3b2-7bd5e715abb2",
+      "line": 94,
+      "quote": "This product was discussed at an Oncologic Drugs Advisory Committee meeting on September 14, 2011."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "f4192f2f-9534-5528-b3b2-7bd5e715abb2",
+      "found_lines": [
+        94
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "September 14, 2011",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "e8f8e6c9-00f7-50f7-bb40-2642f54f97d1",
+      "line": 36,
+      "quote": "A meeting of the Oncology Drugs Advisory Committee (ODAC) was held on September 14, 2011 to discuss the deferiprone application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "e8f8e6c9-00f7-50f7-bb40-2642f54f97d1",
+      "found_lines": [
+        36
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 10 (yes) to 2 (no) that the available clinical data demonstrate a favorable risk-benefit profile for deferiprone.",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "f4192f2f-9534-5528-b3b2-7bd5e715abb2",
+      "line": 94,
+      "quote": "The Committee voted 10 (yes) to 2 (no) that the available clinical data demonstrate a favorable risk-benefit profile for deferiprone."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "f4192f2f-9534-5528-b3b2-7bd5e715abb2",
+      "found_lines": [
+        94
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The central question put to ODAC was whether the 20% reduction in serum ferritin (a surrogate endpoint) was an appropriate primary endpoint to support approval.",
+      "change": "The 20% serum ferritin endpoint was accepted as the basis for accelerated approval, with ODAC's supporting vote cited as corroboration that the chosen degree of improvement was appropriate.",
+      "category": "Endpoint / accelerated approval basis",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "6be9534f-c91d-52e9-b0c7-b3c4b012a53e",
+        "line": 66,
+        "quote": "The choice of the primary endpoint, 20% reduction in baseline serum ferritin over a year, was discussed at the September 14, 2011 Oncologic Drugs Advisory Committee (ODAC) meeting.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "6be9534f-c91d-52e9-b0c7-b3c4b012a53e",
+          "found_lines": [
+            66
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "6be9534f-c91d-52e9-b0c7-b3c4b012a53e",
+        "line": 91,
+        "quote": "A 20% decrease in serum ferritin is an appropriate degree of improvement for use in defining the primary endpoint, according to a consensus opinion among investigators and as agreed by ODAC by their supporting vote recommending approval (10 to 2).",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "6be9534f-c91d-52e9-b0c7-b3c4b012a53e",
+          "found_lines": [
+            91
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Some ODAC members, while voting in favor of approval, emphasized the importance of additional (confirmatory) studies.",
+      "change": "The accelerated (Subpart H) approval required the applicant to conduct postapproval studies to verify and describe clinical benefit.",
+      "category": "Postmarketing / confirmatory studies",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "6be9534f-c91d-52e9-b0c7-b3c4b012a53e",
+        "line": 92,
+        "quote": "Some ODAC members in favor of approval while emphasizing the importance of additional studies, as required under our accelerated approval framework.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "6be9534f-c91d-52e9-b0c7-b3c4b012a53e",
+          "found_lines": [
+            92
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "6be9534f-c91d-52e9-b0c7-b3c4b012a53e",
+        "line": 92,
+        "quote": "the applicant is required to conduct postapproval studies to verify and describe clinical benefit in patients.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "6be9534f-c91d-52e9-b0c7-b3c4b012a53e",
+          "found_lines": [
+            92
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Oncologic Drugs Advisory Committee (ODAC) meeting was held September 14, 2011 for deferiprone (Ferriprox), and the committee voted 10-2 that the clinical data showed a favorable risk-benefit profile in patients inadequately treated by current chelation. The review documents explicitly cite ODAC's supporting vote as corroborating acceptance of the 20% serum ferritin reduction as the primary surrogate endpoint for accelerated approval; ODAC was supportive rather than a source of mandated label changes. The agranulocytosis boxed warning and the required postapproval studies are attributed in the reviews to the drug's safety profile and the Subpart H accelerated-approval framework, not explicitly to ODAC concerns."
+}

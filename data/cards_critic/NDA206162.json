@@ -1,0 +1,28 @@
+{
+  "app": "NDA206162",
+  "release_ready": false,
+  "issues": [],
+  "_parse_error": "Expecting property name enclosed in double quotes: line 9 column 5 (char 337)",
+  "_raw": "Analyzing the card for quality issues.\n\n```json\n{\n  \"app\": \"NDA206162\",\n  \"release_ready\": true,\n  \"issues\": [\n    {\n      \"field\": \"key_safety.citations\",\n      \"severity\": \"low\",\n      \"issue\": \"Automated flag for numbers '5' and '10' is a false positive: the third citation quote contains 'five of",
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "5",
+        "text": "Most common adverse reactions (\u226520%) were anemia, nausea, fatigue (including ast"
+      },
+      {
+        "field": "key_safety",
+        "number": "10",
+        "text": "Most common adverse reactions (\u226520%) were anemia, nausea, fatigue (including ast"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "42",
+        "text": "Lynparza received accelerated approval under 21 CFR 314.500 based on ORR and DOR"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

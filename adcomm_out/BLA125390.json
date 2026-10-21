@@ -1,0 +1,135 @@
+{
+  "app": "BLA125390",
+  "drug": "MYALEPT",
+  "docs_read": [
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_dc6f58ff-0f44-582e-9679-890ab26c0a96"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "fda_64bce928-3e8e-5f51-b0a2-34e0981270f2"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_3ba0d665-a50d-5f68-a0bc-4d52bf9c63da"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Endocrinologic and Metabolic Drugs Advisory Committee",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "fda_64bce928-3e8e-5f51-b0a2-34e0981270f2",
+      "line": 1293,
+      "quote": "The Endocrinologic and Metabolic Drugs Advisory Committee convened on 11 Dec 2013 to discuss this application."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_64bce9283e8e",
+      "found_lines": [
+        1293
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "December 11, 2013",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_dc6f58ff-0f44-582e-9679-890ab26c0a96",
+      "line": 110,
+      "quote": "This application was discussed at a public advisory committee on December 11, 2013."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_dc6f58ff0f44",
+      "found_lines": [
+        110
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 11 to 1 that the benefits of metreleptin exceeded the risks for generalized lipodystrophy, but voted 10 to 2 that the benefits did NOT exceed the risks for partial lipodystrophy.",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "fda_3ba0d665-a50d-5f68-a0bc-4d52bf9c63da",
+      "line": 478,
+      "quote": "On December 11, 2013 the Endocrinologic and Metabolic Drugs Advisory Committee voted 11 to 1 that the applicant \"demonstrated substantial evidence that the benefits of metreleptin exceed the risks for the treatment of pediatric and adult patients with generalize lipodystrophy.\" The Committee voted 10 to 2 that the applicant did not \"demonstrate substantial evidence that the benefits of metreleptin exceed the risks for the treatment of pediatric and adult patients with metabolic disorders associated with partial lipodystrophy, including hypertriglyceridemia and/or diabetes mellitus inadequately controlled on a current therapy, and/or evidence of hepatic steatosis.\""
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_3ba0d665a50d",
+      "found_lines": [
+        478
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee voted 10-2 against a favorable benefit-risk for partial lipodystrophy, and members expressed concern about confounders and the difficulty of distinguishing partial-lipodystrophy patients from a general obese population, so a favorable benefit-risk could not be assured in that population.",
+      "change": "The indication was restricted to congenital or acquired generalized lipodystrophy, with a Limitation of Use stating safety and effectiveness in partial lipodystrophy have not been established.",
+      "category": "Population / indication narrowing",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_dc6f58ff-0f44-582e-9679-890ab26c0a96",
+        "line": 113,
+        "quote": "It should also be noted that members' explanations/rationale for their vote similarly expressed concerns about confounders and difficulties in being able to identify the partial LD patients from a general obese population to ensure a favorable benefit-risk profile of metreleptin therapy.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_dc6f58ff0f44",
+          "found_lines": [
+            113
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_dc6f58ff-0f44-582e-9679-890ab26c0a96",
+        "line": 124,
+        "quote": "The safety and effectiveness of MYALEPT for the treatment of complications of partial lipodystrophy have not been established",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_dc6f58ff0f44",
+          "found_lines": [
+            124
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The majority of the panel did not believe the evidence supported a separate indication for treating hepatic steatosis.",
+      "change": "No separate indication for hepatic steatosis/NASH was granted; a Limitation of Use states safety and effectiveness for treatment of liver disease, including NASH, have not been established.",
+      "category": "Indication / efficacy claim removed",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_dc6f58ff-0f44-582e-9679-890ab26c0a96",
+        "line": 114,
+        "quote": "The majority of the panel did not believe the evidence supported a separate indication for treating hepatic steatosis.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_dc6f58ff0f44",
+          "found_lines": [
+            114
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "fda_dc6f58ff-0f44-582e-9679-890ab26c0a96",
+        "line": 124,
+        "quote": "The safety and effectiveness of MYALEPT for the treatment of liver disease, including non-alcoholic steatohepatitis (NASH), have not been established",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_dc6f58ff0f44",
+          "found_lines": [
+            124
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Endocrinologic and Metabolic Drugs Advisory Committee met on December 11, 2013 and voted 11-1 that metreleptin's benefits exceeded its risks for generalized lipodystrophy but 10-2 that they did not for partial lipodystrophy, citing confounders and difficulty identifying partial-LD patients. The ODMemo states these votes reflected the review division's recommendation, and MYALEPT was approved with the indication restricted to generalized lipodystrophy. The panel also did not support a separate hepatic-steatosis indication, which was reflected in a Limitation of Use that effectiveness for liver disease/NASH was not established."
+}

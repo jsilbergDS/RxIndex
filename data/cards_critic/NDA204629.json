@@ -1,0 +1,62 @@
+{
+  "app": "NDA204629",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "key_safety",
+      "severity": "low",
+      "issue": "False-positive flag: the uncited numbers '10' and '25' in key_safety refer to drug doses (10 mg/25 mg arms), which are excluded; the actual AE rates (7.6%, 9.3%, 1.5%, 5.4%, 6.4%) are fully cited."
+    },
+    {
+      "field": "first_cycle_approval/detail",
+      "severity": "low",
+      "issue": "False-positive flags: '3' is part of the date 'June 3, 2014' and '1' is the 'Class 1 resubmission' designation, both excluded number types."
+    },
+    {
+      "field": "approval_program/summary",
+      "severity": "low",
+      "issue": "False-positive flag: the number '3' is part of the date 'June 3, 2014'."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "key_safety",
+        "number": "10",
+        "text": "Most common adverse reactions (\u22655% incidence) were urinary tract infections and "
+      },
+      {
+        "field": "key_safety",
+        "number": "25",
+        "text": "Most common adverse reactions (\u22655% incidence) were urinary tract infections and "
+      },
+      {
+        "field": "key_safety",
+        "number": "10",
+        "text": "Most common adverse reactions (\u22655% incidence) were urinary tract infections and "
+      },
+      {
+        "field": "key_safety",
+        "number": "25",
+        "text": "Most common adverse reactions (\u22655% incidence) were urinary tract infections and "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "3",
+        "text": "Not first cycle; the June 3, 2014 submission was a Class 1 resubmission respondi"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "1",
+        "text": "Not first cycle; the June 3, 2014 submission was a Class 1 resubmission respondi"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "Standard 505(b)(1) NDA submitted March 5, 2013 for empagliflozin to improve glyc"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

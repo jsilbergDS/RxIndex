@@ -1,0 +1,68 @@
+{
+  "app": "NDA212320",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "The '95% CI' label is not verbatim in the citation quote (which shows '(0.10, 0.93)' without specifying the confidence level), though the bound values themselves match.",
+      "note": "minor"
+    },
+    {
+      "field": "modality",
+      "severity": "low",
+      "issue": "'small molecule' is an inferred classification; the citations state 'iron replacement product' / 'stable complex of ferric iron and maltol' but never call it a small molecule."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flags '01' and '303' are components of the study ID ST10-01-303, which should be excluded; dismissed."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flags '27' and '2018' are date components (September 27, 2018), which should be excluded; dismissed."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive uncited_numbers flags '27' and '2018' are date components (September 27, 2018), which should be excluded; dismissed."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "01",
+        "text": "AEGIS 3 (ST10-01-303)"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "303",
+        "text": "AEGIS 3 (ST10-01-303)"
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "27",
+        "text": "The review team recommended approval; the NDA (received September 27, 2018) was "
+      },
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2018",
+        "text": "The review team recommended approval; the NDA (received September 27, 2018) was "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "27",
+        "text": "ACCRUFER was a standard-review 505(b)(2)/NME application received September 27, "
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2018",
+        "text": "ACCRUFER was a standard-review 505(b)(2)/NME application received September 27, "
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "app": "NDA210797",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "high",
+      "issue": "The p-value method 'Kruskal-Wallis' is stated in the text but no citation quote names the statistical test, so the method attribution is unsupported."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "medium",
+      "issue": "The values '93' dispensed/analyzed and vehicle 'Veh: 45' are not present in any citation quote (only 94/48/46 randomized and table N=46/N=43 are cited); these are uncited derived numbers."
+    },
+    {
+      "field": "pivotal_trials[0].n",
+      "severity": "medium",
+      "issue": "The efficacy analysis Ns in the cited result table (N=46 afamelanotide, N=43 placebo) conflict with the 'analyzed (Afa: 48, Veh: 45)' figures asserted in the n field, an internal inconsistency."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "93",
+        "text": "94 randomized (48 afamelanotide, 46 placebo); one placebo subject was not dispen"
+      },
+      {
+        "field": "pivotal_trials[0]/n",
+        "number": "45",
+        "text": "94 randomized (48 afamelanotide, 46 placebo); one placebo subject was not dispen"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

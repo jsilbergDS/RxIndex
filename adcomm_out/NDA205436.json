@@ -1,0 +1,207 @@
+{
+  "app": "NDA205436",
+  "drug": "SIVEXTRO",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "dc7d531f-e874-5993-a82c-acc208ef5cb2"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "33896a57-dbb0-523c-9d28-dc63c4ce8c9c"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "41c230ea-3be3-5158-9d5a-f7fefcb8f35f"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "67c18ee3-ee66-5c64-810b-32267a20407b"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "8a90d06f-3dd9-54c0-8587-fffaf5a062af"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Anti-Infective Drugs Advisory Committee (AIDAC)",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "41c230ea-3be3-5158-9d5a-f7fefcb8f35f",
+      "line": 27,
+      "quote": "The tedizolid NDAs 205435 and 205436 were presented before the Anti-Infective Drugs Advisory Committee."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "41c230ea-3be3-5158-9d5a-f7fefcb8f35f",
+      "found_lines": [
+        27
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "March 31, 2014",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "dc7d531f-e874-5993-a82c-acc208ef5cb2",
+      "line": 84,
+      "quote": "The NDAs for tedizolid tablets and powder for injection were presented at a meeting of the Anti-infective Drugs Advisory Committee (AIDAC) on March 31, 2014."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "dc7d531f-e874-5993-a82c-acc208ef5cb2",
+      "found_lines": [
+        84
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 14 Yes, 0 No, 0 Abstain that the applicant provided substantial evidence of the safety and effectiveness of tedizolid phosphate for the treatment of ABSSSI.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "41c230ea-3be3-5158-9d5a-f7fefcb8f35f",
+      "line": 27,
+      "quote": "the Committee voted Yes= 14, No= 0, Abstain= 0"
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "41c230ea-3be3-5158-9d5a-f7fefcb8f35f",
+      "found_lines": [
+        27
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee noted that efficacy had not been shown in immunocompromised patients.",
+      "change": "The product labeling added a Warnings and Precautions statement recommending alternative therapy be considered for granulocytopenic patients.",
+      "category": "Efficacy / Population labeling",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "41c230ea-3be3-5158-9d5a-f7fefcb8f35f",
+        "line": 27,
+        "quote": "efficacy has not been shown in immunocompromised patients",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "41c230ea-3be3-5158-9d5a-f7fefcb8f35f",
+          "found_lines": [
+            27
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "41c230ea-3be3-5158-9d5a-f7fefcb8f35f",
+        "line": 27,
+        "quote": "The product labeling includes a statement in Warnings and Precautions that recommends alternative therapy be considered for granulocytopenic patients.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "41c230ea-3be3-5158-9d5a-f7fefcb8f35f",
+          "found_lines": [
+            27
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee raised the issue of cross-resistance between tedizolid and linezolid.",
+      "change": "The mechanism of cross-resistance between linezolid and tedizolid was described in the Microbiology subsection of the product labeling.",
+      "category": "Microbiology / Resistance labeling",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "41c230ea-3be3-5158-9d5a-f7fefcb8f35f",
+        "line": 27,
+        "quote": "cross-resistance with linezolid",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "41c230ea-3be3-5158-9d5a-f7fefcb8f35f",
+          "found_lines": [
+            27
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "41c230ea-3be3-5158-9d5a-f7fefcb8f35f",
+        "line": 27,
+        "quote": "The mechanism of cross-resistance between linezolid and tedizolid is described in the Microbiology subsection in the product labeling.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "41c230ea-3be3-5158-9d5a-f7fefcb8f35f",
+          "found_lines": [
+            27
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee noted that safety data were only available for 6 days of treatment, and that new safety issues may arise with longer durations of therapy.",
+      "change": "The approved dosing regimen was limited to 6 days, and the labeling notes the lack of data for exposures greater than 6 days in the Peripheral and Optic Neuropathy statement in Adverse Reactions.",
+      "category": "Safety / Duration labeling",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "41c230ea-3be3-5158-9d5a-f7fefcb8f35f",
+        "line": 27,
+        "quote": "safety data were only available for 6 days of treatment",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "41c230ea-3be3-5158-9d5a-f7fefcb8f35f",
+          "found_lines": [
+            27
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "ODMemo",
+        "doc_id": "41c230ea-3be3-5158-9d5a-f7fefcb8f35f",
+        "line": 27,
+        "quote": "The approved dosing regimen for Sivextro is a regimen of 6 days duration as described in Dosage and Administration. The product labeling also notes in the statement on Peripheral and Optic Neuropathy in the Adverse Reactions section the lack of data for exposures greater than 6 days in duration.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "41c230ea-3be3-5158-9d5a-f7fefcb8f35f",
+          "found_lines": [
+            27
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee noted the inadequacy of the adolescent data and the need to conduct pediatric trials.",
+      "change": "PREA pediatric study requirements were imposed, including randomized safety and efficacy studies in pediatric ABSSSI patients across age ranges and pharmacokinetic studies in children.",
+      "category": "Population / Pediatric studies (PREA)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "SumR",
+        "doc_id": "dc7d531f-e874-5993-a82c-acc208ef5cb2",
+        "line": 86,
+        "quote": "the inadequacy of the adolescent data and the need to conduct pediatric trials",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "dc7d531f-e874-5993-a82c-acc208ef5cb2",
+          "found_lines": [
+            86
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "dc7d531f-e874-5993-a82c-acc208ef5cb2",
+        "line": 88,
+        "quote": "The applicant's proposed pediatric plan was present to the Pediatric Research Committee and the following PREA requirements were found acceptable:",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "dc7d531f-e874-5993-a82c-acc208ef5cb2",
+          "found_lines": [
+            88
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Anti-Infective Drugs Advisory Committee (AIDAC) met on March 31, 2014 and voted unanimously (14-0) that tedizolid phosphate provided substantial evidence of safety and effectiveness for ABSSSI. The ODMemo explicitly ties committee concerns to labeling actions: efficacy not shown in immunocompromised patients led to a Warnings/Precautions statement on granulocytopenic patients, linezolid cross-resistance was addressed in the Microbiology labeling, and the limited 6-day safety data led to a 6-day approved regimen plus a neuropathy labeling note on the absence of longer-duration data. Committee comments on inadequate adolescent data align with the PREA pediatric study requirements, though the review does not explicitly connect the two."
+}

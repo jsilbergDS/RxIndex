@@ -1,0 +1,87 @@
+{
+  "app": "NDA022408",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "medium",
+      "issue": "Denominators 91 and 89 (in 77/91 and 40/89) are not in this field's citations; they appear only in the n field citation, so the result field's fractions are not directly supported by its own quotes."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "medium",
+      "issue": "Denominators 83 and 84 (in 72/83 and 36/84) are not in this field's citations; they derive from the n field, so the result fractions are not directly supported by their own quotes."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "high",
+      "issue": "The counts citation (line 107: '77 (84.6%) 40 (44.9%) 72 (86.7%) 36 (42.9%)') is reused verbatim for both Study 1 and Study 2, making it unclear whether 72/36 truly belong to Study 2; the same single table row is split across two trials, risking misattribution of results between studies/arms."
+    },
+    {
+      "field": "modality",
+      "severity": "low",
+      "issue": "The claim 'composed of spinosyns A and D' is not supported by any citation quote (citation only states spinosad is an NME derived from Saccharopolyspora spinosa)."
+    },
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "False-positive automated flag: the '1' in 'Study 1' is a card-assigned label, not an uncited efficacy/safety number."
+    },
+    {
+      "field": "pivotal_trials[1].trial_name",
+      "severity": "low",
+      "issue": "False-positive automated flag: the '2' in 'Study 2' is a card-assigned label, not an uncited efficacy/safety number."
+    },
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive automated flag: the '1' is part of 'permethrin 1%' (comparator drug concentration/dose), not an uncited efficacy number."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "False-positive automated flag: the '1' is part of 'permethrin 1%' (comparator concentration), not an uncited efficacy number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/trial_name",
+        "number": "1",
+        "text": "SPN-301-07 (Study 1)"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "91",
+        "text": "84.6% (77/91) of NATROBA subjects lice free vs 44.9% (40/89) permethrin 1%; trea"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "89",
+        "text": "84.6% (77/91) of NATROBA subjects lice free vs 44.9% (40/89) permethrin 1%; trea"
+      },
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "1",
+        "text": "84.6% (77/91) of NATROBA subjects lice free vs 44.9% (40/89) permethrin 1%; trea"
+      },
+      {
+        "field": "pivotal_trials[1]/trial_name",
+        "number": "2",
+        "text": "SPN-302-07 (Study 2)"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "83",
+        "text": "86.7% (72/83) of NATROBA subjects lice free vs 42.9% (36/84) permethrin 1%; trea"
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "1",
+        "text": "86.7% (72/83) of NATROBA subjects lice free vs 42.9% (36/84) permethrin 1%; trea"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

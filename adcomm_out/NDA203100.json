@@ -1,0 +1,167 @@
+{
+  "app": "NDA203100",
+  "drug": "STRIBILD",
+  "docs_read": [
+    {
+      "doc_type": "CrossR",
+      "doc_id": "26b030f2-5756-58da-a3a8-2a0009e1b5f3"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "525b3d5f-2ba2-5bca-8ceb-19d6678c81b1"
+    },
+    {
+      "doc_type": "MedR",
+      "doc_id": "94ecf0fc-98c6-5969-a361-16c4eb37a442"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Antiviral Drugs Advisory Committee (AVDAC)",
+    "quote": {
+      "doc_type": "MedR",
+      "doc_id": "94ecf0fc-98c6-5969-a361-16c4eb37a442",
+      "line": 692,
+      "quote": "The Antiviral Drugs Advisory Committee met on May 11, 2012, to discuss new drug application (NDA) 203100, for a fixed-dose combination tablet of EVG/COBI/FTC/TDF, submitted by Gilead Sciences, Inc."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "94ecf0fc-98c6-5969-a361-16c4eb37a442",
+      "found_lines": [
+        692
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "May 11, 2012",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "26b030f2-5756-58da-a3a8-2a0009e1b5f3",
+      "line": 148,
+      "quote": "An Advisory Committee meeting was convened on May 11, 2012 to discuss the merits of this NDA and the risk/benefit assessment for Stribild in HIV-1-infected, treatment-na\u00efve patients."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "26b030f2-5756-58da-a3a8-2a0009e1b5f3",
+      "found_lines": [
+        148
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The AVDAC voted 13 Yes to 1 No, recommending approval of Stribild on the basis that benefits outweigh the risks.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "525b3d5f-2ba2-5bca-8ceb-19d6678c81b1",
+      "line": 23,
+      "quote": "The AVDAC voted, 13 Yes; 1 No, recommending approval of Stribild based on the benefits outweighing the risks."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "525b3d5f-2ba2-5bca-8ceb-19d6678c81b1",
+      "found_lines": [
+        23
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The committee was concerned about Stribild's renal adverse events (proximal tubulopathy) and recommended clear label guidelines for monitoring, favoring urine glucose/protein testing in all patients and endorsing a conservative 0.4 mg/dL serum creatinine increase cut-off to trigger closer monitoring.",
+      "change": "The review team adopted renal monitoring recommendations in the risk-benefit assessment/labeling: routine assessment of urine glucose, urine protein and serum creatinine, with a conservative 0.4 mg/dL creatinine-increase cut-off prompting more intensive renal monitoring.",
+      "category": "Safety / Renal monitoring in labeling",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "26b030f2-5756-58da-a3a8-2a0009e1b5f3",
+        "line": 158,
+        "quote": "The Advisory Committee recommended providing clear guidelines for patient management and safety monitoring in the label. They favored testing urine glucose and protein in all patients receiving Stribild, noting that urine dipstick testing is ubiquitous and inexpensive. They also agreed that the conservative cut-off value of 0.4 mg/dL provided a reasonable balance for monitoring safety without unnecessary drug discontinuation.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "26b030f2-5756-58da-a3a8-2a0009e1b5f3",
+          "found_lines": [
+            158
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "26b030f2-5756-58da-a3a8-2a0009e1b5f3",
+        "line": 213,
+        "quote": "To assess changes in serum creatinine, we concluded that advising a relatively conservative cut-off of 0.4 mg/dL increase should prompt health care providers to institute more intensive monitoring of renal function.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "26b030f2-5756-58da-a3a8-2a0009e1b5f3",
+          "found_lines": [
+            213
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The committee was dissatisfied with the low enrollment of women in the Phase 3 trials and concluded additional study of Stribild in HIV-1-infected women was warranted.",
+      "change": "A postmarketing requirement (PMR) was issued for a clinical trial enrolling approximately 500 women to characterize the incidence of and risk factors for renal adverse events in women.",
+      "category": "Population / Postmarketing requirement (women)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "26b030f2-5756-58da-a3a8-2a0009e1b5f3",
+        "line": 215,
+        "quote": "The Advisory Committee further concluded that additional study of Stribild in HIV-1-infected women was warranted because of the small number of women enrolled in the clinical trials.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "26b030f2-5756-58da-a3a8-2a0009e1b5f3",
+          "found_lines": [
+            215
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "26b030f2-5756-58da-a3a8-2a0009e1b5f3",
+        "line": 221,
+        "quote": "Perform a clinical trial to better characterize the incidence of and risk factors for renal adverse events in women.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "26b030f2-5756-58da-a3a8-2a0009e1b5f3",
+          "found_lines": [
+            221
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Committee members agreed that additional clinical pharmacology assessment of drug-drug interactions might be needed, specifically naming methadone and hepatitis C antivirals.",
+      "change": "Clinical pharmacology postmarketing commitments (PMCs) were requested for in vivo drug-drug interaction trials of Stribild, including one with methadone (and one with the hepatitis C antiviral telaprevir).",
+      "category": "Clinical pharmacology / Drug-drug interaction PMC",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "26b030f2-5756-58da-a3a8-2a0009e1b5f3",
+        "line": 160,
+        "quote": "The Committee members agreed that additional clinical pharmacology assessment of drug-drug interactions might be needed (e.g., methadone, hepatitis C antivirals).",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "26b030f2-5756-58da-a3a8-2a0009e1b5f3",
+          "found_lines": [
+            160
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "26b030f2-5756-58da-a3a8-2a0009e1b5f3",
+        "line": 223,
+        "quote": "Please conduct an *in vivo* drug-drug interaction trial of Stribild and methadone.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "26b030f2-5756-58da-a3a8-2a0009e1b5f3",
+          "found_lines": [
+            223
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "The Antiviral Drugs Advisory Committee (AVDAC) met on May 11, 2012 and voted 13 Yes to 1 No that Stribild's benefits outweigh its risks, recommending approval for treatment-naive HIV-1 adults. The committee's central concern was renal toxicity (proximal tubulopathy); it recommended label guidelines for renal monitoring, including urine glucose/protein testing and a conservative 0.4 mg/dL creatinine-increase cut-off, which the review team incorporated into the risk-benefit assessment and labeling. The committee also pushed for study of under-represented women and additional drug-drug interaction data, aligning with postmarketing requirements/commitments issued at approval (a ~500-woman renal-safety trial and DDI studies including methadone and telaprevir)."
+}

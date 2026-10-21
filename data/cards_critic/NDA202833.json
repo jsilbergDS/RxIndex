@@ -1,0 +1,112 @@
+{
+  "app": "NDA202833",
+  "release_ready": true,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].result",
+      "severity": "low",
+      "issue": "False-positive flag: '0.015' (dose) appears in the trial_name/design citation quotes and is a dose, which is excluded; not a real uncited number."
+    },
+    {
+      "field": "pivotal_trials[1].design",
+      "severity": "low",
+      "issue": "False-positive flag: '0.015%' dose is present in the design text as a concentration and is dose data; not an uncited efficacy/safety number."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "low",
+      "issue": "False-positive flag: '0.015%' is a dose (excluded); the efficacy numbers 67/142, 47.2%, 7/136, 5.2% are all in the citation quote."
+    },
+    {
+      "field": "pivotal_trials[2].population",
+      "severity": "low",
+      "issue": "False-positive flags: '18', '4', '8' are all present in the citation quote ('at least 18 yrs old with 4-8 ... lesions')."
+    },
+    {
+      "field": "pivotal_trials[2].result",
+      "severity": "low",
+      "issue": "False-positive flag: '0.05%' is a dose (excluded); efficacy numbers 35/126, 28%, 6/129, 5% are in the citation quote."
+    },
+    {
+      "field": "pivotal_trials[3].population",
+      "severity": "low",
+      "issue": "False-positive flags: '18', '4', '8' are all present in the citation quote."
+    },
+    {
+      "field": "pivotal_trials[3].result",
+      "severity": "low",
+      "issue": "False-positive flag: '0.05%' is a dose (excluded); efficacy numbers 42/100, 42%, 5/103, 5% are in the citation quote."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "False-positive flag: '3' comes from 'Phase 3', which is supported by the phase/design citations; not an uncited efficacy/safety number."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "pivotal_trials[0]/result",
+        "number": "0.015",
+        "text": "Complete clearance (ITT) 50/135 (37%) with PICATO 0.015% vs 3/134 (2.2%) vehicle"
+      },
+      {
+        "field": "pivotal_trials[1]/design",
+        "number": "0.015",
+        "text": "Multicenter, randomized, parallel group, double blind, vehicle controlled study "
+      },
+      {
+        "field": "pivotal_trials[1]/result",
+        "number": "0.015",
+        "text": "Complete clearance (ITT) 67/142 (47.2%) with PICATO 0.015% vs 7/136 (5.2%) vehic"
+      },
+      {
+        "field": "pivotal_trials[2]/population",
+        "number": "18",
+        "text": "Adults at least 18 years old with 4-8 discrete actinic keratosis lesions within "
+      },
+      {
+        "field": "pivotal_trials[2]/population",
+        "number": "4",
+        "text": "Adults at least 18 years old with 4-8 discrete actinic keratosis lesions within "
+      },
+      {
+        "field": "pivotal_trials[2]/population",
+        "number": "8",
+        "text": "Adults at least 18 years old with 4-8 discrete actinic keratosis lesions within "
+      },
+      {
+        "field": "pivotal_trials[2]/result",
+        "number": "0.05",
+        "text": "Complete clearance (ITT) 35/126 (28%) with PICATO 0.05% vs 6/129 (5%) vehicle; s"
+      },
+      {
+        "field": "pivotal_trials[3]/population",
+        "number": "18",
+        "text": "Adults at least 18 years old with 4-8 discrete actinic keratosis lesions within "
+      },
+      {
+        "field": "pivotal_trials[3]/population",
+        "number": "4",
+        "text": "Adults at least 18 years old with 4-8 discrete actinic keratosis lesions within "
+      },
+      {
+        "field": "pivotal_trials[3]/population",
+        "number": "8",
+        "text": "Adults at least 18 years old with 4-8 discrete actinic keratosis lesions within "
+      },
+      {
+        "field": "pivotal_trials[3]/result",
+        "number": "0.05",
+        "text": "Complete clearance (ITT) 42/100 (42%) with PICATO 0.05% vs 5/103 (5%) vehicle; s"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "3",
+        "text": "PICATO (ingenol mebutate) was approved as a new molecular entity for topical tre"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

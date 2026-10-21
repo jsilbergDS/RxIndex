@@ -1,0 +1,103 @@
+{
+  "app": "NDA022350",
+  "drug": "ONGLYZA",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "d68c1540-f806-5a20-bb75-1350a82436d0"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "5e1988d7-f1d7-5af5-a293-aac381e2f5fc"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "5bd7ba5a-6e62-55b1-9413-d72c81fc3b18"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Endocrinologic and Metabolic Drugs Advisory Committee (panel augmented with two cardiologists and a member of the Drug Safety and Risk Management Advisory Committee)",
+    "quote": {
+      "doc_type": "CrossR",
+      "doc_id": "5e1988d7-f1d7-5af5-a293-aac381e2f5fc",
+      "line": 247,
+      "quote": "The panel consisted of members from the Endocrinologic and Metabolic Drugs advisory committee populated with two cardiologists and a member of the Drug Safety and Risk Management advisory committee."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "5e1988d7-f1d7-5af5-a293-aac381e2f5fc",
+      "found_lines": [
+        247
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "April 1, 2009",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "d68c1540-f806-5a20-bb75-1350a82436d0",
+      "line": 114,
+      "quote": "This NDA was presented before the Endocrine and Metabolic Advisory Committee on April 1, 2009."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "d68c1540-f806-5a20-bb75-1350a82436d0",
+      "found_lines": [
+        114
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "On the first voting question, 10 panel members voted yes and 2 voted no that saxagliptin had provided appropriate evidence of cardiovascular safety to rule out an unacceptable excess CV risk (upper bound of 95% CI < 1.8). On the second voting question, all 12 voting members voted no, i.e., the data were NOT adequate to conclude that post-marketing cardiovascular safety trials were unnecessary.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "5bd7ba5a-6e62-55b1-9413-d72c81fc3b18",
+      "line": 35,
+      "quote": "Regarding whether the sponsor had provided evidence to rule out an unacceptable excess of cardiovascular risk, 10 panel members voted yes and 2 panel member voted no. All panel members voted that an appropriate outcome trial should be conducted post-marketing."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "5bd7ba5a-6e62-55b1-9413-d72c81fc3b18",
+      "found_lines": [
+        35
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "The advisory committee was not satisfied that the available cardiovascular data (low event rates, post-hoc/unadjudicated MACE analysis) were sufficient to conclude that post-marketing cardiovascular safety trials were unnecessary; all 12 voting members voted that an outcome trial should be conducted post-marketing.",
+      "change": "FDA required a post-marketing cardiovascular outcome trial (a formal CV safety outcome study) as a condition of approval to provide a more definitive CV risk assessment for saxagliptin.",
+      "category": "Safety / Postmarketing requirement (CV outcome trial)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "5e1988d7-f1d7-5af5-a293-aac381e2f5fc",
+        "line": 250,
+        "quote": "All 12 voting panel members voted no. Although the Custom MACE endpoint satisfied the 1.3 criterion, there was concern that the low event rates and other limitations described above do not provide sufficient assurance on this more stringent level of confidence on cardiovascular safety.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "5e1988d7-f1d7-5af5-a293-aac381e2f5fc",
+          "found_lines": [
+            250
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "d68c1540-f806-5a20-bb75-1350a82436d0",
+        "line": 85,
+        "quote": "the AC members unanimously voted for additional cardiovascular safety assessment in the post-marketing setting. In light of the low CV event rate (reflecting a low risk population studied thus far) and the absence of prospective adjudication of events, the FDA will require a postmarketing trial to provide a more definitive CV risk assessment for saxagliptin.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "d68c1540-f806-5a20-bb75-1350a82436d0",
+          "found_lines": [
+            85
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An advisory committee (Endocrinologic and Metabolic Drugs Advisory Committee, augmented with cardiologists and a Drug Safety and Risk Management member) met on April 1, 2009 to assess whether saxagliptin's cardiovascular safety data supported approval. The panel voted 10-2 that the data ruled out an unacceptable excess CV risk (upper 95% CI bound < 1.8), allowing initial marketing, but voted unanimously (0-12) that post-marketing cardiovascular safety trials were still necessary. Reflecting that vote, FDA approved the drug while requiring a formal post-marketing cardiovascular outcome study."
+}

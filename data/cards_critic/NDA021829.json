@@ -1,0 +1,87 @@
+{
+  "app": "NDA021829",
+  "release_ready": false,
+  "issues": [
+    {
+      "field": "pivotal_trials[0].trial_name",
+      "severity": "low",
+      "issue": "Trial name labels SP506 as 'Dose-Response Study' which is supported by design, but its only citation is a safety sentence listing the three trials; label is acceptable but citation is weak for the descriptor."
+    },
+    {
+      "field": "pivotal_trials[0].nct",
+      "severity": "low",
+      "issue": "NCT text 'Not stated' but the attached citation is an unrelated design quote, not evidence of NCT absence (cosmetic/mismatched citation)."
+    },
+    {
+      "field": "pivotal_trials[1].result",
+      "severity": "medium",
+      "issue": "The difference from placebo of -5.3 is cited from a table row ('Up to 6 mg/24 hours ... -5.3'); however -4.0 minus +1.39 equals -5.39, so stated -5.3 is from the table and acceptable, but the arithmetic/rounding should be verified as internally consistent."
+    },
+    {
+      "field": "first_cycle_approval.value",
+      "severity": "high",
+      "issue": "value=false is correct here because the review explicitly documents a prior approvable letter plus a Complete Response cycle (2/28/06), so first-cycle approval did not occur \u2014 this is consistent and not a flaggable default, but confirm detail matches value."
+    },
+    {
+      "field": "receipt_date.text",
+      "severity": "low",
+      "issue": "Receipt date 'January 28, 2005' is correctly cited ('received January 28, 2005'); no issue."
+    },
+    {
+      "field": "approval_program.priority_review.present",
+      "severity": "medium",
+      "issue": "present=false is correct ('Priority Designation S' = Standard), but basis text describing a 'Standard priority designation' under the priority_review field is mislabeled/confusing since the drug had Standard (non-priority) review."
+    },
+    {
+      "field": "approval_program.summary",
+      "severity": "low",
+      "issue": "Uncited numbers 21 and 829 (NDA number) and 2006 (date) appear in summary; these are an application identifier and a date, so they are false-positive flags and dismissible."
+    },
+    {
+      "field": "first_cycle_approval.detail",
+      "severity": "low",
+      "issue": "Uncited number '2006' is part of the approvable-letter date and is a false-positive flag (date), dismissible."
+    },
+    {
+      "field": "approval_program.summary.text",
+      "severity": "medium",
+      "issue": "Summary states the application 'was approved following the sponsor's complete response,' but no citation in the summary (or card) actually documents the approval action/approval date \u2014 the approval itself is uncited."
+    },
+    {
+      "field": "first_cycle_approval.detail.text",
+      "severity": "medium",
+      "issue": "Detail claims the sponsor 'submitted a Complete Response to the Approvable Letter which was subsequently approved,' but the single citation only supports the approvable letter issuance, not the Complete Response submission or subsequent approval."
+    },
+    {
+      "field": "pivotal_trials[0].design",
+      "severity": "low",
+      "issue": "Design says dose-response/'fixed doses ... for up to 11 weeks'; fully supported by citation \u2014 no issue."
+    }
+  ],
+  "automated_flags": {
+    "uncited_numbers": [
+      {
+        "field": "first_cycle_approval/detail",
+        "number": "2006",
+        "text": "The NDA was first issued an approvable letter on February 28, 2006 with requests"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "21",
+        "text": "NDA 21-829 for rotigotine transdermal system for early-stage Parkinson's disease"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "829",
+        "text": "NDA 21-829 for rotigotine transdermal system for early-stage Parkinson's disease"
+      },
+      {
+        "field": "approval_program/summary",
+        "number": "2006",
+        "text": "NDA 21-829 for rotigotine transdermal system for early-stage Parkinson's disease"
+      }
+    ],
+    "unverified_citations": [],
+    "empty_fields": []
+  }
+}

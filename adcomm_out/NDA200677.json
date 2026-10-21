@@ -1,0 +1,207 @@
+{
+  "app": "NDA200677",
+  "drug": "SIGNIFOR",
+  "docs_read": [
+    {
+      "doc_type": "SumR",
+      "doc_id": "fda_9bf532d1-dc37-596e-9d99-eaa28e507779"
+    },
+    {
+      "doc_type": "CrossR",
+      "doc_id": "fda_3e166dc6-d1a5-5b2d-829a-43a8be5d3bbc"
+    },
+    {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_7381ea90-87eb-5a5b-816e-dc70c4b5f885"
+    },
+    {
+      "doc_type": "RiskR",
+      "doc_id": "fda_37c33db0-e698-5a5b-86b3-cd0bda17865e"
+    },
+    {
+      "doc_type": "Lbl",
+      "doc_id": "fda_bd121bbc-0719-59d3-8d0b-9ff7d0dec7c5"
+    }
+  ],
+  "adcom_held": true,
+  "transcript_in_paperclip": false,
+  "committee_name": {
+    "text": "Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC)",
+    "quote": {
+      "doc_type": "SumR",
+      "doc_id": "fda_9bf532d1-dc37-596e-9d99-eaa28e507779",
+      "line": 92,
+      "quote": "This NDA was presented at the Endocrinologic and Metabolism Drugs Advisory Committee (EMDAC) on November 7, 2012."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_9bf532d1dc37",
+      "found_lines": [
+        92
+      ]
+    }
+  },
+  "meeting_date": {
+    "text": "November 7, 2012",
+    "quote": {
+      "doc_type": "RiskR",
+      "doc_id": "fda_37c33db0-e698-5a5b-86b3-cd0bda17865e",
+      "line": 11,
+      "quote": "On November 7, 2012, FDA's Endocrinologic and Metabolic Drugs Advisory Committee voted unanimously (10:0) in favor of approval of pasireotide for the treatment of Cushing's Disease."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_37c33db0e698",
+      "found_lines": [
+        11
+      ]
+    }
+  },
+  "recommendation": {
+    "text": "The committee voted 10 to 0 (unanimous) in favor of approval/marketing of pasireotide for Cushing's disease.",
+    "quote": {
+      "doc_type": "ODMemo",
+      "doc_id": "fda_7381ea90-87eb-5a5b-816e-dc70c4b5f885",
+      "line": 53,
+      "quote": "For the overall question regarding marketing, the committee voted 10 yes, 0 no."
+    },
+    "quote_verify": {
+      "status": "PASS",
+      "doc_id_used": "fda_7381ea9087eb",
+      "found_lines": [
+        53
+      ]
+    }
+  },
+  "linkages": [
+    {
+      "concern": "Pasireotide causes substantial hyperglycemia/diabetes; panel members stressed the need for a study to identify an antihyperglycemic treatment (likely insulin) able to lower or normalize serum glucose in pasireotide-treated patients.",
+      "change": "FDA required a postmarketing clinical trial (52-week) to evaluate appropriate treatment regimens for managing diabetes in pasireotide-treated patients.",
+      "category": "Safety / Postmarketing requirement (PMR)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_3e166dc6-d1a5-5b2d-829a-43a8be5d3bbc",
+        "line": 132,
+        "quote": "Many panel members stressed the need to conduct a study that identifies an antihyperglycemic treatment that is able to lower or normalize serum glucose, and indicated that insulin is the likely treatment for pasireotide-induced hyperglycemia and needs to be evaluated.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_3e166dc6d1a5",
+          "found_lines": [
+            132
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_9bf532d1-dc37-596e-9d99-eaa28e507779",
+        "line": 122,
+        "quote": "I am requiring several postmarketing studies including a clinical trial to evaluate appropriate treatment regimens for managing diabetes in pasireotide-treated patients.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_9bf532d1dc37",
+          "found_lines": [
+            122
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Panel members felt a postmarketing study, general pharmacovigilance, or a registry was necessary to further characterize adverse events observed in the program, including hyperglycemia and complications such as osteoporosis and cardiovascular events.",
+      "change": "FDA required the applicant to establish a patient registry and perform enhanced pharmacovigilance.",
+      "category": "Safety / Postmarketing requirement (PMR)",
+      "basis": "stated_in_review",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_3e166dc6-d1a5-5b2d-829a-43a8be5d3bbc",
+        "line": 132,
+        "quote": "A postmarketing study, general pharmacovigilence, or a registry (opinions were very diverse) were felt to be necessary in order to further characterize some of the adverse events observed in the program, including hyperglycemia, and other complications such as osteoporosis and cardiovascular events.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_3e166dc6d1a5",
+          "found_lines": [
+            132
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "SumR",
+        "doc_id": "fda_9bf532d1-dc37-596e-9d99-eaa28e507779",
+        "line": 123,
+        "quote": "The applicant will also be required to establish a patient registry and perform enhanced pharmacovigilance.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_9bf532d1dc37",
+          "found_lines": [
+            123
+          ]
+        }
+      }
+    },
+    {
+      "concern": "Hyperglycemia received extensive attention; the committee stressed the need for monitoring of blood glucose during pasireotide treatment.",
+      "change": "The approved label directs intensive glucose monitoring, which may require initiation or adjustment of anti-diabetic treatment (Warnings and Precautions 5.2).",
+      "category": "Safety / Labeling (monitoring)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_3e166dc6-d1a5-5b2d-829a-43a8be5d3bbc",
+        "line": 130,
+        "quote": "The need for monitoring for hyperglycemia was stressed.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_3e166dc6d1a5",
+          "found_lines": [
+            130
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "fda_bd121bbc-0719-59d3-8d0b-9ff7d0dec7c5",
+        "line": 7,
+        "quote": "Intensive glucose monitoring is recommended and may require initiation or adjustment of anti-diabetic treatment",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_bd121bbc0719",
+          "found_lines": [
+            7
+          ]
+        }
+      }
+    },
+    {
+      "concern": "The potential for hepatotoxicity was raised as a concern, and panel members recommended routine liver monitoring in patients receiving pasireotide.",
+      "change": "The approved label directs evaluation of liver tests prior to and during treatment (Warnings and Precautions 5.4).",
+      "category": "Safety / Labeling (monitoring)",
+      "basis": "inferred",
+      "concern_quote": {
+        "doc_type": "CrossR",
+        "doc_id": "fda_3e166dc6-d1a5-5b2d-829a-43a8be5d3bbc",
+        "line": 130,
+        "quote": "Panel members recommended routine liver monitoring in patients receiving pasireotide.",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_3e166dc6d1a5",
+          "found_lines": [
+            130
+          ]
+        }
+      },
+      "change_quote": {
+        "doc_type": "Lbl",
+        "doc_id": "fda_bd121bbc-0719-59d3-8d0b-9ff7d0dec7c5",
+        "line": 7,
+        "quote": "Evaluate liver tests prior to and during treatment",
+        "quote_verify": {
+          "status": "PASS",
+          "doc_id_used": "fda_bd121bbc0719",
+          "found_lines": [
+            7
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "An Endocrinologic and Metabolic Drugs Advisory Committee (EMDAC) meeting was held November 7, 2012, and voted 10-0 in favor of approving pasireotide (SIGNIFOR) for Cushing's disease, citing the severity of the disease and the paucity of approved therapies. The panel's main concerns were pasireotide-induced hyperglycemia/diabetes and potential hepatotoxicity; it stressed close monitoring of glucose and liver tests and the need for further postmarketing study of how best to manage the hyperglycemia. In approving the drug, FDA required a postmarketing clinical trial to evaluate diabetes-management regimens and a patient registry with enhanced pharmacovigilance, and the label directs intensive glucose monitoring and liver-test evaluation during treatment."
+}
