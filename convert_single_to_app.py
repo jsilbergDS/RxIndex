@@ -80,6 +80,7 @@ for fp in sorted(glob.glob(str(SRC / "*.json"))):
             # NCT looked up on ClinicalTrials.gov by sponsor study id / acronym when the FDA
             # docs don't print one (backfill_nct_ctgov.py); shown as "via ClinicalTrials.gov"
             "nct_ctgov": tr.get("nct_ctgov"),
+            "nct_conflict": tr.get("nct_conflict"),   # FDA doc NCT contradicts the registry
         })
     bw = c.get("boxed_warning", {}) or {}
     rems = c.get("rems", {}) or {}

@@ -1613,14 +1613,22 @@ def render_card_html(idx, r):
         nct = t.get("nct")
         # Only a real NCT id becomes a link; "Not stated in reviewed documents"/"null"/etc.
         # are not registry ids (NCT#s are external and often absent from FDA docs) -> omit.
-        nct_num = nct.strip() if (isinstance(nct, str) and re.match(r'NCT\d{3,}', nct.strip())) else None
+        # accept "NCT 01960348" (FDA docs sometimes print a space) -> NCT01960348
+        _m = re.match(r'NCT\s*(\d{8})', nct.strip()) if isinstance(nct, str) else None
+        nct_num = f"NCT{_m.group(1)}" if _m else None
         nct_link = (
             f'<a href="https://clinicaltrials.gov/study/{H(nct_num)}" target="_blank">{H(nct_num)}</a>'
             if nct_num
             else ""
         )
-        cg = t.get("nct_ctgov") if not nct_num else None
-        if isinstance(cg, dict) and cg.get("nct"):
+        conflict = t.get("nct_conflict")
+        cg = t.get("nct_ctgov") if (not nct_num or conflict) else None
+        if conflict and isinstance(cg, dict) and cg.get("nct"):
+            # the FDA document's NCT contradicts ClinicalTrials.gov for this study id:
+            # link the registry NCT and say so (the FDA-cited text stays in the card data)
+            nct_link = (f'<a href="https://clinicaltrials.gov/study/{H(cg["nct"])}" target="_blank">{H(cg["nct"])}</a> '
+                        f'<span class="rel-form" title="{H(conflict)}">(registry; {H(conflict)})</span>')
+        elif isinstance(cg, dict) and cg.get("nct"):
             # not printed in the FDA docs: matched on ClinicalTrials.gov by sponsor study id / acronym
             nct_link = (f'<a href="https://clinicaltrials.gov/study/{H(cg["nct"])}" target="_blank" '
                         f'title="Matched on ClinicalTrials.gov by {H(cg.get("matched_on", ""))}; not stated in the FDA documents">'

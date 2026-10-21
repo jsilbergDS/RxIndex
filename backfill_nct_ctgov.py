@@ -18,7 +18,7 @@ The FDA-cited `nct` field is NEVER changed. Results go in trial["nct_ctgov"] =
 
 Usage:
   python3 backfill_nct_ctgov.py --validate   # run on trials that HAVE an FDA-cited NCT; report agreement; writes nothing
-  python3 backfill_nct_ctgov.py --apply [APP ...]   # fill trials missing an NCT (skips human-edited cards)
+  python3 backfill_nct_ctgov.py --apply [APP ...]   # fill missing NCTs + flag FDA-vs-registry conflicts (skips human-edited cards)
 """
 import json, re, sys, time, glob, urllib.request, urllib.parse
 from pathlib import Path
@@ -137,7 +137,12 @@ def trial_text(t):
     return v.get("text", "") if isinstance(v, dict) else str(v or "")
 
 def cited_nct(t):
-    return set(NCT.findall(json.dumps(t.get("nct"))))
+    """NCTs the FDA-cited field actually assigns to THIS trial: only when the text starts
+    with an NCT (e.g. "Not stated for Study 1108 (the Phase III trial is NCT02516241)"
+    names a different trial and must not count)."""
+    v = t.get("nct"); txt = (v.get("text") or "") if isinstance(v, dict) else str(v or "")
+    txt = re.sub(r"NCT\s+(\d{8})", r"NCT\1", txt.strip())
+    return set(NCT.findall(txt)) if re.match(r"NCT\d{8}", txt) else set()
 
 def main():
     validate = "--validate" in sys.argv
@@ -154,8 +159,8 @@ def main():
             has = cited_nct(t)
             if validate and has:
                 jobs.append((a, i, trial_text(t), terms, ing, has))
-            if not validate and not has:
-                jobs.append((a, i, trial_text(t), terms, ing, None))
+            if not validate:
+                jobs.append((a, i, trial_text(t), terms, ing, has or None))
     print(f"{'VALIDATE' if validate else 'APPLY'}: {len(jobs)} trials", flush=True)
     with ThreadPoolExecutor(4) as ex:
         res = list(tqdm(ex.map(lambda j: lookup(j[2], j[3], j[4]), jobs), total=len(jobs), desc="ctgov"))
@@ -169,16 +174,38 @@ def main():
             if r["nct"] not in j[5]:
                 print(f"  DISAGREE {j[0]} [{j[2][:60]}] fda={sorted(j[5])} ctgov={r['nct']} ({r['matched_on']}) {r['title'][:60]}", flush=True)
         return
-    by_app = {}
+    # missing cited NCT -> fill; cited NCT that ClinicalTrials.gov contradicts for the SAME
+    # study id -> keep the FDA text, add the registry NCT + a visible conflict note.
+    by_app, filled, conflicts = {}, 0, []
     for j, r in zip(jobs, res):
-        if r: by_app.setdefault(j[0], []).append((j[1], r))
+        if j[5] is not None and (not r or r["nct"] in j[5]):
+            by_app.setdefault(j[0], []).append((j[1], None, None))   # cited NCT confirmed / unchecked: clear stale flags
+            continue
+        if not r:
+            continue
+        if j[5] is None:
+            by_app.setdefault(j[0], []).append((j[1], r, None)); filled += 1
+        elif r["nct"] not in j[5] and r["matched_on"].startswith("study id"):
+            note = (f"FDA document lists {', '.join(sorted(j[5]))} for this trial; ClinicalTrials.gov registers "
+                    f"{r['matched_on'][len('study id '):]} as {r['nct']}.")
+            by_app.setdefault(j[0], []).append((j[1], r, note)); conflicts.append((j[0], note))
     for a, items in by_app.items():
         p = SRC / f"{a}.json"; d = json.load(open(p))
-        for i, r in items:
-            d["card"]["pivotal_trials"][i]["nct_ctgov"] = r
-        p.write_text(json.dumps(d, indent=2))
-    n = sum(len(v) for v in by_app.values())
-    print(f"filled {n}/{len(jobs)} missing NCTs across {len(by_app)} cards", flush=True)
+        for i, r, note in items:
+            tr = d["card"]["pivotal_trials"][i]
+            if r is None:
+                tr.pop("nct_conflict", None); tr.pop("nct_ctgov", None)
+                continue
+            tr["nct_ctgov"] = r
+            if note: tr["nct_conflict"] = note
+            else: tr.pop("nct_conflict", None)
+        new = json.dumps(d, indent=2)
+        if new != p.read_text():
+            p.write_text(new)
+    n_missing = sum(1 for j in jobs if j[5] is None)
+    print(f"filled {filled}/{n_missing} missing NCTs; flagged {len(conflicts)} FDA-vs-registry conflicts", flush=True)
+    for a, note in conflicts:
+        print(f"  CONFLICT {a}: {note}", flush=True)
 
 if __name__ == "__main__":
     main()
