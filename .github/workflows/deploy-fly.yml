@@ -32,7 +32,28 @@ jobs:
 
       - uses: superfly/flyctl-actions/setup-flyctl@master
 
-      - name: Deploy
-        run: flyctl deploy --remote-only
+      # Fail early with a readable annotation if the secret isn't reaching the job.
+      # (Annotations are public; only "set/empty" and the token type are reported.)
+      - name: Check Fly token
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+        run: |
+          if [ -z "$FLY_API_TOKEN" ]; then
+            echo "::error title=FLY_API_TOKEN missing::Repository secret FLY_API_TOKEN is empty or not available to this workflow (Settings > Secrets and variables > Actions > Repository secrets)"
+            exit 1
+          fi
+          case "$FLY_API_TOKEN" in
+            "FlyV1 "*) echo "::notice title=Fly token::FLY_API_TOKEN is set (FlyV1 token)" ;;
+            *)         echo "::warning title=Fly token::FLY_API_TOKEN is set but does not start with 'FlyV1 ' - may be truncated or the wrong token type" ;;
+          esac
+
+      - name: Deploy
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+        run: |
+          set -o pipefail
+          if ! flyctl deploy --remote-only 2>&1 | tee deploy.log; then
+            msg=$(tail -n 15 deploy.log | tr '\n' ' ' | cut -c1-1500)
+            echo "::error title=flyctl deploy failed::${msg}"
+            exit 1
+          fi
