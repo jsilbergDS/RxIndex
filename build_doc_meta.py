@@ -10,19 +10,29 @@ import json, re, subprocess
 from pathlib import Path
 
 HERE = Path(__file__).parent
-ids = sorted(p.stem for p in (HERE / "data" / "docs").glob("*.txt"))
-print(f"bundled docs: {len(ids)}", flush=True)
+_UUID = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$")
+all_ids = sorted(p.stem for p in (HERE / "data" / "docs").glob("*.txt"))
+# Only full UUIDs: a single short-id filename (e.g. "01cd620e") makes the whole IN(...)
+# batch fail with "invalid input syntax for type uuid" -- that silently unlabeled ~2/3
+# of docs before (Oct 2026).
+ids = [d for d in all_ids if _UUID.match(d)]
+print(f"bundled docs: {len(all_ids)} ({len(all_ids) - len(ids)} non-UUID filenames skipped)", flush=True)
 
 meta = {}
 CHUNK = 120
+failed_batches = 0
 for i in range(0, len(ids), CHUNK):
     chunk = ids[i:i + CHUNK]
     inlist = ",".join("'" + d + "'" for d in chunk)
     q = ("SELECT document_id, tradename, substring(public_url from '[^/]+\\.pdf') fn, "
          "substring(public_url from '/([0-9]{4})/') yr "
          f"FROM all_documents WHERE document_id IN ({inlist})")
-    out = subprocess.run(["paperclip", "sql", "--source", "fda", q],
-                         capture_output=True, text=True, timeout=120).stdout
+    r = subprocess.run(["paperclip", "sql", "--source", "fda", q],
+                       capture_output=True, text=True, timeout=120)
+    out = r.stdout
+    if r.returncode != 0 or "SQL error" in out:
+        failed_batches += 1
+        print(f"  BATCH FAILED at {i}: {(out + r.stderr).strip()[:200]}", flush=True)
     for ln in out.splitlines():
         p = [x.strip() for x in ln.split("|")]
         if len(p) == 4 and re.match(r"^[0-9a-f-]{36}$", p[0]) and p[2].lower().endswith(".pdf"):
@@ -32,4 +42,4 @@ for i in range(0, len(ids), CHUNK):
 
 (HERE / "data" / "doc_meta.json").write_text(json.dumps(meta, indent=0))
 print(f"wrote data/doc_meta.json: {len(meta)}/{len(ids)} docs "
-      f"({len(ids)-len(meta)} not found in paperclip)", flush=True)
+      f"({len(ids)-len(meta)} not found in paperclip, {failed_batches} failed batches)", flush=True)

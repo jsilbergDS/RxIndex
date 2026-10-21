@@ -130,7 +130,8 @@ def _doc_panel_label(doc_id):
     info = PAGES_META.get(doc_id, {}) or PAGES_META.get("fda_" + doc_id, {})
     url = info.get("public_url") or info.get("filename")
     if url:
-        return _doc_display(url)
+        m = re.search(r"([^/\s|]+\.pdf)", url)
+        return _doc_display(url) + (f" — {m.group(1)}" if m else "")
     dm = DOC_META.get(doc_id)
     if not dm:
         return _doc_label(doc_id)
@@ -138,7 +139,8 @@ def _doc_panel_label(doc_id):
     typ = _friendly(_infer_doc_type(fname, fname) if fname else None)
     drug, yr = dm.get("drug"), dm.get("year")
     lab = f"{drug} {typ}" if drug else typ
-    return f"{lab} · {yr}" if yr else lab
+    lab = f"{lab} · {yr}" if yr else lab
+    return f"{lab} — {fname}" if fname else lab   # name the actual FDA file
 
 # Optional: claim audit (built by build_claim_audit.py). If present, used to wrap
 # verified claims in clickable .qlink chips pointing at the source PDF page.
@@ -1347,6 +1349,10 @@ def _precompute_doc_labels():
             pass
     print(f"[startup] precomputed {len(_DOC_LABEL_CACHE)} doc labels", flush=True)
 
+# Load at IMPORT time: gunicorn (Fly) imports app:app and never runs the __main__ block,
+# so labels loaded only there left every source chip as a short id on the live site.
+_precompute_doc_labels()
+
 
 def _chg_sortkey(d):
     d = str(d or "")
@@ -1489,20 +1495,19 @@ def _render_changes_section(app_key):
     rows.sort(key=lambda x: x[0])
     out = "".join(h for _, h in rows)
     if blanks:
+        # Minor labeling supplements (nothing in the label's Recent Major Changes) — one
+        # plain-language line with the count + year span, not a list of S-numbers.
         appno = re.sub(r"\D", "", app_key)
         daf = ("https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm"
                f"?event=overview.process&ApplNo={appno}")
-        chips = []
-        for e in blanks:
-            for d in e.get("suppl_docs", []):
-                has_pdf = d.get("in_corpus") or d.get("resolves")
-                href = d["url"] if has_pdf else daf
-                note = "" if has_pdf else '<span class="nopdf"> (no PDF posted)</span>'
-                chips.append(f'<a href="{H(href)}" target="_blank">S-{H(str(d["num"]))} '
-                             f'({H(e["date"])})</a>{note}')
-        out += (f'<div class="supp minor"><div class="supp-desc">+ {len(chips)} other labeling '
-                f'supplement{"s" if len(chips) != 1 else ""}: {" · ".join(chips)} — '
-                f"minor labeling; no change flagged in the label's Recent Major Changes.</div></div>")
+        n = sum(max(1, len(e.get("suppl_docs") or [])) for e in blanks)
+        yrs = sorted({k[0] for k in (_chg_sortkey(e.get("date")) for e in blanks) if k[0]})
+        span = (f" ({yrs[0]})" if len(yrs) == 1 else f" ({yrs[0]}–{yrs[-1]})") if yrs else ""
+        what = f'{n} minor labeling update{"s" if n != 1 else ""}{span}'
+        lead = ("No major label changes since approval — " if not rows else "Also ")
+        out += (f'<div class="supp minor"><div class="supp-desc">{lead}{what}; '
+                f"none flagged in the label's Recent Major Changes. "
+                f'<a href="{H(daf)}" target="_blank" rel="noopener">Drugs@FDA history</a></div></div>')
     return out or None
 
 
@@ -2189,6 +2194,5 @@ def index():
 </body></html>"""
 
 if __name__ == "__main__":
-    print(f"[startup] {len(CARDS)} cards loaded")
-    _precompute_doc_labels()   # populate _DOC_LABEL_CACHE so SOURCES / REVIEW DOCS show doc types, not hashes
+    print(f"[startup] {len(CARDS)} cards loaded")   # doc labels already loaded at import
     app.run(host="0.0.0.0", port=PORT, threaded=True)

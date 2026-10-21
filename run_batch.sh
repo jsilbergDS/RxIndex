@@ -35,4 +35,8 @@ $PY -u bundle_adcomm_docs.py
 $PY -u build_label_changes.py $APPS_ALL
 $PY -u build_changes.py $APPS_ALL
 $PY -u bundle_label_docs.py
+# Name every cited source (doc_id -> "Statistical Review · 2014 — <file>.pdf"); without
+# these, new cards' sources show short ids.
+$PY -u build_doc_meta.py
+$PY -u build_doc_labels.py
 echo ALL_DONE
