@@ -39,4 +39,5 @@ $PY -u bundle_label_docs.py
 # these, new cards' sources show short ids.
 $PY -u build_doc_meta.py
 $PY -u build_doc_labels.py
+$PY -u build_merged_apps.py   # same-brand applications: merge formulation sets, cross-link the rest
 echo ALL_DONE

@@ -280,6 +280,19 @@ if CARDS_NEW_DIR.exists():
             pass
     print(f"[startup] loaded {len(CARDS) - _n0} NEW pilot cards from data/cards_new/", flush=True)
 
+# Same-brand applications (built by build_merged_apps.py): formulation sets with one
+# indication show as ONE card listing every application; brands whose applications
+# differ in indication keep separate cards with "See also" links.
+_MERGED_PATH = DATA_DIR / "merged_apps.json"
+MERGED = json.load(open(_MERGED_PATH)) if _MERGED_PATH.exists() else {}
+def _card_app_key(c):
+    m = c.get("_meta", {}) or {}
+    return f"{m.get('type') or ''}{(m.get('appno') or '').zfill(6)}"
+if MERGED.get("merge"):
+    _n1 = len(CARDS)
+    CARDS = [c for c in CARDS if _card_app_key(c) not in MERGED["merge"]]
+    print(f"[startup] merged same-indication applications: hid {_n1 - len(CARDS)} secondary cards", flush=True)
+
 # --- Resolve each card's app -> paperclip docs by direct SQL query ---
 # Query paperclip for every doc whose URL/source_file contains the app digits.
 # Skip label and appletter (not review docs); keep everything else.
@@ -1436,6 +1449,45 @@ def _report_error_link(app_key, drug):
             f'href="https://github.com/{GITHUB_REPO}/issues/new?{H(q)}">⚑ Report an error</a></span>')
 
 
+def _app_label(a):
+    return f"{a[:3]} {a[3:]}"
+
+def _form_pretty(form):
+    """'TABLET;ORAL; SOLUTION;INTRAVENOUS' -> 'tablet, oral; solution, intravenous'"""
+    parts = [p.strip() for p in re.split(r";\s*(?=[A-Z ,]+;|$)", form or "") if p.strip()]
+    return "; ".join(p.replace(";", ", ").lower() for p in parts) or (form or "").lower()
+
+def _appnos_text(app_key, typ, appno):
+    """'NDA 205836 / 205837 / 205838' for a merged formulation set, else 'NDA 205836'."""
+    g = (MERGED.get("groups") or {}).get(app_key)
+    if not g:
+        return f"{typ} {appno}"
+    return f"{g[0][:3]} " + " / ".join(a[3:] for a in g)
+
+def _related_apps_html(app_key):
+    """Merged card: list each application + dosage form. Separate-indication brands:
+    'See also' links to the sibling cards (switches the shown card)."""
+    apps = MERGED.get("apps") or {}
+    out = ""
+    g = (MERGED.get("groups") or {}).get(app_key)
+    if g:
+        rows = " · ".join(f'{H(_app_label(a))} <span class="rel-form">({H(_form_pretty(apps.get(a, {}).get("form", "")))})</span>'
+                          for a in g)
+        out += f'<div class="related">One drug, {len(g)} applications: {rows}</div>'
+    sa = (MERGED.get("see_also") or {}).get(app_key)
+    if sa:
+        links = []
+        for a in sa:
+            info = apps.get(a, {})
+            ind = info.get("indication", "")
+            ind = (ind[:110] + "…") if len(ind) > 110 else ind
+            links.append(f'<a href="#" onclick="selectDrug(\'{H(a)}\');return false;">{H(_app_label(a))}</a> '
+                         f'<span class="rel-form">({H(info.get("approval_date", "")[:4])}; '
+                         f'{H(_form_pretty(info.get("form", "")))})</span> — {H(ind)}')
+        out += f'<div class="related">See also (separate application, different indication): {" · ".join(links)}</div>'
+    return out
+
+
 def _src_link(src):
     if not src or not src.get("doc_id"):
         return ""
@@ -1688,7 +1740,8 @@ def render_card_html(idx, r):
         {_report_error_link(app_key, drug)}
       </div>
       <div class="title">{H(drug)} <span class="active-mol">({H(active)})</span></div>
-      <div class="sponsor">{H(sponsor)} · {H(typ)} {H(appno)}</div>
+      <div class="sponsor">{H(sponsor)} · {H(_appnos_text(app_key, typ, appno))}</div>
+      {_related_apps_html(app_key)}
 
       <div class="section-label">APPROVED INDICATION (verbatim)</div>
       <div class="indication">"{cited_or_annotate('_meta.indication', indication)}"</div>
@@ -1832,6 +1885,8 @@ header .sub { font-size: 11px; color: #9ca3af; margin-top: 2px; }
 .report-err { margin-left: auto; font-size: 11.5px; color: #9ca3af; }
 .report-err a { color: #9ca3af; text-decoration: none; }
 .report-err a:hover { color: #dc2626; text-decoration: underline; }
+.related { font-size: 12px; color: #4b5563; margin: 2px 0 8px; line-height: 1.5; }
+.related .rel-form { color: #9ca3af; }
 .adcom-detail { margin-top: 6px; font-size: 14px; }
 .adcom-meet { color: #6b7280; font-size: 13px; }
 .adcom-rec { margin-top: 5px; }
