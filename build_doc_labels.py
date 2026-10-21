@@ -19,14 +19,18 @@ old = json.load(open(old_p)) if old_p.exists() else {}
 ids = set()
 def grab(o):
     if isinstance(o, dict):
-        for c in o.get("citations", []) or []:
-            if isinstance(c, dict) and c.get("doc_id"):
-                ids.add(c["doc_id"])
+        if isinstance(o.get("doc_id"), str) and o["doc_id"]:   # citations, src links, AdComm quotes
+            ids.add(o["doc_id"])
         for v in o.values(): grab(v)
     elif isinstance(o, list):
         for v in o: grab(v)
 for f in glob.glob(str(HERE / "data" / "cards_new" / "*.json")):
     grab(json.load(open(f)))
+# AdComm / changes / label-change sections cite docs too (AdComm often by short id)
+for sub in ("adcomm_out", "data/changes", "data/label_changes"):
+    for f in glob.glob(str(HERE / sub / "*.json")):
+        try: grab(json.load(open(f)))
+        except Exception: pass
 # clinical-field citations live in the recited jsonl, not cards_new/
 for p in ("cards_recited_new.jsonl", "cards_recited.jsonl"):
     fp = HERE / "data" / p
@@ -34,8 +38,15 @@ for p in ("cards_recited_new.jsonl", "cards_recited.jsonl"):
         for ln in open(fp):
             if ln.strip(): grab(json.loads(ln))
 
-labels, unnamed = {}, []
-for d in sorted(ids):
+# Docs with no paperclip record at all, named from their own text (evidence in comment).
+OVERRIDES = {
+    # data/docs/ca664a11-....txt: FDA label header "This label may not be the latest
+    # approved by FDA", "LUPKYNIS", "Initial U.S. Approval: 2021", "Revised: 01/2021"
+    "ca664a11-199c-53a2-986c-9f4a24a7b5dd": "Label · 2021",
+}
+
+labels, unnamed = dict(OVERRIDES), []
+for d in sorted(ids - set(OVERRIDES)):
     m = meta.get(d)
     if m and m.get("fname"):
         path = (f"/{m['year']}/" if m.get("year") else "/") + m["fname"]
