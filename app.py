@@ -1822,6 +1822,9 @@ body { font-family: -apple-system, system-ui, sans-serif; background: #f3f4f6; d
 header { background: #1f2937; color: white; padding: 10px 16px; flex: 0 0 auto; }
 header h1 { margin: 0; font-size: 16px; font-weight: 600; }
 header .sub { font-size: 11px; color: #9ca3af; margin-top: 2px; }
+header .nav { margin-left: 16px; font-weight: 400; }
+header .nav a { color: #9ca3af; text-decoration: none; font-size: 13px; margin-right: 12px; }
+header .nav a.on, header .nav a:hover { color: white; }
 .layout { display: flex; flex: 1 1 auto; min-height: 0; }
 /* Left: drug list */
 .sidebar { width: 240px; flex: 0 0 240px; background: white; border-right: 1px solid #e5e7eb; display: flex; flex-direction: column; min-height: 0; }
@@ -2193,6 +2196,145 @@ def render_drug_list_item(r):
         f'</div>'
     )
 
+# --- Methods page: how a card is built (pipeline diagram + coverage & limitations) ---
+# Numbers below are from Oct 2026 runs; sources: run logs (heal residuals),
+# rxindex_validation/VALIDATION_pivotal_trials_zenodo.md (pivotal-trial check).
+METHODS_PAGE = """<!doctype html><html><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methods — RxIndex Cards</title>
+<style>
+:root { --ink:#111827; --muted:#4b5563; --faint:#6b7280; --line:#e5e7eb;
+        --s1:#1e3a8a; --s2:#2f7d57; --s3:#7c3aed; --s4:#374151; }
+* { box-sizing: border-box; }
+body { margin:0; font-family:-apple-system, system-ui, "Segoe UI", sans-serif; background:#f3f4f6; color:var(--ink); }
+header { background:#1f2937; color:white; padding:10px 16px; display:flex; align-items:baseline; gap:18px; }
+header h1 { margin:0; font-size:16px; font-weight:600; }
+header nav a { color:#9ca3af; text-decoration:none; font-size:13px; margin-right:12px; }
+header nav a.on, header nav a:hover { color:white; }
+main { max-width:1280px; margin:0 auto; padding:28px 24px 48px; }
+h2 { font-size:22px; margin:0 0 6px; }
+.lede { color:var(--muted); font-size:15px; margin:0 0 24px; max-width:860px; line-height:1.55; }
+.flow { display:grid; grid-template-columns: 1fr auto 1.15fr auto 1.15fr auto 1fr; gap:14px; align-items:stretch; }
+.arrow { align-self:center; color:#9ca3af; font-size:26px; }
+.step { background:white; border:1px solid var(--line); border-top:4px solid var(--c); border-radius:14px;
+        padding:20px 22px; display:flex; flex-direction:column; }
+.kicker { color:var(--c); font-weight:700; font-size:13px; letter-spacing:.08em; text-transform:uppercase; margin-bottom:8px; }
+.step h3 { margin:0 0 10px; font-size:19px; }
+.step p { margin:0; color:var(--muted); font-size:14.5px; line-height:1.6; }
+.out { margin-top:auto; padding-top:18px; font-size:14px; color:var(--muted); line-height:1.45; }
+.out b { color:var(--ink); }
+.loop { border:2px dashed var(--s2); border-radius:12px; padding:12px; background:#f3faf6; }
+.loop .cap { text-align:center; color:var(--s2); font-weight:600; font-size:14px; margin:2px 0 10px; }
+.loop .foot { text-align:center; color:var(--s2); font-size:13px; margin-top:6px; }
+.box { background:white; border:1px solid var(--line); border-radius:10px; padding:10px 14px; margin-bottom:10px; }
+.box.accent { border-left:4px solid var(--s2); }
+.box b { display:block; font-size:15px; margin-bottom:3px; }
+.box span { color:var(--muted); font-size:13.5px; line-height:1.5; }
+.enr { border-left:4px solid var(--s3); }
+.tag { display:inline-block; font-size:10.5px; font-weight:600; color:var(--s3); border:1px solid #ddd6fe;
+       background:#f5f3ff; border-radius:999px; padding:0 7px; margin-left:6px; vertical-align:2px; }
+.notes { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:28px; }
+.note { background:white; border:1px solid var(--line); border-radius:14px; padding:18px 22px; }
+.note h4 { margin:0 0 10px; font-size:16px; }
+.note ul { margin:0; padding-left:18px; color:var(--muted); font-size:14px; line-height:1.6; }
+.note li { margin-bottom:6px; }
+a { color:#2563eb; }
+@media (max-width: 1000px) {
+  .flow { grid-template-columns: 1fr; }
+  .arrow { transform: rotate(90deg); justify-self:center; }
+  .notes { grid-template-columns: 1fr; }
+}
+</style></head><body>
+<header><h1>RxIndex Cards</h1>
+  <nav><a href="/">Cards</a><a href="/methods" class="on">Methods</a></nav></header>
+<main>
+<h2>How a card is built</h2>
+<p class="lede">Each card summarizes one FDA approval from the agency's own documents. Every field carries the exact
+quote, document and line it came from, so any claim can be checked against the source in one click.</p>
+
+<div class="flow">
+  <section class="step" style="--c:var(--s1)">
+    <div class="kicker">1 · Extract</div>
+    <h3>Read the FDA review</h3>
+    <p>A language model works through the drug's FDA approval documents (integrated, multidiscipline or medical
+    review, statistical review, label, approval letter), searching and reading the actual pages, and drafts a
+    structured card: indication, mechanism, pivotal trials, safety. For every field it quotes the exact source line.</p>
+    <div class="out">→ <b>draft card</b><br>a verbatim quote + document + line on every field</div>
+  </section>
+  <div class="arrow">→</div>
+
+  <section class="step" style="--c:var(--s2)">
+    <div class="kicker">2 · Verify &amp; correct</div>
+    <div class="loop">
+      <div class="cap">↻ repeat until clean</div>
+      <div class="box"><b>Quality review</b><span>A second model pass reviews the card and flags problems.</span></div>
+      <div class="box accent"><b>Source check</b><span>Every quote is matched against the text of the cited
+        document, and numbers in each field against their quotes. This is done programmatically, not on the model's say-so.</span></div>
+      <div class="box"><b>Correct</b><span>Re-grounds each flagged field in the documents, or removes it.</span></div>
+      <div class="foot">stops when nothing is left to fix, or after 3 rounds</div>
+    </div>
+    <div class="out">→ <b>checked card</b>: every quote found in its cited source; anything unresolved is flagged for review</div>
+  </section>
+  <div class="arrow">→</div>
+
+  <section class="step" style="--c:var(--s3)">
+    <div class="kicker">3 · Enrich</div>
+    <p style="margin-bottom:12px">The checked card is extended with the regulatory history, each section cited the same way:</p>
+    <div class="box enr"><b>Efficacy supplements</b><span>later indication expansions and new populations</span></div>
+    <div class="box enr"><b>Advisory committee</b><span>whether one was held, and the vote</span></div>
+    <div class="box enr"><b>Post-marketing requirements</b><span>studies FDA required as a condition of approval</span></div>
+    <div class="box enr"><b>Changes since approval<span class="tag">no AI</span></b><span>dated safety and efficacy label
+      changes, read from each label version's Recent Major Changes</span></div>
+    <div class="box enr"><b>Trial registry IDs<span class="tag">no AI</span></b><span>NCT numbers matched on ClinicalTrials.gov
+      by the sponsor's study ID when the FDA documents don't print them</span></div>
+    <div class="box enr" style="margin-bottom:0"><b>Therapeutic area</b><span>disease-area classification</span></div>
+  </section>
+  <div class="arrow">→</div>
+
+  <section class="step" style="--c:var(--s4)">
+    <div class="kicker">4 · Present</div>
+    <h3>Deliver, traceable</h3>
+    <p>An interactive viewer. Every field links to the underlying FDA document, named by type, year and file, and
+    opened at the cited line.</p>
+    <p style="margin-top:12px">Spot an error? <b>Suggest an edit</b> on any card opens a public pull request. New quotes
+    are checked automatically against the source before a reviewer merges it.</p>
+    <div class="out">→ <b>a card a reviewer can audit in one click</b></div>
+  </section>
+</div>
+
+<div class="notes">
+  <section class="note">
+    <h4>Coverage</h4>
+    <ul>
+      <li>Novel drugs and new biologics on CDER's NME / new-biologic list, approved 2006–2025:
+          cards for {{N_COVERED}} of {{N_LIST}}. Not covered: drugs with no FDA review documents available, or no Drugs@FDA record.</li>
+      <li>{{N_CARDS}} cards shown. Applications for different forms of the same drug with the same indication are
+          combined into one card; applications with different indications stay separate and link to each other.</li>
+    </ul>
+  </section>
+  <section class="note">
+    <h4>Limitations</h4>
+    <ul>
+      <li>The source check proves each quote <i>exists</i> in the cited document, not that it <i>supports</i> the
+          claim. That judgment comes from the model's quality review and from human reviewers.</li>
+      <li>In the latest builds, 16–19% of cards finished correction with at least one unresolved flag.</li>
+      <li>Pivotal-trial check against an independent hand-curated set (195 oncology and neurology approvals,
+          2015–2024): the same pivotal trials, by NCT, for 85% of drugs, and 90% of that set's trials found. This tests trial identity only,
+          not extracted results.</li>
+      <li>Cards describe the original approval. Later changes appear only as summarized under “Changes since approval”.</li>
+    </ul>
+  </section>
+</div>
+</main></body></html>"""
+
+
+@app.route("/methods")
+def methods():
+    shown = len(CARDS)
+    return (METHODS_PAGE.replace("{{N_CARDS}}", str(shown))
+            .replace("{{N_COVERED}}", "778").replace("{{N_LIST}}", "782"))
+
+
 @app.route("/")
 def index():
     # Sort cards by drug name for the menu
@@ -2213,7 +2355,7 @@ def index():
 {STYLE}
 </head><body>
 <header>
-  <h1>RxIndex Cards</h1>
+  <h1>RxIndex Cards <span class="nav"><a href="/" class="on">Cards</a><a href="/methods">Methods</a></span></h1>
   <div class="sub">{len(CARDS)} FDA drug approvals</div>
 </header>
 <div class="layout">
