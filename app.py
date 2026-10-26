@@ -2292,12 +2292,11 @@ quote, document and line it came from, so any claim can be checked against the s
   <div class="arrow">→</div>
 
   <section class="step" style="--c:var(--s4)">
-    <div class="kicker">4 · Present</div>
-    <h3>Deliver, traceable</h3>
-    <p>An interactive viewer. Every field links to the underlying FDA document, named by type, year and file, and
-    opened at the cited line.</p>
-    <p style="margin-top:12px">Spot an error? <b>Suggest an edit</b> on any card opens a public pull request. New quotes
-    are checked automatically against the source before a reviewer merges it.</p>
+    <div class="kicker">4 · Publish</div>
+    <p><b>Every quote is traceable:</b> each one links to the FDA document it came from, named by type, year and file,
+    and opened at the cited line.</p>
+    <p style="margin-top:12px"><b>Errors can be corrected:</b> “Suggest an edit” on any card opens a public pull request.
+    New quotes are checked automatically against the source before a reviewer merges it.</p>
     <div class="out">→ <b>a card a reviewer can audit in one click</b></div>
   </section>
 </div>
