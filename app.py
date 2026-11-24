@@ -2317,9 +2317,10 @@ quote, document and line it came from, so any claim can be checked against the s
       <li>The source check proves each quote <i>exists</i> in the cited document, not that it <i>supports</i> the
           claim. That judgment comes from the model's quality review and from human reviewers.</li>
       <li>In the latest builds, 16–19% of cards finished correction with at least one unresolved flag.</li>
-      <li>Pivotal-trial check against an independent hand-curated set (195 oncology and neurology approvals,
-          2015–2024): the same pivotal trials, by NCT, for 85% of drugs, and 90% of that set's trials found. This tests trial identity only,
-          not extracted results.</li>
+      <li>We checked whether our cards name the right pivotal trials. An outside research team had already looked
+          up, by hand, the pivotal trials for 195 cancer and neurology drugs approved 2015–2024. For 85% of those
+          drugs, our card lists exactly the same trials they did, and overall our cards found 90% of the trials on
+          their list.</li>
       <li>Cards describe the original approval. Later changes appear only as summarized under “Changes since approval”.</li>
     </ul>
   </section>
